@@ -1,0 +1,35 @@
+<software name="nzeroteam01" cloneof="zeroteam">
+	<description>New Zero Team (Special Forces, 2018-02-19)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="prg1_ps1" offset="0x0" size="0x80000" crc="cc45b0c6" sha1="3d4212512b5fa33f543e1a94f7c6b33fe9562fb3" />
+		<rom loadflag="load16_byte" name="prg2_ps1" offset="0x1" size="0x80000" crc="8537b97d" sha1="5cb89ab54e9830a525bf2b68309b342fd577d2ca" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom name="sound" offset="0x0" size="0x8000" crc="7ec1fbc3" sha1="48299d6530f641b18764cc49e283c347d0918a47" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x20000">
+		<rom loadflag="load16_byte" name="fix1" offset="0x0" size="0x10000" crc="0c4895b0" sha1="f595dbe5a19edb8a06ea60105ee26b95db4a2619" />
+		<rom loadflag="load16_byte" name="fix2" offset="0x1" size="0x10000" crc="07d8e387" sha1="52f54a6a4830592784cdf643a5f255aa3db53e50" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="back-1" offset="0x0" size="0x100000" crc="8b7f9219" sha1="3412b6f8a4fe245e521ddcf185a53f2f4520eb57" />
+		<rom name="back-2" offset="0x100000" size="0x80000" crc="ce61c952" sha1="52a843c8ba428b121fab933dd3b313b2894d80ac" />
+		</dataarea>
+		<dataarea name="gfx3" endianness="little" size="0x800000">
+		</dataarea>
+		<dataarea name="math" size="0x20000">
+		<rom name="copx-d3.bin" offset="0x0" size="0x20000" crc="fa2cf3ad" sha1="13eee40704d3333874b6e3da9ee7d969c6dc662a" />
+		</dataarea>
+		<dataarea name="oki" size="0x100000">
+		<rom name="6.pcm" offset="0x0" size="0x40000" crc="48be32b1" sha1="969d2191a3c46871ee8bf93088b3cecce3eccf0c" />
+		</dataarea>
+		<dataarea name="pld" size="0x200">
+		<rom name="sysv33b-1.u0222.bin" offset="0x0" size="0x117" crc="f514a11f" sha1="dd83ee1f511915d3d5f65375f34583be7fa1158b" />
+		<rom name="sysv33b-2.u0227.bin" offset="0x0" size="0x117" crc="d9f4612f" sha1="0c507b28dc0f50a67cc12d63092067dc3f7f4679" />
+		</dataarea>
+	</part>
+</software>

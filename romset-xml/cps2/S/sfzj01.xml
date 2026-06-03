@@ -1,0 +1,27 @@
+<software name="sfzj01" cloneof="sfa">
+	<description>Street Fighter Zero (950727J, Command Change, 2007-12-22)</description>
+	<year>2007</year>
+	<publisher>Pipi899</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c59j01.p1" offset="0x0" size="0x80000" crc="c5862434" sha1="08d486733857f6fb5822681141d009b175c957db" />
+		<rom loadflag="load16_word_swap" name="c59.p2" offset="0x80000" size="0x80000" crc="8b73b0e5" sha1="5318761f615c21395366b5333e75eaaa73ef2073" />
+		<rom loadflag="load16_word_swap" name="c59.p3" offset="0x100000" size="0x80000" crc="0810544d" sha1="5f39bda3e7b16508eb58e5a2e0cc58c09cf428ce" />
+		<rom loadflag="load16_word_swap" name="c59.p4" offset="0x180000" size="0x80000" crc="806e8f38" sha1="b6d6912aa8f2f590335d7ff9a8214648e7131ebb" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c59.m1" offset="0x0" size="0x8000" crc="ffffec7d" sha1="75b4aef001b72a0f571b51b2b97803facc1832dd" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c59.m2" offset="0x28000" size="0x20000" crc="45f46a08" sha1="e32dbd27b52ab708278045b5a829376e55a4ca81" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="sfzj.key" offset="0x0" size="0x14" crc="355d85b8" sha1="5da2c407852ce7b28153f3f94de8328802ff2f2d" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c59.q1" offset="0x0" size="0x200000" crc="c4b093cd" sha1="256526bb693a0b72443f047e060304c9b739acd1" />
+		<rom loadflag="load16_word_swap" name="c59.q2" offset="0x200000" size="0x200000" crc="8bdbc4b4" sha1="0e21c9a75a17a7e7dfd8bb51098c2b9dc4c933ec" />
+		</dataarea>
+	</part>
+</software>

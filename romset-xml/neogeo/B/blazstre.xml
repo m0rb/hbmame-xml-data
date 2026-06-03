@@ -1,0 +1,34 @@
+<software name="blazstre" cloneof="blazstar">
+	<description>Blazing Star (Earlier)</description>
+	<year>1998</year>
+	<publisher>Yumekobo</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x300000">
+		<rom loadflag="load16_word_swap" name="239.p1" offset="0x0" size="0x100000" crc="183682f8" sha1="dcee1c2cf4a991ca1f9f2b40c4a738f21682807b" />
+		<rom loadflag="load16_word_swap" name="239.p2" offset="0x100000" size="0x200000" crc="9a9f4154" sha1="f8805453d0995c8fa16cd9accfb7a990071ca630" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="239.v1" offset="0x0" size="0x400000" crc="1b8d5bf7" sha1="67fc1f7e36e92a89cd1d415eb31a2892f57b0d04" />
+		<rom name="239.v2" offset="0x400000" size="0x400000" crc="74cf0a70" sha1="b00451a2a30de2517ae3eca35eb1fe985b950eb8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="239e.c1" offset="0x400000" size="0x200000" crc="754744e0" sha1="8f498bc1722189c037568d0fe72d2012e87a4c85" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="239e.c2" offset="0x400001" size="0x200000" crc="af98c037" sha1="954a860c79544310685ee22b29fd2153bee8acce" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		<rom loadflag="load16_byte" name="239e.c3" offset="0xc00000" size="0x200000" crc="7b39b590" sha1="27c606539f626df039ba7376dc1feeee8dc82911" />
+		<rom loadflag="continue" offset="0x800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="239e.c4" offset="0xc00001" size="0x200000" crc="6e731b30" sha1="3499b8d9fbb881cdaf5d3022533ae1fd45a125e9" />
+		<rom loadflag="continue" offset="0x800001" size="0x200000" />
+		<rom loadflag="load16_byte" name="239e.c5" offset="0x1400000" size="0x200000" crc="9ceb113b" sha1="cb1318ff1e814fc797ba17f9fc0764d944eedf86" />
+		<rom loadflag="continue" offset="0x1000000" size="0x200000" />
+		<rom loadflag="load16_byte" name="239e.c6" offset="0x1400001" size="0x200000" crc="6a78e810" sha1="f55e95d467851d790b10612ebc2e0dee352f49b9" />
+		<rom loadflag="continue" offset="0x1000001" size="0x200000" />
+		<rom loadflag="load16_byte" name="239e.c7" offset="0x1c00000" size="0x200000" crc="50d28eca" sha1="3e0f513fe07d16484a8c3896c8cb1b14c7e1a7bb" />
+		<rom loadflag="continue" offset="0x1800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="239e.c8" offset="0x1c00001" size="0x200000" crc="cdbbb7d7" sha1="eadd2711bcb54e1ea6c449b459843ac3c0ac8415" />
+		<rom loadflag="continue" offset="0x1800001" size="0x200000" />
+		</dataarea>
+	</part>
+</software>

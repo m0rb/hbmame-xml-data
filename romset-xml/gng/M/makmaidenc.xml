@@ -1,0 +1,34 @@
+<software name="makmaidenc">
+	<description>Makaimura (Maiden, Rev C)</description>
+	<year>2026</year>
+	<publisher>Wolfric / Poody</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x18000">
+		<rom name="mj03cmaiden.bin" offset="0x8000" size="0x8000" crc="30bebacc" sha1="f19d0542378b118b0551813114aa418f5d21b27f" />
+		<rom name="mj04cmaiden.bin" offset="0x4000" size="0x4000" crc="fc024373" sha1="463e6de363c2e11e10a253d1de05336ffbe7f88d" />
+		<rom name="mj05cmaiden.bin" offset="0x10000" size="0x8000" crc="9059e598" sha1="6ac07e68f8e7b666cce115de460822dea86f8ebf" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="gg2.bin" offset="0x0" size="0x8000" crc="615f5b6f" sha1="7ef9ec5c2072e21c787a6bbf700033f50c759c1d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x20000">
+		<rom name="gg12maiden.bin" offset="0x18000" size="0x4000" crc="83f8a22c" sha1="463bb47a5a776bdfa694864748f88ba7a7ed9bcf" />
+		<rom name="gg13maiden.bin" offset="0x14000" size="0x4000" crc="ca6622c1" sha1="a74a3cb75d0126780fd719a73487c565c30e8f8b" />
+		<rom name="gg15maiden.bin" offset="0x8000" size="0x4000" crc="d6827437" sha1="0590855a25264225140361858ca5b4ef93f4f95e" />
+		<rom name="gg16maiden.bin" offset="0x4000" size="0x4000" crc="cbf803e7" sha1="9c5a6131324d3b8c41e1a1081574874e7bc71e32" />
+		<rom name="gng13maiden.n4" offset="0x0" size="0x4000" crc="9fb0faaf" sha1="903b926b0c22879721fdc8a551c1512dd0773802" />
+		<rom name="gng16maiden.l4" offset="0x10000" size="0x4000" crc="2eeb6ef5" sha1="6548c78b5516756e1936640c0b2c5148184f7972" />
+		</dataarea>
+		<dataarea name="chars" size="0x4000">
+		<rom name="gg1maiden.bin" offset="0x0" size="0x4000" crc="82e2fa18" sha1="5dc939ca0b202e4c6dd1cb527ace3166c4932bac" />
+		</dataarea>
+		<dataarea name="tiles" size="0x18000">
+		<rom name="gg6.bin" offset="0x14000" size="0x4000" crc="2d77e9b2" sha1="944da1ce29a18bf0fc8deff78bceacba0bf23a07" />
+		<rom name="gg7.bin" offset="0x10000" size="0x4000" crc="e525207d" sha1="1947f159189b3a53f1251d8653b6e7c65c91fc3c" />
+		<rom name="gg8.bin" offset="0xc000" size="0x4000" crc="f12ba271" sha1="1c42fa02cb27b35d10c3f7f036005e747f9f6b79" />
+		<rom name="gg9.bin" offset="0x8000" size="0x4000" crc="20035bda" sha1="bbb1fba0eb19471f66d29526fa8423ccb047bd63" />
+		<rom name="gg10.bin" offset="0x4000" size="0x4000" crc="7302529d" sha1="8434c994cc55d2586641f3b90b6b15fd65dfb67c" />
+		<rom name="gg11.bin" offset="0x0" size="0x4000" crc="ddd56fa9" sha1="f9d77eee5e2738b7e83ba02fcc55dd480391479f" />
+		</dataarea>
+	</part>
+</software>

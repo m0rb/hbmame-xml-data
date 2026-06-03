@@ -1,0 +1,17 @@
+<software name="neoponga" cloneof="neopong">
+	<description>Neo Pong (v1.0)</description>
+	<year>2002</year>
+	<publisher>Neodev</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_word_swap" name="469a.p1" offset="0x0" size="0x20000" crc="31b724d7" sha1="e374613609aeda64b547d8ce38d2078b6ed55ad5" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="202.v1" offset="0x0" size="0x80000" crc="debeb8fb" sha1="49a3d3578c087f1a0050168571ef8d1b08c5dc05" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="469a.c1" offset="0x0" size="0x100000" crc="d7587282" sha1="6fbc317dede78265dc4cfd2a6d79968320b8fd50" />
+		<rom loadflag="load16_byte" name="469a.c2" offset="0x1" size="0x100000" crc="fefc9d06" sha1="f191bcd3683a184b5a7d6046156e0b2bca231e95" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,18 @@
+<software name="chelnovn">
+	<description>Atomic Runner Chelnov (Neo-Geo port)</description>
+	<year>2024</year>
+	<publisher>iq132</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom name="510.p1" offset="0x0" size="0x2c000" crc="cfc064f2" sha1="61c221dfd3a75a89257a1227fa0c079637218156" />
+		<rom name="510.p2" offset="0x40000" size="0x11400" crc="624ceaaa" sha1="759d099a316f4a4c39ec5753ffbb4c4e639ca7f8" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x40000">
+		<rom name="510.v1" offset="0x0" size="0x35e00" crc="ae367d92" sha1="3af5d584820835aee3a1c6ab21f9c76670befdb0" />
+		</dataarea>
+		<dataarea name="sprites" size="0x80000">
+		<rom name="510.c1" offset="0x0" size="0x80000" crc="d8eed0b2" sha1="ff3c81737e7045c9a39f104bf7f48406bf8895d5" />
+		</dataarea>
+	</part>
+</software>

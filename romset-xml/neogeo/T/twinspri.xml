@@ -1,0 +1,23 @@
+<software name="twinspri">
+	<description>Twinkle Star Sprites</description>
+	<year>1996</year>
+	<publisher>ADK / SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="224-p1.p1" offset="0x100000" size="0x100000" crc="7697e445" sha1="5b55ca120f77a931d40719b14e0bfc8cac1d628c" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0xa00000">
+		<rom loadflag="load16_byte" name="224-c1.c1" offset="0x0" size="0x400000" crc="f7da64ab" sha1="587a10ed9235c9046a3523fe80feba07764fac9b" />
+		<rom loadflag="load16_byte" name="224-c2.c2" offset="0x1" size="0x400000" crc="4c09bbfb" sha1="e781aafba3bdefb7ed152826f4c3eb441735331c" />
+		<rom loadflag="load16_byte" name="224-c3.c3" offset="0x800000" size="0x100000" crc="c59e4129" sha1="93f02d1b4fbb152a9d336494fbff0d7642921de5" />
+		<rom loadflag="load16_byte" name="224-c4.c4" offset="0x800001" size="0x100000" crc="b5532e53" sha1="7d896c25ba97f6e5d43c13d4df4ba72964a976ed" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x600000">
+		<rom name="224-v1.v1" offset="0x0" size="0x400000" crc="ff57f088" sha1="1641989b8aac899dbd68aa2332bcdf9b90b33564" />
+		<rom name="224-v2.v2" offset="0x400000" size="0x200000" crc="7ad26599" sha1="822030037b7664795bf3d64e1452d0aecc22497e" />
+		</dataarea>
+	</part>
+</software>

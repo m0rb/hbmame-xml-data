@@ -1,0 +1,23 @@
+<software name="minasan">
+	<description>Minasan no Okagesamadesu! Dai Sugoroku Taikai (MOM-001 ~ MOH-001)</description>
+	<year>1990</year>
+	<publisher>Monolith Corp.</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="027-p1.p1" offset="0x0" size="0x80000" crc="c8381327" sha1="c8f8be0ba276c6d12ef13d05af3cf83a2b924894" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="027-c1.c1" offset="0x0" size="0x100000" crc="d0086f94" sha1="7d6579530ccb5188f653be69b1df17e47e40e7a6" />
+		<rom loadflag="load16_byte" name="027-c2.c2" offset="0x1" size="0x100000" crc="da61f5a6" sha1="82c5b4e5c5c5e30a3fd1c2e11c6157f39d033c42" />
+		<rom loadflag="load16_byte" name="027-c3.c3" offset="0x200000" size="0x100000" crc="08df1228" sha1="288b7ad328c2249f28d17df4dad3584995dca7bf" />
+		<rom loadflag="load16_byte" name="027-c4.c4" offset="0x200001" size="0x100000" crc="54e87696" sha1="90816dc86be3983dc57f56ededf7738475c0c61e" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x100000">
+		<rom name="027-v11.v11" offset="0x0" size="0x100000" crc="59ad4459" sha1="bbb8ba8a8e337dd2946eefda4757e80d0547d54a" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcmb" size="0x100000">
+		<rom name="027-v21.v21" offset="0x0" size="0x100000" crc="df5b4eeb" sha1="134f3bcc3bb82e2a5711496af1019f343f9c0f7e" />
+		</dataarea>
+	</part>
+</software>

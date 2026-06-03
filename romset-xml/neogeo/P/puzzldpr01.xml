@@ -1,0 +1,18 @@
+<software name="puzzldpr01" cloneof="puzzledp">
+	<description>Puzzle De Pon! R (Korean)</description>
+	<year>1997</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="235.p1" offset="0x0" size="0x80000" crc="afed5de2" sha1="a5d82c6dbe687505e8c8d7339908da45cd379a0b" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="202.v1" offset="0x0" size="0x80000" crc="debeb8fb" sha1="49a3d3578c087f1a0050168571ef8d1b08c5dc05" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="202s01.c1" offset="0x0" size="0x100000" crc="fd30bf00" sha1="d3362f9804ab463780003df885792b8a9925c11f" />
+		<rom loadflag="load16_byte" name="202s01.c2" offset="0x1" size="0x100000" crc="c61f60bf" sha1="7c950f865d11b134ff7da1c6a08114c9a3596fe9" />
+		</dataarea>
+	</part>
+</software>

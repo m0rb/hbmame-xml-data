@@ -1,0 +1,29 @@
+<software name="wofabl" cloneof="wof">
+	<description>Sangokushi II (bootleg)</description>
+	<year>1992</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c23abl.p1" offset="0x0" size="0x80000" crc="4d9d2327" sha1="b8029b117083a1c31546455fa53d9ee83a4ff7ad" />
+		<rom loadflag="load16_byte" name="c23abl.p2" offset="0x1" size="0x80000" crc="ef25fe49" sha1="d45d3c94cb57187b2f6ac248e9c3c9989be38f99" />
+		<rom loadflag="load16_byte" name="c23abl.p3" offset="0x100000" size="0x20000" crc="93eeb161" sha1="0b8efb7ace59791ffb8a3f7826f0ea74620d7a0f" />
+		<rom loadflag="load16_byte" name="c23abl.p4" offset="0x100001" size="0x20000" crc="a0751944" sha1="84f092992f0f94acffbbb43168fbcee2c45da789" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom name="c23abl.m1" offset="0x0" size="0x10000" crc="210c376f" sha1="0d937c86078d0a106f5636b7daf5fc0266c2c2ec" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom loadflag="load32_byte" name="c23abl.c01" offset="0x0" size="0x80000" crc="8e8db215" sha1="cc85e576bf09c3edab9afc1b5fa0a152f4140c06" />
+		<rom loadflag="load32_byte" name="c23abl.c02" offset="0x1" size="0x80000" crc="f34a7f9d" sha1="6d67623c93147a779f07ef103188f3e2cb6d6d6e" />
+		<rom loadflag="load32_byte" name="c23abl.c03" offset="0x2" size="0x80000" crc="a5e4f449" sha1="9956f82818ccc685367b5fe5e4bc8b59b65c31c1" />
+		<rom loadflag="load32_byte" name="c23abl.c04" offset="0x3" size="0x80000" crc="49a3dfc7" sha1="c14ea91745fd72be936b6db9981d12d958326757" />
+		<rom loadflag="load32_byte" name="c23abl.c09" offset="0x200000" size="0x80000" crc="f8f33a0e" sha1="33f172b79499d4a76b53c070c0007bd1604a71bd" />
+		<rom loadflag="load32_byte" name="c23abl.c10" offset="0x200001" size="0x80000" crc="6a060c6c" sha1="49e4da9373272e5889caa79a86c39ee34087c480" />
+		<rom loadflag="load32_byte" name="c23abl.c11" offset="0x200002" size="0x80000" crc="13324965" sha1="979754ebd15a2989f92b5b7fc5bae99eb83c3593" />
+		<rom loadflag="load32_byte" name="c23abl.c12" offset="0x200003" size="0x80000" crc="c29f7b70" sha1="95d22dcd9e2a48ddea7573d0be75225e0aae798f" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c23abl.v1" offset="0x0" size="0x40000" crc="672dcb46" sha1="e76c1ce81689a55b573fb6e5c9a860cb756cd876" />
+		</dataarea>
+	</part>
+</software>

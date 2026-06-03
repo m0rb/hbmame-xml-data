@@ -1,0 +1,32 @@
+<software name="ballonwc">
+	<description>Ballon World Cup</description>
+	<year>1985</year>
+	<publisher>Grand Master Peter</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="twc-1.bin" offset="0x0" size="0x4000" crc="34d6d5ff" sha1="72f4d408b8a7766d348f6a229d395e0c98215c40" />
+		<rom name="twc-2.bin" offset="0x4000" size="0x4000" crc="7017a221" sha1="4b4700af0a6ff64f976db369ba4b9d97cee1fd5f" />
+		<rom name="twc-3.bin" offset="0x8000" size="0x4000" crc="8b662902" sha1="13bcd4bf23e34dd7193545561e05bb2cb2c95f9b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="twc-6.bin" offset="0x0" size="0x4000" crc="e3112be2" sha1="7859e51b4312dc5df01c88e1d97cf608abc7ca72" />
+		</dataarea>
+		<dataarea name="adpcm" size="0x8000">
+		<rom name="twc-5.bin" offset="0x0" size="0x4000" crc="444b5544" sha1="0786d6d9ada7fe49c8ab9751b049095474d2e598" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="twc-12.bin" offset="0x0" size="0x4000" crc="a9e274f8" sha1="02b46e1b149a856f0be74a23faaeb792935b66c7" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x10000">
+		<rom name="blwc-8.bin" offset="0x0" size="0x8000" crc="a0f75389" sha1="60c5117430ac3471768efd0341ea533f49e8b1bd" />
+		<rom name="twc-7.bin" offset="0x8000" size="0x8000" crc="59faebe7" sha1="85dad90928369601e039467d575750539410fcf6" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x10000">
+		<rom name="twc-11.bin" offset="0x0" size="0x8000" crc="669389fc" sha1="a93e8455060ce5242cb65f78e47b4840aa13ab13" />
+		<rom name="twc-9.bin" offset="0x8000" size="0x8000" crc="347ef108" sha1="bb9c2f51d65f28655404e10c3be44d7ade98711b" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="twc-4.bin" offset="0x0" size="0x8000" crc="70a9f883" sha1="ace04359265271eb37512a89eb0217eb013aecb7" />
+		</dataarea>
+	</part>
+</software>

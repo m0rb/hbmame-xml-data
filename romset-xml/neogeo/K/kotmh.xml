@@ -1,0 +1,23 @@
+<software name="kotmh" cloneof="kotm">
+	<description>King of the Monsters (set 2)</description>
+	<year>1991</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="016-hp1.p1" offset="0x0" size="0x80000" crc="b774621e" sha1="7684b2e07163aec68cd083ef1d8900f855f6cb42" />
+		<rom loadflag="load16_word_swap" name="016-p2.p2" offset="0x80000" size="0x20000" crc="12afdc2b" sha1="3a95f5910cbb9f17e63ddece995c6e120fa2f622" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="016-c1.c1" offset="0x0" size="0x100000" crc="71471c25" sha1="bc8e3fee56b33ef2bac5b4b852339d2fbcd09b7c" />
+		<rom loadflag="load16_byte" name="016-c2.c2" offset="0x1" size="0x100000" crc="320db048" sha1="d6b43834de6f5442e23ca8fb26b3a36e96790d8d" />
+		<rom loadflag="load16_byte" name="016-c3.c3" offset="0x200000" size="0x100000" crc="98de7995" sha1="e33edf4d36c82196d2b474e37be180a05976f558" />
+		<rom loadflag="load16_byte" name="016-c4.c4" offset="0x200001" size="0x100000" crc="070506e2" sha1="3a2ec365e1d87a9c5ce1ee9bea88402a8eef4ed7" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="016-v1.v1" offset="0x0" size="0x100000" crc="86c0a502" sha1="7fe2db0c64aefdd14d6c36f7fcd6442591e9a014" />
+		<rom name="016-v2.v2" offset="0x100000" size="0x100000" crc="5bc23ec5" sha1="f4ff5d20587469daa026d5c812739335ce53cfdf" />
+		</dataarea>
+	</part>
+</software>

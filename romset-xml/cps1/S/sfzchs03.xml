@@ -1,0 +1,28 @@
+<software name="sfzchs03" cloneof="sfzch">
+	<description>Street Fighter Zero (CPS Changer, Asia 950925)</description>
+	<year>1995</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c59chs03.p1" offset="0x0" size="0x80000" crc="2562108b" sha1="b14ab732eb3d39f6fa590b6c75daf3965d7953e3" />
+		<rom loadflag="load16_word_swap" name="c59zb.p2" offset="0x80000" size="0x80000" crc="8d9b2480" sha1="405305c1572908d00eab735f28676fbbadb4fac6" />
+		<rom loadflag="load16_word_swap" name="c59ch.p3" offset="0x100000" size="0x80000" crc="5435225d" sha1="6b1156fd82d0710e244ede39faaae0847c598376" />
+		<rom loadflag="load16_word_swap" name="c59.p4" offset="0x180000" size="0x80000" crc="806e8f38" sha1="b6d6912aa8f2f590335d7ff9a8214648e7131ebb" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c59ch.m1" offset="0x0" size="0x8000" crc="c772628b" sha1="ebc5b7c173caf1e151f733f23c1b20abec24e16d" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sfach.key" offset="0x0" size="0x80" crc="8ac48367" sha1="aeeab2c3436009d05dd9caa1b1929af4d7e607ae" />
+		</dataarea>
+		<dataarea name="gfx" size="0x800000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c59ch.v1" offset="0x0" size="0x20000" crc="61022b2d" sha1="6369d0c1d08a30ee19b94e52ab1463a7784b9de5" />
+		<rom name="c59ch.v2" offset="0x20000" size="0x20000" crc="3b5886d5" sha1="7e1b7d40ef77b5df628dd663d45a9a13c742cf58" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>

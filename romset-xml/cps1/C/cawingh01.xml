@@ -1,0 +1,26 @@
+<software name="cawingh01" cloneof="cawing">
+	<description>Carrier Air Wing (bootleg h01)</description>
+	<year>1990</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom name="c12h01.p1" offset="0x0" size="0x80000" crc="27e6cf74" sha1="c3371a745dc7a257697ffa29f02750bbaec79999" />
+		<rom loadflag="load16_word_swap" name="c12.p5" offset="0x80000" size="0x80000" crc="0c4837d4" sha1="1c61958b43066b59d86eb4bae0b52c3109be4b07" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c12.m1" offset="0x0" size="0x8000" crc="96fe7485" sha1="10466889dfc6bc8afd3075385e241a16372efbeb" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="cawingh01.key" offset="0x0" size="0x80" crc="65cbbc14" sha1="39d4f6d7fdfa6e827b4219bee8993bcdc0b6a39b" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="jed" size="0x800">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c12.v1" offset="0x0" size="0x20000" crc="4a613a2c" sha1="06e10644fc60925b85d2ca0888c9fa057bfe996a" />
+		<rom name="c12.v2" offset="0x20000" size="0x20000" crc="74584493" sha1="5cfb15f1b9729323707972646313aee8ab3ac4eb" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,26 @@
+<software name="bgaregga02">
+	<description>Battle Garegga (Zakk version, set 2)</description>
+	<year>2017</year>
+	<publisher>Zack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s02.prg0z" offset="0x0" size="0x80000" crc="ec2f86d0" sha1="864aae0c474d5aa1154499d749fc2e0cffddd875" />
+		<rom loadflag="load16_byte" name="s02.prg1z" offset="0x1" size="0x80000" crc="371a0e42" sha1="0c2aaa1c97023dd16843eff2f47ea87698fe50a5" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom name="snd.bin" offset="0x0" size="0x20000" crc="68632952" sha1="fb834db83157948e2b420b6051102a9c6ac3969b" />
+		</dataarea>
+		<dataarea name="gp9001_0" size="0x800000">
+		<rom name="rom4.bin" offset="0x0" size="0x200000" crc="b333d81f" sha1="5481465f1304334fd55798be2f44324c57c2dbcb" />
+		<rom name="rom3.bin" offset="0x200000" size="0x200000" crc="51b9ebfb" sha1="30e0c326f5175aa436df8dba08f6f4e08130b92f" />
+		<rom name="rom2.bin" offset="0x400000" size="0x200000" crc="b330e5e2" sha1="5d48e9d56f99d093b6390e0af1609fd796df2d35" />
+		<rom name="rom1.bin" offset="0x600000" size="0x200000" crc="7eafdd70" sha1="7c8da8e86c3f9491719b1d7d5d285568d7614f38" />
+		</dataarea>
+		<dataarea name="oki1" size="0x140000">
+		<rom name="rom5.bin" offset="0x40000" size="0x100000" crc="f6d49863" sha1="3a3c354852adad06e8a051511abfab7606bce382" />
+		</dataarea>
+		<dataarea name="text" size="0x10000">
+		<rom name="text.u81" offset="0x0" size="0x8000" crc="e67fd534" sha1="987d0edffc2c243a13d4567319ea3d185eaadbf8" />
+		</dataarea>
+	</part>
+</software>

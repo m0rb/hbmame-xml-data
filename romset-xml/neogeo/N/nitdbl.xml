@@ -1,0 +1,22 @@
+<software name="nitdbl" cloneof="nitd">
+	<description>Nightmare in the Dark (bootleg)</description>
+	<year>2001</year>
+	<publisher>bootleg</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="nitd-p1.bin" offset="0x0" size="0x80000" crc="1a05bd1b" sha1="7bbddef842d50b0778711063af695b168a76ff61" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="nitd-c1.bin" offset="0x0" size="0x200000" crc="b4353190" sha1="90d5352e243a05f5c2be4fa7475667bb56e78016" />
+		<rom loadflag="load16_byte" name="nitd-c2.bin" offset="0x1" size="0x200000" crc="6e27511f" sha1="1fc5cf7786ad0f0bc7b1623acabe605ad04af3c1" />
+		<rom loadflag="load16_byte" name="nitd-c3.bin" offset="0x400000" size="0x200000" crc="472cf075" sha1="7cdd25019e37a3d127e68a4179c051881df19afa" />
+		<rom loadflag="load16_byte" name="nitd-c4.bin" offset="0x400001" size="0x200000" crc="4c3926e6" sha1="7fc54a9886dbef911f7b226e3cd20081c535e989" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x400000">
+		<rom name="nitd-v1.bin" offset="0x0" size="0x200000" crc="79008868" sha1="90bd6aaefd37341297ab1f4ae7246e52facd87d0" />
+		<rom name="nitd-v2.bin" offset="0x200000" size="0x200000" crc="728558f9" sha1="309aa7c933c199b2e540a601b363e7af8744fe00" />
+		</dataarea>
+	</part>
+</software>

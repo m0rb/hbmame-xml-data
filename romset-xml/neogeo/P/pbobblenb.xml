@@ -1,0 +1,20 @@
+<software name="pbobblenb" cloneof="pbobblen">
+	<description>Puzzle Bobble / Bust-A-Move (Neo-Geo, bootleg)</description>
+	<year>1994</year>
+	<publisher>bootleg</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="u7" offset="0x0" size="0x80000" crc="ac1e9ef3" sha1="a2b125ee70869667431ab125bc29e768500802ad" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="uc5" offset="0x0" size="0x80000" crc="e89ad494" sha1="69c9ea415773af94ac44c48af05d55ada222b138" />
+		<rom loadflag="load16_byte" name="uc6" offset="0x1" size="0x80000" crc="4b42d7eb" sha1="042ae50a528cea21cf07771d3915c57aa16fd5af" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x380000">
+		<rom name="u8" offset="0x200000" size="0x100000" crc="0840cbc4" sha1="1adbd7aef44fa80832f63dfb8efdf69fd7256a57" />
+		<rom name="u9" offset="0x300000" size="0x80000" crc="0a548948" sha1="e1e4afd17811cb60401c14fbcf0465035165f4fb" />
+		</dataarea>
+	</part>
+</software>

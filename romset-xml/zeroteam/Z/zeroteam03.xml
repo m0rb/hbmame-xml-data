@@ -1,0 +1,33 @@
+<software name="zeroteam03">
+	<description>Zero Team Selection (Nightmare, 2018-10-22)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="1_sel_po01.bin" offset="0x0" size="0x40000" crc="c1c66888" sha1="eb746efd7fea9a258d34c85cc8a739e029ba54d6" />
+		<rom loadflag="load32_byte" name="3_sel_po01.bin" offset="0x2" size="0x40000" crc="f5c02ca4" sha1="2d0e561b51db5f358f75b0990dc2b4cd43ee8424" />
+		<rom loadflag="load32_byte" name="2_sel_po01.bin" offset="0x1" size="0x40000" crc="8ff58607" sha1="bfb811ce3d3b645f23a17e36d6277440e2ff454f" />
+		<rom loadflag="load32_byte" name="4_sel_po01.bin" offset="0x3" size="0x40000" crc="58d7c48e" sha1="8ae055bb869e6a4fb789a0419d3c6ac45a24a312" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom name="seibu__5.u1110.5b" offset="0x0" size="0x8000" crc="7ec1fbc3" sha1="48299d6530f641b18764cc49e283c347d0918a47" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x20000">
+		<rom loadflag="load16_byte" name="seibu__7.u072.5s" offset="0x0" size="0x10000" crc="9f6aa0f0" sha1="1caad7092c07723d12a07aa363ae2aa69cb6be0d" />
+		<rom loadflag="load16_byte" name="seibu__8.u077.5r" offset="0x1" size="0x10000" crc="68f7dddc" sha1="6938fa974c6ef028751982fdabd6a3820b0d30a8" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="musha_back-1.u075.4s" offset="0x0" size="0x100000" crc="8b7f9219" sha1="3412b6f8a4fe245e521ddcf185a53f2f4520eb57" />
+		<rom name="musha_back-2.u0714.2s" offset="0x100000" size="0x80000" crc="ce61c952" sha1="52a843c8ba428b121fab933dd3b313b2894d80ac" />
+		</dataarea>
+		<dataarea name="gfx3" endianness="little" size="0x800000">
+		</dataarea>
+		<dataarea name="oki" size="0x100000">
+		<rom name="seibu__6.u105.4a" offset="0x0" size="0x40000" crc="48be32b1" sha1="969d2191a3c46871ee8bf93088b3cecce3eccf0c" />
+		</dataarea>
+		<dataarea name="user2" size="0x40000">
+		<rom name="copx-d2.u0313.6n" offset="0x0" size="0x40000" crc="a6732ff9" sha1="c4856ec77869d9098da24b1bb3d7d58bb74b4cda" />
+		</dataarea>
+	</part>
+</software>

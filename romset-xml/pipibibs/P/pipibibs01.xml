@@ -1,0 +1,18 @@
+<software name="pipibibs01">
+	<description>Pipi &amp; Bibis (Stage Select V1)</description>
+	<year>1991</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom loadflag="load16_byte" name="s01.1" offset="0x0" size="0x20000" crc="38da1e2f" sha1="890c5cc8e45ad709f48167c47dac0543da448175" />
+		<rom loadflag="load16_byte" name="s01.2" offset="0x1" size="0x20000" crc="7f6f32b3" sha1="39b4ff18c266b6c9c86760379740618a0a479242" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="tp025-5.bin" offset="0x0" size="0x8000" crc="bf8ffde5" sha1="79c09cc9a0ea979f5af5a7e5ad671ea486f5f43e" />
+		</dataarea>
+		<dataarea name="gp9001_0" size="0x200000">
+		<rom name="tp025-4.bin" offset="0x0" size="0x100000" crc="ab97f744" sha1="c1620e614345dbd5c6567e4cb6f55c61b900d0ee" />
+		<rom name="tp025-3.bin" offset="0x100000" size="0x100000" crc="7b16101e" sha1="ae0119bbfa0937d18c4fbb0a3ef7cdc3b9fa6b56" />
+		</dataarea>
+	</part>
+</software>

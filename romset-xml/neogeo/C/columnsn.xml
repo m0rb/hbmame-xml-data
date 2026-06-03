@@ -1,0 +1,18 @@
+<software name="columnsn">
+	<description>Columns (NeoGeo)(Homebrew)</description>
+	<year>1990</year>
+	<publisher>Jeff Kurtz</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="404.p1" offset="0x0" size="0x80000" crc="c6c9888d" sha1="5a2ec1071872c817bf82053ca7b7d5d63fab6755" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="407.v1" offset="0x0" size="0x80000" crc="504bf849" sha1="13a184ec9e176371808938015111f8918cb4df7d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="404.c1" offset="0x0" size="0x80000" crc="9a579cab" sha1="9efd285c1bdc49a0d1daf2a062d0f906a0f5b542" />
+		<rom loadflag="load16_byte" name="404.c2" offset="0x1" size="0x80000" crc="91d14043" sha1="de6a1178fbfa3d75285e4338967f0ce4ed1aff23" />
+		</dataarea>
+	</part>
+</software>

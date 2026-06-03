@@ -1,0 +1,26 @@
+<software name="trally">
+	<description>Thrash Rally (ALM-003 ~ ALH-003)</description>
+	<year>1991</year>
+	<publisher>Alpha Denshi Co.</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="mcu" size="0x1000">
+		<rom name="hd6301v1p.hd6301v1" offset="0x0" size="0x1000" />
+		</dataarea>
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="038-p1.p1" offset="0x0" size="0x80000" crc="1e52a576" sha1="a1cb56354c3378e955b0cd482c3c41ae15add952" />
+		<rom loadflag="load16_word_swap" name="038-p2.p2" offset="0x80000" size="0x80000" crc="a5193e2f" sha1="96803480439e90da23cdca70d59ff519ee85beeb" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x300000">
+		<rom loadflag="load16_byte" name="038-c1.c1" offset="0x0" size="0x100000" crc="c58323d4" sha1="a6bd277471a4b612d165f8b804f3cb662f499b70" />
+		<rom loadflag="load16_byte" name="038-c2.c2" offset="0x1" size="0x100000" crc="bba9c29e" sha1="b70bbfdfa8c4f9ea76406530e86b16e42498d284" />
+		<rom loadflag="load16_byte" name="038-c3.c3" offset="0x200000" size="0x80000" crc="3bb7b9d6" sha1="bc1eae6181ad5abf79736afc8db4ca34113d43f8" />
+		<rom loadflag="load16_byte" name="038-c4.c4" offset="0x200001" size="0x80000" crc="a4513ecf" sha1="934aa103c226eac55157b44d7b4dfa35515322c3" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x180000">
+		<rom name="038-v1.v1" offset="0x0" size="0x100000" crc="5ccd9fd5" sha1="c3c8c758a320c39e4ceb0b6d9f188ed6d122eec4" />
+		<rom name="038-v2.v2" offset="0x100000" size="0x80000" crc="ddd8d1e6" sha1="65c819fa2392f264f5a1a0a4967c96775732500b" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,25 @@
+<software name="cameltry01">
+	<description>Cameltry (Chinese)</description>
+	<year>1989</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom loadflag="load16_byte" name="c38-09.s01" offset="0x0" size="0x20000" crc="e2f14391" sha1="b0a8b30c5e6385f32ebe60d0e6db0e2550713f01" />
+		<rom loadflag="load16_byte" name="c38-10.s01" offset="0x1" size="0x20000" crc="822b5c5d" sha1="e1cf535e11808874cb6ff6f90ae0c86296df9958" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x1c000">
+		<rom name="c38-08.bin" offset="0x0" size="0x10000" crc="7ff78873" sha1="6574f1c707b8911fa957dd057e1cddc7a1cea99b" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="c38-03.bin" offset="0x0" size="0x20000" crc="59fa59a7" sha1="161f11b96a47c8431c33e300f6a509bf804309af" />
+		</dataarea>
+		<dataarea name="sprites" size="0x80000">
+		<rom name="c38-01.s01" offset="0x0" size="0x80000" crc="3ab7fee5" sha1="f91f9682a1d952a7e4bbcd88eb3c3d6d38dfb852" />
+		</dataarea>
+		<dataarea name="tc0100scn_1" size="0x100000">
+		</dataarea>
+		<dataarea name="tc0280grd" size="0x80000">
+		<rom name="c38-02.s01" offset="0x0" size="0x20000" crc="5874058f" sha1="901a5245024eb8abc00bc53945ffe0813850aff8" />
+		</dataarea>
+	</part>
+</software>

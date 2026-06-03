@@ -1,0 +1,22 @@
+<software name="socbrawlh" cloneof="socbrawl">
+	<description>Soccer Brawl (NGH-031)</description>
+	<year>1991</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="031-p1.p1" offset="0x0" size="0x80000" crc="a2801c24" sha1="627d76ff0740ca29586f37b268f47fb469822529" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x300000">
+		<rom loadflag="load16_byte" name="031-c1.c1" offset="0x0" size="0x100000" crc="bd0a4eb8" sha1="b67988cb3e550d083e81c9bd436da55b242785ed" />
+		<rom loadflag="load16_byte" name="031-c2.c2" offset="0x1" size="0x100000" crc="efde5382" sha1="e42789c8d87ee3d4549d0a903e990c03338cbbd8" />
+		<rom loadflag="load16_byte" name="031-c3.c3" offset="0x200000" size="0x80000" crc="580f7f33" sha1="f4f95a7c8de00e1366a723fc4cd0e8c1905af636" />
+		<rom loadflag="load16_byte" name="031-c4.c4" offset="0x200001" size="0x80000" crc="ed297de8" sha1="616f8fa4c86231f3e79faf9f69f8bb909cbc35f0" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="031-v1.v1" offset="0x0" size="0x100000" crc="cc78497e" sha1="895bd647150fae9b2259ef043ed681f4c4de66ea" />
+		<rom name="031-v2.v2" offset="0x100000" size="0x100000" crc="dda043c6" sha1="08165a59700ab6b1e523079dd2a3549e520cc594" />
+		</dataarea>
+	</part>
+</software>

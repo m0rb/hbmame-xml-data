@@ -1,0 +1,17 @@
+<software name="sdojb" cloneof="sdojak">
+	<description>DoDonPachi SaiDaiOuJou Saya Type B (2022-01-06)</description>
+	<year>2022</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="sdojb.u4" offset="0x0" size="0x400000" crc="be54ca1a" sha1="d7ad13cc6676ab3e938c65b7e6f5c870033f42f1" />
+		</dataarea>
+		<dataarea name="game" size="0x8400000">
+		<rom name="sdojb.u2" offset="0x0" size="0x8400000" crc="2a6353a6" sha1="29b180263d5f08bce7527cf1d4cae33a98d93149" />
+		</dataarea>
+		<dataarea name="ymz770" size="0x800000">
+		<rom loadflag="load16_word_swap" name="u23" offset="0x0" size="0x400000" crc="ac94801c" sha1="cbcc6d5d89860bc961967e1d3b7c329adaf200c5" />
+		<rom loadflag="load16_word_swap" name="u24" offset="0x400000" size="0x400000" crc="f593045b" sha1="91b92870d0dd2a7817cb0059cc750e2393686f4c" />
+		</dataarea>
+	</part>
+</software>

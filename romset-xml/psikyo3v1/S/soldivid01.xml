@@ -1,0 +1,22 @@
+<software name="soldivid01" cloneof="soldivid">
+	<description>Sol Divide - The Sword Of Darkness (French v1.0, 2007-08-18)</description>
+	<year>2007</year>
+	<publisher>Shyma.X</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_word_swap" name="2-prog_ls01.u18" offset="0x2" size="0x80000" crc="e25b51a6" sha1="04a6846cd7dcdcbf7943335cd76d138466c3af6d" />
+		<rom loadflag="load32_word_swap" name="1-prog_hs01.u17" offset="0x0" size="0x80000" crc="16656358" sha1="ef2506e3d50fd0c9d92c9975662ad2d3bf57e944" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x3800000">
+		<rom loadflag="load32_word_swap" name="4lhc01.u10" offset="0x2000000" size="0x400000" crc="218e97a0" sha1="d9e836725303060fbac5cdc5646aaf817c379c8d" />
+		<rom loadflag="load32_word_swap" name="4hhc01.u31" offset="0x2000002" size="0x400000" crc="7e92228a" sha1="ae99c0b6083e47527803b9170832f622fa300c56" />
+		<rom loadflag="load32_word_swap" name="5l.u9" offset="0x2800000" size="0x400000" crc="c59c6858" sha1="bd580b57e432ef42295060c5a84c8129d9b995f7" />
+		<rom loadflag="load32_word_swap" name="5h.u30" offset="0x2800002" size="0x400000" crc="73bc66d0" sha1="7988ce81ff43235a3b30ddd8fd9419530a07b6ba" />
+		<rom loadflag="load32_word_swap" name="6l.u8" offset="0x3000000" size="0x400000" crc="f01b816e" sha1="2a0d86c1c106eef539028aa9ebe49d13216a6b9c" />
+		<rom loadflag="load32_word_swap" name="6h.u37" offset="0x3000002" size="0x400000" crc="fdd57361" sha1="f58d91acde1f4e6d4f0e8dcd1b23aa5092d89916" />
+		</dataarea>
+		<dataarea name="ymf" size="0x400000">
+		<rom name="sound.u32" offset="0x0" size="0x400000" crc="e98f8d45" sha1="7791c0f31d08f37c6ec65e7cecf8ef54ca73b1fd" />
+		</dataarea>
+	</part>
+</software>

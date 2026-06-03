@@ -1,0 +1,27 @@
+<software name="batcirs01" cloneof="batcir">
+	<description>Battle Circuit (970319E, Evolution, 2019-10-21)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c70s01.p1" offset="0x0" size="0x80000" crc="03bd6707" sha1="62eda0d68b9940f5d07a529d05e8c90fe6a8ad02" />
+		<rom loadflag="load16_word_swap" name="c70s01.p2" offset="0x80000" size="0x80000" crc="c3ff82b6" sha1="3b23b13e0588479a598dd43093a42cd0c9db1484" />
+		<rom loadflag="load16_word_swap" name="c70d.p3" offset="0x100000" size="0x80000" crc="20bdbb14" sha1="fe3a202741ca657b2b67e89050788b67d709a36d" />
+		<rom loadflag="load16_word_swap" name="c70d.p4" offset="0x180000" size="0x80000" crc="b4d8f5bc" sha1="dc5ca580ecfb051ded551663ea4e9f161f820f81" />
+		<rom loadflag="load16_word_swap" name="c70s01.p5" offset="0x200000" size="0x80000" crc="b194270f" sha1="e152d48760c92b84c748014ef68050f138f75cf5" />
+		<rom loadflag="load16_word_swap" name="c70.p6" offset="0x280000" size="0x80000" crc="6aac85ab" sha1="ad02d4185c2b3664fb96350d8ad317d3939a7554" />
+		<rom loadflag="load16_word_swap" name="c70s01.p7" offset="0x300000" size="0x80000" crc="31865161" sha1="2217a4b8ca1ed3fe52e9b9d4ead85ce7df3a6bf9" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c70.m1" offset="0x0" size="0x8000" crc="1e194310" sha1="3b29de0aca9dbca59d6b50fb2509e2a913c6b0af" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c70.m2" offset="0x28000" size="0x20000" crc="01aeb8e6" sha1="50a5d1cce0caf7c5143d4904431e8f41e2a57464" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c70.q1" offset="0x0" size="0x200000" crc="c27f2229" sha1="df2459493af40937b6656a16fad43ff51bed2204" />
+		<rom loadflag="load16_word_swap" name="c70.q2" offset="0x200000" size="0x200000" crc="418a2e33" sha1="0642ddff2ab9255f154419da24ba644ed63f34ab" />
+		</dataarea>
+	</part>
+</software>

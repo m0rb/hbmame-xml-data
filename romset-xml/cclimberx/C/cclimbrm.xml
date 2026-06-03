@@ -1,0 +1,33 @@
+<software name="cclimbrm" cloneof="cclimber">
+	<description>Crazy Climber (US - modded)</description>
+	<year>1980</year>
+	<publisher>Tim Arcadecollecting</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x6000">
+		<rom name="cc11m" offset="0x0" size="0x1000" crc="a7d58b7e" sha1="83a21b1a731895c84f1f3604f36b21b172bb144b" />
+		<rom name="cc10" offset="0x1000" size="0x1000" crc="b3c26cef" sha1="f52cb5482c12a9c5fb56e2e2aec7cab0ed23e5a5" />
+		<rom name="cc09" offset="0x2000" size="0x1000" crc="6db0879c" sha1="c0ba1976c1dcd6edadd78073173a26851ae8dd4f" />
+		<rom name="cc08" offset="0x3000" size="0x1000" crc="f48c5fe3" sha1="79072bbbf37387998ffd031afe8eb569a16fa9bd" />
+		<rom name="cc07m" offset="0x4000" size="0x1000" crc="a417e7a3" sha1="0cc8e306268119e11d8375749147cb7c1a831bd8" />
+		</dataarea>
+		<dataarea name="cclimber_audio:samples" size="0x2000">
+		<rom name="cc13" offset="0x0" size="0x1000" crc="e0042f75" sha1="86cb31b110742a0f7ae33052c88f42d00deb5468" />
+		<rom name="cc12" offset="0x1000" size="0x1000" crc="5da13aaa" sha1="b2d41e69435d09c456648a10e33f5e1fbb0bc64c" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="cc06" offset="0x0" size="0x800" crc="481b64cc" sha1="3f35c545fc784ed4f969aba2d7be6e13a5ae32b7" />
+		<rom name="cc04" offset="0x2000" size="0x800" crc="332347cb" sha1="4115ca32af73f1791635b7d9e093bf77088a8222" />
+		<rom name="cc05" offset="0x1000" size="0x800" crc="2c33b760" sha1="2edea8fe13376fbd51a5586d97aba3b30d78e94b" />
+		<rom name="cc03" offset="0x3000" size="0x800" crc="4e4b3658" sha1="0d39a8cb5cd6cf06008be60707f9b277a8a32a2d" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x1000">
+		<rom name="cc02" offset="0x0" size="0x800" crc="14f3ecc9" sha1="a1b5121abfbe8f07580eb3fa6384352d239a3d75" />
+		<rom name="cc01" offset="0x800" size="0x800" crc="21c0f9fb" sha1="44fad56d302a439257216ddac9fd62b3666589f1" />
+		</dataarea>
+		<dataarea name="proms" size="0x60">
+		<rom name="cclimber.pr1" offset="0x0" size="0x20" crc="751c3325" sha1="edce2bc883996c1d72dc6c1c9f62799b162d415a" />
+		<rom name="cclimber.pr2" offset="0x20" size="0x20" crc="ab1940fa" sha1="8d98e05cbaa6f55770c12e0a9a8ed9c73cc54423" />
+		<rom name="cclimber.pr3" offset="0x40" size="0x20" crc="71317756" sha1="1195f0a037e379cc1a3c0314cb746f5cd2bffe50" />
+		</dataarea>
+	</part>
+</software>

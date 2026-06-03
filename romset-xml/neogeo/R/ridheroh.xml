@@ -1,0 +1,31 @@
+<software name="ridheroh" cloneof="ridhero">
+	<description>Riding Hero (set 2)</description>
+	<year>1990</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="mcu" size="0x2000">
+		<rom name="rhcom.bin" offset="0x0" size="0x2000" crc="e5cd6306" sha1="f6bbb8ae562804d67e137290c765c3589fa334c0" />
+		</dataarea>
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="006-pg1.p1" offset="0x0" size="0x80000" crc="52445646" sha1="647bb31f2f68453c1366cb6e2e867e37d1df7a54" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="006-c1.c1" offset="0x0" size="0x80000" crc="4a5c7f78" sha1="f8f1e6b7841c74368210d52a84307bb28f722a2d" />
+		<rom loadflag="load16_byte" name="006-c2.c2" offset="0x1" size="0x80000" crc="e0b70ece" sha1="e2b750e43cdddcea29d1c9c943a3628117a16a1b" />
+		<rom loadflag="load16_byte" name="006-c3.c3" offset="0x100000" size="0x80000" crc="8acff765" sha1="11fe89b9d112d0658c9ddf40d928584de6ea9202" />
+		<rom loadflag="load16_byte" name="006-c4.c4" offset="0x100001" size="0x80000" crc="205e3208" sha1="aa2acf2c6f48ffffdcc0c94ddc031acc9e4a2e68" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x100000">
+		<rom name="006-v11.v11" offset="0x0" size="0x80000" crc="cdf74a42" sha1="a17106cc3f9e5c5d52b4def861c0545a98151da2" />
+		<rom name="006-v12.v12" offset="0x80000" size="0x80000" crc="e2fd2371" sha1="cc95297bee7ffbdcb24ac4daeb5307cb39a52067" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcmb" size="0x200000">
+		<rom name="006-v21.v21" offset="0x0" size="0x80000" crc="94092bce" sha1="1a2906271fe6bc396898a756153629a5862930eb" />
+		<rom name="006-v22.v22" offset="0x80000" size="0x80000" crc="4e2cd7c3" sha1="72fb215a4f208a22a764e801186d1643d3d840ca" />
+		<rom name="006-v23.v23" offset="0x100000" size="0x80000" crc="069c71ed" sha1="f450e9f60cd6ef846dbc77993159ec6157fb64e7" />
+		<rom name="006-v24.v24" offset="0x180000" size="0x80000" crc="89fbb825" sha1="656a97c6a8832dab3a5e1577d9cd257b561cc356" />
+		</dataarea>
+	</part>
+</software>

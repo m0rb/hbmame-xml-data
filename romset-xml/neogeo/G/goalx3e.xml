@@ -1,0 +1,23 @@
+<software name="goalx3e" cloneof="goalx3">
+	<description>Goal! Goal! Goal! (Earlier)</description>
+	<year>1995</year>
+	<publisher>Visco</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="209.p1" offset="0x100000" size="0x100000" crc="2a019a79" sha1="422a639e74284fef2e53e1b49cf8803b0a7e80c6" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="209.v1" offset="0x0" size="0x200000" crc="ef214212" sha1="3e05ccaa2d06decb18b379b96f900c0e6b39ce70" />
+		</dataarea>
+		<dataarea name="sprites" size="0xa00000">
+		<rom loadflag="load16_byte" name="209e.c1" offset="0x400000" size="0x200000" crc="d061f1f5" sha1="7cde2f4c6cc54fb0ffbe1d407831d652610a3aaf" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="209e.c2" offset="0x400001" size="0x200000" crc="3f63c1a2" sha1="3ce2c66fb2bee3face976e9f8973ccc483101ae5" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		<rom loadflag="load16_byte" name="209.c3" offset="0x800000" size="0x100000" crc="5f91bace" sha1="3864be27dce6d8f8828d3bf09bfc8116116a2b56" />
+		<rom loadflag="load16_byte" name="209.c4" offset="0x800001" size="0x100000" crc="1e9f76f2" sha1="b57fdc226bfe328b8848127fb4292295f1287bf6" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,16 @@
+<software name="pc_smb_ps31" cloneof="pc_smb">
+	<description>Super Mario Bros. (Lady Opera - Swf Panic v1, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps31" offset="0x0" size="0x2000" crc="05e0f434" sha1="cdd1fca7da1d10d4e500f5bec19c497646bed3c3" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps31" offset="0x0" size="0x8000" crc="8ea5298a" sha1="c48437c1867dfe3efdde1c191f7233f4ea69d98e" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

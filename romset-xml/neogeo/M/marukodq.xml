@@ -1,0 +1,22 @@
+<software name="marukodq">
+	<description>Chibi Maruko-chan: Maruko Deluxe Quiz</description>
+	<year>1995</year>
+	<publisher>Takara</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="206-p1.p1" offset="0x0" size="0x100000" crc="c33ed21e" sha1="bffff0d17e587e67672227e60c0ebd3f3a7193e6" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0xa00000">
+		<rom loadflag="load16_byte" name="206-c1.c1" offset="0x0" size="0x400000" crc="846e4e8e" sha1="ba9b96340aca7fadaff0e6d484391ddb5c5e7bd4" />
+		<rom loadflag="load16_byte" name="206-c2.c2" offset="0x1" size="0x400000" crc="1cba876d" sha1="3254ceb5a2f76c172930d9889d5d81e093e87628" />
+		<rom loadflag="load16_byte" name="206-c3.c3" offset="0x800000" size="0x100000" crc="79aa2b48" sha1="31f94217cd35f48845c74a55256314c16fd26ed7" />
+		<rom loadflag="load16_byte" name="206-c4.c4" offset="0x800001" size="0x100000" crc="55e1314d" sha1="fffbc9eb9000ff5b1063af1817de7ea4a267fedd" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x400000">
+		<rom name="206-v1.v1" offset="0x0" size="0x200000" crc="5385eca8" sha1="1ca171ce74a5885ae8841d0924de21dc0af2214e" />
+		<rom name="206-v2.v2" offset="0x200000" size="0x200000" crc="f8c55404" sha1="cecc41e9e08a7ff05b6f62e713fc86a816bf55a2" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,24 @@
+<software name="overtop">
+	<description>Over Top</description>
+	<year>1996</year>
+	<publisher>ADK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="212-p1.p1" offset="0x100000" size="0x100000" crc="16c063a9" sha1="5432869f830eed816ee5ed71c7fd39f749d15619" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x1400000">
+		<rom loadflag="load16_byte" name="212-c1.c1" offset="0x0" size="0x400000" crc="50f43087" sha1="e5a8c914ef8e77c7a29bffdeb18f1877b5c2fc7d" />
+		<rom loadflag="load16_byte" name="212-c2.c2" offset="0x1" size="0x400000" crc="a5b39807" sha1="e98e82cf99576cb48cc5e8dc655b7e9a428c2843" />
+		<rom loadflag="load16_byte" name="212-c3.c3" offset="0x800000" size="0x400000" crc="9252ea02" sha1="269066e0f893d3e8e7c308528026a486c2b023a2" />
+		<rom loadflag="load16_byte" name="212-c4.c4" offset="0x800001" size="0x400000" crc="5f41a699" sha1="abbb162658e06a37db8475b659ece7e1270ebb49" />
+		<rom loadflag="load16_byte" name="212-c5.c5" offset="0x1000000" size="0x200000" crc="fc858bef" sha1="0031def13e7cf4a465a1eca7aa0d13d1b21427e2" />
+		<rom loadflag="load16_byte" name="212-c6.c6" offset="0x1000001" size="0x200000" crc="0589c15e" sha1="b1167caf7cb61f3e05a5d342290bfe00e02e9d38" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x400000">
+		<rom name="212-v1.v1" offset="0x0" size="0x400000" crc="013d4ef9" sha1="438a697c44525bdf78b54432c4f7217ab5667047" />
+		</dataarea>
+	</part>
+</software>

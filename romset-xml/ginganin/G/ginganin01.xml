@@ -1,0 +1,39 @@
+<software name="ginganin01">
+	<description>Ginga NinkyouDen (Korean)</description>
+	<year>1987</year>
+	<publisher>Nunimmanse</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x20000">
+		<rom loadflag="load16_byte" name="gn_02.bin" offset="0x0" size="0x10000" crc="4a4e012f" sha1="7c94a5b6b71e037af355f3aa4623be1f585db8dc" />
+		<rom loadflag="load16_byte" name="gn_01.bin" offset="0x1" size="0x10000" crc="30256fcb" sha1="dc15e0da88ae5cabe0150f7290508c3d58c06c11" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="gn_05.bin" offset="0x0" size="0x10000" crc="e76e10e7" sha1="b16f10a1a01b7b04221c9bf1b0d157e936bc5fb5" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x20000">
+		<rom name="gn_04.bin" offset="0x0" size="0x10000" crc="0ed9133b" sha1="77f628e8ec28016efac2d906146865ca4ec54bd5" />
+		<rom name="gn_03.bin" offset="0x10000" size="0x10000" crc="f1ba222c" sha1="780c0bd0045bac1e1bb3209576383db90504fbf3" />
+		</dataarea>
+		<dataarea name="bgrom" size="0x8000">
+		<rom name="gn_11.bin" offset="0x0" size="0x8000" crc="f0d0e605" sha1="0c541e8e036573be1d99ecb71fdb4568ca8cc269" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x20000">
+		<rom name="gn_15.s01" offset="0x0" size="0x10000" crc="eba72bc2" sha1="5a3496f0eb9e0942b6957f3d0121e84a72f6d032" />
+		<rom name="gn_14.bin" offset="0x10000" size="0x10000" crc="e73fe668" sha1="fa39fddd7448d3fc6b539506e33b951db205afa1" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="gn_12.bin" offset="0x0" size="0x10000" crc="c134a1e9" sha1="8bace0f0169e61f1b7254393fa9cad6dca09c335" />
+		<rom name="gn_13.bin" offset="0x10000" size="0x10000" crc="1d3bec21" sha1="305823c78cad9288f918178e1c24cb0459ba2a6e" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x4000">
+		<rom name="gn_10.s01" offset="0x0" size="0x4000" crc="5d5ce06f" sha1="0df6867ed9af78a4e86455f64d3d57c68d148af0" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x50000">
+		<rom name="gn_06.bin" offset="0x0" size="0x10000" crc="bdc65835" sha1="53222fc3ec15e641289abb754657b0d59b88b66b" />
+		<rom loadflag="continue" offset="0x40000" size="0x10000" />
+		<rom name="gn_07.s01" offset="0x10000" size="0x10000" crc="d12bae11" sha1="2f1a8289b3a69bd2624e03d48f75312478aa120e" />
+		<rom name="gn_08.bin" offset="0x20000" size="0x10000" crc="f7c73c18" sha1="102700e2217bcd1532af56ee6a00ad608c8217db" />
+		<rom name="gn_09.bin" offset="0x30000" size="0x10000" crc="a5e07c3b" sha1="cdda02cd847330575612cb33d1bb38a5d50a3e6d" />
+		</dataarea>
+	</part>
+</software>

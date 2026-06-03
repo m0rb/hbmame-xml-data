@@ -1,0 +1,22 @@
+<software name="grdians28">
+	<description>Denjin Makai II (Kerron Edition, 2021-04-28)</description>
+	<year>2021</year>
+	<publisher>Bindi</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_byte" name="s28.u2" offset="0x0" size="0x80000" crc="96641e2a" sha1="2290bcf0159c28473da81006ccf6bf288c094b51" />
+		<rom loadflag="load16_byte" name="s28.u3" offset="0x1" size="0x80000" crc="eaf8363c" sha1="63a6e143c1aff4675e20dfcc54b7d129097da868" />
+		<rom loadflag="load16_byte" name="u4.bin" offset="0x100000" size="0x80000" crc="bb52447b" sha1="61433f683210ab2bc2cf1cc4b5b7a39cc5b6493d" />
+		<rom loadflag="load16_byte" name="u5.bin" offset="0x100001" size="0x80000" crc="9c164a3b" sha1="6d688c7af9e7e8e8d54b2e4dfbf41f59c79242eb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="continue" offset="0x1000000" size="0x200000" />
+		<rom loadflag="continue" offset="0x1000002" size="0x200000" />
+		<rom loadflag="continue" offset="0x1000004" size="0x200000" />
+		<rom loadflag="continue" offset="0x1000006" size="0x200000" />
+		</dataarea>
+		<dataarea name="x1snd" size="0x100000">
+		<rom name="u32.bin" offset="0x0" size="0x100000" crc="cf0f3017" sha1="8376d3a674f71aec72f52c72758fbc53d9feb1a1" />
+		</dataarea>
+	</part>
+</software>

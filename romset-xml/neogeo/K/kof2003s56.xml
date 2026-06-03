@@ -1,0 +1,25 @@
+<software name="kof2003s56" cloneof="kof2003">
+	<description>Kof2003 (Dragon Edition Simplified, 2020-02-29)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="271s56.p1" offset="0x0" size="0x800000" crc="77c899a0" sha1="32406f664090e06f461beb8efb457308f7a604ed" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="271s65.v1" offset="0x0" size="0x800000" crc="dd6c6a85" sha1="e32b16d0b716a4f3b95868457347303d020147fb" />
+		<rom name="271s65.v2" offset="0x800000" size="0x800000" crc="0e84f8c1" sha1="28c964fe89c800b445d3a65c965de32b4e504726" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="271b.c1" offset="0x0" size="0x800000" crc="e42fc226" sha1="1cd9364993e141facdcdd53ec2277df7b275d8a7" />
+		<rom loadflag="load16_byte" name="271b.c2" offset="0x1" size="0x800000" crc="1b5e3b58" sha1="0eb254477a9479541291e43e415310852a0f0bed" />
+		<rom loadflag="load16_byte" name="271b.c3" offset="0x1000000" size="0x800000" crc="d334fdd9" sha1="1efe30b4f56a55e25ab518cf6999de797b5e407c" />
+		<rom loadflag="load16_byte" name="271b.c4" offset="0x1000001" size="0x800000" crc="0d457699" sha1="ec73d0c9fc7094d0ac6c0986a6e07cde25893e57" />
+		<rom loadflag="load16_byte" name="271b.c5" offset="0x2000000" size="0x800000" crc="8a91aae4" sha1="802f4baacf801646be1ef686e105b2e867a6a5df" />
+		<rom loadflag="load16_byte" name="271b.c6" offset="0x2000001" size="0x800000" crc="9f8674b8" sha1="65964f40b2227d020023fb436579927e65807dcd" />
+		<rom loadflag="load16_byte" name="271s52.c7" offset="0x3000000" size="0x800000" crc="0a08a421" sha1="aff6cbfeac4f1fbc57d3055d6e9ac50adf797fae" />
+		<rom loadflag="load16_byte" name="271s52.c8" offset="0x3000001" size="0x800000" crc="d191b4e1" sha1="fc4af4e151de42b6067f205887a4ff8855055c6c" />
+		</dataarea>
+	</part>
+</software>

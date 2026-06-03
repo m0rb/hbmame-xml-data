@@ -1,0 +1,31 @@
+<software name="xmcotaa" cloneof="xmcota">
+	<description>X-Men: Children of the Atom (Asia 950105)</description>
+	<year>1994</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c56a.p1" offset="0x0" size="0x80000" crc="f1ade6e7" sha1="b212b6107a7ab01db3a60ccc7e1376fdba6f2e6a" />
+		<rom loadflag="load16_word_swap" name="c56a.p2" offset="0x80000" size="0x80000" crc="b5a8843d" sha1="e45381725a7356760dc71e027f3b7059e5919621" />
+		<rom loadflag="load16_word_swap" name="c56r1.p3" offset="0x100000" size="0x80000" crc="ac0d7759" sha1="650d4474b13f16af7910a0f721fcda2ddb2414fd" />
+		<rom loadflag="load16_word_swap" name="c56.p4" offset="0x180000" size="0x80000" crc="1b86a328" sha1="2469cd705139ee9f1142e6e379e68d0c9675b37e" />
+		<rom loadflag="load16_word_swap" name="c56.p5" offset="0x200000" size="0x80000" crc="2c142a44" sha1="7624875f9c39b361fc83e52e87e0fd5e96279713" />
+		<rom loadflag="load16_word_swap" name="c56.p6" offset="0x280000" size="0x80000" crc="f712d44f" sha1="0d18d4a4eacad94a66beca6ec509ac7f690c6882" />
+		<rom loadflag="load16_word_swap" name="c56.p7" offset="0x300000" size="0x80000" crc="9241cae8" sha1="bb6980abf25aaf3eb14e230ca6942f3e2ab2c660" />
+		<rom loadflag="load16_word_swap" name="c56r1.p8" offset="0x380000" size="0x80000" crc="53c0eab9" sha1="e3b1ec1fd517735f7801cfebb257c43185c6d3fb" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c56.m1" offset="0x0" size="0x8000" crc="40f479ea" sha1="f29e15f537675305264ae2138a0a537fb9e2008b" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c56.m2" offset="0x28000" size="0x20000" crc="39d9b5ad" sha1="af502debfd36100d4fc971ed25fdf9d7121d6f18" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="xmcotaa.key" offset="0x0" size="0x14" crc="3fdd2d42" sha1="effcfdf03e71d386356c32c2803c8c841871e24c" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c56.q1" offset="0x0" size="0x200000" crc="c848a6bc" sha1="ac8ac564d3c43225822f8bc330eba9f35b24b0a4" />
+		<rom loadflag="load16_word_swap" name="c56.q2" offset="0x200000" size="0x200000" crc="729c188f" sha1="3279774ad8aebbcf0fc779cdfcbe21044dd192ad" />
+		</dataarea>
+	</part>
+</software>

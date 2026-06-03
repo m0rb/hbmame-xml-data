@@ -1,0 +1,31 @@
+<software name="mvscur1" cloneof="mvsc">
+	<description>Marvel Vs. Capcom: Clash of Super Heroes (USA 971222)</description>
+	<year>1998</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c77ur1.p1" offset="0x0" size="0x80000" crc="13f2be57" sha1="229520c5f4171abae1acdfb9544b356b568b5f2d" />
+		<rom loadflag="load16_word_swap" name="c77ur1.p2" offset="0x80000" size="0x80000" crc="5e9b380d" sha1="8989192b575fb717c13bfb8175e83d7f1a285310" />
+		<rom loadflag="load16_word_swap" name="c77u.p3" offset="0x100000" size="0x80000" crc="12f321be" sha1="32942c4690253c1545ce05dc084de227e46d942a" />
+		<rom loadflag="load16_word_swap" name="c77u.p4" offset="0x180000" size="0x80000" crc="2f1524bc" sha1="b6543d40fb98eabec82787e0fd60fbc59069e72e" />
+		<rom loadflag="load16_word_swap" name="c77u.p5" offset="0x200000" size="0x80000" crc="5fdecadb" sha1="59726e535d1fd9cc4ddfdd02c936121d70723ced" />
+		<rom loadflag="load16_word_swap" name="c77.p6" offset="0x280000" size="0x80000" crc="bc002fcd" sha1="0b6735a071a9274f7ab25c743271fc30411fe819" />
+		<rom loadflag="load16_word_swap" name="c77.p7" offset="0x300000" size="0x80000" crc="c67b26df" sha1="6e9969246c57269d7ba0992a5cc319c8910bf8a9" />
+		<rom loadflag="load16_word_swap" name="c77u.p8" offset="0x380000" size="0x80000" crc="4f36cd63" sha1="ee6bdbf14bd524f76f4f756f332315331d5e1e4b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c77.m1" offset="0x0" size="0x8000" crc="41629e95" sha1="36925c05b5fdcbe43283a882d021e5360c947061" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c77.m2" offset="0x28000" size="0x20000" crc="963abf6b" sha1="6b784870e338701cefabbbe4669984b5c4e8a9a5" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="mvscu.key" offset="0x0" size="0x14" crc="a83db333" sha1="7f7288ceadf233d913728f7c4a8841adcb5994e8" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c77.q1" offset="0x0" size="0x400000" crc="850fe663" sha1="81e519d05a08855f242ea2e17ee0859b449db895" />
+		<rom loadflag="load16_word_swap" name="c77.q2" offset="0x400000" size="0x400000" crc="7ccb1896" sha1="74caadf3282fcc6acffb1bbe3734106f81124121" />
+		</dataarea>
+	</part>
+</software>

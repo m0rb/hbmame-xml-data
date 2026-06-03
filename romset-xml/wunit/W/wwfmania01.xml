@@ -1,0 +1,35 @@
+<software name="wwfmania01" cloneof="wwfmania">
+	<description>WWF: Wrestlemania (Acid Clown Edition, SP2, 2020-12-02)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="s01.u54" offset="0x0" size="0x80000" crc="ffd1abc6" sha1="c95dc542d461a6a5175c8cd5de950d0530244a4d" />
+		<rom loadflag="load16_byte" name="s01.u63" offset="0x1" size="0x80000" crc="41260903" sha1="7f5195d719333972289a4c94c0f837af9cfdb325" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0x800000">
+		<rom loadflag="load16_byte" name="wwf_music-spch_l1.u2" offset="0x0" size="0x100000" crc="a9acb250" sha1="c1a7773ffdb86dc2c1c90c220482ed6330fcbb55" />
+		<rom loadflag="load16_byte" name="wwf_music-spch_l1.u3" offset="0x200000" size="0x100000" crc="9442b6c9" sha1="1f887c05ab9ca99078be584d7e9e6c59c8ec1818" />
+		<rom loadflag="load16_byte" name="wwf_music-spch_l1.u4" offset="0x400000" size="0x100000" crc="cee78fac" sha1="c37d3b4aef47dc80d864497b3013f03220d45482" />
+		<rom loadflag="load16_byte" name="wwf_music-spch_l1.u5" offset="0x600000" size="0x100000" crc="5b31fd40" sha1="35dcf19b223029e17616357d29dd04bbfeb83491" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0x2000000">
+		<rom loadflag="load32_byte" name="wwf_image_rom_l1.u133" offset="0x0" size="0x100000" crc="5e1b1e3d" sha1="55f54e4b0dc775058699b1c0abdd7241ffca0e76" />
+		<rom loadflag="load32_byte" name="wwf_image_rom_l1.u132" offset="0x1" size="0x100000" crc="5943b3b2" sha1="8ba0b20e7993769736c961d0fda97b2850d1446b" />
+		<rom loadflag="load32_byte" name="wwf_image_rom_l1.u131" offset="0x2" size="0x100000" crc="0815db22" sha1="ebd6a8c4f0e8d979af7f173b3f139d91e4857f6b" />
+		<rom loadflag="load32_byte" name="wwf_image_rom_l1.u130" offset="0x3" size="0x100000" crc="9ee9a145" sha1="caeb8506e1414e8c58e3031d4a2e0619ef3922b7" />
+		<rom loadflag="load32_byte" name="wwf_image_rom_l1.u129" offset="0x400000" size="0x100000" crc="c644c2f4" sha1="9094452eb37ec92932109ab2b209e12074111dd7" />
+		<rom loadflag="load32_byte" name="wwf_image_rom_l1.u128" offset="0x400001" size="0x100000" crc="fcda4e9a" sha1="a05a12f606632034eae662cccfee5aaaffe0348b" />
+		<rom loadflag="load32_byte" name="wwf_image_rom_l1.u127" offset="0x400002" size="0x100000" crc="45be7428" sha1="a5d3e37c64cac03139028fe998494b76e6b6a7ae" />
+		<rom loadflag="load32_byte" name="wwf_image_rom_l1.u126" offset="0x400003" size="0x100000" crc="eaa276a8" sha1="d0c2f4d4409830355c6e112e3eafb4d3a1b8c22e" />
+		<rom loadflag="load32_byte" name="wwf_image_rom_l1.u125" offset="0x800000" size="0x100000" crc="a19ebeed" sha1="cf51bca29fd39c6189c2b431eb718a6341781d1f" />
+		<rom loadflag="load32_byte" name="wwf_image_rom_l1.u124" offset="0x800001" size="0x100000" crc="dc7d3dbb" sha1="8982d9a1babce57ae7465bce3f4863dd336c20ac" />
+		<rom loadflag="load32_byte" name="wwf_image_rom_l1.u123" offset="0x800002" size="0x100000" crc="e0ade56f" sha1="a15c672a45f39c0232d678e71380d4f58c4659ae" />
+		<rom loadflag="load32_byte" name="wwf_image_rom_l1.u122" offset="0x800003" size="0x100000" crc="2800c78d" sha1="8012785f1c1eaf8d533a98e0a521a5d31efc7a42" />
+		<rom loadflag="load32_byte" name="wwf_image_rom_l1.u121" offset="0xc00000" size="0x100000" crc="a28ffcba" sha1="f66be0793b12a7f04e32d3db8311d1f33b0c3fbe" />
+		<rom loadflag="load32_byte" name="wwf_image_rom_l1.u120" offset="0xc00001" size="0x100000" crc="3a05d371" sha1="4ed73e1c06ea7bd33e6c72a6a752960ba55d1975" />
+		<rom loadflag="load32_byte" name="wwf_image_rom_l1.u119" offset="0xc00002" size="0x100000" crc="97ffa659" sha1="986f8ec57085b808d33c85ed55b35a5e1cadf3b6" />
+		<rom loadflag="load32_byte" name="wwf_image_rom_l1.u118" offset="0xc00003" size="0x100000" crc="46668e97" sha1="282ca2e561f7553717d60b5a745f8e3fc1bda610" />
+		</dataarea>
+	</part>
+</software>

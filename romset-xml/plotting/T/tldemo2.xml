@@ -1,0 +1,14 @@
+<software name="tldemo2">
+	<description>Demo - 256 colours</description>
+	<year>2015</year>
+	<publisher>cmonkey</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="tldemo2.ic10" offset="0x0" size="0x7142" crc="1292a22c" sha1="e351ac5381f7d73de0087586c7fb28d9eccd72cb" />
+		</dataarea>
+		<dataarea name="maincpu:gfx" size="0x20000">
+		<rom loadflag="load16_byte" name="tldemo2.ic9" offset="0x0" size="0x10000" crc="fcc75ddb" sha1="e702480b84379e3106cb6d575d237a8f9701f49e" />
+		<rom loadflag="load16_byte" name="tldemo2.ic8" offset="0x1" size="0x10000" crc="33e70f71" sha1="5a0caa0912dd7d76dd7e788e21b4cc7f320156ad" />
+		</dataarea>
+	</part>
+</software>

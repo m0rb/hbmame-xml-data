@@ -1,0 +1,76 @@
+<software name="sfiiins01" cloneof="sfiiinc">
+	<description>Street Fighter III: New Generation (Simple Attack, 2016-01-21)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="bios" endianness="big" size="0x80000">
+		<rom name="sfiii_asia_nocd.29f400.u2" offset="0x0" size="0x80000" crc="ca2b715f" sha1="86319987f9af4afd272a2488e73de8382743cb37" />
+		</dataarea>
+		<dataarea name="simm1.0" size="0x454f4d">
+		<rom name="sfiii-simm1_p3h.0" offset="0x0" size="0x454f4d" crc="2858434c" sha1="528b9b3716a8384bca1206a6a3863dde5a4c06f4" />
+		</dataarea>
+		<dataarea name="simm1.1" size="0x454f47">
+		<rom name="sfiii-simm1_p3h.1" offset="0x0" size="0x454f47" crc="75d3a584" sha1="d2f9809d0614498bf6538b8c24eb172cd37906de" />
+		</dataarea>
+		<dataarea name="simm1.2" size="0x454f47">
+		<rom name="sfiii-simm1_p3h.2" offset="0x0" size="0x454f47" crc="9a9c8312" sha1="14d7ba6aa7186c2df1a403191d658c24bc0a5560" />
+		</dataarea>
+		<dataarea name="simm1.3" size="0x454f47">
+		<rom name="sfiii-simm1_p3h.3" offset="0x0" size="0x454f47" crc="d338a53f" sha1="4814c416b37914dbfb50fd008a1b8b21f7facf33" />
+		</dataarea>
+		<dataarea name="simm3.0" size="0x200000">
+		<rom name="sfiii-simm3.0" offset="0x0" size="0x200000" crc="080b3bd3" sha1="f51bc5de95ab22b87ba09ea721285b308afd0bda" />
+		</dataarea>
+		<dataarea name="simm3.1" size="0x200000">
+		<rom name="sfiii-simm3.1" offset="0x0" size="0x200000" crc="5c356f2f" sha1="e969ce388f6e565d9612e65b0895560c7bb472e6" />
+		</dataarea>
+		<dataarea name="simm3.2" size="0x200000">
+		<rom name="sfiii-simm3.2" offset="0x0" size="0x200000" crc="f9c97a45" sha1="58a9691696c3f26a1150a451567c501f55cf1874" />
+		</dataarea>
+		<dataarea name="simm3.3" size="0x200000">
+		<rom name="sfiii-simm3.3" offset="0x0" size="0x200000" crc="09de3ead" sha1="2f41d84a96cb5e0d169200a4e9358ad5f407a2b7" />
+		</dataarea>
+		<dataarea name="simm3.4" size="0x200000">
+		<rom name="sfiii-simm3.4" offset="0x0" size="0x200000" crc="7dd7e1f3" sha1="bcf1023287457d97f09d9f6e9c93fdf24cc24a07" />
+		</dataarea>
+		<dataarea name="simm3.5" size="0x200000">
+		<rom name="sfiii-simm3.5" offset="0x0" size="0x200000" crc="47a03a3a" sha1="2509e5737059251888e4e1efbcdfac86a89ff1a1" />
+		</dataarea>
+		<dataarea name="simm3.6" size="0x200000">
+		<rom name="sfiii-simm3.6" offset="0x0" size="0x200000" crc="e9eb7a26" sha1="b8547edb7085e9149aa59d5226ad2d1976cab2bd" />
+		</dataarea>
+		<dataarea name="simm3.7" size="0x200000">
+		<rom name="sfiii-simm3.7" offset="0x0" size="0x200000" crc="7f44395c" sha1="f4d2e283cb3a4aad4eae4e13963a74e20be7c181" />
+		</dataarea>
+		<dataarea name="simm4.0" size="0x200000">
+		<rom name="sfiii-simm4.0" offset="0x0" size="0x200000" crc="9ac080fc" sha1="2e5024b35b147513ee42eda8748df9d669410377" />
+		</dataarea>
+		<dataarea name="simm4.1" size="0x200000">
+		<rom name="sfiii-simm4.1" offset="0x0" size="0x200000" crc="6e2c4c94" sha1="5a185cb76b5999bd826bc9b5ea584a5c3498f69d" />
+		</dataarea>
+		<dataarea name="simm4.2" size="0x200000">
+		<rom name="sfiii-simm4.2" offset="0x0" size="0x200000" crc="8afc22d4" sha1="04a419a3092c98fc4a7693e6acf30ae5a849e5c1" />
+		</dataarea>
+		<dataarea name="simm4.3" size="0x200000">
+		<rom name="sfiii-simm4.3" offset="0x0" size="0x200000" crc="9f3873b8" sha1="33499d6f02bc84c80acb56be078aaed7f8d1300d" />
+		</dataarea>
+		<dataarea name="simm4.4" size="0x200000">
+		<rom name="sfiii-simm4.4" offset="0x0" size="0x200000" crc="166b3c97" sha1="40e6e9d43cbbd8496b430931b8ab7db01dc1c6d5" />
+		</dataarea>
+		<dataarea name="simm4.5" size="0x200000">
+		<rom name="sfiii-simm4.5" offset="0x0" size="0x200000" crc="e5ea2547" sha1="a823c689098f37a3054d728bddb0033a4b8396f1" />
+		</dataarea>
+		<dataarea name="simm4.6" size="0x200000">
+		<rom name="sfiii-simm4.6" offset="0x0" size="0x200000" crc="e85b9fdd" sha1="264cb10fe9b3ede384c7db42bfc58ed5c21ea8f8" />
+		</dataarea>
+		<dataarea name="simm4.7" size="0x200000">
+		<rom name="sfiii-simm4.7" offset="0x0" size="0x200000" crc="362c01b7" sha1="9c404312a6aabe8e91e68dde193e3972bc1636cd" />
+		</dataarea>
+		<dataarea name="simm5.0" size="0x200000">
+		<rom name="sfiii-simm5.0" offset="0x0" size="0x200000" crc="9bc108b2" sha1="894dadab7957044bf877029c7f8e556d5d6e85d3" />
+		</dataarea>
+		<dataarea name="simm5.1" size="0x200000">
+		<rom name="sfiii-simm5.1" offset="0x0" size="0x200000" crc="c6f1c066" sha1="00de492dd1ef7aef05027a8c501c296b6602e917" />
+		</dataarea>
+	</part>
+</software>

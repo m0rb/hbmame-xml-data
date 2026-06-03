@@ -1,0 +1,25 @@
+<software name="rotds10" cloneof="rotd">
+	<description>Rage of the Dragons (Super Remix Edition 1.0)</description>
+	<year>2018</year>
+	<publisher>Gaston90</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="264s10.p1" offset="0x0" size="0x800000" crc="5bc34049" sha1="8e5ea9a0b8073b75706323b22bcd35c2cc34036f" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="264.v1" offset="0x0" size="0x800000" crc="fa005812" sha1="73723126dab5a640ac11955ed6da1bf7a91394f5" />
+		<rom name="264.v2" offset="0x800000" size="0x800000" crc="c3dc8bf0" sha1="a105e37262d9500a30fb8a5dac05aa4fab2562a3" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="264s10.c1" offset="0x0" size="0x800000" crc="b4d9e124" sha1="130a4227553d72d8e6dbd46cab052703e3e17a13" />
+		<rom loadflag="load16_byte" name="264s10.c2" offset="0x1" size="0x800000" crc="af3b6b6a" sha1="24afdc358db486d1ba463bb4fdb473c6417312a8" />
+		<rom loadflag="load16_byte" name="264s10.c3" offset="0x1000000" size="0x800000" crc="e398d08e" sha1="7a979d02fda92bf64845ff34bf54976d280d89b9" />
+		<rom loadflag="load16_byte" name="264s10.c4" offset="0x1000001" size="0x800000" crc="d3902a89" sha1="dca65715b94cf836bc273f00a0ec03ce1698a6e1" />
+		<rom loadflag="load16_byte" name="264s10.c5" offset="0x2000000" size="0x800000" crc="cdd6bb80" sha1="574f2e0ef2db818b71f50567e0ec9af0ad957353" />
+		<rom loadflag="load16_byte" name="264s10.c6" offset="0x2000001" size="0x800000" crc="9a1b3316" sha1="ee34703161cacfadef49ebfcae1072f6cf1173aa" />
+		<rom loadflag="load16_byte" name="264s10.c7" offset="0x3000000" size="0x800000" crc="448aa07d" sha1="569e7dc825d6419c9b10d5d7121c4c556098e7fa" />
+		<rom loadflag="load16_byte" name="264s10.c8" offset="0x3000001" size="0x800000" crc="29ee5c04" sha1="a208d6e02ba444aa96b9712b43a4d673087010c1" />
+		</dataarea>
+	</part>
+</software>

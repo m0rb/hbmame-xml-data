@@ -1,0 +1,19 @@
+<software name="puzzledp">
+	<description>Puzzle De Pon!</description>
+	<year>1995</year>
+	<publisher>Visco</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="202-p1.p1" offset="0x0" size="0x80000" crc="2b61415b" sha1="0e3e4faf2fd6e63407425e1ac788003e75aeeb4f" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="202-c1.c1" offset="0x0" size="0x100000" crc="cc0095ef" sha1="3d86f455e6db10a2449b775dc386f1826ba3b62e" />
+		<rom loadflag="load16_byte" name="202-c2.c2" offset="0x1" size="0x100000" crc="42371307" sha1="df794f989e2883634bf7ffeea48d6bc3854529af" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x80000">
+		<rom name="202-v1.v1" offset="0x0" size="0x80000" crc="debeb8fb" sha1="49a3d3578c087f1a0050168571ef8d1b08c5dc05" />
+		</dataarea>
+	</part>
+</software>

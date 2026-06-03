@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="tetrisbl" description="Tetrisbl cartridges">
+<software name="sys16dem">
+	<description>Demo - Sega System 16</description>
+	<year>1988</year>
+	<publisher>Charles Doty</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom loadflag="load16_byte" name="rom2dm.bin" offset="0x0" size="0x10000" crc="671c5eac" sha1="5fa7f8ba9d31a6c31a0b5a32c2cd869200032461" />
+		<rom loadflag="load16_byte" name="rom1dm.bin" offset="0x1" size="0x10000" crc="6461ebd9" sha1="16dc373408342560eb48e3c037a8f42636796560" />
+		</dataarea>
+		<dataarea name="sprites" endianness="big" size="0x20000">
+		<rom loadflag="load16_byte" name="dm-obj0-o.rom" offset="0x1" size="0x10000" crc="82ec3f29" sha1="0c0b28e98348f8981314f8d940ccd17d790bf335" />
+		<rom loadflag="load16_byte" name="dm-obj0-e.rom" offset="0x0" size="0x10000" crc="6eca3b5c" sha1="f58ac53d24b167db4787d6fe91e4799f3c3256d6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x30000">
+		<rom name="scr01dm.b9" offset="0x0" size="0x10000" crc="2fdb9b09" sha1="bec9ca842921695b06915825acfba076443a7e8b" />
+		<rom name="scr02dm.b10" offset="0x10000" size="0x10000" crc="0e880750" sha1="d6b7c84c00dfb3c1fcf966587f700f3ea3313b94" />
+		<rom name="scr03dm.b11" offset="0x20000" size="0x10000" crc="3e76f2ba" sha1="9177850b5d0b914a672af414e7e134e15d554fb8" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x40000">
+		<rom name="epr12168.a7" offset="0x0" size="0x8000" crc="bd9ba01b" sha1="fafa7dc36cc057a50ae4cdf7a35f3594292336f4" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

@@ -1,0 +1,17 @@
+<software name="chtpman2" cloneof="puckman">
+	<description>New Puck2 [c]</description>
+	<year>2000</year>
+	<publisher>[Namco]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="newpuck2.6e" offset="0x0" size="0x1000" crc="a8ae23c5" sha1="1481a4f083b563350744f9d25b1bcd28073875d6" />
+		<rom name="chtpac.6f" offset="0x1000" size="0x1000" crc="72cea888" sha1="87d0c2f8e7be0b9f28fc46b5711ddb8a85023942" />
+		<rom name="newpuck2.6h" offset="0x2000" size="0x1000" crc="197443f8" sha1="119aab12a9e1052c7b9a1f81e563740b41429a8c" />
+		<rom name="newpuck2.6j" offset="0x3000" size="0x1000" crc="0e3bdbde" sha1="11679a3e60cb98ef56e9f0c349d421a72b7097f6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacman.5e" offset="0x0" size="0x1000" crc="0c944964" sha1="06ef227747a440831c9a3a613b76693d52a2f0a9" />
+		<rom name="pacman.5f" offset="0x1000" size="0x1000" crc="958fedf9" sha1="4a937ac02216ea8c96477d4a15522070507fb599" />
+		</dataarea>
+	</part>
+</software>

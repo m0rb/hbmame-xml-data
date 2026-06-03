@@ -1,0 +1,158 @@
+<software name="hackypac" cloneof="madpac">
+	<description>Hacky Pac</description>
+	<year>2001</year>
+	<publisher>David Widel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x110000">
+		<rom name="hackypac.cpu" offset="0x10000" size="0x100000" crc="9cc452a1" sha1="7b0483e359f87c5e3035db7380436f176f2356b5" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x80000">
+		<rom name="hackypac.gfx" offset="0x0" size="0x1000" crc="42a61854" sha1="0968721abccf7d04d205d13d150d014e4e658d16" />
+		<rom loadflag="continue" offset="0x40000" size="0x1000" />
+		<rom loadflag="continue" offset="0x1000" size="0x1000" />
+		<rom loadflag="continue" offset="0x41000" size="0x1000" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom loadflag="continue" offset="0x42000" size="0x1000" />
+		<rom loadflag="continue" offset="0x3000" size="0x1000" />
+		<rom loadflag="continue" offset="0x43000" size="0x1000" />
+		<rom loadflag="continue" offset="0x4000" size="0x1000" />
+		<rom loadflag="continue" offset="0x44000" size="0x1000" />
+		<rom loadflag="continue" offset="0x5000" size="0x1000" />
+		<rom loadflag="continue" offset="0x45000" size="0x1000" />
+		<rom loadflag="continue" offset="0x6000" size="0x1000" />
+		<rom loadflag="continue" offset="0x46000" size="0x1000" />
+		<rom loadflag="continue" offset="0x7000" size="0x1000" />
+		<rom loadflag="continue" offset="0x47000" size="0x1000" />
+		<rom loadflag="continue" offset="0x8000" size="0x1000" />
+		<rom loadflag="continue" offset="0x48000" size="0x1000" />
+		<rom loadflag="continue" offset="0x9000" size="0x1000" />
+		<rom loadflag="continue" offset="0x49000" size="0x1000" />
+		<rom loadflag="continue" offset="0xa000" size="0x1000" />
+		<rom loadflag="continue" offset="0x4a000" size="0x1000" />
+		<rom loadflag="continue" offset="0xb000" size="0x1000" />
+		<rom loadflag="continue" offset="0x4b000" size="0x1000" />
+		<rom loadflag="continue" offset="0xc000" size="0x1000" />
+		<rom loadflag="continue" offset="0x4c000" size="0x1000" />
+		<rom loadflag="continue" offset="0xd000" size="0x1000" />
+		<rom loadflag="continue" offset="0x4d000" size="0x1000" />
+		<rom loadflag="continue" offset="0xe000" size="0x1000" />
+		<rom loadflag="continue" offset="0x4e000" size="0x1000" />
+		<rom loadflag="continue" offset="0xf000" size="0x1000" />
+		<rom loadflag="continue" offset="0x4f000" size="0x1000" />
+		<rom loadflag="continue" offset="0x10000" size="0x1000" />
+		<rom loadflag="continue" offset="0x50000" size="0x1000" />
+		<rom loadflag="continue" offset="0x11000" size="0x1000" />
+		<rom loadflag="continue" offset="0x51000" size="0x1000" />
+		<rom loadflag="continue" offset="0x12000" size="0x1000" />
+		<rom loadflag="continue" offset="0x52000" size="0x1000" />
+		<rom loadflag="continue" offset="0x13000" size="0x1000" />
+		<rom loadflag="continue" offset="0x53000" size="0x1000" />
+		<rom loadflag="continue" offset="0x14000" size="0x1000" />
+		<rom loadflag="continue" offset="0x54000" size="0x1000" />
+		<rom loadflag="continue" offset="0x15000" size="0x1000" />
+		<rom loadflag="continue" offset="0x55000" size="0x1000" />
+		<rom loadflag="continue" offset="0x16000" size="0x1000" />
+		<rom loadflag="continue" offset="0x56000" size="0x1000" />
+		<rom loadflag="continue" offset="0x17000" size="0x1000" />
+		<rom loadflag="continue" offset="0x57000" size="0x1000" />
+		<rom loadflag="continue" offset="0x18000" size="0x1000" />
+		<rom loadflag="continue" offset="0x58000" size="0x1000" />
+		<rom loadflag="continue" offset="0x19000" size="0x1000" />
+		<rom loadflag="continue" offset="0x59000" size="0x1000" />
+		<rom loadflag="continue" offset="0x1a000" size="0x1000" />
+		<rom loadflag="continue" offset="0x5a000" size="0x1000" />
+		<rom loadflag="continue" offset="0x1b000" size="0x1000" />
+		<rom loadflag="continue" offset="0x5b000" size="0x1000" />
+		<rom loadflag="continue" offset="0x1c000" size="0x1000" />
+		<rom loadflag="continue" offset="0x5c000" size="0x1000" />
+		<rom loadflag="continue" offset="0x1d000" size="0x1000" />
+		<rom loadflag="continue" offset="0x5d000" size="0x1000" />
+		<rom loadflag="continue" offset="0x1e000" size="0x1000" />
+		<rom loadflag="continue" offset="0x5e000" size="0x1000" />
+		<rom loadflag="continue" offset="0x1f000" size="0x1000" />
+		<rom loadflag="continue" offset="0x5f000" size="0x1000" />
+		<rom loadflag="continue" offset="0x20000" size="0x1000" />
+		<rom loadflag="continue" offset="0x60000" size="0x1000" />
+		<rom loadflag="continue" offset="0x21000" size="0x1000" />
+		<rom loadflag="continue" offset="0x61000" size="0x1000" />
+		<rom loadflag="continue" offset="0x22000" size="0x1000" />
+		<rom loadflag="continue" offset="0x62000" size="0x1000" />
+		<rom loadflag="continue" offset="0x23000" size="0x1000" />
+		<rom loadflag="continue" offset="0x63000" size="0x1000" />
+		<rom loadflag="continue" offset="0x24000" size="0x1000" />
+		<rom loadflag="continue" offset="0x64000" size="0x1000" />
+		<rom loadflag="continue" offset="0x25000" size="0x1000" />
+		<rom loadflag="continue" offset="0x65000" size="0x1000" />
+		<rom loadflag="continue" offset="0x26000" size="0x1000" />
+		<rom loadflag="continue" offset="0x66000" size="0x1000" />
+		<rom loadflag="continue" offset="0x27000" size="0x1000" />
+		<rom loadflag="continue" offset="0x67000" size="0x1000" />
+		<rom loadflag="continue" offset="0x28000" size="0x1000" />
+		<rom loadflag="continue" offset="0x68000" size="0x1000" />
+		<rom loadflag="continue" offset="0x29000" size="0x1000" />
+		<rom loadflag="continue" offset="0x69000" size="0x1000" />
+		<rom loadflag="continue" offset="0x2a000" size="0x1000" />
+		<rom loadflag="continue" offset="0x6a000" size="0x1000" />
+		<rom loadflag="continue" offset="0x2b000" size="0x1000" />
+		<rom loadflag="continue" offset="0x6b000" size="0x1000" />
+		<rom loadflag="continue" offset="0x2c000" size="0x1000" />
+		<rom loadflag="continue" offset="0x6c000" size="0x1000" />
+		<rom loadflag="continue" offset="0x2d000" size="0x1000" />
+		<rom loadflag="continue" offset="0x6d000" size="0x1000" />
+		<rom loadflag="continue" offset="0x2e000" size="0x1000" />
+		<rom loadflag="continue" offset="0x6e000" size="0x1000" />
+		<rom loadflag="continue" offset="0x2f000" size="0x1000" />
+		<rom loadflag="continue" offset="0x6f000" size="0x1000" />
+		<rom loadflag="continue" offset="0x30000" size="0x1000" />
+		<rom loadflag="continue" offset="0x70000" size="0x1000" />
+		<rom loadflag="continue" offset="0x31000" size="0x1000" />
+		<rom loadflag="continue" offset="0x71000" size="0x1000" />
+		<rom loadflag="continue" offset="0x32000" size="0x1000" />
+		<rom loadflag="continue" offset="0x72000" size="0x1000" />
+		<rom loadflag="continue" offset="0x33000" size="0x1000" />
+		<rom loadflag="continue" offset="0x73000" size="0x1000" />
+		<rom loadflag="continue" offset="0x34000" size="0x1000" />
+		<rom loadflag="continue" offset="0x74000" size="0x1000" />
+		<rom loadflag="continue" offset="0x35000" size="0x1000" />
+		<rom loadflag="continue" offset="0x75000" size="0x1000" />
+		<rom loadflag="continue" offset="0x36000" size="0x1000" />
+		<rom loadflag="continue" offset="0x76000" size="0x1000" />
+		<rom loadflag="continue" offset="0x37000" size="0x1000" />
+		<rom loadflag="continue" offset="0x77000" size="0x1000" />
+		<rom loadflag="continue" offset="0x38000" size="0x1000" />
+		<rom loadflag="continue" offset="0x78000" size="0x1000" />
+		<rom loadflag="continue" offset="0x39000" size="0x1000" />
+		<rom loadflag="continue" offset="0x79000" size="0x1000" />
+		<rom loadflag="continue" offset="0x3a000" size="0x1000" />
+		<rom loadflag="continue" offset="0x7a000" size="0x1000" />
+		<rom loadflag="continue" offset="0x3b000" size="0x1000" />
+		<rom loadflag="continue" offset="0x7b000" size="0x1000" />
+		<rom loadflag="continue" offset="0x3c000" size="0x1000" />
+		<rom loadflag="continue" offset="0x7c000" size="0x1000" />
+		<rom loadflag="continue" offset="0x3d000" size="0x1000" />
+		<rom loadflag="continue" offset="0x7d000" size="0x1000" />
+		<rom loadflag="continue" offset="0x3e000" size="0x1000" />
+		<rom loadflag="continue" offset="0x7e000" size="0x1000" />
+		<rom loadflag="continue" offset="0x3f000" size="0x1000" />
+		<rom loadflag="continue" offset="0x7f000" size="0x1000" />
+		</dataarea>
+		<dataarea name="proms" size="0x5a0">
+		<rom name="82s123.7f" offset="0x0" size="0x20" crc="2fc650bd" sha1="8d0268dee78e47c712202b0ec4f1f51109b1f2a5" />
+		<rom name="prom.7f" offset="0x60" size="0x20" crc="872b42f3" sha1="bbcd392ba3d2a5715e92fa0f7a7cf1e7e6e655a2" />
+		<rom name="puckren.7f" offset="0x80" size="0x20" crc="7b6aa3c9" sha1="849911abdc26ccf2ad44e2c432e6219447b8bef3" />
+		<rom name="glob.7f" offset="0xa0" size="0x20" crc="1f617527" sha1="448845cab63800a05fcb106897503d994377f78f" />
+		<rom name="7f.cpu" offset="0xc0" size="0x20" crc="7549a947" sha1="4f2c3e7d6c38f0b9a90317f91feb3f86c9a0d0a5" />
+		<rom name="pacplus.7f" offset="0xe0" size="0x20" crc="063dd53a" sha1="2e43b46ec3b101d1babab87cdaddfa944116ec06" />
+		<rom name="7f.rom" offset="0x100" size="0x20" crc="ec578b98" sha1="196da49cc260f967ec5f01bc3c75b11077c85998" />
+		<rom name="82s126.4a" offset="0x120" size="0x100" crc="3eb3a8e4" sha1="19097b5f60d1030f8b82d9f1d3a241f93e5c75d6" />
+		<rom name="82s129.4a" offset="0x1a0" size="0x100" crc="d8d78829" sha1="19820d1651423210083a087fb70ebea73ad34951" />
+		<rom name="2s140.4a" offset="0x220" size="0x100" crc="63efb927" sha1="5c144a613fc4960a1dfd7ead89e7fee258a63171" />
+		<rom name="prom.4a" offset="0x2a0" size="0x100" crc="0399f39f" sha1="e98f08da4666cab44e01acb760a1bd2fc858bc0d" />
+		<rom name="puckren.4a" offset="0x320" size="0x100" crc="64fe1dbf" sha1="7f7541eb12148add79ad186a1da375c865d251e0" />
+		<rom name="glob.4a" offset="0x3a0" size="0x100" crc="28faa769" sha1="7588889f3102d4e0ca7918f536556209b2490ea1" />
+		<rom name="4a.cpu" offset="0x420" size="0x100" crc="5fdca536" sha1="3a09b29374031aaa3722932aff974a467b3bb201" />
+		<rom name="pacplus.4a" offset="0x4a0" size="0x100" crc="e271a166" sha1="cf006536215a7a1d488eebc1d8a2e2a8134ce1a6" />
+		<rom name="4a.rom" offset="0x520" size="0x80" crc="81a6b30f" sha1="60c767fd536c325151a2b759fdbce4ba41e0c78f" />
+		</dataarea>
+	</part>
+</software>

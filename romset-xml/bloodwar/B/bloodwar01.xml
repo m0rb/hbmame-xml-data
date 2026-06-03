@@ -1,0 +1,49 @@
+<software name="bloodwar01">
+	<description>Blood Warrior (Easy Move)</description>
+	<year>1994</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="ofp0f3_s01.514" offset="0x0" size="0x80000" crc="e0d56791" sha1="275d6273525536a3db286c71ba3602a7705179ac" />
+		<rom loadflag="load16_byte" name="ofp1f3_s01.513" offset="0x1" size="0x80000" crc="e9c84790" sha1="6bd7525d7c90de1fb3ed68310298ecaa5462f659" />
+		</dataarea>
+		<dataarea name="kan_spr" size="0x1e00000">
+		<rom name="of-200-0201.8" offset="0x0" size="0x200000" crc="bba63025" sha1="daec5285469ee953f6f838fe3cb3903524e9ac39" />
+		<rom name="of-201-0202.9" offset="0x200000" size="0x200000" crc="4ffd9ddc" sha1="62bc8c0ed2efab407fc2956c514c3e732bcc47ee" />
+		<rom name="of-202-0203.10" offset="0x400000" size="0x200000" crc="fbcc5363" sha1="9eff48c29d5c887d39e4db442c6ee51ec879521e" />
+		<rom name="of-203-0204.11" offset="0x600000" size="0x200000" crc="8e818ce9" sha1="bc37d35247edfc563400cd67459d455b1fea6eab" />
+		<rom name="of-204-0205.12" offset="0x800000" size="0x200000" crc="70c4a76b" sha1="01b17bda156f2e6f480bdc976927c8bba47c1186" />
+		<rom name="of-205-0206.13" offset="0xa00000" size="0x200000" crc="80c667bb" sha1="7edf33c713c8448ff73fa84b9f7684dd4d46eed1" />
+		<rom name="of-206-0207.14" offset="0xc00000" size="0x200000" crc="c2028c97" sha1="ac3b73ff34f84015432ceb22cf9c57ab0ff07a70" />
+		<rom name="of-207-0208.15" offset="0xe00000" size="0x200000" crc="b1f30c61" sha1="2ae010c10b7a2ae09df904f7ea81425e80389622" />
+		<rom name="of-208-0209.28" offset="0x1000000" size="0x200000" crc="a8f29545" sha1="5d018147aa71207f679909343104deaa0f08fd9d" />
+		<rom loadflag="load16_byte" name="of-209e-0210.16" offset="0x1200000" size="0x100000" crc="93018468" sha1="d156f408a78fbd736048ce33e44c0b1e10403b0e" />
+		<rom loadflag="load16_byte" name="of-2090-2011.17" offset="0x1200001" size="0x100000" crc="3fb226a1" sha1="efba54f82fb9914559faad5fba92aa108ec039d5" />
+		<rom loadflag="load16_byte" name="of-210e-0212.18" offset="0x1400000" size="0x100000" crc="80f3fa1b" sha1="ca0e84cb47228ef5ac3b94238a33c3ebc3c2f528" />
+		<rom loadflag="load16_byte" name="of-2100-0213.19" offset="0x1400001" size="0x100000" crc="8ca3a3d6" sha1="b6f3876f987ce6828bfa26ca492ff6ca2d282d80" />
+		<rom loadflag="load16_byte" name="of-211e-0214.20" offset="0x1600000" size="0x100000" crc="8d3d96f7" sha1="0a7c459f02938f86d53979498647c73837eb9e51" />
+		<rom loadflag="load16_byte" name="of-2110-0215.21" offset="0x1600001" size="0x100000" crc="78268230" sha1="63fbf88551f6fde833222ae6a4382891e1bf5b39" />
+		<rom loadflag="load16_byte" name="of-212e-0216.22" offset="0x1800000" size="0x100000" crc="5a013d99" sha1="c4af944c8f0b33a93b4bb083e32e2901c5607a39" />
+		<rom loadflag="load16_byte" name="of-2120-0217.23" offset="0x1800001" size="0x100000" crc="84ed25bd" sha1="ddff811d326586eb7353230e74db37867af075eb" />
+		<rom loadflag="load16_byte" name="of-213e-0218.24" offset="0x1a00000" size="0x100000" crc="861bc5b1" sha1="a85936781a56b5406bee2e4f36fadcb5b9f43b05" />
+		<rom loadflag="load16_byte" name="of-2130-0219.25" offset="0x1a00001" size="0x100000" crc="a79b8119" sha1="62e3fb28fd3a538a8191a51242dbed7e88c62a54" />
+		<rom loadflag="load16_byte" name="of-214e-0220.26" offset="0x1c00000" size="0x100000" crc="43c622de" sha1="73efe57233f056127e2d34590c624f39d1c0ab79" />
+		<rom loadflag="load16_byte" name="of-2140-0221.27" offset="0x1c00001" size="0x100000" crc="d10bf03c" sha1="a81d6b7df7382fc8d50614c1332611e0c202b805" />
+		</dataarea>
+		<dataarea name="mcudata" size="0x20000">
+		<rom loadflag="load16_word_swap" name="ofd0x3.124" offset="0x0" size="0x20000" crc="399f2005" sha1="ff0370724770c35963953fd9596d9f808ba87d8f" />
+		</dataarea>
+		<dataarea name="oki1" size="0x100000">
+		<rom name="of-101-f-0223.101" offset="0x0" size="0x100000" crc="295f3c93" sha1="558698f1d04b23dd2a73e2eae5ecce598defb228" />
+		</dataarea>
+		<dataarea name="oki2" size="0x100000">
+		<rom name="of-100-0222.99" offset="0x0" size="0x100000" crc="42b12269" sha1="f9d9c42057e176710f09e8db0bfcbf603c15ca11" />
+		</dataarea>
+		<dataarea name="view2_0" size="0x100000">
+		<rom name="of-300-0225.51" offset="0x0" size="0x100000" crc="fbc3c08a" sha1="0ba52b381e7a10fb1513244b394438b440950af3" />
+		</dataarea>
+		<dataarea name="view2_1" size="0x100000">
+		<rom name="of-301-0226.55" offset="0x0" size="0x100000" crc="fcf215de" sha1="83015f10e62b917efd6e3edfbd45fb8f9b35db2b" />
+		</dataarea>
+	</part>
+</software>

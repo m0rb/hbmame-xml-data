@@ -1,0 +1,17 @@
+<software name="nwpuc2b" cloneof="puckman">
+	<description>New Puc2 (Set 2)</description>
+	<year>1981</year>
+	<publisher>Linear Elect</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="nwpuc2b.6e" offset="0x0" size="0x1000" crc="532bd09f" sha1="ed362ae0b38a00747128046a14d68d2a676953ae" />
+		<rom name="nwpuc2b.6f" offset="0x1000" size="0x1000" crc="b9062f57" sha1="cdfb2264fc5874cd18848fde936ea1314ce74cba" />
+		<rom name="nwpuc2b.6h" offset="0x2000" size="0x1000" crc="519b3c57" sha1="cc03d67035f9d590fadef899d9a2d978a4978b39" />
+		<rom name="nwpuc2b.6j" offset="0x3000" size="0x1000" crc="154cc118" sha1="e5bd6033653edcfadac467573613e1b7dbf9eb44" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="nwpuc2b.5e" offset="0x0" size="0x1000" crc="58357313" sha1="a1778318e07510eeb5b23a5d650f5a5f9fc0fb5a" />
+		<rom name="nwpuc2b.5f" offset="0x1000" size="0x1000" crc="4b044c87" sha1="3e1a497563918d1ddd730efb9622abe650a258a1" />
+		</dataarea>
+	</part>
+</software>

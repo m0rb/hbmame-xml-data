@@ -1,0 +1,26 @@
+<software name="mslug4hh61" cloneof="mslug4">
+	<description>Metal Slug 4 (Last Bullet, 2017-07-27)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x900000">
+		<rom loadflag="load16_word_swap" name="263hh61.p1" offset="0x0" size="0x100000" crc="ad713169" sha1="51c10dfa1b8fc3b0e7850c71920091dbd91d1ba5" />
+		<rom loadflag="load16_word_swap" name="263hh40.p2" offset="0x100000" size="0x800000" crc="427eed0b" sha1="6062f783d63748ec9fccad414d3c0a830295aad8" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="263lw.v1" offset="0x0" size="0x400000" crc="8cb5a9ef" sha1="272ad312f8694acf9190ebf48d1c8a5fec73c130" />
+		<rom name="263lwl.v2" offset="0x400000" size="0x400000" crc="c9572c14" sha1="4338aaceada29ea1cd2baf0d6ada4911246f5b09" />
+		<rom name="263lwl.v3" offset="0x800000" size="0x400000" crc="e7c14624" sha1="1d17f7e7cfe9bb03f1a374b31427c4e5203433f2" />
+		<rom name="263lwl.v4" offset="0xc00000" size="0x400000" crc="b1e5ac70" sha1="0d6eea68085c0e6cd7c7e29edb06f05a712f6d62" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="263nd.c1" offset="0x0" size="0x800000" crc="361ddda6" sha1="95f329019660f1ec7f15f6ea1e0c2bfc84b02ca8" />
+		<rom loadflag="load16_byte" name="263nd.c2" offset="0x1" size="0x800000" crc="15d192c4" sha1="0b9afb62a1d4d764d616408b09e17a05fc4a87e7" />
+		<rom loadflag="load16_byte" name="263lw.c3" offset="0x1000000" size="0x800000" crc="e296612c" sha1="57eb1861b738247aaf0643641268f676b71ed025" />
+		<rom loadflag="load16_byte" name="263lw.c4" offset="0x1000001" size="0x800000" crc="c22e3ad0" sha1="11ce301d4e5b4b1b76e2b82d18c4a9b8b56eeb20" />
+		<rom loadflag="load16_byte" name="263lw.c5" offset="0x2000000" size="0x400000" crc="288cd91f" sha1="a195be13d4ef19705cd3f08be1ec8cdacb29f159" />
+		<rom loadflag="load16_byte" name="263lw.c6" offset="0x2000001" size="0x400000" crc="b015aeee" sha1="24e12e72b82eea9e52a4cefc774efb3bd7db822f" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,33 @@
+<software name="akkanvdr01" cloneof="spcinv95">
+	<description>Akkanbeder (Chinese)</description>
+	<year>1995</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="e06-14hc01.20" offset="0x0" size="0x20000" crc="f1f71f95" sha1="b0d44fb3972f3b844855a9778df2d4bd026e5403" />
+		<rom loadflag="load32_byte" name="e06-13hc01.19" offset="0x1" size="0x20000" crc="5e94d31b" sha1="631607d4283dbbb9c8e6b3a71d742ef8f24887c5" />
+		<rom loadflag="load32_byte" name="e06-12hc01.18" offset="0x2" size="0x20000" crc="eccc4cc4" sha1="1d7317c8c58db9e4a95b3eed4474e8c04ece7444" />
+		<rom loadflag="load32_byte" name="e06-11hc01.17" offset="0x3" size="0x20000" crc="ee3e952d" sha1="5fd7db1bcb060b2efcb8ab0805f8e15c456cfb2c" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="e06-03hc03" offset="0x0" size="0x100000" crc="6565b5c7" sha1="5dc548dfd498ef6771b942168eb6d7d6e262912c" />
+		<rom loadflag="load16_byte" name="e06-02hc02" offset="0x1" size="0x100000" crc="eae1fe61" sha1="90f9477883ae3d4f7a2947acf748de4364b63384" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x100000">
+		<rom name="e06-01hc01" offset="0x0" size="0x100000" crc="b2091836" sha1="a849fbe0f6db36e76ca20de7f5b96bd60a139905" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="e06-09.32" offset="0x100000" size="0x40000" crc="9bcafc87" sha1="10b3f6da00a41550fe6a705232f0e33fda3c7e7c" />
+		<rom loadflag="load16_byte" name="e06-10.33" offset="0x100001" size="0x40000" crc="b752b61f" sha1="e948a8af19c70ba8b8e908c869bc88ed0cac8420" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="e06-04" offset="0x0" size="0x200000" crc="1dac29df" sha1="ed68a41def148dcf4057cfac87a2a563c6882e1d" />
+		<rom loadflag="load16_byte" name="e06-05" offset="0x400000" size="0x200000" crc="f370ff15" sha1="4bc464d1c3a28326c8b1ae2036387954cb1dd813" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x100000">
+		<rom name="e06-06hc01" offset="0x0" size="0x100000" crc="c1cd5367" sha1="0560f033169145f12d80211e4210399abda2a0e5" />
+		</dataarea>
+	</part>
+</software>

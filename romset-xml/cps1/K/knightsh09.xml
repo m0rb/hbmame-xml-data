@@ -1,0 +1,24 @@
+<software name="knightsh09" cloneof="knights">
+	<description>Knights of the Round (Tie Jia Ying Hao 1 Vs 3 Edition, 2018-03-03)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c18h09.p1" offset="0x0" size="0x80000" crc="55597d39" sha1="ed8d20b12cd2965f2b7579490c98da9e1bd4f40f" />
+		<rom loadflag="load16_word_swap" name="c18s02.p5" offset="0x80000" size="0x80000" crc="1438d070" sha1="4f6fad844c3e8eb960bb6cb85ac570979c0ae973" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c18.m1" offset="0x0" size="0x8000" crc="5e44d9ee" sha1="47a7503321be8d52b5c44af838e3bb82ee15a415" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="knights02.key" offset="0x0" size="0x80" crc="68d9786b" sha1="8721cda836d88c48ab07b96d66015832b5e561f7" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c18s04.v1" offset="0x0" size="0x20000" crc="9b9be3ab" sha1="9a5283d71551e71660a4741a647f5aea7e5ba89b" />
+		<rom name="c18.v2" offset="0x20000" size="0x20000" crc="bfc654e9" sha1="01b3d92e4dedf55ea3933d387c7ddb9ba2549773" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,30 @@
+<software name="varthj" cloneof="varth">
+	<description>Varth: Operation Thunderstorm (Japan 920714)</description>
+	<year>1992</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c21j.p1" offset="0x0" size="0x20000" crc="1d798d6a" sha1="b12579e9dcb88416bc00653b143832d9347adbaf" />
+		<rom loadflag="load16_byte" name="c21j.p2" offset="0x1" size="0x20000" crc="0f720233" sha1="2d9442ceafd5e2208aa8cd4bcb66861bff6aec47" />
+		<rom loadflag="load16_byte" name="c21j.p3" offset="0x40000" size="0x20000" crc="24414b17" sha1="6c0b24cf8045fc033217c737dba2c046d7d0a09a" />
+		<rom loadflag="load16_byte" name="c21j.p4" offset="0x40001" size="0x20000" crc="34b4b06c" sha1="3033d1d053ba97d6da17064d7b944a10817b93b1" />
+		<rom loadflag="load16_byte" name="c21j.p5" offset="0x80000" size="0x20000" crc="87c79aed" sha1="bb90720d1d04ed6ad276a5230cb078229aa8a40a" />
+		<rom loadflag="load16_byte" name="c21j.p6" offset="0x80001" size="0x20000" crc="210b4bd0" sha1="15771c32af9fb4760953ef5475de228200851b42" />
+		<rom loadflag="load16_byte" name="c21j.p7" offset="0xc0000" size="0x20000" crc="6b0da69f" sha1="5883bea31a22a44ad7494d6acd523c88b62f8743" />
+		<rom loadflag="load16_byte" name="c21j.p8" offset="0xc0001" size="0x20000" crc="6542c8a4" sha1="5f828cf28ef905e4701c92f317e1257a40964a65" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c21.m1" offset="0x0" size="0x8000" crc="7a99446e" sha1="ca027f41e3e58be5abc33ad7380746658cb5380a" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="varthj.key" offset="0x0" size="0x80" crc="d35a4a34" sha1="ff4a1a344544b82294b45e4a33b7b21e75026f47" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c21.v1" offset="0x0" size="0x20000" crc="de30510e" sha1="8e878696192606b76a3a0e53553e638d9621cff7" />
+		<rom name="c21.v2" offset="0x20000" size="0x20000" crc="0610a4ac" sha1="3da02ea6a7a56c85de898806d2a1cf6bc526c1b3" />
+		</dataarea>
+	</part>
+</software>

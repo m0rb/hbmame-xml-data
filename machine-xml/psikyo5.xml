@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="psikyo5" description="Psikyo5 cartridges">
+<software name="gunbird2s01" cloneof="gunbird2">
+	<description>Gunbird 2 (Ex Super Version, 2009-08-04)</description>
+	<year>2009</year>
+	<publisher>YZB &amp; Pipi899</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x180000">
+		<rom loadflag="load32_word_swap" name="2_prog_ls01.u16" offset="0x2" size="0x80000" crc="e4d9966a" sha1="0164ccf6a2786e2a15c6c185dcbe03db97dbe775" />
+		<rom loadflag="load32_word_swap" name="1_prog_hs01.u17" offset="0x0" size="0x80000" crc="1cca1f60" sha1="9647988f4871648eefd54d4afdb5d921f496ce1c" />
+		<rom loadflag="load16_word_swap" name="3_pdata.u1" offset="0x100000" size="0x80000" crc="a5b697e6" sha1="947f124fa585c2cf77c6571af7559bd652897b89" />
+		</dataarea>
+		<dataarea name="eeprom" size="0x100">
+		<rom name="eeprom-gunbird2.bin" offset="0x0" size="0x100" crc="7ac38846" sha1="c5f4b05a94211f3c96b8c472adbe634f2e77d753" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x3800000">
+		</dataarea>
+		<dataarea name="ymf" size="0x400000">
+		<rom name="sound.u9" offset="0x0" size="0x400000" crc="f19796ab" sha1="b978f0550ebd675e8ce9d9edcfcc3f6214e49e8b" />
+		</dataarea>
+	</part>
+</software>
+<software name="s1945iii01" cloneof="s1945iii">
+	<description>Strikers 1945 III (Ex Super Version, 2009-07-X3)</description>
+	<year>2009</year>
+	<publisher>Pipi899</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x180000">
+		<rom loadflag="load32_word_swap" name="2_progls01.u16" offset="0x2" size="0x80000" crc="465f06d4" sha1="2254ca868d526e04840e53016a55684a02bd483f" />
+		<rom loadflag="load32_word_swap" name="1_progh.u17" offset="0x0" size="0x80000" crc="1b8a5a18" sha1="718a176bd48e16f964fcb07c568b5227cfc0515f" />
+		<rom loadflag="load16_word_swap" name="3_data.u1" offset="0x100000" size="0x80000" crc="8ff5f7d3" sha1="420a3d7f2d5ab6a56789d36b418431f12f5f73f5" />
+		</dataarea>
+		<dataarea name="eeprom" size="0x100">
+		<rom name="eeprom-s1945iii.bin" offset="0x0" size="0x100" crc="b39f3604" sha1="d7c66210598096fcafb20adac2f0b293755f4926" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x3800000">
+		</dataarea>
+		<dataarea name="ymf" size="0x400000">
+		<rom name="sound.u9" offset="0x0" size="0x400000" crc="c5374beb" sha1="d13e12cbd249246d953c45bb3bfa576a0ec75595" />
+		</dataarea>
+	</part>
+</software>
+<software name="s1945iii02" cloneof="s1945iii">
+	<description>Strikers 1945 III (Version Enhanced, 2014-04-07)</description>
+	<year>2014</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x929e90">
+		<rom loadflag="load32_word_swap" name="2_progls02.u16" offset="0x2" size="0x454f48" crc="0e45ff7e" sha1="a76c4bb434168feaf1f72565f72dda8022edd10c" />
+		<rom loadflag="load32_word_swap" name="1_proghs02.u17" offset="0x0" size="0x454f48" crc="1c12a67c" sha1="ebf2a5e8e9cdbc2b91403fe8373ffa44833d73ec" />
+		<rom loadflag="load16_word_swap" name="3_data.u1" offset="0x100000" size="0x80000" crc="8ff5f7d3" sha1="420a3d7f2d5ab6a56789d36b418431f12f5f73f5" />
+		</dataarea>
+		<dataarea name="eeprom" size="0x100">
+		<rom name="eeprom-s1945iii.bin" offset="0x0" size="0x100" crc="b39f3604" sha1="d7c66210598096fcafb20adac2f0b293755f4926" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x3800000">
+		</dataarea>
+		<dataarea name="ymf" size="0x400000">
+		<rom name="sound.u9" offset="0x0" size="0x400000" crc="c5374beb" sha1="d13e12cbd249246d953c45bb3bfa576a0ec75595" />
+		</dataarea>
+	</part>
+</software>
+<software name="s1945iii03" cloneof="s1945iii">
+	<description>Strikers 1945 III (Secret Fighter, 2009-07-23)</description>
+	<year>2009</year>
+	<publisher>Pipi899</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x180000">
+		<rom loadflag="load32_word_swap" name="2_progls03.u16" offset="0x2" size="0x80000" crc="16b4e78e" sha1="ac16e3d7b959e7d28f1afc6eb6c590afa96fa379" />
+		<rom loadflag="load32_word_swap" name="1_proghs03.u17" offset="0x0" size="0x80000" crc="6607b00e" sha1="958d00880deb3d57c607402b8a87adaaa720914c" />
+		<rom loadflag="load16_word_swap" name="3_data.u1" offset="0x100000" size="0x80000" crc="8ff5f7d3" sha1="420a3d7f2d5ab6a56789d36b418431f12f5f73f5" />
+		</dataarea>
+		<dataarea name="eeprom" size="0x100">
+		<rom name="eeprom-s1945iii.bin" offset="0x0" size="0x100" crc="b39f3604" sha1="d7c66210598096fcafb20adac2f0b293755f4926" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x3800000">
+		</dataarea>
+		<dataarea name="ymf" size="0x400000">
+		<rom name="sound.u9" offset="0x0" size="0x400000" crc="c5374beb" sha1="d13e12cbd249246d953c45bb3bfa576a0ec75595" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

@@ -1,0 +1,843 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="tunit" description="Tunit cartridges">
+<software name="mk01" cloneof="mk">
+	<description>Mortal Kombat (French Rev.1)</description>
+	<year>2007</year>
+	<publisher>Arkatrad</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="mk01.uj12" offset="0x0" size="0x80000" crc="4192e38f" sha1="abe2e6f643a36df48a23aaa2f9027c78c6078d2d" />
+		<rom loadflag="load16_byte" name="mk01.ug12" offset="0x1" size="0x80000" crc="8799979d" sha1="4f094540e68c03fbd03cd8731797c55e455f61e6" />
+		</dataarea>
+		<dataarea name="adpcm:cpu" size="0x50000">
+		<rom name="sl1_mortal_kombat_u3_sound_rom.u3" offset="0x10000" size="0x40000" crc="c615844c" sha1="5732f9053a5f73b0cc3b0166d7dc4430829d5bc7" />
+		</dataarea>
+		<dataarea name="adpcm:oki" size="0x100000">
+		<rom name="sl1_mortal_kombat_u12_sound_rom.u12" offset="0x0" size="0x40000" crc="258bd7f9" sha1="463890b23f17350fb9b8a85897b0777c45bc2d54" />
+		<rom name="sl1_mortal_kombat_u13_sound_rom.u13" offset="0x80000" size="0x40000" crc="7b7ec3b6" sha1="6eec1b90d4a4855f34a7ebfbf93f3358d5627db4" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug14_game_rom.ug14" offset="0x0" size="0x80000" crc="9e00834e" sha1="2b97b63f52ba1dba6af6ae56c223519a52b2ab9d" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj14_game_rom.uj14" offset="0x1" size="0x80000" crc="f4b0aaa7" sha1="4cc6ee34c89e3cde325ad24b29511f70ae6a5a72" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug19_game_rom.ug19" offset="0x2" size="0x80000" crc="2d8c7ba1" sha1="f891d6eb618dbf3e77f02e0f93da216e20571905" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj19_game_rom.uj19" offset="0x3" size="0x80000" crc="33b9b7a4" sha1="e8ceca4c049e1f55d480a03ff793b595bd04d344" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug16_game_rom.ug16" offset="0x200000" size="0x80000" crc="52c9d1e5" sha1="7b1880fca0a11544782b70365c7dd96381ac48e7" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj16_game_rom.uj16" offset="0x200001" size="0x80000" crc="c94c58cf" sha1="974d75667eee779497325d5be8df937f15417edf" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug20_game_rom.ug20" offset="0x200002" size="0x80000" crc="2f7e55d3" sha1="bda6892ee6fcb46959e4d0892bbe7d9fc6072dd3" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj20_game_rom.uj20" offset="0x200003" size="0x80000" crc="eae96df0" sha1="b40532312ba61e4065abfd733dd0c93eecad48e9" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug17_game_rom.ug17" offset="0x400000" size="0x80000" crc="e34fe253" sha1="6b010bee795c1770297c9557ded1fe83425857f2" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj17_game_rom.uj17" offset="0x400001" size="0x80000" crc="a56e12f5" sha1="5db637c4710990cd06bb0069714b19621532e431" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug22_game_rom.ug22" offset="0x400002" size="0x80000" crc="b537bb4e" sha1="05a447deee2e89b49bdb3ca2161a021d7ec5f11e" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj22_game_rom.uj22" offset="0x400003" size="0x80000" crc="5e12523b" sha1="468f93ef9bb6addb45c1c939d24b6511f255426a" />
+		</dataarea>
+	</part>
+</software>
+<software name="mk02" cloneof="mk">
+	<description>Mortal Kombat (French Rev.2)</description>
+	<year>2007</year>
+	<publisher>S.Arkames</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="mk02.uj12" offset="0x0" size="0x80000" crc="2f47f224" sha1="44c10853696507e0c73eaeb1d5bda095af9ae62f" />
+		<rom loadflag="load16_byte" name="mk02.ug12" offset="0x1" size="0x80000" crc="39dd89b7" sha1="e2cfa470ed07824de2d1d43b7a6e7fb4bb8dacf3" />
+		</dataarea>
+		<dataarea name="adpcm:cpu" size="0x50000">
+		<rom name="sl1_mortal_kombat_u3_sound_rom.u3" offset="0x10000" size="0x40000" crc="c615844c" sha1="5732f9053a5f73b0cc3b0166d7dc4430829d5bc7" />
+		</dataarea>
+		<dataarea name="adpcm:oki" size="0x100000">
+		<rom name="sl1_mortal_kombat_u12_sound_rom.u12" offset="0x0" size="0x40000" crc="258bd7f9" sha1="463890b23f17350fb9b8a85897b0777c45bc2d54" />
+		<rom name="sl1_mortal_kombat_u13_sound_rom.u13" offset="0x80000" size="0x40000" crc="7b7ec3b6" sha1="6eec1b90d4a4855f34a7ebfbf93f3358d5627db4" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug14_game_rom.ug14" offset="0x0" size="0x80000" crc="9e00834e" sha1="2b97b63f52ba1dba6af6ae56c223519a52b2ab9d" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj14_game_rom.uj14" offset="0x1" size="0x80000" crc="f4b0aaa7" sha1="4cc6ee34c89e3cde325ad24b29511f70ae6a5a72" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug19_game_rom.ug19" offset="0x2" size="0x80000" crc="2d8c7ba1" sha1="f891d6eb618dbf3e77f02e0f93da216e20571905" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj19_game_rom.uj19" offset="0x3" size="0x80000" crc="33b9b7a4" sha1="e8ceca4c049e1f55d480a03ff793b595bd04d344" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug16_game_rom.ug16" offset="0x200000" size="0x80000" crc="52c9d1e5" sha1="7b1880fca0a11544782b70365c7dd96381ac48e7" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj16_game_rom.uj16" offset="0x200001" size="0x80000" crc="c94c58cf" sha1="974d75667eee779497325d5be8df937f15417edf" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug20_game_rom.ug20" offset="0x200002" size="0x80000" crc="2f7e55d3" sha1="bda6892ee6fcb46959e4d0892bbe7d9fc6072dd3" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj20_game_rom.uj20" offset="0x200003" size="0x80000" crc="eae96df0" sha1="b40532312ba61e4065abfd733dd0c93eecad48e9" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug17_game_rom.ug17" offset="0x400000" size="0x80000" crc="e34fe253" sha1="6b010bee795c1770297c9557ded1fe83425857f2" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj17_game_rom.uj17" offset="0x400001" size="0x80000" crc="a56e12f5" sha1="5db637c4710990cd06bb0069714b19621532e431" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug22_game_rom.ug22" offset="0x400002" size="0x80000" crc="b537bb4e" sha1="05a447deee2e89b49bdb3ca2161a021d7ec5f11e" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj22_game_rom.uj22" offset="0x400003" size="0x80000" crc="5e12523b" sha1="468f93ef9bb6addb45c1c939d24b6511f255426a" />
+		</dataarea>
+	</part>
+</software>
+<software name="mk03" cloneof="mk">
+	<description>Mortal Kombat (5.0K, 2018-02-20)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="mk03.uj12" offset="0x0" size="0x80000" crc="f04ded75" sha1="0ba305c8b63085889e1827e5231ce08b5b1adb6c" />
+		<rom loadflag="load16_byte" name="mk03.ug12" offset="0x1" size="0x80000" crc="30fd0268" sha1="2336e5d8cbaaeb6b08f7c68c32af3d02492f81f8" />
+		</dataarea>
+		<dataarea name="adpcm:cpu" size="0x50000">
+		<rom name="sl1_mortal_kombat_u3_sound_rom.u3" offset="0x10000" size="0x40000" crc="c615844c" sha1="5732f9053a5f73b0cc3b0166d7dc4430829d5bc7" />
+		</dataarea>
+		<dataarea name="adpcm:oki" size="0x100000">
+		<rom name="sl1_mortal_kombat_u12_sound_rom.u12" offset="0x0" size="0x40000" crc="258bd7f9" sha1="463890b23f17350fb9b8a85897b0777c45bc2d54" />
+		<rom name="sl1_mortal_kombat_u13_sound_rom.u13" offset="0x80000" size="0x40000" crc="7b7ec3b6" sha1="6eec1b90d4a4855f34a7ebfbf93f3358d5627db4" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug14_game_rom.ug14" offset="0x0" size="0x80000" crc="9e00834e" sha1="2b97b63f52ba1dba6af6ae56c223519a52b2ab9d" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj14_game_rom.uj14" offset="0x1" size="0x80000" crc="f4b0aaa7" sha1="4cc6ee34c89e3cde325ad24b29511f70ae6a5a72" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug19_game_rom.ug19" offset="0x2" size="0x80000" crc="2d8c7ba1" sha1="f891d6eb618dbf3e77f02e0f93da216e20571905" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj19_game_rom.uj19" offset="0x3" size="0x80000" crc="33b9b7a4" sha1="e8ceca4c049e1f55d480a03ff793b595bd04d344" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug16_game_rom.ug16" offset="0x200000" size="0x80000" crc="52c9d1e5" sha1="7b1880fca0a11544782b70365c7dd96381ac48e7" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj16_game_rom.uj16" offset="0x200001" size="0x80000" crc="c94c58cf" sha1="974d75667eee779497325d5be8df937f15417edf" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug20_game_rom.ug20" offset="0x200002" size="0x80000" crc="2f7e55d3" sha1="bda6892ee6fcb46959e4d0892bbe7d9fc6072dd3" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj20_game_rom.uj20" offset="0x200003" size="0x80000" crc="eae96df0" sha1="b40532312ba61e4065abfd733dd0c93eecad48e9" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug17_game_rom.ug17" offset="0x400000" size="0x80000" crc="e34fe253" sha1="6b010bee795c1770297c9557ded1fe83425857f2" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj17_game_rom.uj17" offset="0x400001" size="0x80000" crc="a56e12f5" sha1="5db637c4710990cd06bb0069714b19621532e431" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug22_game_rom.ug22" offset="0x400002" size="0x80000" crc="b537bb4e" sha1="05a447deee2e89b49bdb3ca2161a021d7ec5f11e" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj22_game_rom.uj22" offset="0x400003" size="0x80000" crc="5e12523b" sha1="468f93ef9bb6addb45c1c939d24b6511f255426a" />
+		</dataarea>
+	</part>
+</software>
+<software name="mk04" cloneof="mk">
+	<description>Mortal Kombat (Turbo Ninja T-Unit 03/19/93, hack/set 2)</description>
+	<year>1992</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="mk04.uj12" offset="0x0" size="0x80000" crc="7a441f2d" sha1="3b731bcbd73721ea0cc20157ec5181d25922523c" />
+		<rom loadflag="load16_byte" name="mk04.ug12" offset="0x1" size="0x80000" crc="bfab4bb6" sha1="fc48b4b1fd4f32d9a597e292a1121916c98968d1" />
+		</dataarea>
+		<dataarea name="adpcm:cpu" size="0x50000">
+		<rom name="sl1_mortal_kombat_u3_sound_rom.u3" offset="0x10000" size="0x40000" crc="c615844c" sha1="5732f9053a5f73b0cc3b0166d7dc4430829d5bc7" />
+		</dataarea>
+		<dataarea name="adpcm:oki" size="0x200000">
+		<rom name="sl1_mortal_kombat_u12_sound_rom.u12" offset="0x0" size="0x40000" crc="258bd7f9" sha1="463890b23f17350fb9b8a85897b0777c45bc2d54" />
+		<rom name="sl1_mortal_kombat_u13_sound_rom.u13" offset="0x80000" size="0x40000" crc="7b7ec3b6" sha1="6eec1b90d4a4855f34a7ebfbf93f3358d5627db4" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug14_game_rom.ug14" offset="0x0" size="0x80000" crc="9e00834e" sha1="2b97b63f52ba1dba6af6ae56c223519a52b2ab9d" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj14_game_rom.uj14" offset="0x1" size="0x80000" crc="f4b0aaa7" sha1="4cc6ee34c89e3cde325ad24b29511f70ae6a5a72" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug19_game_rom.ug19" offset="0x2" size="0x80000" crc="2d8c7ba1" sha1="f891d6eb618dbf3e77f02e0f93da216e20571905" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj19_game_rom.uj19" offset="0x3" size="0x80000" crc="33b9b7a4" sha1="e8ceca4c049e1f55d480a03ff793b595bd04d344" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug16_game_rom.ug16" offset="0x200000" size="0x80000" crc="52c9d1e5" sha1="7b1880fca0a11544782b70365c7dd96381ac48e7" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj16_game_rom.uj16" offset="0x200001" size="0x80000" crc="c94c58cf" sha1="974d75667eee779497325d5be8df937f15417edf" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug20_game_rom.ug20" offset="0x200002" size="0x80000" crc="2f7e55d3" sha1="bda6892ee6fcb46959e4d0892bbe7d9fc6072dd3" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj20_game_rom.uj20" offset="0x200003" size="0x80000" crc="eae96df0" sha1="b40532312ba61e4065abfd733dd0c93eecad48e9" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug17_game_rom.ug17" offset="0x400000" size="0x80000" crc="e34fe253" sha1="6b010bee795c1770297c9557ded1fe83425857f2" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj17_game_rom.uj17" offset="0x400001" size="0x80000" crc="a56e12f5" sha1="5db637c4710990cd06bb0069714b19621532e431" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug22_game_rom.ug22" offset="0x400002" size="0x80000" crc="b537bb4e" sha1="05a447deee2e89b49bdb3ca2161a021d7ec5f11e" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj22_game_rom.uj22" offset="0x400003" size="0x80000" crc="5e12523b" sha1="468f93ef9bb6addb45c1c939d24b6511f255426a" />
+		</dataarea>
+	</part>
+</software>
+<software name="mk05" cloneof="mk">
+	<description>Mortal Kombat (Turbo Endurance)</description>
+	<year>2012</year>
+	<publisher>Zenomorp</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="mk05.uj12" offset="0x0" size="0x80000" crc="53069455" sha1="f86da6036844b3e996fa9b3769e4f9979a920b28" />
+		<rom loadflag="load16_byte" name="mk05.ug12" offset="0x1" size="0x80000" crc="45bed5a1" sha1="dba2c21878925afdcaf61520c18ebefd5e9617db" />
+		</dataarea>
+		<dataarea name="adpcm:cpu" size="0x50000">
+		<rom name="sl1_mortal_kombat_u3_sound_rom.u3" offset="0x10000" size="0x40000" crc="c615844c" sha1="5732f9053a5f73b0cc3b0166d7dc4430829d5bc7" />
+		</dataarea>
+		<dataarea name="adpcm:oki" size="0x100000">
+		<rom name="sl1_mortal_kombat_u12_sound_rom.u12" offset="0x0" size="0x40000" crc="258bd7f9" sha1="463890b23f17350fb9b8a85897b0777c45bc2d54" />
+		<rom name="sl1_mortal_kombat_u13_sound_rom.u13" offset="0x80000" size="0x40000" crc="7b7ec3b6" sha1="6eec1b90d4a4855f34a7ebfbf93f3358d5627db4" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug14_game_rom.ug14" offset="0x0" size="0x80000" crc="9e00834e" sha1="2b97b63f52ba1dba6af6ae56c223519a52b2ab9d" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj14_game_rom.uj14" offset="0x1" size="0x80000" crc="f4b0aaa7" sha1="4cc6ee34c89e3cde325ad24b29511f70ae6a5a72" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug19_game_rom.ug19" offset="0x2" size="0x80000" crc="2d8c7ba1" sha1="f891d6eb618dbf3e77f02e0f93da216e20571905" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj19_game_rom.uj19" offset="0x3" size="0x80000" crc="33b9b7a4" sha1="e8ceca4c049e1f55d480a03ff793b595bd04d344" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug16_game_rom.ug16" offset="0x200000" size="0x80000" crc="52c9d1e5" sha1="7b1880fca0a11544782b70365c7dd96381ac48e7" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj16_game_rom.uj16" offset="0x200001" size="0x80000" crc="c94c58cf" sha1="974d75667eee779497325d5be8df937f15417edf" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug20_game_rom.ug20" offset="0x200002" size="0x80000" crc="2f7e55d3" sha1="bda6892ee6fcb46959e4d0892bbe7d9fc6072dd3" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj20_game_rom.uj20" offset="0x200003" size="0x80000" crc="eae96df0" sha1="b40532312ba61e4065abfd733dd0c93eecad48e9" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug17_game_rom.ug17" offset="0x400000" size="0x80000" crc="e34fe253" sha1="6b010bee795c1770297c9557ded1fe83425857f2" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj17_game_rom.uj17" offset="0x400001" size="0x80000" crc="a56e12f5" sha1="5db637c4710990cd06bb0069714b19621532e431" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug22_game_rom.ug22" offset="0x400002" size="0x80000" crc="b537bb4e" sha1="05a447deee2e89b49bdb3ca2161a021d7ec5f11e" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj22_game_rom.uj22" offset="0x400003" size="0x80000" crc="5e12523b" sha1="468f93ef9bb6addb45c1c939d24b6511f255426a" />
+		</dataarea>
+	</part>
+</software>
+<software name="mk06" cloneof="mk">
+	<description>Mortal Kombat (Projectile Insanity)</description>
+	<year>2012</year>
+	<publisher>Zenomorp</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="mk06.uj12" offset="0x0" size="0x80000" crc="f4a9a289" sha1="a94b0a5796457c6f2789e9fd5a1cb80fd6dcf22b" />
+		<rom loadflag="load16_byte" name="mk05.ug12" offset="0x1" size="0x80000" crc="45bed5a1" sha1="dba2c21878925afdcaf61520c18ebefd5e9617db" />
+		</dataarea>
+		<dataarea name="adpcm:cpu" size="0x50000">
+		<rom name="sl1_mortal_kombat_u3_sound_rom.u3" offset="0x10000" size="0x40000" crc="c615844c" sha1="5732f9053a5f73b0cc3b0166d7dc4430829d5bc7" />
+		</dataarea>
+		<dataarea name="adpcm:oki" size="0x100000">
+		<rom name="sl1_mortal_kombat_u12_sound_rom.u12" offset="0x0" size="0x40000" crc="258bd7f9" sha1="463890b23f17350fb9b8a85897b0777c45bc2d54" />
+		<rom name="sl1_mortal_kombat_u13_sound_rom.u13" offset="0x80000" size="0x40000" crc="7b7ec3b6" sha1="6eec1b90d4a4855f34a7ebfbf93f3358d5627db4" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug14_game_rom.ug14" offset="0x0" size="0x80000" crc="9e00834e" sha1="2b97b63f52ba1dba6af6ae56c223519a52b2ab9d" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj14_game_rom.uj14" offset="0x1" size="0x80000" crc="f4b0aaa7" sha1="4cc6ee34c89e3cde325ad24b29511f70ae6a5a72" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug19_game_rom.ug19" offset="0x2" size="0x80000" crc="2d8c7ba1" sha1="f891d6eb618dbf3e77f02e0f93da216e20571905" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj19_game_rom.uj19" offset="0x3" size="0x80000" crc="33b9b7a4" sha1="e8ceca4c049e1f55d480a03ff793b595bd04d344" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug16_game_rom.ug16" offset="0x200000" size="0x80000" crc="52c9d1e5" sha1="7b1880fca0a11544782b70365c7dd96381ac48e7" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj16_game_rom.uj16" offset="0x200001" size="0x80000" crc="c94c58cf" sha1="974d75667eee779497325d5be8df937f15417edf" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug20_game_rom.ug20" offset="0x200002" size="0x80000" crc="2f7e55d3" sha1="bda6892ee6fcb46959e4d0892bbe7d9fc6072dd3" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj20_game_rom.uj20" offset="0x200003" size="0x80000" crc="eae96df0" sha1="b40532312ba61e4065abfd733dd0c93eecad48e9" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug17_game_rom.ug17" offset="0x400000" size="0x80000" crc="e34fe253" sha1="6b010bee795c1770297c9557ded1fe83425857f2" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj17_game_rom.uj17" offset="0x400001" size="0x80000" crc="a56e12f5" sha1="5db637c4710990cd06bb0069714b19621532e431" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug22_game_rom.ug22" offset="0x400002" size="0x80000" crc="b537bb4e" sha1="05a447deee2e89b49bdb3ca2161a021d7ec5f11e" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj22_game_rom.uj22" offset="0x400003" size="0x80000" crc="5e12523b" sha1="468f93ef9bb6addb45c1c939d24b6511f255426a" />
+		</dataarea>
+	</part>
+</software>
+<software name="mk07" cloneof="mk">
+	<description>Mortal Kombat Plus (v5.0.0741)</description>
+	<year>2020</year>
+	<publisher>Zpaul2fresh8</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="mk07.uj12" offset="0x0" size="0x80000" crc="8edf28c0" sha1="bc91c95d3bbe9942e6cbfa04b77449f9b7becef5" />
+		<rom loadflag="load16_byte" name="mk07.ug12" offset="0x1" size="0x80000" crc="be771d8d" sha1="9644acd2c9392c3a84586d0ea9a51e96e195bf27" />
+		</dataarea>
+		<dataarea name="adpcm:cpu" size="0x50000">
+		<rom name="sl1_mortal_kombat_u3_sound_rom.u3" offset="0x10000" size="0x40000" crc="c615844c" sha1="5732f9053a5f73b0cc3b0166d7dc4430829d5bc7" />
+		</dataarea>
+		<dataarea name="adpcm:oki" size="0x100000">
+		<rom name="sl1_mortal_kombat_u12_sound_rom.u12" offset="0x0" size="0x40000" crc="258bd7f9" sha1="463890b23f17350fb9b8a85897b0777c45bc2d54" />
+		<rom name="sl1_mortal_kombat_u13_sound_rom.u13" offset="0x80000" size="0x40000" crc="7b7ec3b6" sha1="6eec1b90d4a4855f34a7ebfbf93f3358d5627db4" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug14_game_rom.ug14" offset="0x0" size="0x80000" crc="9e00834e" sha1="2b97b63f52ba1dba6af6ae56c223519a52b2ab9d" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj14_game_rom.uj14" offset="0x1" size="0x80000" crc="f4b0aaa7" sha1="4cc6ee34c89e3cde325ad24b29511f70ae6a5a72" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug19_game_rom.ug19" offset="0x2" size="0x80000" crc="2d8c7ba1" sha1="f891d6eb618dbf3e77f02e0f93da216e20571905" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj19_game_rom.uj19" offset="0x3" size="0x80000" crc="33b9b7a4" sha1="e8ceca4c049e1f55d480a03ff793b595bd04d344" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug16_game_rom.ug16" offset="0x200000" size="0x80000" crc="52c9d1e5" sha1="7b1880fca0a11544782b70365c7dd96381ac48e7" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj16_game_rom.uj16" offset="0x200001" size="0x80000" crc="c94c58cf" sha1="974d75667eee779497325d5be8df937f15417edf" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug20_game_rom.ug20" offset="0x200002" size="0x80000" crc="2f7e55d3" sha1="bda6892ee6fcb46959e4d0892bbe7d9fc6072dd3" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj20_game_rom.uj20" offset="0x200003" size="0x80000" crc="eae96df0" sha1="b40532312ba61e4065abfd733dd0c93eecad48e9" />
+		<rom loadflag="load32_byte" name="mk07.ug17" offset="0x400000" size="0x80000" crc="44b5de0e" sha1="6de874ca200102ab7e584b66c32d2b3973e55289" />
+		<rom loadflag="load32_byte" name="mk07.uj17" offset="0x400001" size="0x80000" crc="c69cd46c" sha1="6bd20e9b6c17c1fa706210c79cb3da2f82b003b2" />
+		<rom loadflag="load32_byte" name="mk07.ug22" offset="0x400002" size="0x80000" crc="e742a405" sha1="cf37eb68464955415ae71d7ffbc8c9dd0fc13f87" />
+		<rom loadflag="load32_byte" name="mk07.uj22" offset="0x400003" size="0x80000" crc="34110899" sha1="84139426caf0c89b921ba74638ae8a6564616f9f" />
+		</dataarea>
+	</part>
+</software>
+<software name="mk2s01" cloneof="mk2">
+	<description>Mortal Kombat II (3.1K, 2020-06-01)</description>
+	<year>2020</year>
+	<publisher>TEAM UMK 3</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="mk2s01.uj12" offset="0x0" size="0x80000" crc="049aa957" sha1="5a173938d7786a55fbf78db3df25aa9be8efea9c" />
+		<rom loadflag="load16_byte" name="mk2s01.ug12" offset="0x1" size="0x80000" crc="6eb2bd15" sha1="e767ba4e5878a2e139803f2ec9cc60a4baaad556" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0xc00000">
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u2.u2" offset="0x0" size="0x80000" crc="5f23d71d" sha1="54c2afef243759e0f3dbe2907edbc4302f5c8bad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u3.u3" offset="0x200000" size="0x80000" crc="d6d92bf9" sha1="397351c6b707f2595e36360471015f9fa494e894" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u4.u4" offset="0x400000" size="0x80000" crc="eebc8e0f" sha1="705ab63ff7672a4857d546afda6dca4973cce1ad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u5.u5" offset="0x600000" size="0x80000" crc="2b0b7961" sha1="1cdc64aab74d14afbd8c3531e3d0bd49271a281f" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u6.u6" offset="0x800000" size="0x80000" crc="f694b27f" sha1="d43e38a124665f49ebb4ffc5a55e8f19a1a64686" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u7.u7" offset="0xa00000" size="0x80000" crc="20387e0a" sha1="505d05173b2a1f1ee3ebc2898ccd3a95c98dd04a" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug14.ug14" offset="0x0" size="0x100000" crc="01e73af6" sha1="6598cfd704cc92a7f358a0e1f1c973ab79dcc493" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj14.uj14" offset="0x1" size="0x100000" crc="d4985cbb" sha1="367865da7efae38d83de3c0868d02a705177ae63" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug19.ug19" offset="0x2" size="0x100000" crc="fec137be" sha1="f11ecb8a7993f5c4f4449564b4911f69bd6e9bf8" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj19.uj19" offset="0x3" size="0x100000" crc="2d763156" sha1="06536006da49ab5fb6b75b25f801b83fad000ff5" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug16.ug16" offset="0x400000" size="0x100000" crc="8ba6ae18" sha1="465fe907de4a1e502180c4e41642998dd3abc8e6" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj16.uj16" offset="0x400001" size="0x100000" crc="39d885b4" sha1="2251826d247c3c6df421124718401fb35a672f83" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug20.ug20" offset="0x400002" size="0x100000" crc="809118c1" sha1="86153e648834c749e34573151cd4fee403a81962" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj20.uj20" offset="0x400003" size="0x100000" crc="b96824f0" sha1="d42b122f9a57da330192abc7e5f97abc4065d718" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug17.ug17" offset="0x800000" size="0x100000" crc="937d8620" sha1="8b9f80a460b124a747a6d1495b53f01f580e28f1" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj17.uj17" offset="0x800001" size="0x100000" crc="218de160" sha1="87aea173720d2a33d8183903f4fe8ba1d47e3348" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug22.ug22" offset="0x800002" size="0x100000" crc="154d53b1" sha1="58ff0aa59101f40a9a3b5fbae1c904d0b0b31612" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj22.uj22" offset="0x800003" size="0x100000" crc="8891d785" sha1="fd460df1ef8f4306ea42f7dc41488a80fd2c8f53" />
+		</dataarea>
+	</part>
+</software>
+<software name="mk2s02" cloneof="mk2">
+	<description>Mortal Kombat II (French, 2007-02-12)</description>
+	<year>2007</year>
+	<publisher>Arkatrad</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="mk2s02.uj12" offset="0x0" size="0x80000" crc="0f801e9b" sha1="b0dc620e1be6b89ff0a1dcd64eec678e81a2ea69" />
+		<rom loadflag="load16_byte" name="mk2s02.ug12" offset="0x1" size="0x80000" crc="d896c9b6" sha1="61e26c6acaf810e0788aef31000056e524b87b06" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0xc00000">
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u2.u2" offset="0x0" size="0x80000" crc="5f23d71d" sha1="54c2afef243759e0f3dbe2907edbc4302f5c8bad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u3.u3" offset="0x200000" size="0x80000" crc="d6d92bf9" sha1="397351c6b707f2595e36360471015f9fa494e894" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u4.u4" offset="0x400000" size="0x80000" crc="eebc8e0f" sha1="705ab63ff7672a4857d546afda6dca4973cce1ad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u5.u5" offset="0x600000" size="0x80000" crc="2b0b7961" sha1="1cdc64aab74d14afbd8c3531e3d0bd49271a281f" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u6.u6" offset="0x800000" size="0x80000" crc="f694b27f" sha1="d43e38a124665f49ebb4ffc5a55e8f19a1a64686" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u7.u7" offset="0xa00000" size="0x80000" crc="20387e0a" sha1="505d05173b2a1f1ee3ebc2898ccd3a95c98dd04a" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug14.ug14" offset="0x0" size="0x100000" crc="01e73af6" sha1="6598cfd704cc92a7f358a0e1f1c973ab79dcc493" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj14.uj14" offset="0x1" size="0x100000" crc="d4985cbb" sha1="367865da7efae38d83de3c0868d02a705177ae63" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug19.ug19" offset="0x2" size="0x100000" crc="fec137be" sha1="f11ecb8a7993f5c4f4449564b4911f69bd6e9bf8" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj19.uj19" offset="0x3" size="0x100000" crc="2d763156" sha1="06536006da49ab5fb6b75b25f801b83fad000ff5" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug16.ug16" offset="0x400000" size="0x100000" crc="8ba6ae18" sha1="465fe907de4a1e502180c4e41642998dd3abc8e6" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj16.uj16" offset="0x400001" size="0x100000" crc="39d885b4" sha1="2251826d247c3c6df421124718401fb35a672f83" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug20.ug20" offset="0x400002" size="0x100000" crc="809118c1" sha1="86153e648834c749e34573151cd4fee403a81962" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj20.uj20" offset="0x400003" size="0x100000" crc="b96824f0" sha1="d42b122f9a57da330192abc7e5f97abc4065d718" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug17.ug17" offset="0x800000" size="0x100000" crc="937d8620" sha1="8b9f80a460b124a747a6d1495b53f01f580e28f1" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj17.uj17" offset="0x800001" size="0x100000" crc="218de160" sha1="87aea173720d2a33d8183903f4fe8ba1d47e3348" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug22.ug22" offset="0x800002" size="0x100000" crc="154d53b1" sha1="58ff0aa59101f40a9a3b5fbae1c904d0b0b31612" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj22.uj22" offset="0x800003" size="0x100000" crc="8891d785" sha1="fd460df1ef8f4306ea42f7dc41488a80fd2c8f53" />
+		</dataarea>
+	</part>
+</software>
+<software name="mk2s03" cloneof="mk2">
+	<description>Mortal Kombat II (2.8.0 plus beta 1, 2017-09-24)</description>
+	<year>2017</year>
+	<publisher>mortalkombatplus.com</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="mk2s03.uj12" offset="0x0" size="0x80000" crc="87a755b5" sha1="d1796dfae89ca1163cb3db3638066d4bd54d32a8" />
+		<rom loadflag="load16_byte" name="mk2s03.ug12" offset="0x1" size="0x80000" crc="b59368c4" sha1="987ff2ee0944955289b6b156c375b183819072bd" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0xc00000">
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u2.u2" offset="0x0" size="0x80000" crc="5f23d71d" sha1="54c2afef243759e0f3dbe2907edbc4302f5c8bad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u3.u3" offset="0x200000" size="0x80000" crc="d6d92bf9" sha1="397351c6b707f2595e36360471015f9fa494e894" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u4.u4" offset="0x400000" size="0x80000" crc="eebc8e0f" sha1="705ab63ff7672a4857d546afda6dca4973cce1ad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u5.u5" offset="0x600000" size="0x80000" crc="2b0b7961" sha1="1cdc64aab74d14afbd8c3531e3d0bd49271a281f" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u6.u6" offset="0x800000" size="0x80000" crc="f694b27f" sha1="d43e38a124665f49ebb4ffc5a55e8f19a1a64686" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u7.u7" offset="0xa00000" size="0x80000" crc="20387e0a" sha1="505d05173b2a1f1ee3ebc2898ccd3a95c98dd04a" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug14.ug14" offset="0x0" size="0x100000" crc="01e73af6" sha1="6598cfd704cc92a7f358a0e1f1c973ab79dcc493" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj14.uj14" offset="0x1" size="0x100000" crc="d4985cbb" sha1="367865da7efae38d83de3c0868d02a705177ae63" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug19.ug19" offset="0x2" size="0x100000" crc="fec137be" sha1="f11ecb8a7993f5c4f4449564b4911f69bd6e9bf8" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj19.uj19" offset="0x3" size="0x100000" crc="2d763156" sha1="06536006da49ab5fb6b75b25f801b83fad000ff5" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug16.ug16" offset="0x400000" size="0x100000" crc="8ba6ae18" sha1="465fe907de4a1e502180c4e41642998dd3abc8e6" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj16.uj16" offset="0x400001" size="0x100000" crc="39d885b4" sha1="2251826d247c3c6df421124718401fb35a672f83" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug20.ug20" offset="0x400002" size="0x100000" crc="809118c1" sha1="86153e648834c749e34573151cd4fee403a81962" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj20.uj20" offset="0x400003" size="0x100000" crc="b96824f0" sha1="d42b122f9a57da330192abc7e5f97abc4065d718" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug17.ug17" offset="0x800000" size="0x100000" crc="937d8620" sha1="8b9f80a460b124a747a6d1495b53f01f580e28f1" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj17.uj17" offset="0x800001" size="0x100000" crc="218de160" sha1="87aea173720d2a33d8183903f4fe8ba1d47e3348" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug22.ug22" offset="0x800002" size="0x100000" crc="154d53b1" sha1="58ff0aa59101f40a9a3b5fbae1c904d0b0b31612" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj22.uj22" offset="0x800003" size="0x100000" crc="8891d785" sha1="fd460df1ef8f4306ea42f7dc41488a80fd2c8f53" />
+		</dataarea>
+	</part>
+</software>
+<software name="mk2s04" cloneof="mk2">
+	<description>Mortal Kombat II (2.8.5 plus beta 2, 2018-12-23)</description>
+	<year>2018</year>
+	<publisher>mortalkombatplus.com</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="mk2s04.uj12" offset="0x0" size="0x80000" crc="05ff15a9" sha1="23e9c47644c756d7568b6e5122801b19cf594e9b" />
+		<rom loadflag="load16_byte" name="mk2s04.ug12" offset="0x1" size="0x80000" crc="b6d8ff5c" sha1="ad974cc0dcdf35c7175f7cb8c620b58b82843523" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0xc00000">
+		<rom loadflag="load16_byte" name="mk2pb2.u2" offset="0x0" size="0x80000" crc="65d11dd7" sha1="bb94cca5a35f8f285d32314f8762c3c52ec48f5b" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u3.u3" offset="0x200000" size="0x80000" crc="d6d92bf9" sha1="397351c6b707f2595e36360471015f9fa494e894" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u4.u4" offset="0x400000" size="0x80000" crc="eebc8e0f" sha1="705ab63ff7672a4857d546afda6dca4973cce1ad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u5.u5" offset="0x600000" size="0x80000" crc="2b0b7961" sha1="1cdc64aab74d14afbd8c3531e3d0bd49271a281f" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u6.u6" offset="0x800000" size="0x80000" crc="f694b27f" sha1="d43e38a124665f49ebb4ffc5a55e8f19a1a64686" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u7.u7" offset="0xa00000" size="0x80000" crc="20387e0a" sha1="505d05173b2a1f1ee3ebc2898ccd3a95c98dd04a" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug14.ug14" offset="0x0" size="0x100000" crc="01e73af6" sha1="6598cfd704cc92a7f358a0e1f1c973ab79dcc493" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj14.uj14" offset="0x1" size="0x100000" crc="d4985cbb" sha1="367865da7efae38d83de3c0868d02a705177ae63" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug19.ug19" offset="0x2" size="0x100000" crc="fec137be" sha1="f11ecb8a7993f5c4f4449564b4911f69bd6e9bf8" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj19.uj19" offset="0x3" size="0x100000" crc="2d763156" sha1="06536006da49ab5fb6b75b25f801b83fad000ff5" />
+		<rom loadflag="load32_byte" name="mk2s04.ug16" offset="0x400000" size="0x100000" crc="b2af2798" sha1="3d679fb59753b72f961fe60a65e4e03a76b64266" />
+		<rom loadflag="load32_byte" name="mk2s04.uj16" offset="0x400001" size="0x100000" crc="d70dd149" sha1="1add61f22a68c0bd8dba3fa0da18f5ecc7f51c6f" />
+		<rom loadflag="load32_byte" name="mk2s04.ug20" offset="0x400002" size="0x100000" crc="d05e970a" sha1="0f07d72c0ae9ed77c79b4a39abbc047df68a6b1d" />
+		<rom loadflag="load32_byte" name="mk2s04.uj20" offset="0x400003" size="0x100000" crc="0f9c9a12" sha1="6c593ab037f9e203e50a13bef1cdbba765a45845" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug17.ug17" offset="0x800000" size="0x100000" crc="937d8620" sha1="8b9f80a460b124a747a6d1495b53f01f580e28f1" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj17.uj17" offset="0x800001" size="0x100000" crc="218de160" sha1="87aea173720d2a33d8183903f4fe8ba1d47e3348" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug22.ug22" offset="0x800002" size="0x100000" crc="154d53b1" sha1="58ff0aa59101f40a9a3b5fbae1c904d0b0b31612" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj22.uj22" offset="0x800003" size="0x100000" crc="8891d785" sha1="fd460df1ef8f4306ea42f7dc41488a80fd2c8f53" />
+		</dataarea>
+	</part>
+</software>
+<software name="mk2s05" cloneof="mk2">
+	<description>Mortal Kombat II (3.3 prototype)</description>
+	<year>1993</year>
+	<publisher>Midway</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="mk2s05.uj12" offset="0x0" size="0x80000" crc="84cb0bf4" sha1="098e0b5be75c60733f3a63893431506cb99f0981" />
+		<rom loadflag="load16_byte" name="mk2s05.ug12" offset="0x1" size="0x80000" crc="2021ec4f" sha1="7f357abd7ae66eda8eae2b318426da668cfe1deb" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0xc00000">
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u2.u2" offset="0x0" size="0x80000" crc="5f23d71d" sha1="54c2afef243759e0f3dbe2907edbc4302f5c8bad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u3.u3" offset="0x200000" size="0x80000" crc="d6d92bf9" sha1="397351c6b707f2595e36360471015f9fa494e894" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u4.u4" offset="0x400000" size="0x80000" crc="eebc8e0f" sha1="705ab63ff7672a4857d546afda6dca4973cce1ad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u5.u5" offset="0x600000" size="0x80000" crc="2b0b7961" sha1="1cdc64aab74d14afbd8c3531e3d0bd49271a281f" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u6.u6" offset="0x800000" size="0x80000" crc="f694b27f" sha1="d43e38a124665f49ebb4ffc5a55e8f19a1a64686" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u7.u7" offset="0xa00000" size="0x80000" crc="20387e0a" sha1="505d05173b2a1f1ee3ebc2898ccd3a95c98dd04a" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug14.ug14" offset="0x0" size="0x100000" crc="01e73af6" sha1="6598cfd704cc92a7f358a0e1f1c973ab79dcc493" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj14.uj14" offset="0x1" size="0x100000" crc="d4985cbb" sha1="367865da7efae38d83de3c0868d02a705177ae63" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug19.ug19" offset="0x2" size="0x100000" crc="fec137be" sha1="f11ecb8a7993f5c4f4449564b4911f69bd6e9bf8" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj19.uj19" offset="0x3" size="0x100000" crc="2d763156" sha1="06536006da49ab5fb6b75b25f801b83fad000ff5" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug16.ug16" offset="0x400000" size="0x100000" crc="8ba6ae18" sha1="465fe907de4a1e502180c4e41642998dd3abc8e6" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj16.uj16" offset="0x400001" size="0x100000" crc="39d885b4" sha1="2251826d247c3c6df421124718401fb35a672f83" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug20.ug20" offset="0x400002" size="0x100000" crc="809118c1" sha1="86153e648834c749e34573151cd4fee403a81962" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj20.uj20" offset="0x400003" size="0x100000" crc="b96824f0" sha1="d42b122f9a57da330192abc7e5f97abc4065d718" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug17.ug17" offset="0x800000" size="0x100000" crc="937d8620" sha1="8b9f80a460b124a747a6d1495b53f01f580e28f1" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj17.uj17" offset="0x800001" size="0x100000" crc="218de160" sha1="87aea173720d2a33d8183903f4fe8ba1d47e3348" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug22.ug22" offset="0x800002" size="0x100000" crc="154d53b1" sha1="58ff0aa59101f40a9a3b5fbae1c904d0b0b31612" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj22.uj22" offset="0x800003" size="0x100000" crc="8891d785" sha1="fd460df1ef8f4306ea42f7dc41488a80fd2c8f53" />
+		</dataarea>
+	</part>
+</software>
+<software name="mk2s06" cloneof="mk2">
+	<description>Mortal Kombat II (SP4K, 2021-08-05)</description>
+	<year>2021</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="mk2s06.uj12" offset="0x0" size="0x80000" crc="a755a400" sha1="0c5ca8885369897f08a81f0b9e49f05919e3efcf" />
+		<rom loadflag="load16_byte" name="mk2s06.ug12" offset="0x1" size="0x80000" crc="d1fef398" sha1="10aa6bf25f89327207697b968d9f57d2c6127328" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0xc00000">
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u2.u2" offset="0x0" size="0x80000" crc="5f23d71d" sha1="54c2afef243759e0f3dbe2907edbc4302f5c8bad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u3.u3" offset="0x200000" size="0x80000" crc="d6d92bf9" sha1="397351c6b707f2595e36360471015f9fa494e894" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u4.u4" offset="0x400000" size="0x80000" crc="eebc8e0f" sha1="705ab63ff7672a4857d546afda6dca4973cce1ad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u5.u5" offset="0x600000" size="0x80000" crc="2b0b7961" sha1="1cdc64aab74d14afbd8c3531e3d0bd49271a281f" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u6.u6" offset="0x800000" size="0x80000" crc="f694b27f" sha1="d43e38a124665f49ebb4ffc5a55e8f19a1a64686" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u7.u7" offset="0xa00000" size="0x80000" crc="20387e0a" sha1="505d05173b2a1f1ee3ebc2898ccd3a95c98dd04a" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug14.ug14" offset="0x0" size="0x100000" crc="01e73af6" sha1="6598cfd704cc92a7f358a0e1f1c973ab79dcc493" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj14.uj14" offset="0x1" size="0x100000" crc="d4985cbb" sha1="367865da7efae38d83de3c0868d02a705177ae63" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug19.ug19" offset="0x2" size="0x100000" crc="fec137be" sha1="f11ecb8a7993f5c4f4449564b4911f69bd6e9bf8" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj19.uj19" offset="0x3" size="0x100000" crc="2d763156" sha1="06536006da49ab5fb6b75b25f801b83fad000ff5" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug16.ug16" offset="0x400000" size="0x100000" crc="8ba6ae18" sha1="465fe907de4a1e502180c4e41642998dd3abc8e6" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj16.uj16" offset="0x400001" size="0x100000" crc="39d885b4" sha1="2251826d247c3c6df421124718401fb35a672f83" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug20.ug20" offset="0x400002" size="0x100000" crc="809118c1" sha1="86153e648834c749e34573151cd4fee403a81962" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj20.uj20" offset="0x400003" size="0x100000" crc="b96824f0" sha1="d42b122f9a57da330192abc7e5f97abc4065d718" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug17.ug17" offset="0x800000" size="0x100000" crc="937d8620" sha1="8b9f80a460b124a747a6d1495b53f01f580e28f1" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj17.uj17" offset="0x800001" size="0x100000" crc="218de160" sha1="87aea173720d2a33d8183903f4fe8ba1d47e3348" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug22.ug22" offset="0x800002" size="0x100000" crc="154d53b1" sha1="58ff0aa59101f40a9a3b5fbae1c904d0b0b31612" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj22.uj22" offset="0x800003" size="0x100000" crc="8891d785" sha1="fd460df1ef8f4306ea42f7dc41488a80fd2c8f53" />
+		</dataarea>
+	</part>
+</software>
+<software name="nbajam01" cloneof="nbajamte">
+	<description>NBA Jam TE (rev XXX)</description>
+	<year>1994</year>
+	<publisher>Midway</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="l4_nba_jam_tournament_game_rom_uj12.uj12" offset="0x0" size="0x80000" crc="d7c21bc4" sha1="e05f0299b955500df6a08b1c0b24b932a9cdfa6a" />
+		<rom loadflag="load16_byte" name="l4_nba_jam_tournament_game_rom_ug12.ug12" offset="0x1" size="0x80000" crc="7ad49229" sha1="e9ceedb0e620809d8a4d42087d806aa296a4cd59" />
+		</dataarea>
+		<dataarea name="adpcm:cpu" size="0x50000">
+		<rom name="l1_nba_jam_tournament_u3_sound_rom.u3" offset="0x10000" size="0x20000" crc="d4551195" sha1="e8908fbe4339fb8c93f7e74113dfd25dda1667ea" />
+		</dataarea>
+		<dataarea name="adpcm:oki" size="0x100000">
+		<rom name="nbajam01.u12" offset="0x0" size="0x80000" crc="dd0b81b1" sha1="1ea938138e2267b30250de9a7f643ba624923204" />
+		<rom name="nbajam01.u13" offset="0x80000" size="0x80000" crc="b42a0374" sha1="6a565fc01b662d116db065172c057ee596b3a538" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug14.ug14" offset="0x0" size="0x80000" crc="04bb9f64" sha1="9e1a8c37e14cb6fe67f4aa3caa9022f356f1ca64" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj14.uj14" offset="0x1" size="0x80000" crc="b34b7af3" sha1="0abb74d2f414bc9da0380a81beb134f3a87c1a0a" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug19.ug19" offset="0x2" size="0x80000" crc="a8f22fbb" sha1="514208a9d6d0c8c2d7847cc02d4387eac90be659" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj19.uj19" offset="0x3" size="0x80000" crc="8130a8a2" sha1="f23f124024285d07d8cf822817b62e42c38b82db" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug16.ug16" offset="0x200000" size="0x80000" crc="c7ce74d0" sha1="93861cd909e0f28ed112096d6f9fc57d0d31c57c" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj16.uj16" offset="0x200001" size="0x80000" crc="905ad88b" sha1="24c336ccc0e2ac0ee96a34ad6fe4aa7464de0009" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug20.ug20" offset="0x200002" size="0x80000" crc="8a48728c" sha1="3684099b4934b027336c319c77d9e0710b8c22dc" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj20.uj20" offset="0x200003" size="0x80000" crc="bf263d61" sha1="b5b59e8df55f8030eff068c1d8b07dad8521bf5d" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug17.ug17" offset="0x400000" size="0x80000" crc="9401be62" sha1="597413a8a1eb66a7ad89af2f548fa3062e5e8efb" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj17.uj17" offset="0x400001" size="0x80000" crc="8a852b9e" sha1="604c7f4305887e9505320630027765ea76607c58" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug22.ug22" offset="0x400002" size="0x80000" crc="3b05133b" sha1="f6067abb92b8751afe7352a4f1b1a22c9528002b" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj22.uj22" offset="0x400003" size="0x80000" crc="39791051" sha1="7aa02500ddacd31fca04044a22a38f36452ca300" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug18.ug18" offset="0x600000" size="0x80000" crc="6fd08f57" sha1="5b7031dffc88374c5bfdf3021aa01ec4e28d0631" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj18.uj18" offset="0x600001" size="0x80000" crc="4eb73c26" sha1="693bf45f777da8e55b7bcd8699ea5bd711964941" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug23.ug23" offset="0x600002" size="0x80000" crc="854f73bc" sha1="242cc8ce28711f6f0787524a1070eb4b0956e6ae" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj23.uj23" offset="0x600003" size="0x80000" crc="f8c30998" sha1="33e2f982d74e9f3686b1f4a8172c49fb8b604cf5" />
+		</dataarea>
+	</part>
+</software>
+<software name="nbajam02" cloneof="nbajamte">
+	<description>NBA Jam Rewind (rev 1.1)</description>
+	<year>2022</year>
+	<publisher>Asure</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="nbajam02.uj12" offset="0x0" size="0x80000" crc="9b3fc483" sha1="4e7b6b85d9972063ebdb08ad2c860e082b6e886b" />
+		<rom loadflag="load16_byte" name="nbajam02.ug12" offset="0x1" size="0x80000" crc="18e75204" sha1="e33eaa969dbc7ac19641238fc62d2af4d75bddef" />
+		</dataarea>
+		<dataarea name="adpcm:cpu" size="0x50000">
+		<rom name="l1_nba_jam_tournament_u3_sound_rom.u3" offset="0x10000" size="0x20000" crc="d4551195" sha1="e8908fbe4339fb8c93f7e74113dfd25dda1667ea" />
+		</dataarea>
+		<dataarea name="adpcm:oki" size="0x100000">
+		<rom name="nbajam02.u12" offset="0x0" size="0x80000" crc="cd5d4532" sha1="63ff4b5b22e02ee90cdcb745acc6bf9dbc1c3140" />
+		<rom name="nbajam02.u13" offset="0x80000" size="0x80000" crc="e92fb0d3" sha1="bac12a69f74051cb97326c05eb77d88acdf81a63" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug14.ug14" offset="0x0" size="0x80000" crc="04bb9f64" sha1="9e1a8c37e14cb6fe67f4aa3caa9022f356f1ca64" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj14.uj14" offset="0x1" size="0x80000" crc="b34b7af3" sha1="0abb74d2f414bc9da0380a81beb134f3a87c1a0a" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug19.ug19" offset="0x2" size="0x80000" crc="a8f22fbb" sha1="514208a9d6d0c8c2d7847cc02d4387eac90be659" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj19.uj19" offset="0x3" size="0x80000" crc="8130a8a2" sha1="f23f124024285d07d8cf822817b62e42c38b82db" />
+		<rom loadflag="load32_byte" name="nbajam02.ug16" offset="0x200000" size="0x80000" crc="b9a07a6f" sha1="0b9410ae9d761928b828449f45302f0951a6a8af" />
+		<rom loadflag="load32_byte" name="nbajam02.uj16" offset="0x200001" size="0x80000" crc="ffa7db04" sha1="984a1011f378d7e77acf43f285f7c72f035fc7ee" />
+		<rom loadflag="load32_byte" name="nbajam02.ug20" offset="0x200002" size="0x80000" crc="67c8646b" sha1="a0584e79cdd5c83cd62bda09470f67082a670fe1" />
+		<rom loadflag="load32_byte" name="nbajam02.uj20" offset="0x200003" size="0x80000" crc="71d028f8" sha1="6c9d3cb6b937a53af8be0c7c5e209fb8740d6d9a" />
+		<rom loadflag="load32_byte" name="nbajam02.ug17" offset="0x400000" size="0x80000" crc="34c6bdb8" sha1="fe613fc3256eafc368ba566dd989c05293df1829" />
+		<rom loadflag="load32_byte" name="nbajam02.uj17" offset="0x400001" size="0x80000" crc="3af5b32e" sha1="397d2524a5749f8e8419280cc3c48ec3081834b5" />
+		<rom loadflag="load32_byte" name="nbajam02.ug22" offset="0x400002" size="0x80000" crc="d41234d2" sha1="9dab65c7843758572634c4805227fee1850b0349" />
+		<rom loadflag="load32_byte" name="nbajam02.uj22" offset="0x400003" size="0x80000" crc="42196c84" sha1="7f30204a4764b4afd38cf82f8be909c9ee5a0a0b" />
+		<rom loadflag="load32_byte" name="nbajam02.ug18" offset="0x600000" size="0x80000" crc="fe18a6ef" sha1="58b8bbf257b3de5d7536421dda302e2d93f51999" />
+		<rom loadflag="load32_byte" name="nbajam02.uj18" offset="0x600001" size="0x80000" crc="9a6d36de" sha1="1bb24ff5fdbdc1f7265da0ba43e3d96ab589548f" />
+		<rom loadflag="load32_byte" name="nbajam02.ug23" offset="0x600002" size="0x80000" crc="8d1af1a6" sha1="4de21240ec0ffce9346e75b9719d9ae71bfbdb8e" />
+		<rom loadflag="load32_byte" name="nbajam02.uj23" offset="0x600003" size="0x80000" crc="b5bf66f9" sha1="de12e47e44f9cf7c611d674fe6c9b3466fde2081" />
+		</dataarea>
+	</part>
+</software>
+<software name="nbajam03" cloneof="nbajamte">
+	<description>NBA Jam Tournament Edition SE (rev 5.0)</description>
+	<year>2023</year>
+	<publisher>Asure</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="nbajam03.uj12" offset="0x0" size="0x80000" crc="a317f3bf" sha1="059cec300e8ea856b3e89fb80b6d53dcb7461598" />
+		<rom loadflag="load16_byte" name="nbajam03.ug12" offset="0x1" size="0x80000" crc="90e66e60" sha1="3ab49ab0c8fcd3fc9344426140c28218e0a9fbe7" />
+		</dataarea>
+		<dataarea name="adpcm:cpu" size="0x50000">
+		<rom name="l1_nba_jam_tournament_u3_sound_rom.u3" offset="0x10000" size="0x20000" crc="d4551195" sha1="e8908fbe4339fb8c93f7e74113dfd25dda1667ea" />
+		</dataarea>
+		<dataarea name="adpcm:oki" size="0x100000">
+		<rom name="l1_nba_jam_tournament_u12_sound_rom.u12" offset="0x0" size="0x80000" crc="4fac97bc" sha1="bd88d8c3edab0e35ad9f9350bcbaa17cda61d87a" />
+		<rom name="l1_nba_jam_tournament_u13_sound_rom.u13" offset="0x80000" size="0x80000" crc="6f27b202" sha1="c1f0db15624d1e7102ce9fd1db49ccf86e8611d6" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug14.ug14" offset="0x0" size="0x80000" crc="04bb9f64" sha1="9e1a8c37e14cb6fe67f4aa3caa9022f356f1ca64" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj14.uj14" offset="0x1" size="0x80000" crc="b34b7af3" sha1="0abb74d2f414bc9da0380a81beb134f3a87c1a0a" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug19.ug19" offset="0x2" size="0x80000" crc="a8f22fbb" sha1="514208a9d6d0c8c2d7847cc02d4387eac90be659" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj19.uj19" offset="0x3" size="0x80000" crc="8130a8a2" sha1="f23f124024285d07d8cf822817b62e42c38b82db" />
+		<rom loadflag="load32_byte" name="nbajam03.ug16" offset="0x200000" size="0x80000" crc="c8da980e" sha1="a907d579e7ce699f14787d45110b0723e8ac8577" />
+		<rom loadflag="load32_byte" name="nbajam03.uj16" offset="0x200001" size="0x80000" crc="205c5fb7" sha1="9e5ae65fb2d38643406149ffde081ee3845e1cd5" />
+		<rom loadflag="load32_byte" name="nbajam03.ug20" offset="0x200002" size="0x80000" crc="9cd4f985" sha1="97ebe1df160803a2c48cbad48e66a7fba9e7f7f0" />
+		<rom loadflag="load32_byte" name="nbajam03.uj20" offset="0x200003" size="0x80000" crc="7a47f364" sha1="55ef88680a5a26da3140fe49d1c102f472d41a89" />
+		<rom loadflag="load32_byte" name="nbajam03.ug17" offset="0x400000" size="0x80000" crc="1b7ddbe9" sha1="198309e4eabd33f23b28b99a589cf54f8f5690e8" />
+		<rom loadflag="load32_byte" name="nbajam03.uj17" offset="0x400001" size="0x80000" crc="cb08465f" sha1="856bd3475bed9652252ba14095e4bb56df7112ac" />
+		<rom loadflag="load32_byte" name="nbajam03.ug22" offset="0x400002" size="0x80000" crc="5427ca82" sha1="bf206c8fd47e4fa93abf344fcb4f56ab7cdc9a14" />
+		<rom loadflag="load32_byte" name="nbajam03.uj22" offset="0x400003" size="0x80000" crc="569b1ae5" sha1="c8f73b24b24bb50e9972a7ef4b94fdc3f3d4d70d" />
+		<rom loadflag="load32_byte" name="nbajam03.ug18" offset="0x600000" size="0x80000" crc="741f313e" sha1="f067c7b92dd6d4db96da7e68062d8103f4dda30f" />
+		<rom loadflag="load32_byte" name="nbajam03.uj18" offset="0x600001" size="0x80000" crc="5c1d6d77" sha1="e986269cb750c1e0e2afbee77332317858885cb4" />
+		<rom loadflag="load32_byte" name="nbajam03.ug23" offset="0x600002" size="0x80000" crc="168d93ce" sha1="2f7ceb88e6d873edfc5bb51e9bdd2e9e794328fa" />
+		<rom loadflag="load32_byte" name="nbajam03.uj23" offset="0x600003" size="0x80000" crc="424fbd82" sha1="fae7e23dd7807de8c2e467f21afda1a427260883" />
+		</dataarea>
+	</part>
+</software>
+<software name="nbajam04" cloneof="nbajamte">
+	<description>NBA Jam Rewind (rev 1.2)</description>
+	<year>2023</year>
+	<publisher>Asure</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="nbajam02.uj12" offset="0x0" size="0x80000" crc="9b3fc483" sha1="4e7b6b85d9972063ebdb08ad2c860e082b6e886b" />
+		<rom loadflag="load16_byte" name="nbajam02.ug12" offset="0x1" size="0x80000" crc="18e75204" sha1="e33eaa969dbc7ac19641238fc62d2af4d75bddef" />
+		</dataarea>
+		<dataarea name="adpcm:cpu" size="0x50000">
+		<rom name="l1_nba_jam_tournament_u3_sound_rom.u3" offset="0x10000" size="0x20000" crc="d4551195" sha1="e8908fbe4339fb8c93f7e74113dfd25dda1667ea" />
+		</dataarea>
+		<dataarea name="adpcm:oki" size="0x100000">
+		<rom name="nbajam02.u12" offset="0x0" size="0x80000" crc="cd5d4532" sha1="63ff4b5b22e02ee90cdcb745acc6bf9dbc1c3140" />
+		<rom name="nbajam04.u13" offset="0x80000" size="0x80000" crc="c4cbede2" sha1="8b1a26ee852281de1564af35fc3605a89eb0b7dd" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug14.ug14" offset="0x0" size="0x80000" crc="04bb9f64" sha1="9e1a8c37e14cb6fe67f4aa3caa9022f356f1ca64" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj14.uj14" offset="0x1" size="0x80000" crc="b34b7af3" sha1="0abb74d2f414bc9da0380a81beb134f3a87c1a0a" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug19.ug19" offset="0x2" size="0x80000" crc="a8f22fbb" sha1="514208a9d6d0c8c2d7847cc02d4387eac90be659" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj19.uj19" offset="0x3" size="0x80000" crc="8130a8a2" sha1="f23f124024285d07d8cf822817b62e42c38b82db" />
+		<rom loadflag="load32_byte" name="nbajam02.ug16" offset="0x200000" size="0x80000" crc="b9a07a6f" sha1="0b9410ae9d761928b828449f45302f0951a6a8af" />
+		<rom loadflag="load32_byte" name="nbajam02.uj16" offset="0x200001" size="0x80000" crc="ffa7db04" sha1="984a1011f378d7e77acf43f285f7c72f035fc7ee" />
+		<rom loadflag="load32_byte" name="nbajam02.ug20" offset="0x200002" size="0x80000" crc="67c8646b" sha1="a0584e79cdd5c83cd62bda09470f67082a670fe1" />
+		<rom loadflag="load32_byte" name="nbajam02.uj20" offset="0x200003" size="0x80000" crc="71d028f8" sha1="6c9d3cb6b937a53af8be0c7c5e209fb8740d6d9a" />
+		<rom loadflag="load32_byte" name="nbajam02.ug17" offset="0x400000" size="0x80000" crc="34c6bdb8" sha1="fe613fc3256eafc368ba566dd989c05293df1829" />
+		<rom loadflag="load32_byte" name="nbajam02.uj17" offset="0x400001" size="0x80000" crc="3af5b32e" sha1="397d2524a5749f8e8419280cc3c48ec3081834b5" />
+		<rom loadflag="load32_byte" name="nbajam02.ug22" offset="0x400002" size="0x80000" crc="d41234d2" sha1="9dab65c7843758572634c4805227fee1850b0349" />
+		<rom loadflag="load32_byte" name="nbajam02.uj22" offset="0x400003" size="0x80000" crc="42196c84" sha1="7f30204a4764b4afd38cf82f8be909c9ee5a0a0b" />
+		<rom loadflag="load32_byte" name="nbajam02.ug18" offset="0x600000" size="0x80000" crc="fe18a6ef" sha1="58b8bbf257b3de5d7536421dda302e2d93f51999" />
+		<rom loadflag="load32_byte" name="nbajam02.uj18" offset="0x600001" size="0x80000" crc="9a6d36de" sha1="1bb24ff5fdbdc1f7265da0ba43e3d96ab589548f" />
+		<rom loadflag="load32_byte" name="nbajam02.ug23" offset="0x600002" size="0x80000" crc="8d1af1a6" sha1="4de21240ec0ffce9346e75b9719d9ae71bfbdb8e" />
+		<rom loadflag="load32_byte" name="nbajam02.uj23" offset="0x600003" size="0x80000" crc="b5bf66f9" sha1="de12e47e44f9cf7c611d674fe6c9b3466fde2081" />
+		</dataarea>
+	</part>
+</software>
+<software name="nbajam05" cloneof="nbajamte">
+	<description>NBA Jam Tournament Edition SE (rev 5.02)</description>
+	<year>2023</year>
+	<publisher>Asure</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="nbajam05.uj12" offset="0x0" size="0x80000" crc="08507007" sha1="b900ce98dc0725c4cd5f6a1eeefffe1f7c910d2b" />
+		<rom loadflag="load16_byte" name="nbajam05.ug12" offset="0x1" size="0x80000" crc="d784608e" sha1="ed086f3d0a08392999f13cb576abecac06405484" />
+		</dataarea>
+		<dataarea name="adpcm:cpu" size="0x50000">
+		<rom name="l1_nba_jam_tournament_u3_sound_rom.u3" offset="0x10000" size="0x20000" crc="d4551195" sha1="e8908fbe4339fb8c93f7e74113dfd25dda1667ea" />
+		</dataarea>
+		<dataarea name="adpcm:oki" size="0x100000">
+		<rom name="nbajam05.u12" offset="0x0" size="0x80000" crc="7be1622b" sha1="1b2bedc7c98bd01e5fbed9a97256d369f8ff67e7" />
+		<rom name="nbajam05.u13" offset="0x80000" size="0x80000" crc="f939bfcb" sha1="e3627afb539b56a355050f74efbb11b20becc768" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug14.ug14" offset="0x0" size="0x80000" crc="04bb9f64" sha1="9e1a8c37e14cb6fe67f4aa3caa9022f356f1ca64" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj14.uj14" offset="0x1" size="0x80000" crc="b34b7af3" sha1="0abb74d2f414bc9da0380a81beb134f3a87c1a0a" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug19.ug19" offset="0x2" size="0x80000" crc="a8f22fbb" sha1="514208a9d6d0c8c2d7847cc02d4387eac90be659" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj19.uj19" offset="0x3" size="0x80000" crc="8130a8a2" sha1="f23f124024285d07d8cf822817b62e42c38b82db" />
+		<rom loadflag="load32_byte" name="nbajam03.ug16" offset="0x200000" size="0x80000" crc="c8da980e" sha1="a907d579e7ce699f14787d45110b0723e8ac8577" />
+		<rom loadflag="load32_byte" name="nbajam03.uj16" offset="0x200001" size="0x80000" crc="205c5fb7" sha1="9e5ae65fb2d38643406149ffde081ee3845e1cd5" />
+		<rom loadflag="load32_byte" name="nbajam03.ug20" offset="0x200002" size="0x80000" crc="9cd4f985" sha1="97ebe1df160803a2c48cbad48e66a7fba9e7f7f0" />
+		<rom loadflag="load32_byte" name="nbajam03.uj20" offset="0x200003" size="0x80000" crc="7a47f364" sha1="55ef88680a5a26da3140fe49d1c102f472d41a89" />
+		<rom loadflag="load32_byte" name="nbajam03.ug17" offset="0x400000" size="0x80000" crc="1b7ddbe9" sha1="198309e4eabd33f23b28b99a589cf54f8f5690e8" />
+		<rom loadflag="load32_byte" name="nbajam03.uj17" offset="0x400001" size="0x80000" crc="cb08465f" sha1="856bd3475bed9652252ba14095e4bb56df7112ac" />
+		<rom loadflag="load32_byte" name="nbajam03.ug22" offset="0x400002" size="0x80000" crc="5427ca82" sha1="bf206c8fd47e4fa93abf344fcb4f56ab7cdc9a14" />
+		<rom loadflag="load32_byte" name="nbajam03.uj22" offset="0x400003" size="0x80000" crc="569b1ae5" sha1="c8f73b24b24bb50e9972a7ef4b94fdc3f3d4d70d" />
+		<rom loadflag="load32_byte" name="nbajam05.ug18" offset="0x600000" size="0x80000" crc="a182457b" sha1="e9be2ab87afce3b36c4d7a28185cbb6904d0458a" />
+		<rom loadflag="load32_byte" name="nbajam05.uj18" offset="0x600001" size="0x80000" crc="ed6b08a5" sha1="b80f151c64931370da228bec497aba41e40f12b7" />
+		<rom loadflag="load32_byte" name="nbajam05.ug23" offset="0x600002" size="0x80000" crc="7755db95" sha1="e490a6994ac08d9337474bbfd0feb63633460ff1" />
+		<rom loadflag="load32_byte" name="nbajam05.uj23" offset="0x600003" size="0x80000" crc="a659b604" sha1="89a498e75081f849197b2fd1da4d344cf997918d" />
+		</dataarea>
+	</part>
+</software>
+<software name="nbajam07" cloneof="nbajamte">
+	<description>NBA Rewind 4 Jam (unprotected, v1.2)</description>
+	<year>2023</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="nbajam07.uj12" offset="0x0" size="0x80000" crc="1ef0eb74" sha1="ca489e03f657780bcad3b1600b06b3e76f86c95a" />
+		<rom loadflag="load16_byte" name="nbajam07.ug12" offset="0x1" size="0x80000" crc="b2dd7831" sha1="9ac312fd0124e0a0a2bcba1a00bd42f3a55f5641" />
+		</dataarea>
+		<dataarea name="adpcm:cpu" size="0x50000">
+		<rom name="l1_nba_jam_tournament_u3_sound_rom.u3" offset="0x10000" size="0x20000" crc="d4551195" sha1="e8908fbe4339fb8c93f7e74113dfd25dda1667ea" />
+		</dataarea>
+		<dataarea name="adpcm:oki" size="0x100000">
+		<rom name="nbajam02.u12" offset="0x0" size="0x80000" crc="cd5d4532" sha1="63ff4b5b22e02ee90cdcb745acc6bf9dbc1c3140" />
+		<rom name="nbajam04.u13" offset="0x80000" size="0x80000" crc="c4cbede2" sha1="8b1a26ee852281de1564af35fc3605a89eb0b7dd" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug14.ug14" offset="0x0" size="0x80000" crc="04bb9f64" sha1="9e1a8c37e14cb6fe67f4aa3caa9022f356f1ca64" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj14.uj14" offset="0x1" size="0x80000" crc="b34b7af3" sha1="0abb74d2f414bc9da0380a81beb134f3a87c1a0a" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug19.ug19" offset="0x2" size="0x80000" crc="a8f22fbb" sha1="514208a9d6d0c8c2d7847cc02d4387eac90be659" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj19.uj19" offset="0x3" size="0x80000" crc="8130a8a2" sha1="f23f124024285d07d8cf822817b62e42c38b82db" />
+		<rom loadflag="load32_byte" name="nbajam02.ug16" offset="0x200000" size="0x80000" crc="b9a07a6f" sha1="0b9410ae9d761928b828449f45302f0951a6a8af" />
+		<rom loadflag="load32_byte" name="nbajam02.uj16" offset="0x200001" size="0x80000" crc="ffa7db04" sha1="984a1011f378d7e77acf43f285f7c72f035fc7ee" />
+		<rom loadflag="load32_byte" name="nbajam02.ug20" offset="0x200002" size="0x80000" crc="67c8646b" sha1="a0584e79cdd5c83cd62bda09470f67082a670fe1" />
+		<rom loadflag="load32_byte" name="nbajam02.uj20" offset="0x200003" size="0x80000" crc="71d028f8" sha1="6c9d3cb6b937a53af8be0c7c5e209fb8740d6d9a" />
+		<rom loadflag="load32_byte" name="nbajam02.ug17" offset="0x400000" size="0x80000" crc="34c6bdb8" sha1="fe613fc3256eafc368ba566dd989c05293df1829" />
+		<rom loadflag="load32_byte" name="nbajam02.uj17" offset="0x400001" size="0x80000" crc="3af5b32e" sha1="397d2524a5749f8e8419280cc3c48ec3081834b5" />
+		<rom loadflag="load32_byte" name="nbajam02.ug22" offset="0x400002" size="0x80000" crc="d41234d2" sha1="9dab65c7843758572634c4805227fee1850b0349" />
+		<rom loadflag="load32_byte" name="nbajam02.uj22" offset="0x400003" size="0x80000" crc="42196c84" sha1="7f30204a4764b4afd38cf82f8be909c9ee5a0a0b" />
+		<rom loadflag="load32_byte" name="nbajam02.ug18" offset="0x600000" size="0x80000" crc="fe18a6ef" sha1="58b8bbf257b3de5d7536421dda302e2d93f51999" />
+		<rom loadflag="load32_byte" name="nbajam02.uj18" offset="0x600001" size="0x80000" crc="9a6d36de" sha1="1bb24ff5fdbdc1f7265da0ba43e3d96ab589548f" />
+		<rom loadflag="load32_byte" name="nbajam02.ug23" offset="0x600002" size="0x80000" crc="8d1af1a6" sha1="4de21240ec0ffce9346e75b9719d9ae71bfbdb8e" />
+		<rom loadflag="load32_byte" name="nbajam02.uj23" offset="0x600003" size="0x80000" crc="b5bf66f9" sha1="de12e47e44f9cf7c611d674fe6c9b3466fde2081" />
+		</dataarea>
+	</part>
+</software>
+<software name="roadkill">
+	<description>Roadkill demo</description>
+	<year>2023</year>
+	<publisher>Midway</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="roadkill.uj12" offset="0x0" size="0x80000" crc="6886e5fd" sha1="f986b4520008206c1068f8711e2250ebac568659" />
+		<rom loadflag="load16_byte" name="roadkill.ug12" offset="0x1" size="0x80000" crc="ad9d9e36" sha1="45af79e9208c500460d834797aff3fa076dfaec5" />
+		</dataarea>
+		<dataarea name="adpcm:cpu" size="0x50000">
+		<rom name="l1_nba_jam_tournament_u3_sound_rom.u3" offset="0x10000" size="0x20000" crc="d4551195" sha1="e8908fbe4339fb8c93f7e74113dfd25dda1667ea" />
+		</dataarea>
+		<dataarea name="adpcm:oki" size="0x100000">
+		<rom name="roadkill.u12" offset="0x0" size="0x80000" crc="cd5d4532" sha1="63ff4b5b22e02ee90cdcb745acc6bf9dbc1c3140" />
+		<rom name="roadkill.u13" offset="0x80000" size="0x80000" crc="c4cbede2" sha1="8b1a26ee852281de1564af35fc3605a89eb0b7dd" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="roadkill.ug14" offset="0x0" size="0x80000" crc="d8a59fc9" sha1="103b811945f43e60750deb4a190cf6da9b764166" />
+		<rom loadflag="load32_byte" name="roadkill.uj14" offset="0x1" size="0x80000" crc="68489a33" sha1="d2b4b5fdb4d905d98635c0ef872bdf2648a10086" />
+		<rom loadflag="load32_byte" name="roadkill.ug19" offset="0x2" size="0x80000" crc="d4c8e3bc" sha1="87796a8e9b65134478a45bd83160893d047a2b80" />
+		<rom loadflag="load32_byte" name="roadkill.uj19" offset="0x3" size="0x80000" crc="f194afe8" sha1="e33f921fa67633c5444ebe3151ac8c9da13a50ed" />
+		<rom loadflag="load32_byte" name="roadkill.ug16" offset="0x200000" size="0x80000" crc="0eb13bf2" sha1="a6e92d6e8600ca16032511881096d44513b55ba4" />
+		<rom loadflag="load32_byte" name="roadkill.uj16" offset="0x200001" size="0x80000" crc="04c2243f" sha1="ff75b15db65168488edf32712be34d40348e9d61" />
+		<rom loadflag="load32_byte" name="roadkill.ug20" offset="0x200002" size="0x80000" crc="a278d2fb" sha1="5b5c594e9949db481afd534604842d2c32e39585" />
+		<rom loadflag="load32_byte" name="roadkill.uj20" offset="0x200003" size="0x80000" crc="f8f2e005" sha1="16950f72ba71ade146b8f56a77dc44884ecf34b4" />
+		<rom loadflag="load32_byte" name="roadkill.ug17" offset="0x400000" size="0x80000" crc="3adb453f" sha1="ca4e2c911ff65d88ae6e0ccf479a119946df5cc7" />
+		<rom loadflag="load32_byte" name="roadkill.uj17" offset="0x400001" size="0x80000" crc="306ee426" sha1="2ff0bb77fa39a17d5ae41d7a9ec2fb52b75cdc38" />
+		<rom loadflag="load32_byte" name="roadkill.ug22" offset="0x400002" size="0x80000" crc="16d36f9e" sha1="8da4a7ddcee9f305ba0d9d553b2a0649aee9cc25" />
+		<rom loadflag="load32_byte" name="roadkill.uj22" offset="0x400003" size="0x80000" crc="e6ec599c" sha1="9276dc6c99124ebdc4687bb601437c5bbd07b116" />
+		<rom loadflag="load32_byte" name="roadkill.ug18" offset="0x600000" size="0x80000" crc="1029c0de" sha1="ab300397b9569670fd4339518a0a7b136d3999db" />
+		<rom loadflag="load32_byte" name="roadkill.uj18" offset="0x600001" size="0x80000" crc="ec9adf00" sha1="fc06ecc782f2f2d4c41d8d1e28ec9b3a282afb73" />
+		<rom loadflag="load32_byte" name="roadkill.ug23" offset="0x600002" size="0x80000" crc="52203dfd" sha1="c95f53cbf0da4faa513bd2172a2ef17f2e8035b1" />
+		<rom loadflag="load32_byte" name="roadkill.uj23" offset="0x600003" size="0x80000" crc="ca6734d4" sha1="3cb81cfc7da53e072e5dbabc744cb5aafe218473" />
+		</dataarea>
+	</part>
+</software>
+<software name="umk2s01" cloneof="mk2">
+	<description>Ultimate Mortal Kombat II (Tournament Edition 5.0.050)</description>
+	<year>2014</year>
+	<publisher>SK</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="umk2s01.uj12" offset="0x0" size="0x80000" crc="62ef20f8" sha1="0e0392bb4b59fb4e01369f533fdcfa6ee5fb6939" />
+		<rom loadflag="load16_byte" name="umk2s01.ug12" offset="0x1" size="0x80000" crc="8c66e999" sha1="ddb9f39149a7ded105f2e993a4c39c473067adf6" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0xc00000">
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u2.u2" offset="0x0" size="0x80000" crc="5f23d71d" sha1="54c2afef243759e0f3dbe2907edbc4302f5c8bad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u3.u3" offset="0x200000" size="0x80000" crc="d6d92bf9" sha1="397351c6b707f2595e36360471015f9fa494e894" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u4.u4" offset="0x400000" size="0x80000" crc="eebc8e0f" sha1="705ab63ff7672a4857d546afda6dca4973cce1ad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u5.u5" offset="0x600000" size="0x80000" crc="2b0b7961" sha1="1cdc64aab74d14afbd8c3531e3d0bd49271a281f" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u6.u6" offset="0x800000" size="0x80000" crc="f694b27f" sha1="d43e38a124665f49ebb4ffc5a55e8f19a1a64686" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u7.u7" offset="0xa00000" size="0x80000" crc="20387e0a" sha1="505d05173b2a1f1ee3ebc2898ccd3a95c98dd04a" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug14.ug14" offset="0x0" size="0x100000" crc="01e73af6" sha1="6598cfd704cc92a7f358a0e1f1c973ab79dcc493" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj14.uj14" offset="0x1" size="0x100000" crc="d4985cbb" sha1="367865da7efae38d83de3c0868d02a705177ae63" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug19.ug19" offset="0x2" size="0x100000" crc="fec137be" sha1="f11ecb8a7993f5c4f4449564b4911f69bd6e9bf8" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj19.uj19" offset="0x3" size="0x100000" crc="2d763156" sha1="06536006da49ab5fb6b75b25f801b83fad000ff5" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug16.ug16" offset="0x400000" size="0x100000" crc="8ba6ae18" sha1="465fe907de4a1e502180c4e41642998dd3abc8e6" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj16.uj16" offset="0x400001" size="0x100000" crc="39d885b4" sha1="2251826d247c3c6df421124718401fb35a672f83" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug20.ug20" offset="0x400002" size="0x100000" crc="809118c1" sha1="86153e648834c749e34573151cd4fee403a81962" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj20.uj20" offset="0x400003" size="0x100000" crc="b96824f0" sha1="d42b122f9a57da330192abc7e5f97abc4065d718" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug17.ug17" offset="0x800000" size="0x100000" crc="937d8620" sha1="8b9f80a460b124a747a6d1495b53f01f580e28f1" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj17.uj17" offset="0x800001" size="0x100000" crc="218de160" sha1="87aea173720d2a33d8183903f4fe8ba1d47e3348" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug22.ug22" offset="0x800002" size="0x100000" crc="154d53b1" sha1="58ff0aa59101f40a9a3b5fbae1c904d0b0b31612" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj22.uj22" offset="0x800003" size="0x100000" crc="8891d785" sha1="fd460df1ef8f4306ea42f7dc41488a80fd2c8f53" />
+		</dataarea>
+	</part>
+</software>
+<software name="umk2s02" cloneof="mk2">
+	<description>Ultimate Mortal Kombat II (Tournament Edition 5.0.051)</description>
+	<year>2014</year>
+	<publisher>SK</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="umk2s02.uj12" offset="0x0" size="0x80000" crc="fbf97b24" sha1="902614ce3a4527d1a78e148a876cd321ea221e8f" />
+		<rom loadflag="load16_byte" name="umk2s02.ug12" offset="0x1" size="0x80000" crc="8d67c168" sha1="699bf8e6924429221ace092fb66ae4c85eede8d2" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0xc00000">
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u2.u2" offset="0x0" size="0x80000" crc="5f23d71d" sha1="54c2afef243759e0f3dbe2907edbc4302f5c8bad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u3.u3" offset="0x200000" size="0x80000" crc="d6d92bf9" sha1="397351c6b707f2595e36360471015f9fa494e894" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u4.u4" offset="0x400000" size="0x80000" crc="eebc8e0f" sha1="705ab63ff7672a4857d546afda6dca4973cce1ad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u5.u5" offset="0x600000" size="0x80000" crc="2b0b7961" sha1="1cdc64aab74d14afbd8c3531e3d0bd49271a281f" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u6.u6" offset="0x800000" size="0x80000" crc="f694b27f" sha1="d43e38a124665f49ebb4ffc5a55e8f19a1a64686" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u7.u7" offset="0xa00000" size="0x80000" crc="20387e0a" sha1="505d05173b2a1f1ee3ebc2898ccd3a95c98dd04a" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug14.ug14" offset="0x0" size="0x100000" crc="01e73af6" sha1="6598cfd704cc92a7f358a0e1f1c973ab79dcc493" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj14.uj14" offset="0x1" size="0x100000" crc="d4985cbb" sha1="367865da7efae38d83de3c0868d02a705177ae63" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug19.ug19" offset="0x2" size="0x100000" crc="fec137be" sha1="f11ecb8a7993f5c4f4449564b4911f69bd6e9bf8" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj19.uj19" offset="0x3" size="0x100000" crc="2d763156" sha1="06536006da49ab5fb6b75b25f801b83fad000ff5" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug16.ug16" offset="0x400000" size="0x100000" crc="8ba6ae18" sha1="465fe907de4a1e502180c4e41642998dd3abc8e6" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj16.uj16" offset="0x400001" size="0x100000" crc="39d885b4" sha1="2251826d247c3c6df421124718401fb35a672f83" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug20.ug20" offset="0x400002" size="0x100000" crc="809118c1" sha1="86153e648834c749e34573151cd4fee403a81962" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj20.uj20" offset="0x400003" size="0x100000" crc="b96824f0" sha1="d42b122f9a57da330192abc7e5f97abc4065d718" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug17.ug17" offset="0x800000" size="0x100000" crc="937d8620" sha1="8b9f80a460b124a747a6d1495b53f01f580e28f1" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj17.uj17" offset="0x800001" size="0x100000" crc="218de160" sha1="87aea173720d2a33d8183903f4fe8ba1d47e3348" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug22.ug22" offset="0x800002" size="0x100000" crc="154d53b1" sha1="58ff0aa59101f40a9a3b5fbae1c904d0b0b31612" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj22.uj22" offset="0x800003" size="0x100000" crc="8891d785" sha1="fd460df1ef8f4306ea42f7dc41488a80fd2c8f53" />
+		</dataarea>
+	</part>
+</software>
+<software name="umk2s03" cloneof="mk2">
+	<description>Ultimate Mortal Kombat II (Tournament Edition 5.0.052)</description>
+	<year>2014</year>
+	<publisher>SK</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="umk2s03.uj12" offset="0x0" size="0x80000" crc="a027088c" sha1="10aced067d8e3a5fe905c07e2ee27904e3dd8855" />
+		<rom loadflag="load16_byte" name="umk2s03.ug12" offset="0x1" size="0x80000" crc="474cf238" sha1="fee96dc9390ade206be3768812040f3bb4ea1e2c" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0xc00000">
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u2.u2" offset="0x0" size="0x80000" crc="5f23d71d" sha1="54c2afef243759e0f3dbe2907edbc4302f5c8bad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u3.u3" offset="0x200000" size="0x80000" crc="d6d92bf9" sha1="397351c6b707f2595e36360471015f9fa494e894" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u4.u4" offset="0x400000" size="0x80000" crc="eebc8e0f" sha1="705ab63ff7672a4857d546afda6dca4973cce1ad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u5.u5" offset="0x600000" size="0x80000" crc="2b0b7961" sha1="1cdc64aab74d14afbd8c3531e3d0bd49271a281f" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u6.u6" offset="0x800000" size="0x80000" crc="f694b27f" sha1="d43e38a124665f49ebb4ffc5a55e8f19a1a64686" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u7.u7" offset="0xa00000" size="0x80000" crc="20387e0a" sha1="505d05173b2a1f1ee3ebc2898ccd3a95c98dd04a" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug14.ug14" offset="0x0" size="0x100000" crc="01e73af6" sha1="6598cfd704cc92a7f358a0e1f1c973ab79dcc493" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj14.uj14" offset="0x1" size="0x100000" crc="d4985cbb" sha1="367865da7efae38d83de3c0868d02a705177ae63" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug19.ug19" offset="0x2" size="0x100000" crc="fec137be" sha1="f11ecb8a7993f5c4f4449564b4911f69bd6e9bf8" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj19.uj19" offset="0x3" size="0x100000" crc="2d763156" sha1="06536006da49ab5fb6b75b25f801b83fad000ff5" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug16.ug16" offset="0x400000" size="0x100000" crc="8ba6ae18" sha1="465fe907de4a1e502180c4e41642998dd3abc8e6" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj16.uj16" offset="0x400001" size="0x100000" crc="39d885b4" sha1="2251826d247c3c6df421124718401fb35a672f83" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug20.ug20" offset="0x400002" size="0x100000" crc="809118c1" sha1="86153e648834c749e34573151cd4fee403a81962" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj20.uj20" offset="0x400003" size="0x100000" crc="b96824f0" sha1="d42b122f9a57da330192abc7e5f97abc4065d718" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug17.ug17" offset="0x800000" size="0x100000" crc="937d8620" sha1="8b9f80a460b124a747a6d1495b53f01f580e28f1" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj17.uj17" offset="0x800001" size="0x100000" crc="218de160" sha1="87aea173720d2a33d8183903f4fe8ba1d47e3348" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug22.ug22" offset="0x800002" size="0x100000" crc="154d53b1" sha1="58ff0aa59101f40a9a3b5fbae1c904d0b0b31612" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj22.uj22" offset="0x800003" size="0x100000" crc="8891d785" sha1="fd460df1ef8f4306ea42f7dc41488a80fd2c8f53" />
+		</dataarea>
+	</part>
+</software>
+<software name="umk2s04" cloneof="mk2">
+	<description>Ultimate Mortal Kombat II (Tournament Edition, 5.0.052K, 2020-07-23)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="umk2s04.uj12" offset="0x0" size="0x80000" crc="5ca32ce4" sha1="dce19a8c704dba7d78910be13580a7e7defd16b8" />
+		<rom loadflag="load16_byte" name="umk2s04.ug12" offset="0x1" size="0x80000" crc="90a3ee29" sha1="0b5b84f1f14a6722cfcbd701537918e4624d0407" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0xc00000">
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u2.u2" offset="0x0" size="0x80000" crc="5f23d71d" sha1="54c2afef243759e0f3dbe2907edbc4302f5c8bad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u3.u3" offset="0x200000" size="0x80000" crc="d6d92bf9" sha1="397351c6b707f2595e36360471015f9fa494e894" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u4.u4" offset="0x400000" size="0x80000" crc="eebc8e0f" sha1="705ab63ff7672a4857d546afda6dca4973cce1ad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u5.u5" offset="0x600000" size="0x80000" crc="2b0b7961" sha1="1cdc64aab74d14afbd8c3531e3d0bd49271a281f" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u6.u6" offset="0x800000" size="0x80000" crc="f694b27f" sha1="d43e38a124665f49ebb4ffc5a55e8f19a1a64686" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u7.u7" offset="0xa00000" size="0x80000" crc="20387e0a" sha1="505d05173b2a1f1ee3ebc2898ccd3a95c98dd04a" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug14.ug14" offset="0x0" size="0x100000" crc="01e73af6" sha1="6598cfd704cc92a7f358a0e1f1c973ab79dcc493" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj14.uj14" offset="0x1" size="0x100000" crc="d4985cbb" sha1="367865da7efae38d83de3c0868d02a705177ae63" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug19.ug19" offset="0x2" size="0x100000" crc="fec137be" sha1="f11ecb8a7993f5c4f4449564b4911f69bd6e9bf8" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj19.uj19" offset="0x3" size="0x100000" crc="2d763156" sha1="06536006da49ab5fb6b75b25f801b83fad000ff5" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug16.ug16" offset="0x400000" size="0x100000" crc="8ba6ae18" sha1="465fe907de4a1e502180c4e41642998dd3abc8e6" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj16.uj16" offset="0x400001" size="0x100000" crc="39d885b4" sha1="2251826d247c3c6df421124718401fb35a672f83" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug20.ug20" offset="0x400002" size="0x100000" crc="809118c1" sha1="86153e648834c749e34573151cd4fee403a81962" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj20.uj20" offset="0x400003" size="0x100000" crc="b96824f0" sha1="d42b122f9a57da330192abc7e5f97abc4065d718" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug17.ug17" offset="0x800000" size="0x100000" crc="937d8620" sha1="8b9f80a460b124a747a6d1495b53f01f580e28f1" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj17.uj17" offset="0x800001" size="0x100000" crc="218de160" sha1="87aea173720d2a33d8183903f4fe8ba1d47e3348" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug22.ug22" offset="0x800002" size="0x100000" crc="154d53b1" sha1="58ff0aa59101f40a9a3b5fbae1c904d0b0b31612" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj22.uj22" offset="0x800003" size="0x100000" crc="8891d785" sha1="fd460df1ef8f4306ea42f7dc41488a80fd2c8f53" />
+		</dataarea>
+	</part>
+</software>
+<software name="umk2s05" cloneof="mk2">
+	<description>Ultimate Mortal Kombat II (Tournament Edition 5.0.053)</description>
+	<year>2020</year>
+	<publisher>SK</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="umk2s05.uj12" offset="0x0" size="0x80000" crc="82c0ef47" sha1="ae157efe65a3faf9f638e30858475f0c0c2a5a62" />
+		<rom loadflag="load16_byte" name="umk2s05.ug12" offset="0x1" size="0x80000" crc="bad41b9f" sha1="1dc178a5a1fa7e84892f8c2fb1baaad01d5549b6" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0xc00000">
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u2.u2" offset="0x0" size="0x80000" crc="5f23d71d" sha1="54c2afef243759e0f3dbe2907edbc4302f5c8bad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u3.u3" offset="0x200000" size="0x80000" crc="d6d92bf9" sha1="397351c6b707f2595e36360471015f9fa494e894" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u4.u4" offset="0x400000" size="0x80000" crc="eebc8e0f" sha1="705ab63ff7672a4857d546afda6dca4973cce1ad" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u5.u5" offset="0x600000" size="0x80000" crc="2b0b7961" sha1="1cdc64aab74d14afbd8c3531e3d0bd49271a281f" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u6.u6" offset="0x800000" size="0x80000" crc="f694b27f" sha1="d43e38a124665f49ebb4ffc5a55e8f19a1a64686" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_ii_sound_rom_u7.u7" offset="0xa00000" size="0x80000" crc="20387e0a" sha1="505d05173b2a1f1ee3ebc2898ccd3a95c98dd04a" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug14.ug14" offset="0x0" size="0x100000" crc="01e73af6" sha1="6598cfd704cc92a7f358a0e1f1c973ab79dcc493" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj14.uj14" offset="0x1" size="0x100000" crc="d4985cbb" sha1="367865da7efae38d83de3c0868d02a705177ae63" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug19.ug19" offset="0x2" size="0x100000" crc="fec137be" sha1="f11ecb8a7993f5c4f4449564b4911f69bd6e9bf8" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj19.uj19" offset="0x3" size="0x100000" crc="2d763156" sha1="06536006da49ab5fb6b75b25f801b83fad000ff5" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug16.ug16" offset="0x400000" size="0x100000" crc="8ba6ae18" sha1="465fe907de4a1e502180c4e41642998dd3abc8e6" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj16.uj16" offset="0x400001" size="0x100000" crc="39d885b4" sha1="2251826d247c3c6df421124718401fb35a672f83" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug20.ug20" offset="0x400002" size="0x100000" crc="809118c1" sha1="86153e648834c749e34573151cd4fee403a81962" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj20.uj20" offset="0x400003" size="0x100000" crc="b96824f0" sha1="d42b122f9a57da330192abc7e5f97abc4065d718" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug17.ug17" offset="0x800000" size="0x100000" crc="937d8620" sha1="8b9f80a460b124a747a6d1495b53f01f580e28f1" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj17.uj17" offset="0x800001" size="0x100000" crc="218de160" sha1="87aea173720d2a33d8183903f4fe8ba1d47e3348" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_ug22.ug22" offset="0x800002" size="0x100000" crc="154d53b1" sha1="58ff0aa59101f40a9a3b5fbae1c904d0b0b31612" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_ii_game_rom_uj22.uj22" offset="0x800003" size="0x100000" crc="8891d785" sha1="fd460df1ef8f4306ea42f7dc41488a80fd2c8f53" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

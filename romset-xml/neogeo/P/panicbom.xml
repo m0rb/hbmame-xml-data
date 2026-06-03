@@ -1,0 +1,20 @@
+<software name="panicbom">
+	<description>Panic Bomber</description>
+	<year>1994</year>
+	<publisher>Eighting / Hudson</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="073-p1.p1" offset="0x0" size="0x80000" crc="adc356ad" sha1="801e0a54b65d7a3500e6cef2d6bba40c6356dc1f" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="073-c1.c1" offset="0x0" size="0x100000" crc="8582e1b5" sha1="e17d8f57b8ebee14b8e705374b34abe928937258" />
+		<rom loadflag="load16_byte" name="073-c2.c2" offset="0x1" size="0x100000" crc="e15a093b" sha1="548a418c81af79cd7ab6ad165b8d6daee30abb49" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x300000">
+		<rom name="073-v1.v1" offset="0x0" size="0x200000" crc="7fc86d2f" sha1="aa4234d22157060e0ba97a09c4e85c5276b74099" />
+		<rom name="073-v2.v2" offset="0x200000" size="0x100000" crc="082adfc7" sha1="19c168e9a6cadcbed79033c320bcf3a45f846daf" />
+		</dataarea>
+	</part>
+</software>

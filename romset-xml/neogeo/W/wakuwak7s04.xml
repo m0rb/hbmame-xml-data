@@ -1,0 +1,24 @@
+<software name="wakuwak7s04" cloneof="wakuwak7">
+	<description>Waku Waku 7 (Enable Hidden Characters)</description>
+	<year>1996</year>
+	<publisher>Yumeji</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x300000">
+		<rom loadflag="load16_word_swap" name="225s04.p1" offset="0x0" size="0x100000" crc="0b7a3776" sha1="3d8d9e7bdd481dbec3765901999b5148c0f3d776" />
+		<rom loadflag="load16_word_swap" name="225.p2" offset="0x100000" size="0x200000" crc="fe190665" sha1="739d9a8fc2da34381654d9e291141eacc210ae5c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="225.v1" offset="0x0" size="0x400000" crc="6195c6b4" sha1="66c06b5904aedb256e3997bbec60f8ab50c6ff0c" />
+		<rom name="225.v2" offset="0x400000" size="0x400000" crc="6159c5fe" sha1="9015e93416497f1ef877c717afed40f7ecfa42e4" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1800000">
+		<rom loadflag="load16_byte" name="225.c1" offset="0x0" size="0x400000" crc="ee4fea54" sha1="314b513a52b2cc88cbf2409d1934c357269a8bb2" />
+		<rom loadflag="load16_byte" name="225.c2" offset="0x1" size="0x400000" crc="0c549e2d" sha1="d8c4626231c92e43d9bf183202553ee2b5c532e6" />
+		<rom loadflag="load16_byte" name="225.c3" offset="0x800000" size="0x400000" crc="af0897c0" sha1="2b8ec19b9dd0bd1f1171fb01b915e9d25ec8c421" />
+		<rom loadflag="load16_byte" name="225.c4" offset="0x800001" size="0x400000" crc="4c66527a" sha1="6c8c9342fad70b456e282b0d52e7ad890e4673d3" />
+		<rom loadflag="load16_byte" name="225.c5" offset="0x1000000" size="0x400000" crc="8ecea2b5" sha1="cad51e6e76d8258a78becb6f4096dd061f537494" />
+		<rom loadflag="load16_byte" name="225.c6" offset="0x1000001" size="0x400000" crc="0eb11a6d" sha1="c6d4f978ff3ca190a3060ac52bd7347189194f76" />
+		</dataarea>
+	</part>
+</software>

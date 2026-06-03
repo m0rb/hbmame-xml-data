@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="indytemp" description="Indytemp cartridges">
+<software name="ataris1hw">
+	<description>Atari System 1 Hello World</description>
+	<year>2017</year>
+	<publisher>Luigi30</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x88000">
+		<rom loadflag="load16_byte" name="ataris1hw.432" offset="0x10000" size="0x8000" crc="db3f1d4e" sha1="58d6a88f73f90c8fe2981e60fbf6f359e0b88ea7" />
+		<rom loadflag="load16_byte" name="ataris1hw.431" offset="0x10001" size="0x8000" crc="e439e2a1" sha1="4346252c81336c087edfbd2e334d488f13dcaba3" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="136036.153" offset="0x4000" size="0x4000" crc="95294641" sha1="00f90a0d49d2c77d5288080036f81a74ad31f8bc" />
+		<rom name="136036.154" offset="0x8000" size="0x4000" crc="cbfc6adb" sha1="ee132eced924435f1214e2997533e866a3e5364b" />
+		<rom name="136036.155a" offset="0xc000" size="0x4000" crc="fd1a6878" sha1="28e1b2187f58098e5140d9a88bda969965758f26" />
+		</dataarea>
+		<dataarea name="alpha" size="0x2000">
+		</dataarea>
+		<dataarea name="motherbrd_proms" size="0x201">
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		<rom name="136036.152" offset="0x0" size="0x200" crc="4f96e57c" sha1="271633a0aacd1d1efe2917728b73e90010c64d2c" />
+		<rom name="136036.151" offset="0x200" size="0x200" crc="7daf351f" sha1="95c13d81a47440f847af7b19632cc032380b9ff4" />
+		</dataarea>
+		<dataarea name="tiles" size="0x200000">
+		<rom name="136036.135a" offset="0x0" size="0x8000" crc="a8fa9870" sha1="375cb16ccaae62cf429bf1a7d2c6de1829b86877" />
+		<rom name="136036.139a" offset="0x10000" size="0x8000" crc="6959604d" sha1="94f130507981ec01240252ab7b044f6d1e19280e" />
+		<rom name="136036.143a" offset="0x20000" size="0x8000" crc="b6b14274" sha1="441c0447721afe0aadf320e1b0c40ebf97d0e485" />
+		<rom name="136036.147a" offset="0x30000" size="0x8000" crc="2de2e834" sha1="ba7640ea7440250152b1be71e65e3480f782011f" />
+		</dataarea>
+	</part>
+</software>
+<software name="ataris1rt">
+	<description>Atari System 1 Ram Tester</description>
+	<year>2017</year>
+	<publisher>GadgetFreak</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x88000">
+		<rom loadflag="load16_byte" name="ataris1rt.l13" offset="0x0" size="0x4000" crc="86713619" sha1="26e0348e91d10d9c7380736194bb8cb933765293" />
+		<rom loadflag="load16_byte" name="ataris1rt.l12" offset="0x1" size="0x4000" crc="63b94bd5" sha1="fe3c41a33cd8e70d04744055488d8e94d4a70caf" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="136036.153" offset="0x4000" size="0x4000" crc="95294641" sha1="00f90a0d49d2c77d5288080036f81a74ad31f8bc" />
+		<rom name="136036.154" offset="0x8000" size="0x4000" crc="cbfc6adb" sha1="ee132eced924435f1214e2997533e866a3e5364b" />
+		<rom name="136036.155a" offset="0xc000" size="0x4000" crc="fd1a6878" sha1="28e1b2187f58098e5140d9a88bda969965758f26" />
+		</dataarea>
+		<dataarea name="alpha" size="0x2000">
+		</dataarea>
+		<dataarea name="motherbrd_proms" size="0x201">
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		<rom name="136036.152" offset="0x0" size="0x200" crc="4f96e57c" sha1="271633a0aacd1d1efe2917728b73e90010c64d2c" />
+		<rom name="136036.151" offset="0x200" size="0x200" crc="7daf351f" sha1="95c13d81a47440f847af7b19632cc032380b9ff4" />
+		</dataarea>
+		<dataarea name="tiles" size="0x200000">
+		<rom name="136036.135a" offset="0x0" size="0x8000" crc="a8fa9870" sha1="375cb16ccaae62cf429bf1a7d2c6de1829b86877" />
+		<rom name="136036.139a" offset="0x10000" size="0x8000" crc="6959604d" sha1="94f130507981ec01240252ab7b044f6d1e19280e" />
+		<rom name="136036.143a" offset="0x20000" size="0x8000" crc="b6b14274" sha1="441c0447721afe0aadf320e1b0c40ebf97d0e485" />
+		<rom name="136036.147a" offset="0x30000" size="0x8000" crc="2de2e834" sha1="ba7640ea7440250152b1be71e65e3480f782011f" />
+		<rom name="136036.136" offset="0x80000" size="0x8000" crc="b2b403aa" sha1="ead88544d798d07c03fefadf84c87ed104036cfa" />
+		<rom name="136036.140" offset="0x90000" size="0x8000" crc="ec0c19ca" sha1="a787502e9db79a3c601964cd8c662ff7d0c2f636" />
+		<rom name="136036.144" offset="0xa0000" size="0x8000" crc="4407df98" sha1="67eae09121e594bec965b78c44a964a39a2c8772" />
+		<rom name="136036.148" offset="0xb0000" size="0x8000" crc="70dce06d" sha1="c50aa9ea9ea70e282ebed54cefa9e51da01d14ca" />
+		<rom name="136036.137" offset="0x100000" size="0x8000" crc="3f352547" sha1="2a3439bb1ca9cdb80c0bd61cbd5fce60d6ee1fef" />
+		<rom name="136036.141" offset="0x110000" size="0x8000" crc="9cbdffd0" sha1="ce36e7b9792e41d87f97901b8d0a473835017ae6" />
+		<rom name="136036.145" offset="0x120000" size="0x8000" crc="e828e64b" sha1="8ad19ee40e6c4caa3a102f967fe93e823c766b5a" />
+		<rom name="136036.149" offset="0x130000" size="0x8000" crc="81503a23" sha1="9a28ba78f8029395542067f03460d15cbcd7b315" />
+		<rom name="136036.138" offset="0x180000" size="0x8000" crc="48c4d79d" sha1="c4cd258cd1effbfd62e3270b626271db66095dcb" />
+		<rom name="136036.142" offset="0x190000" size="0x8000" crc="7faae75f" sha1="e3c3f77aa9ec91d4fcdd2fc5f0a22063eec1afe2" />
+		<rom name="136036.146" offset="0x1a0000" size="0x8000" crc="8ae5a7b5" sha1="97ddf916c41d6ddd23501e27611a83c912ec9ad2" />
+		<rom name="136036.150" offset="0x1b0000" size="0x8000" crc="a10c4bd9" sha1="3177f22aff9e18c0f003f3fd1fa4b258308eee07" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

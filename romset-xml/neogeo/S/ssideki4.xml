@@ -1,0 +1,25 @@
+<software name="ssideki4">
+	<description>The Ultimate 11 - The SNK Football Championship / Tokuten Ou - Honoo no Libero</description>
+	<year>1996</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="215-p1.p1" offset="0x100000" size="0x100000" crc="519b4ba3" sha1="5aa59514b23aa663f2c4014ee94a31e9f59151de" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x1400000">
+		<rom loadflag="load16_byte" name="215-c1.c1" offset="0x0" size="0x400000" crc="8ff444f5" sha1="e2dc52d09512cb378df96ddf45435f9bcbbe9947" />
+		<rom loadflag="load16_byte" name="215-c2.c2" offset="0x1" size="0x400000" crc="5b155037" sha1="68900c0fdcd35c9f38e0effdf27e1dbd3c53daf8" />
+		<rom loadflag="load16_byte" name="215-c3.c3" offset="0x800000" size="0x400000" crc="456a073a" sha1="3488013f371012eab4e788e1525c81260e0b7080" />
+		<rom loadflag="load16_byte" name="215-c4.c4" offset="0x800001" size="0x400000" crc="43c182e1" sha1="343f034c65ca498b437e22e06a866a5daf3b9602" />
+		<rom loadflag="load16_byte" name="215-c5.c5" offset="0x1000000" size="0x200000" crc="0c6f97ec" sha1="b8d297f0ba2b04404eb0f7c6673ecc206fadae0c" />
+		<rom loadflag="load16_byte" name="215-c6.c6" offset="0x1000001" size="0x200000" crc="329c5e1b" sha1="015c36b8d3efab9b4647f110ecb5c118a9c80f43" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x600000">
+		<rom name="215-v1.v1" offset="0x0" size="0x400000" crc="877d1409" sha1="77c58ebffe677ea6369c964ec7975b11df512fa1" />
+		<rom name="215-v2.v2" offset="0x400000" size="0x200000" crc="1bfa218b" sha1="344836a578bde3c0ab59b58c8734f868e7403c26" />
+		</dataarea>
+	</part>
+</software>

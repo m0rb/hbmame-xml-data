@@ -1,0 +1,19 @@
+<software name="pacmulti" cloneof="puckman">
+	<description>PacMulti (Pacman)</description>
+	<year>2000</year>
+	<publisher>Marcel Silvius</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacmulti.6e" offset="0x0" size="0x1000" crc="cfb721a8" sha1="028e508a9c11eab508452ffc644730894adf388c" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacmulti.6h" offset="0x2000" size="0x1000" crc="e55d5230" sha1="b764e85871cf8bb96a4ee7d0f3df204adfd4da5e" />
+		<rom name="pacmulti.6j" offset="0x3000" size="0x1000" crc="29ba4b53" sha1="f907641bb583342fa19f02de23639ba730123792" />
+		<rom name="pacmulti.8" offset="0x8000" size="0x1000" crc="5a4b59dc" sha1="09b21036cf40decf4ee00898eb44673599c65b05" />
+		<rom name="pacmulti.9" offset="0x9000" size="0x1000" crc="3b939b12" sha1="40333555af024f505064018a9b76dd284ecbf9a6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacmulti.5e" offset="0x0" size="0x1000" crc="46cdda4a" sha1="2c38050a4f5d0c9e1b4f3e054dcac25cde63ae2a" />
+		<rom name="pacman.5f" offset="0x1000" size="0x1000" crc="958fedf9" sha1="4a937ac02216ea8c96477d4a15522070507fb599" />
+		</dataarea>
+	</part>
+</software>

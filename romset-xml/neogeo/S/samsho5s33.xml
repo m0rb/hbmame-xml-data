@@ -1,0 +1,27 @@
+<software name="samsho5s33" cloneof="samsho5">
+	<description>Samurai Shodown V (Bootleg)(fully decrypted)</description>
+	<year>2003</year>
+	<publisher>bootleg</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="270s33.p1" offset="0x0" size="0x800000" crc="611a6687" sha1="55ff9122d64efd276e22a66fa443e0bebd079928" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="270s33.v1" offset="0x0" size="0x400000" crc="6849136c" sha1="5f8e7cc33b8d994165dd577a0d7e0eb2df16f07e" />
+		<rom name="270s33.v2" offset="0x400000" size="0x400000" crc="222e1774" sha1="3c1b2f37d4f2fa2cd7d6a6f04b3aedf6b2f4b089" />
+		<rom name="270s33.v3" offset="0x800000" size="0x400000" crc="cd9e7adc" sha1="941ae992c004594885f635fdea3ac1c51bb5d469" />
+		<rom name="270s33.v4" offset="0xc00000" size="0x400000" crc="8b305cac" sha1="938e2600c0c2b3d4a0a362ef6e91850c32217f18" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="270s33.c1" offset="0x0" size="0x800000" crc="4e7bdea1" sha1="2376386e0e82820c0853cf39e27167f8c181980c" />
+		<rom loadflag="load16_byte" name="270s33.c2" offset="0x1" size="0x800000" crc="7b444985" sha1="1f2941f6a1bee6391002b88277edcfa7554f10f3" />
+		<rom loadflag="load16_byte" name="270s33.c3" offset="0x1000000" size="0x800000" crc="8c709a9b" sha1="92a03ccf08d301955b06f3323417b4f20d773428" />
+		<rom loadflag="load16_byte" name="270s33.c4" offset="0x1000001" size="0x800000" crc="cfd53f5c" sha1="773b03fb6faa958eddee6b001ebb619f8a8d5b30" />
+		<rom loadflag="load16_byte" name="270s33.c5" offset="0x2000000" size="0x800000" crc="c026d318" sha1="fec9a9309afe94f21e0f35ec992a39ce51deefc2" />
+		<rom loadflag="load16_byte" name="270s33.c6" offset="0x2000001" size="0x800000" crc="b3d9d204" sha1="9dbcf6c179ea3a04c8ed26416e4e91324fd1cf11" />
+		<rom loadflag="load16_byte" name="270s33.c7" offset="0x3000000" size="0x800000" crc="fe03a025" sha1="3a052869f6b46cffc5d1ea497b0d5f1f4d1874c2" />
+		<rom loadflag="load16_byte" name="270s33.c8" offset="0x3000001" size="0x800000" crc="89db2d34" sha1="cd3f1e4ef631704c1078c915135a4510891bd429" />
+		</dataarea>
+	</part>
+</software>

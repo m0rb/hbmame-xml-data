@@ -1,0 +1,42 @@
+<software name="umk3wn" cloneof="umk3">
+	<description>Ultimate Mortal Kombat 3 (WaveNet)</description>
+	<year>2025</year>
+	<publisher>Neotendo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="umk3wn.u54" offset="0x0" size="0x80000" crc="965fb405" sha1="3086ca481f8ca31c017943b9a1461ddde96ce30b" />
+		<rom loadflag="load16_byte" name="umk3wn.u63" offset="0x1" size="0x80000" crc="653bcac4" sha1="9a558ba2f201eb4d0087e2fc21cbf6f0dad834f0" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0x800000">
+		<rom loadflag="load16_byte" name="l2.0_mortal_kombat_3_u2_ultimate.u2" offset="0x0" size="0x100000" crc="3838cfe5" sha1="e3d2901f3bae1362742fc6ee0aa31c9f63b4dfa3" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_3_u3_music_spch.u3" offset="0x200000" size="0x100000" crc="856fe411" sha1="6165ebecfce7500e948d84492ffa19eed7f47091" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_3_u4_music_spch.u4" offset="0x400000" size="0x100000" crc="428a406f" sha1="e70ec83cd054de0da1e178720ed0035b8887f797" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_3_u5_music_spch.u5" offset="0x600000" size="0x100000" crc="3b98a09f" sha1="edf1d02a56dcf3349e6b4bb4097acfe7592305f4" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0x2000000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u133_game_rom.u133" offset="0x0" size="0x100000" crc="79b94667" sha1="31bba640c351fdccc6685cadb74dd79a3f910ce8" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u132_game_rom.u132" offset="0x1" size="0x100000" crc="13e95228" sha1="405b05f5a5a55667c2be17d4b399129bdacefd90" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u131_game_rom.u131" offset="0x2" size="0x100000" crc="41001e30" sha1="2cec91116771951c0380cec5debf4cbb40c14c61" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u130_game_rom.u130" offset="0x3" size="0x100000" crc="49379dd7" sha1="e6dfab4e23d9cc38ae56c1bbf10ccd160e8fad5e" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u129_game_rom.u129" offset="0x400000" size="0x100000" crc="a8b41803" sha1="9697e35e8bb51d6d36b1d7ae47377b446e57682f" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u128_game_rom.u128" offset="0x400001" size="0x100000" crc="b410d72f" sha1="ac5c1c6f744186540f4ab100d9bd4ce6007e600b" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u127_game_rom.u127" offset="0x400002" size="0x100000" crc="bd985be7" sha1="f5183abea2e5eb2c2c8cefa72c9ed321679f5128" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u126_game_rom.u126" offset="0x400003" size="0x100000" crc="e7c32cf4" sha1="94ea7b2eed7dae66f5dd676c20d6b360140e3e0e" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u125_game_rom.u125" offset="0x800000" size="0x100000" crc="9a52227e" sha1="0474a14fa8dbfea0b0889c1d1756b86391683558" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u124_game_rom.u124" offset="0x800001" size="0x100000" crc="5c750ebc" sha1="45d68af1a56994376e086d840502453c8d6be700" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u123_game_rom.u123" offset="0x800002" size="0x100000" crc="f0ab88a8" sha1="cdc9dc12e162255845c6627b1e35182b7e8502d0" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u122_game_rom.u122" offset="0x800003" size="0x100000" crc="9b87cdac" sha1="a5f8db559293978f23e6f105543d8b2e170a2e0d" />
+		<rom loadflag="load32_byte" name="umk-u121.bin" offset="0xc00000" size="0x100000" crc="cc4b95db" sha1="3d53180eec649e9616c4b87db55573f12d9bfee3" />
+		<rom loadflag="load32_byte" name="umk-u120.bin" offset="0xc00001" size="0x100000" crc="1c8144cd" sha1="77cdc1eaf630ccb7233f5532f8b08191d00f0816" />
+		<rom loadflag="load32_byte" name="umk-u119.bin" offset="0xc00002" size="0x100000" crc="5f10c543" sha1="24dc83b7aa531ebd399258ffa7b2e028f1c4a28e" />
+		<rom loadflag="load32_byte" name="umk-u118.bin" offset="0xc00003" size="0x100000" crc="de0c4488" sha1="227cab34798c440b2a45223567113df5f17d913f" />
+		<rom loadflag="load32_byte" name="umk-u113.bin" offset="0x1400000" size="0x100000" crc="99d74a1e" sha1="ed3068afa98287ea290d1f537f5009d3b6d683da" />
+		<rom loadflag="load32_byte" name="umk-u112.bin" offset="0x1400001" size="0x100000" crc="b5a46488" sha1="dbf22e55d200eb9ff550f48b223cf0c6114a9357" />
+		<rom loadflag="load32_byte" name="umk-u111.bin" offset="0x1400002" size="0x100000" crc="a87523c8" sha1="e70b7599fef82001f762fc2c48f7b85474431ccc" />
+		<rom loadflag="load32_byte" name="umk-u110.bin" offset="0x1400003" size="0x100000" crc="0038f205" sha1="059c1c71a2d92ee6db36c09831d213a48a7e81d0" />
+		</dataarea>
+		<dataarea name="serial_security:pic" size="0x1009">
+		<rom name="463_mk3_ultimate.u64" offset="0x0" size="0x1009" crc="4f425218" sha1="7f26045ed2c9ca94fadcb673ce10f28208aa720e" />
+		</dataarea>
+	</part>
+</software>

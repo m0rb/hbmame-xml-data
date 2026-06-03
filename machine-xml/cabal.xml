@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="cabal" description="Cabal cartridges">
+<software name="cabal01">
+	<description>Cabal (Ex Super Version 2009-03-09)</description>
+	<year>2009</year>
+	<publisher>Pipi899</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x50000">
+		<rom loadflag="load16_byte" name="s01.13.7h" offset="0x0" size="0x10000" crc="7f257b0a" sha1="41240de17b910f1c2616d74d66bcb24e6cc6758d" />
+		<rom loadflag="load16_byte" name="s01.11.6h" offset="0x1" size="0x10000" crc="59cee043" sha1="98c0eb3266cbae0039a14c7d726727d2ecca7ebc" />
+		<rom loadflag="load16_byte" name="12.7j" offset="0x20000" size="0x10000" crc="d763a47c" sha1="146d8082a404b6eddaf2dc9ba41a997949c17f8a" />
+		<rom loadflag="load16_byte" name="10.6j" offset="0x20001" size="0x10000" crc="96d5e8af" sha1="ed7d854f08e87db5ae6cf526eafa029dfd2bfb9f" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="4-3n" offset="0x0" size="0x2000" crc="4038eff2" sha1="0bcafc1b78c3bef9a0e9b822c482ea4a942fd180" />
+		<rom name="3-3p" offset="0x8000" size="0x8000" crc="d9defcbf" sha1="f26b10b1dbe5aa6446f70fd18e5f1379455578ec" />
+		</dataarea>
+		<dataarea name="adpcm1" size="0x10000">
+		<rom name="2-1s" offset="0x0" size="0x10000" crc="850406b4" sha1="23ac1650c6d6f35607a5264b3aa89868401a645a" />
+		</dataarea>
+		<dataarea name="adpcm2" size="0x10000">
+		<rom name="1-1u" offset="0x0" size="0x10000" crc="8b3e0789" sha1="b1450db1b1bada237c90930623e4def321099f13" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="5-6s" offset="0x0" size="0x4000" crc="6a76955a" sha1="733cb4b862b5dac97c2641b58f2362471e62fcf2" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x80000">
+		<rom loadflag="load16_byte" name="bg_rom1.bin" offset="0x0" size="0x10000" crc="1023319b" sha1="38fcc8159776b82779b3163329b07c61be939fae" />
+		<rom loadflag="load16_byte" name="bg_rom2.bin" offset="0x1" size="0x10000" crc="3b6d2b09" sha1="4cdcd22836dce4ee6348c4e6df7c6360d12ef912" />
+		<rom loadflag="load16_byte" name="bg_rom3.bin" offset="0x20000" size="0x10000" crc="420b0801" sha1="175be6e3ca3cb98672e4cdbc9b5f5b007bc531c9" />
+		<rom loadflag="load16_byte" name="bg_rom4.bin" offset="0x20001" size="0x10000" crc="77bc7a60" sha1="4d148241835f6a6b63f66494636c09a1fc1d3c06" />
+		<rom loadflag="load16_byte" name="bg_rom5.bin" offset="0x40000" size="0x10000" crc="543fcb37" sha1="78c40f6a78a8b9ca9f73fc67fc87f78b15e7abbe" />
+		<rom loadflag="load16_byte" name="bg_rom6.bin" offset="0x40001" size="0x10000" crc="0bc50075" sha1="565eb59b41f71fb69f62397f9747f5ae18b83009" />
+		<rom loadflag="load16_byte" name="bg_rom7.bin" offset="0x60000" size="0x10000" crc="d28d921e" sha1="e133de5129a33ca9ff449948a959621bbfc58c11" />
+		<rom loadflag="load16_byte" name="bg_rom8.bin" offset="0x60001" size="0x10000" crc="67e4fe47" sha1="15620fc5e985a249677da333b77331e40d2b24ab" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x80000">
+		<rom loadflag="load16_byte" name="sp_rom1.bin" offset="0x0" size="0x10000" crc="34d3cac8" sha1="a6a2304fb576267db2c72cfbf0a3f66740ebe60e" />
+		<rom loadflag="load16_byte" name="sp_rom2.bin" offset="0x1" size="0x10000" crc="4e49c28e" sha1="ea74443a9423b14611a1f97e44692badfedd0ead" />
+		<rom loadflag="load16_byte" name="sp_rom3.bin" offset="0x20000" size="0x10000" crc="7065e840" sha1="baa8cd28be60c678d782ecfabde6cd5e36480415" />
+		<rom loadflag="load16_byte" name="sp_rom4.bin" offset="0x20001" size="0x10000" crc="6a0e739d" sha1="e3f4f5b4587f573426ec00417f33e94a257c77e6" />
+		<rom loadflag="load16_byte" name="sp_rom5.bin" offset="0x40000" size="0x10000" crc="0e1ec30e" sha1="4b1f092fc1e92da0f92e55d1548db7961a13f717" />
+		<rom loadflag="load16_byte" name="sp_rom6.bin" offset="0x40001" size="0x10000" crc="581a50c1" sha1="5afd65c15a0a63a54727e6d882011f0718a9fefc" />
+		<rom loadflag="load16_byte" name="sp_rom7.bin" offset="0x60000" size="0x10000" crc="55c44764" sha1="7fad1f2084664b5b4d1384c8081371b0c79c4f5e" />
+		<rom loadflag="load16_byte" name="sp_rom8.bin" offset="0x60001" size="0x10000" crc="702735c9" sha1="e4ac799dc85ff5b7c8e578611605989c78f9e8b3" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

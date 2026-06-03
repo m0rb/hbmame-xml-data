@@ -1,0 +1,20 @@
+<software name="zap">
+	<description>Space Zap Tribute</description>
+	<year>2003</year>
+	<publisher>David Widel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="zap.1" offset="0x0" size="0x1000" crc="74e6e3a0" sha1="3d953bfd57aa56f8fe61d1abd01db84d027df3bb" />
+		<rom name="zap.2" offset="0x1000" size="0x1000" crc="40e1884b" sha1="ce303b6a6c9e765c256997c19f64e9ebfd8f435e" />
+		<rom name="zap.4" offset="0x3000" size="0x1000" crc="17c357e6" sha1="6486f58592b784d53a5c14f59b25c8cd513b2a0d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="zap.5e" offset="0x0" size="0x1000" crc="a0578404" sha1="329f3e869eecff96191642e54dbfc7b6b268f026" />
+		<rom name="zap.5f" offset="0x1000" size="0x1000" crc="039b5c78" sha1="36a96c996f20d1b5fb4f674393a03d10cdf4a091" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="82s123.7f" offset="0x0" size="0x20" crc="2fc650bd" sha1="8d0268dee78e47c712202b0ec4f1f51109b1f2a5" />
+		<rom name="crush.4a" offset="0x20" size="0x100" crc="2bc5d339" sha1="446e234df94d9ef34c3191877bb33dd775acfdf5" />
+		</dataarea>
+	</part>
+</software>

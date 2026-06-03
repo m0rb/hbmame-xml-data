@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="_1942" description="_1942 cartridges">
+<software name="galagax" cloneof="1942">
+	<description>1942 (Galaga X)</description>
+	<year>1984</year>
+	<publisher>Jerky and Chris Moore</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x20000">
+		<rom name="galagax1.n3" offset="0x0" size="0x4000" crc="c78cdc46" sha1="50ac4ab7a884b8555f15d959dac2b33e317fcd16" />
+		<rom name="galagax1.n4" offset="0x4000" size="0x4000" crc="863f2f49" sha1="dbe7d13bcaa3919e1be51ba04fbf50f898e5c76e" />
+		<rom name="galagax1.n5" offset="0x10000" size="0x4000" crc="0da115f9" sha1="0517c60877a8067fb13c61c63a032a3f5ed16a57" />
+		<rom name="1-n6.bin" offset="0x14000" size="0x2000" crc="821c6481" sha1="06becb6bf8b4bde3a458098498eecad566a87711" />
+		<rom name="1-n7.bin" offset="0x18000" size="0x4000" crc="5df525e1" sha1="70cd2910e2945db76bd6ebfa0ff09a5efadc2d0b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="sr-01.c11" offset="0x0" size="0x4000" crc="bd87f06b" sha1="821f85cf157f81117eeaba0c3cf0337eac357e58" />
+		</dataarea>
+		<dataarea name="charprom" size="0x100">
+		<rom name="sb-0.f1" offset="0x0" size="0x100" crc="6047d91b" sha1="1ce025f9524c1033e48c5294ee7d360f8bfebe8d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="galagax1.f2" offset="0x0" size="0x2000" crc="b3e1862b" sha1="736fbef1ef15892ba6ea87be5366abf520e3d5fd" />
+		</dataarea>
+		<dataarea name="gfx2" size="0xc000">
+		<rom name="galagax2.a1" offset="0x0" size="0x2000" crc="21f3fee2" sha1="2eed32063b808fae27255e9b026fb92209cfc214" />
+		<rom name="galagax2.a2" offset="0x2000" size="0x2000" crc="5542beae" sha1="f37fad84fbeb2f98092bdb2f2a3bc80804392e07" />
+		<rom name="galagax2.a3" offset="0x4000" size="0x2000" crc="118e87ec" sha1="0b79eee01bd6aef2e85409de16ff9cb032c457cb" />
+		<rom name="galagax2.a4" offset="0x6000" size="0x2000" crc="fc3db895" sha1="bc469fd6f5634eca77728a24e4e6d83a2074c780" />
+		<rom name="galagax2.a5" offset="0x8000" size="0x2000" crc="4a336de1" sha1="8359abb42fc9f774350524a7fbf561e6c8799822" />
+		<rom name="galagax2.a6" offset="0xa000" size="0x2000" crc="1d4a69c9" sha1="34d3ea5e7666fee1ecd0ac763f3114d9c8d60806" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x10000">
+		<rom name="galagax2.l1" offset="0x0" size="0x4000" crc="8408b932" sha1="bea9d62156c566e7a3ae296e3e411d5542b7544b" />
+		<rom name="galagax2.l2" offset="0x4000" size="0x4000" crc="2218cb80" sha1="5dd05b59a55804bedf637abb339188e9c9e6037a" />
+		<rom name="galagax2.n1" offset="0x8000" size="0x4000" crc="4d5ed5e5" sha1="a66e979d8a6ed9cae77c8415130c5f17f8149eda" />
+		<rom name="galagax2.n2" offset="0xc000" size="0x4000" crc="8f4a1688" sha1="69bab8f167a47eee34dadf56b1727b414f3e6579" />
+		</dataarea>
+		<dataarea name="palproms" size="0x300">
+		<rom name="sb-5.e8" offset="0x0" size="0x100" crc="93ab8153" sha1="a792f24e5c0c3c4a6b436102e7a98199f878ece1" />
+		<rom name="sb-6.e9" offset="0x100" size="0x100" crc="8ab44f7d" sha1="f74680a6a987d74b3acb32e6396f20e127874149" />
+		<rom name="sb-7.e10" offset="0x200" size="0x100" crc="f4ade9a4" sha1="62ad31d31d183cce213b03168daa035083b2f28e" />
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		<rom name="sb-2.d1" offset="0x0" size="0x100" crc="8bb8b3df" sha1="49de2819c4c92057fedcb20425282515d85829aa" />
+		<rom name="sb-3.d2" offset="0x100" size="0x100" crc="3b0c99af" sha1="38f30ac1e48632634e409f328ee3051b987de7ad" />
+		<rom name="sb-1.k6" offset="0x200" size="0x100" crc="712ac508" sha1="5349d722ab6733afdda65f6e0a98322f0d515e86" />
+		<rom name="sb-9.m11" offset="0x300" size="0x100" crc="4921635c" sha1="aee37d6cdc36acf0f11ff5f93e7b16e4b12f6c39" />
+		</dataarea>
+		<dataarea name="sprprom" size="0x100">
+		<rom name="sb-8.k3" offset="0x0" size="0x100" crc="f6fad943" sha1="b0a24ea7805272e8ebf72a99b08907bc00d5f82f" />
+		</dataarea>
+		<dataarea name="tileprom" size="0x100">
+		<rom name="sb-4.d6" offset="0x0" size="0x100" crc="4858968d" sha1="20b5dbcaa1a4081b3139e7e2332d8fe3c9e55ed6" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

@@ -1,0 +1,31 @@
+<software name="dstlks01" cloneof="dstlk">
+	<description>Darkstalkers: The Night Warriors (940705E, Simplify Edition, 2016-12-06)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c53s01.p1" offset="0x0" size="0x80000" crc="062da6f1" sha1="6f470b5a68d70f066fbb29e88d819496de611713" />
+		<rom loadflag="load16_word_swap" name="c53.p2" offset="0x80000" size="0x80000" crc="ae413ff2" sha1="e9b85ac04d6d1a57368c70aa24e3ab8a8d67409f" />
+		<rom loadflag="load16_word_swap" name="c53.p3" offset="0x100000" size="0x80000" crc="60678756" sha1="5d10829ad7522b5de3b318dd8cbf1b506ba4c2d4" />
+		<rom loadflag="load16_word_swap" name="c53.p4" offset="0x180000" size="0x80000" crc="912870b3" sha1="9c7620c7e25d236050411ba94fbc5b3b501970a3" />
+		<rom loadflag="load16_word_swap" name="c53.p5" offset="0x200000" size="0x80000" crc="dabae3e8" sha1="126f8433491db36649f5e1908bbe45eb123048e4" />
+		<rom loadflag="load16_word_swap" name="c53.p6" offset="0x280000" size="0x80000" crc="2c6e3077" sha1="d8042312ec546e3e807e3ef0a14af9b4f716e415" />
+		<rom loadflag="load16_word_swap" name="c53.p7" offset="0x300000" size="0x80000" crc="f16db74b" sha1="7b7e31916a61e7fb35ec20849c6d22d74e169ec0" />
+		<rom loadflag="load16_word_swap" name="c53.p8" offset="0x380000" size="0x80000" crc="701e2147" sha1="c0a0603e01fbed67a600b83902091c1073e2ed27" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c53.m1" offset="0x0" size="0x8000" crc="64b685d5" sha1="6c180e7420db754eca5cad17a40f5a64f5c3bd15" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c53.m2" offset="0x28000" size="0x20000" crc="cf7c97c7" sha1="109a4b56ecd59be9c3f5869de99d40619bdaef21" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="dstlk.key" offset="0x0" size="0x14" crc="cfa46dec" sha1="ce57b3d53557f04ac53dac97d67374c288d85866" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c53.q1" offset="0x0" size="0x200000" crc="4a39deb2" sha1="7e63e615869958db66a4e52a0272afee5a10e446" />
+		<rom loadflag="load16_word_swap" name="c53.q2" offset="0x200000" size="0x200000" crc="1a3e5c03" sha1="c5a556e125d6c3d68da745b4d56cd7a851f2a23d" />
+		</dataarea>
+	</part>
+</software>

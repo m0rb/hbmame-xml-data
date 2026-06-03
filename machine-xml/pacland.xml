@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="pacland" description="Pacland cartridges">
+<software name="mariopac">
+	<description>Mario in Pac-Land</description>
+	<year>2001</year>
+	<publisher>Marks Hacks</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x20000">
+		<rom name="pl5_01b.8b" offset="0x8000" size="0x4000" crc="b0ea7631" sha1="424afa6f397310c7af39c9e8b580aa9ccd42c39c" />
+		<rom name="pl5_02.8d" offset="0xc000" size="0x4000" crc="d903e84e" sha1="25338726227bfbec65847879aac5228a6a307db4" />
+		<rom name="pl1_3.8e" offset="0x10000" size="0x4000" crc="aa9fa739" sha1="7b1f7857eb5f68e166b1f8988c82051aaf05df48" />
+		<rom name="pl1_4.8f" offset="0x14000" size="0x4000" crc="2b895a90" sha1="820f8873c6a5a736089406d0f03d491dfb82d00d" />
+		<rom name="pl1_5.8h" offset="0x18000" size="0x4000" crc="7af66200" sha1="f44161ded1633e9801b7a9cd84d481e53823f5d9" />
+		<rom name="pl3_6.8j" offset="0x1c000" size="0x4000" crc="2ffe3319" sha1="c2540321cd5a1fe29ecb077abdf8f997893192e9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x10000">
+		<rom name="mariopac.6f" offset="0x0" size="0x4000" crc="98439154" sha1="7bad68705ae3d9fa6e03ad7dc9421cf6063e1669" />
+		<rom name="mariopac.6e" offset="0x4000" size="0x4000" crc="d0c1f225" sha1="bcaa68922e49b7257959471641d3c91e505a8d53" />
+		<rom name="mariopac.7e" offset="0x8000" size="0x4000" crc="6005b277" sha1="acacffe38edfc2d325dc286d182253ee5bb62489" />
+		<rom name="mariopac.7f" offset="0xc000" size="0x4000" crc="eeed9880" sha1="e037dd299895db22a88c1d32dda157833b1e8a09" />
+		</dataarea>
+		<dataarea name="mcu" size="0x10000">
+		<rom name="pl1_7.3e" offset="0x8000" size="0x2000" crc="8c5becae" sha1="14d67136395c4c64472980a69648ce2d479ae67f" />
+		<rom name="cus60" offset="0xf000" size="0x1000" crc="6ef08fb3" sha1="4842590d60035a0059b0899eb2d5f58ae72c2529" />
+		</dataarea>
+		<dataarea name="bg_chars" size="0x2000">
+		<rom name="pl4_13.6t" offset="0x0" size="0x2000" crc="3ae582fd" sha1="696b2cfadb6b071de8e43d20cd65b37713ca3b30" />
+		</dataarea>
+		<dataarea name="fg_chars" size="0x2000">
+		<rom name="mariopac_12.6n" offset="0x0" size="0x2000" crc="abba0923" sha1="2286b0d162e5502160895940d0c9637abe5d6d2f" />
+		</dataarea>
+		<dataarea name="proms" size="0x1400">
+		<rom name="pl1-2.1t" offset="0x0" size="0x400" crc="472885de" sha1="8d552c90b8d5bc6ad6c60934c00f4303cd180ce7" />
+		<rom name="pl1-1.1r" offset="0x400" size="0x400" crc="a78ebdaf" sha1="8ea215701eb5e1a2a329ef92c19fc69b18fc28c7" />
+		<rom name="pl1-5.5t" offset="0x800" size="0x400" crc="4b7ee712" sha1="dd0ec4c632d8b160f7b54d8f18fcf4ef1508d832" />
+		<rom name="pl1-4.4n" offset="0xc00" size="0x400" crc="3a7be418" sha1="475cdc68205e3acce83fe79b00b74c6a7e28dde4" />
+		<rom name="pl1-3.6l" offset="0x1000" size="0x400" crc="80558da8" sha1="7e1483467817295f36d1e2bdb32934c4f2617d52" />
+		</dataarea>
+	</part>
+</software>
+<software name="paclandb">
+	<description>Pac-Land (Benelux Edition)</description>
+	<year>1984</year>
+	<publisher>Namco</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x20000">
+		<rom name="pl5_01b.8b" offset="0x8000" size="0x4000" crc="b0ea7631" sha1="424afa6f397310c7af39c9e8b580aa9ccd42c39c" />
+		<rom name="pl5_02.8d" offset="0xc000" size="0x4000" crc="d903e84e" sha1="25338726227bfbec65847879aac5228a6a307db4" />
+		<rom name="pl1_3.8e" offset="0x10000" size="0x4000" crc="aa9fa739" sha1="7b1f7857eb5f68e166b1f8988c82051aaf05df48" />
+		<rom name="pl1_4.8f" offset="0x14000" size="0x4000" crc="2b895a90" sha1="820f8873c6a5a736089406d0f03d491dfb82d00d" />
+		<rom name="pl1_5.8h" offset="0x18000" size="0x4000" crc="7af66200" sha1="f44161ded1633e9801b7a9cd84d481e53823f5d9" />
+		<rom name="pl3_6.8j" offset="0x1c000" size="0x4000" crc="2ffe3319" sha1="c2540321cd5a1fe29ecb077abdf8f997893192e9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x10000">
+		<rom name="pl1-9.6f" offset="0x0" size="0x4000" crc="f5d5962b" sha1="8d008a9bc06dc562c241955d9c551647b5c1f4e9" />
+		<rom name="pl1-8.6e" offset="0x4000" size="0x4000" crc="a2ebfa4a" sha1="4a2a2b43a23a7a46266751415d1bde118143429c" />
+		<rom name="pl1-10.7e" offset="0x8000" size="0x4000" crc="c7cf1904" sha1="7ca8ed20ee32eb8609ac96b4e4fcb3b6027b598a" />
+		<rom name="pl1-11.7f" offset="0xc000" size="0x4000" crc="6621361a" sha1="4efa40adba803006e86d5e12514983d4132b5efb" />
+		</dataarea>
+		<dataarea name="mcu" size="0x10000">
+		<rom name="pl1_7.3e" offset="0x8000" size="0x2000" crc="8c5becae" sha1="14d67136395c4c64472980a69648ce2d479ae67f" />
+		<rom name="cus60" offset="0xf000" size="0x1000" crc="6ef08fb3" sha1="4842590d60035a0059b0899eb2d5f58ae72c2529" />
+		</dataarea>
+		<dataarea name="bg_chars" size="0x2000">
+		<rom name="pl4_13.6t" offset="0x0" size="0x2000" crc="3ae582fd" sha1="696b2cfadb6b071de8e43d20cd65b37713ca3b30" />
+		</dataarea>
+		<dataarea name="fg_chars" size="0x2000">
+		<rom name="pl2_12.6n" offset="0x0" size="0x2000" crc="a63c8726" sha1="b15903fa2267375280af03af0a7157e1b0bcb86d" />
+		</dataarea>
+		<dataarea name="proms" size="0x1400">
+		<rom name="pl1-2.1t" offset="0x0" size="0x400" crc="472885de" sha1="8d552c90b8d5bc6ad6c60934c00f4303cd180ce7" />
+		<rom name="pl1-1.1r" offset="0x400" size="0x400" crc="a78ebdaf" sha1="8ea215701eb5e1a2a329ef92c19fc69b18fc28c7" />
+		<rom name="pl1-5.5t" offset="0x800" size="0x400" crc="4b7ee712" sha1="dd0ec4c632d8b160f7b54d8f18fcf4ef1508d832" />
+		<rom name="pl1-4.4n" offset="0xc00" size="0x400" crc="3a7be418" sha1="475cdc68205e3acce83fe79b00b74c6a7e28dde4" />
+		<rom name="pl1-3.6l" offset="0x1000" size="0x400" crc="80558da8" sha1="7e1483467817295f36d1e2bdb32934c4f2617d52" />
+		</dataarea>
+	</part>
+</software>
+<software name="paclandd">
+	<description>Pac-Land</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x20000">
+		<rom name="pl5_01b.8b" offset="0x8000" size="0x4000" crc="b0ea7631" sha1="424afa6f397310c7af39c9e8b580aa9ccd42c39c" />
+		<rom name="pl5_02.8d" offset="0xc000" size="0x4000" crc="d903e84e" sha1="25338726227bfbec65847879aac5228a6a307db4" />
+		<rom name="pl1_3.8e" offset="0x10000" size="0x4000" crc="aa9fa739" sha1="7b1f7857eb5f68e166b1f8988c82051aaf05df48" />
+		<rom name="pl1_4.8f" offset="0x14000" size="0x4000" crc="2b895a90" sha1="820f8873c6a5a736089406d0f03d491dfb82d00d" />
+		<rom name="pl1_5.8h" offset="0x18000" size="0x4000" crc="7af66200" sha1="f44161ded1633e9801b7a9cd84d481e53823f5d9" />
+		<rom name="pl3_6.8j" offset="0x1c000" size="0x4000" crc="2ffe3319" sha1="c2540321cd5a1fe29ecb077abdf8f997893192e9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x10000">
+		<rom name="paclandd.6f" offset="0x0" size="0x4000" crc="3dba9085" sha1="3ade36e6c04ef40d4dcdf53cc374c600de9dbb75" />
+		<rom name="paclandd.6e" offset="0x4000" size="0x4000" crc="7f089223" sha1="129344647ae4898c6d70f15e96c13eca12a5f6ca" />
+		<rom name="paclandd.7e" offset="0x8000" size="0x4000" crc="3f4b4d81" sha1="e6acf8164a9d9fc31a12722e466c4dfded3022fe" />
+		<rom name="paclandd.7f" offset="0xc000" size="0x4000" crc="52c2cb37" sha1="47833d98ccbee1098910778ea1a26f58b485a76a" />
+		</dataarea>
+		<dataarea name="mcu" size="0x10000">
+		<rom name="pl1_7.3e" offset="0x8000" size="0x2000" crc="8c5becae" sha1="14d67136395c4c64472980a69648ce2d479ae67f" />
+		<rom name="cus60" offset="0xf000" size="0x1000" crc="6ef08fb3" sha1="4842590d60035a0059b0899eb2d5f58ae72c2529" />
+		</dataarea>
+		<dataarea name="bg_chars" size="0x2000">
+		<rom name="pl4_13.6t" offset="0x0" size="0x2000" crc="3ae582fd" sha1="696b2cfadb6b071de8e43d20cd65b37713ca3b30" />
+		</dataarea>
+		<dataarea name="fg_chars" size="0x2000">
+		<rom name="pl2_12.6n" offset="0x0" size="0x2000" crc="a63c8726" sha1="b15903fa2267375280af03af0a7157e1b0bcb86d" />
+		</dataarea>
+		<dataarea name="proms" size="0x1400">
+		<rom name="pl1-2.1t" offset="0x0" size="0x400" crc="472885de" sha1="8d552c90b8d5bc6ad6c60934c00f4303cd180ce7" />
+		<rom name="pl1-1.1r" offset="0x400" size="0x400" crc="a78ebdaf" sha1="8ea215701eb5e1a2a329ef92c19fc69b18fc28c7" />
+		<rom name="pl1-5.5t" offset="0x800" size="0x400" crc="4b7ee712" sha1="dd0ec4c632d8b160f7b54d8f18fcf4ef1508d832" />
+		<rom name="pl1-4.4n" offset="0xc00" size="0x400" crc="3a7be418" sha1="475cdc68205e3acce83fe79b00b74c6a7e28dde4" />
+		<rom name="pl1-3.6l" offset="0x1000" size="0x400" crc="80558da8" sha1="7e1483467817295f36d1e2bdb32934c4f2617d52" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

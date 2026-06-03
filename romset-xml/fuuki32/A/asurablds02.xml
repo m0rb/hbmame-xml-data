@@ -1,0 +1,38 @@
+<software name="asurablds02" cloneof="asurabld">
+	<description>Asura Blade - Sword of Dynasty (Enable Hidden Characters)</description>
+	<year>1998</year>
+	<publisher>Yumeji</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="s02_3.u1" offset="0x0" size="0x80000" crc="e65f2f19" sha1="d2d9735842010fb3f9cb85a9255172db3a93937d" />
+		<rom loadflag="load32_byte" name="s02_2.u2" offset="0x1" size="0x80000" crc="67e608d3" sha1="0bc7b9e9fefb0d0f35afb5dae40b25300a00b543" />
+		<rom loadflag="load32_byte" name="s02_1.u3" offset="0x2" size="0x80000" crc="85ec63ae" sha1="768e4f1da9e126f94873a2e6c6a304643143faea" />
+		<rom loadflag="load32_byte" name="s02_0.u4" offset="0x3" size="0x80000" crc="a9a90415" sha1="7445ad491a1f6c7733f0ee79e912fd186f8ae222" />
+		</dataarea>
+		<dataarea name="fuukivid" size="0x2000000">
+		<rom loadflag="load16_word_swap" name="sp23.u14" offset="0x400000" size="0x400000" crc="7df492eb" sha1="30b88a3cd025ffc8c28fef06e0784755be37ef8e" />
+		<rom loadflag="load16_word_swap" name="sp45.u15" offset="0x800000" size="0x400000" crc="1890f42a" sha1="22254fe38fd83f4602a25e1ccba32df16edaf3f9" />
+		<rom loadflag="load16_word_swap" name="sp67.u16" offset="0xc00000" size="0x400000" crc="a48f1ef0" sha1="bf8787f293793291a503af662d3738c007654726" />
+		<rom loadflag="load16_word_swap" name="sp89.u17" offset="0x1000000" size="0x400000" crc="6b024362" sha1="8be5cc3c7306d28b75acd970bb3be6d3c9825367" />
+		<rom loadflag="load16_word_swap" name="spab.u18" offset="0x1400000" size="0x400000" crc="803d2d8c" sha1="25df30689e576a0620656c721d92bcc3fbd84844" />
+		<rom loadflag="load16_word_swap" name="spcd.u19" offset="0x1800000" size="0x400000" crc="42e5c26e" sha1="b68875d353bdc5d49113bbac02fd83508bce66a5" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x800000">
+		<rom loadflag="load32_word_swap" name="bg1012.u22" offset="0x2" size="0x400000" crc="d717a0a1" sha1="007df309dc0650ca07e077b983a2b05730349d0b" />
+		<rom loadflag="load32_word_swap" name="bg1113.u23" offset="0x0" size="0x400000" crc="94338267" sha1="7848bc57cb0eac216100a508763451eb57a0a082" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x800000">
+		<rom loadflag="load32_word_swap" name="bg2022.u25" offset="0x2" size="0x400000" crc="ee312cd3" sha1="2ef9d51928d80375daf8e6b204bb66a8b9cbaee7" />
+		<rom loadflag="load32_word_swap" name="bg2123.u24" offset="0x0" size="0x400000" crc="4acfc469" sha1="a98d06b967ebb3fa3b4c8aa3d7a05063ec981fb2" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x200000">
+		<rom loadflag="load16_word_swap" name="map.u5" offset="0x0" size="0x200000" crc="e681155e" sha1="458845b9c86df72685d92d0d4052aacc2fa7d1bd" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x80000">
+		<rom name="srom.u7" offset="0x0" size="0x80000" crc="bb1deb89" sha1="b1c70abddc0b9a88beb69a592376ff69a7e091eb" />
+		</dataarea>
+		<dataarea name="ymf" size="0x400000">
+		<rom name="pcm.u6" offset="0x0" size="0x400000" crc="ac72225a" sha1="8d16399ed34ac5bd69dbf43b2de2b0db9ac1c610" />
+		</dataarea>
+	</part>
+</software>

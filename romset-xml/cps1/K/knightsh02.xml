@@ -1,0 +1,24 @@
+<software name="knightsh02" cloneof="knights">
+	<description>Knights of the Round (Extreme Mode)</description>
+	<year>1991</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c18h02.p1" offset="0x0" size="0x80000" crc="29ab6297" sha1="449a587750120050561d4ea1b6027e2e7d9109cf" />
+		<rom loadflag="load16_word_swap" name="c18.p5" offset="0x80000" size="0x80000" crc="d0b671a9" sha1="9865472c5fc3f617345e23b5de5a9ba177945b5a" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c18.m1" offset="0x0" size="0x8000" crc="5e44d9ee" sha1="47a7503321be8d52b5c44af838e3bb82ee15a415" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="knights.key" offset="0x0" size="0x80" crc="a4851689" sha1="0a96f22a655c3ff9d09d7b84abd7ab5ac5f137e2" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c18.v1" offset="0x0" size="0x20000" crc="da69d15f" sha1="9616207e693bae85705f786cef60b9f6951b5067" />
+		<rom name="c18.v2" offset="0x20000" size="0x20000" crc="bfc654e9" sha1="01b3d92e4dedf55ea3933d387c7ddb9ba2549773" />
+		</dataarea>
+	</part>
+</software>

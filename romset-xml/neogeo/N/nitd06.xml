@@ -1,0 +1,18 @@
+<software name="nitd06" cloneof="nitd">
+	<description>Nightmare in the Dark (Plus Max)</description>
+	<year>2000</year>
+	<publisher>Xyahzhs</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="260s06.p1" offset="0x0" size="0x80000" crc="4198ce09" sha1="13c8c54b8533955e5b07ca0775346e14d4a10b35" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="260.v1" offset="0x0" size="0x400000" crc="24b0480c" sha1="d769e621be52a5cd2e2568891b5f95a48268e1e0" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="260.c1" offset="0x0" size="0x800000" crc="147b0c7f" sha1="a647c3a2f6d146ff47521c1d39f58830601f5781" />
+		<rom loadflag="load16_byte" name="260.c2" offset="0x1" size="0x800000" crc="d2b04b0d" sha1="ce4322e6cfacb627fe997efe81018861e21d3c27" />
+		</dataarea>
+	</part>
+</software>

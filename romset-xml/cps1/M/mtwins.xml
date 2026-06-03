@@ -1,0 +1,27 @@
+<software name="mtwins">
+	<description>Mega Twins (World 900619)</description>
+	<year>1990</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c10.p1" offset="0x0" size="0x20000" crc="9a2a2db1" sha1="57524e76311afc8ab5d5affa76c85cb1be5a1faf" />
+		<rom loadflag="load16_byte" name="c10.p2" offset="0x1" size="0x20000" crc="a7f96b02" sha1="b5fda02e5069f9e1cdafbacf98334510e9af8fcd" />
+		<rom loadflag="load16_byte" name="c10.p3" offset="0x40000" size="0x20000" crc="bbff8a99" sha1="1f931fad9f43a1494f3b8dbcf910156d5b0bd458" />
+		<rom loadflag="load16_byte" name="c10.p4" offset="0x40001" size="0x20000" crc="0fa00c39" sha1="6404d91590c5c521c8fe944a0aa7091e35b664ae" />
+		<rom loadflag="load16_word_swap" name="c10.p5" offset="0x80000" size="0x80000" crc="9b70bd41" sha1="28ec37d9d0ace5b9fd212fdc02e0f13dc280c068" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c10.m1" offset="0x0" size="0x8000" crc="4d4255b7" sha1="81a76b58043af7252a854b7efc4109957ef0e679" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="mtwins.key" offset="0x0" size="0x80" crc="914e4fb5" sha1="dc38603f1cab0972d6015f68c8e71a2793c92ece" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c10.v1" offset="0x0" size="0x20000" crc="f909e8de" sha1="2dd5bd4076e7d5ded98b72919f868ea700df2e4f" />
+		<rom name="c10.v2" offset="0x20000" size="0x20000" crc="fc158cf7" sha1="294b93d0aea60663ffe96364671552e944a1264b" />
+		</dataarea>
+	</part>
+</software>

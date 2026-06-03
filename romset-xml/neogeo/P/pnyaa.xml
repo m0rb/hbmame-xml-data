@@ -1,0 +1,21 @@
+<software name="pnyaa">
+	<description>Pochi and Nyaa (Ver 2.02)</description>
+	<year>2003</year>
+	<publisher>Aiky / Taito</publisher>
+	<info name="source" value="pnyaa" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:fixed" size="0x20000">
+		</dataarea>
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="pn202.p1" offset="0x0" size="0x100000" crc="bf34e71c" sha1="cfa7a2c7c41601a758414faf34e59583d7537363" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="267-c1.c1" offset="0x0" size="0x800000" crc="5eebee65" sha1="7eb3eefdeb24e19831d0f51d4ea07a0292c25ab6" />
+		<rom loadflag="load16_byte" name="267-c2.c2" offset="0x1" size="0x800000" crc="2b67187b" sha1="149c3efd3c444fd0d35a97fa2268102bf76be3ed" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x400000">
+		<rom name="267-v1.v1" offset="0x0" size="0x400000" crc="e2e8e917" sha1="7f412d55aebff3d38a225a88c632916295ab0584" />
+		</dataarea>
+	</part>
+</software>

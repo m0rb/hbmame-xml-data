@@ -1,0 +1,29 @@
+<software name="kovsgqyzs01" cloneof="kovplus">
+	<description>Sanguo Qunying Chuan Zhengzong Plus (Choose The Magic Yellow Is 32 Zhao Yun)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="pgm_sgqyz_ps01.rom" offset="0x100000" size="0x400000" crc="0df84075" sha1="4c2c41a10fdfd3352549dc04e8ac3cb0b6122459" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600_ps01.rom" offset="0x400000" size="0x400000" crc="86e4b20f" sha1="de2b20b4aa49d3c96a97c560feafa960880f0bc1" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsgqyz_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="pgm_a0600.u2" offset="0x0" size="0x800000" crc="d8167834" sha1="fa55a99629d03b2ea253392352f70d2c8639a991" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="qyza0603_ps01.rom" offset="0x1800000" size="0x800000" crc="80f6899b" sha1="4ff6928e2f50388da158556122b61551965b3d5e" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b0600.u5" offset="0x0" size="0x800000" crc="7d3cd059" sha1="00cf994b63337e0e4ebe96453daf45f24192af1c" />
+		<rom name="qyzb0601_ps01.rom" offset="0x800000" size="0x800000" crc="723c64c1" sha1="302ccdfe9f1118793bc19f9945e71b264664a8d1" />
+		</dataarea>
+		<dataarea name="tiles" size="0xa00000">
+		<rom name="pgm_t0600.u11" offset="0x180000" size="0x800000" crc="4acc1ad6" sha1="0668dbd5e856c2406910c6b7382548b37c631780" />
+		</dataarea>
+	</part>
+</software>

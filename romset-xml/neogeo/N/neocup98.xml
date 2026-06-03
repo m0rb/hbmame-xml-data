@@ -1,0 +1,21 @@
+<software name="neocup98">
+	<description>Neo-Geo Cup &#x27;98 - The Road to the Victory</description>
+	<year>1998</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="244-p1.p1" offset="0x100000" size="0x100000" crc="f8fdb7a5" sha1="f34ee5d1c24e70427d05ef488f46906dbd9f9950" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="244-c1.c1" offset="0x0" size="0x800000" crc="c7a62b23" sha1="4534ecc9ade69c543188c66229dcad89dbc48668" />
+		<rom loadflag="load16_byte" name="244-c2.c2" offset="0x1" size="0x800000" crc="33aa0f35" sha1="3443c7765c6aa177003d42bbfcac9f31d1e12575" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x600000">
+		<rom name="244-v1.v1" offset="0x0" size="0x400000" crc="79def46d" sha1="63414235de2e177654508f1c840040424f8993e6" />
+		<rom name="244-v2.v2" offset="0x400000" size="0x200000" crc="b231902f" sha1="9209772e947a2c7ac31b49dd613bf2eab0cb3358" />
+		</dataarea>
+	</part>
+</software>

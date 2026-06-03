@@ -1,0 +1,10 @@
+<software name="tst_gor1">
+	<description>Test Rom - Gorf Complete Memory Diagnostics</description>
+	<year>2006</year>
+	<publisher>Mark Spaeth</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="gorftest.bin" offset="0x0" size="0x627" crc="676137a2" sha1="d99192a16add7b188b29db7f9497b6c129d81144" />
+		</dataarea>
+	</part>
+</software>

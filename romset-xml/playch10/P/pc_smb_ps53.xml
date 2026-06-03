@@ -1,0 +1,16 @@
+<software name="pc_smb_ps53" cloneof="pc_smb">
+	<description>Super Mario Bros. (X9, 2011-12-30)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps53" offset="0x0" size="0x2000" crc="113dae1c" sha1="4e593311efc582772159e18cb3063d5035b80955" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps53" offset="0x0" size="0x8000" crc="718876fe" sha1="38738de146a874db0efaa003291ccf686d4d5041" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

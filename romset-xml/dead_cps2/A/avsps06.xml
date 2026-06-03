@@ -1,0 +1,23 @@
+<software name="avsps06" cloneof="avsp">
+	<description>Alien vs. Predator (940520U, Phoenix edition)</description>
+	<year>1994</year>
+	<publisher>Razoola</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c52d.p1" offset="0x0" size="0x80000" crc="66aa8aad" sha1="eb1928393d0dd4cc1a96c00324508f83f36a7622" />
+		<rom loadflag="load16_word_swap" name="c52d.p2" offset="0x80000" size="0x80000" crc="579306c2" sha1="cabee3fdb624e681013a5a57d2a37339b96518fb" />
+		<rom loadflag="load16_word_swap" name="c52s06.p3" offset="0x100000" size="0x80000" crc="3d9b92ac" sha1="218756eec9180df78b5cd01b446d07616b387759" />
+		<rom loadflag="load16_word_swap" name="c52s06.p4" offset="0x180000" size="0x80000" crc="9c3ec898" sha1="a5bd67bbb9d9f603092ab34126d94c30e0ddda49" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c52.m1" offset="0x0" size="0x8000" crc="2d3b4220" sha1="2b2d04d4282550fa9f6e1ad8528f20d1f2ac02eb" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c52.q1" offset="0x0" size="0x200000" crc="83499817" sha1="e65b0ebd61ddc748842a9d4d92404b5305307623" />
+		<rom loadflag="load16_word_swap" name="c52.q2" offset="0x200000" size="0x200000" crc="f4110d49" sha1="f27538776cc1ba8213f19f98728ed8c02508d3ac" />
+		</dataarea>
+	</part>
+</software>

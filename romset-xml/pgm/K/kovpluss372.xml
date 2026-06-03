@@ -1,0 +1,30 @@
+<software name="kovpluss372" cloneof="kovplus">
+	<description>Knights of Valour Plus 2012 (Warriors Edition 2020-06-29)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_ph372.119" offset="0x100000" size="0x400000" crc="73c402ad" sha1="c517f6baedf61ed454bbfabff85be537c599c27b" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m01s_bios=bh01.rom" offset="0x0" size="0x200000" crc="692511a5" sha1="b272fdd0aa3724ba8ff30d2568c3a6b63f1358b3" />
+		<rom name="m0600_ph366.rom" offset="0x400000" size="0x400000" crc="acadac0d" sha1="f6b195b7cd33a197d377c750a1f9f5bee2900779" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_ph115.rom" offset="0x0" size="0x800000" crc="5bd7ea9f" sha1="0eb33bd0e23441394ae7c6fa28aafe11adf0b22f" />
+		<rom name="a0601_ph157.rom" offset="0x800000" size="0x800000" crc="551e3563" sha1="377951b13508103796baeb4097670aff187d1696" />
+		<rom name="a0602_ph372.rom" offset="0x1000000" size="0x800000" crc="f68a56b7" sha1="fb5a77476cb5a30533a528ddc454517cc6428043" />
+		<rom name="a0603_ph366.rom" offset="0x1800000" size="0x400000" crc="4fcbb71b" sha1="25c563256456f36d8c431904fee83452ecfaaa2d" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_ph115.rom" offset="0x0" size="0x800000" crc="07d91ea3" sha1="8713409439eb4a2875baffbda711587f283a652b" />
+		<rom name="b0601_ph372.rom" offset="0x800000" size="0x400000" crc="a8fc03a0" sha1="1e48d52b30463c142221683e1ffa7523fb70a10b" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_ph259.rom" offset="0x180000" size="0x800000" crc="842b7711" sha1="b999d55e6e304b4057c66d57bf970f7b181ddac8" />
+		</dataarea>
+	</part>
+</software>

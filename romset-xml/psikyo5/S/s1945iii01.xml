@@ -1,0 +1,20 @@
+<software name="s1945iii01" cloneof="s1945iii">
+	<description>Strikers 1945 III (Ex Super Version, 2009-07-X3)</description>
+	<year>2009</year>
+	<publisher>Pipi899</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x180000">
+		<rom loadflag="load32_word_swap" name="2_progls01.u16" offset="0x2" size="0x80000" crc="465f06d4" sha1="2254ca868d526e04840e53016a55684a02bd483f" />
+		<rom loadflag="load32_word_swap" name="1_progh.u17" offset="0x0" size="0x80000" crc="1b8a5a18" sha1="718a176bd48e16f964fcb07c568b5227cfc0515f" />
+		<rom loadflag="load16_word_swap" name="3_data.u1" offset="0x100000" size="0x80000" crc="8ff5f7d3" sha1="420a3d7f2d5ab6a56789d36b418431f12f5f73f5" />
+		</dataarea>
+		<dataarea name="eeprom" size="0x100">
+		<rom name="eeprom-s1945iii.bin" offset="0x0" size="0x100" crc="b39f3604" sha1="d7c66210598096fcafb20adac2f0b293755f4926" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x3800000">
+		</dataarea>
+		<dataarea name="ymf" size="0x400000">
+		<rom name="sound.u9" offset="0x0" size="0x400000" crc="c5374beb" sha1="d13e12cbd249246d953c45bb3bfa576a0ec75595" />
+		</dataarea>
+	</part>
+</software>

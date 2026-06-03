@@ -1,0 +1,27 @@
+<software name="willows02" cloneof="willow">
+	<description>Willow (Portuguese)</description>
+	<year>2019</year>
+	<publisher>Antigeno</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c05s02.p1" offset="0x0" size="0x20000" crc="05814ce1" sha1="0da3d908117adb6d505ba843b914aa54597d3cff" />
+		<rom loadflag="load16_byte" name="c05s02.p2" offset="0x1" size="0x20000" crc="48bdd898" sha1="851735cfc4d40bf533fc8199002c85c6ac9dcca8" />
+		<rom loadflag="load16_byte" name="c05s02.p3" offset="0x40000" size="0x20000" crc="b188553b" sha1="49a0dfe97e1d2810bda891d5464d2634254f0247" />
+		<rom loadflag="load16_byte" name="c05s02.p4" offset="0x40001" size="0x20000" crc="8bba3252" sha1="565a0119cc48628f6cb568c3db23f5a1f9d05d23" />
+		<rom loadflag="load16_word_swap" name="c05s02.p5" offset="0x80000" size="0x80000" crc="a64d6469" sha1="b95cf4696767742505809a3d2b0767856e5a46d2" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c05.m1" offset="0x0" size="0x8000" crc="f6b3d060" sha1="0ed2e2f64ba53ba2c371b66ab1e52e40b16d8baf" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="willows01.key" offset="0x0" size="0x80" crc="ad3640c3" sha1="0d9ffb6bc15f6207d154ded582d81c2cde0a396f" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c05.v1" offset="0x0" size="0x20000" crc="bde23d4d" sha1="d1fee2f99c858dfb07edcd600da491c7b656afe0" />
+		<rom name="c05.v2" offset="0x20000" size="0x20000" crc="683898f5" sha1="316a77b663d78c8b9ff6d85756cb05aaaeef4003" />
+		</dataarea>
+	</part>
+</software>

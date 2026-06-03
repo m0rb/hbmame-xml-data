@@ -1,0 +1,16 @@
+<software name="ng4ptest">
+	<description>4 Player Multitab Test (from CD)</description>
+	<year>2021</year>
+	<publisher>Blastar</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom name="611.p1" offset="0x0" size="0x28b6" crc="2326f2f4" sha1="4c982e750d9ea2e29748f02d5b916b38548daaa5" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x10000">
+		<rom name="611.v1" offset="0x0" size="0x10000" crc="62ea940e" sha1="65e22c4435d3950b1fc3d2949494b5fe3370e855" />
+		</dataarea>
+		<dataarea name="sprites" size="0x10000">
+		</dataarea>
+	</part>
+</software>

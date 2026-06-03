@@ -1,0 +1,23 @@
+<software name="hmhearts" cloneof="puckman">
+	<description>Hangly-Man (Hearts)</description>
+	<year>1981</year>
+	<publisher>[Nittoh]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="hangly3.6e" offset="0x0" size="0x800" crc="9d027c4a" sha1="88e094880057451a75cdc2ce9477403021813982" />
+		<rom name="hangly3.6k" offset="0x800" size="0x800" crc="194c7189" sha1="fd423bac2810015313841c7b935054565390fbd0" />
+		<rom name="hangly2.6f" offset="0x1000" size="0x800" crc="5ba228bb" sha1="b0e902cdf98bee72d6ec8069eec96adce3245074" />
+		<rom name="newpuc2.6m" offset="0x1800" size="0x800" crc="70810ccf" sha1="3941678606aab1e53356a6781e24d84e83cc88ce" />
+		<rom name="hangly3.6h" offset="0x2000" size="0x800" crc="08419c4a" sha1="7e5001adad401080c788737c1d2349f218750442" />
+		<rom name="newpuc2.6n" offset="0x2800" size="0x800" crc="3f250c58" sha1="53bf2270c26f10f7e97960cd4c96e09e16b9bdf3" />
+		<rom name="hmhearts.6j" offset="0x3000" size="0x800" crc="603b70b7" sha1="a8e408e33fb16f0879793d416c3074dc48c875db" />
+		<rom name="hmhearts.6p" offset="0x3800" size="0x800" crc="71293b1f" sha1="b507a74866d34ecf0e6d32c91f9b5655817f6c3f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacheart.5e" offset="0x0" size="0x800" crc="c62bbabf" sha1="f6f28ae33c2ab274105283b22b49ad243780a95e" />
+		<rom name="newpuc2.5h" offset="0x800" size="0x800" crc="777c70d3" sha1="ed5ccbeb1102ec9f837577de3aa51317c32520d6" />
+		<rom name="newpuc2.5f" offset="0x1000" size="0x800" crc="ca8c184c" sha1="833aa845824ed80777b62f03df36a920ad7c3656" />
+		<rom name="newpuc2.5j" offset="0x1800" size="0x800" crc="7dc75a81" sha1="d3fe1cad3b594052d8367685febb2335b0ad62f4" />
+		</dataarea>
+	</part>
+</software>

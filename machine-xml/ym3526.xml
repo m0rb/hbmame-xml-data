@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="ym3526" description="Ym3526 cartridges">
+<software name="terracrc" cloneof="terracre">
+	<description>Terra Cresta (alt)</description>
+	<year>1985</year>
+	<publisher>Nichibutsu</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x20000">
+		<rom loadflag="load16_byte" name="terracrc.8" offset="0x0" size="0x4000" crc="44e29950" sha1="0446c803771e624a812b5b7bd422505a58fa2f9d" />
+		<rom loadflag="load16_byte" name="terracrc.12" offset="0x1" size="0x4000" crc="5d2d4fef" sha1="b31c2c496013163a5504343f06b4f9cc9834f78a" />
+		<rom loadflag="load16_byte" name="terracrc.7" offset="0x8000" size="0x4000" crc="907968e6" sha1="8b8a17b87a08e2a5e4223d9bdbc4a7df0726a589" />
+		<rom loadflag="load16_byte" name="terracrc.11" offset="0x8001" size="0x4000" crc="f5dcd168" sha1="d58c76d1f199e664caae6a89b39d8dddb758d593" />
+		<rom loadflag="load16_byte" name="terracrc.6" offset="0x10000" size="0x4000" crc="b2cb4442" sha1="a7a3a2d2a509bfcc905c7bfda516147626e09782" />
+		<rom loadflag="load16_byte" name="terracrc.10" offset="0x10001" size="0x4000" crc="66db3b3b" sha1="637b6dec3e03bd80ba4efdb08e9604bf3deea49b" />
+		<rom loadflag="load16_byte" name="terracrc.5" offset="0x18000" size="0x4000" crc="a1bea44f" sha1="cda2f0f7feac9060f86392704907b86cb5857b47" />
+		<rom loadflag="load16_byte" name="1a_9b.rom" offset="0x18001" size="0x4000" crc="69227b56" sha1="58c8aa4baa1f5ddfc151f5ed6284a06e87866dd7" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="11.15b" offset="0x0" size="0x4000" crc="604c3b11" sha1="c01d1ddae40fa8b65dfc72f959942cb9664a548b" />
+		<rom name="terracrc.19" offset="0x4000" size="0x4000" crc="20fd3b53" sha1="baf494f64a66fc4ae9d2fef12ae7c6f61ad82d94" />
+		<rom name="13.18b" offset="0x8000" size="0x4000" crc="302dc0ab" sha1="4db8f12e70f9adf1eb993c6a8af68b5edbf79773" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="14.16g" offset="0x0" size="0x2000" crc="591a3804" sha1="e1b46f5652e7f9677d75f01c6132975ace4facdd" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x10000">
+		<rom name="terracrc.4" offset="0x0" size="0x4000" crc="3597f737" sha1="443ad8b868a20a28a739df2f677803cb94012919" />
+		<rom name="terracrc.2" offset="0x4000" size="0x4000" crc="26474fd6" sha1="7e8b725d5a29cc328925eea1ccdc2edaa2e7a927" />
+		<rom name="terracrc.3" offset="0x8000" size="0x4000" crc="f5f66a67" sha1="d7761634fd0ea725e4fdaff698171285f9042f0f" />
+		<rom name="terracrc.1" offset="0xc000" size="0x4000" crc="55f80572" sha1="a32749f8539a2a908532365f7f5650c92fc19f42" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x10000">
+		<rom name="7.6e" offset="0x0" size="0x4000" crc="bcf7740b" sha1="8701862c35eb8fb1ec239253136a3858ebea4d0c" />
+		<rom name="8.7e" offset="0x4000" size="0x4000" crc="a70b565c" sha1="153e5f5a9927c294660dd0d636a9f651d4984d6d" />
+		<rom name="9.6g" offset="0x8000" size="0x4000" crc="4a9ec3e6" sha1="0a35b82fb49ecf7edafd02744a48490e744c0a00" />
+		<rom name="10.7g" offset="0xc000" size="0x4000" crc="450749fc" sha1="376ab98ab8db56ed45f7d97a221dfd52e389cb5a" />
+		</dataarea>
+		<dataarea name="proms" size="0x504">
+		<rom name="3.10f" offset="0x0" size="0x100" crc="ce07c544" sha1="c3691cb420c88f1887a55e3035b5d017decbc17a" />
+		<rom name="2.11f" offset="0x100" size="0x100" crc="566d323a" sha1="fe83585a0d9c7f942a5e54620b627a5a17a0fcf4" />
+		<rom name="1.12f" offset="0x200" size="0x100" crc="7ea63946" sha1="d7b89694a80736c7605b5c83d25d8b706f4504ab" />
+		<rom name="4.2g" offset="0x300" size="0x100" crc="08609bad" sha1="e5daee3c3fea6620e3c2b91becd93bc4d3cdf011" />
+		</dataarea>
+		<dataarea name="user1" size="0x100">
+		<rom name="5.4e" offset="0x0" size="0x100" crc="2c43991f" sha1="312112832bee511b0545524295aa9bc2e756db0f" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

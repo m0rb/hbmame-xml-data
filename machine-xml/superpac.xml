@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="superpac" description="Superpac cartridges">
+<software name="superpc1">
+	<description>Super Pac-Man (Super Locksmith sound and gfx hack)</description>
+	<year>2011</year>
+	<publisher>Paul Smith</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="sp1-2.1c" offset="0xc000" size="0x2000" crc="4bb33d9c" sha1="dd87f71b4db090a32a6b791079eedd17580cc741" />
+		<rom name="superpc1.1b" offset="0xe000" size="0x2000" crc="cec50857" sha1="d8470064bf8a334accedcb767f5da05d5dce00a1" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="superpc1.3c" offset="0x0" size="0x1000" crc="1c72ed9e" sha1="31833bd244ff0b61419566eae4f53bdd76a5a0e8" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="superpc1.3f" offset="0x0" size="0x2000" crc="89f07757" sha1="642ca413cf27496322e4840998cdb711e3c682e0" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="superpc1.3m" offset="0x0" size="0x100" crc="e35238c7" sha1="c55bd51a44b4c9899ca65f47ede952ca2714ce8e" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="superpac.4c" offset="0x0" size="0x20" crc="9ce22c46" sha1="d97f53ef4c5ef26659a22ed0de4ce7ef3758c924" />
+		<rom name="superpac.4e" offset="0x20" size="0x100" crc="1253c5c1" sha1="df46a90170e9761d45c90fbd04ef2aa1e8c9944b" />
+		<rom name="superpac.3l" offset="0x120" size="0x100" crc="d4d7026f" sha1="a486573437c54bfb503424574ad82655491e85e1" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="spc-3.1k" offset="0xf000" size="0x1000" crc="04445ddb" sha1="ce7d14963d5ddaefdeaf433a6f82c43cd1611d9b" />
+		</dataarea>
+	</part>
+</software>
+<software name="superpcn">
+	<description>Super Pac-Man (Namco)</description>
+	<year>1999</year>
+	<publisher>Namco</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="spc-2.1c" offset="0xc000" size="0x2000" crc="1a38c30e" sha1="ae0ee9f3df0991a80698fe745a7a853a4bb60710" />
+		<rom name="spc-1.1b" offset="0xe000" size="0x2000" crc="730e95a9" sha1="ca73c8bcb03c2f5c05968c707a5d3f7f9956b886" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="sp1-6.3c" offset="0x0" size="0x1000" crc="91c5935c" sha1="10579edabc26a0910253fab7d41b4c19ecdaaa09" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="spv-2.3f" offset="0x0" size="0x2000" crc="670a42f2" sha1="9171922df07e31fd1dc415766f7d2cc50a9d10dc" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="superpac.3m" offset="0x0" size="0x100" crc="ad43688f" sha1="072f427453efb1dda8147da61804fff06e1bc4d5" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="superpac.4c" offset="0x0" size="0x20" crc="9ce22c46" sha1="d97f53ef4c5ef26659a22ed0de4ce7ef3758c924" />
+		<rom name="superpac.4e" offset="0x20" size="0x100" crc="1253c5c1" sha1="df46a90170e9761d45c90fbd04ef2aa1e8c9944b" />
+		<rom name="superpac.3l" offset="0x120" size="0x100" crc="d4d7026f" sha1="a486573437c54bfb503424574ad82655491e85e1" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="spc-3.1k" offset="0xf000" size="0x1000" crc="04445ddb" sha1="ce7d14963d5ddaefdeaf433a6f82c43cd1611d9b" />
+		</dataarea>
+	</part>
+</software>
+<software name="superpcp">
+	<description>Super Pac-Man Plus</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="spc-2.1c" offset="0xc000" size="0x2000" crc="1a38c30e" sha1="ae0ee9f3df0991a80698fe745a7a853a4bb60710" />
+		<rom name="spc-1.1b" offset="0xe000" size="0x2000" crc="730e95a9" sha1="ca73c8bcb03c2f5c05968c707a5d3f7f9956b886" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="spv-1.3c" offset="0x0" size="0x1000" crc="78337e74" sha1="11222adb55e6bce508896ccb1f6dbab0c1d44e5b" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="spcp-2.3f" offset="0x0" size="0x2000" crc="0d52ef4d" sha1="9db8d36d80db8622dd129e8db01ef507f0e5e926" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="superpac.3m" offset="0x0" size="0x100" crc="ad43688f" sha1="072f427453efb1dda8147da61804fff06e1bc4d5" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="superpac.4c" offset="0x0" size="0x20" crc="9ce22c46" sha1="d97f53ef4c5ef26659a22ed0de4ce7ef3758c924" />
+		<rom name="superpac.4e" offset="0x20" size="0x100" crc="1253c5c1" sha1="df46a90170e9761d45c90fbd04ef2aa1e8c9944b" />
+		<rom name="superpac.3l" offset="0x120" size="0x100" crc="d4d7026f" sha1="a486573437c54bfb503424574ad82655491e85e1" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="spc-3.1k" offset="0xf000" size="0x1000" crc="04445ddb" sha1="ce7d14963d5ddaefdeaf433a6f82c43cd1611d9b" />
+		</dataarea>
+	</part>
+</software>
+<software name="superpcs">
+	<description>Super Pac-Man (always small)</description>
+	<year>2011</year>
+	<publisher>Paul Smith</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="sp1-2.1c" offset="0xc000" size="0x2000" crc="4bb33d9c" sha1="dd87f71b4db090a32a6b791079eedd17580cc741" />
+		<rom name="superpcs.1b" offset="0xe000" size="0x2000" crc="8df321c2" sha1="f8e0a004042be3003534b226a80ab7104f684e26" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="superpcs.3c" offset="0x0" size="0x1000" crc="3a4f438d" sha1="ca333d02c94380d4fc4b56c8cc5f7269157ac371" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="superpcs.3f" offset="0x0" size="0x2000" crc="d477484e" sha1="edf724a3a53c0bfd18aaa55e452b47c8b54b223e" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="superpcs.3m" offset="0x0" size="0x100" crc="06acd480" sha1="4963bd69e8718cf3fd08f06a5f03fe153c380af4" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="superpcs.4c" offset="0x0" size="0x20" crc="5508bfda" sha1="29aaf77e2a1dda241da31ad83e43186b9ec491f1" />
+		<rom name="superpac.4e" offset="0x20" size="0x100" crc="1253c5c1" sha1="df46a90170e9761d45c90fbd04ef2aa1e8c9944b" />
+		<rom name="superpac.3l" offset="0x120" size="0x100" crc="d4d7026f" sha1="a486573437c54bfb503424574ad82655491e85e1" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="spc-3.1k" offset="0xf000" size="0x1000" crc="04445ddb" sha1="ce7d14963d5ddaefdeaf433a6f82c43cd1611d9b" />
+		</dataarea>
+	</part>
+</software>
+<software name="vectrsup">
+	<description>Super Pac-Man (Vector sim)</description>
+	<year>2000</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="spc-2.1c" offset="0xc000" size="0x2000" crc="1a38c30e" sha1="ae0ee9f3df0991a80698fe745a7a853a4bb60710" />
+		<rom name="spc-1.1b" offset="0xe000" size="0x2000" crc="730e95a9" sha1="ca73c8bcb03c2f5c05968c707a5d3f7f9956b886" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="vecsup-1.3c" offset="0x0" size="0x1000" crc="618db633" sha1="3930a12c0d76d55b3ff40cc9deca20b01c6c9f9b" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="vecsup-2.3f" offset="0x0" size="0x2000" crc="62c09c6c" sha1="f1c65b594c293b6a4eb459eac80fe28929c64eb6" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="superpac.3m" offset="0x0" size="0x100" crc="ad43688f" sha1="072f427453efb1dda8147da61804fff06e1bc4d5" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="superpac.4c" offset="0x0" size="0x20" crc="9ce22c46" sha1="d97f53ef4c5ef26659a22ed0de4ce7ef3758c924" />
+		<rom name="superpac.4e" offset="0x20" size="0x100" crc="1253c5c1" sha1="df46a90170e9761d45c90fbd04ef2aa1e8c9944b" />
+		<rom name="superpac.3l" offset="0x120" size="0x100" crc="d4d7026f" sha1="a486573437c54bfb503424574ad82655491e85e1" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="spc-3.1k" offset="0xf000" size="0x1000" crc="04445ddb" sha1="ce7d14963d5ddaefdeaf433a6f82c43cd1611d9b" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

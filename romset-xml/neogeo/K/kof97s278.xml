@@ -1,0 +1,25 @@
+<software name="kof97s278" cloneof="kof97">
+	<description>Kof&#x27;97 Plus (Revived to strengthen the second edition, 2014-04-11)</description>
+	<year>2014</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="232s278.p1" offset="0x0" size="0x100000" crc="7d6ad86d" sha1="9b2e9430b11a7c29e547a5a2af5ba9f914925f95" />
+		<rom loadflag="load16_word_swap" name="232s277.p2" offset="0x100000" size="0x400000" crc="ca32e3d2" sha1="a1c540f9a6e305c3d73b04117a630abe6ba6f0fc" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="232s277.c1" offset="0x0" size="0x800000" crc="ede4fff1" sha1="7ddc48cd06a71fbc8bac9d9bc36bd0a8395a008e" />
+		<rom loadflag="load16_byte" name="232s277.c2" offset="0x1" size="0x800000" crc="d6957979" sha1="13d0c0cb480ca4c3f3b96408af54c01c400f989f" />
+		<rom loadflag="load16_byte" name="232s006.c3" offset="0x1000000" size="0x800000" crc="b092e64f" sha1="7d809432d068db8f9056f5210570191416f1a53b" />
+		<rom loadflag="load16_byte" name="232s006.c4" offset="0x1000001" size="0x800000" crc="d25e8a04" sha1="52227828e3fdd27399b4cd514551abf856293f47" />
+		<rom loadflag="load16_byte" name="232s277.c5" offset="0x2000000" size="0x400000" crc="6eba5e06" sha1="939ba1b47e69a3d578f17256dd97d2f4f9238ad4" />
+		<rom loadflag="load16_byte" name="232s277.c6" offset="0x2000001" size="0x400000" crc="168e4ac5" sha1="437db7a1388cdd1ff80b703a64655a73443b438f" />
+		</dataarea>
+	</part>
+</software>

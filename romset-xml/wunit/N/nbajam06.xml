@@ -1,0 +1,28 @@
+<software name="nbajam06" cloneof="nbajamte">
+	<description>NBA Jam Tournament Edition SE (rev 5.05, 2025-12-23)(Wolf h/w, preview)</description>
+	<year>2025</year>
+	<publisher>Asure</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="nbajam06.u54" offset="0x0" size="0x80000" crc="321976a3" sha1="6d3893dcbf1f4b1be15662f64970962017ec8445" />
+		<rom loadflag="load16_byte" name="nbajam06.u63" offset="0x1" size="0x80000" crc="3b124fed" sha1="a3f8e2d6e3be9b9551f5047479f27e231fa12264" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0xa00000">
+		<rom loadflag="load16_byte" name="nbajam06.u2" offset="0x0" size="0x100000" crc="e7abf014" sha1="8d4774235d2b5d2a0eb0d8b3f7b5b68b2c03c1b1" />
+		<rom loadflag="load16_byte" name="nbajam06.u3" offset="0x200000" size="0x100000" crc="2760465f" sha1="09d5e3775e4389ebf0ec2bc5c34a58c14e7543cd" />
+		<rom loadflag="load16_byte" name="nbajam06.u4" offset="0x400000" size="0x100000" crc="382153c1" sha1="0d6fe1162ae052890adbe5e205516735ebd112cf" />
+		<rom loadflag="load16_byte" name="nbajam06.u5" offset="0x600000" size="0x100000" crc="24a972e3" sha1="75def99586cf5522748b222eae3638b08d25750a" />
+		<rom loadflag="load16_byte" name="nbajam06.u6" offset="0x800000" size="0x100000" crc="f4915367" sha1="b47d35f29a3587c084baaa2ced6391913924d4dd" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0x2000000">
+		<rom loadflag="load32_byte" name="nbajam06.u129" offset="0x400000" size="0x100000" crc="1d448803" sha1="720c928783b63054ee2003a0ebe1748491b37019" />
+		<rom loadflag="load32_byte" name="nbajam06.u128" offset="0x400001" size="0x100000" crc="860b34a4" sha1="9e7a64c23b494c530a5a72ac7c26680fac97794b" />
+		<rom loadflag="load32_byte" name="nbajam06.u127" offset="0x400002" size="0x100000" crc="2ce04388" sha1="5fbeae251c01d97458c35e243218c4d93b3a7567" />
+		<rom loadflag="load32_byte" name="nbajam06.u126" offset="0x400003" size="0x100000" crc="11870a50" sha1="a9b404002cd4909737d5efa53bc9b7787116f39b" />
+		<rom loadflag="load32_byte" name="nbajam06.u125" offset="0x800000" size="0x100000" crc="140acee3" sha1="8144e6c15f66a6e9c4e0c64bd64ee7207dfcdf42" />
+		<rom loadflag="load32_byte" name="nbajam06.u124" offset="0x800001" size="0x100000" crc="f6da1a70" sha1="aff9a749f72c84f37776f9092073368d1e290334" />
+		<rom loadflag="load32_byte" name="nbajam06.u123" offset="0x800002" size="0x100000" crc="98702ff3" sha1="640e453f80bb5883bd9a41d8803a02d8529c4ab1" />
+		<rom loadflag="load32_byte" name="nbajam06.u122" offset="0x800003" size="0x100000" crc="ddf1bc38" sha1="c181bf07a548005015a6d6d211d06ee5514cd1cb" />
+		</dataarea>
+	</part>
+</software>

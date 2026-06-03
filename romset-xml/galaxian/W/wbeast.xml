@@ -1,0 +1,19 @@
+<software name="wbeast">
+	<description>Wriggly Beasties</description>
+	<year>1981</year>
+	<publisher>Compost</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="wbeast.7f" offset="0x0" size="0x1000" crc="967e92ee" sha1="319953fda4bedd447e95f93cd800fc036ce6a8e4" />
+		<rom name="wbeast.7j" offset="0x1000" size="0x1000" crc="72c70fff" sha1="e0e2cfafdce4d027f89a32542cdc2d724da9f6b0" />
+		<rom name="wbeast.7l" offset="0x2000" size="0x1000" crc="2486d3a6" sha1="93ac6178303bf65175b8b0b889c1dae11da46d0e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="wbeast.1h" offset="0x0" size="0x1000" crc="623bb742" sha1="081cc0cc2f3133338495e61a8e904448521c6c9a" />
+		<rom name="wbeast.1k" offset="0x1000" size="0x1000" crc="c1b1143f" sha1="72436840ff72f7f6341b11c43e25107ecb3ebb73" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="warofbug.clr" offset="0x0" size="0x20" crc="8688e64b" sha1="ed13414257f580b98b50c9892a14159c55e7838d" />
+		</dataarea>
+	</part>
+</software>

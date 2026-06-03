@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="base" description="Base cartridges">
+<software name="fstarfrc01" cloneof="fstarfrc">
+	<description>Final Star Force (Chinese)</description>
+	<year>1992</year>
+	<publisher>Tecmo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_byte" name="fstarfc01.rom" offset="0x0" size="0x40000" crc="28a0b648" sha1="b9b1ad7a7823b0c4e96bf1a3c4ede0192a78fe38" />
+		<rom loadflag="load16_byte" name="fstarfc02.rom" offset="0x1" size="0x40000" crc="cd49179f" sha1="b1093a999c5c918cf399589fba6d175cd6899e6a" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="fstarf07.rom" offset="0x0" size="0x10000" crc="e0ad5de1" sha1="677237341e837061b6cc02200c0752964caed907" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x20000">
+		<rom name="fstarfc03.rom" offset="0x0" size="0x20000" crc="4bedd245" sha1="55a5dfac11dbd0c615025d25d24a5917a54955c7" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x100000">
+		<rom loadflag="load16_byte" name="fstarf05.rom" offset="0x0" size="0x80000" crc="77a281e7" sha1="a87a90c2c856d45785cb56185b1a7dff3404b5cb" />
+		<rom loadflag="load16_byte" name="fstarf04.rom" offset="0x1" size="0x80000" crc="398a920d" sha1="eecc167803f48517348d68ce70f15e87eac204bb" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x100000">
+		<rom loadflag="load16_byte" name="fstarf09.rom" offset="0x0" size="0x80000" crc="d51341d2" sha1="e46c319158046d407d4387cb2d8f0b6cfd7be576" />
+		<rom loadflag="load16_byte" name="fstarf06.rom" offset="0x1" size="0x80000" crc="07e40e87" sha1="22867e52a8267ae8ae0ff0dba6bb846cb3e1b63d" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="fstarf08.rom" offset="0x0" size="0x20000" crc="f0ad5693" sha1="a0202801bb9f9c86175ca7989fbc9efa47183188" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

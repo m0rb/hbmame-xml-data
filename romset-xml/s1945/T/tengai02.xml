@@ -1,0 +1,32 @@
+<software name="tengai02" cloneof="tengai">
+	<description>Tengai (Easy Type, 2019-03-08)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load32_word_swap" name="s02.u40" offset="0x0" size="0x80000" crc="2cbb7dfd" sha1="18d19c63b83334b447e5e302f9bf446fcfb9d355" />
+		<rom loadflag="load32_word_swap" name="s02.u41" offset="0x2" size="0x80000" crc="52c74de1" sha1="fa31ffad0fa0aa61b4a927162f7a32e0b99e325c" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom name="1-u63.bin" offset="0x0" size="0x20000" crc="2025e387" sha1="334b0eb3b416d46ccaadff3eee6f1abba63285fb" />
+		</dataarea>
+		<dataarea name="mcu" size="0x1000">
+		<rom name="4-u59.bin" offset="0x0" size="0x1000" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x600000">
+		<rom name="u20hc02.bin" offset="0x0" size="0x200000" crc="f6ab6364" sha1="9e75cbc0c9526f1d86999acfbcb726ba29ae9ab9" />
+		<rom name="u22.bin" offset="0x200000" size="0x200000" crc="8d21caee" sha1="2a68af8b2be2158dcb152c434e91a75871478d41" />
+		<rom name="u21.bin" offset="0x400000" size="0x200000" crc="efe34eed" sha1="7891495b443a5acc7b2f17fe694584f6cb0afacc" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="s02.u34" offset="0x0" size="0x400000" crc="1c712ec8" sha1="0e6eac62d0c1127d486cd5b6ab964e2f05e5cddb" />
+		</dataarea>
+		<dataarea name="spritelut" endianness="little" size="0x40000">
+		<rom name="u1.bin" offset="0x0" size="0x40000" crc="681d7d55" sha1="b0b28471440d747adbc4d22d1918f89f6ede1615" />
+		</dataarea>
+		<dataarea name="ymf" size="0x400000">
+		<rom name="u61.bin" offset="0x0" size="0x200000" crc="a63633c5" sha1="89e75a40518926ebcc7d88dea86c01ba0bb496e5" />
+		<rom name="u62.bin" offset="0x200000" size="0x200000" crc="3ad0c357" sha1="35f78cfa2eafa93ab96b24e336f569ee84af06b6" />
+		</dataarea>
+	</part>
+</software>

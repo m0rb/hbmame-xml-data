@@ -1,0 +1,23 @@
+<software name="jyangoku">
+	<description>Jyangokushi: Haoh no Saihai (Japan 990527)</description>
+	<year>1999</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c80.p1" offset="0x0" size="0x80000" crc="4614a3b2" sha1="f7226006feafaf561046ae7fce18bf62289d41df" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c80.m1" offset="0x0" size="0x8000" crc="1fe8c213" sha1="e0045566337851d8261ed65d5bea483f09ae96b4" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="jyangoku.key" offset="0x0" size="0x14" crc="95b0a560" sha1="6c0684ab321bd555ec9f8f16e63f6c358318ad7e" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_byte" name="c80.q1" offset="0x0" size="0x200000" crc="5ad9ee53" sha1="acfb7ec137209409c1a439ebc62d8fa3f87e7012" />
+		<rom loadflag="load16_byte" name="c80.q2" offset="0x1" size="0x200000" crc="efb3dbfb" sha1="3b32b9890f79805b6a2e1ec63f2cadaca14cf11a" />
+		</dataarea>
+	</part>
+</software>

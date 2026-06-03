@@ -1,0 +1,19 @@
+<software name="neomrdo">
+	<description>Neo Mr. Do!</description>
+	<year>1996</year>
+	<publisher>Visco</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="207-p1.p1" offset="0x0" size="0x100000" crc="334ea51e" sha1="0a642f8565ec6e9587ed767bcf177f4677547162" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="207-c1.c1" offset="0x0" size="0x200000" crc="c7541b9d" sha1="25ca1a2b14cc2648d8dbe432cbd1396017af822c" />
+		<rom loadflag="load16_byte" name="207-c2.c2" offset="0x1" size="0x200000" crc="f57166d2" sha1="bf3aa47d17156485c2177fb63cba093f050abb98" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="207-v1.v1" offset="0x0" size="0x200000" crc="4143c052" sha1="561b19bc8811b80f2f42ffc0b5df27132696470a" />
+		</dataarea>
+	</part>
+</software>

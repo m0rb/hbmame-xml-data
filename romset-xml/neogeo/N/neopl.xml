@@ -1,0 +1,15 @@
+<software name="neopl">
+	<description>Neo Puzzle League (from CD)</description>
+	<year>2004</year>
+	<publisher>Blastar</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom name="408.p1" offset="0x0" size="0xe7a8" crc="2306d129" sha1="6cdd535b6356196f42fb6d49e2cbad0c387b63ae" />
+		<rom name="408.s1" offset="0x0" size="0x2000" crc="18fc6ad9" sha1="e9f0dee058c9a06f2db5fac8bf24485705ae4185" />
+		</dataarea>
+		<dataarea name="sprites" size="0x10000">
+		<rom name="408.c1" offset="0x0" size="0xc900" crc="1d3129b4" sha1="54ac06c4c71b1500c39d7a823b328d569e6a7c43" />
+		</dataarea>
+	</part>
+</software>

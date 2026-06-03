@@ -1,0 +1,22 @@
+<software name="ganryu">
+	<description>Ganryu / Musashi Ganryuki</description>
+	<year>1999</year>
+	<publisher>Visco</publisher>
+	<info name="source" value="ganryu" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:fixed" size="0x20000">
+		</dataarea>
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="252-p1.p1" offset="0x100000" size="0x100000" crc="4b8ac4fb" sha1="93d90271bff281862b03beba3809cf95a47a1e44" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="252-c1.c1" offset="0x0" size="0x800000" crc="50ee7882" sha1="ace0f95407c246d0456341cf2ad8a7668b81df8a" />
+		<rom loadflag="load16_byte" name="252-c2.c2" offset="0x1" size="0x800000" crc="62585474" sha1="b35461598087aa82886af0030c61b26cc064af5f" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x400000">
+		<rom name="252-v1.v1" offset="0x0" size="0x400000" crc="e5946733" sha1="d5904a50465af03d6ff33399a98f3259721ca0b2" />
+		</dataarea>
+	</part>
+</software>

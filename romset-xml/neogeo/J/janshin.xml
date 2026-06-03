@@ -1,0 +1,18 @@
+<software name="janshin">
+	<description>Janshin Densetsu - Quest of Jongmaster</description>
+	<year>1994</year>
+	<publisher>Aicom</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="048-p1.p1" offset="0x0" size="0x100000" crc="fa818cbb" sha1="afee2c897b766c84f13891fb52c574fb18df0951" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="048-c1.c1" offset="0x0" size="0x200000" crc="3fa890e9" sha1="e73d2802bacfbc2b2b16fbbedddde17488e4bbde" />
+		<rom loadflag="load16_byte" name="048-c2.c2" offset="0x1" size="0x200000" crc="59c48ad8" sha1="2630817e735a6d197377558f4324c1442803fe15" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="048-v1.v1" offset="0x0" size="0x200000" crc="f1947d2b" sha1="955ff91ab24eb2a7ec51ff46c9f9f2ec060456b2" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,28 @@
+<software name="mslug5xsm13" cloneof="mslug5">
+	<description>Metal Slug 5 (Enemy Soldiers Enhanced Multi-Function Version, 2018-07-31)(Revised Version Enemy Chaser Remix 1.0, 2020-10-08)</description>
+	<year>2020</year>
+	<publisher>Team Remix(Gaston90,YouGuDuoLa,Creamymami[EGCG],I love Nimes,C.B,remikare)</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x600000">
+		<rom loadflag="load16_word_swap" name="268xsm13.p1" offset="0x0" size="0x200000" crc="e7e31f48" sha1="96a30130ee0645feb9c3edf98aae8a9ce99277ae" />
+		<rom loadflag="load16_word_swap" name="268xsm01.p2" offset="0x200000" size="0x400000" crc="7a5e19bb" sha1="e7d80b662796dc34169f7b91ad69362722587a8d" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="268l9b.v1" offset="0x0" size="0x400000" crc="fcc8ba01" sha1="c187c318c65f6aefae05e6cef9f17492edf2e4db" />
+		<rom name="268l9b.v2" offset="0x400000" size="0x400000" crc="386f32bd" sha1="d49fc812c442563b9e82da43bf5c6b9deea0f687" />
+		<rom name="268l9b.v3" offset="0x800000" size="0x400000" crc="dc737e12" sha1="f940ea767404f6a15dea526eda56ad66517ba79e" />
+		<rom name="268l9b.v4" offset="0xc00000" size="0x400000" crc="2b310542" sha1="5f0050d36cd1f722d78d9ae98db537eacc4d8548" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="268l9a.c1" offset="0x0" size="0x800000" crc="5e2e9087" sha1="2366df8b0ee03e8938dcae571dccf32cfcfd685b" />
+		<rom loadflag="load16_byte" name="268l9a.c2" offset="0x1" size="0x800000" crc="d15770e3" sha1="162c166c3fdc2a29af88dfea8a10138284029e36" />
+		<rom loadflag="load16_byte" name="268l9a.c3" offset="0x1000000" size="0x800000" crc="3e104b8f" sha1="ee8467e07f27fbcad35a239b45e1e7e5aed79a25" />
+		<rom loadflag="load16_byte" name="268l9a.c4" offset="0x1000001" size="0x800000" crc="03f32dda" sha1="64bc08dce4a8188878d683a6290e370e4d3488a1" />
+		<rom loadflag="load16_byte" name="268l9a.c5" offset="0x2000000" size="0x800000" crc="fd3e0f24" sha1="5143c521c79a011465c93717171bb24b550bdc1f" />
+		<rom loadflag="load16_byte" name="268l9a.c6" offset="0x2000001" size="0x800000" crc="3c873aba" sha1="b1c882f7c228046929f82a24d9f635c1b6443a94" />
+		<rom loadflag="load16_byte" name="268l9a.c7" offset="0x3000000" size="0x800000" crc="0d070c3b" sha1="2d785bd095726b4e48aa65578b9694372f4c46c3" />
+		<rom loadflag="load16_byte" name="268l9a.c8" offset="0x3000001" size="0x800000" crc="09751dd8" sha1="5a1378faa3bd3ebb6573d7c171639df153b5202b" />
+		</dataarea>
+	</part>
+</software>

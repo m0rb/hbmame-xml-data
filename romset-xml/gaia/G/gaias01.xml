@@ -1,0 +1,29 @@
+<software name="gaias01">
+	<description>Gaia Crusaders (Enable Secret Character)</description>
+	<year>1999</year>
+	<publisher>O Day-S</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="prg1.127" offset="0x0" size="0x80000" crc="47b904b2" sha1="58b9b55f59cf00f70b690a0371096e86f4d723c2" />
+		<rom loadflag="load16_byte" name="prg2hc01.128" offset="0x1" size="0x80000" crc="442b047d" sha1="752f33b631e40ccbab7670501926144841f0b6cd" />
+		</dataarea>
+		<dataarea name="layer0" size="0x400000">
+		<rom name="bg1.989" offset="0x0" size="0x400000" crc="013a693d" sha1="2cc5be6f47c13febed942e1c3167946efedc5f9b" />
+		</dataarea>
+		<dataarea name="layer1" size="0x400000">
+		<rom name="bg2.995" offset="0x0" size="0x400000" crc="783cc62f" sha1="8b6e4212688b53be5ecc29ff2d41fd43e7d0a420" />
+		</dataarea>
+		<dataarea name="layer2" size="0x400000">
+		<rom name="bg3.998" offset="0x0" size="0x400000" crc="bcd61d1c" sha1="660a3b02a8c39e1117b00d0ad06f73221fef4ce8" />
+		</dataarea>
+		<dataarea name="sprites0" size="0x1000000">
+		<rom name="obj1.736" offset="0x0" size="0x400000" crc="f4f84e5d" sha1="8f445dd7a5c8a996939c211e5aec5742121a6e7e" />
+		<rom name="obj2.738" offset="0x400000" size="0x400000" crc="15c2a9ce" sha1="631eb2968395be86ef2403733e7d4ec769a013b9" />
+		</dataarea>
+		<dataarea name="ymz" size="0xc00000">
+		<rom name="snd1.447" offset="0x0" size="0x400000" crc="92770a52" sha1="81f6835e1b45eb0f367e4586fdda92466f02edb9" />
+		<rom name="snd2.454" offset="0x400000" size="0x400000" crc="329ae1cf" sha1="0c5e5074a5d8f4fb85ab4893bc953f192dcb301a" />
+		<rom name="snd3.455" offset="0x800000" size="0x400000" crc="4048d64e" sha1="5e4ec6d37e70484e2fcd04188385e79ef0b53026" />
+		</dataarea>
+	</part>
+</software>

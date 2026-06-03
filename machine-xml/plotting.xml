@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="plotting" description="Plotting cartridges">
+<software name="plotting01">
+	<description>Plotting (Chinese)</description>
+	<year>1989</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="plot01_s01.ic10" offset="0x0" size="0x10000" crc="134e39a3" sha1="c3ec3ed35b3fb39d780369a4c50beb6e4ccaaff2" />
+		</dataarea>
+		<dataarea name="maincpu:gfx" size="0x20000">
+		<rom loadflag="load16_byte" name="b96-02hc01.ic9" offset="0x0" size="0x10000" crc="78b05c85" sha1="384626d0ef246702cdf6869bedee42fa18c2f438" />
+		<rom loadflag="load16_byte" name="b96-03hc01.ic8" offset="0x1" size="0x10000" crc="ef56d689" sha1="16391444b2e50accfd81e5bf35bf2b5f74e3d138" />
+		</dataarea>
+		<dataarea name="plds" size="0x200">
+		<rom name="gal16v8-b86-04.bin" offset="0x0" size="0x117" crc="bf8c0ea0" sha1="e0a00f1f6363fb79650202f90a56329990876d49" />
+		</dataarea>
+	</part>
+</software>
+<software name="sokoban">
+	<description>Sokoban LE</description>
+	<year>2015</year>
+	<publisher>cmonkey</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="sokoban.ic10" offset="0x0" size="0x10000" crc="5959ddb4" sha1="73f206e19cdfd151426092aa3eea6f72093f360b" />
+		</dataarea>
+		<dataarea name="maincpu:gfx" size="0x20000">
+		<rom loadflag="load16_byte" name="sokoban.ic9" offset="0x0" size="0x10000" crc="859e1ff4" sha1="899b71bd0eb9923e88cf7142ed634b36b3e34c6c" />
+		<rom loadflag="load16_byte" name="sokoban.ic8" offset="0x1" size="0x10000" crc="439a6670" sha1="79144e3ba5205f5356f28d3b23ef32d3d4fca51c" />
+		</dataarea>
+		<dataarea name="plds" size="0x200">
+		</dataarea>
+	</part>
+</software>
+<software name="speccies">
+	<description>Speccies 2</description>
+	<year>2015</year>
+	<publisher>Sokurah</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="speccies.ic10" offset="0x0" size="0x55e9" crc="29e126ac" sha1="1e3e1379f964e0967d6ea5ef6a84741319b5108f" />
+		</dataarea>
+		<dataarea name="maincpu:gfx" size="0x20000">
+		<rom loadflag="load16_byte" name="speccies.ic9" offset="0x0" size="0x10000" crc="11ed1528" sha1="55f0b63bcbbbe4ad4d1041dca980b55ccb7a7aea" />
+		<rom loadflag="load16_byte" name="speccies.ic8" offset="0x1" size="0x10000" crc="fcfeb89f" sha1="fc0e811c72313b371d3a6530b27f9023ff201e31" />
+		</dataarea>
+		<dataarea name="mcu:mcu" size="0x800">
+		</dataarea>
+		<dataarea name="plds" size="0x200">
+		</dataarea>
+	</part>
+</software>
+<software name="sqij">
+	<description>SQIJ!</description>
+	<year>2018</year>
+	<publisher>Sokurah</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="sqij.ic10" offset="0x0" size="0xf000" crc="214ba802" sha1="39c1d66178d409ccf41194f99c765d2a98727bf9" />
+		</dataarea>
+		<dataarea name="maincpu:gfx" size="0x20000">
+		<rom loadflag="load16_byte" name="sqij.ic9" offset="0x0" size="0x10000" crc="c4de729b" sha1="58e4c8d8af121dd25eba737cc1917841bc3ec6f5" />
+		<rom loadflag="load16_byte" name="sqij.ic8" offset="0x1" size="0x10000" crc="978df42d" sha1="51d7310591c68ec12178b606f0779915f15de8a0" />
+		</dataarea>
+		<dataarea name="plds" size="0x200">
+		</dataarea>
+	</part>
+</software>
+<software name="sqij15" cloneof="sqij">
+	<description>SQIJ! v1.5</description>
+	<year>2018</year>
+	<publisher>Sokurah</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="sqij15.ic10" offset="0x0" size="0xf000" crc="793c8b97" sha1="66b1a6b6c9cd95f06ca5c23843bf61be0474b659" />
+		</dataarea>
+		<dataarea name="maincpu:gfx" size="0x20000">
+		<rom loadflag="load16_byte" name="sqij.ic9" offset="0x0" size="0x10000" crc="c4de729b" sha1="58e4c8d8af121dd25eba737cc1917841bc3ec6f5" />
+		<rom loadflag="load16_byte" name="sqij.ic8" offset="0x1" size="0x10000" crc="978df42d" sha1="51d7310591c68ec12178b606f0779915f15de8a0" />
+		</dataarea>
+		<dataarea name="plds" size="0x200">
+		</dataarea>
+	</part>
+</software>
+<software name="tldemo">
+	<description>Demo - System Timed Cheat Tool</description>
+	<year>2014</year>
+	<publisher>cmonkey</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="tldemo.ic10" offset="0x0" size="0x56a4" crc="fda3d418" sha1="e0171cc1c035d1f800702c3766825b63f6acd291" />
+		</dataarea>
+		<dataarea name="maincpu:gfx" size="0x20000">
+		<rom loadflag="load16_byte" name="tldemo.ic9" offset="0x0" size="0x10000" crc="792b8c11" sha1="0592481b586bfca0f8f8eb096bee46690943596b" />
+		<rom loadflag="load16_byte" name="tldemo.ic8" offset="0x1" size="0x10000" crc="59cfc5ab" sha1="133084eeacdf978ed13db565f64d155c08ecaade" />
+		</dataarea>
+	</part>
+</software>
+<software name="tldemo2">
+	<description>Demo - 256 colours</description>
+	<year>2015</year>
+	<publisher>cmonkey</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="tldemo2.ic10" offset="0x0" size="0x7142" crc="1292a22c" sha1="e351ac5381f7d73de0087586c7fb28d9eccd72cb" />
+		</dataarea>
+		<dataarea name="maincpu:gfx" size="0x20000">
+		<rom loadflag="load16_byte" name="tldemo2.ic9" offset="0x0" size="0x10000" crc="fcc75ddb" sha1="e702480b84379e3106cb6d575d237a8f9701f49e" />
+		<rom loadflag="load16_byte" name="tldemo2.ic8" offset="0x1" size="0x10000" crc="33e70f71" sha1="5a0caa0912dd7d76dd7e788e21b4cc7f320156ad" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

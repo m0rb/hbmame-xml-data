@@ -1,0 +1,19 @@
+<software name="ladybugh" cloneof="lazybug">
+	<description>Ladybug on Pacman Hardware</description>
+	<year>2003</year>
+	<publisher>David Widel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="lazybug.1" offset="0x0" size="0x1000" crc="8cee62ee" sha1="f33b114f3c133cb62f962ca1b2586314b73c8270" />
+		<rom name="lazybug.2" offset="0x1000" size="0x1000" crc="c17a5571" sha1="24bae96cf95f009825fd06916eeae8a06e2e35ae" />
+		<rom name="lazybug.3" offset="0x2000" size="0x1000" crc="ac53ee82" sha1="a69a71ee936ae73d5a27025528ff2c666893866d" />
+		<rom name="ladybugh.4" offset="0x3000" size="0x1000" crc="4ac90450" sha1="7777777777777777777777777777777777777777" />
+		<rom name="lazybug.5" offset="0x8000" size="0x1000" crc="ba11a997" sha1="8dde84e9071bfa3e60d522a02ae5bf4464e730cf" />
+		<rom name="lazybug.6" offset="0x9000" size="0x1000" crc="c8b79a5b" sha1="abaa9c585da1ee62d4b79968bedb429a5bbb739b" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="lazybug.5e" offset="0x0" size="0x1000" crc="4e72e4f5" sha1="05188aa854034e5cd9779d4b7034ec0658ccc805" />
+		<rom name="lazybug.5f" offset="0x1000" size="0x1000" crc="35eaf3a5" sha1="6a0e5a5289003b0d8ccb9dd585a1e12a4486977c" />
+		</dataarea>
+	</part>
+</software>

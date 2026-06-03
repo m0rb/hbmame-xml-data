@@ -1,0 +1,24 @@
+<software name="sengoku2">
+	<description>Sengoku 2 / Sengoku Denshou 2</description>
+	<year>1993</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="040-p1.p1" offset="0x0" size="0x100000" crc="6dde02c2" sha1="e432e63feb88c71629ec96aa84650dcfe356a551" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x600000">
+		<rom loadflag="load16_byte" name="040-c1.c1" offset="0x0" size="0x100000" crc="faa8ea99" sha1="714575e57ea1990612f960ec42b38d2e157ad400" />
+		<rom loadflag="continue" offset="0x400000" size="0x100000" />
+		<rom loadflag="load16_byte" name="040-c2.c2" offset="0x1" size="0x100000" crc="87d0ec65" sha1="23645e0cf859fb4cec3745b3846ca0ef64c689fb" />
+		<rom loadflag="continue" offset="0x400001" size="0x100000" />
+		<rom loadflag="load16_byte" name="040-c3.c3" offset="0x200000" size="0x80000" crc="24b5ba80" sha1="29d58a6b56bd24ee2046a8d45e023b4d7ab7685b" />
+		<rom loadflag="load16_byte" name="040-c4.c4" offset="0x200001" size="0x80000" crc="1c9e9930" sha1="d017474873750a7602b7708c663d29b25ef7bb63" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x300000">
+		<rom name="040-v1.v1" offset="0x0" size="0x200000" crc="71cb4b5d" sha1="56d9aca1d476c19c7d0f707176a8fed53e0189b7" />
+		<rom name="040-v2.v2" offset="0x200000" size="0x100000" crc="c5cece01" sha1="923a3377dac1919e8c3d9ab316902250caa4785f" />
+		</dataarea>
+	</part>
+</software>

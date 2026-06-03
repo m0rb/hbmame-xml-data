@@ -1,0 +1,25 @@
+<software name="sf2ce12" cloneof="sf2ce">
+	<description>Street Fighter II&#x27;: Champion Edition (Hispanic 990804/hack)</description>
+	<year>1992</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c19s12.p1" offset="0x0" size="0x80000" crc="25dc14c8" sha1="fc7b5de3a50d7d9ee977091bab5f82f824e386f2" />
+		<rom loadflag="load16_word_swap" name="c19s12.p2" offset="0x80000" size="0x80000" crc="1c9dd91c" sha1="66fbd10958d3b9f027bc3ba85c99b649cf866ab7" />
+		<rom loadflag="load16_word_swap" name="c19.p3" offset="0x100000" size="0x80000" crc="925a7877" sha1="1960dca35f0ca6f2b399a9fccfbc0132ac6425d1" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c19.m1" offset="0x0" size="0x8000" crc="08f6b60e" sha1="8258fcaca4ac419312531eec67079b97f471179c" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2ce.key" offset="0x0" size="0x80" crc="35b37429" sha1="b372cce106c0900554735c207fb333ac93554ec2" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c14.v1" offset="0x0" size="0x20000" crc="7f162009" sha1="346bf42992b4c36c593e21901e22c87ae4a7d86d" />
+		<rom name="c14.v2" offset="0x20000" size="0x20000" crc="beade53f" sha1="277c397dc12752719ec6b47d2224750bd1c07f79" />
+		</dataarea>
+	</part>
+</software>

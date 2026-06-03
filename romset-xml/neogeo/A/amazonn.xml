@@ -1,0 +1,19 @@
+<software name="amazonn">
+	<description>Soldier Girl Amazon (Neo-Geo port)</description>
+	<year>2023</year>
+	<publisher>iq132</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="501.p1" offset="0x0" size="0x20000" crc="f5f57b9d" sha1="3c5c902d6db9342a0ad82568af48d34c61af46bb" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="501.v1" offset="0x0" size="0x200000" crc="1a1a886c" sha1="36a43396ab04e1d95f9231dc349cf43e59e65a3b" />
+		<rom name="501.v2" offset="0x100000" size="0x200000" crc="86cade60" sha1="45d6b847675d8e7dadff83abf1a12db17e1da6f3" />
+		</dataarea>
+		<dataarea name="sprites" size="0x80000">
+		<rom loadflag="load16_byte" name="501.c1" offset="0x0" size="0x20000" crc="901c6ae1" sha1="d4a98a0467198e2154c7838ebac3513216426310" />
+		<rom loadflag="load16_byte" name="501.c2" offset="0x1" size="0x20000" crc="a02a8679" sha1="18d785c994630043f822f4a71207f75b1ebe7d48" />
+		</dataarea>
+	</part>
+</software>

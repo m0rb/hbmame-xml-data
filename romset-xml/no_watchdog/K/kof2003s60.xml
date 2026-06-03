@@ -1,0 +1,26 @@
+<software name="kof2003s60" cloneof="kof2003">
+	<description>Kof2003 (Evolution 1.4)</description>
+	<year>2003</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x800000">
+		<rom loadflag="load16_word_swap" name="271s60.p1" offset="0x0" size="0x800000" crc="ce221039" sha1="755feabb4a3b2b02f72bd2747b13051fe3d0116c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="271b.v1" offset="0x0" size="0x400000" crc="d2b8aa5e" sha1="498f0556c1de56822141f8043f1ce20444f4ed0a" />
+		<rom name="271b.v2" offset="0x400000" size="0x400000" crc="71956ee2" sha1="a890941e60db358cf45b58909f4719f4826f3bb1" />
+		<rom name="271b.v3" offset="0x800000" size="0x400000" crc="ddbbb199" sha1="0eea4b064bdb8daa03c354fe0a0aa27c4c665bda" />
+		<rom name="271b.v4" offset="0xc00000" size="0x400000" crc="01b90c4f" sha1="387164aa1995d8c11ed939b3afbc294d86d2e27f" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="271b.c1" offset="0x0" size="0x800000" crc="e42fc226" sha1="1cd9364993e141facdcdd53ec2277df7b275d8a7" />
+		<rom loadflag="load16_byte" name="271b.c2" offset="0x1" size="0x800000" crc="1b5e3b58" sha1="0eb254477a9479541291e43e415310852a0f0bed" />
+		<rom loadflag="load16_byte" name="271b.c3" offset="0x1000000" size="0x800000" crc="d334fdd9" sha1="1efe30b4f56a55e25ab518cf6999de797b5e407c" />
+		<rom loadflag="load16_byte" name="271b.c4" offset="0x1000001" size="0x800000" crc="0d457699" sha1="ec73d0c9fc7094d0ac6c0986a6e07cde25893e57" />
+		<rom loadflag="load16_byte" name="271b.c5" offset="0x2000000" size="0x800000" crc="8a91aae4" sha1="802f4baacf801646be1ef686e105b2e867a6a5df" />
+		<rom loadflag="load16_byte" name="271b.c6" offset="0x2000001" size="0x800000" crc="9f8674b8" sha1="65964f40b2227d020023fb436579927e65807dcd" />
+		<rom loadflag="load16_byte" name="271b.c7" offset="0x3000000" size="0x800000" crc="374ea523" sha1="613827d72c6181f3e08353750c9af0c4dbad020b" />
+		<rom loadflag="load16_byte" name="271b.c8" offset="0x3000001" size="0x800000" crc="75211f4d" sha1="d82f044e816ee539ff131d9c931200c818d34cd0" />
+		</dataarea>
+	</part>
+</software>

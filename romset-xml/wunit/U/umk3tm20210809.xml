@@ -1,0 +1,46 @@
+<software name="umk3tm20210809" cloneof="umk3">
+	<description>Ultimate Mortal Kombat 3 (Team Edition, 2021-08-09)</description>
+	<year>2021</year>
+	<publisher>TEAM UMK 3</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="tm20210809.u54" offset="0x0" size="0x80000" crc="bb440df4" sha1="b4eaaecebbec5ce097dbf945aaf261ad7811a545" />
+		<rom loadflag="load16_byte" name="tm20210809.u63" offset="0x1" size="0x80000" crc="cad75d26" sha1="61f326042024d98e8efbac93bbdb17562a07425e" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0x800000">
+		<rom loadflag="load16_byte" name="l2.0_mortal_kombat_3_u2_ultimate.u2" offset="0x0" size="0x100000" crc="3838cfe5" sha1="e3d2901f3bae1362742fc6ee0aa31c9f63b4dfa3" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_3_u3_music_spch.u3" offset="0x200000" size="0x100000" crc="856fe411" sha1="6165ebecfce7500e948d84492ffa19eed7f47091" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_3_u4_music_spch.u4" offset="0x400000" size="0x100000" crc="428a406f" sha1="e70ec83cd054de0da1e178720ed0035b8887f797" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_3_u5_music_spch.u5" offset="0x600000" size="0x100000" crc="3b98a09f" sha1="edf1d02a56dcf3349e6b4bb4097acfe7592305f4" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0x2400000">
+		<rom loadflag="load32_byte" name="uc20181023.u133" offset="0x0" size="0x100000" crc="62c6f8ab" sha1="cfe77e21cb25b4513411658051b849e3c0dd728c" />
+		<rom loadflag="load32_byte" name="uc20181023.u132" offset="0x1" size="0x100000" crc="87d977dc" sha1="3bd6ded7c212621c3f45e29fa90a19b1c7abaac6" />
+		<rom loadflag="load32_byte" name="uc20181023.u131" offset="0x2" size="0x100000" crc="483cbc7b" sha1="39d03642ea62f8623b76ecf084a390db7c366dcd" />
+		<rom loadflag="load32_byte" name="uc20181023.u130" offset="0x3" size="0x100000" crc="ecf63628" sha1="3efeda0a59f110e6ab17247b1fed7965291ec885" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u129_game_rom.u129" offset="0x400000" size="0x100000" crc="a8b41803" sha1="9697e35e8bb51d6d36b1d7ae47377b446e57682f" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u128_game_rom.u128" offset="0x400001" size="0x100000" crc="b410d72f" sha1="ac5c1c6f744186540f4ab100d9bd4ce6007e600b" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u127_game_rom.u127" offset="0x400002" size="0x100000" crc="bd985be7" sha1="f5183abea2e5eb2c2c8cefa72c9ed321679f5128" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u126_game_rom.u126" offset="0x400003" size="0x100000" crc="e7c32cf4" sha1="94ea7b2eed7dae66f5dd676c20d6b360140e3e0e" />
+		<rom loadflag="load32_byte" name="tm20190417.u125" offset="0x800000" size="0x100000" crc="352d8d92" sha1="18781a76a0d558f96e65ab0950cf78a0358d672c" />
+		<rom loadflag="load32_byte" name="tm20190417.u124" offset="0x800001" size="0x100000" crc="3169adfb" sha1="4020d432541a0eb098120e0de856da11c6198d60" />
+		<rom loadflag="load32_byte" name="tm20190417.u123" offset="0x800002" size="0x100000" crc="71e7773e" sha1="52d1d802e09d365d6c6e6f78a95d4eef32d653ec" />
+		<rom loadflag="load32_byte" name="tm20190417.u122" offset="0x800003" size="0x100000" crc="629bf47c" sha1="d0a5e3ec3e4063f1318068f3bf76651738f8e96d" />
+		<rom loadflag="load32_byte" name="tm20190417.u121" offset="0xc00000" size="0x100000" crc="e70dcbc4" sha1="072ecfbd0feb3de506159baab8b132814b343566" />
+		<rom loadflag="load32_byte" name="tm20190417.u120" offset="0xc00001" size="0x100000" crc="46e54f10" sha1="95437f6a49cdf40fb3212b2ff81a956bc644592a" />
+		<rom loadflag="load32_byte" name="tm20190417.u119" offset="0xc00002" size="0x100000" crc="3bb9cc20" sha1="168847bf52b73c1e595c05cc9308a6605b937ea8" />
+		<rom loadflag="load32_byte" name="tm20190417.u118" offset="0xc00003" size="0x100000" crc="03319743" sha1="dd085aef96daf250a42fb0d69fe38d431e22fb15" />
+		<rom loadflag="load32_byte" name="tm20210809.u117" offset="0x1000000" size="0x100000" crc="1f173349" sha1="59dc244a306b30545995872cf21fcf3c4655149f" />
+		<rom loadflag="load32_byte" name="tm20210809.u116" offset="0x1000001" size="0x100000" crc="55ec2afd" sha1="925f58522ea4747cd2025b0eb92c0c64c3a7cdcc" />
+		<rom loadflag="load32_byte" name="tm20210809.u115" offset="0x1000002" size="0x100000" crc="910ba00c" sha1="62619f28563a41e74d1e37a1df39037ba709924a" />
+		<rom loadflag="load32_byte" name="tm20210809.u114" offset="0x1000003" size="0x100000" crc="8e3461c1" sha1="5637320b534ba603b4b44365056ad1adb10e2468" />
+		<rom loadflag="load32_byte" name="tm20190417.u113" offset="0x1400000" size="0x100000" crc="2a3ed57e" sha1="6ceca87b31448c539acd48921f7b61c13dc9c279" />
+		<rom loadflag="load32_byte" name="tm20190417.u112" offset="0x1400001" size="0x100000" crc="a1470fe9" sha1="8c109723416513d220031a600ba8191d6532dd93" />
+		<rom loadflag="load32_byte" name="tm20190417.u111" offset="0x1400002" size="0x100000" crc="7c7fd457" sha1="9acb7a668f1ee9e6b56cc2812e51a3cc277c46ce" />
+		<rom loadflag="load32_byte" name="tm20190417.u110" offset="0x1400003" size="0x100000" crc="271e2922" sha1="9ce72cb7ee1095481f359b7dd85c0dc65f9ec79d" />
+		</dataarea>
+		<dataarea name="serial_security:pic" size="0x1009">
+		<rom name="463_mk3_ultimate.u64" offset="0x0" size="0x1009" crc="4f425218" sha1="7f26045ed2c9ca94fadcb673ce10f28208aa720e" />
+		</dataarea>
+	</part>
+</software>

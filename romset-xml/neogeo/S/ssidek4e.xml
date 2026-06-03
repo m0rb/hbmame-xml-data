@@ -1,0 +1,29 @@
+<software name="ssidek4e" cloneof="ssideki4">
+	<description>The Ultimate 11 - The SNK Football Championship / Tokuten Ou - Honoo no Libero (Earlier)</description>
+	<year>1996</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="215.p1" offset="0x100000" size="0x100000" crc="519b4ba3" sha1="5aa59514b23aa663f2c4014ee94a31e9f59151de" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x600000">
+		<rom name="215e.v1" offset="0x200000" size="0x200000" crc="c4bfed62" sha1="6fec1880eef16f2d1bce152f3c73fb3ea1a931a0" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom name="215.v2" offset="0x400000" size="0x200000" crc="1bfa218b" sha1="344836a578bde3c0ab59b58c8734f868e7403c26" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1400000">
+		<rom loadflag="load16_byte" name="215e.c1" offset="0x400000" size="0x200000" crc="288a9225" sha1="403acb892c0d0f2e5cdf4b0bb4b5843ab6e95874" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="215e.c2" offset="0x400001" size="0x200000" crc="3fc9d1c4" sha1="247dd81fe521876b3970c3ec8e260ada5618df8c" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		<rom loadflag="load16_byte" name="215e.c3" offset="0xc00000" size="0x200000" crc="fedfaebe" sha1="145007cf98b16c0d82385ce5df0b17806eb93ed8" />
+		<rom loadflag="continue" offset="0x800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="215e.c4" offset="0xc00001" size="0x200000" crc="877a5bb2" sha1="7234b1cd5ae299a3596f05f7e9387b72dd425b36" />
+		<rom loadflag="continue" offset="0x800001" size="0x200000" />
+		<rom loadflag="load16_byte" name="215.c5" offset="0x1000000" size="0x200000" crc="0c6f97ec" sha1="b8d297f0ba2b04404eb0f7c6673ecc206fadae0c" />
+		<rom loadflag="load16_byte" name="215.c6" offset="0x1000001" size="0x200000" crc="329c5e1b" sha1="015c36b8d3efab9b4647f110ecb5c118a9c80f43" />
+		</dataarea>
+	</part>
+</software>

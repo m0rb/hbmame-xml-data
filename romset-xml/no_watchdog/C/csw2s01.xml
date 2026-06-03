@@ -1,0 +1,18 @@
+<software name="csw2s01" cloneof="neogeo">
+	<description>Crossed Swords 2 (failed CD conversion)</description>
+	<year>1995</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_word_swap" name="054s01.p1" offset="0x0" size="0x100000" crc="b6e8f765" sha1="fac63109664b834b43240a6e93353173e129e6af" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="054s01.v1" offset="0x0" size="0x80000" crc="a12842f2" sha1="6f6377ff54465c4c13e34f8cb4f333f4f15aed5c" />
+		<rom name="054s01.v2" offset="0x80000" size="0x80000" crc="3b7feef0" sha1="748db17fbd3bf8fc427ff57e0952f21dd2782e6b" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="054.c1" offset="0x0" size="0x400000" crc="8221b712" sha1="7e68871f1bfc402ef27c8fa088c680cbd133f71a" />
+		<rom loadflag="load16_byte" name="054.c2" offset="0x1" size="0x400000" crc="d6c6183d" sha1="cc546ff063fae2c01c109fabcd5b2d29ec3299db" />
+		</dataarea>
+	</part>
+</software>

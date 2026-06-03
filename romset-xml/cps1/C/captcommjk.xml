@@ -1,0 +1,26 @@
+<software name="captcommjk" cloneof="captcomm">
+	<description>Captain Commando (911202, Korea)</description>
+	<year>1991</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c17k.8f" offset="0x0" size="0x80000" crc="5b482b62" sha1="c871aa1eb9ecc117c3079995d1f5212193bd2e12" />
+		<rom loadflag="load16_word_swap" name="c17k.7f" offset="0x80000" size="0x80000" crc="216fe8e9" sha1="cd7669772e0be8e91b3d2a48ebe9ffe5965c3df0" />
+		<rom loadflag="load16_byte" name="c17k.9e" offset="0x100000" size="0x20000" crc="6856b740" sha1="158864dda003b8aefdcfa56ce12d57d13b3d527c" />
+		<rom loadflag="load16_byte" name="c17k.9f" offset="0x100001" size="0x20000" crc="b5ec9706" sha1="715064a11a9cbb150a042a2674c61a762c833505" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c17.m1" offset="0x0" size="0x8000" crc="698e8b58" sha1="b7a3d905a7ed2c430426ca2e185e3d7e75e752a1" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="captcomm.key" offset="0x0" size="0x80" crc="3bd9c940" sha1="8964479f402ce7e000f1da8b3f6386e6915269e1" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c17.v1" offset="0x0" size="0x20000" crc="6de2c2db" sha1="9a1eaba8d104f59a5e61f89679bb5de0c0c64364" />
+		<rom name="c17.v2" offset="0x20000" size="0x20000" crc="b99091ae" sha1="b19197c7ad3aeaf5f41c26bf853b0c9b502ecfca" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,36 @@
+<software name="gngknightc">
+	<description>Ghosts&#x27;n Goblins (Knight, set 4)</description>
+	<year>2026</year>
+	<publisher>Wolfric / Poody</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x18000">
+		<rom name="gng.n13" offset="0x10000" size="0x4000" crc="fd9a8dda" sha1="222c3c759c6b60f82351b9e6bf748fb4872e82b4" />
+		<rom name="gng.n8" offset="0xc000" size="0x4000" crc="a5cfa928" sha1="29dada8c4dbe04969d0d68faac559d2b4a3db711" />
+		<rom name="gngknight.n9" offset="0x8000" size="0x4000" crc="510a7603" sha1="73ac435440ec3b833ddff62c62732c1b4a3629a5" />
+		<rom name="gngknight.n10" offset="0x4000" size="0x4000" crc="96ce3a47" sha1="319bc50085a3ea3c952a63f77204ce7efc6d2fbd" />
+		<rom name="gngknight.n12" offset="0x14000" size="0x4000" crc="2728c032" sha1="484a64353070f9827fbdcc4b1d24eb86ef8268f1" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="gg2.bin" offset="0x0" size="0x8000" crc="615f5b6f" sha1="7ef9ec5c2072e21c787a6bbf700033f50c759c1d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x20000">
+		<rom name="gg12knight.bin" offset="0x18000" size="0x4000" crc="7c6e8878" sha1="4b94a4731f63af06004d5e847198af33110087ad" />
+		<rom name="gg13knight.bin" offset="0x14000" size="0x4000" crc="d3cfe1f8" sha1="0f3b72d4bea5d597258e310f97636f6b9393c978" />
+		<rom name="gg14knight.bin" offset="0x10000" size="0x4000" crc="01d9a306" sha1="94700f6894b109565a36d03f634d7ba353a9d8f6" />
+		<rom name="gg15knight.bin" offset="0x8000" size="0x4000" crc="4b9933df" sha1="a5ff3aab6fbcb8cd44f09c70f29d7427aa7d4473" />
+		<rom name="gg16knight.bin" offset="0x4000" size="0x4000" crc="731dddc3" sha1="656c599d94d98623ae6b2e95663479592d29992b" />
+		<rom name="gg17knight.bin" offset="0x0" size="0x4000" crc="a0713571" sha1="0d30aa976bacc78b7ba0076af136580f34e865a4" />
+		</dataarea>
+		<dataarea name="chars" size="0x4000">
+		<rom name="gg1knight.bin" offset="0x0" size="0x4000" crc="c12dd3e3" sha1="09dda1840ee4052d804423d19eb4ff712690ef38" />
+		</dataarea>
+		<dataarea name="tiles" size="0x18000">
+		<rom name="gg6.bin" offset="0x14000" size="0x4000" crc="2d77e9b2" sha1="944da1ce29a18bf0fc8deff78bceacba0bf23a07" />
+		<rom name="gg7.bin" offset="0x10000" size="0x4000" crc="e525207d" sha1="1947f159189b3a53f1251d8653b6e7c65c91fc3c" />
+		<rom name="gg8.bin" offset="0xc000" size="0x4000" crc="f12ba271" sha1="1c42fa02cb27b35d10c3f7f036005e747f9f6b79" />
+		<rom name="gg9.bin" offset="0x8000" size="0x4000" crc="20035bda" sha1="bbb1fba0eb19471f66d29526fa8423ccb047bd63" />
+		<rom name="gg10.bin" offset="0x4000" size="0x4000" crc="7302529d" sha1="8434c994cc55d2586641f3b90b6b15fd65dfb67c" />
+		<rom name="gg11.bin" offset="0x0" size="0x4000" crc="ddd56fa9" sha1="f9d77eee5e2738b7e83ba02fcc55dd480391479f" />
+		</dataarea>
+	</part>
+</software>

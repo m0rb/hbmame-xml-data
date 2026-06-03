@@ -1,0 +1,29 @@
+<software name="kikikai01">
+	<description>KiKi KaiKai (Chinese)</description>
+	<year>1986</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x28000">
+		<rom name="a85-17_s01.h16" offset="0x0" size="0x8000" crc="2a13c079" sha1="0c7b9a4598d5add28edca306a060268945aa8923" />
+		<rom loadflag="continue" offset="0x18000" size="0x8000" />
+		<rom name="a85-16.h18" offset="0x8000" size="0x10000" crc="4094d750" sha1="05e0ad177a3eb144b203784ecb6242a0fc5c4d4d" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="a85-11.f6" offset="0x0" size="0x8000" crc="cc3539db" sha1="4239a40fdee65cba613e4b4ec54cf7899480e366" />
+		</dataarea>
+		<dataarea name="mcu" size="0x800">
+		<rom name="a85-01.g8" offset="0x0" size="0x800" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x40000">
+		<rom name="a85-15_s01.a1" offset="0x0" size="0x10000" crc="966b8bd1" sha1="77fa4215499ab65ea5c513a5b15b6613ac6cdb2b" />
+		<rom name="a85-14_s01.a3" offset="0x10000" size="0x10000" crc="d8715990" sha1="8d729aaf508a3cb5fb53991ef2fde82df531344e" />
+		<rom name="a85-13_s01.a4" offset="0x20000" size="0x10000" crc="c9bf0da1" sha1="c6ade23be083fdcf3b15b12a8f2860affec1d014" />
+		<rom name="a85-12_s01.a6" offset="0x30000" size="0x10000" crc="29ab45e0" sha1="cfff982d7f64fad8516474801e28f62f5982fd67" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="a85-08.g15" offset="0x0" size="0x100" crc="d15f61a8" sha1="945c8aa26c85269c10373218bef13e04e25eb1e4" />
+		<rom name="a85-10.g12" offset="0x100" size="0x100" crc="8fc3fa86" sha1="d4d86f8e147bbf2a370de428ac20a28b0f146782" />
+		<rom name="a85-09.g14" offset="0x200" size="0x100" crc="b931c94d" sha1="fb554084f34c602d1ff7806fb945a06cf14332af" />
+		</dataarea>
+	</part>
+</software>

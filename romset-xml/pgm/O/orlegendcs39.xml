@@ -1,0 +1,29 @@
+<software name="orlegendcs39" cloneof="orlegend">
+	<description>Oriental Legend (Group Of Demon Dances)(Alt)</description>
+	<year>1997</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0101_po39.160" offset="0x100000" size="0x200000" crc="1aa06278" sha1="6186beadd9f9eddbf2c851bab3477a696b6e2210" />
+		</dataarea>
+		<dataarea name="ics" size="0x600000">
+		<rom name="pgm_m0100.u1" offset="0x400000" size="0x200000" crc="e5c36c83" sha1="50c6f66770e8faa3df349f7d68c407a7ad021716" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0100_po23.u5" offset="0x0" size="0x400000" crc="1bc35928" sha1="a7898a69fab119501b6107214d35c5971ba4dac2" />
+		<rom name="a0101_po23.u6" offset="0x400000" size="0x400000" crc="97cf4912" sha1="0c7a908b09cddf4ba5887cedc599c6197b325b9c" />
+		<rom name="pgm_a0102.u7" offset="0x800000" size="0x400000" crc="069e2c38" sha1="9bddca8c2f5bd80f4abe4e1f062751736dc151dd" />
+		<rom name="pgm_a0103.u8" offset="0xc00000" size="0x400000" crc="4460a3fd" sha1="cbebdb65c17605853f7d0b298018dd8801a25a58" />
+		<rom name="pgm_a0104.u11" offset="0x1000000" size="0x400000" crc="5f8abb56" sha1="6c1ddc0309862a141aa0c0f63b641aec9257aaee" />
+		<rom name="pgm_a0105.u12" offset="0x1400000" size="0x400000" crc="a17a7147" sha1="44eeb43c6b0ebb829559a20ae357383fbdeecd82" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0100_po23.u9" offset="0x0" size="0x400000" crc="5a914019" sha1="8fa854f8546e09e60dabd80647974eefe4971cac" />
+		<rom name="pgm_b0101.u10" offset="0x400000" size="0x400000" crc="0d587bf3" sha1="5347828b0a6e4ddd7a263663d2c2604407e4d49c" />
+		<rom name="pgm_b0102.u15" offset="0x800000" size="0x400000" crc="43823c1e" sha1="e10a1a9a81b51b11044934ff702e35d8d7ab1b08" />
+		</dataarea>
+		<dataarea name="tiles" size="0x800000">
+		<rom name="t0100_po06.u8" offset="0x180000" size="0x400000" crc="d69009ed" sha1="ac5834a082d7912fe9b36722490446d13ca23c83" />
+		</dataarea>
+	</part>
+</software>

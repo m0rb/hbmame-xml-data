@@ -1,0 +1,26 @@
+<software name="kf2k2mp2s37" cloneof="kof2002">
+	<description>Kof2002 Magic Plus II (Ultimate Enhancement, 2016-04-09)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x600000">
+		<rom loadflag="load16_word_swap" name="k2k2m2hc37p1.bin" offset="0x0" size="0x4551cc" crc="ccef3032" sha1="e363b11e19051647bf2b44da6532dfb36f93a3bd" />
+		<rom loadflag="load16_word_swap" name="k2k2m2hc37p2.bin" offset="0x100000" size="0x454f52" crc="65264886" sha1="261f539d1844b7fb1b560681ce1681ca1c615b5c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="265.v1" offset="0x0" size="0x800000" crc="15e8f3f5" sha1="7c9e6426b9fa6db0158baa17a6485ffce057d889" />
+		<rom name="265.v2" offset="0x800000" size="0x800000" crc="da41d6f9" sha1="a43021f1e58947dcbe3c8ca5283b20b649f0409d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="k2k2m2hc39.c1" offset="0x0" size="0x800000" crc="adfcf9ce" sha1="a5e77c4b87d0e38a77d7f90ce357001e89b9c019" />
+		<rom loadflag="load16_byte" name="k2k2m2hc39.c2" offset="0x1" size="0x800000" crc="82391e49" sha1="2ff0e7a0c51116942655e875b5afbed6c067b058" />
+		<rom loadflag="load16_byte" name="k2k2m2hc39.c3" offset="0x1000000" size="0x800000" crc="912bfdc9" sha1="49bc6eb6ce92ee756fd3ab5e877b19e6a90b9746" />
+		<rom loadflag="load16_byte" name="k2k2m2hc39.c4" offset="0x1000001" size="0x800000" crc="0a612be1" sha1="7aceefa2f42f8fc508b849aeccfeb7e3a9c61de2" />
+		<rom loadflag="load16_byte" name="k2k2m2hc39.c5" offset="0x2000000" size="0x800000" crc="156cf803" sha1="d0b78a9752a96f50bd3010ee4f1d09c57bd28a62" />
+		<rom loadflag="load16_byte" name="k2k2m2hc39.c6" offset="0x2000001" size="0x800000" crc="d631215d" sha1="3602ffb3d2692a23c9e3676f1da7ec3f00455f7e" />
+		<rom loadflag="load16_byte" name="k2k2m2hc39.c7" offset="0x3000000" size="0x800000" crc="41b6a094" sha1="f0d602f8c4a4ef16005c976efd9dcbc04d0846ff" />
+		<rom loadflag="load16_byte" name="k2k2m2hc39.c8" offset="0x3000001" size="0x800000" crc="29577030" sha1="189e5e09f3141788092361759f17a2e5b01ff6c3" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,28 @@
+<software name="kof2002s281" cloneof="kof2002">
+	<description>Kof2002 (Resurrection of the Kingdom of Heaven, 2019-04-15)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="265kc2.p1" offset="0x0" size="0x100000" crc="811512bb" sha1="510f5bb0ba8c72ca5377b18f75d71816e8eb79d1" />
+		<rom loadflag="load16_word_swap" name="265or.p2" offset="0x100000" size="0x400000" crc="293bbf78" sha1="647eea522d0a163675205aeab9b0b9ebb3a47eea" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="265nu.v1" offset="0x0" size="0x400000" crc="13d98607" sha1="0f1a374247992d301bc26c0bab200631a13a9f4a" />
+		<rom name="265nu.v2" offset="0x400000" size="0x400000" crc="9cf74677" sha1="073e7cb00127690fdec05c19f00347ec449f15ac" />
+		<rom name="265nu.v3" offset="0x800000" size="0x400000" crc="8e9448b5" sha1="c22420649c7c68a172290548cab846345c861cb0" />
+		<rom name="265nu.v4" offset="0xc00000" size="0x400000" crc="067271b5" sha1="36e07da78aaf634824c98023053bef802be4e218" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="265d.c1" offset="0x0" size="0x800000" crc="7efa6ef7" sha1="71345a4202e7cc9239538fb978638141416c8893" />
+		<rom loadflag="load16_byte" name="265d.c2" offset="0x1" size="0x800000" crc="aa82948b" sha1="b2a40797f68bdeb80bc54dccc5495be68934bf0e" />
+		<rom loadflag="load16_byte" name="265d.c3" offset="0x1000000" size="0x800000" crc="959fad0b" sha1="63ab83ddc5f688dc8165a7ff8d262df3fcd942a2" />
+		<rom loadflag="load16_byte" name="265rm13.c4" offset="0x1000001" size="0x800000" crc="2558972f" sha1="2e0627fc5d689bf64fe36f02a489408d103c4499" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="265or.c7" offset="0x3000000" size="0x800000" crc="201e75e0" sha1="7805d7a753df4d97bd73e05f22f31fe6440eaf6c" />
+		<rom loadflag="load16_byte" name="265or.c8" offset="0x3000001" size="0x800000" crc="ff0fd53b" sha1="68289ab3f808b9c067a948948f48d5a3f1787e6c" />
+		</dataarea>
+	</part>
+</software>

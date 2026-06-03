@@ -1,0 +1,38 @@
+<software name="mbombrds01" cloneof="mbombrd">
+	<description>Muscle Bomber Duo: Ultimate Team Battle (Region Asia Version)</description>
+	<year>1993</year>
+	<publisher>Creamymami[EGCG]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c28.p1" offset="0x0" size="0x20000" crc="72b7451c" sha1="380ef57bb00f1c92d2f29e551b0a670eb5a56cb7" />
+		<rom loadflag="load16_byte" name="c28s01.p2" offset="0x1" size="0x20000" crc="42eaa9da" sha1="367c80bf87be6b74c2406805c0b9e75882d6a47d" />
+		<rom loadflag="load16_byte" name="c28.p3" offset="0x40000" size="0x20000" crc="4086f534" sha1="a2b949f00035b06cb1cd01185902daca3d89d0e3" />
+		<rom loadflag="load16_byte" name="c28.p4" offset="0x40001" size="0x20000" crc="085f47f0" sha1="ac93a196faf17b7dbe7179ce1e850d9cd7293a21" />
+		<rom loadflag="load16_byte" name="c28.p5" offset="0x80000" size="0x20000" crc="c20895a5" sha1="35116f7ef8576753ec989647ca2f6a6131d6909f" />
+		<rom loadflag="load16_byte" name="c28.p6" offset="0x80001" size="0x20000" crc="2618d5e1" sha1="50797c6dda04df95267ff9ef08933c17c3ce7057" />
+		<rom loadflag="load16_byte" name="c28.p7" offset="0xc0000" size="0x20000" crc="9bdb6b11" sha1="fbfbd6b5a72ca3237713ce43a798660f899b707d" />
+		<rom loadflag="load16_byte" name="c28.p8" offset="0xc0001" size="0x20000" crc="3f52d5e5" sha1="0b1ed8e876a6ec2cfb83676afe43a81e8a033e52" />
+		<rom loadflag="load16_word_swap" name="c28.p9" offset="0x100000" size="0x80000" crc="690c026a" sha1="80ad780743b50750b6bfe1d4e28efe98e562233e" />
+		<rom loadflag="load16_word_swap" name="c28.p10" offset="0x180000" size="0x80000" crc="b8b2139b" sha1="88c9169a9979b711ab7afb8272df0a1c80bb357b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c28.m1" offset="0x0" size="0x8000" crc="d6fa76d1" sha1="3bfcb703e0e458ef1bb843230f8537167f1d4c3c" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="mbombrds01.key" offset="0x0" size="0x80" crc="7c81cc06" sha1="4c1b9af3896840a78a88f8bb70707728523d688b" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom name="c27.q1" offset="0x0" size="0x80000" crc="0630c3ce" sha1="520fc74c5c3638f611fa2f1b5efb08b91747e29b" />
+		<rom name="c27.q2" offset="0x80000" size="0x80000" crc="354f9c21" sha1="1dc6b39791fd0f760697f409a6b62361a7bf62e9" />
+		<rom name="c27.q3" offset="0x100000" size="0x80000" crc="7838487c" sha1="056b7da05cfca46873edacd674ca25c70855c6db" />
+		<rom name="c27.q4" offset="0x180000" size="0x80000" crc="ab66e087" sha1="066ea69a0157e8647eea3c44d0a1843898860678" />
+		<rom name="c27.q5" offset="0x200000" size="0x80000" crc="c789fef2" sha1="10d1e3d92288fccd4e064a3716a788a165efc3c9" />
+		<rom name="c27.q6" offset="0x280000" size="0x80000" crc="ecb81b61" sha1="e339f21ae47de4782f3b338befcdac659c3503f6" />
+		<rom name="c27.q7" offset="0x300000" size="0x80000" crc="041e49ba" sha1="3220b033a5c0cfbbe75c0c113cf2db39fb093a7e" />
+		<rom name="c27.q8" offset="0x380000" size="0x80000" crc="59fe702a" sha1="807178dfc6d864e49fd7aabb5c4895835cf0e85b" />
+		</dataarea>
+	</part>
+</software>

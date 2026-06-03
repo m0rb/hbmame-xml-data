@@ -1,0 +1,29 @@
+<software name="ringdesth" cloneof="ringdest">
+	<description>Ring of Destruction: Slammasters II (Hispanic 940902)</description>
+	<year>1994</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c54h.p1" offset="0x0" size="0x80000" crc="2e316584" sha1="7a7c2ec21bd46d784c2971e1dbb8d8312362371a" />
+		<rom loadflag="load16_word_swap" name="c54h.p2" offset="0x80000" size="0x80000" crc="9950a23a" sha1="5afd12ae7f3e7283ba42f844f2ee5a96875dc74e" />
+		<rom loadflag="load16_word_swap" name="c54h.p3" offset="0x100000" size="0x80000" crc="41e0b3fc" sha1="67fea6e194650c2a45cc0408ab1b0c2743ec6efa" />
+		<rom loadflag="load16_word_swap" name="c54.p4" offset="0x180000" size="0x80000" crc="89c80007" sha1="4c85aa5b224fdbb64f719a7b8b5b2e7413107c70" />
+		<rom loadflag="load16_word_swap" name="c54.p5" offset="0x200000" size="0x80000" crc="b9a11577" sha1="e9b58ef8acd1fedd3c9e0a3489593c7e931106c0" />
+		<rom loadflag="load16_word_swap" name="c54.p6" offset="0x280000" size="0x80000" crc="f931b76b" sha1="0b7e8d1278dcba89f0063bd09cda96d6ae1bc282" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c54.m1" offset="0x0" size="0x8000" crc="0abc229a" sha1="967f574e6358dfc1b01e6a4a4df1a8f34eb3d814" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c54.m2" offset="0x28000" size="0x20000" crc="d051679a" sha1="583c2521a30db1740d95dd94a38751fbeff3aae5" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1200000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="ringdesth.key" offset="0x0" size="0x14" crc="ffb8d049" sha1="c6d111412c3960b24a1be5c49fe4ec4d17324e06" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c54.q1" offset="0x0" size="0x200000" crc="c56935f9" sha1="ca1705e48e31ddc13505e6297bceca2bec1bb209" />
+		<rom loadflag="load16_word_swap" name="c54.q2" offset="0x200000" size="0x200000" crc="955b0782" sha1="ee09500e7b44e923126533613bfe26cdabc7ab5f" />
+		</dataarea>
+	</part>
+</software>

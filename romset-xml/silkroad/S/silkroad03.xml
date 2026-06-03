@@ -1,0 +1,31 @@
+<software name="silkroad03">
+	<description>The Legend of Silkroad (Easy Move)</description>
+	<year>1999</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_word_swap" name="rom02.s03" offset="0x0" size="0x100000" crc="d8159448" sha1="002cf208e57ae9ab9a4b4f7081ec139d61b28d06" />
+		<rom loadflag="load32_word_swap" name="rom03.s03" offset="0x2" size="0x100000" crc="fb215953" sha1="435708ebc8027002bf2864c357760f599e611554" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1800000">
+		<rom name="rom12.rom12" offset="0x0" size="0x200000" crc="96393d04" sha1="f512bb8603510d39e649f4ec1c5e2d0e4bf3a2cc" />
+		<rom name="rom08.rom08" offset="0x800000" size="0x200000" crc="23f1d462" sha1="6ca8052b16ccc1fe59716e03f66bd33af5145b37" />
+		<rom name="rom04.rom04" offset="0x1000000" size="0x200000" crc="d9f0bbd7" sha1="32c055ad5497c0bec5db40b528e589d7724e354f" />
+		<rom name="rom13.rom13" offset="0x200000" size="0x200000" crc="4ca1698e" sha1="4fffc2f2a5fb434c42463ce904fd811866c53f81" />
+		<rom name="rom09.rom09" offset="0xa00000" size="0x200000" crc="ef0b5bf4" sha1="acd3bc5070de84608c5da0d091094382853cb048" />
+		<rom name="rom05.rom05" offset="0x1200000" size="0x200000" crc="512d6e25" sha1="fc0a56663d77bbdfbd4242e14a55563073634582" />
+		<rom name="rom14.rom14" offset="0x400000" size="0x200000" crc="d00b19c4" sha1="d5b955dca5d0d251166a7f35a0bbbda6a91ecbd0" />
+		<rom name="rom10.rom10" offset="0xc00000" size="0x200000" crc="7d324280" sha1="cdf6d9342292f693cc5ec1b72816f2788963fcec" />
+		<rom name="rom06.rom06" offset="0x1400000" size="0x200000" crc="3ac26060" sha1="98ad8efbbf8020daf7469db3e0fda02af6c4c767" />
+		<rom name="rom07.rom07" offset="0x600000" size="0x200000" crc="9fc6ff9d" sha1="51c3ca9709a01e0ad6bc76c0d674ed03f9822598" />
+		<rom name="rom11.rom11" offset="0xe00000" size="0x200000" crc="11abaf1c" sha1="19e86f3ebfec518a96c0520f36cfc1b525e7e55c" />
+		<rom name="rom15.rom15" offset="0x1600000" size="0x200000" crc="26a3b168" sha1="a4b7955cc4d4fbec7c975a9456f2219ef33f1166" />
+		</dataarea>
+		<dataarea name="oki1" size="0x80000">
+		<rom name="rom00.bin" offset="0x0" size="0x80000" crc="b10ba7ab" sha1="a6a3ae71b803af9c31d7e97dc86cfcc123ee9a40" />
+		</dataarea>
+		<dataarea name="oki2" size="0x40000">
+		<rom name="rom01.bin" offset="0x0" size="0x40000" crc="db8cb455" sha1="6723b4018208d554bd1bf1e0640b72d2f4f47302" />
+		</dataarea>
+	</part>
+</software>

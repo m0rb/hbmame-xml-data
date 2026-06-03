@@ -1,0 +1,19 @@
+<software name="goldaxen">
+	<description>Golden Axe (Neo-Geo port)</description>
+	<year>2025</year>
+	<publisher>Hoffman</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="507.p1" offset="0x0" size="0x100000" crc="3c3ed057" sha1="4f3ba87fb85a6e79d9efd8da0cdf91515630e60a" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="507.v1" offset="0x0" size="0x400000" crc="5ed99267" sha1="a720ed8942e88eb883b95f65f9fde10939b7b19a" />
+		<rom name="507.v2" offset="0x400000" size="0x400000" crc="d30632dd" sha1="8e3d17cc3054e842ba36cd4b872929c5163960ec" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="507.c1" offset="0x0" size="0x200000" crc="7540f3d6" sha1="a505201798f121d02278ca1761fc2dd451a16336" />
+		<rom loadflag="load16_byte" name="507.c2" offset="0x1" size="0x200000" crc="a78a6647" sha1="19a9b65701935165bd972542f868b71b3d70cb47" />
+		</dataarea>
+	</part>
+</software>

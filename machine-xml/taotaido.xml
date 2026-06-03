@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="taotaido" description="Taotaido cartridges">
+<software name="taotaido01">
+	<description>Tao Taido (Easy Move)</description>
+	<year>1993</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_word_swap" name="tt0-u90.bin" offset="0x0" size="0x80000" crc="69d4cca7" sha1="f1aba74fef8fe4271d19763f428fc0e2674d08b3" />
+		<rom loadflag="load16_word_swap" name="tt1-u91.s01" offset="0x80000" size="0x80000" crc="37eb4426" sha1="af40965065f8e96f384fb3f3b669e78d511a05ca" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom name="3-u113.bin" offset="0x0" size="0x20000" crc="a167c4e4" sha1="d32184e7040935cd440d4d82c66491b710ec87a8" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="u127.bin" offset="0x0" size="0x200000" crc="0cf0cb23" sha1="a87e7159db2fa0d50446cbf45ec9fbf585b8f396" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x100000">
+		<rom name="u104.bin" offset="0x0" size="0x100000" crc="e89387a9" sha1="1deeee056af367d1a5aa0722dd3d6c68a82d0489" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x600000">
+		<rom name="u86.bin" offset="0x0" size="0x200000" crc="908e251e" sha1="5a135787f3263bfb195f8fd1e814c580d840531f" />
+		<rom name="u87.bin" offset="0x200000" size="0x200000" crc="c4290ba6" sha1="4132ffad4668f1dd3f708f009e18435e7dd60120" />
+		<rom name="u88.bin" offset="0x400000" size="0x200000" crc="407d9aeb" sha1="d532c7b80f6c192dba86542fb6eb3ef24fbbbdb9" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x200000">
+		<rom name="u15.bin" offset="0x0" size="0x200000" crc="e95823e9" sha1="362583944ad4fdde4f9e29928cf34376c7ad931f" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

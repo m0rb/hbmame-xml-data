@@ -1,0 +1,25 @@
+<software name="garoubl" cloneof="garou">
+	<description>Garou - Mark of the Wolves (bootleg)</description>
+	<year>1999</year>
+	<publisher>bootleg</publisher>
+	<info name="source" value="garoubl" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="garou-p1.bin" offset="0x0" size="0x100000" crc="fd446d59" sha1="e37484673a935b2af76c84cd26977c751c0f8cff" />
+		<rom loadflag="load16_word_swap" name="garou-p2.bin" offset="0x100000" size="0x400000" crc="3fb10a84" sha1="4e4a4f4cd7f0ad2520c938c64c8910e6f8805eaf" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="garou-c1.bin" offset="0x0" size="0x1000000" crc="e2ac83fa" sha1="186f88a85d80efbb0371bd42cca152b6b59817fb" />
+		<rom loadflag="load16_byte" name="garou-c2.bin" offset="0x1" size="0x1000000" crc="7c344b24" sha1="f8af62a917e0ce2bf8ae4f17736fdd84d55d0788" />
+		<rom loadflag="load16_byte" name="garou-c3.bin" offset="0x2000000" size="0x1000000" crc="d3aec5a6" sha1="c1a584909a8a1519f676aa49351742b87c18276d" />
+		<rom loadflag="load16_byte" name="garou-c4.bin" offset="0x2000001" size="0x1000000" crc="e02a242d" sha1="8a73826d14880303a7bea2a903e842c733178aca" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x1000000">
+		<rom name="garou-v1.bin" offset="0x0" size="0x400000" crc="98d736e4" sha1="3edda9a1d45b0e38a85156d24fc8ff2f0011239b" />
+		<rom name="garou-v2.bin" offset="0x400000" size="0x400000" crc="eb43c03f" sha1="83c9c168b154e60a64f1033004b2d33e218bbb8b" />
+		<rom name="garou-v3.bin" offset="0x800000" size="0x400000" crc="10a0f814" sha1="e86def80d6fb2a38ebc9f3338d22f28c15ce85da" />
+		<rom name="garou-v4.bin" offset="0xc00000" size="0x400000" crc="8918fdd3" sha1="60ea2104a0f993341124728d8fde0e8e937c55ef" />
+		</dataarea>
+	</part>
+</software>

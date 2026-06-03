@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="invadpt2" description="Invadpt2 cartridges">
+<software name="invdelux">
+	<description>Space Invaders Part II (alt)</description>
+	<year>1979</year>
+	<publisher>Midway</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x6000">
+		<rom name="invdelux.h" offset="0x0" size="0x800" crc="e690818f" sha1="0860fb03a64d34a9704a1459a5e96929eafd39c7" />
+		<rom name="invdelux.g" offset="0x800" size="0x800" crc="4268c12d" sha1="df02419f01cf0874afd1f1aa16276751acd0604a" />
+		<rom name="sidm.f" offset="0x1000" size="0x800" crc="17943e02" sha1="16b055965fe8c758f3d477b10093cae7a61a4a2a" />
+		<rom name="sidm.e" offset="0x1800" size="0x800" crc="3560e97b" sha1="918d0df2860df8be7749f45b6e10465e2666469b" />
+		<rom name="invdelux.d" offset="0x4000" size="0x800" crc="e8d5afcd" sha1="91fde9a9e7c3dd53aac4770bd169721a79b41ed1" />
+		</dataarea>
+		<dataarea name="proms" size="0x800">
+		<rom name="pv06.1" offset="0x0" size="0x400" crc="a732810b" sha1="a5fabffa73ca740909e23b9530936f9274dff356" />
+		<rom name="pv07.2" offset="0x400" size="0x400" crc="2c5b91cb" sha1="7fa4d4aef85473b1b4f18734230c164e72be44e7" />
+		</dataarea>
+	</part>
+</software>
+<software name="sinvtest" cloneof="invaders">
+	<description>Space Invaders Test ROM (SMv1.0, 2022-01-14)</description>
+	<year>2022</year>
+	<publisher>Phil Murray</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x6000">
+		<rom name="sinvtest.h" offset="0x0" size="0x800" crc="0a428359" sha1="cfb961d4888c781ea52a7579ce73ab22cab58ab6" />
+		<rom name="invaders.g" offset="0x800" size="0x800" crc="6bfaca4a" sha1="16f48649b531bdef8c2d1446c429b5f414524350" />
+		<rom name="invaders.f" offset="0x1000" size="0x800" crc="0ccead96" sha1="537aef03468f63c5b9e11dd61e253f7ae17d9743" />
+		<rom name="invaders.e" offset="0x1800" size="0x800" crc="14e538b0" sha1="1d6ca0c99f9df71e2990b610deb9d7da0125e2d8" />
+		</dataarea>
+	</part>
+</software>
+<software name="sinvtest4" cloneof="invaders">
+	<description>Space Invaders Test ROM (SMv1.1, 2025-07-11)</description>
+	<year>2025</year>
+	<publisher>Phil Murray</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x6000">
+		<rom name="sinvtest4.h" offset="0x0" size="0x800" crc="8218a7c0" sha1="91ebc7958c952852d929b97cc98e6b6b301dd8ca" />
+		<rom name="invaders.g" offset="0x800" size="0x800" crc="6bfaca4a" sha1="16f48649b531bdef8c2d1446c429b5f414524350" />
+		<rom name="invaders.f" offset="0x1000" size="0x800" crc="0ccead96" sha1="537aef03468f63c5b9e11dd61e253f7ae17d9743" />
+		<rom name="invaders.e" offset="0x1800" size="0x800" crc="14e538b0" sha1="1d6ca0c99f9df71e2990b610deb9d7da0125e2d8" />
+		</dataarea>
+	</part>
+</software>
+<software name="tst_invd" cloneof="invaders">
+	<description>Space Invaders Test ROM</description>
+	<year>1978</year>
+	<publisher>Taito</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x6000">
+		<rom name="test.h" offset="0x0" size="0x800" crc="f86a2eea" sha1="4a72ff01f3e6d16bbe9bf7f123cd98895bfbed9a" />
+		<rom name="invaders.g" offset="0x800" size="0x800" crc="6bfaca4a" sha1="16f48649b531bdef8c2d1446c429b5f414524350" />
+		<rom name="invaders.f" offset="0x1000" size="0x800" crc="0ccead96" sha1="537aef03468f63c5b9e11dd61e253f7ae17d9743" />
+		<rom name="invaders.e" offset="0x1800" size="0x800" crc="14e538b0" sha1="1d6ca0c99f9df71e2990b610deb9d7da0125e2d8" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

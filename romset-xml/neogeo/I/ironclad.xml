@@ -1,0 +1,22 @@
+<software name="ironclad">
+	<description>Choutetsu Brikin&#x27;ger / Iron Clad (prototype)</description>
+	<year>1996</year>
+	<publisher>Saurus</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="proto_220-p1.p1" offset="0x100000" size="0x100000" crc="62a942c6" sha1="12aaa7d9bd84328d1bf4610e056b5c57d0252537" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="proto_220-c1.c1" offset="0x0" size="0x400000" crc="9aa2b7dc" sha1="6b3dff292c86f949890b1f8201bc5278f38c2668" />
+		<rom loadflag="load16_byte" name="proto_220-c2.c2" offset="0x1" size="0x400000" crc="8a2ad708" sha1="9568ac4cc0552e7fd3e50d3cd8d9f0f4fe7df1d4" />
+		<rom loadflag="load16_byte" name="proto_220-c3.c3" offset="0x800000" size="0x400000" crc="d67fb15a" sha1="842971aeaf3c92e70f7c653bbf29058bc60f5b71" />
+		<rom loadflag="load16_byte" name="proto_220-c4.c4" offset="0x800001" size="0x400000" crc="e73ea38b" sha1="27138d588e61e86c292f12d16e36c3681075c607" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x400000">
+		<rom name="proto_220-v1.v1" offset="0x0" size="0x400000" crc="8f30a215" sha1="0ee866a468c4c3608d55df2b5cb9243c8016d77c" />
+		</dataarea>
+	</part>
+</software>

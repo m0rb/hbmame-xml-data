@@ -1,0 +1,36 @@
+<software name="nbajam01" cloneof="nbajamte">
+	<description>NBA Jam TE (rev XXX)</description>
+	<year>1994</year>
+	<publisher>Midway</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="l4_nba_jam_tournament_game_rom_uj12.uj12" offset="0x0" size="0x80000" crc="d7c21bc4" sha1="e05f0299b955500df6a08b1c0b24b932a9cdfa6a" />
+		<rom loadflag="load16_byte" name="l4_nba_jam_tournament_game_rom_ug12.ug12" offset="0x1" size="0x80000" crc="7ad49229" sha1="e9ceedb0e620809d8a4d42087d806aa296a4cd59" />
+		</dataarea>
+		<dataarea name="adpcm:cpu" size="0x50000">
+		<rom name="l1_nba_jam_tournament_u3_sound_rom.u3" offset="0x10000" size="0x20000" crc="d4551195" sha1="e8908fbe4339fb8c93f7e74113dfd25dda1667ea" />
+		</dataarea>
+		<dataarea name="adpcm:oki" size="0x100000">
+		<rom name="nbajam01.u12" offset="0x0" size="0x80000" crc="dd0b81b1" sha1="1ea938138e2267b30250de9a7f643ba624923204" />
+		<rom name="nbajam01.u13" offset="0x80000" size="0x80000" crc="b42a0374" sha1="6a565fc01b662d116db065172c057ee596b3a538" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug14.ug14" offset="0x0" size="0x80000" crc="04bb9f64" sha1="9e1a8c37e14cb6fe67f4aa3caa9022f356f1ca64" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj14.uj14" offset="0x1" size="0x80000" crc="b34b7af3" sha1="0abb74d2f414bc9da0380a81beb134f3a87c1a0a" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug19.ug19" offset="0x2" size="0x80000" crc="a8f22fbb" sha1="514208a9d6d0c8c2d7847cc02d4387eac90be659" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj19.uj19" offset="0x3" size="0x80000" crc="8130a8a2" sha1="f23f124024285d07d8cf822817b62e42c38b82db" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug16.ug16" offset="0x200000" size="0x80000" crc="c7ce74d0" sha1="93861cd909e0f28ed112096d6f9fc57d0d31c57c" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj16.uj16" offset="0x200001" size="0x80000" crc="905ad88b" sha1="24c336ccc0e2ac0ee96a34ad6fe4aa7464de0009" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug20.ug20" offset="0x200002" size="0x80000" crc="8a48728c" sha1="3684099b4934b027336c319c77d9e0710b8c22dc" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj20.uj20" offset="0x200003" size="0x80000" crc="bf263d61" sha1="b5b59e8df55f8030eff068c1d8b07dad8521bf5d" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug17.ug17" offset="0x400000" size="0x80000" crc="9401be62" sha1="597413a8a1eb66a7ad89af2f548fa3062e5e8efb" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj17.uj17" offset="0x400001" size="0x80000" crc="8a852b9e" sha1="604c7f4305887e9505320630027765ea76607c58" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug22.ug22" offset="0x400002" size="0x80000" crc="3b05133b" sha1="f6067abb92b8751afe7352a4f1b1a22c9528002b" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj22.uj22" offset="0x400003" size="0x80000" crc="39791051" sha1="7aa02500ddacd31fca04044a22a38f36452ca300" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug18.ug18" offset="0x600000" size="0x80000" crc="6fd08f57" sha1="5b7031dffc88374c5bfdf3021aa01ec4e28d0631" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj18.uj18" offset="0x600001" size="0x80000" crc="4eb73c26" sha1="693bf45f777da8e55b7bcd8699ea5bd711964941" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_ug23.ug23" offset="0x600002" size="0x80000" crc="854f73bc" sha1="242cc8ce28711f6f0787524a1070eb4b0956e6ae" />
+		<rom loadflag="load32_byte" name="l1_nba_jam_tournament_game_rom_uj23.uj23" offset="0x600003" size="0x80000" crc="f8c30998" sha1="33e2f982d74e9f3686b1f4a8172c49fb8b604cf5" />
+		</dataarea>
+	</part>
+</software>

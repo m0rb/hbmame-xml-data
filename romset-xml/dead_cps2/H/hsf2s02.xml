@@ -1,0 +1,27 @@
+<software name="hsf2s02" cloneof="hsf2">
+	<description>Hyper Street Fighter II: The Anniversary Edition (040202J, Enabled Hidden Characters In Normal Mode)</description>
+	<year>2004</year>
+	<publisher>Yumeji/MasterStiller</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c88s02.p1" offset="0x0" size="0x80000" crc="b5952336" sha1="e5396781d525343b285613255bbafa77aa53ed31" />
+		<rom loadflag="load16_word_swap" name="c88s02.p2" offset="0x80000" size="0x80000" crc="7a02d7b6" sha1="00c69673cadb86efaa8c96c778d3b4a9f61bd1e4" />
+		<rom loadflag="load16_word_swap" name="c88.p3" offset="0x100000" size="0x80000" crc="dde34a35" sha1="f5be2d2916db6e86e0886d61d55bddf138273ebc" />
+		<rom loadflag="load16_word_swap" name="c88.p4" offset="0x180000" size="0x80000" crc="f4e56dda" sha1="c6490707c2a416ab88612c2d73abbe5853d8cb92" />
+		<rom loadflag="load16_word_swap" name="c88.p5" offset="0x200000" size="0x80000" crc="ee4420fc" sha1="06cf76660b0c794d2460c52d9fe8334fff51e9de" />
+		<rom loadflag="load16_word_swap" name="c88.p6" offset="0x280000" size="0x80000" crc="c9441533" sha1="bf178fac1f060fcce3ff9118333c8517dadc9429" />
+		<rom loadflag="load16_word_swap" name="c88.p7" offset="0x300000" size="0x80000" crc="3fc638a8" sha1="2a42877b26c8abc437da46225701f0bba6e40058" />
+		<rom loadflag="load16_word_swap" name="c88.p8" offset="0x380000" size="0x80000" crc="20d0f9e4" sha1="80a5eeef9472e327b0d4ee26434bad109a9434ea" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c88.m1" offset="0x0" size="0x8000" crc="c1a13786" sha1="c7392c7efb15ea4042e75bd9007e974293d8935d" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c88.m2" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c88.q1" offset="0x0" size="0x800000" crc="0e15c359" sha1="176108b0d76d821a849324680aba0cd04b5016c1" />
+		</dataarea>
+	</part>
+</software>

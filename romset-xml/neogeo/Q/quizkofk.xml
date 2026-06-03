@@ -1,0 +1,23 @@
+<software name="quizkofk" cloneof="quizkof">
+	<description>Quiz King of Fighters (Korea)</description>
+	<year>1996</year>
+	<publisher>Saurus / Viccom (SNK license)</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="vic-080-p1.p1" offset="0x0" size="0x100000" crc="2589488e" sha1="609f3095c1cf8b11335b56f23c5d955eebd66dd2" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="vic-080-c1.c1" offset="0x0" size="0x200000" crc="94d90170" sha1="4ab63dadc6ee0d32b8784c327681376f5fef0df9" />
+		<rom loadflag="load16_byte" name="vic-080-c2.c2" offset="0x1" size="0x200000" crc="297f25a1" sha1="0dd845726c640d70804b5fd5854921771e8dbf19" />
+		<rom loadflag="load16_byte" name="vic-080-c3.c3" offset="0x400000" size="0x200000" crc="cf484c4f" sha1="f588908a693dbbb8362ffbfe5035dd5f867d9697" />
+		<rom loadflag="load16_byte" name="vic-080-c4.c4" offset="0x400001" size="0x200000" crc="36e5d997" sha1="99955ff947e2e586e60c1146c978c70705787917" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x600000">
+		<rom name="080-v1.v1" offset="0x0" size="0x200000" crc="0be18f60" sha1="05c8b7d9f5a8583015f31902ad16d9c621f47d4e" />
+		<rom name="vic-080-v2.v2" offset="0x200000" size="0x200000" crc="719fee5b" sha1="c94f8ca066c9693cd7c9fd311db1ad9b2665fc69" />
+		<rom name="vic-080-v3.v3" offset="0x400000" size="0x200000" crc="64b7efde" sha1="11727f9a3c4da17fa7b00559c7081b66e7211c49" />
+		</dataarea>
+	</part>
+</software>

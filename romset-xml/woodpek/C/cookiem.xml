@@ -1,0 +1,19 @@
+<software name="cookiem" cloneof="mspacman">
+	<description>Cookie-Mon! [c]</description>
+	<year>2001</year>
+	<publisher>Nic</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="cookiem.1" offset="0x0" size="0x1000" crc="3c95b06b" sha1="c123de2f3246af4074e6a2f3a5a29aec0c6cd0f9" />
+		<rom name="cookiem.2" offset="0x1000" size="0x1000" crc="527859fb" sha1="993baa017732e247e4c318a5f105a13c281fbd8d" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="cookiem.4" offset="0x3000" size="0x1000" crc="66e397fd" sha1="4e3d03abfaaa94a7a159fd51348ca6a7e4427272" />
+		<rom name="boot5" offset="0x8000" size="0x1000" crc="8c3e6de6" sha1="fed6e9a2b210b07e7189a18574f6b8c4ec5bb49b" />
+		<rom name="cookiem.6" offset="0x9000" size="0x1000" crc="a96761a6" sha1="73072f753f5659712e3644194a0982ef14648f46" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="cookiem.5e" offset="0x0" size="0x1000" crc="ffb4de27" sha1="ff12a37158e08f4d9ddad4184dfbd44f83120506" />
+		<rom name="cookiem.5f" offset="0x1000" size="0x1000" crc="1b5875ac" sha1="9b0f4b96de9d7a2c7abcb06efaf083ff8ab28abe" />
+		</dataarea>
+	</part>
+</software>

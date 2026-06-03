@@ -1,0 +1,25 @@
+<software name="punisherjs22" cloneof="punisher">
+	<description>The Punisher (1VS2 Falling Dragon Edition, 2020-08-06)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c26js22.p1" offset="0x0" size="0x200000" crc="15e36ae5" sha1="686556c4580e49cb4949a1f1abfd1994f5f4b191" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c26.m1" offset="0x0" size="0x8000" crc="49ff4446" sha1="87af12f87a940a6c5428b4574ad44a4b54867bc3" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="punishers01.key" offset="0x0" size="0x80" crc="8e992ffa" sha1="4f09427600cef4feb49a8a488caadaaa7b327484" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="qsound" size="0x200000">
+		<rom name="c26.q1" offset="0x0" size="0x80000" crc="31fd8726" sha1="1d73a76682e9fb908db0c55b9a18163f7539fea1" />
+		<rom name="c26.q2" offset="0x80000" size="0x80000" crc="980a9eef" sha1="36571381f349bc726508a7e618ba1c635ec9d271" />
+		<rom name="c26.q3" offset="0x100000" size="0x80000" crc="0dd44491" sha1="903cea1d7f3120545ea3229d30fbd687d11ad68f" />
+		<rom name="c26.q4" offset="0x180000" size="0x80000" crc="bed42f03" sha1="21302f7e75f9c795392a3b34e16a959fc5f6e4e9" />
+		</dataarea>
+	</part>
+</software>

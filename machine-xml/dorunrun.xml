@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="dorunrun" description="Dorunrun cartridges">
+<software name="sdreturn">
+	<description>Sticky Do Returns</description>
+	<year>2002</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="2764.p1" offset="0x0" size="0x2000" crc="95c86f8e" sha1="9fe44911e0aa8d4c7299472a31c401e064d63d17" />
+		<rom name="2764.l1" offset="0x4000" size="0x2000" crc="e9a65ba7" sha1="fbee57d68352fd4062aac55cd1070f001714d0a3" />
+		<rom name="2764.k1" offset="0x6000" size="0x2000" crc="b1195d3d" sha1="095ad2ee1f53be3203830263cb0c9efbe4710c56" />
+		<rom name="2764.n1" offset="0x8000" size="0x2000" crc="6a8160d1" sha1="12101c351bf800319172c459b5e7c69cb5603806" />
+		</dataarea>
+		<dataarea name="cpu3" size="0x10000">
+		<rom name="bprom2.bin" offset="0x0" size="0x200" crc="2747ca77" sha1="abc0ca05925974c4b852827605ee2f1caefb8524" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="27128.a3" offset="0x0" size="0x4000" crc="4be96dcf" sha1="f9b45e6297cbbc4d1ee2df7ac377c5daf5181b0f" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x8000">
+		<rom name="sdreturn.m4" offset="0x0" size="0x2000" crc="e8779d04" sha1="f185efbdc7410e3adba85de482e1b06778b17fe9" />
+		<rom name="sdreturn.l4" offset="0x2000" size="0x2000" crc="bc217d6c" sha1="abeaea49aad85f62943d7a3c30c8655fb29d3e62" />
+		<rom name="sdreturn.j4" offset="0x4000" size="0x2000" crc="04824549" sha1="5056db06c06d76580a85fc65d1e473e77eb48ee9" />
+		<rom name="sdreturn.h4" offset="0x6000" size="0x2000" crc="c23c36c2" sha1="22461c04ea2cfd39c395ca7e42a50636fb1c3625" />
+		</dataarea>
+		<dataarea name="proms" size="0x100">
+		<rom name="dorunrun.clr" offset="0x0" size="0x100" crc="d5bab5d5" sha1="7a465fe30b6008793d33f6e07086c89111e1e407" />
+		</dataarea>
+		<dataarea name="slave" size="0x10000">
+		<rom name="27128.p7" offset="0x0" size="0x4000" crc="8b06d461" sha1="2434478810c6301197997be76505f5fc6beba5d3" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

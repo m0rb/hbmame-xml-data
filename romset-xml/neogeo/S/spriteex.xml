@@ -1,0 +1,20 @@
+<software name="spriteex">
+	<description>Sprite Experimenter</description>
+	<year>2011</year>
+	<publisher>Furrtek</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="667.p1" offset="0x0" size="0x80000" crc="9bce0611" sha1="5fcb0fa6a434baf20972819484430faf44ffa21d" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x10000">
+		<rom name="667.v1" offset="0x0" size="0x10000" crc="48077f32" sha1="97784ee122aec09f72b62387796726c3f3e9be5e" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="667.c1" offset="0x0" size="0x200000" crc="dcda2ca8" sha1="b37714532d36608eb7b819396a6796d0d49dbf92" />
+		<rom loadflag="continue" offset="0x400000" size="0x200000" />
+		<rom loadflag="load16_byte" name="667.c2" offset="0x1" size="0x200000" crc="c8a4d037" sha1="6541074be8493bf2c7b869e8dbdb39f3309dcaf7" />
+		<rom loadflag="continue" offset="0x400001" size="0x200000" />
+		</dataarea>
+	</part>
+</software>

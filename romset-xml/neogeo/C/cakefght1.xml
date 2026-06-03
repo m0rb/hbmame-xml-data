@@ -1,0 +1,22 @@
+<software name="cakefght1" cloneof="cakefght">
+	<description>Cake Fighter v1.1</description>
+	<year>2022</year>
+	<publisher>ADK/EKORZ</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="335a.p1" offset="0x100000" size="0x100000" crc="e9f38bee" sha1="5ab86835a13e563f09f7533c2e60224329fd803b" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x600000">
+		<rom name="335.v1" offset="0x0" size="0x400000" crc="3eb19769" sha1="5fe4e4de25e354406ebb30d5a964dd3b80f161f0" />
+		<rom name="224.v2" offset="0x400000" size="0x200000" crc="7ad26599" sha1="822030037b7664795bf3d64e1452d0aecc22497e" />
+		</dataarea>
+		<dataarea name="sprites" size="0xa00000">
+		<rom loadflag="load16_byte" name="335a.c1" offset="0x0" size="0x400000" crc="5c56060d" sha1="c1c42c50cbaff5f3adf5b2e471ae1c9275fa8eb8" />
+		<rom loadflag="load16_byte" name="335a.c2" offset="0x1" size="0x400000" crc="b51249d0" sha1="f62b1bf432ce24a28630ce1c82bcbbeaffc15b5c" />
+		<rom loadflag="load16_byte" name="335a.c3" offset="0x800000" size="0x100000" crc="9f634b11" sha1="7081a0864919db38d5f34818dcac73f1e5a5c2a4" />
+		<rom loadflag="load16_byte" name="335a.c4" offset="0x800001" size="0x100000" crc="1a120e61" sha1="8a0233e1f61ab3195d9aaec98ccc7d39634795b0" />
+		</dataarea>
+	</part>
+</software>

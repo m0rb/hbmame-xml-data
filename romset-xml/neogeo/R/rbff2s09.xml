@@ -1,0 +1,26 @@
+<software name="rbff2s09" cloneof="rbff2">
+	<description>Real Bout Fatal Fury 2 (Resurgence Enhanced Edition, 2014-12-11)</description>
+	<year>2014</year>
+	<publisher>Eddids[FCHT]</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="240s09.p1" offset="0x0" size="0x100000" crc="76505c42" sha1="83fe80d5fbfa7d03d425804a917d76fcf96631e8" />
+		<rom loadflag="load16_word_swap" name="240.p2" offset="0x100000" size="0x400000" crc="960aa88d" sha1="3d9e785891871af90313f178dca2724633406674" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="240.v1" offset="0x0" size="0x400000" crc="f796265a" sha1="736dff37eb91fc856b4d189249fb0de9b6c0813a" />
+		<rom name="240.v2" offset="0x400000" size="0x400000" crc="2cb3f3bb" sha1="697e677890892f4b028c9a27c66809ca0a8a9b18" />
+		<rom name="240.v3" offset="0x800000" size="0x400000" crc="8fe1367a" sha1="093d7a4ac2b54ad7ffb2dc316fe29415f7a99535" />
+		<rom name="240s01.v4" offset="0xc00000" size="0x400000" crc="33a356ee" sha1="b2a08052be670f301f8d4903b36c70088d1a11da" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="240.c1" offset="0x0" size="0x800000" crc="effac504" sha1="e36a96e7369b02c7e839b5abf3c6799453ba1927" />
+		<rom loadflag="load16_byte" name="240.c2" offset="0x1" size="0x800000" crc="ed182d44" sha1="a9fc0a3a786bf067c129ec7220df65953dff804f" />
+		<rom loadflag="load16_byte" name="240.c3" offset="0x1000000" size="0x800000" crc="22e0330a" sha1="0fe7f6a8aeba7f17dbb278e85003969ff10d3cd2" />
+		<rom loadflag="load16_byte" name="240.c4" offset="0x1000001" size="0x800000" crc="c19a07eb" sha1="139eac8b51cadf328dd42d8109f4e2463f57230c" />
+		<rom loadflag="load16_byte" name="240.c5" offset="0x2000000" size="0x800000" crc="244dff5a" sha1="156548156d3ceaa808d0053d0749af2526a3943e" />
+		<rom loadflag="load16_byte" name="240.c6" offset="0x2000001" size="0x800000" crc="4609e507" sha1="bb17f50a377dddb77c1eeda5944a7bcbf0cca5f7" />
+		</dataarea>
+	</part>
+</software>

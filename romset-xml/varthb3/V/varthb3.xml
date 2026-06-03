@@ -1,0 +1,29 @@
+<software name="varthb3" cloneof="varth">
+	<description>Varth: Operation Thunderstorm (bootleg, set 3)</description>
+	<year>1992</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c21b3.p1" offset="0x0" size="0x80000" crc="8208c0d7" sha1="335cbc183abac9a79d7a84ef9c713217ccbf27bb" />
+		<rom loadflag="load16_byte" name="c21b3.p2" offset="0x1" size="0x80000" crc="7f654421" sha1="05e87540bfe32a286c663782a788c5d573616dc1" />
+		<rom loadflag="load16_byte" name="c21b3.p9" offset="0x100000" size="0x20000" crc="d8325c94" sha1="59c09948ad48e434782b97cfb1eefee0b23dc3da" />
+		<rom loadflag="load16_byte" name="c21b3.p10" offset="0x100001" size="0x20000" crc="6152277d" sha1="e93ae5c74cfe8d8c4bf6f3cd802f0e30192ffa2c" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c21.m1" offset="0x0" size="0x8000" crc="7a99446e" sha1="ca027f41e3e58be5abc33ad7380746658cb5380a" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="varth.key" offset="0x0" size="0x80" crc="9af7013d" sha1="6182dfe656c25cc5ef009bfb1b5820ad3ce71c77" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		<rom loadflag="load32_byte" name="c21b3.c01" offset="0x0" size="0x80000" crc="473961b3" sha1="e969ead42629607cecd8f38005d65085a9dd5ee9" />
+		<rom loadflag="load32_byte" name="c21b3.c02" offset="0x1" size="0x80000" crc="9b50384f" sha1="a06efe61a4b74e3240807140d7704f7bffeb5f81" />
+		<rom loadflag="load32_byte" name="c21b3.c03" offset="0x2" size="0x80000" crc="516a4eea" sha1="2e9b2d32344db926df2a980f1b0a8b34eda70126" />
+		<rom loadflag="load32_byte" name="c21b3.c04" offset="0x3" size="0x80000" crc="81023052" sha1="a96dd88483807b6f7520fb42dbc0cdd7bfa105c9" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c21b.v1" offset="0x0" size="0x40000" crc="1547e595" sha1="27f47b1afd9700afd9e8167d7e4e2888be34a9e5" />
+		</dataarea>
+	</part>
+</software>

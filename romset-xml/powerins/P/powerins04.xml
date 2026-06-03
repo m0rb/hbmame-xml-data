@@ -1,0 +1,45 @@
+<software name="powerins04">
+	<description>Power Instinct (Simplify Edition, 2018-06-04)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_word_swap" name="93095_s04-3a.u108" offset="0x0" size="0x80000" crc="1686cae2" sha1="6eb4b42d2f0f9a5ab2a98998b0416f5d88f98cef" />
+		<rom loadflag="load16_word_swap" name="93095-4.u109" offset="0x80000" size="0x80000" crc="d3d7a782" sha1="7846de0ebb09bd9b2534cd451ff9aa5175e60647" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom name="93095-2.u90" offset="0x0" size="0x20000" crc="4b123cc6" sha1="ed61d3a2ab20c86b91fd7bafa717be3ce26159be" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_word_swap" name="93095-12.u116" offset="0x0" size="0x100000" crc="35f3c2a3" sha1="70efebfe248401ba3d766dc0e4bcc2846cd0d9a0" />
+		<rom loadflag="load16_word_swap" name="93095-13.u117" offset="0x100000" size="0x100000" crc="1ebd45da" sha1="99b0ac734890673064b2a4b4b57ff2694e338dea" />
+		<rom loadflag="load16_word_swap" name="93095-14.u118" offset="0x200000" size="0x100000" crc="760d871b" sha1="4887122ad0518c90f08c11a7a6b694f3fd218498" />
+		<rom loadflag="load16_word_swap" name="93095-15.u119" offset="0x300000" size="0x100000" crc="d011be88" sha1="837409a2584abdf22e022b0f06181a600a974cbe" />
+		<rom loadflag="load16_word_swap" name="93095-16.u120" offset="0x400000" size="0x100000" crc="a9c16c9c" sha1="a34e81324c875c2a57f778d1dbdda8da81850a29" />
+		<rom loadflag="load16_word_swap" name="93095-17.u121" offset="0x500000" size="0x100000" crc="51b57288" sha1="821473d51565bc0a8b9a979723ce1307b97e517e" />
+		<rom loadflag="load16_word_swap" name="93095-18.u122" offset="0x600000" size="0x100000" crc="b135e3f2" sha1="339fb4007ca0f379b7554a1c4f711f494a371fb2" />
+		<rom loadflag="load16_word_swap" name="93095-19.u123" offset="0x700000" size="0x100000" crc="67695537" sha1="4c78ce3e36f27d2a6a9e50e8bf896335d4d0958a" />
+		</dataarea>
+		<dataarea name="bgtile" size="0x280000">
+		<rom name="93095-5.u16" offset="0x0" size="0x100000" crc="b1371808" sha1="15fca313314ff2e0caff35841a2fdda97f6235a8" />
+		<rom name="93095-6.u17" offset="0x100000" size="0x100000" crc="29c85d80" sha1="abd54f9c8bade21ea918a426627199da04193165" />
+		<rom name="93095-7.u18" offset="0x200000" size="0x80000" crc="2dd76149" sha1="975e4d371fdfbbd9a568da4d4c91ffd3f0ae636e" />
+		</dataarea>
+		<dataarea name="fgtile" size="0x100000">
+		<rom name="93095-1.u15" offset="0x0" size="0x20000" crc="6a579ee0" sha1="438e87b930e068e0cf7352e614a14049ebde6b8a" />
+		</dataarea>
+		<dataarea name="oki1" size="0x240000">
+		<rom name="93095-10.u48" offset="0x40000" size="0x100000" crc="329ac6c5" sha1="e809b94e2623141f5a48995cfa97fe1ead7ab40b" />
+		<rom name="93095-11.u49" offset="0x140000" size="0x100000" crc="75d6097c" sha1="3c89a7c9b12087e2d969b822419d3e5f98f5cb1d" />
+		</dataarea>
+		<dataarea name="oki2" size="0x240000">
+		<rom name="93095-8.u46" offset="0x40000" size="0x100000" crc="f019bedb" sha1="4b6e10f85671c75b666e547887d403d6e607cec8" />
+		<rom name="93095-9.u47" offset="0x140000" size="0x100000" crc="adc83765" sha1="9e760443f9de21c1bb7e33eaa1541023fcdc60ab" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="22.u81" offset="0x0" size="0x20" crc="67d5ec4b" sha1="87d32948a0c88277dcdd0eaa035bde40fc7db5fe" />
+		<rom name="21.u71" offset="0x20" size="0x100" crc="182cd81f" sha1="3a76bea81b34ea7ccf56044206721058aa5b03e6" />
+		<rom name="20.u54" offset="0x100" size="0x100" crc="38bd0e2f" sha1="20d311869642cd96bb831fdf4a458e0d872f03eb" />
+		</dataarea>
+	</part>
+</software>

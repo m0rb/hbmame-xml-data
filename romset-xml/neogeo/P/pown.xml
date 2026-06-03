@@ -1,0 +1,17 @@
+<software name="pown">
+	<description>P.O.W. (Neo-Geo port)</description>
+	<year>2025</year>
+	<publisher>iq132</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom name="508.p1" offset="0x0" size="0x60000" crc="792d54be" sha1="17a10c180860e99036e48873849a642c8c41f894" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="508.v1" offset="0x0" size="0x4c900" crc="fba165f8" sha1="948b19b340fe2a1d6123746d537714adaa07aa1d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom name="508.c1" offset="0x0" size="0x200000" crc="887ca97e" sha1="b4a1176ba6862554d8f2dbea9864afb865f6f296" />
+		</dataarea>
+	</part>
+</software>

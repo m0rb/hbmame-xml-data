@@ -1,0 +1,17 @@
+<software name="msmatsuri">
+	<description>Mushihime-Sama Matsuri (Japan, 2011-05-23 CAVEMATSURI VER1.5)</description>
+	<year>2011</year>
+	<publisher>Cave (AMI license)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="u4" offset="0x0" size="0x200000" crc="6af99f0e" sha1="e91b3a7c329a9ce66687b48a9f2e1a8ea7282cd5" />
+		</dataarea>
+		<dataarea name="game" size="0x8400000">
+		<rom name="u2" offset="0x0" size="0x8400000" crc="fbc6f3c1" sha1="9967c56121a2886261026665d9f64978f2cb4dda" />
+		</dataarea>
+		<dataarea name="ymz770" size="0x800000">
+		<rom loadflag="load16_word_swap" name="u23" offset="0x0" size="0x400000" crc="6dff634f" sha1="781042316fae904657326189b3b46e49a46ba675" />
+		<rom loadflag="load16_word_swap" name="u24" offset="0x400000" size="0x400000" crc="f228b801" sha1="b9dd2a7462ccad4b20b8cd7eaefcdfd881dd413f" />
+		</dataarea>
+	</part>
+</software>

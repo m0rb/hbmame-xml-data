@@ -1,0 +1,29 @@
+<software name="lresortp" cloneof="lresort">
+	<description>Last Resort (prototype)</description>
+	<year>1992</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="024_p1_5937.podd" offset="0x1" size="0x80000" crc="8e6008ee" sha1="6779663118782207156dc9fa9e24e81e30c6391c" />
+		<rom loadflag="load16_byte" name="024_p2_8d37.peven" offset="0x0" size="0x80000" crc="6d9ee90f" sha1="ecd42182988092417bc96db8301ea408e47735f2" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x400000">
+		<rom loadflag="load32_byte" name="024_c1_b764.c1" offset="0x0" size="0x80000" crc="677749ec" sha1="6f94675e037956a380652ab1056e6f1dec605bec" />
+		<rom loadflag="load32_byte" name="024_c2_1951.c2" offset="0x2" size="0x80000" crc="104d7b59" sha1="404e8776ee8df4ca282eb7b747759af8628ddca1" />
+		<rom loadflag="load32_byte" name="024_c3_0f63.c3" offset="0x1" size="0x80000" crc="b0965a74" sha1="e8026dd4f722ccab9c913261d09ab8843ef56a0e" />
+		<rom loadflag="load32_byte" name="024_c4_c5b5.c4" offset="0x3" size="0x80000" crc="dcfc3860" sha1="8443b455ae8de656adab57f3b7e68919f22d3b9d" />
+		<rom loadflag="load32_byte" name="024_c5_dd03.c5" offset="0x200000" size="0x80000" crc="50322397" sha1="3308fbe48ad165b9894a52fc3a8d9898bbbc0c0e" />
+		<rom loadflag="load32_byte" name="024_c6_c81a.c6" offset="0x200002" size="0x80000" crc="c3c93894" sha1="f23b9d7e2b54d44c96370dde282bdf45cebd9cba" />
+		<rom loadflag="load32_byte" name="024_c7_5edc.c7" offset="0x200001" size="0x80000" crc="21faf72b" sha1="00bf257b06180ae6ede57744cea6257b3488d9f0" />
+		<rom loadflag="load32_byte" name="024_c8_0850.c8" offset="0x200003" size="0x80000" crc="fb57217b" sha1="607a98da754e8b1dd94a6432b21a36cc38e06a0f" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="024_v11_b085.v11" offset="0x0" size="0x80000" crc="0722da38" sha1="66a9b463d5277908b3a01c03de82b3de9118f2cb" />
+		<rom name="024_v12_d3b7.v12" offset="0x80000" size="0x80000" crc="670ce3ec" sha1="9004aa85d4a9b0ecf9cf9357b073ed55a98fdb02" />
+		<rom name="024_v13_a31e.v13" offset="0x100000" size="0x80000" crc="2e39462b" sha1="b0a9b1a3377bf0369f3020192505c46ca52927d6" />
+		<rom name="024_v24_2f0f.v24" offset="0x180000" size="0x80000" crc="7944754f" sha1="d42a46c5127c6c62041ebffb0007af8a24abd360" />
+		</dataarea>
+	</part>
+</software>

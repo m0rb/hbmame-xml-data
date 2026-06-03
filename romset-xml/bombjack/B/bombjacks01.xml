@@ -1,0 +1,35 @@
+<software name="bombjacks01">
+	<description>Bomb Jack (Chinese)</description>
+	<year>1984</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="09_j01bhc01.bin" offset="0x0" size="0x2000" crc="fe674884" sha1="e7ce4527dd0d84c6430c962648f82319a27c9e5b" />
+		<rom name="10_l01b.bin" offset="0x2000" size="0x2000" crc="52a1e5fb" sha1="e1cdc4b4efbc6c7a1e4fa65019486617f2acba1b" />
+		<rom name="11_m01b.bin" offset="0x4000" size="0x2000" crc="b68a062a" sha1="43bae56494ac0202aaa8f1ed5c1ed1bff775b2b8" />
+		<rom name="12_n01bhc01.bin" offset="0x6000" size="0x2000" crc="ff6627cd" sha1="918aa40ef0d9b01cd1714c751f69edf6cb0415de" />
+		<rom name="13.1rhc01" offset="0xc000" size="0x2000" crc="e8d84fa1" sha1="c14e91c7e82fca2fb81d03d531f33a399dc34282" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="01_h03t.bin" offset="0x0" size="0x2000" crc="8407917d" sha1="318face9f7a7ab6c7eeac773995040425e780aaf" />
+		</dataarea>
+		<dataarea name="sprites" size="0x6000">
+		<rom name="16_m07bhc01.bin" offset="0x0" size="0x2000" crc="36317f2a" sha1="bdeb62f50fc40562062df8d5571a39526609e8eb" />
+		<rom name="15_l07bhc01.bin" offset="0x2000" size="0x2000" crc="e53e8335" sha1="a61269d3a75afd38cfc8920a7a21dae0128e2ed8" />
+		<rom name="14_j07bhc01.bin" offset="0x4000" size="0x2000" crc="21c7d648" sha1="239663b31027d5a49edcafac92b3e8e175b2edf2" />
+		</dataarea>
+		<dataarea name="chars" size="0x3000">
+		<rom name="03_e08thc01.bin" offset="0x0" size="0x1000" crc="dd7e96eb" sha1="31fde4df2733cc795f5fd64edd090f2f016ab6ac" />
+		<rom name="04_h08thc01.bin" offset="0x1000" size="0x1000" crc="7c06a2ac" sha1="71f34dd84cff1b8de7cfe2796b5acad6b85c88b6" />
+		<rom name="05_k08thc01.bin" offset="0x2000" size="0x1000" crc="d4e5be07" sha1="386edf85b110215c8bb2005006338bad1c799491" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x1000">
+		<rom name="02_p04t.bin" offset="0x0" size="0x1000" crc="398d4a02" sha1="ac18a8219f99ba9178b96c9564de3978e39c59fd" />
+		</dataarea>
+		<dataarea name="tiles" size="0x6000">
+		<rom name="06_l08t.bin" offset="0x0" size="0x2000" crc="51eebd89" sha1="515128a3971fcb97b60c5b6bdd2b03026aec1921" />
+		<rom name="07_n08t.bin" offset="0x2000" size="0x2000" crc="9dd98e9d" sha1="6db6006a6e20ff7c243d88293ca53681c4703ea5" />
+		<rom name="08_r08t.bin" offset="0x4000" size="0x2000" crc="3155ee7d" sha1="e7897dca4c145f10b7d975b8ef0e4d8aa9354c25" />
+		</dataarea>
+	</part>
+</software>

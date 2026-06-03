@@ -1,0 +1,18 @@
+<software name="xeviousn">
+	<description>Xevious (beta 1, 2023-03-07)</description>
+	<year>2023</year>
+	<publisher>tcdev</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="420.p1" offset="0x0" size="0x100000" crc="11dff034" sha1="ac8ebbdc96f4d2f74d1c820c1536ca1ccdc936b6" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="420.v1" offset="0x0" size="0x100000" crc="37ef6dc5" sha1="3d50197e22d8727a8395564b8645ed1e0e2a5d26" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="420.c1" offset="0x0" size="0x100000" crc="f963e5b6" sha1="e80dd61476028de3ff8369e14b6fb1bb7561e370" />
+		<rom loadflag="load16_byte" name="420.c2" offset="0x1" size="0x100000" crc="c97c4e64" sha1="d33f26dbc569c69bdbf95cdde908d7700843bde7" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,31 @@
+<software name="matrimbl" cloneof="matrim">
+	<description>Matrimelee / Shin Gouketsuji Ichizoku Toukon (bootleg)</description>
+	<year>2003</year>
+	<publisher>bootleg</publisher>
+	<info name="source" value="matrimbl" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:fixed" size="0x80000">
+		</dataarea>
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="266-p1.p1" offset="0x0" size="0x100000" crc="5d4c2dc7" sha1="8d723b0d28ec344eef26009b361a2b97d300dd51" />
+		<rom loadflag="load16_word_swap" name="266-p2.sp2" offset="0x100000" size="0x400000" crc="a14b1906" sha1="1daa14d73512f760ef569b06f9facb279437d1db" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="mart-c1.bin" offset="0x0" size="0x800000" crc="a5595656" sha1="d86281607f22e4f2001047eaeeda99cd673c508c" />
+		<rom loadflag="load16_byte" name="mart-c2.bin" offset="0x1" size="0x800000" crc="c5f7c300" sha1="9ff5ffb750bd2e925667d84389192f92183e8677" />
+		<rom loadflag="load16_byte" name="mart-c3.bin" offset="0x1000000" size="0x800000" crc="574efd7d" sha1="6cac303db705fe2800701ee51de9e9fca04e6e66" />
+		<rom loadflag="load16_byte" name="mart-c4.bin" offset="0x1000001" size="0x800000" crc="109d54d9" sha1="22cb748b3b14317b90d9d9951297ada2bfc3a3f1" />
+		<rom loadflag="load16_byte" name="mart-c5.bin" offset="0x2000000" size="0x800000" crc="15c9e882" sha1="1c9f1ccaed4fdd9d8f5cc9b6fcaca3c4e328e59e" />
+		<rom loadflag="load16_byte" name="mart-c6.bin" offset="0x2000001" size="0x800000" crc="77497b97" sha1="c6481bea5a36f8210971fdcb4bfbe7ed93c769de" />
+		<rom loadflag="load16_byte" name="mart-c7.bin" offset="0x3000000" size="0x800000" crc="ab481bb6" sha1="6b2d97c5505eeb28e300b075f37f0d69ef44463a" />
+		<rom loadflag="load16_byte" name="mart-c8.bin" offset="0x3000001" size="0x800000" crc="906cf267" sha1="b0f2cf8887794d715f208751ddd1ed26b2c3ffdf" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x1000000">
+		<rom name="mart-v1.bin" offset="0x0" size="0x400000" crc="352b0a07" sha1="19f7cc12f3f6d0fda9c7449816c4c32367447897" />
+		<rom loadflag="load16_word_swap" name="mart-v2.bin" offset="0x400000" size="0x400000" crc="1e9bd59e" sha1="0f754e780d0ebb815a92a45ad55f85f6d0181b70" />
+		<rom name="mart-v3.bin" offset="0x800000" size="0x400000" crc="e8362fcc" sha1="42d558fd80cabe22a1c09a1fa75741afbcf46b7c" />
+		<rom loadflag="load16_word_swap" name="mart-v4.bin" offset="0xc00000" size="0x400000" crc="c8c79b19" sha1="9c7a5e694d68f37a27209e1400b60b6241a04cc7" />
+		</dataarea>
+	</part>
+</software>

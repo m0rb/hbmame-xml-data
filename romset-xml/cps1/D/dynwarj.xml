@@ -1,0 +1,30 @@
+<software name="dynwarj" cloneof="dynwar">
+	<description>Tenchi wo Kurau (Japan)</description>
+	<year>1989</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c04j.p1" offset="0x0" size="0x20000" crc="1a516657" sha1="f5c7c3bfd482eb59221cfd3eec4d47e717b04efa" />
+		<rom loadflag="load16_byte" name="c04j.p2" offset="0x1" size="0x20000" crc="12a290a0" sha1="29fd3f77c497ef8db48121301beab2862ca380b4" />
+		<rom loadflag="load16_byte" name="c04j.p3" offset="0x40000" size="0x20000" crc="932fc943" sha1="1bd1c696072e61db791c075fae8936dece73d1d8" />
+		<rom loadflag="load16_byte" name="c04j.p4" offset="0x40001" size="0x20000" crc="872ad76d" sha1="77cfb380dd358eb9e65894a026e0718918c5b68f" />
+		<rom loadflag="load16_byte" name="c04a.p5" offset="0x80000" size="0x20000" crc="8f663d00" sha1="77811783c87c7aee058b8533e34049a01047258a" />
+		<rom loadflag="load16_byte" name="c04a.p6" offset="0x80001" size="0x20000" crc="1586dbf3" sha1="d9f03e001effdef021a9ceda512e73a24726fca1" />
+		<rom loadflag="load16_byte" name="c04a.p7" offset="0xc0000" size="0x20000" crc="9db93d7a" sha1="f75e3fb5273baef0cd5d8eea26f07d5acaa743ca" />
+		<rom loadflag="load16_byte" name="c04a.p8" offset="0xc0001" size="0x20000" crc="1aae69a4" sha1="56e4761818f7857bc7520f2b8de90eabd857c577" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c04.m1" offset="0x0" size="0x8000" crc="b3b79d4f" sha1="2b960545741d3b9a53ffbf3ed83030392aa02698" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="dynwarj.key" offset="0x0" size="0x80" crc="6d4b2bbc" sha1="d3e6ee660a25494d14552a603339644755959236" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c04j.v1" offset="0x0" size="0x20000" crc="7e5f6cb4" sha1="c7b6b7d6dfe5f9f0e1521e7ce990229f480cf68d" />
+		<rom name="c04j.v2" offset="0x20000" size="0x20000" crc="4a30c737" sha1="426eb90f2edf73eb468c94b4a094da3d46acbab2" />
+		</dataarea>
+	</part>
+</software>

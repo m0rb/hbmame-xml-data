@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="schasercv" description="Schasercv cartridges">
+<software name="schasercv" cloneof="schaser">
+	<description>Space Chaser (CV version)(Extra Sounds)</description>
+	<year>1979</year>
+	<publisher>Taito</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="1" offset="0x0" size="0x400" crc="bec2b16b" sha1="c62210ecb64d7c38e5b63481d7fe04eb59bb1068" />
+		<rom name="2" offset="0x400" size="0x400" crc="9d25e608" sha1="4cc52a93a3ab96a0ec1d07593e17832fa59b30a1" />
+		<rom name="3" offset="0x800" size="0x400" crc="113d0635" sha1="ab5e98d0b5fc37d7d69bb5c541681a0f66460440" />
+		<rom name="4" offset="0xc00" size="0x400" crc="f3a43c8d" sha1="29a7a8b7d1de763a255cfec79157fd95e7bff551" />
+		<rom name="5" offset="0x1000" size="0x400" crc="47c84f23" sha1="61b475fa92b8335f8edd3a128d8ac8561658e464" />
+		<rom name="6" offset="0x1400" size="0x400" crc="02ff2199" sha1="e12c235b2064cb4bb426145172e523256e3c6358" />
+		<rom name="7" offset="0x1800" size="0x400" crc="87d06b88" sha1="2d743161f85e47cb8ee2a600cbee790b1ad7ad99" />
+		<rom name="8" offset="0x1c00" size="0x400" crc="6dfaad08" sha1="2184c4e2f4b6bffdc4fe13e178134331fcd43253" />
+		<rom name="9" offset="0x4000" size="0x400" crc="3d1a2ae3" sha1="672ad6590aebdfebc2748455fa638107f3934c41" />
+		<rom name="10" offset="0x4400" size="0x400" crc="037edb99" sha1="f2fc5e61f962666e7f6bb81753ac24ea0b97e581" />
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		<rom name="rt06.ic2" offset="0x0" size="0x400" crc="950cf973" sha1="d22df09b325835a0057ccd0d54f827b374254ac6" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

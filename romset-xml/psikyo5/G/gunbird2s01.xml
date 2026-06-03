@@ -1,0 +1,20 @@
+<software name="gunbird2s01" cloneof="gunbird2">
+	<description>Gunbird 2 (Ex Super Version, 2009-08-04)</description>
+	<year>2009</year>
+	<publisher>YZB &amp; Pipi899</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x180000">
+		<rom loadflag="load32_word_swap" name="2_prog_ls01.u16" offset="0x2" size="0x80000" crc="e4d9966a" sha1="0164ccf6a2786e2a15c6c185dcbe03db97dbe775" />
+		<rom loadflag="load32_word_swap" name="1_prog_hs01.u17" offset="0x0" size="0x80000" crc="1cca1f60" sha1="9647988f4871648eefd54d4afdb5d921f496ce1c" />
+		<rom loadflag="load16_word_swap" name="3_pdata.u1" offset="0x100000" size="0x80000" crc="a5b697e6" sha1="947f124fa585c2cf77c6571af7559bd652897b89" />
+		</dataarea>
+		<dataarea name="eeprom" size="0x100">
+		<rom name="eeprom-gunbird2.bin" offset="0x0" size="0x100" crc="7ac38846" sha1="c5f4b05a94211f3c96b8c472adbe634f2e77d753" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x3800000">
+		</dataarea>
+		<dataarea name="ymf" size="0x400000">
+		<rom name="sound.u9" offset="0x0" size="0x400000" crc="f19796ab" sha1="b978f0550ebd675e8ce9d9edcfcc3f6214e49e8b" />
+		</dataarea>
+	</part>
+</software>

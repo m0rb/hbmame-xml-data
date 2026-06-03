@@ -1,0 +1,31 @@
+<software name="mshs04" cloneof="msh">
+	<description>Marvel Super Heroes (951024E, Enable Hidden Characters)</description>
+	<year>1995</year>
+	<publisher>Yumeji</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c61.p1" offset="0x0" size="0x80000" crc="bd951414" sha1="5585bdd1484dc18c7630d689f60d91c068aafc97" />
+		<rom loadflag="load16_word_swap" name="c61s04.p2" offset="0x80000" size="0x80000" crc="adbd5707" sha1="79d56d5a28328ababec10e080e46d1bfa6d8cab7" />
+		<rom loadflag="load16_word_swap" name="c61.p3" offset="0x100000" size="0x80000" crc="6a091b9e" sha1="7fa54e69e1a1ca348cb08d892d55023e9a3ff4cb" />
+		<rom loadflag="load16_word_swap" name="c61.p4" offset="0x180000" size="0x80000" crc="803e3fa4" sha1="0acdeda65002521bf24130cbf06f9faa1dcef9e5" />
+		<rom loadflag="load16_word_swap" name="c61.p5" offset="0x200000" size="0x80000" crc="c45f8e27" sha1="4d28e0782c31ce56e728ac6ef5edd10437f00637" />
+		<rom loadflag="load16_word_swap" name="c61.p6" offset="0x280000" size="0x80000" crc="9ca6f12c" sha1="26ad682667b983b805e1f577426e5fca8ee3c82b" />
+		<rom loadflag="load16_word_swap" name="c61.p7" offset="0x300000" size="0x80000" crc="82ec27af" sha1="caf76268063ba91d28e8af684d60c2d71f29b9b9" />
+		<rom loadflag="load16_word_swap" name="c61.p8" offset="0x380000" size="0x80000" crc="8d931196" sha1="983e62efcdb4c8db6bce6acf4f86acb9447b565d" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c61.m1" offset="0x0" size="0x8000" crc="c976e6f9" sha1="281025e5aaf97c0aeddc8bd0f737d092daadad9e" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c61.m2" offset="0x28000" size="0x20000" crc="ce67d0d9" sha1="324226597cc5a11603f04085fef7715a314ecc05" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="msh.key" offset="0x0" size="0x14" crc="b494368e" sha1="8efc561cec2bcc17902d27ed4e27b7d2b9eccdbc" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c61.q1" offset="0x0" size="0x200000" crc="37ac6d30" sha1="ec67421fbf4a08a686e76792cb35e9cbf04d022d" />
+		<rom loadflag="load16_word_swap" name="c61.q2" offset="0x200000" size="0x200000" crc="de092570" sha1="a03d0df901f6ea79685eaed67db65bee14ec29c6" />
+		</dataarea>
+	</part>
+</software>

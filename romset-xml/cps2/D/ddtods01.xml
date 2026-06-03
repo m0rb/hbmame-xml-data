@@ -1,0 +1,27 @@
+<software name="ddtods01" cloneof="ddtod">
+	<description>Dungeons &amp; Dragons: Tower of Doom (940412H, Full Attack Edition, 2020-08-31)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c50s01.p1" offset="0x0" size="0x80000" crc="a6c1428e" sha1="63aa92b657d114834aa21842968c781f7464e46c" />
+		<rom loadflag="load16_word_swap" name="c50s01.p2" offset="0x80000" size="0x80000" crc="7ff26bb4" sha1="f6335123ad83c3973056cc32a2391fa23ade981f" />
+		<rom loadflag="load16_word_swap" name="c50h.p3" offset="0x100000" size="0x80000" crc="a6e562ba" sha1="42998024a3bb4464843411ebe7283c6f5369694d" />
+		<rom loadflag="load16_word_swap" name="c50.p4" offset="0x180000" size="0x80000" crc="6225495a" sha1="a9a02abb072e3482ac92d7aed8ce9a5bcf636bc0" />
+		<rom loadflag="load16_word_swap" name="c50.p5" offset="0x200000" size="0x80000" crc="b3480ec3" sha1="a66f8dba67101fd71c2af4f3c3d71e55778a9f2c" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c50.m1" offset="0x0" size="0x8000" crc="3f5e2424" sha1="4aa744576bc6752c43a90a27a816ebd90076b248" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="ddtodh.key" offset="0x0" size="0x14" crc="65f33a1c" sha1="4bc2c0968115365fd8cd721b769f62ed32b02cf5" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c50.q1" offset="0x0" size="0x200000" crc="0c499b67" sha1="a8ebd8a1cd6dece8344b7cb0439d85843fb97616" />
+		<rom loadflag="load16_word_swap" name="c50.q2" offset="0x200000" size="0x200000" crc="2f0b5a4e" sha1="8d1ebbb811aa469b0f0d29d719d2b9af28fb63a2" />
+		</dataarea>
+	</part>
+</software>

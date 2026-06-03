@@ -1,0 +1,31 @@
+<software name="sfz3j12" cloneof="sfa3">
+	<description>Street Fighter Zero 3 (980727J, Nude Juli &amp; Juni)</description>
+	<year>1998</year>
+	<publisher>shiro</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c78jr1.p1" offset="0x0" size="0x80000" crc="6ee0beae" sha1="243436fb64628f70cd130c7029d365ae97f3f42d" />
+		<rom loadflag="load16_word_swap" name="c78jr1.p2" offset="0x80000" size="0x80000" crc="a6e2978d" sha1="27e350e78aa204670c0ee6c60baddee46a92a584" />
+		<rom loadflag="load16_word_swap" name="c78r1.p3" offset="0x100000" size="0x80000" crc="05964b7d" sha1="ac9fa2c69c712a01647f0572381d875b1eb90886" />
+		<rom loadflag="load16_word_swap" name="c78jr1.p4" offset="0x180000" size="0x80000" crc="78ce2179" sha1="98a6f55bbdc45167fcc04cd6c3b7d71ffab31911" />
+		<rom loadflag="load16_word_swap" name="c78jr1.p5" offset="0x200000" size="0x80000" crc="398bf52f" sha1="2c8880b65b83724b956294b903b5038091b543c5" />
+		<rom loadflag="load16_word_swap" name="c78jr1.p6" offset="0x280000" size="0x80000" crc="866d0588" sha1="f2e9ca1bb606e4d2e3c9b62dd80074670a2e8e45" />
+		<rom loadflag="load16_word_swap" name="c78j12.p7" offset="0x300000" size="0x80000" crc="2d166f6c" sha1="a8858232a38dd998868f332a827ad49700c78b3c" />
+		<rom loadflag="load16_word_swap" name="c78b.p8" offset="0x380000" size="0x80000" crc="a9717252" sha1="7ee94ace2a49e4e5d30474e49c0da04a488010fe" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c78.m1" offset="0x0" size="0x8000" crc="de810084" sha1="fd0b969b732921ed8b40c16fbfa30ee09c7a7cbd" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c78.m2" offset="0x28000" size="0x20000" crc="72445dc4" sha1="14fca7596ac45ba655016eef5b6120f9f9671c23" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="sfz3j.key" offset="0x0" size="0x14" crc="d30cca8d" sha1="b05869902d4d5968d5f79ed6165eb4b78e1ddcdd" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c78.q1" offset="0x0" size="0x400000" crc="1c89eed1" sha1="649a0b0a3eb72e2e69e9fb1ac51a58b70daa39f3" />
+		<rom loadflag="load16_word_swap" name="c78.q2" offset="0x400000" size="0x400000" crc="f392b13a" sha1="fa04ce0370144a49bd1d5acd873eef87b0dc9d15" />
+		</dataarea>
+	</part>
+</software>

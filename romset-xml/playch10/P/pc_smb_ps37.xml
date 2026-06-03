@@ -1,0 +1,16 @@
+<software name="pc_smb_ps37" cloneof="pc_smb">
+	<description>Super Mario Bros. (Luigi&#x27;s Chronicles - Googie&#x27;s 5th A, 2013-03-17)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps37" offset="0x0" size="0x2000" crc="c2fb3a43" sha1="dd8acd1406fab75efb7ed01a357f9a76f4275d48" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps37" offset="0x0" size="0x8000" crc="4410f405" sha1="21fe5b402c104ae4c13d16e61a7809403c5296db" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

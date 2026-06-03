@@ -1,0 +1,19 @@
+<software name="magdrop2">
+	<description>Magical Drop II</description>
+	<year>1996</year>
+	<publisher>Data East Corporation</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="221-p1.p1" offset="0x0" size="0x80000" crc="7be82353" sha1="08ab39f52b893591c13a7d7aa26b20ce86e9ddf5" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="221-c1.c1" offset="0x0" size="0x400000" crc="1f862a14" sha1="1253e8b65d863d552d00dbdbfc5c168f5fc7edd1" />
+		<rom loadflag="load16_byte" name="221-c2.c2" offset="0x1" size="0x400000" crc="14b90536" sha1="e0d41f6b84d8261729f154b44ddd95c9b9c0714a" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="221-v1.v1" offset="0x0" size="0x200000" crc="7e5e53e4" sha1="72b063b2d4acaaf72a20d14ad5bfc90cb64d3fed" />
+		</dataarea>
+	</part>
+</software>

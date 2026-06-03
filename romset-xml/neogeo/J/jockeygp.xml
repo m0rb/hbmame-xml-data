@@ -1,0 +1,21 @@
+<software name="jockeygp">
+	<description>Jockey Grand Prix (set 1)</description>
+	<year>2001</year>
+	<publisher>Sun Amusement / BrezzaSoft</publisher>
+	<info name="source" value="jockeygp" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:fixed" size="0x20000">
+		</dataarea>
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="008-epr.p1" offset="0x0" size="0x100000" crc="2fb7f388" sha1="e3c9b03944b4c10cf5081caaf9c8be1f08c06493" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="008-c1.c1" offset="0x0" size="0x800000" crc="a9acbf18" sha1="d55122c70cbe78c2679598dc07863e1d1d1a31df" />
+		<rom loadflag="load16_byte" name="008-c2.c2" offset="0x1" size="0x800000" crc="6289eef9" sha1="a2ede77bb2468a2e1486d74745a22a5451026039" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="008-v1.v1" offset="0x0" size="0x200000" crc="443eadba" sha1="3def3c22f0e276bc4c2fc7ff70ce473c08b0d2df" />
+		</dataarea>
+	</part>
+</software>

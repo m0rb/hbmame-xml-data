@@ -1,0 +1,16 @@
+<software name="syscheck">
+	<description>Neo System Check (ver 1.0b)</description>
+	<year>2000</year>
+	<publisher>Blastar</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="606.p1" offset="0x0" size="0x80000" crc="a4adbe1e" sha1="eee4a8ebe62a2c97282f0350b3c28c615ea44956" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="407.v1" offset="0x0" size="0x80000" crc="504bf849" sha1="13a184ec9e176371808938015111f8918cb4df7d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x10000">
+		</dataarea>
+	</part>
+</software>

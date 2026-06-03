@@ -1,0 +1,26 @@
+<software name="mslug4mk04" cloneof="mslug4">
+	<description>Metal Slug 4 (Monkeys Players Mode Enemies Resetting Multi-Function Edition, 2020-10-01)</description>
+	<year>2020</year>
+	<publisher>Gaston90/XiaShuiDaoMeiRenYu/I love Nimes</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="263mk04.p1" offset="0x0" size="0x100000" crc="57e474e5" sha1="8bc2cf768547ba93f47ae8934c7d47f0ca4f83fe" />
+		<rom loadflag="load16_word_swap" name="263wh01.p2" offset="0x100000" size="0x400000" crc="fe1f929e" sha1="2c4a1d19987844a1d4c05f9a07e112dfd338c980" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="263lw.v1" offset="0x0" size="0x400000" crc="8cb5a9ef" sha1="272ad312f8694acf9190ebf48d1c8a5fec73c130" />
+		<rom name="263lwl.v2" offset="0x400000" size="0x400000" crc="c9572c14" sha1="4338aaceada29ea1cd2baf0d6ada4911246f5b09" />
+		<rom name="263lwl.v3" offset="0x800000" size="0x400000" crc="e7c14624" sha1="1d17f7e7cfe9bb03f1a374b31427c4e5203433f2" />
+		<rom name="263lwl.v4" offset="0xc00000" size="0x400000" crc="b1e5ac70" sha1="0d6eea68085c0e6cd7c7e29edb06f05a712f6d62" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="263.c1" offset="0x0" size="0x800000" crc="84865f8a" sha1="34467ada896eb7c7ca58658bf2a932936d8b632c" />
+		<rom loadflag="load16_byte" name="263.c2" offset="0x1" size="0x800000" crc="81df97f2" sha1="2b74493b8ec8fd49216a627aeb3db493f76124e3" />
+		<rom loadflag="load16_byte" name="263.c3" offset="0x1000000" size="0x800000" crc="1a343323" sha1="bbbb5232bba538c277ce2ee02e2956ca2243b787" />
+		<rom loadflag="load16_byte" name="263.c4" offset="0x1000001" size="0x800000" crc="942cfb44" sha1="d9b46c71726383c4581fb042e63897e5a3c92d1b" />
+		<rom loadflag="load16_byte" name="263.c5" offset="0x2000000" size="0x800000" crc="a748854f" sha1="2611bbedf9b5d8e82c6b2c99b88f842c46434d41" />
+		<rom loadflag="load16_byte" name="263.c6" offset="0x2000001" size="0x800000" crc="5c8ba116" sha1="6034db09c8706d4ddbcefc053efbc47a0953eb92" />
+		</dataarea>
+	</part>
+</software>

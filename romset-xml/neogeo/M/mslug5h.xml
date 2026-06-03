@@ -1,0 +1,29 @@
+<software name="mslug5h" cloneof="mslug5">
+	<description>Metal Slug 5 (NGH-2680)</description>
+	<year>2003</year>
+	<publisher>SNK Playmore</publisher>
+	<info name="source" value="mslug5" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:fixed" size="0x20000">
+		</dataarea>
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load32_word_swap" name="268-p1c.p1" offset="0x0" size="0x400000" crc="3636690a" sha1="e0da714b4bdc6efffe1250ded02ebddb3ab6d7b3" />
+		<rom loadflag="load32_word_swap" name="268-p2c.p2" offset="0x2" size="0x400000" crc="8dfc47a2" sha1="27d618cfbd0107a4d2a836797e967b39d2eb4851" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="268-c1c.c1" offset="0x0" size="0x800000" crc="ab7c389a" sha1="025a188de589500bf7637fa8e7a37ab24bf4312e" />
+		<rom loadflag="load16_byte" name="268-c2c.c2" offset="0x1" size="0x800000" crc="3560881b" sha1="493d218c92290b4770024d6ee2917c4022753b07" />
+		<rom loadflag="load16_byte" name="268-c3c.c3" offset="0x1000000" size="0x800000" crc="3af955ea" sha1="cf36b6ae9b0d12744b17cb7a928399214de894be" />
+		<rom loadflag="load16_byte" name="268-c4c.c4" offset="0x1000001" size="0x800000" crc="c329c373" sha1="5073d4079958a0ef5426885af2c9e3178f37d5e0" />
+		<rom loadflag="load16_byte" name="268-c5c.c5" offset="0x2000000" size="0x800000" crc="959c8177" sha1="889bda7c65d71172e7d89194d1269561888fe789" />
+		<rom loadflag="load16_byte" name="268-c6c.c6" offset="0x2000001" size="0x800000" crc="010a831b" sha1="aec140661e3ae35d264df416478ba15188544d91" />
+		<rom loadflag="load16_byte" name="268-c7c.c7" offset="0x3000000" size="0x800000" crc="6d72a969" sha1="968dd9a4d1209b770b9b85ea6532fa24d262a262" />
+		<rom loadflag="load16_byte" name="268-c8c.c8" offset="0x3000001" size="0x800000" crc="551d720e" sha1="ebf69e334fcaba0fda6fd432fd0970283a365d12" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x1000000">
+		<rom name="268-v1c.v1" offset="0x0" size="0x800000" crc="ae31d60c" sha1="c42285cf4e52fea74247860813e826df5aa7600a" />
+		<rom name="268-v2c.v2" offset="0x800000" size="0x800000" crc="c40613ed" sha1="af889570304e2867d7dfea1e94e388c06249fb67" />
+		</dataarea>
+	</part>
+</software>

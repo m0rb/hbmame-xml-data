@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="robocopb" description="Robocopb cartridges">
+<software name="robocopb01" cloneof="robocop">
+	<description>Robocop (Red Corporation World bootleg)</description>
+	<year>1988</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x60000">
+		<rom loadflag="load16_byte" name="robop_05.rom" offset="0x0" size="0x10000" crc="bcef3e9b" sha1="0ca099ea7428f877036e6e2a6daddfd9145ed9bb" />
+		<rom loadflag="load16_byte" name="robop_01.rom" offset="0x1" size="0x10000" crc="c9803685" sha1="13b3b0ebee24b4453685616e9a204b4ca6fb0053" />
+		<rom loadflag="load16_byte" name="robop_04.rom" offset="0x20000" size="0x10000" crc="9d7b79e0" sha1="e0d901b9b3cd62f7c947da04f7447ebfa88bf44a" />
+		<rom loadflag="load16_byte" name="robop_00_s01.rom" offset="0x20001" size="0x10000" crc="631301c1" sha1="c4288e6be0ca6e5ae4c93dca2fe5816522b9c309" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="ep03-3" offset="0x8000" size="0x8000" crc="5b164b24" sha1="b217a2ac8b26aebd208631a13030487ed27d232e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x20000">
+		<rom name="ep23" offset="0x0" size="0x10000" crc="a77e4ab1" sha1="d06cc847192b6c7f642e4ff7128e298d0aa034b2" />
+		<rom name="ep22" offset="0x10000" size="0x10000" crc="9fbd6903" sha1="9ac6ac8a18c23e915e8ae3782867d10c0bd65778" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x40000">
+		<rom name="ep20" offset="0x0" size="0x10000" crc="1d8d38b8" sha1="9add6349f8a578fb86b678cef921d6ec0cfccdad" />
+		<rom name="ep21" offset="0x10000" size="0x10000" crc="187929b2" sha1="deca1f0a52584769caee1d2302617aa957c56a71" />
+		<rom name="ep18" offset="0x20000" size="0x10000" crc="b6580b5e" sha1="ee216d8db89b8cb7a51a4e19bf6f17788547156b" />
+		<rom name="ep19" offset="0x30000" size="0x10000" crc="9bad01c7" sha1="947c7f9d0facaea13a924274adde0e996be7b999" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x20000">
+		<rom name="ep14" offset="0x0" size="0x8000" crc="ca56ceda" sha1="edbaa29fc166cddf071ff5e59cfcfb7eeb127d68" />
+		<rom name="ep15" offset="0x8000" size="0x8000" crc="a945269c" sha1="de0b387e8699298f7682d6d7ca803a209888f7a1" />
+		<rom name="ep16" offset="0x10000" size="0x8000" crc="e7fa4d58" sha1="32e3f649b4f112a4e6be00068473b82c627bc8d1" />
+		<rom name="ep17" offset="0x18000" size="0x8000" crc="84aae89d" sha1="037520bd0f291f862c2211a6f35b2a8a54f10b2a" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x80000">
+		<rom name="ep07" offset="0x0" size="0x10000" crc="495d75cf" sha1="0ffe677d53b7675073902e9bd40e4150f2cdfb1a" />
+		<rom name="ep06" offset="0x10000" size="0x8000" crc="a2ae32e2" sha1="4e8182205563da9d50a831c65951645e278b03e6" />
+		<rom name="ep11" offset="0x20000" size="0x10000" crc="62fa425a" sha1="be88c1a6436df8a456c405822e28c472e3e79a69" />
+		<rom name="ep10" offset="0x30000" size="0x8000" crc="cce3bd95" sha1="00bbb197824d970b0e404167ca4ae53e1955ad94" />
+		<rom name="ep09" offset="0x40000" size="0x10000" crc="11bed656" sha1="6a7d984a32982d9aef8ea7d8a720925036e7046e" />
+		<rom name="ep08" offset="0x50000" size="0x8000" crc="c45c7b4c" sha1="70e3e475fe767eefa4cc1d6ca052271a099ff7a8" />
+		<rom name="ep13" offset="0x60000" size="0x10000" crc="8fca9f28" sha1="cac85bf2b66e49e22c33c85bdb5712feef6aae7e" />
+		<rom name="ep12" offset="0x70000" size="0x8000" crc="3cd1d0c3" sha1="ca3546cf51ebb10dfa4e78954f0212e8fcdb3d57" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="ep02" offset="0x0" size="0x10000" crc="711ce46f" sha1="939a8545e53776ff2180d2c7e63bc997689c088e" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

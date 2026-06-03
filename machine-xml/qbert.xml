@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="qbert" description="Qbert cartridges">
+<software name="pbert">
+	<description>P*bert</description>
+	<year>2003</year>
+	<publisher>Grand Master Peter</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="qb-rom2.bin" offset="0xa000" size="0x2000" crc="fe434526" sha1="4cfc5d52dd6c82163e035af82d6112c0c93a3797" />
+		<rom name="qb-rom1.bin" offset="0xc000" size="0x2000" crc="55635447" sha1="ca6acdef1c9e06b33efe1f0a2df2dfb03723cfbe" />
+		<rom name="qb-rom0.bin" offset="0xe000" size="0x2000" crc="8e318641" sha1="7f8f66d1e6a7905e93cce07fc92e8801370b7194" />
+		</dataarea>
+		<dataarea name="sprites" size="0x8000">
+		<rom name="pb-fg3.bin" offset="0x0" size="0x2000" crc="26def34c" sha1="b36dd87e4c36d201aaec0c283e5f3d1ad4056d5d" />
+		<rom name="pb-fg2.bin" offset="0x2000" size="0x2000" crc="cf3309ca" sha1="5be9a28b3681990729f0582f9d2c3dd0314bdd15" />
+		<rom name="pb-fg1.bin" offset="0x4000" size="0x2000" crc="a5f3a203" sha1="4d7d45e5ba87acd8c44421f2c7fb2129a1866f03" />
+		<rom name="pb-fg0.bin" offset="0x6000" size="0x2000" crc="495d90e9" sha1="d4d28c30901eb09da8933c03b2178152f0fc7b84" />
+		</dataarea>
+		<dataarea name="bgtiles" size="0x2000">
+		<rom name="pb-bg0.bin" offset="0x0" size="0x1000" crc="14e193e9" sha1="5d67b3da848d4a90a4f9bf7f6145ce1aa33188f7" />
+		<rom name="pb-bg1.bin" offset="0x1000" size="0x1000" crc="a91180f9" sha1="c8a3ceae19afe9a0ad1e05bed99585e6bacbc09b" />
+		</dataarea>
+		<dataarea name="r1sound:audiocpu" size="0x10000">
+		<rom name="qb-snd1.bin" offset="0x7000" size="0x800" crc="15787c07" sha1="8b7d03fbf2ebaa71b3a7e2f636a0d1bb9b796e43" />
+		<rom name="qb-snd2.bin" offset="0x7800" size="0x800" crc="58437508" sha1="09d8053e7e99679b602dcda230d64db7fe6cb7f5" />
+		</dataarea>
+	</part>
+</software>
+<software name="qbertb">
+	<description>Q*bert</description>
+	<year>1982</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="qb-rom2.bin" offset="0xa000" size="0x2000" crc="fe434526" sha1="4cfc5d52dd6c82163e035af82d6112c0c93a3797" />
+		<rom name="qb-rom1.bin" offset="0xc000" size="0x2000" crc="55635447" sha1="ca6acdef1c9e06b33efe1f0a2df2dfb03723cfbe" />
+		<rom name="qbertb.rom0" offset="0xe000" size="0x2000" crc="415b4fc7" sha1="e55fb1912260435be253597fd337e04219b7a034" />
+		</dataarea>
+		<dataarea name="sprites" size="0x8000">
+		<rom name="qbertb.fg3" offset="0x1000" size="0x1000" crc="983e3e05" sha1="14f21543c3301b15d179b3864676e76ad5dfcaf8" />
+		<rom name="qbertb.fg2" offset="0x3000" size="0x1000" crc="b3e6c7bc" sha1="38e34e8712c5f677fa3fada68bc4c318e9bf7ca6" />
+		<rom name="qbertb.fg1" offset="0x5000" size="0x1000" crc="6733d069" sha1="3b4ac832f2475d51ae7586d3eb80e355afb64222" />
+		<rom name="qbertb.fg0" offset="0x7000" size="0x1000" crc="3081c200" sha1="137d95a2a58e2ed4da7145a539d1a1942c80674c" />
+		</dataarea>
+		<dataarea name="bgtiles" size="0x2000">
+		<rom name="qb-bg0.bin" offset="0x0" size="0x1000" crc="7a9ba824" sha1="12aa6df499eb6996ee35f56acac403ff6290f844" />
+		<rom name="qb-bg1.bin" offset="0x1000" size="0x1000" crc="22e5b891" sha1="5bb67e333255c0ea679ab4312256a8a71a950db8" />
+		</dataarea>
+		<dataarea name="r1sound:audiocpu" size="0x10000">
+		<rom name="qbertb.snd" offset="0x7000" size="0x1000" crc="ebcedba9" sha1="94aee8e32bdc80bbc5dc1423ca97597bdb9d808c" />
+		</dataarea>
+	</part>
+</software>
+<software name="vbert">
+	<description>V*bert</description>
+	<year>2003</year>
+	<publisher>Grand Master Peter</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="qb-rom2.bin" offset="0xa000" size="0x2000" crc="fe434526" sha1="4cfc5d52dd6c82163e035af82d6112c0c93a3797" />
+		<rom name="qb-rom1.bin" offset="0xc000" size="0x2000" crc="55635447" sha1="ca6acdef1c9e06b33efe1f0a2df2dfb03723cfbe" />
+		<rom name="qb-rom0.bin" offset="0xe000" size="0x2000" crc="8e318641" sha1="7f8f66d1e6a7905e93cce07fc92e8801370b7194" />
+		</dataarea>
+		<dataarea name="sprites" size="0x8000">
+		<rom name="vb-fg3.bin" offset="0x0" size="0x2000" crc="8cb4bdb4" sha1="7b9b626b93daa4d2639a1e87ace61b1d254af96c" />
+		<rom name="vb-fg2.bin" offset="0x2000" size="0x2000" crc="79883cc3" sha1="01cfca389021747e2d750fc8bb251abb2d5fe7a8" />
+		<rom name="vb-fg1.bin" offset="0x4000" size="0x2000" crc="b0fe9bd5" sha1="be2990904efff19adbe18eb674727214ffae9ad3" />
+		<rom name="vb-fg0.bin" offset="0x6000" size="0x2000" crc="4c3db270" sha1="212f1c353511fb4166a7ad0135dd295a2a16af8d" />
+		</dataarea>
+		<dataarea name="bgtiles" size="0x2000">
+		<rom name="vb-bg0.bin" offset="0x0" size="0x1000" crc="8963b939" sha1="1416f56938163b4cdc212758eb2c3f6b773c7e32" />
+		<rom name="vb-bg1.bin" offset="0x1000" size="0x1000" crc="96033c96" sha1="0a5780377bfd3baeeb2d899aa230e503539f7c92" />
+		</dataarea>
+		<dataarea name="r1sound:audiocpu" size="0x10000">
+		<rom name="qb-snd1.bin" offset="0x7000" size="0x800" crc="15787c07" sha1="8b7d03fbf2ebaa71b3a7e2f636a0d1bb9b796e43" />
+		<rom name="qb-snd2.bin" offset="0x7800" size="0x800" crc="58437508" sha1="09d8053e7e99679b602dcda230d64db7fe6cb7f5" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

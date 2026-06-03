@@ -1,0 +1,36 @@
+<software name="samsho4e" cloneof="samsho4">
+	<description>Samurai Shodown IV - Amakusa&#x27;s Revenge / Samurai Spirits - Amakusa Kourin (Earlier)</description>
+	<year>1996</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="222.p1" offset="0x0" size="0x100000" crc="1a5cb56d" sha1="9a0a5a1c7c5d428829f22d3d17f7033d43a51b5b" />
+		<rom loadflag="load16_word_swap" name="222e.p2" offset="0x300000" size="0x200000" crc="7587f09b" sha1="4cbd14b1e5158ab2c96b0860afc550b5dc746ca7" />
+		<rom loadflag="continue" offset="0x100000" size="0x200000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xa00000">
+		<rom name="222.v1" offset="0x0" size="0x400000" crc="7d6ba95f" sha1="03cb4e0d770e0b332b07b64cacef624460b84c78" />
+		<rom name="222.v2" offset="0x400000" size="0x400000" crc="6c33bb5d" sha1="fd5d4e08a962dd0d22c52c91bad5ec7f23cfb901" />
+		<rom name="222.v3" offset="0x800000" size="0x200000" crc="831ea8c0" sha1="f2987b7d09bdc4311e972ce8a9ab7ca9802db4db" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="222e.c1" offset="0x400000" size="0x200000" crc="289100fa" sha1="ead308ba395e4ddaa3e4e096cc6d264529132373" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="222e.c2" offset="0x400001" size="0x200000" crc="c2716ea0" sha1="06f2d218c0c90d978b03e8312fc1e79157a479f8" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		<rom loadflag="load16_byte" name="222e.c3" offset="0xc00000" size="0x200000" crc="6659734f" sha1="200c97e449057298b38cf67b053c241f2edfa740" />
+		<rom loadflag="continue" offset="0x800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="222e.c4" offset="0xc00001" size="0x200000" crc="91ebea00" sha1="6574795885dd1e29f02e4973a391ff1964675896" />
+		<rom loadflag="continue" offset="0x800001" size="0x200000" />
+		<rom loadflag="load16_byte" name="222e.c5" offset="0x1400000" size="0x200000" crc="e22254ed" sha1="56212ab8e24a78a990fa92fbb911f85e72783883" />
+		<rom loadflag="continue" offset="0x1000000" size="0x200000" />
+		<rom loadflag="load16_byte" name="222e.c6" offset="0x1400001" size="0x200000" crc="00947b2e" sha1="8e986b2f348d2977e9c0272e4d0879def07bcf1e" />
+		<rom loadflag="continue" offset="0x1000001" size="0x200000" />
+		<rom loadflag="load16_byte" name="222e.c7" offset="0x1c00000" size="0x200000" crc="e3e3b0cd" sha1="a722d14ea2c0a6882534568b5fc6e068605c13d8" />
+		<rom loadflag="continue" offset="0x1800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="222e.c8" offset="0x1c00001" size="0x200000" crc="f33967f1" sha1="780a05ba8c1873748842599a71672140d1ffd2e8" />
+		<rom loadflag="continue" offset="0x1800001" size="0x200000" />
+		</dataarea>
+	</part>
+</software>

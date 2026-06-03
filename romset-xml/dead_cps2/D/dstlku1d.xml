@@ -1,0 +1,28 @@
+<software name="dstlku1d" cloneof="dstlk">
+	<description>Darkstalkers: The Night Warriors (USA 940705 Phoenix Edition) (bootleg)</description>
+	<year>1994</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c53ud.p1" offset="0x0" size="0x80000" crc="47b7a680" sha1="ea51d784f1ed49b70aa8addce987a7c09a5c653c" />
+		<rom loadflag="load16_word_swap" name="c53ud.p2" offset="0x80000" size="0x80000" crc="3b7a4939" sha1="020f9768f4d3afb193b1d5a824674f7fb3434369" />
+		<rom loadflag="load16_word_swap" name="c53ur1.p3" offset="0x100000" size="0x80000" crc="673ed50a" sha1="7dff27dba1da55a18eb459e4a2d679cf699f2804" />
+		<rom loadflag="load16_word_swap" name="c53ur1.p4" offset="0x180000" size="0x80000" crc="f2377be7" sha1="4520d44f94a03bd40c27062344e56ba8718c2fb8" />
+		<rom loadflag="load16_word_swap" name="c53ur1.p5" offset="0x200000" size="0x80000" crc="d8f498c4" sha1="569d9c309e9d95d2501a7c0a2c1291b49320d767" />
+		<rom loadflag="load16_word_swap" name="c53ur1.p6" offset="0x280000" size="0x80000" crc="e6a8a1a0" sha1="adf621e12623a2af4dbf0858a8fa3816e7c7073b" />
+		<rom loadflag="load16_word_swap" name="c53ud.p7" offset="0x300000" size="0x80000" crc="8b333a19" sha1="5274510491433ac4a0ba3a0a120e95205d291ffe" />
+		<rom loadflag="load16_word_swap" name="c53ur1.p8" offset="0x380000" size="0x80000" crc="c1a3d9be" sha1="82b4ce3325a7ecf3a60dd781f9b224fdde8daa65" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c53.m1" offset="0x0" size="0x8000" crc="64b685d5" sha1="6c180e7420db754eca5cad17a40f5a64f5c3bd15" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c53.m2" offset="0x28000" size="0x20000" crc="cf7c97c7" sha1="109a4b56ecd59be9c3f5869de99d40619bdaef21" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c53.q1" offset="0x0" size="0x200000" crc="4a39deb2" sha1="7e63e615869958db66a4e52a0272afee5a10e446" />
+		<rom loadflag="load16_word_swap" name="c53.q2" offset="0x200000" size="0x200000" crc="1a3e5c03" sha1="c5a556e125d6c3d68da745b4d56cd7a851f2a23d" />
+		</dataarea>
+	</part>
+</software>

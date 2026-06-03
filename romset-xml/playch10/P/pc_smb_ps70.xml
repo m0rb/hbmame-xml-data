@@ -1,0 +1,16 @@
+<software name="pc_smb_ps70" cloneof="pc_smb">
+	<description>Super Mario Bros. (Upside-Down Map, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps70" offset="0x0" size="0x2000" crc="8c01e7f4" sha1="af4e44591c2e99401ff4d962575a631f1fe6a0db" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps70" offset="0x0" size="0x8000" crc="f0d05e82" sha1="ee4acbda7d82b820b449a6b4fa0ad95a95ccc685" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

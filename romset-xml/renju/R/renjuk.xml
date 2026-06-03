@@ -1,0 +1,11 @@
+<software name="renjuk">
+	<description>Renju Kizoku (Korean)</description>
+	<year>1994</year>
+	<publisher>Aneue Bannzai</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x290000">
+		<rom name="renjuk.u31" offset="0x0" size="0x200000" crc="2bd052c5" sha1="724662d6d2ead1ef9dce1fa95d7c15d35fcb5a51" />
+		<rom name="rnj2.u32" offset="0x200000" size="0x80000" crc="2015289c" sha1="5223b6d3dbe4657cd63cf5b527eaab84cf23587a" />
+		</dataarea>
+	</part>
+</software>

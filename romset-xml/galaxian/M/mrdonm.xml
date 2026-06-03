@@ -1,0 +1,21 @@
+<software name="mrdonm">
+	<description>Mr. Do&#x27;s Nightmare</description>
+	<year>2003</year>
+	<publisher>Krazy Ivan</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="mrdonm.u" offset="0x0" size="0x800" crc="197493a6" sha1="f939fd712985db24dced4f7a66f4a804ca34ce60" />
+		<rom name="mrdonm.v" offset="0x800" size="0x800" crc="b8ee84cf" sha1="c5018f21da2f65fa573a2d5e9c8f96db1f0136e9" />
+		<rom name="mrdonm.w" offset="0x1000" size="0x800" crc="76879d31" sha1="7aae5ee1eeaa5dacf4a232b3336f9e3df74018ca" />
+		<rom name="mrdonm.y" offset="0x1800" size="0x800" crc="d6d5e47e" sha1="e5f41f90ca357f3e7ef1a6b055ca0cccc91ed391" />
+		<rom name="mrdonm.z" offset="0x2000" size="0x800" crc="34913886" sha1="c1936ef6dc6080d080715d1c064513d581180fea" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="mrdonm.1h" offset="0x0" size="0x800" crc="f880af4b" sha1="67d24ac48a6bd68de5b914675dc4cd5982d8ffc4" />
+		<rom name="mrdonm.1k" offset="0x800" size="0x800" crc="40fd608a" sha1="3a58d5ac17e98bea3d58d238d81bd6a5dd24bb81" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="mrdonm.6l" offset="0x0" size="0x20" crc="77f95861" sha1="2acb3021e31b3c91bbf48763d2504dfad0d87f38" />
+		</dataarea>
+	</part>
+</software>

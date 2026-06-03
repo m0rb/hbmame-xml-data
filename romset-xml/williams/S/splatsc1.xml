@@ -1,0 +1,28 @@
+<software name="splatsc1" cloneof="splat">
+	<description>Splat! (sc1 hardware)</description>
+	<year>1982</year>
+	<publisher>Williams</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x19000">
+		<rom name="splatsc1.10" offset="0xd000" size="0x1000" crc="6cc2988a" sha1="bd0648185ab859afc981d4e8ab954ed1f39303e4" />
+		<rom name="splatsc1.11" offset="0xe000" size="0x1000" crc="ee960115" sha1="b3a03b14f7ee97d55b948ecc09c5e4006c31f0ce" />
+		<rom name="splatsc1.12" offset="0xf000" size="0x1000" crc="21916fce" sha1="6896afd10c30d90b807b60f90fced7114b1812e3" />
+		<rom name="splat_rom_1b_16-3011-1.e4" offset="0x10000" size="0x1000" crc="1cf26e48" sha1="6ba4de6cc7d1359ed450da7bae1000552373f873" />
+		<rom name="splat_rom_2b_16-3011-2.c4" offset="0x11000" size="0x1000" crc="ac0d4276" sha1="710aba98909d5d63c4b9b08579021f9c026b3111" />
+		<rom name="splat_rom_3b_16-3011-3.a4" offset="0x12000" size="0x1000" crc="74873e59" sha1="727c9da682fd10353f3969ef02e9f1826d8cb77a" />
+		<rom name="splat_rom_4b_16-3011-4.e5" offset="0x13000" size="0x1000" crc="70a7064e" sha1="7e6440585462b68b62d6d571d83635bf17149f1a" />
+		<rom name="splatsc1.05" offset="0x14000" size="0x1000" crc="6989e923" sha1="383d831084cf79e3961125142d1e3bf4fad1ac66" />
+		<rom name="splatsc1.06" offset="0x15000" size="0x1000" crc="82b22e55" sha1="d71c6598f6a43f47f6752c803069efeb877bf1f0" />
+		<rom name="splatsc1.07" offset="0x16000" size="0x1000" crc="e0c4230c" sha1="2795732725f63e766ee23744147bf002373bc5f7" />
+		<rom name="splatsc1.08" offset="0x17000" size="0x1000" crc="42ff589f" sha1="72c9b40c9291a6b97f637c6424265b30227d87c6" />
+		<rom name="splatsc1.09" offset="0x18000" size="0x1000" crc="f67564be" sha1="3fda9032953e4f75df838616d1c7023a1f2e9861" />
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		<rom name="decoder_rom_4.3g" offset="0x0" size="0x200" crc="e6631c23" sha1="9988723269367fb44ef83f627186a1c88cf7877e" />
+		<rom name="decoder_rom_6.3c" offset="0x200" size="0x200" crc="83faf25e" sha1="30002643d08ed983a6701a7c4b5ee74a2f4a1adb" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x10000">
+		<rom name="video_sound_rom_13_std.ic12" offset="0xf000" size="0x1000" crc="a878d5f3" sha1="f3347a354cb54ca228fe0971f0ae3bc778e2aecf" />
+		</dataarea>
+	</part>
+</software>

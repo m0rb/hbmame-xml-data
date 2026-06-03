@@ -1,0 +1,31 @@
+<software name="vhuntjr2" cloneof="nwarr">
+	<description>Vampire Hunter: Darkstalkers&#x27; Revenge (Japan 950302)</description>
+	<year>1995</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c57jr2.p1" offset="0x0" size="0x80000" crc="679c3fa9" sha1="25c3f595e4d93c16ac483e4f9ba20ad714ecf4ef" />
+		<rom loadflag="load16_word_swap" name="c57jr2.p2" offset="0x80000" size="0x80000" crc="eb6e71e4" sha1="7a7cd34f7a70d87b817c0a4242844103db3e9f66" />
+		<rom loadflag="load16_word_swap" name="c57jr2.p3" offset="0x100000" size="0x80000" crc="eaf634ea" sha1="d46cb9d5172bb626396354ff2742d4394f0816f1" />
+		<rom loadflag="load16_word_swap" name="c57jr2.p4" offset="0x180000" size="0x80000" crc="b70cc6be" sha1="02fc8070bb75a2075de01b891249e6891687440a" />
+		<rom loadflag="load16_word_swap" name="c57jr2.p5" offset="0x200000" size="0x80000" crc="46ab907d" sha1="18215ff19e2b0c6505b5b5dfe24ef09fc8539ae5" />
+		<rom loadflag="load16_word_swap" name="c57jr2.p6" offset="0x280000" size="0x80000" crc="1c00355e" sha1="72b94b6c5a10ecd11169048d991bcb7550968cc9" />
+		<rom loadflag="load16_word_swap" name="c57jr2.p7" offset="0x300000" size="0x80000" crc="026e6f82" sha1="4dffda5e2bcd2fbc9084782e9a79ebd2be1338e7" />
+		<rom loadflag="load16_word_swap" name="c57jr2.p8" offset="0x380000" size="0x80000" crc="aadfb3ea" sha1="f42b76a98f657ba67aee69025476e8114acce4c5" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c57.m1" offset="0x0" size="0x8000" crc="5045dcac" sha1="fd1a6586fbdd48a707df1fa52309b4cf50e3cc4c" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c57.m2" offset="0x28000" size="0x20000" crc="86b60e59" sha1="197d07ced8b9850729c83fa59b7afc283500bdee" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="vhuntj.key" offset="0x0" size="0x14" crc="72854f68" sha1="657a4484c40a8b583abd74a8c7f0524ec6199dd2" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c57.q1" offset="0x0" size="0x200000" crc="e1837d33" sha1="e3cb69f64767bacbec7286d0b4cd0ce7a0ba13d8" />
+		<rom loadflag="load16_word_swap" name="c57.q2" offset="0x200000" size="0x200000" crc="fbd3cd90" sha1="4813c25802ad71b77ca04fd8f3a86344f99f0d6a" />
+		</dataarea>
+	</part>
+</software>

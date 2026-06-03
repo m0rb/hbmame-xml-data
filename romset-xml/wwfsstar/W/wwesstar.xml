@@ -1,0 +1,33 @@
+<software name="wwesstar">
+	<description>WWE Superstars (Basic Fun)</description>
+	<year>2025</year>
+	<publisher>Anton LeDec</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom loadflag="load16_byte" name="24ac-06.34" offset="0x0" size="0x20000" crc="34f5280e" sha1="4ee23b65e2507826b6308840be5b1f1b2c9e9de8" />
+		<rom loadflag="load16_byte" name="24ad-07.35" offset="0x1" size="0x20000" crc="78b1ec56" sha1="142d370ec4c8f56630054c14c11fb985b5181aa3" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="24ab-0.12" offset="0x0" size="0x8000" crc="1e44f8aa" sha1="e03857d6954e9b9b6073b211e2d6570032af8807" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x20000">
+		<rom name="24aa-0.58" offset="0x0" size="0x20000" crc="a5bbcd62" sha1="f910fbd82a7e3f6d4891a0cb72c695909ccfaf7a" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x200000">
+		<rom name="c951.114" offset="0x0" size="0x80000" crc="9c69b057" sha1="19fb23533564838b69477e3d32d609109826a8a7" />
+		<rom name="24j4-0.115" offset="0x80000" size="0x40000" crc="7c7bc232" sha1="03585109bd61bea1a3011885d9e97b8bea907a1c" />
+		<rom name="24j5-0.116" offset="0xc0000" size="0x40000" crc="c9dec5b0" sha1="c1c47d614edb36e7a9a16668abf01a40007553b1" />
+		<rom name="c950.117" offset="0x100000" size="0x80000" crc="4526322c" sha1="38402a63d64b7d97bc230eafbb1f92cc6ce77d0a" />
+		<rom name="24j2-0.118" offset="0x180000" size="0x40000" crc="f71ceb39" sha1="fcee844bd023ac09b28e1712149aeb24c5d105db" />
+		<rom name="24j3-0.119" offset="0x1c0000" size="0x40000" crc="099452e4" sha1="3a5a57ee48a11e07e1ddd2ec8527e32e5b739dd6" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x80000">
+		<rom name="24j7-0.113" offset="0x0" size="0x40000" crc="f7cbe865" sha1="cd15e397381ccf1b3a28a41df8dcabf9e0a3d08f" />
+		<rom name="24j6-0.112" offset="0x40000" size="0x40000" crc="454d165d" sha1="16f174f34590c586f063e8985b3182c62679a920" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="24a9-0.46" offset="0x0" size="0x20000" crc="703ff08f" sha1="08c4d33208eb4c76c751a1a0fe16a817bdc30820" />
+		<rom name="24j8-0.45" offset="0x20000" size="0x20000" crc="61138487" sha1="6d5e3b12acdefb6923aa8ae0704f6c328f4747b3" />
+		</dataarea>
+	</part>
+</software>

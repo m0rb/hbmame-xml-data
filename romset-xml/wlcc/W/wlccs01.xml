@@ -1,0 +1,19 @@
+<software name="wlccs01" cloneof="xymg">
+	<description>Wanli Changcheng (No AI Cheat, 2006-01-01)</description>
+	<year>2006</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_word_swap" name="wlcc4096_ps01.rom" offset="0x0" size="0x80000" crc="3891db63" sha1="935d6af042d5871d67ff3381ea654427b6bc30ee" />
+		<rom loadflag="continue" offset="0x0" size="0x80000" />
+		</dataarea>
+		<dataarea name="blitter" size="0x280000">
+		<rom name="m0201-ig.160" offset="0x0" size="0x200000" crc="ec54452c" sha1="0ee7ffa3d4845af083944e64faf5a1c78247aaa2" />
+		<rom name="wlcc.gfx" offset="0x200000" size="0x80000" crc="1f7ad299" sha1="ab0a8fb31906519b9352ba172def48456e8d565c" />
+		</dataarea>
+		<dataarea name="oki" size="0x80000">
+		<rom name="m0202.snd" offset="0x0" size="0x80000" crc="220949aa" sha1="1e0dba168a0687d32aaaed42714ae24358f4a3e7" />
+		<rom loadflag="continue" offset="0x0" size="0x80000" />
+		</dataarea>
+	</part>
+</software>

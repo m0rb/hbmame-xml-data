@@ -1,0 +1,26 @@
+<software name="shocktr2">
+	<description>Shock Troopers - 2nd Squad</description>
+	<year>1998</year>
+	<publisher>Saurus</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="246-p1.p1" offset="0x0" size="0x100000" crc="6d4b7781" sha1="3c9d53d5da9842bfd45037c919064dda3fb2e089" />
+		<rom loadflag="load16_word_swap" name="246-p2.sp2" offset="0x100000" size="0x400000" crc="72ea04c3" sha1="4fb1d22c30f5f3db4637dd92a4d2705c88de399d" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="246-c1.c1" offset="0x0" size="0x800000" crc="47ac9ec5" sha1="2d9eea11ba87baa23b18a1a3f607dc137846e807" />
+		<rom loadflag="load16_byte" name="246-c2.c2" offset="0x1" size="0x800000" crc="7bcab64f" sha1="08d0edddd14b53d606e9a7a46aa4fb4e7398e0d0" />
+		<rom loadflag="load16_byte" name="246-c3.c3" offset="0x1000000" size="0x800000" crc="db2f73e8" sha1="8d0c3473a8b2a4e28fed1b74beb2e025b7e61867" />
+		<rom loadflag="load16_byte" name="246-c4.c4" offset="0x1000001" size="0x800000" crc="5503854e" sha1="a0f2e7c609cbb2aa43493a39d7dcaeca3d511d26" />
+		<rom loadflag="load16_byte" name="246-c5.c5" offset="0x2000000" size="0x800000" crc="055b3701" sha1="97f5e92538d1f2e437dcb3f80e56e1230287e8d1" />
+		<rom loadflag="load16_byte" name="246-c6.c6" offset="0x2000001" size="0x800000" crc="7e2caae1" sha1="d9de14e3e323664a8c5b7f1df1ba9ec7dd0e6a46" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x1000000">
+		<rom name="246-v1.v1" offset="0x0" size="0x400000" crc="16986fc6" sha1="cff3103dadf2f4390460456a5bd3fb5f28e21f6a" />
+		<rom name="246-v2.v2" offset="0x400000" size="0x400000" crc="ada41e83" sha1="78e37ffaaa5679c8775a3a71f6df7a0d15082bdc" />
+		<rom name="246-v3.v3" offset="0x800000" size="0x200000" crc="a05ba5db" sha1="09d739cad323d918f4196f91b654627fcafd8f4d" />
+		</dataarea>
+	</part>
+</software>

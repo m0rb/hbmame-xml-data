@@ -1,0 +1,19 @@
+<software name="shinobin1" cloneof="shinobin">
+	<description>Shinobi v1.1 (Neo-Geo port)</description>
+	<year>2025</year>
+	<publisher>Hoffman</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="504a.p1" offset="0x0" size="0x80000" crc="05fd9434" sha1="6169b376c5258723a52c08a35d2990dd1c2eb6aa" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="504.v1" offset="0x0" size="0x400000" crc="67480d87" sha1="4d2876922ae0fd70bd62a59fd357742bce59ce6a" />
+		<rom name="504.v2" offset="0x400000" size="0x400000" crc="b335aa46" sha1="3aba53c22fb1ed0c3524d6fa7ab945946e1764eb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="504.c1" offset="0x0" size="0x80000" crc="74227c08" sha1="a3835be816ba6afb5533c6f68500d87996f49b28" />
+		<rom loadflag="load16_byte" name="504.c2" offset="0x1" size="0x80000" crc="df4104e6" sha1="5aa9f75305107648f3065db7a4a1b570cf3d62ef" />
+		</dataarea>
+	</part>
+</software>

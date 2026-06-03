@@ -1,0 +1,29 @@
+<software name="sfz2als16" cloneof="sfz2al">
+	<description>Street Fighter Zero 2 Alpha (960805J, Dragon Edition v1.0, 2009-03-17)</description>
+	<year>2009</year>
+	<publisher>Pipi899</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c67s16.p1" offset="0x0" size="0x80000" crc="d6493cc5" sha1="b7123783b9f77a0ec2e995b599a96f291b178c95" />
+		<rom loadflag="load16_word_swap" name="c67s16.p2" offset="0x80000" size="0x80000" crc="a3f56672" sha1="7351929b857b710a658a0be7c9fb82edca89ddfe" />
+		<rom loadflag="load16_word_swap" name="c67j.p3" offset="0x100000" size="0x80000" crc="c88ebf88" sha1="e37cf232fc70b9a3254dea99754e288232f04e25" />
+		<rom loadflag="load16_word_swap" name="c67j.p4" offset="0x180000" size="0x80000" crc="35ed5b7a" sha1="b03cb92f594eb35fa374445f74930e9040a2baff" />
+		<rom loadflag="load16_word_swap" name="c67j.p5" offset="0x200000" size="0x80000" crc="975dcb3e" sha1="a2ca8e5a768e49cce9e2137ec0dcba9337ed2ad5" />
+		<rom loadflag="load16_word_swap" name="c67j.p6" offset="0x280000" size="0x80000" crc="dc73f2d7" sha1="09fa10e7d1ff5f0dac87a6cf3d66730e3ab9ad25" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c64.m1" offset="0x0" size="0x8000" crc="1bc323cf" sha1="83fbd6e9b327700dc9f1c59700b7385bc3705749" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c64.m2" offset="0x28000" size="0x20000" crc="ba6a5013" sha1="7814f3e56b69529b9860dd61c3b1e8d700244b03" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="sfz2alj.key" offset="0x0" size="0x14" crc="4c42320f" sha1="0fabdab677416c5a8060526d997e6f80b26f9bb3" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c64.q1" offset="0x0" size="0x200000" crc="aa47a601" sha1="a4d1ee89c84a3b9db06469bb66e85293b5aa9ac9" />
+		<rom loadflag="load16_word_swap" name="c64.q2" offset="0x200000" size="0x200000" crc="2237bc53" sha1="96d5693047e4cf1ed10a8ee1905cea267a278e92" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,30 @@
+<software name="ga2s01" cloneof="ga2">
+	<description>Golden Axe: The Revenge of Death Adder (unprotected)</description>
+	<year>1992</year>
+	<publisher>Sega</publisher>
+	<part name="cart">
+		<dataarea name="mainpcb:gfx1" size="0x400000">
+		<rom loadflag="load16_byte" name="mpr-14948.ic14" offset="0x0" size="0x200000" crc="75050d4a" sha1="51d6bc9935abcf30af438e69c2cf4e09f57a803f" />
+		<rom loadflag="load16_byte" name="mpr-14947.ic5" offset="0x1" size="0x200000" crc="b53e62f4" sha1="5aa0f198e6eb070b77b0d180d30c0228a9bc691e" />
+		</dataarea>
+		<dataarea name="mainpcb:maincpu" size="0x200000">
+		</dataarea>
+		<dataarea name="mainpcb:mcu" size="0x10000">
+		</dataarea>
+		<dataarea name="mainpcb:soundcpu" size="0x400000">
+		<rom name="mpr-14944.ic35" offset="0x100000" size="0x100000" crc="fd4d4b86" sha1="e14b9cd6004bf9ecd902e37b433b828241361b46" />
+		<rom name="mpr-14943.ic34" offset="0x200000" size="0x100000" crc="24d40333" sha1="38faf8f3eac317a163e93bd2247fe98189b13d2d" />
+		<rom name="mpr-14942.ic24" offset="0x300000" size="0x100000" crc="a89b0e90" sha1="e14c62418eb7f9a2deb2a6dcf635bedc1c73c253" />
+		</dataarea>
+		<dataarea name="mainpcb:sprites" endianness="big" size="0x1000000">
+		<rom loadflag="load16_word" name="mpr-14949.ic32" offset="0x0" size="0x200000" crc="152c716c" sha1="448d16ea036b66e886119c00af543dfa5e53fd84" />
+		<rom loadflag="load16_word" name="mpr-14951.ic30" offset="0x2" size="0x200000" crc="fdb1a534" sha1="3126b595bf69bf9952fedf8f9c6743eb10489dc6" />
+		<rom loadflag="load16_word" name="mpr-14953.ic28" offset="0x4" size="0x200000" crc="33bd1c15" sha1="4e16562e3357d4db54b20543073e8f1fd6f74b1f" />
+		<rom loadflag="load16_word" name="mpr-14955.ic26" offset="0x6" size="0x200000" crc="e42684aa" sha1="12e0f18a11edb46f09e2e8c5c4ba14170d0cf00d" />
+		<rom loadflag="load16_word" name="mpr-14950.ic31" offset="0x800000" size="0x200000" crc="15fd0026" sha1="e918984bd60ad63172fe273b31cc9019100228c8" />
+		<rom loadflag="load16_word" name="mpr-14952.ic29" offset="0x800002" size="0x200000" crc="96f96613" sha1="4c9808866032dab0401de322c28242e8a8775457" />
+		<rom loadflag="load16_word" name="mpr-14954.ic27" offset="0x800004" size="0x200000" crc="39b2ac9e" sha1="74f4c81d85ab9b4c5e8ae4b4d2c6dff766c482ca" />
+		<rom loadflag="load16_word" name="mpr-14956.ic25" offset="0x800006" size="0x200000" crc="298fca50" sha1="16e09b19cc7be3dfc8e82b45348e6d1cf2ed5621" />
+		</dataarea>
+	</part>
+</software>

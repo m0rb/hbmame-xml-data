@@ -1,0 +1,41 @@
+<software name="punishers08" cloneof="punisher">
+	<description>The Punisher (Flame Edition 2018-06-18)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c26s08.p1" offset="0x0" size="0x20000" crc="25893e5b" sha1="d713002cb05463d3d711b718ff17a6c7c2337f1b" />
+		<rom loadflag="load16_byte" name="c26s08.p2" offset="0x1" size="0x20000" crc="babc4311" sha1="276c4c7815e20e20f453970d6eb4e50bb5b153b9" />
+		<rom loadflag="load16_byte" name="c26s08.p3" offset="0x40000" size="0x20000" crc="4bf9a738" sha1="41f2f9b83a6b932f392878c0a3acb7f318502cd3" />
+		<rom loadflag="load16_byte" name="c26s08.p4" offset="0x40001" size="0x20000" crc="02b7fc2a" sha1="26e7f1ac1ff211718dda78bdb16967e5534c3cd4" />
+		<rom loadflag="load16_byte" name="c26s08.p5" offset="0x80000" size="0x20000" crc="0dca24ca" sha1="8c4e30f1c701d9f9b6d958def3a6632cccf96885" />
+		<rom loadflag="load16_byte" name="c26s08.p6" offset="0x80001" size="0x20000" crc="2f8ca5e4" sha1="c436f4eb5fb20333d53c15e6af887dcf7c4caf03" />
+		<rom loadflag="load16_byte" name="c26s08.p7" offset="0xc0000" size="0x20000" crc="30671efe" sha1="22506e619200f77ba3db08215b1f2edc4e46d097" />
+		<rom loadflag="load16_byte" name="c26s08.p8" offset="0xc0001" size="0x20000" crc="6954982d" sha1="bb299427776012967c901ddcaa3263ba252432ea" />
+		<rom loadflag="load16_word_swap" name="c26s08.p9" offset="0x100000" size="0x80000" crc="43327bbd" sha1="ac5d1b1fa5824ac50ddf8c5bb2908f9a4ffcc07c" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c26.m1" offset="0x0" size="0x8000" crc="49ff4446" sha1="87af12f87a940a6c5428b4574ad44a4b54867bc3" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="punishers01.key" offset="0x0" size="0x80" crc="8e992ffa" sha1="4f09427600cef4feb49a8a488caadaaa7b327484" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom loadflag="load16_word" name="c26s08.c01" offset="0x0" size="0x80000" crc="4d4111de" sha1="f67002f6a9073f5aba33e31879fc7f4c1d60ffda" />
+		<rom loadflag="load16_word" name="c26s08.c03" offset="0x2" size="0x80000" crc="2d346b82" sha1="dfd48382fdc8d1da5ece31a8ed99a0fa9f58c1ed" />
+		<rom loadflag="load16_word" name="c26s08.c05" offset="0x4" size="0x80000" crc="5e0c85a1" sha1="3b2487d8ae60d2beabafd83007359a84d3d0079e" />
+		<rom loadflag="load16_word" name="c26s08.c07" offset="0x6" size="0x80000" crc="60da42c8" sha1="95eec4a58d9628a2d9764951dd8dc11e4860a899" />
+		<rom loadflag="load16_word" name="c26.c17" offset="0x200000" size="0x80000" crc="c54ea839" sha1="0733f37329edd9d0cace1319a7544b40aa7ecb0b" />
+		<rom loadflag="load16_word" name="c26.c19" offset="0x200002" size="0x80000" crc="04c5acbd" sha1="fddc94b0f36d4d22d7c357856ae15b7514c342d3" />
+		<rom loadflag="load16_word" name="c26.c21" offset="0x200004" size="0x80000" crc="a544f4cc" sha1="9552df8934ba25f19a22f2e07783712d8c8ef03c" />
+		<rom loadflag="load16_word" name="c26.c23" offset="0x200006" size="0x80000" crc="8f02f436" sha1="a2f0ebb7e9593469c7b843f8962a66f3d77f79e5" />
+		</dataarea>
+		<dataarea name="qsound" size="0x200000">
+		<rom name="c26.q1" offset="0x0" size="0x80000" crc="31fd8726" sha1="1d73a76682e9fb908db0c55b9a18163f7539fea1" />
+		<rom name="c26.q2" offset="0x80000" size="0x80000" crc="980a9eef" sha1="36571381f349bc726508a7e618ba1c635ec9d271" />
+		<rom name="c26.q3" offset="0x100000" size="0x80000" crc="0dd44491" sha1="903cea1d7f3120545ea3229d30fbd687d11ad68f" />
+		<rom name="c26.q4" offset="0x180000" size="0x80000" crc="bed42f03" sha1="21302f7e75f9c795392a3b34e16a959fc5f6e4e9" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,19 @@
+<software name="pbcrazyb1" cloneof="pbobblen">
+	<description>Puzzle Bobble (Crazy beta 1, 2009-07-05)</description>
+	<year>2009</year>
+	<publisher>Elrayzeur</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="462b1.p1" offset="0x0" size="0x38db2" crc="008dd79a" sha1="1c05d442fb19c3e60257592874737585c9b58b31" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x180000">
+		<rom name="083ch.v3" offset="0x0" size="0x100000" crc="30ce579e" sha1="635f7ab2178981ba38cc0080f4f97e954e552440" />
+		<rom name="083.v4" offset="0x100000" size="0x80000" crc="0a548948" sha1="e1e4afd17811cb60401c14fbcf0465035165f4fb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="462b1.c1" offset="0x0" size="0x68000" crc="58ac4d8e" sha1="4a6a8b914a2f2918675ee2ad358d5ccaa867915a" />
+		<rom loadflag="load16_byte" name="462b1.c2" offset="0x1" size="0x68000" crc="bc37b7fb" sha1="d24012bca3dd77150998ae1a69d544d29e607eee" />
+		</dataarea>
+	</part>
+</software>

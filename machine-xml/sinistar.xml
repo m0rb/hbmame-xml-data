@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="sinistar" description="Sinistar cartridges">
+<software name="sinistar01">
+	<description>Sinistar (balanced ver)</description>
+	<year>2024</year>
+	<publisher>Synamax</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x19000">
+		<rom name="sinistar_rom_10-b_16-3004-62.4c" offset="0xe000" size="0x1000" crc="3d670417" sha1="81802622bee8dbea5c0f08019d87d941dcdbe292" />
+		<rom name="sinistar01_rom_11.4a" offset="0xf000" size="0x1000" crc="fe83bce2" sha1="7774602fbae7c345341be54eb281cf97ead04212" />
+		<rom name="sinistar_rom_1-b_16-3004-53.1d" offset="0x10000" size="0x1000" crc="f6f3a22c" sha1="026d8cab07734fa294a5645edbe65a904bcbc302" />
+		<rom name="sinistar_rom_2-b_16-3004-54.1c" offset="0x11000" size="0x1000" crc="cab3185c" sha1="423d1e3b0c07333ec582529bc4d0b7baf591820a" />
+		<rom name="sinistar_rom_3-b_16-3004-55.1a" offset="0x12000" size="0x1000" crc="1ce1b3cc" sha1="5bc03d7249529d827dc60c087e074ab3e4ea7361" />
+		<rom name="sinistar_rom_4-b_16-3004-56.2d" offset="0x13000" size="0x1000" crc="6da632ba" sha1="72c0c3d5a5ca87ca4d95fcedaf834206e4633950" />
+		<rom name="sinistar_rom_5-b_16-3004-57.2c" offset="0x14000" size="0x1000" crc="b662e8fc" sha1="828a89d2ea13d8a362dae708f86bff54cb231887" />
+		<rom name="sinistar_rom_6-b_16-3004-58.2a" offset="0x15000" size="0x1000" crc="2306183d" sha1="703e29e6446856615760a4897c0f5d79cc7bdfb2" />
+		<rom name="sinistar_rom_7-b_16-3004-59.3d" offset="0x16000" size="0x1000" crc="e5dd918e" sha1="bf4e2ada6a59d246218544d822ba5355da925924" />
+		<rom name="sinistar01_rom_8.3c" offset="0x17000" size="0x1000" crc="9b693243" sha1="04183031598cc4b152b107d583e4f8346a2f60eb" />
+		<rom name="sinistar01_rom_9.3a" offset="0x18000" size="0x1000" crc="5ed44beb" sha1="f77a7d90ebb5e7bf516dbd947aca3b808ff3443d" />
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		<rom name="decoder_rom_4.3g" offset="0x0" size="0x200" crc="e6631c23" sha1="9988723269367fb44ef83f627186a1c88cf7877e" />
+		<rom name="decoder_rom_6.3c" offset="0x200" size="0x200" crc="83faf25e" sha1="30002643d08ed983a6701a7c4b5ee74a2f4a1adb" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x10000">
+		<rom name="3004_speech_ic7_r1_16-3004-52.ic7" offset="0xb000" size="0x1000" crc="e1019568" sha1="442f4f3ccd2e1db2136d2ffb121ea442921f87ca" />
+		<rom name="3004_speech_ic5_r1_16-3004-50.ic5" offset="0xc000" size="0x1000" crc="cf3b5ffd" sha1="d5d51c550581c9d46ab331dd4fd32541a2ef598e" />
+		<rom name="3004_speech_ic6_r1_16-3004-51.ic6" offset="0xd000" size="0x1000" crc="ff8d2645" sha1="16fa2a602acbbc182dd96bab113ab18356f3daf0" />
+		<rom name="3004_speech_ic4_r1_16-3004-49.ic4" offset="0xe000" size="0x1000" crc="4b56a626" sha1="44430cd5c110ec751b0bfb8ae99b26d443350db1" />
+		<rom name="video_sound_rom_9_std.808.ic12" offset="0xf000" size="0x1000" crc="b82f4ddb" sha1="c70c7dd6e88897920d7709a260f27810f66aade1" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

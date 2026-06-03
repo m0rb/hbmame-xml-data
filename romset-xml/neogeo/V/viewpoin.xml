@@ -1,0 +1,22 @@
+<software name="viewpoin">
+	<description>Viewpoint</description>
+	<year>1992</year>
+	<publisher>Sammy / Aicom</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="051-p1.p1" offset="0x0" size="0x100000" crc="17aa899d" sha1="674cd8ace7acdf4f407de741e3d0071bcb49c902" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x600000">
+		<rom loadflag="load16_byte" name="051-c1.c1" offset="0x0" size="0x100000" crc="d624c132" sha1="49c7e9f020cba45d7083b45252bcc03397f8c286" />
+		<rom loadflag="continue" offset="0x400000" size="0x100000" />
+		<rom loadflag="load16_byte" name="051-c2.c2" offset="0x1" size="0x100000" crc="40d69f1e" sha1="ec4a13582772594957f927622d50f54b0dfcd8d8" />
+		<rom loadflag="continue" offset="0x400001" size="0x100000" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x400000">
+		<rom name="051-v2.v1" offset="0x0" size="0x200000" crc="019978b6" sha1="7896a551115fc6ed38b5944e0c8dcb2b2c1c077d" />
+		<rom name="051-v4.v2" offset="0x200000" size="0x200000" crc="5758f38c" sha1="da10f4b7d22d9139bbf068bd940be82168a74ca1" />
+		</dataarea>
+	</part>
+</software>

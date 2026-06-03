@@ -1,0 +1,29 @@
+<software name="bstarsh" cloneof="bstars">
+	<description>Baseball Stars Professional (NGH-002)</description>
+	<year>1990</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="002-p1.p1" offset="0x0" size="0x80000" crc="3bc7790e" sha1="50b2fffb1278151bb4849fbe1f8cb23916019815" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x300000">
+		<rom loadflag="load16_byte" name="002-c1.c1" offset="0x0" size="0x80000" crc="aaff2a45" sha1="c91ee72d1d74514df8ec44fca703409d92158ae3" />
+		<rom loadflag="load16_byte" name="002-c2.c2" offset="0x1" size="0x80000" crc="3ba0f7e4" sha1="f023b134b9c7994f477867307d2732026033501d" />
+		<rom loadflag="load16_byte" name="002-c3.c3" offset="0x100000" size="0x80000" crc="96f0fdfa" sha1="9f779a1ae46aeda54d69382b074392ade687f62f" />
+		<rom loadflag="load16_byte" name="002-c4.c4" offset="0x100001" size="0x80000" crc="5fd87f2f" sha1="a5dd6f26f9485f216c2428ae1792c182beb10dbc" />
+		<rom loadflag="load16_byte" name="002-c5.c5" offset="0x200000" size="0x80000" crc="807ed83b" sha1="3268e7d4602c3f55f1e0da2c80653d5ae461ef67" />
+		<rom loadflag="load16_byte" name="002-c6.c6" offset="0x200001" size="0x80000" crc="5a3cad41" sha1="c620d18f4ff32ed5489c941dfc641030a54f1c14" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="002-v11.v11" offset="0x0" size="0x80000" crc="b7b925bd" sha1="644c92fa90e74998e73714f74b1e0680ee372a07" />
+		<rom name="002-v12.v12" offset="0x80000" size="0x80000" crc="329f26fc" sha1="2c8009edc88c6b26f7be5beb2b8d260aac394ee1" />
+		<rom name="002-v13.v13" offset="0x100000" size="0x80000" crc="0c39f3c8" sha1="db8f8670639601215707d918d4fb93221460446a" />
+		<rom name="002-v14.v14" offset="0x180000" size="0x80000" crc="c7e11c38" sha1="5abf2a7877e0162c758a4dcf09f183930fa7ef24" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcmb" size="0x80000">
+		<rom name="002-v21.v21" offset="0x0" size="0x80000" crc="04a733d1" sha1="84159368c0f6de2c3b8121227201cd3422455cf6" />
+		</dataarea>
+	</part>
+</software>

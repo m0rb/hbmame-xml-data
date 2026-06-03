@@ -1,0 +1,22 @@
+<software name="sdodgeb">
+	<description>Super Dodge Ball / Kunio no Nekketsu Toukyuu Densetsu</description>
+	<year>1996</year>
+	<publisher>Technos Japan</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="208-p1.p1" offset="0x100000" size="0x100000" crc="127f3d32" sha1="18e77b79b1197a89371533ef9b1e4d682c44d875" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0xc00000">
+		<rom loadflag="load16_byte" name="208-c1.c1" offset="0x0" size="0x400000" crc="93d8619b" sha1="6588cb67e38722d5843fb29943d92e3905101aff" />
+		<rom loadflag="load16_byte" name="208-c2.c2" offset="0x1" size="0x400000" crc="1c737bb6" sha1="8e341989981a713e61dfed8bde9a6459583ef46d" />
+		<rom loadflag="load16_byte" name="208-c3.c3" offset="0x800000" size="0x200000" crc="14cb1703" sha1="a46acec03c1b2351fe36810628f02b7c848d13db" />
+		<rom loadflag="load16_byte" name="208-c4.c4" offset="0x800001" size="0x200000" crc="c7165f19" sha1="221f03de893dca0e5305fa17aa94f96c67713818" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x400000">
+		<rom name="208-v1.v1" offset="0x0" size="0x400000" crc="e7899a24" sha1="3e75b449898fee73fbacf58d70e3a460b9e0c573" />
+		</dataarea>
+	</part>
+</software>

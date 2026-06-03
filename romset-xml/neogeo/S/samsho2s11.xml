@@ -1,0 +1,28 @@
+<software name="samsho2s11" cloneof="samsho2">
+	<description>Samurai Shodown II (Demosaic Patch For Kuroko v2)</description>
+	<year>1994</year>
+	<publisher>oak2003</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="063.p1" offset="0x100000" size="0x100000" crc="22368892" sha1="0997f8284aa0f57a333be8a0fdea777d0d01afd6" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x700000">
+		<rom name="063.v1" offset="0x0" size="0x200000" crc="37703f91" sha1="a373ebef4c33ba1d8340e826981a58769aada238" />
+		<rom name="063.v2" offset="0x200000" size="0x200000" crc="0142bde8" sha1="0be6c53acac44802bf70b6925452f70289a139d9" />
+		<rom name="063.v3" offset="0x400000" size="0x200000" crc="d07fa5ca" sha1="1da7f081f8b8fc86a91feacf900f573218d82676" />
+		<rom name="063.v4" offset="0x600000" size="0x100000" crc="24aab4bb" sha1="10ee4c5b3579865b93dcc1e4079963276aa700a6" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="063.c1" offset="0x0" size="0x200000" crc="86cd307c" sha1="0d04336f7c436d74638d8c1cd8651faf436a6bec" />
+		<rom loadflag="load16_byte" name="063.c2" offset="0x1" size="0x200000" crc="cdfcc4ca" sha1="179dc81432424d68cefedd20cc1c4b2a95deb891" />
+		<rom loadflag="load16_byte" name="063.c3" offset="0x400000" size="0x200000" crc="7a63ccc7" sha1="49d97c543bc2860d493a353ab0d059088c6fbd21" />
+		<rom loadflag="load16_byte" name="063.c4" offset="0x400001" size="0x200000" crc="751025ce" sha1="e1bbaa7cd67fd04e4aab7f7ea77f63ae1cbc90d0" />
+		<rom loadflag="load16_byte" name="063.c5" offset="0x800000" size="0x200000" crc="20d3a475" sha1="28da44a136bd14c73c62c147c3f6e6bcfa1066de" />
+		<rom loadflag="load16_byte" name="063.c6" offset="0x800001" size="0x200000" crc="ae4c0a88" sha1="cc8a7d11daa3821f83a6fd0942534706f939e576" />
+		<rom loadflag="load16_byte" name="063s11.c7" offset="0xc00000" size="0x200000" crc="9d414581" sha1="9e5917cdaa5457b4a2df1edf4b19e3c93121c43a" />
+		<rom loadflag="load16_byte" name="063s11.c8" offset="0xc00001" size="0x200000" crc="4ecffd87" sha1="e615b73de46d784febfbec01b25dadf83d9b3e70" />
+		</dataarea>
+	</part>
+</software>

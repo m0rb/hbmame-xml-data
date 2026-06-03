@@ -1,0 +1,18 @@
+<software name="pacweird" cloneof="puckman">
+	<description>Pacman (Six Map Weird)</description>
+	<year>2000</year>
+	<publisher>Marcel Silvius</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman6.6h" offset="0x2000" size="0x1000" crc="aee79ea1" sha1="4f3214b56056c3ac00c0535ce5d6a367ccda6e31" />
+		<rom name="pacman6.6j" offset="0x3000" size="0x1000" crc="581ae70b" sha1="a184c9d9b6ffbaba936867aef14e783234bf7af2" />
+		<rom name="pacweird.map" offset="0x8000" size="0x1000" crc="92fac825" sha1="05865bc5b84e0c100e358433c7d151c3918c5f19" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacweird.5e" offset="0x0" size="0x1000" crc="11077f3e" sha1="1f7a52a33abfc8650d5d6c685fd51039a467bf72" />
+		<rom name="pacweird.5f" offset="0x1000" size="0x1000" crc="7c213ab4" sha1="fd76db379a32d5102cd2a6afff0bfe9a4afbc3b5" />
+		</dataarea>
+	</part>
+</software>

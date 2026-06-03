@@ -1,0 +1,17 @@
+<software name="deathsml01" cloneof="deathsml">
+	<description>Death Smiles (Hidden elements full open + character enhancement)</description>
+	<year>2007</year>
+	<publisher>Cave (AMI license)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="u4" offset="0x0" size="0x200000" crc="1a7b98bf" sha1="07798a4a846e5802756396b34df47d106895c1f1" />
+		</dataarea>
+		<dataarea name="game" size="0x8400000">
+		<rom name="s01.u2" offset="0x0" size="0x8400000" crc="d7dd7bad" sha1="579f14a7f3ec399f6694b20eaae2990fa699aa72" />
+		</dataarea>
+		<dataarea name="ymz770" size="0x800000">
+		<rom loadflag="load16_word_swap" name="u23" offset="0x0" size="0x400000" crc="aab718c8" sha1="0e636c46d06151abd6f73232bc479dafcafe5327" />
+		<rom loadflag="load16_word_swap" name="u24" offset="0x400000" size="0x400000" crc="83881d84" sha1="6e2294b247dfcbf0ced155dc45c706f29052775d" />
+		</dataarea>
+	</part>
+</software>

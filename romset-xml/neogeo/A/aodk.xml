@@ -1,0 +1,27 @@
+<software name="aodk">
+	<description>Aggressors of Dark Kombat / Tsuukai GANGAN Koushinkyoku (ADM-008 ~ ADH-008)</description>
+	<year>1994</year>
+	<publisher>ADK / SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="074-p1.p1" offset="0x100000" size="0x100000" crc="62369553" sha1="ca4d561ee08d16fe6804249d1ba49188eb3bd606" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="074-c1.c1" offset="0x0" size="0x200000" crc="a0b39344" sha1="adfff7b8836347abf030611563e6068a91164d0a" />
+		<rom loadflag="load16_byte" name="074-c2.c2" offset="0x1" size="0x200000" crc="203f6074" sha1="737f2d707d504df1da1ca5c5cf61cf489a33eb56" />
+		<rom loadflag="load16_byte" name="074-c3.c3" offset="0x400000" size="0x200000" crc="7fff4d41" sha1="bebd18a75adeb34c3bbd49cfc8fd3d8c2bf9e475" />
+		<rom loadflag="load16_byte" name="074-c4.c4" offset="0x400001" size="0x200000" crc="48db3e0a" sha1="a88505e001e01bb45fb26beda5af24943d02552a" />
+		<rom loadflag="load16_byte" name="074-c5.c5" offset="0x800000" size="0x200000" crc="c74c5e51" sha1="0399c53e2a3d721901dddc073fda6ec22e02dfd4" />
+		<rom loadflag="load16_byte" name="074-c6.c6" offset="0x800001" size="0x200000" crc="73e8e7e0" sha1="dd6580227743e6a3db4950456ebe870008e022b2" />
+		<rom loadflag="load16_byte" name="074-c7.c7" offset="0xc00000" size="0x200000" crc="ac7daa01" sha1="78407a464f67d949933ce2ccaa23fbed80dff1ea" />
+		<rom loadflag="load16_byte" name="074-c8.c8" offset="0xc00001" size="0x200000" crc="14e7ad71" sha1="d4583fbce361fd1a11ac6c1a27b0b669e8a5c718" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x400000">
+		<rom name="074-v1.v1" offset="0x0" size="0x200000" crc="7675b8fa" sha1="29f4facf89d551237b31bf779693cbbbc94e1ede" />
+		<rom name="074-v2.v2" offset="0x200000" size="0x200000" crc="a9da86e9" sha1="ff65af61e42b79a75060a352b24077d1fa28c83f" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="snowbro2" description="Snowbro2 cartridges">
+<software name="snowbro2s01">
+	<description>Snow Bros 2 (Ex Super Version)</description>
+	<year>1994</year>
+	<publisher>RockyWall</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_word_swap" name="s01.4" offset="0x0" size="0x80000" crc="1ad75ae7" sha1="4c9d7480df4b94aaee5616939547456a0c560f19" />
+		</dataarea>
+		<dataarea name="gp9001_0" size="0x300000">
+		<rom name="rom2-l" offset="0x0" size="0x100000" crc="e9d366a9" sha1="e87e3966fce3395324b90db6c134b3345104c04b" />
+		<rom name="rom2-h" offset="0x100000" size="0x80000" crc="9aab7a62" sha1="611f6a15fdbac5d3063426a365538c1482e996bf" />
+		<rom name="rom3-l" offset="0x180000" size="0x100000" crc="eb06e332" sha1="7cd597bfffc153d178530c0f0903bebd751c9dd1" />
+		<rom name="rom3-h" offset="0x280000" size="0x80000" crc="df4a952a" sha1="b76af61c8437caca573ff1312832898666a611aa" />
+		</dataarea>
+		<dataarea name="oki1" size="0x80000">
+		<rom name="rom4" offset="0x0" size="0x80000" crc="638f341e" sha1="aa3fca25f099339ece1878ea730c5e9f18ec4823" />
+		</dataarea>
+	</part>
+</software>
+<software name="snowbro2s02">
+	<description>Snow Bros 2 (Change Character)</description>
+	<year>1994</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_word_swap" name="s02.4" offset="0x0" size="0x80000" crc="2f219f0a" sha1="49057ca9f736cd7c8c4588554599250b4aaf6cd1" />
+		</dataarea>
+		<dataarea name="gp9001_0" size="0x300000">
+		<rom name="rom2-l" offset="0x0" size="0x100000" crc="e9d366a9" sha1="e87e3966fce3395324b90db6c134b3345104c04b" />
+		<rom name="rom2-h" offset="0x100000" size="0x80000" crc="9aab7a62" sha1="611f6a15fdbac5d3063426a365538c1482e996bf" />
+		<rom name="rom3-l" offset="0x180000" size="0x100000" crc="eb06e332" sha1="7cd597bfffc153d178530c0f0903bebd751c9dd1" />
+		<rom name="rom3-h" offset="0x280000" size="0x80000" crc="df4a952a" sha1="b76af61c8437caca573ff1312832898666a611aa" />
+		</dataarea>
+		<dataarea name="oki1" size="0x80000">
+		<rom name="rom4" offset="0x0" size="0x80000" crc="638f341e" sha1="aa3fca25f099339ece1878ea730c5e9f18ec4823" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

@@ -1,0 +1,22 @@
+<software name="turfmast03" cloneof="turfmast">
+	<description>Neo Turf Masters with Scotland course v1.08</description>
+	<year>2026</year>
+	<publisher>Deric Miller</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="200s03.p1" offset="0x100000" size="0x100000" crc="c1c9751c" sha1="83e0b26688499a8e06b9df868b9a830bd14051e6" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="200.v1" offset="0x0" size="0x200000" crc="00fd48d2" sha1="ddfee09328632e598fd51537b3ae8593219b2111" />
+		<rom name="200s03.v2" offset="0x200000" size="0x200000" crc="8be97582" sha1="db7c504c00503ed715e6c19d432f61d26128eebc" />
+		<rom name="200.v3" offset="0x400000" size="0x200000" crc="7abca053" sha1="e229bc0ea82a371d6ee8fd9fe442b0fd141d0a71" />
+		<rom name="200s03.v4" offset="0x600000" size="0x200000" crc="e894954f" sha1="438068d321c2ddee871f4bbf5aa07041320a05b6" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="200s03.c1" offset="0x0" size="0x400000" crc="bb2a69a7" sha1="cc886b2e07f2a6118928ecea446f4fb6690a28ce" />
+		<rom loadflag="load16_byte" name="200s03.c2" offset="0x1" size="0x400000" crc="443e13c5" sha1="d36926328405447ae8d93b4b4ac84215a1cd145f" />
+		</dataarea>
+	</part>
+</software>

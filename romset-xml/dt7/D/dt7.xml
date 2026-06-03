@@ -1,0 +1,45 @@
+<software name="dt7">
+	<description>Dynamic Trial 7 (prototype)</description>
+	<year>1993</year>
+	<publisher>Toaplan</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_word_swap" name="main.11" offset="0x0" size="0x80000" crc="01646c22" sha1="4b87f00dc99e1206b3b9eaee425fc05e1a033bee" />
+		</dataarea>
+		<dataarea name="gp9001_0" size="0x400000">
+		<rom name="3a.49" offset="0x0" size="0x80000" crc="ba8e378c" sha1="d5eb4a839d6b3c2b9bf0bd87f06859a01a2c0cbf" />
+		<rom name="3b.50" offset="0x80000" size="0x80000" crc="a9e4c6c7" sha1="4058b1b887f41494a70b0b09e581ef5e3a444a1c" />
+		<rom name="3c.51" offset="0x100000" size="0x80000" crc="ffc6fa95" sha1="87d18520fae7eec9336fc8cfb1adc2923ea10f8d" />
+		<rom name="3d.52" offset="0x180000" size="0x80000" crc="3faaa3e7" sha1="ec3e6e8d16a8095c857ff270d2bd48c04664b62f" />
+		<rom name="4a.30" offset="0x200000" size="0x80000" crc="53627ea6" sha1="02f9cc223427a2b78e60bc866fd6c73df07b438d" />
+		<rom name="4b.31" offset="0x280000" size="0x80000" crc="a7e20eb4" sha1="73da86764a93350224ada21b3178dde0a34cc657" />
+		<rom name="4c.32" offset="0x300000" size="0x80000" crc="ad0fc76a" sha1="112e934a2cab13f994d1873aaaec40d38d2c2deb" />
+		<rom name="4d.33" offset="0x380000" size="0x80000" crc="280f97af" sha1="9fe74c67440d7c952f091fb77905b7515852e0fb" />
+		</dataarea>
+		<dataarea name="gp9001_1" size="0x400000">
+		<rom name="3a.68" offset="0x0" size="0x80000" crc="ba8e378c" sha1="d5eb4a839d6b3c2b9bf0bd87f06859a01a2c0cbf" />
+		<rom name="3b.69" offset="0x80000" size="0x80000" crc="a9e4c6c7" sha1="4058b1b887f41494a70b0b09e581ef5e3a444a1c" />
+		<rom name="3c.70" offset="0x100000" size="0x80000" crc="ffc6fa95" sha1="87d18520fae7eec9336fc8cfb1adc2923ea10f8d" />
+		<rom name="3d.71" offset="0x180000" size="0x80000" crc="3faaa3e7" sha1="ec3e6e8d16a8095c857ff270d2bd48c04664b62f" />
+		<rom name="4a.87" offset="0x200000" size="0x80000" crc="53627ea6" sha1="02f9cc223427a2b78e60bc866fd6c73df07b438d" />
+		<rom name="4b.88" offset="0x280000" size="0x80000" crc="a7e20eb4" sha1="73da86764a93350224ada21b3178dde0a34cc657" />
+		<rom name="4c.89" offset="0x300000" size="0x80000" crc="ad0fc76a" sha1="112e934a2cab13f994d1873aaaec40d38d2c2deb" />
+		<rom name="4d.90" offset="0x380000" size="0x80000" crc="280f97af" sha1="9fe74c67440d7c952f091fb77905b7515852e0fb" />
+		</dataarea>
+		<dataarea name="oki1" size="0x40000">
+		<rom name="7adpcm.37" offset="0x0" size="0x40000" crc="aefce555" sha1="0d47190287957122fefdae17ccf6bcfaef8cd430" />
+		</dataarea>
+		<dataarea name="oki2" size="0x40000">
+		<rom name="7adpcm.43" offset="0x0" size="0x40000" crc="aefce555" sha1="0d47190287957122fefdae17ccf6bcfaef8cd430" />
+		</dataarea>
+		<dataarea name="subcpu" size="0x80000">
+		<rom loadflag="load16_word_swap" name="2.21" offset="0x0" size="0x80000" crc="a08e25ed" sha1="db10c64ce305477442b35e7624052aae9fb6e412" />
+		</dataarea>
+		<dataarea name="text_0" size="0x8000">
+		<rom name="7text.115" offset="0x0" size="0x8000" crc="7fb47a44" sha1="1b5401967f33dc232187bf9f2a402b71286c5fc2" />
+		</dataarea>
+		<dataarea name="text_1" size="0x8000">
+		<rom name="7text.152" offset="0x0" size="0x8000" crc="7fb47a44" sha1="1b5401967f33dc232187bf9f2a402b71286c5fc2" />
+		</dataarea>
+	</part>
+</software>

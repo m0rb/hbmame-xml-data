@@ -1,0 +1,22 @@
+<software name="quizdai2">
+	<description>Quiz Meitantei Neo &amp; Geo - Quiz Daisousa Sen part 2 (NGM-042 ~ NGH-042)</description>
+	<year>1992</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="042-p1.p1" offset="0x0" size="0x100000" crc="ed719dcf" sha1="12baf2601e86c0e4358517b9fa1c55f2f5835f1d" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x300000">
+		<rom loadflag="load16_byte" name="042-c1.c1" offset="0x0" size="0x100000" crc="cb5809a1" sha1="b53d06685246dd51b82b5c1d54d639d10e2ec26d" />
+		<rom loadflag="load16_byte" name="042-c2.c2" offset="0x1" size="0x100000" crc="1436dfeb" sha1="27d136fb1be793bd345a741f5e55a977275fff86" />
+		<rom loadflag="load16_byte" name="042-c3.c3" offset="0x200000" size="0x80000" crc="bcd4a518" sha1="f355298fe0f2cf50ddcc0d613db56a5c04d7230f" />
+		<rom loadflag="load16_byte" name="042-c4.c4" offset="0x200001" size="0x80000" crc="d602219b" sha1="34cf0f16db1e224396464ac838f4cd2e6d1c640e" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="042-v1.v1" offset="0x0" size="0x100000" crc="af7f8247" sha1="99a47014017c20e4e22010c60612b6b7f6efc9e5" />
+		<rom name="042-v2.v2" offset="0x100000" size="0x100000" crc="c6474b59" sha1="a6c5054032b698116247b2f09a8b94a1b588c4f1" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,22 @@
+<software name="stakwin">
+	<description>Stakes Winner / Stakes Winner - GI Kinzen  Seiha e no Michi</description>
+	<year>1995</year>
+	<publisher>Saurus</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="088-p1.p1" offset="0x100000" size="0x100000" crc="bd5814f6" sha1="95179a4dee61ae88bb5d9fd74af0c56c8c29f5ea" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="088-c1.c1" offset="0x0" size="0x200000" crc="6e733421" sha1="b67c5d2654a62cc4e44bd54d28e62c7da5eea424" />
+		<rom loadflag="load16_byte" name="088-c2.c2" offset="0x1" size="0x200000" crc="4d865347" sha1="ad448cf96f3dce44c83412ed6878c495eb4a8a1e" />
+		<rom loadflag="load16_byte" name="088-c3.c3" offset="0x400000" size="0x200000" crc="8fa5a9eb" sha1="7bee19d8a2bccedd8e2cf0c0e9138902b9dafc23" />
+		<rom loadflag="load16_byte" name="088-c4.c4" offset="0x400001" size="0x200000" crc="4604f0dc" sha1="ddf5dbb5e07313998a8f695ad19354ea54585dd6" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="088-v1.v1" offset="0x0" size="0x200000" crc="b7785023" sha1="d11df1e623434669cd3f97f0feda747b24dac05d" />
+		</dataarea>
+	</part>
+</software>

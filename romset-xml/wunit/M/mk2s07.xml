@@ -1,0 +1,31 @@
+<software name="mk2s07" cloneof="mk2">
+	<description>Mortal Kombat 2 (rev 3.2W, 2025-09-05)(Wolf h/w)</description>
+	<year>2025</year>
+	<publisher>Asure</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="mk2s07.u54" offset="0x0" size="0x80000" crc="b873db81" sha1="18374df2567961fa89a64e83d1c94ca572886e13" />
+		<rom loadflag="load16_byte" name="mk2s07.u63" offset="0x1" size="0x80000" crc="4bd4cb92" sha1="0632fa0ffc8c0a211571de10a304f945df9ac14b" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0x800000">
+		<rom loadflag="load16_byte" name="mk2s07.u2" offset="0x0" size="0x100000" crc="1fa334c8" sha1="6db7e4f67fea9597441566b5d724eceac7161fa1" />
+		<rom loadflag="load16_byte" name="mk2s07.u3" offset="0x200000" size="0x100000" crc="86dc17a6" sha1="229d79e478c1a1e55c53e453ab8031bbe4de8665" />
+		<rom loadflag="load16_byte" name="mk2s07.u4" offset="0x400000" size="0x100000" crc="1ca12f40" sha1="4da49b5c02332336443c7368feff5bed88c870b0" />
+		<rom loadflag="load16_byte" name="mk2s07.u5" offset="0x600000" size="0x100000" crc="bf2132c8" sha1="e62dd8c963c5ed396f55ec34bd1173ba1bed9208" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0x2000000">
+		<rom loadflag="load32_byte" name="mk2s07.u133" offset="0x0" size="0x100000" crc="01e73af6" sha1="6598cfd704cc92a7f358a0e1f1c973ab79dcc493" />
+		<rom loadflag="load32_byte" name="mk2s07.u132" offset="0x1" size="0x100000" crc="d4985cbb" sha1="367865da7efae38d83de3c0868d02a705177ae63" />
+		<rom loadflag="load32_byte" name="mk2s07.u131" offset="0x2" size="0x100000" crc="fec137be" sha1="f11ecb8a7993f5c4f4449564b4911f69bd6e9bf8" />
+		<rom loadflag="load32_byte" name="mk2s07.u130" offset="0x3" size="0x100000" crc="2d763156" sha1="06536006da49ab5fb6b75b25f801b83fad000ff5" />
+		<rom loadflag="load32_byte" name="mk2s07.u129" offset="0x400000" size="0x100000" crc="8ba6ae18" sha1="465fe907de4a1e502180c4e41642998dd3abc8e6" />
+		<rom loadflag="load32_byte" name="mk2s07.u128" offset="0x400001" size="0x100000" crc="39d885b4" sha1="2251826d247c3c6df421124718401fb35a672f83" />
+		<rom loadflag="load32_byte" name="mk2s07.u127" offset="0x400002" size="0x100000" crc="809118c1" sha1="86153e648834c749e34573151cd4fee403a81962" />
+		<rom loadflag="load32_byte" name="mk2s07.u126" offset="0x400003" size="0x100000" crc="b96824f0" sha1="d42b122f9a57da330192abc7e5f97abc4065d718" />
+		<rom loadflag="load32_byte" name="mk2s07.u125" offset="0x800000" size="0x100000" crc="937d8620" sha1="8b9f80a460b124a747a6d1495b53f01f580e28f1" />
+		<rom loadflag="load32_byte" name="mk2s07.u124" offset="0x800001" size="0x100000" crc="218de160" sha1="87aea173720d2a33d8183903f4fe8ba1d47e3348" />
+		<rom loadflag="load32_byte" name="mk2s07.u123" offset="0x800002" size="0x100000" crc="154d53b1" sha1="58ff0aa59101f40a9a3b5fbae1c904d0b0b31612" />
+		<rom loadflag="load32_byte" name="mk2s07.u122" offset="0x800003" size="0x100000" crc="8891d785" sha1="fd460df1ef8f4306ea42f7dc41488a80fd2c8f53" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,27 @@
+<software name="csclubh" cloneof="csclub">
+	<description>Capcom Sports Club (Hispanic 970722)</description>
+	<year>1997</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c73h.p1" offset="0x0" size="0x80000" crc="0dd7e46d" sha1="deacd350b8954998636065cf070c9955d08402b8" />
+		<rom loadflag="load16_word_swap" name="c73h.p2" offset="0x80000" size="0x80000" crc="486e8143" sha1="d50ab8a5fdc194a9cded74cff94e5b3b69069826" />
+		<rom loadflag="load16_word_swap" name="c73h.p3" offset="0x100000" size="0x80000" crc="9e509dfb" sha1="4a6cd8488a63ad3f7d5a08f2a6af4728dc147790" />
+		<rom loadflag="load16_word_swap" name="c73h.p4" offset="0x180000" size="0x80000" crc="817ba313" sha1="674e10e642c09d26886f3deb829dee330ff472be" />
+		<rom loadflag="load16_word_swap" name="c73.p5" offset="0x200000" size="0x80000" crc="01b05caa" sha1="5b84487da68e6b6f2889c76bf9e070e25941988c" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c73.m1" offset="0x0" size="0x8000" crc="ee162111" sha1="ce8d4bd32bb10ee8b0274ba6fcef05a583b39d48" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="csclubh.key" offset="0x0" size="0x14" crc="b0adc39e" sha1="37f29580497d24c8f248031acdfab06374ed77fd" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c73.q1" offset="0x0" size="0x200000" crc="a027b827" sha1="6d58a63efc7bd5d07353d9b55826c01a3c416c33" />
+		<rom loadflag="load16_word_swap" name="c73.q2" offset="0x200000" size="0x200000" crc="cb7f6e55" sha1="b64e6b663fd09e887d2dc0f4b545e88688c0af55" />
+		</dataarea>
+	</part>
+</software>

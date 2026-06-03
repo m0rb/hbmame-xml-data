@@ -1,0 +1,26 @@
+<software name="svc40" cloneof="svc">
+	<description>SvC Chaos (Decrypted C set 2)</description>
+	<year>2003</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load32_word_swap" name="269.p1" offset="0x0" size="0x400000" crc="38e2005e" sha1="1b902905916a30969282f1399a756e32ff069097" />
+		<rom loadflag="load32_word_swap" name="269.p2" offset="0x2" size="0x400000" crc="6d13797c" sha1="3cb71a95cea6b006b44cac0f547df88aec0007b7" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="269.v1" offset="0x0" size="0x800000" crc="c659b34c" sha1="1931e8111ef43946f68699f8707334c96f753a1e" />
+		<rom name="269.v2" offset="0x800000" size="0x800000" crc="dd903835" sha1="e58d38950a7a8697bb22a1cc7a371ae6664ae8f9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="269d.c1" offset="0x0" size="0x800000" crc="465d473b" sha1="0b2be2b2657c2ae021ec91515d1d6306179751d5" />
+		<rom loadflag="load16_byte" name="269d.c2" offset="0x1" size="0x800000" crc="3eb28f78" sha1="df1b096fe95796db1515b69f74266ed13dd9ee56" />
+		<rom loadflag="load16_byte" name="269d.c3" offset="0x1000000" size="0x800000" crc="f4d4ab2b" sha1="a19788435173540469fe5d07429a83dde6d701a0" />
+		<rom loadflag="load16_byte" name="269d.c4" offset="0x1000001" size="0x800000" crc="a69d523a" sha1="98d8dac2e40f71b5b8426d3c77476a0a20783181" />
+		<rom loadflag="load16_byte" name="269d.c5" offset="0x2000000" size="0x800000" crc="ba2a7892" sha1="eed45e1330dcc9f610598dc53977bf3a81dd161a" />
+		<rom loadflag="load16_byte" name="269d.c6" offset="0x2000001" size="0x800000" crc="37371ca1" sha1="8aaa1b9ea34470085d9944c9ad64cfb0ffe09859" />
+		<rom loadflag="load16_byte" name="269s40.c7" offset="0x3000000" size="0x800000" crc="5595b6cc" sha1="9d6cc70f435401355b885475ccc3864825887656" />
+		<rom loadflag="load16_byte" name="269s40.c8" offset="0x3000001" size="0x800000" crc="b17dfcf9" sha1="46af296b12831ee40355f52d2c316f609557d6df" />
+		</dataarea>
+	</part>
+</software>

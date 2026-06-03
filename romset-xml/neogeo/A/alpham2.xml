@@ -1,0 +1,23 @@
+<software name="alpham2">
+	<description>Alpha Mission II / ASO II - Last Guardian (NGM-007 ~ NGH-007)</description>
+	<year>1991</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="007-p1.p1" offset="0x0" size="0x80000" crc="5b266f47" sha1="8afbf995989f47ad93fea1f31a884afc7228b53a" />
+		<rom loadflag="load16_word_swap" name="007-p2.p2" offset="0x80000" size="0x20000" crc="eb9c1044" sha1="65d3416dcd96663bc4e7cefe90ecb7c1eafb2dda" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x300000">
+		<rom loadflag="load16_byte" name="007-c1.c1" offset="0x0" size="0x100000" crc="8fba8ff3" sha1="1a682292e99eb91b0edb9771c44bc5e762867e98" />
+		<rom loadflag="load16_byte" name="007-c2.c2" offset="0x1" size="0x100000" crc="4dad2945" sha1="ac85a146276537fed124bda892bb93ff549f1d93" />
+		<rom loadflag="load16_byte" name="007-c3.c3" offset="0x200000" size="0x80000" crc="68c2994e" sha1="4f8dfc6e5188942e03b853a2c9f0ea6138dec791" />
+		<rom loadflag="load16_byte" name="007-c4.c4" offset="0x200001" size="0x80000" crc="7d588349" sha1="a5ed789d7bbc25be5c5b2d99883b64d379c103a2" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="007-v1.v1" offset="0x0" size="0x100000" crc="cd5db931" sha1="b59f9f2df29f49470312a6cd20f5669b6aaf51ff" />
+		<rom name="007-v2.v2" offset="0x100000" size="0x100000" crc="63e9b574" sha1="1ade4cd0b15c84dd4a0fb7f7abf0885eef3a3f71" />
+		</dataarea>
+	</part>
+</software>

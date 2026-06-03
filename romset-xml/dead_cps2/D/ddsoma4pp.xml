@@ -1,0 +1,41 @@
+<software name="ddsoma4pp" cloneof="ddsom">
+	<description>Dungeons &amp; Dragons: Shadow over Mystara (unknown hack)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="dd2.07" offset="0x200000" size="0x80000" crc="909a0b8b" sha1="58bda17c36063a79df8b5031755c7909a9bda221" />
+		<rom loadflag="load16_word_swap" name="dd2.08" offset="0x280000" size="0x80000" crc="e53c4d01" sha1="bad872e4e793a39f68bc0e580772e982714b5876" />
+		<rom loadflag="load16_word_swap" name="dd2.09" offset="0x300000" size="0x80000" crc="5f86279f" sha1="c2a454e5f821b1cdd49f2cf0602e9bfb7ba63340" />
+		<rom loadflag="load16_word_swap" name="dd2xxud.03g" offset="0x0" size="0x80000" crc="f486e08a" sha1="a646dd908f606bcfdcdd589868eaff6b75ad6d54" />
+		<rom loadflag="load16_word_swap" name="dd2xxud.04g" offset="0x80000" size="0x80000" crc="ddf41bdb" sha1="f63ba44955150dd407ff1cfe8f4642cf9e8686bf" />
+		<rom loadflag="load16_word_swap" name="dd2xx.05g" offset="0x100000" size="0x80000" crc="6168fee0" sha1="8981fe6c7dda81eb551f7359f4cdccfae932e94b" />
+		<rom loadflag="load16_word_swap" name="dd2xx.06g" offset="0x180000" size="0x80000" crc="60fcdd91" sha1="cc52f7d2d127f55f2237a945c8e13374dce81856" />
+		<rom loadflag="load16_word_swap" name="dd2xxd.10" offset="0x380000" size="0x80000" crc="f06f2eb5" sha1="3b1691e02611c9493ddb4d695548375e323c44a9" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="dd2.01" offset="0x0" size="0x8000" crc="99d657e5" sha1="1528dd6b07a0e79951a35c0457c8a9c9770e9c78" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="dd2.02" offset="0x28000" size="0x20000" crc="117a3824" sha1="14f3a12170b601c5466c93af9d2f24e0b386b4e4" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1800000">
+		<rom loadflag="load16_word" name="dd2.13m" offset="0x0" size="0x400000" crc="a46b4e6e" sha1="fb90f42868c581c481b4ceff9f692753fb186b30" />
+		<rom loadflag="load16_word" name="dd2.15m" offset="0x2" size="0x400000" crc="d5fc50fc" sha1="bc692f17b18bb47a724cd5152377cd5ccd6e184a" />
+		<rom loadflag="load16_word" name="dd2.17m" offset="0x4" size="0x400000" crc="837c0867" sha1="3d6db290a8f76299a23543f0ccf6a7905e1088ac" />
+		<rom loadflag="load16_word" name="dd2.19m" offset="0x6" size="0x400000" crc="bb0ec21c" sha1="e43ccc1cf63ccd2b504cc9fd701af849a7321914" />
+		<rom loadflag="load16_word" name="dd2.14m" offset="0x1000000" size="0x200000" crc="6d824ce2" sha1="0ccfe6c8a944937718e28a1a373b5822c7b7001b" />
+		<rom loadflag="load16_word" name="dd2.16m" offset="0x1000002" size="0x200000" crc="79682ae5" sha1="ee84f4791c29ce9e2bae06ba3ec47ff4d2cd7054" />
+		<rom loadflag="load16_word" name="dd2.18m" offset="0x1000004" size="0x200000" crc="acddd149" sha1="7f50de9b2d1cc733594c642be1804190519caffa" />
+		<rom loadflag="load16_word" name="dd2.20m" offset="0x1000006" size="0x200000" crc="117fb0c0" sha1="15c01fa1a71b6469b0e1bde0ce5835c5ff9d938c" />
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="phoenix.key" offset="0x0" size="0x14" crc="2cf772b0" sha1="eff33c65a4f3862c231f9e4d6fefa7b34398dbf2" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="dd2.11m" offset="0x0" size="0x200000" crc="98d0c325" sha1="7406e8d943d77c468eb418c4113261f4ab973bbf" />
+		<rom loadflag="load16_word_swap" name="dd2.12m" offset="0x200000" size="0x200000" crc="5ea2e7fa" sha1="0e6a9fd007f637adcb2226c902394f07de45e803" />
+		</dataarea>
+		<dataarea name="user1" endianness="big" size="0x400000">
+		</dataarea>
+	</part>
+</software>

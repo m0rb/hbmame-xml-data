@@ -1,0 +1,32 @@
+<software name="mkla4d" cloneof="mk">
+	<description>Mortal Kombat (rev 4.0, 09/28/92 hack/Ver.Unknown)</description>
+	<year>1992</year>
+	<publisher>Midway</publisher>
+	<part name="cart">
+		<dataarea name="adpcm:cpu" size="0x50000">
+		<rom name="sl1_mortal_kombat_u3_sound_rom.u3" offset="0x10000" size="0x40000" crc="c615844c" sha1="5732f9053a5f73b0cc3b0166d7dc4430829d5bc7" />
+		</dataarea>
+		<dataarea name="adpcm:oki" size="0x200000">
+		<rom name="sl1_mortal_kombat_u12_sound_rom.u12" offset="0x0" size="0x40000" crc="258bd7f9" sha1="463890b23f17350fb9b8a85897b0777c45bc2d54" />
+		<rom name="sl1_mortal_kombat_u13_sound_rom.u13" offset="0x80000" size="0x40000" crc="7b7ec3b6" sha1="6eec1b90d4a4855f34a7ebfbf93f3358d5627db4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x800000">
+		<rom name="mkg-u111.rom" offset="0x0" size="0x80000" crc="d17096c4" sha1="01ef390a372c9d94adf138f9543ebb88b89f4c38" />
+		<rom name="mkg-u112.rom" offset="0x80000" size="0x80000" crc="993bc2e4" sha1="7791edbec2b4b8971a3e790346dd7564ecf16d5c" />
+		<rom name="mkg-u113.rom" offset="0x100000" size="0x80000" crc="6fb91ede" sha1="a3735b49f93b08c44fbc97e2b5aad394628fbe90" />
+		<rom name="mkg-u114.rom" offset="0x180000" size="0x80000" crc="ed1ff88a" sha1="6b090b658ee6148af953bd0c9216f37162b6460f" />
+		<rom name="mkg-u95.rom" offset="0x200000" size="0x80000" crc="a002a155" sha1="3cf7909e92bcd428063596fc5b9953e0000d6eca" />
+		<rom name="mkg-u96.rom" offset="0x280000" size="0x80000" crc="dcee8492" sha1="a912b74d3b26ebd1b1613cc631080f83ececeaf8" />
+		<rom name="mkg-u97.rom" offset="0x300000" size="0x80000" crc="de88caef" sha1="a7927b504dc56ca5c9048373977fe5743b0a3f0b" />
+		<rom name="mkg-u98.rom" offset="0x380000" size="0x80000" crc="37eb01b4" sha1="06092460bd137e08d0f8df8560942ed877d40e09" />
+		<rom name="mkg-u106.rom" offset="0x400000" size="0x80000" crc="45acaf21" sha1="5edd36c55f4e5d3c74fb85171728ec0a58284b12" />
+		<rom name="mkg-u107.rom" offset="0x480000" size="0x80000" crc="2a6c10a0" sha1="cc90923c44f2961b945a0fd0f85ecc2ba04af2cb" />
+		<rom name="mkg-u108.rom" offset="0x500000" size="0x80000" crc="23308979" sha1="0b36788624a1cf0d3f4c895be5ba967b8dfcf85e" />
+		<rom name="mkg-u109.rom" offset="0x580000" size="0x80000" crc="cafc47bb" sha1="8610af6e52f7089ff4acd850c53ab8b4119e4445" />
+		</dataarea>
+		<dataarea name="user1" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="mkg-hacked-u105.la4" offset="0x0" size="0x80000" crc="80d5618c" sha1="9bdfddbc70b61c94c1871abac1de153b8b728761" />
+		<rom loadflag="load16_byte" name="mkg-hacked-u89.la4" offset="0x1" size="0x80000" crc="0478ae60" sha1="186243cacc4d83070ef53b47f19668ca4c08474a" />
+		</dataarea>
+	</part>
+</software>

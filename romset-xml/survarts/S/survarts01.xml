@@ -1,0 +1,30 @@
+<software name="survarts01">
+	<description>Survival Arts (Easy Move)</description>
+	<year>1993</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="prl-r6_s01.u4" offset="0x0" size="0x80000" crc="9daf2473" sha1="f2375ba98f84373c00109e55841dab2c582d0ba6" />
+		<rom loadflag="load16_byte" name="prh-r5_s01.u3" offset="0x1" size="0x80000" crc="5d0d1f56" sha1="a46a8eaf07db5200219b954ffc954759328cbadb" />
+		</dataarea>
+		<dataarea name="ensoniq.2" endianness="big" size="0x400000">
+		<rom loadflag="load16_word_swap" name="si001-10.u9" offset="0x0" size="0x100000" crc="5642b333" sha1="84936af8b3882e116b279e422075f35aabdd232f" />
+		<rom loadflag="load16_word_swap" name="si001-11.u8" offset="0x100000" size="0x100000" crc="a81e6ea6" sha1="499f070500895ed7b6785b42fb6bbf973fc6dc04" />
+		<rom loadflag="load16_word_swap" name="si001-12.u7" offset="0x200000" size="0x100000" crc="e9b2b45b" sha1="17fd27cdb8a0b9932cb1e71e0547c0d9d6fc7d06" />
+		<rom loadflag="load16_word_swap" name="si001-13.u6" offset="0x300000" size="0x100000" crc="d66a7e26" sha1="57b659daef00421b6742963f792bd5e020f625c9" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1800000">
+		<rom name="si001-01.u27" offset="0x0" size="0x200000" crc="8b38fbab" sha1="c4a67b24b33d4eef7b0f885bd69cae6c67bd3981" />
+		<rom name="si001-04.u26" offset="0x200000" size="0x200000" crc="34248b54" sha1="077198f8de1622b71c580e34d5ad1b6bf3229fe9" />
+		<rom name="si001-07.u25" offset="0x400000" size="0x200000" crc="497d6151" sha1="a9860c75943c0fd2991660ce2a9505edc6c2fa46" />
+		<rom name="si001-02.u23" offset="0x600000" size="0x200000" crc="cb4a2dbd" sha1="26cdd1b54a3fa1dc3c3a8945d1a3562e9c62ace6" />
+		<rom name="si001-05.u22" offset="0x800000" size="0x200000" crc="8f092381" sha1="6c49f1f5b3c31bd7c6a93ba0450d9f64fd512633" />
+		<rom name="si001-08.u21" offset="0xa00000" size="0x200000" crc="182b88c4" sha1="a5b6a3e1fd67f036b1255385e81b6a3eb69f9f3f" />
+		<rom name="si001-03.u17" offset="0xc00000" size="0x200000" crc="92fdf652" sha1="cf7aeb3a1e8ffe34cf24cb919a0ab3cc90202fa9" />
+		<rom name="si001-06.u16" offset="0xe00000" size="0x200000" crc="9a62f532" sha1="7e7ba1224e52b33a9bd14058230efc871178c4f8" />
+		<rom name="si001-09.u15" offset="0x1000000" size="0x200000" crc="0955e393" sha1="0be9134190706eaee49177034b0536b05c4bc7ac" />
+		</dataarea>
+		<dataarea name="plds" size="0x200">
+		</dataarea>
+	</part>
+</software>

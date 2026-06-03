@@ -1,0 +1,17 @@
+<software name="sdojak">
+	<description>DoDonPachi SaiDaiOuJou &amp; Knuckles (2021-12-01)</description>
+	<year>2021</year>
+	<publisher>CaveDwellers</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="sdojak.u4" offset="0x0" size="0x400000" crc="a878ff4c" sha1="cf5f2f987a775099992009c376466c44170e0e3f" />
+		</dataarea>
+		<dataarea name="game" size="0x8400000">
+		<rom name="sdojak.u2" offset="0x0" size="0x8400000" crc="54353425" sha1="5c749cd2e93a1b51bfdf1a0d4fd436b4d17acf9f" />
+		</dataarea>
+		<dataarea name="ymz770" size="0x800000">
+		<rom loadflag="load16_word_swap" name="sdojak.u23" offset="0x0" size="0x400000" crc="32b91544" sha1="49e914bfdf33a328fbfa7efb42c5b89915e37643" />
+		<rom loadflag="load16_word_swap" name="sdojak.u24" offset="0x400000" size="0x400000" crc="7b9e749f" sha1="374085a60098cc62501abae4d148bfd88c88149f" />
+		</dataarea>
+	</part>
+</software>

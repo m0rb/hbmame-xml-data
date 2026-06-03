@@ -1,0 +1,19 @@
+<software name="ganryu01" cloneof="ganryu">
+	<description>Ganryu (Decrypted C)</description>
+	<year>1999</year>
+	<publisher>Visco</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="252.p1" offset="0x100000" size="0x100000" crc="4b8ac4fb" sha1="93d90271bff281862b03beba3809cf95a47a1e44" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="252.v1" offset="0x0" size="0x400000" crc="e5946733" sha1="d5904a50465af03d6ff33399a98f3259721ca0b2" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="252s01.c1" offset="0x0" size="0x800000" crc="6bf7605b" sha1="6710cbc27d6ec35648f98f0ca541aaaeeffd0980" />
+		<rom loadflag="load16_byte" name="252s01.c2" offset="0x1" size="0x800000" crc="596792ce" sha1="ad9c8f8b0e95396fade2b485d11a1b3d4cb65f37" />
+		</dataarea>
+	</part>
+</software>

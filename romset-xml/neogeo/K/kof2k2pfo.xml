@@ -1,0 +1,28 @@
+<software name="kof2k2pfo" cloneof="kof2002">
+	<description>Kof2002 (Perfect O Iori Edition)</description>
+	<year>2011</year>
+	<publisher>Ismamj / Neo-Nebuwaks</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="265pfo.p1" offset="0x0" size="0x100000" crc="39776961" sha1="241bac46cdbf29c937e5d89df18904059493ff49" />
+		<rom loadflag="load16_word_swap" name="265pfo.p2" offset="0x100000" size="0x400000" crc="d9a9b651" sha1="c8c42f1e200fddf53697b2e5e8820ff819b00aa8" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="265nu.v1" offset="0x0" size="0x400000" crc="13d98607" sha1="0f1a374247992d301bc26c0bab200631a13a9f4a" />
+		<rom name="265nu.v2" offset="0x400000" size="0x400000" crc="9cf74677" sha1="073e7cb00127690fdec05c19f00347ec449f15ac" />
+		<rom name="265nu.v3" offset="0x800000" size="0x400000" crc="8e9448b5" sha1="c22420649c7c68a172290548cab846345c861cb0" />
+		<rom name="265nu.v4" offset="0xc00000" size="0x400000" crc="067271b5" sha1="36e07da78aaf634824c98023053bef802be4e218" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="265pfo.c1" offset="0x0" size="0x800000" crc="06e42141" sha1="df142bab1fba9ffd022b2b112595132ed67a4cc2" />
+		<rom loadflag="load16_byte" name="265pfo.c2" offset="0x1" size="0x800000" crc="6fd5e0d2" sha1="0b4f50c4a954a890ab9187c7f3ce295e1238f26e" />
+		<rom loadflag="load16_byte" name="265pfo.c3" offset="0x1000000" size="0x800000" crc="bb40b043" sha1="a69ffce63231a65431593cfa88ba86b910abf04e" />
+		<rom loadflag="load16_byte" name="265pfo.c4" offset="0x1000001" size="0x800000" crc="16b00a16" sha1="699b7459bf2cdf279e1f635348056e28e03ad092" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="265pfo.c7" offset="0x3000000" size="0x800000" crc="031771ed" sha1="21d6b2d9946aa7ddfa0381ec07e2bb060ecbca6d" />
+		<rom loadflag="load16_byte" name="265pfo.c8" offset="0x3000001" size="0x800000" crc="09312ab2" sha1="2f593643975535f852c206766662abca0ec05e67" />
+		</dataarea>
+	</part>
+</software>

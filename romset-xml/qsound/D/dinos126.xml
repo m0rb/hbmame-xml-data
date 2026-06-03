@@ -1,0 +1,27 @@
+<software name="dinos126" cloneof="dino">
+	<description>Cadillacs and Dinosaurs (Beat 2017 Bloodless, 2017-09-15)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c25s126.p1" offset="0x0" size="0x80000" crc="eb30b5f7" sha1="14ffdc6d657cc4e415a07731fbe60d9262ad3289" />
+		<rom loadflag="load16_word_swap" name="c25s126.p2" offset="0x80000" size="0x80000" crc="15a326a4" sha1="feca7a300bb2aa96c2c30d0cf0043e0d13f2d045" />
+		<rom loadflag="load16_word_swap" name="c25s25.p3" offset="0x100000" size="0x80000" crc="a0411261" sha1="b807908f14ac9667ba2226e350f322ca73ecbb79" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c25.m1" offset="0x0" size="0x8000" crc="605fdb0b" sha1="9da90ddc6513aaaf2260f0c69719c6b0e585ba8c" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="dino.key" offset="0x0" size="0x80" crc="6cf0c283" sha1="9da83b20665b565acb7e127a8e78adbcb6629175" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="qsound" size="0x200000">
+		<rom name="c25.q1" offset="0x0" size="0x80000" crc="60927775" sha1="f8599bc84c38573ebbe8685822c58b6a38b50462" />
+		<rom name="c25.q2" offset="0x80000" size="0x80000" crc="770f4c47" sha1="fec8ef00a6669d4d5e37787ecc7b58ee46709326" />
+		<rom name="c25.q3" offset="0x100000" size="0x80000" crc="2f273ffc" sha1="f0de462f6c4d251911258e0ebd886152c14d1586" />
+		<rom name="c25.q4" offset="0x180000" size="0x80000" crc="2c67821d" sha1="6e2528d0b22508300a6a142a796dd3bf53a66946" />
+		</dataarea>
+	</part>
+</software>

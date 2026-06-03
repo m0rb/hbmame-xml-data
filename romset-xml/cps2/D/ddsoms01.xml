@@ -1,0 +1,31 @@
+<software name="ddsoms01" cloneof="ddsom">
+	<description>Dungeons &amp; Dragons: Shadow over Mystara (960619J, Chinese, 2017-04-26)</description>
+	<year>2017</year>
+	<publisher>Mushroom Chick</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c63s01.p1" offset="0x0" size="0x80000" crc="ed73e646" sha1="d438e440f8de98cf3bc4d4c47fc8eb9202b0e995" />
+		<rom loadflag="load16_word_swap" name="c63s01.p2" offset="0x80000" size="0x80000" crc="c5a6e4b5" sha1="8f1f285fd73bcce22a1dfdff24dcd8680f791fdc" />
+		<rom loadflag="load16_word_swap" name="c63u.p3" offset="0x100000" size="0x80000" crc="5eb1991c" sha1="429a60b5396ff4192904867fbe0524268f0edbcb" />
+		<rom loadflag="load16_word_swap" name="c63s01.p4" offset="0x180000" size="0x80000" crc="05c5fd8e" sha1="21b7c8da9a671c98bdcdb5e65334396b57cc3914" />
+		<rom loadflag="load16_word_swap" name="c63u.p5" offset="0x200000" size="0x80000" crc="909a0b8b" sha1="58bda17c36063a79df8b5031755c7909a9bda221" />
+		<rom loadflag="load16_word_swap" name="c63u.p6" offset="0x280000" size="0x80000" crc="e53c4d01" sha1="bad872e4e793a39f68bc0e580772e982714b5876" />
+		<rom loadflag="load16_word_swap" name="c63s01.p7" offset="0x300000" size="0x80000" crc="1547eab4" sha1="8bc05a1ab05f66e1413cf5fbcee47decbc0c12c5" />
+		<rom loadflag="load16_word_swap" name="c63u.p8" offset="0x380000" size="0x80000" crc="ad954c26" sha1="468c01735dbdb1114b37060546a660678290a97f" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c63.m1" offset="0x0" size="0x8000" crc="99d657e5" sha1="1528dd6b07a0e79951a35c0457c8a9c9770e9c78" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c63.m2" offset="0x28000" size="0x20000" crc="117a3824" sha1="14f3a12170b601c5466c93af9d2f24e0b386b4e4" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1800000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="ddsomj.key" offset="0x0" size="0x14" crc="d8dadb22" sha1="e07b50ae464c35439333dd983e2acac48a1ce529" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c63.q1" offset="0x0" size="0x200000" crc="98d0c325" sha1="7406e8d943d77c468eb418c4113261f4ab973bbf" />
+		<rom loadflag="load16_word_swap" name="c63.q2" offset="0x200000" size="0x200000" crc="5ea2e7fa" sha1="0e6a9fd007f637adcb2226c902394f07de45e803" />
+		</dataarea>
+	</part>
+</software>

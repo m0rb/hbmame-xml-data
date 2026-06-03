@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="tdragon2" description="Tdragon2 cartridges">
+<software name="tdragon2p">
+	<description>Thunder Dragon 2 (Practice Mode)</description>
+	<year>1993</year>
+	<publisher>Trap15</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_word_swap" name="6p.rom" offset="0x0" size="0x80000" crc="f99f4bf8" sha1="34dfc188d94b89efdaa61cfc40af88868d7f22db" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom name="5.bin" offset="0x0" size="0x20000" crc="b870be61" sha1="ea5d45c3a3ab805e55806967f00167cf6366212e" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_word_swap" name="ww930917.7" offset="0x0" size="0x200000" crc="b98873cb" sha1="cc19200865176e940ff68e12de81f029b51c2084" />
+		<rom loadflag="load16_word_swap" name="ww930918.8" offset="0x200000" size="0x200000" crc="baee84b2" sha1="b325b00e6147266dbdc840e03556004531dc2038" />
+		</dataarea>
+		<dataarea name="bgtile" size="0x200000">
+		<rom name="ww930914.2" offset="0x0" size="0x200000" crc="f968c65d" sha1="fd6d21bba53f945b1597d7d0735bc62dd44d5498" />
+		</dataarea>
+		<dataarea name="fgtile" size="0x20000">
+		<rom name="1.bin" offset="0x0" size="0x20000" crc="d488aafa" sha1="4d05e7ca075b638dd90ae4c9f224817a8a3ae9f3" />
+		</dataarea>
+		<dataarea name="oki1" size="0x240000">
+		<rom name="ww930916.4" offset="0x40000" size="0x200000" crc="07c35fe6" sha1="33547bd88764704310f2ef8cf3bfe21ceb56d5b7" />
+		</dataarea>
+		<dataarea name="oki2" size="0x240000">
+		<rom name="ww930915.3" offset="0x40000" size="0x200000" crc="82025bab" sha1="ac6053700326ea730d00ec08193e2c8a2a019f0b" />
+		</dataarea>
+		<dataarea name="proms" size="0x200">
+		<rom name="9.bpr" offset="0x0" size="0x100" crc="435653a2" sha1="575b4a46ea65179de3042614da438d2f6d8b572e" />
+		<rom name="10.bpr" offset="0x100" size="0x100" crc="e6ead349" sha1="6d81b1c0233580aa48f9718bade42d640e5ef3dd" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

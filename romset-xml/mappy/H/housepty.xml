@@ -1,0 +1,30 @@
+<software name="housepty">
+	<description>House Party</description>
+	<year>1998</year>
+	<publisher>Jerky</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="housep1d.64" offset="0xa000" size="0x2000" crc="6f778a5d" sha1="afe1a317f8f355ad2e83d13835c2e28137d5a5e5" />
+		<rom name="mp1_2.1c" offset="0xc000" size="0x2000" crc="a958a61c" sha1="e5198703cdf47b2cd7fc9f2a5fde7bf4ab2275db" />
+		<rom name="housep1b.64" offset="0xe000" size="0x2000" crc="41a0c5b4" sha1="74f74d679b42d51b8c850daaadc9df8889403712" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="housep3b.32" offset="0x0" size="0x1000" crc="8d565a7e" sha1="b2730de5ea2d19ba1e2851c27a73c6b03225a479" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x4000">
+		<rom name="housep3m.64" offset="0x0" size="0x2000" crc="23a3c108" sha1="266e7ca7db5f7d481f99fd295b6bdb2da3b34b93" />
+		<rom name="housep3n.64" offset="0x2000" size="0x2000" crc="c6822529" sha1="1d8658a0e014d67b5b84f33cb19a9bdd8a88f623" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="mp1-3.3m" offset="0x0" size="0x100" crc="16a9166a" sha1="847cbaf7c88616576c410177e066ae1d792ac0ba" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="mp1-5.5b" offset="0x0" size="0x20" crc="56531268" sha1="2e356706c07f43eeb67783fb122bdc7fed1b3589" />
+		<rom name="mp1-6.4c" offset="0x20" size="0x100" crc="50765082" sha1="f578e14f15783acb2073644db4a2f0d196cc0957" />
+		<rom name="mp1-7.5k" offset="0x120" size="0x100" crc="5396bd78" sha1="2e387e5d8b8cab005f67f821b4db65d0ae8bd362" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="mp1_4.1k" offset="0xe000" size="0x2000" crc="8182dd5b" sha1="f36b57f7f1e79f00b3f07afe1960bca5f5325ee2" />
+		</dataarea>
+	</part>
+</software>

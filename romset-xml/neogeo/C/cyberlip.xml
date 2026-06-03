@@ -1,0 +1,29 @@
+<software name="cyberlip">
+	<description>Cyber-Lip (NGM-010)</description>
+	<year>1990</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="010-p1.p1" offset="0x0" size="0x80000" crc="69a6b42d" sha1="6e7cb089de83f1d22cc4a87db5b1a94bf76fb1e8" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x300000">
+		<rom loadflag="load16_byte" name="010-c1.c1" offset="0x0" size="0x80000" crc="8bba5113" sha1="70f0926409ab265da4b8632500d1d32d63cf77cf" />
+		<rom loadflag="load16_byte" name="010-c2.c2" offset="0x1" size="0x80000" crc="cbf66432" sha1="cc529640c475d08330e116ea9c5e5a28b7cd13db" />
+		<rom loadflag="load16_byte" name="010-c3.c3" offset="0x100000" size="0x80000" crc="e4f86efc" sha1="fa60863d8a7ed4f21d30f91eb1936d0b8329db7a" />
+		<rom loadflag="load16_byte" name="010-c4.c4" offset="0x100001" size="0x80000" crc="f7be4674" sha1="b4ad0432d4bb6d5a98e27015910343c964b73ed4" />
+		<rom loadflag="load16_byte" name="010-c5.c5" offset="0x200000" size="0x80000" crc="e8076da0" sha1="3ec5cc19809dea688041a42b32c13d257576f3da" />
+		<rom loadflag="load16_byte" name="010-c6.c6" offset="0x200001" size="0x80000" crc="c495c567" sha1="2f58475fbb5f1adafce027d396fb05dd71e8fb55" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="010-v11.v11" offset="0x0" size="0x80000" crc="90224d22" sha1="5443ee6f90d80d43194cb4b4f0e08851a59e7784" />
+		<rom name="010-v12.v12" offset="0x80000" size="0x80000" crc="a0cf1834" sha1="8df57a7941bdae7e446a6056039adb012cdde246" />
+		<rom name="010-v13.v13" offset="0x100000" size="0x80000" crc="ae38bc84" sha1="c0937b4f89b8b26c8a0e747b234f44ad6a3bf2ba" />
+		<rom name="010-v14.v14" offset="0x180000" size="0x80000" crc="70899bd2" sha1="8cf01144f0bcf59f09777175ae6b71846b09f3a1" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcmb" size="0x80000">
+		<rom name="010-v21.v21" offset="0x0" size="0x80000" crc="586f4cb2" sha1="588460031d84c308e3353ecf714db9986425c21c" />
+		</dataarea>
+	</part>
+</software>

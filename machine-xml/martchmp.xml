@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="martchmp" description="Martchmp cartridges">
+<software name="mtlchamps01" cloneof="mtlchamp">
+	<description>Martial Champion (Easy Move)</description>
+	<year>1993</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="234eab01_ps01.20f" offset="0x0" size="0x40000" crc="7c3bb381" sha1="a543dfac8180946cd1f6e24548185324665996ea" />
+		<rom loadflag="load16_byte" name="234eab02_ps01.20g" offset="0x1" size="0x40000" crc="1b53e493" sha1="a88f4c257e9b2be1d997052ee6cc191e4d66cda0" />
+		<rom loadflag="load16_byte" name="234_d03.19f" offset="0x300000" size="0x80000" crc="abb577c6" sha1="493f11a10a4d5b62d755ff8274e77d898544944f" />
+		<rom loadflag="load16_byte" name="234_d04.19g" offset="0x300001" size="0x80000" crc="030a1925" sha1="03783488950c9f27af5948e7b9f6a609c2df6e0b" />
+		</dataarea>
+		<dataarea name="eeprom" size="0x80">
+		<rom name="mtlchamp.nv" offset="0x0" size="0x80" crc="cd47858e" sha1="8effdcd631516d537f956509111cb3d4d18040db" />
+		</dataarea>
+		<dataarea name="k054539" size="0x400000">
+		<rom name="234a06.2d" offset="0x0" size="0x2" crc="12d32384" sha1="ecd6cd752b0e20339e17a7652ed843fbb43f7595" />
+		<rom name="234a07.1d" offset="0x200000" size="0x2" crc="05ee239f" sha1="f4e6e7568dc73666a2b5e0c3fe743432e0436464" />
+		</dataarea>
+		<dataarea name="k055673" size="0xa00000">
+		<rom loadflag="load16_byte" name="234a12.12k" offset="0x800000" size="0x400" crc="c7f2b099" sha1="b72b80feb52560a5a42a1db39b059ac8bca27c10" />
+		<rom loadflag="load16_byte" name="234a11.10k" offset="0x800001" size="0x400" crc="82923713" sha1="a36cd3b2c9d36e93a3c25ba1d4e162f3d92e06ae" />
+		</dataarea>
+		<dataarea name="k056832" size="0x600000">
+		</dataarea>
+		<dataarea name="soundcpu" size="0x40000">
+		<rom name="234_d05.6b" offset="0x0" size="0x20000" crc="efb6bcaa" sha1="4fb24b89a50b341871945547859278a6e2f5e002" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

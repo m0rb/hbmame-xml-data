@@ -1,0 +1,17 @@
+<software name="lhopecd" cloneof="lasthope">
+	<description>Last Hope JP NGCD (Beta V0.52)</description>
+	<year>2007</year>
+	<publisher>NG:DEV.TEAM</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom name="300cdb.p1" offset="0x0" size="0x100000" crc="cd108282" sha1="bb9b3c8bb94c05b46ea24173e62245611dbc29ce" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="300cdb.v1" offset="0x0" size="0x80000" crc="bc65aee1" sha1="2090133dcbb4f5b73696aab71ed5ea5b25b09b55" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom name="lhl1spr0.spr" offset="0x0" size="0x178000" crc="23448ddf" sha1="c429c90f58125a5182255567d458883ac9ef3e85" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,31 @@
+<software name="armwars02" cloneof="armwar">
+	<description>Armored Warriors (941011E, Full Attack Edition, 2020-08-30)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c55s02.p1" offset="0x0" size="0x80000" crc="4a836a40" sha1="d6588cd1cc702939a567459d5eb3406e2ca87b29" />
+		<rom loadflag="load16_word_swap" name="c55r1.p2" offset="0x80000" size="0x80000" crc="4f89de39" sha1="1e54ed70a6ed9330ec83fb189f76e9417c6dfc13" />
+		<rom loadflag="load16_word_swap" name="c55r1.p3" offset="0x100000" size="0x80000" crc="83df24e5" sha1="39801452769569c3271b26c6be8d3ce5e72b0629" />
+		<rom loadflag="load16_word_swap" name="c55.p4" offset="0x180000" size="0x80000" crc="87a60ce8" sha1="e2085c7c8c6792d055dbbb023c7f4e4aa38ae924" />
+		<rom loadflag="load16_word_swap" name="c55.p5" offset="0x200000" size="0x80000" crc="f7b148df" sha1="f369669713cf647222094c570a2eacd48a8637cf" />
+		<rom loadflag="load16_word_swap" name="c55.p6" offset="0x280000" size="0x80000" crc="cc62823e" sha1="edaf9bebdfc65ae5414090abd6844176eec39a00" />
+		<rom loadflag="load16_word_swap" name="c55u1.p7" offset="0x300000" size="0x80000" crc="ddc85ca6" sha1="e794c679531632e2142c6a5e3b858494389ce65e" />
+		<rom loadflag="load16_word_swap" name="c55.p8" offset="0x380000" size="0x80000" crc="07c4fb28" sha1="58a1ff3d105be7df833dd4f32973766649efcbcf" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c55.m1" offset="0x0" size="0x8000" crc="18a5c0e4" sha1="bb1353dd74884aaeec9b5f1d0b284d9cad53c0ff" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c55.m2" offset="0x28000" size="0x20000" crc="c9dfffa6" sha1="64e71028befe9a2514074be765dd020e1d2ea70b" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="armwar.key" offset="0x0" size="0x14" crc="fe979382" sha1="ec4e0b24d6de9660221e63063fba04df48682e1a" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c55.q1" offset="0x0" size="0x200000" crc="a78f7433" sha1="e47ffba7b9dac9d0dda985c5d966194be18260f7" />
+		<rom loadflag="load16_word_swap" name="c55.q2" offset="0x200000" size="0x200000" crc="77438ed0" sha1="733ca6c6a792e66e2aa12c5fc06dd459527afe4b" />
+		</dataarea>
+	</part>
+</software>

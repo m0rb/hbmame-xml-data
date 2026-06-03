@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="sidepcktb" description="Sidepcktb cartridges">
+<software name="sidepcktb2" cloneof="sidepckt">
+	<description>Side Pocket (bootleg set 2)</description>
+	<year>1986</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="b-9.2a" offset="0x4000" size="0x4000" crc="40fd0d85" sha1="f7f8e30def8c4a1a5630417458517fd2e71a8c38" />
+		<rom name="b-8.3a" offset="0x8000" size="0x8000" crc="26e0116a" sha1="93a64559146cee646e958907393edc6c37bce793" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="dh04.3h" offset="0x8000" size="0x8000" crc="d076e62e" sha1="720ff1a6a58697b4a9c7c4f31c24a2cf8a04900a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x18000">
+		<rom name="dh07-e.13k" offset="0x0" size="0x8000" crc="9d6f7969" sha1="583852be0861a89c63ce09eb39146ec379b9e12d" />
+		<rom name="dh06-e.13j" offset="0x8000" size="0x8000" crc="580e4e43" sha1="de152a5d4fbc52d80e3eb9af17835ecb6258d45e" />
+		<rom name="dh05-e.13h" offset="0x10000" size="0x8000" crc="05ab71d2" sha1="6f06d1d1440a5fb05c01f712457d0bb167e93099" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x18000">
+		<rom name="dh01.14a" offset="0x0" size="0x8000" crc="a2cdfbea" sha1="0721e538e3306d616f11008f784cf21e679f330d" />
+		<rom name="dh02.15a" offset="0x8000" size="0x8000" crc="eeb5c3e7" sha1="57eda1cc29124e04fe5025a904634d8ca52c0f12" />
+		<rom name="dh03.17a" offset="0x10000" size="0x8000" crc="8e18d21d" sha1="74f0ddf1fcbed386332eba882b4136295b4f096d" />
+		</dataarea>
+		<dataarea name="proms" size="0x200">
+		<rom name="dh-09.16l" offset="0x0" size="0x100" crc="ce049b4f" sha1="e4918cef7b319dd40cf1722eb8bf5e79be04fd6c" />
+		<rom name="dh-08.15l" offset="0x100" size="0x100" crc="cdf2180f" sha1="123215d096f88b66396d40d7a579380d0b5b2b89" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

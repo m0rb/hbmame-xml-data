@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="mono_tcs" description="Mono_Tcs cartridges">
+<software name="sargex" cloneof="sarge">
+	<description>Sarge Exposed</description>
+	<year>2009</year>
+	<publisher>Gatinho</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="cpu_3b.bin" offset="0x0" size="0x8000" crc="da31a58f" sha1="29b97caf61f8f59042519a6b501cd1d15099dd59" />
+		<rom name="cpu_5b.bin" offset="0x8000" size="0x8000" crc="6800e746" sha1="018c2b622b3654530ebc2c299b3f745777163d4b" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="til_15a.bin" offset="0x0" size="0x2000" crc="685001b8" sha1="300abd808efe5b44b022082eebc591c7c255697c" />
+		<rom name="til_14b.bin" offset="0x2000" size="0x2000" crc="8449eb45" sha1="6cc43639998d55fe7ffac7e9b091d35ea169e048" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="sargex.8" offset="0x0" size="0x8000" crc="9c0a3000" sha1="e6f7cc05163a6eba9faa5811ed1fcd261ed400d6" />
+		<rom name="sargex.6" offset="0x8000" size="0x8000" crc="da7e3dbf" sha1="20179d03746098d6a7d3d50fbf4d470bef07467f" />
+		<rom name="sargex.5" offset="0x10000" size="0x8000" crc="2effe749" sha1="5c3f2da367b32c1272c51555f7d94d2dee3bcf93" />
+		<rom name="sargex.4" offset="0x18000" size="0x8000" crc="66149219" sha1="2dcd43de7fa674add94b2584e6795460f486a943" />
+		</dataarea>
+		<dataarea name="tcs:cpu" size="0x10000">
+		<rom name="tcs_u5.bin" offset="0xc000" size="0x2000" crc="a894ef8a" sha1="7f53927fc185fff8ba1b1747f0d565e089d879e6" />
+		<rom name="tcs_u4.bin" offset="0xe000" size="0x2000" crc="6ca6faf3" sha1="4647e633dd11f55a65c3acf81adeb3af93624991" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

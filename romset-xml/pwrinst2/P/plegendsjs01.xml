@@ -1,0 +1,50 @@
+<software name="plegendsjs01" cloneof="plegends">
+	<description>Gouketsuji Gaiden (Great Blood Temple Simplification, 2015-12-05)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0xa00000">
+		<rom loadflag="load16_byte" name="proghc01.u45" offset="0x0" size="0x454f5d" crc="ab7d1e49" sha1="2bab667194d69cbec20744fac693f3953cd28578" />
+		<rom loadflag="load16_byte" name="proghc01.u44" offset="0x1" size="0x454f49" crc="bad17718" sha1="f44413152dcbf07fd93e7447827679faeb0ee651" />
+		<rom loadflag="load16_byte" name="pr12.u2" offset="0x100000" size="0x80000" crc="0e202559" sha1="217a8e47d5c679aff02ca43de1641230e4f78b01" />
+		<rom loadflag="load16_byte" name="pr12.u3" offset="0x100001" size="0x80000" crc="54742f21" sha1="fae7bb7381478eb077f0409acd521f77417aa968" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom name="sound.u3" offset="0x0" size="0x20000" crc="36f71520" sha1="11d0a059ddba3e1aa4c54ccdde7b3f5c7bde482f" />
+		</dataarea>
+		<dataarea name="layer0" size="0x200000">
+		<rom name="atgs.u78" offset="0x0" size="0x200000" crc="16710ecb" sha1="6277f7f6095457df649932550b04242e5853ec5e" />
+		</dataarea>
+		<dataarea name="layer1" size="0x200000">
+		<rom name="atgs.u81" offset="0x0" size="0x200000" crc="cb2aca91" sha1="869f0f2db35c45ec90b74d33d521cbb598e60a3f" />
+		</dataarea>
+		<dataarea name="layer2" size="0x200000">
+		<rom name="atgs.u89" offset="0x0" size="0x200000" crc="65f45a0f" sha1="b7f4b56308dcdc144100d0a92d91255459a320a4" />
+		</dataarea>
+		<dataarea name="layer3" size="0x80000">
+		<rom name="text.u82" offset="0x0" size="0x80000" crc="f57333ea" sha1="409d8005ffcf91943e4a743b2434ce425f5bdc36" />
+		</dataarea>
+		<dataarea name="oki1" size="0x440000">
+		<rom name="g02.u53" offset="0x40000" size="0x200000" crc="c4bdd9e0" sha1="a938a831e789ddf6f3cc5f3e5f3877ec7bd62d4e" />
+		<rom name="g02.u54" offset="0x240000" size="0x200000" crc="1357d50e" sha1="433766177ce9d6933f90de85ba91bfc6d8d5d664" />
+		</dataarea>
+		<dataarea name="oki2" size="0x440000">
+		<rom name="g02.u55" offset="0x40000" size="0x200000" crc="2d102898" sha1="bd81f4cd2ba100707db0c5bb1419f0b23c998574" />
+		<rom name="g02.u56" offset="0x240000" size="0x200000" crc="9ff50dda" sha1="1121685e387c20e228032f2b0f5cbb606376fc15" />
+		</dataarea>
+		<dataarea name="sprites0" size="0x1000000">
+		<rom name="g02.u61" offset="0x0" size="0x200000" crc="91e30398" sha1="2b59a5e40bed2a988382054fe30d92808dad3348" />
+		<rom name="g02.u62" offset="0x200000" size="0x200000" crc="d9455dd7" sha1="afa69fe9a540cd78b8cfecf09cffa1401c01141a" />
+		<rom name="g02.u63" offset="0x400000" size="0x200000" crc="4d20560b" sha1="ceaee8cf0b69cc366b95ddcb689a5594d79e5114" />
+		<rom name="g02.u64" offset="0x600000" size="0x200000" crc="b17b9b6e" sha1="fc6213d8322cda4c7f653e2d7d6d314ce84c97b7" />
+		<rom name="g02.u65" offset="0x800000" size="0x200000" crc="08541878" sha1="138cf077a49a26440a3da1bdc2c399a208359e57" />
+		<rom name="g02.u66" offset="0xa00000" size="0x200000" crc="becf2a36" sha1="f8b386d0292b1dc745b7253a3df51d1aa8d5e9db" />
+		<rom name="atgs.u1" offset="0xc00000" size="0x200000" crc="aa6f34a9" sha1="00de85de1b413bd2c46931c13365f8556b50b634" />
+		<rom name="atgs.u2" offset="0xe00000" size="0x200000" crc="553eda27" sha1="5b9126f966f0c64b3ac7c06526064d71e4df60c5" />
+		</dataarea>
+		<dataarea name="user1" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="d15.u4" offset="0x0" size="0x80000" crc="6352cec0" sha1="a54d55b8d642e438158268d0d41880b6589e48e2" />
+		<rom loadflag="load16_byte" name="d17.u5" offset="0x1" size="0x80000" crc="7af810d8" sha1="5e24f78a228809a001f3f3372c1b32ea05070e17" />
+		</dataarea>
+	</part>
+</software>

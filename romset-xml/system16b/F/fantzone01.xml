@@ -1,0 +1,25 @@
+<software name="fantzone01">
+	<description>Fantasy Zone (PS2)</description>
+	<year>2008</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_byte" name="fz1_s16b_p00.a7" offset="0x0" size="0x20000" crc="2e131b1d" sha1="0bb7ba4dd579d4ab92030b0021df81c0a18b91e9" />
+		<rom loadflag="load16_byte" name="fz1_s16b_p00.a5" offset="0x1" size="0x20000" crc="8c6fe14d" sha1="b823e505a21dd19eb805f7206c7ef93c6cf51816" />
+		</dataarea>
+		<dataarea name="sprites" endianness="big" size="0x180000">
+		<rom loadflag="load16_byte" name="fzta__b01.bin" offset="0x1" size="0x20000" crc="0beb4a22" sha1="e35f6d92b88f0730ccf03a090900ca2ed9824e74" />
+		<rom loadflag="load16_byte" name="fzta__b05.bin" offset="0x0" size="0x20000" crc="7f676c69" sha1="231e7829b4ddb039f9075aebd1f2a123c79d396d" />
+		<rom loadflag="load16_byte" name="fzta__a01.bin" offset="0x100001" size="0x20000" crc="40e1db9a" sha1="305cd5e2d8512774638dfa724df6696ffa81ebb2" />
+		<rom loadflag="load16_byte" name="fzta__b10.bin" offset="0x100000" size="0x20000" crc="acbb5cff" sha1="bd356f664ec1c0e955161aa3afd06f2aeda80357" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x30000">
+		<rom name="fzta__a14.bin" offset="0x0" size="0x10000" crc="9468ab33" sha1="714660b9eafb78ef5d3aed218367b4e5708376f6" />
+		<rom name="fzta__a15.bin" offset="0x10000" size="0x10000" crc="22a3cf75" sha1="6f21bc2a565738b997f898ed6ee631e9452662ca" />
+		<rom name="fzta__a16.bin" offset="0x20000" size="0x10000" crc="25cba87f" sha1="abece2c27cd9d299319fa3ea87e016606426abc2" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x50000">
+		<rom name="fzta__a10.bin" offset="0x0" size="0x8000" crc="dab6fcd0" sha1="151b62c5353533ae8660cbeebd8fe3219adbf4b5" />
+		</dataarea>
+	</part>
+</software>

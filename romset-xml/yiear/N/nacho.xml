@@ -1,0 +1,27 @@
+<software name="nacho">
+	<description>Nacho Libre</description>
+	<year>2009</year>
+	<publisher>Gatinho</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="nacho.8" offset="0x8000" size="0x4000" crc="ad779f38" sha1="057f05f789261f0b9a0f9d32623c3de10d5ed5e6" />
+		<rom name="nacho.7" offset="0xc000" size="0x4000" crc="6d9b7c36" sha1="634c68617df9d3078be85ccaefda3719b9e06bab" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="nacho.1" offset="0x0" size="0x2000" crc="7f1139ef" sha1="04872803bcfd468490aa68b6b4b8c6219d0e3805" />
+		<rom name="nacho.2" offset="0x2000" size="0x2000" crc="cd8be306" sha1="7e6fe875e808def4da7d5b19e291481d736e418c" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x10000">
+		<rom name="nacho.5" offset="0x0" size="0x4000" crc="2da87538" sha1="37f17b8a6e1ad2fc2a94f90e54fa9ae8a5380b45" />
+		<rom name="nacho.6" offset="0x4000" size="0x4000" crc="b48393a9" sha1="d8f4011423027e9f22f3a62e16e9f77e0fbfdb2c" />
+		<rom name="nacho.3" offset="0x8000" size="0x4000" crc="75bad724" sha1="b6fad1771b7600867de3cafddd7555a8ab0f4f98" />
+		<rom name="nacho.4" offset="0xc000" size="0x4000" crc="3ecb72e4" sha1="4fc494bf3025b3b9fd05fc9f4f6d865039b3ffc8" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="407c10.1g" offset="0x0" size="0x20" crc="c283d71f" sha1="10cd39f4e951ba6ca5610081c8c1fcd9d68b34d2" />
+		</dataarea>
+		<dataarea name="vlm" size="0x2000">
+		<rom name="407_c09.8b" offset="0x0" size="0x2000" crc="f75a1539" sha1="f139f6cb41351eb81ee47d777db03012aa5fadb1" />
+		</dataarea>
+	</part>
+</software>
