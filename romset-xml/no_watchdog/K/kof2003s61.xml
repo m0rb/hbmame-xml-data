@@ -1,0 +1,21 @@
+<software name="kof2003s61" cloneof="kof2003">
+	<description>Kof2003 (Ryu Hack)</description>
+	<year>2003</year>
+	<publisher>Iori Yagami</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x800000">
+		<rom loadflag="load16_word_swap" name="271s61.p1" offset="0x0" size="0x800000" crc="0e82da28" sha1="61fd4cf63f804752095f47450e4aac10672bd53f" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="271d.v1" offset="0x0" size="0x1000000" crc="2964f36e" sha1="bfc52f81354eb57e27acb3b80fe1547b9e070293" />
+		</dataarea>
+		<dataarea name="sprites" size="0x6000000">
+		<rom loadflag="load16_byte" name="271d.c1" offset="0x0" size="0x1000000" crc="c29acd28" sha1="8a10409c5a9ad95fa9b56e94c14f1b96101fb179" />
+		<rom loadflag="load16_byte" name="271d.c2" offset="0x1" size="0x1000000" crc="328e80b1" sha1="c7f8069488be1a88a2ea03718b6a131f5c96bd3f" />
+		<rom loadflag="load16_byte" name="271d.c3" offset="0x2000000" size="0x1000000" crc="020a11f1" sha1="85cfae76234f72b0039ebc02f931bb2a9c10b1af" />
+		<rom loadflag="load16_byte" name="271d.c4" offset="0x2000001" size="0x1000000" crc="991b5ed2" sha1="99c4c470bc9cb388773e27de6df4a16803fc7b45" />
+		<rom loadflag="load16_byte" name="271d.c5" offset="0x4000000" size="0x1000000" crc="c2de8b66" sha1="40c2ea48fc20d470163a9dbb40c0276fc4cfceb9" />
+		<rom loadflag="load16_byte" name="271d.c6" offset="0x4000001" size="0x1000000" crc="3ff750db" sha1="714f14a2eb2df6f25d10a6b6aff4b3adfbc7a5dc" />
+		</dataarea>
+	</part>
+</software>

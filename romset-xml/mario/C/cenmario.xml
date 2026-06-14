@@ -1,0 +1,32 @@
+<software name="cenmario">
+	<description>Censored Mario Bros.</description>
+	<year>2002</year>
+	<publisher>Marks Hacks</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="tma1c-a1.7f" offset="0x0" size="0x2000" crc="b64b6330" sha1="f7084251ac325bbfa3fb804da16a50622e1fd213" />
+		<rom name="tma1c-a2.7e" offset="0x2000" size="0x2000" crc="290c4977" sha1="5af266be0ddc883c6548c90e4a9084024a1e91a0" />
+		<rom name="tma1c-a1.7d" offset="0x4000" size="0x2000" crc="f8575f31" sha1="710d0e72fcfce700ed2a22fb9c7c392cc76b250b" />
+		<rom name="tma1c-a2.7c" offset="0xf000" size="0x1000" crc="a3c11e9e" sha1="d0612b0f8c2ea4e798f551922a04a324f4ed5f3d" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x1800">
+		<rom name="tma1-c-6k_e.6k" offset="0x1000" size="0x800" crc="06b9ff85" sha1="111a29bcb9cda0d935675fa26eca6b099a88427f" />
+		<rom loadflag="continue" offset="0x800" size="0x800" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="cenmario.3f" offset="0x0" size="0x1000" crc="27bcd321" sha1="d8f1fc65dc17af2f80d67f3e2f3edabc79eba1b3" />
+		<rom name="cenmario.3j" offset="0x1000" size="0x1000" crc="de1c6962" sha1="2779715d62981baf2ea3a3f501128deb0f5559ab" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x6000">
+		<rom name="cenmario.7m" offset="0x0" size="0x1000" crc="41c78d70" sha1="f5ad2b84439a9c2e7aed0a38a507bb714ad6eb3a" />
+		<rom name="cenmario.7n" offset="0x1000" size="0x1000" crc="659341a4" sha1="77207279ebe9c5e33f8bfa4cdbbc7a04d0198c84" />
+		<rom name="cenmario.7p" offset="0x2000" size="0x1000" crc="b9e32b12" sha1="c8c8491c3724dc10f91100299347753bdc16a091" />
+		<rom name="cenmario.7s" offset="0x3000" size="0x1000" crc="a5cc7370" sha1="ac81cd6193207670ffbfdc4b2e9c15805c0eecee" />
+		<rom name="cenmario.7t" offset="0x4000" size="0x1000" crc="e416cbea" sha1="ffce92c8ce25d5086379ec1245ae11c64b7719f4" />
+		<rom name="cenmario.7u" offset="0x5000" size="0x1000" crc="19eef39f" sha1="41ee5184eeee10d7b502f5a06a3b006242756e57" />
+		</dataarea>
+		<dataarea name="proms" size="0x200">
+		<rom name="tma1-c-4p.4p" offset="0x0" size="0x200" crc="afc9bd41" sha1="90b739c4c7f24a88b6ac5ca29b06c032906a2801" />
+		</dataarea>
+	</part>
+</software>

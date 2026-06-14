@@ -1,0 +1,31 @@
+<software name="kovsho168" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Ryu 2015-09-05)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_pw168.322" offset="0x100000" size="0x400000" crc="4036a5de" sha1="3e04e4a461a942660eff75268e71f92be9cabc6c" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600_pw122.rom" offset="0x400000" size="0x400000" crc="efc1d26d" sha1="382ec011c27b1b357a16863a53235c6935fa0b27" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.asic" offset="0x0" size="0x4000" crc="0f09a5c1" sha1="621b38c05f33277608d58b49822aebc930ae4870" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x4000000">
+		<rom name="a0600_pw168.rom" offset="0x0" size="0x800000" crc="b364f569" sha1="6b552283885e19f097a35ac62381f30119ca715c" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="pgm_a0613.u7" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		<rom name="a0604_pw168.rom" offset="0x1a00000" size="0x800000" crc="31b868fb" sha1="5bc1e5b0f4e0db0950597c4ae9ed0018adc4e8af" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x2000000">
+		<rom name="b0600_pw168.rom" offset="0x0" size="0x800000" crc="df975d7c" sha1="6be54b52d443a74193baafc3e10abff9ab7c7e91" />
+		<rom name="pgm_b0601.u8" offset="0x800000" size="0x400000" crc="a0bb1c2f" sha1="0542348c6e27779e0a98de16f04f9c18158f2b28" />
+		<rom name="b0602_pw168.rom" offset="0xc00000" size="0x400000" crc="10874bfc" sha1="9e74e0744cd692531c345e528057097774e270df" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_pw168.rom" offset="0x180000" size="0x800000" crc="685e095d" sha1="95d4df0dd7299fa7cffb01418dfbcf0890309c6a" />
+		</dataarea>
+	</part>
+</software>

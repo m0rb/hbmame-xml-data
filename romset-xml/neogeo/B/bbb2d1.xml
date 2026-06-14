@@ -1,0 +1,18 @@
+<software name="bbb2d1">
+	<description>Bang Bang Busters 2 (demo 1)</description>
+	<year>2025</year>
+	<publisher>Pixelheart</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="515.p1" offset="0x0" size="0x100000" crc="3659f253" sha1="78474a0dbf812e987cae7b7ca0f8d00c35060939" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="515.v1" offset="0x0" size="0x400000" crc="f1dda8dd" sha1="2cc21436eca6eaa08f8de82fc5252e1f4a335333" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="515.c1" offset="0x0" size="0x800000" crc="739173e2" sha1="5703a97bba12c63411700341abe4e2981650d59e" />
+		<rom loadflag="load16_byte" name="515.c2" offset="0x1" size="0x800000" crc="9a439c98" sha1="faa43e7c892d1ec76da6e88ccf85b5262faf0f93" />
+		</dataarea>
+	</part>
+</software>

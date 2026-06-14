@@ -1,0 +1,23 @@
+<software name="avsps04" cloneof="avsp">
+	<description>Alien vs. Predator (940520E, Ultimate Evolution Edition, 2020-09-01)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c52s04.p1" offset="0x0" size="0x80000" crc="02a03d8d" sha1="9c3d25231ca51a6b6559329958ce0cdb71a9720e" />
+		<rom loadflag="load16_word_swap" name="c52s03.p2" offset="0x80000" size="0x80000" crc="8799b67f" sha1="fe755897231b21ac8e47f1e5bc0ca73ae91e433a" />
+		<rom loadflag="load16_word_swap" name="c52s02.p3" offset="0x100000" size="0x80000" crc="0207cb19" sha1="a6dab4afc94c6bbaf353deb97e84cff6f76e9f35" />
+		<rom loadflag="load16_word_swap" name="c52d.p4" offset="0x180000" size="0x80000" crc="63094539" sha1="f1b776cf4334fa7fa1ee0e5ce81a5996b930996b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c52.m1" offset="0x0" size="0x8000" crc="2d3b4220" sha1="2b2d04d4282550fa9f6e1ad8528f20d1f2ac02eb" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c52.q1" offset="0x0" size="0x200000" crc="83499817" sha1="e65b0ebd61ddc748842a9d4d92404b5305307623" />
+		<rom loadflag="load16_word_swap" name="c52.q2" offset="0x200000" size="0x200000" crc="f4110d49" sha1="f27538776cc1ba8213f19f98728ed8c02508d3ac" />
+		</dataarea>
+	</part>
+</software>

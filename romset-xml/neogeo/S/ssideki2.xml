@@ -1,0 +1,22 @@
+<software name="ssideki2">
+	<description>Super Sidekicks 2 - The World Championship / Tokuten Ou 2 - Real Fight Football (NGM-061 ~ NGH-061)</description>
+	<year>1994</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="061-p1.p1" offset="0x0" size="0x100000" crc="5969e0dc" sha1="78abea880c125ec5a85bef6404478512a34b5513" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="061-c1-16.c1" offset="0x0" size="0x200000" crc="a626474f" sha1="d695f0dcb9480088b3a7c1488bd541b4c159528a" />
+		<rom loadflag="load16_byte" name="061-c2-16.c2" offset="0x1" size="0x200000" crc="c3be42ae" sha1="7fa65538bd0a0a162e4d3e9f49913da59d915e02" />
+		<rom loadflag="load16_byte" name="061-c3-16.c3" offset="0x400000" size="0x200000" crc="2a7b98b9" sha1="75e1019dca8a8583afcc53651ac856cba3a96315" />
+		<rom loadflag="load16_byte" name="061-c4-16.c4" offset="0x400001" size="0x200000" crc="c0be9a1f" sha1="228f41eaefdf3e147761f8ef849e3b5f321877d4" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x400000">
+		<rom name="061-v1.v1" offset="0x0" size="0x200000" crc="f081c8d3" sha1="fc9da0ddc1ddd1f9ae1443a726815c25e9dc38ae" />
+		<rom name="061-v2.v2" offset="0x200000" size="0x200000" crc="7cd63302" sha1="c39984c0ae0a8e76f1fc036344bbb83635c18937" />
+		</dataarea>
+	</part>
+</software>

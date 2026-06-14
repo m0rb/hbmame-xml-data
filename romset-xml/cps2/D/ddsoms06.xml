@@ -1,0 +1,31 @@
+<software name="ddsoms06" cloneof="ddsom">
+	<description>Dungeons &amp; Dragons: Shadow over Mystara (960619E, Strengthen The Physical Model, 2009-06-15)</description>
+	<year>2009</year>
+	<publisher>Pipi899</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c63s06.p1" offset="0x0" size="0x80000" crc="5a9574e5" sha1="c810b9bf495d4cd44305e27992848aab207da922" />
+		<rom loadflag="load16_word_swap" name="c63.p2" offset="0x80000" size="0x80000" crc="5b7052b6" sha1="8a5f069f450da939d0f02518751cd9815d621d81" />
+		<rom loadflag="load16_word_swap" name="c63s06.p3" offset="0x100000" size="0x80000" crc="554e9b24" sha1="6b78662c0e377f5595cef9d2b49d6af0ece19fd1" />
+		<rom loadflag="load16_word_swap" name="c63.p4" offset="0x180000" size="0x80000" crc="e0807e1e" sha1="4b978f5f647fff84d456eb14c9fd202d9a276997" />
+		<rom loadflag="load16_word_swap" name="c63.p5" offset="0x200000" size="0x80000" crc="bb777a02" sha1="4b2c65a9129fc2262b35be1c10d06f60f5108981" />
+		<rom loadflag="load16_word_swap" name="c63.p6" offset="0x280000" size="0x80000" crc="30970890" sha1="fd366a9323230f6997006ab4cc216f9a97865ebe" />
+		<rom loadflag="load16_word_swap" name="c63.p7" offset="0x300000" size="0x80000" crc="99e2194d" sha1="cbcecdf5beeac3eac6c2c3fa395710e1b8347531" />
+		<rom loadflag="load16_word_swap" name="c63.p8" offset="0x380000" size="0x80000" crc="e198805e" sha1="37ae9d88d98c59337b657cfa6feb56e4f9cae95f" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c63.m1" offset="0x0" size="0x8000" crc="99d657e5" sha1="1528dd6b07a0e79951a35c0457c8a9c9770e9c78" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c63.m2" offset="0x28000" size="0x20000" crc="117a3824" sha1="14f3a12170b601c5466c93af9d2f24e0b386b4e4" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1800000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="ddsom.key" offset="0x0" size="0x14" crc="541e425d" sha1="9239f9ad7c2ed0d7d062da2db92b07104b5bb9a7" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c63.q1" offset="0x0" size="0x200000" crc="98d0c325" sha1="7406e8d943d77c468eb418c4113261f4ab973bbf" />
+		<rom loadflag="load16_word_swap" name="c63.q2" offset="0x200000" size="0x200000" crc="5ea2e7fa" sha1="0e6a9fd007f637adcb2226c902394f07de45e803" />
+		</dataarea>
+	</part>
+</software>

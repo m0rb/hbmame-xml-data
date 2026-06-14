@@ -1,0 +1,22 @@
+<software name="sengokucd" cloneof="sengoku">
+	<description>Sengoku (CD conversion)</description>
+	<year>2007</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x120000">
+		<rom loadflag="load16_word_swap" name="017cd.p1" offset="0x0" size="0x100000" crc="89290fa2" sha1="c546aaf74e823d76e5a9ac592edd098a7cf531ed" />
+		<rom loadflag="load16_word_swap" name="017.p2" offset="0x100000" size="0x20000" crc="3024bbb3" sha1="88892e1292dd60f35a76f9a22e623d4f0f9693cc" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="017.v1" offset="0x0" size="0x100000" crc="23663295" sha1="9374a5d9f3de8e6a97c11f07d8b4485ac9d55edb" />
+		<rom name="017.v2" offset="0x100000" size="0x100000" crc="f61e6765" sha1="1c9b287996947319eb3d288c3d82932cf01039db" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="017.c1" offset="0x0" size="0x100000" crc="b4eb82a1" sha1="79879e2ea78c07d04c88dc9a1ad59604b7a078be" />
+		<rom loadflag="load16_byte" name="017.c2" offset="0x1" size="0x100000" crc="d55c550d" sha1="6110f693aa23710939c04153cf5af26493e4a03f" />
+		<rom loadflag="load16_byte" name="017.c3" offset="0x200000" size="0x100000" crc="ed51ef65" sha1="e8a8d86e24454948e51a75c883bc6e4091cbf820" />
+		<rom loadflag="load16_byte" name="017.c4" offset="0x200001" size="0x100000" crc="f4f3c9cb" sha1="8faafa89dbd0345218f71f891419d2e4e7578200" />
+		</dataarea>
+	</part>
+</software>

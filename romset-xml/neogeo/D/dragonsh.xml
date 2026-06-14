@@ -1,0 +1,22 @@
+<software name="dragonsh">
+	<description>Dragon&#x27;s Heaven (development board)</description>
+	<year>1997</year>
+	<publisher>Face</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:audiocpu" size="0x30000">
+		</dataarea>
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="ep2.bin" offset="0x0" size="0x80000" crc="f25c71ad" sha1="803fb6cd6a7ada59678ad901ff9788b1e54ddd0c" />
+		<rom loadflag="load16_byte" name="ep1.bin" offset="0x1" size="0x80000" crc="f353448c" sha1="f0f966ca15d503e01b40e901765ff0888463b65d" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="no3.bin" offset="0x0" size="0x1000000" crc="81821826" sha1="b7c1a53e32633383675206a16c68f6f2ff984865" />
+		<rom loadflag="load16_byte" name="no4.bin" offset="0x1" size="0x1000000" crc="3601d568" sha1="800323e52f5d33b402f84d31850b42c688082d67" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="sram.v1" offset="0x0" size="0x200000" />
+		</dataarea>
+	</part>
+</software>

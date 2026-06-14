@@ -1,0 +1,26 @@
+<software name="svc26" cloneof="svc">
+	<description>SvC Chaos (Opacity)</description>
+	<year>2003</year>
+	<publisher>oak2003</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load32_word_swap" name="269.p1" offset="0x0" size="0x400000" crc="38e2005e" sha1="1b902905916a30969282f1399a756e32ff069097" />
+		<rom loadflag="load32_word_swap" name="269.p2" offset="0x2" size="0x400000" crc="6d13797c" sha1="3cb71a95cea6b006b44cac0f547df88aec0007b7" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="269.v1" offset="0x0" size="0x800000" crc="c659b34c" sha1="1931e8111ef43946f68699f8707334c96f753a1e" />
+		<rom name="269.v2" offset="0x800000" size="0x800000" crc="dd903835" sha1="e58d38950a7a8697bb22a1cc7a371ae6664ae8f9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="269s26.c1" offset="0x0" size="0x800000" crc="aa8ec734" sha1="4bba8f3203a4d1ab748ba8d622dd338bc5fd9450" />
+		<rom loadflag="load16_byte" name="269s26.c2" offset="0x1" size="0x800000" crc="06aadcd0" sha1="1be58d1365323f37f458443bd101aa97b4ccc5e8" />
+		<rom loadflag="load16_byte" name="269s26.c3" offset="0x1000000" size="0x800000" crc="d9cb2ff1" sha1="92d0973222bfc9a2aedcebe109e1ceeae2542692" />
+		<rom loadflag="load16_byte" name="269s26.c4" offset="0x1000001" size="0x800000" crc="ab20c7f8" sha1="2adecfe7c199e63431db7cdb27bb253f786f653a" />
+		<rom loadflag="load16_byte" name="269s26.c5" offset="0x2000000" size="0x800000" crc="cdb455ad" sha1="ea6ae49a4e5f7b781eb7982bb3dd6068a0db3ad0" />
+		<rom loadflag="load16_byte" name="269s26.c6" offset="0x2000001" size="0x800000" crc="e0fa0268" sha1="e7fb434cb832dc132a55adceec622a231c5f4764" />
+		<rom loadflag="load16_byte" name="269s26.c7" offset="0x3000000" size="0x800000" crc="7a2675a7" sha1="7a3e4f86ff3ba10ca811731474b92b228e77cebb" />
+		<rom loadflag="load16_byte" name="269s26.c8" offset="0x3000001" size="0x800000" crc="ea39000e" sha1="6c761d7bf113805a7343de6520a0ec323b48e4eb" />
+		</dataarea>
+	</part>
+</software>

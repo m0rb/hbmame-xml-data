@@ -1,0 +1,17 @@
+<software name="ddpsdoj">
+	<description>DoDonPachi SaiDaiOuJou (clean dump)</description>
+	<year>2012</year>
+	<publisher>Cave</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="u4" offset="0x0" size="0x400000" crc="e2a4411c" sha1="f8b2b6326dd8eeae99b8b1ab2bd5a3f0b9c7f027" />
+		</dataarea>
+		<dataarea name="game" size="0x8400000">
+		<rom name="u2" offset="0x0" size="0x8400000" crc="668e4cd6" sha1="da0b10865df3a3e46cf8a109ca88a551faba4483" />
+		</dataarea>
+		<dataarea name="ymz770" size="0x800000">
+		<rom loadflag="load16_word_swap" name="u23" offset="0x0" size="0x400000" crc="ac94801c" sha1="cbcc6d5d89860bc961967e1d3b7c329adaf200c5" />
+		<rom loadflag="load16_word_swap" name="u24" offset="0x400000" size="0x400000" crc="f593045b" sha1="91b92870d0dd2a7817cb0059cc750e2393686f4c" />
+		</dataarea>
+	</part>
+</software>

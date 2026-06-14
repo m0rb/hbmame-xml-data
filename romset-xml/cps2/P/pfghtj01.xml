@@ -1,0 +1,28 @@
+<software name="pfghtj01" cloneof="sgemf">
+	<description>Pocket Fighter (970904J, Command Change, 2008-01-12)</description>
+	<year>2008</year>
+	<publisher>Pipi899</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c74j01.p1" offset="0x0" size="0x80000" crc="d042b7c4" sha1="d8bc507445f01d15fe57413d26d24376f1889183" />
+		<rom loadflag="load16_word_swap" name="c74.p2" offset="0x80000" size="0x80000" crc="f4314c96" sha1="c40ed74039bf0096eb3648b7243a8e697638e0a6" />
+		<rom loadflag="load16_word_swap" name="c74.p3" offset="0x100000" size="0x80000" crc="215655f6" sha1="242c0f4401520f2a3b0deafc3a807b18b987e496" />
+		<rom loadflag="load16_word_swap" name="c74.p4" offset="0x180000" size="0x80000" crc="ea6f13ea" sha1="1bc924a8a9da1d2ad7667685cdb92fe317a39aba" />
+		<rom loadflag="load16_word_swap" name="c74.p5" offset="0x200000" size="0x80000" crc="5ac6d5ea" sha1="9ce8e4668b565658597a868830545fb75a5eeaa6" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c74.m1" offset="0x0" size="0x8000" crc="254e5f33" sha1="c413ec0630b9bdd15e64f42893eba8958a09b573" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c74.m2" offset="0x28000" size="0x20000" crc="6902f4f9" sha1="9bfe4ddade3c666076d26a2b545120f6d059fd7c" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="pfghtj.key" offset="0x0" size="0x14" crc="62297638" sha1="efe090ffa8992823cfd787ade736df5487d69ca7" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c74.q1" offset="0x0" size="0x400000" crc="a5dea005" sha1="3ae79baf6ff5bd527f82b26f164c7e3c65423ae2" />
+		<rom loadflag="load16_word_swap" name="c74.q2" offset="0x400000" size="0x400000" crc="4ce235fe" sha1="795b94557e954cc0e45fd3778b609064d57a34a2" />
+		</dataarea>
+	</part>
+</software>

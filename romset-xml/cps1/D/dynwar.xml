@@ -1,0 +1,27 @@
+<software name="dynwar">
+	<description>Dynasty Wars (USA, B-Board 89624B-?)</description>
+	<year>1989</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c04.p1" offset="0x0" size="0x20000" crc="f9ec6d68" sha1="02912db2b48f77489b0b841c2a5414bfb49b93f4" />
+		<rom loadflag="load16_byte" name="c04.p2" offset="0x1" size="0x20000" crc="e41fff2f" sha1="a960c39c69f97b46d5efcbcd3e2bc652888094c4" />
+		<rom loadflag="load16_byte" name="c04.p3" offset="0x40000" size="0x20000" crc="e3de76ff" sha1="fdc552312e10c91dd00bfa72e4e686ac356d2244" />
+		<rom loadflag="load16_byte" name="c04.p4" offset="0x40001" size="0x20000" crc="7a13cfbf" sha1="c6b4d775a2e507fdefbb895cc75bb5bdb442218d" />
+		<rom loadflag="load16_word_swap" name="c04.p5" offset="0x80000" size="0x80000" crc="93654bcf" sha1="c72daeb2a98d350568555059a3225343c219a1d2" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c04.m1" offset="0x0" size="0x8000" crc="b3b79d4f" sha1="2b960545741d3b9a53ffbf3ed83030392aa02698" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="dynwar.key" offset="0x0" size="0x80" crc="b0e42e41" sha1="e085d63b860d55e73992a711aeb86b3a999fb33f" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c04.v1" offset="0x0" size="0x20000" crc="ac6e307d" sha1="b490ce625bb7ce0904b0fd121fbfbd5252790f7a" />
+		<rom name="c04.v2" offset="0x20000" size="0x20000" crc="068741db" sha1="ab48aff639a7ac218b7d5304145e10e92d61fd9f" />
+		</dataarea>
+	</part>
+</software>

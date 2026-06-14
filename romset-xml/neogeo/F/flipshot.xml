@@ -1,0 +1,19 @@
+<software name="flipshot">
+	<description>Battle Flip Shot</description>
+	<year>1998</year>
+	<publisher>Visco</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="247-p1.p1" offset="0x0" size="0x100000" crc="95779094" sha1="a985e033bc6f137fa65855d3eed245d66d5b244a" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="247-c1.c1" offset="0x0" size="0x200000" crc="c9eedcb2" sha1="7627f2810322c146511525eb70b573a6a5ede926" />
+		<rom loadflag="load16_byte" name="247-c2.c2" offset="0x1" size="0x200000" crc="7d6d6e87" sha1="6475b58b9f91c20d1f465f3e892de0c68e12a92b" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="247-v1.v1" offset="0x0" size="0x200000" crc="42ec743d" sha1="f45b5167ebcbd59300f4e5b05448cd421654102a" />
+		</dataarea>
+	</part>
+</software>

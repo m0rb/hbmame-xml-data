@@ -1,0 +1,33 @@
+<software name="tongypac" cloneof="ckong">
+	<description>Tongy Paccy</description>
+	<year>1981</year>
+	<publisher>Grand Master Peter</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="falcon7" offset="0x0" size="0x1000" crc="2171cac3" sha1="7b18bfe44c32fb64b675bbbe2136344522c79b09" />
+		<rom name="falcon8" offset="0x1000" size="0x1000" crc="88b83ff7" sha1="4afc494cc264aaa4614da6aed02ce062d9c20850" />
+		<rom name="falcon9" offset="0x2000" size="0x1000" crc="cff2af47" sha1="1757428cefad13855a623162101ec01c04006c94" />
+		<rom name="ck10.bin" offset="0x3000" size="0x1000" crc="520fa4de" sha1="6edbaf727756cd33bde94492d72654aa12dbd7e1" />
+		<rom name="md5l.bin" offset="0x4000" size="0x1000" crc="d1db1bb0" sha1="fe7d700c7f9eca9c389be3717ebebf3e7dc63aa2" />
+		</dataarea>
+		<dataarea name="cclimber_audio:samples" size="0x2000">
+		<rom name="falcon13" offset="0x0" size="0x1000" crc="5f0bcdfb" sha1="7f79bf6de117348f606696ed7ea1937bbf926612" />
+		<rom name="ck12.bin" offset="0x1000" size="0x1000" crc="2eb23b60" sha1="c9e7dc584562aceb374193655fbacb7df6c9c731" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="tpac6.bin" offset="0x0" size="0x1000" crc="918e3c52" sha1="bc630759a525615aba1a06a0781e26a1a5c2c377" />
+		<rom name="tpac5.bin" offset="0x1000" size="0x1000" crc="2bbc69e7" sha1="5741aa6944e9b936289368d533c2b19d34320260" />
+		<rom name="tpac4.bin" offset="0x2000" size="0x1000" crc="8d5890b6" sha1="92d48d75084df2e2a3fa9d92a3c6c059f0781d81" />
+		<rom name="tpac3.bin" offset="0x3000" size="0x1000" crc="6b16145b" sha1="ef17fad07b81c9dae5c6e16a86afc4a8f6a7ff8c" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x1000">
+		<rom name="falcon2" offset="0x0" size="0x800" crc="f67c80f1" sha1="d1fbcce1b6242f810e106ff50812636e3168ebc1" />
+		<rom name="falcon1" offset="0x800" size="0x800" crc="80eb517d" sha1="fef4111f656c58b28e7eac5aa5b5cc7e07ccb2fd" />
+		</dataarea>
+		<dataarea name="proms" size="0x60">
+		<rom name="ck6v.bin" offset="0x0" size="0x20" crc="751c3325" sha1="edce2bc883996c1d72dc6c1c9f62799b162d415a" />
+		<rom name="ck6u.bin" offset="0x20" size="0x20" crc="ab1940fa" sha1="8d98e05cbaa6f55770c12e0a9a8ed9c73cc54423" />
+		<rom name="ck6t.bin" offset="0x40" size="0x20" crc="b4e827a5" sha1="31a5a5ad54417a474d22bb16c473415d99a2b6f1" />
+		</dataarea>
+	</part>
+</software>

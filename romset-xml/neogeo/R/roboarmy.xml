@@ -1,0 +1,22 @@
+<software name="roboarmy">
+	<description>Robo Army</description>
+	<year>1991</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="032-p1.p1" offset="0x0" size="0x80000" crc="cd11cbd4" sha1="23163e3da2f07e830a7f4a02aea1cb01a54ccbf3" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x300000">
+		<rom loadflag="load16_byte" name="032-c1.c1" offset="0x0" size="0x100000" crc="97984c6c" sha1="deea59c0892f05dc7db98cb57b3eb83688dc57f0" />
+		<rom loadflag="load16_byte" name="032-c2.c2" offset="0x1" size="0x100000" crc="65773122" sha1="2c0162a8e971e5e57933e4ae16040bf824ffdefe" />
+		<rom loadflag="load16_byte" name="032-c3.c3" offset="0x200000" size="0x80000" crc="40adfccd" sha1="b11f866dd70ba0ed9123424508355cb948b19bdc" />
+		<rom loadflag="load16_byte" name="032-c4.c4" offset="0x200001" size="0x80000" crc="462571de" sha1="5c3d610d492f91564423873b3b434dcda700373f" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="032-v1.v1" offset="0x0" size="0x100000" crc="63791533" sha1="4479e9308cdc906b9e03b985303f4ebedd00512f" />
+		<rom name="032-v2.v2" offset="0x100000" size="0x100000" crc="eb95de70" sha1="b34885201116d2b3bbdee15ec7b5961cf5c069e1" />
+		</dataarea>
+	</part>
+</software>

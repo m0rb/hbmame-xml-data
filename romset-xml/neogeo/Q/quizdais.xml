@@ -1,0 +1,19 @@
+<software name="quizdais">
+	<description>Quiz Daisousa Sen - The Last Count Down (NGM-023 ~ NGH-023)</description>
+	<year>1991</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="023-p1.p1" offset="0x0" size="0x100000" crc="c488fda3" sha1="4cdf2f1837fffd720efef42f81f933bdf2ef1402" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="023-c1.c1" offset="0x0" size="0x100000" crc="2999535a" sha1="0deabf771039987b559edc2444eea741bd7ba861" />
+		<rom loadflag="load16_byte" name="023-c2.c2" offset="0x1" size="0x100000" crc="876a99e6" sha1="8d1dcfc0927d7523f8be8203573192406ec654b4" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x100000">
+		<rom name="023-v1.v1" offset="0x0" size="0x100000" crc="a53e5bd3" sha1="cf115c6478ce155d889e6a5acb962339e08e024b" />
+		</dataarea>
+	</part>
+</software>

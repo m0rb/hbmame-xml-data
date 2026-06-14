@@ -1,0 +1,28 @@
+<software name="savagere">
+	<description>Savage Reign / Fu&#x27;un Mokushiroku - Kakutou Sousei</description>
+	<year>1995</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="059-p1.p1" offset="0x100000" size="0x100000" crc="01d4e9c0" sha1="3179d2be59bf2de6918d506117cff50acf7e09f3" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="059-c1.c1" offset="0x0" size="0x200000" crc="763ba611" sha1="d3262e0332c894ee149c5963f882cc5e5562ee57" />
+		<rom loadflag="load16_byte" name="059-c2.c2" offset="0x1" size="0x200000" crc="e05e8ca6" sha1="986a9b16ff92bc101ab567d2d01348e093abea9a" />
+		<rom loadflag="load16_byte" name="059-c3.c3" offset="0x400000" size="0x200000" crc="3e4eba4b" sha1="770adec719e63a30ebe9522cc7576caaca44f3b2" />
+		<rom loadflag="load16_byte" name="059-c4.c4" offset="0x400001" size="0x200000" crc="3c2a3808" sha1="698adcec0715c9e78b6286be38debf0ce28fd644" />
+		<rom loadflag="load16_byte" name="059-c5.c5" offset="0x800000" size="0x200000" crc="59013f9e" sha1="5bf48fcc450da72a8c4685f6e3887e67eae49988" />
+		<rom loadflag="load16_byte" name="059-c6.c6" offset="0x800001" size="0x200000" crc="1c8d5def" sha1="475d89a5c4922a9f6bd756d23c2624d57b6e9d62" />
+		<rom loadflag="load16_byte" name="059-c7.c7" offset="0xc00000" size="0x200000" crc="c88f7035" sha1="c29a428b741f4fe7b71a3bc23c87925b6bc1ca8f" />
+		<rom loadflag="load16_byte" name="059-c8.c8" offset="0xc00001" size="0x200000" crc="484ce3ba" sha1="4f21ed20ce6e2b67e2b079404599310c94f591ff" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x600000">
+		<rom name="059-v1.v1" offset="0x0" size="0x200000" crc="530c50fd" sha1="29401cee7f7d2c199c7cb58092e86b28205e81ad" />
+		<rom name="059-v2.v2" offset="0x200000" size="0x200000" crc="eb6f1cdb" sha1="7a311388315ea543babf872f62219fdc4d39d013" />
+		<rom name="059-v3.v3" offset="0x400000" size="0x200000" crc="7038c2f9" sha1="c1d6f86b24feba03fe009b58199d2eeabe572f4e" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,28 @@
+<software name="kof99p02" cloneof="kof99p00">
+	<description>Kof&#x27;99 (Remix Remix 1.07A)</description>
+	<year>2004</year>
+	<publisher>Raymonose, Jasonly, Eddids, Andy chan, Hiker</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="251p02.p1" offset="0x0" size="0x100000" crc="ab81c822" sha1="6091c9018b9384c34fd87bcad03e3e17d984bc56" />
+		<rom loadflag="load16_word_swap" name="251rp.p2" offset="0x100000" size="0x400000" crc="c923ee2b" sha1="98b4f40812d5479f7d6e683e5ef4002f4c86785c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xe00000">
+		<rom name="251.v1" offset="0x0" size="0x400000" crc="ef2eecc8" sha1="8ed13b9db92dba3124bc5ba66e3e275885ece24a" />
+		<rom name="251.v2" offset="0x400000" size="0x400000" crc="73e211ca" sha1="0e60fa64cab6255d9721e2b4bc22e3de64c874c5" />
+		<rom name="251.v3" offset="0x800000" size="0x400000" crc="821901da" sha1="c6d4975bfaa19a62ed59126cadf2578c0a5c257f" />
+		<rom name="251.v4" offset="0xc00000" size="0x200000" crc="b49e6178" sha1="dde6f76e958841e8c99b693e13ced9aa9ef316dc" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="proto_251.c1" offset="0x0" size="0x800000" crc="e5d8ffa4" sha1="65f15f9f02424a7a9dd35916166594f283e8d424" />
+		<rom loadflag="load16_byte" name="proto_251.c2" offset="0x1" size="0x800000" crc="d822778f" sha1="b590055e9bf1549bd6e1ecdabd65702202615712" />
+		<rom loadflag="load16_byte" name="proto_251.c3" offset="0x1000000" size="0x800000" crc="f20959e8" sha1="38293043fa77ac51c5e3191118874c58f1ae4d30" />
+		<rom loadflag="load16_byte" name="proto_251.c4" offset="0x1000001" size="0x800000" crc="54ffbe9f" sha1="8e62442923551f07a552621951b1accab2830e3b" />
+		<rom loadflag="load16_byte" name="proto_251.c5" offset="0x2000000" size="0x800000" crc="d87a3bbc" sha1="430f6812088712e0eb5714dcc664d8bba75e921a" />
+		<rom loadflag="load16_byte" name="proto_251.c6" offset="0x2000001" size="0x800000" crc="4d40a691" sha1="2b580d0678a5e6033ef16130671e860364d35e56" />
+		<rom loadflag="load16_byte" name="proto_251.c7" offset="0x3000000" size="0x800000" crc="a4479a58" sha1="d50e6cc9ccfe1ddbc6d90d46b8ca2cb0304edd8c" />
+		<rom loadflag="load16_byte" name="proto_251.c8" offset="0x3000001" size="0x800000" crc="ead513ce" sha1="e9b07a0b01fdeb3004755a479df059c81b4d0ed6" />
+		</dataarea>
+	</part>
+</software>

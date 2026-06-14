@@ -1,0 +1,18 @@
+<software name="vliner54" cloneof="vliner">
+	<description>V-Liner (v0.54)</description>
+	<year>2001</year>
+	<publisher>Dyna / BrezzaSoft</publisher>
+	<info name="source" value="vliner" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="epr_54.p1" offset="0x0" size="0x80000" crc="172efc18" sha1="8ca739f8780a9e6fa19ac2c3e931d75871603f58" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="c-1.c1" offset="0x0" size="0x80000" crc="5118f7c0" sha1="b6fb6e9cbb660580d98e00780ebf248c0995145a" />
+		<rom loadflag="load16_byte" name="c-2.c2" offset="0x1" size="0x80000" crc="efe9b33e" sha1="910c651aadce9bf59e51c338ceef62287756d2e8" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		</dataarea>
+	</part>
+</software>

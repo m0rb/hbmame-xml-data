@@ -1,0 +1,26 @@
+<software name="mslug5dh16" cloneof="mslug5">
+	<description>Metal Slug 5 (Weapon Rocket Launcher with Infinite Ammo)</description>
+	<year>2003</year>
+	<publisher>Creamymami[EGCG]</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="268dh16.p1" offset="0x0" size="0x100000" crc="10d7c3b4" sha1="cb8c06db5ef02dae526673e56ec71570348bf645" />
+		<rom loadflag="load16_word_swap" name="268nd.p2" offset="0x100000" size="0x400000" crc="768ee64a" sha1="76a65a69aee749758a2101aabdd44f3404838b54" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="268.v1" offset="0x0" size="0x800000" crc="ae31d60c" sha1="c42285cf4e52fea74247860813e826df5aa7600a" />
+		<rom name="268.v2" offset="0x800000" size="0x800000" crc="c40613ed" sha1="af889570304e2867d7dfea1e94e388c06249fb67" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="268hd.c1" offset="0x0" size="0x800000" crc="e8239365" sha1="e0a75902a783110049730b66ad3cbccdd804bf62" />
+		<rom loadflag="load16_byte" name="268hd.c2" offset="0x1" size="0x800000" crc="89b21d4c" sha1="862ac31ce9570529b33e6f58ada0ac867a442679" />
+		<rom loadflag="load16_byte" name="268hd.c3" offset="0x1000000" size="0x800000" crc="3cda13a0" sha1="5d029c92688384eafd65ad711a2954d0b86a3163" />
+		<rom loadflag="load16_byte" name="268hd.c4" offset="0x1000001" size="0x800000" crc="9c00160d" sha1="c612102f9cd288bba4c245b5855d795e4362b217" />
+		<rom loadflag="load16_byte" name="268hd.c5" offset="0x2000000" size="0x800000" crc="38754256" sha1="744d91d041998ca27ee2781188746797c65377bd" />
+		<rom loadflag="load16_byte" name="268hd.c6" offset="0x2000001" size="0x800000" crc="59d33e9c" sha1="ed7f5c7db4c35ec5a7db0ad5436110b3fe80b89a" />
+		<rom loadflag="load16_byte" name="268hd.c7" offset="0x3000000" size="0x800000" crc="c9f8c357" sha1="7064224afa887f57245f5479b0b46228539a131b" />
+		<rom loadflag="load16_byte" name="268hd.c8" offset="0x3000001" size="0x800000" crc="fafc3eb9" sha1="f4f73194cc7fd151be3ca2561f993b5be7628369" />
+		</dataarea>
+	</part>
+</software>

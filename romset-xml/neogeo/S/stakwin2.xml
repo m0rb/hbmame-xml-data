@@ -1,0 +1,23 @@
+<software name="stakwin2">
+	<description>Stakes Winner 2</description>
+	<year>1996</year>
+	<publisher>Saurus</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="227-p1.p1" offset="0x100000" size="0x100000" crc="daf101d2" sha1="96b90f884bae2969ebd8c04aba509928464e2433" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0xc00000">
+		<rom loadflag="load16_byte" name="227-c1.c1" offset="0x0" size="0x400000" crc="7d6c2af4" sha1="e54f0ab15c95d7a6f965b5d8ab28b5445100650b" />
+		<rom loadflag="load16_byte" name="227-c2.c2" offset="0x1" size="0x400000" crc="7e402d39" sha1="9d3a44f98ddd0b606c8b3efa0c6b9d5a46c0bfeb" />
+		<rom loadflag="load16_byte" name="227-c3.c3" offset="0x800000" size="0x200000" crc="93dfd660" sha1="5b473c556ef919cd7a872351dbb20a636aae32b6" />
+		<rom loadflag="load16_byte" name="227-c4.c4" offset="0x800001" size="0x200000" crc="7efea43a" sha1="3f2b1718fe7be06b6d75ec34badc2de2a3554d3e" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x800000">
+		<rom name="227-v1.v1" offset="0x0" size="0x400000" crc="b8f24181" sha1="0a3af88d20ff65b82c58325d32c20b99fc07f7f3" />
+		<rom name="227-v2.v2" offset="0x400000" size="0x400000" crc="ee39e260" sha1="4ed6802564ce262ebe92c7276424056b70998758" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,23 @@
+<software name="mahoudai02" cloneof="sstriker">
+	<description>Mahou Daisakusen (Chinese V1)</description>
+	<year>1993</year>
+	<publisher>Raizing (Able license)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_word_swap" name="ra_ma_01_01.u65" offset="0x0" size="0x80000" crc="970ccc5c" sha1="c87cab83bde0284e631f02e50068407fee81d941" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="ra-ma-01_02.u66" offset="0x0" size="0x10000" crc="eabfa46d" sha1="402c99ebf88f9025f74f0a28ced22b7882a65eb3" />
+		</dataarea>
+		<dataarea name="gp9001_0" size="0x200000">
+		<rom name="s02.u2" offset="0x0" size="0x100000" crc="7441e469" sha1="ba1b127b6878ec45054c7220510a1ec0a8c06a0a" />
+		<rom name="s02.u1" offset="0x100000" size="0x100000" crc="eb9f8159" sha1="db8e10b847b0fbb34136c1a320ca0a160ac2646e" />
+		</dataarea>
+		<dataarea name="oki1" size="0x40000">
+		<rom name="ra-ma01-rom1.u57" offset="0x0" size="0x40000" crc="6edb2ab8" sha1="e3032e8eda2686f30df4b7a088c5a4d4d45782ed" />
+		</dataarea>
+		<dataarea name="text" size="0x8000">
+		<rom name="ra_ma_01_05.u81" offset="0x0" size="0x8000" crc="c00d1e80" sha1="53e64c4c0c6309130b37597d13b44a9e95b717d8" />
+		</dataarea>
+	</part>
+</software>

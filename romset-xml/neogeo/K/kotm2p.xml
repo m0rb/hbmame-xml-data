@@ -1,0 +1,31 @@
+<software name="kotm2p" cloneof="kotm2">
+	<description>King of the Monsters 2 - The Next Thing (prototype)</description>
+	<year>1992</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="proto_039-p1.p1" offset="0x1" size="0x80000" crc="3c1d17e7" sha1="aeaff465fafa46ded903ed4e8cb8cd05de8dc096" />
+		<rom loadflag="load16_byte" name="proto_039-p2.p2" offset="0x0" size="0x80000" crc="bc9691f0" sha1="3854659b952d4f8c2edd5d59858a61ce6d518604" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x600000">
+		<rom loadflag="load32_byte" name="proto_039-c1.c1" offset="0x0" size="0x100000" crc="7192a787" sha1="7bef6ce79c618103485480aee3c6f856968eb51f" />
+		<rom loadflag="load32_byte" name="proto_039-c2.c2" offset="0x2" size="0x100000" crc="7157eca1" sha1="65f36c6a3834775b04076d2c38a6047bffe9a8cf" />
+		<rom loadflag="load32_byte" name="proto_039-c3.c3" offset="0x1" size="0x100000" crc="11d75727" sha1="5a4c7b5ca3f1195e7853b45c5e71c13fe74d16e9" />
+		<rom loadflag="load32_byte" name="proto_039-c4.c4" offset="0x3" size="0x100000" crc="7ad48b28" sha1="27e65d948f08c231107cb1a810e2b06731091fc3" />
+		<rom loadflag="load32_byte" name="proto_039-c5.c5" offset="0x400000" size="0x80000" crc="5bdaf9ca" sha1="60620d42ac6cd0e5da019fede2814a2f4171ff3f" />
+		<rom loadflag="load32_byte" name="proto_039-c6.c6" offset="0x400002" size="0x80000" crc="21d4be8c" sha1="f1b19d37d52d21584f304b7d37d5c096b58219d6" />
+		<rom loadflag="load32_byte" name="proto_039-c7.c7" offset="0x400001" size="0x80000" crc="da55fd00" sha1="52804f955597591fdd1d7478dc340b36d3c08c4a" />
+		<rom loadflag="load32_byte" name="proto_039-c8.c8" offset="0x400003" size="0x80000" crc="592e9267" sha1="0d27de59970ccbcaa1d47909ea3d741ffb0d9e07" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x300000">
+		<rom name="proto_039-v1.v1" offset="0x0" size="0x80000" crc="dd3566f1" sha1="f7c2a3747aaab2bc57cdfa33d8bb9fab057b5214" />
+		<rom name="proto_039-v2.v2" offset="0x80000" size="0x80000" crc="57f60274" sha1="7e17740aa05cf7ad4f9084e147600a8eb82c7284" />
+		<rom name="proto_039-v3.v3" offset="0x100000" size="0x80000" crc="0f008a07" sha1="ed243a0449232bbea409308c3fec7e057fcd8501" />
+		<rom name="proto_039-v4.v4" offset="0x180000" size="0x80000" crc="1943d0fe" sha1="47fb716c76ea6b5fe64204ff6d72b7feea10bda9" />
+		<rom name="proto_039-v5.v5" offset="0x200000" size="0x80000" crc="13be045b" sha1="0e3713ae6b164ebae434c0f18c466365b26b9a77" />
+		<rom name="proto_039-v6.v6" offset="0x280000" size="0x80000" crc="d1dd3fd6" sha1="052b92168a76cf3a97c8cacebcc3ebab228726df" />
+		</dataarea>
+	</part>
+</software>

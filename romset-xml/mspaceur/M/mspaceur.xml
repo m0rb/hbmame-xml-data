@@ -1,0 +1,17 @@
+<software name="mspaceur" cloneof="mspacman">
+	<description>Ms. Pac-man</description>
+	<year>1993</year>
+	<publisher>ImpEuropeX Corp</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x18000">
+		<rom name="mspaceur.cpu" offset="0x0" size="0x4000" crc="03905a76" sha1="1780ef598c6150ffa44bf467479670f7ca50d512" />
+		<rom loadflag="continue" offset="0x10000" size="0x4000" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mspacj.gfx" offset="0x0" size="0x800" crc="8ee4a3b0" sha1="01e3453c99f7a5d78ab083c49c650e898c0dd2ee" />
+		<rom loadflag="continue" offset="0x1000" size="0x800" />
+		<rom loadflag="continue" offset="0x800" size="0x800" />
+		<rom loadflag="continue" offset="0x1800" size="0x800" />
+		</dataarea>
+	</part>
+</software>

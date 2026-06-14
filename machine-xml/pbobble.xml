@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="pbobble" description="Pbobble cartridges">
+<software name="bubbleb">
+	<description>Bubble Buster</description>
+	<year>1994</year>
+	<publisher>Taito Corporation</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_byte" name="pb-1c18.bin" offset="0x0" size="0x40000" crc="5de14f49" sha1="91d537748f26e19a5c32de4b8dad341750de39ef" />
+		<rom loadflag="load16_byte" name="pb-ic2.usa" offset="0x1" size="0x40000" crc="b3b7566b" sha1="455342b6988741f8c83ed97ef1a2d3b885cbc9d1" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom name="pb-ic27.bin" offset="0x0" size="0x20000" crc="26efa4c4" sha1="795af8f6d23c2cbe2c811ec9ab1f14a4eee3f99e" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="pb-ic15.bin" offset="0x0" size="0x100000" crc="0840cbc4" sha1="1adbd7aef44fa80832f63dfb8efdf69fd7256a57" />
+		</dataarea>
+		<dataarea name="tc0180vcu" size="0x100000">
+		<rom name="pb-ic14.bin" offset="0x0" size="0x80000" crc="55f90ea4" sha1="793c79e5b72171124368ad09dd31235252c541f5" />
+		<rom name="pb-ic9.bin" offset="0x80000" size="0x80000" crc="3253aac9" sha1="916d85aa96e2914630833292a0655b0389b4a39b" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

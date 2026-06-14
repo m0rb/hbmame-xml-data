@@ -1,0 +1,16 @@
+<software name="sokoban">
+	<description>Sokoban LE</description>
+	<year>2015</year>
+	<publisher>cmonkey</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="sokoban.ic10" offset="0x0" size="0x10000" crc="5959ddb4" sha1="73f206e19cdfd151426092aa3eea6f72093f360b" />
+		</dataarea>
+		<dataarea name="maincpu:gfx" size="0x20000">
+		<rom loadflag="load16_byte" name="sokoban.ic9" offset="0x0" size="0x10000" crc="859e1ff4" sha1="899b71bd0eb9923e88cf7142ed634b36b3e34c6c" />
+		<rom loadflag="load16_byte" name="sokoban.ic8" offset="0x1" size="0x10000" crc="439a6670" sha1="79144e3ba5205f5356f28d3b23ef32d3d4fca51c" />
+		</dataarea>
+		<dataarea name="plds" size="0x200">
+		</dataarea>
+	</part>
+</software>

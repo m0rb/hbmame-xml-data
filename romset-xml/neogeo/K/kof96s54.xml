@@ -1,0 +1,21 @@
+<software name="kof96s54" cloneof="kof96">
+	<description>Kof&#x27;96 (10th Anniversary Edition set 2)</description>
+	<year>2007</year>
+	<publisher>EGHT</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="214s53.p1" offset="0x0" size="0x100000" crc="47660e7c" sha1="d6e4595c1c4cc14896bea187668580c73da6c1e7" />
+		<rom loadflag="load16_word_swap" name="214s53.p2" offset="0x100000" size="0x400000" crc="824ff3eb" sha1="c3efdcd7e72ac4164721f80b097e874b98539720" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="214.v1" offset="0x0" size="0x400000" crc="63f7b045" sha1="1353715f1a8476dca6f8031d9e7a401eacab8159" />
+		<rom name="214.v2" offset="0x400000" size="0x400000" crc="25929059" sha1="6a721c4cb8f8dc772774023877d4a9f50d5a9e31" />
+		<rom name="214s53.v3" offset="0x800000" size="0x400000" crc="143923a7" sha1="1ba0fc91fd8bdf51c3cab6191ec275a3da5d75bb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="214s54.c1" offset="0x0" size="0x1800000" crc="c68508df" sha1="f7e9ad7cfe506658a7aec51c79ebc119db456655" />
+		<rom loadflag="load16_byte" name="214s54.c2" offset="0x1" size="0x1800000" crc="078d9390" sha1="ef78328ee7e663a38318bb4c20f4c9c3316536ea" />
+		</dataarea>
+	</part>
+</software>

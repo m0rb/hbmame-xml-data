@@ -1,0 +1,29 @@
+<software name="sfz2als10" cloneof="sfz2al">
+	<description>Street Fighter Zero 2 Alpha (Super Golden, 2020-02-17)</description>
+	<year>2020</year>
+	<publisher>MamePlus</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c67s10.p1" offset="0x0" size="0x80000" crc="abc5f2e6" sha1="b39e8615ac4bed377a418acdcf772eeee60c2274" />
+		<rom loadflag="load16_word_swap" name="c67s10.p2" offset="0x80000" size="0x80000" crc="f51b61bf" sha1="3192ff7e9d86465d9af0fbbf882d07aab82614f9" />
+		<rom loadflag="load16_word_swap" name="c67j.p3" offset="0x100000" size="0x80000" crc="c88ebf88" sha1="e37cf232fc70b9a3254dea99754e288232f04e25" />
+		<rom loadflag="load16_word_swap" name="c67j.p4" offset="0x180000" size="0x80000" crc="35ed5b7a" sha1="b03cb92f594eb35fa374445f74930e9040a2baff" />
+		<rom loadflag="load16_word_swap" name="c67s10.p5" offset="0x200000" size="0x80000" crc="030fc34c" sha1="1fadda6b35df0a501bf15de022e2e15b7284c999" />
+		<rom loadflag="load16_word_swap" name="c67s10.p6" offset="0x280000" size="0x80000" crc="0e760f1d" sha1="679e4ab16bb7f6a5c3e566e093816f9e9f678085" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c64.m1" offset="0x0" size="0x8000" crc="1bc323cf" sha1="83fbd6e9b327700dc9f1c59700b7385bc3705749" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c64.m2" offset="0x28000" size="0x20000" crc="ba6a5013" sha1="7814f3e56b69529b9860dd61c3b1e8d700244b03" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="sfz2alj.key" offset="0x0" size="0x14" crc="4c42320f" sha1="0fabdab677416c5a8060526d997e6f80b26f9bb3" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c64.q1" offset="0x0" size="0x200000" crc="aa47a601" sha1="a4d1ee89c84a3b9db06469bb66e85293b5aa9ac9" />
+		<rom loadflag="load16_word_swap" name="c64.q2" offset="0x200000" size="0x200000" crc="2237bc53" sha1="96d5693047e4cf1ed10a8ee1905cea267a278e92" />
+		</dataarea>
+	</part>
+</software>

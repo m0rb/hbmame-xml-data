@@ -1,0 +1,35 @@
+<software name="ddtodp" cloneof="ddtod">
+	<description>Dungeons &amp; Dragons: Tower of Doom (Plus 2016-08-25)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="dape.03c" offset="0x0" size="0x80000" crc="c5e37fb2" sha1="3c33160c8eb1ab2e28ea083c08b36f4d2d573d51" />
+		<rom loadflag="load16_word_swap" name="dape.04c" offset="0x80000" size="0x80000" crc="0a359e5d" sha1="6a0e57bd5d7c2d24888f6548f66deab4df7b9112" />
+		<rom loadflag="load16_word_swap" name="dape.05c" offset="0x100000" size="0x80000" crc="73b06852" sha1="52553fd121a96b4b6c9d4d3ef183b361b84258c6" />
+		<rom loadflag="load16_word_swap" name="dap.06a" offset="0x180000" size="0x80000" crc="4d1e5189" sha1="e5331c10f8c95cb88cb87bdffbf0d2a8f4fd3c79" />
+		<rom loadflag="load16_word_swap" name="dap.07a" offset="0x200000" size="0x80000" crc="b16c12c4" sha1="c341567b121c0cef9b9ea2167d74e68b9d0ece9a" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="dad.01" offset="0x0" size="0x8000" crc="3f5e2424" sha1="4aa744576bc6752c43a90a27a816ebd90076b248" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		<rom loadflag="load16_word" name="dad.13m" offset="0x0" size="0x200000" crc="da3cb7d6" sha1="d59bb53d5f32889eb6eb7f8b1c8781948c97283d" />
+		<rom loadflag="load16_word" name="dad.15m" offset="0x2" size="0x200000" crc="92b63172" sha1="9bed7dbbb17729f2ad3d318396f5335c0bd39937" />
+		<rom loadflag="load16_word" name="dad.17m" offset="0x4" size="0x200000" crc="b98757f5" sha1="3eead22e097906bf0e1e151cd0a9c75abc5a32d4" />
+		<rom loadflag="load16_word" name="dad.19m" offset="0x6" size="0x200000" crc="8121ce46" sha1="40c4dc969318d38f0c6d5401c9c64371f51aa12c" />
+		<rom loadflag="load16_word" name="dad.14m" offset="0x800000" size="0x100000" crc="837e6f3f" sha1="c060183474fba0e82d765b9f282b84838550dff6" />
+		<rom loadflag="load16_word" name="dad.16m" offset="0x800002" size="0x100000" crc="f0916bdb" sha1="9354d258dd26cbbf12c78ecfc277c357cbdb360e" />
+		<rom loadflag="load16_word" name="dad.18m" offset="0x800004" size="0x100000" crc="cef393ef" sha1="830b33c86cc24776d17ad65fa89a3b16c40446a1" />
+		<rom loadflag="load16_word" name="dad.20m" offset="0x800006" size="0x100000" crc="8953fe9e" sha1="f4795beb006335d13e3934aa9760e775eb0bb950" />
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="phoenix.key" offset="0x0" size="0x14" crc="2cf772b0" sha1="eff33c65a4f3862c231f9e4d6fefa7b34398dbf2" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="dad.11m" offset="0x0" size="0x200000" crc="0c499b67" sha1="a8ebd8a1cd6dece8344b7cb0439d85843fb97616" />
+		<rom loadflag="load16_word_swap" name="dad.12m" offset="0x200000" size="0x200000" crc="2f0b5a4e" sha1="8d1ebbb811aa469b0f0d29d719d2b9af28fb63a2" />
+		</dataarea>
+	</part>
+</software>

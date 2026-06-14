@@ -1,0 +1,27 @@
+<software name="dinod01" cloneof="dino">
+	<description>Dinosaur Hunter (Challenge Edition, 2017-11-16)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c25d01.p1" offset="0x0" size="0x80000" crc="a5c8cd20" sha1="2f2cbca0013058b8bfbc2695a234c11a934b9d35" />
+		<rom loadflag="load16_word_swap" name="c25d01.p2" offset="0x80000" size="0x80000" crc="3a8ed567" sha1="fc064de6a82f199669eb329294a972027e43b58a" />
+		<rom loadflag="load16_word_swap" name="c25d01.p3" offset="0x100000" size="0x80000" crc="74c155b8" sha1="46dbdfd56a50cc1bea23311d5b6c6f4c11a72817" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c25.m1" offset="0x0" size="0x8000" crc="605fdb0b" sha1="9da90ddc6513aaaf2260f0c69719c6b0e585ba8c" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="dino.key" offset="0x0" size="0x80" crc="6cf0c283" sha1="9da83b20665b565acb7e127a8e78adbcb6629175" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="qsound" size="0x200000">
+		<rom name="c25.q1" offset="0x0" size="0x80000" crc="60927775" sha1="f8599bc84c38573ebbe8685822c58b6a38b50462" />
+		<rom name="c25.q2" offset="0x80000" size="0x80000" crc="770f4c47" sha1="fec8ef00a6669d4d5e37787ecc7b58ee46709326" />
+		<rom name="c25.q3" offset="0x100000" size="0x80000" crc="2f273ffc" sha1="f0de462f6c4d251911258e0ebd886152c14d1586" />
+		<rom name="c25.q4" offset="0x180000" size="0x80000" crc="2c67821d" sha1="6e2528d0b22508300a6a142a796dd3bf53a66946" />
+		</dataarea>
+	</part>
+</software>

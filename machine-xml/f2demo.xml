@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="f2demo" description="F2Demo cartridges">
+<software name="f2demo">
+	<description>Demo - Taito F2</description>
+	<year>1990</year>
+	<publisher>Charles Doty</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_byte" name="lq09.bin" offset="0x0" size="0x20000" crc="809a968b" sha1="06e8be120869371d33c61fa14c48fe4e5fd659ec" />
+		<rom loadflag="load16_byte" name="lq11.bin" offset="0x1" size="0x20000" crc="7ba3a5cb" sha1="08f5392296cceadcae0cd34e9dfe76c835583231" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x1c000">
+		<rom name="c49-08.ic32" offset="0x0" size="0x10000" crc="413c310c" sha1="cecb1c0c9fe3c8b744f95ce29009650a289107ab" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="lk_snd.bin" offset="0x0" size="0x80000" crc="474d45a4" sha1="20cb818d753a185973098007e645f1aa75c5528d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_word_swap" name="f2d_obj0.bin" offset="0x0" size="0x80000" crc="1bb8aa37" sha1="9051270485a7a995779c80b4e692b8395503d6c3" />
+		<rom loadflag="load16_word_swap" name="f2d_obj1.bin" offset="0x80000" size="0x80000" crc="75660aac" sha1="6a521e1d2a632c26e53b83d2cc4b0edecfc1e68c" />
+		</dataarea>
+		<dataarea name="tc0100scn_1" size="0x80000">
+		<rom loadflag="load16_word_swap" name="f2d_scr.bin" offset="0x0" size="0x80000" crc="b178fb05" sha1="3d33dd822622579c75b55971926f6eb04d33f5a6" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

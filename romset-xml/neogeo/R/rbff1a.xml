@@ -1,0 +1,29 @@
+<software name="rbff1a" cloneof="rbff1">
+	<description>Real Bout Fatal Fury / Real Bout Garou Densetsu (bug fix revision)</description>
+	<year>1995</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x300000">
+		<rom loadflag="load16_word_swap" name="095-p1.p1" offset="0x0" size="0x100000" crc="63b4d8ae" sha1="03aa9f6bab6aee685d1b57a52823797704eea845" />
+		<rom loadflag="load16_word_swap" name="095-p2.sp2" offset="0x100000" size="0x200000" crc="cc15826e" sha1="44d6ac6c0ca697a6f367dcfd809b1e1771cb0635" />
+		<rom loadflag="load16_word_swap" name="095-epr.ep1" offset="0x0" size="0x80000" crc="be0060a3" sha1="fa741d34898ad5004a23e280139d1446f1a082c7" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x1c00000">
+		<rom loadflag="load16_byte" name="069-c1.c1" offset="0x0" size="0x400000" crc="e302f93c" sha1="d8610b14900b2b8fe691b67ca9b1abb335dbff74" />
+		<rom loadflag="load16_byte" name="069-c2.c2" offset="0x1" size="0x400000" crc="1053a455" sha1="69501bfac68739e63d798045b812badd251d57b8" />
+		<rom loadflag="load16_byte" name="069-c3.c3" offset="0x800000" size="0x400000" crc="1c0fde2f" sha1="cf6c2ef56c03a861de3b0b6dc0d7c9204d947f9d" />
+		<rom loadflag="load16_byte" name="069-c4.c4" offset="0x800001" size="0x400000" crc="a25fc3d0" sha1="83cb349e2f1032652060b233e741fb893be5af16" />
+		<rom loadflag="load16_byte" name="095-c5.c5" offset="0x1000000" size="0x400000" crc="8b9b65df" sha1="e2a7e20855501f240bcd22f5cc92fcb4a9806abe" />
+		<rom loadflag="load16_byte" name="095-c6.c6" offset="0x1000001" size="0x400000" crc="3e164718" sha1="53217f938c8964c1ca68a6fd5249c4169a5ac8e6" />
+		<rom loadflag="load16_byte" name="095-c7.c7" offset="0x1800000" size="0x200000" crc="ca605e12" sha1="5150b835247fd705bc1dece97d423d9c20a51416" />
+		<rom loadflag="load16_byte" name="095-c8.c8" offset="0x1800001" size="0x200000" crc="4e6beb6c" sha1="c0ac7cfc832ace6ad52c58f5da3a8101baead749" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0xc00000">
+		<rom name="069-v1.v1" offset="0x0" size="0x400000" crc="2bdbd4db" sha1="5f4fecf69c2329d699cbd45829c19303b1e2a80e" />
+		<rom name="069-v2.v2" offset="0x400000" size="0x400000" crc="a698a487" sha1="11b8bc53bc26a51f4a408e900e3769958625c4ed" />
+		<rom name="095-v3.v3" offset="0x800000" size="0x400000" crc="189d1c6c" sha1="f0b8cd1ee40ea3feeb2800f0723b451ec8240203" />
+		</dataarea>
+	</part>
+</software>

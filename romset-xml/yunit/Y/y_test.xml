@@ -1,0 +1,27 @@
+<software name="y_test" cloneof="smashtv">
+	<description>Midway Y-unit Test Rom v1.40</description>
+	<year>1990</year>
+	<publisher>Williams</publisher>
+	<part name="cart">
+		<dataarea name="cvsd:cpu" size="0x90000">
+		<rom name="sl2_smash_tv_sound_rom_u4.u4" offset="0x10000" size="0x10000" crc="29d3f6c8" sha1="8a90cdff54f59ddb7dba521504d880515a59df08" />
+		<rom name="sl2_smash_tv_sound_rom_u19.u19" offset="0x30000" size="0x10000" crc="ac5a402a" sha1="c476018062126dc3936caa2c328de490737165ec" />
+		<rom name="sl2_smash_tv_sound_rom_u20.u20" offset="0x50000" size="0x10000" crc="875c66d9" sha1="51cdad62ec57e69bba6fcf14e59841ec628dec11" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x800000">
+		<rom name="la1_smash_tv_game_rom_u111.u111" offset="0x0" size="0x20000" crc="72f0ba84" sha1="2e925b3cdd3c8e14046b3948d82f0f3cde3c22c5" />
+		<rom name="la1_smash_tv_game_rom_u112.u112" offset="0x20000" size="0x20000" crc="436f0283" sha1="ec33a8942c0fc326db885e08dad9346ec5a63360" />
+		<rom name="la1_smash_tv_game_rom_u113.u113" offset="0x40000" size="0x20000" crc="4a4b8110" sha1="9f1881d1d2682764ab85aebd685d97eb8b4afe46" />
+		<rom name="la1_smash_tv_game_rom_u95.u95" offset="0x200000" size="0x20000" crc="e864a44b" sha1="40eb8e11a183f4f82dc8decb36aaeded9cd1bc26" />
+		<rom name="la1_smash_tv_game_rom_u96.u96" offset="0x220000" size="0x20000" crc="15555ea7" sha1="4fefc059736ca424dc05a08cb55b9acf9e31228b" />
+		<rom name="la1_smash_tv_game_rom_u97.u97" offset="0x240000" size="0x20000" crc="ccac9d9e" sha1="a43d70d1a0bbd377f0fc539c2e8b725f7079f463" />
+		<rom name="la1_smash_tv_game_rom_u106.u106" offset="0x400000" size="0x20000" crc="5c718361" sha1="6178b1d53411f24d5a5a01559727e300cd27d587" />
+		<rom name="la1_smash_tv_game_rom_u107.u107" offset="0x420000" size="0x20000" crc="0fba1e36" sha1="17038cf35a72678bba149a632f1ad1b80cc3a38c" />
+		<rom name="la1_smash_tv_game_rom_u108.u108" offset="0x440000" size="0x20000" crc="cb0a092f" sha1="33cbb87b4be1eadb1f3624ef5e218e65109fa3eb" />
+		</dataarea>
+		<dataarea name="user1" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="y_test.u105" offset="0xc0000" size="0x20000" crc="bd29a7d1" sha1="211905c16874a23840652555757b9d2f2712facb" />
+		<rom loadflag="load16_byte" name="y_test.u89" offset="0xc0001" size="0x20000" crc="6db6e0cd" sha1="3f4c7cd48d6606c03195ed9209f7cedbc9efd42d" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,28 @@
+<software name="aof3k" cloneof="aof3">
+	<description>Art of Fighting 3 - The Path of the Warrior (Korean release)</description>
+	<year>1996</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x300000">
+		<rom loadflag="load16_word_swap" name="196-p1k.p1" offset="0x0" size="0x100000" crc="a0780789" sha1="83657922a9a3502653ef8cda45b15d9f935aa96a" />
+		<rom loadflag="load16_word_swap" name="096-p2.sp2" offset="0x100000" size="0x200000" crc="4d5a2602" sha1="4c26d6135d2877d9c38169662033e9d0cc24d943" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x1c00000">
+		<rom loadflag="load16_byte" name="096-c1.c1" offset="0x0" size="0x400000" crc="f17b8d89" sha1="7180df23f7c7a964b0835fda76970b12f0aa9ea8" />
+		<rom loadflag="load16_byte" name="096-c2.c2" offset="0x1" size="0x400000" crc="3840c508" sha1="55adc7cd26fec3e4dbd779df6701bc6eaba41b84" />
+		<rom loadflag="load16_byte" name="096-c3.c3" offset="0x800000" size="0x400000" crc="55f9ee1e" sha1="fbe1b7891beae66c5fcbc7e36168dc1b460ede91" />
+		<rom loadflag="load16_byte" name="096-c4.c4" offset="0x800001" size="0x400000" crc="585b7e47" sha1="d50ea91397fc53d86470ff5b493a44d57c010306" />
+		<rom loadflag="load16_byte" name="096-c5.c5" offset="0x1000000" size="0x400000" crc="c75a753c" sha1="fc977f8710816a369a5d0d49ee84059380e93fb7" />
+		<rom loadflag="load16_byte" name="096-c6.c6" offset="0x1000001" size="0x400000" crc="9a9d2f7a" sha1="a89a713bfcd93974c9acb21ce699d365b08e7e39" />
+		<rom loadflag="load16_byte" name="096-c7.c7" offset="0x1800000" size="0x200000" crc="51bd8ab2" sha1="c8def9c64de64571492b5b7e14b794e3c18f1393" />
+		<rom loadflag="load16_byte" name="096-c8.c8" offset="0x1800001" size="0x200000" crc="9a34f99c" sha1="fca72d95ec42790a7f1e771a1e25dbc5bec5fc19" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x600000">
+		<rom name="096-v1.v1" offset="0x0" size="0x200000" crc="e2c32074" sha1="69426e7e63fc31a73d1cd056cc9ae6a2c4499407" />
+		<rom name="096-v2.v2" offset="0x200000" size="0x200000" crc="a290eee7" sha1="e66a98cd9740188bf999992b417f8feef941cede" />
+		<rom name="096-v3.v3" offset="0x400000" size="0x200000" crc="199d12ea" sha1="a883bf34e685487705a8dafdd0b8db15eb360e80" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,17 @@
+<software name="bace">
+	<description>Balloon Ace</description>
+	<year>2003</year>
+	<publisher>David Widel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="bace.1" offset="0x0" size="0x1000" crc="8b60ff7c" sha1="c787246f0ae080fc9088631acb923a2df37c14b2" />
+		<rom name="bace.2" offset="0x1000" size="0x1000" crc="25d8361a" sha1="20792c3d4c583dfc0297c6b5db1c14194e053088" />
+		<rom name="bace.3" offset="0x2000" size="0x1000" crc="fc38d994" sha1="319691caf79292f21282006337df3c637c033602" />
+		<rom name="bace.4" offset="0x3000" size="0x1000" crc="5853f341" sha1="0794324ee1bab92baaa6f5bf2cd647ce10614200" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="bace.5e" offset="0x0" size="0x1000" crc="6da99c7b" sha1="dcd488e0117662caf77f453b73330740ae34ca55" />
+		<rom name="bace.5f" offset="0x1000" size="0x1000" crc="b81cdc64" sha1="67f4cde661dbcdcf0192289e31ee80cbd0dc9dc5" />
+		</dataarea>
+	</part>
+</software>

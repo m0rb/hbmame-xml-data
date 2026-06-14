@@ -1,0 +1,33 @@
+<software name="bubblem01" cloneof="bubblem">
+	<description>Bubble Memories: Black Edition (World)</description>
+	<year>2020</year>
+	<publisher>rtw, MetalliC</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="bmbe.20" offset="0x0" size="0x80000" crc="c4a1e3c2" sha1="a49aac034aa75b76553f700dfff155635048c291" />
+		<rom loadflag="load32_byte" name="bmbe.19" offset="0x1" size="0x80000" crc="bd9c3812" sha1="3b6d7ca84ec81c32f604ff1883f37272eaf4efa2" />
+		<rom loadflag="load32_byte" name="bmbe.18" offset="0x2" size="0x80000" crc="c5a6ec87" sha1="2f64647f23e34b978adbbd09373dd1e1e9100259" />
+		<rom loadflag="load32_byte" name="bmbe.17" offset="0x3" size="0x80000" crc="a15e492d" sha1="2f05f8b26a50d57a82362dd0b34bf0e85ecfca97" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="e21-02.rom" offset="0x0" size="0x200000" crc="b7cb9232" sha1="ba71cb98d49eadebb26d9f53bbaec1dc211077f5" />
+		<rom loadflag="load16_byte" name="e21-01.rom" offset="0x1" size="0x200000" crc="a11f2f99" sha1="293c5996600cad05bf98f936f5f820d93d546099" />
+		</dataarea>
+		<dataarea name="eeprom" endianness="big" size="0x80">
+		<rom name="bubblem.nv" offset="0x0" size="0x80" crc="9a59326e" sha1="071dbfbfd77f7020476ddb54c93f5fafa7a08159" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="e21-12.32" offset="0x100000" size="0x40000" crc="34093de1" sha1="d69d6b5f10b8fe86f727d739ed5aecceb15e01f7" />
+		<rom loadflag="load16_byte" name="e21-13.33" offset="0x100001" size="0x40000" crc="9e9ec437" sha1="b0265b688846c642d240b2f3677d2330d31eaa87" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="e21-03.rom" offset="0x0" size="0x200000" crc="54c5f83d" sha1="10a993199c8d5a1361bd29a4b92c404451c6da01" />
+		<rom loadflag="load16_byte" name="e21-04.rom" offset="0x400000" size="0x200000" crc="e5af2a2d" sha1="62a49504decc7160b710260218920d2d6d2af8f0" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x100000">
+		<rom name="e21-05.rom" offset="0x0" size="0x100000" crc="07eab58f" sha1="ae2d7b839b39d88d11652df74804a39230674467" />
+		</dataarea>
+	</part>
+</software>

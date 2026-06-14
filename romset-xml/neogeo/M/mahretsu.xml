@@ -1,0 +1,27 @@
+<software name="mahretsu">
+	<description>Mahjong Kyo Retsuden (NGM-004 ~ NGH-004)</description>
+	<year>1990</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="004-p1.p1" offset="0x0" size="0x80000" crc="fc6f53db" sha1="64a62ca4c8fb68954e06121399c9402278bd0467" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="004-c1.c1" offset="0x0" size="0x80000" crc="f1ae16bc" sha1="df68feed4dcba1e1566032b01ebb7b478a1792bf" />
+		<rom loadflag="load16_byte" name="004-c2.c2" offset="0x1" size="0x80000" crc="bdc13520" sha1="2bc4c996d019a4c539f6c3188ef18089e54b7efa" />
+		<rom loadflag="load16_byte" name="004-c3.c3" offset="0x100000" size="0x80000" crc="9c571a37" sha1="21388aeb92bb8e15a55a063701ca9df79e292127" />
+		<rom loadflag="load16_byte" name="004-c4.c4" offset="0x100001" size="0x80000" crc="7e81cb29" sha1="5036f04df30cf6903bd1a8cc06ff6f015c24a74b" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x100000">
+		<rom name="004-v11.v11" offset="0x0" size="0x80000" crc="b2fb2153" sha1="36e0cc8927b11105de40188af46f6cf532794c10" />
+		<rom name="004-v12.v12" offset="0x80000" size="0x80000" crc="8503317b" sha1="ab22f1aba1e977ab234a4f1d73dc6ed789dbeb85" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcmb" size="0x180000">
+		<rom name="004-v21.v21" offset="0x0" size="0x80000" crc="4999fb27" sha1="2d4926a220ea21bdd5e816bb16f985fff089500a" />
+		<rom name="004-v22.v22" offset="0x80000" size="0x80000" crc="776fa2a2" sha1="e7d5a362ab7806b7b009700a435c815a20e8ec68" />
+		<rom name="004-v23.v23" offset="0x100000" size="0x80000" crc="b3e7eeea" sha1="4d1e97f380702a3a06e7f954b4caddd9c4119d8f" />
+		</dataarea>
+	</part>
+</software>

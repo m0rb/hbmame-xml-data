@@ -1,0 +1,29 @@
+<software name="area88" cloneof="unsquad">
+	<description>Area 88 (Japan)</description>
+	<year>1989</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c06j.p1" offset="0x0" size="0x20000" crc="65030392" sha1="d9dea5cfde28345716b0e519ee033c475be0454b" />
+		<rom loadflag="load16_byte" name="c06j.p2" offset="0x1" size="0x20000" crc="c48170de" sha1="e968522dbdd217dd8e4cd6aaeaef801c63488c1d" />
+		<rom loadflag="load16_byte" name="c06.p3" offset="0x40000" size="0x20000" crc="33e9694b" sha1="90db3052ac2ff859ede8473dd13e0f5be148590c" />
+		<rom loadflag="load16_byte" name="c06.p4" offset="0x40001" size="0x20000" crc="7cc8fb9e" sha1="f70118d1a368fd4795d9953c55d283305d1f9630" />
+		<rom loadflag="load16_byte" name="c06j.p5" offset="0x80000" size="0x20000" crc="f6e80386" sha1="462c1e9981b733df03e4d084df2d1fc58cf2022c" />
+		<rom loadflag="load16_byte" name="c06j.p6" offset="0x80001" size="0x20000" crc="be36c145" sha1="9ada7ac7361ff8871e2ae61f75e4e5d98936cdc3" />
+		<rom loadflag="load16_byte" name="c06j.p7" offset="0xc0000" size="0x20000" crc="86d98ff3" sha1="18137974fb7812b45f0d93e584ed14d0af2e6a3e" />
+		<rom loadflag="load16_byte" name="c06j.p8" offset="0xc0001" size="0x20000" crc="758893d3" sha1="1245bfd35b0f12bd701cd28c9ce2e85e166a4de2" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c06.m1" offset="0x0" size="0x8000" crc="f3dd1367" sha1="09eef72e862ac6b1a5cce5a45938b45bf4e456ad" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="area88.key" offset="0x0" size="0x80" crc="c0c38a7d" sha1="e11eeea87cff5a871864a5be54f4b7e96f32020d" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c06.v1" offset="0x0" size="0x20000" crc="584b43a9" sha1="7820815c8c67d484baf2fdad7e55d8c14b98b860" />
+		</dataarea>
+	</part>
+</software>

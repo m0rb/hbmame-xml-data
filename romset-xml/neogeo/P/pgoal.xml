@@ -1,0 +1,22 @@
+<software name="pgoal">
+	<description>Pleasure Goal / Futsal - 5 on 5 Mini Soccer (NGM-219)</description>
+	<year>1996</year>
+	<publisher>Saurus</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="219-p1.p1" offset="0x100000" size="0x100000" crc="6af0e574" sha1="c3f0fed0d942e48c99c80b1713f271c033ce0f4f" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0xc00000">
+		<rom loadflag="load16_byte" name="219-c1.c1" offset="0x0" size="0x400000" crc="67fec4dc" sha1="b99767972a2a4fce2b704df8d08e6b092665a696" />
+		<rom loadflag="load16_byte" name="219-c2.c2" offset="0x1" size="0x400000" crc="86ed01f2" sha1="9d7d1493946e8fbbd572503d2362b0156c023b76" />
+		<rom loadflag="load16_byte" name="219-c3.c3" offset="0x800000" size="0x200000" crc="5fdad0a5" sha1="56f6d2a7224aa4e82a1858079f918e85cadbd6c2" />
+		<rom loadflag="load16_byte" name="219-c4.c4" offset="0x800001" size="0x200000" crc="f57b4a1c" sha1="875ca69afbc5304ec23f4bc9186abe92f477f6c8" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x400000">
+		<rom name="219-v1.v1" offset="0x0" size="0x400000" crc="d0ae33d9" sha1="cb21a91184d9d84ff25ca86c00dcadfc210272a8" />
+		</dataarea>
+	</part>
+</software>

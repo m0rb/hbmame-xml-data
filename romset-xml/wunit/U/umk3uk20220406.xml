@@ -1,0 +1,46 @@
+<software name="umk3uk20220406" cloneof="umk3">
+	<description>Ultimate Mortal Kombat 3 (UC Edition, 2022-04-06)</description>
+	<year>2022</year>
+	<publisher>TEAM UMK 3</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="uk20220406.u54" offset="0x0" size="0x80000" crc="9fc578a6" sha1="3888df4da2e80da625d0fce995381957a2b2614d" />
+		<rom loadflag="load16_byte" name="uk20220406.u63" offset="0x1" size="0x80000" crc="ecf37541" sha1="a27839303c4af1f27b9afc97400e9da21ad6a587" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0x800000">
+		<rom loadflag="load16_byte" name="l2.0_mortal_kombat_3_u2_ultimate.u2" offset="0x0" size="0x100000" crc="3838cfe5" sha1="e3d2901f3bae1362742fc6ee0aa31c9f63b4dfa3" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_3_u3_music_spch.u3" offset="0x200000" size="0x100000" crc="856fe411" sha1="6165ebecfce7500e948d84492ffa19eed7f47091" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_3_u4_music_spch.u4" offset="0x400000" size="0x100000" crc="428a406f" sha1="e70ec83cd054de0da1e178720ed0035b8887f797" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_3_u5_music_spch.u5" offset="0x600000" size="0x100000" crc="3b98a09f" sha1="edf1d02a56dcf3349e6b4bb4097acfe7592305f4" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0x2400000">
+		<rom loadflag="load32_byte" name="uc20181023.u133" offset="0x0" size="0x100000" crc="62c6f8ab" sha1="cfe77e21cb25b4513411658051b849e3c0dd728c" />
+		<rom loadflag="load32_byte" name="uc20181023.u132" offset="0x1" size="0x100000" crc="87d977dc" sha1="3bd6ded7c212621c3f45e29fa90a19b1c7abaac6" />
+		<rom loadflag="load32_byte" name="uc20181023.u131" offset="0x2" size="0x100000" crc="483cbc7b" sha1="39d03642ea62f8623b76ecf084a390db7c366dcd" />
+		<rom loadflag="load32_byte" name="uc20181023.u130" offset="0x3" size="0x100000" crc="ecf63628" sha1="3efeda0a59f110e6ab17247b1fed7965291ec885" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u129_game_rom.u129" offset="0x400000" size="0x100000" crc="a8b41803" sha1="9697e35e8bb51d6d36b1d7ae47377b446e57682f" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u128_game_rom.u128" offset="0x400001" size="0x100000" crc="b410d72f" sha1="ac5c1c6f744186540f4ab100d9bd4ce6007e600b" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u127_game_rom.u127" offset="0x400002" size="0x100000" crc="bd985be7" sha1="f5183abea2e5eb2c2c8cefa72c9ed321679f5128" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u126_game_rom.u126" offset="0x400003" size="0x100000" crc="e7c32cf4" sha1="94ea7b2eed7dae66f5dd676c20d6b360140e3e0e" />
+		<rom loadflag="load32_byte" name="uc20181023.u125" offset="0x800000" size="0x100000" crc="78e8b9e5" sha1="9a5f87e896c023b70b74a40c4fcb82e46cd8b1cb" />
+		<rom loadflag="load32_byte" name="uc20181023.u124" offset="0x800001" size="0x100000" crc="1137536c" sha1="8aee7855a454eeb68e51205ba47e94a0a2915ee3" />
+		<rom loadflag="load32_byte" name="uc20181023.u123" offset="0x800002" size="0x100000" crc="6a65e954" sha1="b04e64f361500093450a1a648dad13412282bda1" />
+		<rom loadflag="load32_byte" name="uc20181023.u122" offset="0x800003" size="0x100000" crc="e6274718" sha1="66bc57f4e05af9b27caa89fb0a3bd5aef3892117" />
+		<rom loadflag="load32_byte" name="uc20220207.u121" offset="0xc00000" size="0x100000" crc="2a941ed3" sha1="c4c9721bcb3e2aab3cc10521736c7602e09b16fe" />
+		<rom loadflag="load32_byte" name="uc20220207.u120" offset="0xc00001" size="0x100000" crc="57b7a2c1" sha1="4a62f47586e7c3a41564b6379dd4fb87fadad36c" />
+		<rom loadflag="load32_byte" name="uc20220207.u119" offset="0xc00002" size="0x100000" crc="e62e43ec" sha1="2121a8a914b649f36e86f37d018075cde1e4472d" />
+		<rom loadflag="load32_byte" name="uc20220207.u118" offset="0xc00003" size="0x100000" crc="70ebc1a4" sha1="566e8944c29e24e69c1d931dc5569db7fda2f2fa" />
+		<rom loadflag="load32_byte" name="uk20220406.u117" offset="0x1000000" size="0x100000" crc="0fbe24ac" sha1="db1a37ef864c2e7f5de4de7ee0ec93221126633c" />
+		<rom loadflag="load32_byte" name="uk20220406.u116" offset="0x1000001" size="0x100000" crc="94c8284f" sha1="d9773b447932b5074290056a542e36c81d635cfd" />
+		<rom loadflag="load32_byte" name="uk20220406.u115" offset="0x1000002" size="0x100000" crc="f36e8eb1" sha1="dbe7050cd1d0765593cf0a0310ff50075a4c8c32" />
+		<rom loadflag="load32_byte" name="uk20220406.u114" offset="0x1000003" size="0x100000" crc="76e02647" sha1="e0ef30bf5cbdb722bfca43c96ce1a1d4b552cc6c" />
+		<rom loadflag="load32_byte" name="uc20220207.u113" offset="0x1400000" size="0x100000" crc="0ad044f8" sha1="87bb552d0dae5e092ac6537e217134921ec54e3c" />
+		<rom loadflag="load32_byte" name="uc20220207.u112" offset="0x1400001" size="0x100000" crc="b19b1d16" sha1="9ef94354cbbd44515be439502d1ac7a62c09400b" />
+		<rom loadflag="load32_byte" name="uc20220207.u111" offset="0x1400002" size="0x100000" crc="bfa93ae2" sha1="11f4e04961764e193c9f4592462d097953f362d1" />
+		<rom loadflag="load32_byte" name="uc20220207.u110" offset="0x1400003" size="0x100000" crc="5b915289" sha1="2f7098fe594139afce6c54d2b572be0acbed0ac9" />
+		</dataarea>
+		<dataarea name="serial_security:pic" size="0x1009">
+		<rom name="463_mk3_ultimate.u64" offset="0x0" size="0x1009" crc="4f425218" sha1="7f26045ed2c9ca94fadcb673ce10f28208aa720e" />
+		</dataarea>
+	</part>
+</software>

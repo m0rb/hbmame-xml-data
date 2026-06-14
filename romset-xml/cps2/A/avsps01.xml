@@ -1,0 +1,26 @@
+<software name="avsps01" cloneof="avsp">
+	<description>Alien vs. Predator (940520U, 1 Vs 3 Plus, 2017-12-30)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c52s01.p1" offset="0x0" size="0x80000" crc="2f3dfdd3" sha1="730a6d70a6cb44a6c60f500d9312c1b8c31d0f4b" />
+		<rom loadflag="load16_word_swap" name="c52s01.p2" offset="0x80000" size="0x80000" crc="04229fd7" sha1="65a5719697c7c1cb46c330c69559666f2bf6e16f" />
+		<rom loadflag="load16_word_swap" name="c52.p3" offset="0x100000" size="0x80000" crc="fbfb5d7a" sha1="5549bc9d780753bc9c10fba82588e5c3d4a2acb2" />
+		<rom loadflag="load16_word_swap" name="c52.p4" offset="0x180000" size="0x80000" crc="190b817f" sha1="9bcfc0a015ffba9cdac25b6270939a9690de5da7" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c52.m1" offset="0x0" size="0x8000" crc="2d3b4220" sha1="2b2d04d4282550fa9f6e1ad8528f20d1f2ac02eb" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="avspu.key" offset="0x0" size="0x14" crc="4e68e346" sha1="60d5a12c77d07efc01f48968f4a12c59bf6b629e" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c52.q1" offset="0x0" size="0x200000" crc="83499817" sha1="e65b0ebd61ddc748842a9d4d92404b5305307623" />
+		<rom loadflag="load16_word_swap" name="c52.q2" offset="0x200000" size="0x200000" crc="f4110d49" sha1="f27538776cc1ba8213f19f98728ed8c02508d3ac" />
+		</dataarea>
+	</part>
+</software>

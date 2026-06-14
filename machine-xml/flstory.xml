@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="flstory" description="Flstory cartridges">
+<software name="flstoryjs01">
+	<description>The FairyLand Story (Chinese)</description>
+	<year>1985</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="cpu-a45_ps01.15" offset="0x0" size="0x4000" crc="1be138fa" sha1="eaf3b2810d7f4a95930024ec440bf2ba59230e2d" />
+		<rom name="cpu-a45_ps01.16" offset="0x4000" size="0x4000" crc="74b3f227" sha1="f8ba5c5db92cda691febecdf62b148157adf744a" />
+		<rom name="cpu-a45_ps01.17" offset="0x8000" size="0x4000" crc="1309b079" sha1="0b82af55273aba6433a789b1d6cfbda650ab85c9" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="a45_12.8" offset="0x0" size="0x2000" crc="d6f593fb" sha1="8551ef22c2cdd9df8d7949a178883f56ea56a4a2" />
+		<rom name="a45_13.9" offset="0x2000" size="0x2000" crc="451f92f9" sha1="f4196e6d3420983b74001303936d086a48b10827" />
+		</dataarea>
+		<dataarea name="bmcu:mcu" size="0x800">
+		<rom name="a45-20.mcu" offset="0x0" size="0x800" crc="7d2cdd9b" sha1="b9a7b4c7d9d58b4b7cab1304beaa9d17f9559419" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x20000">
+		<rom name="vid-a45.18" offset="0x0" size="0x4000" crc="6f08f69e" sha1="8f1b7e63a38f855cf26d57aed678da7cf1378fdf" />
+		<rom name="vid-a45_ps01.06" offset="0x4000" size="0x4000" crc="04be939f" sha1="eee61a1de548a9b9d368b689426f564d7d6680f4" />
+		<rom name="vid-a45.08" offset="0x8000" size="0x4000" crc="d0b028ca" sha1="c8bd9136ad3180002961ecfe600fc91a3c891539" />
+		<rom name="vid-a45_ps01.20" offset="0xc000" size="0x4000" crc="51d53e2f" sha1="30c7665a443af6071a56f64409fea58ace77f547" />
+		<rom name="vid-a45.19" offset="0x10000" size="0x4000" crc="2b572dc9" sha1="9e14428663819e18829c625b4ae91a8a5530eb33" />
+		<rom name="vid-a45_ps01.07" offset="0x14000" size="0x4000" crc="20f02f0e" sha1="ff5c3f171ff9b72fc9d03d776f0e8f16205f4a79" />
+		<rom name="vid-a45.09" offset="0x18000" size="0x4000" crc="8336be58" sha1="b92d37856870c4128a860d8ae02fa647743b99e3" />
+		<rom name="vid-a45_ps01.21" offset="0x1c000" size="0x4000" crc="b6e3caca" sha1="7f045f0d51216710a68093285cafef7b4aeb4b8e" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

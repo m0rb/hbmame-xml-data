@@ -1,0 +1,34 @@
+<software name="sonson01">
+	<description>Son Son (Greek)</description>
+	<year>2024</year>
+	<publisher>Vag</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="ss01.01e" offset="0x4000" size="0x4000" crc="123f758e" sha1="0158aa626513e439e9ae2290770a29b6b42cbde9" />
+		<rom name="ss01.02e" offset="0x8000" size="0x4000" crc="ea42c668" sha1="04f9dc2e3ec3119828deb961aaa58236aaffcc6e" />
+		<rom name="ss.03e" offset="0xc000" size="0x4000" crc="1fd0e729" sha1="e04215b0c3d11ce844ab250ff3e1a845dd0b6c3e" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="ss_6.c11" offset="0xe000" size="0x2000" crc="1135c48a" sha1="bfc10363fc42fb589088675a6e8e3d1668d8a6b8" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="ss01_7.b6" offset="0x0" size="0x2000" crc="617bfd8d" sha1="5e9053324729ada8f5f62bd1d140a06b44a50172" />
+		<rom name="ss01_8.b5" offset="0x2000" size="0x2000" crc="144a6abb" sha1="21b560e567ea1a31e848c7a51a8131f5e040f9fb" />
+		</dataarea>
+		<dataarea name="gfx2" size="0xc000">
+		<rom name="ss01_9.m5" offset="0x0" size="0x2000" crc="3f3be435" sha1="3084f9d7473b0d2cf46c04846a696da84dea4ff1" />
+		<rom name="ss01_10.m6" offset="0x2000" size="0x2000" crc="89ab9ddb" sha1="31bc3e3eca70381f86368473b302380dc022a623" />
+		<rom name="ss01_11.m3" offset="0x4000" size="0x2000" crc="d1f2858b" sha1="ef8c848e5a4f8bcd8e4d019f988e5f45e2f01caf" />
+		<rom name="ss01_12.m4" offset="0x6000" size="0x2000" crc="647b2f37" sha1="e2cd1765954a9edbc1e0dde6ff43c63d3cec4bed" />
+		<rom name="ss01_13.m1" offset="0x8000" size="0x2000" crc="dc7c8508" sha1="a16c491b6842afaac476ee5907c2df3edc2fcd33" />
+		<rom name="ss01_14.m2" offset="0xa000" size="0x2000" crc="070a562a" sha1="427b5ca497d1712a85fbb17c1e631d6075743a28" />
+		</dataarea>
+		<dataarea name="proms" size="0x340">
+		<rom name="ssb4.b2" offset="0x0" size="0x20" crc="c8eaf234" sha1="d39dfab6dcad6b0a719c466b5290d2d081e4b58d" />
+		<rom name="ssb5.b1" offset="0x20" size="0x20" crc="0e434add" sha1="238c281813d6079b9ae877bd0ced33abbbe39442" />
+		<rom name="ssb2.c4" offset="0x40" size="0x100" crc="c53321c6" sha1="439d98a98cdf2118b887c725a7759a98e2c377d9" />
+		<rom name="ssb3.h7" offset="0x140" size="0x100" crc="7d2c324a" sha1="3dcf09bd3f58bddb9760183d2c1b0fe5d77536ea" />
+		<rom name="ssb1.k11" offset="0x240" size="0x100" crc="a04b0cfe" sha1="89ab33c6b0aa313ebda2f11516cea667a9951a81" />
+		</dataarea>
+	</part>
+</software>

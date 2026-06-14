@@ -1,0 +1,26 @@
+<software name="pbobblen">
+	<description>Puzzle Bobble / Bust-A-Move (Neo-Geo, NGM-083)</description>
+	<year>1994</year>
+	<publisher>Taito</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="d96-07.ep1" offset="0x0" size="0x80000" crc="6102ca14" sha1="328429d11de5b327a0654ae0548da4d0025a2ae6" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x500000">
+		<rom loadflag="load16_byte" name="068-c1.c1" offset="0x0" size="0x100000" crc="7f250f76" sha1="5109a41adcb7859e24dc43d88842d4cc18cd3305" />
+		<rom loadflag="load16_byte" name="068-c2.c2" offset="0x1" size="0x100000" crc="20912873" sha1="2df8766b531e47ffc30457e41c63b83557b4f468" />
+		<rom loadflag="load16_byte" name="068-c3.c3" offset="0x200000" size="0x100000" crc="4b641ba1" sha1="7a9c42a30163eda455f7bde2302402b1a5de7178" />
+		<rom loadflag="load16_byte" name="068-c4.c4" offset="0x200001" size="0x100000" crc="35072596" sha1="4150a21041f06514c97592bd8af686504b06e187" />
+		<rom loadflag="load16_byte" name="d96-02.c5" offset="0x400000" size="0x80000" crc="e89ad494" sha1="69c9ea415773af94ac44c48af05d55ada222b138" />
+		<rom loadflag="load16_byte" name="d96-03.c6" offset="0x400001" size="0x80000" crc="4b42d7eb" sha1="042ae50a528cea21cf07771d3915c57aa16fd5af" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x380000">
+		<rom name="068-v1.v1" offset="0x0" size="0x100000" crc="2ced86df" sha1="d6b73d1f31efbd74fb745200d4dade5f80b71541" />
+		<rom name="068-v2.v2" offset="0x100000" size="0x100000" crc="970851ab" sha1="6c9b04e9cc6b92133f1154e5bdd9d38d8ef050a7" />
+		<rom name="d96-01.v3" offset="0x200000" size="0x100000" crc="0840cbc4" sha1="1adbd7aef44fa80832f63dfb8efdf69fd7256a57" />
+		<rom name="d96-05.v4" offset="0x300000" size="0x80000" crc="0a548948" sha1="e1e4afd17811cb60401c14fbcf0465035165f4fb" />
+		</dataarea>
+	</part>
+</software>

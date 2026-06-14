@@ -1,0 +1,27 @@
+<software name="punishers18" cloneof="punisher">
+	<description>The Punisher (US 930422 Phoenix Edition (16b/40p))</description>
+	<year>1993</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c26s18.p1" offset="0x0" size="0x80000" crc="019efb28" sha1="1790db51ce7cd1281932359de6e4e1e046db0369" />
+		<rom loadflag="load16_word_swap" name="c26s18.p5" offset="0x80000" size="0x80000" crc="c0110a4e" sha1="43f6086634c332a58d95b0b51995ba1ab8ed1367" />
+		<rom loadflag="load16_word_swap" name="c26.p9" offset="0x100000" size="0x80000" crc="8affa5a9" sha1="268760b83b1723ff50a019ec51ef7af2e49935bf" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c26.m1" offset="0x0" size="0x8000" crc="49ff4446" sha1="87af12f87a940a6c5428b4574ad44a4b54867bc3" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="punishers17.key" offset="0x0" size="0x80" crc="c22c07f9" sha1="b726dfed90c288ee71ab6d6035b0efcba1f18f6a" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="qsound" size="0x200000">
+		<rom name="c26.q1" offset="0x0" size="0x80000" crc="31fd8726" sha1="1d73a76682e9fb908db0c55b9a18163f7539fea1" />
+		<rom name="c26.q2" offset="0x80000" size="0x80000" crc="980a9eef" sha1="36571381f349bc726508a7e618ba1c635ec9d271" />
+		<rom name="c26.q3" offset="0x100000" size="0x80000" crc="0dd44491" sha1="903cea1d7f3120545ea3229d30fbd687d11ad68f" />
+		<rom name="c26.q4" offset="0x180000" size="0x80000" crc="bed42f03" sha1="21302f7e75f9c795392a3b34e16a959fc5f6e4e9" />
+		</dataarea>
+	</part>
+</software>

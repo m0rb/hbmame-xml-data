@@ -1,0 +1,31 @@
+<software name="kovpluss381" cloneof="kovplus">
+	<description>Knights of Valour Plus 2012 (Warriors Classic Edition 2020-09-17)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_ph381.119" offset="0x100000" size="0x400000" crc="89617f05" sha1="ae3bc32d61660d29fc4284314154c68b1e14df08" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m01s_bios=bh01.rom" offset="0x0" size="0x200000" crc="692511a5" sha1="b272fdd0aa3724ba8ff30d2568c3a6b63f1358b3" />
+		<rom name="m0600_ph259.rom" offset="0x400000" size="0x400000" crc="7a50501b" sha1="1af6be69f3133ed56d4a132a1910cf562da83dac" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_ph115.rom" offset="0x0" size="0x800000" crc="5bd7ea9f" sha1="0eb33bd0e23441394ae7c6fa28aafe11adf0b22f" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_ph259.rom" offset="0x1000000" size="0x800000" crc="899a0596" sha1="db6b9f1a075119ffb5ec7199f7d3902634d7c89b" />
+		<rom name="pgm_a0603.u9" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_ph115.rom" offset="0x0" size="0x800000" crc="07d91ea3" sha1="8713409439eb4a2875baffbda711587f283a652b" />
+		<rom name="b0601_ph259.rom" offset="0x800000" size="0x400000" crc="10e4f375" sha1="20fbe6062183e8936bc8b92d02f4061078316bd7" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="pgm_t01s.rom" offset="0x0" size="0x200000" crc="1a7123a0" sha1="cc567f577bfbf45427b54d6695b11b74f2578af3" />
+		<rom name="t0600_ph259.rom" offset="0x180000" size="0x800000" crc="842b7711" sha1="b999d55e6e304b4057c66d57bf970f7b181ddac8" />
+		</dataarea>
+	</part>
+</software>

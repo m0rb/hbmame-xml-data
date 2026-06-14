@@ -1,0 +1,30 @@
+<software name="crackhea">
+	<description>Crackhead</description>
+	<year>1998</year>
+	<publisher>Cary Barnhard</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="mpx_3.1d" offset="0xa000" size="0x2000" crc="52e6c708" sha1="b9722941438e93325e84691ada4e95620bec73b2" />
+		<rom name="mp1_2.1c" offset="0xc000" size="0x2000" crc="a958a61c" sha1="e5198703cdf47b2cd7fc9f2a5fde7bf4ab2275db" />
+		<rom name="mpx_1.1b" offset="0xe000" size="0x2000" crc="203766d4" sha1="1dbc4f42d4c16a08240a221bec27dcc3a8dd7461" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="crackh3b.32" offset="0x0" size="0x1000" crc="912ffa7e" sha1="e2fc4992ef7214e62acdcda6605a1e27b2739cbf" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x4000">
+		<rom name="crackh3m.64" offset="0x0" size="0x2000" crc="a263d078" sha1="344fae10fab0f9646f5a2b39cac09faa9745ec9b" />
+		<rom name="crackh3n.64" offset="0x2000" size="0x2000" crc="3758ceb2" sha1="152ba5a14514c0c160886d5c9a1296dea7a298aa" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="mp1-3.3m" offset="0x0" size="0x100" crc="16a9166a" sha1="847cbaf7c88616576c410177e066ae1d792ac0ba" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="mp1-5.5b" offset="0x0" size="0x20" crc="56531268" sha1="2e356706c07f43eeb67783fb122bdc7fed1b3589" />
+		<rom name="mp1-6.4c" offset="0x20" size="0x100" crc="50765082" sha1="f578e14f15783acb2073644db4a2f0d196cc0957" />
+		<rom name="mp1-7.5k" offset="0x120" size="0x100" crc="5396bd78" sha1="2e387e5d8b8cab005f67f821b4db65d0ae8bd362" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="mp1_4.1k" offset="0xe000" size="0x2000" crc="8182dd5b" sha1="f36b57f7f1e79f00b3f07afe1960bca5f5325ee2" />
+		</dataarea>
+	</part>
+</software>

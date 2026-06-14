@@ -1,0 +1,797 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="gsc" description="Gsc cartridges">
+<software name="doubledr08" cloneof="doubledr">
+	<description>Double Dragon (Special 2017 v1.X, 2017-03-08)</description>
+	<year>2017</year>
+	<publisher>GSC2007</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_word_swap" name="082s08.p1" offset="0x0" size="0x100000" crc="dbe6ce8a" sha1="ef1604352863324113c4e080b72885c42ea74385" />
+		<rom loadflag="load16_word_swap" name="082s20.p2" offset="0x100000" size="0x100000" crc="0e2616ab" sha1="cfe5ed1ec76e21dd833e8297a6dbb30ce407ab2d" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="082.v1" offset="0x0" size="0x200000" crc="cc1128e4" sha1="bfcfff24bc7fbde0b02b1bc0dffebd5270a0eb04" />
+		<rom name="082.v2" offset="0x200000" size="0x200000" crc="c3ff5554" sha1="c685887ad64998e5572607a916b023f8b9efac49" />
+		</dataarea>
+		<dataarea name="sprites" size="0xe00000">
+		<rom loadflag="load16_byte" name="082.c1" offset="0x0" size="0x200000" crc="b478c725" sha1="3a777c5906220f246a6dc06cb084e6ad650d67bb" />
+		<rom loadflag="load16_byte" name="082.c2" offset="0x1" size="0x200000" crc="2857da32" sha1="9f13245965d23db86d46d7e73dfb6cc63e6f25a1" />
+		<rom loadflag="load16_byte" name="082.c3" offset="0x400000" size="0x200000" crc="8b0d378e" sha1="3a347215e414b738164f1fe4144102f07d4ffb80" />
+		<rom loadflag="load16_byte" name="082.c4" offset="0x400001" size="0x200000" crc="c7d2f596" sha1="e2d09d4d1b1fef9c0c53ecf3629e974b75e559f5" />
+		<rom loadflag="load16_byte" name="082s20.c5" offset="0x800000" size="0x200000" crc="b9c799fe" sha1="04d44f6fbee4bf6978031d1e148a536b012ecc8d" />
+		<rom loadflag="load16_byte" name="082s20.c6" offset="0x800001" size="0x200000" crc="11569bc9" sha1="ef937371e0f62ef8cc3d315aa944cacab798a173" />
+		<rom loadflag="load16_byte" name="082.c7" offset="0xc00000" size="0x100000" crc="727c4d02" sha1="8204c7f037d46e0c58f269f9c7a535bc2589f526" />
+		<rom loadflag="load16_byte" name="082.c8" offset="0xc00001" size="0x100000" crc="69a5fa37" sha1="020e70e0e8b3c5d00a40fe97e418115a3187e50a" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="082s08.p3" offset="0x0" size="0x20000" crc="cd77bcb4" sha1="9d8cb535ff0f29c962e544d00bb3bfb61d0beb7a" />
+		</dataarea>
+	</part>
+</software>
+<software name="doubledr20" cloneof="doubledr">
+	<description>Double Dragon (Special 2017 v1.0.0311)</description>
+	<year>2017</year>
+	<publisher>GSC2007</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_word_swap" name="082s20.p1" offset="0x0" size="0x100000" crc="8ea8ee3d" sha1="4cc513f9021a5a6bfe29ebf2773847c674f7921b" />
+		<rom loadflag="load16_word_swap" name="082s20.p2" offset="0x100000" size="0x100000" crc="0e2616ab" sha1="cfe5ed1ec76e21dd833e8297a6dbb30ce407ab2d" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="082.v1" offset="0x0" size="0x200000" crc="cc1128e4" sha1="bfcfff24bc7fbde0b02b1bc0dffebd5270a0eb04" />
+		<rom name="082.v2" offset="0x200000" size="0x200000" crc="c3ff5554" sha1="c685887ad64998e5572607a916b023f8b9efac49" />
+		</dataarea>
+		<dataarea name="sprites" size="0xe00000">
+		<rom loadflag="load16_byte" name="082.c1" offset="0x0" size="0x200000" crc="b478c725" sha1="3a777c5906220f246a6dc06cb084e6ad650d67bb" />
+		<rom loadflag="load16_byte" name="082.c2" offset="0x1" size="0x200000" crc="2857da32" sha1="9f13245965d23db86d46d7e73dfb6cc63e6f25a1" />
+		<rom loadflag="load16_byte" name="082.c3" offset="0x400000" size="0x200000" crc="8b0d378e" sha1="3a347215e414b738164f1fe4144102f07d4ffb80" />
+		<rom loadflag="load16_byte" name="082.c4" offset="0x400001" size="0x200000" crc="c7d2f596" sha1="e2d09d4d1b1fef9c0c53ecf3629e974b75e559f5" />
+		<rom loadflag="load16_byte" name="082s20.c5" offset="0x800000" size="0x200000" crc="b9c799fe" sha1="04d44f6fbee4bf6978031d1e148a536b012ecc8d" />
+		<rom loadflag="load16_byte" name="082s20.c6" offset="0x800001" size="0x200000" crc="11569bc9" sha1="ef937371e0f62ef8cc3d315aa944cacab798a173" />
+		<rom loadflag="load16_byte" name="082.c7" offset="0xc00000" size="0x100000" crc="727c4d02" sha1="8204c7f037d46e0c58f269f9c7a535bc2589f526" />
+		<rom loadflag="load16_byte" name="082.c8" offset="0xc00001" size="0x100000" crc="69a5fa37" sha1="020e70e0e8b3c5d00a40fe97e418115a3187e50a" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="082s20.p3" offset="0x0" size="0x20000" crc="8b4839c4" sha1="6c0357f8455bc4a100e1063a5be88c8be388672c" />
+		</dataarea>
+	</part>
+</software>
+<software name="doubledr21" cloneof="doubledr">
+	<description>Double Dragon (Special 2017 v1.0.0311, 2023-09-11)</description>
+	<year>2023</year>
+	<publisher>GOTVG</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_word_swap" name="082s21.p1" offset="0x0" size="0x100000" crc="616cbffc" sha1="562092875455f7b37b7c1e4f8ad4a64ef678aef2" />
+		<rom loadflag="load16_word_swap" name="082s20.p2" offset="0x100000" size="0x100000" crc="0e2616ab" sha1="cfe5ed1ec76e21dd833e8297a6dbb30ce407ab2d" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="082.v1" offset="0x0" size="0x200000" crc="cc1128e4" sha1="bfcfff24bc7fbde0b02b1bc0dffebd5270a0eb04" />
+		<rom name="082.v2" offset="0x200000" size="0x200000" crc="c3ff5554" sha1="c685887ad64998e5572607a916b023f8b9efac49" />
+		</dataarea>
+		<dataarea name="sprites" size="0xe00000">
+		<rom loadflag="load16_byte" name="082.c1" offset="0x0" size="0x200000" crc="b478c725" sha1="3a777c5906220f246a6dc06cb084e6ad650d67bb" />
+		<rom loadflag="load16_byte" name="082.c2" offset="0x1" size="0x200000" crc="2857da32" sha1="9f13245965d23db86d46d7e73dfb6cc63e6f25a1" />
+		<rom loadflag="load16_byte" name="082.c3" offset="0x400000" size="0x200000" crc="8b0d378e" sha1="3a347215e414b738164f1fe4144102f07d4ffb80" />
+		<rom loadflag="load16_byte" name="082.c4" offset="0x400001" size="0x200000" crc="c7d2f596" sha1="e2d09d4d1b1fef9c0c53ecf3629e974b75e559f5" />
+		<rom loadflag="load16_byte" name="082s20.c5" offset="0x800000" size="0x200000" crc="b9c799fe" sha1="04d44f6fbee4bf6978031d1e148a536b012ecc8d" />
+		<rom loadflag="load16_byte" name="082s20.c6" offset="0x800001" size="0x200000" crc="11569bc9" sha1="ef937371e0f62ef8cc3d315aa944cacab798a173" />
+		<rom loadflag="load16_byte" name="082.c7" offset="0xc00000" size="0x100000" crc="727c4d02" sha1="8204c7f037d46e0c58f269f9c7a535bc2589f526" />
+		<rom loadflag="load16_byte" name="082.c8" offset="0xc00001" size="0x100000" crc="69a5fa37" sha1="020e70e0e8b3c5d00a40fe97e418115a3187e50a" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="082s21.p3" offset="0x0" size="0x20000" crc="237aa1c0" sha1="b34853dc4e0101cdc8471492798a34c13b74b8ef" />
+		</dataarea>
+	</part>
+</software>
+<software name="kof2002s282" cloneof="kof2002">
+	<description>Kof2002 Plus (2019-01-06 Hack)</description>
+	<year>2019</year>
+	<publisher>GSC2007</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="265s282.p1" offset="0x0" size="0x100000" crc="48bc0ea1" sha1="9a52bcd3b7c7aeb6b42e512d759037e928c9ec8a" />
+		<rom loadflag="load16_word_swap" name="265s282.p2" offset="0x100000" size="0x500000" crc="998e4b78" sha1="679e02fcd3e9458973deea89eb9988b5007d1504" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="265.v1" offset="0x0" size="0x800000" crc="15e8f3f5" sha1="7c9e6426b9fa6db0158baa17a6485ffce057d889" />
+		<rom name="265.v2" offset="0x800000" size="0x800000" crc="da41d6f9" sha1="a43021f1e58947dcbe3c8ca5283b20b649f0409d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="265pl17.c1" offset="0x0" size="0x800000" crc="93cf6345" sha1="1e4194556082ed29bab45a5ccf42022c9c9515b0" />
+		<rom loadflag="load16_byte" name="265pl17.c2" offset="0x1" size="0x800000" crc="d7373d66" sha1="ed1040e2433480c89ffbae4dc854984cc734e15d" />
+		<rom loadflag="load16_byte" name="265d.c3" offset="0x1000000" size="0x800000" crc="959fad0b" sha1="63ab83ddc5f688dc8165a7ff8d262df3fcd942a2" />
+		<rom loadflag="load16_byte" name="265d.c4" offset="0x1000001" size="0x800000" crc="efe6a468" sha1="2a414285e48aa948b5b0d4a9333bab083b5fb853" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="265d.c7" offset="0x3000000" size="0x800000" crc="8a5b561c" sha1="a19697d4c2cc8edebc669c95ae1db4c8c2a70b2c" />
+		<rom loadflag="load16_byte" name="265d.c8" offset="0x3000001" size="0x800000" crc="bef667a3" sha1="d5e8bc185dcf63343d129c31d2ddab9f723f1a12" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="265s282.p3" offset="0x0" size="0x20000" crc="e58ba315" sha1="ffc166a011a4ea83aeb34c1dfac1ca657517f547" />
+		</dataarea>
+	</part>
+</software>
+<software name="kof2002s309" cloneof="kof2002">
+	<description>Kof2002 (PlayStation 2 Resurgence 2017, 2020-02-22)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="265s309.p1" offset="0x0" size="0x100000" crc="bce20a36" sha1="a5686ec96fe0c02c122b272ec667ff287ad9d3e6" />
+		<rom loadflag="load16_word_swap" name="265s309.p2" offset="0x100000" size="0x500000" crc="7ad26451" sha1="2a594d91a73bd857505934eb3fbad35310a1e55a" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="kf10-v1.bin" offset="0x0" size="0x800000" crc="0fc9a58d" sha1="9d79ef00e2c2abd9f29af5521c2fbe5798bf336f" />
+		<rom name="kf10-v2.bin" offset="0x800000" size="0x800000" crc="b8c475a4" sha1="10caf9c69927a223445d2c4b147864c02ce520a8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x5000000">
+		<rom loadflag="load16_byte" name="265pl17.c1" offset="0x0" size="0x800000" crc="93cf6345" sha1="1e4194556082ed29bab45a5ccf42022c9c9515b0" />
+		<rom loadflag="load16_byte" name="265pl17.c2" offset="0x1" size="0x800000" crc="d7373d66" sha1="ed1040e2433480c89ffbae4dc854984cc734e15d" />
+		<rom loadflag="load16_byte" name="265d.c3" offset="0x1000000" size="0x800000" crc="959fad0b" sha1="63ab83ddc5f688dc8165a7ff8d262df3fcd942a2" />
+		<rom loadflag="load16_byte" name="265d.c4" offset="0x1000001" size="0x800000" crc="efe6a468" sha1="2a414285e48aa948b5b0d4a9333bab083b5fb853" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="265d.c7" offset="0x3000000" size="0x800000" crc="8a5b561c" sha1="a19697d4c2cc8edebc669c95ae1db4c8c2a70b2c" />
+		<rom loadflag="load16_byte" name="265d.c8" offset="0x3000001" size="0x800000" crc="bef667a3" sha1="d5e8bc185dcf63343d129c31d2ddab9f723f1a12" />
+		<rom loadflag="load16_byte" name="265ps2re.c9" offset="0x4000000" size="0x800000" crc="9939c08a" sha1="75033a18ecd9177ec6da00e32fe1e391fde0bc39" />
+		<rom loadflag="load16_byte" name="265ps2re.c10" offset="0x4000001" size="0x800000" crc="c724c069" sha1="26974478ed31c68a3b987986849c8386f8c5af8c" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="265s309.p3" offset="0x0" size="0x20000" crc="2bbed8ec" sha1="c658371f9e8fc63838d5eaff4b73d3b1c56613c9" />
+		</dataarea>
+	</part>
+</software>
+<software name="kof2002s315" cloneof="kof2002">
+	<description>Kof2002 (Resurrection 2017, 2020-07-17)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="265s315.p1" offset="0x0" size="0x100000" crc="dc6da89f" sha1="4693dfdafb857e2bbb0e0d2569e6479e3ee97621" />
+		<rom loadflag="load16_word_swap" name="265s309.p2" offset="0x100000" size="0x500000" crc="7ad26451" sha1="2a594d91a73bd857505934eb3fbad35310a1e55a" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="kf10-v1.bin" offset="0x0" size="0x800000" crc="0fc9a58d" sha1="9d79ef00e2c2abd9f29af5521c2fbe5798bf336f" />
+		<rom name="kf10-v2.bin" offset="0x800000" size="0x800000" crc="b8c475a4" sha1="10caf9c69927a223445d2c4b147864c02ce520a8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x5000000">
+		<rom loadflag="load16_byte" name="265pl17.c1" offset="0x0" size="0x800000" crc="93cf6345" sha1="1e4194556082ed29bab45a5ccf42022c9c9515b0" />
+		<rom loadflag="load16_byte" name="265pl17.c2" offset="0x1" size="0x800000" crc="d7373d66" sha1="ed1040e2433480c89ffbae4dc854984cc734e15d" />
+		<rom loadflag="load16_byte" name="265d.c3" offset="0x1000000" size="0x800000" crc="959fad0b" sha1="63ab83ddc5f688dc8165a7ff8d262df3fcd942a2" />
+		<rom loadflag="load16_byte" name="265d.c4" offset="0x1000001" size="0x800000" crc="efe6a468" sha1="2a414285e48aa948b5b0d4a9333bab083b5fb853" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="265d.c7" offset="0x3000000" size="0x800000" crc="8a5b561c" sha1="a19697d4c2cc8edebc669c95ae1db4c8c2a70b2c" />
+		<rom loadflag="load16_byte" name="265d.c8" offset="0x3000001" size="0x800000" crc="bef667a3" sha1="d5e8bc185dcf63343d129c31d2ddab9f723f1a12" />
+		<rom loadflag="load16_byte" name="265ps2re.c9" offset="0x4000000" size="0x800000" crc="9939c08a" sha1="75033a18ecd9177ec6da00e32fe1e391fde0bc39" />
+		<rom loadflag="load16_byte" name="265ps2re.c10" offset="0x4000001" size="0x800000" crc="c724c069" sha1="26974478ed31c68a3b987986849c8386f8c5af8c" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="265s315.p3" offset="0x0" size="0x20000" crc="f9dacaae" sha1="d88807c241794bba71b9cee10c9f3fe75ef516e9" />
+		</dataarea>
+	</part>
+</software>
+<software name="kof2002s322" cloneof="kof2002">
+	<description>Kof2002 (Plus 2017, 2020-10-22)</description>
+	<year>2020</year>
+	<publisher>GSC2007</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="265_hc56.p1" offset="0x0" size="0x100000" crc="059da6f9" sha1="f581d018cac7e25a89f16c8c14d629f7f766dfee" />
+		<rom loadflag="load16_word_swap" name="265s309.p2" offset="0x100000" size="0x500000" crc="7ad26451" sha1="2a594d91a73bd857505934eb3fbad35310a1e55a" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="kf10-v1.bin" offset="0x0" size="0x800000" crc="0fc9a58d" sha1="9d79ef00e2c2abd9f29af5521c2fbe5798bf336f" />
+		<rom name="kf10-v2.bin" offset="0x800000" size="0x800000" crc="b8c475a4" sha1="10caf9c69927a223445d2c4b147864c02ce520a8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="265pl17.c1" offset="0x0" size="0x800000" crc="93cf6345" sha1="1e4194556082ed29bab45a5ccf42022c9c9515b0" />
+		<rom loadflag="load16_byte" name="265pl17.c2" offset="0x1" size="0x800000" crc="d7373d66" sha1="ed1040e2433480c89ffbae4dc854984cc734e15d" />
+		<rom loadflag="load16_byte" name="265d.c3" offset="0x1000000" size="0x800000" crc="959fad0b" sha1="63ab83ddc5f688dc8165a7ff8d262df3fcd942a2" />
+		<rom loadflag="load16_byte" name="265d.c4" offset="0x1000001" size="0x800000" crc="efe6a468" sha1="2a414285e48aa948b5b0d4a9333bab083b5fb853" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="265d.c7" offset="0x3000000" size="0x800000" crc="8a5b561c" sha1="a19697d4c2cc8edebc669c95ae1db4c8c2a70b2c" />
+		<rom loadflag="load16_byte" name="265d.c8" offset="0x3000001" size="0x800000" crc="bef667a3" sha1="d5e8bc185dcf63343d129c31d2ddab9f723f1a12" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="265_hc56.p3" offset="0x0" size="0x20000" crc="80aacc1f" sha1="f4e0943ecfb708f7bb7599245c2c17f1eb37254c" />
+		</dataarea>
+	</part>
+</software>
+<software name="kof2k2pl17" cloneof="kof2002">
+	<description>Kof2002 Plus (Unknown Hack, 2017-12-25)</description>
+	<year>2017</year>
+	<publisher>GSC2007</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="265pl17.p1" offset="0x0" size="0x100000" crc="bd94702d" sha1="85f1c0930ebf160eeb0995c00eab9bfd896b87e3" />
+		<rom loadflag="load16_word_swap" name="265pl17.p2" offset="0x100000" size="0x500000" crc="76e75315" sha1="f95cc585676a3d2d49b4249fea3872fd7f4af5ef" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="265.v1" offset="0x0" size="0x800000" crc="15e8f3f5" sha1="7c9e6426b9fa6db0158baa17a6485ffce057d889" />
+		<rom name="265.v2" offset="0x800000" size="0x800000" crc="da41d6f9" sha1="a43021f1e58947dcbe3c8ca5283b20b649f0409d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="265pl17.c1" offset="0x0" size="0x800000" crc="93cf6345" sha1="1e4194556082ed29bab45a5ccf42022c9c9515b0" />
+		<rom loadflag="load16_byte" name="265pl17.c2" offset="0x1" size="0x800000" crc="d7373d66" sha1="ed1040e2433480c89ffbae4dc854984cc734e15d" />
+		<rom loadflag="load16_byte" name="265d.c3" offset="0x1000000" size="0x800000" crc="959fad0b" sha1="63ab83ddc5f688dc8165a7ff8d262df3fcd942a2" />
+		<rom loadflag="load16_byte" name="265d.c4" offset="0x1000001" size="0x800000" crc="efe6a468" sha1="2a414285e48aa948b5b0d4a9333bab083b5fb853" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="265d.c7" offset="0x3000000" size="0x800000" crc="8a5b561c" sha1="a19697d4c2cc8edebc669c95ae1db4c8c2a70b2c" />
+		<rom loadflag="load16_byte" name="265d.c8" offset="0x3000001" size="0x800000" crc="bef667a3" sha1="d5e8bc185dcf63343d129c31d2ddab9f723f1a12" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="265pl17.p3" offset="0x0" size="0x20000" crc="6bfe80b0" sha1="2ea3e2ed1bf5e20c256a41dd5c1160e945fa333e" />
+		</dataarea>
+	</part>
+</software>
+<software name="kof95s30" cloneof="kof95">
+	<description>Kof&#x27;95 (Special v1.0.062?)</description>
+	<year>2017</year>
+	<publisher>GSC2007</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_word_swap" name="084h30.p1" offset="0x0" size="0x100000" crc="e829d460" sha1="15e6dc701a41bf357e3423f56ed4796198052fa1" />
+		<rom loadflag="load16_word_swap" name="084h30.p2" offset="0x100000" size="0x100000" crc="2e90dd23" sha1="5da41667264e87e33c0a4f50d7d4e4a4f957b099" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x900000">
+		<rom name="084.v1" offset="0x0" size="0x400000" crc="84861b56" sha1="1b6c91ddaed01f45eb9b7e49d9c2b9b479d50da6" />
+		<rom name="084.v2" offset="0x400000" size="0x200000" crc="b38a2803" sha1="dbc2c8606ca09ed7ff20906b022da3cf053b2f09" />
+		<rom name="084.v3" offset="0x800000" size="0x100000" crc="d683a338" sha1="eb9866b4b286edc09963cb96c43ce0a8fb09adbb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1a00000">
+		<rom loadflag="load16_byte" name="084.c1" offset="0x0" size="0x400000" crc="fe087e32" sha1="e8e89faa616027e4fb9b8a865c1a67f409c93bdf" />
+		<rom loadflag="load16_byte" name="084.c2" offset="0x1" size="0x400000" crc="07864e09" sha1="0817fcfd75d0735fd8ff27561eaec371e4ff5829" />
+		<rom loadflag="load16_byte" name="084.c3" offset="0x800000" size="0x400000" crc="a4e65d1b" sha1="740a405b40b3a4b324697d2652cae29ffe0ac0bd" />
+		<rom loadflag="load16_byte" name="084.c4" offset="0x800001" size="0x400000" crc="c1ace468" sha1="74ea2a3cfd7b744f0988a05baaff10016ca8f625" />
+		<rom loadflag="load16_byte" name="084.c5" offset="0x1000000" size="0x200000" crc="8a2c1edc" sha1="67866651bc0ce27122285a66b0aab108acf3d065" />
+		<rom loadflag="load16_byte" name="084.c6" offset="0x1000001" size="0x200000" crc="f593ac35" sha1="302c92c63f092a8d49429c3331e5e5678f0ea48d" />
+		<rom loadflag="load16_byte" name="084.c7" offset="0x1800000" size="0x100000" crc="9904025f" sha1="eec770746a0ad073f7d353ab16a2cc3a5278d307" />
+		<rom loadflag="load16_byte" name="084.c8" offset="0x1800001" size="0x100000" crc="78eb0f9b" sha1="2925ea21ed2ce167f08a25589e94f28643379034" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="084h30.p3" offset="0x0" size="0x20000" crc="971ecbdd" sha1="b8f59243a4f3094a44b36da73446f0dee6ca967a" />
+		</dataarea>
+	</part>
+</software>
+<software name="kof95s32" cloneof="kof95">
+	<description>Kof&#x27;95 (Special v1.0, 2020-02-22)</description>
+	<year>2020</year>
+	<publisher>GSC2007</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_word_swap" name="084s32.p1" offset="0x0" size="0x100000" crc="b3c26333" sha1="e81a4d7a7da9295154375fbb6f894e7b19e45331" />
+		<rom loadflag="load16_word_swap" name="084s32.p2" offset="0x100000" size="0x100000" crc="5cb1af9e" sha1="e4bea729569e7c1897182787d835188fdc6c2ef0" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x900000">
+		<rom name="084.v1" offset="0x0" size="0x400000" crc="84861b56" sha1="1b6c91ddaed01f45eb9b7e49d9c2b9b479d50da6" />
+		<rom name="084.v2" offset="0x400000" size="0x200000" crc="b38a2803" sha1="dbc2c8606ca09ed7ff20906b022da3cf053b2f09" />
+		<rom name="084.v3" offset="0x800000" size="0x100000" crc="d683a338" sha1="eb9866b4b286edc09963cb96c43ce0a8fb09adbb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1a00000">
+		<rom loadflag="load16_byte" name="084.c1" offset="0x0" size="0x400000" crc="fe087e32" sha1="e8e89faa616027e4fb9b8a865c1a67f409c93bdf" />
+		<rom loadflag="load16_byte" name="084.c2" offset="0x1" size="0x400000" crc="07864e09" sha1="0817fcfd75d0735fd8ff27561eaec371e4ff5829" />
+		<rom loadflag="load16_byte" name="084.c3" offset="0x800000" size="0x400000" crc="a4e65d1b" sha1="740a405b40b3a4b324697d2652cae29ffe0ac0bd" />
+		<rom loadflag="load16_byte" name="084.c4" offset="0x800001" size="0x400000" crc="c1ace468" sha1="74ea2a3cfd7b744f0988a05baaff10016ca8f625" />
+		<rom loadflag="load16_byte" name="084.c5" offset="0x1000000" size="0x200000" crc="8a2c1edc" sha1="67866651bc0ce27122285a66b0aab108acf3d065" />
+		<rom loadflag="load16_byte" name="084.c6" offset="0x1000001" size="0x200000" crc="f593ac35" sha1="302c92c63f092a8d49429c3331e5e5678f0ea48d" />
+		<rom loadflag="load16_byte" name="084.c7" offset="0x1800000" size="0x100000" crc="9904025f" sha1="eec770746a0ad073f7d353ab16a2cc3a5278d307" />
+		<rom loadflag="load16_byte" name="084.c8" offset="0x1800001" size="0x100000" crc="78eb0f9b" sha1="2925ea21ed2ce167f08a25589e94f28643379034" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="084s32.p3" offset="0x0" size="0x20000" crc="7eddc5d8" sha1="47ad5a72fef93bb4097f1febc35a5782be07fe1a" />
+		</dataarea>
+	</part>
+</software>
+<software name="kof95s44" cloneof="kof95">
+	<description>Kof&#x27;95 (Special v1.0, 2017-06-27)</description>
+	<year>2017</year>
+	<publisher>GSC2007</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_word_swap" name="084s44.p1" offset="0x0" size="0x100000" crc="8bcca012" sha1="1174d613c24ef4bb284a6c3b5a756db812e6c356" />
+		<rom loadflag="load16_word_swap" name="084s32.p2" offset="0x100000" size="0x100000" crc="5cb1af9e" sha1="e4bea729569e7c1897182787d835188fdc6c2ef0" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x900000">
+		<rom name="084.v1" offset="0x0" size="0x400000" crc="84861b56" sha1="1b6c91ddaed01f45eb9b7e49d9c2b9b479d50da6" />
+		<rom name="084.v2" offset="0x400000" size="0x200000" crc="b38a2803" sha1="dbc2c8606ca09ed7ff20906b022da3cf053b2f09" />
+		<rom name="084.v3" offset="0x800000" size="0x100000" crc="d683a338" sha1="eb9866b4b286edc09963cb96c43ce0a8fb09adbb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1a00000">
+		<rom loadflag="load16_byte" name="084.c1" offset="0x0" size="0x400000" crc="fe087e32" sha1="e8e89faa616027e4fb9b8a865c1a67f409c93bdf" />
+		<rom loadflag="load16_byte" name="084.c2" offset="0x1" size="0x400000" crc="07864e09" sha1="0817fcfd75d0735fd8ff27561eaec371e4ff5829" />
+		<rom loadflag="load16_byte" name="084.c3" offset="0x800000" size="0x400000" crc="a4e65d1b" sha1="740a405b40b3a4b324697d2652cae29ffe0ac0bd" />
+		<rom loadflag="load16_byte" name="084.c4" offset="0x800001" size="0x400000" crc="c1ace468" sha1="74ea2a3cfd7b744f0988a05baaff10016ca8f625" />
+		<rom loadflag="load16_byte" name="084.c5" offset="0x1000000" size="0x200000" crc="8a2c1edc" sha1="67866651bc0ce27122285a66b0aab108acf3d065" />
+		<rom loadflag="load16_byte" name="084.c6" offset="0x1000001" size="0x200000" crc="f593ac35" sha1="302c92c63f092a8d49429c3331e5e5678f0ea48d" />
+		<rom loadflag="load16_byte" name="084.c7" offset="0x1800000" size="0x100000" crc="9904025f" sha1="eec770746a0ad073f7d353ab16a2cc3a5278d307" />
+		<rom loadflag="load16_byte" name="084.c8" offset="0x1800001" size="0x100000" crc="78eb0f9b" sha1="2925ea21ed2ce167f08a25589e94f28643379034" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="084s44.p3" offset="0x0" size="0x20000" crc="030e71cb" sha1="387ee0e27c48c782b5b3bb43033ab7884b71bf24" />
+		</dataarea>
+	</part>
+</software>
+<software name="kof95s45" cloneof="kof95">
+	<description>Kof&#x27;95 (Special v1.0, 2017-06-13)</description>
+	<year>2017</year>
+	<publisher>GSC2007</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_word_swap" name="084s45.p1" offset="0x0" size="0x100000" crc="1dea5b42" sha1="e7539db7a264f43956b27bce2053f66b772552bb" />
+		<rom loadflag="load16_word_swap" name="084s32.p2" offset="0x100000" size="0x100000" crc="5cb1af9e" sha1="e4bea729569e7c1897182787d835188fdc6c2ef0" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x900000">
+		<rom name="084.v1" offset="0x0" size="0x400000" crc="84861b56" sha1="1b6c91ddaed01f45eb9b7e49d9c2b9b479d50da6" />
+		<rom name="084.v2" offset="0x400000" size="0x200000" crc="b38a2803" sha1="dbc2c8606ca09ed7ff20906b022da3cf053b2f09" />
+		<rom name="084.v3" offset="0x800000" size="0x100000" crc="d683a338" sha1="eb9866b4b286edc09963cb96c43ce0a8fb09adbb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1a00000">
+		<rom loadflag="load16_byte" name="084.c1" offset="0x0" size="0x400000" crc="fe087e32" sha1="e8e89faa616027e4fb9b8a865c1a67f409c93bdf" />
+		<rom loadflag="load16_byte" name="084.c2" offset="0x1" size="0x400000" crc="07864e09" sha1="0817fcfd75d0735fd8ff27561eaec371e4ff5829" />
+		<rom loadflag="load16_byte" name="084.c3" offset="0x800000" size="0x400000" crc="a4e65d1b" sha1="740a405b40b3a4b324697d2652cae29ffe0ac0bd" />
+		<rom loadflag="load16_byte" name="084.c4" offset="0x800001" size="0x400000" crc="c1ace468" sha1="74ea2a3cfd7b744f0988a05baaff10016ca8f625" />
+		<rom loadflag="load16_byte" name="084.c5" offset="0x1000000" size="0x200000" crc="8a2c1edc" sha1="67866651bc0ce27122285a66b0aab108acf3d065" />
+		<rom loadflag="load16_byte" name="084.c6" offset="0x1000001" size="0x200000" crc="f593ac35" sha1="302c92c63f092a8d49429c3331e5e5678f0ea48d" />
+		<rom loadflag="load16_byte" name="084.c7" offset="0x1800000" size="0x100000" crc="9904025f" sha1="eec770746a0ad073f7d353ab16a2cc3a5278d307" />
+		<rom loadflag="load16_byte" name="084.c8" offset="0x1800001" size="0x100000" crc="78eb0f9b" sha1="2925ea21ed2ce167f08a25589e94f28643379034" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="084s45.p3" offset="0x0" size="0x20000" crc="46db6f4a" sha1="482fe3d8ddc9f479f331edcb1fff4e3916fbb302" />
+		</dataarea>
+	</part>
+</software>
+<software name="kof95s49" cloneof="kof95">
+	<description>Kof&#x27;95 (Optimised, 2024-05-13)</description>
+	<year>2024</year>
+	<publisher>GOTVG</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_word_swap" name="084s49.p1" offset="0x0" size="0x100000" crc="9b155d4c" sha1="ab9a12ae1d3ae0e5a12793534c68d189e3ed1fb0" />
+		<rom loadflag="load16_word_swap" name="084s32.p2" offset="0x100000" size="0x100000" crc="5cb1af9e" sha1="e4bea729569e7c1897182787d835188fdc6c2ef0" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x900000">
+		<rom name="084.v1" offset="0x0" size="0x400000" crc="84861b56" sha1="1b6c91ddaed01f45eb9b7e49d9c2b9b479d50da6" />
+		<rom name="084.v2" offset="0x400000" size="0x200000" crc="b38a2803" sha1="dbc2c8606ca09ed7ff20906b022da3cf053b2f09" />
+		<rom name="084.v3" offset="0x800000" size="0x100000" crc="d683a338" sha1="eb9866b4b286edc09963cb96c43ce0a8fb09adbb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1a00000">
+		<rom loadflag="load16_byte" name="084.c1" offset="0x0" size="0x400000" crc="fe087e32" sha1="e8e89faa616027e4fb9b8a865c1a67f409c93bdf" />
+		<rom loadflag="load16_byte" name="084.c2" offset="0x1" size="0x400000" crc="07864e09" sha1="0817fcfd75d0735fd8ff27561eaec371e4ff5829" />
+		<rom loadflag="load16_byte" name="084.c3" offset="0x800000" size="0x400000" crc="a4e65d1b" sha1="740a405b40b3a4b324697d2652cae29ffe0ac0bd" />
+		<rom loadflag="load16_byte" name="084.c4" offset="0x800001" size="0x400000" crc="c1ace468" sha1="74ea2a3cfd7b744f0988a05baaff10016ca8f625" />
+		<rom loadflag="load16_byte" name="084.c5" offset="0x1000000" size="0x200000" crc="8a2c1edc" sha1="67866651bc0ce27122285a66b0aab108acf3d065" />
+		<rom loadflag="load16_byte" name="084.c6" offset="0x1000001" size="0x200000" crc="f593ac35" sha1="302c92c63f092a8d49429c3331e5e5678f0ea48d" />
+		<rom loadflag="load16_byte" name="084.c7" offset="0x1800000" size="0x100000" crc="9904025f" sha1="eec770746a0ad073f7d353ab16a2cc3a5278d307" />
+		<rom loadflag="load16_byte" name="084.c8" offset="0x1800001" size="0x100000" crc="78eb0f9b" sha1="2925ea21ed2ce167f08a25589e94f28643379034" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="084s49.p3" offset="0x0" size="0x20000" crc="10e83d84" sha1="c16737b2f9b701de4e571e8fe0273c0b8a93ce98" />
+		</dataarea>
+	</part>
+</software>
+<software name="kof98hh131" cloneof="kof98">
+	<description>Kof&#x27;98 (Combo Plus Combo Enhanced Version, 2018-05-05)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x900000">
+		<rom loadflag="load16_word_swap" name="242hx131.p1" offset="0x0" size="0x100000" crc="003d1128" sha1="36e744427563283069baff3d2220ef937821713d" />
+		<rom loadflag="load16_word_swap" name="242hx131.p2" offset="0x100000" size="0x400000" crc="d4ecdf60" sha1="a3beb6f4c96f284ede10929e784a7f4c9250d656" />
+		<rom loadflag="load16_word_swap" name="242hx131.p3" offset="0x500000" size="0x400000" crc="4846dde0" sha1="ad3d69389f897fcbb11efde24e397916a6f32243" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1400000">
+		<rom name="242.v1" offset="0x0" size="0x400000" crc="b9ea8051" sha1="49606f64eb249263b3341b4f50cc1763c390b2af" />
+		<rom name="242.v2" offset="0x400000" size="0x400000" crc="cc11106e" sha1="d3108bc05c9bf041d4236b2fa0c66b013aa8db1b" />
+		<rom name="242.v3" offset="0x800000" size="0x400000" crc="044ea4e1" sha1="062a2f2e52098d73bc31c9ad66f5db8080395ce8" />
+		<rom name="242.v4" offset="0xc00000" size="0x400000" crc="7985ea30" sha1="54ed5f0324de6164ea81943ebccb3e8d298368ec" />
+		<rom name="242ae.v5" offset="0x1000000" size="0x400000" crc="afdd9660" sha1="0d67fb61111256c0d74d4f2b473ab5a42d1909b9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x6000000">
+		<rom loadflag="load16_byte" name="242hx131.c1" offset="0x0" size="0x800000" crc="9cb35021" sha1="28f6743acfe4d4d52111fbb4000bd88b012a0e42" />
+		<rom loadflag="load16_byte" name="242hx131.c2" offset="0x1" size="0x800000" crc="432a83ac" sha1="de5d3545e1e12c1b9dc8541d1c3734be4a992e57" />
+		<rom loadflag="load16_byte" name="242cnd19.c3" offset="0x1000000" size="0x800000" crc="ea84bdae" sha1="27108247ed7406060f0b149a9dfa64869a6bbcf2" />
+		<rom loadflag="load16_byte" name="242cnd19.c4" offset="0x1000001" size="0x800000" crc="2c17ac8e" sha1="fc704f5cf358df81a88d20932be3edffe202dea9" />
+		<rom loadflag="load16_byte" name="242ae.c5" offset="0x2000000" size="0x800000" crc="71641718" sha1="b88a00aca2fc34230d2d2da0b235195a5eb1ecf0" />
+		<rom loadflag="load16_byte" name="242ae.c6" offset="0x2000001" size="0x800000" crc="982ba2b3" sha1="232ce3be7beaad13b35865da770157ef4b29a7a9" />
+		<rom loadflag="load16_byte" name="242ae.c7" offset="0x3000000" size="0x800000" crc="8d495552" sha1="20ff76b681b2e544c5a57060bb98ab6bb91bea3c" />
+		<rom loadflag="load16_byte" name="242ae.c8" offset="0x3000001" size="0x800000" crc="8bfc3417" sha1="38bb85563d0a7f008a64cf76d71d82b935cd98e5" />
+		<rom loadflag="load16_byte" name="242hx131.c9" offset="0x4000000" size="0x800000" crc="33a453ca" sha1="3f9b740dbec21506133b1ac2e3ffa204279690f5" />
+		<rom loadflag="load16_byte" name="242hx131.c10" offset="0x4000001" size="0x800000" crc="0c85069f" sha1="693f026832e8137530b231745b03ce297d8d1363" />
+		<rom loadflag="load16_byte" name="242aea.c11" offset="0x5000000" size="0x800000" crc="56d361cb" sha1="594826cf58b7cd3b0bee05cdab1265d03c057b58" />
+		<rom loadflag="load16_byte" name="242aea.c12" offset="0x5000001" size="0x800000" crc="f8cb115b" sha1="ba8a152a59acfcf72c73c6e29cd6e133630e100d" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x40000">
+		<rom loadflag="load16_word_swap" name="242hx131.p4" offset="0x0" size="0x40000" crc="c076b84e" sha1="9a2fb8acb511b82f5904a59b098e8e16d065409c" />
+		</dataarea>
+	</part>
+</software>
+<software name="kof98pfe" cloneof="kof98">
+	<description>Kof&#x27;98 (Plus Final Edition, 2017-07-23)</description>
+	<year>2017</year>
+	<publisher>GSC2007</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x500000">
+		<rom loadflag="load16_word_swap" name="242s057.p1" offset="0x0" size="0x100000" crc="23876d95" sha1="1e3bcd98d861618fa8b02503f1c8d342d6d45768" />
+		<rom loadflag="load16_word_swap" name="242pfe.p2" offset="0x100000" size="0x400000" crc="adbaa852" sha1="afcc76da85c0598e6f5c96ad112c458a4ed59941" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="242.v1" offset="0x0" size="0x400000" crc="b9ea8051" sha1="49606f64eb249263b3341b4f50cc1763c390b2af" />
+		<rom name="242.v2" offset="0x400000" size="0x400000" crc="cc11106e" sha1="d3108bc05c9bf041d4236b2fa0c66b013aa8db1b" />
+		<rom name="242.v3" offset="0x800000" size="0x400000" crc="044ea4e1" sha1="062a2f2e52098d73bc31c9ad66f5db8080395ce8" />
+		<rom name="242.v4" offset="0xc00000" size="0x400000" crc="7985ea30" sha1="54ed5f0324de6164ea81943ebccb3e8d298368ec" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="242s053.c1" offset="0x0" size="0x800000" crc="379654a5" sha1="fe5d9f1d3072ac83224382abd7f371cf065a8366" />
+		<rom loadflag="load16_byte" name="242s053.c2" offset="0x1" size="0x800000" crc="9c71fa3d" sha1="1ccbab3378aeef5445fa73d6c59b93c6f9d65557" />
+		<rom loadflag="load16_byte" name="242.c3" offset="0x1000000" size="0x800000" crc="22127b4f" sha1="bd0d00f889d9da7c6ac48f287d9ed8c605ae22cf" />
+		<rom loadflag="load16_byte" name="242.c4" offset="0x1000001" size="0x800000" crc="0b4fa044" sha1="fa13c3764fae6b035a626601bc43629f1ebaaffd" />
+		<rom loadflag="load16_byte" name="242.c5" offset="0x2000000" size="0x800000" crc="9d10bed3" sha1="4d44addc7c808649bfb03ec45fb9529da413adff" />
+		<rom loadflag="load16_byte" name="242.c6" offset="0x2000001" size="0x800000" crc="da07b6a2" sha1="9c3f0da7cde1ffa8feca89efc88f07096e502acf" />
+		<rom loadflag="load16_byte" name="242s057.c7" offset="0x3000000" size="0x800000" crc="02f09b2e" sha1="f72246873e425f4b78c453f30b78eabc5a244fd3" />
+		<rom loadflag="load16_byte" name="242s057.c8" offset="0x3000001" size="0x800000" crc="d43ab3e6" sha1="90fbc49c687245fcde1b3e58289b3b0728dc6b0c" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="242s057.p3" offset="0x0" size="0x20000" crc="930ea34e" sha1="8eb58c20a6854a8feba454ef280147eb1319c0c5" />
+		</dataarea>
+	</part>
+</software>
+<software name="kof98s57" cloneof="kof98">
+	<description>Kof&#x27;98 (Plus Final Edition, 2019-09-10)</description>
+	<year>2021</year>
+	<publisher>GOTVG</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x500000">
+		<rom loadflag="load16_word_swap" name="242s057.p1" offset="0x0" size="0x100000" crc="23876d95" sha1="1e3bcd98d861618fa8b02503f1c8d342d6d45768" />
+		<rom loadflag="load16_word_swap" name="242_hc47.p2" offset="0x100000" size="0x400000" crc="dfa686e9" sha1="2cbcbb7907e934ee743fe4dbb40f70a1962b9eea" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="242.v1" offset="0x0" size="0x400000" crc="b9ea8051" sha1="49606f64eb249263b3341b4f50cc1763c390b2af" />
+		<rom name="242.v2" offset="0x400000" size="0x400000" crc="cc11106e" sha1="d3108bc05c9bf041d4236b2fa0c66b013aa8db1b" />
+		<rom name="242.v3" offset="0x800000" size="0x400000" crc="044ea4e1" sha1="062a2f2e52098d73bc31c9ad66f5db8080395ce8" />
+		<rom name="242.v4" offset="0xc00000" size="0x400000" crc="7985ea30" sha1="54ed5f0324de6164ea81943ebccb3e8d298368ec" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="242s053.c1" offset="0x0" size="0x800000" crc="379654a5" sha1="fe5d9f1d3072ac83224382abd7f371cf065a8366" />
+		<rom loadflag="load16_byte" name="242s053.c2" offset="0x1" size="0x800000" crc="9c71fa3d" sha1="1ccbab3378aeef5445fa73d6c59b93c6f9d65557" />
+		<rom loadflag="load16_byte" name="242.c3" offset="0x1000000" size="0x800000" crc="22127b4f" sha1="bd0d00f889d9da7c6ac48f287d9ed8c605ae22cf" />
+		<rom loadflag="load16_byte" name="242.c4" offset="0x1000001" size="0x800000" crc="0b4fa044" sha1="fa13c3764fae6b035a626601bc43629f1ebaaffd" />
+		<rom loadflag="load16_byte" name="242.c5" offset="0x2000000" size="0x800000" crc="9d10bed3" sha1="4d44addc7c808649bfb03ec45fb9529da413adff" />
+		<rom loadflag="load16_byte" name="242.c6" offset="0x2000001" size="0x800000" crc="da07b6a2" sha1="9c3f0da7cde1ffa8feca89efc88f07096e502acf" />
+		<rom loadflag="load16_byte" name="242s057.c7" offset="0x3000000" size="0x800000" crc="02f09b2e" sha1="f72246873e425f4b78c453f30b78eabc5a244fd3" />
+		<rom loadflag="load16_byte" name="242s057.c8" offset="0x3000001" size="0x800000" crc="d43ab3e6" sha1="90fbc49c687245fcde1b3e58289b3b0728dc6b0c" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="242s057.p3" offset="0x0" size="0x20000" crc="930ea34e" sha1="8eb58c20a6854a8feba454ef280147eb1319c0c5" />
+		</dataarea>
+	</part>
+</software>
+<software name="lastblad33" cloneof="lastblad">
+	<description>Last Blade (Special v1.0.0701 2017-06-30)</description>
+	<year>2017</year>
+	<publisher>GSC2007</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x700000">
+		<rom loadflag="load16_word_swap" name="234s33.p1" offset="0x0" size="0x100000" crc="b902e73e" sha1="239b98715c23dc7cee870d0f18ab9fc8b8520472" />
+		<rom loadflag="load16_word_swap" name="234s33.p2" offset="0x100000" size="0x600000" crc="8ff3fb6d" sha1="dc36bddc086cb8877945f907b81a340bfba72e3c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="234.v1" offset="0x0" size="0x400000" crc="ed66b76f" sha1="8a05ff06d9b6f01c6c16b3026282eaabb0e25b44" />
+		<rom name="234.v2" offset="0x400000" size="0x400000" crc="a0e7f6e2" sha1="753ff74fa9294f695aae511ae01ead119b114a57" />
+		<rom name="234.v3" offset="0x800000" size="0x400000" crc="a506e1e2" sha1="b3e04ba1a5cb50b77c6fbe9fe353b9b64b6f3f74" />
+		<rom name="234.v4" offset="0xc00000" size="0x400000" crc="0e34157f" sha1="20a1f4833e5e29ba0073c1712d7a17ab7a2a035c" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="234.c1" offset="0x0" size="0x800000" crc="9f7e2bd3" sha1="2828aca0c0f5802110f10453c1cf640f69736554" />
+		<rom loadflag="load16_byte" name="234.c2" offset="0x1" size="0x800000" crc="80623d3c" sha1="ad460615115ec8fb25206f012da59ecfc8059b64" />
+		<rom loadflag="load16_byte" name="234.c3" offset="0x1000000" size="0x800000" crc="91ab1a30" sha1="e3cf9133784bef2c8f1bfe45f277ccf82cc6f6a1" />
+		<rom loadflag="load16_byte" name="234.c4" offset="0x1000001" size="0x800000" crc="3d60b037" sha1="78a50233bcd19e92c7b6f7ee1a53417d9db21f6a" />
+		<rom loadflag="load16_byte" name="234s33.c5" offset="0x2000000" size="0x400000" crc="4ea22fe0" sha1="e72d75111d82ee387c5cbfddcaf2e0c13371e455" />
+		<rom loadflag="load16_byte" name="234s33.c6" offset="0x2000001" size="0x400000" crc="a863c882" sha1="92a3baeea3991c4e0d3fd771d3355a379759c4b2" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="234s33.p3" offset="0x0" size="0x20000" crc="fbd011f7" sha1="de5e61f6dc41af76fb86bc2d957dd55c38913af1" />
+		</dataarea>
+	</part>
+</software>
+<software name="lastblad34" cloneof="lastblad">
+	<description>Last Blade (Special v1.1)</description>
+	<year>2017</year>
+	<publisher>GSC2007</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x700000">
+		<rom loadflag="load16_word_swap" name="234s34.p1" offset="0x0" size="0x100000" crc="f8adc621" sha1="d41921f6e2957b1d1241a5fff099be9764c0efc0" />
+		<rom loadflag="load16_word_swap" name="234s33.p2" offset="0x100000" size="0x600000" crc="8ff3fb6d" sha1="dc36bddc086cb8877945f907b81a340bfba72e3c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="234.v1" offset="0x0" size="0x400000" crc="ed66b76f" sha1="8a05ff06d9b6f01c6c16b3026282eaabb0e25b44" />
+		<rom name="234.v2" offset="0x400000" size="0x400000" crc="a0e7f6e2" sha1="753ff74fa9294f695aae511ae01ead119b114a57" />
+		<rom name="234.v3" offset="0x800000" size="0x400000" crc="a506e1e2" sha1="b3e04ba1a5cb50b77c6fbe9fe353b9b64b6f3f74" />
+		<rom name="234.v4" offset="0xc00000" size="0x400000" crc="0e34157f" sha1="20a1f4833e5e29ba0073c1712d7a17ab7a2a035c" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="234.c1" offset="0x0" size="0x800000" crc="9f7e2bd3" sha1="2828aca0c0f5802110f10453c1cf640f69736554" />
+		<rom loadflag="load16_byte" name="234.c2" offset="0x1" size="0x800000" crc="80623d3c" sha1="ad460615115ec8fb25206f012da59ecfc8059b64" />
+		<rom loadflag="load16_byte" name="234.c3" offset="0x1000000" size="0x800000" crc="91ab1a30" sha1="e3cf9133784bef2c8f1bfe45f277ccf82cc6f6a1" />
+		<rom loadflag="load16_byte" name="234.c4" offset="0x1000001" size="0x800000" crc="3d60b037" sha1="78a50233bcd19e92c7b6f7ee1a53417d9db21f6a" />
+		<rom loadflag="load16_byte" name="234s33.c5" offset="0x2000000" size="0x400000" crc="4ea22fe0" sha1="e72d75111d82ee387c5cbfddcaf2e0c13371e455" />
+		<rom loadflag="load16_byte" name="234s33.c6" offset="0x2000001" size="0x400000" crc="a863c882" sha1="92a3baeea3991c4e0d3fd771d3355a379759c4b2" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="234s34.p3" offset="0x0" size="0x20000" crc="3c1770df" sha1="b773dcfcb7656166afe4c6e52219f3083c851460" />
+		</dataarea>
+	</part>
+</software>
+<software name="lastblad38" cloneof="lastblad">
+	<description>Last Blade (Special v2.5 Final)</description>
+	<year>2023</year>
+	<publisher>GOTVG</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x700000">
+		<rom loadflag="load16_word_swap" name="234s38.p1" offset="0x0" size="0x100000" crc="977753ce" sha1="e67b55ee357f30e8b8ef5d24dcf55604158f4708" />
+		<rom loadflag="load16_word_swap" name="234s38.p2" offset="0x100000" size="0x600000" crc="4a2a92fc" sha1="2056380e607dbbfdb5c0a770faf014d2caa975c4" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="234.v1" offset="0x0" size="0x400000" crc="ed66b76f" sha1="8a05ff06d9b6f01c6c16b3026282eaabb0e25b44" />
+		<rom name="234.v2" offset="0x400000" size="0x400000" crc="a0e7f6e2" sha1="753ff74fa9294f695aae511ae01ead119b114a57" />
+		<rom name="234.v3" offset="0x800000" size="0x400000" crc="a506e1e2" sha1="b3e04ba1a5cb50b77c6fbe9fe353b9b64b6f3f74" />
+		<rom name="234s38.v4" offset="0xc00000" size="0x400000" crc="bb72113a" sha1="9dc2b53ff17502e591deaa131d38b7928987464b" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="234.c1" offset="0x0" size="0x800000" crc="9f7e2bd3" sha1="2828aca0c0f5802110f10453c1cf640f69736554" />
+		<rom loadflag="load16_byte" name="234.c2" offset="0x1" size="0x800000" crc="80623d3c" sha1="ad460615115ec8fb25206f012da59ecfc8059b64" />
+		<rom loadflag="load16_byte" name="234.c3" offset="0x1000000" size="0x800000" crc="91ab1a30" sha1="e3cf9133784bef2c8f1bfe45f277ccf82cc6f6a1" />
+		<rom loadflag="load16_byte" name="234.c4" offset="0x1000001" size="0x800000" crc="3d60b037" sha1="78a50233bcd19e92c7b6f7ee1a53417d9db21f6a" />
+		<rom loadflag="load16_byte" name="234s33.c5" offset="0x2000000" size="0x400000" crc="4ea22fe0" sha1="e72d75111d82ee387c5cbfddcaf2e0c13371e455" />
+		<rom loadflag="load16_byte" name="234s33.c6" offset="0x2000001" size="0x400000" crc="a863c882" sha1="92a3baeea3991c4e0d3fd771d3355a379759c4b2" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="234s38.p3" offset="0x0" size="0x20000" crc="d5fbd2dc" sha1="a744a5ad2e2bf8839d67ecf583d24e1e96914709" />
+		</dataarea>
+	</part>
+</software>
+<software name="samsho2s21" cloneof="samsho2">
+	<description>Samurai Shodown II (Perfect v2.0, 2024-05-01)</description>
+	<year>2024</year>
+	<publisher>Bear</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_word_swap" name="063s21.p1" offset="0x0" size="0x100000" crc="7af0612c" sha1="840a8447682293aff734def21fa8556b69511d9b" />
+		<rom loadflag="load16_word_swap" name="063s21.p2" offset="0x100000" size="0x100000" crc="5fb8a564" sha1="d83e6c8e3bc65597aa41434cb57a476a65eb7f6e" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x700000">
+		<rom name="063.v1" offset="0x0" size="0x200000" crc="37703f91" sha1="a373ebef4c33ba1d8340e826981a58769aada238" />
+		<rom name="063.v2" offset="0x200000" size="0x200000" crc="0142bde8" sha1="0be6c53acac44802bf70b6925452f70289a139d9" />
+		<rom name="063.v3" offset="0x400000" size="0x200000" crc="d07fa5ca" sha1="1da7f081f8b8fc86a91feacf900f573218d82676" />
+		<rom name="063.v4" offset="0x600000" size="0x100000" crc="24aab4bb" sha1="10ee4c5b3579865b93dcc1e4079963276aa700a6" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="063.c1" offset="0x0" size="0x200000" crc="86cd307c" sha1="0d04336f7c436d74638d8c1cd8651faf436a6bec" />
+		<rom loadflag="load16_byte" name="063.c2" offset="0x1" size="0x200000" crc="cdfcc4ca" sha1="179dc81432424d68cefedd20cc1c4b2a95deb891" />
+		<rom loadflag="load16_byte" name="063.c3" offset="0x400000" size="0x200000" crc="7a63ccc7" sha1="49d97c543bc2860d493a353ab0d059088c6fbd21" />
+		<rom loadflag="load16_byte" name="063.c4" offset="0x400001" size="0x200000" crc="751025ce" sha1="e1bbaa7cd67fd04e4aab7f7ea77f63ae1cbc90d0" />
+		<rom loadflag="load16_byte" name="063.c5" offset="0x800000" size="0x200000" crc="20d3a475" sha1="28da44a136bd14c73c62c147c3f6e6bcfa1066de" />
+		<rom loadflag="load16_byte" name="063.c6" offset="0x800001" size="0x200000" crc="ae4c0a88" sha1="cc8a7d11daa3821f83a6fd0942534706f939e576" />
+		<rom loadflag="load16_byte" name="063.c7" offset="0xc00000" size="0x200000" crc="2df3cbcf" sha1="e54f9022359963711451c2025825b862d36c6975" />
+		<rom loadflag="load16_byte" name="063.c8" offset="0xc00001" size="0x200000" crc="1ffc6dfa" sha1="acea18aca76c072e0bac2a364fc96d49cfc86e77" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="063s21.p3" offset="0x0" size="0x20000" crc="74c7e103" sha1="c833f5714be0c82b042301c11ee4fb45e96f1760" />
+		</dataarea>
+	</part>
+</software>
+<software name="samsho2s22" cloneof="samsho2">
+	<description>Samurai Shodown II (Perfect v2.4, 2025-01-27)</description>
+	<year>2025</year>
+	<publisher>Bear</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_word_swap" name="063s22.p1" offset="0x0" size="0x100000" crc="20625a12" sha1="1aea4b3e2175bc1a82e17af0ee58fb6a386d3e19" />
+		<rom loadflag="load16_word_swap" name="063s22.p2" offset="0x100000" size="0x100000" crc="231c4e31" sha1="78db670d261991ab6fe2664d1d514f32a090ec9c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x700000">
+		<rom name="063.v1" offset="0x0" size="0x200000" crc="37703f91" sha1="a373ebef4c33ba1d8340e826981a58769aada238" />
+		<rom name="063.v2" offset="0x200000" size="0x200000" crc="0142bde8" sha1="0be6c53acac44802bf70b6925452f70289a139d9" />
+		<rom name="063.v3" offset="0x400000" size="0x200000" crc="d07fa5ca" sha1="1da7f081f8b8fc86a91feacf900f573218d82676" />
+		<rom name="063.v4" offset="0x600000" size="0x100000" crc="24aab4bb" sha1="10ee4c5b3579865b93dcc1e4079963276aa700a6" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="063.c1" offset="0x0" size="0x200000" crc="86cd307c" sha1="0d04336f7c436d74638d8c1cd8651faf436a6bec" />
+		<rom loadflag="load16_byte" name="063.c2" offset="0x1" size="0x200000" crc="cdfcc4ca" sha1="179dc81432424d68cefedd20cc1c4b2a95deb891" />
+		<rom loadflag="load16_byte" name="063.c3" offset="0x400000" size="0x200000" crc="7a63ccc7" sha1="49d97c543bc2860d493a353ab0d059088c6fbd21" />
+		<rom loadflag="load16_byte" name="063.c4" offset="0x400001" size="0x200000" crc="751025ce" sha1="e1bbaa7cd67fd04e4aab7f7ea77f63ae1cbc90d0" />
+		<rom loadflag="load16_byte" name="063.c5" offset="0x800000" size="0x200000" crc="20d3a475" sha1="28da44a136bd14c73c62c147c3f6e6bcfa1066de" />
+		<rom loadflag="load16_byte" name="063.c6" offset="0x800001" size="0x200000" crc="ae4c0a88" sha1="cc8a7d11daa3821f83a6fd0942534706f939e576" />
+		<rom loadflag="load16_byte" name="063.c7" offset="0xc00000" size="0x200000" crc="2df3cbcf" sha1="e54f9022359963711451c2025825b862d36c6975" />
+		<rom loadflag="load16_byte" name="063.c8" offset="0xc00001" size="0x200000" crc="1ffc6dfa" sha1="acea18aca76c072e0bac2a364fc96d49cfc86e77" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="063s22.p3" offset="0x0" size="0x20000" crc="82ce7ad7" sha1="8125c627adfc6b343fe2f46337263db3ecc30a7d" />
+		</dataarea>
+	</part>
+</software>
+<software name="samsho2s25" cloneof="samsho2">
+	<description>Samurai Shodown II (Special v1.0.0122)</description>
+	<year>2017</year>
+	<publisher>GSC2007</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_word_swap" name="063s25.p1" offset="0x0" size="0x100000" crc="07d5c8f5" sha1="0ed9bc1b188e5d445cf80ea5af67938fd96d50c2" />
+		<rom loadflag="load16_word_swap" name="063s25.p2" offset="0x100000" size="0x100000" crc="6e1aef70" sha1="7a035e80b6f6af1d105ecccf3f5a2c44470366f3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x700000">
+		<rom name="063.v1" offset="0x0" size="0x200000" crc="37703f91" sha1="a373ebef4c33ba1d8340e826981a58769aada238" />
+		<rom name="063.v2" offset="0x200000" size="0x200000" crc="0142bde8" sha1="0be6c53acac44802bf70b6925452f70289a139d9" />
+		<rom name="063.v3" offset="0x400000" size="0x200000" crc="d07fa5ca" sha1="1da7f081f8b8fc86a91feacf900f573218d82676" />
+		<rom name="063.v4" offset="0x600000" size="0x100000" crc="24aab4bb" sha1="10ee4c5b3579865b93dcc1e4079963276aa700a6" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="063.c1" offset="0x0" size="0x200000" crc="86cd307c" sha1="0d04336f7c436d74638d8c1cd8651faf436a6bec" />
+		<rom loadflag="load16_byte" name="063.c2" offset="0x1" size="0x200000" crc="cdfcc4ca" sha1="179dc81432424d68cefedd20cc1c4b2a95deb891" />
+		<rom loadflag="load16_byte" name="063.c3" offset="0x400000" size="0x200000" crc="7a63ccc7" sha1="49d97c543bc2860d493a353ab0d059088c6fbd21" />
+		<rom loadflag="load16_byte" name="063.c4" offset="0x400001" size="0x200000" crc="751025ce" sha1="e1bbaa7cd67fd04e4aab7f7ea77f63ae1cbc90d0" />
+		<rom loadflag="load16_byte" name="063.c5" offset="0x800000" size="0x200000" crc="20d3a475" sha1="28da44a136bd14c73c62c147c3f6e6bcfa1066de" />
+		<rom loadflag="load16_byte" name="063.c6" offset="0x800001" size="0x200000" crc="ae4c0a88" sha1="cc8a7d11daa3821f83a6fd0942534706f939e576" />
+		<rom loadflag="load16_byte" name="063s25.c7" offset="0xc00000" size="0x200000" crc="dbebced2" sha1="c1db8a0a6814b8078934b68f1f579060e36f67b2" />
+		<rom loadflag="load16_byte" name="063s25.c8" offset="0xc00001" size="0x200000" crc="bf70b93c" sha1="1bffeb6c7e158b9aee33802fe86f75cee04c6ecc" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="063s25.p3" offset="0x0" size="0x20000" crc="e56076ae" sha1="9c2e6858fceb03702245658bbb6ba4e14431dda1" />
+		</dataarea>
+	</part>
+</software>
+<software name="samsho2s26" cloneof="samsho2">
+	<description>Samurai Shodown II (Special v1.0.0221)</description>
+	<year>2017</year>
+	<publisher>GSC2007</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_word_swap" name="063s26.p1" offset="0x0" size="0x100000" crc="08de44f4" sha1="b409b0a301f61b0d0d952383aae71af51527d08e" />
+		<rom loadflag="load16_word_swap" name="063s25.p2" offset="0x100000" size="0x100000" crc="6e1aef70" sha1="7a035e80b6f6af1d105ecccf3f5a2c44470366f3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x700000">
+		<rom name="063.v1" offset="0x0" size="0x200000" crc="37703f91" sha1="a373ebef4c33ba1d8340e826981a58769aada238" />
+		<rom name="063.v2" offset="0x200000" size="0x200000" crc="0142bde8" sha1="0be6c53acac44802bf70b6925452f70289a139d9" />
+		<rom name="063.v3" offset="0x400000" size="0x200000" crc="d07fa5ca" sha1="1da7f081f8b8fc86a91feacf900f573218d82676" />
+		<rom name="063.v4" offset="0x600000" size="0x100000" crc="24aab4bb" sha1="10ee4c5b3579865b93dcc1e4079963276aa700a6" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="063.c1" offset="0x0" size="0x200000" crc="86cd307c" sha1="0d04336f7c436d74638d8c1cd8651faf436a6bec" />
+		<rom loadflag="load16_byte" name="063.c2" offset="0x1" size="0x200000" crc="cdfcc4ca" sha1="179dc81432424d68cefedd20cc1c4b2a95deb891" />
+		<rom loadflag="load16_byte" name="063.c3" offset="0x400000" size="0x200000" crc="7a63ccc7" sha1="49d97c543bc2860d493a353ab0d059088c6fbd21" />
+		<rom loadflag="load16_byte" name="063.c4" offset="0x400001" size="0x200000" crc="751025ce" sha1="e1bbaa7cd67fd04e4aab7f7ea77f63ae1cbc90d0" />
+		<rom loadflag="load16_byte" name="063.c5" offset="0x800000" size="0x200000" crc="20d3a475" sha1="28da44a136bd14c73c62c147c3f6e6bcfa1066de" />
+		<rom loadflag="load16_byte" name="063.c6" offset="0x800001" size="0x200000" crc="ae4c0a88" sha1="cc8a7d11daa3821f83a6fd0942534706f939e576" />
+		<rom loadflag="load16_byte" name="063s25.c7" offset="0xc00000" size="0x200000" crc="dbebced2" sha1="c1db8a0a6814b8078934b68f1f579060e36f67b2" />
+		<rom loadflag="load16_byte" name="063s25.c8" offset="0xc00001" size="0x200000" crc="bf70b93c" sha1="1bffeb6c7e158b9aee33802fe86f75cee04c6ecc" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="063s26.p3" offset="0x0" size="0x20000" crc="cf9f3a5d" sha1="8643ac9173be35f6aa5ad1e733c74d1355ac6f84" />
+		</dataarea>
+	</part>
+</software>
+<software name="samsho2s27" cloneof="samsho2">
+	<description>Samurai Shodown II (Special v1.0.0320)</description>
+	<year>2017</year>
+	<publisher>GSC2007</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_word_swap" name="063s27.p1" offset="0x0" size="0x100000" crc="19260a9a" sha1="cd40ac51079641e778edac4910e96e51479cdcbb" />
+		<rom loadflag="load16_word_swap" name="063s25.p2" offset="0x100000" size="0x100000" crc="6e1aef70" sha1="7a035e80b6f6af1d105ecccf3f5a2c44470366f3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x700000">
+		<rom name="063.v1" offset="0x0" size="0x200000" crc="37703f91" sha1="a373ebef4c33ba1d8340e826981a58769aada238" />
+		<rom name="063.v2" offset="0x200000" size="0x200000" crc="0142bde8" sha1="0be6c53acac44802bf70b6925452f70289a139d9" />
+		<rom name="063.v3" offset="0x400000" size="0x200000" crc="d07fa5ca" sha1="1da7f081f8b8fc86a91feacf900f573218d82676" />
+		<rom name="063.v4" offset="0x600000" size="0x100000" crc="24aab4bb" sha1="10ee4c5b3579865b93dcc1e4079963276aa700a6" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="063.c1" offset="0x0" size="0x200000" crc="86cd307c" sha1="0d04336f7c436d74638d8c1cd8651faf436a6bec" />
+		<rom loadflag="load16_byte" name="063.c2" offset="0x1" size="0x200000" crc="cdfcc4ca" sha1="179dc81432424d68cefedd20cc1c4b2a95deb891" />
+		<rom loadflag="load16_byte" name="063.c3" offset="0x400000" size="0x200000" crc="7a63ccc7" sha1="49d97c543bc2860d493a353ab0d059088c6fbd21" />
+		<rom loadflag="load16_byte" name="063.c4" offset="0x400001" size="0x200000" crc="751025ce" sha1="e1bbaa7cd67fd04e4aab7f7ea77f63ae1cbc90d0" />
+		<rom loadflag="load16_byte" name="063.c5" offset="0x800000" size="0x200000" crc="20d3a475" sha1="28da44a136bd14c73c62c147c3f6e6bcfa1066de" />
+		<rom loadflag="load16_byte" name="063.c6" offset="0x800001" size="0x200000" crc="ae4c0a88" sha1="cc8a7d11daa3821f83a6fd0942534706f939e576" />
+		<rom loadflag="load16_byte" name="063s25.c7" offset="0xc00000" size="0x200000" crc="dbebced2" sha1="c1db8a0a6814b8078934b68f1f579060e36f67b2" />
+		<rom loadflag="load16_byte" name="063s25.c8" offset="0xc00001" size="0x200000" crc="bf70b93c" sha1="1bffeb6c7e158b9aee33802fe86f75cee04c6ecc" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="063s27.p3" offset="0x0" size="0x20000" crc="8fabd043" sha1="b8a311d0f57981ef045d80858036136c7840c405" />
+		</dataarea>
+	</part>
+</software>
+<software name="samsho2s28" cloneof="samsho2">
+	<description>Samurai Shodown II (Special v1.0.0311, 2017-03-11)</description>
+	<year>2017</year>
+	<publisher>GSC2007</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_word_swap" name="063s28.p1" offset="0x0" size="0x100000" crc="2bd5a4ab" sha1="5d5b1cd7efc5a71b1cb97b81b920a0924b7cd760" />
+		<rom loadflag="load16_word_swap" name="063s25.p2" offset="0x100000" size="0x100000" crc="6e1aef70" sha1="7a035e80b6f6af1d105ecccf3f5a2c44470366f3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x700000">
+		<rom name="063.v1" offset="0x0" size="0x200000" crc="37703f91" sha1="a373ebef4c33ba1d8340e826981a58769aada238" />
+		<rom name="063.v2" offset="0x200000" size="0x200000" crc="0142bde8" sha1="0be6c53acac44802bf70b6925452f70289a139d9" />
+		<rom name="063.v3" offset="0x400000" size="0x200000" crc="d07fa5ca" sha1="1da7f081f8b8fc86a91feacf900f573218d82676" />
+		<rom name="063.v4" offset="0x600000" size="0x100000" crc="24aab4bb" sha1="10ee4c5b3579865b93dcc1e4079963276aa700a6" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="063.c1" offset="0x0" size="0x200000" crc="86cd307c" sha1="0d04336f7c436d74638d8c1cd8651faf436a6bec" />
+		<rom loadflag="load16_byte" name="063.c2" offset="0x1" size="0x200000" crc="cdfcc4ca" sha1="179dc81432424d68cefedd20cc1c4b2a95deb891" />
+		<rom loadflag="load16_byte" name="063.c3" offset="0x400000" size="0x200000" crc="7a63ccc7" sha1="49d97c543bc2860d493a353ab0d059088c6fbd21" />
+		<rom loadflag="load16_byte" name="063.c4" offset="0x400001" size="0x200000" crc="751025ce" sha1="e1bbaa7cd67fd04e4aab7f7ea77f63ae1cbc90d0" />
+		<rom loadflag="load16_byte" name="063.c5" offset="0x800000" size="0x200000" crc="20d3a475" sha1="28da44a136bd14c73c62c147c3f6e6bcfa1066de" />
+		<rom loadflag="load16_byte" name="063.c6" offset="0x800001" size="0x200000" crc="ae4c0a88" sha1="cc8a7d11daa3821f83a6fd0942534706f939e576" />
+		<rom loadflag="load16_byte" name="063s25.c7" offset="0xc00000" size="0x200000" crc="dbebced2" sha1="c1db8a0a6814b8078934b68f1f579060e36f67b2" />
+		<rom loadflag="load16_byte" name="063s25.c8" offset="0xc00001" size="0x200000" crc="bf70b93c" sha1="1bffeb6c7e158b9aee33802fe86f75cee04c6ecc" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="063s28.p3" offset="0x0" size="0x20000" crc="72eec1f4" sha1="122548fdfd6ca4b80e6a232f5928ce6bac6c862b" />
+		</dataarea>
+	</part>
+</software>
+<software name="samsho2s29" cloneof="samsho2">
+	<description>Samurai Shodown II (Special v1.1)</description>
+	<year>2017</year>
+	<publisher>GSC2007</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_word_swap" name="063s29.p1" offset="0x0" size="0x100000" crc="ed466b3d" sha1="a3d5029d2fa29184e40038ca2a92ae09596646ea" />
+		<rom loadflag="load16_word_swap" name="063s25.p2" offset="0x100000" size="0x100000" crc="6e1aef70" sha1="7a035e80b6f6af1d105ecccf3f5a2c44470366f3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x700000">
+		<rom name="063.v1" offset="0x0" size="0x200000" crc="37703f91" sha1="a373ebef4c33ba1d8340e826981a58769aada238" />
+		<rom name="063.v2" offset="0x200000" size="0x200000" crc="0142bde8" sha1="0be6c53acac44802bf70b6925452f70289a139d9" />
+		<rom name="063.v3" offset="0x400000" size="0x200000" crc="d07fa5ca" sha1="1da7f081f8b8fc86a91feacf900f573218d82676" />
+		<rom name="063.v4" offset="0x600000" size="0x100000" crc="24aab4bb" sha1="10ee4c5b3579865b93dcc1e4079963276aa700a6" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="063.c1" offset="0x0" size="0x200000" crc="86cd307c" sha1="0d04336f7c436d74638d8c1cd8651faf436a6bec" />
+		<rom loadflag="load16_byte" name="063.c2" offset="0x1" size="0x200000" crc="cdfcc4ca" sha1="179dc81432424d68cefedd20cc1c4b2a95deb891" />
+		<rom loadflag="load16_byte" name="063.c3" offset="0x400000" size="0x200000" crc="7a63ccc7" sha1="49d97c543bc2860d493a353ab0d059088c6fbd21" />
+		<rom loadflag="load16_byte" name="063.c4" offset="0x400001" size="0x200000" crc="751025ce" sha1="e1bbaa7cd67fd04e4aab7f7ea77f63ae1cbc90d0" />
+		<rom loadflag="load16_byte" name="063.c5" offset="0x800000" size="0x200000" crc="20d3a475" sha1="28da44a136bd14c73c62c147c3f6e6bcfa1066de" />
+		<rom loadflag="load16_byte" name="063.c6" offset="0x800001" size="0x200000" crc="ae4c0a88" sha1="cc8a7d11daa3821f83a6fd0942534706f939e576" />
+		<rom loadflag="load16_byte" name="063s25.c7" offset="0xc00000" size="0x200000" crc="dbebced2" sha1="c1db8a0a6814b8078934b68f1f579060e36f67b2" />
+		<rom loadflag="load16_byte" name="063s25.c8" offset="0xc00001" size="0x200000" crc="bf70b93c" sha1="1bffeb6c7e158b9aee33802fe86f75cee04c6ecc" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="063s29.p3" offset="0x0" size="0x20000" crc="f9079ea3" sha1="76a4590bda85d1bdf38f6e02ce4d761f951ff79d" />
+		</dataarea>
+	</part>
+</software>
+<software name="samsho2s34" cloneof="samsho2">
+	<description>Samurai Shodown II (Optimised, 2020-09-23)</description>
+	<year>2020</year>
+	<publisher>GOTVG</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_word_swap" name="063s34.p1" offset="0x0" size="0x100000" crc="c2e62f51" sha1="11e9d66a37405b70270b790002726ed9ec4ec518" />
+		<rom loadflag="load16_word_swap" name="063s34.p2" offset="0x100000" size="0x100000" crc="d00663be" sha1="8d0270a195fac51b373d57a0322fbe85400dca78" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x700000">
+		<rom name="063.v1" offset="0x0" size="0x200000" crc="37703f91" sha1="a373ebef4c33ba1d8340e826981a58769aada238" />
+		<rom name="063.v2" offset="0x200000" size="0x200000" crc="0142bde8" sha1="0be6c53acac44802bf70b6925452f70289a139d9" />
+		<rom name="063.v3" offset="0x400000" size="0x200000" crc="d07fa5ca" sha1="1da7f081f8b8fc86a91feacf900f573218d82676" />
+		<rom name="063.v4" offset="0x600000" size="0x100000" crc="24aab4bb" sha1="10ee4c5b3579865b93dcc1e4079963276aa700a6" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="063.c1" offset="0x0" size="0x200000" crc="86cd307c" sha1="0d04336f7c436d74638d8c1cd8651faf436a6bec" />
+		<rom loadflag="load16_byte" name="063.c2" offset="0x1" size="0x200000" crc="cdfcc4ca" sha1="179dc81432424d68cefedd20cc1c4b2a95deb891" />
+		<rom loadflag="load16_byte" name="063.c3" offset="0x400000" size="0x200000" crc="7a63ccc7" sha1="49d97c543bc2860d493a353ab0d059088c6fbd21" />
+		<rom loadflag="load16_byte" name="063.c4" offset="0x400001" size="0x200000" crc="751025ce" sha1="e1bbaa7cd67fd04e4aab7f7ea77f63ae1cbc90d0" />
+		<rom loadflag="load16_byte" name="063.c5" offset="0x800000" size="0x200000" crc="20d3a475" sha1="28da44a136bd14c73c62c147c3f6e6bcfa1066de" />
+		<rom loadflag="load16_byte" name="063.c6" offset="0x800001" size="0x200000" crc="ae4c0a88" sha1="cc8a7d11daa3821f83a6fd0942534706f939e576" />
+		<rom loadflag="load16_byte" name="063s25.c7" offset="0xc00000" size="0x200000" crc="dbebced2" sha1="c1db8a0a6814b8078934b68f1f579060e36f67b2" />
+		<rom loadflag="load16_byte" name="063s25.c8" offset="0xc00001" size="0x200000" crc="bf70b93c" sha1="1bffeb6c7e158b9aee33802fe86f75cee04c6ecc" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="063s34.p3" offset="0x0" size="0x20000" crc="0bab6abd" sha1="53a896d9ffcf8b3088ce944e501e37302d7bfd19" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

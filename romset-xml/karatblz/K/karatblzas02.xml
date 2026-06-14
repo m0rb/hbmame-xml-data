@@ -1,0 +1,36 @@
+<software name="karatblzas02">
+	<description>Karate Blazers (Super Version V1 2009-03-11)</description>
+	<year>2009</year>
+	<publisher>Pipi899</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_word_swap" name="v2_po02.u14" offset="0x0" size="0x40000" crc="f3da2f95" sha1="ece19ff151d1aab321e17ec20ebe6c26e6da27f6" />
+		<rom loadflag="load16_word_swap" name="v1.u15" offset="0x40000" size="0x40000" crc="d16ee21b" sha1="d454cdf22b72a537b9d7ae73deb8136a4f09da47" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom name="v5.u92" offset="0x0" size="0x20000" crc="97d67510" sha1="1ffd419e3dec7de1099cd5819b0309f7dd0df80e" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="u104" offset="0x0" size="0x100000" crc="5795e884" sha1="a4178497ad0a1e60ceb87612b218d77b36d2a11b" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x80000">
+		<rom name="u105.gh8" offset="0x0" size="0x80000" crc="7a68cb1b" sha1="1bdd0000c2d68019b9e5bf8f7ad84a6ae1af8443" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x80000">
+		<rom name="gha.u55" offset="0x0" size="0x80000" crc="3e0cea91" sha1="bab41715f106d364013b64649441d280bc6893cf" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x80000">
+		<rom name="gh9.u61" offset="0x0" size="0x80000" crc="5d1676bd" sha1="6227d489c9c6259a0ac2bef62821fbf94efca8c6" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x100000">
+		<rom name="u59.ghb" offset="0x0" size="0x80000" crc="158c9cde" sha1="a2c1b404d40e6c2627691f5c7a3f63484bd5d2de" />
+		<rom name="ghd.u60" offset="0x80000" size="0x80000" crc="73180ae3" sha1="e4eaf6693826d9e72032d0a0e25938a23ab7d792" />
+		</dataarea>
+		<dataarea name="spritegfx" size="0x400000">
+		<rom name="u42" offset="0x0" size="0x100000" crc="65f0da84" sha1="0bfbc6f4b87583703246704eb9fa13b1b3e6f90e" />
+		<rom name="v3.u44" offset="0x100000" size="0x20000" crc="34bdead2" sha1="99f9a8cac807fcd599db55d2dc624ed92a3862ef" />
+		<rom name="u43" offset="0x200000" size="0x100000" crc="7b349e5d" sha1="8590a328f403e2c697a8d698c08d4adaf01fff62" />
+		<rom name="v4.u45" offset="0x300000" size="0x20000" crc="be4d487d" sha1="6d19c91d0498c43017219f0c10f4845a51ccfa7f" />
+		</dataarea>
+	</part>
+</software>

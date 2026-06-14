@@ -1,0 +1,23 @@
+<software name="quizkof">
+	<description>Quiz King of Fighters (SAM-080 ~ SAH-080)</description>
+	<year>1995</year>
+	<publisher>Saurus (SNK license)</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="080-p1.p1" offset="0x0" size="0x100000" crc="4440315e" sha1="f4adba8e341d64a1f6280dfd98ebf6918c00608d" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="080-c1.c1" offset="0x0" size="0x200000" crc="ea1d764a" sha1="78cc1735624c37f90607baa92e110a3c5cc54c6f" />
+		<rom loadflag="load16_byte" name="080-c2.c2" offset="0x1" size="0x200000" crc="d331d4a4" sha1="94228d13fb1e30973eb54058e697f17456ee16ea" />
+		<rom loadflag="load16_byte" name="080-c3.c3" offset="0x400000" size="0x200000" crc="b4851bfe" sha1="b8286c601de5755c1681ea46e177fc89006fc066" />
+		<rom loadflag="load16_byte" name="080-c4.c4" offset="0x400001" size="0x200000" crc="ca6f5460" sha1="ed36e244c9335f4c0a97c57b7b7f1b849dd3a90d" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x600000">
+		<rom name="080-v1.v1" offset="0x0" size="0x200000" crc="0be18f60" sha1="05c8b7d9f5a8583015f31902ad16d9c621f47d4e" />
+		<rom name="080-v2.v2" offset="0x200000" size="0x200000" crc="4abde3ff" sha1="0188bfcafa9a1aac302705736a2bcb26b9d684c2" />
+		<rom name="080-v3.v3" offset="0x400000" size="0x200000" crc="f02844e2" sha1="8c65ebe146f4ddb6c904f8125cb32767f74c24d5" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,38 @@
+<software name="silkworm01">
+	<description>Silk Worm (Chinese)</description>
+	<year>1988</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x20000">
+		<rom name="silkworm01.4.5s" offset="0x0" size="0x10000" crc="73f3eb16" sha1="89ec812f9b1d201e4c9c9774e8e8be1848eba334" />
+		<rom name="5.6s" offset="0x10000" size="0x10000" crc="a6c7bb51" sha1="75f6625459ab65f2d47a282c1295d4db38f5fe51" />
+		</dataarea>
+		<dataarea name="adpcm" size="0x8000">
+		<rom name="1.6b" offset="0x0" size="0x8000" crc="5b553644" sha1="5d39d2251094c17f7b732b4861401b3516fce9b1" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="silkworm01.2.3j" offset="0x0" size="0x8000" crc="dd312a50" sha1="fe398f4e0991c5c1f746851f224dcad6b8a667df" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x40000">
+		<rom name="6.1c" offset="0x0" size="0x10000" crc="1138d159" sha1="3b938606d448c4effdfe414bbf495b50cc3bc1c1" />
+		<rom name="7.1d" offset="0x10000" size="0x10000" crc="d96214f7" sha1="a5b2be3ae6a6eb8afef2c18c865a998fbf4adf93" />
+		<rom name="8.1f" offset="0x20000" size="0x10000" crc="0494b38e" sha1="03255f153824056e430a0b8595103f3b58b1fd97" />
+		<rom name="9.1h" offset="0x30000" size="0x10000" crc="8ce3cdf5" sha1="635248514c4e1e5aab7a2ed4d620a5b970d4a43a" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x40000">
+		<rom name="10.1p" offset="0x0" size="0x10000" crc="8c7138bb" sha1="0cfd69fa77d5b546f7dad80537d8d2497ae758bc" />
+		<rom name="11.12p" offset="0x10000" size="0x10000" crc="6c03c476" sha1="79ad800a2f4ba6d44ba5a31210cbd8566bb357b6" />
+		<rom name="12.2p" offset="0x20000" size="0x10000" crc="bb0f568f" sha1="b66c6d0407ed0b068c6bf07987f1b923d4a6e4f8" />
+		<rom name="13.3p" offset="0x30000" size="0x10000" crc="773ad0a4" sha1="f7576e1ac8c779b33d7ec393555fd097a34257fa" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x40000">
+		<rom name="14.1s" offset="0x0" size="0x10000" crc="409df64b" sha1="cada970bf9cc8f6522e7a71e00fe873568852873" />
+		<rom name="15.12s" offset="0x10000" size="0x10000" crc="6e4052c9" sha1="e2e3d7221b75cb044449a25a076a93c3def1f11b" />
+		<rom name="16.2s" offset="0x20000" size="0x10000" crc="9292ed63" sha1="70aa46fcc187b8200c5d246870e2e2dc4b2985cb" />
+		<rom name="17.3s" offset="0x30000" size="0x10000" crc="3fa4563d" sha1="46e3cc41491d63efcdda43c84c7ac1385a1926d0" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom name="3.5j" offset="0x0" size="0x8000" crc="b589f587" sha1="0be5e2bf3daf3e28d63fdc8c89bb6fe7c48c6c3f" />
+		</dataarea>
+	</part>
+</software>

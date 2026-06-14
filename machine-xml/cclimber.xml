@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="cclimber" description="Cclimber cartridges">
+<software name="ckong01" cloneof="ckong">
+	<description>Crazy Kong Part II (Graphic Fix)</description>
+	<year>1981</year>
+	<publisher>Pinny</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="d05-07.bin" offset="0x0" size="0x1000" crc="b27df032" sha1="57f9be139c610405e3c2fddd7093dfb1277e450e" />
+		<rom name="f05-08.bin" offset="0x1000" size="0x1000" crc="5dc1aaba" sha1="42b9e5946ffce7c156d114bde68f37c2c34853c4" />
+		<rom name="h05-09.bin" offset="0x2000" size="0x1000" crc="c9054c94" sha1="1aa08d2501ee620759fd5c111e12f6d432c25294" />
+		<rom name="k05-10.bin" offset="0x3000" size="0x1000" crc="069c4797" sha1="03be185e6914ec7f3770ce3da4eb49cdb97adc85" />
+		<rom name="l05-11.bin" offset="0x4000" size="0x1000" crc="ae159192" sha1="d467256a3a366e246243e7828ff4a45d4c146e2c" />
+		<rom name="n05-12.bin" offset="0x5000" size="0x1000" crc="966bc9ab" sha1="4434fc620169ffea1b1f227b61674e1daf79b54b" />
+		</dataarea>
+		<dataarea name="cclimber_audio:samples" size="0x2000">
+		<rom name="falcon13" offset="0x0" size="0x1000" crc="5f0bcdfb" sha1="7f79bf6de117348f606696ed7ea1937bbf926612" />
+		<rom name="falcon12" offset="0x1000" size="0x1000" crc="9003ffbd" sha1="fd016056aabc23957643f37230f03842294f795e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="n11-06.bin" offset="0x0" size="0x1000" crc="2dcedd12" sha1="dfdcfc21bcba7c8e148ee54daae511ca78c58e70" />
+		<rom name="l11-05.bin" offset="0x1000" size="0x1000" crc="fa7cbd91" sha1="0208d2ebc59f3600005476b6987472685bc99d67" />
+		<rom name="k11-04.bin" offset="0x2000" size="0x1000" crc="3375b3bd" sha1="a00b3c31cff123aab6ac0833aabfdd663302971a" />
+		<rom name="h11-03.bin" offset="0x3000" size="0x1000" crc="5655cc11" sha1="5195e9b2a60c54280b48b32ee8248090904dbc51" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x1000">
+		<rom name="c11-02f.bin" offset="0x0" size="0x800" crc="881ed76e" sha1="e516d898b68da7040f7fb8c7dbc47e0526349e4c" />
+		<rom name="a11-01f.bin" offset="0x800" size="0x800" crc="d49aa505" sha1="7dec6d62e874fb23f827ffddb72d85777a5c39f7" />
+		</dataarea>
+		<dataarea name="proms" size="0x60">
+		<rom name="prom.v6" offset="0x0" size="0x20" crc="b3fc1505" sha1="5b94adde0428a26b815c7eb9b3f3716470d349c7" />
+		<rom name="prom.u6" offset="0x20" size="0x20" crc="26aada9e" sha1="f59645e606ea4f0dd0fc4ea47dd03f526c534941" />
+		<rom name="prom.t6" offset="0x40" size="0x20" crc="676b3166" sha1="29b9434cd34d43ea5664e436e2a24b54f8d88aac" />
+		</dataarea>
+	</part>
+</software>
+<software name="ckonga2" cloneof="ckong">
+	<description>Crazy Kong Part II -1</description>
+	<year>1981</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="ckonga2.07" offset="0x0" size="0x1000" crc="1c21386f" sha1="ce1a0c469dd09d81485cede6c8fbaf6299a9decf" />
+		<rom name="f05-08.bin" offset="0x1000" size="0x1000" crc="5dc1aaba" sha1="42b9e5946ffce7c156d114bde68f37c2c34853c4" />
+		<rom name="h05-09.bin" offset="0x2000" size="0x1000" crc="c9054c94" sha1="1aa08d2501ee620759fd5c111e12f6d432c25294" />
+		<rom name="10.dat" offset="0x3000" size="0x1000" crc="c3beb501" sha1="14f49c45fc7c91799034c5a51fca310f0a66b1d7" />
+		<rom name="l05-11.bin" offset="0x4000" size="0x1000" crc="ae159192" sha1="d467256a3a366e246243e7828ff4a45d4c146e2c" />
+		<rom name="n05-12.bin" offset="0x5000" size="0x1000" crc="966bc9ab" sha1="4434fc620169ffea1b1f227b61674e1daf79b54b" />
+		</dataarea>
+		<dataarea name="cclimber_audio:samples" size="0x2000">
+		<rom name="falcon13" offset="0x0" size="0x1000" crc="5f0bcdfb" sha1="7f79bf6de117348f606696ed7ea1937bbf926612" />
+		<rom name="falcon12" offset="0x1000" size="0x1000" crc="9003ffbd" sha1="fd016056aabc23957643f37230f03842294f795e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="n11-06.bin" offset="0x0" size="0x1000" crc="2dcedd12" sha1="dfdcfc21bcba7c8e148ee54daae511ca78c58e70" />
+		<rom name="falcon5" offset="0x1000" size="0x1000" crc="cd3b5dde" sha1="2319a2be04d70989b01f4fc703756ba6e1c1f388" />
+		<rom name="k11-04.bin" offset="0x2000" size="0x1000" crc="3375b3bd" sha1="a00b3c31cff123aab6ac0833aabfdd663302971a" />
+		<rom name="h11-03.bin" offset="0x3000" size="0x1000" crc="5655cc11" sha1="5195e9b2a60c54280b48b32ee8248090904dbc51" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x1000">
+		<rom name="c11-02.bin" offset="0x0" size="0x800" crc="d1352c31" sha1="da726a63a8be830d695afeddc1717749af8c9d47" />
+		<rom name="a11-01.bin" offset="0x800" size="0x800" crc="a7a2fdbd" sha1="529865f8bbfbdbbf34ac39c70ef17e6d5bd0f845" />
+		</dataarea>
+		<dataarea name="proms" size="0x60">
+		<rom name="prom.v6" offset="0x0" size="0x20" crc="b3fc1505" sha1="5b94adde0428a26b815c7eb9b3f3716470d349c7" />
+		<rom name="prom.u6" offset="0x20" size="0x20" crc="26aada9e" sha1="f59645e606ea4f0dd0fc4ea47dd03f526c534941" />
+		<rom name="prom.t6" offset="0x40" size="0x20" crc="676b3166" sha1="29b9434cd34d43ea5664e436e2a24b54f8d88aac" />
+		</dataarea>
+	</part>
+</software>
+<software name="ckonga3" cloneof="ckong">
+	<description>Crazy Kong Part II -2</description>
+	<year>1981</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="ckonga4.07" offset="0x0" size="0x1000" crc="9b5e7592" sha1="c2b44765eef7d6a8f9f1fb8a7cefd011ebf2a330" />
+		<rom name="f05-08.bin" offset="0x1000" size="0x1000" crc="5dc1aaba" sha1="42b9e5946ffce7c156d114bde68f37c2c34853c4" />
+		<rom name="h05-09.bin" offset="0x2000" size="0x1000" crc="c9054c94" sha1="1aa08d2501ee620759fd5c111e12f6d432c25294" />
+		<rom name="10.dat" offset="0x3000" size="0x1000" crc="c3beb501" sha1="14f49c45fc7c91799034c5a51fca310f0a66b1d7" />
+		<rom name="l05-11.bin" offset="0x4000" size="0x1000" crc="ae159192" sha1="d467256a3a366e246243e7828ff4a45d4c146e2c" />
+		<rom name="n05-12.bin" offset="0x5000" size="0x1000" crc="966bc9ab" sha1="4434fc620169ffea1b1f227b61674e1daf79b54b" />
+		</dataarea>
+		<dataarea name="cclimber_audio:samples" size="0x2000">
+		<rom name="falcon13" offset="0x0" size="0x1000" crc="5f0bcdfb" sha1="7f79bf6de117348f606696ed7ea1937bbf926612" />
+		<rom name="falcon12" offset="0x1000" size="0x1000" crc="9003ffbd" sha1="fd016056aabc23957643f37230f03842294f795e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="n11-06.bin" offset="0x0" size="0x1000" crc="2dcedd12" sha1="dfdcfc21bcba7c8e148ee54daae511ca78c58e70" />
+		<rom name="l11-05.bin" offset="0x1000" size="0x1000" crc="fa7cbd91" sha1="0208d2ebc59f3600005476b6987472685bc99d67" />
+		<rom name="k11-04.bin" offset="0x2000" size="0x1000" crc="3375b3bd" sha1="a00b3c31cff123aab6ac0833aabfdd663302971a" />
+		<rom name="h11-03.bin" offset="0x3000" size="0x1000" crc="5655cc11" sha1="5195e9b2a60c54280b48b32ee8248090904dbc51" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x1000">
+		<rom name="c11-02.bin" offset="0x0" size="0x800" crc="d1352c31" sha1="da726a63a8be830d695afeddc1717749af8c9d47" />
+		<rom name="a11-01.bin" offset="0x800" size="0x800" crc="a7a2fdbd" sha1="529865f8bbfbdbbf34ac39c70ef17e6d5bd0f845" />
+		</dataarea>
+		<dataarea name="proms" size="0x60">
+		<rom name="ckonga4.v6" offset="0x0" size="0x20" crc="d3b84067" sha1="1d025c28c47c4c7508b0dfd534de87e923262630" />
+		<rom name="prom.u6" offset="0x20" size="0x20" crc="26aada9e" sha1="f59645e606ea4f0dd0fc4ea47dd03f526c534941" />
+		<rom name="prom.t6" offset="0x40" size="0x20" crc="676b3166" sha1="29b9434cd34d43ea5664e436e2a24b54f8d88aac" />
+		</dataarea>
+	</part>
+</software>
+<software name="ckongpt2s01" cloneof="ckongpt2">
+	<description>Crazy Kong Part II DK graphics (2023-01-19)</description>
+	<year>2023</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x6000">
+		<rom name="7s01.5d" offset="0x0" size="0x1000" crc="8dcf7df0" sha1="78807b5d97c2a3cb0572774226ecbb4deeb04473" />
+		<rom name="8s01.5e" offset="0x1000" size="0x1000" crc="8930f958" sha1="568e4825f1488a93c36dd210f8666efc90eddf1a" />
+		<rom name="9.5h" offset="0x2000" size="0x1000" crc="c9054c94" sha1="1aa08d2501ee620759fd5c111e12f6d432c25294" />
+		<rom name="10s01.5k" offset="0x3000" size="0x1000" crc="a12afa47" sha1="8ccf76efbbee2645f11b88a6101a6216a464bd8c" />
+		<rom name="11s01.5l" offset="0x4000" size="0x1000" crc="c6f2913e" sha1="5ff0cb5b9c4616cdf870a45cae5833cb0c3b3556" />
+		<rom name="12s01.5n" offset="0x5000" size="0x1000" crc="34c7a93b" sha1="10897cdb946b520f18021fba07d559a9cc0fb4de" />
+		</dataarea>
+		<dataarea name="cclimber_audio:samples" size="0x2000">
+		<rom name="14.5s" offset="0x0" size="0x1000" crc="5f0bcdfb" sha1="7f79bf6de117348f606696ed7ea1937bbf926612" />
+		<rom name="13.5p" offset="0x1000" size="0x1000" crc="9003ffbd" sha1="fd016056aabc23957643f37230f03842294f795e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="6s01.11n" offset="0x0" size="0x1000" crc="b6201ddb" sha1="4aa1ed5273aedc78e55e9401f6f17705a264aa58" />
+		<rom name="5s01.11l" offset="0x1000" size="0x1000" crc="090b509a" sha1="e83a4f05a622e04b712244bb146c734fc5a4ae92" />
+		<rom name="4s01.11k" offset="0x2000" size="0x1000" crc="a9e9ebc2" sha1="b631ee88061e3889ea65e9c1d3448e64d98a6412" />
+		<rom name="3s01.11h" offset="0x3000" size="0x1000" crc="bac1e8a5" sha1="a06d17e3a18709e82283bcf641989fb4dcff9d53" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x1000">
+		<rom name="2s01.11c" offset="0x0" size="0x800" crc="eeb3360a" sha1="3dcf6a2c35b46fe06af008083900d305f18df15e" />
+		<rom name="1s01.11a" offset="0x800" size="0x800" crc="b8873065" sha1="24677b74136bf5c064f7de2b62ad6edf9f14f2e6" />
+		</dataarea>
+		<dataarea name="proms" size="0x60">
+		<rom name="s01.v6" offset="0x0" size="0x20" crc="fc2b00f0" sha1="56b6f78324b51ad7ba8a9da49b9f748b1a9a55e3" />
+		<rom name="s01.u6" offset="0x20" size="0x20" crc="d488c634" sha1="2c33cec23528d6eae01ab8207078e256de0f8f36" />
+		<rom name="s01.t6" offset="0x40" size="0x20" crc="cccec69c" sha1="a8681ec247342ea18d3823d6c2475cf3b9fbcfb9" />
+		</dataarea>
+	</part>
+</software>
+<software name="ckongpt2s02" cloneof="ckongpt2">
+	<description>Crazy Kong Part II 2023 revision</description>
+	<year>2023</year>
+	<publisher>John Kowalski</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x6000">
+		<rom name="7s02.5d" offset="0x0" size="0x1000" crc="d75ef02a" sha1="37c71cd00dfda1339a467a59866301f397a1782f" />
+		<rom name="8s02.5e" offset="0x1000" size="0x1000" crc="345c84d1" sha1="d154b68fae9f797b4fb093daed0daaed7fb79ebf" />
+		<rom name="9s02.5h" offset="0x2000" size="0x1000" crc="de8c097d" sha1="72abdc16583d37c013b8438524d45d905ef2c271" />
+		<rom name="10s02.dat" offset="0x3000" size="0x1000" crc="e75efd30" sha1="6c11c50da307861aaed83ea885616be08d4a7ebd" />
+		<rom name="11s02.5l" offset="0x4000" size="0x1000" crc="31609813" sha1="19d7f75f2de2a3632a47b45e733495d476090467" />
+		<rom name="12s02.5n" offset="0x5000" size="0x1000" crc="75cb6387" sha1="6701b3eee6fc44852d1b36ca52e214811171009b" />
+		</dataarea>
+		<dataarea name="cclimber_audio:samples" size="0x2000">
+		<rom name="14.5s" offset="0x0" size="0x1000" crc="5f0bcdfb" sha1="7f79bf6de117348f606696ed7ea1937bbf926612" />
+		<rom name="13.5p" offset="0x1000" size="0x1000" crc="9003ffbd" sha1="fd016056aabc23957643f37230f03842294f795e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="6.11n" offset="0x0" size="0x1000" crc="2dcedd12" sha1="dfdcfc21bcba7c8e148ee54daae511ca78c58e70" />
+		<rom name="5.11l" offset="0x1000" size="0x1000" crc="fa7cbd91" sha1="0208d2ebc59f3600005476b6987472685bc99d67" />
+		<rom name="4.11k" offset="0x2000" size="0x1000" crc="3375b3bd" sha1="a00b3c31cff123aab6ac0833aabfdd663302971a" />
+		<rom name="3.11h" offset="0x3000" size="0x1000" crc="5655cc11" sha1="5195e9b2a60c54280b48b32ee8248090904dbc51" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x1000">
+		<rom name="2.11c" offset="0x0" size="0x800" crc="d1352c31" sha1="da726a63a8be830d695afeddc1717749af8c9d47" />
+		<rom name="1.11a" offset="0x800" size="0x800" crc="a7a2fdbd" sha1="529865f8bbfbdbbf34ac39c70ef17e6d5bd0f845" />
+		</dataarea>
+		<dataarea name="proms" size="0x60">
+		<rom name="prom.v6" offset="0x0" size="0x20" crc="b3fc1505" sha1="5b94adde0428a26b815c7eb9b3f3716470d349c7" />
+		<rom name="prom.u6" offset="0x20" size="0x20" crc="26aada9e" sha1="f59645e606ea4f0dd0fc4ea47dd03f526c534941" />
+		<rom name="prom.t6" offset="0x40" size="0x20" crc="676b3166" sha1="29b9434cd34d43ea5664e436e2a24b54f8d88aac" />
+		</dataarea>
+	</part>
+</software>
+<software name="tongypac" cloneof="ckong">
+	<description>Tongy Paccy</description>
+	<year>1981</year>
+	<publisher>Grand Master Peter</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="falcon7" offset="0x0" size="0x1000" crc="2171cac3" sha1="7b18bfe44c32fb64b675bbbe2136344522c79b09" />
+		<rom name="falcon8" offset="0x1000" size="0x1000" crc="88b83ff7" sha1="4afc494cc264aaa4614da6aed02ce062d9c20850" />
+		<rom name="falcon9" offset="0x2000" size="0x1000" crc="cff2af47" sha1="1757428cefad13855a623162101ec01c04006c94" />
+		<rom name="ck10.bin" offset="0x3000" size="0x1000" crc="520fa4de" sha1="6edbaf727756cd33bde94492d72654aa12dbd7e1" />
+		<rom name="md5l.bin" offset="0x4000" size="0x1000" crc="d1db1bb0" sha1="fe7d700c7f9eca9c389be3717ebebf3e7dc63aa2" />
+		</dataarea>
+		<dataarea name="cclimber_audio:samples" size="0x2000">
+		<rom name="falcon13" offset="0x0" size="0x1000" crc="5f0bcdfb" sha1="7f79bf6de117348f606696ed7ea1937bbf926612" />
+		<rom name="ck12.bin" offset="0x1000" size="0x1000" crc="2eb23b60" sha1="c9e7dc584562aceb374193655fbacb7df6c9c731" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="tpac6.bin" offset="0x0" size="0x1000" crc="918e3c52" sha1="bc630759a525615aba1a06a0781e26a1a5c2c377" />
+		<rom name="tpac5.bin" offset="0x1000" size="0x1000" crc="2bbc69e7" sha1="5741aa6944e9b936289368d533c2b19d34320260" />
+		<rom name="tpac4.bin" offset="0x2000" size="0x1000" crc="8d5890b6" sha1="92d48d75084df2e2a3fa9d92a3c6c059f0781d81" />
+		<rom name="tpac3.bin" offset="0x3000" size="0x1000" crc="6b16145b" sha1="ef17fad07b81c9dae5c6e16a86afc4a8f6a7ff8c" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x1000">
+		<rom name="falcon2" offset="0x0" size="0x800" crc="f67c80f1" sha1="d1fbcce1b6242f810e106ff50812636e3168ebc1" />
+		<rom name="falcon1" offset="0x800" size="0x800" crc="80eb517d" sha1="fef4111f656c58b28e7eac5aa5b5cc7e07ccb2fd" />
+		</dataarea>
+		<dataarea name="proms" size="0x60">
+		<rom name="ck6v.bin" offset="0x0" size="0x20" crc="751c3325" sha1="edce2bc883996c1d72dc6c1c9f62799b162d415a" />
+		<rom name="ck6u.bin" offset="0x20" size="0x20" crc="ab1940fa" sha1="8d98e05cbaa6f55770c12e0a9a8ed9c73cc54423" />
+		<rom name="ck6t.bin" offset="0x40" size="0x20" crc="b4e827a5" sha1="31a5a5ad54417a474d22bb16c473415d99a2b6f1" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

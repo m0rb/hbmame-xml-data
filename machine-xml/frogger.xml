@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="frogger" description="Frogger cartridges">
+<software name="froggerp">
+	<description>Frogger (fixed)</description>
+	<year>2023</year>
+	<publisher>philmurr</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="frogger.26" offset="0x0" size="0x1000" crc="597696d6" sha1="e7e021776cad00f095a1ebbef407b7c0a8f5d835" />
+		<rom name="frogger.27p" offset="0x1000" size="0x1000" crc="b05c6d06" sha1="71f17fdd87dff06b252e0d94b62743c5a23fd4f8" />
+		<rom name="frsm3.7p" offset="0x2000" size="0x1000" crc="098a8093" sha1="6f2e4ceb49e86f608818db93b5cc6a376abebd1e" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="frogger.608" offset="0x0" size="0x800" crc="e8ab0256" sha1="f090afcfacf5f13cdfa0dfda8e3feb868c6ce8bc" />
+		<rom name="frogger.609" offset="0x800" size="0x800" crc="7380a48f" sha1="75582a94b696062cbdb66a4c5cf0bc0bb94f81ee" />
+		<rom name="frogger.610" offset="0x1000" size="0x800" crc="31d7eb27" sha1="2e1d34ae4da385fd7cac94707d25eeddf4604e1a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="frogger.607" offset="0x0" size="0x800" crc="05f7d883" sha1="78831fd287da18928651a8adb7e578d291493eff" />
+		<rom name="frogger.606" offset="0x800" size="0x800" crc="f524ee30" sha1="dd768967add61467baa08d5929001f157d6cd911" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="pr-91.6l" offset="0x0" size="0x20" crc="413703bf" sha1="66648b2b28d3dcbda5bdb2605d1977428939dd3c" />
+		</dataarea>
+	</part>
+</software>
+<software name="frogtest2">
+	<description>Frogger Test Rom (2019-01-27)</description>
+	<year>2019</year>
+	<publisher>Phil Murray</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="frogtest2.ic5" offset="0x0" size="0x440" crc="103cbaf8" sha1="f3c9ecfca918ea6fbb7936f4ad15c6a7fe46c4ab" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="frogger.608" offset="0x0" size="0x800" crc="e8ab0256" sha1="f090afcfacf5f13cdfa0dfda8e3feb868c6ce8bc" />
+		<rom name="frogger.609" offset="0x800" size="0x800" crc="7380a48f" sha1="75582a94b696062cbdb66a4c5cf0bc0bb94f81ee" />
+		<rom name="frogger.610" offset="0x1000" size="0x800" crc="31d7eb27" sha1="2e1d34ae4da385fd7cac94707d25eeddf4604e1a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="frogger.607" offset="0x0" size="0x800" crc="05f7d883" sha1="78831fd287da18928651a8adb7e578d291493eff" />
+		<rom name="frogger.606" offset="0x800" size="0x800" crc="f524ee30" sha1="dd768967add61467baa08d5929001f157d6cd911" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="pr-91.6l" offset="0x0" size="0x20" crc="413703bf" sha1="66648b2b28d3dcbda5bdb2605d1977428939dd3c" />
+		</dataarea>
+	</part>
+</software>
+<software name="kazzy">
+	<description>K-azzy</description>
+	<year>1981</year>
+	<publisher>Kazzy</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="frogger.26" offset="0x0" size="0x1000" crc="597696d6" sha1="e7e021776cad00f095a1ebbef407b7c0a8f5d835" />
+		<rom name="frogger.27" offset="0x1000" size="0x1000" crc="b6e6fcc3" sha1="5e8692f2b0c7f4b3642b3ee6670e1c3b20029cdc" />
+		<rom name="frsm3.7" offset="0x2000" size="0x1000" crc="aca22ae0" sha1="5a99060ea2506a3ac7d61ca5876ce5cb3e493565" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="frogger.608" offset="0x0" size="0x800" crc="e8ab0256" sha1="f090afcfacf5f13cdfa0dfda8e3feb868c6ce8bc" />
+		<rom name="frogger.609" offset="0x800" size="0x800" crc="7380a48f" sha1="75582a94b696062cbdb66a4c5cf0bc0bb94f81ee" />
+		<rom name="frogger.610" offset="0x1000" size="0x800" crc="31d7eb27" sha1="2e1d34ae4da385fd7cac94707d25eeddf4604e1a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="kazzy.607" offset="0x0" size="0x800" crc="86f041e6" sha1="61dd02bb2dda15d2f47ecc878a9dd6aa3118687d" />
+		<rom name="kazzy.606" offset="0x800" size="0x800" crc="9ea43774" sha1="d96eae151580f6ccef78049a73ec1fc5fa90aa63" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="pr-91.6l" offset="0x0" size="0x20" crc="413703bf" sha1="66648b2b28d3dcbda5bdb2605d1977428939dd3c" />
+		</dataarea>
+	</part>
+</software>
+<software name="trukker">
+	<description>Trukker</description>
+	<year>1999</year>
+	<publisher>Grimlick</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="frogger.ic5" offset="0x0" size="0x1000" crc="efab0c79" sha1="68c99b6cdcb9396bb473739a62ffc009b4bf57d5" />
+		<rom name="frogger.ic6" offset="0x1000" size="0x1000" crc="aeca9c13" sha1="cdf560adbd7f2813e86e378da7781cccf7928a44" />
+		<rom name="frogger.ic7" offset="0x2000" size="0x1000" crc="dd251066" sha1="4612e1fe1ab7182a277140b1a1976cc17e0746a5" />
+		<rom name="frogger.ic8" offset="0x3000" size="0x1000" crc="bf293a02" sha1="be94e9f5caa74c3de6fd95bd20928f4a9c514227" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="frogger.608" offset="0x0" size="0x800" crc="e8ab0256" sha1="f090afcfacf5f13cdfa0dfda8e3feb868c6ce8bc" />
+		<rom name="frogger.609" offset="0x800" size="0x800" crc="7380a48f" sha1="75582a94b696062cbdb66a4c5cf0bc0bb94f81ee" />
+		<rom name="frogger.610" offset="0x1000" size="0x800" crc="31d7eb27" sha1="2e1d34ae4da385fd7cac94707d25eeddf4604e1a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="trukker.606" offset="0x0" size="0x800" crc="f0c49466" sha1="f88d02ada32a9f1e10004785d17659279fd1d651" />
+		<rom name="trukker.607" offset="0x800" size="0x800" crc="6ab5c2eb" sha1="d13fcd5669bd0f8f76505684ba5e788b395aeef1" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="pr-91.6l" offset="0x0" size="0x20" crc="413703bf" sha1="66648b2b28d3dcbda5bdb2605d1977428939dd3c" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

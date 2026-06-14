@@ -1,0 +1,21 @@
+<software name="miexchng">
+	<description>Money Puzzle Exchanger / Money Idol Exchanger</description>
+	<year>1997</year>
+	<publisher>Face</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="231-p1.p1" offset="0x0" size="0x80000" crc="61be1810" sha1="1ab0e11352ca05329c6e3f5657b60e4a227fcbfb" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x600000">
+		<rom loadflag="load16_byte" name="231-c1.c1" offset="0x0" size="0x200000" crc="6c403ba3" sha1="3830446fbd07d5a6564f9ac68a4bec5ff5b7d5c9" />
+		<rom loadflag="load16_byte" name="231-c2.c2" offset="0x1" size="0x200000" crc="554bcd9b" sha1="e658161618bd41a66f1040be409efdea28020cf6" />
+		<rom loadflag="load16_byte" name="231-c3.c3" offset="0x400000" size="0x100000" crc="4f6f7a63" sha1="10935dbc1f52b95979a097b13a114cff18d4d446" />
+		<rom loadflag="load16_byte" name="231-c4.c4" offset="0x400001" size="0x100000" crc="2e35e71b" sha1="6f248191c2c60ca1b1b4f2ebf08756e036682144" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x400000">
+		<rom name="231-v1.v1" offset="0x0" size="0x400000" crc="113fb898" sha1="9168ba90c4aa969f69eb11ba3f4d76592d81e05a" />
+		</dataarea>
+	</part>
+</software>

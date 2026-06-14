@@ -1,0 +1,18 @@
+<software name="galaxiann">
+	<description>Galaxians (beta 1, 2023-05-31)</description>
+	<year>2023</year>
+	<publisher>tcdev</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="422.p1" offset="0x0" size="0x100000" crc="e1d6f03b" sha1="e1def1fdf659fcb0d8ce7bd4e939161d6dee4cc2" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="422.v1" offset="0x0" size="0x80000" crc="67d1fe70" sha1="d38f2abc92854b3cbad3fd2d0990a87ceff1d826" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="422.c1" offset="0x0" size="0x100000" crc="34283c88" sha1="cce783772e1fd33bf773bf180a48f58f107f9700" />
+		<rom loadflag="load16_byte" name="422.c2" offset="0x1" size="0x100000" crc="31f090aa" sha1="7e8173740b886787b735277e21306bb99d5adbe0" />
+		</dataarea>
+	</part>
+</software>

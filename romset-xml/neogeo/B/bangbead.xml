@@ -1,0 +1,23 @@
+<software name="bangbead">
+	<description>Bang Bead</description>
+	<year>2000</year>
+	<publisher>Visco</publisher>
+	<info name="source" value="bangbead" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:fixed" size="0x20000">
+		</dataarea>
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="259-p1.p1" offset="0x100000" size="0x100000" crc="88a37f8b" sha1="566db84850fad5e8fe822e8bba910a33e083b550" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="259-c1.c1" offset="0x0" size="0x800000" crc="1f537f74" sha1="b8ef691e92191c20a5ed4f20a75cca3c7383bca6" />
+		<rom loadflag="load16_byte" name="259-c2.c2" offset="0x1" size="0x800000" crc="0efd98ff" sha1="d350315d3c7f26d638458e5ccf2126069a4c7a5b" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x500000">
+		<rom name="259-v1.v1" offset="0x0" size="0x400000" crc="088eb8ab" sha1="608306e35501dd7d382d9f96b28e7550aa896a03" />
+		<rom name="259-v2.v2" offset="0x400000" size="0x100000" crc="97528fe9" sha1="8f5eddbb3a9a225492479d1a44801f3916c8e791" />
+		</dataarea>
+	</part>
+</software>

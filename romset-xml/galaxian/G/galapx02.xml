@@ -1,0 +1,21 @@
+<software name="galapx02" cloneof="galnamco">
+	<description>Galaxian Part X (New Invasion, set 2)</description>
+	<year>1980</year>
+	<publisher>Petaco S.A.</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="galapx02.u" offset="0x0" size="0x800" crc="0701fcff" sha1="b4fbc864fb9d95af63c32427779aad05934d95d0" />
+		<rom name="galapx02.v" offset="0x800" size="0x800" crc="cb1136d8" sha1="7be8c50bbd1b891ca7ded597e55b481efa6ac9d5" />
+		<rom name="galapx02.w" offset="0x1000" size="0x800" crc="f45ef2c7" sha1="6b50383d98360afee8137a94c4c91d4d10db9221" />
+		<rom name="galapx02.y" offset="0x1800" size="0x800" crc="3f5c8a62" sha1="7bde7f712c2cb97d40467062390097707b2896ae" />
+		<rom name="galapx02.z" offset="0x2000" size="0x800" crc="2d897370" sha1="21c108712e7c00bd0f30d1fdddfaa71eed84158c" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="galapx02.1h" offset="0x0" size="0x800" crc="6c14fa93" sha1="0ac55adee875fde0488b4376c4ca5e0047d09fbf" />
+		<rom name="galapx02.1k" offset="0x800" size="0x800" crc="2bd0ef95" sha1="a17edda8940bca02820e270a3ec9e38666343b26" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="galapx02.clr" offset="0x0" size="0x20" crc="5aa5c5dd" sha1="be74103889248f24123d1df553da02586681835e" />
+		</dataarea>
+	</part>
+</software>

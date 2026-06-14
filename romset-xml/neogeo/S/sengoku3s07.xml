@@ -1,0 +1,24 @@
+<software name="sengoku3s07" cloneof="sengoku3">
+	<description>Sengoku 3 (Color Modification V1)</description>
+	<year>2001</year>
+	<publisher>Flycboy[EGCG]</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="261hc07-ph1.p1" offset="0x100000" size="0x100000" crc="724a452d" sha1="98abce21b8a67cb5d4d017a3f0096b75c1561206" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xe00000">
+		<rom name="261.v1" offset="0x0" size="0x400000" crc="64c30081" sha1="f9ebd20cf59b72e864b7274c1bdb6d99ecaf4595" />
+		<rom name="261.v2" offset="0x400000" size="0x400000" crc="392a9c47" sha1="7ab90a54089236ca6c3ef1af8e566a8025d38159" />
+		<rom name="261.v3" offset="0x800000" size="0x400000" crc="c1a7ebe3" sha1="1d7bb481451f5ee0457e954bb5210300182c3c9c" />
+		<rom name="261.v4" offset="0xc00000" size="0x200000" crc="9000d085" sha1="11157b355ab4eb6627e9f322ed875332d3d77349" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="261.c1" offset="0x0" size="0x800000" crc="ded84d9c" sha1="d960523b813d4fae06d716298d4e431a5c77a0c5" />
+		<rom loadflag="load16_byte" name="261.c2" offset="0x1" size="0x800000" crc="b8eb4348" sha1="619d24312549932959481fa58f43f11c048e1ca5" />
+		<rom loadflag="load16_byte" name="261.c3" offset="0x1000000" size="0x800000" crc="84e2034a" sha1="38ec4ae4b86933a25c9a03799b8cade4b1346401" />
+		<rom loadflag="load16_byte" name="261.c4" offset="0x1000001" size="0x800000" crc="0b45ae53" sha1="a19fb21408ab633aee8bbf38bf43b5e26766b355" />
+		</dataarea>
+	</part>
+</software>

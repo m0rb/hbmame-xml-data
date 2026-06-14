@@ -1,0 +1,27 @@
+<software name="pulstar">
+	<description>Pulstar</description>
+	<year>1995</year>
+	<publisher>Aicom</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x300000">
+		<rom loadflag="load16_word_swap" name="089-p1.p1" offset="0x0" size="0x100000" crc="5e5847a2" sha1="b864d0ec4184b785569ddbf67c2115b5ab86ee3e" />
+		<rom loadflag="load16_word_swap" name="089-p2.sp2" offset="0x100000" size="0x200000" crc="028b774c" sha1="fc5da2821a5072f2b78245fc59b6e3eeef116d16" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x1c00000">
+		<rom loadflag="load16_byte" name="089-c1.c1" offset="0x0" size="0x400000" crc="f4e97332" sha1="54693827a99836e7d61c45d495dd78bf3fcf1544" />
+		<rom loadflag="load16_byte" name="089-c2.c2" offset="0x1" size="0x400000" crc="836d14da" sha1="99cc4f9b764503eff7849ff2977d90bb47c5564a" />
+		<rom loadflag="load16_byte" name="089-c3.c3" offset="0x800000" size="0x400000" crc="913611c4" sha1="9664eb1fe1e6f8c3ddeeff872d38ea920ed38a82" />
+		<rom loadflag="load16_byte" name="089-c4.c4" offset="0x800001" size="0x400000" crc="44cef0e3" sha1="34f6f348ba86a2a06cb9c43a16b97cf6ee6158ac" />
+		<rom loadflag="load16_byte" name="089-c5.c5" offset="0x1000000" size="0x400000" crc="89baa1d7" sha1="976c745c44967de61e2a23227835be580b1d283a" />
+		<rom loadflag="load16_byte" name="089-c6.c6" offset="0x1000001" size="0x400000" crc="b2594d56" sha1="685c0bf8ff76c76e41c2ceaebb96349634cfdb2e" />
+		<rom loadflag="load16_byte" name="089-c7.c7" offset="0x1800000" size="0x200000" crc="6a5618ca" sha1="9a1d5f998b0dfabacf9dad45c94bef2bb43e5e0c" />
+		<rom loadflag="load16_byte" name="089-c8.c8" offset="0x1800001" size="0x200000" crc="a223572d" sha1="2791b1212f57937b2b2a95bc9e420c06d0c37669" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x800000">
+		<rom name="089-v1.v1" offset="0x0" size="0x400000" crc="6f726ecb" sha1="e8e2a46af690ce6c7ee64a58ab5010d22df9548c" />
+		<rom name="089-v2.v2" offset="0x400000" size="0x400000" crc="9d2db551" sha1="83f7e5db7fb1502ceadcd334df90b11b1bba78e5" />
+		</dataarea>
+	</part>
+</software>

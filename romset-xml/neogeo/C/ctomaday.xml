@@ -1,0 +1,21 @@
+<software name="ctomaday">
+	<description>Captain Tomaday</description>
+	<year>1999</year>
+	<publisher>Visco</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="249-p1.p1" offset="0x100000" size="0x100000" crc="c9386118" sha1="5554662c7bc8605889cac4a67fee05bbb4eb786f" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="249-c1.c1" offset="0x0" size="0x400000" crc="041fb8ee" sha1="dacc84d713d76818d89a26358374afaa22fa82a2" />
+		<rom loadflag="load16_byte" name="249-c2.c2" offset="0x1" size="0x400000" crc="74f3cdf4" sha1="55ddabaf77f4d575f4deb24fe63e4bdc2c6f31e1" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x500000">
+		<rom name="249-v1.v1" offset="0x0" size="0x400000" crc="de7c8f27" sha1="3681a68a702ab5da8f509b8301d6cada75959332" />
+		<rom name="249-v2.v2" offset="0x400000" size="0x100000" crc="c8e40119" sha1="738f525c381ed68c0b8a89318a3e4d0089473c45" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,24 @@
+<software name="cworld2ja" cloneof="cworld2j">
+	<description>Adventure Quiz Capcom World 2 (Japan 920611, B-Board 90629B-3, no battery)</description>
+	<year>1992</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c20ja.p1" offset="0x0" size="0x80000" crc="de54487f" sha1="75b228a6c702c82d4d9a2a992933b5c3c420f6c2" />
+		<rom loadflag="load16_word_swap" name="c20ja.p5" offset="0x80000" size="0x80000" crc="93248458" sha1="9dcdc6838f52efc9a0a6333fd0d734946db12dbd" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c20.m1" offset="0x0" size="0x8000" crc="e14dc524" sha1="0020a9002572002458fbfe45e8a959cb90de3f03" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="cworld2a.key" offset="0x0" size="0x80" crc="b7775824" sha1="1ccb4b718d4297d540d3a4341d49bcef8a95988e" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c20.v1" offset="0x0" size="0x20000" crc="d10c1b68" sha1="2423241f3340d8ab1b6bf9514ca8c3bba1273873" />
+		<rom name="c20.v2" offset="0x20000" size="0x20000" crc="7d17e496" sha1="a274b94ec4f042dddc239ecb9ac2e1e2375f5eb2" />
+		</dataarea>
+	</part>
+</software>

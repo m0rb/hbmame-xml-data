@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="gigaman2" description="Gigaman2 cartridges">
+<software name="gigaman2" cloneof="megaman2">
+	<description>Giga Man 2: The Power Fighters (bootleg of Mega Man 2: The Power Fighters)</description>
+	<year>1996</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="sys_rom1.bin" offset="0x0" size="0x400000" crc="2eaa5e10" sha1="79f9a137bf5b3317579c548f346c1dc1cccdb771" />
+		</dataarea>
+		<dataarea name="mcu" size="0x10000">
+		<rom name="89c4051.bin" offset="0x0" size="0x10000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x800000">
+		<rom name="cg_rom1.bin" offset="0x0" size="0x400000" crc="ed55a641" sha1="fa798779a3787317937a646047620b1c0dbe102a" />
+		<rom name="cg_rom2.bin" offset="0x400000" size="0x400000" crc="63918c05" sha1="3a7fdf88e87bdbc622504276287740c08df38f6f" />
+		</dataarea>
+		<dataarea name="oki" size="0x800000">
+		<rom name="pcm_rom1.bin" offset="0x0" size="0x800000" crc="41a854ab" sha1="206448c3e27d260d0650c28a9cd524854ce0b64d" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

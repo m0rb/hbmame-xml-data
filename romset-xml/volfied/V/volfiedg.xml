@@ -1,0 +1,33 @@
+<software name="volfiedg">
+	<description>Volfied (Greek)</description>
+	<year>2005</year>
+	<publisher>GreekRoms</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="c04-12-1.30g" offset="0x0" size="0x10000" crc="f13c5621" sha1="b50aaadb1a3128aa5ecbab2a1450c5e817f33620" />
+		<rom loadflag="load16_byte" name="c04-08-1.10g" offset="0x1" size="0x10000" crc="b7e5472e" sha1="68323e46ffee7cf8d2119405543353691673ac05" />
+		<rom loadflag="load16_byte" name="c04-11-1.29g" offset="0x20000" size="0x10000" crc="54730fe3" sha1="796693cd2cfb539f6691aa4e359c47cfd7348734" />
+		<rom loadflag="load16_byte" name="c04-25-1.9g" offset="0x20001" size="0x10000" crc="cff7aee1" sha1="1d9a3ddebafb8b8b4075de2946a250156f81fb54" />
+		<rom loadflag="load16_byte" name="c04-20.7g" offset="0x80000" size="0x20000" crc="7614c798" sha1="7465f2eaeab73f047cc9f41f5a00173c34636513" />
+		<rom loadflag="load16_byte" name="c04-22.9g" offset="0x80001" size="0x20000" crc="aa6e8da8" sha1="014eb2b5ba89e267a915ea647a71fdd8413099c7" />
+		<rom loadflag="load16_byte" name="c04-19.6" offset="0xc0000" size="0x20000" crc="231493ae" sha1="2658e6556fd0e75ddd0f0b8628cfa5237c187a06" />
+		<rom loadflag="load16_byte" name="c04-21.8" offset="0xc0001" size="0x20000" crc="8598d38e" sha1="4ec1b819586b50e2f6aff2aaa5e3b06704b9bec2" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="c04-06.71" offset="0x0" size="0x8000" crc="b70106b2" sha1="d71062f9d9b11492e13fc93982b95883f564f902" />
+		</dataarea>
+		<dataarea name="cchip:cchip_eprom" size="0x2000">
+		<rom name="cchip_c04-23" offset="0x0" size="0x2000" crc="46b0b479" sha1="73aa2267eb468c5aa5db67183047e9aef8321215" />
+		</dataarea>
+		<dataarea name="pc090oj" size="0xc0000">
+		<rom loadflag="load16_byte" name="c04-16.2g" offset="0x0" size="0x20000" crc="1c6963a9" sha1="2dc4b6838c95497e019c03582a8f7ecb48fa97a8" />
+		<rom loadflag="load16_byte" name="c04-18.4g" offset="0x1" size="0x20000" crc="67ea587f" sha1="2b43ba53cc563d3462a4bec430427f92290f2b23" />
+		<rom loadflag="load16_byte" name="c04-15.1" offset="0x40000" size="0x20000" crc="7c50b978" sha1="aa9cad5f09f5d9dceaf4e06bcd347f1d5d02d292" />
+		<rom loadflag="load16_byte" name="c04-17.3" offset="0x40001" size="0x20000" crc="c62fdeb8" sha1="a9f6ca8335071169d772e65a9f5315a22a310b25" />
+		<rom loadflag="load16_byte" name="c04-10.15" offset="0x80000" size="0x10000" crc="429b6b49" sha1="dcb0c8bc9d67643d96b2ffdf5ccd747318704c37" />
+		<rom loadflag="load16_byte" name="c04-09.14" offset="0x80001" size="0x10000" crc="c78cf057" sha1="097982e57b1d20fbdf21986c23684adefe6f1ce1" />
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		</dataarea>
+	</part>
+</software>

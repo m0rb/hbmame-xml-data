@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="batsugun" description="Batsugun cartridges">
+<software name="batsugun01">
+	<description>Batsugun Transparent (Crazy Gun Transparent Version, 2015-03-22)</description>
+	<year>1993</year>
+	<publisher>Eezezy</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_word_swap" name="s01.1a" offset="0x0" size="0x80000" crc="63d28fd3" sha1="aa3e111d596f408b735e4f79ab654eea24bd6f0c" />
+		</dataarea>
+		<dataarea name="gp9001_0" size="0x400000">
+		<rom name="tp030_3l.bin" offset="0x0" size="0x100000" crc="3024b793" sha1="e161db940f069279356fca2c5bf2753f07773705" />
+		<rom name="tp030_3h.bin" offset="0x100000" size="0x100000" crc="ed75730b" sha1="341f0f728144a049486d996c9bb14078578c6879" />
+		<rom name="tp030_4l.bin" offset="0x200000" size="0x100000" crc="fedb9861" sha1="4b0917056bd359b21935358c6bcc729262be6417" />
+		<rom name="tp030_4h.bin" offset="0x300000" size="0x100000" crc="d482948b" sha1="31be7dc5cff072403b783bf203b9805ffcad7284" />
+		</dataarea>
+		<dataarea name="gp9001_1" size="0x200000">
+		<rom name="tp030_5.bin" offset="0x0" size="0x100000" crc="bcf5ba05" sha1="40f98888a29cdd30cda5dfb60fdc667c69b0fdb0" />
+		<rom name="tp030_6.bin" offset="0x100000" size="0x100000" crc="0666fecd" sha1="aa8f921fc51590b5b05bbe0b0ad0cce5ff359c64" />
+		</dataarea>
+		<dataarea name="oki1" size="0x40000">
+		<rom name="tp030_2.bin" offset="0x0" size="0x40000" crc="276146f5" sha1="bf11d1f6782cefcad77d52af4f7e6054a8f93440" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

@@ -1,0 +1,21 @@
+<software name="zupapa">
+	<description>Zupapa!</description>
+	<year>2001</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="zupapa" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:fixed" size="0x20000">
+		</dataarea>
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="070-p1.p1" offset="0x0" size="0x100000" crc="5a96203e" sha1="49cddec9ca6cc51e5ecf8a34e447a23e1f8a15a1" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="070-c1.c1" offset="0x0" size="0x800000" crc="f8ad02d8" sha1="9be54532332a8e963ec35ff1e518947bb11ebade" />
+		<rom loadflag="load16_byte" name="070-c2.c2" offset="0x1" size="0x800000" crc="70156dde" sha1="06286bf043d50199b47df9a76ca91f39cb28cb90" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="070-v1.v1" offset="0x0" size="0x200000" crc="d3a7e1ff" sha1="4a4a227e10f4af58168f6c26011ea1d414253f92" />
+		</dataarea>
+	</part>
+</software>

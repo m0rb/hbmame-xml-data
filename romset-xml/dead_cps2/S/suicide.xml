@@ -1,0 +1,21 @@
+<software name="suicide">
+	<description>Suicide Test</description>
+	<year>2015</year>
+	<publisher>Razoola</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c65su.p1" offset="0x0" size="0x80000" crc="4d5eea90" sha1="c6f6361650d64401354111bf111bd924126b7035" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c65.m1" offset="0x0" size="0x8000" crc="600fb2a3" sha1="1fab1c2a23bf6ad8309d29ddbbc29435a8aeea13" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c65.m2" offset="0x28000" size="0x20000" crc="496076e0" sha1="1ee4e135140afd0e8e03231e570cd77d140f6367" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c65.q1" offset="0x0" size="0x200000" crc="78442743" sha1="b61190bb586871de6d54af580e3e1d9cc0de0acb" />
+		<rom loadflag="load16_word_swap" name="c65.q2" offset="0x200000" size="0x200000" crc="399d2c7b" sha1="e849dea97b8d16540415c0d9bbc4f9f4eb755ec4" />
+		</dataarea>
+	</part>
+</software>

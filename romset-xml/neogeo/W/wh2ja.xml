@@ -1,0 +1,22 @@
+<software name="wh2ja" cloneof="wh2j">
+	<description>World Heroes 2 Jet (Old set)</description>
+	<year>1994</year>
+	<publisher>ADK / SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="064.p1" offset="0x100000" size="0x100000" crc="385a2e86" sha1="cfde4a1aeae038a3d6ca9946065624f097682d3d" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="064.v1" offset="0x0" size="0x200000" crc="aa277109" sha1="35c22b15bb0a4d0ab118cb22a2d450d03995a17c" />
+		<rom name="064.v2" offset="0x200000" size="0x200000" crc="b6527edd" sha1="2bcf5bfa6e117cf4a3728a5e5f5771313c93f22a" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="064ja.c1" offset="0x0" size="0x400000" crc="771a6365" sha1="646bdf3a79819fbca98f513c172b9e9500c073be" />
+		<rom loadflag="load16_byte" name="064ja.c2" offset="0x1" size="0x400000" crc="e7863a05" sha1="39d34119137216f914b8b8b7b3e622a6c210f130" />
+		<rom loadflag="load16_byte" name="064ja.c3" offset="0x800000" size="0x400000" crc="64594ed4" sha1="982dbb932c0cb2eb9292bf19c463fd618c8180f3" />
+		<rom loadflag="load16_byte" name="064ja.c4" offset="0x800001" size="0x400000" crc="6e385398" sha1="e74a0e72876bff8766152b76e5d94f2958b03cf2" />
+		</dataarea>
+	</part>
+</software>

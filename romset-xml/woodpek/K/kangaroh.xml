@@ -1,0 +1,21 @@
+<software name="kangaroh">
+	<description>Kagaroo (Qbertish) (incomplete)</description>
+	<year>2003</year>
+	<publisher>David Widel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="kangaroh.1" offset="0x0" size="0x1000" crc="bcdd9dff" sha1="0243d9aaeaa82afb04d40eee192fdd65197fb87e" />
+		<rom name="kangaroh.2" offset="0x1000" size="0x1000" crc="1a381ee4" sha1="04c6ceb5baa9f94cfd7235a89adf0bc0dbc8b4d1" />
+		<rom name="kangaroh.3" offset="0x2000" size="0x1000" crc="d4018655" sha1="fb1720045c7c7ab58af894a5d2b86d289a6cd32d" />
+		<rom name="kangaroh.4" offset="0x3000" size="0x1000" crc="6c3f60eb" sha1="51fc5df0ea3effdff765ea20d69f9f14575794cf" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="kangaroh.5e" offset="0x0" size="0x1000" crc="c2afaa18" sha1="138321b5efca381fb6be053aa76b37fdc7ad6afb" />
+		<rom name="kangaroh.5f" offset="0x1000" size="0x1000" crc="dd792694" sha1="ded7dd8e5d184ec09d25aa3429c29e9a4ead6e92" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="82s123.7f" offset="0x0" size="0x20" crc="2fc650bd" sha1="8d0268dee78e47c712202b0ec4f1f51109b1f2a5" />
+		<rom name="crush.4a" offset="0x20" size="0x100" crc="2bc5d339" sha1="446e234df94d9ef34c3191877bb33dd775acfdf5" />
+		</dataarea>
+	</part>
+</software>

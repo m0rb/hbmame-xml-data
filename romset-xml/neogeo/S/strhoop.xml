@@ -1,0 +1,22 @@
+<software name="strhoop">
+	<description>Street Hoop / Street Slam / Dunk Dream (DEM-004 ~ DEH-004)</description>
+	<year>1994</year>
+	<publisher>Data East Corporation</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="079-p1.p1" offset="0x0" size="0x100000" crc="5e78328e" sha1="7a00b096ed6dd77afc3008c5a4c83686e475f323" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="079-c1.c1" offset="0x0" size="0x200000" crc="0581c72a" sha1="453f7a8474195a1120da5fa24337d79674563d9e" />
+		<rom loadflag="load16_byte" name="079-c2.c2" offset="0x1" size="0x200000" crc="5b9b8fb6" sha1="362aa0de0d2cf9aa03758363ffb1e15e046a3930" />
+		<rom loadflag="load16_byte" name="079-c3.c3" offset="0x400000" size="0x200000" crc="cd65bb62" sha1="6f47d77d61d4289bcee82df7c4efa5346a6e4c80" />
+		<rom loadflag="load16_byte" name="079-c4.c4" offset="0x400001" size="0x200000" crc="a4c90213" sha1="1b9f7b5f31acd6df2bdab81b849f32c13aa1b884" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x300000">
+		<rom name="079-v1.v1" offset="0x0" size="0x200000" crc="718a2400" sha1="cefc5d0b302bd4a87ab1fa244ade4482c23c6806" />
+		<rom name="079-v2.v2" offset="0x200000" size="0x100000" crc="720774eb" sha1="e4926f01322d0a15e700fb150b368152f2091146" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,18 @@
+<software name="poknightcd" cloneof="poknight">
+	<description>Poker Night (CD)</description>
+	<year>2003</year>
+	<publisher>Jeff Kurtz</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="403.p1" offset="0x0" size="0x80000" crc="750421ee" sha1="0a86823456a82506bc96989c361626be4b3ceeaf" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="407.v1" offset="0x0" size="0x80000" crc="504bf849" sha1="13a184ec9e176371808938015111f8918cb4df7d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="403a.c1" offset="0x0" size="0x80000" crc="0ab5143b" sha1="73d81c09deec02174aa5528aafad28c1294e8b8e" />
+		<rom loadflag="load16_byte" name="403a.c2" offset="0x1" size="0x80000" crc="a7b2d3b9" sha1="9723d53d10efdf9d1d402d4b9487ef5697262491" />
+		</dataarea>
+	</part>
+</software>

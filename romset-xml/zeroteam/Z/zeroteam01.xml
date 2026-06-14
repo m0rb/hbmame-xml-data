@@ -1,0 +1,33 @@
+<software name="zeroteam01">
+	<description>Zero Team (Special Attack)</description>
+	<year>1993</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="b1.u024_pw01.5k" offset="0x0" size="0x40000" crc="b47b73b7" sha1="1ed53b517c7886383772f731fed95b2e8e7b523e" />
+		<rom loadflag="load32_byte" name="b3.u023_pw01.6k" offset="0x2" size="0x40000" crc="81979a9b" sha1="1b9e216f9f6b4e6d38ac881dfe0e7ee53c523f1b" />
+		<rom loadflag="load32_byte" name="b2.u025_pw01.6l" offset="0x1" size="0x40000" crc="7513250c" sha1="f7aee5c2facfc663a2864497dc213e944b9e3b7b" />
+		<rom loadflag="load32_byte" name="b4.u026_pw01.5l" offset="0x3" size="0x40000" crc="10341ede" sha1="b63351b606d2ed59db721b2ab1765a9504c1018b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom name="5.c.u1110.5b" offset="0x0" size="0x8000" crc="efc484ca" sha1="c34b8e3e7f4c2967bc6414348993478ed637d338" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x20000">
+		<rom loadflag="load16_byte" name="b7.u072.5s" offset="0x0" size="0x10000" crc="30ec0241" sha1="a0d0be9458bf97cb9764fb85c988bb816710475e" />
+		<rom loadflag="load16_byte" name="b8.u077.5r" offset="0x1" size="0x10000" crc="e18b3a75" sha1="3d52bba8d47d0d9108ee79014fd64d6e856a3fde" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="musha_back-1.u075.4s" offset="0x0" size="0x100000" crc="8b7f9219" sha1="3412b6f8a4fe245e521ddcf185a53f2f4520eb57" />
+		<rom name="musha_back-2.u0714.2s" offset="0x100000" size="0x80000" crc="ce61c952" sha1="52a843c8ba428b121fab933dd3b313b2894d80ac" />
+		</dataarea>
+		<dataarea name="gfx3" endianness="little" size="0x800000">
+		</dataarea>
+		<dataarea name="oki" size="0x100000">
+		<rom name="6.c.u105.4a" offset="0x0" size="0x40000" crc="b4a6e899" sha1="175ab656db3c3258ff10eede89890f62435d2298" />
+		</dataarea>
+		<dataarea name="user2" size="0x40000">
+		<rom name="copx-d2.u0313.6n" offset="0x0" size="0x40000" crc="a6732ff9" sha1="c4856ec77869d9098da24b1bb3d7d58bb74b4cda" />
+		</dataarea>
+	</part>
+</software>

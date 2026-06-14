@@ -1,0 +1,31 @@
+<software name="kovshs77" cloneof="kovsh">
+	<description>Knights of Valour Super Heroes (Evil Feng Tian Chi Online Battle / True Evil Phoenix Dance (V106) B4)</description>
+	<year>1999</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_pw77.322" offset="0x100000" size="0x400000" crc="f077b973" sha1="e9f9285a96a5f1ee5f7ffc6eed40d4e0d985b491" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u4" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.asic" offset="0x0" size="0x4000" crc="0f09a5c1" sha1="621b38c05f33277608d58b49822aebc930ae4870" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600re.rom" offset="0x0" size="0x800000" crc="2f5e017e" sha1="83655f4c4d5f4155f0f8908870c0a97de9d52907" />
+		<rom name="pgm_a0601.u3" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u5" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="pgm_a0613.u7" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		<rom name="pgm_a0604_v200.u9" offset="0x1a00000" size="0x400000" crc="26b59fd3" sha1="53219376056f4766dc5236735599d982ceb56b84" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600re.rom" offset="0x0" size="0x800000" crc="c16d355b" sha1="2f711376d489ba19cf466e3ee1d498c93313fcb5" />
+		<rom name="pgm_b0601.u8" offset="0x800000" size="0x400000" crc="a0bb1c2f" sha1="0542348c6e27779e0a98de16f04f9c18158f2b28" />
+		<rom name="pgm_b0602_v200.u10" offset="0xc00000" size="0x100000" crc="9df77934" sha1="99a3fe337c13702c9aa2373bcd1bb1befd0e2a13" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_pw78.rom" offset="0x180000" size="0x800000" crc="03a53939" sha1="0fd839b759e3ad430d80961b4ce271844da7827d" />
+		</dataarea>
+	</part>
+</software>

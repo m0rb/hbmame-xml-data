@@ -1,0 +1,19 @@
+<software name="msrumble" cloneof="mspacman">
+	<description>Ms. Pac Rumble</description>
+	<year>2000</year>
+	<publisher>Tim Appleton</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="msrumble.4" offset="0x3000" size="0x1000" crc="15b02313" sha1="b1400928ff7a5c3067f3d7be02b172f3054c0ce0" />
+		<rom name="msrumble.5" offset="0x8000" size="0x1000" crc="e2473a86" sha1="b51cb0a98178f4c52345d6ecdf89e5f23080eb72" />
+		<rom name="msrumble.6" offset="0x9000" size="0x1000" crc="17abb097" sha1="7eae139e71c7ea07e05f9b1c04194b1ae6c2f975" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="5e" offset="0x0" size="0x1000" crc="5c281d01" sha1="5e8b472b615f12efca3fe792410c23619f067845" />
+		<rom name="5f" offset="0x1000" size="0x1000" crc="615af909" sha1="fd6a1dde780b39aea76bf1c4befa5882573c2ef4" />
+		</dataarea>
+	</part>
+</software>

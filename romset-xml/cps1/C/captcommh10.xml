@@ -1,0 +1,26 @@
+<software name="captcommh10" cloneof="captcomm">
+	<description>Captain Commando (US 910928 Phoenix Edition)</description>
+	<year>1991</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c17h10.p1" offset="0x0" size="0x80000" crc="1d338c25" sha1="4aba7e5a78bf20d887b3493e0d2a83098f877f9f" />
+		<rom loadflag="load16_word_swap" name="c17h10.p2" offset="0x80000" size="0x80000" crc="c5310f13" sha1="97a3751630f10cf67515200ce435c34fda1d9a52" />
+		<rom loadflag="load16_byte" name="c17u.p3" offset="0x100000" size="0x20000" crc="84ff99b2" sha1="5b02c91f3d0f8fb46db9596136b683f5a22dc15f" />
+		<rom loadflag="load16_byte" name="c17u.p4" offset="0x100001" size="0x20000" crc="fbcec223" sha1="daf484baece5b3a11f3dcabb758b8bdd736a1fb6" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c17.m1" offset="0x0" size="0x8000" crc="698e8b58" sha1="b7a3d905a7ed2c430426ca2e185e3d7e75e752a1" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="captcommud.key" offset="0x0" size="0x80" crc="6a4c8ad9" sha1="56912fc3387cf977e602d3e8dad31b64dadc6b4a" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c17.v1" offset="0x0" size="0x20000" crc="6de2c2db" sha1="9a1eaba8d104f59a5e61f89679bb5de0c0c64364" />
+		<rom name="c17.v2" offset="0x20000" size="0x20000" crc="b99091ae" sha1="b19197c7ad3aeaf5f41c26bf853b0c9b502ecfca" />
+		</dataarea>
+	</part>
+</software>

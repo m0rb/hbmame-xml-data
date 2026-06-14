@@ -1,0 +1,18 @@
+<software name="conquest">
+	<description>Conquest (prototype)</description>
+	<year>1982</year>
+	<publisher>Vid Kidz</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x19000">
+		<rom name="conquest.b" offset="0xd000" size="0x3000" crc="9ec28ac4" sha1="bcf48af66eed3b9e2c0fcd2413fed8167262cfba" />
+		<rom name="conquest.a" offset="0x10000" size="0x9000" crc="66e77fe6" sha1="b2cab7a20ebd29ef07e2bac02eede645f740c584" />
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		<rom name="decoder.2" offset="0x0" size="0x200" crc="8dd98da5" sha1="da979604f7a2aa8b5a6d4a5debd2e80f77569e35" />
+		<rom name="decoder.3" offset="0x200" size="0x200" crc="c3f45f70" sha1="d19036cbc46b130548873597b44b8b70758f25c4" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x10000">
+		<rom name="video_sound_rom_1.ic12" offset="0xf800" size="0x800" crc="fefd5b48" sha1="ceb0d18483f0691978c604db94417e6941ad7ff2" />
+		</dataarea>
+	</part>
+</software>

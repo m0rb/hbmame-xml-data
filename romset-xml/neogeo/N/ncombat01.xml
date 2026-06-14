@@ -1,0 +1,27 @@
+<software name="ncombat01" cloneof="ncombat">
+	<description>Ninja Combat (Plus)</description>
+	<year>1990</year>
+	<publisher>Krizal chen</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="009s01.p1" offset="0x0" size="0x80000" crc="4e040e04" sha1="8a9281c745810e6977ff4d304e6fb3f8441fe4a4" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x180000">
+		<rom name="009.v11" offset="0x0" size="0x80000" crc="cf32a59c" sha1="af5b7fcd8a4aff1307c0a1d937e5f0460c32de79" />
+		<rom name="009.v12" offset="0x80000" size="0x80000" crc="7b3588b7" sha1="a4e6d9d4113ff4ce48b371f65e9187d551821d3b" />
+		<rom name="009.v13" offset="0x100000" size="0x80000" crc="505a01b5" sha1="9426a4f5b31e16f74e72e61951c189a878f211c5" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x80000">
+		<rom name="009.v21" offset="0x0" size="0x80000" crc="365f9011" sha1="aebd292214ab280b05ee9e759b7e9a681a099c4a" />
+		</dataarea>
+		<dataarea name="sprites" size="0x300000">
+		<rom loadflag="load16_byte" name="009.c1" offset="0x0" size="0x80000" crc="33cc838e" sha1="c445c891c0ba4190aa0b472786150620e76df5b4" />
+		<rom loadflag="load16_byte" name="009.c2" offset="0x1" size="0x80000" crc="26877feb" sha1="8f48097fb8e4757f50b6d86219122fbf4b6f87ef" />
+		<rom loadflag="load16_byte" name="009.c3" offset="0x100000" size="0x80000" crc="3b60a05d" sha1="0a165a17af4834876fcd634599cd2208adc9248f" />
+		<rom loadflag="load16_byte" name="009.c4" offset="0x100001" size="0x80000" crc="39c2d039" sha1="8ca6c3f977c43c7abba2a00a0e70f02e2a49f5f2" />
+		<rom loadflag="load16_byte" name="009.c5" offset="0x200000" size="0x80000" crc="67a4344e" sha1="b325f152c7b2388fc92c5826e1dc99094b9ea749" />
+		<rom loadflag="load16_byte" name="009.c6" offset="0x200001" size="0x80000" crc="2eca8b19" sha1="16764ef10e404325ba0a1a2ad3a4c0af287be21f" />
+		</dataarea>
+	</part>
+</software>

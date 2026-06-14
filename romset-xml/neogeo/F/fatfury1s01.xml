@@ -1,0 +1,22 @@
+<software name="fatfury1s01" cloneof="fatfury1">
+	<description>Fatal Fury (Enable Hidden Characters)</description>
+	<year>1991</year>
+	<publisher>yumeji1768</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="033s01.p1" offset="0x0" size="0x80000" crc="fc051e1d" sha1="515f3f8eb080f794bbde09aa3959a1f01b1b01ef" />
+		<rom loadflag="load16_word_swap" name="033.p2" offset="0x80000" size="0x20000" crc="c473af1c" sha1="4919eeca20abe807493872ca7c79a5d1f496fe68" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="033.v1" offset="0x0" size="0x100000" crc="212fd20d" sha1="120c040db8c01a6f140eea03725448bfa9ca98c2" />
+		<rom name="033.v2" offset="0x100000" size="0x100000" crc="fa2ae47f" sha1="80d0ba4cd30aab59b6f0db8fa341387bd7388afc" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="033.c1" offset="0x0" size="0x100000" crc="74317e54" sha1="67b9c2814a12603b959612456f59de55f9bf6f57" />
+		<rom loadflag="load16_byte" name="033.c2" offset="0x1" size="0x100000" crc="5bb952f3" sha1="ea964bbcc0408b6ae07cbb5043d003281b1aca15" />
+		<rom loadflag="load16_byte" name="033.c3" offset="0x200000" size="0x100000" crc="9b714a7c" sha1="b62bdcede3207d062a89e0a4a9adf706101bb681" />
+		<rom loadflag="load16_byte" name="033.c4" offset="0x200001" size="0x100000" crc="9397476a" sha1="a12dbb74020aeb6ebf24ec2abbfba5129cabcb7d" />
+		</dataarea>
+	</part>
+</software>

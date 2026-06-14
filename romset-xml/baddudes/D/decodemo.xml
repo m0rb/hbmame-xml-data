@@ -1,0 +1,44 @@
+<software name="decodemo">
+	<description>Demo - Data East</description>
+	<year>1996</year>
+	<publisher>Charles Doty</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x60000">
+		<rom loadflag="load16_byte" name="decodemo.4" offset="0x0" size="0x10000" crc="7cb53ab2" sha1="c06f8173f5b27b647b186e1c3a198ec22dab4950" />
+		<rom loadflag="load16_byte" name="decodemo.1" offset="0x1" size="0x10000" crc="920dd0bf" sha1="e69e60121812716b55f4e9c4b3f4993171c5296a" />
+		<rom loadflag="load16_byte" name="decodemo.6" offset="0x40000" size="0x10000" crc="d7978eeb" sha1="1adc95bebe9eea8c112d40cd04ab7a8d75c4f961" />
+		<rom loadflag="load16_byte" name="decodemo.3" offset="0x40001" size="0x10000" crc="d7978eeb" sha1="1adc95bebe9eea8c112d40cd04ab7a8d75c4f961" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="ei07.8a" offset="0x8000" size="0x8000" crc="9fb1ef4b" sha1="f4dd0773be93c2ad8b0faacd12939c531b5aa130" />
+		</dataarea>
+		<dataarea name="mcu" size="0x1000">
+		<rom name="ei31.9a" offset="0x0" size="0x1000" crc="2a8745d2" sha1="f15ab17b1e7836d603135f5c66ca2e3d72f6e4a2" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x10000">
+		<rom name="decodemo.25" offset="0x0" size="0x8000" crc="011ffca6" sha1="5188431849b4613152fd7bdba6a3ff0a4fd6424b" />
+		<rom name="decodemo.26" offset="0x8000" size="0x8000" crc="14b56f44" sha1="66c294b27400d3f3cafd7b1f633681df7195a14b" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x40000">
+		<rom name="decodemo.18" offset="0x0" size="0x10000" crc="53ac4058" sha1="b6bd668085a6f2c21c66f38955e27ab384a5ebf1" />
+		<rom name="decodemo.20" offset="0x10000" size="0x10000" crc="64f1ca83" sha1="a8922226dc4f67873c0eb32a0da5e920b9e08e49" />
+		<rom name="decodemo.22" offset="0x20000" size="0x10000" crc="e93c5aef" sha1="bd31b2418a3e3c76c0018d43e9b106895218dae7" />
+		<rom name="decodemo.24" offset="0x30000" size="0x10000" crc="ae2556dc" sha1="ffcc1f7e8ec25ba35d20cedb6cb4010ea9ff409d" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x20000">
+		<rom name="decodemo.30" offset="0x8000" size="0x8000" crc="9b02b8f8" sha1="665764ac534ad370545f33d210846e69db558f6f" />
+		<rom loadflag="continue" offset="0x0" size="0x8000" />
+		<rom name="decodemo.28" offset="0x18000" size="0x8000" crc="596b92f2" sha1="a15f4435a3dcfa7d6a45610fccb8607ae9b8fa19" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x80000">
+		<rom name="decodemo.15" offset="0x0" size="0x10000" crc="4a051829" sha1="ed560a3ffb9b1d83c3291145e0e938016dd1fa5a" />
+		<rom name="decodemo.11" offset="0x20000" size="0x10000" crc="d7978eeb" sha1="1adc95bebe9eea8c112d40cd04ab7a8d75c4f961" />
+		<rom name="decodemo.13" offset="0x40000" size="0x10000" crc="a58d1d9e" sha1="ebd22872e0230da23d0e63ef7fbe2b5988cd93bd" />
+		<rom name="decodemo.9" offset="0x60000" size="0x10000" crc="4d1de58f" sha1="1979fb6d9cdc25033c75fd3f0c30fb56e040ddc0" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="ei08.2c" offset="0x0" size="0x10000" crc="3c87463e" sha1="f17c98507b562e91e9b27599614b3249fe68ff7a" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,865 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="f3" description="F3 cartridges">
+<software name="akkanvdr01" cloneof="spcinv95">
+	<description>Akkanbeder (Chinese)</description>
+	<year>1995</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="e06-14hc01.20" offset="0x0" size="0x20000" crc="f1f71f95" sha1="b0d44fb3972f3b844855a9778df2d4bd026e5403" />
+		<rom loadflag="load32_byte" name="e06-13hc01.19" offset="0x1" size="0x20000" crc="5e94d31b" sha1="631607d4283dbbb9c8e6b3a71d742ef8f24887c5" />
+		<rom loadflag="load32_byte" name="e06-12hc01.18" offset="0x2" size="0x20000" crc="eccc4cc4" sha1="1d7317c8c58db9e4a95b3eed4474e8c04ece7444" />
+		<rom loadflag="load32_byte" name="e06-11hc01.17" offset="0x3" size="0x20000" crc="ee3e952d" sha1="5fd7db1bcb060b2efcb8ab0805f8e15c456cfb2c" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="e06-03hc03" offset="0x0" size="0x100000" crc="6565b5c7" sha1="5dc548dfd498ef6771b942168eb6d7d6e262912c" />
+		<rom loadflag="load16_byte" name="e06-02hc02" offset="0x1" size="0x100000" crc="eae1fe61" sha1="90f9477883ae3d4f7a2947acf748de4364b63384" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x100000">
+		<rom name="e06-01hc01" offset="0x0" size="0x100000" crc="b2091836" sha1="a849fbe0f6db36e76ca20de7f5b96bd60a139905" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="e06-09.32" offset="0x100000" size="0x40000" crc="9bcafc87" sha1="10b3f6da00a41550fe6a705232f0e33fda3c7e7c" />
+		<rom loadflag="load16_byte" name="e06-10.33" offset="0x100001" size="0x40000" crc="b752b61f" sha1="e948a8af19c70ba8b8e908c869bc88ed0cac8420" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="e06-04" offset="0x0" size="0x200000" crc="1dac29df" sha1="ed68a41def148dcf4057cfac87a2a563c6882e1d" />
+		<rom loadflag="load16_byte" name="e06-05" offset="0x400000" size="0x200000" crc="f370ff15" sha1="4bc464d1c3a28326c8b1ae2036387954cb1dd813" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x100000">
+		<rom name="e06-06hc01" offset="0x0" size="0x100000" crc="c1cd5367" sha1="0560f033169145f12d80211e4210399abda2a0e5" />
+		</dataarea>
+	</part>
+</software>
+<software name="arabianm01" cloneof="arabianm">
+	<description>Arabian Magic (Chinese, 2017-04-27)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="d29-23hc01.ic40" offset="0x0" size="0x40000" crc="dd54b8ed" sha1="2584ae22e52d2f5990cf0857ddd5707f8df4beb0" />
+		<rom loadflag="load32_byte" name="d29-22hc01.ic38" offset="0x1" size="0x40000" crc="4605b9e1" sha1="0d050754c37fdab7596385daf242054d50882872" />
+		<rom loadflag="load32_byte" name="d29-21hc01.ic36" offset="0x2" size="0x40000" crc="b3b115c1" sha1="31a7abf491c8cc568415d8684584137041c7c6b9" />
+		<rom loadflag="load32_byte" name="d29-20hc01.ic34" offset="0x3" size="0x40000" crc="e2725176" sha1="fe738d76efd491cf449909470a5c7f5023de6e38" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="d29-03hc01.ic66" offset="0x0" size="0x100000" crc="281fd530" sha1="6db5095ae49b12709086010fa112500e45901081" />
+		<rom loadflag="load16_byte" name="d29-04hc01.ic67" offset="0x1" size="0x100000" crc="29dc7a2d" sha1="2cf49f7680fead656f474442a4f0c8fd403d79a1" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x100000">
+		<rom name="d29-05hc01.ic68" offset="0x0" size="0x100000" crc="445b2514" sha1="2fd20bab02bd0bf242ef6c35ea2dc65c0e44ee91" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x140000">
+		<rom loadflag="load16_byte" name="d29-18.ic5" offset="0x100000" size="0x20000" crc="d97780df" sha1="d0f9d2fd7ce13f620bb44083bf012f67dda4b10b" />
+		<rom loadflag="load16_byte" name="d29-19.ic6" offset="0x100001" size="0x20000" crc="b1ad365c" sha1="1cd26d8feaaa06b50dfee32e9b7950b8ee92ac55" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="d29-01.ic17" offset="0x0" size="0x200000" crc="545ac4b3" sha1="f89513fca8a03cab11160aa1f0a9c3adbc8bda08" />
+		<rom loadflag="load16_byte" name="d29-02.ic18" offset="0x600000" size="0x100000" crc="ed894fe1" sha1="5bf2fb6abdcf25bc525a2c3b29dbf7aca0b18fea" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x100000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x80000">
+		<rom name="d29-08hc01.ic51" offset="0x0" size="0x80000" crc="531ef983" sha1="89d072c285677f35ca3564f7dc4018e2f0410ee6" />
+		</dataarea>
+	</part>
+</software>
+<software name="bubblem01" cloneof="bubblem">
+	<description>Bubble Memories: Black Edition (World)</description>
+	<year>2020</year>
+	<publisher>rtw, MetalliC</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="bmbe.20" offset="0x0" size="0x80000" crc="c4a1e3c2" sha1="a49aac034aa75b76553f700dfff155635048c291" />
+		<rom loadflag="load32_byte" name="bmbe.19" offset="0x1" size="0x80000" crc="bd9c3812" sha1="3b6d7ca84ec81c32f604ff1883f37272eaf4efa2" />
+		<rom loadflag="load32_byte" name="bmbe.18" offset="0x2" size="0x80000" crc="c5a6ec87" sha1="2f64647f23e34b978adbbd09373dd1e1e9100259" />
+		<rom loadflag="load32_byte" name="bmbe.17" offset="0x3" size="0x80000" crc="a15e492d" sha1="2f05f8b26a50d57a82362dd0b34bf0e85ecfca97" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="e21-02.rom" offset="0x0" size="0x200000" crc="b7cb9232" sha1="ba71cb98d49eadebb26d9f53bbaec1dc211077f5" />
+		<rom loadflag="load16_byte" name="e21-01.rom" offset="0x1" size="0x200000" crc="a11f2f99" sha1="293c5996600cad05bf98f936f5f820d93d546099" />
+		</dataarea>
+		<dataarea name="eeprom" endianness="big" size="0x80">
+		<rom name="bubblem.nv" offset="0x0" size="0x80" crc="9a59326e" sha1="071dbfbfd77f7020476ddb54c93f5fafa7a08159" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="e21-12.32" offset="0x100000" size="0x40000" crc="34093de1" sha1="d69d6b5f10b8fe86f727d739ed5aecceb15e01f7" />
+		<rom loadflag="load16_byte" name="e21-13.33" offset="0x100001" size="0x40000" crc="9e9ec437" sha1="b0265b688846c642d240b2f3677d2330d31eaa87" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="e21-03.rom" offset="0x0" size="0x200000" crc="54c5f83d" sha1="10a993199c8d5a1361bd29a4b92c404451c6da01" />
+		<rom loadflag="load16_byte" name="e21-04.rom" offset="0x400000" size="0x200000" crc="e5af2a2d" sha1="62a49504decc7160b710260218920d2d6d2af8f0" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x100000">
+		<rom name="e21-05.rom" offset="0x0" size="0x100000" crc="07eab58f" sha1="ae2d7b839b39d88d11652df74804a39230674467" />
+		</dataarea>
+	</part>
+</software>
+<software name="bubblemu01" cloneof="bubblem">
+	<description>Bubble Memories: Black Edition (USA)</description>
+	<year>2020</year>
+	<publisher>rtw, MetalliC</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="bmube.20" offset="0x0" size="0x80000" crc="926a235e" sha1="d41f00c130573020b51f7012d4db59f066ff8cfc" />
+		<rom loadflag="load32_byte" name="bmube.19" offset="0x1" size="0x80000" crc="59e7ce8d" sha1="610e0d2e57ccfee2283cac8ef784e2b1803a7e10" />
+		<rom loadflag="load32_byte" name="bmube.18" offset="0x2" size="0x80000" crc="d6ae69ab" sha1="b4e9656beae3ebfa3ca21c56929b871f15dc6843" />
+		<rom loadflag="load32_byte" name="bmube.17" offset="0x3" size="0x80000" crc="7372711a" sha1="5072fd80a9b0be94e45cf4f16839010f40e7c953" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="e21-02.rom" offset="0x0" size="0x200000" crc="b7cb9232" sha1="ba71cb98d49eadebb26d9f53bbaec1dc211077f5" />
+		<rom loadflag="load16_byte" name="e21-01.rom" offset="0x1" size="0x200000" crc="a11f2f99" sha1="293c5996600cad05bf98f936f5f820d93d546099" />
+		</dataarea>
+		<dataarea name="eeprom" endianness="big" size="0x80">
+		<rom name="bubblemu.nv" offset="0x0" size="0x80" crc="a503276c" sha1="f07dd49decee7e8e7551e37b9b0f612bfaf8a2b0" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="e21-12.32" offset="0x100000" size="0x40000" crc="34093de1" sha1="d69d6b5f10b8fe86f727d739ed5aecceb15e01f7" />
+		<rom loadflag="load16_byte" name="e21-13.33" offset="0x100001" size="0x40000" crc="9e9ec437" sha1="b0265b688846c642d240b2f3677d2330d31eaa87" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="e21-03.rom" offset="0x0" size="0x200000" crc="54c5f83d" sha1="10a993199c8d5a1361bd29a4b92c404451c6da01" />
+		<rom loadflag="load16_byte" name="e21-04.rom" offset="0x400000" size="0x200000" crc="e5af2a2d" sha1="62a49504decc7160b710260218920d2d6d2af8f0" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x100000">
+		<rom name="e21-05.rom" offset="0x0" size="0x100000" crc="07eab58f" sha1="ae2d7b839b39d88d11652df74804a39230674467" />
+		</dataarea>
+	</part>
+</software>
+<software name="bubsymph01" cloneof="bublbob2">
+	<description>Bubble Symphony (Chinese)</description>
+	<year>1994</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="d90hc01-12" offset="0x0" size="0x40000" crc="1ae40f57" sha1="56cfcfc69b0f29a2f13745f47462dd442c422260" />
+		<rom loadflag="load32_byte" name="d90hc01-11" offset="0x1" size="0x40000" crc="bc2ad86a" sha1="3bbc20396fa328901747dcd6c88cf2a90e852ccb" />
+		<rom loadflag="load32_byte" name="d90hc01-10" offset="0x2" size="0x40000" crc="db7c9cc2" sha1="11786688b5525b0429532e53580e93dba2afd18a" />
+		<rom loadflag="load32_byte" name="d90hc01-09" offset="0x3" size="0x40000" crc="20a5f8a1" sha1="50070b30c166350b397bec3ffc4038adcb3289b5" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="d90hc01-03" offset="0x0" size="0x100000" crc="9e610be0" sha1="d8663197e052c17f6cd507a9e0fc5be53060b483" />
+		<rom loadflag="load16_byte" name="d90hc01-02" offset="0x1" size="0x100000" crc="881e91a1" sha1="3e273c831b1d620bfc97d803636988d397b494ad" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x100000">
+		<rom name="d90hc01-01" offset="0x0" size="0x100000" crc="4a577d64" sha1="37acf59c3d3dd2fe9dda30c30cbbc4cad548af8f" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="d90-13.ic32" offset="0x100000" size="0x40000" crc="6762bd90" sha1="771db0382bc8dab2caf13d0fc20648366c685829" />
+		<rom loadflag="load16_byte" name="d90-14.ic33" offset="0x100001" size="0x40000" crc="8e33357e" sha1="68b81693c22e6357e37244f2a416818a81338138" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="d90-04" offset="0x0" size="0x200000" crc="feee5fda" sha1="b89354013ec4d34bcd51ecded412effa66dd2f2f" />
+		<rom loadflag="load16_byte" name="d90-05" offset="0x400000" size="0x200000" crc="c192331f" sha1="ebab05b3681c70b373bc06c1826be1cc397d3af7" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x100000">
+		<rom name="d90hc01-06" offset="0x0" size="0x100000" crc="f3a70b9c" sha1="5fd676db3783dbd905b53b0e9e6199371dca88a7" />
+		</dataarea>
+	</part>
+</software>
+<software name="cleopatr01" cloneof="cleopatr">
+	<description>Cleopatra Fortune (Chinese)</description>
+	<year>1996</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="e28-10hc01.bin" offset="0x0" size="0x80000" crc="20bb1f31" sha1="48e24d0b2aa3cc06db8ccbe05e5d48e0a46de239" />
+		<rom loadflag="load32_byte" name="e28-09hc01.bin" offset="0x1" size="0x80000" crc="a5811b99" sha1="0ce61e9e093f002d331a5b822b19b86fb3cc6d40" />
+		<rom loadflag="load32_byte" name="e28-08hc01.bin" offset="0x2" size="0x80000" crc="32f4bd9d" sha1="8b7aa973cc4db466c791ee61633a76e5ec1f1897" />
+		<rom loadflag="load32_byte" name="e28-07hc01.bin" offset="0x3" size="0x80000" crc="16eab942" sha1="b2cf401ade7280f1789c27a24046421fea5e8a94" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="e28-02hc01.bin" offset="0x0" size="0x80000" crc="1f9eda37" sha1="9288df554eaeccbcf231fc2245d87aebf8e0c137" />
+		<rom loadflag="load16_byte" name="e28-01hc01.bin" offset="0x1" size="0x80000" crc="e1fab776" sha1="933d83685d1c5585d7b5799759ce38c5df98a709" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x140000">
+		<rom loadflag="load16_byte" name="e28-11.bin" offset="0x100000" size="0x20000" crc="01a06950" sha1="94d22cd839f9027e9d45264c366e0cb5d698e0b6" />
+		<rom loadflag="load16_byte" name="e28-12.bin" offset="0x100001" size="0x20000" crc="dc19260f" sha1="fa0ca03a236326652e4f9898d07cd837c1507a9d" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x400000">
+		<rom loadflag="load16_byte" name="e28-03.bin" offset="0x0" size="0x200000" crc="15c7989d" sha1="7cc63d93e5c1f9f52f889e973bbefd5e6f7ce807" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x100000">
+		<rom name="e28-04.bin" offset="0x0" size="0x100000" crc="57aef029" sha1="5c07209015d4749d1ffb3e9c1a890e6cfeec8cb0" />
+		</dataarea>
+	</part>
+</software>
+<software name="cleopatr02" cloneof="cleopatr">
+	<description>Cleopatra Fortune (Unknown Hack)</description>
+	<year>1996</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="e28-10.bin" offset="0x0" size="0x80000" crc="013fbc39" sha1="d36ac44609b88e1da35c98dda381042e0112ea00" />
+		<rom loadflag="load32_byte" name="e28-09.bin" offset="0x1" size="0x80000" crc="1c48a1f9" sha1="791d321c03073cdd0269b970f926897446d2a6fb" />
+		<rom loadflag="load32_byte" name="e28-08.bin" offset="0x2" size="0x80000" crc="7564f199" sha1="ec4b19edb0660ad478f6c0ec27d701368696a2e4" />
+		<rom loadflag="load32_byte" name="e28-wrd.bin" offset="0x3" size="0x80000" crc="544dd2e9" sha1="11ad1ce4202937108f23c44de2244da570452ce1" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="e28-02.bin" offset="0x0" size="0x80000" crc="b20d47cb" sha1="6888e5564688840fed1c123ab38467066cd59c7f" />
+		<rom loadflag="load16_byte" name="e28-01.bin" offset="0x1" size="0x80000" crc="4440e659" sha1="71dece81bac8d638473c6531fed5c32798096af9" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x140000">
+		<rom loadflag="load16_byte" name="e28-11.bin" offset="0x100000" size="0x20000" crc="01a06950" sha1="94d22cd839f9027e9d45264c366e0cb5d698e0b6" />
+		<rom loadflag="load16_byte" name="e28-12.bin" offset="0x100001" size="0x20000" crc="dc19260f" sha1="fa0ca03a236326652e4f9898d07cd837c1507a9d" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x400000">
+		<rom loadflag="load16_byte" name="e28-03.bin" offset="0x0" size="0x200000" crc="15c7989d" sha1="7cc63d93e5c1f9f52f889e973bbefd5e6f7ce807" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x100000">
+		<rom name="e28-04.bin" offset="0x0" size="0x100000" crc="57aef029" sha1="5c07209015d4749d1ffb3e9c1a890e6cfeec8cb0" />
+		</dataarea>
+	</part>
+</software>
+<software name="dankuga01" cloneof="dankuga">
+	<description>Dan-Ku-Ga (Plus)</description>
+	<year>1994</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="dkg_mpr3hc01.20" offset="0x0" size="0x80000" crc="1da88664" sha1="d9569ad4b20776521db937f70986a72364a03eb8" />
+		<rom loadflag="load32_byte" name="dkg_mpr2hc01.19" offset="0x1" size="0x80000" crc="db215d0e" sha1="2b46e9b523feb4efcf032ce2feafeb1c9d929c49" />
+		<rom loadflag="load32_byte" name="dkg_mpr1hc01.18" offset="0x2" size="0x80000" crc="da6345f8" sha1="9ec64f3ad6a0135aa35dcd4aeff183856adaf35a" />
+		<rom loadflag="load32_byte" name="dkg_mpr0hc01.17" offset="0x3" size="0x80000" crc="6e54b3af" sha1="473c7ca4096a9a71f3bd7fb52334ea7a0ee08726" />
+		</dataarea>
+		<dataarea name="sprites" size="0xd00000">
+		<rom loadflag="load16_byte" name="d84-03.rom" offset="0x0" size="0x200000" crc="d786f552" sha1="f73146892f714b5706d568fc8a135fddaa656570" />
+		<rom loadflag="load16_byte" name="d84-04.rom" offset="0x1" size="0x200000" crc="d1f32b5d" sha1="35289cce64fdbb8d966dd1d5307b5393be5e7799" />
+		<rom loadflag="load16_byte" name="d84-06.rom" offset="0x400000" size="0x200000" crc="fa924dab" sha1="28a8c3cd701f8df0c53069bb576bb2a820f3a331" />
+		<rom loadflag="load16_byte" name="d84-07.rom" offset="0x400001" size="0x200000" crc="54517a6b" sha1="6e2c213c7ec1a3b78ad7e71db2326602557fd0f8" />
+		<rom loadflag="load16_byte" name="d84-09.rom" offset="0x800000" size="0x200000" crc="faa78d98" sha1="da3a2c5a45dd169743f113aa08e574f732e1f0fd" />
+		<rom loadflag="load16_byte" name="d84-10.rom" offset="0x800001" size="0x200000" crc="b84b7320" sha1="f5de0d6da50d8ed753607b51e46bc9a4572ef431" />
+		<rom loadflag="load16_byte" name="d84-19.rom" offset="0xc00000" size="0x80000" crc="6ddf77e5" sha1="a1323acaed37fce62a19e63a0800d9d1dc2cfff7" />
+		<rom loadflag="load16_byte" name="d84-20.rom" offset="0xc00001" size="0x80000" crc="f85041e5" sha1="6b2814514338f550d6aa14dbe39e848e8e64edee" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x680000">
+		<rom name="d84-05.rom" offset="0x0" size="0x200000" crc="31a3c75d" sha1="1a16ccb6a0a03ab715e5b016ab3b1b2cd0f1ae41" />
+		<rom name="d84-08.rom" offset="0x200000" size="0x200000" crc="07347bf1" sha1="34bd359933acdec7fd1ce047092a30d1177afc2c" />
+		<rom name="d84-11.rom" offset="0x400000" size="0x200000" crc="a062c1d4" sha1="158912aa3dd75c3961bf738f9ac9034f0b005b60" />
+		<rom name="d84-21.rom" offset="0x600000" size="0x80000" crc="89f68b66" sha1="95916f02f71357324effe59da4f847f2f30ea34a" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="d84-26.32" offset="0x100000" size="0x40000" crc="4f5b8563" sha1="1d4e06cbea7bc73a99d6e30be714fff420151bbc" />
+		<rom loadflag="load16_byte" name="d84-27.33" offset="0x100001" size="0x40000" crc="fb0cb1ba" sha1="16a79b53651a6131f7636db19738b456b7c28bff" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x1000000">
+		<rom loadflag="load16_byte" name="d84-01.rom" offset="0x400000" size="0x200000" crc="9ad22149" sha1="48055822e0cea228cdecf3d05ac24e50979b6f4d" />
+		<rom loadflag="load16_byte" name="d84-02.rom" offset="0x800000" size="0x200000" crc="9e1827e4" sha1="1840881b0f8f7b6225e6ffa12a8d4b463554988e" />
+		<rom loadflag="load16_byte" name="d84-15.rom" offset="0xe00000" size="0x100000" crc="31ceb152" sha1="d9d0bc631a6a726376f566a49605b50485ac7bf4" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x600000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x300000">
+		<rom name="d84-14.rom" offset="0x0" size="0x200000" crc="2b2e693e" sha1="03eb37fa7dc68d54bf0f1800b8c0b581c344a40f" />
+		<rom name="d84-18.rom" offset="0x200000" size="0x100000" crc="e812bcc5" sha1="3574e4a99232d9fc7989ec5d1e8fe76b4b30784a" />
+		</dataarea>
+	</part>
+</software>
+<software name="dankuga02" cloneof="dankuga">
+	<description>Dan-Ku-Ga (Enable Hidden Characters)</description>
+	<year>1994</year>
+	<publisher>Yumeji</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="dkg_mpr3hc02.20" offset="0x0" size="0x80000" crc="2c2a5aff" sha1="b9d8104f5dd929750ac97aca3ecf225df1d70cc8" />
+		<rom loadflag="load32_byte" name="dkg_mpr2hc02.19" offset="0x1" size="0x80000" crc="cc5506f5" sha1="5d473a967392f405785bfbc102baf761baf53c21" />
+		<rom loadflag="load32_byte" name="dkg_mpr1hc02.18" offset="0x2" size="0x80000" crc="7e1112ed" sha1="5f85e7e4b389cd148c4ad16cb761f2adead4ea4a" />
+		<rom loadflag="load32_byte" name="dkg_mpr0hc02.17" offset="0x3" size="0x80000" crc="a8a90a31" sha1="87e0765742638cc93c7b0deba90f271f574c02c8" />
+		</dataarea>
+		<dataarea name="sprites" size="0xd00000">
+		<rom loadflag="load16_byte" name="d84-03.rom" offset="0x0" size="0x200000" crc="d786f552" sha1="f73146892f714b5706d568fc8a135fddaa656570" />
+		<rom loadflag="load16_byte" name="d84-04.rom" offset="0x1" size="0x200000" crc="d1f32b5d" sha1="35289cce64fdbb8d966dd1d5307b5393be5e7799" />
+		<rom loadflag="load16_byte" name="d84-06.rom" offset="0x400000" size="0x200000" crc="fa924dab" sha1="28a8c3cd701f8df0c53069bb576bb2a820f3a331" />
+		<rom loadflag="load16_byte" name="d84-07.rom" offset="0x400001" size="0x200000" crc="54517a6b" sha1="6e2c213c7ec1a3b78ad7e71db2326602557fd0f8" />
+		<rom loadflag="load16_byte" name="d84-09.rom" offset="0x800000" size="0x200000" crc="faa78d98" sha1="da3a2c5a45dd169743f113aa08e574f732e1f0fd" />
+		<rom loadflag="load16_byte" name="d84-10.rom" offset="0x800001" size="0x200000" crc="b84b7320" sha1="f5de0d6da50d8ed753607b51e46bc9a4572ef431" />
+		<rom loadflag="load16_byte" name="d84-19.rom" offset="0xc00000" size="0x80000" crc="6ddf77e5" sha1="a1323acaed37fce62a19e63a0800d9d1dc2cfff7" />
+		<rom loadflag="load16_byte" name="d84-20.rom" offset="0xc00001" size="0x80000" crc="f85041e5" sha1="6b2814514338f550d6aa14dbe39e848e8e64edee" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x680000">
+		<rom name="d84-05.rom" offset="0x0" size="0x200000" crc="31a3c75d" sha1="1a16ccb6a0a03ab715e5b016ab3b1b2cd0f1ae41" />
+		<rom name="d84-08.rom" offset="0x200000" size="0x200000" crc="07347bf1" sha1="34bd359933acdec7fd1ce047092a30d1177afc2c" />
+		<rom name="d84-11.rom" offset="0x400000" size="0x200000" crc="a062c1d4" sha1="158912aa3dd75c3961bf738f9ac9034f0b005b60" />
+		<rom name="d84-21.rom" offset="0x600000" size="0x80000" crc="89f68b66" sha1="95916f02f71357324effe59da4f847f2f30ea34a" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="d84-26.32" offset="0x100000" size="0x40000" crc="4f5b8563" sha1="1d4e06cbea7bc73a99d6e30be714fff420151bbc" />
+		<rom loadflag="load16_byte" name="d84-27.33" offset="0x100001" size="0x40000" crc="fb0cb1ba" sha1="16a79b53651a6131f7636db19738b456b7c28bff" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x1000000">
+		<rom loadflag="load16_byte" name="d84-01.rom" offset="0x400000" size="0x200000" crc="9ad22149" sha1="48055822e0cea228cdecf3d05ac24e50979b6f4d" />
+		<rom loadflag="load16_byte" name="d84-02.rom" offset="0x800000" size="0x200000" crc="9e1827e4" sha1="1840881b0f8f7b6225e6ffa12a8d4b463554988e" />
+		<rom loadflag="load16_byte" name="d84-15.rom" offset="0xe00000" size="0x100000" crc="31ceb152" sha1="d9d0bc631a6a726376f566a49605b50485ac7bf4" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x600000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x300000">
+		<rom name="d84-14.rom" offset="0x0" size="0x200000" crc="2b2e693e" sha1="03eb37fa7dc68d54bf0f1800b8c0b581c344a40f" />
+		<rom name="d84-18.rom" offset="0x200000" size="0x100000" crc="e812bcc5" sha1="3574e4a99232d9fc7989ec5d1e8fe76b4b30784a" />
+		</dataarea>
+	</part>
+</software>
+<software name="dariusg01" cloneof="dariusg">
+	<description>Darius Gaiden (Unknown Hack)</description>
+	<year>1994</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="dge_mpr3.bin" offset="0x0" size="0x80000" crc="1c1e24a7" sha1="eafde331c3be5be55d0d838a84017f357ff92634" />
+		<rom loadflag="load32_byte" name="dge_mpr2.bin" offset="0x1" size="0x80000" crc="7be23e23" sha1="4764355f51e207f4538dd753aea59bf2689835de" />
+		<rom loadflag="load32_byte" name="dge_mpr1.bin" offset="0x2" size="0x80000" crc="bc030f6f" sha1="841396911d26ddfae0c9863431e02e0b5e762ac6" />
+		<rom loadflag="load32_byte" name="dge_wrd.bin" offset="0x3" size="0x80000" crc="2bb37270" sha1="98bc07894e92ca9cce34fc7390f40d3357783e3f" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="d87-03.bin" offset="0x0" size="0x200000" crc="4be1666e" sha1="35ba7bcf29ec7a8f8b6944ee3544693d4df1bfc2" />
+		<rom loadflag="load16_byte" name="d87-04.bin" offset="0x1" size="0x200000" crc="2616002c" sha1="003f98b740a697274385b8da03c78f3c6f7b5e89" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x200000">
+		<rom name="d87-05.bin" offset="0x0" size="0x200000" crc="4e5891a9" sha1="fd08d848079841c9237fa359a850980fd00114d8" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="d87-13.bin" offset="0x100000" size="0x40000" crc="15b1fff4" sha1="28692b731ae98a47c2c5e11a8a71b61a813d9a64" />
+		<rom loadflag="load16_byte" name="d87-14.bin" offset="0x100001" size="0x40000" crc="eecda29a" sha1="6eb238e47bc7bf635ffbdbb25fb06a37db980ef8" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="d87-01.bin" offset="0x0" size="0x200000" crc="3848a110" sha1="802e91695a526f665c7fd261f0a7639a0b883c9e" />
+		<rom loadflag="load16_byte" name="d87-02.bin" offset="0x400000" size="0x200000" crc="9250abae" sha1="07cae8edbc3cca0a95022d9b40a5c18a55350b67" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x400000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x200000">
+		<rom name="d87-08.bin" offset="0x0" size="0x200000" crc="76d23602" sha1="ca53ea6641182c44a4038bbeaa5effb1687f1980" />
+		</dataarea>
+	</part>
+</software>
+<software name="elvactr01" cloneof="elvactr">
+	<description>Elevator Action Returns (Chinese)</description>
+	<year>1994</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="e02-12hc01.20" offset="0x0" size="0x80000" crc="eaaefe10" sha1="d13e41ea42fd3d7915a1391925a1029c88c40b12" />
+		<rom loadflag="load32_byte" name="e02-11hc01.19" offset="0x1" size="0x80000" crc="990c1409" sha1="3922137958d54715941c612425567f23e74d17ae" />
+		<rom loadflag="load32_byte" name="e02-10hc01.18" offset="0x2" size="0x80000" crc="b9a54080" sha1="0999662fed8c36d96186114384d68dc9251b9262" />
+		<rom loadflag="load32_byte" name="e02-09hc01.17" offset="0x3" size="0x80000" crc="7fb5f049" sha1="a40a79c06a855695769cd5e59729be85dd74c7b1" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="e02-03hc01.12" offset="0x0" size="0x200000" crc="86ec9f36" sha1="d989742bdd9237fa37730090ceb2324c83c1675f" />
+		<rom loadflag="load16_byte" name="e02-02hc01.8" offset="0x1" size="0x200000" crc="3484fa1d" sha1="06573ac3738dbceb7812cd0666f1b5fd24fb65c1" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x200000">
+		<rom name="e02-01hc01.4" offset="0x0" size="0x200000" crc="9dd378b7" sha1="9f9a08da225288287993ddcd165d442a777d1af6" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="e02-13.32" offset="0x100000" size="0x40000" crc="80932702" sha1="c468234d03aa31b2aa0c3bd6bec32034216c2ae4" />
+		<rom loadflag="load16_byte" name="e02-14.33" offset="0x100001" size="0x40000" crc="706671a5" sha1="1ac90647d617e73f12a67274a025ae43a6b3a316" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="e02-04.38" offset="0x0" size="0x200000" crc="b74307af" sha1="deb42415049efa2df70e7b25ba8b1b716aa227f1" />
+		<rom loadflag="load16_byte" name="e02-05.39" offset="0x400000" size="0x200000" crc="eb729855" sha1="85253efe794e8b5ffaf16bcb1123bca831e776a5" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x400000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x200000">
+		<rom name="e02-06hc01.43" offset="0x0" size="0x200000" crc="44ef81a0" sha1="e7a32fe6302a12d5cc061671ad192fbadd4cdec6" />
+		</dataarea>
+	</part>
+</software>
+<software name="f3demo">
+	<description>Demo - Taito F3</description>
+	<year>2000</year>
+	<publisher>Antiriad</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom name="f3demo.bin" offset="0x0" size="0x194c" crc="08587aea" sha1="4850d170b935fd4b6726c03693eb25e5ac3b6198" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="d87-03.bin" offset="0x0" size="0x200000" crc="4be1666e" sha1="35ba7bcf29ec7a8f8b6944ee3544693d4df1bfc2" />
+		<rom loadflag="load16_byte" name="d87-04.bin" offset="0x1" size="0x200000" crc="2616002c" sha1="003f98b740a697274385b8da03c78f3c6f7b5e89" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x200000">
+		<rom name="d87-05.bin" offset="0x0" size="0x200000" crc="4e5891a9" sha1="fd08d848079841c9237fa359a850980fd00114d8" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="d87-13.bin" offset="0x100000" size="0x40000" crc="15b1fff4" sha1="28692b731ae98a47c2c5e11a8a71b61a813d9a64" />
+		<rom loadflag="load16_byte" name="d87-14.bin" offset="0x100001" size="0x40000" crc="eecda29a" sha1="6eb238e47bc7bf635ffbdbb25fb06a37db980ef8" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="d87-01.bin" offset="0x0" size="0x200000" crc="3848a110" sha1="802e91695a526f665c7fd261f0a7639a0b883c9e" />
+		<rom loadflag="load16_byte" name="d87-02.bin" offset="0x400000" size="0x200000" crc="9250abae" sha1="07cae8edbc3cca0a95022d9b40a5c18a55350b67" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x400000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x200000">
+		<rom name="d87-08.bin" offset="0x0" size="0x200000" crc="76d23602" sha1="ca53ea6641182c44a4038bbeaa5effb1687f1980" />
+		</dataarea>
+	</part>
+</software>
+<software name="gekiridn01" cloneof="gekiridn">
+	<description>Gekirindan (Unknown Hack)</description>
+	<year>1995</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="e11-12.ic20" offset="0x0" size="0x40000" crc="6a7aaacf" sha1="a8114c84e76c75c908a61d985d96aa4eb9a0ac5a" />
+		<rom loadflag="load32_byte" name="e11-11.ic19" offset="0x1" size="0x40000" crc="2284a08e" sha1="3dcb91be0d3491ad5e77efd30bacd506dad0f848" />
+		<rom loadflag="load32_byte" name="e11-10.ic18" offset="0x2" size="0x40000" crc="8795e6ba" sha1="9128c29fdce3276f55aad47451e4a507470c8b9f" />
+		<rom loadflag="load32_byte" name="e11-15.ic17" offset="0x3" size="0x40000" crc="5aef1fd8" sha1="a94884e39172e664759bff53a6dd2f93422d3299" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="e11-03.ic12" offset="0x0" size="0x200000" crc="f73877c5" sha1="1f6b7c0b8a0aaab3e5427d21de7fad3d3cbf737a" />
+		<rom loadflag="load16_byte" name="e11-02.ic8" offset="0x1" size="0x200000" crc="5722a83b" sha1="823c20a33016a5506ca5415ec615c3d2546ca9ab" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x200000">
+		<rom name="e11-01.ic4" offset="0x0" size="0x200000" crc="c2cd1069" sha1="9744dd3d8a6d9200cea4429dafce5620b60e2960" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x140000">
+		<rom loadflag="load16_byte" name="e11-13.bin" offset="0x100000" size="0x20000" crc="51a11ff7" sha1="c03042489d71423667f25856d15aa6a363ea6c92" />
+		<rom loadflag="load16_byte" name="e11-14.bin" offset="0x100001" size="0x20000" crc="dce2ba91" sha1="00bc353c7747a7954365b587d7bc759ee5dc09c2" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="e11-04.ic38" offset="0x0" size="0x200000" crc="e0ff4fb1" sha1="81e186e3a692af1da316b8085a729c4f103d9a52" />
+		<rom loadflag="load16_byte" name="e11-05.ic41" offset="0x400000" size="0x200000" crc="a4d08cf1" sha1="ae2cabef7b7bcb8a788988c73d7af6fa4bb2c444" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x400000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x200000">
+		<rom name="e11-06.ic43" offset="0x0" size="0x200000" crc="200ce305" sha1="c80a0b96510913a6411e6763fb72bf413fb792da" />
+		</dataarea>
+	</part>
+</software>
+<software name="gekiridn02" cloneof="gekiridn">
+	<description>Gekirindan (Chinese)</description>
+	<year>1995</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="e11-12c.bin" offset="0x0" size="0x40000" crc="448308ce" sha1="22eac25158bd3a0349aa4f1f041473b93030ee43" />
+		<rom loadflag="load32_byte" name="e11-11c.bin" offset="0x1" size="0x40000" crc="8ae457c4" sha1="f1d74d99c916df90a74be0ff80b05b0f31284306" />
+		<rom loadflag="load32_byte" name="e11-10c.bin" offset="0x2" size="0x40000" crc="b1ff4529" sha1="9e8366d9d90ad4155aab3828523daff09e3d400d" />
+		<rom loadflag="load32_byte" name="e11-09c.bin" offset="0x3" size="0x40000" crc="24d884ff" sha1="35ddb21608c781a0674a4244c8e5c0aa6dc220eb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="e11-03c.bin" offset="0x0" size="0x200000" crc="2b0dab58" sha1="7c70a2104fbbfde32fa006bfafe30c3d9708cb10" />
+		<rom loadflag="load16_byte" name="e11-02c.bin" offset="0x1" size="0x200000" crc="a2c4fa4f" sha1="2ad73ce8431f1199dd32df83352dc4f85345529f" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x200000">
+		<rom name="e11-01c.bin" offset="0x0" size="0x200000" crc="e19874b3" sha1="a8d6806133977a7decefafff5d7b249803add70b" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x140000">
+		<rom loadflag="load16_byte" name="e11-13.bin" offset="0x100000" size="0x20000" crc="51a11ff7" sha1="c03042489d71423667f25856d15aa6a363ea6c92" />
+		<rom loadflag="load16_byte" name="e11-14.bin" offset="0x100001" size="0x20000" crc="dce2ba91" sha1="00bc353c7747a7954365b587d7bc759ee5dc09c2" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="e11-04.ic38" offset="0x0" size="0x200000" crc="e0ff4fb1" sha1="81e186e3a692af1da316b8085a729c4f103d9a52" />
+		<rom loadflag="load16_byte" name="e11-05.ic41" offset="0x400000" size="0x200000" crc="a4d08cf1" sha1="ae2cabef7b7bcb8a788988c73d7af6fa4bb2c444" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x400000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x200000">
+		<rom name="e11-06c.bin" offset="0x0" size="0x200000" crc="0acc71d3" sha1="455c70ec8f1087189170160d5683545bbea1fe9a" />
+		</dataarea>
+	</part>
+</software>
+<software name="gseeker01" cloneof="gseeker">
+	<description>Grid Seeker: Project Storm Hammer (Chinese)</description>
+	<year>1992</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="d40_12hc01.rom" offset="0x0" size="0x40000" crc="63894ca7" sha1="2d8821a088c7d2cfc1a4d117b723d5a40c2a12b6" />
+		<rom loadflag="load32_byte" name="d40_11hc01.rom" offset="0x1" size="0x40000" crc="287358f1" sha1="a57f53b7093d5db856f136bb11be3508133559a7" />
+		<rom loadflag="load32_byte" name="d40_10hc01.rom" offset="0x2" size="0x40000" crc="af11d645" sha1="fe5b8068b6263ece28892efa51bd0e2b0df5bb50" />
+		<rom loadflag="load32_byte" name="d40-09hc01.34" offset="0x3" size="0x40000" crc="2d8f3978" sha1="f9d6548b44f33017430d31c94756e2b5516e492b" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="d40_03hc01.rom" offset="0x0" size="0x100000" crc="644f60c1" sha1="9af611a3efb115bab17b7aa4f4c87ede1426731d" />
+		<rom loadflag="load16_byte" name="d40_04hc01.rom" offset="0x100001" size="0x80000" crc="23a6a9e1" sha1="ecf1ff6a21991d3596a3a6924134f4ebb8a996fd" />
+		<rom loadflag="continue" offset="0x0" size="0x80000" />
+		<rom loadflag="load16_byte" name="d40_15hc01.rom" offset="0x0" size="0x80000" crc="277f6629" sha1="4f8c1dc9c2c62da52212dfde40d03c40672eed1a" />
+		<rom loadflag="load16_byte" name="d40_16hc01.rom" offset="0x1" size="0x80000" crc="ec221d06" sha1="d524c990e4c81d12fa82792064944e9f76c9df08" />
+		</dataarea>
+		<dataarea name="eeprom" endianness="big" size="0x80">
+		<rom name="gseeker.nv" offset="0x0" size="0x80" crc="3e24cc80" sha1="42173cf6aa40bb5015d01f62312fc2ff8d81fb65" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x140000">
+		<rom loadflag="load16_byte" name="d40_07.rom" offset="0x100000" size="0x20000" crc="7e9b26c2" sha1="d88ad39a9d70b4a5bd3f83e0d4d0725f659f1d2a" />
+		<rom loadflag="load16_byte" name="d40_08.rom" offset="0x100001" size="0x20000" crc="9c926a28" sha1="9d9ee75eb895edc381c3ab4df5af941f84cd2073" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="d40_01.rom" offset="0x0" size="0x200000" crc="ee312e95" sha1="885553950c2b2195d664639bf7e0d1ffa3e8346a" />
+		<rom loadflag="load16_byte" name="d40_02.rom" offset="0x600000" size="0x100000" crc="ed894fe1" sha1="5bf2fb6abdcf25bc525a2c3b29dbf7aca0b18fea" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		</dataarea>
+	</part>
+</software>
+<software name="kaiserkn01" cloneof="kaiserkn">
+	<description>Kaiser Knuckle (Enable Hidden Characters)</description>
+	<year>1994</year>
+	<publisher>Yumeji</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="d84-25hc01.20" offset="0x0" size="0x80000" crc="f7b8cf53" sha1="9c1d17f5fe05190fa9b93f2853955416342e47ec" />
+		<rom loadflag="load32_byte" name="d84-24hc01.19" offset="0x1" size="0x80000" crc="9c93aeae" sha1="d9eb6972648cffde24dfddf9dc7dad81ffd07a56" />
+		<rom loadflag="load32_byte" name="d84-23hc01.18" offset="0x2" size="0x80000" crc="1c7802e0" sha1="7dd6b53582d9617cfb159451ce73cf7419f626db" />
+		<rom loadflag="load32_byte" name="d84-29hc01.17" offset="0x3" size="0x80000" crc="8a68185d" sha1="065202c5be0aa60393c65cc62fd46a583c46c72e" />
+		</dataarea>
+		<dataarea name="sprites" size="0xd00000">
+		<rom loadflag="load16_byte" name="d84-03.rom" offset="0x0" size="0x200000" crc="d786f552" sha1="f73146892f714b5706d568fc8a135fddaa656570" />
+		<rom loadflag="load16_byte" name="d84-04.rom" offset="0x1" size="0x200000" crc="d1f32b5d" sha1="35289cce64fdbb8d966dd1d5307b5393be5e7799" />
+		<rom loadflag="load16_byte" name="d84-06.rom" offset="0x400000" size="0x200000" crc="fa924dab" sha1="28a8c3cd701f8df0c53069bb576bb2a820f3a331" />
+		<rom loadflag="load16_byte" name="d84-07.rom" offset="0x400001" size="0x200000" crc="54517a6b" sha1="6e2c213c7ec1a3b78ad7e71db2326602557fd0f8" />
+		<rom loadflag="load16_byte" name="d84-09.rom" offset="0x800000" size="0x200000" crc="faa78d98" sha1="da3a2c5a45dd169743f113aa08e574f732e1f0fd" />
+		<rom loadflag="load16_byte" name="d84-10.rom" offset="0x800001" size="0x200000" crc="b84b7320" sha1="f5de0d6da50d8ed753607b51e46bc9a4572ef431" />
+		<rom loadflag="load16_byte" name="d84-19.rom" offset="0xc00000" size="0x80000" crc="6ddf77e5" sha1="a1323acaed37fce62a19e63a0800d9d1dc2cfff7" />
+		<rom loadflag="load16_byte" name="d84-20.rom" offset="0xc00001" size="0x80000" crc="f85041e5" sha1="6b2814514338f550d6aa14dbe39e848e8e64edee" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x680000">
+		<rom name="d84-05.rom" offset="0x0" size="0x200000" crc="31a3c75d" sha1="1a16ccb6a0a03ab715e5b016ab3b1b2cd0f1ae41" />
+		<rom name="d84-08.rom" offset="0x200000" size="0x200000" crc="07347bf1" sha1="34bd359933acdec7fd1ce047092a30d1177afc2c" />
+		<rom name="d84-11.rom" offset="0x400000" size="0x200000" crc="a062c1d4" sha1="158912aa3dd75c3961bf738f9ac9034f0b005b60" />
+		<rom name="d84-21.rom" offset="0x600000" size="0x80000" crc="89f68b66" sha1="95916f02f71357324effe59da4f847f2f30ea34a" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="d84-26.32" offset="0x100000" size="0x40000" crc="4f5b8563" sha1="1d4e06cbea7bc73a99d6e30be714fff420151bbc" />
+		<rom loadflag="load16_byte" name="d84-27.33" offset="0x100001" size="0x40000" crc="fb0cb1ba" sha1="16a79b53651a6131f7636db19738b456b7c28bff" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x1000000">
+		<rom loadflag="load16_byte" name="d84-01.rom" offset="0x400000" size="0x200000" crc="9ad22149" sha1="48055822e0cea228cdecf3d05ac24e50979b6f4d" />
+		<rom loadflag="load16_byte" name="d84-02.rom" offset="0x800000" size="0x200000" crc="9e1827e4" sha1="1840881b0f8f7b6225e6ffa12a8d4b463554988e" />
+		<rom loadflag="load16_byte" name="d84-15.rom" offset="0xe00000" size="0x100000" crc="31ceb152" sha1="d9d0bc631a6a726376f566a49605b50485ac7bf4" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x600000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x300000">
+		<rom name="d84-14.rom" offset="0x0" size="0x200000" crc="2b2e693e" sha1="03eb37fa7dc68d54bf0f1800b8c0b581c344a40f" />
+		<rom name="d84-18.rom" offset="0x200000" size="0x100000" crc="e812bcc5" sha1="3574e4a99232d9fc7989ec5d1e8fe76b4b30784a" />
+		</dataarea>
+	</part>
+</software>
+<software name="kaiserkn02" cloneof="kaiserkn">
+	<description>Kaiser Knuckle (Plus)</description>
+	<year>1994</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="d84-25hc02.20" offset="0x0" size="0x80000" crc="e55c530c" sha1="4114b6ff4204fafe25a654a0411ebaa1cfed9f3e" />
+		<rom loadflag="load32_byte" name="d84-24hc02.19" offset="0x1" size="0x80000" crc="6e55c3d2" sha1="c2c0d3cc2c5f0b2cbef2f09eb678a7b8ade176f2" />
+		<rom loadflag="load32_byte" name="d84-23hc02.18" offset="0x2" size="0x80000" crc="15ac582b" sha1="a4af2f641360b9551539d73ff113a8dc70e15f0c" />
+		<rom loadflag="load32_byte" name="d84-22hc02.17" offset="0x3" size="0x80000" crc="5d44734c" sha1="be9dd23227d27815366d615b2680bd48c6e896bd" />
+		</dataarea>
+		<dataarea name="sprites" size="0xd00000">
+		<rom loadflag="load16_byte" name="d84-03.rom" offset="0x0" size="0x200000" crc="d786f552" sha1="f73146892f714b5706d568fc8a135fddaa656570" />
+		<rom loadflag="load16_byte" name="d84-04.rom" offset="0x1" size="0x200000" crc="d1f32b5d" sha1="35289cce64fdbb8d966dd1d5307b5393be5e7799" />
+		<rom loadflag="load16_byte" name="d84-06.rom" offset="0x400000" size="0x200000" crc="fa924dab" sha1="28a8c3cd701f8df0c53069bb576bb2a820f3a331" />
+		<rom loadflag="load16_byte" name="d84-07.rom" offset="0x400001" size="0x200000" crc="54517a6b" sha1="6e2c213c7ec1a3b78ad7e71db2326602557fd0f8" />
+		<rom loadflag="load16_byte" name="d84-09.rom" offset="0x800000" size="0x200000" crc="faa78d98" sha1="da3a2c5a45dd169743f113aa08e574f732e1f0fd" />
+		<rom loadflag="load16_byte" name="d84-10.rom" offset="0x800001" size="0x200000" crc="b84b7320" sha1="f5de0d6da50d8ed753607b51e46bc9a4572ef431" />
+		<rom loadflag="load16_byte" name="d84-19.rom" offset="0xc00000" size="0x80000" crc="6ddf77e5" sha1="a1323acaed37fce62a19e63a0800d9d1dc2cfff7" />
+		<rom loadflag="load16_byte" name="d84-20.rom" offset="0xc00001" size="0x80000" crc="f85041e5" sha1="6b2814514338f550d6aa14dbe39e848e8e64edee" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x680000">
+		<rom name="d84-05.rom" offset="0x0" size="0x200000" crc="31a3c75d" sha1="1a16ccb6a0a03ab715e5b016ab3b1b2cd0f1ae41" />
+		<rom name="d84-08.rom" offset="0x200000" size="0x200000" crc="07347bf1" sha1="34bd359933acdec7fd1ce047092a30d1177afc2c" />
+		<rom name="d84-11.rom" offset="0x400000" size="0x200000" crc="a062c1d4" sha1="158912aa3dd75c3961bf738f9ac9034f0b005b60" />
+		<rom name="d84-21.rom" offset="0x600000" size="0x80000" crc="89f68b66" sha1="95916f02f71357324effe59da4f847f2f30ea34a" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="d84-26.32" offset="0x100000" size="0x40000" crc="4f5b8563" sha1="1d4e06cbea7bc73a99d6e30be714fff420151bbc" />
+		<rom loadflag="load16_byte" name="d84-27.33" offset="0x100001" size="0x40000" crc="fb0cb1ba" sha1="16a79b53651a6131f7636db19738b456b7c28bff" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x1000000">
+		<rom loadflag="load16_byte" name="d84-01.rom" offset="0x400000" size="0x200000" crc="9ad22149" sha1="48055822e0cea228cdecf3d05ac24e50979b6f4d" />
+		<rom loadflag="load16_byte" name="d84-02.rom" offset="0x800000" size="0x200000" crc="9e1827e4" sha1="1840881b0f8f7b6225e6ffa12a8d4b463554988e" />
+		<rom loadflag="load16_byte" name="d84-15.rom" offset="0xe00000" size="0x100000" crc="31ceb152" sha1="d9d0bc631a6a726376f566a49605b50485ac7bf4" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x600000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x300000">
+		<rom name="d84-14.rom" offset="0x0" size="0x200000" crc="2b2e693e" sha1="03eb37fa7dc68d54bf0f1800b8c0b581c344a40f" />
+		<rom name="d84-18.rom" offset="0x200000" size="0x100000" crc="e812bcc5" sha1="3574e4a99232d9fc7989ec5d1e8fe76b4b30784a" />
+		</dataarea>
+	</part>
+</software>
+<software name="landmakr01" cloneof="landmakr">
+	<description>Land Maker (Chinese)</description>
+	<year>1998</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="e61-13hc01.20" offset="0x0" size="0x80000" crc="ff7afcc8" sha1="a3c8d1c3987c3266c62c056656fd3ea456749080" />
+		<rom loadflag="load32_byte" name="e61-12hc01.19" offset="0x1" size="0x80000" crc="2be4297d" sha1="fb1ab2e39755317ebf084df349fa0ab6a641d7e2" />
+		<rom loadflag="load32_byte" name="e61-11hc01.18" offset="0x2" size="0x80000" crc="dbc10844" sha1="2cf377cad0837cc3a25a679a6fe41beff38b20b4" />
+		<rom loadflag="load32_byte" name="e61-10hc01.17" offset="0x3" size="0x80000" crc="42d37d39" sha1="adb10fcd33a7d8daef111405b596858fe2da6452" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="e61-03hc01.12" offset="0x0" size="0x200000" crc="08e6acb4" sha1="1edaf0810682f6e3932a69942c4a83169329baf1" />
+		<rom loadflag="load16_byte" name="e61-02hc01.08" offset="0x1" size="0x200000" crc="e2f9d072" sha1="bf47ad233d6cceb552b8e5efadb5130f2529a59f" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x200000">
+		<rom name="e61-01hc01.04" offset="0x0" size="0x200000" crc="cb6b638c" sha1="eceea8404f71aaaf8b81aaa6601967d130cb9fd2" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x140000">
+		<rom loadflag="load16_byte" name="eh61-14.32" offset="0x100000" size="0x20000" crc="b905f4a7" sha1="613b954e3e129fd44b4ce64958f16e5636012d6e" />
+		<rom loadflag="load16_byte" name="eh61-15.33" offset="0x100001" size="0x20000" crc="87909869" sha1="7b90c23899a673966cac3352d375d17b83e66596" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x1000000">
+		<rom loadflag="load16_byte" name="e61-04.38" offset="0x400000" size="0x200000" crc="c27aec0c" sha1="e95da2db07a20a53662ebd45c033966e8a22a15a" />
+		<rom loadflag="load16_byte" name="e61-05.39" offset="0x800000" size="0x200000" crc="83920d9d" sha1="019e39ae85d1129f6d3b8460c4b1bd925f868ee2" />
+		<rom loadflag="load16_byte" name="e61-06.40" offset="0xc00000" size="0x200000" crc="2e717bfe" sha1="1be54cd2ec65d8fd49a5c09b5d27791fd7a320d4" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x400000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x200000">
+		<rom name="e61-07.43" offset="0x0" size="0x200000" crc="4a57965d" sha1="8e80788e0f47fb242da9af3aa19077dc0ec829b8" />
+		</dataarea>
+	</part>
+</software>
+<software name="landmakr02" cloneof="landmakr">
+	<description>Land Maker (Unknown Hack)</description>
+	<year>1998</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="e61-13.20" offset="0x0" size="0x80000" crc="0af756a2" sha1="2dadac6873f2491ee77703f07f00dde2aa909355" />
+		<rom loadflag="load32_byte" name="e61-12.19" offset="0x1" size="0x80000" crc="636b3df9" sha1="78a5bf4977bb90d710942188ce5016f3df499feb" />
+		<rom loadflag="load32_byte" name="e61-11.18" offset="0x2" size="0x80000" crc="279a0ee4" sha1="08380286737b33db76a79b27d0df5faba17dfb96" />
+		<rom loadflag="load32_byte" name="e61-wrd.17" offset="0x3" size="0x80000" crc="34a5939e" sha1="4fbcdd0b57cbd589b554d1751394df8389293966" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="e61-03.12" offset="0x0" size="0x200000" crc="e8abfc46" sha1="fbde006f9822af3ed8debec525270d329981ea21" />
+		<rom loadflag="load16_byte" name="e61-02.08" offset="0x1" size="0x200000" crc="1dc4a164" sha1="33b412d9653099aaff8ed5e62d1ba4fc30aa9058" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x200000">
+		<rom name="e61-01.04" offset="0x0" size="0x200000" crc="6cdd8311" sha1="7810a5a81f3b5a730d2088c79b12fffd77659b5b" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x140000">
+		<rom loadflag="load16_byte" name="eh61-14.32" offset="0x100000" size="0x20000" crc="b905f4a7" sha1="613b954e3e129fd44b4ce64958f16e5636012d6e" />
+		<rom loadflag="load16_byte" name="eh61-15.33" offset="0x100001" size="0x20000" crc="87909869" sha1="7b90c23899a673966cac3352d375d17b83e66596" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x1000000">
+		<rom loadflag="load16_byte" name="e61-04.38" offset="0x400000" size="0x200000" crc="c27aec0c" sha1="e95da2db07a20a53662ebd45c033966e8a22a15a" />
+		<rom loadflag="load16_byte" name="e61-05.39" offset="0x800000" size="0x200000" crc="83920d9d" sha1="019e39ae85d1129f6d3b8460c4b1bd925f868ee2" />
+		<rom loadflag="load16_byte" name="e61-06.40" offset="0xc00000" size="0x200000" crc="2e717bfe" sha1="1be54cd2ec65d8fd49a5c09b5d27791fd7a320d4" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x400000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x200000">
+		<rom name="e61-07.43" offset="0x0" size="0x200000" crc="4a57965d" sha1="8e80788e0f47fb242da9af3aa19077dc0ec829b8" />
+		</dataarea>
+	</part>
+</software>
+<software name="landmakr03" cloneof="landmakr">
+	<description>Land Maker (English translation of the story line)</description>
+	<year>2023</year>
+	<publisher>ywy, MA97</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="e61-19s03.20" offset="0x0" size="0x80000" crc="585f410c" sha1="188ef37fccd4d16b11f5052cb5252ada22d37b4b" />
+		<rom loadflag="load32_byte" name="e61-18s03.19" offset="0x1" size="0x80000" crc="58f9e498" sha1="6e8c2b1de8da7bc044b2d274845d96ec9e3f6bf4" />
+		<rom loadflag="load32_byte" name="e61-17s03.18" offset="0x2" size="0x80000" crc="6e15a67b" sha1="056dc1ecf845961d8a331b054520ca0bb80663d5" />
+		<rom loadflag="load32_byte" name="e61-16s03.17" offset="0x3" size="0x80000" crc="253c94b6" sha1="32ce61bfbea1b31b8005562a2d9d4b3edd24fa98" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="e61-03.12" offset="0x0" size="0x200000" crc="e8abfc46" sha1="fbde006f9822af3ed8debec525270d329981ea21" />
+		<rom loadflag="load16_byte" name="e61-02.08" offset="0x1" size="0x200000" crc="1dc4a164" sha1="33b412d9653099aaff8ed5e62d1ba4fc30aa9058" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x200000">
+		<rom name="e61-01.04" offset="0x0" size="0x200000" crc="6cdd8311" sha1="7810a5a81f3b5a730d2088c79b12fffd77659b5b" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="e61-14.32" offset="0x100000" size="0x40000" crc="18961bbb" sha1="df054def35a49c0754356c15ec15336cbf28b063" />
+		<rom loadflag="load16_byte" name="e61-15.33" offset="0x100001" size="0x40000" crc="2c64557a" sha1="768007162d5d2cbe650c735bc1af2c10ed13b046" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x1000000">
+		<rom loadflag="load16_byte" name="e61-04.38" offset="0x400000" size="0x200000" crc="c27aec0c" sha1="e95da2db07a20a53662ebd45c033966e8a22a15a" />
+		<rom loadflag="load16_byte" name="e61-05.39" offset="0x800000" size="0x200000" crc="83920d9d" sha1="019e39ae85d1129f6d3b8460c4b1bd925f868ee2" />
+		<rom loadflag="load16_byte" name="e61-06.40" offset="0xc00000" size="0x200000" crc="2e717bfe" sha1="1be54cd2ec65d8fd49a5c09b5d27791fd7a320d4" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x400000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x200000">
+		<rom name="e61-07s03.43" offset="0x0" size="0x200000" crc="f521c022" sha1="6f01f7b9c2c3db45f8dae46d0c815e3b0b70c18c" />
+		</dataarea>
+	</part>
+</software>
+<software name="lightbr01" cloneof="lightbr">
+	<description>Light Bringer (Chinese, 2017-04-26)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="d69-20hc01.bin" offset="0x0" size="0x80000" crc="5b29e745" sha1="a20ffaf53cb7572217ad5e92d3641927b1998eab" />
+		<rom loadflag="load32_byte" name="d69-13hc01.bin" offset="0x1" size="0x80000" crc="0764221f" sha1="1465f51396348c12c7d272232699eb69bd46bf9b" />
+		<rom loadflag="load32_byte" name="d69-15hc01.bin" offset="0x2" size="0x80000" crc="66c3a572" sha1="122bdab9becdd2df0f43c2a34e079cf1625159b9" />
+		<rom loadflag="load32_byte" name="d69-14hc01.bin" offset="0x3" size="0x80000" crc="c1588074" sha1="0e5c1677f89953791837d1293cc924cfa7fe54e5" />
+		</dataarea>
+		<dataarea name="sprites" size="0x600000">
+		<rom loadflag="load16_byte" name="d69-06.bin" offset="0x0" size="0x200000" crc="cb4aac81" sha1="15d315c6b9695cc2fe07defc67c7a4fb26de1950" />
+		<rom loadflag="load16_byte" name="d69-07.bin" offset="0x1" size="0x200000" crc="b749f984" sha1="39fd662bdc42e812519181a640a83e29e300826a" />
+		<rom loadflag="load16_byte" name="d69-09hc01.bin" offset="0x400000" size="0x100000" crc="dbac0bf3" sha1="ff17a43fc0b2f6b41b8394ad00e00b2683e2287a" />
+		<rom loadflag="load16_byte" name="d69-10hc01.bin" offset="0x400001" size="0x100000" crc="50673c49" sha1="62f3fa18c39c0149ec021c5617d2989d546550aa" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x300000">
+		<rom name="d69-08.bin" offset="0x0" size="0x200000" crc="5b68d7d8" sha1="f2ee3dd7100a3c9d8f402fe36dae2bc66cb17be3" />
+		<rom name="d69-11hc01.bin" offset="0x200000" size="0x100000" crc="1988fb12" sha1="790bfaf765bad2665381b6b752d2c26c010b4e4e" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x140000">
+		<rom loadflag="load16_byte" name="d69-18.bin" offset="0x100000" size="0x20000" crc="04600d7b" sha1="666cfab09b61fd6e0bc4ff277018ebf1cda01b0e" />
+		<rom loadflag="load16_byte" name="d69-19.bin" offset="0x100001" size="0x20000" crc="1484e853" sha1="4459c18ba005786483c652857e527c6093efb036" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="d69-01.bin" offset="0x0" size="0x200000" crc="9ac93ac2" sha1="1c44f6ba95505f85b0c8a90395f09d2a49da3553" />
+		<rom loadflag="load16_byte" name="d69-02.bin" offset="0x400000" size="0x200000" crc="dce28dd7" sha1="eacfc98349b0608fc1a944c11f0483fb6caa4445" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x400000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x200000">
+		<rom name="d69-05hc01.bin" offset="0x0" size="0x200000" crc="f84c9c40" sha1="2e1945ecd904d41d4bca9fbde0083b0c78037b2f" />
+		</dataarea>
+	</part>
+</software>
+<software name="pbobble2s01" cloneof="pbobble2">
+	<description>Puzzle Bobble 2 (Bobble 2X Hack)</description>
+	<year>1995</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="e10-29.20" offset="0x0" size="0x40000" crc="f1e9ad3f" sha1="8689d85f30e075d21e4be01a2a097a850a921c47" />
+		<rom loadflag="load32_byte" name="e10-28.19" offset="0x1" size="0x40000" crc="412a3602" sha1="d754e6ac886676d2c1eb52de3a727894f316e6b5" />
+		<rom loadflag="load32_byte" name="e10-27.18" offset="0x2" size="0x40000" crc="88cc0b5c" sha1="bb08a7b8b37356376052ed03f8515677811823c0" />
+		<rom loadflag="load32_byte" name="e10-wrd.17" offset="0x3" size="0x40000" crc="4bcc216b" sha1="45e9250414201fa5ad866b32b0285973fd06367c" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="e10-02.rom" offset="0x0" size="0x100000" crc="c0564490" sha1="cbe9f880192c08f4d1db21d5ba14073b97e5f1d3" />
+		<rom loadflag="load16_byte" name="e10-01.rom" offset="0x1" size="0x100000" crc="8c26ff49" sha1="cbb514c061106003d2ae2b6c43958b24feaad656" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="e10-30.32" offset="0x100000" size="0x40000" crc="bb090c1e" sha1="af2ff23d6f9bd56c25530cb9bf9f452b6f5210f5" />
+		<rom loadflag="load16_byte" name="e10-31.33" offset="0x100001" size="0x40000" crc="f4b88d65" sha1="c74dcb4bed979039fad1d5c7528c14ce4db1d5ec" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="e10-04.rom" offset="0x0" size="0x200000" crc="5c0862a6" sha1="f916f63b8629239e3221e1e231e1b39962ef38ba" />
+		<rom loadflag="load16_byte" name="e10-03.rom" offset="0x400000" size="0x200000" crc="46d68ac8" sha1="ad014e9f0d458308014959ca6823077f581ab088" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x100000">
+		<rom name="e10-05.rom" offset="0x0" size="0x100000" crc="81266151" sha1="aa3b144f32995425db97efce440e234a3c7a6715" />
+		</dataarea>
+	</part>
+</software>
+<software name="pbobble3s01" cloneof="pbobble3">
+	<description>Puzzle Bobble 3 (Recarbonated)</description>
+	<year>2022</year>
+	<publisher>Bankbank</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="h01.12" offset="0x0" size="0x80000" crc="0febed38" sha1="dbac198cb25881b44dfd6fc2a0483947cba81d96" />
+		<rom loadflag="load32_byte" name="h01.11" offset="0x1" size="0x80000" crc="4b61e414" sha1="d8a97d90d35b057c0224813b47e302a1a83db246" />
+		<rom loadflag="load32_byte" name="h01.10" offset="0x2" size="0x80000" crc="737f6a4f" sha1="102578f4b192482e1bbf700cdb776f810f14e0af" />
+		<rom loadflag="load32_byte" name="h01.16" offset="0x3" size="0x80000" crc="1d708518" sha1="4ca41c4e5dc161f97c40ae72828d393994feb1df" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="e29-02.rom" offset="0x0" size="0x100000" crc="437391d3" sha1="b3cc64c68553d37e0bd09e0dece14901d8df5866" />
+		<rom loadflag="load16_byte" name="e29-01.rom" offset="0x1" size="0x100000" crc="52547c77" sha1="d0cc8b8915cec1506c9733a1ce1638038ea93d25" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="e29-13.rom" offset="0x100000" size="0x40000" crc="1ef551ef" sha1="527defe8f35314304adb4b483285b08cd6ebe865" />
+		<rom loadflag="load16_byte" name="e29-14.rom" offset="0x100001" size="0x40000" crc="7ee7e688" sha1="d65aa9c449e1d64f10d1be9727a9d93ab1571e65" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x1000000">
+		<rom loadflag="load16_byte" name="e29-03.rom" offset="0x400000" size="0x200000" crc="a4371658" sha1="26510a3f6de97f49b10dfc5cb9b7da947a44bfcb" />
+		<rom loadflag="load16_byte" name="e29-04.rom" offset="0x800000" size="0x200000" crc="d1f42457" sha1="2c77be6365deb5ef215da0c66da23b415623bdb1" />
+		<rom loadflag="load16_byte" name="e29-05.rom" offset="0xc00000" size="0x200000" crc="e33c1234" sha1="84c336ed6fd8723e824889fe7b52c284be659e62" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x100000">
+		<rom name="e29-06.rom" offset="0x0" size="0x100000" crc="c16184f8" sha1="ded417d9d116b5a2f7518fa404bc2dda1c6a6366" />
+		</dataarea>
+	</part>
+</software>
+<software name="pbobble3s02" cloneof="pbobble3">
+	<description>Puzzle Bobble 3 (Recarbonated, 2p only)</description>
+	<year>2022</year>
+	<publisher>Bankbank</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="h02.12" offset="0x0" size="0x80000" crc="c22eda63" sha1="f6968fea221608bd210fae8fa6fd80045def9fe0" />
+		<rom loadflag="load32_byte" name="h02.11" offset="0x1" size="0x80000" crc="531e2891" sha1="5ce0708ddba9d900b755e842c1d5a9e67986c52d" />
+		<rom loadflag="load32_byte" name="h02.10" offset="0x2" size="0x80000" crc="ba599730" sha1="7611fbe426d5c9fcd0d0346d57bd44a98035d1b2" />
+		<rom loadflag="load32_byte" name="h02.16" offset="0x3" size="0x80000" crc="412e7ca4" sha1="84f5616397832855c16e0c6a635a6f08e908f87e" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="e29-02.rom" offset="0x0" size="0x100000" crc="437391d3" sha1="b3cc64c68553d37e0bd09e0dece14901d8df5866" />
+		<rom loadflag="load16_byte" name="e29-01.rom" offset="0x1" size="0x100000" crc="52547c77" sha1="d0cc8b8915cec1506c9733a1ce1638038ea93d25" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="e29-13.rom" offset="0x100000" size="0x40000" crc="1ef551ef" sha1="527defe8f35314304adb4b483285b08cd6ebe865" />
+		<rom loadflag="load16_byte" name="e29-14.rom" offset="0x100001" size="0x40000" crc="7ee7e688" sha1="d65aa9c449e1d64f10d1be9727a9d93ab1571e65" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x1000000">
+		<rom loadflag="load16_byte" name="e29-03.rom" offset="0x400000" size="0x200000" crc="a4371658" sha1="26510a3f6de97f49b10dfc5cb9b7da947a44bfcb" />
+		<rom loadflag="load16_byte" name="e29-04.rom" offset="0x800000" size="0x200000" crc="d1f42457" sha1="2c77be6365deb5ef215da0c66da23b415623bdb1" />
+		<rom loadflag="load16_byte" name="e29-05.rom" offset="0xc00000" size="0x200000" crc="e33c1234" sha1="84c336ed6fd8723e824889fe7b52c284be659e62" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x100000">
+		<rom name="e29-06.rom" offset="0x0" size="0x100000" crc="c16184f8" sha1="ded417d9d116b5a2f7518fa404bc2dda1c6a6366" />
+		</dataarea>
+	</part>
+</software>
+<software name="twinqix01" cloneof="twinqix">
+	<description>Twin Qix (Ver 1.0A 1995/01/17, Japan)</description>
+	<year>1995</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="mpr0-3.b60" offset="0x0" size="0x40000" crc="1a63d0de" sha1="7d8d8a6c9c7f9dfc0a8a528a905e33388b8fe13d" />
+		<rom loadflag="load32_byte" name="mpr0-2.b61" offset="0x1" size="0x40000" crc="45a70987" sha1="8cca6845064d943fd28416143e60399188b023cd" />
+		<rom loadflag="load32_byte" name="mpr0-1.b62" offset="0x2" size="0x40000" crc="531f9447" sha1="4d18efaad9c3dd2b14d3125c0f9e18cfcde3a1f2" />
+		<rom loadflag="load32_byte" name="h01.b63" offset="0x3" size="0x40000" crc="3dcd1dab" sha1="6dbeda16b3c79c2de92076eba5aeb8386a1c8f87" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="obj0-0.a08" offset="0x0" size="0x80000" crc="c6ea845c" sha1="9df710637e8f64f7fec232b5ebbede588e07c2db" />
+		<rom loadflag="load16_byte" name="obj0-1.a20" offset="0x1" size="0x80000" crc="8c12b7fb" sha1="8a52870fb9f508148619763fb6f37dd74b5386ca" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="spr0-1.b66" offset="0x100000" size="0x40000" crc="4b20e99d" sha1="faf184daea0f1131bafa50edb48bd470d4c0b141" />
+		<rom loadflag="load16_byte" name="spr0-0.b65" offset="0x100001" size="0x40000" crc="2569eb30" sha1="ec804131025e600198cd8342925823340e7ef458" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x400000">
+		<rom loadflag="load16_byte" name="snd-0.b43" offset="0x0" size="0x80000" crc="ad5405a9" sha1="67ee42498d2c3c00015237b3b5cd020f9a7c4a18" />
+		<rom loadflag="load16_byte" name="snd-1.b44" offset="0x100000" size="0x80000" crc="274864af" sha1="47fefee23038bb751bdf6b6f48312ba0b6e38b90" />
+		<rom loadflag="load16_byte" name="snd-14.b10" offset="0x200000" size="0x80000" crc="26312451" sha1="9f947a11592fd8420fc581914bf16e7ade75390c" />
+		<rom loadflag="load16_byte" name="snd-15.b11" offset="0x300000" size="0x80000" crc="2edaa9dc" sha1="72fead505c4f44e5736ff7d545d72dfa37d613e2" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		<rom loadflag="load32_byte" name="scr0-0.b07" offset="0x0" size="0x80000" crc="9a1b9b34" sha1="ddf9c6ba0f9c340b580573e1d96ac76b1cd35beb" />
+		<rom loadflag="load32_byte" name="scr0-1.b06" offset="0x1" size="0x80000" crc="e9bef879" sha1="7e720f5054a1ef3a28353f1c221f4cf15d3b7428" />
+		<rom loadflag="load32_byte" name="scr0-2.b05" offset="0x2" size="0x80000" crc="cac6854b" sha1="c97fb7de48e1644695bbe431587d6c1be01ea62d" />
+		<rom loadflag="load32_byte" name="scr0-3.b04" offset="0x3" size="0x80000" crc="ce063034" sha1="2ecff74427d7d2fa8d1db4ac87481d123d7ce003" />
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x100000">
+		<rom loadflag="load16_byte" name="scr0-4.b03" offset="0x0" size="0x80000" crc="d32280fe" sha1="56b120128c5e4b8c6598a1de51269e6702a63175" />
+		<rom loadflag="load16_byte" name="scr0-5.b02" offset="0x1" size="0x80000" crc="fdd1a85b" sha1="1d94a4858baef3e78c456049dc58249a574205fe" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

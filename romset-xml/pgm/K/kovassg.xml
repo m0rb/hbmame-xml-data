@@ -1,0 +1,28 @@
+<software name="kovassg" cloneof="kovshp">
+	<description>Knights of Valour: Aoshi Sanguo / Sangoku Senki: Aoshi Sanguo (ver. 315CN)</description>
+	<year>2008</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="assg_v315cn.rom" offset="0x100000" size="0x400000" crc="b9885d5c" sha1="be55e6b3639fbf30e4cbc1bb24e388fd2ad74382" />
+		</dataarea>
+		<dataarea name="ics" size="0xc00000">
+		<rom name="lsqh2_m01.rom" offset="0x400000" size="0x400000" crc="01af1b65" sha1="6cf523fa8f1e03f974771611bb9a4e08a4d4443f" />
+		<rom loadflag="continue" offset="0x800000" size="0x400000" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.asic" offset="0x0" size="0x4000" crc="0f09a5c1" sha1="621b38c05f33277608d58b49822aebc930ae4870" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x4000000">
+		<rom name="lsqh2_a01.rom" offset="0x0" size="0x1000000" crc="25ae3efd" sha1="083d977602ddb5ad54fbdcba000cd4287de8d463" />
+		<rom name="lsqh2_a23.rom" offset="0x1000000" size="0x1000000" crc="7a779112" sha1="0a7d36b3715063d8eac629b95a9bb3ecd8e54fca" />
+		<rom name="lsqh2_a45.rom" offset="0x2000000" size="0x1000000" crc="5d7de052" sha1="7663b6cf09f65c4644661005a38f9aba84a32913" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="lsqh2_b01.rom" offset="0x0" size="0x1000000" crc="df7ca696" sha1="7af3d27957a39de7e4873867c9972c05af7e7964" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="lsqh2_t01.rom" offset="0x180000" size="0x800000" crc="d498d97f" sha1="97a7b6d2ed1170449e7c2899448af7cbbca4c94f" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,26 @@
+<software name="kof2k4se31" cloneof="kof2k4se">
+	<description>Kof Special Edition 2004 Magic Plus (Add Boss Hack )</description>
+	<year>2004</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="365s31.p1" offset="0x0" size="0x100000" crc="e0f850e0" sha1="71082c186f6c47c2515aca04f5027cc6916193e5" />
+		<rom loadflag="load16_word_swap" name="365.p3" offset="0x100000" size="0x400000" crc="e6c50566" sha1="cc6a3489a3bfeb4dcc65b6ddae0030f7e66fbabe" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="365.v1" offset="0x0" size="0x800000" crc="e4ddfb3f" sha1="eb8220ab01c16cf9244b7f3f9912bec0db561b85" />
+		<rom name="365.v2" offset="0x800000" size="0x800000" crc="b887d287" sha1="f593a5722df6f6fac023d189a739a117e976bb2f" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="365.c1" offset="0x0" size="0x800000" crc="7a050288" sha1="55a20c5b01e11a859f096af3f8e09986025d288f" />
+		<rom loadflag="load16_byte" name="365.c2" offset="0x1" size="0x800000" crc="e924afcf" sha1="651e974f7339d2cdcfa58c5398013197a0525b77" />
+		<rom loadflag="load16_byte" name="265d.c3" offset="0x1000000" size="0x800000" crc="959fad0b" sha1="63ab83ddc5f688dc8165a7ff8d262df3fcd942a2" />
+		<rom loadflag="load16_byte" name="265d.c4" offset="0x1000001" size="0x800000" crc="efe6a468" sha1="2a414285e48aa948b5b0d4a9333bab083b5fb853" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="365s06.c7" offset="0x3000000" size="0x800000" crc="dec455b7" sha1="d2b75a0fb72e38f506d82cba9f368db2ba47a23d" />
+		<rom loadflag="load16_byte" name="365s06.c8" offset="0x3000001" size="0x800000" crc="5bbf0048" sha1="8a8448e44aefd10a3f215ee2dcb452ebee24fbc0" />
+		</dataarea>
+	</part>
+</software>

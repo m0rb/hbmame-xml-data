@@ -1,0 +1,59 @@
+<software name="primrage02">
+	<description>Primal Rage (Hack Menu)</description>
+	<year>2022</year>
+	<publisher>Gruntzilla94</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="pr02-1044b.29l" offset="0x0" size="0x80000" crc="49fd3305" sha1="9c81bbd34d367db36c1e1bd6abcbaa5b8ec331f1" />
+		<rom loadflag="load32_byte" name="pr02-1043b.28l" offset="0x1" size="0x80000" crc="c9b5d112" sha1="87ad4912ccdc3382e0f1bb3721cb3dd68e7e7a3f" />
+		<rom loadflag="load32_byte" name="pr02-1042b.27l" offset="0x2" size="0x80000" crc="69b25d11" sha1="dec969c061773637fa73973ad4537220c4245d54" />
+		<rom loadflag="load32_byte" name="pr02-1041b.25l" offset="0x3" size="0x80000" crc="6df72790" sha1="ce06c6e63de953ca7b343b065e1ddce23f5a19b4" />
+		</dataarea>
+		<dataarea name="cage" endianness="little" size="0x1000000">
+		</dataarea>
+		<dataarea name="cage:boot" endianness="little" size="0x200000">
+		<rom loadflag="load32_byte" name="136102-1078a.11a" offset="0x0" size="0x80000" crc="0656435f" sha1="f8e498171e754eb8703dad6b2351509bbb27e06b" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x300000">
+		<rom name="136102-0050a.25n" offset="0x0" size="0x80000" crc="66896e8f" sha1="7675b24c15ca0608f11f2a7b8d70717adb10924c" />
+		<rom name="136102-0051a.27n" offset="0x100000" size="0x80000" crc="fb5b3e7b" sha1="f43fe4b5c4bbea10da46b60c644f586fb391355d" />
+		<rom name="136102-0052a.28n" offset="0x200000" size="0x80000" crc="cbe38670" sha1="0780e599007851f6d37cdd8c701d01cb1ae48b9d" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="136102-1045b.23p" offset="0x0" size="0x20000" crc="1d3260bf" sha1="85d9db8499cbe180c8d52710f3cfe64453a530ff" />
+		</dataarea>
+		<dataarea name="proms" size="0x600">
+		<rom name="136094-0001a.13s" offset="0x0" size="0x200" crc="a70ade3f" sha1="f4a558b17767eed2683c768d1b441e75edcff967" />
+		<rom name="136094-0002a.14s" offset="0x200" size="0x200" crc="f4768b4d" sha1="a506fa5386ab0ea2851ff1f8474d4bfc66deaa70" />
+		<rom name="136094-0003a.15s" offset="0x400" size="0x200" crc="22a76ad4" sha1="ce840c283bbd3a5f19dc8d91b19d1571eff51ff4" />
+		</dataarea>
+		<dataarea name="rle" endianness="big" size="0x2000000">
+		<rom loadflag="load16_byte" name="136102-1100a.2v" offset="0x1" size="0x80000" crc="6e9c80b5" sha1="ec724011527dd8707c733211b1a6c51b22f580c7" />
+		<rom loadflag="load16_byte" name="136102-1101a.2w" offset="0x0" size="0x80000" crc="bb7ee624" sha1="0de6385aee7d25b41fd5bf232e44e5da536504ac" />
+		<rom loadflag="load16_byte" name="136102-0332.mol1.0" offset="0x800001" size="0x100000" crc="610cfcb4" sha1="bed1bd0d11c0a7cc48d020fc0acec34daf48c5ac" />
+		<rom loadflag="load16_byte" name="136102-0333.moh1.0" offset="0x800000" size="0x100000" crc="3320448e" sha1="aef42328bf72fca5c04bfed1ea41100bb5aafeaa" />
+		<rom loadflag="load16_byte" name="136102-0334.mol1.1" offset="0xa00001" size="0x100000" crc="be3acb6f" sha1="664cb4cd4d325577ab0cbe0cf48870a9f4706573" />
+		<rom loadflag="load16_byte" name="136102-0335.moh1.1" offset="0xa00000" size="0x100000" crc="e4f6e87a" sha1="2a3f8ff46b289c25cd4ca2a1369b14613f48e964" />
+		<rom loadflag="load16_byte" name="136102-0336.mol1.2" offset="0xc00001" size="0x100000" crc="a78a8525" sha1="69c3da4d45b0f09f5bdabcedd238b82efab48a70" />
+		<rom loadflag="load16_byte" name="136102-0337.moh1.2" offset="0xc00000" size="0x100000" crc="73fdd050" sha1="63c67187953d2dab93a260e548ef5965e7cba4e8" />
+		<rom loadflag="load16_byte" name="136102-0338.mol1.3" offset="0xe00001" size="0x100000" crc="fa19cae6" sha1="7d0560516971f32835329a17450c7561631a27d1" />
+		<rom loadflag="load16_byte" name="136102-0339.moh1.3" offset="0xe00000" size="0x100000" crc="e0cd1393" sha1="0de59d04165d64320512936c194db19cca6455fd" />
+		<rom loadflag="load16_byte" name="136102-0316.mol0.0" offset="0x1000001" size="0x100000" crc="9301c672" sha1="a8971049c857ae283a95b257dd0d6aaff6d787cd" />
+		<rom loadflag="load16_byte" name="136102-0317.moh0.0" offset="0x1000000" size="0x100000" crc="9e3b831a" sha1="b799e57bea9522cb83f9aa7ea38a17b1d8273b8d" />
+		<rom loadflag="load16_byte" name="136102-0318.mol0.1" offset="0x1200001" size="0x100000" crc="8523db5d" sha1="f2476aa26b1a7cbe7510994d92eb209fda65593d" />
+		<rom loadflag="load16_byte" name="136102-0319.moh0.1" offset="0x1200000" size="0x100000" crc="42f22e4b" sha1="2a1a6f0a7aca7b7b64bce0bd54eb4cb23a2336b1" />
+		<rom loadflag="load16_byte" name="136102-0320.mol0.2" offset="0x1400001" size="0x100000" crc="21369d13" sha1="28e03595c098fd9bec6f7316180d17905a51a51b" />
+		<rom loadflag="load16_byte" name="136102-0321.moh0.2" offset="0x1400000" size="0x100000" crc="3b7d498a" sha1="804e9e1567bf97e8dae3b9444428254ced8b60da" />
+		<rom loadflag="load16_byte" name="136102-0322.mol0.3" offset="0x1600001" size="0x100000" crc="05e9f407" sha1="fa25a893d4cb805df02d7d12df4dbabefb3114a2" />
+		<rom loadflag="load16_byte" name="136102-0323.moh0.3" offset="0x1600000" size="0x100000" crc="603f3bb6" sha1="d7c22dc900d9edc36d8f211df67a206d14637fab" />
+		<rom loadflag="load16_byte" name="136102-0324.mol0.4" offset="0x1800001" size="0x100000" crc="3c37769f" sha1="ca0306a439949d2a0305cc0cf05808a58e84084c" />
+		<rom loadflag="load16_byte" name="136102-0325.moh0.4" offset="0x1800000" size="0x100000" crc="f43321e3" sha1="8bb4dd4a5d5400b17052d50dca9078211dc6b861" />
+		<rom loadflag="load16_byte" name="136102-0326.mol0.5" offset="0x1a00001" size="0x100000" crc="63d4ccea" sha1="340fced6998a8ae6fd285d8fe666f5f1e4b6bfaf" />
+		<rom loadflag="load16_byte" name="136102-0327.moh0.5" offset="0x1a00000" size="0x100000" crc="9f4806d5" sha1="76e9f1a47e7fa45e834fa8739528f1e3c54b14dc" />
+		<rom loadflag="load16_byte" name="136102-0328.mol0.6" offset="0x1c00001" size="0x100000" crc="a08d73e1" sha1="25a58777f15e9550111447b47a98762fd6bb498d" />
+		<rom loadflag="load16_byte" name="136102-0329.moh0.6" offset="0x1c00000" size="0x100000" crc="eff3d2cd" sha1="8532568b5fd91d2b738947e9cd575a4eb2a03be2" />
+		<rom loadflag="load16_byte" name="136102-0330.mol0.7" offset="0x1e00001" size="0x100000" crc="7bf6bb8f" sha1="f34bd8a9c7f95436a1c816badc59673cd2a6969a" />
+		<rom loadflag="load16_byte" name="136102-0331.moh0.7" offset="0x1e00000" size="0x100000" crc="c6a64dad" sha1="ee54514463ab61cbaef70da064cf5de591e5861f" />
+		</dataarea>
+	</part>
+</software>

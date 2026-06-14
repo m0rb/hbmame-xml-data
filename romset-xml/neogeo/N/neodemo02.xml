@@ -1,0 +1,15 @@
+<software name="neodemo02">
+	<description>Chaos Demo</description>
+	<year>2019</year>
+	<publisher>Peter Lemon</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="645.p1" offset="0x0" size="0x80000" crc="39e10ecc" sha1="0493260f3140c612573014188e3d2165b0c214be" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="616.c1" offset="0x0" size="0x100000" crc="870b28ea" sha1="255f8e394534afc929bad31f253a2e8b03253e07" />
+		<rom loadflag="load16_byte" name="616.c2" offset="0x1" size="0x100000" crc="1ecf8128" sha1="66d200ceb023a1ff3cbe4ef7c5b1ef0068ab47f0" />
+		</dataarea>
+	</part>
+</software>

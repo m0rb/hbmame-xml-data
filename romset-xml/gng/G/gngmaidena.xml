@@ -1,0 +1,29 @@
+<software name="gngmaidena">
+	<description>Ghosts&#x27;n Goblins (Maiden, set 2)</description>
+	<year>2026</year>
+	<publisher>Wolfric / Poody</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x18000">
+		<rom name="mjg_03maiden.8n" offset="0x8000" size="0x8000" crc="640d7ece" sha1="7a55b92d9feeb095bd2fdc5005a961eb556b3e5d" />
+		<rom name="mjg_04maiden.10n" offset="0x4000" size="0x4000" crc="0f6f2987" sha1="50c8afa29701797ff42b7f712b251e86c103e616" />
+		<rom name="mjg_05maiden.12n" offset="0x10000" size="0x8000" crc="39f2dd21" sha1="6d4383d319317af2c54c98302fea8ea72958cc15" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="capsom_m5m23256p_p_62410p_mjg_02.14h" offset="0x0" size="0x8000" crc="615f5b6f" sha1="7ef9ec5c2072e21c787a6bbf700033f50c759c1d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x20000">
+		<rom name="capsom_m5m23256p_p_61710g_mjg_09m.3l" offset="0x18000" size="0x8000" crc="d8339187" sha1="d09bb3fa1085113844bdf506b86340207d146e0b" />
+		<rom name="capsom_m5m23256p_p_61710g_mjg_12m.4n" offset="0x0" size="0x8000" crc="8abd05fb" sha1="49c039351229a2fb28bc1dc65681738ff5e59588" />
+		<rom name="capsom_m5m23256p_p_620108_mjg_11m.3n" offset="0x8000" size="0x8000" crc="839fd6c7" sha1="b28f7761a12fa1397fb308b375f4c5f670f02610" />
+		<rom name="capsom_m5m23256p_p_62410p_mjg_10m.4l" offset="0x10000" size="0x8000" crc="90ec9bb3" sha1="a4a0483f010109b69cff7c6b7a5c150a513b6b81" />
+		</dataarea>
+		<dataarea name="chars" size="0x4000">
+		<rom name="capsom_m5m23256p_p_616105_mjg_01m.11e" offset="0x0" size="0x4000" crc="25ee616c" sha1="e5f3bb911f96d93202d1b17da369d47cb4451f0c" />
+		</dataarea>
+		<dataarea name="tiles" size="0x18000">
+		<rom name="capsom_m5m23256p_p_616105_mmg_06.3b" offset="0x10000" size="0x8000" crc="830176af" sha1="1053adf458f2613a3ce6f3eb5d7d917906341d5c" />
+		<rom name="capsom_m5m23256p_p_61710z_mmg_07.3c" offset="0x8000" size="0x8000" crc="0b92b129" sha1="8e06b03323b470482e068a9d60f0263ac5088876" />
+		<rom name="capsom_m5m23256p_p_616105_mmg_08.3e" offset="0x0" size="0x8000" crc="c09a716f" sha1="d30d31ae8458ac22b61a01bf52dd50788e15c51f" />
+		</dataarea>
+	</part>
+</software>

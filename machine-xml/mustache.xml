@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="mustache" description="Mustache cartridges">
+<software name="mustache01">
+	<description>Mustache Boy (Europe)</description>
+	<year>1987</year>
+	<publisher>Seibu Kaihatsu</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="mustache.h18" offset="0x0" size="0x8000" crc="123bd9b8" sha1="33a7cba5c3a54b0b1a15dd1e24d298b6f7274321" />
+		<rom name="europe.h16" offset="0x8000" size="0x4000" crc="d3e9c06e" sha1="c20f8375e3710effa5705a9d7ce54d03a8e08a83" />
+		</dataarea>
+		<dataarea name="gfx1" size="0xc000">
+		<rom name="mustache.a13" offset="0x0" size="0x4000" crc="9baee4a7" sha1="31bcec838789462e67e54ebe7256db9fc4e51b69" />
+		<rom name="mustache.a14" offset="0x4000" size="0x4000" crc="8155387d" sha1="5f0a394c7671442519a831b0eeeaba4eecd5a406" />
+		<rom name="mustache.a16" offset="0x8000" size="0x4000" crc="4db4448d" sha1="50a94fd65c263d95fd24b4009dbb87707929fdcb" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="mustache.a4" offset="0x0" size="0x8000" crc="d5c3bbbf" sha1="914e3feea54246476701f492c31bd094ad9cea10" />
+		<rom name="mustache.a7" offset="0x8000" size="0x8000" crc="e2a6012d" sha1="4e4cd1a186870c8a88924d5bff917c6889da953d" />
+		<rom name="mustache.a5" offset="0x10000" size="0x8000" crc="c975fb06" sha1="4d166bd79e19c7cae422673de3e095ad8101e013" />
+		<rom name="mustache.a8" offset="0x18000" size="0x8000" crc="2e180ee4" sha1="a5684a25c337aeb4effeda7982164d35bc190af9" />
+		</dataarea>
+		<dataarea name="proms" size="0x1300">
+		<rom name="mustache.c3" offset="0x0" size="0x100" crc="68575300" sha1="bc93a38df91ad8c2f335f9bccc98b52376f9b483" />
+		<rom name="mustache.c2" offset="0x100" size="0x100" crc="eb008d62" sha1="a370fbd1affaa489210ea36eb9e365263fb4e232" />
+		<rom name="mustache.c1" offset="0x200" size="0x100" crc="65da3604" sha1="e4874d4152a57944d4e47306250833ea5cd0d89b" />
+		<rom name="mustache.b6" offset="0x300" size="0x1000" crc="5f83fa35" sha1="cb13e63577762d818e5dcbb52b8a53f66e284e8f" />
+		</dataarea>
+		<dataarea name="t5182_z80" size="0x8000">
+		<rom name="mustache.e5" offset="0x0" size="0x8000" crc="efbb1943" sha1="3320e9eaeb776d09ed63f7dedc79e720674e6718" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

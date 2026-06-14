@@ -1,0 +1,27 @@
+<software name="blazstar">
+	<description>Blazing Star</description>
+	<year>1998</year>
+	<publisher>Yumekobo</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x300000">
+		<rom loadflag="load16_word_swap" name="239-p1.p1" offset="0x0" size="0x100000" crc="183682f8" sha1="dcee1c2cf4a991ca1f9f2b40c4a738f21682807b" />
+		<rom loadflag="load16_word_swap" name="239-p2.sp2" offset="0x100000" size="0x200000" crc="9a9f4154" sha1="f8805453d0995c8fa16cd9accfb7a990071ca630" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="239-c1.c1" offset="0x0" size="0x400000" crc="84f6d584" sha1="ff36db8504611b0d8d942d1e24823ff71e4aeb37" />
+		<rom loadflag="load16_byte" name="239-c2.c2" offset="0x1" size="0x400000" crc="05a0cb22" sha1="4abe03e7f3a86f277131d413a3151c7b9c3646c8" />
+		<rom loadflag="load16_byte" name="239-c3.c3" offset="0x800000" size="0x400000" crc="5fb69c9e" sha1="77b96518d8ad8ad120537e0f8ba65d69d1c33566" />
+		<rom loadflag="load16_byte" name="239-c4.c4" offset="0x800001" size="0x400000" crc="0be028c4" sha1="d3f8b37786ca7838c3525895a7f2b49afc8530d4" />
+		<rom loadflag="load16_byte" name="239-c5.c5" offset="0x1000000" size="0x400000" crc="74bae5f8" sha1="812c9a31f0721c2971a316b084ce69337dbe3747" />
+		<rom loadflag="load16_byte" name="239-c6.c6" offset="0x1000001" size="0x400000" crc="4e0700d2" sha1="cd059fb713c403208923c17e1e8ef02fcfd2fe8d" />
+		<rom loadflag="load16_byte" name="239-c7.c7" offset="0x1800000" size="0x400000" crc="010ff4fd" sha1="2571d406442f007a7458d8ccb0939a9201c9c9bf" />
+		<rom loadflag="load16_byte" name="239-c8.c8" offset="0x1800001" size="0x400000" crc="db60460e" sha1="a5cb27c0983c8b400d96fd0828ef0639a66d4dba" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x800000">
+		<rom name="239-v1.v1" offset="0x0" size="0x400000" crc="1b8d5bf7" sha1="67fc1f7e36e92a89cd1d415eb31a2892f57b0d04" />
+		<rom name="239-v2.v2" offset="0x400000" size="0x400000" crc="74cf0a70" sha1="b00451a2a30de2517ae3eca35eb1fe985b950eb8" />
+		</dataarea>
+	</part>
+</software>

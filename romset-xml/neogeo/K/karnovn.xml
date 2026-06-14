@@ -1,0 +1,18 @@
+<software name="karnovn">
+	<description>Karnov (Neo-Geo port)</description>
+	<year>2025</year>
+	<publisher>iq132</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="506.p1" offset="0x0" size="0x80000" crc="79fd92aa" sha1="4a56a325c32be69a27443776055152a0a436c1eb" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="506.v1" offset="0x0" size="0x200000" crc="51502fea" sha1="cfb2bd316e2b05e8559d662569837c0ca72ff6bc" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="506.c1" offset="0x0" size="0x80000" crc="a27d94ff" sha1="1497a1e2a8b471edca7942201bd3e891f8fdb0b9" />
+		<rom loadflag="load16_byte" name="506.c2" offset="0x1" size="0x80000" crc="b9435703" sha1="a0c309dc1d768c5182876883928588789eb1b372" />
+		</dataarea>
+	</part>
+</software>

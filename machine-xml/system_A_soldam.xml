@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="system_A_soldam" description="System_A_Soldam cartridges">
+<software name="soldam01" cloneof="soldam">
+	<description>Soldam (Sonic Dropping/Free Play)</description>
+	<year>2023</year>
+	<publisher>bankbank</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_byte" name="2ver1j.s01" offset="0x0" size="0x20000" crc="d5b3e6aa" sha1="fd3fbf532ba47f7f42002853a5fad123829306fb" />
+		<rom loadflag="load16_byte" name="1euro.s01" offset="0x1" size="0x20000" crc="fe88cef1" sha1="2f82832795e9db737edfdf27f01f7418472dbcaa" />
+		<rom loadflag="load16_byte" name="3ver1.bin" offset="0x40000" size="0x10000" crc="c5382a07" sha1="5342775f2925772e23bb460e88cd2b7e524e57fa" />
+		<rom loadflag="load16_byte" name="4ver1.bin" offset="0x40001" size="0x10000" crc="1df7816f" sha1="7c069470ec0e884eae5a52581f2be17d9e692105" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom loadflag="load16_byte" name="5ver1.bin" offset="0x0" size="0x10000" crc="d1019a67" sha1="32d77914a67c009bf1bb397772f195594f7cc03f" />
+		<rom loadflag="load16_byte" name="6ver1.bin" offset="0x1" size="0x10000" crc="3ed219b4" sha1="afffa5596027181ae94488d54d6266f8a7ead180" />
+		</dataarea>
+		<dataarea name="sprites" size="0x80000">
+		<rom name="23ver1.bin" offset="0x0" size="0x80000" crc="0ca09432" sha1="c9b12d564032c2a668e18ba95fd71ab540e798ce" />
+		</dataarea>
+		<dataarea name="oki1" size="0x40000">
+		<rom name="10ver1.bin" offset="0x0" size="0x40000" crc="8d5613bf" sha1="eee217dd2ab64d86b7f5eda55a3c331d862c079e" />
+		</dataarea>
+		<dataarea name="oki2" size="0x40000">
+		<rom name="8ver1.bin" offset="0x0" size="0x40000" crc="fcd36019" sha1="f4edb55bd62b697c5a73c461008e764c2f16956b" />
+		</dataarea>
+		<dataarea name="proms" size="0x200">
+		<rom name="pr-91023.14m" offset="0x0" size="0x200" crc="8914e72d" sha1="80a664471f14c8ed8544a5e226fdca425ab3c657" />
+		</dataarea>
+		<dataarea name="scroll0" size="0x80000">
+		<rom name="14ver1.bin" offset="0x0" size="0x80000" crc="73c90610" sha1="044462fd41e8502ba57f814c61db6f0cfb1cc18b" />
+		</dataarea>
+		<dataarea name="scroll1" size="0x80000">
+		<rom name="18ver1.bin" offset="0x0" size="0x80000" crc="e91a1afd" sha1="66a686d61de105ee571fbdabc774ed0b848bf426" />
+		</dataarea>
+		<dataarea name="scroll2" size="0x20000">
+		<rom name="19ver1.bin" offset="0x0" size="0x20000" crc="38465da1" sha1="461fc0d81b711d0646dc366c057da66d4b8c6e23" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

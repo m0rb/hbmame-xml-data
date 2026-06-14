@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="blockhl" description="Blockhl cartridges">
+<software name="quarth01">
+	<description>Quarth (Cooperative, 2023-02-04)</description>
+	<year>2023</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="quarth01.e21" offset="0x0" size="0x10000" crc="e67357b9" sha1="1c4a16a3db5e441604414ae4755cf9ef95139d95" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x8000">
+		<rom name="973d01.g6" offset="0x0" size="0x8000" crc="eeee9d92" sha1="6c6c324b1f6f4fba0aa12e0d1fc5dbab133ef669" />
+		</dataarea>
+		<dataarea name="k051960" size="0x20000">
+		<rom loadflag="load32_byte" name="973e06.k12" offset="0x0" size="0x8000" crc="0d58af85" sha1="2efd661d614fb305a14cfe1aa4fb17714f215d4f" />
+		<rom loadflag="load32_byte" name="973e05.k9" offset="0x1" size="0x8000" crc="15d822cb" sha1="70ecad5e0a461df0da6e6eb23f43a7b643297f0d" />
+		<rom loadflag="load32_byte" name="973e04.k7" offset="0x2" size="0x8000" crc="d70f4a2c" sha1="25f835a17bacf2b8debb2eb8a3cff90cab3f402a" />
+		<rom loadflag="load32_byte" name="973e03.k4" offset="0x3" size="0x8000" crc="2c5a4b4b" sha1="e2991dd78b9cd96cf93ebd6de0d4e060d346ab9c" />
+		</dataarea>
+		<dataarea name="k052109" size="0x20000">
+		<rom loadflag="load32_byte" name="973e07.k15" offset="0x0" size="0x8000" crc="0bd6b0f8" sha1="6c59cf637354fe2df424eaa89feb9c1bc1f66a92" />
+		<rom loadflag="load32_byte" name="973e08.k18" offset="0x1" size="0x8000" crc="104d0d5f" sha1="595698911513113d01e5b565f5b073d1bd033d3f" />
+		<rom loadflag="load32_byte" name="973e09.k20" offset="0x2" size="0x8000" crc="bd3a6f24" sha1="eb45db3a6a52bb2b25df8c2dace877e59b4130a6" />
+		<rom loadflag="load32_byte" name="973e10.k23" offset="0x3" size="0x8000" crc="cf5e4b86" sha1="43348753894c1763b26dbfc70245dac92048db8f" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

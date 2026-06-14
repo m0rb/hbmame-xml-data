@@ -1,0 +1,42 @@
+<software name="umk3uc20180606" cloneof="umk3">
+	<description>Ultimate Mortal Kombat 3 (Ultimate Cup Edition, 2018-06-06)</description>
+	<year>2018</year>
+	<publisher>TEAM UMK 3</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="uc20180606.u54" offset="0x0" size="0x80000" crc="6635ef41" sha1="817b217edb0e2f2198c3579eaaca34708eb01a22" />
+		<rom loadflag="load16_byte" name="uc20180606.u63" offset="0x1" size="0x80000" crc="6c8ad254" sha1="6dd4957613fc12fd1a411ccb9425a3a3ad600b25" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0x800000">
+		<rom loadflag="load16_byte" name="l2.0_mortal_kombat_3_u2_ultimate.u2" offset="0x0" size="0x100000" crc="3838cfe5" sha1="e3d2901f3bae1362742fc6ee0aa31c9f63b4dfa3" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_3_u3_music_spch.u3" offset="0x200000" size="0x100000" crc="856fe411" sha1="6165ebecfce7500e948d84492ffa19eed7f47091" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_3_u4_music_spch.u4" offset="0x400000" size="0x100000" crc="428a406f" sha1="e70ec83cd054de0da1e178720ed0035b8887f797" />
+		<rom loadflag="load16_byte" name="l1_mortal_kombat_3_u5_music_spch.u5" offset="0x600000" size="0x100000" crc="3b98a09f" sha1="edf1d02a56dcf3349e6b4bb4097acfe7592305f4" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0x2000000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u133_game_rom.u133" offset="0x0" size="0x100000" crc="79b94667" sha1="31bba640c351fdccc6685cadb74dd79a3f910ce8" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u132_game_rom.u132" offset="0x1" size="0x100000" crc="13e95228" sha1="405b05f5a5a55667c2be17d4b399129bdacefd90" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u131_game_rom.u131" offset="0x2" size="0x100000" crc="41001e30" sha1="2cec91116771951c0380cec5debf4cbb40c14c61" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u130_game_rom.u130" offset="0x3" size="0x100000" crc="49379dd7" sha1="e6dfab4e23d9cc38ae56c1bbf10ccd160e8fad5e" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u129_game_rom.u129" offset="0x400000" size="0x100000" crc="a8b41803" sha1="9697e35e8bb51d6d36b1d7ae47377b446e57682f" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u128_game_rom.u128" offset="0x400001" size="0x100000" crc="b410d72f" sha1="ac5c1c6f744186540f4ab100d9bd4ce6007e600b" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u127_game_rom.u127" offset="0x400002" size="0x100000" crc="bd985be7" sha1="f5183abea2e5eb2c2c8cefa72c9ed321679f5128" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_3_u126_game_rom.u126" offset="0x400003" size="0x100000" crc="e7c32cf4" sha1="94ea7b2eed7dae66f5dd676c20d6b360140e3e0e" />
+		<rom loadflag="load32_byte" name="uc20180606.u125" offset="0x800000" size="0x100000" crc="40265842" sha1="786c5e588ce8630df0e8e47df57cf559f35389e1" />
+		<rom loadflag="load32_byte" name="uc20180606.u124" offset="0x800001" size="0x100000" crc="14d6396b" sha1="42e711b3f56aa44291a01f0ce09272809616fe05" />
+		<rom loadflag="load32_byte" name="uc20180606.u123" offset="0x800002" size="0x100000" crc="e85ff3c9" sha1="b383d32ed69d5aaa4d2209137176c89b8e595d10" />
+		<rom loadflag="load32_byte" name="uc20180606.u122" offset="0x800003" size="0x100000" crc="147442ca" sha1="e6944dbca7ac68527bffce96925123662e97c0eb" />
+		<rom loadflag="load32_byte" name="uc20180606.u121" offset="0xc00000" size="0x100000" crc="0ece62c7" sha1="7425044eb674b49100f5573516f922f39c8f2a5a" />
+		<rom loadflag="load32_byte" name="uc20180606.u120" offset="0xc00001" size="0x100000" crc="4493fab7" sha1="fd06abdd0890fafe2fda3375270c2e93b9d16b35" />
+		<rom loadflag="load32_byte" name="uc20180606.u119" offset="0xc00002" size="0x100000" crc="12e5eca7" sha1="ca0ec32ec031bee1749d9da28972a3e71ffb9379" />
+		<rom loadflag="load32_byte" name="uc20180606.u118" offset="0xc00003" size="0x100000" crc="df045952" sha1="2cb38be0df9a4606787210297af2d3817f052be6" />
+		<rom loadflag="load32_byte" name="uc20180606.u113" offset="0x1400000" size="0x100000" crc="05e99a23" sha1="00dac0a4b530cac8cca0f16dc0dee9ee033af81b" />
+		<rom loadflag="load32_byte" name="uc20180606.u112" offset="0x1400001" size="0x100000" crc="2fb117c4" sha1="da9e0f090eb71296eb54421a470a6fee55089517" />
+		<rom loadflag="load32_byte" name="uc20180606.u111" offset="0x1400002" size="0x100000" crc="dcbd36ac" sha1="06eb8050da6c21c26775e6b2e64910ea1d0bc922" />
+		<rom loadflag="load32_byte" name="uc20180606.u110" offset="0x1400003" size="0x100000" crc="5d0ab7f4" sha1="410063c62d0703054d9f4c0fd665abb9c9161a11" />
+		</dataarea>
+		<dataarea name="serial_security:pic" size="0x1009">
+		<rom name="463_mk3_ultimate.u64" offset="0x0" size="0x1009" crc="4f425218" sha1="7f26045ed2c9ca94fadcb673ce10f28208aa720e" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,29 @@
+<software name="kof97oro" cloneof="kof97">
+	<description>The King of Fighters &#x27;97 Chongchu Jianghu Plus 2003 (bootleg)</description>
+	<year>1997</year>
+	<publisher>bootleg</publisher>
+	<info name="source" value="kof97oro" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="orochi-p1.bin" offset="0x0" size="0x100000" crc="6dcb2946" sha1="3ccb3fdf3d32a75c7fcfefff5db1f3c75054731f" />
+		<rom loadflag="load16_word_swap" name="orochi-p21.bin" offset="0x200000" size="0x100000" crc="6e1c4d8c" sha1="f514638a599a8a582c5f4df72f6a957bab776b7e" />
+		<rom loadflag="continue" offset="0x100000" size="0x100000" />
+		<rom loadflag="load16_word_swap" name="orochi-p29.bin" offset="0x400000" size="0x100000" crc="4c7c0221" sha1="fdd05927743cb12210b74768155bb3f59bff01b5" />
+		<rom loadflag="continue" offset="0x300000" size="0x100000" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="orochi-c1.bin" offset="0x0" size="0x1000000" crc="f13e841c" sha1="e24b3fb5f7e1c1f4752cad382c264f5f93e737a0" />
+		<rom loadflag="load16_byte" name="orochi-c2.bin" offset="0x1" size="0x1000000" crc="2db1f6d3" sha1="13d957c04bd69f0db140e4633c39db4a9e44eab8" />
+		<rom loadflag="load16_byte" name="orochi-c51.bin" offset="0x2000000" size="0x200000" crc="a90340cb" sha1="97eaa89f0e860e2c591ca3a995fd910d8116347d" />
+		<rom loadflag="load16_byte" name="orochi-c61.bin" offset="0x2000001" size="0x200000" crc="188e351a" sha1="ab724250bc07ace0873fc825b798ace934260988" />
+		<rom loadflag="load16_byte" name="orochi-c52.bin" offset="0x2400000" size="0x200000" crc="d4eec50a" sha1="0930cce5346fbbd5c1524f9148d0577cbe634420" />
+		<rom loadflag="load16_byte" name="orochi-c62.bin" offset="0x2400001" size="0x200000" crc="031b1ad5" sha1="d47b3452953b553348be0a55473b863ce2872f6e" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0xc00000">
+		<rom name="orochi-v1.bin" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="orochi-v2.bin" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="orochi-v3.bin" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,35 @@
+<software name="bombjred">
+	<description>Bomb Jack (Red)</description>
+	<year>2008</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="09_j01b.bin" offset="0x0" size="0x2000" crc="c668dc30" sha1="51dd6a2688b42e9f28f0882bd76f75be7ec3222a" />
+		<rom name="10_l01b.bin" offset="0x2000" size="0x2000" crc="52a1e5fb" sha1="e1cdc4b4efbc6c7a1e4fa65019486617f2acba1b" />
+		<rom name="11_m01b.bin" offset="0x4000" size="0x2000" crc="b68a062a" sha1="43bae56494ac0202aaa8f1ed5c1ed1bff775b2b8" />
+		<rom name="12_n01b.bin" offset="0x6000" size="0x2000" crc="1d3ecee5" sha1="8b3c49e21ea4952cae7042890d1be2115f7d6fda" />
+		<rom name="13.1r" offset="0xc000" size="0x2000" crc="70e0244d" sha1="67654155e42821ea78a655f869fb81c8d6387f63" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="01_h03t.bin" offset="0x0" size="0x2000" crc="8407917d" sha1="318face9f7a7ab6c7eeac773995040425e780aaf" />
+		</dataarea>
+		<dataarea name="sprites" size="0x6000">
+		<rom name="bombjred.16" offset="0x0" size="0x2000" crc="bdabd682" sha1="3caf238295ba4d033d50b8e2a51e6c2bd0ad6bde" />
+		<rom name="bombjred.15" offset="0x2000" size="0x2000" crc="a213f039" sha1="67e247c4d3fe2b4791d3c5de9bb242c21f31c84d" />
+		<rom name="bombjred.14" offset="0x4000" size="0x2000" crc="498513fe" sha1="81851994da287982a67a4e47231404f534b6b9df" />
+		</dataarea>
+		<dataarea name="chars" size="0x3000">
+		<rom name="bombjred.03" offset="0x0" size="0x1000" crc="8732fa2b" sha1="e9919bd812a44d6edaf7a08e6cb857cdee2af057" />
+		<rom name="bombjred.04" offset="0x1000" size="0x1000" crc="dc392a25" sha1="8ace01ef128b92ff04d668fdd3c2be9cb9a25e4d" />
+		<rom name="bombjred.05" offset="0x2000" size="0x1000" crc="ad9d7a8c" sha1="8ae81bf891544c825115925b38a53c89c1ca2f65" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x1000">
+		<rom name="02_p04t.bin" offset="0x0" size="0x1000" crc="398d4a02" sha1="ac18a8219f99ba9178b96c9564de3978e39c59fd" />
+		</dataarea>
+		<dataarea name="tiles" size="0x6000">
+		<rom name="06_l08t.bin" offset="0x0" size="0x2000" crc="51eebd89" sha1="515128a3971fcb97b60c5b6bdd2b03026aec1921" />
+		<rom name="07_n08t.bin" offset="0x2000" size="0x2000" crc="9dd98e9d" sha1="6db6006a6e20ff7c243d88293ca53681c4703ea5" />
+		<rom name="08_r08t.bin" offset="0x4000" size="0x2000" crc="3155ee7d" sha1="e7897dca4c145f10b7d975b8ef0e4d8aa9354c25" />
+		</dataarea>
+	</part>
+</software>

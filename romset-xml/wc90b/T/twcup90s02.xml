@@ -1,0 +1,51 @@
+<software name="twcup90s02" cloneof="twcup90">
+	<description>Worldcup &#x27;90 (Hack, set 3)(Bootleg)</description>
+	<year>1989</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x20000">
+		<rom name="a02" offset="0x0" size="0x10000" crc="1e6e94c9" sha1="1731e3e3b5d17ba676a7e42638d7206212a0080d" />
+		<rom name="a03.bin" offset="0x10000" size="0x10000" crc="f54ff17a" sha1="a19850fc28a5a0da20795a5cc6b56d9c16554bce" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="a01_ps02.bin" offset="0x0" size="0x10000" crc="521e1b1c" sha1="2524e72fa7e79ddf0c6716e4287f1373ac2a2100" />
+		</dataarea>
+		<dataarea name="chargfx" size="0x10000">
+		<rom name="a06" offset="0x0" size="0x4000" crc="0c054481" sha1="eebab099a4db5fbf13522ecd67bfa741e16e40d4" />
+		<rom loadflag="continue" offset="0x0" size="0x4000" />
+		<rom name="a08" offset="0x4000" size="0x4000" crc="ebb3eb48" sha1="9cb133e02004bc04a9d7016b8cf5f6865e3ccf26" />
+		<rom loadflag="continue" offset="0x4000" size="0x4000" />
+		<rom name="a10" offset="0x8000" size="0x4000" crc="c0232af8" sha1="5bbab00403a47feae153e179c04212021036b8a7" />
+		<rom loadflag="continue" offset="0x8000" size="0x4000" />
+		<rom name="a20" offset="0xc000" size="0x4000" crc="a36e17fb" sha1="45e4df4b4a22658f6dad21853e87fae734698fbd" />
+		<rom loadflag="continue" offset="0xc000" size="0x4000" />
+		</dataarea>
+		<dataarea name="plds" size="0x1000">
+		<rom name="el_ic39_gal16v8_0.bin" offset="0x0" size="0x117" sha1="894b345b395097acf6cf52ab8bc922099f97a85f" />
+		<rom name="el_ic44_gal16v8_1.bin" offset="0x200" size="0x117" sha1="fd41f55d857995fe87217dd9679c42760c241dc4" />
+		<rom name="el_ic54_gal16v8_2.bin" offset="0x400" size="0x117" sha1="f6d138fe42549219e11ee8524b05fe3c2b43f5d3" />
+		<rom name="el_ic100_gal16v8_3.bin" offset="0x600" size="0x117" sha1="515fcdf378e75ed078f54439fefce8807403bdd5" />
+		<rom name="el_ic143_gal16v8_4.bin" offset="0x800" size="0x117" sha1="fbe632437eac2418da7a3c3e947cfd36f6211407" />
+		</dataarea>
+		<dataarea name="spritegfx" size="0x80000">
+		<rom name="152_a18.bin" offset="0x0" size="0x10000" crc="516b6c09" sha1="9d02514dece864b087f67886009ce54bd51b5575" />
+		<rom name="153_a19" offset="0x10000" size="0x10000" crc="8caa2745" sha1="41efb92c98e063f5ed5fb0e68fa014f89da00cda" />
+		<rom name="150_a16.bin" offset="0x20000" size="0x10000" crc="0da825f9" sha1="cfba0c85fc767726c1d63f87468335d1c2f1eed8" />
+		<rom name="151_a17" offset="0x30000" size="0x10000" crc="af98778e" sha1="5bbce33a4cec5a234ed78e30899a4a166d71447a" />
+		<rom name="148_a14.bin" offset="0x40000" size="0x10000" crc="26371c18" sha1="0887041d86dc9f19dad264ae27dc56fb89ac3265" />
+		<rom name="149_a15" offset="0x50000" size="0x10000" crc="b2423962" sha1="098bc06411cf3f9c7cf69933eba360fd059b5d3f" />
+		<rom name="146_a12.bin" offset="0x60000" size="0x10000" crc="d5a60096" sha1="a8e351a4b020b4fc2b2cb7d3f0fdfb43fc44d7d9" />
+		<rom name="147_a13" offset="0x70000" size="0x10000" crc="5b16fd48" sha1="b167d6a7da0c696cde39581822fc61d20756321c" />
+		</dataarea>
+		<dataarea name="sub" size="0x20000">
+		<rom name="a04.bin" offset="0x0" size="0x10000" crc="3d535e2f" sha1="f1e1878b5a8316e770c74a1e1f29a7a81a4e5dfe" />
+		<rom name="a05.bin" offset="0x10000" size="0x10000" crc="9e421c4b" sha1="e23a1f1d5d1e960696f45df653869712eb889839" />
+		</dataarea>
+		<dataarea name="tilegfx" size="0x80000">
+		<rom name="a07.bin" offset="0x0" size="0x20000" crc="38c31817" sha1="cb24ed8702d62066366924c033c07ffc78bd1fad" />
+		<rom name="a09.bin" offset="0x20000" size="0x20000" crc="32e39e29" sha1="44f22ed6c983541c7fea5857ba0456aaa87b36d1" />
+		<rom name="a11.bin" offset="0x40000" size="0x20000" crc="5ccec796" sha1="2cc191a4267819eb31962726e2ed4567c825c39e" />
+		<rom name="a21.bin" offset="0x60000" size="0x20000" crc="0c54a091" sha1="3eecb285b5a7bbc310c87492516d7ffb2841aa3b" />
+		</dataarea>
+	</part>
+</software>

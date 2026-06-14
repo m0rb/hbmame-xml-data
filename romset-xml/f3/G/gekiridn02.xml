@@ -1,0 +1,33 @@
+<software name="gekiridn02" cloneof="gekiridn">
+	<description>Gekirindan (Chinese)</description>
+	<year>1995</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="e11-12c.bin" offset="0x0" size="0x40000" crc="448308ce" sha1="22eac25158bd3a0349aa4f1f041473b93030ee43" />
+		<rom loadflag="load32_byte" name="e11-11c.bin" offset="0x1" size="0x40000" crc="8ae457c4" sha1="f1d74d99c916df90a74be0ff80b05b0f31284306" />
+		<rom loadflag="load32_byte" name="e11-10c.bin" offset="0x2" size="0x40000" crc="b1ff4529" sha1="9e8366d9d90ad4155aab3828523daff09e3d400d" />
+		<rom loadflag="load32_byte" name="e11-09c.bin" offset="0x3" size="0x40000" crc="24d884ff" sha1="35ddb21608c781a0674a4244c8e5c0aa6dc220eb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="e11-03c.bin" offset="0x0" size="0x200000" crc="2b0dab58" sha1="7c70a2104fbbfde32fa006bfafe30c3d9708cb10" />
+		<rom loadflag="load16_byte" name="e11-02c.bin" offset="0x1" size="0x200000" crc="a2c4fa4f" sha1="2ad73ce8431f1199dd32df83352dc4f85345529f" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x200000">
+		<rom name="e11-01c.bin" offset="0x0" size="0x200000" crc="e19874b3" sha1="a8d6806133977a7decefafff5d7b249803add70b" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x140000">
+		<rom loadflag="load16_byte" name="e11-13.bin" offset="0x100000" size="0x20000" crc="51a11ff7" sha1="c03042489d71423667f25856d15aa6a363ea6c92" />
+		<rom loadflag="load16_byte" name="e11-14.bin" offset="0x100001" size="0x20000" crc="dce2ba91" sha1="00bc353c7747a7954365b587d7bc759ee5dc09c2" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="e11-04.ic38" offset="0x0" size="0x200000" crc="e0ff4fb1" sha1="81e186e3a692af1da316b8085a729c4f103d9a52" />
+		<rom loadflag="load16_byte" name="e11-05.ic41" offset="0x400000" size="0x200000" crc="a4d08cf1" sha1="ae2cabef7b7bcb8a788988c73d7af6fa4bb2c444" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x400000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x200000">
+		<rom name="e11-06c.bin" offset="0x0" size="0x200000" crc="0acc71d3" sha1="455c70ec8f1087189170160d5683545bbea1fe9a" />
+		</dataarea>
+	</part>
+</software>

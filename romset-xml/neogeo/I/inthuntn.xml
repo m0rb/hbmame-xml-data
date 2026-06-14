@@ -1,0 +1,20 @@
+<software name="inthuntn">
+	<description>In the Hunt demo (2025-05-18)</description>
+	<year>2025</year>
+	<publisher>Balek Corp / Neo Byte Force</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="512.p1" offset="0x0" size="0x100000" crc="58e3317a" sha1="437dd2321f1bc8f5013daebe6399d25b02bd0fe9" />
+		<rom loadflag="load16_word_swap" name="512.p2" offset="0x100000" size="0x100000" crc="c6494f12" sha1="3842c99dd0ad5443228f9db39c6f1e5a063e595b" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="512.v1" offset="0x0" size="0x800000" crc="eb947c63" sha1="acb360fed600fb8143c41ca5389c8f7263d3915b" />
+		<rom name="505.v2" offset="0x800000" size="0x800000" crc="79156c41" sha1="8f8835139390c021b201384c304d235300b47af7" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="512.c1" offset="0x0" size="0x1000000" crc="1b32eaf5" sha1="9d17ae76d8d67dbd34c209cd1c2a0036786b0924" />
+		<rom loadflag="load16_byte" name="512.c2" offset="0x1" size="0x1000000" crc="87b8def8" sha1="d27685fc28d5745a75ac7337c5765325c56f5d70" />
+		</dataarea>
+	</part>
+</software>

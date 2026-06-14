@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="exerion" description="Exerion cartridges">
+<software name="exeriongr">
+	<description>Exerion (Greek)</description>
+	<year>2004</year>
+	<publisher>GreekRoms</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="exriongr.07" offset="0x0" size="0x2000" crc="0ade934a" sha1="a949aa66f27876ca439b799a9918841f7d8d3115" />
+		<rom name="exriongr.08" offset="0x2000" size="0x2000" crc="a469f93e" sha1="7e800e4c0dce2b9c9525dc1667ca13f1b2844d9b" />
+		<rom name="exriongr.09" offset="0x4000" size="0x2000" crc="f0a8d5db" sha1="df0f18ebef27a70ef420903a02ec5ce3c43d1d8b" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000">
+		<rom name="exerion.11" offset="0x0" size="0x2000" crc="f0633a09" sha1="8989bcb12abadde34777f7c189cfa6e2dfe92d62" />
+		<rom name="exerion.10" offset="0x2000" size="0x2000" crc="80312de0" sha1="4fa3bb9d5c62e41a54e8909f8d3b47637137e913" />
+		</dataarea>
+		<dataarea name="bg_char_mixer_prom" size="0x100">
+		<rom name="exerion.k4" offset="0x0" size="0x100" crc="ffc2ba43" sha1="03be1c41d6ac3fc11439caef04ef5ffa60d6aec4" />
+		</dataarea>
+		<dataarea name="bgdata" size="0x8000">
+		<rom name="exerion.03" offset="0x0" size="0x2000" crc="790595b8" sha1="8016ac2394b25db38e962bcff4805380082f6683" />
+		<rom name="exerion.04" offset="0x2000" size="0x2000" crc="d7abd0b9" sha1="ca6413ecd324cf84e11b703a4eda2c1e6d28ff15" />
+		<rom name="exriongr.01" offset="0x4000" size="0x2000" crc="b18009ea" sha1="6a7abbe60e493a125b5d0e4d7f114b15758e4c6e" />
+		<rom name="exerion.02" offset="0x6000" size="0x2000" crc="a7ecbb70" sha1="3c359d5bb21290a45d3eb18fea2b1f9439b931be" />
+		</dataarea>
+		<dataarea name="fgchars" size="0x2000">
+		<rom name="exriongr.06" offset="0x0" size="0x2000" crc="e18dc7c6" sha1="1ec9bb9aa1552e4d7dbe16435f98209813590211" />
+		</dataarea>
+		<dataarea name="proms" size="0x320">
+		<rom name="exerion.e1" offset="0x0" size="0x20" crc="2befcc20" sha1="a24d3f691413378fde545a6ddcef7e5118e74019" />
+		<rom name="exerion.i8" offset="0x20" size="0x100" crc="31db0e08" sha1="1041a778e86d3fe6f057cf40a0a08b30760f3887" />
+		<rom name="exerion.h10" offset="0x120" size="0x100" crc="63b4c555" sha1="30243041be4fa77ada71e8b29d721cad51640c29" />
+		<rom name="exerion.i3" offset="0x220" size="0x100" crc="fe72ab79" sha1="048a72e6db4768df687df927acaa70ef906b3dc0" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="exerion.05" offset="0x0" size="0x2000" crc="32f6bff5" sha1="a4d0289f9d1d9eea7ca9a32a0616af48da74b401" />
+		</dataarea>
+	</part>
+</software>
+<software name="exerionj">
+	<description>Exerion (Japan)</description>
+	<year>1983</year>
+	<publisher>Jaleco</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="exerion.07" offset="0x0" size="0x2000" crc="4c78d57d" sha1="ac702e9ad2bc05493fb1355858667c31c36acfe4" />
+		<rom name="exerion.08" offset="0x2000" size="0x2000" crc="dcadc1df" sha1="91388f617cfaa4289ca1c84c697fcfdd8834ae15" />
+		<rom name="exerion.09" offset="0x4000" size="0x2000" crc="34cc4d14" sha1="511c9de038f7bcaf6f7c96f2cbbe50a80673fa72" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000">
+		<rom name="exerion.11" offset="0x0" size="0x2000" crc="f0633a09" sha1="8989bcb12abadde34777f7c189cfa6e2dfe92d62" />
+		<rom name="exerion.10" offset="0x2000" size="0x2000" crc="80312de0" sha1="4fa3bb9d5c62e41a54e8909f8d3b47637137e913" />
+		</dataarea>
+		<dataarea name="bg_char_mixer_prom" size="0x100">
+		<rom name="exerion.k4" offset="0x0" size="0x100" crc="ffc2ba43" sha1="03be1c41d6ac3fc11439caef04ef5ffa60d6aec4" />
+		</dataarea>
+		<dataarea name="bgdata" size="0x8000">
+		<rom name="exerion.03" offset="0x0" size="0x2000" crc="790595b8" sha1="8016ac2394b25db38e962bcff4805380082f6683" />
+		<rom name="exerion.04" offset="0x2000" size="0x2000" crc="d7abd0b9" sha1="ca6413ecd324cf84e11b703a4eda2c1e6d28ff15" />
+		<rom name="exerion.01" offset="0x4000" size="0x2000" crc="5bb755cb" sha1="ec92c518c116a78dbb23381468cefb3f930212cc" />
+		<rom name="exerion.02" offset="0x6000" size="0x2000" crc="a7ecbb70" sha1="3c359d5bb21290a45d3eb18fea2b1f9439b931be" />
+		</dataarea>
+		<dataarea name="fgchars" size="0x2000">
+		<rom name="exerion.06" offset="0x0" size="0x2000" crc="435a85a4" sha1="f6846bfee11df754405d4d796e7d8ac0321b6eb6" />
+		</dataarea>
+		<dataarea name="proms" size="0x320">
+		<rom name="exerionj.e1" offset="0x0" size="0x20" crc="60cec362" sha1="2422e894e2def2ab31f4b6c14fabbe443bd495e6" />
+		<rom name="exerion.i8" offset="0x20" size="0x100" crc="31db0e08" sha1="1041a778e86d3fe6f057cf40a0a08b30760f3887" />
+		<rom name="exerion.h10" offset="0x120" size="0x100" crc="63b4c555" sha1="30243041be4fa77ada71e8b29d721cad51640c29" />
+		<rom name="exerion.i3" offset="0x220" size="0x100" crc="fe72ab79" sha1="048a72e6db4768df687df927acaa70ef906b3dc0" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="exerion.05" offset="0x0" size="0x2000" crc="32f6bff5" sha1="a4d0289f9d1d9eea7ca9a32a0616af48da74b401" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

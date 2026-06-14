@@ -1,0 +1,643 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="galaga" description="Galaga cartridges">
+<software name="galaga01">
+	<description>Galaga Wave Mixer (2024-04-02)</description>
+	<year>2024</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="01_1b.3p" offset="0x0" size="0x1000" crc="d7dffd9c" sha1="2c7090b0f45647c8b1b97bf2fbc140063b46f6e8" />
+		<rom name="01_2b.3m" offset="0x1000" size="0x1000" crc="ab7cbd28" sha1="c7cca7d01c720511588125b52b1c6a527747a3f5" />
+		<rom name="01_3.2m" offset="0x2000" size="0x1000" crc="75bcd999" sha1="cfb6137545665f48afa1f7db3433199f9b3b5fb8" />
+		<rom name="01_4b.2l" offset="0x3000" size="0x1000" crc="114f2ae5" sha1="80f3273908aa485d7397a7b86d7cf05bcac8286c" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="gg1_9.4l" offset="0x0" size="0x1000" crc="58b2f47c" sha1="62f1279a784ab2f8218c4137c7accda00e6a3490" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="gg1_11.4d" offset="0x0" size="0x1000" crc="ad447c80" sha1="e697c180178cabd1d32483c5d8889a40633f7857" />
+		<rom name="gg1_10.4f" offset="0x1000" size="0x1000" crc="dd6f1afc" sha1="c340ed8c25e0979629a9a1730edc762bd72d0cff" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="prom-1.1d" offset="0x0" size="0x100" crc="7a2815b4" sha1="085ada18c498fdb18ecedef0ea8fe9217edb7b46" />
+		<rom name="prom-2.5c" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="prom-4.2n" offset="0x20" size="0x100" crc="59b6edab" sha1="0281de86c236c88739297ff712e0a4f5c8bf8ab9" />
+		<rom name="prom-3.1c" offset="0x120" size="0x100" crc="4a04bb6b" sha1="cdd4bc1013f5c11984fdc4fd10e2d2e27120c1e5" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="gg1_5b.3f" offset="0x0" size="0x1000" crc="bb5caae3" sha1="e957a581463caac27bc37ca2e2a90f27e4f62b6f" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="gg1_7b.2c" offset="0x0" size="0x1000" crc="d016686b" sha1="44c1a04fba3c7c826ff484185cb881b4b22e6657" />
+		</dataarea>
+	</part>
+</software>
+<software name="galaga02">
+	<description>Galaga Challenging Only</description>
+	<year>2024</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="02_1b.3p" offset="0x0" size="0x1000" crc="b6f16ca7" sha1="69c98eb9e4ecb268e9a20cc3a566b6b83a5b9d3d" />
+		<rom name="02_2b.3m" offset="0x1000" size="0x1000" crc="e0faff40" sha1="98c28fadfc8098acef6781ed399de6f7ae8582f1" />
+		<rom name="gg1_3.2m" offset="0x2000" size="0x1000" crc="753ce503" sha1="481f443aea3ed3504ec2f3a6bfcf3cd47e2f8f81" />
+		<rom name="02_4b.2l" offset="0x3000" size="0x1000" crc="16f469ef" sha1="ab493ab138df2bce42eb951032ed704dd8755897" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="gg1_9.4l" offset="0x0" size="0x1000" crc="58b2f47c" sha1="62f1279a784ab2f8218c4137c7accda00e6a3490" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="gg1_11.4d" offset="0x0" size="0x1000" crc="ad447c80" sha1="e697c180178cabd1d32483c5d8889a40633f7857" />
+		<rom name="gg1_10.4f" offset="0x1000" size="0x1000" crc="dd6f1afc" sha1="c340ed8c25e0979629a9a1730edc762bd72d0cff" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="prom-1.1d" offset="0x0" size="0x100" crc="7a2815b4" sha1="085ada18c498fdb18ecedef0ea8fe9217edb7b46" />
+		<rom name="prom-2.5c" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="prom-4.2n" offset="0x20" size="0x100" crc="59b6edab" sha1="0281de86c236c88739297ff712e0a4f5c8bf8ab9" />
+		<rom name="prom-3.1c" offset="0x120" size="0x100" crc="4a04bb6b" sha1="cdd4bc1013f5c11984fdc4fd10e2d2e27120c1e5" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="gg1_5b.3f" offset="0x0" size="0x1000" crc="bb5caae3" sha1="e957a581463caac27bc37ca2e2a90f27e4f62b6f" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="gg1_7b.2c" offset="0x0" size="0x1000" crc="d016686b" sha1="44c1a04fba3c7c826ff484185cb881b4b22e6657" />
+		</dataarea>
+	</part>
+</software>
+<software name="galaga03">
+	<description>Galaga Challenging Only (2024-03-26)</description>
+	<year>2024</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="03_1b.3p" offset="0x0" size="0x1000" crc="35768124" sha1="41f3bf262eae71e0ca7f0cbf459565d2d6c2b5ec" />
+		<rom name="03_2b.3m" offset="0x1000" size="0x1000" crc="873b6c48" sha1="ce67e08d3249f4dd27a1e70625ea2262dfc41c1a" />
+		<rom name="gg1_3.2m" offset="0x2000" size="0x1000" crc="753ce503" sha1="481f443aea3ed3504ec2f3a6bfcf3cd47e2f8f81" />
+		<rom name="02_4b.2l" offset="0x3000" size="0x1000" crc="16f469ef" sha1="ab493ab138df2bce42eb951032ed704dd8755897" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="gg1_9.4l" offset="0x0" size="0x1000" crc="58b2f47c" sha1="62f1279a784ab2f8218c4137c7accda00e6a3490" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="gg1_11.4d" offset="0x0" size="0x1000" crc="ad447c80" sha1="e697c180178cabd1d32483c5d8889a40633f7857" />
+		<rom name="gg1_10.4f" offset="0x1000" size="0x1000" crc="dd6f1afc" sha1="c340ed8c25e0979629a9a1730edc762bd72d0cff" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="prom-1.1d" offset="0x0" size="0x100" crc="7a2815b4" sha1="085ada18c498fdb18ecedef0ea8fe9217edb7b46" />
+		<rom name="prom-2.5c" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="prom-4.2n" offset="0x20" size="0x100" crc="59b6edab" sha1="0281de86c236c88739297ff712e0a4f5c8bf8ab9" />
+		<rom name="prom-3.1c" offset="0x120" size="0x100" crc="4a04bb6b" sha1="cdd4bc1013f5c11984fdc4fd10e2d2e27120c1e5" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="gg1_5b.3f" offset="0x0" size="0x1000" crc="bb5caae3" sha1="e957a581463caac27bc37ca2e2a90f27e4f62b6f" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="gg1_7b.2c" offset="0x0" size="0x1000" crc="d016686b" sha1="44c1a04fba3c7c826ff484185cb881b4b22e6657" />
+		</dataarea>
+	</part>
+</software>
+<software name="galaga84">
+	<description>Galaga &#x27;84</description>
+	<year>1984</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="gg1_1b.3p" offset="0x0" size="0x1000" crc="ab036c9f" sha1="ca7f5da42d4e76fd89bb0b35198a23c01462fbfe" />
+		<rom name="gal84_u2" offset="0x1000" size="0x1000" crc="4d832a30" sha1="88ee11df88cf08005efccd6305f87fb3e2797db6" />
+		<rom name="gg1_3.2m" offset="0x2000" size="0x1000" crc="753ce503" sha1="481f443aea3ed3504ec2f3a6bfcf3cd47e2f8f81" />
+		<rom name="gg1_4b.2l" offset="0x3000" size="0x1000" crc="499fcc76" sha1="ddb8b121903646c320939c7d13f4aa4ebb130378" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="gg1_9.4l" offset="0x0" size="0x1000" crc="58b2f47c" sha1="62f1279a784ab2f8218c4137c7accda00e6a3490" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="gal84u4d" offset="0x0" size="0x1000" crc="22e339d5" sha1="9ac2887ede802d28daa4ad0a0a54bcf7b1155a2e" />
+		<rom name="gal84u4e" offset="0x1000" size="0x1000" crc="60dcf940" sha1="6530aa5b4afef4a8422ece76a93d0c5b1d93355e" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="1d.bin" offset="0x0" size="0x100" crc="86d92b24" sha1="6bef9102b97c83025a2cf84e89d95f2d44c3d2ed" />
+		</dataarea>
+		<dataarea name="proms" size="0x320">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="2n.bin" offset="0x20" size="0x100" crc="a547d33b" sha1="7323084320bb61ae1530d916f5edd8835d4d2461" />
+		<rom name="1c.bin" offset="0x120" size="0x100" crc="b6f585fb" sha1="dd10147c4f05fede7ae6e7a760681700a660e87e" />
+		<rom name="5c.bin" offset="0x220" size="0x100" crc="8bd565f6" sha1="bedba65816abfc2ebeacac6ee335ca6f136e3e3d" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="gg1_5b.3f" offset="0x0" size="0x1000" crc="bb5caae3" sha1="e957a581463caac27bc37ca2e2a90f27e4f62b6f" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="gg1-7" offset="0x0" size="0x1000" crc="8995088d" sha1="d6cb439de0718826d1a0363c9d77de8740b18ecf" />
+		</dataarea>
+		<dataarea name="sub3" size="0x10000">
+		<rom name="10h_g07.bin" offset="0x0" size="0x1000" crc="035e300c" sha1="cfda2467e71c27381b7150ff8fc7b69d61df123a" />
+		</dataarea>
+	</part>
+</software>
+<software name="galaga99">
+	<description>Galaga &#x27;99</description>
+	<year>1999</year>
+	<publisher>Jerky and Sil</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="gg1-1" offset="0x0" size="0x1000" crc="a3a0f743" sha1="6907773db7c002ecde5e41853603d53387c5c7cd" />
+		<rom name="g99-04k_g02.bin" offset="0x1000" size="0x1000" crc="ab0df3ac" sha1="29c5bce17baa6778fad5faff1a241021e143e29f" />
+		<rom name="gg1_3.2m" offset="0x2000" size="0x1000" crc="753ce503" sha1="481f443aea3ed3504ec2f3a6bfcf3cd47e2f8f81" />
+		<rom name="g99-04h_g04.bin" offset="0x3000" size="0x1000" crc="b9a315fb" sha1="3422dbd1fe116f9193dcccb1dba691eb98eab3aa" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="g99-07m_g08.bin" offset="0x0" size="0x1000" crc="cc091e8b" sha1="b71b962d5cd71fa78f0709b5cccf549cb7f4e9f0" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="g99-07e_g10.bin" offset="0x0" size="0x1000" crc="2b493359" sha1="e006ee999277120f01d1669ffe28df0b96415af5" />
+		<rom name="g99-07h_g09.bin" offset="0x1000" size="0x1000" crc="cdbb428d" sha1="6c8dfb5da2bee99f07585e23ecfa21c67218cddb" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="1d.bin" offset="0x0" size="0x100" crc="86d92b24" sha1="6bef9102b97c83025a2cf84e89d95f2d44c3d2ed" />
+		</dataarea>
+		<dataarea name="proms" size="0x320">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="2n.bin" offset="0x20" size="0x100" crc="a547d33b" sha1="7323084320bb61ae1530d916f5edd8835d4d2461" />
+		<rom name="1c.bin" offset="0x120" size="0x100" crc="b6f585fb" sha1="dd10147c4f05fede7ae6e7a760681700a660e87e" />
+		<rom name="5c.bin" offset="0x220" size="0x100" crc="8bd565f6" sha1="bedba65816abfc2ebeacac6ee335ca6f136e3e3d" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="gg1-5" offset="0x0" size="0x1000" crc="3102fccd" sha1="d29b68d6aab3217fa2106b3507b9273ff3f927bf" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="gg1-7" offset="0x0" size="0x1000" crc="8995088d" sha1="d6cb439de0718826d1a0363c9d77de8740b18ecf" />
+		</dataarea>
+	</part>
+</software>
+<software name="galagab2">
+	<description>Galaga (bootleg)</description>
+	<year>1981</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="gg1_1b.3p" offset="0x0" size="0x1000" crc="ab036c9f" sha1="ca7f5da42d4e76fd89bb0b35198a23c01462fbfe" />
+		<rom name="gg1_2b.3m" offset="0x1000" size="0x1000" crc="d9232240" sha1="ab202aa259c3d332ef13dfb8fc8580ce2a5a253d" />
+		<rom name="gg1_3.2m" offset="0x2000" size="0x1000" crc="753ce503" sha1="481f443aea3ed3504ec2f3a6bfcf3cd47e2f8f81" />
+		<rom name="gg1_4b.2l" offset="0x3000" size="0x1000" crc="499fcc76" sha1="ddb8b121903646c320939c7d13f4aa4ebb130378" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="gallag.8" offset="0x0" size="0x1000" crc="169a98a4" sha1="edbeb11076061e744ea88d9899dbdfe0964c7e78" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="gg1_11.4d" offset="0x0" size="0x1000" crc="ad447c80" sha1="e697c180178cabd1d32483c5d8889a40633f7857" />
+		<rom name="gg1_10.4f" offset="0x1000" size="0x1000" crc="dd6f1afc" sha1="c340ed8c25e0979629a9a1730edc762bd72d0cff" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="1d.bin" offset="0x0" size="0x100" crc="86d92b24" sha1="6bef9102b97c83025a2cf84e89d95f2d44c3d2ed" />
+		</dataarea>
+		<dataarea name="proms" size="0x320">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="2n.bin" offset="0x20" size="0x100" crc="a547d33b" sha1="7323084320bb61ae1530d916f5edd8835d4d2461" />
+		<rom name="1c.bin" offset="0x120" size="0x100" crc="b6f585fb" sha1="dd10147c4f05fede7ae6e7a760681700a660e87e" />
+		<rom name="5c.bin" offset="0x220" size="0x100" crc="8bd565f6" sha1="bedba65816abfc2ebeacac6ee335ca6f136e3e3d" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="gg1-5" offset="0x0" size="0x1000" crc="3102fccd" sha1="d29b68d6aab3217fa2106b3507b9273ff3f927bf" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="gg1-7" offset="0x0" size="0x1000" crc="8995088d" sha1="d6cb439de0718826d1a0363c9d77de8740b18ecf" />
+		</dataarea>
+		<dataarea name="sub3" size="0x10000">
+		<rom name="10h_g07.bin" offset="0x0" size="0x1000" crc="035e300c" sha1="cfda2467e71c27381b7150ff8fc7b69d61df123a" />
+		</dataarea>
+	</part>
+</software>
+<software name="galagabl">
+	<description>Galaga (Namco 1982)</description>
+	<year>1982</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="gg1-1" offset="0x0" size="0x1000" crc="a3a0f743" sha1="6907773db7c002ecde5e41853603d53387c5c7cd" />
+		<rom name="galagabl.1_2" offset="0x1000" size="0x1000" crc="f1d87ec3" sha1="44034b4f015d9e876253d2827e05f3d41133e097" />
+		<rom name="gg1_3.2m" offset="0x2000" size="0x1000" crc="753ce503" sha1="481f443aea3ed3504ec2f3a6bfcf3cd47e2f8f81" />
+		<rom name="gg1-4" offset="0x3000" size="0x1000" crc="83874442" sha1="366cb0dbd31b787e64f88d182108b670d03b393e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="gg1_9.4l" offset="0x0" size="0x1000" crc="58b2f47c" sha1="62f1279a784ab2f8218c4137c7accda00e6a3490" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="gg1_11.4d" offset="0x0" size="0x1000" crc="ad447c80" sha1="e697c180178cabd1d32483c5d8889a40633f7857" />
+		<rom name="gg1_10.4f" offset="0x1000" size="0x1000" crc="dd6f1afc" sha1="c340ed8c25e0979629a9a1730edc762bd72d0cff" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="prom-1.1d" offset="0x0" size="0x100" crc="7a2815b4" sha1="085ada18c498fdb18ecedef0ea8fe9217edb7b46" />
+		<rom name="prom-2.5c" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="prom-4.2n" offset="0x20" size="0x100" crc="59b6edab" sha1="0281de86c236c88739297ff712e0a4f5c8bf8ab9" />
+		<rom name="prom-3.1c" offset="0x120" size="0x100" crc="4a04bb6b" sha1="cdd4bc1013f5c11984fdc4fd10e2d2e27120c1e5" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="gg1-5" offset="0x0" size="0x1000" crc="3102fccd" sha1="d29b68d6aab3217fa2106b3507b9273ff3f927bf" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="gg1-7" offset="0x0" size="0x1000" crc="8995088d" sha1="d6cb439de0718826d1a0363c9d77de8740b18ecf" />
+		</dataarea>
+		<dataarea name="sub3" size="0x10000">
+		<rom name="galagabl.1_6" offset="0x0" size="0x1000" crc="001b70bc" sha1="b465eee91e75257b7b049d49c0064ab5fd66c576" />
+		</dataarea>
+	</part>
+</software>
+<software name="galagads">
+	<description>Galaga (fast shoot)</description>
+	<year>1981</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="3200a.bin" offset="0x0" size="0x1000" crc="3ef0b053" sha1="0c04a362b737998c0952a753fb3fd8c8a17e9b46" />
+		<rom name="3300b.bin" offset="0x1000" size="0x1000" crc="1b280831" sha1="f7ea12e61929717ebe43a4198a97f109845a2c62" />
+		<rom name="3400c.bin" offset="0x2000" size="0x1000" crc="16233d33" sha1="a7eb799be5e23058754a92b15e6527bfbb47a354" />
+		<rom name="3500d.bin" offset="0x3000" size="0x1000" crc="0aaf5c23" sha1="3f4b0bb960bf002261e9c1278c88f594c6aa8ab6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="gg1_9.4l" offset="0x0" size="0x1000" crc="58b2f47c" sha1="62f1279a784ab2f8218c4137c7accda00e6a3490" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="gg1_11.4d" offset="0x0" size="0x1000" crc="ad447c80" sha1="e697c180178cabd1d32483c5d8889a40633f7857" />
+		<rom name="gg1_10.4f" offset="0x1000" size="0x1000" crc="dd6f1afc" sha1="c340ed8c25e0979629a9a1730edc762bd72d0cff" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="1d.bin" offset="0x0" size="0x100" crc="86d92b24" sha1="6bef9102b97c83025a2cf84e89d95f2d44c3d2ed" />
+		</dataarea>
+		<dataarea name="proms" size="0x320">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="2n.bin" offset="0x20" size="0x100" crc="a547d33b" sha1="7323084320bb61ae1530d916f5edd8835d4d2461" />
+		<rom name="1c.bin" offset="0x120" size="0x100" crc="b6f585fb" sha1="dd10147c4f05fede7ae6e7a760681700a660e87e" />
+		<rom name="5c.bin" offset="0x220" size="0x100" crc="8bd565f6" sha1="bedba65816abfc2ebeacac6ee335ca6f136e3e3d" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="3600fast.bin" offset="0x0" size="0x1000" crc="23d586e5" sha1="43346c69385e9091e64cff6c027ac2689cafcbb9" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="3700g.bin" offset="0x0" size="0x1000" crc="b07f0aa4" sha1="7528644a8480d0be2d0d37069515ed319e94778f" />
+		</dataarea>
+	</part>
+</software>
+<software name="galagaef">
+	<description>Galaga (Enduring Freedom)</description>
+	<year>2000</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="3200a.bin" offset="0x0" size="0x1000" crc="3ef0b053" sha1="0c04a362b737998c0952a753fb3fd8c8a17e9b46" />
+		<rom name="3300b.bin" offset="0x1000" size="0x1000" crc="1b280831" sha1="f7ea12e61929717ebe43a4198a97f109845a2c62" />
+		<rom name="3400c.bin" offset="0x2000" size="0x1000" crc="16233d33" sha1="a7eb799be5e23058754a92b15e6527bfbb47a354" />
+		<rom name="3500d.bin" offset="0x3000" size="0x1000" crc="0aaf5c23" sha1="3f4b0bb960bf002261e9c1278c88f594c6aa8ab6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="gg1_9.4l" offset="0x0" size="0x1000" crc="58b2f47c" sha1="62f1279a784ab2f8218c4137c7accda00e6a3490" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="terror.bin" offset="0x0" size="0x1000" crc="1b629f80" sha1="6db66601fd357400edf3dc1d689255c64a46a72d" />
+		<rom name="gg1_10.4f" offset="0x1000" size="0x1000" crc="dd6f1afc" sha1="c340ed8c25e0979629a9a1730edc762bd72d0cff" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="prom-1.1d" offset="0x0" size="0x100" crc="7a2815b4" sha1="085ada18c498fdb18ecedef0ea8fe9217edb7b46" />
+		<rom name="prom-2.5c" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="prom-4.2n" offset="0x20" size="0x100" crc="59b6edab" sha1="0281de86c236c88739297ff712e0a4f5c8bf8ab9" />
+		<rom name="prom-3.1c" offset="0x120" size="0x100" crc="4a04bb6b" sha1="cdd4bc1013f5c11984fdc4fd10e2d2e27120c1e5" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="3600e.bin" offset="0x0" size="0x1000" crc="bc556e76" sha1="0d3d68243c4571d985b4d8f7e0ea9f6fcffa2116" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="3700g.bin" offset="0x0" size="0x1000" crc="b07f0aa4" sha1="7528644a8480d0be2d0d37069515ed319e94778f" />
+		</dataarea>
+	</part>
+</software>
+<software name="galagaf">
+	<description>Galaga (Fast Shoot Hack)</description>
+	<year>1981</year>
+	<publisher>Namco</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="3200a.bin" offset="0x0" size="0x1000" crc="3ef0b053" sha1="0c04a362b737998c0952a753fb3fd8c8a17e9b46" />
+		<rom name="3300b.bin" offset="0x1000" size="0x1000" crc="1b280831" sha1="f7ea12e61929717ebe43a4198a97f109845a2c62" />
+		<rom name="3400c.bin" offset="0x2000" size="0x1000" crc="16233d33" sha1="a7eb799be5e23058754a92b15e6527bfbb47a354" />
+		<rom name="3500d.bin" offset="0x3000" size="0x1000" crc="0aaf5c23" sha1="3f4b0bb960bf002261e9c1278c88f594c6aa8ab6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="gg1_9.4l" offset="0x0" size="0x1000" crc="58b2f47c" sha1="62f1279a784ab2f8218c4137c7accda00e6a3490" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="gg1_11.4d" offset="0x0" size="0x1000" crc="ad447c80" sha1="e697c180178cabd1d32483c5d8889a40633f7857" />
+		<rom name="gg1_10.4f" offset="0x1000" size="0x1000" crc="dd6f1afc" sha1="c340ed8c25e0979629a9a1730edc762bd72d0cff" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="prom-1.1d" offset="0x0" size="0x100" crc="7a2815b4" sha1="085ada18c498fdb18ecedef0ea8fe9217edb7b46" />
+		<rom name="prom-2.5c" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="prom-4.2n" offset="0x20" size="0x100" crc="59b6edab" sha1="0281de86c236c88739297ff712e0a4f5c8bf8ab9" />
+		<rom name="prom-3.1c" offset="0x120" size="0x100" crc="4a04bb6b" sha1="cdd4bc1013f5c11984fdc4fd10e2d2e27120c1e5" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="gg_5fast.bin" offset="0x0" size="0x1000" crc="ae82145e" sha1="146bd848e9783f34b1a006d793ee3f36e53baad0" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="3700g.bin" offset="0x0" size="0x1000" crc="b07f0aa4" sha1="7528644a8480d0be2d0d37069515ed319e94778f" />
+		</dataarea>
+	</part>
+</software>
+<software name="galagap">
+	<description>Galaga (patched)</description>
+	<year>2007</year>
+	<publisher>Don Hodges</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="gg1_1b.3p" offset="0x0" size="0x1000" crc="ab036c9f" sha1="ca7f5da42d4e76fd89bb0b35198a23c01462fbfe" />
+		<rom name="gg1_2b.3m" offset="0x1000" size="0x1000" crc="d9232240" sha1="ab202aa259c3d332ef13dfb8fc8580ce2a5a253d" />
+		<rom name="gg1_3.2m" offset="0x2000" size="0x1000" crc="753ce503" sha1="481f443aea3ed3504ec2f3a6bfcf3cd47e2f8f81" />
+		<rom name="gg1_4b.2l" offset="0x3000" size="0x1000" crc="499fcc76" sha1="ddb8b121903646c320939c7d13f4aa4ebb130378" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="gg1_9.4l" offset="0x0" size="0x1000" crc="58b2f47c" sha1="62f1279a784ab2f8218c4137c7accda00e6a3490" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="gg1_11.4d" offset="0x0" size="0x1000" crc="ad447c80" sha1="e697c180178cabd1d32483c5d8889a40633f7857" />
+		<rom name="gg1_10.4f" offset="0x1000" size="0x1000" crc="dd6f1afc" sha1="c340ed8c25e0979629a9a1730edc762bd72d0cff" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="prom-1.1d" offset="0x0" size="0x100" crc="7a2815b4" sha1="085ada18c498fdb18ecedef0ea8fe9217edb7b46" />
+		<rom name="prom-2.5c" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="prom-4.2n" offset="0x20" size="0x100" crc="59b6edab" sha1="0281de86c236c88739297ff712e0a4f5c8bf8ab9" />
+		<rom name="prom-3.1c" offset="0x120" size="0x100" crc="4a04bb6b" sha1="cdd4bc1013f5c11984fdc4fd10e2d2e27120c1e5" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="gg1_5b.3f" offset="0x0" size="0x1000" crc="bb5caae3" sha1="e957a581463caac27bc37ca2e2a90f27e4f62b6f" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="gg1_7b.2c" offset="0x0" size="0x1000" crc="d016686b" sha1="44c1a04fba3c7c826ff484185cb881b4b22e6657" />
+		</dataarea>
+	</part>
+</software>
+<software name="galagix">
+	<description>Galagix</description>
+	<year>1981</year>
+	<publisher>Grand Master Peter</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="gg1-1" offset="0x0" size="0x1000" crc="a3a0f743" sha1="6907773db7c002ecde5e41853603d53387c5c7cd" />
+		<rom name="gg1-2" offset="0x1000" size="0x1000" crc="43bb0d5c" sha1="666975aed5ce84f09794c54b550d64d95ab311f0" />
+		<rom name="gg1_3.2m" offset="0x2000" size="0x1000" crc="753ce503" sha1="481f443aea3ed3504ec2f3a6bfcf3cd47e2f8f81" />
+		<rom name="gg1-4" offset="0x3000" size="0x1000" crc="83874442" sha1="366cb0dbd31b787e64f88d182108b670d03b393e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="gx_07m_g08.bin" offset="0x0" size="0x1000" crc="4b0a6b29" sha1="1707bdfab7a17579b4171417d86ae76e065299c5" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="gx_07e_g10.bin" offset="0x0" size="0x1000" crc="b52a7dff" sha1="1bf1cf9db72d16d1e6539d4fc05bbee071cc3420" />
+		<rom name="gx_07h_g09.bin" offset="0x1000" size="0x1000" crc="ffd5c70e" sha1="5eac91087129ec8038feabdb18cb3199e52cae23" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="1d.bin" offset="0x0" size="0x100" crc="86d92b24" sha1="6bef9102b97c83025a2cf84e89d95f2d44c3d2ed" />
+		</dataarea>
+		<dataarea name="proms" size="0x320">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="2n.bin" offset="0x20" size="0x100" crc="a547d33b" sha1="7323084320bb61ae1530d916f5edd8835d4d2461" />
+		<rom name="1c.bin" offset="0x120" size="0x100" crc="b6f585fb" sha1="dd10147c4f05fede7ae6e7a760681700a660e87e" />
+		<rom name="5c.bin" offset="0x220" size="0x100" crc="8bd565f6" sha1="bedba65816abfc2ebeacac6ee335ca6f136e3e3d" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="gg1-5" offset="0x0" size="0x1000" crc="3102fccd" sha1="d29b68d6aab3217fa2106b3507b9273ff3f927bf" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="gg1-7" offset="0x0" size="0x1000" crc="8995088d" sha1="d6cb439de0718826d1a0363c9d77de8740b18ecf" />
+		</dataarea>
+	</part>
+</software>
+<software name="galaped">
+	<description>Galapede (Fast Shoot)</description>
+	<year>1998</year>
+	<publisher>Cary Barnhard</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="3200a.bin" offset="0x0" size="0x1000" crc="3ef0b053" sha1="0c04a362b737998c0952a753fb3fd8c8a17e9b46" />
+		<rom name="3300b.bin" offset="0x1000" size="0x1000" crc="1b280831" sha1="f7ea12e61929717ebe43a4198a97f109845a2c62" />
+		<rom name="3400c.bin" offset="0x2000" size="0x1000" crc="16233d33" sha1="a7eb799be5e23058754a92b15e6527bfbb47a354" />
+		<rom name="3500d.bin" offset="0x3000" size="0x1000" crc="0aaf5c23" sha1="3f4b0bb960bf002261e9c1278c88f594c6aa8ab6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="ped_07m_g08.bin" offset="0x0" size="0x1000" crc="d4fda6a5" sha1="c1d39bfa2ad866e726b77f15ca22ef97ac3f51a4" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="ped_07e_g10.bin" offset="0x0" size="0x1000" crc="1d0a2438" sha1="66a4d7120f926a67dac0203b73c60917e5c140cf" />
+		<rom name="ped_07h_g09.bin" offset="0x1000" size="0x1000" crc="11d9b093" sha1="8f151f4813ca7a80a228f2123cc089de414bc3f9" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="1d.bin" offset="0x0" size="0x100" crc="86d92b24" sha1="6bef9102b97c83025a2cf84e89d95f2d44c3d2ed" />
+		</dataarea>
+		<dataarea name="proms" size="0x320">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="2n.bin" offset="0x20" size="0x100" crc="a547d33b" sha1="7323084320bb61ae1530d916f5edd8835d4d2461" />
+		<rom name="1c.bin" offset="0x120" size="0x100" crc="b6f585fb" sha1="dd10147c4f05fede7ae6e7a760681700a660e87e" />
+		<rom name="5c.bin" offset="0x220" size="0x100" crc="8bd565f6" sha1="bedba65816abfc2ebeacac6ee335ca6f136e3e3d" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="3600fast.bin" offset="0x0" size="0x1000" crc="23d586e5" sha1="43346c69385e9091e64cff6c027ac2689cafcbb9" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="3700g.bin" offset="0x0" size="0x1000" crc="b07f0aa4" sha1="7528644a8480d0be2d0d37069515ed319e94778f" />
+		</dataarea>
+	</part>
+</software>
+<software name="galgaxin">
+	<description>Galagalaxian</description>
+	<year>1998</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="3200a.bin" offset="0x0" size="0x1000" crc="3ef0b053" sha1="0c04a362b737998c0952a753fb3fd8c8a17e9b46" />
+		<rom name="3300b.bin" offset="0x1000" size="0x1000" crc="1b280831" sha1="f7ea12e61929717ebe43a4198a97f109845a2c62" />
+		<rom name="3400c.bin" offset="0x2000" size="0x1000" crc="16233d33" sha1="a7eb799be5e23058754a92b15e6527bfbb47a354" />
+		<rom name="3500d.bin" offset="0x3000" size="0x1000" crc="0aaf5c23" sha1="3f4b0bb960bf002261e9c1278c88f594c6aa8ab6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="2600j_4l.bin" offset="0x0" size="0x1000" crc="10fa1481" sha1="09f56503251cc29cf2131d2a0c5bcca4ee276e70" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="2800l_4d.bin" offset="0x0" size="0x1000" crc="bf803b06" sha1="ab0051b3b08f03ad93d100f38b106e761d4c4607" />
+		<rom name="2700k.bin" offset="0x1000" size="0x1000" crc="020906a3" sha1="72e63918556ae366ede3ffad64a9d3ad4df1e514" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="1d.bin" offset="0x0" size="0x100" crc="86d92b24" sha1="6bef9102b97c83025a2cf84e89d95f2d44c3d2ed" />
+		</dataarea>
+		<dataarea name="proms" size="0x320">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="2n.bin" offset="0x20" size="0x100" crc="a547d33b" sha1="7323084320bb61ae1530d916f5edd8835d4d2461" />
+		<rom name="1c.bin" offset="0x120" size="0x100" crc="b6f585fb" sha1="dd10147c4f05fede7ae6e7a760681700a660e87e" />
+		<rom name="5c.bin" offset="0x220" size="0x100" crc="8bd565f6" sha1="bedba65816abfc2ebeacac6ee335ca6f136e3e3d" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="3600e.bin" offset="0x0" size="0x1000" crc="bc556e76" sha1="0d3d68243c4571d985b4d8f7e0ea9f6fcffa2116" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="3700g.bin" offset="0x0" size="0x1000" crc="b07f0aa4" sha1="7528644a8480d0be2d0d37069515ed319e94778f" />
+		</dataarea>
+	</part>
+</software>
+<software name="terror">
+	<description>Terrorist</description>
+	<year>2000</year>
+	<publisher>Hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="gg1-1" offset="0x0" size="0x1000" crc="a3a0f743" sha1="6907773db7c002ecde5e41853603d53387c5c7cd" />
+		<rom name="gg1-2" offset="0x1000" size="0x1000" crc="43bb0d5c" sha1="666975aed5ce84f09794c54b550d64d95ab311f0" />
+		<rom name="gg1_3.2m" offset="0x2000" size="0x1000" crc="753ce503" sha1="481f443aea3ed3504ec2f3a6bfcf3cd47e2f8f81" />
+		<rom name="gg1-4" offset="0x3000" size="0x1000" crc="83874442" sha1="366cb0dbd31b787e64f88d182108b670d03b393e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="gg1_9.4l" offset="0x0" size="0x1000" crc="58b2f47c" sha1="62f1279a784ab2f8218c4137c7accda00e6a3490" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="terror.bin" offset="0x0" size="0x1000" crc="1b629f80" sha1="6db66601fd357400edf3dc1d689255c64a46a72d" />
+		<rom name="gg1_10.4f" offset="0x1000" size="0x1000" crc="dd6f1afc" sha1="c340ed8c25e0979629a9a1730edc762bd72d0cff" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="1d.bin" offset="0x0" size="0x100" crc="86d92b24" sha1="6bef9102b97c83025a2cf84e89d95f2d44c3d2ed" />
+		</dataarea>
+		<dataarea name="proms" size="0x320">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="2n.bin" offset="0x20" size="0x100" crc="a547d33b" sha1="7323084320bb61ae1530d916f5edd8835d4d2461" />
+		<rom name="1c.bin" offset="0x120" size="0x100" crc="b6f585fb" sha1="dd10147c4f05fede7ae6e7a760681700a660e87e" />
+		<rom name="5c.bin" offset="0x220" size="0x100" crc="8bd565f6" sha1="bedba65816abfc2ebeacac6ee335ca6f136e3e3d" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="gg1-5" offset="0x0" size="0x1000" crc="3102fccd" sha1="d29b68d6aab3217fa2106b3507b9273ff3f927bf" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="gg1-7" offset="0x0" size="0x1000" crc="8995088d" sha1="d6cb439de0718826d1a0363c9d77de8740b18ecf" />
+		</dataarea>
+	</part>
+</software>
+<software name="vgalaga">
+	<description>Vector Galaga</description>
+	<year>2000</year>
+	<publisher>Hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="3200a.bin" offset="0x0" size="0x1000" crc="3ef0b053" sha1="0c04a362b737998c0952a753fb3fd8c8a17e9b46" />
+		<rom name="3300b.bin" offset="0x1000" size="0x1000" crc="1b280831" sha1="f7ea12e61929717ebe43a4198a97f109845a2c62" />
+		<rom name="3400c.bin" offset="0x2000" size="0x1000" crc="16233d33" sha1="a7eb799be5e23058754a92b15e6527bfbb47a354" />
+		<rom name="3500d.bin" offset="0x3000" size="0x1000" crc="0aaf5c23" sha1="3f4b0bb960bf002261e9c1278c88f594c6aa8ab6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_07m_g08.bin" offset="0x0" size="0x1000" crc="bf59992f" sha1="78f1e01affca694693254ecfedebdb05cb8d3b82" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="v_07e_g10.bin" offset="0x0" size="0x1000" crc="3cf64d44" sha1="54035738c6b0eed3331f11c53477cf87f07a8422" />
+		<rom name="v_07h_g09.bin" offset="0x1000" size="0x1000" crc="206bf7fc" sha1="7510ed4a6c084f555cd5a6cd6fbc862f4797656f" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="1d.bin" offset="0x0" size="0x100" crc="86d92b24" sha1="6bef9102b97c83025a2cf84e89d95f2d44c3d2ed" />
+		</dataarea>
+		<dataarea name="proms" size="0x320">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="2n.bin" offset="0x20" size="0x100" crc="a547d33b" sha1="7323084320bb61ae1530d916f5edd8835d4d2461" />
+		<rom name="1c.bin" offset="0x120" size="0x100" crc="b6f585fb" sha1="dd10147c4f05fede7ae6e7a760681700a660e87e" />
+		<rom name="5c.bin" offset="0x220" size="0x100" crc="8bd565f6" sha1="bedba65816abfc2ebeacac6ee335ca6f136e3e3d" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="3600e.bin" offset="0x0" size="0x1000" crc="bc556e76" sha1="0d3d68243c4571d985b4d8f7e0ea9f6fcffa2116" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="3700g.bin" offset="0x0" size="0x1000" crc="b07f0aa4" sha1="7528644a8480d0be2d0d37069515ed319e94778f" />
+		</dataarea>
+	</part>
+</software>
+<software name="vgalagaf">
+	<description>Vector Galaga Fast Shoot</description>
+	<year>2000</year>
+	<publisher>Hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="3200a.bin" offset="0x0" size="0x1000" crc="3ef0b053" sha1="0c04a362b737998c0952a753fb3fd8c8a17e9b46" />
+		<rom name="3300b.bin" offset="0x1000" size="0x1000" crc="1b280831" sha1="f7ea12e61929717ebe43a4198a97f109845a2c62" />
+		<rom name="3400c.bin" offset="0x2000" size="0x1000" crc="16233d33" sha1="a7eb799be5e23058754a92b15e6527bfbb47a354" />
+		<rom name="3500d.bin" offset="0x3000" size="0x1000" crc="0aaf5c23" sha1="3f4b0bb960bf002261e9c1278c88f594c6aa8ab6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="vgalagaf.08" offset="0x0" size="0x1000" crc="c1bdeb1c" sha1="7f07a9da708066401710b0b62b98e324ebbc2bca" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="vgalagaf.10" offset="0x0" size="0x1000" crc="99367e04" sha1="7e140e2b9dd4c6b0da41b21ed2cf1bf33f088a7e" />
+		<rom name="vgalagaf.09" offset="0x1000" size="0x1000" crc="683585c4" sha1="fdc89b72bf64e44c80f4ae601280fca9b0d1c18c" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="1d.bin" offset="0x0" size="0x100" crc="86d92b24" sha1="6bef9102b97c83025a2cf84e89d95f2d44c3d2ed" />
+		</dataarea>
+		<dataarea name="proms" size="0x320">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="2n.bin" offset="0x20" size="0x100" crc="a547d33b" sha1="7323084320bb61ae1530d916f5edd8835d4d2461" />
+		<rom name="1c.bin" offset="0x120" size="0x100" crc="b6f585fb" sha1="dd10147c4f05fede7ae6e7a760681700a660e87e" />
+		<rom name="5c.bin" offset="0x220" size="0x100" crc="8bd565f6" sha1="bedba65816abfc2ebeacac6ee335ca6f136e3e3d" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="3600fast.bin" offset="0x0" size="0x1000" crc="23d586e5" sha1="43346c69385e9091e64cff6c027ac2689cafcbb9" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="3700g.bin" offset="0x0" size="0x1000" crc="b07f0aa4" sha1="7528644a8480d0be2d0d37069515ed319e94778f" />
+		</dataarea>
+	</part>
+</software>
+<software name="vgalagam">
+	<description>Vector Galaga Midway</description>
+	<year>2000</year>
+	<publisher>Hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="3200a.bin" offset="0x0" size="0x1000" crc="3ef0b053" sha1="0c04a362b737998c0952a753fb3fd8c8a17e9b46" />
+		<rom name="3300b.bin" offset="0x1000" size="0x1000" crc="1b280831" sha1="f7ea12e61929717ebe43a4198a97f109845a2c62" />
+		<rom name="3400c.bin" offset="0x2000" size="0x1000" crc="16233d33" sha1="a7eb799be5e23058754a92b15e6527bfbb47a354" />
+		<rom name="3500d.bin" offset="0x3000" size="0x1000" crc="0aaf5c23" sha1="3f4b0bb960bf002261e9c1278c88f594c6aa8ab6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="vgalagaf.08" offset="0x0" size="0x1000" crc="c1bdeb1c" sha1="7f07a9da708066401710b0b62b98e324ebbc2bca" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="vgalagaf.10" offset="0x0" size="0x1000" crc="99367e04" sha1="7e140e2b9dd4c6b0da41b21ed2cf1bf33f088a7e" />
+		<rom name="vgalagaf.09" offset="0x1000" size="0x1000" crc="683585c4" sha1="fdc89b72bf64e44c80f4ae601280fca9b0d1c18c" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="1d.bin" offset="0x0" size="0x100" crc="86d92b24" sha1="6bef9102b97c83025a2cf84e89d95f2d44c3d2ed" />
+		</dataarea>
+		<dataarea name="proms" size="0x320">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="2n.bin" offset="0x20" size="0x100" crc="a547d33b" sha1="7323084320bb61ae1530d916f5edd8835d4d2461" />
+		<rom name="1c.bin" offset="0x120" size="0x100" crc="b6f585fb" sha1="dd10147c4f05fede7ae6e7a760681700a660e87e" />
+		<rom name="5c.bin" offset="0x220" size="0x100" crc="8bd565f6" sha1="bedba65816abfc2ebeacac6ee335ca6f136e3e3d" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="3600e.bin" offset="0x0" size="0x1000" crc="bc556e76" sha1="0d3d68243c4571d985b4d8f7e0ea9f6fcffa2116" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="3700g.bin" offset="0x0" size="0x1000" crc="b07f0aa4" sha1="7528644a8480d0be2d0d37069515ed319e94778f" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

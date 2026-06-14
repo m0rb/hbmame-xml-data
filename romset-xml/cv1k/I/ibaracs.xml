@@ -1,0 +1,17 @@
+<software name="ibaracs" cloneof="ibara">
+	<description>Ibara (2005-03-22 MASTER VER.. COLOR SAT)</description>
+	<year>2005</year>
+	<publisher>ArcCabView</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="u4" offset="0x0" size="0x200000" crc="8e6c155d" sha1="38ac2107dc7824836e2b4e04c7180d5ae43c9b79" />
+		</dataarea>
+		<dataarea name="game" size="0x8400000">
+		<rom name="ibaracs_u2" offset="0x0" size="0x8400000" crc="bd68d0af" sha1="8faf49d9b4b472f711dd04a772b28999edeb21e3" />
+		</dataarea>
+		<dataarea name="ymz770" size="0x800000">
+		<rom loadflag="load16_word_swap" name="u23" offset="0x0" size="0x400000" crc="ee5e585d" sha1="7eeba4ee693060e927f8c46b16e39227c6a62392" />
+		<rom loadflag="load16_word_swap" name="u24" offset="0x400000" size="0x400000" crc="f0aa3cb6" sha1="f9d137cd879e718811b2d21a0af2a9c6b7dca2f9" />
+		</dataarea>
+	</part>
+</software>

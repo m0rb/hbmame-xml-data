@@ -1,0 +1,26 @@
+<software name="captcomms64" cloneof="captcomm">
+	<description>Captain Commando (Summon Mount Edition, 2019-08-02)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c17s64.p1" offset="0x0" size="0x80000" crc="9014983d" sha1="0204ff69f36c7f44188260ee28759ce1cdd80a77" />
+		<rom loadflag="load16_word_swap" name="c17s64.p2" offset="0x80000" size="0x80000" crc="00af068d" sha1="d7017ede0a224390b0c85e894b219fe8109d1800" />
+		<rom loadflag="load16_byte" name="c17s64.p3" offset="0x100000" size="0x20000" crc="936ed25e" sha1="fda6d96102a1720b361fb7ae1ffb88fc01c0cc83" />
+		<rom loadflag="load16_byte" name="c17s64.p4" offset="0x100001" size="0x20000" crc="c3448a39" sha1="fe64bc3781752cbd2d9ac24bd43507ec400ec2f4" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c17.m1" offset="0x0" size="0x8000" crc="698e8b58" sha1="b7a3d905a7ed2c430426ca2e185e3d7e75e752a1" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="captcomm.key" offset="0x0" size="0x80" crc="3bd9c940" sha1="8964479f402ce7e000f1da8b3f6386e6915269e1" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c17.v1" offset="0x0" size="0x20000" crc="6de2c2db" sha1="9a1eaba8d104f59a5e61f89679bb5de0c0c64364" />
+		<rom name="c17.v2" offset="0x20000" size="0x20000" crc="b99091ae" sha1="b19197c7ad3aeaf5f41c26bf853b0c9b502ecfca" />
+		</dataarea>
+	</part>
+</software>

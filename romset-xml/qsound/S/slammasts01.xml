@@ -1,0 +1,37 @@
+<software name="slammasts01" cloneof="slammast">
+	<description>Saturday Night Slam Masters (Region Asia Version)</description>
+	<year>1993</year>
+	<publisher>Creamymami[EGCG]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c27s01.p1" offset="0x0" size="0x80000" crc="027e49db" sha1="9a675871adff7422f5f2a9fa4e606341753c5090" />
+		<rom loadflag="load16_byte" name="c27.p3" offset="0x80000" size="0x20000" crc="95d5e729" sha1="df3be896e55c92eb50887a4317178a3d11048433" />
+		<rom loadflag="load16_byte" name="c27.p4" offset="0x80001" size="0x20000" crc="b1c7cbcb" sha1="cf5ad72be4a055db876e7347b1826325b9bf81d9" />
+		<rom loadflag="load16_byte" name="c27.p5" offset="0xc0000" size="0x20000" crc="a50d3fd4" sha1="dc3d108c3bc27f45b8b2e11919ba2a86e05b41d1" />
+		<rom loadflag="load16_byte" name="c27.p6" offset="0xc0001" size="0x20000" crc="08e32e56" sha1="70ad78b079f777ec02089f0df20ce2baad7adce5" />
+		<rom loadflag="load16_word_swap" name="c27.p7" offset="0x100000" size="0x80000" crc="d5007b05" sha1="c55e55908aeda40ca2318c76ccbc05d333676875" />
+		<rom loadflag="load16_word_swap" name="c27.p9" offset="0x180000" size="0x80000" crc="aeb557b0" sha1="530551942961d776f0a85852e02bb243840ca671" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c27.m1" offset="0x0" size="0x8000" crc="e21a03c4" sha1="98c03fd2c9b6bf8a4fc25a4edca87fff7c3c3819" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="slammasts01.key" offset="0x0" size="0x80" crc="f099c4d6" sha1="2a178a9d856d6ce0746408ec6de92f889fc9ddb6" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom name="c27.q1" offset="0x0" size="0x80000" crc="0630c3ce" sha1="520fc74c5c3638f611fa2f1b5efb08b91747e29b" />
+		<rom name="c27.q2" offset="0x80000" size="0x80000" crc="354f9c21" sha1="1dc6b39791fd0f760697f409a6b62361a7bf62e9" />
+		<rom name="c27.q3" offset="0x100000" size="0x80000" crc="7838487c" sha1="056b7da05cfca46873edacd674ca25c70855c6db" />
+		<rom name="c27.q4" offset="0x180000" size="0x80000" crc="ab66e087" sha1="066ea69a0157e8647eea3c44d0a1843898860678" />
+		<rom name="c27.q5" offset="0x200000" size="0x80000" crc="c789fef2" sha1="10d1e3d92288fccd4e064a3716a788a165efc3c9" />
+		<rom name="c27.q6" offset="0x280000" size="0x80000" crc="ecb81b61" sha1="e339f21ae47de4782f3b338befcdac659c3503f6" />
+		<rom name="c27.q7" offset="0x300000" size="0x80000" crc="041e49ba" sha1="3220b033a5c0cfbbe75c0c113cf2db39fb093a7e" />
+		<rom name="c27.q8" offset="0x380000" size="0x80000" crc="59fe702a" sha1="807178dfc6d864e49fd7aabb5c4895835cf0e85b" />
+		</dataarea>
+		<dataarea name="user1" size="0x8000">
+		</dataarea>
+	</part>
+</software>

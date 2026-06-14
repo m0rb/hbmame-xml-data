@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="psikyo3v1" description="Psikyo3V1 cartridges">
+<software name="daraku01" cloneof="daraku">
+	<description>Daraku Tenshi (Enable Hidden Characters)</description>
+	<year>1998</year>
+	<publisher>Yumeji</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_word_swap" name="4_progs01.u18" offset="0x2" size="0x80000" crc="a599fe9f" sha1="12680fcab83b5cc3b53b19372096a97067e58fdc" />
+		<rom loadflag="load32_word_swap" name="3_progs01.u17" offset="0x0" size="0x80000" crc="2033dd8b" sha1="b787b4f94b268f8585edc2ffa75dc2ccba5ad6f8" />
+		<rom loadflag="load16_word_swap" name="prog.u16" offset="0x100000" size="0x100000" crc="3742e990" sha1="dd4b8777e57245151b3d520ed1bdab207530420b" />
+		</dataarea>
+		<dataarea name="eeprom" size="0x100">
+		<rom name="eeprom-daraku.bin" offset="0x0" size="0x100" crc="a9715297" sha1="fcd32b936e0d05bad4ba4969ddec24aae7768cea" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x3400000">
+		</dataarea>
+		<dataarea name="ymf" size="0x400000">
+		<rom name="sound.u32" offset="0x0" size="0x400000" crc="ef2c781d" sha1="1313f082f6dbe4da0efaf261226085eb7325667f" />
+		</dataarea>
+	</part>
+</software>
+<software name="s1945iiex" cloneof="s1945ii">
+	<description>Strikers 1945 II (EX Super Version, 2009-07-29)</description>
+	<year>2009</year>
+	<publisher>Pipi899</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_word_swap" name="2_prog_l.u18-ex" offset="0x2" size="0x80000" crc="56276eb7" sha1="28530132058621382697c678426967d720741853" />
+		<rom loadflag="load32_word_swap" name="1_prog_h.u17-ex" offset="0x0" size="0x80000" crc="99658d0d" sha1="f8b7a697819dc1e4993557d9e854aa53964eb4a3" />
+		</dataarea>
+		<dataarea name="eeprom" size="0x100">
+		<rom name="eeprom-s1945ii.bin" offset="0x0" size="0x100" crc="7ac38846" sha1="c5f4b05a94211f3c96b8c472adbe634f2e77d753" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000000">
+		</dataarea>
+		<dataarea name="ymf" size="0x400000">
+		<rom name="sound.u32" offset="0x0" size="0x400000" crc="ba680ca7" sha1="b645896e297aad426784aa656bff738e1b33c2a2" />
+		</dataarea>
+	</part>
+</software>
+<software name="soldivid01" cloneof="soldivid">
+	<description>Sol Divide - The Sword Of Darkness (French v1.0, 2007-08-18)</description>
+	<year>2007</year>
+	<publisher>Shyma.X</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_word_swap" name="2-prog_ls01.u18" offset="0x2" size="0x80000" crc="e25b51a6" sha1="04a6846cd7dcdcbf7943335cd76d138466c3af6d" />
+		<rom loadflag="load32_word_swap" name="1-prog_hs01.u17" offset="0x0" size="0x80000" crc="16656358" sha1="ef2506e3d50fd0c9d92c9975662ad2d3bf57e944" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x3800000">
+		<rom loadflag="load32_word_swap" name="4lhc01.u10" offset="0x2000000" size="0x400000" crc="218e97a0" sha1="d9e836725303060fbac5cdc5646aaf817c379c8d" />
+		<rom loadflag="load32_word_swap" name="4hhc01.u31" offset="0x2000002" size="0x400000" crc="7e92228a" sha1="ae99c0b6083e47527803b9170832f622fa300c56" />
+		<rom loadflag="load32_word_swap" name="5l.u9" offset="0x2800000" size="0x400000" crc="c59c6858" sha1="bd580b57e432ef42295060c5a84c8129d9b995f7" />
+		<rom loadflag="load32_word_swap" name="5h.u30" offset="0x2800002" size="0x400000" crc="73bc66d0" sha1="7988ce81ff43235a3b30ddd8fd9419530a07b6ba" />
+		<rom loadflag="load32_word_swap" name="6l.u8" offset="0x3000000" size="0x400000" crc="f01b816e" sha1="2a0d86c1c106eef539028aa9ebe49d13216a6b9c" />
+		<rom loadflag="load32_word_swap" name="6h.u37" offset="0x3000002" size="0x400000" crc="fdd57361" sha1="f58d91acde1f4e6d4f0e8dcd1b23aa5092d89916" />
+		</dataarea>
+		<dataarea name="ymf" size="0x400000">
+		<rom name="sound.u32" offset="0x0" size="0x400000" crc="e98f8d45" sha1="7791c0f31d08f37c6ec65e7cecf8ef54ca73b1fd" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

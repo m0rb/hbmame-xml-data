@@ -1,0 +1,27 @@
+<software name="ffightuc" cloneof="ffight">
+	<description>Final Fight (USA 900613)</description>
+	<year>1989</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c07uc.p1" offset="0x0" size="0x20000" crc="ed988977" sha1="c718e989206bd2b68832c8fcb5667397d500ebac" />
+		<rom loadflag="load16_byte" name="c07uc.p2" offset="0x1" size="0x20000" crc="07bf1c21" sha1="f21a939fd92607c7f54816dedbcb3c5818cf4183" />
+		<rom loadflag="load16_byte" name="c07uc.p3" offset="0x40000" size="0x20000" crc="dba5a476" sha1="2f0176dd050f9630b914f1c1ca5d96215bcf567f" />
+		<rom loadflag="load16_byte" name="c07uc.p4" offset="0x40001" size="0x20000" crc="4d89f542" sha1="0b7d483a2c5759715f99f287cbd8a36165b59de7" />
+		<rom loadflag="load16_word_swap" name="c07.p5" offset="0x80000" size="0x80000" crc="c747696e" sha1="d3362dadded31ccb7eaf71ef282d698d18edd722" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c07.m1" offset="0x0" size="0x8000" crc="b8367eb5" sha1="ec3db29fdd6200e9a8f4f8073a7e34aef731354f" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="ffightuc.key" offset="0x0" size="0x80" crc="3c8ba68d" sha1="d2cc9c9d51f00e62da6dcce963f515a47ec434b8" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c07.v1" offset="0x0" size="0x20000" crc="375c66e7" sha1="36189e23209ce4ae5d9cbabd1574540d0591e7b3" />
+		<rom name="c07.v2" offset="0x20000" size="0x20000" crc="1ef137f9" sha1="974b5e72aa28b87ebfa7438efbdfeda769dedf5e" />
+		</dataarea>
+	</part>
+</software>

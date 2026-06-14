@@ -1,0 +1,32 @@
+<software name="rabbit01">
+	<description>Rabbit (Enable Hidden Character)</description>
+	<year>1997</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="jpr0_s01.0" offset="0x0" size="0x80000" crc="3be967ee" sha1="3d048dd674516b79cd0d2d6f2bc88e0c93ee6ee8" />
+		<rom loadflag="load32_byte" name="jpr1_s01.1" offset="0x1" size="0x80000" crc="56e1f900" sha1="15b0c249cf5f3b127a12eaa44ab61a19170c3f08" />
+		<rom loadflag="load32_byte" name="jpr2_s01.2" offset="0x2" size="0x80000" crc="e01d4b54" sha1="a55e1e960e614ec8fac05dff58b184612bb0faad" />
+		<rom loadflag="load32_byte" name="jpr3_s01.3" offset="0x3" size="0x80000" crc="bb176c24" sha1="4185769bb519dbaf53b6997851367883339dbfbc" />
+		</dataarea>
+		<dataarea name="eeprom" endianness="big" size="0x80">
+		<rom name="rabbit.nv" offset="0x0" size="0x80" crc="73d471ed" sha1="45e045f5ea9036342b88013e021d402741d98537" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000000">
+		</dataarea>
+		<dataarea name="gfx2" size="0x600000">
+		<rom name="jbg0.40" offset="0x0" size="0x200000" crc="89662944" sha1="ca916ba38480fa588af19fc9682603f5195ad6c7" />
+		<rom name="jbg1.50" offset="0x200000" size="0x200000" crc="1fc7f6e0" sha1="b36062d2a9683683ffffd3003d5244a185f53280" />
+		<rom name="jbg2.60" offset="0x400000" size="0x200000" crc="aee265fc" sha1="ec420ab30b9b5141162223fc1fbf663ad9f211e6" />
+		</dataarea>
+		<dataarea name="i5000snd" size="0x400000">
+		<rom name="jsn0.11" offset="0x0" size="0x18" crc="e1f726e8" sha1="598d75f3ff9e43ec8ce6131ed37f4345bf2f2d8e" />
+		<rom loadflag="continue" offset="0x0" size="0x3fffe8" />
+		</dataarea>
+		<dataarea name="test" size="0x9000000">
+		<rom loadflag="load16_byte" name="jbg0.40" offset="0x4000001" size="0x200000" crc="89662944" sha1="ca916ba38480fa588af19fc9682603f5195ad6c7" />
+		<rom loadflag="load16_byte" name="jbg1.50" offset="0x6000000" size="0x200000" crc="1fc7f6e0" sha1="b36062d2a9683683ffffd3003d5244a185f53280" />
+		<rom loadflag="load16_byte" name="jbg2.60" offset="0x8000001" size="0x200000" crc="aee265fc" sha1="ec420ab30b9b5141162223fc1fbf663ad9f211e6" />
+		</dataarea>
+	</part>
+</software>

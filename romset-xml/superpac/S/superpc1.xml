@@ -1,0 +1,28 @@
+<software name="superpc1">
+	<description>Super Pac-Man (Super Locksmith sound and gfx hack)</description>
+	<year>2011</year>
+	<publisher>Paul Smith</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="sp1-2.1c" offset="0xc000" size="0x2000" crc="4bb33d9c" sha1="dd87f71b4db090a32a6b791079eedd17580cc741" />
+		<rom name="superpc1.1b" offset="0xe000" size="0x2000" crc="cec50857" sha1="d8470064bf8a334accedcb767f5da05d5dce00a1" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="superpc1.3c" offset="0x0" size="0x1000" crc="1c72ed9e" sha1="31833bd244ff0b61419566eae4f53bdd76a5a0e8" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="superpc1.3f" offset="0x0" size="0x2000" crc="89f07757" sha1="642ca413cf27496322e4840998cdb711e3c682e0" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="superpc1.3m" offset="0x0" size="0x100" crc="e35238c7" sha1="c55bd51a44b4c9899ca65f47ede952ca2714ce8e" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="superpac.4c" offset="0x0" size="0x20" crc="9ce22c46" sha1="d97f53ef4c5ef26659a22ed0de4ce7ef3758c924" />
+		<rom name="superpac.4e" offset="0x20" size="0x100" crc="1253c5c1" sha1="df46a90170e9761d45c90fbd04ef2aa1e8c9944b" />
+		<rom name="superpac.3l" offset="0x120" size="0x100" crc="d4d7026f" sha1="a486573437c54bfb503424574ad82655491e85e1" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="spc-3.1k" offset="0xf000" size="0x1000" crc="04445ddb" sha1="ce7d14963d5ddaefdeaf433a6f82c43cd1611d9b" />
+		</dataarea>
+	</part>
+</software>

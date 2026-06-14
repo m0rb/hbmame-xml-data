@@ -1,0 +1,26 @@
+<software name="mslug5fr" cloneof="mslug5">
+	<description>Metal Slug 5 (Traduction French Edition Rev.1)</description>
+	<year>2006</year>
+	<publisher>Arkatrad</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="268fr.p1" offset="0x0" size="0x100000" crc="63cc3c2d" sha1="b4543c65427d15f784641617dcab53663031a9f3" />
+		<rom loadflag="load16_word_swap" name="268nd.p2" offset="0x100000" size="0x400000" crc="768ee64a" sha1="76a65a69aee749758a2101aabdd44f3404838b54" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="268fr.v1" offset="0x0" size="0x800000" crc="7ff6ca47" sha1="e36c4e6a349dd9fd38d1a36b6760bbd943c2a42f" />
+		<rom name="268fr.v2" offset="0x800000" size="0x800000" crc="696cce3b" sha1="538d4a25befa4ffd25a48df97380469c13980f7a" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="268fr.c1" offset="0x0" size="0x800000" crc="c115bcbd" sha1="241b71cb442844df0f1c7005955c5ae85b95a0b9" />
+		<rom loadflag="load16_byte" name="268fr.c2" offset="0x1" size="0x800000" crc="a95f284f" sha1="db6b18b15f871ac17e88d2eec72b95c8a63be959" />
+		<rom loadflag="load16_byte" name="268hd.c3" offset="0x1000000" size="0x800000" crc="3cda13a0" sha1="5d029c92688384eafd65ad711a2954d0b86a3163" />
+		<rom loadflag="load16_byte" name="268hd.c4" offset="0x1000001" size="0x800000" crc="9c00160d" sha1="c612102f9cd288bba4c245b5855d795e4362b217" />
+		<rom loadflag="load16_byte" name="268fr.c5" offset="0x2000000" size="0x800000" crc="dae4bdba" sha1="c7da602cc59296fd264fd2f97b29bc242340760f" />
+		<rom loadflag="load16_byte" name="268fr.c6" offset="0x2000001" size="0x800000" crc="731a14ce" sha1="2363d3f0f2e2a621051de0db6e465f7b1a387ef9" />
+		<rom loadflag="load16_byte" name="268fr.c7" offset="0x3000000" size="0x800000" crc="bc8296af" sha1="4309d093c09219fb90104d30211c204a2abcf82e" />
+		<rom loadflag="load16_byte" name="268fr.c8" offset="0x3000001" size="0x800000" crc="6fabe6d5" sha1="12c23b85de985b4daba7def1d9d9d9b4c050ab63" />
+		</dataarea>
+	</part>
+</software>

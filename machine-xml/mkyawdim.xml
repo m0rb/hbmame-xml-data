@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="mkyawdim" description="Mkyawdim cartridges">
+<software name="mkyawdim6" cloneof="mk">
+	<description>Mortal Kombat (Yawdim bootleg, set 6)</description>
+	<year>1992</year>
+	<publisher>bootleg (Yawdim)</publisher>
+	<part name="cart">
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="1.u67" offset="0x0" size="0x10000" crc="b58d229e" sha1="3ed14ef650dfa7f9d460611b19e9233a022cbea6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x800000">
+		<rom name="l1_mortal_kombat_game_rom_u-111.u111" offset="0x0" size="0x80000" crc="d17096c4" sha1="01ef390a372c9d94adf138f9543ebb88b89f4c38" />
+		<rom name="l1_mortal_kombat_game_rom_u-112.u112" offset="0x80000" size="0x80000" crc="993bc2e4" sha1="7791edbec2b4b8971a3e790346dd7564ecf16d5c" />
+		<rom name="l1_mortal_kombat_game_rom_u-113.u113" offset="0x100000" size="0x80000" crc="6fb91ede" sha1="a3735b49f93b08c44fbc97e2b5aad394628fbe90" />
+		<rom name="l1_mortal_kombat_game_rom_u-114.u114" offset="0x180000" size="0x80000" crc="ed1ff88a" sha1="6b090b658ee6148af953bd0c9216f37162b6460f" />
+		<rom name="l1_mortal_kombat_game_rom_u-95.u95" offset="0x200000" size="0x80000" crc="a002a155" sha1="3cf7909e92bcd428063596fc5b9953e0000d6eca" />
+		<rom name="l1_mortal_kombat_game_rom_u-96.u96" offset="0x280000" size="0x80000" crc="dcee8492" sha1="a912b74d3b26ebd1b1613cc631080f83ececeaf8" />
+		<rom name="l1_mortal_kombat_game_rom_u-97.u97" offset="0x300000" size="0x80000" crc="de88caef" sha1="a7927b504dc56ca5c9048373977fe5743b0a3f0b" />
+		<rom name="l1_mortal_kombat_game_rom_u-98.u98" offset="0x380000" size="0x80000" crc="37eb01b4" sha1="06092460bd137e08d0f8df8560942ed877d40e09" />
+		<rom name="l1_mortal_kombat_game_rom_u-106.u106" offset="0x400000" size="0x80000" crc="45acaf21" sha1="5edd36c55f4e5d3c74fb85171728ec0a58284b12" />
+		<rom name="l1_mortal_kombat_game_rom_u-107.u107" offset="0x480000" size="0x80000" crc="2a6c10a0" sha1="cc90923c44f2961b945a0fd0f85ecc2ba04af2cb" />
+		<rom name="l1_mortal_kombat_game_rom_u-108.u108" offset="0x500000" size="0x80000" crc="23308979" sha1="0b36788624a1cf0d3f4c895be5ba967b8dfcf85e" />
+		<rom name="l1_mortal_kombat_game_rom_u-109.u109" offset="0x580000" size="0x80000" crc="cafc47bb" sha1="8610af6e52f7089ff4acd850c53ab8b4119e4445" />
+		</dataarea>
+		<dataarea name="oki" size="0x100000">
+		<rom name="2.u59" offset="0x0" size="0x20000" crc="a72ad81e" sha1="7be4285b28755bd48acce670f34d6a7f043dda96" />
+		<rom loadflag="continue" offset="0x40000" size="0x20000" />
+		<rom loadflag="continue" offset="0x80000" size="0x20000" />
+		<rom loadflag="continue" offset="0xc0000" size="0x20000" />
+		<rom name="3.u60" offset="0x20000" size="0x20000" crc="6e68e0b0" sha1="edb7aa6507452ffa5ce7097e3b1855a69542971c" />
+		<rom loadflag="continue" offset="0x60000" size="0x20000" />
+		<rom loadflag="continue" offset="0xa0000" size="0x20000" />
+		<rom loadflag="continue" offset="0xe0000" size="0x20000" />
+		</dataarea>
+		<dataarea name="user1" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="6_4.u25" offset="0x0" size="0x80000" crc="80f30208" sha1="bb6d6565f11b81b797e10708c2dc3bb0352a54fe" />
+		<rom loadflag="load16_byte" name="6_5.u26" offset="0x1" size="0x80000" crc="8a1de184" sha1="1cec85fd589e7f36ad8622cbe96423a3398376ac" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

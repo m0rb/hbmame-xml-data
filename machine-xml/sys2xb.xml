@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="sys2xb" description="Sys2Xb cartridges">
+<software name="wbml01" cloneof="wbml">
+	<description>Wonder Boy in Monster Land (Italian - v0.99)</description>
+	<year>1987</year>
+	<publisher>Michele</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom name="wbml.01" offset="0x20000" size="0x8000" crc="66482638" sha1="887f93015f0effa2d0fa1f1f59082f75ac072221" />
+		<rom loadflag="continue" offset="0x0" size="0x8000" />
+		<rom name="wbml.02it" offset="0x30000" size="0x8000" crc="680f2186" sha1="bb7b43a8d8438ec9dc55f219db284934a57ea81a" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		<rom name="wbml.03" offset="0x38000" size="0x8000" crc="d57ba8aa" sha1="16f095cb78e31af5ce76d36c20fe4c3e0d027aea" />
+		<rom loadflag="continue" offset="0x18000" size="0x8000" />
+		</dataarea>
+		<dataarea name="sprites" size="0x20000">
+		<rom name="epr-11028.87" offset="0x0" size="0x8000" crc="af0b3972" sha1="413825f66b84c7e45aa1855131482abead8f7f3b" />
+		<rom name="epr-11027.86" offset="0x8000" size="0x8000" crc="277d8f1d" sha1="7854673503ed03d276abe971805a11f8c992f6d6" />
+		<rom name="epr-11030.89" offset="0x10000" size="0x8000" crc="f05ffc76" sha1="f3dbb518240f86430840c3d4cda04bac79c20f69" />
+		<rom name="epr-11029.88" offset="0x18000" size="0x8000" crc="cedc9c61" sha1="dbe5744f9b6f2a406b52b910dd4e133db7bce6b2" />
+		</dataarea>
+		<dataarea name="color_proms" size="0x300">
+		<rom name="pr11026.20" offset="0x0" size="0x100" crc="27057298" sha1="654be7abb937bb0720263ee6512e31194662effe" />
+		<rom name="pr11025.14" offset="0x100" size="0x100" crc="41e4d86b" sha1="a86e8bb0a465d01b04410edfbb82eb96f12b909f" />
+		<rom name="pr11024.8" offset="0x200" size="0x100" crc="08d71954" sha1="df045dbfb3d669e4d42fbdba1e7191cd046f7b47" />
+		</dataarea>
+		<dataarea name="lookup_proms" size="0x100">
+		<rom name="pr5317.37" offset="0x0" size="0x100" crc="648350b8" sha1="c7986aa9127ef5b50b845434cb4e81dff9861cd2" />
+		</dataarea>
+		<dataarea name="maincpu:key" size="0x2000">
+		<rom name="317-0043.key" offset="0x0" size="0x2000" crc="e354abfc" sha1="07b0d3c51301ebb25909234b6220a3ed20dbcc7d" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x10000">
+		<rom name="epr-11037.126" offset="0x0" size="0x8000" crc="7a4ee585" sha1="050436106cced5dcbf40a3d94d48202eedddc3ad" />
+		</dataarea>
+		<dataarea name="tiles" size="0x18000">
+		<rom name="wbml.08it" offset="0x0" size="0x8000" crc="bc2846d3" sha1="6777ef6ca5b92600aa6038d773cdd8263639b1cb" />
+		<rom name="wbml.09it" offset="0x8000" size="0x8000" crc="c61fd58e" sha1="f17dba3195e8b3c3d443d696cce63604cdc64a5e" />
+		<rom name="wbml.10it" offset="0x10000" size="0x8000" crc="e0386c02" sha1="bdfa5fa2bbf641730865d74057203e41dcae80fa" />
+		</dataarea>
+	</part>
+</software>
+<software name="wbml02" cloneof="wbml">
+	<description>Wonder Boy in Monster Land (Korean)</description>
+	<year>1987</year>
+	<publisher>Aneue Bannzai</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom name="wbml.01" offset="0x20000" size="0x8000" crc="66482638" sha1="887f93015f0effa2d0fa1f1f59082f75ac072221" />
+		<rom loadflag="continue" offset="0x0" size="0x8000" />
+		<rom name="m-6k.bin" offset="0x30000" size="0x8000" crc="7dd0b45a" sha1="ae715437c225013bade54cf021be708c5145a84f" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		<rom name="m-7.bin" offset="0x38000" size="0x8000" crc="11881703" sha1="b5e4d477158e7653b0fef5a4806be7b4871e917d" />
+		<rom loadflag="continue" offset="0x18000" size="0x8000" />
+		</dataarea>
+		<dataarea name="sprites" size="0x20000">
+		<rom name="epr-11028.87" offset="0x0" size="0x8000" crc="af0b3972" sha1="413825f66b84c7e45aa1855131482abead8f7f3b" />
+		<rom name="epr-11027.86" offset="0x8000" size="0x8000" crc="277d8f1d" sha1="7854673503ed03d276abe971805a11f8c992f6d6" />
+		<rom name="epr-11030.89" offset="0x10000" size="0x8000" crc="f05ffc76" sha1="f3dbb518240f86430840c3d4cda04bac79c20f69" />
+		<rom name="epr-11029.88" offset="0x18000" size="0x8000" crc="cedc9c61" sha1="dbe5744f9b6f2a406b52b910dd4e133db7bce6b2" />
+		</dataarea>
+		<dataarea name="color_proms" size="0x300">
+		<rom name="pr11026.20" offset="0x0" size="0x100" crc="27057298" sha1="654be7abb937bb0720263ee6512e31194662effe" />
+		<rom name="pr11025.14" offset="0x100" size="0x100" crc="41e4d86b" sha1="a86e8bb0a465d01b04410edfbb82eb96f12b909f" />
+		<rom name="pr11024.8" offset="0x200" size="0x100" crc="08d71954" sha1="df045dbfb3d669e4d42fbdba1e7191cd046f7b47" />
+		</dataarea>
+		<dataarea name="lookup_proms" size="0x100">
+		<rom name="pr5317.37" offset="0x0" size="0x100" crc="648350b8" sha1="c7986aa9127ef5b50b845434cb4e81dff9861cd2" />
+		</dataarea>
+		<dataarea name="maincpu:key" size="0x2000">
+		<rom name="317-0043.key" offset="0x0" size="0x2000" crc="e354abfc" sha1="07b0d3c51301ebb25909234b6220a3ed20dbcc7d" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x10000">
+		<rom name="epr-11037.126" offset="0x0" size="0x8000" crc="7a4ee585" sha1="050436106cced5dcbf40a3d94d48202eedddc3ad" />
+		</dataarea>
+		<dataarea name="tiles" size="0x18000">
+		<rom name="epr11034.4k" offset="0x0" size="0x8000" crc="7e631c73" sha1="ef7bc9c8b15083680f8169fa8d322cfbfa7d54ac" />
+		<rom name="epr11035.5k" offset="0x8000" size="0x8000" crc="4c67a9a6" sha1="eac1f97aac3f5b0ce96dd082c7741033caa4b55b" />
+		<rom name="epr11036.6k" offset="0x10000" size="0x8000" crc="0440b0c7" sha1="f0e321dc6c979807852c375c8a6905fd32336dde" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

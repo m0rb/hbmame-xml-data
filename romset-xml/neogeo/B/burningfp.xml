@@ -1,0 +1,30 @@
+<software name="burningfp" cloneof="burningf">
+	<description>Burning Fight (prototype, older)</description>
+	<year>1991</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="018_p1_9397.p1" offset="0x1" size="0x80000" crc="5b4032e7" sha1="55df91dad6f484d3d49c28ab5972700bf71a8662" />
+		<rom loadflag="load16_byte" name="018_p2_e335.p2" offset="0x0" size="0x80000" crc="78762f68" sha1="12170fc6efe75cb5d32624033d3d341032c97548" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x400000">
+		<rom loadflag="load32_byte" name="018_c1_ba06.c11" offset="0x0" size="0x80000" crc="6569018b" sha1="25040e0a9c2b72900100a22a2a41de5f6c339d8a" />
+		<rom loadflag="load32_byte" name="018_c2_d534.c12" offset="0x2" size="0x80000" crc="6949b501" sha1="d8ee48837faff6cc849046ee8757b2b94d440303" />
+		<rom loadflag="load32_byte" name="018_c3_9d70.c13" offset="0x1" size="0x80000" crc="410f653b" sha1="ce94667721baa7b2c318fc268e3bb9209671c9f5" />
+		<rom loadflag="load32_byte" name="018_c4_bf9d.c14" offset="0x3" size="0x80000" crc="d43bf2a5" sha1="c27985d8973611d02570f469a0d8cb4f5b63b614" />
+		<rom loadflag="load32_byte" name="018_c5_ac9d.c15" offset="0x200000" size="0x80000" crc="837d09d3" sha1="d3b06931fca6123604549599544b04529ef34c53" />
+		<rom loadflag="load32_byte" name="018_c6_d2a5.c16" offset="0x200002" size="0x80000" crc="5fee51e7" sha1="835c632fa12a1d5b4104cd80b8f686ac80b314a1" />
+		<rom loadflag="load32_byte" name="018_c7_d568.c17" offset="0x200001" size="0x80000" crc="0f3f0823" sha1="ec1d681c1795de43d20f30f85956e2473ec39c95" />
+		<rom loadflag="load32_byte" name="018_c8_d256.c18" offset="0x200003" size="0x80000" crc="67cc9e34" sha1="dc72a464c1456a4d2f7b992b416a984fb7885e99" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="018_v11_56ac.v11" offset="0x0" size="0x80000" crc="dc07ea3c" sha1="c3e71aaec44ead7ddc581565d16b90030e6db5fd" />
+		<rom name="018_v12_db95.v12" offset="0x80000" size="0x80000" crc="f1ae637c" sha1="02a4c7d4a544350a314ab7b26d8c9d3baa8f5778" />
+		<rom name="018_v21_98dd.v21" offset="0x100000" size="0x80000" crc="9f3b4eda" sha1="7f516923d04daa483b4b99c9babba66505931a34" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcmb" size="0x80000">
+		</dataarea>
+	</part>
+</software>

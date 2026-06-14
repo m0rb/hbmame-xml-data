@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="baddudes" description="Baddudes cartridges">
+<software name="baddudef">
+	<description>Bad Dudes vs. Dragonninja (French, 2017-10-29)</description>
+	<year>2007</year>
+	<publisher>Arkatrad</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x60000">
+		<rom loadflag="load16_byte" name="baddudef.4" offset="0x0" size="0x10000" crc="1a0667ae" sha1="a530bfe91aa8b489ef7c1368b81983e760d0d993" />
+		<rom loadflag="load16_byte" name="baddudef.1" offset="0x1" size="0x10000" crc="14d71614" sha1="282fe93c04791e48a963ee78e69753e54c51e779" />
+		<rom loadflag="load16_byte" name="ei06.6c" offset="0x40000" size="0x10000" crc="3ff8da57" sha1="eea8125a3eac33d76d22e72b69633eaae138efe5" />
+		<rom loadflag="load16_byte" name="ei03.6a" offset="0x40001" size="0x10000" crc="f8f2bd94" sha1="622c66fea00cabb2cce16bf621b07d38a660708d" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="ei07.8a" offset="0x8000" size="0x8000" crc="9fb1ef4b" sha1="f4dd0773be93c2ad8b0faacd12939c531b5aa130" />
+		</dataarea>
+		<dataarea name="mcu" size="0x1000">
+		<rom name="ei31.9a" offset="0x0" size="0x1000" crc="2a8745d2" sha1="f15ab17b1e7836d603135f5c66ca2e3d72f6e4a2" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x10000">
+		<rom name="ei25.15h" offset="0x0" size="0x8000" crc="bcf59a69" sha1="486727e19c12ea55b47e2ef773d0d0471cf50083" />
+		<rom name="baddudef.26" offset="0x8000" size="0x8000" crc="bb8d93d0" sha1="64a462c86cf270b3aa3e359b0f423a816e9dafb6" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x40000">
+		<rom name="ei18.14d" offset="0x0" size="0x10000" crc="05cfc3e5" sha1="a0163921c77dc9706463a402c3dd45ec4341cd21" />
+		<rom name="ei20.17d" offset="0x10000" size="0x10000" crc="e11e988f" sha1="0c59f0d8d1abe414c7e1ebd49d454179fed2cd00" />
+		<rom name="ei22.14f" offset="0x20000" size="0x10000" crc="b893d880" sha1="99e228174677f2e3e96154f77bfa9bf0f1c0a6a5" />
+		<rom name="ei24.17f" offset="0x30000" size="0x10000" crc="6f226dda" sha1="65ebb16a292c57d49c135fce7ed7537146226eb5" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x20000">
+		<rom name="ei30.9h" offset="0x8000" size="0x8000" crc="982da0d1" sha1="d819a587905624d793988f2ea726783da527d9f2" />
+		<rom loadflag="continue" offset="0x0" size="0x8000" />
+		<rom name="ei28.9f" offset="0x18000" size="0x8000" crc="f01ebb3b" sha1="1686690cb0c87d9e687b2abb4896cf285ab8378f" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x80000">
+		<rom name="ei15.16c" offset="0x0" size="0x10000" crc="a38a7d30" sha1="5cb1fb97605829fc733c79a7e169fa52adc6863b" />
+		<rom name="ei16.17c" offset="0x10000" size="0x8000" crc="17e42633" sha1="405f5296a741901677cca978a1b287d894eb1e54" />
+		<rom name="ei11.16a" offset="0x20000" size="0x10000" crc="3a77326c" sha1="4de81752329cde6210a9c250a9f8ebe3dad9fe92" />
+		<rom name="ei12.17a" offset="0x30000" size="0x8000" crc="fea2a134" sha1="525dd5f48993db1fe1e3c095442884178f75e8e0" />
+		<rom name="ei13.13c" offset="0x40000" size="0x10000" crc="e5ae2751" sha1="4e4a3c68b11e9b0c8da70121b23296128063d4e9" />
+		<rom name="ei14.14c" offset="0x50000" size="0x8000" crc="e83c760a" sha1="d08db381658b8b3288c5eaa9048a906126e0f712" />
+		<rom name="ei09.13a" offset="0x60000" size="0x10000" crc="6901e628" sha1="1162c8cee20450780774cad54a9af40ebf0f0826" />
+		<rom name="ei10.14a" offset="0x70000" size="0x8000" crc="eeee8a1a" sha1="2bf8378ff38f6a7c7cbd4cbd489de25cb1f0fe71" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="ei08.2c" offset="0x0" size="0x10000" crc="3c87463e" sha1="f17c98507b562e91e9b27599614b3249fe68ff7a" />
+		</dataarea>
+	</part>
+</software>
+<software name="decodemo">
+	<description>Demo - Data East</description>
+	<year>1996</year>
+	<publisher>Charles Doty</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x60000">
+		<rom loadflag="load16_byte" name="decodemo.4" offset="0x0" size="0x10000" crc="7cb53ab2" sha1="c06f8173f5b27b647b186e1c3a198ec22dab4950" />
+		<rom loadflag="load16_byte" name="decodemo.1" offset="0x1" size="0x10000" crc="920dd0bf" sha1="e69e60121812716b55f4e9c4b3f4993171c5296a" />
+		<rom loadflag="load16_byte" name="decodemo.6" offset="0x40000" size="0x10000" crc="d7978eeb" sha1="1adc95bebe9eea8c112d40cd04ab7a8d75c4f961" />
+		<rom loadflag="load16_byte" name="decodemo.3" offset="0x40001" size="0x10000" crc="d7978eeb" sha1="1adc95bebe9eea8c112d40cd04ab7a8d75c4f961" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="ei07.8a" offset="0x8000" size="0x8000" crc="9fb1ef4b" sha1="f4dd0773be93c2ad8b0faacd12939c531b5aa130" />
+		</dataarea>
+		<dataarea name="mcu" size="0x1000">
+		<rom name="ei31.9a" offset="0x0" size="0x1000" crc="2a8745d2" sha1="f15ab17b1e7836d603135f5c66ca2e3d72f6e4a2" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x10000">
+		<rom name="decodemo.25" offset="0x0" size="0x8000" crc="011ffca6" sha1="5188431849b4613152fd7bdba6a3ff0a4fd6424b" />
+		<rom name="decodemo.26" offset="0x8000" size="0x8000" crc="14b56f44" sha1="66c294b27400d3f3cafd7b1f633681df7195a14b" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x40000">
+		<rom name="decodemo.18" offset="0x0" size="0x10000" crc="53ac4058" sha1="b6bd668085a6f2c21c66f38955e27ab384a5ebf1" />
+		<rom name="decodemo.20" offset="0x10000" size="0x10000" crc="64f1ca83" sha1="a8922226dc4f67873c0eb32a0da5e920b9e08e49" />
+		<rom name="decodemo.22" offset="0x20000" size="0x10000" crc="e93c5aef" sha1="bd31b2418a3e3c76c0018d43e9b106895218dae7" />
+		<rom name="decodemo.24" offset="0x30000" size="0x10000" crc="ae2556dc" sha1="ffcc1f7e8ec25ba35d20cedb6cb4010ea9ff409d" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x20000">
+		<rom name="decodemo.30" offset="0x8000" size="0x8000" crc="9b02b8f8" sha1="665764ac534ad370545f33d210846e69db558f6f" />
+		<rom loadflag="continue" offset="0x0" size="0x8000" />
+		<rom name="decodemo.28" offset="0x18000" size="0x8000" crc="596b92f2" sha1="a15f4435a3dcfa7d6a45610fccb8607ae9b8fa19" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x80000">
+		<rom name="decodemo.15" offset="0x0" size="0x10000" crc="4a051829" sha1="ed560a3ffb9b1d83c3291145e0e938016dd1fa5a" />
+		<rom name="decodemo.11" offset="0x20000" size="0x10000" crc="d7978eeb" sha1="1adc95bebe9eea8c112d40cd04ab7a8d75c4f961" />
+		<rom name="decodemo.13" offset="0x40000" size="0x10000" crc="a58d1d9e" sha1="ebd22872e0230da23d0e63ef7fbe2b5988cd93bd" />
+		<rom name="decodemo.9" offset="0x60000" size="0x10000" crc="4d1de58f" sha1="1979fb6d9cdc25033c75fd3f0c30fb56e040ddc0" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="ei08.2c" offset="0x0" size="0x10000" crc="3c87463e" sha1="f17c98507b562e91e9b27599614b3249fe68ff7a" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

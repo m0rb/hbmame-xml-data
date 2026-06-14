@@ -1,0 +1,27 @@
+<software name="pacpen" cloneof="pengo">
+	<description>Pacman on Pengo Hardware</description>
+	<year>2016</year>
+	<publisher>Andrew Hannay</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacpen.u8" offset="0x0" size="0x1000" crc="59959af1" sha1="c528a7895338806977f2d9c76da91f67b0f78aed" />
+		<rom name="pacpen.u7" offset="0x1000" size="0x1000" crc="3ed59df1" sha1="561725f5970954cccf938330fd9f48ad0cb1829b" />
+		<rom name="pacpen.u15" offset="0x2000" size="0x1000" crc="d0c8dcc8" sha1="3a6829d12d7ef6f09d5e1afa5e0e4ef9d0605aa1" />
+		<rom name="pacpen.u14" offset="0x3000" size="0x1000" crc="39066ad9" sha1="9789a111b94a3c5aabf910c72c146f71df59f316" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="pacpen.u92" offset="0x0" size="0x1000" crc="2f0b5176" sha1="a6a51d4545329999a5f42ae790bfb3a894429fee" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom name="pacpen.105" offset="0x1000" size="0x1000" crc="6ba0078e" sha1="a6e14aa373ef22fe732c335fb1ad6c48fec92530" />
+		<rom loadflag="continue" offset="0x3000" size="0x1000" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="pr1635.ic51" offset="0x0" size="0x100" crc="c29dea27" sha1="563c9770028fe39188e62630711589d6ed242a66" />
+		<rom name="pr1636.ic70" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x420">
+		<rom name="pr1633.ic78" offset="0x0" size="0x20" crc="3a5844ec" sha1="680eab0e1204c9b74adc11588461651b474021bb" />
+		<rom name="pr1634.ic88" offset="0x20" size="0x400" crc="766b139b" sha1="3fcd66610fcaee814953a115bf5e04788923181f" />
+		</dataarea>
+	</part>
+</software>

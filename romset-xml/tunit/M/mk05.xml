@@ -1,0 +1,32 @@
+<software name="mk05" cloneof="mk">
+	<description>Mortal Kombat (Turbo Endurance)</description>
+	<year>2012</year>
+	<publisher>Zenomorp</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="mk05.uj12" offset="0x0" size="0x80000" crc="53069455" sha1="f86da6036844b3e996fa9b3769e4f9979a920b28" />
+		<rom loadflag="load16_byte" name="mk05.ug12" offset="0x1" size="0x80000" crc="45bed5a1" sha1="dba2c21878925afdcaf61520c18ebefd5e9617db" />
+		</dataarea>
+		<dataarea name="adpcm:cpu" size="0x50000">
+		<rom name="sl1_mortal_kombat_u3_sound_rom.u3" offset="0x10000" size="0x40000" crc="c615844c" sha1="5732f9053a5f73b0cc3b0166d7dc4430829d5bc7" />
+		</dataarea>
+		<dataarea name="adpcm:oki" size="0x100000">
+		<rom name="sl1_mortal_kombat_u12_sound_rom.u12" offset="0x0" size="0x40000" crc="258bd7f9" sha1="463890b23f17350fb9b8a85897b0777c45bc2d54" />
+		<rom name="sl1_mortal_kombat_u13_sound_rom.u13" offset="0x80000" size="0x40000" crc="7b7ec3b6" sha1="6eec1b90d4a4855f34a7ebfbf93f3358d5627db4" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug14_game_rom.ug14" offset="0x0" size="0x80000" crc="9e00834e" sha1="2b97b63f52ba1dba6af6ae56c223519a52b2ab9d" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj14_game_rom.uj14" offset="0x1" size="0x80000" crc="f4b0aaa7" sha1="4cc6ee34c89e3cde325ad24b29511f70ae6a5a72" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug19_game_rom.ug19" offset="0x2" size="0x80000" crc="2d8c7ba1" sha1="f891d6eb618dbf3e77f02e0f93da216e20571905" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj19_game_rom.uj19" offset="0x3" size="0x80000" crc="33b9b7a4" sha1="e8ceca4c049e1f55d480a03ff793b595bd04d344" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug16_game_rom.ug16" offset="0x200000" size="0x80000" crc="52c9d1e5" sha1="7b1880fca0a11544782b70365c7dd96381ac48e7" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj16_game_rom.uj16" offset="0x200001" size="0x80000" crc="c94c58cf" sha1="974d75667eee779497325d5be8df937f15417edf" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug20_game_rom.ug20" offset="0x200002" size="0x80000" crc="2f7e55d3" sha1="bda6892ee6fcb46959e4d0892bbe7d9fc6072dd3" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj20_game_rom.uj20" offset="0x200003" size="0x80000" crc="eae96df0" sha1="b40532312ba61e4065abfd733dd0c93eecad48e9" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug17_game_rom.ug17" offset="0x400000" size="0x80000" crc="e34fe253" sha1="6b010bee795c1770297c9557ded1fe83425857f2" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj17_game_rom.uj17" offset="0x400001" size="0x80000" crc="a56e12f5" sha1="5db637c4710990cd06bb0069714b19621532e431" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_ug22_game_rom.ug22" offset="0x400002" size="0x80000" crc="b537bb4e" sha1="05a447deee2e89b49bdb3ca2161a021d7ec5f11e" />
+		<rom loadflag="load32_byte" name="l1_mortal_kombat_t-unit_uj22_game_rom.uj22" offset="0x400003" size="0x80000" crc="5e12523b" sha1="468f93ef9bb6addb45c1c939d24b6511f255426a" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,20 @@
+<software name="ddtods02" cloneof="ddtod">
+	<description>Dungeons &amp; Dragons: Tower of Doom (940412E, Plus)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c50s02.p1" offset="0x0" size="0x280000" crc="2b2fcbb7" sha1="07f790991fbcf60df6cfdafc3ffc957932ad8029" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c50.m1" offset="0x0" size="0x8000" crc="3f5e2424" sha1="4aa744576bc6752c43a90a27a816ebd90076b248" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c50.q1" offset="0x0" size="0x200000" crc="0c499b67" sha1="a8ebd8a1cd6dece8344b7cb0439d85843fb97616" />
+		<rom loadflag="load16_word_swap" name="c50.q2" offset="0x200000" size="0x200000" crc="2f0b5a4e" sha1="8d1ebbb811aa469b0f0d29d719d2b9af28fb63a2" />
+		</dataarea>
+	</part>
+</software>

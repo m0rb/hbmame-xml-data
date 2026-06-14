@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="nomcu" description="Nomcu cartridges">
+<software name="adcanoe">
+	<description>Adventure Canoe</description>
+	<year>1982</year>
+	<publisher>Taito Corporation</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x12000">
+		<rom name="ac_12.ic69" offset="0x0" size="0x1000" crc="4179cdc7" sha1="a741ee864fd4e96ede4a3f55d6dc29cc2ff83cb6" />
+		<rom name="ac_13.ic68" offset="0x1000" size="0x1000" crc="17d97740" sha1="e7e7449e08ec1ca6dbea43596387ecf83187f5bd" />
+		<rom name="ac_14.ic67" offset="0x2000" size="0x1000" crc="4b0c895e" sha1="11e82391fcd88ad327bb82d24034ac3a171c291b" />
+		<rom name="ac_15.ic66" offset="0x3000" size="0x1000" crc="262f4ce2" sha1="eaf3c6fbede42ff465574f452e0560491c01cf70" />
+		<rom name="ac_16.ic65" offset="0x4000" size="0x1000" crc="e68c7053" sha1="3d05e899d1dcb01e971917945f37c557ba05fa86" />
+		<rom name="ac_17.ic64" offset="0x5000" size="0x1000" crc="0bdd9efe" sha1="69471fd0de72f7b4dc950239dbed79dc4862c3ee" />
+		<rom name="ac_18.ic55" offset="0x6000" size="0x1000" crc="959a143b" sha1="15d98c0bd1bb8306a67f2651f85ddd874ef1b3c9" />
+		<rom name="ac_19.ic54" offset="0x7000" size="0x1000" crc="9e7693f6" sha1="2f02e2b2b84fb94a5c661514a70dde38d63a0d1d" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="ac_09.ic70" offset="0x0" size="0x1000" crc="bed871c5" sha1="4476b791193b99adf4c130486151775dab6a8bf9" />
+		</dataarea>
+		<dataarea name="gfx" size="0x8000">
+		<rom name="ac_20.ic1" offset="0x0" size="0x1000" crc="21b49aae" sha1="e24c77898abd47df510e82c2ef29cb2e37fe4b03" />
+		<rom name="ac_21.ic2" offset="0x1000" size="0x1000" crc="d7efd8f7" sha1="6f1a371dd34eda4b0e1c9b4c9377471cd6edf138" />
+		<rom name="ac_22.ic3" offset="0x2000" size="0x1000" crc="44290adf" sha1="8455bc6ea3c9471048d1fbeb2940672f5f4a4de9" />
+		<rom name="ac_23.ic4" offset="0x3000" size="0x1000" crc="011daec9" sha1="067e49afcb8ac1295dfee34327eb118488ff9d26" />
+		<rom name="ac_24.ic5" offset="0x4000" size="0x1000" crc="42943c3d" sha1="e4c63d8e8d21e4e3f677f4024e759636be1da451" />
+		</dataarea>
+		<dataarea name="proms" size="0x100">
+		<rom name="eb16.22" offset="0x0" size="0x100" crc="b833b5ea" sha1="d233f1bf8a3e6cd876853ffd721b9b64c61c9047" />
+		</dataarea>
+	</part>
+</software>
+<software name="alpine01" cloneof="alpine">
+	<description>Alpine Ski (Chinese)</description>
+	<year>1982</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x12000">
+		<rom name="s01.rh16.069" offset="0x0" size="0x1000" crc="9d859b68" sha1="caa672e29a7a3fd595fb3be3cffd2e2f48ddc239" />
+		<rom name="s01.rh17.068" offset="0x1000" size="0x1000" crc="2dfd6b46" sha1="7d65e87173b6fabbf1525223fea1279923286b38" />
+		<rom name="rh18.067" offset="0x2000" size="0x1000" crc="753bdd87" sha1="37b97dd4a5d53df9a86593fd0a53c95475fa09d0" />
+		<rom name="rh19.066" offset="0x3000" size="0x1000" crc="3efb3fcd" sha1="29fb6405ced78662c4d98deeac5593d7bc42d954" />
+		<rom name="s01.rh20.065" offset="0x4000" size="0x1000" crc="8c51030e" sha1="676c1a79420dc9d707335b22a50b69fc7a1004b8" />
+		<rom name="rh21.064" offset="0x5000" size="0x1000" crc="74109145" sha1="728714ec24962da1c54fc35dc3688d555a4ad101" />
+		<rom name="rh22.055" offset="0x6000" size="0x1000" crc="efa82a57" sha1="b9b275014572c4c67558516d0c3c36d01e84e9ef" />
+		<rom name="rh23.054" offset="0x7000" size="0x1000" crc="77c25acf" sha1="a48bf7044afa7388f68e05fdb2e63c2b04945462" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="rh13.070" offset="0x0" size="0x1000" crc="dcad1794" sha1="1d5479f10cdcc437241bb17c22204fb3ee60f8cb" />
+		</dataarea>
+		<dataarea name="gfx" size="0x8000">
+		<rom name="s01.rh24.001" offset="0x0" size="0x1000" crc="d8f21891" sha1="f89934ae12f3361aa5cd96d55fee53473b97149f" />
+		<rom name="s01.rh25.002" offset="0x1000" size="0x1000" crc="5b528f71" sha1="abd5cac0a2eb3bc068e890b287cf0e348d8e7df9" />
+		<rom name="rh26.003" offset="0x2000" size="0x1000" crc="13da2a9b" sha1="e3dd30a1036ec81b3867dc1c0d20449422d50c31" />
+		<rom name="rh27.004" offset="0x3000" size="0x1000" crc="425b52b0" sha1="1a3046a7d12ad8107750abfb8a801cf9cd372d0f" />
+		</dataarea>
+		<dataarea name="proms" size="0x100">
+		<rom name="eb16.22" offset="0x0" size="0x100" crc="b833b5ea" sha1="d233f1bf8a3e6cd876853ffd721b9b64c61c9047" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

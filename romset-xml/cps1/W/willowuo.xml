@@ -1,0 +1,27 @@
+<software name="willowuo" cloneof="willow">
+	<description>Willow (USA Old Ver.)</description>
+	<year>1989</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c05u.p1" offset="0x0" size="0x20000" crc="d604dbb1" sha1="b5d78871011ff11a67f1a0cad147cd4de8d67f35" />
+		<rom loadflag="load16_byte" name="c05uo.p2" offset="0x1" size="0x20000" crc="daee72fe" sha1="2ec62f44394fac2887821881f56b6f24d05234b3" />
+		<rom loadflag="load16_byte" name="c05.p3" offset="0x40000" size="0x20000" crc="0eb48a83" sha1="28c40c4b5d767f88922cd899e948abf11a85a864" />
+		<rom loadflag="load16_byte" name="c05.p4" offset="0x40001" size="0x20000" crc="36100209" sha1="63c9338e71dba8b52daffba50b4bca31aaa10d9e" />
+		<rom loadflag="load16_word_swap" name="c05.p5" offset="0x80000" size="0x80000" crc="dfd9f643" sha1="9c760c30af593a87e7fd39fb213a4c73c68ca440" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c05.m1" offset="0x0" size="0x8000" crc="f6b3d060" sha1="0ed2e2f64ba53ba2c371b66ab1e52e40b16d8baf" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="willow.key" offset="0x0" size="0x80" crc="3bb45cf7" sha1="246e8f73a3d74c00b8022b462326b348278f6a6d" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c05.v1" offset="0x0" size="0x20000" crc="bde23d4d" sha1="d1fee2f99c858dfb07edcd600da491c7b656afe0" />
+		<rom name="c05.v2" offset="0x20000" size="0x20000" crc="683898f5" sha1="316a77b663d78c8b9ff6d85756cb05aaaeef4003" />
+		</dataarea>
+	</part>
+</software>

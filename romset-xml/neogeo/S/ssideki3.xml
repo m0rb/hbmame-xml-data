@@ -1,0 +1,26 @@
+<software name="ssideki3">
+	<description>Super Sidekicks 3 - The Next Glory / Tokuten Ou 3 - Eikou e no Michi</description>
+	<year>1995</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="081-p1.p1" offset="0x100000" size="0x100000" crc="6bc27a3d" sha1="94692abe7343f9204a557acae4ab74d0af511ca3" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0xc00000">
+		<rom loadflag="load16_byte" name="081-c1.c1" offset="0x0" size="0x200000" crc="1fb68ebe" sha1="abd9dbe7b7cbe0b6cd1d87e53c6bdc6edeccf83c" />
+		<rom loadflag="load16_byte" name="081-c2.c2" offset="0x1" size="0x200000" crc="b28d928f" sha1="9f05148e3e1e94339752658c066f47f133db8fbf" />
+		<rom loadflag="load16_byte" name="081-c3.c3" offset="0x400000" size="0x200000" crc="3b2572e8" sha1="41aba1554bf59d4e5d5814249eaa0d531449e1de" />
+		<rom loadflag="load16_byte" name="081-c4.c4" offset="0x400001" size="0x200000" crc="47d26a7c" sha1="591ef24a3d381163c5da80fa64e6883b8ea9abfb" />
+		<rom loadflag="load16_byte" name="081-c5.c5" offset="0x800000" size="0x200000" crc="17d42f0d" sha1="7de7765bf43d390c50b2f59c2288502a7121d086" />
+		<rom loadflag="load16_byte" name="081-c6.c6" offset="0x800001" size="0x200000" crc="6b53fb75" sha1="fadf7a12661d83ae35d9258aa4947969d51c08b8" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x600000">
+		<rom name="081-v1.v1" offset="0x0" size="0x200000" crc="201fa1e1" sha1="9c27cc1b1d075223ed4a90dd02571d09a2f0d076" />
+		<rom name="081-v2.v2" offset="0x200000" size="0x200000" crc="acf29d96" sha1="5426985c33aea2efc8ff774b59d34d8b03bd9a85" />
+		<rom name="081-v3.v3" offset="0x400000" size="0x200000" crc="e524e415" sha1="8733e1b63471381b16c2b7c64b909745d99c8925" />
+		</dataarea>
+	</part>
+</software>

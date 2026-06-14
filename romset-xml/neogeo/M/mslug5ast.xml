@@ -1,0 +1,20 @@
+<software name="mslug5ast">
+	<description>Metal Slug Asteroids</description>
+	<year>2022</year>
+	<publisher>CB, Willnie</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load32_word_swap" name="5555.p1" offset="0x0" size="0x400000" crc="1e0506cf" sha1="f1a20f1f0fc3fd74dd5d258eaf75965eb2b4cd91" />
+		<rom loadflag="load32_word_swap" name="5555.p2" offset="0x2" size="0x400000" crc="894cd3dd" sha1="553f90fce8c04940892bd797dc4f1dddf7276c81" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="5555.v1" offset="0x0" size="0x800000" crc="5d904213" sha1="62bf1a832c14203ce913f6ac3dc5df75d141155a" />
+		<rom name="5555.v2" offset="0x800000" size="0x800000" crc="97cee550" sha1="b4429e71847ead15b146754f35023efa276253a7" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="5555.c1" offset="0x0" size="0x800000" crc="92a89586" sha1="9d6dca9fd73cdd6d382d26708c632ec01654c050" />
+		<rom loadflag="load16_byte" name="5555.c2" offset="0x1" size="0x800000" crc="18d14a71" sha1="95e7518091fe5600bd5fb5c90fcec22670bf8910" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,22 @@
+<software name="ncommand">
+	<description>Ninja Commando</description>
+	<year>1992</year>
+	<publisher>Alpha Denshi Co.</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="050-p1.p1" offset="0x0" size="0x100000" crc="4e097c40" sha1="43311a7ca14a14dcd4a99d8576a12e897b078643" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="050-c1.c1" offset="0x0" size="0x100000" crc="87421a0a" sha1="1d8faaf03778f7c5b062554d7333bbd3f0ca12ad" />
+		<rom loadflag="load16_byte" name="050-c2.c2" offset="0x1" size="0x100000" crc="c4cf5548" sha1="ef9eca5aeff9dda2209a050c2af00ed8979ae2bc" />
+		<rom loadflag="load16_byte" name="050-c3.c3" offset="0x200000" size="0x100000" crc="03422c1e" sha1="920e5015aebe2ffc5ce43a52365c7f0a705f3b9e" />
+		<rom loadflag="load16_byte" name="050-c4.c4" offset="0x200001" size="0x100000" crc="0845eadb" sha1="3c71a02bf0e07a5381846bb6d75bbe7dd546adea" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x180000">
+		<rom name="050-v1.v1" offset="0x0" size="0x100000" crc="23c3ab42" sha1="b6c59bb180f1aa34c95f3ec923f3aafb689d57b0" />
+		<rom name="050-v2.v2" offset="0x100000" size="0x80000" crc="80b8a984" sha1="950cf0e78ceffa4037663f1086fbbc88588f49f2" />
+		</dataarea>
+	</part>
+</software>

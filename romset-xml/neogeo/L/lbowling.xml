@@ -1,0 +1,26 @@
+<software name="lbowling">
+	<description>League Bowling (NGM-019 ~ NGH-019)</description>
+	<year>1990</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="mcu" size="0x1000">
+		<rom name="hd6301v1p.com" offset="0x0" size="0x1000" />
+		</dataarea>
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="019-p1.p1" offset="0x0" size="0x80000" crc="a2de8445" sha1="893d7ae72b4644123469de143fa35fac1cbcd61e" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="019-c1.c1" offset="0x0" size="0x80000" crc="4ccdef18" sha1="5011e30ec235d0b0a5a513a11d4275777e61acdb" />
+		<rom loadflag="load16_byte" name="019-c2.c2" offset="0x1" size="0x80000" crc="d4dd0802" sha1="82069752028c118d42384a95befde45844f0f247" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x100000">
+		<rom name="019-v11.v11" offset="0x0" size="0x80000" crc="0fb74872" sha1="38c555926c77576d63472bc075210c42e9ce13a3" />
+		<rom name="019-v12.v12" offset="0x80000" size="0x80000" crc="029faa57" sha1="7bbaa87e38929ab1e32df5f6a2ec0fd5001e7cdb" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcmb" size="0x80000">
+		<rom name="019-v21.v21" offset="0x0" size="0x80000" crc="2efd5ada" sha1="8ba70f5f665d566824333075227d9bce1253b8d8" />
+		</dataarea>
+	</part>
+</software>

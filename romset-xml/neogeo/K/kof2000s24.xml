@@ -1,0 +1,29 @@
+<software name="kof2000s24" cloneof="kof2000">
+	<description>Kof2000 (Half Transparency Life Bar v2)</description>
+	<year>2000</year>
+	<publisher>oak2003</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x900000">
+		<rom loadflag="load16_word_swap" name="neo-sma" offset="0xc0000" size="0x40000" crc="71c6e6bb" sha1="1bd29ded4c6b29780db8e8b772c452189699ca89" />
+		<rom loadflag="load16_word_swap" name="257.p1" offset="0x100000" size="0x400000" crc="60947b4c" sha1="5faa0a7ac7734d6c8e276589bd12dd574264647d" />
+		<rom loadflag="load16_word_swap" name="257.p2" offset="0x500000" size="0x400000" crc="1b7ec415" sha1="f19fa44e9ee5b5a6eb4a051349d6bc4acc3bbbdb" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="257.v1" offset="0x0" size="0x400000" crc="17cde847" sha1="4bcc0205b70dc6d9216b29025450c9c5b08cb65d" />
+		<rom name="257.v2" offset="0x400000" size="0x400000" crc="1afb20ff" sha1="57dfd2de058139345ff2b744a225790baaecd5a2" />
+		<rom name="257.v3" offset="0x800000" size="0x400000" crc="4605036a" sha1="51b228a0600d38a6ec37aec4822879ec3b0ee106" />
+		<rom name="257.v4" offset="0xc00000" size="0x400000" crc="764bbd6b" sha1="df23c09ca6cf7d0ae5e11ff16e30c159725106b3" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="257s24.c1" offset="0x0" size="0x800000" crc="b494d0e0" sha1="70798c0087a951b621daa804ac13691e7a61b881" />
+		<rom loadflag="load16_byte" name="257s24.c2" offset="0x1" size="0x800000" crc="e11d3124" sha1="aadc733196542403ca98cf0ffa3817f502a42efc" />
+		<rom loadflag="load16_byte" name="257s24.c3" offset="0x1000000" size="0x800000" crc="b7dfd8c0" sha1="d6439d2d0cea7648f448a0625a8d805865bf4a0f" />
+		<rom loadflag="load16_byte" name="257s24.c4" offset="0x1000001" size="0x800000" crc="9dd7f0cd" sha1="0b52daf586bfd4dda9ba2855e3074b19417cae16" />
+		<rom loadflag="load16_byte" name="257s24.c5" offset="0x2000000" size="0x800000" crc="31782782" sha1="d20232275f899022065a05236979c27077c93c78" />
+		<rom loadflag="load16_byte" name="257s24.c6" offset="0x2000001" size="0x800000" crc="35eb669b" sha1="8fe7ba40eb2e639df2191ebb90b03ff62a268308" />
+		<rom loadflag="load16_byte" name="257s24.c7" offset="0x3000000" size="0x800000" crc="fe3d83fc" sha1="f02c9831212122b9a75c7979d124d6af10cdce97" />
+		<rom loadflag="load16_byte" name="257s24.c8" offset="0x3000001" size="0x800000" crc="3689c150" sha1="97c0aa7db3bbd63c384de4d1a5542b18bedd36cd" />
+		</dataarea>
+	</part>
+</software>

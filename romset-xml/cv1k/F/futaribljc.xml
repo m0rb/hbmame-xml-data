@@ -1,0 +1,17 @@
+<software name="futaribljc" cloneof="futaribl">
+	<description>Mushihime-Sama Futari Black Label (2007-12-11 BLACK LABEL VER - ORIG COLOR)</description>
+	<year>2022</year>
+	<publisher>ArcCabView</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="futariblk_u4" offset="0x0" size="0x200000" crc="b9467b6d" sha1="64782807fe69acb4ae028e36c5c689d8bd9b7857" />
+		</dataarea>
+		<dataarea name="game" size="0x8400000">
+		<rom name="futariblkc_u2" offset="0x0" size="0x8400000" crc="299b9bac" sha1="7cd160b17ed2931978143341c997bf402debc48b" />
+		</dataarea>
+		<dataarea name="ymz770" size="0x800000">
+		<rom loadflag="load16_word_swap" name="u23" offset="0x0" size="0x400000" crc="39f1e1f4" sha1="53d12f59a56df35c705408c76e6e02118da656f1" />
+		<rom loadflag="load16_word_swap" name="u24" offset="0x400000" size="0x400000" crc="c631a766" sha1="8bb6934a2f5b8a9841c3dcf85192b1743773dd8b" />
+		</dataarea>
+	</part>
+</software>

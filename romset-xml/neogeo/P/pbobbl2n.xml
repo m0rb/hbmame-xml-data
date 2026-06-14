@@ -1,0 +1,22 @@
+<software name="pbobbl2n">
+	<description>Puzzle Bobble 2 / Bust-A-Move Again (Neo-Geo)</description>
+	<year>1999</year>
+	<publisher>Taito (SNK license)</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="248-p1.p1" offset="0x0" size="0x100000" crc="9d6c0754" sha1="95c70c2d51fc4de01e768e03cc800a850aaad5dc" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0xa00000">
+		<rom loadflag="load16_byte" name="248-c1.c1" offset="0x0" size="0x400000" crc="d9115327" sha1="a49aa836a902326cfe785428e1699fefcf8566d4" />
+		<rom loadflag="load16_byte" name="248-c2.c2" offset="0x1" size="0x400000" crc="77f9fdac" sha1="4642d71d32b6a05dc8bfa0f95c936a77c7cef05e" />
+		<rom loadflag="load16_byte" name="248-c3.c3" offset="0x800000" size="0x100000" crc="8890bf7c" sha1="a52f6bafd60e72003bfe38c80c1dde24b4983b2a" />
+		<rom loadflag="load16_byte" name="248-c4.c4" offset="0x800001" size="0x100000" crc="8efead3f" sha1="f577d2f7c6f850b3d100c36947ad15e33dfa0bed" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x800000">
+		<rom name="248-v1.v1" offset="0x0" size="0x400000" crc="57fde1fa" sha1="af39bc141fc35b78dcacfd42b3abb29d7e5c2c89" />
+		<rom name="248-v2.v2" offset="0x400000" size="0x400000" crc="4b966ef3" sha1="083c0e9fd7b8e506087648cdd8ec4206103984cd" />
+		</dataarea>
+	</part>
+</software>

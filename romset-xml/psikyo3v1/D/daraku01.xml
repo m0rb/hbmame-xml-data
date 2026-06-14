@@ -1,0 +1,20 @@
+<software name="daraku01" cloneof="daraku">
+	<description>Daraku Tenshi (Enable Hidden Characters)</description>
+	<year>1998</year>
+	<publisher>Yumeji</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_word_swap" name="4_progs01.u18" offset="0x2" size="0x80000" crc="a599fe9f" sha1="12680fcab83b5cc3b53b19372096a97067e58fdc" />
+		<rom loadflag="load32_word_swap" name="3_progs01.u17" offset="0x0" size="0x80000" crc="2033dd8b" sha1="b787b4f94b268f8585edc2ffa75dc2ccba5ad6f8" />
+		<rom loadflag="load16_word_swap" name="prog.u16" offset="0x100000" size="0x100000" crc="3742e990" sha1="dd4b8777e57245151b3d520ed1bdab207530420b" />
+		</dataarea>
+		<dataarea name="eeprom" size="0x100">
+		<rom name="eeprom-daraku.bin" offset="0x0" size="0x100" crc="a9715297" sha1="fcd32b936e0d05bad4ba4969ddec24aae7768cea" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x3400000">
+		</dataarea>
+		<dataarea name="ymf" size="0x400000">
+		<rom name="sound.u32" offset="0x0" size="0x400000" crc="ef2c781d" sha1="1313f082f6dbe4da0efaf261226085eb7325667f" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,25 @@
+<software name="kof97s051" cloneof="kof97">
+	<description>Kof&#x27;97 (The Martial Arts Mythical Dark Snake Test Version 39)(83 Repair Crazy Eight Super Kill Ko Stuck + Big Snake Six Hair Colorful Sunlight)</description>
+	<year>1997</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x700000">
+		<rom loadflag="load16_word_swap" name="232s051.p1" offset="0x0" size="0x100000" crc="ad343426" sha1="3956e5102eae3993dd3f3d7ffb0cdcb3100250ce" />
+		<rom loadflag="load16_word_swap" name="232s043.p2" offset="0x100000" size="0x600000" crc="48f1001e" sha1="38d18dc0cedd61f87392c3d06da30a70b2aceb53" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="232s627.c1" offset="0x0" size="0x800000" crc="f748da71" sha1="5012e8537e7d16d365d9c088a70323b3b71cd6f5" />
+		<rom loadflag="load16_byte" name="232s627.c2" offset="0x1" size="0x800000" crc="6b77e767" sha1="7f625fa348754a248d9b58bd2f085c47142faf91" />
+		<rom loadflag="load16_byte" name="232s627.c3" offset="0x1000000" size="0x800000" crc="ffb025af" sha1="64913b51b496a13a92317008d2a15543e6c89ba9" />
+		<rom loadflag="load16_byte" name="232s627.c4" offset="0x1000001" size="0x800000" crc="7182157c" sha1="306a968ae325d0b7d647e7fdb36a3a07bacda923" />
+		<rom loadflag="load16_byte" name="232s043.c5" offset="0x2000000" size="0x800000" crc="962eee35" sha1="48681a2e6cece44baec3b0fe3702a961db0d9b06" />
+		<rom loadflag="load16_byte" name="232s043.c6" offset="0x2000001" size="0x800000" crc="3b719313" sha1="aacf86796e30d681cf6a70d0c355943f53073735" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,76 @@
+<software name="redeartns01">
+	<description>Red Earth (Asia 961023, NO CD)</description>
+	<year>1996</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="bios" endianness="big" size="0x80000">
+		<rom name="redearthn_asia_nocd.29f400.u2" offset="0x0" size="0x80000" crc="db09f27c" sha1="f2d299cda7cda175b4218526a15f12560654d97f" />
+		</dataarea>
+		<dataarea name="simm1.0" size="0x200000">
+		<rom name="redeartn-simm1.0_ps01" offset="0x0" size="0x200000" crc="65bac346" sha1="6f4ba0c2cae91a37fc97bea5fc8a50aaf6ca6513" />
+		</dataarea>
+		<dataarea name="simm1.1" size="0x200000">
+		<rom name="redeartn-simm1.1_ps01" offset="0x0" size="0x200000" crc="a8ec4aae" sha1="0012cb6ba630ddd74958f7759de34706bf919338" />
+		</dataarea>
+		<dataarea name="simm1.2" size="0x200000">
+		<rom name="redeartn-simm1.2_ps01" offset="0x0" size="0x200000" crc="2caf8995" sha1="ca012b6dec0481b043edf9c7e931bd952ec74ebb" />
+		</dataarea>
+		<dataarea name="simm1.3" size="0x200000">
+		<rom name="redeartn-simm1.3_ps01" offset="0x0" size="0x200000" crc="13ebc21d" sha1="465bdea0633526a8bf07b35495a5311c8bf213d5" />
+		</dataarea>
+		<dataarea name="simm3.0" size="0x200000">
+		<rom name="redearth-simm3.0" offset="0x0" size="0x200000" crc="83350cc5" sha1="922b1abf80a4a89f35279b66311a7369d3965bd0" />
+		</dataarea>
+		<dataarea name="simm3.1" size="0x200000">
+		<rom name="redearth-simm3.1" offset="0x0" size="0x200000" crc="56734de6" sha1="75699fa6efe5bec335e4b02e15b3c45726b68fa8" />
+		</dataarea>
+		<dataarea name="simm3.2" size="0x200000">
+		<rom name="redearth-simm3.2" offset="0x0" size="0x200000" crc="800ea0f1" sha1="33871ab56dc1cd24441389d53e43fb8e43b149d9" />
+		</dataarea>
+		<dataarea name="simm3.3" size="0x200000">
+		<rom name="redearth-simm3.3" offset="0x0" size="0x200000" crc="97e9146c" sha1="ab7744709615081440bee72f4080d6fd5b938668" />
+		</dataarea>
+		<dataarea name="simm3.4" size="0x200000">
+		<rom name="redearth-simm3.4" offset="0x0" size="0x200000" crc="0cb1d648" sha1="7042a590c2b7ec55323062127e254da3cdc790a1" />
+		</dataarea>
+		<dataarea name="simm3.5" size="0x200000">
+		<rom name="redearth-simm3.5" offset="0x0" size="0x200000" crc="7a1099f0" sha1="c6a92ec86eb24485f1db530e0e78f647e8432231" />
+		</dataarea>
+		<dataarea name="simm3.6" size="0x200000">
+		<rom name="redearth-simm3.6" offset="0x0" size="0x200000" crc="aeff8f54" sha1="fd760e237c2e5fb2da45e32a1c12fd3defb4c3e4" />
+		</dataarea>
+		<dataarea name="simm3.7" size="0x200000">
+		<rom name="redearth-simm3.7" offset="0x0" size="0x200000" crc="f770acd0" sha1="4b3ccb6f91568f95f04ede6c574144918d131201" />
+		</dataarea>
+		<dataarea name="simm4.0" size="0x200000">
+		<rom name="redearth-simm4.0" offset="0x0" size="0x200000" crc="301e56f2" sha1="4847d971bff70a2aeed4599e1201c7ec9677da60" />
+		</dataarea>
+		<dataarea name="simm4.1" size="0x200000">
+		<rom name="redearth-simm4.1" offset="0x0" size="0x200000" crc="2048e103" sha1="b21f95b05cd99749bd3f25cc71b2671c2026847b" />
+		</dataarea>
+		<dataarea name="simm4.2" size="0x200000">
+		<rom name="redearth-simm4.2" offset="0x0" size="0x200000" crc="c9433455" sha1="63a269d76bac332c2e991d0f6a20c35e0e88680a" />
+		</dataarea>
+		<dataarea name="simm4.3" size="0x200000">
+		<rom name="redearth-simm4.3" offset="0x0" size="0x200000" crc="c02171a8" sha1="2e9228729b27a6113d9f2e42af310a834979f714" />
+		</dataarea>
+		<dataarea name="simm4.4" size="0x200000">
+		<rom name="redearth-simm4.4" offset="0x0" size="0x200000" crc="2ddbf276" sha1="b232baaa8edc8db18f8a3bdcc2d38fe984a94a34" />
+		</dataarea>
+		<dataarea name="simm4.5" size="0x200000">
+		<rom name="redearth-simm4.5" offset="0x0" size="0x200000" crc="fea820a6" sha1="55ee8ef95751f5a509fb126513e1b2a70a3414e5" />
+		</dataarea>
+		<dataarea name="simm4.6" size="0x200000">
+		<rom name="redearth-simm4.6" offset="0x0" size="0x200000" crc="c7528df1" sha1="aa312f80c2d7759d18d1aa8d416cf932b2850824" />
+		</dataarea>
+		<dataarea name="simm4.7" size="0x200000">
+		<rom name="redearth-simm4.7" offset="0x0" size="0x200000" crc="2449cf3b" sha1="c60d8042136d74e547f668ad787cae529c42eed9" />
+		</dataarea>
+		<dataarea name="simm5.0" size="0x200000">
+		<rom name="redearth-simm5.0" offset="0x0" size="0x200000" crc="424451b9" sha1="250fb92254c9e7ff5bc8dbeea5872f8a771dc9bd" />
+		</dataarea>
+		<dataarea name="simm5.1" size="0x200000">
+		<rom name="redearth-simm5.1" offset="0x0" size="0x200000" crc="9b8cb56b" sha1="2ff1081dc99bb7c2f1e036f4c112137c96b83d23" />
+		</dataarea>
+	</part>
+</software>

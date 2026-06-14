@@ -1,0 +1,30 @@
+<software name="metamrphs01">
+	<description>Metamorphic Force (Version Enhanced, 2017-07-03)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_byte" name="224eaa01s01.15h" offset="0x1" size="0x40000" crc="8fc188bb" sha1="c5a2b5c50505e82e89e280c92e5a08bf4d8e76f1" />
+		<rom loadflag="load16_byte" name="224eaa02s01.15f" offset="0x0" size="0x40000" crc="ec7b34a0" sha1="cf2d9c45cff3d05079b51628dad07f4b879ffaaf" />
+		<rom loadflag="load16_byte" name="224a03" offset="0x100001" size="0x80000" crc="a5bedb01" sha1="5e7a0b93af654ba6a87be8d449c7080a0f0e2a43" />
+		<rom loadflag="load16_byte" name="224a04" offset="0x100000" size="0x80000" crc="ada53ba4" sha1="f77bf854dff1f8f718579fe6d3730066708396e2" />
+		</dataarea>
+		<dataarea name="eeprom" size="0x80">
+		<rom name="metamrph.nv" offset="0x0" size="0x80" crc="2c51229a" sha1="7f056792cc44ec3d4aacc33c825ab796a913488e" />
+		</dataarea>
+		<dataarea name="k053250_1" size="0x40000">
+		<rom name="224a14" offset="0x0" size="0x40000" crc="3c79b404" sha1="7c6bb4cbf050f314ea0cd3e8bc6e1947d0573084" />
+		</dataarea>
+		<dataarea name="k054539" size="0x400000">
+		<rom name="224a06" offset="0x0" size="0x2" crc="972f6abe" sha1="30907495fc49fe3424c092b074c1dc137aa14306" />
+		<rom name="224a07" offset="0x200000" size="0x1" crc="61b2f97a" sha1="34bf835d6361c7809d40fa20fd238c9e2a84b101" />
+		</dataarea>
+		<dataarea name="k055673" size="0x800000">
+		</dataarea>
+		<dataarea name="k056832" size="0x500000">
+		</dataarea>
+		<dataarea name="soundcpu" size="0x40000">
+		<rom name="224a05" offset="0x0" size="0x40000" crc="4b4c985c" sha1="c83cce05355023be9cd55b4aa595c61f8236269c" />
+		</dataarea>
+	</part>
+</software>

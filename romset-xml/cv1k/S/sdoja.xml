@@ -1,0 +1,17 @@
+<software name="sdoja" cloneof="sdojak">
+	<description>DoDonPachi SaiDaiOuJou hack</description>
+	<year>2021</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="sdoja.u4" offset="0x0" size="0x400000" crc="5a3b94e8" sha1="a546f2baa366ca02dbd462b8ee7808c2643927cb" />
+		</dataarea>
+		<dataarea name="game" size="0x8400000">
+		<rom name="sdoja.u2" offset="0x0" size="0x8400000" crc="7e19adc7" sha1="6a6e2220096c80471d391d93979e0c883f733c1b" />
+		</dataarea>
+		<dataarea name="ymz770" size="0x800000">
+		<rom loadflag="load16_word_swap" name="sdojak.u23" offset="0x0" size="0x400000" crc="32b91544" sha1="49e914bfdf33a328fbfa7efb42c5b89915e37643" />
+		<rom loadflag="load16_word_swap" name="sdojak.u24" offset="0x400000" size="0x400000" crc="7b9e749f" sha1="374085a60098cc62501abae4d148bfd88c88149f" />
+		</dataarea>
+	</part>
+</software>

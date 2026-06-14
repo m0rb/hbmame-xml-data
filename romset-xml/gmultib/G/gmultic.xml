@@ -1,0 +1,19 @@
+<software name="gmultic" cloneof="galnamco">
+	<description>Galaxian Multigame (2025)</description>
+	<year>2025</year>
+	<publisher>Macro</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom name="c_code.bin" offset="0x0" size="0x80000" crc="24f914a4" sha1="8263722ea7b6a0a70d46e6543947aa04fbdcd5aa" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x20000">
+		<rom name="c_gfx1.bin" offset="0x0" size="0x10000" crc="3216af7c" sha1="226368d935c014e8ddfb9a1f16d6d3d663ccfa17" />
+		<rom name="c_gfx2.bin" offset="0x10000" size="0x10000" crc="cb68a779" sha1="40abd97f83cf45d9d347ce4b24df657e3a25e99b" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		</dataarea>
+		<dataarea name="user1" size="0x400">
+		<rom name="c_col.bin" offset="0x0" size="0x400" crc="945bece6" sha1="3bcc18d17a93db0cc5e6ceb978623040b077e3ba" />
+		</dataarea>
+	</part>
+</software>

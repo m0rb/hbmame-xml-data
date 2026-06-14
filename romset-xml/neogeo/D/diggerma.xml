@@ -1,0 +1,19 @@
+<software name="diggerma">
+	<description>Digger Man (prototype)</description>
+	<year>2000</year>
+	<publisher>Kyle Hodgetts</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="dig-p1.bin" offset="0x0" size="0x80000" crc="eda433d7" sha1="abb14c66777ab0fe4ac76a402e253a49df7178d8" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="dig-c1.bin" offset="0x0" size="0x80000" crc="3db0a4ed" sha1="6214faa883d97ea05809b6af7e0c85a236a18a28" />
+		<rom loadflag="load16_byte" name="dig-c2.bin" offset="0x1" size="0x80000" crc="3e632161" sha1="83711c4286fb1d9f3f91414ac6e5fed36618033e" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="dig-v1.bin" offset="0x0" size="0x80000" crc="ee15bda4" sha1="fe2206728e6efd02d6302869a98b196eb19a17df" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,24 @@
+<software name="sengoku3pl" cloneof="sengoku3">
+	<description>Sengoku 3 (Plus)</description>
+	<year>2001</year>
+	<publisher>Player-X</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="261pl.p1" offset="0x100000" size="0x100000" crc="87a65e84" sha1="0475d81c1fb4e4df7a3773522aa2958fd550e8ad" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xe00000">
+		<rom name="261.v1" offset="0x0" size="0x400000" crc="64c30081" sha1="f9ebd20cf59b72e864b7274c1bdb6d99ecaf4595" />
+		<rom name="261.v2" offset="0x400000" size="0x400000" crc="392a9c47" sha1="7ab90a54089236ca6c3ef1af8e566a8025d38159" />
+		<rom name="261.v3" offset="0x800000" size="0x400000" crc="c1a7ebe3" sha1="1d7bb481451f5ee0457e954bb5210300182c3c9c" />
+		<rom name="261.v4" offset="0xc00000" size="0x200000" crc="9000d085" sha1="11157b355ab4eb6627e9f322ed875332d3d77349" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="261d.c1" offset="0x0" size="0x800000" crc="9af7cbca" sha1="cf2fe3e5265861369f2878140ef33a6715b031aa" />
+		<rom loadflag="load16_byte" name="261d.c2" offset="0x1" size="0x800000" crc="2a1f874d" sha1="26923ec0bedba56f25e6222aa107b45ccb3def7b" />
+		<rom loadflag="load16_byte" name="261d.c3" offset="0x1000000" size="0x800000" crc="5403adb5" sha1="5614ee892e810dc49758f5985b3dc4f227e01b56" />
+		<rom loadflag="load16_byte" name="261d.c4" offset="0x1000001" size="0x800000" crc="18926df6" sha1="a4859c9166ef7abec1f3e6af3292051a63a81f93" />
+		</dataarea>
+	</part>
+</software>

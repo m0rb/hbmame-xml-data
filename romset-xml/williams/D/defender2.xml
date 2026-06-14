@@ -1,0 +1,28 @@
+<software name="defender2" cloneof="defender">
+	<description>Defender II</description>
+	<year>1981</year>
+	<publisher>Jeff Vavasour</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x19000">
+		<rom name="10" offset="0xd000" size="0x1000" crc="4d82fc2f" sha1="b11dc3f3f2100ab14ad5b26cd333b212c454cc8d" />
+		<rom name="11" offset="0xe000" size="0x1000" crc="561fad3f" sha1="597851e78423f30341f682f3fc62bf24cf9e8a91" />
+		<rom name="12" offset="0xf000" size="0x1000" crc="836eacca" sha1="f788fc2a25adffa21e02a3dfe2074e8719405200" />
+		<rom name="01" offset="0x10000" size="0x1000" crc="88824d18" sha1="f003a5a9319c4eb8991fa2aae3f10c72d6b8e81a" />
+		<rom name="02" offset="0x11000" size="0x1000" crc="afc614c5" sha1="087c6da93318e8dc922d3d22e0a2af7b9759701c" />
+		<rom name="03" offset="0x12000" size="0x1000" crc="6dd57970" sha1="1fdee9180bfb835f35ac786116e0f8d7833f2c3f" />
+		<rom name="04" offset="0x13000" size="0x1000" crc="a8b4bf0f" sha1="6b4d47c2899fe9f14f9dab5928499f12078c437d" />
+		<rom name="05" offset="0x14000" size="0x1000" crc="2d306074" sha1="54f871983699113e31bb756d4ca885c26c2d66b4" />
+		<rom name="06" offset="0x15000" size="0x1000" crc="53598dde" sha1="54b02d944caf95283c9b6f0160e75ea8c4ccc97b" />
+		<rom name="07" offset="0x16000" size="0x1000" crc="55b5b0d2" sha1="dcf392a899fb6c225c4e31034e242e575c3dc94d" />
+		<rom name="08" offset="0x17000" size="0x1000" crc="b4f22d4d" sha1="2486e895628df9ae1268d9eb2434f240dba99f70" />
+		<rom name="09" offset="0x18000" size="0x1000" crc="6df7463d" sha1="b80c2872fc47b4b604967f176e3931cd992dd692" />
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		<rom name="decoder.4" offset="0x0" size="0x200" crc="e6631c23" sha1="9988723269367fb44ef83f627186a1c88cf7877e" />
+		<rom name="decoder.5" offset="0x200" size="0x200" crc="f921c5fe" sha1="9cebb8bb935315101d248140d1b4503993ebdf8a" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x10000">
+		<rom name="sg.snd" offset="0xf800" size="0x800" crc="2fcf6c4d" sha1="9c4334ac3ff15d94001b22fc367af40f9deb7d57" />
+		</dataarea>
+	</part>
+</software>

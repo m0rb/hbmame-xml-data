@@ -1,0 +1,38 @@
+<software name="toki01">
+	<description>Toki (Brazil)</description>
+	<year>2019</year>
+	<publisher>Antigeno</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x60000">
+		<rom loadflag="load16_byte" name="s01_6b.10m" offset="0x0" size="0x20000" crc="bac99bd8" sha1="a526cfe2bef2127f761dbfc7a0497355aedf1be2" />
+		<rom loadflag="load16_byte" name="s01_14.10k" offset="0x1" size="0x20000" crc="18318c36" sha1="08872a6a4a60e0bed006071d126ddd784dded052" />
+		<rom loadflag="load16_byte" name="s01_5.m12" offset="0x40000" size="0x10000" crc="01dde064" sha1="f88e9b9d6d863368f0bd1b63f25987375b43cca8" />
+		<rom loadflag="load16_byte" name="s01_3.k12" offset="0x40001" size="0x10000" crc="e443c83f" sha1="1d831be1c2df6ffe1635e2db50cc985070247cbf" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom name="8.m3" offset="0x0" size="0x2000" crc="6c87c4c5" sha1="d76822bcde3d42afae72a0945b6acbf3c6a1d955" />
+		<rom name="7.m7" offset="0x10000" size="0x10000" crc="a67969c4" sha1="99781fbb005b6ba4a19a9cc83c8b257a3b425fa6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x20000">
+		<rom name="s01_1.c5" offset="0x0" size="0x10000" crc="6c15674d" sha1="43f97522f14f83d1f5d353445fa127fadcdb7f17" />
+		<rom name="s01_2.c3" offset="0x10000" size="0x10000" crc="72b52e63" sha1="b6a9d887e9ba474cbb38021850e167f36d7b6ede" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x100000">
+		<rom name="s01_obj1.c20" offset="0x0" size="0x80000" crc="9233d8bf" sha1="63427b50231ca3ed1df78754f0bf682c765ce657" />
+		<rom name="s01_obj2.c22" offset="0x80000" size="0x80000" crc="483cc50a" sha1="08613b20c9477f761785e7de153b8f7855384f75" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x80000">
+		<rom name="toki_bk1.cd8" offset="0x0" size="0x80000" crc="fdaa5f4b" sha1="ea850361bc8274639e8433bd2a5307fd3a0c9a24" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x80000">
+		<rom name="s01_bk2.ef8" offset="0x0" size="0x80000" crc="5a18182b" sha1="178c254c44743597980ddd3d13eab18a8a8473b0" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="9.m1" offset="0x0" size="0x20000" crc="ae7a6b8b" sha1="1d410f91354ffd1774896b2e64f20a2043607805" />
+		</dataarea>
+		<dataarea name="proms" size="0x200">
+		<rom name="prom26.b6" offset="0x0" size="0x100" crc="ea6312c6" sha1="44e2ae948cb79884a3acd8d7d3ff1c9e31562e3e" />
+		<rom name="prom27.j3" offset="0x100" size="0x100" crc="e616ae85" sha1="49614f87615f1a608eeb90bc68d5fc6d9109a565" />
+		</dataarea>
+	</part>
+</software>

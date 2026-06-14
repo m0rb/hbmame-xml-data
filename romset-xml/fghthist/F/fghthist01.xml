@@ -1,0 +1,37 @@
+<software name="fghthist01">
+	<description>Fighter&#x27;s History (Enable Hidden Characters)</description>
+	<year>1993</year>
+	<publisher>yumeji[2ch]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="lc02-1.18k" offset="0x0" size="0x10000" crc="5fd2309c" sha1="2fb7af54d5cd9bf7dd6fb4f6b82aa52b03294f1f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="mbf00-8.8a" offset="0x0" size="0x100000" crc="d3e9b580" sha1="fc4676e0ecc6c32441ff66fa1f990cc3158237db" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x100000">
+		<rom name="mbf01-8.9a" offset="0x0" size="0x100000" crc="0c6ed2eb" sha1="8e37ef4b1f0b6d3370a08758bfd602cb5f221282" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x800000">
+		<rom name="mbf02-16.16d" offset="0x0" size="0x200000" crc="c19c5953" sha1="e6ed26f932c6c86bbd1fc4c000aa2f510c268009" />
+		<rom name="mbf03-16.17d" offset="0x200000" size="0x200000" crc="37d25c75" sha1="8219d31091b4317190618edd8acc49f97cba6a1e" />
+		<rom name="mbf04-16.18d" offset="0x400000" size="0x200000" crc="f6a23fd7" sha1="74e5559f17cd591aa25d2ed6c34ac9ed89e2e9ba" />
+		<rom name="mbf05-16.19d" offset="0x600000" size="0x200000" crc="137be66d" sha1="3fde345183ce04a7a65b4cedfd050d771df7d026" />
+		</dataarea>
+		<dataarea name="oki1" size="0x80000">
+		<rom name="mbf06.15k" offset="0x0" size="0x80000" crc="fb513903" sha1="7727a49ff7977f159ed36d097020edef3b5b36ba" />
+		</dataarea>
+		<dataarea name="oki2" size="0x80000">
+		<rom name="mbf07.16k" offset="0x0" size="0x80000" crc="51d4adc7" sha1="22106ed7a05db94adc5a783ce34529e29d24d41a" />
+		</dataarea>
+		<dataarea name="plds" size="0x400">
+		<rom name="ve-00.3d" offset="0x0" size="0x117" crc="384d316c" sha1="61b50c695d4210c199cf6f7bbe50c8a5ecd1d21c" />
+		<rom name="ve-01a.4d" offset="0x200" size="0x117" crc="109613c8" sha1="5991e010c1bc2a827c8ee2c85a9b40e00a3167b3" />
+		</dataarea>
+		<dataarea name="proms" size="0x200">
+		<rom name="kt-00.8j" offset="0x0" size="0x200" crc="7294354b" sha1="14fe42ad5d26d022c0fe9a46a4a9017af2296f40" />
+		</dataarea>
+	</part>
+</software>

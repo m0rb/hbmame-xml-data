@@ -1,0 +1,27 @@
+<software name="preisle2">
+	<description>Prehistoric Isle 2</description>
+	<year>1999</year>
+	<publisher>Yumekobo / Saurus</publisher>
+	<info name="source" value="preisle2" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:fixed" size="0x20000">
+		</dataarea>
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="255-p1.p1" offset="0x0" size="0x100000" crc="dfa3c0f3" sha1="793c6a46f3a794536dc0327a3f3fad20e25ab661" />
+		<rom loadflag="load16_word_swap" name="255-p2.sp2" offset="0x100000" size="0x400000" crc="42050b80" sha1="0981a8295d43b264c2b95e5d7568bdda4e64c976" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="255-c1.c1" offset="0x0" size="0x800000" crc="ea06000b" sha1="1539b12e461fa48301190eb8171bbffff9d984b7" />
+		<rom loadflag="load16_byte" name="255-c2.c2" offset="0x1" size="0x800000" crc="04e67d79" sha1="aadb6ee750da2c14c6eededa2218db95e051a32c" />
+		<rom loadflag="load16_byte" name="255-c3.c3" offset="0x1000000" size="0x800000" crc="60e31e08" sha1="bd5b81ad9d04cdc4e0df31ac40eca305f98277eb" />
+		<rom loadflag="load16_byte" name="255-c4.c4" offset="0x1000001" size="0x800000" crc="40371d69" sha1="90011ccc5672ff1b90737cf50c963e71b6217ce3" />
+		<rom loadflag="load16_byte" name="255-c5.c5" offset="0x2000000" size="0x800000" crc="0b2e6adf" sha1="15c7d9aa8b1ad9a071e6fd0ef0de8a057c23b02e" />
+		<rom loadflag="load16_byte" name="255-c6.c6" offset="0x2000001" size="0x800000" crc="b001bdd3" sha1="394ba8004644844ee97a120cfda48aeac685af8a" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x600000">
+		<rom name="255-v1.v1" offset="0x0" size="0x400000" crc="5a14543d" sha1="7146ac748f846c7e2d5b0bdcf953892e39b648fe" />
+		<rom name="255-v2.v2" offset="0x400000" size="0x200000" crc="6610d91a" sha1="b2c6786920dc1712e88c3cc26d2c6c3ac2615bf4" />
+		</dataarea>
+	</part>
+</software>

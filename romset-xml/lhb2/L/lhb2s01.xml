@@ -1,0 +1,19 @@
+<software name="lhb2s01">
+	<description>Long Hu Bang II (No AI Cheat)</description>
+	<year>1996</year>
+	<publisher>whistler_wmz</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_word_swap" name="maj2v185hhc01.u29" offset="0x0" size="0x80000" crc="16a6f6de" sha1="b5b463ce68da9541c6dd68d99a7469ab4cca3f78" />
+		</dataarea>
+		<dataarea name="blitter" size="0x200000">
+		<rom name="igsm0501.u7" offset="0x0" size="0x200000" crc="1c952bd6" sha1="a6b6f1cdfb29647e81c032ffe59c94f1a10ceaf8" />
+		</dataarea>
+		<dataarea name="blitter_hi" size="0x80000">
+		<rom name="igsm0502.u4" offset="0x0" size="0x80000" crc="5d73ae99" sha1="7283aa3d6b15ceb95db80756892be46eb997ef15" />
+		</dataarea>
+		<dataarea name="oki" size="0x80000">
+		<rom name="igss0503.u38" offset="0x0" size="0x80000" crc="c9609c9c" sha1="f036e682b792033409966e84292a69275eaa05e5" />
+		</dataarea>
+	</part>
+</software>

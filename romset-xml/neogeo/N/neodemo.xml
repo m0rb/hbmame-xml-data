@@ -1,0 +1,15 @@
+<software name="neodemo">
+	<description>Demo - NeoGeo</description>
+	<year>2003</year>
+	<publisher>Charles Doty</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="616.p1" offset="0x0" size="0x80000" crc="fbfce2a4" sha1="53472533456e131bee9fa792996b4110999b5c21" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="616.c1" offset="0x0" size="0x100000" crc="870b28ea" sha1="255f8e394534afc929bad31f253a2e8b03253e07" />
+		<rom loadflag="load16_byte" name="616.c2" offset="0x1" size="0x100000" crc="1ecf8128" sha1="66d200ceb023a1ff3cbe4ef7c5b1ef0068ab47f0" />
+		</dataarea>
+	</part>
+</software>

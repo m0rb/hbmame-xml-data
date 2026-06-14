@@ -1,0 +1,19 @@
+<software name="msvctr6m" cloneof="mspacman">
+	<description>Vector Ms. Pacman (6 Mazes)</description>
+	<year>2000</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="mscrzyma.3" offset="0x2000" size="0x1000" crc="513f4d5c" sha1="ae011b89422bd8cbb80389814500bc1427f6ecb2" />
+		<rom name="mspac6m.4" offset="0x3000" size="0x1000" crc="e21c81ff" sha1="5a6ce8ee3059a31afbb9b8c1d0a1e37606d14a0a" />
+		<rom name="mspac6m.5" offset="0x8000" size="0x1000" crc="d0bd89d9" sha1="c47e96d68d7e88e906b416c24ce926b76689f22d" />
+		<rom name="mspac6m.6" offset="0x9000" size="0x1000" crc="c5662407" sha1="98827bda653b6d1d6984082c706247392ab706d2" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="msvctr6m.5e" offset="0x0" size="0x1000" crc="64b35a5a" sha1="5c8dec1ae192c8e717346618bc4f28d3abd0ca84" />
+		<rom name="msvectr.5f" offset="0x1000" size="0x1000" crc="57cb31e3" sha1="dc9278cee7f7ce341087760654bf0a1bcdeb2f7c" />
+		</dataarea>
+	</part>
+</software>

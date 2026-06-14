@@ -1,0 +1,19 @@
+<software name="mspacpbla" cloneof="mspacman">
+	<description>Ms. Pac Man (Super) Plus</description>
+	<year>2017</year>
+	<publisher>Mameplus</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacmdp.1" offset="0x0" size="0x1000" crc="69c02827" sha1="12b675ab56cb9f3184a6a6bd280eafbab4ceb5b2" />
+		<rom name="mspacpbl.2" offset="0x1000" size="0x1000" crc="5426636c" sha1="35cdd13e917c2d1e11086745de6dc3b85bf1fdbb" />
+		<rom name="mspacpbl.3" offset="0x2000" size="0x1000" crc="60c890a1" sha1="c1fbaedb212449803f5b506ac6f8e258644e4536" />
+		<rom name="mspacpbla.4" offset="0x3000" size="0x1000" crc="1b842eed" sha1="cce01ce78caab1243784c444fdb991c87257d0ce" />
+		<rom name="mspacpbl.5" offset="0x8000" size="0x1000" crc="85a44e94" sha1="59b2249f6834ee4634e9fb8daa53739e80654c85" />
+		<rom name="mspacpbla.6" offset="0x9000" size="0x1200" crc="59a9a6ec" sha1="d046c97503f502bbe491949e5210bfc86df1c310" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mspacpbla.5e" offset="0x0" size="0x1000" crc="0e25eef4" sha1="14dba424c48232e5c38e17c3e758146127c5f91d" />
+		<rom name="mspacpbla.5f" offset="0x1000" size="0x1000" crc="1604f097" sha1="a4bf512e4ef5d09c61c59116b7f381036b70a647" />
+		</dataarea>
+	</part>
+</software>

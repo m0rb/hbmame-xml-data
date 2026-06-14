@@ -1,0 +1,38 @@
+<software name="gemini01">
+	<description>Gemini Wing (Chinese)</description>
+	<year>1987</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x20000">
+		<rom name="gw04-5s.s01" offset="0x0" size="0x10000" crc="b73a2776" sha1="20d8f203207f372f80f169b6e3a54a99967a93dc" />
+		<rom name="gw05-6s.rom" offset="0x10000" size="0x10000" crc="5a6947a9" sha1="18b7aeb0f0e2c396bc759118dd7c45fd6070b804" />
+		</dataarea>
+		<dataarea name="adpcm" size="0x8000">
+		<rom name="gw01-6a.rom" offset="0x0" size="0x8000" crc="d78afa05" sha1="b02a739b045f5cddf943ce59226ef234463eeebe" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="gw02-3hhc01.rom" offset="0x0" size="0x8000" crc="3ddd13f3" sha1="b7b1f3b0c1b457fa7744f6fedb694cdd855372c9" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x40000">
+		<rom name="gw06-1c.rom" offset="0x0" size="0x10000" crc="4ea51631" sha1="9aee0f1ba210ac953dc193cfc739322966b6de8a" />
+		<rom name="gw07-1d.rom" offset="0x10000" size="0x10000" crc="da42637e" sha1="9885c52823279f26871092c77bdbe027df08268f" />
+		<rom name="gw08-1f.rom" offset="0x20000" size="0x10000" crc="0b4e8d70" sha1="55069f3df1c8db83f306d46b8262fd23585e6013" />
+		<rom name="gw09-1h.rom" offset="0x30000" size="0x10000" crc="b65c5e4c" sha1="699e1a9e72b8d94edae7382ba119fe5da113514d" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x40000">
+		<rom name="gw10-1n.rom" offset="0x0" size="0x10000" crc="5e84cd4f" sha1="e85320291027a16619c87fc2365448367bda454a" />
+		<rom name="gw11-2na.rom" offset="0x10000" size="0x10000" crc="08b458e1" sha1="b3426faa57dca51dc053db44fa4968425d8bf3ee" />
+		<rom name="gw12-2nb.rom" offset="0x20000" size="0x10000" crc="229c9714" sha1="f4f47d6b379c973c22f9ae7d7bec7041cdf3f737" />
+		<rom name="gw13-3n.rom" offset="0x30000" size="0x10000" crc="c5dfaf47" sha1="c3202ca8c7f3c5c7dc9acdc09c1c894e168ef9fe" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x40000">
+		<rom name="gw14-1r.rom" offset="0x0" size="0x10000" crc="9c10e5b5" sha1="a81399b85d8f3ddca26883ec3535cb9044c35ada" />
+		<rom name="gw15-2ra.rom" offset="0x10000" size="0x10000" crc="4cd18cfa" sha1="c197a098a7c1e5220aad039383a40702fe7c4f21" />
+		<rom name="gw16-2rb.rom" offset="0x20000" size="0x10000" crc="f911c7be" sha1="3f49f6c4734f2b644d93c4a54249aae6ff080e1d" />
+		<rom name="gw17-3r.rom" offset="0x30000" size="0x10000" crc="79a9ce25" sha1="74e3917b8e7a920ceb2135d7ef8fb2f2c5176b21" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x10000">
+		<rom name="gw03-5h.rom" offset="0x0" size="0x8000" crc="9bc79596" sha1="61de9ddd45140e8ed88173294bd26147e2abfa21" />
+		</dataarea>
+	</part>
+</software>

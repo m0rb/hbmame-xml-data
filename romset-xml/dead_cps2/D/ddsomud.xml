@@ -1,0 +1,28 @@
+<software name="ddsomud" cloneof="ddsom">
+	<description>Dungeons &amp; Dragons: Shadow over Mystara (USA 960619 Phoenix Edition) (bootleg)</description>
+	<year>1996</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c63ud.p1" offset="0x0" size="0x80000" crc="816f695a" sha1="5e590d36c04ceac1b48954c0554a733b4c3a5277" />
+		<rom loadflag="load16_word_swap" name="c63ud.p2" offset="0x80000" size="0x80000" crc="7cc81c6b" sha1="2619cb25d5ae62adc5c2292e25c0d33674f5cc13" />
+		<rom loadflag="load16_word_swap" name="c63u.p3" offset="0x100000" size="0x80000" crc="5eb1991c" sha1="429a60b5396ff4192904867fbe0524268f0edbcb" />
+		<rom loadflag="load16_word_swap" name="c63u.p4" offset="0x180000" size="0x80000" crc="c26b5e55" sha1="9590206f30459941880ff4b56c7f276cc78e3a22" />
+		<rom loadflag="load16_word_swap" name="c63u.p5" offset="0x200000" size="0x80000" crc="909a0b8b" sha1="58bda17c36063a79df8b5031755c7909a9bda221" />
+		<rom loadflag="load16_word_swap" name="c63u.p6" offset="0x280000" size="0x80000" crc="e53c4d01" sha1="bad872e4e793a39f68bc0e580772e982714b5876" />
+		<rom loadflag="load16_word_swap" name="c63u.p7" offset="0x300000" size="0x80000" crc="5f86279f" sha1="c2a454e5f821b1cdd49f2cf0602e9bfb7ba63340" />
+		<rom loadflag="load16_word_swap" name="c63ud.p8" offset="0x380000" size="0x80000" crc="0c172f8f" sha1="4f0ad9ab401f9f2d7d8f605a5ef78add4f4ced38" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c63.m1" offset="0x0" size="0x8000" crc="99d657e5" sha1="1528dd6b07a0e79951a35c0457c8a9c9770e9c78" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c63.m2" offset="0x28000" size="0x20000" crc="117a3824" sha1="14f3a12170b601c5466c93af9d2f24e0b386b4e4" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1800000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c63.q1" offset="0x0" size="0x200000" crc="98d0c325" sha1="7406e8d943d77c468eb418c4113261f4ab973bbf" />
+		<rom loadflag="load16_word_swap" name="c63.q2" offset="0x200000" size="0x200000" crc="5ea2e7fa" sha1="0e6a9fd007f637adcb2226c902394f07de45e803" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,27 @@
+<software name="dbz01">
+	<description>Dragon Ball Z (Simple Attack)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="s01.9e" offset="0x0" size="0x80000" crc="7b545f5e" sha1="5b01564f66d01ad4c711d4d309b7b3f49053fc4c" />
+		<rom loadflag="load16_byte" name="s01.9f" offset="0x1" size="0x80000" crc="64e3d243" sha1="25f3022e50e1142a09fd5c5fda983a52d13ef13a" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="222a10.5e" offset="0x0" size="0x8000" crc="1c93e30a" sha1="8545a0ac5126b3c855e1901b186f57820699895d" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x200000">
+		<rom name="222a08.25k" offset="0x0" size="0x200000" crc="6410ee1b" sha1="2296aafd3ba25f63a12130f7b58de53e88f14e92" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x200000">
+		<rom name="222a09.25l" offset="0x0" size="0x200000" crc="f7b3f070" sha1="50ebd8cfcda292a3df5664de50f9212108d58923" />
+		</dataarea>
+		<dataarea name="k053246" size="0x800000">
+		</dataarea>
+		<dataarea name="k056832" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="222a03.7c" offset="0x0" size="0x40000" crc="1924467b" sha1="57922090509bcc63b4783e8f2c5e95afd2090b87" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="sega_system32_4p" description="Sega_System32_4P cartridges">
+<software name="brival01" cloneof="brival">
+	<description>Burning Rival (Easy Move)</description>
+	<year>1992</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="mainpcb:gfx1" size="0x400000">
+		<rom loadflag="load16_byte" name="mpr-15629.ic14" offset="0x0" size="0x200000" crc="2c8dd96d" sha1="4a42a30485c19eb4f4a9d518a3dff3ae11911d01" />
+		<rom loadflag="load16_byte" name="mpr-15628.ic5" offset="0x1" size="0x200000" crc="58d4ca40" sha1="b1633acc803bba7e8283a9663b49abeda662a74d" />
+		</dataarea>
+		<dataarea name="mainpcb:maincpu" size="0x200000">
+		<rom loadflag="load16_byte" name="epr-15723_s01.ic18" offset="0x100000" size="0x80000" crc="b0b38505" sha1="93523d8a410e116b556e5c711dff93ed7f1a0827" />
+		<rom loadflag="load16_byte" name="epr-15724_s01.ic9" offset="0x100001" size="0x80000" crc="72173a51" sha1="0e3f80be93ada860ca6b6bb0f2b569479e9fabda" />
+		</dataarea>
+		<dataarea name="mainpcb:soundcpu" size="0x400000">
+		<rom name="mpr-15627.ic35" offset="0x100000" size="0x100000" crc="8a8388c5" sha1="7ee03feb975cc576a3d8651fd41976ca87d60894" />
+		<rom name="mpr-15626.ic34" offset="0x200000" size="0x100000" crc="83306d1e" sha1="feb08902b51c0013d9417832cdf198e36cdfc28c" />
+		<rom name="mpr-15625.ic24" offset="0x300000" size="0x100000" crc="3ce82932" sha1="f2107bc2591f46a51c9f0d706933b1ae69db91f9" />
+		</dataarea>
+		<dataarea name="mainpcb:sprites" endianness="big" size="0x1000000">
+		<rom loadflag="load16_word" name="mpr-15637.ic32" offset="0x0" size="0x200000" crc="b6cf2f05" sha1="a308d40ce5165e03fccf7fcd615ee111f7840fdc" />
+		<rom loadflag="load16_word" name="mpr-15635.ic30" offset="0x2" size="0x200000" crc="70f2eb2b" sha1="9868c8b0dd8ce810a0e32f51e702eee7e1c9a967" />
+		<rom loadflag="load16_word" name="mpr-15633.ic28" offset="0x4" size="0x200000" crc="005dfed5" sha1="f555620d75d3886a890307be9df9c0879bcda695" />
+		<rom loadflag="load16_word" name="mpr-15631.ic26" offset="0x6" size="0x200000" crc="c35e2f21" sha1="37935aa2eaa1769e57fb58f47f9797ae153d7496" />
+		<rom loadflag="load16_word" name="mpr-15636.ic31" offset="0x800000" size="0x200000" crc="d81ca97b" sha1="a8e64e6cbe822f18ce20f50c8ddb8f1d5ed8b783" />
+		<rom loadflag="load16_word" name="mpr-15634.ic29" offset="0x800002" size="0x200000" crc="b0c6c52a" sha1="04dd7344ca82e38f9d796a764c9e5a631a89aaac" />
+		<rom loadflag="load16_word" name="mpr-15632.ic27" offset="0x800004" size="0x200000" crc="8476e52b" sha1="e89748d34febcaf362580cdae30a5c570e56899a" />
+		<rom loadflag="load16_word" name="mpr-15630.ic25" offset="0x800006" size="0x200000" crc="bf7dd2f6" sha1="ab3fbe9e2b9b57424fb2a147f32b0f573c0b11b8" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

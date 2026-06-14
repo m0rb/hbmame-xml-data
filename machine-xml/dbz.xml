@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="dbz" description="Dbz cartridges">
+<software name="dbz01">
+	<description>Dragon Ball Z (Simple Attack)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="s01.9e" offset="0x0" size="0x80000" crc="7b545f5e" sha1="5b01564f66d01ad4c711d4d309b7b3f49053fc4c" />
+		<rom loadflag="load16_byte" name="s01.9f" offset="0x1" size="0x80000" crc="64e3d243" sha1="25f3022e50e1142a09fd5c5fda983a52d13ef13a" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="222a10.5e" offset="0x0" size="0x8000" crc="1c93e30a" sha1="8545a0ac5126b3c855e1901b186f57820699895d" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x200000">
+		<rom name="222a08.25k" offset="0x0" size="0x200000" crc="6410ee1b" sha1="2296aafd3ba25f63a12130f7b58de53e88f14e92" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x200000">
+		<rom name="222a09.25l" offset="0x0" size="0x200000" crc="f7b3f070" sha1="50ebd8cfcda292a3df5664de50f9212108d58923" />
+		</dataarea>
+		<dataarea name="k053246" size="0x800000">
+		</dataarea>
+		<dataarea name="k056832" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="222a03.7c" offset="0x0" size="0x40000" crc="1924467b" sha1="57922090509bcc63b4783e8f2c5e95afd2090b87" />
+		</dataarea>
+	</part>
+</software>
+<software name="dbz2s01" cloneof="dbz2">
+	<description>Dragon Ball Z 2 (Infinite Lives, 2009-03-11)</description>
+	<year>2009</year>
+	<publisher>Pipi899</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="s01.9e" offset="0x0" size="0x80000" crc="5a7af60d" sha1="11105ca1ebeef890eab96cfc501076fd9cf18b49" />
+		<rom loadflag="load16_byte" name="s01.9f" offset="0x1" size="0x80000" crc="b4df6f69" sha1="a41e4e050ffdf132a00baef094c59d99416453e4" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="s-001.5e" offset="0x0" size="0x8000" crc="154e6d03" sha1="db15c20982692271f40a733dfc3f2486221cd604" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x400000">
+		<rom name="ds-p01.25k" offset="0x0" size="0x200000" crc="1c7aad68" sha1="a5296cf12cec262eede55397ea929965576fea81" />
+		<rom name="ds-p02.27k" offset="0x200000" size="0x200000" crc="e4c3a43b" sha1="f327f75fe82f8aafd2cfe6bdd3a426418615974b" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x400000">
+		<rom name="ds-p03.25l" offset="0x0" size="0x200000" crc="1eaa671b" sha1="1875eefc6f2c3fc8feada56bfa6701144e8ef64b" />
+		<rom name="ds-p04.27l" offset="0x200000" size="0x200000" crc="5845ff98" sha1="73b4c3f439321ce9c462119fe933e7cbda8cd498" />
+		</dataarea>
+		<dataarea name="k053246" size="0x800000">
+		</dataarea>
+		<dataarea name="k056832" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="pcm.7c" offset="0x0" size="0x40000" crc="b58c884a" sha1="0e2a7267e9dff29c9af25558081ec9d56629bc43" />
+		</dataarea>
+	</part>
+</software>
+<software name="dbz2s02" cloneof="dbz2">
+	<description>Dragon Ball Z 2 (Simple Attack)</description>
+	<year>2009</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="s02.9e" offset="0x0" size="0x80000" crc="c64a637c" sha1="ce2976f4c2f5408aa702daaf1520aeb19e2a1b54" />
+		<rom loadflag="load16_byte" name="s02.9f" offset="0x1" size="0x80000" crc="dbb75c77" sha1="2f6ede30e36bbaa54d55acc86d18cd66da0ec281" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="s-001.5e" offset="0x0" size="0x8000" crc="154e6d03" sha1="db15c20982692271f40a733dfc3f2486221cd604" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x400000">
+		<rom name="ds-p01.25k" offset="0x0" size="0x200000" crc="1c7aad68" sha1="a5296cf12cec262eede55397ea929965576fea81" />
+		<rom name="ds-p02.27k" offset="0x200000" size="0x200000" crc="e4c3a43b" sha1="f327f75fe82f8aafd2cfe6bdd3a426418615974b" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x400000">
+		<rom name="ds-p03.25l" offset="0x0" size="0x200000" crc="1eaa671b" sha1="1875eefc6f2c3fc8feada56bfa6701144e8ef64b" />
+		<rom name="ds-p04.27l" offset="0x200000" size="0x200000" crc="5845ff98" sha1="73b4c3f439321ce9c462119fe933e7cbda8cd498" />
+		</dataarea>
+		<dataarea name="k053246" size="0x800000">
+		</dataarea>
+		<dataarea name="k056832" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="pcm.7c" offset="0x0" size="0x40000" crc="b58c884a" sha1="0e2a7267e9dff29c9af25558081ec9d56629bc43" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

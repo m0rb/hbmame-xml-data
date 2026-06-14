@@ -1,0 +1,21 @@
+<software name="mpangj01" cloneof="mpang">
+	<description>Mighty! Pang (001011J, Phoenix Edition)</description>
+	<year>2000</year>
+	<publisher>Razoola</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c84j01.p1" offset="0x0" size="0x80000" crc="dac63128" sha1="e5ee8f6d698a28dbf54520473520e40efadf30e3" />
+		<rom loadflag="load16_word_swap" name="c84j01.p2" offset="0x80000" size="0x80000" crc="d0b2592b" sha1="f18c026776326f9bab70d1a8f66dd5fffb115b1b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c84.m1" offset="0x0" size="0x8000" crc="90c7adb6" sha1="a2653e977e5e0457b249e098e5ca0abc93dac336" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c84.q1" offset="0x0" size="0x200000" crc="318a2e21" sha1="c573cd88f8279a062c73ef1d79cd8421dbdcd93e" />
+		<rom loadflag="load16_word_swap" name="c84.q2" offset="0x200000" size="0x200000" crc="5462f4e8" sha1="299fbdab700e735e6395c5d9e3f079bb2e3dbd73" />
+		</dataarea>
+	</part>
+</software>

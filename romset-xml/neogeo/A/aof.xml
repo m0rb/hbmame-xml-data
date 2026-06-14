@@ -1,0 +1,26 @@
+<software name="aof">
+	<description>Art of Fighting / Ryuuko no Ken (NGM-044 ~ NGH-044)</description>
+	<year>1992</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="044-p1.p1" offset="0x0" size="0x80000" crc="ca9f7a6d" sha1="4d28ef86696f7e832510a66d3e8eb6c93b5b91a1" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="044-c1.c1" offset="0x0" size="0x100000" crc="ddab98a7" sha1="f20eb81ec431268798c142c482146c1545af1c24" />
+		<rom loadflag="continue" offset="0x400000" size="0x100000" />
+		<rom loadflag="load16_byte" name="044-c2.c2" offset="0x1" size="0x100000" crc="d8ccd575" sha1="f697263fe92164e274bf34c55327b3d4a158b332" />
+		<rom loadflag="continue" offset="0x400001" size="0x100000" />
+		<rom loadflag="load16_byte" name="044-c3.c3" offset="0x200000" size="0x100000" crc="403e898a" sha1="dd5888f8b24a33b2c1f483316fe80c17849ccfc4" />
+		<rom loadflag="continue" offset="0x600000" size="0x100000" />
+		<rom loadflag="load16_byte" name="044-c4.c4" offset="0x200001" size="0x100000" crc="6235fbaa" sha1="9090e337d7beed25ba81ae0708d0aeb57e6cf405" />
+		<rom loadflag="continue" offset="0x600001" size="0x100000" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x400000">
+		<rom name="044-v2.v2" offset="0x0" size="0x200000" crc="3ec632ea" sha1="e3f413f580b57f70d2dae16dbdacb797884d3fce" />
+		<rom name="044-v4.v4" offset="0x200000" size="0x200000" crc="4b0f8e23" sha1="105da0cc5ba19869c7147fba8b177500758c232b" />
+		</dataarea>
+	</part>
+</software>

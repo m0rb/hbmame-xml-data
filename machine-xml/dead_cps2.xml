@@ -1,0 +1,2294 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="dead_cps2" description="Dead_Cps2 cartridges">
+<software name="armwar1d" cloneof="armwar">
+	<description>Armored Warriors (Euro 941011 Phoenix Edition) (bootleg)</description>
+	<year>1994</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c55r1d.p1" offset="0x0" size="0x80000" crc="496bd483" sha1="c3a116ea019843aba666a0d7e7bd2975622306e3" />
+		<rom loadflag="load16_word_swap" name="c55r1d.p2" offset="0x80000" size="0x80000" crc="9bd6a38f" sha1="da90162b7bff223df59ac362a5f61c580a86d967" />
+		<rom loadflag="load16_word_swap" name="c55r1d.p3" offset="0x100000" size="0x80000" crc="4c11d30f" sha1="463ba1845b1239c839e9419cbc6762d52b7918db" />
+		<rom loadflag="load16_word_swap" name="c55.p4" offset="0x180000" size="0x80000" crc="87a60ce8" sha1="e2085c7c8c6792d055dbbb023c7f4e4aa38ae924" />
+		<rom loadflag="load16_word_swap" name="c55.p5" offset="0x200000" size="0x80000" crc="f7b148df" sha1="f369669713cf647222094c570a2eacd48a8637cf" />
+		<rom loadflag="load16_word_swap" name="c55.p6" offset="0x280000" size="0x80000" crc="cc62823e" sha1="edaf9bebdfc65ae5414090abd6844176eec39a00" />
+		<rom loadflag="load16_word_swap" name="c55u1.p7" offset="0x300000" size="0x80000" crc="ddc85ca6" sha1="e794c679531632e2142c6a5e3b858494389ce65e" />
+		<rom loadflag="load16_word_swap" name="c55.p8" offset="0x380000" size="0x80000" crc="07c4fb28" sha1="58a1ff3d105be7df833dd4f32973766649efcbcf" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c55.m1" offset="0x0" size="0x8000" crc="18a5c0e4" sha1="bb1353dd74884aaeec9b5f1d0b284d9cad53c0ff" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c55.m2" offset="0x28000" size="0x20000" crc="c9dfffa6" sha1="64e71028befe9a2514074be765dd020e1d2ea70b" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c55.q1" offset="0x0" size="0x200000" crc="a78f7433" sha1="e47ffba7b9dac9d0dda985c5d966194be18260f7" />
+		<rom loadflag="load16_word_swap" name="c55.q2" offset="0x200000" size="0x200000" crc="77438ed0" sha1="733ca6c6a792e66e2aa12c5fc06dd459527afe4b" />
+		</dataarea>
+	</part>
+</software>
+<software name="armwars01" cloneof="armwar">
+	<description>Armored Warriors (941011E, Full Attack Edition, 2020-05-07)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c55s01.p1" offset="0x0" size="0x80000" crc="f4642738" sha1="91fab6578dad8dba57e964a56be782d936b03663" />
+		<rom loadflag="load16_word_swap" name="c55r1d.p2" offset="0x80000" size="0x80000" crc="9bd6a38f" sha1="da90162b7bff223df59ac362a5f61c580a86d967" />
+		<rom loadflag="load16_word_swap" name="c55r1d.p3" offset="0x100000" size="0x80000" crc="4c11d30f" sha1="463ba1845b1239c839e9419cbc6762d52b7918db" />
+		<rom loadflag="load16_word_swap" name="c55.p4" offset="0x180000" size="0x80000" crc="87a60ce8" sha1="e2085c7c8c6792d055dbbb023c7f4e4aa38ae924" />
+		<rom loadflag="load16_word_swap" name="c55.p5" offset="0x200000" size="0x80000" crc="f7b148df" sha1="f369669713cf647222094c570a2eacd48a8637cf" />
+		<rom loadflag="load16_word_swap" name="c55.p6" offset="0x280000" size="0x80000" crc="cc62823e" sha1="edaf9bebdfc65ae5414090abd6844176eec39a00" />
+		<rom loadflag="load16_word_swap" name="c55u1.p7" offset="0x300000" size="0x80000" crc="ddc85ca6" sha1="e794c679531632e2142c6a5e3b858494389ce65e" />
+		<rom loadflag="load16_word_swap" name="c55.p8" offset="0x380000" size="0x80000" crc="07c4fb28" sha1="58a1ff3d105be7df833dd4f32973766649efcbcf" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c55.m1" offset="0x0" size="0x8000" crc="18a5c0e4" sha1="bb1353dd74884aaeec9b5f1d0b284d9cad53c0ff" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c55.m2" offset="0x28000" size="0x20000" crc="c9dfffa6" sha1="64e71028befe9a2514074be765dd020e1d2ea70b" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c55.q1" offset="0x0" size="0x200000" crc="a78f7433" sha1="e47ffba7b9dac9d0dda985c5d966194be18260f7" />
+		<rom loadflag="load16_word_swap" name="c55.q2" offset="0x200000" size="0x200000" crc="77438ed0" sha1="733ca6c6a792e66e2aa12c5fc06dd459527afe4b" />
+		</dataarea>
+	</part>
+</software>
+<software name="avspd" cloneof="avsp">
+	<description>Alien vs. Predator (Euro 940520 Phoenix Edition) (bootleg)</description>
+	<year>1994</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c52d.p1" offset="0x0" size="0x80000" crc="66aa8aad" sha1="eb1928393d0dd4cc1a96c00324508f83f36a7622" />
+		<rom loadflag="load16_word_swap" name="c52d.p2" offset="0x80000" size="0x80000" crc="579306c2" sha1="cabee3fdb624e681013a5a57d2a37339b96518fb" />
+		<rom loadflag="load16_word_swap" name="c52.p3" offset="0x100000" size="0x80000" crc="fbfb5d7a" sha1="5549bc9d780753bc9c10fba82588e5c3d4a2acb2" />
+		<rom loadflag="load16_word_swap" name="c52d.p4" offset="0x180000" size="0x80000" crc="63094539" sha1="f1b776cf4334fa7fa1ee0e5ce81a5996b930996b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c52.m1" offset="0x0" size="0x8000" crc="2d3b4220" sha1="2b2d04d4282550fa9f6e1ad8528f20d1f2ac02eb" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c52.q1" offset="0x0" size="0x200000" crc="83499817" sha1="e65b0ebd61ddc748842a9d4d92404b5305307623" />
+		<rom loadflag="load16_word_swap" name="c52.q2" offset="0x200000" size="0x200000" crc="f4110d49" sha1="f27538776cc1ba8213f19f98728ed8c02508d3ac" />
+		</dataarea>
+	</part>
+</software>
+<software name="avsps03" cloneof="avsp">
+	<description>Alien vs. Predator (940520E, Ultimate Evolution Edition, 2020-05-08)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c52s03.p1" offset="0x0" size="0x80000" crc="e76657b7" sha1="e488710f196489f3706c696d0f008ae63c3ff358" />
+		<rom loadflag="load16_word_swap" name="c52s03.p2" offset="0x80000" size="0x80000" crc="8799b67f" sha1="fe755897231b21ac8e47f1e5bc0ca73ae91e433a" />
+		<rom loadflag="load16_word_swap" name="c52s02.p3" offset="0x100000" size="0x80000" crc="0207cb19" sha1="a6dab4afc94c6bbaf353deb97e84cff6f76e9f35" />
+		<rom loadflag="load16_word_swap" name="c52d.p4" offset="0x180000" size="0x80000" crc="63094539" sha1="f1b776cf4334fa7fa1ee0e5ce81a5996b930996b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c52.m1" offset="0x0" size="0x8000" crc="2d3b4220" sha1="2b2d04d4282550fa9f6e1ad8528f20d1f2ac02eb" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c52.q1" offset="0x0" size="0x200000" crc="83499817" sha1="e65b0ebd61ddc748842a9d4d92404b5305307623" />
+		<rom loadflag="load16_word_swap" name="c52.q2" offset="0x200000" size="0x200000" crc="f4110d49" sha1="f27538776cc1ba8213f19f98728ed8c02508d3ac" />
+		</dataarea>
+	</part>
+</software>
+<software name="avsps04" cloneof="avsp">
+	<description>Alien vs. Predator (940520E, Ultimate Evolution Edition, 2020-09-01)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c52s04.p1" offset="0x0" size="0x80000" crc="02a03d8d" sha1="9c3d25231ca51a6b6559329958ce0cdb71a9720e" />
+		<rom loadflag="load16_word_swap" name="c52s03.p2" offset="0x80000" size="0x80000" crc="8799b67f" sha1="fe755897231b21ac8e47f1e5bc0ca73ae91e433a" />
+		<rom loadflag="load16_word_swap" name="c52s02.p3" offset="0x100000" size="0x80000" crc="0207cb19" sha1="a6dab4afc94c6bbaf353deb97e84cff6f76e9f35" />
+		<rom loadflag="load16_word_swap" name="c52d.p4" offset="0x180000" size="0x80000" crc="63094539" sha1="f1b776cf4334fa7fa1ee0e5ce81a5996b930996b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c52.m1" offset="0x0" size="0x8000" crc="2d3b4220" sha1="2b2d04d4282550fa9f6e1ad8528f20d1f2ac02eb" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c52.q1" offset="0x0" size="0x200000" crc="83499817" sha1="e65b0ebd61ddc748842a9d4d92404b5305307623" />
+		<rom loadflag="load16_word_swap" name="c52.q2" offset="0x200000" size="0x200000" crc="f4110d49" sha1="f27538776cc1ba8213f19f98728ed8c02508d3ac" />
+		</dataarea>
+	</part>
+</software>
+<software name="avsps06" cloneof="avsp">
+	<description>Alien vs. Predator (940520U, Phoenix edition)</description>
+	<year>1994</year>
+	<publisher>Razoola</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c52d.p1" offset="0x0" size="0x80000" crc="66aa8aad" sha1="eb1928393d0dd4cc1a96c00324508f83f36a7622" />
+		<rom loadflag="load16_word_swap" name="c52d.p2" offset="0x80000" size="0x80000" crc="579306c2" sha1="cabee3fdb624e681013a5a57d2a37339b96518fb" />
+		<rom loadflag="load16_word_swap" name="c52s06.p3" offset="0x100000" size="0x80000" crc="3d9b92ac" sha1="218756eec9180df78b5cd01b446d07616b387759" />
+		<rom loadflag="load16_word_swap" name="c52s06.p4" offset="0x180000" size="0x80000" crc="9c3ec898" sha1="a5bd67bbb9d9f603092ab34126d94c30e0ddda49" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c52.m1" offset="0x0" size="0x8000" crc="2d3b4220" sha1="2b2d04d4282550fa9f6e1ad8528f20d1f2ac02eb" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c52.q1" offset="0x0" size="0x200000" crc="83499817" sha1="e65b0ebd61ddc748842a9d4d92404b5305307623" />
+		<rom loadflag="load16_word_swap" name="c52.q2" offset="0x200000" size="0x200000" crc="f4110d49" sha1="f27538776cc1ba8213f19f98728ed8c02508d3ac" />
+		</dataarea>
+	</part>
+</software>
+<software name="batcird" cloneof="batcir">
+	<description>Battle Circuit (Euro 970319 Phoenix Edition) (bootleg)</description>
+	<year>1997</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c70d.p1" offset="0x0" size="0x80000" crc="0737db6d" sha1="e7f02f568a8013d5abf32e0e7dc120c004adb6c9" />
+		<rom loadflag="load16_word_swap" name="c70d.p2" offset="0x80000" size="0x80000" crc="ef1a8823" sha1="9326e031b937af18b98dc3f236caaac632dac66d" />
+		<rom loadflag="load16_word_swap" name="c70d.p3" offset="0x100000" size="0x80000" crc="20bdbb14" sha1="fe3a202741ca657b2b67e89050788b67d709a36d" />
+		<rom loadflag="load16_word_swap" name="c70d.p4" offset="0x180000" size="0x80000" crc="b4d8f5bc" sha1="dc5ca580ecfb051ded551663ea4e9f161f820f81" />
+		<rom loadflag="load16_word_swap" name="c70.p5" offset="0x200000" size="0x80000" crc="7322d5db" sha1="473be1f1bf603bdd82451661a6206507f50ed2b6" />
+		<rom loadflag="load16_word_swap" name="c70.p6" offset="0x280000" size="0x80000" crc="6aac85ab" sha1="ad02d4185c2b3664fb96350d8ad317d3939a7554" />
+		<rom loadflag="load16_word_swap" name="c70.p7" offset="0x300000" size="0x80000" crc="1203db08" sha1="fdbea14618b277132f9e010ef36c134a8ea42162" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c70.m1" offset="0x0" size="0x8000" crc="1e194310" sha1="3b29de0aca9dbca59d6b50fb2509e2a913c6b0af" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c70.m2" offset="0x28000" size="0x20000" crc="01aeb8e6" sha1="50a5d1cce0caf7c5143d4904431e8f41e2a57464" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c70.q1" offset="0x0" size="0x200000" crc="c27f2229" sha1="df2459493af40937b6656a16fad43ff51bed2204" />
+		<rom loadflag="load16_word_swap" name="c70.q2" offset="0x200000" size="0x200000" crc="418a2e33" sha1="0642ddff2ab9255f154419da24ba644ed63f34ab" />
+		</dataarea>
+	</part>
+</software>
+<software name="batcirs01" cloneof="batcir">
+	<description>Battle Circuit (970319E, Evolution, 2019-10-21)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c70s01.p1" offset="0x0" size="0x80000" crc="03bd6707" sha1="62eda0d68b9940f5d07a529d05e8c90fe6a8ad02" />
+		<rom loadflag="load16_word_swap" name="c70s01.p2" offset="0x80000" size="0x80000" crc="c3ff82b6" sha1="3b23b13e0588479a598dd43093a42cd0c9db1484" />
+		<rom loadflag="load16_word_swap" name="c70d.p3" offset="0x100000" size="0x80000" crc="20bdbb14" sha1="fe3a202741ca657b2b67e89050788b67d709a36d" />
+		<rom loadflag="load16_word_swap" name="c70d.p4" offset="0x180000" size="0x80000" crc="b4d8f5bc" sha1="dc5ca580ecfb051ded551663ea4e9f161f820f81" />
+		<rom loadflag="load16_word_swap" name="c70s01.p5" offset="0x200000" size="0x80000" crc="b194270f" sha1="e152d48760c92b84c748014ef68050f138f75cf5" />
+		<rom loadflag="load16_word_swap" name="c70.p6" offset="0x280000" size="0x80000" crc="6aac85ab" sha1="ad02d4185c2b3664fb96350d8ad317d3939a7554" />
+		<rom loadflag="load16_word_swap" name="c70s01.p7" offset="0x300000" size="0x80000" crc="31865161" sha1="2217a4b8ca1ed3fe52e9b9d4ead85ce7df3a6bf9" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c70.m1" offset="0x0" size="0x8000" crc="1e194310" sha1="3b29de0aca9dbca59d6b50fb2509e2a913c6b0af" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c70.m2" offset="0x28000" size="0x20000" crc="01aeb8e6" sha1="50a5d1cce0caf7c5143d4904431e8f41e2a57464" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c70.q1" offset="0x0" size="0x200000" crc="c27f2229" sha1="df2459493af40937b6656a16fad43ff51bed2204" />
+		<rom loadflag="load16_word_swap" name="c70.q2" offset="0x200000" size="0x200000" crc="418a2e33" sha1="0642ddff2ab9255f154419da24ba644ed63f34ab" />
+		</dataarea>
+	</part>
+</software>
+<software name="cps2xx">
+	<description>CPS2XX demo</description>
+	<year>2008</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom name="cps2xx.68k" offset="0x0" size="0x10000" crc="8414c946" sha1="154f8dc8f86e1dd97f0455da6a1c72efa41a19e0" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="cps2xx.z80" offset="0x0" size="0x8000" crc="2d3b4220" sha1="2b2d04d4282550fa9f6e1ad8528f20d1f2ac02eb" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom name="cps2xx.tile" offset="0x0" size="0x400000" crc="eb9d5a2b" sha1="61335ce00c2c6cec8a1302dbe6644f8cffc6ac9b" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom name="cps2xx.qs" offset="0x0" size="0x400000" crc="627be4da" sha1="bf7c98ff6dc8921794c26a51846caf0cb834a3e9" />
+		</dataarea>
+	</part>
+</software>
+<software name="csclub1d" cloneof="csclub">
+	<description>Capcom Sports Club (Euro 970722 Phoenix Edition) (bootleg)</description>
+	<year>1997</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c73ed.p1" offset="0x0" size="0x80000" crc="5aedc6e6" sha1="1330959ac96b0c267e81237974ec44ed7189495a" />
+		<rom loadflag="load16_word_swap" name="c73ed.p2" offset="0x80000" size="0x80000" crc="a3d9aa25" sha1="d7a98cf4506c30b321d8c5a0687fa6938740f951" />
+		<rom loadflag="load16_word_swap" name="c73ed.p3" offset="0x100000" size="0x80000" crc="0915c9d1" sha1="071c6bcfb0ed1047f06c2fbe43a0340aef73dc1d" />
+		<rom loadflag="load16_word_swap" name="c73ed.p4" offset="0x180000" size="0x80000" crc="09c77d99" sha1="16b21f975ad07dd3156291e8c274a0c52d783938" />
+		<rom loadflag="load16_word_swap" name="c73d.p5" offset="0x200000" size="0x80000" crc="77478e25" sha1="d2648a8d57a156c5a0416007dedb4c65af8403d5" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c73.m1" offset="0x0" size="0x8000" crc="ee162111" sha1="ce8d4bd32bb10ee8b0274ba6fcef05a583b39d48" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c73e.q1" offset="0x0" size="0x80000" crc="5a52afd5" sha1="ab873ec556933b75be82ba249357cceb01a7a0bd" />
+		<rom loadflag="load16_word_swap" name="c73e.q2" offset="0x80000" size="0x80000" crc="1408a811" sha1="1d31e3cd505245b5ff4d3c55d5fa7017c0f1e168" />
+		<rom loadflag="load16_word_swap" name="c73e.q3" offset="0x100000" size="0x80000" crc="4fb9f57c" sha1="093e8e3a03b62783a84fe4ae239e9eb46cbfd71e" />
+		<rom loadflag="load16_word_swap" name="c73e.q4" offset="0x180000" size="0x80000" crc="9a8f40ec" sha1="c8db1ecfd6b08e9c83ae53a1d25c1387ab95535c" />
+		<rom loadflag="load16_word_swap" name="c73e.q5" offset="0x200000" size="0x80000" crc="91529a91" sha1="183569100ae98e17688e0e25932850e73a41eb88" />
+		<rom loadflag="load16_word_swap" name="c73e.q6" offset="0x280000" size="0x80000" crc="9a345334" sha1="330291400a73215c9797457507a86c90ba415247" />
+		<rom loadflag="load16_word_swap" name="c73e.q7" offset="0x300000" size="0x80000" crc="aedc27f2" sha1="55137f0f22c4823558e6a8ba76011695579a4f1f" />
+		<rom loadflag="load16_word_swap" name="c73e.q8" offset="0x380000" size="0x80000" crc="2300b7b3" sha1="f5ecbb45c24f7de1c1aa435870695551d4e343ca" />
+		</dataarea>
+	</part>
+</software>
+<software name="cybotsjd" cloneof="cybots">
+	<description>Cyberbots: Fullmetal Madness (Japan 950424) (decrypted bootleg)</description>
+	<year>1995</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c58jd.p1" offset="0x0" size="0x80000" crc="9eb34071" sha1="b9ef1fa79f79bbb821862764c65a65357a79aa91" />
+		<rom loadflag="load16_word_swap" name="c58jd.p2" offset="0x80000" size="0x80000" crc="cf223cd7" sha1="834833ae68c3f14f1e06c92273fadfe6918cf3c5" />
+		<rom loadflag="load16_word_swap" name="c58.p3" offset="0x100000" size="0x80000" crc="ec40408e" sha1="dd611c1708e7ef86e4f7cac4b7b0dff7baaee5ed" />
+		<rom loadflag="load16_word_swap" name="c58.p4" offset="0x180000" size="0x80000" crc="1ad0bed2" sha1="2ea005f3e73b05f8f0ec006cd9e95f7731a73897" />
+		<rom loadflag="load16_word_swap" name="c58.p5" offset="0x200000" size="0x80000" crc="6245a39a" sha1="4f607e733e2dea80211497522be6d0f09571928d" />
+		<rom loadflag="load16_word_swap" name="c58.p6" offset="0x280000" size="0x80000" crc="4b48e223" sha1="9714579a7a78b9716e44bca6c18bf1a93aa4e482" />
+		<rom loadflag="load16_word_swap" name="c58.p7" offset="0x300000" size="0x80000" crc="e15238f6" sha1="16abd92ebed921a6a7e8eac4b098dc61f7e5485c" />
+		<rom loadflag="load16_word_swap" name="c58.p8" offset="0x380000" size="0x80000" crc="75f4003b" sha1="8a65026ae35247cda016ce85a34034c62b3aa1a6" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c58.m1" offset="0x0" size="0x8000" crc="9c0fb079" sha1="06d260875a76da08d56ea2b2ae277e8c2dbae6e3" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c58.m2" offset="0x28000" size="0x20000" crc="51cb0c4e" sha1="c322957558d8d3e9dad090aebbe485978cbce8f5" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c58.q1" offset="0x0" size="0x200000" crc="362ccab2" sha1="28e537067d4846f22657ee37166d18b8f05f4da1" />
+		<rom loadflag="load16_word_swap" name="c58.q2" offset="0x200000" size="0x200000" crc="7066e9cc" sha1="eb6a9d4998b3311344d73bae88d661d81609c492" />
+		</dataarea>
+	</part>
+</software>
+<software name="cybotsud" cloneof="cybots">
+	<description>Cyberbots: Fullmetal Madness (USA 950424 Phoenix Edition) (bootleg)</description>
+	<year>1995</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c58ud.p1" offset="0x0" size="0x80000" crc="ee7560fb" sha1="632e057a7b3a61127beee4ed833a39dcec4ccbd5" />
+		<rom loadflag="load16_word_swap" name="c58ud.p2" offset="0x80000" size="0x80000" crc="7e7425a0" sha1="6368cf5b04271e68b27abecd67d107bbf58976b4" />
+		<rom loadflag="load16_word_swap" name="c58.p3" offset="0x100000" size="0x80000" crc="ec40408e" sha1="dd611c1708e7ef86e4f7cac4b7b0dff7baaee5ed" />
+		<rom loadflag="load16_word_swap" name="c58.p4" offset="0x180000" size="0x80000" crc="1ad0bed2" sha1="2ea005f3e73b05f8f0ec006cd9e95f7731a73897" />
+		<rom loadflag="load16_word_swap" name="c58.p5" offset="0x200000" size="0x80000" crc="6245a39a" sha1="4f607e733e2dea80211497522be6d0f09571928d" />
+		<rom loadflag="load16_word_swap" name="c58.p6" offset="0x280000" size="0x80000" crc="4b48e223" sha1="9714579a7a78b9716e44bca6c18bf1a93aa4e482" />
+		<rom loadflag="load16_word_swap" name="c58.p7" offset="0x300000" size="0x80000" crc="e15238f6" sha1="16abd92ebed921a6a7e8eac4b098dc61f7e5485c" />
+		<rom loadflag="load16_word_swap" name="c58.p8" offset="0x380000" size="0x80000" crc="75f4003b" sha1="8a65026ae35247cda016ce85a34034c62b3aa1a6" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c58.m1" offset="0x0" size="0x8000" crc="9c0fb079" sha1="06d260875a76da08d56ea2b2ae277e8c2dbae6e3" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c58.m2" offset="0x28000" size="0x20000" crc="51cb0c4e" sha1="c322957558d8d3e9dad090aebbe485978cbce8f5" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c58.q1" offset="0x0" size="0x200000" crc="362ccab2" sha1="28e537067d4846f22657ee37166d18b8f05f4da1" />
+		<rom loadflag="load16_word_swap" name="c58.q2" offset="0x200000" size="0x200000" crc="7066e9cc" sha1="eb6a9d4998b3311344d73bae88d661d81609c492" />
+		</dataarea>
+	</part>
+</software>
+<software name="ddsoma4pp" cloneof="ddsom">
+	<description>Dungeons &amp; Dragons: Shadow over Mystara (unknown hack)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="dd2.07" offset="0x200000" size="0x80000" crc="909a0b8b" sha1="58bda17c36063a79df8b5031755c7909a9bda221" />
+		<rom loadflag="load16_word_swap" name="dd2.08" offset="0x280000" size="0x80000" crc="e53c4d01" sha1="bad872e4e793a39f68bc0e580772e982714b5876" />
+		<rom loadflag="load16_word_swap" name="dd2.09" offset="0x300000" size="0x80000" crc="5f86279f" sha1="c2a454e5f821b1cdd49f2cf0602e9bfb7ba63340" />
+		<rom loadflag="load16_word_swap" name="dd2xxud.03g" offset="0x0" size="0x80000" crc="f486e08a" sha1="a646dd908f606bcfdcdd589868eaff6b75ad6d54" />
+		<rom loadflag="load16_word_swap" name="dd2xxud.04g" offset="0x80000" size="0x80000" crc="ddf41bdb" sha1="f63ba44955150dd407ff1cfe8f4642cf9e8686bf" />
+		<rom loadflag="load16_word_swap" name="dd2xx.05g" offset="0x100000" size="0x80000" crc="6168fee0" sha1="8981fe6c7dda81eb551f7359f4cdccfae932e94b" />
+		<rom loadflag="load16_word_swap" name="dd2xx.06g" offset="0x180000" size="0x80000" crc="60fcdd91" sha1="cc52f7d2d127f55f2237a945c8e13374dce81856" />
+		<rom loadflag="load16_word_swap" name="dd2xxd.10" offset="0x380000" size="0x80000" crc="f06f2eb5" sha1="3b1691e02611c9493ddb4d695548375e323c44a9" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="dd2.01" offset="0x0" size="0x8000" crc="99d657e5" sha1="1528dd6b07a0e79951a35c0457c8a9c9770e9c78" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="dd2.02" offset="0x28000" size="0x20000" crc="117a3824" sha1="14f3a12170b601c5466c93af9d2f24e0b386b4e4" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1800000">
+		<rom loadflag="load16_word" name="dd2.13m" offset="0x0" size="0x400000" crc="a46b4e6e" sha1="fb90f42868c581c481b4ceff9f692753fb186b30" />
+		<rom loadflag="load16_word" name="dd2.15m" offset="0x2" size="0x400000" crc="d5fc50fc" sha1="bc692f17b18bb47a724cd5152377cd5ccd6e184a" />
+		<rom loadflag="load16_word" name="dd2.17m" offset="0x4" size="0x400000" crc="837c0867" sha1="3d6db290a8f76299a23543f0ccf6a7905e1088ac" />
+		<rom loadflag="load16_word" name="dd2.19m" offset="0x6" size="0x400000" crc="bb0ec21c" sha1="e43ccc1cf63ccd2b504cc9fd701af849a7321914" />
+		<rom loadflag="load16_word" name="dd2.14m" offset="0x1000000" size="0x200000" crc="6d824ce2" sha1="0ccfe6c8a944937718e28a1a373b5822c7b7001b" />
+		<rom loadflag="load16_word" name="dd2.16m" offset="0x1000002" size="0x200000" crc="79682ae5" sha1="ee84f4791c29ce9e2bae06ba3ec47ff4d2cd7054" />
+		<rom loadflag="load16_word" name="dd2.18m" offset="0x1000004" size="0x200000" crc="acddd149" sha1="7f50de9b2d1cc733594c642be1804190519caffa" />
+		<rom loadflag="load16_word" name="dd2.20m" offset="0x1000006" size="0x200000" crc="117fb0c0" sha1="15c01fa1a71b6469b0e1bde0ce5835c5ff9d938c" />
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="phoenix.key" offset="0x0" size="0x14" crc="2cf772b0" sha1="eff33c65a4f3862c231f9e4d6fefa7b34398dbf2" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="dd2.11m" offset="0x0" size="0x200000" crc="98d0c325" sha1="7406e8d943d77c468eb418c4113261f4ab973bbf" />
+		<rom loadflag="load16_word_swap" name="dd2.12m" offset="0x200000" size="0x200000" crc="5ea2e7fa" sha1="0e6a9fd007f637adcb2226c902394f07de45e803" />
+		</dataarea>
+		<dataarea name="user1" endianness="big" size="0x400000">
+		</dataarea>
+	</part>
+</software>
+<software name="ddsoms03" cloneof="ddsom">
+	<description>Dungeons &amp; Dragons: Shadow over Mystara (960619U, Enhanced Edition, 2019-10-22)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c63s03.p1" offset="0x0" size="0x80000" crc="41429cbc" sha1="dfd6011a52c8a8c5b42c85ee3c886cd3db8964b9" />
+		<rom loadflag="load16_word_swap" name="c63s03.p2" offset="0x80000" size="0x80000" crc="11f7496d" sha1="b0f64487f8b9e410195ae6810a30b58874c2497c" />
+		<rom loadflag="load16_word_swap" name="c63s03.p3" offset="0x100000" size="0x80000" crc="c00d5fb6" sha1="35b7011905f5f9d12a17171609e71c53b1e1ecb5" />
+		<rom loadflag="load16_word_swap" name="c63s03.p4" offset="0x180000" size="0x80000" crc="5eaf9618" sha1="e9381a81d2bd971666656835991109867341a9a5" />
+		<rom loadflag="load16_word_swap" name="c63u.p5" offset="0x200000" size="0x80000" crc="909a0b8b" sha1="58bda17c36063a79df8b5031755c7909a9bda221" />
+		<rom loadflag="load16_word_swap" name="c63u.p6" offset="0x280000" size="0x80000" crc="e53c4d01" sha1="bad872e4e793a39f68bc0e580772e982714b5876" />
+		<rom loadflag="load16_word_swap" name="c63u.p7" offset="0x300000" size="0x80000" crc="5f86279f" sha1="c2a454e5f821b1cdd49f2cf0602e9bfb7ba63340" />
+		<rom loadflag="load16_word_swap" name="c63s03.p8" offset="0x380000" size="0x80000" crc="33d55230" sha1="245b3a99a29c0f11bae4409c1c51f02e102b0fc2" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c63.m1" offset="0x0" size="0x8000" crc="99d657e5" sha1="1528dd6b07a0e79951a35c0457c8a9c9770e9c78" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c63.m2" offset="0x28000" size="0x20000" crc="117a3824" sha1="14f3a12170b601c5466c93af9d2f24e0b386b4e4" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1800000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c63.q1" offset="0x0" size="0x200000" crc="98d0c325" sha1="7406e8d943d77c468eb418c4113261f4ab973bbf" />
+		<rom loadflag="load16_word_swap" name="c63.q2" offset="0x200000" size="0x200000" crc="5ea2e7fa" sha1="0e6a9fd007f637adcb2226c902394f07de45e803" />
+		</dataarea>
+	</part>
+</software>
+<software name="ddsoms08" cloneof="ddsom">
+	<description>Dungeons &amp; Dragons: Shadow over Mystara (960619U, Plus, 2016-08-25)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c63s08.p1" offset="0x0" size="0x400000" crc="6611a98b" sha1="6ea5062199c9df600831b57fa279b7d48cfc6900" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c63.m1" offset="0x0" size="0x8000" crc="99d657e5" sha1="1528dd6b07a0e79951a35c0457c8a9c9770e9c78" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c63.m2" offset="0x28000" size="0x20000" crc="117a3824" sha1="14f3a12170b601c5466c93af9d2f24e0b386b4e4" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1800000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c63.q1" offset="0x0" size="0x200000" crc="98d0c325" sha1="7406e8d943d77c468eb418c4113261f4ab973bbf" />
+		<rom loadflag="load16_word_swap" name="c63.q2" offset="0x200000" size="0x200000" crc="5ea2e7fa" sha1="0e6a9fd007f637adcb2226c902394f07de45e803" />
+		</dataarea>
+	</part>
+</software>
+<software name="ddsomud" cloneof="ddsom">
+	<description>Dungeons &amp; Dragons: Shadow over Mystara (USA 960619 Phoenix Edition) (bootleg)</description>
+	<year>1996</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c63ud.p1" offset="0x0" size="0x80000" crc="816f695a" sha1="5e590d36c04ceac1b48954c0554a733b4c3a5277" />
+		<rom loadflag="load16_word_swap" name="c63ud.p2" offset="0x80000" size="0x80000" crc="7cc81c6b" sha1="2619cb25d5ae62adc5c2292e25c0d33674f5cc13" />
+		<rom loadflag="load16_word_swap" name="c63u.p3" offset="0x100000" size="0x80000" crc="5eb1991c" sha1="429a60b5396ff4192904867fbe0524268f0edbcb" />
+		<rom loadflag="load16_word_swap" name="c63u.p4" offset="0x180000" size="0x80000" crc="c26b5e55" sha1="9590206f30459941880ff4b56c7f276cc78e3a22" />
+		<rom loadflag="load16_word_swap" name="c63u.p5" offset="0x200000" size="0x80000" crc="909a0b8b" sha1="58bda17c36063a79df8b5031755c7909a9bda221" />
+		<rom loadflag="load16_word_swap" name="c63u.p6" offset="0x280000" size="0x80000" crc="e53c4d01" sha1="bad872e4e793a39f68bc0e580772e982714b5876" />
+		<rom loadflag="load16_word_swap" name="c63u.p7" offset="0x300000" size="0x80000" crc="5f86279f" sha1="c2a454e5f821b1cdd49f2cf0602e9bfb7ba63340" />
+		<rom loadflag="load16_word_swap" name="c63ud.p8" offset="0x380000" size="0x80000" crc="0c172f8f" sha1="4f0ad9ab401f9f2d7d8f605a5ef78add4f4ced38" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c63.m1" offset="0x0" size="0x8000" crc="99d657e5" sha1="1528dd6b07a0e79951a35c0457c8a9c9770e9c78" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c63.m2" offset="0x28000" size="0x20000" crc="117a3824" sha1="14f3a12170b601c5466c93af9d2f24e0b386b4e4" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1800000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c63.q1" offset="0x0" size="0x200000" crc="98d0c325" sha1="7406e8d943d77c468eb418c4113261f4ab973bbf" />
+		<rom loadflag="load16_word_swap" name="c63.q2" offset="0x200000" size="0x200000" crc="5ea2e7fa" sha1="0e6a9fd007f637adcb2226c902394f07de45e803" />
+		</dataarea>
+	</part>
+</software>
+<software name="ddsomuds01" cloneof="ddsom">
+	<description>Dungeons &amp; Dragons: Shadow over Mystara (Diablo Mystery 2016-07-14)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="dd2uds01.03g" offset="0x0" size="0x80000" crc="f486e08a" sha1="a646dd908f606bcfdcdd589868eaff6b75ad6d54" />
+		<rom loadflag="load16_word_swap" name="dd2uds01.04g" offset="0x80000" size="0x80000" crc="c8f38de1" sha1="c912e22cb3d06375e5bf53bddfd67c566c9bdfea" />
+		<rom loadflag="load16_word_swap" name="dd2uds01.05g" offset="0x100000" size="0x80000" crc="45afee9b" sha1="7a5d1846bcaaad90cd4b25fc114113de0dc4a012" />
+		<rom loadflag="load16_word_swap" name="dd2uds01.06g" offset="0x180000" size="0x80000" crc="c415924d" sha1="81de11484d49bdff8e0fd7f764f8ecaabd38556d" />
+		<rom loadflag="load16_word_swap" name="dd2.07" offset="0x200000" size="0x80000" crc="909a0b8b" sha1="58bda17c36063a79df8b5031755c7909a9bda221" />
+		<rom loadflag="load16_word_swap" name="dd2.08" offset="0x280000" size="0x80000" crc="e53c4d01" sha1="bad872e4e793a39f68bc0e580772e982714b5876" />
+		<rom loadflag="load16_word_swap" name="dd2.09" offset="0x300000" size="0x80000" crc="5f86279f" sha1="c2a454e5f821b1cdd49f2cf0602e9bfb7ba63340" />
+		<rom loadflag="load16_word_swap" name="dd2duds01.10" offset="0x380000" size="0x80000" crc="e1e0c168" sha1="d51f41981e6a41e83ba5f74950f4196b50a6a29b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="dd2.01" offset="0x0" size="0x8000" crc="99d657e5" sha1="1528dd6b07a0e79951a35c0457c8a9c9770e9c78" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="dd2.02" offset="0x28000" size="0x20000" crc="117a3824" sha1="14f3a12170b601c5466c93af9d2f24e0b386b4e4" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1800000">
+		<rom loadflag="load16_word" name="dd2.13m" offset="0x0" size="0x400000" crc="a46b4e6e" sha1="fb90f42868c581c481b4ceff9f692753fb186b30" />
+		<rom loadflag="load16_word" name="dd2.15m" offset="0x2" size="0x400000" crc="d5fc50fc" sha1="bc692f17b18bb47a724cd5152377cd5ccd6e184a" />
+		<rom loadflag="load16_word" name="dd2.17m" offset="0x4" size="0x400000" crc="837c0867" sha1="3d6db290a8f76299a23543f0ccf6a7905e1088ac" />
+		<rom loadflag="load16_word" name="dd2.19m" offset="0x6" size="0x400000" crc="bb0ec21c" sha1="e43ccc1cf63ccd2b504cc9fd701af849a7321914" />
+		<rom loadflag="load16_word" name="dd2.14m" offset="0x1000000" size="0x200000" crc="6d824ce2" sha1="0ccfe6c8a944937718e28a1a373b5822c7b7001b" />
+		<rom loadflag="load16_word" name="dd2.16m" offset="0x1000002" size="0x200000" crc="79682ae5" sha1="ee84f4791c29ce9e2bae06ba3ec47ff4d2cd7054" />
+		<rom loadflag="load16_word" name="dd2.18m" offset="0x1000004" size="0x200000" crc="acddd149" sha1="7f50de9b2d1cc733594c642be1804190519caffa" />
+		<rom loadflag="load16_word" name="dd2.20m" offset="0x1000006" size="0x200000" crc="117fb0c0" sha1="15c01fa1a71b6469b0e1bde0ce5835c5ff9d938c" />
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="phoenix.key" offset="0x0" size="0x14" crc="2cf772b0" sha1="eff33c65a4f3862c231f9e4d6fefa7b34398dbf2" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="dd2.11m" offset="0x0" size="0x200000" crc="98d0c325" sha1="7406e8d943d77c468eb418c4113261f4ab973bbf" />
+		<rom loadflag="load16_word_swap" name="dd2.12m" offset="0x200000" size="0x200000" crc="5ea2e7fa" sha1="0e6a9fd007f637adcb2226c902394f07de45e803" />
+		</dataarea>
+		<dataarea name="user1" endianness="big" size="0x400000">
+		</dataarea>
+	</part>
+</software>
+<software name="ddtodd" cloneof="ddtod">
+	<description>Dungeons &amp; Dragons: Tower of Doom (Euro 940412 Phoenix Edition) (bootleg)</description>
+	<year>1993</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c50d.p1" offset="0x0" size="0x80000" crc="843330f4" sha1="3f77876ac5d61b595c22697724a16034b16954af" />
+		<rom loadflag="load16_word_swap" name="c50d.p2" offset="0x80000" size="0x80000" crc="306f14fc" sha1="b684ee72acc3087ada20b2d13202366c3cff1014" />
+		<rom loadflag="load16_word_swap" name="c50d.p3" offset="0x100000" size="0x80000" crc="8c6b8328" sha1="ab5d2c608bd3cdb298a9743d819616bf2df02ddd" />
+		<rom loadflag="load16_word_swap" name="c50.p4" offset="0x180000" size="0x80000" crc="6225495a" sha1="a9a02abb072e3482ac92d7aed8ce9a5bcf636bc0" />
+		<rom loadflag="load16_word_swap" name="c50d.p5" offset="0x200000" size="0x80000" crc="0f0df6cc" sha1="5da5f989ed71faf5e2950fdf9650d94918616ae4" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c50.m1" offset="0x0" size="0x8000" crc="3f5e2424" sha1="4aa744576bc6752c43a90a27a816ebd90076b248" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c50.q1" offset="0x0" size="0x200000" crc="0c499b67" sha1="a8ebd8a1cd6dece8344b7cb0439d85843fb97616" />
+		<rom loadflag="load16_word_swap" name="c50.q2" offset="0x200000" size="0x200000" crc="2f0b5a4e" sha1="8d1ebbb811aa469b0f0d29d719d2b9af28fb63a2" />
+		</dataarea>
+	</part>
+</software>
+<software name="ddtodp" cloneof="ddtod">
+	<description>Dungeons &amp; Dragons: Tower of Doom (Plus 2016-08-25)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="dape.03c" offset="0x0" size="0x80000" crc="c5e37fb2" sha1="3c33160c8eb1ab2e28ea083c08b36f4d2d573d51" />
+		<rom loadflag="load16_word_swap" name="dape.04c" offset="0x80000" size="0x80000" crc="0a359e5d" sha1="6a0e57bd5d7c2d24888f6548f66deab4df7b9112" />
+		<rom loadflag="load16_word_swap" name="dape.05c" offset="0x100000" size="0x80000" crc="73b06852" sha1="52553fd121a96b4b6c9d4d3ef183b361b84258c6" />
+		<rom loadflag="load16_word_swap" name="dap.06a" offset="0x180000" size="0x80000" crc="4d1e5189" sha1="e5331c10f8c95cb88cb87bdffbf0d2a8f4fd3c79" />
+		<rom loadflag="load16_word_swap" name="dap.07a" offset="0x200000" size="0x80000" crc="b16c12c4" sha1="c341567b121c0cef9b9ea2167d74e68b9d0ece9a" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="dad.01" offset="0x0" size="0x8000" crc="3f5e2424" sha1="4aa744576bc6752c43a90a27a816ebd90076b248" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		<rom loadflag="load16_word" name="dad.13m" offset="0x0" size="0x200000" crc="da3cb7d6" sha1="d59bb53d5f32889eb6eb7f8b1c8781948c97283d" />
+		<rom loadflag="load16_word" name="dad.15m" offset="0x2" size="0x200000" crc="92b63172" sha1="9bed7dbbb17729f2ad3d318396f5335c0bd39937" />
+		<rom loadflag="load16_word" name="dad.17m" offset="0x4" size="0x200000" crc="b98757f5" sha1="3eead22e097906bf0e1e151cd0a9c75abc5a32d4" />
+		<rom loadflag="load16_word" name="dad.19m" offset="0x6" size="0x200000" crc="8121ce46" sha1="40c4dc969318d38f0c6d5401c9c64371f51aa12c" />
+		<rom loadflag="load16_word" name="dad.14m" offset="0x800000" size="0x100000" crc="837e6f3f" sha1="c060183474fba0e82d765b9f282b84838550dff6" />
+		<rom loadflag="load16_word" name="dad.16m" offset="0x800002" size="0x100000" crc="f0916bdb" sha1="9354d258dd26cbbf12c78ecfc277c357cbdb360e" />
+		<rom loadflag="load16_word" name="dad.18m" offset="0x800004" size="0x100000" crc="cef393ef" sha1="830b33c86cc24776d17ad65fa89a3b16c40446a1" />
+		<rom loadflag="load16_word" name="dad.20m" offset="0x800006" size="0x100000" crc="8953fe9e" sha1="f4795beb006335d13e3934aa9760e775eb0bb950" />
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="phoenix.key" offset="0x0" size="0x14" crc="2cf772b0" sha1="eff33c65a4f3862c231f9e4d6fefa7b34398dbf2" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="dad.11m" offset="0x0" size="0x200000" crc="0c499b67" sha1="a8ebd8a1cd6dece8344b7cb0439d85843fb97616" />
+		<rom loadflag="load16_word_swap" name="dad.12m" offset="0x200000" size="0x200000" crc="2f0b5a4e" sha1="8d1ebbb811aa469b0f0d29d719d2b9af28fb63a2" />
+		</dataarea>
+	</part>
+</software>
+<software name="ddtods02" cloneof="ddtod">
+	<description>Dungeons &amp; Dragons: Tower of Doom (940412E, Plus)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c50s02.p1" offset="0x0" size="0x280000" crc="2b2fcbb7" sha1="07f790991fbcf60df6cfdafc3ffc957932ad8029" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c50.m1" offset="0x0" size="0x8000" crc="3f5e2424" sha1="4aa744576bc6752c43a90a27a816ebd90076b248" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c50.q1" offset="0x0" size="0x200000" crc="0c499b67" sha1="a8ebd8a1cd6dece8344b7cb0439d85843fb97616" />
+		<rom loadflag="load16_word_swap" name="c50.q2" offset="0x200000" size="0x200000" crc="2f0b5a4e" sha1="8d1ebbb811aa469b0f0d29d719d2b9af28fb63a2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dimahoud" cloneof="dimahoo">
+	<description>Dimahoo (USA 000121 Phoenix Edition) (bootleg)</description>
+	<year>2000</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c81ud.p1" offset="0x0" size="0x80000" crc="12888435" sha1="38204359c505ae861341936cd0fd2517411b8995" />
+		<rom loadflag="load16_word_swap" name="c81.p2" offset="0x80000" size="0x80000" crc="37485567" sha1="643c41fce6057bcaef0e0bedc62914c33d97eeaf" />
+		<rom loadflag="load16_word_swap" name="c81.p3" offset="0x100000" size="0x80000" crc="da269ffb" sha1="e99b04192030b6006cf67b563f40cea29c1b2e78" />
+		<rom loadflag="load16_word_swap" name="c81ud.p4" offset="0x180000" size="0x80000" crc="d825efda" sha1="7299f3629d5136f567f5cf373754ea13b2190533" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c81.m1" offset="0x0" size="0x8000" crc="3f9bc985" sha1="1616bbee82877b1052a07531066f5009a80706be" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c81.m2" offset="0x28000" size="0x20000" crc="3fd39dde" sha1="6a6e3ef9baa430ee83ab2312aa0221bae4d73dbd" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c81.q1" offset="0x0" size="0x400000" crc="06a65542" sha1="a1b3df70c90055a3cd59d0149fd18a74eff5bcc9" />
+		<rom loadflag="load16_word_swap" name="c81.q2" offset="0x400000" size="0x400000" crc="50bc7a31" sha1="7283569fc646c39f4c693f14e0ce7ff2ee49111a" />
+		</dataarea>
+	</part>
+</software>
+<software name="dstlku1d" cloneof="dstlk">
+	<description>Darkstalkers: The Night Warriors (USA 940705 Phoenix Edition) (bootleg)</description>
+	<year>1994</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c53ud.p1" offset="0x0" size="0x80000" crc="47b7a680" sha1="ea51d784f1ed49b70aa8addce987a7c09a5c653c" />
+		<rom loadflag="load16_word_swap" name="c53ud.p2" offset="0x80000" size="0x80000" crc="3b7a4939" sha1="020f9768f4d3afb193b1d5a824674f7fb3434369" />
+		<rom loadflag="load16_word_swap" name="c53ur1.p3" offset="0x100000" size="0x80000" crc="673ed50a" sha1="7dff27dba1da55a18eb459e4a2d679cf699f2804" />
+		<rom loadflag="load16_word_swap" name="c53ur1.p4" offset="0x180000" size="0x80000" crc="f2377be7" sha1="4520d44f94a03bd40c27062344e56ba8718c2fb8" />
+		<rom loadflag="load16_word_swap" name="c53ur1.p5" offset="0x200000" size="0x80000" crc="d8f498c4" sha1="569d9c309e9d95d2501a7c0a2c1291b49320d767" />
+		<rom loadflag="load16_word_swap" name="c53ur1.p6" offset="0x280000" size="0x80000" crc="e6a8a1a0" sha1="adf621e12623a2af4dbf0858a8fa3816e7c7073b" />
+		<rom loadflag="load16_word_swap" name="c53ud.p7" offset="0x300000" size="0x80000" crc="8b333a19" sha1="5274510491433ac4a0ba3a0a120e95205d291ffe" />
+		<rom loadflag="load16_word_swap" name="c53ur1.p8" offset="0x380000" size="0x80000" crc="c1a3d9be" sha1="82b4ce3325a7ecf3a60dd781f9b224fdde8daa65" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c53.m1" offset="0x0" size="0x8000" crc="64b685d5" sha1="6c180e7420db754eca5cad17a40f5a64f5c3bd15" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c53.m2" offset="0x28000" size="0x20000" crc="cf7c97c7" sha1="109a4b56ecd59be9c3f5869de99d40619bdaef21" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c53.q1" offset="0x0" size="0x200000" crc="4a39deb2" sha1="7e63e615869958db66a4e52a0272afee5a10e446" />
+		<rom loadflag="load16_word_swap" name="c53.q2" offset="0x200000" size="0x200000" crc="1a3e5c03" sha1="c5a556e125d6c3d68da745b4d56cd7a851f2a23d" />
+		</dataarea>
+	</part>
+</software>
+<software name="ecofghtrd" cloneof="ecofghtr">
+	<description>Eco Fighters (World 931203 Phoenix Edition) (bootleg)</description>
+	<year>1993</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c49d.p1" offset="0x0" size="0x80000" crc="ac725d2b" sha1="f77a37d160aed34319ef810728de88a87bccb7a5" />
+		<rom loadflag="load16_word_swap" name="c49d.p2" offset="0x80000" size="0x80000" crc="f800138d" sha1="a8c05da5d33c338a82fed4f7b59c6ba8c10e8597" />
+		<rom loadflag="load16_word_swap" name="c49d.p3" offset="0x100000" size="0x80000" crc="eb6a12f2" sha1="5253a193a38b566eefbb8644511f283ac4a69850" />
+		<rom loadflag="load16_word_swap" name="c49d.p4" offset="0x180000" size="0x80000" crc="8380ec9a" sha1="4f3a95a2580f89ae214b588df9258bd9dc06f993" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c49.m1" offset="0x0" size="0x8000" crc="c235bd15" sha1="feb7cd7db9dc0b9887b33eed9796bb0205fb719d" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c49.q1" offset="0x0" size="0x200000" crc="81b25d39" sha1="448adfcc7d98873a48c710d857225cdd1580e5c9" />
+		<rom loadflag="load16_word_swap" name="c49.q2" offset="0x200000" size="0x200000" crc="27729e52" sha1="a55c8159adf766dda70cb047f5ac85ce6bc0a3f3" />
+		</dataarea>
+	</part>
+</software>
+<software name="ffightaec2">
+	<description>Final Fight Anniversary Edition (CPS2 hardware)</description>
+	<year>2022</year>
+	<publisher>Grego and Gnawtor</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c07eac2.p1" offset="0x0" size="0x80000" crc="b598d599" sha1="f4e5ebc3c1900fbfb004f8e6532ffb8593622fe5" />
+		<rom loadflag="load16_word_swap" name="c07aec2.p2" offset="0x80000" size="0x80000" crc="3615cfb9" sha1="f83ebdb084505b3c35513f40666ad828846339d2" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c07aec2.m1" offset="0x0" size="0x8000" crc="7ee68d38" sha1="d533226911c23be34aa9df7d7ee37a0b2cf407ab" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c78.m2" offset="0x28000" size="0x20000" crc="72445dc4" sha1="14fca7596ac45ba655016eef5b6120f9f9671c23" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c07aec2.q1" offset="0x0" size="0x400000" crc="71af8d5a" sha1="8e9dfcd1d44f792cff4b13f8b8f73aa8f9b0a2ec" />
+		<rom loadflag="load16_word_swap" name="c78.q2" offset="0x400000" size="0x400000" crc="f392b13a" sha1="fa04ce0370144a49bd1d5acd873eef87b0dc9d15" />
+		</dataarea>
+	</part>
+</software>
+<software name="gigawingd" cloneof="gigawing">
+	<description>Giga Wing (USA 990222 Phoenix Edition) (bootleg)</description>
+	<year>1999</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c79d.p1" offset="0x0" size="0x80000" crc="dde92dfa" sha1="37b052438663d771c256c6cc61cd3f15c560f1b8" />
+		<rom loadflag="load16_word_swap" name="c79d.p2" offset="0x80000" size="0x80000" crc="e0509ae2" sha1="6962cda86351194fe901edd2b99d9da622c00c36" />
+		<rom loadflag="load16_word_swap" name="c79d.p3" offset="0x100000" size="0x80000" crc="722d0042" sha1="8587e42d4781c503bc8871b88d3f85e21659c50e" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c79.m1" offset="0x0" size="0x8000" crc="4c6351d5" sha1="cef81fb7c4b8cb2ef1f8f3c27982aefbcbe38160" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c79.q1" offset="0x0" size="0x400000" crc="e172acf5" sha1="d7b0963d66165f3607d887741c5e7ab952bcf2ff" />
+		<rom loadflag="load16_word_swap" name="c79.q2" offset="0x400000" size="0x400000" crc="4bee4e8f" sha1="c440b5a38359ec3b8002f39690b79bf78703f5d0" />
+		</dataarea>
+	</part>
+</software>
+<software name="gigawingjd" cloneof="gigawing">
+	<description>Giga Wing (Japan 990223 Phoenix Edition) (bootleg)</description>
+	<year>1999</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c79jd.p1" offset="0x0" size="0x80000" crc="cb1c756e" sha1="f8b37120b429e14aad6e7d2106f8f8c422f2ce2b" />
+		<rom loadflag="load16_word_swap" name="c79jd.p2" offset="0x80000" size="0x80000" crc="fa158e04" sha1="bd0f0351fabe376944c28e327bcf83a8d9229441" />
+		<rom loadflag="load16_word_swap" name="c79jd.p3" offset="0x100000" size="0x80000" crc="1c5bc4e7" sha1="7f338cb45686b24b9136dd1e575fd842f9fd0b05" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c79.m1" offset="0x0" size="0x8000" crc="4c6351d5" sha1="cef81fb7c4b8cb2ef1f8f3c27982aefbcbe38160" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c79.q1" offset="0x0" size="0x400000" crc="e172acf5" sha1="d7b0963d66165f3607d887741c5e7ab952bcf2ff" />
+		<rom loadflag="load16_word_swap" name="c79.q2" offset="0x400000" size="0x400000" crc="4bee4e8f" sha1="c440b5a38359ec3b8002f39690b79bf78703f5d0" />
+		</dataarea>
+	</part>
+</software>
+<software name="hsf2d" cloneof="hsf2">
+	<description>Hyper Street Fighter II: The Anniversary Edition (Asia 040202 Phoenix Edition) (bootleg)</description>
+	<year>2004</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c88d.p1" offset="0x0" size="0x80000" crc="0153d371" sha1="137f89b4ca41346abd8d1ef4a17605f6622b741e" />
+		<rom loadflag="load16_word_swap" name="c88d.p2" offset="0x80000" size="0x80000" crc="0276b78a" sha1="3f5502f77eb9889ca4658eb323579e05b35c9868" />
+		<rom loadflag="load16_word_swap" name="c88.p3" offset="0x100000" size="0x80000" crc="dde34a35" sha1="f5be2d2916db6e86e0886d61d55bddf138273ebc" />
+		<rom loadflag="load16_word_swap" name="c88.p4" offset="0x180000" size="0x80000" crc="f4e56dda" sha1="c6490707c2a416ab88612c2d73abbe5853d8cb92" />
+		<rom loadflag="load16_word_swap" name="c88.p5" offset="0x200000" size="0x80000" crc="ee4420fc" sha1="06cf76660b0c794d2460c52d9fe8334fff51e9de" />
+		<rom loadflag="load16_word_swap" name="c88.p6" offset="0x280000" size="0x80000" crc="c9441533" sha1="bf178fac1f060fcce3ff9118333c8517dadc9429" />
+		<rom loadflag="load16_word_swap" name="c88.p7" offset="0x300000" size="0x80000" crc="3fc638a8" sha1="2a42877b26c8abc437da46225701f0bba6e40058" />
+		<rom loadflag="load16_word_swap" name="c88.p8" offset="0x380000" size="0x80000" crc="20d0f9e4" sha1="80a5eeef9472e327b0d4ee26434bad109a9434ea" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c88.m1" offset="0x0" size="0x8000" crc="c1a13786" sha1="c7392c7efb15ea4042e75bd9007e974293d8935d" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c88.m2" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c88.q1" offset="0x0" size="0x800000" crc="0e15c359" sha1="176108b0d76d821a849324680aba0cd04b5016c1" />
+		</dataarea>
+	</part>
+</software>
+<software name="hsf2s02" cloneof="hsf2">
+	<description>Hyper Street Fighter II: The Anniversary Edition (040202J, Enabled Hidden Characters In Normal Mode)</description>
+	<year>2004</year>
+	<publisher>Yumeji/MasterStiller</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c88s02.p1" offset="0x0" size="0x80000" crc="b5952336" sha1="e5396781d525343b285613255bbafa77aa53ed31" />
+		<rom loadflag="load16_word_swap" name="c88s02.p2" offset="0x80000" size="0x80000" crc="7a02d7b6" sha1="00c69673cadb86efaa8c96c778d3b4a9f61bd1e4" />
+		<rom loadflag="load16_word_swap" name="c88.p3" offset="0x100000" size="0x80000" crc="dde34a35" sha1="f5be2d2916db6e86e0886d61d55bddf138273ebc" />
+		<rom loadflag="load16_word_swap" name="c88.p4" offset="0x180000" size="0x80000" crc="f4e56dda" sha1="c6490707c2a416ab88612c2d73abbe5853d8cb92" />
+		<rom loadflag="load16_word_swap" name="c88.p5" offset="0x200000" size="0x80000" crc="ee4420fc" sha1="06cf76660b0c794d2460c52d9fe8334fff51e9de" />
+		<rom loadflag="load16_word_swap" name="c88.p6" offset="0x280000" size="0x80000" crc="c9441533" sha1="bf178fac1f060fcce3ff9118333c8517dadc9429" />
+		<rom loadflag="load16_word_swap" name="c88.p7" offset="0x300000" size="0x80000" crc="3fc638a8" sha1="2a42877b26c8abc437da46225701f0bba6e40058" />
+		<rom loadflag="load16_word_swap" name="c88.p8" offset="0x380000" size="0x80000" crc="20d0f9e4" sha1="80a5eeef9472e327b0d4ee26434bad109a9434ea" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c88.m1" offset="0x0" size="0x8000" crc="c1a13786" sha1="c7392c7efb15ea4042e75bd9007e974293d8935d" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c88.m2" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c88.q1" offset="0x0" size="0x800000" crc="0e15c359" sha1="176108b0d76d821a849324680aba0cd04b5016c1" />
+		</dataarea>
+	</part>
+</software>
+<software name="megamn2d" cloneof="megaman2">
+	<description>Mega Man 2: The Power Fighters (USA 960708 Phoenix Edition) (bootleg)</description>
+	<year>1996</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c66d.p1" offset="0x0" size="0x80000" crc="d3635f25" sha1="69a5a44bdc040754efa7fb96a267f8dcc2c5a23f" />
+		<rom loadflag="load16_word_swap" name="c66d.p2" offset="0x80000" size="0x80000" crc="768a1705" sha1="9b0f206ef15d72c9d0cb496845353ce7fdf2d25e" />
+		<rom loadflag="load16_word_swap" name="c66.p3" offset="0x100000" size="0x80000" crc="02ee9efc" sha1="1b80c40389b51a03b930051f232630616c12e6c5" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c66.m1" offset="0x0" size="0x8000" crc="d18e7859" sha1="0939fac70042d0b4db5c2fdcef1f79b95febd45e" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c66.m2" offset="0x28000" size="0x20000" crc="c463ece0" sha1="5c3e41eb61610b3f8c431206f6672907e3a0bdb0" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c66.q1" offset="0x0" size="0x200000" crc="2106174d" sha1="0a35d9ca8ebcad74904b20648d5320f839d6377e" />
+		<rom loadflag="load16_word_swap" name="c66.q2" offset="0x200000" size="0x200000" crc="546c1636" sha1="f96b172ab899f2c6ee17a5dd1fb61af9432e3cd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="mmatrixd" cloneof="mmatrix">
+	<description>Mars Matrix: Hyper Solid Shooting (USA 000412 Phoenix Edition) (bootleg)</description>
+	<year>2000</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c82d.p1" offset="0x0" size="0x80000" crc="36711e60" sha1="a192e786798f69320761017437ee4d2d47dc80c5" />
+		<rom loadflag="load16_word_swap" name="c82d.p2" offset="0x80000" size="0x80000" crc="4687226f" sha1="b831582f578eb1e40bce1d1cbf231e4c27f510cd" />
+		<rom loadflag="load16_word_swap" name="c82d.p3" offset="0x100000" size="0x80000" crc="52124398" sha1="0a18b9d2a7e3335ddf7ff9ac5c5f8298951f8c67" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c82.m1" offset="0x0" size="0x8000" crc="c57e8171" sha1="dedb92af1910d38727f816e6f507d25148f31b74" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c82.q1" offset="0x0" size="0x400000" crc="4180b39f" sha1="cabb1c358eae1bb6cfed07f5b92e4acd38650667" />
+		<rom loadflag="load16_word_swap" name="c82.q2" offset="0x400000" size="0x400000" crc="95e22a59" sha1="b3431d170c0a1a0d826ad0af21300b9180e3f114" />
+		</dataarea>
+	</part>
+</software>
+<software name="mpangj01" cloneof="mpang">
+	<description>Mighty! Pang (001011J, Phoenix Edition)</description>
+	<year>2000</year>
+	<publisher>Razoola</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c84j01.p1" offset="0x0" size="0x80000" crc="dac63128" sha1="e5ee8f6d698a28dbf54520473520e40efadf30e3" />
+		<rom loadflag="load16_word_swap" name="c84j01.p2" offset="0x80000" size="0x80000" crc="d0b2592b" sha1="f18c026776326f9bab70d1a8f66dd5fffb115b1b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c84.m1" offset="0x0" size="0x8000" crc="90c7adb6" sha1="a2653e977e5e0457b249e098e5ca0abc93dac336" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c84.q1" offset="0x0" size="0x200000" crc="318a2e21" sha1="c573cd88f8279a062c73ef1d79cd8421dbdcd93e" />
+		<rom loadflag="load16_word_swap" name="c84.q2" offset="0x200000" size="0x200000" crc="5462f4e8" sha1="299fbdab700e735e6395c5d9e3f079bb2e3dbd73" />
+		</dataarea>
+	</part>
+</software>
+<software name="mshud" cloneof="msh">
+	<description>Marvel Super Heroes (US 951024 Phoenix Edition) (bootleg)</description>
+	<year>1995</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c61ud.p1" offset="0x0" size="0x80000" crc="c1d8c4c6" sha1="9d367d23a438fd22edce58ce814a4b3b36e5fc2a" />
+		<rom loadflag="load16_word_swap" name="c61ud.p2" offset="0x80000" size="0x80000" crc="e73dda16" sha1="f86cd74bdfa82bf0249770694de9419ffc3d3f63" />
+		<rom loadflag="load16_word_swap" name="c61ud.p3" offset="0x100000" size="0x80000" crc="3b493e84" sha1="875e616270e839218c924e09627bcf79211ee694" />
+		<rom loadflag="load16_word_swap" name="c61.p4" offset="0x180000" size="0x80000" crc="803e3fa4" sha1="0acdeda65002521bf24130cbf06f9faa1dcef9e5" />
+		<rom loadflag="load16_word_swap" name="c61.p5" offset="0x200000" size="0x80000" crc="c45f8e27" sha1="4d28e0782c31ce56e728ac6ef5edd10437f00637" />
+		<rom loadflag="load16_word_swap" name="c61.p6" offset="0x280000" size="0x80000" crc="9ca6f12c" sha1="26ad682667b983b805e1f577426e5fca8ee3c82b" />
+		<rom loadflag="load16_word_swap" name="c61.p7" offset="0x300000" size="0x80000" crc="82ec27af" sha1="caf76268063ba91d28e8af684d60c2d71f29b9b9" />
+		<rom loadflag="load16_word_swap" name="c61.p8" offset="0x380000" size="0x80000" crc="8d931196" sha1="983e62efcdb4c8db6bce6acf4f86acb9447b565d" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c61.m1" offset="0x0" size="0x8000" crc="c976e6f9" sha1="281025e5aaf97c0aeddc8bd0f737d092daadad9e" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c61.m2" offset="0x28000" size="0x20000" crc="ce67d0d9" sha1="324226597cc5a11603f04085fef7715a314ecc05" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c61.q1" offset="0x0" size="0x200000" crc="37ac6d30" sha1="ec67421fbf4a08a686e76792cb35e9cbf04d022d" />
+		<rom loadflag="load16_word_swap" name="c61.q2" offset="0x200000" size="0x200000" crc="de092570" sha1="a03d0df901f6ea79685eaed67db65bee14ec29c6" />
+		</dataarea>
+	</part>
+</software>
+<software name="mshvsfu1d" cloneof="mshvsf">
+	<description>Marvel Super Heroes Vs. Street Fighter (USA 970625 Phoenix Edition) (bootleg)</description>
+	<year>1997</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c72u1d.p1" offset="0x0" size="0x80000" crc="1c88bee3" sha1="53ab6df85a900b221cabd62948e68d91cf6146e4" />
+		<rom loadflag="load16_word_swap" name="c72u1d.p2" offset="0x80000" size="0x80000" crc="1e8b2535" sha1="51ebede487f955e3f838b7906b619830e67fea52" />
+		<rom loadflag="load16_word_swap" name="c72u1d.p3" offset="0x100000" size="0x80000" crc="373856fb" sha1="777bf7c74110c029c44a363ce79e50c1863950c2" />
+		<rom loadflag="load16_word_swap" name="c72.p4" offset="0x180000" size="0x80000" crc="959f3030" sha1="fbbaa915324815246738f3426232e623f039ce26" />
+		<rom loadflag="load16_word_swap" name="c72.p5" offset="0x200000" size="0x80000" crc="7f915bdb" sha1="683da09c5ba55e31b59aa95a8e13c45dc574ab3c" />
+		<rom loadflag="load16_word_swap" name="c72.p6" offset="0x280000" size="0x80000" crc="c2813884" sha1="49e5d4bc48f90c8146cb6aafb9240aff0119f1a7" />
+		<rom loadflag="load16_word_swap" name="c72.p7" offset="0x300000" size="0x80000" crc="3ba08818" sha1="9ab132a3cac55fcccebe6c99b6fb0ba1305f8f6e" />
+		<rom loadflag="load16_word_swap" name="c72.p8" offset="0x380000" size="0x80000" crc="cf0dba98" sha1="f4c1f8a6e7a79ecc6241d5268b3039f8a09ea516" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c72.m1" offset="0x0" size="0x8000" crc="68252324" sha1="138ef320ef27956b2ab5591d49a1315b7b0a194c" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c72.m2" offset="0x28000" size="0x20000" crc="b34e773d" sha1="3bcf44bf06c35814cff29d244142db7abe05bd39" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c72.q1" offset="0x0" size="0x400000" crc="86219770" sha1="4e5b68d382a5aa37f8b0b6434c53a2b95f5f9a4d" />
+		<rom loadflag="load16_word_swap" name="c72.q2" offset="0x400000" size="0x400000" crc="f2fd7f68" sha1="28a30d55d3eaf963006c7cbe7c288099cd3ba536" />
+		</dataarea>
+	</part>
+</software>
+<software name="mvscud" cloneof="mvsc">
+	<description>Marvel Vs. Capcom: Clash of Super Heroes (USA 980123 Phoenix Edition) (bootleg)</description>
+	<year>1998</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c77ud.p1" offset="0x0" size="0x80000" crc="75cde3e5" sha1="5453056da68cdd4675cb585a9c6ae85e073193f5" />
+		<rom loadflag="load16_word_swap" name="c77ud.p2" offset="0x80000" size="0x80000" crc="b32ea484" sha1="742b35a45eadea3457bfb93808cbba599e9744e3" />
+		<rom loadflag="load16_word_swap" name="c77.p3" offset="0x100000" size="0x80000" crc="2d8c8e86" sha1="b07d640a734c5d336054ed05195786224c9a6cd4" />
+		<rom loadflag="load16_word_swap" name="c77.p4" offset="0x180000" size="0x80000" crc="8528e1f5" sha1="cd065c05268ab581b05676da544baf6af642acac" />
+		<rom loadflag="load16_word_swap" name="c77ud.p5" offset="0x200000" size="0x80000" crc="205293e9" sha1="b47a7057abd18d85ff9d86483ecb7ab783b3e791" />
+		<rom loadflag="load16_word_swap" name="c77.p6" offset="0x280000" size="0x80000" crc="bc002fcd" sha1="0b6735a071a9274f7ab25c743271fc30411fe819" />
+		<rom loadflag="load16_word_swap" name="c77.p7" offset="0x300000" size="0x80000" crc="c67b26df" sha1="6e9969246c57269d7ba0992a5cc319c8910bf8a9" />
+		<rom loadflag="load16_word_swap" name="c77.p8" offset="0x380000" size="0x80000" crc="0fdd1e26" sha1="5fa684d823b4f4eec61ed9e9b8938af5272ae1ed" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c77.m1" offset="0x0" size="0x8000" crc="41629e95" sha1="36925c05b5fdcbe43283a882d021e5360c947061" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c77.m2" offset="0x28000" size="0x20000" crc="963abf6b" sha1="6b784870e338701cefabbbe4669984b5c4e8a9a5" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c77.q1" offset="0x0" size="0x400000" crc="850fe663" sha1="81e519d05a08855f242ea2e17ee0859b449db895" />
+		<rom loadflag="load16_word_swap" name="c77.q2" offset="0x400000" size="0x400000" crc="7ccb1896" sha1="74caadf3282fcc6acffb1bbe3734106f81124121" />
+		</dataarea>
+	</part>
+</software>
+<software name="nwarrud" cloneof="nwarr">
+	<description>Night Warriors: Darkstalkers&#x27; Revenge (USA 950406 Phoenix Edition) (bootleg)</description>
+	<year>1995</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c57ud.p1" offset="0x0" size="0x80000" crc="20d4d5a8" sha1="420396c77a9f77feaba4be2e0faaab995842fb57" />
+		<rom loadflag="load16_word_swap" name="c57ud.p2" offset="0x80000" size="0x80000" crc="61be9b42" sha1="679381f279f51f28fdc4c4dbefabe6139855303b" />
+		<rom loadflag="load16_word_swap" name="c57ud.p3" offset="0x100000" size="0x80000" crc="1ba906d8" sha1="9e1db8af4070c68f25b8fb898e9d29a97f775e4c" />
+		<rom loadflag="load16_word_swap" name="c57u.p4" offset="0x180000" size="0x80000" crc="08c04cdb" sha1="b78d87631a13c26cc1580d2ecc0d137105c23f0a" />
+		<rom loadflag="load16_word_swap" name="c57u.p5" offset="0x200000" size="0x80000" crc="b5a5ab19" sha1="f7b35b8cba81f88a6bdfea7e2dc12eca480c276c" />
+		<rom loadflag="load16_word_swap" name="c57u.p6" offset="0x280000" size="0x80000" crc="51bb20fb" sha1="a98c569dd45b4bd2275f9bd1df060d6eaead53df" />
+		<rom loadflag="load16_word_swap" name="c57u.p7" offset="0x300000" size="0x80000" crc="41a64205" sha1="1f5af658b7c3fb09cab3dd10d6dc433a0605f81a" />
+		<rom loadflag="load16_word_swap" name="c57ud.p8" offset="0x380000" size="0x80000" crc="9619adad" sha1="abbbe28659c031f34be23a38950d9b56f7f7ca86" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c57.m1" offset="0x0" size="0x8000" crc="5045dcac" sha1="fd1a6586fbdd48a707df1fa52309b4cf50e3cc4c" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c57.m2" offset="0x28000" size="0x20000" crc="86b60e59" sha1="197d07ced8b9850729c83fa59b7afc283500bdee" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c57.q1" offset="0x0" size="0x200000" crc="e1837d33" sha1="e3cb69f64767bacbec7286d0b4cd0ce7a0ba13d8" />
+		<rom loadflag="load16_word_swap" name="c57.q2" offset="0x200000" size="0x200000" crc="fbd3cd90" sha1="4813c25802ad71b77ca04fd8f3a86344f99f0d6a" />
+		</dataarea>
+	</part>
+</software>
+<software name="progearj01" cloneof="progear">
+	<description>Progear no Arashi (010117J, Crazy Fire Version V1)</description>
+	<year>2001</year>
+	<publisher>lb70</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c85j01.p1" offset="0x0" size="0x80000" crc="d65d47f9" sha1="d1c45f3e191730b7757f7925de8dca969900ded2" />
+		<rom loadflag="load16_word_swap" name="c85jd.p2" offset="0x80000" size="0x80000" crc="be4b7799" sha1="0414922296079ca9380a41bf3c628ce67acec06d" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c85.m1" offset="0x0" size="0x8000" crc="bdbfa992" sha1="7c5496c1daaea6a7ab95c0b25625d325ec3427cc" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c85.q1" offset="0x0" size="0x200000" crc="c0aac80c" sha1="91784d35d4f7e113529bb5be6081b67094b150ea" />
+		<rom loadflag="load16_word_swap" name="c85.q2" offset="0x200000" size="0x200000" crc="37a65d86" sha1="374d562a4648734f82aa2ddb6d258e870896dd45" />
+		<rom loadflag="load16_word_swap" name="c85.q3" offset="0x400000" size="0x200000" crc="d3f1e934" sha1="5dcea28c873d0d472f5b94e07d97cd77ace2b252" />
+		<rom loadflag="load16_word_swap" name="c85.q4" offset="0x600000" size="0x200000" crc="8b39489a" sha1="fd790efaf37dc2c4c16f657941044e3e2d3c2711" />
+		</dataarea>
+	</part>
+</software>
+<software name="progearj02" cloneof="progear">
+	<description>Halfway to Hell - Progear Red Label (2016-01-17 Red label ver)</description>
+	<year>2016</year>
+	<publisher>Halfway House</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c85j02.p1" offset="0x0" size="0x80000" crc="55ce8d4a" sha1="3b7342afbfa1244cb5cbf5be7391d3e1f8231822" />
+		<rom loadflag="load16_word_swap" name="c85j02.p2" offset="0x80000" size="0x80000" crc="71060b9e" sha1="007a174ceca6ae080f19f088bf0fc6cd0fe2510c" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c85.m1" offset="0x0" size="0x8000" crc="bdbfa992" sha1="7c5496c1daaea6a7ab95c0b25625d325ec3427cc" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c85j02.q1" offset="0x0" size="0x400000" crc="33ebf625" sha1="39e5f9afd37a258005b0143fa38b9c53b63f700d" />
+		<rom loadflag="load16_word_swap" name="c85j02.q2" offset="0x0" size="0x400000" crc="47f25cf4" sha1="714b5baf146d720cc86f77aeee5b1160f553d958" />
+		</dataarea>
+	</part>
+</software>
+<software name="progearjbl" cloneof="progear">
+	<description>Progear no Arashi (Japan 010117) (decrypted bootleg)</description>
+	<year>2001</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c85jbl.p1" offset="0x0" size="0x80000" crc="4fef676c" sha1="f50f32403315f77e115141bbee6a1b9a800821eb" />
+		<rom loadflag="load16_word_swap" name="c85jbl.p2" offset="0x80000" size="0x80000" crc="a069bd3b" sha1="6b7e20c883221da9b8eccb4f86017bb93e1fc11f" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c85.m1" offset="0x0" size="0x8000" crc="bdbfa992" sha1="7c5496c1daaea6a7ab95c0b25625d325ec3427cc" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c85bl.q1" offset="0x0" size="0x400000" crc="abdd224e" sha1="3316708e050204eeee91c642a2546fab80984c60" />
+		<rom loadflag="load16_word_swap" name="c85bl.q2" offset="0x400000" size="0x400000" crc="dac53406" sha1="53fd271495429a7cbdeecbbc62b322f019f854a5" />
+		</dataarea>
+	</part>
+</software>
+<software name="progearjd" cloneof="progear">
+	<description>Progear no Arashi (Japan 010117 Phoenix Edition) (bootleg)</description>
+	<year>2001</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c85jd.p1" offset="0x0" size="0x80000" crc="0271f3a3" sha1="caf5ce19aa3471e65931ebd7ef06693e9fdf11a7" />
+		<rom loadflag="load16_word_swap" name="c85jd.p2" offset="0x80000" size="0x80000" crc="be4b7799" sha1="0414922296079ca9380a41bf3c628ce67acec06d" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c85.m1" offset="0x0" size="0x8000" crc="bdbfa992" sha1="7c5496c1daaea6a7ab95c0b25625d325ec3427cc" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c85.q1" offset="0x0" size="0x200000" crc="c0aac80c" sha1="91784d35d4f7e113529bb5be6081b67094b150ea" />
+		<rom loadflag="load16_word_swap" name="c85.q2" offset="0x200000" size="0x200000" crc="37a65d86" sha1="374d562a4648734f82aa2ddb6d258e870896dd45" />
+		<rom loadflag="load16_word_swap" name="c85.q3" offset="0x400000" size="0x200000" crc="d3f1e934" sha1="5dcea28c873d0d472f5b94e07d97cd77ace2b252" />
+		<rom loadflag="load16_word_swap" name="c85.q4" offset="0x600000" size="0x200000" crc="8b39489a" sha1="fd790efaf37dc2c4c16f657941044e3e2d3c2711" />
+		</dataarea>
+	</part>
+</software>
+<software name="progearjds02" cloneof="progear">
+	<description>Progear no Arashi (Crazy Fire Version V2)</description>
+	<year>2001</year>
+	<publisher>lb70</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c85jbl.p1" offset="0x0" size="0x80000" crc="4fef676c" sha1="f50f32403315f77e115141bbee6a1b9a800821eb" />
+		<rom loadflag="load16_word_swap" name="c85jbl.p2" offset="0x80000" size="0x80000" crc="a069bd3b" sha1="6b7e20c883221da9b8eccb4f86017bb93e1fc11f" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c85.m1" offset="0x0" size="0x8000" crc="bdbfa992" sha1="7c5496c1daaea6a7ab95c0b25625d325ec3427cc" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		<rom name="c85.c1" offset="0x0" size="0x200000" crc="452f98b0" sha1="a10e615c32098f6d25becd466da8faa967523a7b" />
+		<rom name="c85.c2" offset="0x1" size="0x200000" crc="9e672092" sha1="fce0b8b43a1c069262f4e3e81c1a04621e232c88" />
+		<rom name="c85.c3" offset="0x2" size="0x200000" crc="ae9ddafe" sha1="afbb26fed6cd0cb5c0099a10d35aeb453318c14d" />
+		<rom name="c85.c4" offset="0x3" size="0x200000" crc="94d72d94" sha1="df6a3fe49c008f73b160eb6f2a44dc371ff73cba" />
+		<rom name="c85.c5" offset="0x4" size="0x200000" crc="48a1886d" sha1="ebf44b42d784924e08a832a7e5f66a887bab244b" />
+		<rom name="c85.c6" offset="0x5" size="0x200000" crc="172d7e37" sha1="0eaedd24cd3fa87b6f35fbd63078d40c493c92d0" />
+		<rom name="c85.c7" offset="0x6" size="0x200000" crc="9ee33d98" sha1="85d1bd31940e35ac8c732165020881a2d65cd6b1" />
+		<rom name="c85.c8" offset="0x7" size="0x200000" crc="848dee32" sha1="c591288e86ad1624d0fe66563808af9fac786e64" />
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="phoenix.key" offset="0x0" size="0x14" crc="2cf772b0" sha1="eff33c65a4f3862c231f9e4d6fefa7b34398dbf2" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c85.q1" offset="0x0" size="0x200000" crc="c0aac80c" sha1="91784d35d4f7e113529bb5be6081b67094b150ea" />
+		<rom loadflag="load16_word_swap" name="c85.q2" offset="0x200000" size="0x200000" crc="37a65d86" sha1="374d562a4648734f82aa2ddb6d258e870896dd45" />
+		<rom loadflag="load16_word_swap" name="c85.q3" offset="0x400000" size="0x200000" crc="d3f1e934" sha1="5dcea28c873d0d472f5b94e07d97cd77ace2b252" />
+		<rom loadflag="load16_word_swap" name="c85.q4" offset="0x600000" size="0x200000" crc="8b39489a" sha1="fd790efaf37dc2c4c16f657941044e3e2d3c2711" />
+		</dataarea>
+	</part>
+</software>
+<software name="progearud" cloneof="progear">
+	<description>Progear (USA 010117 Phoenix Edition) (bootleg)</description>
+	<year>2001</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c85ud.p1" offset="0x0" size="0x80000" crc="ba22b9c5" sha1="3bacef465ad137b7d618ad7dbe4a0f29b3422a31" />
+		<rom loadflag="load16_word_swap" name="c85ud.p2" offset="0x80000" size="0x80000" crc="df3927ef" sha1="2869f3f7c1ae76e9b3ce5c66eed277ee8484aeba" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c85.m1" offset="0x0" size="0x8000" crc="bdbfa992" sha1="7c5496c1daaea6a7ab95c0b25625d325ec3427cc" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c85.q1" offset="0x0" size="0x200000" crc="c0aac80c" sha1="91784d35d4f7e113529bb5be6081b67094b150ea" />
+		<rom loadflag="load16_word_swap" name="c85.q2" offset="0x200000" size="0x200000" crc="37a65d86" sha1="374d562a4648734f82aa2ddb6d258e870896dd45" />
+		<rom loadflag="load16_word_swap" name="c85.q3" offset="0x400000" size="0x200000" crc="d3f1e934" sha1="5dcea28c873d0d472f5b94e07d97cd77ace2b252" />
+		<rom loadflag="load16_word_swap" name="c85.q4" offset="0x600000" size="0x200000" crc="8b39489a" sha1="fd790efaf37dc2c4c16f657941044e3e2d3c2711" />
+		</dataarea>
+	</part>
+</software>
+<software name="pzloop2jd" cloneof="pzloop2">
+	<description>Puzz Loop 2 (Japan 010226 Phoenix Edition) (bootleg)</description>
+	<year>2001</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c86jd.p1" offset="0x0" size="0x80000" crc="1f5d41c9" sha1="a205f8c73136d22c127ee547df724e300647c45a" />
+		<rom loadflag="load16_word_swap" name="c86jd.p2" offset="0x80000" size="0x80000" crc="60721b73" sha1="48918d94b8a21c1bb2bd2fc6166cde6bb427d862" />
+		<rom loadflag="load16_word_swap" name="c86jd.p3" offset="0x100000" size="0x80000" crc="0c39799f" sha1="3c16a814a5bbb2b00bd82a01f17e0ca797192c98" />
+		<rom loadflag="load16_word_swap" name="c86jd.p4" offset="0x180000" size="0x80000" crc="f3974d76" sha1="01f8caf5a85d27b24a18a313e459f508ba98a123" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c86.m1" offset="0x0" size="0x8000" crc="35697569" sha1="13718923cffb9ec53cef9e22d8875370b5f3dd74" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c86.q1" offset="0x0" size="0x200000" crc="85d8fbe8" sha1="c19d5e9084d07e610379b6e1b6be7bdf0b9b7f7f" />
+		<rom loadflag="load16_word_swap" name="c86.q2" offset="0x200000" size="0x200000" crc="1ed62584" sha1="28411f610f48cca6424a2d53e2a4ac691e826317" />
+		</dataarea>
+	</part>
+</software>
+<software name="ringdstd" cloneof="ringdest">
+	<description>Ring of Destruction: Slammasters II (Euro 940902 Phoenix Edition) (bootleg)</description>
+	<year>1994</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c54d.p1" offset="0x0" size="0x80000" crc="f6fba4cd" sha1="aecea7a4c3ed2153017b465b075c7558d914cdc8" />
+		<rom loadflag="load16_word_swap" name="c54d.p2" offset="0x80000" size="0x80000" crc="193bc493" sha1="d2c6af56d3514c6d392aa3f2ea4778bbe5ef513f" />
+		<rom loadflag="load16_word_swap" name="c54d.p3" offset="0x100000" size="0x80000" crc="168cccbb" sha1="c3e1695e013f1197f7093aa499482ff8d7f75b5b" />
+		<rom loadflag="load16_word_swap" name="c54d.p4" offset="0x180000" size="0x80000" crc="04673262" sha1="6ebdfb2adfa0039f6db4d1e81e9ea0a692be4fdc" />
+		<rom loadflag="load16_word_swap" name="c54.p5" offset="0x200000" size="0x80000" crc="b9a11577" sha1="e9b58ef8acd1fedd3c9e0a3489593c7e931106c0" />
+		<rom loadflag="load16_word_swap" name="c54.p6" offset="0x280000" size="0x80000" crc="f931b76b" sha1="0b7e8d1278dcba89f0063bd09cda96d6ae1bc282" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c54.m1" offset="0x0" size="0x8000" crc="0abc229a" sha1="967f574e6358dfc1b01e6a4a4df1a8f34eb3d814" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c54.m2" offset="0x28000" size="0x20000" crc="d051679a" sha1="583c2521a30db1740d95dd94a38751fbeff3aae5" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1200000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c54.q1" offset="0x0" size="0x200000" crc="c56935f9" sha1="ca1705e48e31ddc13505e6297bceca2bec1bb209" />
+		<rom loadflag="load16_word_swap" name="c54.q2" offset="0x200000" size="0x200000" crc="955b0782" sha1="ee09500e7b44e923126533613bfe26cdabc7ab5f" />
+		</dataarea>
+	</part>
+</software>
+<software name="sf2prime" cloneof="hsf2">
+	<description>Street Fighter II&#x27;: Prime (v0.76)</description>
+	<year>2026</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c88pr.p1" offset="0x0" size="0x80000" crc="15d842d7" sha1="3612e66e48d3e9c06329bd0c59bcfcee9e5d68d1" />
+		<rom loadflag="load16_word_swap" name="c88pr.p2" offset="0x80000" size="0x80000" crc="c090a588" sha1="77ad429492abedeb2326c1c294af3482b787ce0c" />
+		<rom loadflag="load16_word_swap" name="c88pr.p3" offset="0x100000" size="0x80000" crc="649b93b8" sha1="e1b4c4f4f4989171680cb0929f204ec0782660fa" />
+		<rom loadflag="load16_word_swap" name="c88pr.p4" offset="0x180000" size="0x80000" crc="1415bd69" sha1="67c07213dfdc3797fa0ae34d7e600d8c2910effd" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c88pr.m1" offset="0x0" size="0x8000" crc="6ce233a7" sha1="5ff00de2fa8f31e66c9518049828d532554cb316" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c88.m2" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c88pr.q1" offset="0x0" size="0x800000" crc="a940d07c" sha1="0d9ec67e362bea71ee71ae5e85468b8a81fd43fd" />
+		</dataarea>
+	</part>
+</software>
+<software name="sf2prime3" cloneof="hsf2">
+	<description>Street Fighter II&#x27;: Prime (v0.3)</description>
+	<year>2025</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c88pr3.p1" offset="0x0" size="0x80000" crc="fd845fd6" sha1="ff949bebb37facff71bfe799053d901caa600779" />
+		<rom loadflag="load16_word_swap" name="c88pr3.p2" offset="0x80000" size="0x80000" crc="5fcdfebe" sha1="99aac66532656b0e1f84c81ce419062162f9c592" />
+		<rom loadflag="load16_word_swap" name="c88pr3.p3" offset="0x100000" size="0x80000" crc="9339eb7b" sha1="ca95d414677d0ecbdea0bafaceac5c7add858b2c" />
+		<rom loadflag="load16_word_swap" name="c88pr3.p4" offset="0x180000" size="0x80000" crc="67761d04" sha1="2164f4f22c4a4d3426fcab4ee8de9c620c01dbb0" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c88pr.m1" offset="0x0" size="0x8000" crc="6ce233a7" sha1="5ff00de2fa8f31e66c9518049828d532554cb316" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c88.m2" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c88pr.q1" offset="0x0" size="0x800000" crc="cd8b2d9f" sha1="bc4965b1cb6c211cdcf29ab5988702abd82effbc" />
+		</dataarea>
+	</part>
+</software>
+<software name="sf2prime4" cloneof="hsf2">
+	<description>Street Fighter II&#x27;: Prime (v0.4)</description>
+	<year>2025</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c88pr4.p1" offset="0x0" size="0x80000" crc="45c0c045" sha1="bd6a77696b3a1f09ff275f00a37434f3c471f2eb" />
+		<rom loadflag="load16_word_swap" name="c88pr4.p2" offset="0x80000" size="0x80000" crc="252397fd" sha1="226bd6dbf155361cb7374be11acc5bfcfe4af210" />
+		<rom loadflag="load16_word_swap" name="c88pr4.p3" offset="0x100000" size="0x80000" crc="642c22b8" sha1="a92ea1006ba5e1e43f2614fb1f5e68b6f39a7490" />
+		<rom loadflag="load16_word_swap" name="c88pr4.p4" offset="0x180000" size="0x80000" crc="910aeae4" sha1="c3cc383c2e483daa8eed478fa957ecd18df1d0b9" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c88pr.m1" offset="0x0" size="0x8000" crc="6ce233a7" sha1="5ff00de2fa8f31e66c9518049828d532554cb316" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c88.m2" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c88pr.q1" offset="0x0" size="0x800000" crc="cd8b2d9f" sha1="bc4965b1cb6c211cdcf29ab5988702abd82effbc" />
+		</dataarea>
+	</part>
+</software>
+<software name="sf2prime41" cloneof="hsf2">
+	<description>Street Fighter II&#x27;: Prime (v0.41)</description>
+	<year>2025</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c88pr41.p1" offset="0x0" size="0x80000" crc="8df8ef98" sha1="06d694224ddedfe45d67c161ae761dd65f924b3b" />
+		<rom loadflag="load16_word_swap" name="c88pr41.p2" offset="0x80000" size="0x80000" crc="8f5382e9" sha1="55365b19e599c4e1e8a6987be095546239a5e623" />
+		<rom loadflag="load16_word_swap" name="c88pr41.p3" offset="0x100000" size="0x80000" crc="82e8b3c0" sha1="114abe3ff681b2f436b23646e0a14f9005a1b37b" />
+		<rom loadflag="load16_word_swap" name="c88pr41.p4" offset="0x180000" size="0x80000" crc="da43b431" sha1="ff55405df5800f6f842757e251c57823cb47db60" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c88pr.m1" offset="0x0" size="0x8000" crc="6ce233a7" sha1="5ff00de2fa8f31e66c9518049828d532554cb316" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c88.m2" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c88pr.q1" offset="0x0" size="0x800000" crc="cd8b2d9f" sha1="bc4965b1cb6c211cdcf29ab5988702abd82effbc" />
+		</dataarea>
+	</part>
+</software>
+<software name="sf2prime45" cloneof="hsf2">
+	<description>Street Fighter II&#x27;: Prime (v0.45)</description>
+	<year>2025</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c88pr45.p1" offset="0x0" size="0x80000" crc="8edd9043" sha1="3e84ff7d18b095a95a31bcbcfe07a29e973d88bf" />
+		<rom loadflag="load16_word_swap" name="c88pr45.p2" offset="0x80000" size="0x80000" crc="cd728d92" sha1="0462bc38d41d09e8fe056d126b4c3a9f0ffbe627" />
+		<rom loadflag="load16_word_swap" name="c88pr45.p3" offset="0x100000" size="0x80000" crc="a8a6c3d4" sha1="3bc3353a4f479a5670a42461b5e5adab02d08baf" />
+		<rom loadflag="load16_word_swap" name="c88pr45.p4" offset="0x180000" size="0x80000" crc="c53e42ba" sha1="0f10ed175ce073062dba4655d34b7d1f34e38176" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c88pr.m1" offset="0x0" size="0x8000" crc="6ce233a7" sha1="5ff00de2fa8f31e66c9518049828d532554cb316" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c88.m2" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c88pr.q1" offset="0x0" size="0x800000" crc="cd8b2d9f" sha1="bc4965b1cb6c211cdcf29ab5988702abd82effbc" />
+		</dataarea>
+	</part>
+</software>
+<software name="sf2prime50" cloneof="hsf2">
+	<description>Street Fighter II&#x27;: Prime (v0.50)</description>
+	<year>2025</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c88pr50.p1" offset="0x0" size="0x80000" crc="adaea9d7" sha1="fe77d951763cc54780a3fda305348fb46c193783" />
+		<rom loadflag="load16_word_swap" name="c88pr50.p2" offset="0x80000" size="0x80000" crc="75dcbaf0" sha1="3235a1c70c5a59c7578c4d2bb04fa9aa523d9182" />
+		<rom loadflag="load16_word_swap" name="c88pr50.p3" offset="0x100000" size="0x80000" crc="bd0ea568" sha1="d6553197ce1dfc176d89ce03821ff6db577329e6" />
+		<rom loadflag="load16_word_swap" name="c88pr50.p4" offset="0x180000" size="0x80000" crc="ca5f7934" sha1="412faf8826173a12bcdd57b997c837a3e7cdb7bb" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c88pr.m1" offset="0x0" size="0x8000" crc="6ce233a7" sha1="5ff00de2fa8f31e66c9518049828d532554cb316" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c88.m2" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c88pr.q1" offset="0x0" size="0x800000" crc="cd8b2d9f" sha1="bc4965b1cb6c211cdcf29ab5988702abd82effbc" />
+		</dataarea>
+	</part>
+</software>
+<software name="sf2prime55" cloneof="hsf2">
+	<description>Street Fighter II&#x27;: Prime (v0.55)</description>
+	<year>2025</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c88pr55.p1" offset="0x0" size="0x80000" crc="27179418" sha1="29dc63a4233c88a582c3e813cab0f65625ddba0e" />
+		<rom loadflag="load16_word_swap" name="c88pr55.p2" offset="0x80000" size="0x80000" crc="d1c67804" sha1="8eff49bfe848e54b916ea74883aca7aa78e03ab5" />
+		<rom loadflag="load16_word_swap" name="c88pr55.p3" offset="0x100000" size="0x80000" crc="69701a6a" sha1="a53b21008a74c7499f3a1f355f0ee4b94406fc26" />
+		<rom loadflag="load16_word_swap" name="c88pr55.p4" offset="0x180000" size="0x80000" crc="f0899cc2" sha1="5351f6ade352a93bde70f2b0d1508680f81f0456" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c88pr.m1" offset="0x0" size="0x8000" crc="6ce233a7" sha1="5ff00de2fa8f31e66c9518049828d532554cb316" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c88.m2" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c88pr.q1" offset="0x0" size="0x800000" crc="cd8b2d9f" sha1="bc4965b1cb6c211cdcf29ab5988702abd82effbc" />
+		</dataarea>
+	</part>
+</software>
+<software name="sf2prime56" cloneof="hsf2">
+	<description>Street Fighter II&#x27;: Prime (v0.56)</description>
+	<year>2025</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c88pr56.p1" offset="0x0" size="0x80000" crc="4178d05d" sha1="8fd77f28888d920e98fd6931881a4d53bb881f17" />
+		<rom loadflag="load16_word_swap" name="c88pr56.p2" offset="0x80000" size="0x80000" crc="09e9f78b" sha1="7904f92f604ed0546f4a9c3f2d24f16f7cd90c35" />
+		<rom loadflag="load16_word_swap" name="c88pr56.p3" offset="0x100000" size="0x80000" crc="b020c201" sha1="2745f63e768dc33514b68183d06adbba82839434" />
+		<rom loadflag="load16_word_swap" name="c88pr56.p4" offset="0x180000" size="0x80000" crc="0b960430" sha1="ebde7895fefff69e584a71cebe0ef03276121873" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c88pr.m1" offset="0x0" size="0x8000" crc="6ce233a7" sha1="5ff00de2fa8f31e66c9518049828d532554cb316" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c88.m2" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c88pr.q1" offset="0x0" size="0x800000" crc="cd8b2d9f" sha1="bc4965b1cb6c211cdcf29ab5988702abd82effbc" />
+		</dataarea>
+	</part>
+</software>
+<software name="sf2prime57" cloneof="hsf2">
+	<description>Street Fighter II&#x27;: Prime (v0.57)</description>
+	<year>2025</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c88pr57.p1" offset="0x0" size="0x80000" crc="bd9f494e" sha1="5e2faaeb6e7c6eb9e17da3898f750ff33a0686aa" />
+		<rom loadflag="load16_word_swap" name="c88pr57.p2" offset="0x80000" size="0x80000" crc="b8226d94" sha1="60ebe8e48437d29b66d750050c10c7491e7506b5" />
+		<rom loadflag="load16_word_swap" name="c88pr57.p3" offset="0x100000" size="0x80000" crc="e10a0cce" sha1="88bf3fba5471c65361f9ddb6ce6d11525abf8e61" />
+		<rom loadflag="load16_word_swap" name="c88pr57.p4" offset="0x180000" size="0x80000" crc="b3bba0ee" sha1="ddb39146286dbc11ebb59d2606a151a652d65a3b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c88pr.m1" offset="0x0" size="0x8000" crc="6ce233a7" sha1="5ff00de2fa8f31e66c9518049828d532554cb316" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c88.m2" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c88pr.q1" offset="0x0" size="0x800000" crc="cd8b2d9f" sha1="bc4965b1cb6c211cdcf29ab5988702abd82effbc" />
+		</dataarea>
+	</part>
+</software>
+<software name="sf2prime59" cloneof="hsf2">
+	<description>Street Fighter II&#x27;: Prime (v0.59)</description>
+	<year>2025</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c88pr59.p1" offset="0x0" size="0x80000" crc="59143b8b" sha1="d1bf03bd515f2db8b733c72f15eeb16bd3eaf8b8" />
+		<rom loadflag="load16_word_swap" name="c88pr59.p2" offset="0x80000" size="0x80000" crc="409d4228" sha1="2d63a988d522362ca814565cbf659acfaa4ef690" />
+		<rom loadflag="load16_word_swap" name="c88pr59.p3" offset="0x100000" size="0x80000" crc="17aebd33" sha1="975aa76c7d42918903477295f5d6de74e29d766e" />
+		<rom loadflag="load16_word_swap" name="c88pr59.p4" offset="0x180000" size="0x80000" crc="25efe272" sha1="98bfff893fe33e573a2b1fb4c64fe266272cff62" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c88pr.m1" offset="0x0" size="0x8000" crc="6ce233a7" sha1="5ff00de2fa8f31e66c9518049828d532554cb316" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c88.m2" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c88pr.q1" offset="0x0" size="0x800000" crc="cd8b2d9f" sha1="bc4965b1cb6c211cdcf29ab5988702abd82effbc" />
+		</dataarea>
+	</part>
+</software>
+<software name="sf2prime60" cloneof="hsf2">
+	<description>Street Fighter II&#x27;: Prime (v0.60)</description>
+	<year>2025</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c88pr60.p1" offset="0x0" size="0x80000" crc="43cd297c" sha1="8edf388061a596e1df6168a08bd6d1501b4a99c5" />
+		<rom loadflag="load16_word_swap" name="c88pr60.p2" offset="0x80000" size="0x80000" crc="46590cc4" sha1="baeacebd4d22c177b1921f6fe3c994e5855eabe9" />
+		<rom loadflag="load16_word_swap" name="c88pr60.p3" offset="0x100000" size="0x80000" crc="ba37cb21" sha1="f214d297b0ecbc48c439bb3c7b2f5ee16836c427" />
+		<rom loadflag="load16_word_swap" name="c88pr60.p4" offset="0x180000" size="0x80000" crc="3d40c10d" sha1="705fd6300ba6d07abeed2881b2f0929569b2c7b1" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c88pr.m1" offset="0x0" size="0x8000" crc="6ce233a7" sha1="5ff00de2fa8f31e66c9518049828d532554cb316" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c88.m2" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c88pr.q1" offset="0x0" size="0x800000" crc="cd8b2d9f" sha1="bc4965b1cb6c211cdcf29ab5988702abd82effbc" />
+		</dataarea>
+	</part>
+</software>
+<software name="sf2prime60a" cloneof="hsf2">
+	<description>Street Fighter II&#x27;: Prime (v0.60,alt)</description>
+	<year>2025</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c88pr.p1" offset="0x0" size="0x80000" crc="8c31a215" sha1="562e66b487989b4584bef20e477dfe52a06fd05c" />
+		<rom loadflag="load16_word_swap" name="c88pr.p2" offset="0x80000" size="0x80000" crc="336f1292" sha1="f3bce06f172d593c252325eda7b0253cdc14fb69" />
+		<rom loadflag="load16_word_swap" name="c88pr.p3" offset="0x100000" size="0x80000" crc="bbbd8441" sha1="be46928cde0f688af3a63fff5b60cb985786b258" />
+		<rom loadflag="load16_word_swap" name="c88pr.p4" offset="0x180000" size="0x80000" crc="2575c943" sha1="48a842394d6065c6269d490aa5da33fdc03ffbc6" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c88pr.m1" offset="0x0" size="0x8000" crc="6ce233a7" sha1="5ff00de2fa8f31e66c9518049828d532554cb316" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c88.m2" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c88pr.q1" offset="0x0" size="0x800000" crc="cd8b2d9f" sha1="bc4965b1cb6c211cdcf29ab5988702abd82effbc" />
+		</dataarea>
+	</part>
+</software>
+<software name="sf2prime63" cloneof="hsf2">
+	<description>Street Fighter II&#x27;: Prime (v0.63)</description>
+	<year>2025</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c88pr63.p1" offset="0x0" size="0x80000" crc="3c118687" sha1="fcfce8783319abea1883f735fed9200c4d4a1e1f" />
+		<rom loadflag="load16_word_swap" name="c88pr63.p2" offset="0x80000" size="0x80000" crc="15463013" sha1="dafab9f1534371ed4fb6cca71f58b739ad13f895" />
+		<rom loadflag="load16_word_swap" name="c88pr63.p3" offset="0x100000" size="0x80000" crc="d1900881" sha1="822ee1257dcf00ab5d564414abbf860a41f8e474" />
+		<rom loadflag="load16_word_swap" name="c88pr63.p4" offset="0x180000" size="0x80000" crc="c9efd3cc" sha1="67dda75d209bcbf71c613905447c46bfd0f5781c" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c88pr.m1" offset="0x0" size="0x8000" crc="6ce233a7" sha1="5ff00de2fa8f31e66c9518049828d532554cb316" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c88.m2" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c88pr.q1" offset="0x0" size="0x800000" crc="cd8b2d9f" sha1="bc4965b1cb6c211cdcf29ab5988702abd82effbc" />
+		</dataarea>
+	</part>
+</software>
+<software name="sf2prime66" cloneof="hsf2">
+	<description>Street Fighter II&#x27;: Prime (v0.66)</description>
+	<year>2025</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c88pr.p1" offset="0x0" size="0x80000" crc="27b6ac88" sha1="becdc139f0af175fbbc91c230753d095253d0acc" />
+		<rom loadflag="load16_word_swap" name="c88pr.p2" offset="0x80000" size="0x80000" crc="8d9baac1" sha1="3b302e2483f72a8a0f7327089de0c86620890ee3" />
+		<rom loadflag="load16_word_swap" name="c88pr.p3" offset="0x100000" size="0x80000" crc="15f6c1b9" sha1="66c8ae49a05ce50dd606867ff7ab5d08a02f1314" />
+		<rom loadflag="load16_word_swap" name="c88pr.p4" offset="0x180000" size="0x80000" crc="095ee372" sha1="644e756e2a1280c573b348632a8d3b77994b15dc" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c88pr.m1" offset="0x0" size="0x8000" crc="6ce233a7" sha1="5ff00de2fa8f31e66c9518049828d532554cb316" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c88.m2" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c88pr.q1" offset="0x0" size="0x800000" crc="cd8b2d9f" sha1="bc4965b1cb6c211cdcf29ab5988702abd82effbc" />
+		</dataarea>
+	</part>
+</software>
+<software name="sfa3ud" cloneof="sfa3">
+	<description>Street Fighter Alpha 3 (USA 980904 Phoenix Edition) (bootleg)</description>
+	<year>1998</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c78ud.p1" offset="0x0" size="0x80000" crc="6db8add7" sha1="f6dc8ed330254acab16e42a8e729bca7713c8dc1" />
+		<rom loadflag="load16_word_swap" name="c78ud.p2" offset="0x80000" size="0x80000" crc="d9c65a26" sha1="8293ef112eaa534b58a3b56721af5d2f53fd1576" />
+		<rom loadflag="load16_word_swap" name="c78.p3" offset="0x100000" size="0x80000" crc="57fd0a40" sha1="bc2d5f4d57117bbf58b1adb088e00424ef489e92" />
+		<rom loadflag="load16_word_swap" name="c78.p4" offset="0x180000" size="0x80000" crc="f6305f8b" sha1="3fd1ebdbad96103aca604e950b488e52460a71ec" />
+		<rom loadflag="load16_word_swap" name="c78.p5" offset="0x200000" size="0x80000" crc="6eab0f6f" sha1="f8d093dda65cf4e8a3000dc1b96355bb03dcb495" />
+		<rom loadflag="load16_word_swap" name="c78.p6" offset="0x280000" size="0x80000" crc="910c4a3b" sha1="dbd41280f9b16ad6a5b8f12092549970349395f1" />
+		<rom loadflag="load16_word_swap" name="c78.p7" offset="0x300000" size="0x80000" crc="b29e5199" sha1="c6c215eb5aa37f678a9cafcbd8620969fb5ca12f" />
+		<rom loadflag="load16_word_swap" name="c78.p8" offset="0x380000" size="0x80000" crc="deb2ff52" sha1="0aa4722aad68a04164946c78bf05752f947b4322" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c78.m1" offset="0x0" size="0x8000" crc="de810084" sha1="fd0b969b732921ed8b40c16fbfa30ee09c7a7cbd" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c78.m2" offset="0x28000" size="0x20000" crc="72445dc4" sha1="14fca7596ac45ba655016eef5b6120f9f9671c23" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c78.q1" offset="0x0" size="0x400000" crc="1c89eed1" sha1="649a0b0a3eb72e2e69e9fb1ac51a58b70daa39f3" />
+		<rom loadflag="load16_word_swap" name="c78.q2" offset="0x400000" size="0x400000" crc="f392b13a" sha1="fa04ce0370144a49bd1d5acd873eef87b0dc9d15" />
+		</dataarea>
+	</part>
+</software>
+<software name="sfad" cloneof="sfa">
+	<description>Street Fighter Alpha: Warriors&#x27; Dreams (Euro 950727 Phoenix Edition) (bootleg)</description>
+	<year>1995</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c59d.p1" offset="0x0" size="0x80000" crc="a1a54827" sha1="85dd1a6f807af56b63cd2880e6e32794eb11c61e" />
+		<rom loadflag="load16_word_swap" name="c59.p2" offset="0x80000" size="0x80000" crc="8b73b0e5" sha1="5318761f615c21395366b5333e75eaaa73ef2073" />
+		<rom loadflag="load16_word_swap" name="c59.p3" offset="0x100000" size="0x80000" crc="0810544d" sha1="5f39bda3e7b16508eb58e5a2e0cc58c09cf428ce" />
+		<rom loadflag="load16_word_swap" name="c59.p4" offset="0x180000" size="0x80000" crc="806e8f38" sha1="b6d6912aa8f2f590335d7ff9a8214648e7131ebb" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c59.m1" offset="0x0" size="0x8000" crc="ffffec7d" sha1="75b4aef001b72a0f571b51b2b97803facc1832dd" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c59.m2" offset="0x28000" size="0x20000" crc="45f46a08" sha1="e32dbd27b52ab708278045b5a829376e55a4ca81" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c59.q1" offset="0x0" size="0x200000" crc="c4b093cd" sha1="256526bb693a0b72443f047e060304c9b739acd1" />
+		<rom loadflag="load16_word_swap" name="c59.q2" offset="0x200000" size="0x200000" crc="8bdbc4b4" sha1="0e21c9a75a17a7e7dfd8bb51098c2b9dc4c933ec" />
+		</dataarea>
+	</part>
+</software>
+<software name="sfas06" cloneof="sfa">
+	<description>Street Fighter Alpha: Warriors&#x27; Dreams (950727U, Phoenix Edition)</description>
+	<year>1995</year>
+	<publisher>Razoola</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c59s06.p1" offset="0x0" size="0x80000" crc="9f2ff577" sha1="e78d7e8e0a5703dea09aed2ac4055d45844cead5" />
+		<rom loadflag="load16_word_swap" name="c59.p2" offset="0x80000" size="0x80000" crc="8b73b0e5" sha1="5318761f615c21395366b5333e75eaaa73ef2073" />
+		<rom loadflag="load16_word_swap" name="c59.p3" offset="0x100000" size="0x80000" crc="0810544d" sha1="5f39bda3e7b16508eb58e5a2e0cc58c09cf428ce" />
+		<rom loadflag="load16_word_swap" name="c59.p4" offset="0x180000" size="0x80000" crc="806e8f38" sha1="b6d6912aa8f2f590335d7ff9a8214648e7131ebb" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c59.m1" offset="0x0" size="0x8000" crc="ffffec7d" sha1="75b4aef001b72a0f571b51b2b97803facc1832dd" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c59.m2" offset="0x28000" size="0x20000" crc="45f46a08" sha1="e32dbd27b52ab708278045b5a829376e55a4ca81" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c59.q1" offset="0x0" size="0x200000" crc="c4b093cd" sha1="256526bb693a0b72443f047e060304c9b739acd1" />
+		<rom loadflag="load16_word_swap" name="c59.q2" offset="0x200000" size="0x200000" crc="8bdbc4b4" sha1="0e21c9a75a17a7e7dfd8bb51098c2b9dc4c933ec" />
+		</dataarea>
+	</part>
+</software>
+<software name="sfz2ad" cloneof="sfa2">
+	<description>Street Fighter Zero 2 (Asia 960227 Phoenix Edition) (bootleg)</description>
+	<year>1996</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c64jad.p1" offset="0x0" size="0x80000" crc="017f8fab" sha1="5546d935c569464c29999914c697c2a171659f42" />
+		<rom loadflag="load16_word_swap" name="c64jad.p2" offset="0x80000" size="0x80000" crc="f50e5ea2" sha1="ec75aa69bd18cdfac4f5783d9c6c3691bb4914c9" />
+		<rom loadflag="load16_word_swap" name="c64jr1.p3" offset="0x100000" size="0x80000" crc="98e8e992" sha1="41745b63e6b3888081d189b8315ed3b7526b3d20" />
+		<rom loadflag="load16_word_swap" name="c64.p4" offset="0x180000" size="0x80000" crc="5b1d49c0" sha1="f0a0c894c9cbe2b18e7f59058665949ee0025732" />
+		<rom loadflag="load16_word_swap" name="c64ja.p5" offset="0x200000" size="0x80000" crc="0aed2494" sha1="7beb1a394f17cd78a27128292b626aae28754ca2" />
+		<rom loadflag="load16_word_swap" name="c64.p6" offset="0x280000" size="0x80000" crc="0fe8585d" sha1="0cd5369a5aa90c98d8dc1ff3342cd4d990631cff" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c64.m1" offset="0x0" size="0x8000" crc="1bc323cf" sha1="83fbd6e9b327700dc9f1c59700b7385bc3705749" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c64.m2" offset="0x28000" size="0x20000" crc="ba6a5013" sha1="7814f3e56b69529b9860dd61c3b1e8d700244b03" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c64.q1" offset="0x0" size="0x200000" crc="aa47a601" sha1="a4d1ee89c84a3b9db06469bb66e85293b5aa9ac9" />
+		<rom loadflag="load16_word_swap" name="c64.q2" offset="0x200000" size="0x200000" crc="2237bc53" sha1="96d5693047e4cf1ed10a8ee1905cea267a278e92" />
+		</dataarea>
+	</part>
+</software>
+<software name="sfz2ald" cloneof="sfz2al">
+	<description>Street Fighter Zero 2 Alpha (Asia 960826 Phoenix Edition) (bootleg)</description>
+	<year>1996</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c67d.p1" offset="0x0" size="0x80000" crc="89f9483b" sha1="5da4f82ddc79d9b5697ba2fea96dcaf460118248" />
+		<rom loadflag="load16_word_swap" name="c67d.p2" offset="0x80000" size="0x80000" crc="aef27ae5" sha1="5877a05e7355195d686a4d0a97062aacbd3277ee" />
+		<rom loadflag="load16_word_swap" name="c67.p3" offset="0x100000" size="0x80000" crc="f053a55e" sha1="f98a8af5cd33a543a5596d59381f9adafed38854" />
+		<rom loadflag="load16_word_swap" name="c67.p4" offset="0x180000" size="0x80000" crc="cfc0e7a8" sha1="31ed58451c7a6ac88a8fccab369167694698f044" />
+		<rom loadflag="load16_word_swap" name="c67.p5" offset="0x200000" size="0x80000" crc="5feb8b20" sha1="13c79c9b72c3abf0a0b75d507d91ece71e460c06" />
+		<rom loadflag="load16_word_swap" name="c67.p6" offset="0x280000" size="0x80000" crc="6eb6d412" sha1="c858fec9c1dfea70dfcca629c1c24306f8ae6d81" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c64.m1" offset="0x0" size="0x8000" crc="1bc323cf" sha1="83fbd6e9b327700dc9f1c59700b7385bc3705749" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c64.m2" offset="0x28000" size="0x20000" crc="ba6a5013" sha1="7814f3e56b69529b9860dd61c3b1e8d700244b03" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c64.q1" offset="0x0" size="0x200000" crc="aa47a601" sha1="a4d1ee89c84a3b9db06469bb66e85293b5aa9ac9" />
+		<rom loadflag="load16_word_swap" name="c64.q2" offset="0x200000" size="0x200000" crc="2237bc53" sha1="96d5693047e4cf1ed10a8ee1905cea267a278e92" />
+		</dataarea>
+	</part>
+</software>
+<software name="sfz2jd" cloneof="sfa2">
+	<description>Street Fighter Zero 2 (Japan 960227 Phoenix Edition) (bootleg)</description>
+	<year>1996</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c64jd.p1" offset="0x0" size="0x80000" crc="b7325df8" sha1="cd6e242a5681017463102dcb9133d8dcb262f923" />
+		<rom loadflag="load16_word_swap" name="c64jd.p2" offset="0x80000" size="0x80000" crc="a1022a3e" sha1="4806637ddf22169f12d31f959982cb2f11693066" />
+		<rom loadflag="load16_word_swap" name="c64jr1.p3" offset="0x100000" size="0x80000" crc="98e8e992" sha1="41745b63e6b3888081d189b8315ed3b7526b3d20" />
+		<rom loadflag="load16_word_swap" name="c64.p4" offset="0x180000" size="0x80000" crc="5b1d49c0" sha1="f0a0c894c9cbe2b18e7f59058665949ee0025732" />
+		<rom loadflag="load16_word_swap" name="c64jr1.p5" offset="0x200000" size="0x80000" crc="d910b2a2" sha1="aa201660caa9cef993c147a1077c9e7767b34a78" />
+		<rom loadflag="load16_word_swap" name="c64.p6" offset="0x280000" size="0x80000" crc="0fe8585d" sha1="0cd5369a5aa90c98d8dc1ff3342cd4d990631cff" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c64.m1" offset="0x0" size="0x8000" crc="1bc323cf" sha1="83fbd6e9b327700dc9f1c59700b7385bc3705749" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c64.m2" offset="0x28000" size="0x20000" crc="ba6a5013" sha1="7814f3e56b69529b9860dd61c3b1e8d700244b03" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c64.q1" offset="0x0" size="0x200000" crc="aa47a601" sha1="a4d1ee89c84a3b9db06469bb66e85293b5aa9ac9" />
+		<rom loadflag="load16_word_swap" name="c64.q2" offset="0x200000" size="0x200000" crc="2237bc53" sha1="96d5693047e4cf1ed10a8ee1905cea267a278e92" />
+		</dataarea>
+	</part>
+</software>
+<software name="sfz3jr2d" cloneof="sfa3">
+	<description>Street Fighter Zero 3 (Japan 980629 Phoenix Edition) (bootleg)</description>
+	<year>1998</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c78jr2d.p1" offset="0x0" size="0x80000" crc="b0436151" sha1="5170390d5d38bb003602d5714d557005bd7218be" />
+		<rom loadflag="load16_word_swap" name="c78jr2d.p2" offset="0x80000" size="0x80000" crc="642d8170" sha1="1a73f6090a384e7399e49e3a13fe02aa284d4775" />
+		<rom loadflag="load16_word_swap" name="c78b.p3" offset="0x100000" size="0x80000" crc="9b21518a" sha1="5a928307cb90a98a62e7598cb101fb66d62b85f9" />
+		<rom loadflag="load16_word_swap" name="c78b.p4" offset="0x180000" size="0x80000" crc="e7a6c3a7" sha1="63441eb19efcbf9149f4b723d3e9191fa972de2a" />
+		<rom loadflag="load16_word_swap" name="c78b.p5" offset="0x200000" size="0x80000" crc="ec4c0cfd" sha1="1a5148e77bf633c728a8179dacb59c776f981bc4" />
+		<rom loadflag="load16_word_swap" name="c78b.p6" offset="0x280000" size="0x80000" crc="5c7e7240" sha1="33bdcdd1889f8fa77916373ed33b0854410d0263" />
+		<rom loadflag="load16_word_swap" name="c78b.p7" offset="0x300000" size="0x80000" crc="c5589553" sha1="cda1fdc2ab2f390a2358defd9923a2796093926d" />
+		<rom loadflag="load16_word_swap" name="c78b.p8" offset="0x380000" size="0x80000" crc="a9717252" sha1="7ee94ace2a49e4e5d30474e49c0da04a488010fe" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c78.m1" offset="0x0" size="0x8000" crc="de810084" sha1="fd0b969b732921ed8b40c16fbfa30ee09c7a7cbd" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c78.m2" offset="0x28000" size="0x20000" crc="72445dc4" sha1="14fca7596ac45ba655016eef5b6120f9f9671c23" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c78.q1" offset="0x0" size="0x400000" crc="1c89eed1" sha1="649a0b0a3eb72e2e69e9fb1ac51a58b70daa39f3" />
+		<rom loadflag="load16_word_swap" name="c78.q2" offset="0x400000" size="0x400000" crc="f392b13a" sha1="fa04ce0370144a49bd1d5acd873eef87b0dc9d15" />
+		</dataarea>
+	</part>
+</software>
+<software name="sfz3mix07" cloneof="sfa3">
+	<description>Street Fighter Zero 3 (Mix 0.07)</description>
+	<year>2022</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c78mix07.p1" offset="0x0" size="0x80000" crc="dc369f0e" sha1="ac305a9d8990357a8cb07639cf4caacc30df595f" />
+		<rom loadflag="load16_word_swap" name="c78mix07.p2" offset="0x80000" size="0x80000" crc="42b6a449" sha1="7e11e37b17353e7e25d3e8d8fdb2dde1a5ceba7c" />
+		<rom loadflag="load16_word_swap" name="c78mix07.p3" offset="0x100000" size="0x80000" crc="d1838163" sha1="ef5c3feba944eb1d0ff5943482dbfce027bb5c36" />
+		<rom loadflag="load16_word_swap" name="c78mix07.p4" offset="0x180000" size="0x80000" crc="c02b9143" sha1="d9f2f0ba7ea52e09c6c78290a8ed8d2e72b53148" />
+		<rom loadflag="load16_word_swap" name="c78mix07.p5" offset="0x200000" size="0x80000" crc="82f44dfa" sha1="ff90ac8b44c3de715daf2b6da881f5f6e215bd42" />
+		<rom loadflag="load16_word_swap" name="c78mix07.p6" offset="0x280000" size="0x80000" crc="e66748e2" sha1="3bd98f122a28d774ed5e2ba835e4f21a115efdfe" />
+		<rom loadflag="load16_word_swap" name="c78mix07.p7" offset="0x300000" size="0x80000" crc="732d899f" sha1="42334a9645355b6bfd79744c901cf35b704bcf50" />
+		<rom loadflag="load16_word_swap" name="c78mix07.p8" offset="0x380000" size="0x80000" crc="89449e2b" sha1="4dc58fa945bce94b8c5541c4c6769f26fa840c4b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c78.m1" offset="0x0" size="0x8000" crc="de810084" sha1="fd0b969b732921ed8b40c16fbfa30ee09c7a7cbd" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c78.m2" offset="0x28000" size="0x20000" crc="72445dc4" sha1="14fca7596ac45ba655016eef5b6120f9f9671c23" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c78.q1" offset="0x0" size="0x400000" crc="1c89eed1" sha1="649a0b0a3eb72e2e69e9fb1ac51a58b70daa39f3" />
+		<rom loadflag="load16_word_swap" name="c78.q2" offset="0x400000" size="0x400000" crc="f392b13a" sha1="fa04ce0370144a49bd1d5acd873eef87b0dc9d15" />
+		</dataarea>
+	</part>
+</software>
+<software name="sfz3mix07a" cloneof="sfa3">
+	<description>Street Fighter Zero 3 (Mix 0.07a)</description>
+	<year>2022</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c78mix07a.p1" offset="0x0" size="0x80000" crc="a2a3a0f2" sha1="720f1f77829423836ff7507998e458f630e98d03" />
+		<rom loadflag="load16_word_swap" name="c78mix07a.p2" offset="0x80000" size="0x80000" crc="21d71a16" sha1="0c3d0b261a19b2c45220aa6eca1772627ebe2866" />
+		<rom loadflag="load16_word_swap" name="c78mix07a.p3" offset="0x100000" size="0x80000" crc="e33af008" sha1="faeebee1ca4dbd7b099a5289e50479d54da5abec" />
+		<rom loadflag="load16_word_swap" name="c78mix07a.p4" offset="0x180000" size="0x80000" crc="fbbd8bd7" sha1="4f649da00d772065b9f9784a35fab0b2cc57379d" />
+		<rom loadflag="load16_word_swap" name="c78mix07a.p5" offset="0x200000" size="0x80000" crc="41d5f43d" sha1="53bbff96205d967d44b51884e829cbf0e6292801" />
+		<rom loadflag="load16_word_swap" name="c78mix07a.p6" offset="0x280000" size="0x80000" crc="f62eb173" sha1="1859c7e1d611f4d3344f071c89bae81fdac95e15" />
+		<rom loadflag="load16_word_swap" name="c78mix07a.p7" offset="0x300000" size="0x80000" crc="de20ca4e" sha1="a45db7b806847603d346fc70b6ee59a4dad3d250" />
+		<rom loadflag="load16_word_swap" name="c78mix07a.p8" offset="0x380000" size="0x80000" crc="4a5c77a4" sha1="615d7784c18d26936fecb8163a2b9d2b6ca88710" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c78.m1" offset="0x0" size="0x8000" crc="de810084" sha1="fd0b969b732921ed8b40c16fbfa30ee09c7a7cbd" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c78.m2" offset="0x28000" size="0x20000" crc="72445dc4" sha1="14fca7596ac45ba655016eef5b6120f9f9671c23" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c78.q1" offset="0x0" size="0x400000" crc="1c89eed1" sha1="649a0b0a3eb72e2e69e9fb1ac51a58b70daa39f3" />
+		<rom loadflag="load16_word_swap" name="c78.q2" offset="0x400000" size="0x400000" crc="f392b13a" sha1="fa04ce0370144a49bd1d5acd873eef87b0dc9d15" />
+		</dataarea>
+	</part>
+</software>
+<software name="sfz3mix07b" cloneof="sfa3">
+	<description>Street Fighter Zero 3 (Mix 0.07b)</description>
+	<year>2022</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c78mix07b.p1" offset="0x0" size="0x80000" crc="906ad276" sha1="ce78bdae817782945a23f79f0c34af9aed4c3eb8" />
+		<rom loadflag="load16_word_swap" name="c78mix07b.p2" offset="0x80000" size="0x80000" crc="4ef3bbe9" sha1="f9c23450d109bffb7b5dc40fc8797514291af0a8" />
+		<rom loadflag="load16_word_swap" name="c78mix07b.p3" offset="0x100000" size="0x80000" crc="baa534fc" sha1="5231ff2f4b8194d149e600b6c8f45f03342f449b" />
+		<rom loadflag="load16_word_swap" name="c78mix07b.p4" offset="0x180000" size="0x80000" crc="e85ca573" sha1="834095f8d6c79cfc4f42c5e5dda313a18b993a88" />
+		<rom loadflag="load16_word_swap" name="c78mix07b.p5" offset="0x200000" size="0x80000" crc="f53a20d8" sha1="59203376b19a98de525e950880552e5f2f205963" />
+		<rom loadflag="load16_word_swap" name="c78mix07b.p6" offset="0x280000" size="0x80000" crc="3bd7d2d4" sha1="5bd1f24f17e8a3f70f5de3d5e99078dcc10997f7" />
+		<rom loadflag="load16_word_swap" name="c78mix07b.p7" offset="0x300000" size="0x80000" crc="1a93bd2d" sha1="ff2dcbfac7a4d352d731ff5021d05e26204df79d" />
+		<rom loadflag="load16_word_swap" name="c78mix07b.p8" offset="0x380000" size="0x80000" crc="8c75a221" sha1="c722832f4a4fe71515337dbd9d3ac00fb2323ad3" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c78.m1" offset="0x0" size="0x8000" crc="de810084" sha1="fd0b969b732921ed8b40c16fbfa30ee09c7a7cbd" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c78.m2" offset="0x28000" size="0x20000" crc="72445dc4" sha1="14fca7596ac45ba655016eef5b6120f9f9671c23" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c78.q1" offset="0x0" size="0x400000" crc="1c89eed1" sha1="649a0b0a3eb72e2e69e9fb1ac51a58b70daa39f3" />
+		<rom loadflag="load16_word_swap" name="c78.q2" offset="0x400000" size="0x400000" crc="f392b13a" sha1="fa04ce0370144a49bd1d5acd873eef87b0dc9d15" />
+		</dataarea>
+	</part>
+</software>
+<software name="sfz3mix08" cloneof="sfa3">
+	<description>Street Fighter Zero 3 (Mix 0.08)</description>
+	<year>2022</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c78mix08.p1" offset="0x0" size="0x80000" crc="dccb6f06" sha1="35f3975954024edba1c524d266ac7cf41a264d59" />
+		<rom loadflag="load16_word_swap" name="c78mix08.p2" offset="0x80000" size="0x80000" crc="8617a7c4" sha1="b51f695f5e9a532ec303c086fc005e1771390835" />
+		<rom loadflag="load16_word_swap" name="c78mix08.p3" offset="0x100000" size="0x80000" crc="0f9e0705" sha1="de66d559d29aea8a9127c81d17c96a6f7bee892b" />
+		<rom loadflag="load16_word_swap" name="c78mix08.p4" offset="0x180000" size="0x80000" crc="f328c438" sha1="e8a237aa08b0cd93f5370ee90d919672fa454d68" />
+		<rom loadflag="load16_word_swap" name="c78mix08.p5" offset="0x200000" size="0x80000" crc="5bf5ed94" sha1="7bcb670c5788b689fc9c6cfc832247af40807bd5" />
+		<rom loadflag="load16_word_swap" name="c78mix08.p6" offset="0x280000" size="0x80000" crc="f5d17042" sha1="7f0aff92480f9516d9129411e2200fd3b2726ec5" />
+		<rom loadflag="load16_word_swap" name="c78mix08.p7" offset="0x300000" size="0x80000" crc="0928ede4" sha1="d643c559c869ab806c44576cdf5adf332147dcd1" />
+		<rom loadflag="load16_word_swap" name="c78mix08.p8" offset="0x380000" size="0x80000" crc="0f369728" sha1="fd99024a092bd941890431061187a1dc7de5cdfd" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c78.m1" offset="0x0" size="0x8000" crc="de810084" sha1="fd0b969b732921ed8b40c16fbfa30ee09c7a7cbd" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c78.m2" offset="0x28000" size="0x20000" crc="72445dc4" sha1="14fca7596ac45ba655016eef5b6120f9f9671c23" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c78.q1" offset="0x0" size="0x400000" crc="1c89eed1" sha1="649a0b0a3eb72e2e69e9fb1ac51a58b70daa39f3" />
+		<rom loadflag="load16_word_swap" name="c78.q2" offset="0x400000" size="0x400000" crc="f392b13a" sha1="fa04ce0370144a49bd1d5acd873eef87b0dc9d15" />
+		</dataarea>
+	</part>
+</software>
+<software name="sfz3mix09" cloneof="sfa3">
+	<description>Street Fighter Zero 3 (Mix 0.09)</description>
+	<year>2022</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c78mix09.p1" offset="0x0" size="0x80000" crc="22962e92" sha1="0fe33fd7629e4028ee2bef8f302bd4958fca0d8e" />
+		<rom loadflag="load16_word_swap" name="c78mix09.p2" offset="0x80000" size="0x80000" crc="10ed184d" sha1="b5a4afff5fecdea1e4c7baedc995968970b003d9" />
+		<rom loadflag="load16_word_swap" name="c78mix09.p3" offset="0x100000" size="0x80000" crc="99964fde" sha1="4c7c21ac7dd4a3ba9b0e396b9dff8fed37132796" />
+		<rom loadflag="load16_word_swap" name="c78mix09.p4" offset="0x180000" size="0x80000" crc="2a63f25f" sha1="e961e977d2a389ddc5b9e68e4e17acf00a268d99" />
+		<rom loadflag="load16_word_swap" name="c78mix09.p5" offset="0x200000" size="0x80000" crc="7bfc7d3f" sha1="ea580905ab0c755c1c391de327b9c68366a44ce3" />
+		<rom loadflag="load16_word_swap" name="c78mix09.p6" offset="0x280000" size="0x80000" crc="a6d60e7a" sha1="ab64f188172ec4e063abe8f6c3053ebe27df3b17" />
+		<rom loadflag="load16_word_swap" name="c78mix09.p7" offset="0x300000" size="0x80000" crc="b1973865" sha1="f18c12f2deaf965a887f5020a97d245e2fbd7d70" />
+		<rom loadflag="load16_word_swap" name="c78mix09.p8" offset="0x380000" size="0x80000" crc="851002e1" sha1="e82f3b928f1c7929ba4bc2fc6dbe46c45e202bef" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c78.m1" offset="0x0" size="0x8000" crc="de810084" sha1="fd0b969b732921ed8b40c16fbfa30ee09c7a7cbd" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c78.m2" offset="0x28000" size="0x20000" crc="72445dc4" sha1="14fca7596ac45ba655016eef5b6120f9f9671c23" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c78.q1" offset="0x0" size="0x400000" crc="1c89eed1" sha1="649a0b0a3eb72e2e69e9fb1ac51a58b70daa39f3" />
+		<rom loadflag="load16_word_swap" name="c78.q2" offset="0x400000" size="0x400000" crc="f392b13a" sha1="fa04ce0370144a49bd1d5acd873eef87b0dc9d15" />
+		</dataarea>
+	</part>
+</software>
+<software name="sfz3mix10" cloneof="sfa3">
+	<description>Street Fighter Zero 3 (Mix 0.10)</description>
+	<year>2022</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c78mix10.p1" offset="0x0" size="0x80000" crc="12ee6b5a" sha1="ca8551b750a64a6bd65fb13525428af3f6e89634" />
+		<rom loadflag="load16_word_swap" name="c78mix10.p2" offset="0x80000" size="0x80000" crc="56aab557" sha1="73b8e200c05ba8d4bceab10c3640826215040f21" />
+		<rom loadflag="load16_word_swap" name="c78mix10.p3" offset="0x100000" size="0x80000" crc="d6118829" sha1="30af1347bea9bad71f9404218fb1009178346f6b" />
+		<rom loadflag="load16_word_swap" name="c78mix10.p4" offset="0x180000" size="0x80000" crc="3f3712fb" sha1="bc960bec54c6cb9342a335b8d15f55a1fa2e230e" />
+		<rom loadflag="load16_word_swap" name="c78mix10.p5" offset="0x200000" size="0x80000" crc="3ff0aaa7" sha1="412d1dfe93d510fc92f91aeb4b4e1f17aa354acd" />
+		<rom loadflag="load16_word_swap" name="c78mix10.p6" offset="0x280000" size="0x80000" crc="008d8e1e" sha1="385ace30c3257f55188d0dcd08b84788c42a18c9" />
+		<rom loadflag="load16_word_swap" name="c78mix10.p7" offset="0x300000" size="0x80000" crc="9642bc00" sha1="f3d4a3ddad6773d728cbcdd01d1d15a2104de39e" />
+		<rom loadflag="load16_word_swap" name="c78mix10.p8" offset="0x380000" size="0x80000" crc="56ac1a00" sha1="23bd4a88d3b63d7f06c8130837b896f01ed52623" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c78.m1" offset="0x0" size="0x8000" crc="de810084" sha1="fd0b969b732921ed8b40c16fbfa30ee09c7a7cbd" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c78.m2" offset="0x28000" size="0x20000" crc="72445dc4" sha1="14fca7596ac45ba655016eef5b6120f9f9671c23" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c78.q1" offset="0x0" size="0x400000" crc="1c89eed1" sha1="649a0b0a3eb72e2e69e9fb1ac51a58b70daa39f3" />
+		<rom loadflag="load16_word_swap" name="c78.q2" offset="0x400000" size="0x400000" crc="f392b13a" sha1="fa04ce0370144a49bd1d5acd873eef87b0dc9d15" />
+		</dataarea>
+	</part>
+</software>
+<software name="sfz3mix11" cloneof="sfa3">
+	<description>Street Fighter Zero 3 (Mix 0.11)</description>
+	<year>2022</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c78mix11.p1" offset="0x0" size="0x80000" crc="c576f39a" sha1="db535febc78b0ee17aaf0e11970ce3af595220e5" />
+		<rom loadflag="load16_word_swap" name="c78mix11.p2" offset="0x80000" size="0x80000" crc="d1c963ad" sha1="d293d6a6096d3e207747d7e838082f8014db2e91" />
+		<rom loadflag="load16_word_swap" name="c78mix11.p3" offset="0x100000" size="0x80000" crc="29df08bf" sha1="e2fbdc78e37010fe4dc2576a318948ec88b85193" />
+		<rom loadflag="load16_word_swap" name="c78mix11.p4" offset="0x180000" size="0x80000" crc="fc18d833" sha1="d668915c12b438776d9644d74ac2fb75119a99a7" />
+		<rom loadflag="load16_word_swap" name="c78mix11.p5" offset="0x200000" size="0x80000" crc="67b83490" sha1="f70886e7a88e0a4a1a17b022083b67bea9515351" />
+		<rom loadflag="load16_word_swap" name="c78mix11.p6" offset="0x280000" size="0x80000" crc="6da03096" sha1="f943cc2e1853cfdc1e36bb6ce04c44c77386f55b" />
+		<rom loadflag="load16_word_swap" name="c78mix11.p7" offset="0x300000" size="0x80000" crc="3f008ce0" sha1="e58e9289d2c08c00f68d888e8263daa950b60855" />
+		<rom loadflag="load16_word_swap" name="c78mix11.p8" offset="0x380000" size="0x80000" crc="11d9171e" sha1="7ce1f8c5d89f46c559e7b6332901632d2c0ee696" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c78.m1" offset="0x0" size="0x8000" crc="de810084" sha1="fd0b969b732921ed8b40c16fbfa30ee09c7a7cbd" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c78.m2" offset="0x28000" size="0x20000" crc="72445dc4" sha1="14fca7596ac45ba655016eef5b6120f9f9671c23" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c78.q1" offset="0x0" size="0x400000" crc="1c89eed1" sha1="649a0b0a3eb72e2e69e9fb1ac51a58b70daa39f3" />
+		<rom loadflag="load16_word_swap" name="c78.q2" offset="0x400000" size="0x400000" crc="f392b13a" sha1="fa04ce0370144a49bd1d5acd873eef87b0dc9d15" />
+		</dataarea>
+	</part>
+</software>
+<software name="sfz3mix12" cloneof="sfa3">
+	<description>Street Fighter Zero 3 (Mix 0.12)</description>
+	<year>2022</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c78mix12.p1" offset="0x0" size="0x80000" crc="4eee8312" sha1="0e439d21690125cc33151c51d71892bcf4babf55" />
+		<rom loadflag="load16_word_swap" name="c78mix12.p2" offset="0x80000" size="0x80000" crc="3f6bac25" sha1="e8439bffa1a2a8a058e2fb98bd433a484ef346dc" />
+		<rom loadflag="load16_word_swap" name="c78mix12.p3" offset="0x100000" size="0x80000" crc="4314b417" sha1="e7212535b5e60e049a162590f4c32143b93d190e" />
+		<rom loadflag="load16_word_swap" name="c78mix12.p4" offset="0x180000" size="0x80000" crc="b15a331c" sha1="94b53aa28f19139ec192f19256b65b8fb2d0271c" />
+		<rom loadflag="load16_word_swap" name="c78mix12.p5" offset="0x200000" size="0x80000" crc="505ea66f" sha1="037fddfaa65af1bbbc221300c8816a888b752a33" />
+		<rom loadflag="load16_word_swap" name="c78mix12.p6" offset="0x280000" size="0x80000" crc="c9661960" sha1="49879dbde4b9298ec1ca919ecaef243d311e142b" />
+		<rom loadflag="load16_word_swap" name="c78mix12.p7" offset="0x300000" size="0x80000" crc="7a5a0d3c" sha1="4c9eb75c4b555a37e39d67c1318f4735bf7702f7" />
+		<rom loadflag="load16_word_swap" name="c78mix12.p8" offset="0x380000" size="0x80000" crc="07286674" sha1="0c8aefd7380e03972eced07fffb4f569a3631057" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c78mix12.m1" offset="0x0" size="0x8000" crc="85143fac" sha1="65561f11780d5b5cd92783b5bf1bfa02bbfa7e10" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c78mix12.m2" offset="0x28000" size="0x20000" crc="b0f7dd76" sha1="4debfb4d1a3880d0679e3d035c74cceecab45d93" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c78.q1" offset="0x0" size="0x400000" crc="1c89eed1" sha1="649a0b0a3eb72e2e69e9fb1ac51a58b70daa39f3" />
+		<rom loadflag="load16_word_swap" name="c78.q2" offset="0x400000" size="0x400000" crc="f392b13a" sha1="fa04ce0370144a49bd1d5acd873eef87b0dc9d15" />
+		</dataarea>
+	</part>
+</software>
+<software name="sfz3mix13" cloneof="sfa3">
+	<description>Street Fighter Zero 3 (Mix 0.13)</description>
+	<year>2022</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c78mix13.p1" offset="0x0" size="0x80000" crc="39b106fe" sha1="71a653d69889e24ef08f16ed19510b5beb4e6c88" />
+		<rom loadflag="load16_word_swap" name="c78mix13.p2" offset="0x80000" size="0x80000" crc="0cde4b42" sha1="a87c5b0fd07881b6ea316a3dc8e8a0d4212b8ff3" />
+		<rom loadflag="load16_word_swap" name="c78mix13.p3" offset="0x100000" size="0x80000" crc="b8b19c1f" sha1="72a38eb482b20e2e6c95dbadd0ef9108bbda2868" />
+		<rom loadflag="load16_word_swap" name="c78mix13.p4" offset="0x180000" size="0x80000" crc="35639da3" sha1="7ad71481f38846e9c80556b241fcfacec638c66a" />
+		<rom loadflag="load16_word_swap" name="c78mix13.p5" offset="0x200000" size="0x80000" crc="a9d9f83e" sha1="a4728207aefed7a97fafab291a427278ef77044e" />
+		<rom loadflag="load16_word_swap" name="c78mix13.p6" offset="0x280000" size="0x80000" crc="a85e33a5" sha1="f6ce81bfa91008e60090df7cf8a9c73d4d8dee78" />
+		<rom loadflag="load16_word_swap" name="c78mix12.p7" offset="0x300000" size="0x80000" crc="7a5a0d3c" sha1="4c9eb75c4b555a37e39d67c1318f4735bf7702f7" />
+		<rom loadflag="load16_word_swap" name="c78mix13.p8" offset="0x380000" size="0x80000" crc="3fa5f874" sha1="46a39c1cc6010a0c500b4b79b8709a93a7995e3d" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c78mix13.m1" offset="0x0" size="0x8000" crc="5ac9bfe5" sha1="85fa8599de7b035ceb8ee6ffb88c93f94572a0cd" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c78mix13.m2" offset="0x28000" size="0x20000" crc="68a17d87" sha1="f6ebdabdeb1d94a3293cbe55de31c10900f45375" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c78mix13.q1" offset="0x0" size="0x400000" crc="ab9415fb" sha1="8de2f4576aafe631f762d3a5aeb720642b98d2e8" />
+		<rom loadflag="load16_word_swap" name="c78.q2" offset="0x400000" size="0x400000" crc="f392b13a" sha1="fa04ce0370144a49bd1d5acd873eef87b0dc9d15" />
+		</dataarea>
+	</part>
+</software>
+<software name="sgemfd" cloneof="sgemf">
+	<description>Super Gem Fighter Mini Mix (USA 970904 Phoenix Edition) (bootleg)</description>
+	<year>1997</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c74d.p1" offset="0x0" size="0x80000" crc="8b83674a" sha1="053a2cb6aab9aa43f4c0d4ba9f0eb5a964133b28" />
+		<rom loadflag="load16_word_swap" name="c74d.p2" offset="0x80000" size="0x80000" crc="b58f1d03" sha1="592649956471363967b9920f47bde23da3e9cc2b" />
+		<rom loadflag="load16_word_swap" name="c74.p3" offset="0x100000" size="0x80000" crc="215655f6" sha1="242c0f4401520f2a3b0deafc3a807b18b987e496" />
+		<rom loadflag="load16_word_swap" name="c74.p4" offset="0x180000" size="0x80000" crc="ea6f13ea" sha1="1bc924a8a9da1d2ad7667685cdb92fe317a39aba" />
+		<rom loadflag="load16_word_swap" name="c74.p5" offset="0x200000" size="0x80000" crc="5ac6d5ea" sha1="9ce8e4668b565658597a868830545fb75a5eeaa6" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c74.m1" offset="0x0" size="0x8000" crc="254e5f33" sha1="c413ec0630b9bdd15e64f42893eba8958a09b573" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c74.m2" offset="0x28000" size="0x20000" crc="6902f4f9" sha1="9bfe4ddade3c666076d26a2b545120f6d059fd7c" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c74.q1" offset="0x0" size="0x400000" crc="a5dea005" sha1="3ae79baf6ff5bd527f82b26f164c7e3c65423ae2" />
+		<rom loadflag="load16_word_swap" name="c74.q2" offset="0x400000" size="0x400000" crc="4ce235fe" sha1="795b94557e954cc0e45fd3778b609064d57a34a2" />
+		</dataarea>
+	</part>
+</software>
+<software name="spf2td" cloneof="spf2t">
+	<description>Super Puzzle Fighter II Turbo (USA 960620 Phoenix Edition) (bootleg)</description>
+	<year>1996</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c65d.p1" offset="0x0" size="0x80000" crc="7836b903" sha1="9a96a9080716a0cc4d13f51490fd850afe4479a7" />
+		<rom loadflag="load16_word_swap" name="c65.p2" offset="0x80000" size="0x80000" crc="b80649e2" sha1="5bfccd656aea7ff82e9a20bb5856f4ab99b5a007" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c65.m1" offset="0x0" size="0x8000" crc="600fb2a3" sha1="1fab1c2a23bf6ad8309d29ddbbc29435a8aeea13" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c65.m2" offset="0x28000" size="0x20000" crc="496076e0" sha1="1ee4e135140afd0e8e03231e570cd77d140f6367" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c65.q1" offset="0x0" size="0x200000" crc="78442743" sha1="b61190bb586871de6d54af580e3e1d9cc0de0acb" />
+		<rom loadflag="load16_word_swap" name="c65.q2" offset="0x200000" size="0x200000" crc="399d2c7b" sha1="e849dea97b8d16540415c0d9bbc4f9f4eb755ec4" />
+		</dataarea>
+	</part>
+</software>
+<software name="spf2xjd" cloneof="spf2t">
+	<description>Super Puzzle Fighter II X (Japan 960531 Phoenix Edition) (bootleg)</description>
+	<year>1996</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c65jd.p1" offset="0x0" size="0x80000" crc="5e85ed08" sha1="8242030daf24d8058368d2e7bfe8199db62966c3" />
+		<rom loadflag="load16_word_swap" name="c65.p2" offset="0x80000" size="0x80000" crc="b80649e2" sha1="5bfccd656aea7ff82e9a20bb5856f4ab99b5a007" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c65.m1" offset="0x0" size="0x8000" crc="600fb2a3" sha1="1fab1c2a23bf6ad8309d29ddbbc29435a8aeea13" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c65.m2" offset="0x28000" size="0x20000" crc="496076e0" sha1="1ee4e135140afd0e8e03231e570cd77d140f6367" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c65.q1" offset="0x0" size="0x200000" crc="78442743" sha1="b61190bb586871de6d54af580e3e1d9cc0de0acb" />
+		<rom loadflag="load16_word_swap" name="c65.q2" offset="0x200000" size="0x200000" crc="399d2c7b" sha1="e849dea97b8d16540415c0d9bbc4f9f4eb755ec4" />
+		</dataarea>
+	</part>
+</software>
+<software name="ssf2s02" cloneof="ssf2">
+	<description>Super Street Fighter II: The New Challengers (930911ETC, Phoenix Edition)</description>
+	<year>1993</year>
+	<publisher>Razoola</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c48ud.p1" offset="0x0" size="0x80000" crc="fad5daf8" sha1="5bed5d5af8dffc54d3b3371274a3905f46384f79" />
+		<rom loadflag="load16_word_swap" name="c48ud.p2" offset="0x80000" size="0x80000" crc="0d31af65" sha1="7e903e18cb899627fedd8ad92594b75b5d8ee8fd" />
+		<rom loadflag="load16_word_swap" name="c48ud.p3" offset="0x100000" size="0x80000" crc="75c651ef" sha1="8c6f60d3cf10d802190438c403a719bc30ccbeaa" />
+		<rom loadflag="load16_word_swap" name="c48ud.p4" offset="0x180000" size="0x80000" crc="85c3ec00" sha1="29ab3eccc5f9c0dd6bd19eaa83c72e1a1d44b320" />
+		<rom loadflag="load16_word_swap" name="c48s02.p5" offset="0x200000" size="0x80000" crc="9320e350" sha1="bec5dcd85faf10c72cc79e5d5af311ffb5445c47" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c48r1.m1" offset="0x0" size="0x8000" crc="eb247e8c" sha1="24296c18d9b1136d69712bf1c9d9d15463041e83" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom name="c48.q1" offset="0x0" size="0x80000" crc="a6f9da5c" sha1="6d19f83a01bd25b838d5c2871f7964529d926c98" />
+		<rom name="c48.q2" offset="0x80000" size="0x80000" crc="8c66ae26" sha1="32a82aee6ed4480e5a990f9af161734c7c0a1403" />
+		<rom name="c48.q3" offset="0x100000" size="0x80000" crc="695cc2ca" sha1="c2675f0233608b76de528d2a6ef19846d1348060" />
+		<rom name="c48.q4" offset="0x180000" size="0x80000" crc="9d9ebe32" sha1="9b26329370041374f1a90b479a172d2bc2801c4d" />
+		<rom name="c48.q5" offset="0x200000" size="0x80000" crc="4770e7b7" sha1="0e764f0befb9227b0b36508d8ca8ec9be31bcb05" />
+		<rom name="c48.q6" offset="0x280000" size="0x80000" crc="4e79c951" sha1="1144781d7dc57ef8a6458d982f5c91548ff59e27" />
+		<rom name="c48.q7" offset="0x300000" size="0x80000" crc="cdd14313" sha1="ebe767a9d4b51dba4282fa0a36a546a88620dd59" />
+		<rom name="c48.q8" offset="0x380000" size="0x80000" crc="6f5a088c" sha1="6c0b4690479647a99d76335f174be8455b4ff118" />
+		</dataarea>
+	</part>
+</software>
+<software name="ssf2t05" cloneof="ssf2t">
+	<description>Super Street Fighter II Turbo (940223ETC, Phoenix Edition)</description>
+	<year>1994</year>
+	<publisher>Razoola</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c51t05.p1" offset="0x0" size="0x80000" crc="ed99d850" sha1="d2dcb8395d630fcd1776fd32a9c685646e1f18be" />
+		<rom loadflag="load16_word_swap" name="c51t05.p2" offset="0x80000" size="0x80000" crc="38d9b364" sha1="814e67441a9d92ed89edf20dacb17a0f100020e3" />
+		<rom loadflag="load16_word_swap" name="c51ad.p3" offset="0x100000" size="0x80000" crc="c63358d0" sha1="dde4d9e9adce4dee02322c0fd71615eed0af62e6" />
+		<rom loadflag="load16_word_swap" name="c51ad.p4" offset="0x180000" size="0x80000" crc="ccb29808" sha1="10e7b135a936409fe7c4d7959ea375634a8c68e4" />
+		<rom loadflag="load16_word_swap" name="c51ad.p5" offset="0x200000" size="0x80000" crc="61f94982" sha1="d2f22f50c21393deda7d5838dbd2b265722acd38" />
+		<rom loadflag="load16_word_swap" name="c51ad.p6" offset="0x280000" size="0x80000" crc="d399c36c" sha1="b4c4217843e5c3ef00ab04d58ca9368d2d734065" />
+		<rom loadflag="load16_word_swap" name="c51t05.p7" offset="0x300000" size="0x80000" crc="317b5dbc" sha1="1e1037b071251c28ed9cd5ccd6d52b72cc86396a" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c51.m1" offset="0x0" size="0x8000" crc="b47b8835" sha1="c8b2d50fe3a329bd0592ea160d505155d873dab1" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c51.m2" offset="0x28000" size="0x20000" crc="0022633f" sha1="cab3afc79da53e3887eb1ccd1f4d19790728e6cd" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c51.q1" offset="0x0" size="0x200000" crc="9bdbd476" sha1="a8520f77f30b97aae36408e0c4ca1ebbde1808a5" />
+		<rom loadflag="load16_word_swap" name="c51.q2" offset="0x200000" size="0x200000" crc="a05e3aab" sha1="d4eb9cae66c74e956569fea8b815156fbd420f83" />
+		</dataarea>
+	</part>
+</software>
+<software name="ssf2tad" cloneof="ssf2t">
+	<description>Super Street Fighter II Turbo (Asia 940223 Phoenix Edition) (bootleg)</description>
+	<year>1994</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c51ad.p1" offset="0x0" size="0x80000" crc="e3c92ece" sha1="8b0d6f632f51719c3e13add5d27701578b6ce0d6" />
+		<rom loadflag="load16_word_swap" name="c51ad.p2" offset="0x80000" size="0x80000" crc="9bf3bb2e" sha1="4bdc6fa585cc67d3b6695f390c95c518cba2bea6" />
+		<rom loadflag="load16_word_swap" name="c51ad.p3" offset="0x100000" size="0x80000" crc="c63358d0" sha1="dde4d9e9adce4dee02322c0fd71615eed0af62e6" />
+		<rom loadflag="load16_word_swap" name="c51ad.p4" offset="0x180000" size="0x80000" crc="ccb29808" sha1="10e7b135a936409fe7c4d7959ea375634a8c68e4" />
+		<rom loadflag="load16_word_swap" name="c51ad.p5" offset="0x200000" size="0x80000" crc="61f94982" sha1="d2f22f50c21393deda7d5838dbd2b265722acd38" />
+		<rom loadflag="load16_word_swap" name="c51ad.p6" offset="0x280000" size="0x80000" crc="d399c36c" sha1="b4c4217843e5c3ef00ab04d58ca9368d2d734065" />
+		<rom loadflag="load16_word_swap" name="c51ad.p7" offset="0x300000" size="0x80000" crc="436784ae" sha1="4f0c8a46842128acf4ef15e3ece5abad859d181f" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c51.m1" offset="0x0" size="0x8000" crc="b47b8835" sha1="c8b2d50fe3a329bd0592ea160d505155d873dab1" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c51.m2" offset="0x28000" size="0x20000" crc="0022633f" sha1="cab3afc79da53e3887eb1ccd1f4d19790728e6cd" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c51.q1" offset="0x0" size="0x200000" crc="9bdbd476" sha1="a8520f77f30b97aae36408e0c4ca1ebbde1808a5" />
+		<rom loadflag="load16_word_swap" name="c51.q2" offset="0x200000" size="0x200000" crc="a05e3aab" sha1="d4eb9cae66c74e956569fea8b815156fbd420f83" />
+		</dataarea>
+	</part>
+</software>
+<software name="ssf2tbd" cloneof="ssf2">
+	<description>Super Street Fighter II: The Tournament Battle (World 931119 Phoenix Edition) (bootleg)</description>
+	<year>1993</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c48tbd.p1" offset="0x0" size="0x80000" crc="5d86caf8" sha1="6209caad6613f0b35002fb13350ae3f81c8c9c5f" />
+		<rom loadflag="load16_word_swap" name="c48tbd.p2" offset="0x80000" size="0x80000" crc="f6e1f98d" sha1="2d7506fdf12c8ca8766da1458420e0764f159a9b" />
+		<rom loadflag="load16_word_swap" name="c48ud.p3" offset="0x100000" size="0x80000" crc="75c651ef" sha1="8c6f60d3cf10d802190438c403a719bc30ccbeaa" />
+		<rom loadflag="load16_word_swap" name="c48tbd.p4" offset="0x180000" size="0x80000" crc="9adac7d7" sha1="8677f882f84e6db9ed39ae89ffc3bf9b6b53e4e5" />
+		<rom loadflag="load16_word_swap" name="c48tbd.p5" offset="0x200000" size="0x80000" crc="84f54db3" sha1="7c2016f9c1839f096c9a39bad882eed95bf552b4" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c48r1.m1" offset="0x0" size="0x8000" crc="eb247e8c" sha1="24296c18d9b1136d69712bf1c9d9d15463041e83" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom name="c48.q1" offset="0x0" size="0x80000" crc="a6f9da5c" sha1="6d19f83a01bd25b838d5c2871f7964529d926c98" />
+		<rom name="c48.q2" offset="0x80000" size="0x80000" crc="8c66ae26" sha1="32a82aee6ed4480e5a990f9af161734c7c0a1403" />
+		<rom name="c48.q3" offset="0x100000" size="0x80000" crc="695cc2ca" sha1="c2675f0233608b76de528d2a6ef19846d1348060" />
+		<rom name="c48.q4" offset="0x180000" size="0x80000" crc="9d9ebe32" sha1="9b26329370041374f1a90b479a172d2bc2801c4d" />
+		<rom name="c48.q5" offset="0x200000" size="0x80000" crc="4770e7b7" sha1="0e764f0befb9227b0b36508d8ca8ec9be31bcb05" />
+		<rom name="c48.q6" offset="0x280000" size="0x80000" crc="4e79c951" sha1="1144781d7dc57ef8a6458d982f5c91548ff59e27" />
+		<rom name="c48.q7" offset="0x300000" size="0x80000" crc="cdd14313" sha1="ebe767a9d4b51dba4282fa0a36a546a88620dd59" />
+		<rom name="c48.q8" offset="0x380000" size="0x80000" crc="6f5a088c" sha1="6c0b4690479647a99d76335f174be8455b4ff118" />
+		</dataarea>
+	</part>
+</software>
+<software name="ssf2ud" cloneof="ssf2">
+	<description>Super Street Fighter II: The New Challengers (USA 930911 Phoenix Edition) (bootleg)</description>
+	<year>1993</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c48ud.p1" offset="0x0" size="0x80000" crc="fad5daf8" sha1="5bed5d5af8dffc54d3b3371274a3905f46384f79" />
+		<rom loadflag="load16_word_swap" name="c48ud.p2" offset="0x80000" size="0x80000" crc="0d31af65" sha1="7e903e18cb899627fedd8ad92594b75b5d8ee8fd" />
+		<rom loadflag="load16_word_swap" name="c48ud.p3" offset="0x100000" size="0x80000" crc="75c651ef" sha1="8c6f60d3cf10d802190438c403a719bc30ccbeaa" />
+		<rom loadflag="load16_word_swap" name="c48ud.p4" offset="0x180000" size="0x80000" crc="85c3ec00" sha1="29ab3eccc5f9c0dd6bd19eaa83c72e1a1d44b320" />
+		<rom loadflag="load16_word_swap" name="c48ud.p5" offset="0x200000" size="0x80000" crc="247e2504" sha1="b2f13524fe7f75e69d2d8f2dd212340d75030149" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c48r1.m1" offset="0x0" size="0x8000" crc="eb247e8c" sha1="24296c18d9b1136d69712bf1c9d9d15463041e83" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom name="c48.q1" offset="0x0" size="0x80000" crc="a6f9da5c" sha1="6d19f83a01bd25b838d5c2871f7964529d926c98" />
+		<rom name="c48.q2" offset="0x80000" size="0x80000" crc="8c66ae26" sha1="32a82aee6ed4480e5a990f9af161734c7c0a1403" />
+		<rom name="c48.q3" offset="0x100000" size="0x80000" crc="695cc2ca" sha1="c2675f0233608b76de528d2a6ef19846d1348060" />
+		<rom name="c48.q4" offset="0x180000" size="0x80000" crc="9d9ebe32" sha1="9b26329370041374f1a90b479a172d2bc2801c4d" />
+		<rom name="c48.q5" offset="0x200000" size="0x80000" crc="4770e7b7" sha1="0e764f0befb9227b0b36508d8ca8ec9be31bcb05" />
+		<rom name="c48.q6" offset="0x280000" size="0x80000" crc="4e79c951" sha1="1144781d7dc57ef8a6458d982f5c91548ff59e27" />
+		<rom name="c48.q7" offset="0x300000" size="0x80000" crc="cdd14313" sha1="ebe767a9d4b51dba4282fa0a36a546a88620dd59" />
+		<rom name="c48.q8" offset="0x380000" size="0x80000" crc="6f5a088c" sha1="6c0b4690479647a99d76335f174be8455b4ff118" />
+		</dataarea>
+	</part>
+</software>
+<software name="ssf2xjr1d" cloneof="ssf2t">
+	<description>Super Street Fighter II X: Grand Master Challenge (Japan 940223 Phoenix Edition) (bootleg)</description>
+	<year>1994</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c51jr1d.p1" offset="0x0" size="0x80000" crc="316de996" sha1="4036539a554a9ccd8b5fc364dfc4c97f3d5efa96" />
+		<rom loadflag="load16_word_swap" name="c51ad.p2" offset="0x80000" size="0x80000" crc="9bf3bb2e" sha1="4bdc6fa585cc67d3b6695f390c95c518cba2bea6" />
+		<rom loadflag="load16_word_swap" name="c51ad.p3" offset="0x100000" size="0x80000" crc="c63358d0" sha1="dde4d9e9adce4dee02322c0fd71615eed0af62e6" />
+		<rom loadflag="load16_word_swap" name="c51ad.p4" offset="0x180000" size="0x80000" crc="ccb29808" sha1="10e7b135a936409fe7c4d7959ea375634a8c68e4" />
+		<rom loadflag="load16_word_swap" name="c51ad.p5" offset="0x200000" size="0x80000" crc="61f94982" sha1="d2f22f50c21393deda7d5838dbd2b265722acd38" />
+		<rom loadflag="load16_word_swap" name="c51ad.p6" offset="0x280000" size="0x80000" crc="d399c36c" sha1="b4c4217843e5c3ef00ab04d58ca9368d2d734065" />
+		<rom loadflag="load16_word_swap" name="c51jr1d.p7" offset="0x300000" size="0x80000" crc="0b3a6196" sha1="a0480ac878e82ef6ec0f64dbbd621f10bc7906ea" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c51.m1" offset="0x0" size="0x8000" crc="b47b8835" sha1="c8b2d50fe3a329bd0592ea160d505155d873dab1" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c51.m2" offset="0x28000" size="0x20000" crc="0022633f" sha1="cab3afc79da53e3887eb1ccd1f4d19790728e6cd" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c51.q1" offset="0x0" size="0x200000" crc="9bdbd476" sha1="a8520f77f30b97aae36408e0c4ca1ebbde1808a5" />
+		<rom loadflag="load16_word_swap" name="c51.q2" offset="0x200000" size="0x200000" crc="a05e3aab" sha1="d4eb9cae66c74e956569fea8b815156fbd420f83" />
+		</dataarea>
+	</part>
+</software>
+<software name="suicide">
+	<description>Suicide Test</description>
+	<year>2015</year>
+	<publisher>Razoola</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c65su.p1" offset="0x0" size="0x80000" crc="4d5eea90" sha1="c6f6361650d64401354111bf111bd924126b7035" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c65.m1" offset="0x0" size="0x8000" crc="600fb2a3" sha1="1fab1c2a23bf6ad8309d29ddbbc29435a8aeea13" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c65.m2" offset="0x28000" size="0x20000" crc="496076e0" sha1="1ee4e135140afd0e8e03231e570cd77d140f6367" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c65.q1" offset="0x0" size="0x200000" crc="78442743" sha1="b61190bb586871de6d54af580e3e1d9cc0de0acb" />
+		<rom loadflag="load16_word_swap" name="c65.q2" offset="0x200000" size="0x200000" crc="399d2c7b" sha1="e849dea97b8d16540415c0d9bbc4f9f4eb755ec4" />
+		</dataarea>
+	</part>
+</software>
+<software name="suicide2" cloneof="suicide">
+	<description>Suicide Test v2</description>
+	<year>2015</year>
+	<publisher>Razoola</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c65su2.p1" offset="0x0" size="0x80000" crc="d61ba7e3" sha1="bde345a1d4643adc854d4c7e86c04f72fee1a07b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c65.m1" offset="0x0" size="0x8000" crc="600fb2a3" sha1="1fab1c2a23bf6ad8309d29ddbbc29435a8aeea13" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c65.m2" offset="0x28000" size="0x20000" crc="496076e0" sha1="1ee4e135140afd0e8e03231e570cd77d140f6367" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c65.q1" offset="0x0" size="0x200000" crc="78442743" sha1="b61190bb586871de6d54af580e3e1d9cc0de0acb" />
+		<rom loadflag="load16_word_swap" name="c65.q2" offset="0x200000" size="0x200000" crc="399d2c7b" sha1="e849dea97b8d16540415c0d9bbc4f9f4eb755ec4" />
+		</dataarea>
+	</part>
+</software>
+<software name="vhunt2d" cloneof="vhunt2">
+	<description>Vampire Hunter 2: Darkstalkers Revenge (Japan 970913 Phoenix Edition) (bootleg)</description>
+	<year>1997</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c75d.p1" offset="0x0" size="0x80000" crc="696e0157" sha1="a5c8c7e389f76952ce40ce5792eddb185dd76c41" />
+		<rom loadflag="load16_word_swap" name="c75d.p2" offset="0x80000" size="0x80000" crc="ced9bba3" sha1="ef7be9d39ae93ffde7d940736de9711a24585ef4" />
+		<rom loadflag="load16_word_swap" name="c75.p3" offset="0x100000" size="0x80000" crc="de34f624" sha1="60bbbd1765e76839b01c38765da2368c5188ec61" />
+		<rom loadflag="load16_word_swap" name="c75.p4" offset="0x180000" size="0x80000" crc="6a3b9897" sha1="4f3b37004db8a3d3dde709b51c94c392615134b5" />
+		<rom loadflag="load16_word_swap" name="c75.p5" offset="0x200000" size="0x80000" crc="b021c029" sha1="de4299197600608e83fe50775e3f352f5add844d" />
+		<rom loadflag="load16_word_swap" name="c75.p6" offset="0x280000" size="0x80000" crc="ac873dff" sha1="ad9a085b8403801035683b6f63eee33daf4e97ae" />
+		<rom loadflag="load16_word_swap" name="c75.p7" offset="0x300000" size="0x80000" crc="eaefce9c" sha1="d842a824f0d0adc13a86f780084164c1273c45a4" />
+		<rom loadflag="load16_word_swap" name="c75.p8" offset="0x380000" size="0x80000" crc="11730952" sha1="2966b80b99ab065614a6ddb546110f482b998e32" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c75.m1" offset="0x0" size="0x8000" crc="67b9f779" sha1="3994c65f888004b56ea9f478b1feaa81e306347e" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c75.m2" offset="0x28000" size="0x20000" crc="aaf15fcb" sha1="6f61daa162c835165a8aabaf1d0ea8816fbfbd40" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c75.q1" offset="0x0" size="0x400000" crc="38922efd" sha1="8cfb36bdce3a524d0a81fec12ca0cba82222fa30" />
+		<rom loadflag="load16_word_swap" name="c75.q2" offset="0x400000" size="0x400000" crc="6e2430af" sha1="b475faf943bec4171ba0130f287e1948743ca273" />
+		</dataarea>
+	</part>
+</software>
+<software name="vsav2d" cloneof="vsav2">
+	<description>Vampire Savior 2: The Lord of Vampire (Japan 970913 Phoenix Edition) (bootleg)</description>
+	<year>1997</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c76d.p1" offset="0x0" size="0x80000" crc="50865f7b" sha1="30914bde1caec55847f28167bfb48bc4473a376c" />
+		<rom loadflag="load16_word_swap" name="c76d.p2" offset="0x80000" size="0x80000" crc="c3bff0e3" sha1="5b81dfdc3bf4e78a9d023cd8c753ce0839c0e175" />
+		<rom loadflag="load16_word_swap" name="c76.p3" offset="0x100000" size="0x80000" crc="61979638" sha1="4d5625a9a06926c1a42c8f6e3a4c943f17750ec2" />
+		<rom loadflag="load16_word_swap" name="c76.p4" offset="0x180000" size="0x80000" crc="f37c5bc2" sha1="d8c1040a6ee6b9fc677a6a32b99bf02b6a707812" />
+		<rom loadflag="load16_word_swap" name="c76.p5" offset="0x200000" size="0x80000" crc="8f885809" sha1="69dac07e1f483b6478f792d20a137d6a081fbea3" />
+		<rom loadflag="load16_word_swap" name="c76.p6" offset="0x280000" size="0x80000" crc="2018c120" sha1="de1184ab771c6f075cdefa744a28b09f78d91643" />
+		<rom loadflag="load16_word_swap" name="c76.p7" offset="0x300000" size="0x80000" crc="fac3c217" sha1="0e9dd54e401e6d7c4fe81107ffd27e42ca810fcb" />
+		<rom loadflag="load16_word_swap" name="c76.p8" offset="0x380000" size="0x80000" crc="eb490213" sha1="bf0416df66a33c7a4678ab4a047de334dfd3b31e" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c76.m1" offset="0x0" size="0x8000" crc="35190139" sha1="07f8e53ea398461de5dcda9814dde7c09faf9f65" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c76.m2" offset="0x28000" size="0x20000" crc="c32dba09" sha1="1fe337ff334fab79847f9677ba0e168e93daa1c8" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c76.q1" offset="0x0" size="0x400000" crc="d67e47b7" sha1="15a3f6779eccb10551ed94edf7e6e406a79b3de7" />
+		<rom loadflag="load16_word_swap" name="c76.q2" offset="0x400000" size="0x400000" crc="6d020a14" sha1="e98f862fac1e357c90949768bb2646263d9981a0" />
+		</dataarea>
+	</part>
+</software>
+<software name="vsavd" cloneof="vsav">
+	<description>Vampire Savior: The Lord of Vampire (Euro 970519 Phoenix Edition) (bootleg)</description>
+	<year>1997</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c71d.p1" offset="0x0" size="0x80000" crc="97d805e3" sha1="394398fbeb0b375a79cefb48c57d14b330311247" />
+		<rom loadflag="load16_word_swap" name="c71d.p2" offset="0x80000" size="0x80000" crc="5e07fdce" sha1="897d1c10fb0de2a62360d9b43cb78faaa9976eb9" />
+		<rom loadflag="load16_word_swap" name="c71.p3" offset="0x100000" size="0x80000" crc="4118e00f" sha1="94ce8abc5ff547667f4c6022d84d0ed4cd062d7e" />
+		<rom loadflag="load16_word_swap" name="c71.p4" offset="0x180000" size="0x80000" crc="2f4fd3a9" sha1="48549ff0121312ea4a18d0fa167a32f905c14c9f" />
+		<rom loadflag="load16_word_swap" name="c71.p5" offset="0x200000" size="0x80000" crc="cbda91b8" sha1="31b20aa92422384b1d7a4706ad4c01ea2bd0e0d1" />
+		<rom loadflag="load16_word_swap" name="c71.p6" offset="0x280000" size="0x80000" crc="6ca47259" sha1="485d8f3a132ccb3f7930cae74de8662d2d44e412" />
+		<rom loadflag="load16_word_swap" name="c71.p7" offset="0x300000" size="0x80000" crc="f4a339e3" sha1="abd101a55f7d9ddb8aba04fe8d3f0f5d2006c925" />
+		<rom loadflag="load16_word_swap" name="c71.p8" offset="0x380000" size="0x80000" crc="fffbb5b8" sha1="38aecb820bd1cbd17287848c3ffb013e1d464ddf" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c71.m1" offset="0x0" size="0x8000" crc="f778769b" sha1="788ce1ad8a322179f634df9e62a31ad776b96762" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c71.m2" offset="0x28000" size="0x20000" crc="cc09faa1" sha1="2962ef0ceaf7e7279de3c421ea998763330eb43e" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c71.q1" offset="0x0" size="0x400000" crc="e80e956e" sha1="74181fca4b764fb3c56ceef2cb4c6fd6c18ec4b6" />
+		<rom loadflag="load16_word_swap" name="c71.q2" offset="0x400000" size="0x400000" crc="9cd71557" sha1="7059db25698a0b286314c5961c618f6d2e6f24a1" />
+		</dataarea>
+	</part>
+</software>
+<software name="xmcotar1d" cloneof="xmcota">
+	<description>X-Men: Children of the Atom (Euro 950105 Phoenix Edition) (bootleg)</description>
+	<year>1994</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c56r1d.p1" offset="0x0" size="0x80000" crc="bef56003" sha1="4264f9d7236b00e513664932685b3d93ea636f21" />
+		<rom loadflag="load16_word_swap" name="c56r1d.p2" offset="0x80000" size="0x80000" crc="b1a21fa6" sha1="cbb577b180f28e2af5d6518679f3b16967129ef5" />
+		<rom loadflag="load16_word_swap" name="c56r1.p3" offset="0x100000" size="0x80000" crc="ac0d7759" sha1="650d4474b13f16af7910a0f721fcda2ddb2414fd" />
+		<rom loadflag="load16_word_swap" name="c56.p4" offset="0x180000" size="0x80000" crc="1b86a328" sha1="2469cd705139ee9f1142e6e379e68d0c9675b37e" />
+		<rom loadflag="load16_word_swap" name="c56.p5" offset="0x200000" size="0x80000" crc="2c142a44" sha1="7624875f9c39b361fc83e52e87e0fd5e96279713" />
+		<rom loadflag="load16_word_swap" name="c56.p6" offset="0x280000" size="0x80000" crc="f712d44f" sha1="0d18d4a4eacad94a66beca6ec509ac7f690c6882" />
+		<rom loadflag="load16_word_swap" name="c56.p7" offset="0x300000" size="0x80000" crc="9241cae8" sha1="bb6980abf25aaf3eb14e230ca6942f3e2ab2c660" />
+		<rom loadflag="load16_word_swap" name="c56r1.p8" offset="0x380000" size="0x80000" crc="53c0eab9" sha1="e3b1ec1fd517735f7801cfebb257c43185c6d3fb" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c56.m1" offset="0x0" size="0x8000" crc="40f479ea" sha1="f29e15f537675305264ae2138a0a537fb9e2008b" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c56.m2" offset="0x28000" size="0x20000" crc="39d9b5ad" sha1="af502debfd36100d4fc971ed25fdf9d7121d6f18" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c56.q1" offset="0x0" size="0x200000" crc="c848a6bc" sha1="ac8ac564d3c43225822f8bc330eba9f35b24b0a4" />
+		<rom loadflag="load16_word_swap" name="c56.q2" offset="0x200000" size="0x200000" crc="729c188f" sha1="3279774ad8aebbcf0fc779cdfcbe21044dd192ad" />
+		</dataarea>
+	</part>
+</software>
+<software name="xmvsfu1d" cloneof="xmvsf">
+	<description>X-Men Vs. Street Fighter (USA 961004 Phoenix Edition) (bootleg)</description>
+	<year>1996</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c69u1d.p1" offset="0x0" size="0x80000" crc="4e2e76b7" sha1="812ebe4063a1c5d8c86200a51e6ab00e57e02869" />
+		<rom loadflag="load16_word_swap" name="c69u1d.p2" offset="0x80000" size="0x80000" crc="290c61a7" sha1="f0d409048c9d477ee98e6df92febcd4492a291ee" />
+		<rom loadflag="load16_word_swap" name="c69.p3" offset="0x100000" size="0x80000" crc="7db6025d" sha1="2d74f48f83f45359bfaca28ab686625766af12ee" />
+		<rom loadflag="load16_word_swap" name="c69.p4" offset="0x180000" size="0x80000" crc="e8e2c75c" sha1="929408cb5d98e95cec75ea58e4701b0cbdbcd016" />
+		<rom loadflag="load16_word_swap" name="c69.p5" offset="0x200000" size="0x80000" crc="08f0abed" sha1="ef16c376232dba63b0b9bc3aa0640f9001ccb68a" />
+		<rom loadflag="load16_word_swap" name="c69.p6" offset="0x280000" size="0x80000" crc="81929675" sha1="19cf7afbc1daaefec40195e40ba74970f3906a1c" />
+		<rom loadflag="load16_word_swap" name="c69.p7" offset="0x300000" size="0x80000" crc="9641f36b" sha1="dcba3482d1ba37ccfb30d402793ee063c6621aed" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c69.m1" offset="0x0" size="0x8000" crc="3999e93a" sha1="fefcff8a9a5c83df7655a16187cf9ba3e7efbb25" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c69.m2" offset="0x28000" size="0x20000" crc="101bdee9" sha1="75920e88bf46fcd33a7957777a1d799818ffb0d6" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c69.q1" offset="0x0" size="0x200000" crc="9cadcdbc" sha1="64d3bd53b04daec84c9af4aa3ff010867b3d306d" />
+		<rom loadflag="load16_word_swap" name="c69.q2" offset="0x200000" size="0x200000" crc="7b11e460" sha1="a581c84acaaf0ce056841c15a6f36889e88be68d" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

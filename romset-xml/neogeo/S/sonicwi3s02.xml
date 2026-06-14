@@ -1,0 +1,22 @@
+<software name="sonicwi3s02" cloneof="sonicwi3">
+	<description>Aero Fighters 3 (Enable secret fighters)</description>
+	<year>1995</year>
+	<publisher>Wesker[Rainbow Group]</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="097s02.p1" offset="0x100000" size="0x100000" crc="a09735bd" sha1="ab7b8f14d4e07933bed52219b0c161cfd85601a0" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x600000">
+		<rom name="097.v1" offset="0x0" size="0x400000" crc="6f885152" sha1="8175804d5c1420c5d37b733d4a8fa2aa81e59f1b" />
+		<rom name="097.v2" offset="0x400000" size="0x200000" crc="3359e868" sha1="b7efd9f1a6dab33271fe8356bcc863aeae1d3ed8" />
+		</dataarea>
+		<dataarea name="sprites" size="0xc00000">
+		<rom loadflag="load16_byte" name="097.c1" offset="0x0" size="0x400000" crc="33d0d589" sha1="fe4aa95555e478ceb2d28fd27d83ee06cd09520c" />
+		<rom loadflag="load16_byte" name="097.c2" offset="0x1" size="0x400000" crc="186f8b43" sha1="f5cced93e21dc841b00ebeaa30786cb0e047bd9a" />
+		<rom loadflag="load16_byte" name="097.c3" offset="0x800000" size="0x200000" crc="c339fff5" sha1="58dfd1e30dc0ad3f816a5dbd1cc7e7ccbb792c53" />
+		<rom loadflag="load16_byte" name="097.c4" offset="0x800001" size="0x200000" crc="84a40c6e" sha1="061a13fba5fed883e5ee9566cedc208df2511bcf" />
+		</dataarea>
+	</part>
+</software>

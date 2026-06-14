@@ -1,0 +1,106 @@
+<software name="jojos06" cloneof="jojobanc">
+	<description>JoJo&#x27;s Bizarre Adventure (Super Plus)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="bios" endianness="big" size="0x80000">
+		<rom name="jojoba_euro_nocd.29f400.u2" offset="0x0" size="0x80000" crc="1ee2d679" sha1="9e129b454a376606b3f7e8aec64de425cf9c635c" />
+		</dataarea>
+		<dataarea name="simm1.0" size="0x200000">
+		<rom name="jojoba-simm1.002" offset="0x0" size="0x200000" crc="0f37dfd5" sha1="f4aff0d6c9a6c66e59b2a69c40d401999278bf8c" />
+		</dataarea>
+		<dataarea name="simm1.1" size="0x200000">
+		<rom name="jojoba-simm1.102" offset="0x0" size="0x200000" crc="bada31bd" sha1="86a9bf7dd64564c313b9744e8e57209e89ad04c7" />
+		</dataarea>
+		<dataarea name="simm1.2" size="0x200000">
+		<rom name="jojoba-simm1.202" offset="0x0" size="0x200000" crc="c9798137" sha1="8d71c711479d6d2d1e23dd74ce00b0b529772040" />
+		</dataarea>
+		<dataarea name="simm1.3" size="0x200000">
+		<rom name="jojobaner1s04.1.3" offset="0x0" size="0x200000" crc="cc1e02e3" sha1="c4f9f9d557738aa4b8ac3ad9fa90d163f8358c23" />
+		</dataarea>
+		<dataarea name="simm2.0" size="0x200000">
+		<rom name="jojoba-simm2.0a" offset="0x0" size="0x200000" crc="305c4914" sha1="c3a73ffe58f61ab8f1cd9e3f0891037638dc5a9b" />
+		</dataarea>
+		<dataarea name="simm2.1" size="0x200000">
+		<rom name="jojoba-simm2.1a" offset="0x0" size="0x200000" crc="18af4f3b" sha1="04b8fdf23a782b10c203b111cc634a6d3474044a" />
+		</dataarea>
+		<dataarea name="simm2.2" size="0x200000">
+		<rom name="jojoba-simm2.2a" offset="0x0" size="0x200000" crc="397e5c9e" sha1="021d86ee66bf951fb6a1dd90fb7007c6865cbb8b" />
+		</dataarea>
+		<dataarea name="simm2.3" size="0x200000">
+		<rom name="jojoba-simm2.3a" offset="0x0" size="0x200000" crc="a9d0a7d7" sha1="b2cfc0661f8903ddbeea8a604ee8b42097e10ab8" />
+		</dataarea>
+		<dataarea name="simm3.0" size="0x200000">
+		<rom name="jojoba-simm3.0" offset="0x0" size="0x200000" crc="4d16e111" sha1="f198007375be65e89856d64ee2b3857a18b4eab8" />
+		</dataarea>
+		<dataarea name="simm3.1" size="0x200000">
+		<rom name="jojoba-simm3.1" offset="0x0" size="0x200000" crc="9b3406d3" sha1="54e90cd334d13e2c74305c6b87ebce1365ef3d59" />
+		</dataarea>
+		<dataarea name="simm3.2" size="0x200000">
+		<rom name="jojoba-simm3.2" offset="0x0" size="0x200000" crc="f2414997" sha1="fb89d5784250538ad17fd527267b513afb6eca20" />
+		</dataarea>
+		<dataarea name="simm3.3" size="0x200000">
+		<rom name="jojoba-simm3.3" offset="0x0" size="0x200000" crc="954b9c7d" sha1="0d64d97167d4e669d7e4f3a388f9d5ec1e18ed42" />
+		</dataarea>
+		<dataarea name="simm3.4" size="0x200000">
+		<rom name="jojoba-simm3.4" offset="0x0" size="0x200000" crc="625adc1d" sha1="533d62759ecece10c711d99bfca403e5cba279b5" />
+		</dataarea>
+		<dataarea name="simm3.5" size="0x200000">
+		<rom name="jojoba-simm3.5" offset="0x0" size="0x200000" crc="20a70bb4" sha1="3bd8376304ffc974fb8031eac8bebff27969538c" />
+		</dataarea>
+		<dataarea name="simm3.6" size="0x200000">
+		<rom name="jojoba-simm3.6" offset="0x0" size="0x200000" crc="a10ec5af" sha1="9b403260e8fbdacaa5369ab79fc05855cc6a6bdb" />
+		</dataarea>
+		<dataarea name="simm3.7" size="0x200000">
+		<rom name="jojoba-simm3.7" offset="0x0" size="0x200000" crc="0bd0de7a" sha1="1debecda5f282f2a1dd17e887e522a4d00c5dc9d" />
+		</dataarea>
+		<dataarea name="simm4.0" size="0x200000">
+		<rom name="jojoba-simm4.0" offset="0x0" size="0x200000" crc="6ea14adc" sha1="696b2ec66f3c197817a60f507a1b4c78db37f488" />
+		</dataarea>
+		<dataarea name="simm4.1" size="0x200000">
+		<rom name="jojoba-simm4.1" offset="0x0" size="0x200000" crc="8f4c42fb" sha1="363d769b0b066ce139125426d2da6dfa15d1eb28" />
+		</dataarea>
+		<dataarea name="simm4.2" size="0x200000">
+		<rom name="jojoba-simm4.2" offset="0x0" size="0x200000" crc="ef0586d1" sha1="8fcc350da20e3e59fa76fa14e10f2c47233ba9dc" />
+		</dataarea>
+		<dataarea name="simm4.3" size="0x200000">
+		<rom name="jojoba-simm4.3" offset="0x0" size="0x200000" crc="93ccc470" sha1="5d267679e61c0fb592ad5f696d3c06ec1746d0b3" />
+		</dataarea>
+		<dataarea name="simm4.4" size="0x200000">
+		<rom name="jojoba-simm4.4" offset="0x0" size="0x200000" crc="3d9ec7d2" sha1="665b867bab928be183c2006527e55f9b8ec4a271" />
+		</dataarea>
+		<dataarea name="simm4.5" size="0x200000">
+		<rom name="jojoba-simm4.5" offset="0x0" size="0x200000" crc="03e66850" sha1="8478662dc9db20d9a186d315a883bd1cbb5e5000" />
+		</dataarea>
+		<dataarea name="simm4.6" size="0x200000">
+		<rom name="jojoba-simm4.6" offset="0x0" size="0x200000" crc="01606ac3" sha1="ccc74edeca6abdd86fc1cf42ececa1ea393b3261" />
+		</dataarea>
+		<dataarea name="simm4.7" size="0x200000">
+		<rom name="jojoba-simm4.7" offset="0x0" size="0x200000" crc="36392b87" sha1="e62080c8461775c1e180400dfb44414679fd0fc1" />
+		</dataarea>
+		<dataarea name="simm5.0" size="0x200000">
+		<rom name="jojoba-simm5.0" offset="0x0" size="0x200000" crc="2ef8c60c" sha1="dea87a73a11b8edd27c3c9c5ab2af295cb5508f9" />
+		</dataarea>
+		<dataarea name="simm5.1" size="0x200000">
+		<rom name="jojoba-simm5.1" offset="0x0" size="0x200000" crc="cf7d7ca6" sha1="b347707b1e5bc71d28b282273f893592e5f9e333" />
+		</dataarea>
+		<dataarea name="simm5.2" size="0x200000">
+		<rom name="jojoba-simm5.2" offset="0x0" size="0x200000" crc="b7815bfa" sha1="0b5a3a2ffe1b3c0ca765dcedc297e78e5928302b" />
+		</dataarea>
+		<dataarea name="simm5.3" size="0x200000">
+		<rom name="jojoba-simm5.3" offset="0x0" size="0x200000" crc="9bfec049" sha1="62cc9a1920047863205544b77344ee18f310f084" />
+		</dataarea>
+		<dataarea name="simm5.4" size="0x200000">
+		<rom name="jojoba-simm5.4" offset="0x0" size="0x200000" crc="d167536b" sha1="e2637d3486f168ce44e0a00413d38960cb86db4c" />
+		</dataarea>
+		<dataarea name="simm5.5" size="0x200000">
+		<rom name="jojoba-simm5.5" offset="0x0" size="0x200000" crc="55e7a042" sha1="c18bda61fa005d9174a27b7b7d324004262a4525" />
+		</dataarea>
+		<dataarea name="simm5.6" size="0x200000">
+		<rom name="jojoba-simm5.6" offset="0x0" size="0x200000" crc="4fb32906" sha1="3a5965b3197517932c8aa4c07a6ea6a190a338d7" />
+		</dataarea>
+		<dataarea name="simm5.7" size="0x200000">
+		<rom name="jojoba-simm5.7" offset="0x0" size="0x200000" crc="8c8be520" sha1="c461f3f76a83592b36b29afb316679a7c8972404" />
+		</dataarea>
+	</part>
+</software>

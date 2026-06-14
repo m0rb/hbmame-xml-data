@@ -1,0 +1,22 @@
+<software name="joyjoy">
+	<description>Puzzled / Joy Joy Kid (NGM-021 ~ NGH-021)</description>
+	<year>1990</year>
+	<publisher>SNK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="021-p1.p1" offset="0x0" size="0x80000" crc="39c3478f" sha1="06ebe54c9c4e14c5c31e770013d58b7162359ecc" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="021-c1.c1" offset="0x0" size="0x80000" crc="509250ec" sha1="d6ddb16d8222088f153a85a905bcb99541a5f2cf" />
+		<rom loadflag="load16_byte" name="021-c2.c2" offset="0x1" size="0x80000" crc="09ed5258" sha1="6bf50cd10236e29146b49e714a0e0ebcfe30a682" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x80000">
+		<rom name="021-v11.v11" offset="0x0" size="0x80000" crc="66c1e5c4" sha1="7e85420021d4c39c36ed75a1cec567c5610ffce0" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcmb" size="0x80000">
+		<rom name="021-v21.v21" offset="0x0" size="0x80000" crc="8ed20a86" sha1="d15cba5eac19ea56fdd4877541f1bb3eb755ebba" />
+		</dataarea>
+	</part>
+</software>

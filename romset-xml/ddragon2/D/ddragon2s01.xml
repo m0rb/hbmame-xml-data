@@ -1,0 +1,51 @@
+<software name="ddragon2s01">
+	<description>Double Dragon II - The Revenge (bootleg)</description>
+	<year>1988</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x30000">
+		<rom name="3_ps" offset="0x8000" size="0x8000" crc="f5bd19d2" sha1="a3005fb42fb0500c2f8ad0cd8dcd146dde51fefb" />
+		<rom name="4" offset="0x10000" size="0x8000" crc="78750947" sha1="6b8349c3cd27c37a4329cea213b6ff0167c4edee" />
+		<rom name="26ab-0.bin" offset="0x18000" size="0x8000" crc="49ddddcd" sha1="91dc53718d04718b313f23d86e241027c89d1a03" />
+		<rom name="6" offset="0x20000" size="0x8000" crc="097eaf26" sha1="60504abd30fec44c45197cdf3832c87d05ef577d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x10000">
+		<rom name="1" offset="0x0" size="0x10000" crc="3ad1049c" sha1="11d9544a56f8e6a84beb307a5c8a9ff8afc55c66" />
+		</dataarea>
+		<dataarea name="gfx2" size="0xc0000">
+		<rom name="27" offset="0x0" size="0x10000" crc="fe42df5d" sha1="aab801346c2db04263cb61c97c6e086387675586" />
+		<rom name="26_ps" offset="0x10000" size="0x10000" crc="d2d9a400" sha1="420abcb9c1de1be9bff36a572c0e100bb9a74e07" />
+		<rom name="23" offset="0x20000" size="0x10000" crc="e157319f" sha1="8b898fa20329b12293e7cb7ffc2e1b17304f826f" />
+		<rom name="22_ps" offset="0x30000" size="0x10000" crc="9f10018c" sha1="a3da267312c01b3da192e745ed47ab3bed1fc3de" />
+		<rom name="25" offset="0x40000" size="0x10000" crc="4a4a085d" sha1="80786c6fda135af1f9e9d8191879ab27baf36167" />
+		<rom name="24" offset="0x50000" size="0x10000" crc="c9d52536" sha1="54f9236c4d22e3fd79d66c3f45b134f1fc9a1d32" />
+		<rom name="21" offset="0x60000" size="0x10000" crc="32ab0897" sha1="f992dc3876621896b6e1fd6518f576b48d54a631" />
+		<rom name="20_ps" offset="0x70000" size="0x10000" crc="f564bd18" sha1="1981e63b7d564c2575f784a7ab372bfba27172db" />
+		<rom name="17" offset="0x80000" size="0x10000" crc="882f99b1" sha1="2fbb9171a2c9ddab177efe1e89e96426643d382b" />
+		<rom name="16_ps" offset="0x90000" size="0x10000" crc="cf3c34d5" sha1="e28bac1d31bd791af8dc5227c3d2f69026a9d80e" />
+		<rom name="18" offset="0xa0000" size="0x10000" crc="0e1c6c63" sha1="506e43161992c41d9b77c1df11228117f0587cbd" />
+		<rom name="19" offset="0xb0000" size="0x10000" crc="0e21eae0" sha1="0cde9cdc6dbe2015e7f38b391c78cf3f16658e5c" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x40000">
+		<rom name="15" offset="0x0" size="0x10000" crc="3c3f16f6" sha1="2fccbf1dd072c59b5923631fc1c6d40f7ea63996" />
+		<rom name="13" offset="0x10000" size="0x10000" crc="7c21be72" sha1="9935c983d0f7613ee192758ddcd8d8592e8bf78a" />
+		<rom name="14" offset="0x20000" size="0x10000" crc="e92f91f4" sha1="4351b2b117c1104dcdb6f48531ddad385691c945" />
+		<rom name="12" offset="0x30000" size="0x10000" crc="6896e2f7" sha1="d230d2406ae451f59d1d0783b1d670a0d3e28d8c" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="7" offset="0x0" size="0x10000" crc="6d9e3f0f" sha1="5c3e7fb2e46939dd3c540b9e1af9591dbfd15b19" />
+		<rom name="9" offset="0x10000" size="0x10000" crc="0c15dec9" sha1="b0a6bb13216f4321b5fc01a649ea84d2d1d51088" />
+		<rom name="8" offset="0x20000" size="0x10000" crc="151b22b4" sha1="3b0470df9b719dd76115d8c549010ec92e28d0d0" />
+		<rom name="10_ps" offset="0x30000" size="0x10000" crc="95885e12" sha1="518186d329d2ed148d732ad56173ba1cc0406246" />
+		</dataarea>
+		<dataarea name="proms" size="0x200">
+		<rom name="prom.16" offset="0x0" size="0x200" crc="46339529" sha1="64f4c42a826d67b7cbaa8a23a45ebc4eb6248891" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x10000">
+		<rom name="26ad-0.bin" offset="0x0" size="0x8000" crc="75e36cd6" sha1="f24805f4f6925b3ac508e66a6fc25c275b05f3b9" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="26ae-0.bin" offset="0x0" size="0x10000" crc="ea437867" sha1="cd910203af0565f981b9bdef51ea6e9c33ee82d3" />
+		</dataarea>
+	</part>
+</software>

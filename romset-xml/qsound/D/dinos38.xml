@@ -1,0 +1,27 @@
+<software name="dinos38" cloneof="dino">
+	<description>Cadillacs and Dinosaurs (Sf2 conversion)</description>
+	<year>2017</year>
+	<publisher>Arcadefixer</publisher>
+	<info name="source" value="wofsf2" />
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c25s38.p1" offset="0x0" size="0x80000" crc="ccdc80f3" sha1="0cb34ac873a9c4cf7189c8d189bb9f96ec4f0721" />
+		<rom loadflag="load16_word_swap" name="c25s38.p2" offset="0x80000" size="0x80000" crc="e8eb6500" sha1="d062e31863c8a3d297aa9c32693b67921d9a9650" />
+		<rom loadflag="load16_word_swap" name="c25s38.p3" offset="0x100000" size="0x80000" crc="8822a8ef" sha1="3e345fad0331ce7a3ba742ed3a74abf8bb7e7a02" />
+		<rom loadflag="load16_word_swap" name="c25dh.p4" offset="0x180000" size="0x80000" crc="8987c975" sha1="3fd856805d627f855f72acc7aacc2e8ecf0f12bd" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c25s38.m1" offset="0x0" size="0x8000" crc="2eb16a83" sha1="067ea0bfc2c1e73520d6b836c72fbb9da9998311" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="wofch.key" offset="0x0" size="0x80" crc="23f2d0bb" sha1="48ba9300bc2136e9583754a51d5ab2532eca85c6" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c25s38.v1" offset="0x0" size="0x20000" crc="8d2899ba" sha1="0b3ac6cf2ce0323e3bfc9da3ebfcb0fd14bc405b" />
+		<rom name="c25s38.v2" offset="0x20000" size="0x20000" crc="b34a4b42" sha1="3eeb9e33bb911359e03d44949ac58439a3d3d54b" />
+		</dataarea>
+	</part>
+</software>

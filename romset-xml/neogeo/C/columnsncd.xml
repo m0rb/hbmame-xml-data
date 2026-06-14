@@ -1,0 +1,18 @@
+<software name="columnsncd" cloneof="columnsn">
+	<description>Columns (CD conversion)</description>
+	<year>1990</year>
+	<publisher>Jeff Kurtz</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="404.p1" offset="0x0" size="0x80000" crc="c6c9888d" sha1="5a2ec1071872c817bf82053ca7b7d5d63fab6755" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="407.v1" offset="0x0" size="0x80000" crc="504bf849" sha1="13a184ec9e176371808938015111f8918cb4df7d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="404a.c1" offset="0x0" size="0x80000" crc="cf503ff1" sha1="3fb3131fa55d6137381b817dbb07b740096749b7" />
+		<rom loadflag="load16_byte" name="404a.c2" offset="0x1" size="0x80000" crc="c4d6e319" sha1="19a5bb2622c01bea2c0eb2206724c7751caca318" />
+		</dataarea>
+	</part>
+</software>

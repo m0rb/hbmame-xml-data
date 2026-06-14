@@ -1,0 +1,38 @@
+<software name="mmaulerss01" cloneof="mmaulers">
+	<description>Monster Maulers (Easy Move)</description>
+	<year>1993</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="170eaa07_ps01.24m" offset="0x0" size="0x80000" crc="0a14a7de" sha1="5d74ca1b306901201d0fbf9b65dadc5c26082cd4" />
+		<rom loadflag="load16_byte" name="170eaa09_ps01.19l" offset="0x1" size="0x80000" crc="45219214" sha1="5cef21c1556b943d3fa122e882d641e0627e946e" />
+		<rom loadflag="load16_byte" name="170a08.21m" offset="0x100000" size="0x40000" crc="03c59ba2" sha1="041473fe5f9004bfb7ca767c2004154c27f726ff" />
+		<rom loadflag="load16_byte" name="170a10.17l" offset="0x100001" size="0x40000" crc="8a340909" sha1="3e2ef2642e792cdc38b3442df67377ed9e70d3ab" />
+		</dataarea>
+		<dataarea name="eeprom" size="0x80">
+		<rom name="mmaulers.nv" offset="0x0" size="0x80" crc="8324f517" sha1="4697d091a1924e1a5d6c3ffc64a40fd36eebe557" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x180000">
+		<rom name="170a04.33n" offset="0x0" size="0x80000" crc="64b9a73b" sha1="8b984bfd8bdf6d93ad223fca46a4f958a0edb2be" />
+		<rom name="170a05.30n" offset="0x80000" size="0x80000" crc="f2c101d0" sha1="d80045c9a02db08ea6c851bdc12826862e11c381" />
+		<rom name="170a06.27n" offset="0x100000" size="0x80000" crc="b032e59b" sha1="482300c683db20c2b2fc6e007b8f7e35373e3c00" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x80000">
+		<rom name="170a02.34j" offset="0x0" size="0x40000" crc="b040cebf" sha1="4d1ba4ee60fd7caf678837ec6f4d68fcbce1ccf2" />
+		<rom name="170a03.36m" offset="0x40000" size="0x40000" crc="7fb412b2" sha1="f603a8f0becf88e345f4b7a68cf018962a255a1e" />
+		</dataarea>
+		<dataarea name="k054539" size="0x400000">
+		<rom name="170a14.2g" offset="0x0" size="0x2" crc="83317cda" sha1="c5398c5959ef3ea73835e13db69660dd28c31486" />
+		<rom name="170a15.2m" offset="0x200000" size="0x2" crc="d4113ae9" sha1="e234d06f462e3db64455c384c2f42174f9ef9c6a" />
+		</dataarea>
+		<dataarea name="k055673" size="0xa00000">
+		<rom loadflag="load16_byte" name="170a23.29y" offset="0x800000" size="0x400" crc="6b5390e4" sha1="0c5066bc86e782db4b64c2a604aed89ae99af005" />
+		<rom loadflag="load16_byte" name="170a22.32y" offset="0x800001" size="0x400" crc="21628106" sha1="1e025ff53caa5cbbf7695f8a77736d59f8a8af1b" />
+		</dataarea>
+		<dataarea name="k056832" size="0x600000">
+		</dataarea>
+		<dataarea name="soundcpu" size="0x40000">
+		<rom name="170a13.9c" offset="0x0" size="0x40000" crc="2ebf4d1c" sha1="33a3f4153dfdc46cc223d216a17ef9428c09129d" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,29 @@
+<software name="kovpluss12" cloneof="kovplus">
+	<description>Knights of Valour Plus (Hong Wave Filled)</description>
+	<year>1999</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_ph12.119" offset="0x100000" size="0x400000" crc="a4ff13b0" sha1="5736439103a7a44e8158d57e408b81808f7be2e4" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u3" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="pgm_a0600.u2" offset="0x0" size="0x800000" crc="d8167834" sha1="fa55a99629d03b2ea253392352f70d2c8639a991" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="pgm_a0603.u9" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b0600.u5" offset="0x0" size="0x800000" crc="7d3cd059" sha1="00cf994b63337e0e4ebe96453daf45f24192af1c" />
+		<rom name="pgm_b0601.u7" offset="0x800000" size="0x400000" crc="a0bb1c2f" sha1="0542348c6e27779e0a98de16f04f9c18158f2b28" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_ph06.rom" offset="0x180000" size="0x800000" crc="d049c5bf" sha1="8f75b6f3171d5dda9010be325a4c8f880b8fc645" />
+		</dataarea>
+	</part>
+</software>

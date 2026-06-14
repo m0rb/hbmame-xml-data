@@ -1,0 +1,31 @@
+<software name="garou02" cloneof="garou">
+	<description>Garou - Mark of the Wolves (Decrypted C)</description>
+	<year>1999</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x900000">
+		<rom loadflag="load16_word_swap" name="kf.neo-sma" offset="0xc0000" size="0x40000" crc="98bc93dc" sha1="01fe3d18b50f770e131e8d8eeff4c630ba8c9551" />
+		<rom loadflag="load16_word_swap" name="253.p1" offset="0x100000" size="0x200000" crc="ea3171a4" sha1="bbda40f652baa0dc5fc6a006c001a1bdb0df43f6" />
+		<rom loadflag="load16_word_swap" name="253.p2" offset="0x300000" size="0x200000" crc="382f704b" sha1="0ace9c84a8b8a0524fd9a503e7d872de1bf1bd52" />
+		<rom loadflag="load16_word_swap" name="253.p3" offset="0x500000" size="0x200000" crc="e395bfdd" sha1="6b50f5ac15bf66b7e4e9bff57594fd3d7530c831" />
+		<rom loadflag="load16_word_swap" name="253.p4" offset="0x700000" size="0x200000" crc="da92c08e" sha1="5556f983ebcebc33160e90a6a6cf589d54c8cedc" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="253.v1" offset="0x0" size="0x400000" crc="263e388c" sha1="11f05feee170370c4bfc5053af79246a6e3de5dc" />
+		<rom name="253.v2" offset="0x400000" size="0x400000" crc="2c6bc7be" sha1="c9c61054ce1a47bf1bf77a31117726b499df24a4" />
+		<rom name="253.v3" offset="0x800000" size="0x400000" crc="0425b27d" sha1="986863c98fc3445487242dcf2ea75b075e7f33ee" />
+		<rom name="253.v4" offset="0xc00000" size="0x400000" crc="a54be8a9" sha1="d7123e79b43e8adfaa5ecadbfcbeb6be890ec311" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="253s02.c1" offset="0x0" size="0x800000" crc="497be3f2" sha1="3b4e524ff185db326cdefe115851ce282272fb58" />
+		<rom loadflag="load16_byte" name="253s02.c2" offset="0x1" size="0x800000" crc="6a9e95ca" sha1="d9730d2db58edfa660edab5bf0f7fc3ed058bccf" />
+		<rom loadflag="load16_byte" name="253s02.c3" offset="0x1000000" size="0x800000" crc="39373d2f" sha1="8c0307150bc31001605efbe0e38ae74e1e466d5d" />
+		<rom loadflag="load16_byte" name="253s02.c4" offset="0x1000001" size="0x800000" crc="4de23f6c" sha1="b40bce471fb1815037e4c3705f8238e659a13a82" />
+		<rom loadflag="load16_byte" name="253s02.c5" offset="0x2000000" size="0x800000" crc="16634ba5" sha1="e51649efd039270139aa7292a28925e547b2be59" />
+		<rom loadflag="load16_byte" name="253s02.c6" offset="0x2000001" size="0x800000" crc="95671ffd" sha1="803ebeb74fefe88b9aba53cbca103c0e9145abcb" />
+		<rom loadflag="load16_byte" name="253s02.c7" offset="0x3000000" size="0x800000" crc="e36ce77f" sha1="71931559293182749ded13c52d8bac988a3a062f" />
+		<rom loadflag="load16_byte" name="253s02.c8" offset="0x3000001" size="0x800000" crc="ddbd1096" sha1="634cfb61398b3f1b983f7f3966b53f4cc3a78671" />
+		</dataarea>
+	</part>
+</software>

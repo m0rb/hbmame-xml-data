@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="timeplt" description="Timeplt cartridges">
+<software name="timepltdiag">
+	<description>Time Pilot Tester</description>
+	<year>2015</year>
+	<publisher>Shoestring</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="tm1" offset="0x0" size="0x2000" crc="1551f1b9" sha1="c72f30988ac00cbe6549b71c3bcb414511e8b997" />
+		<rom name="tm2" offset="0x2000" size="0x2000" crc="58636cb5" sha1="ab517efa93ae7be780af55faea82a6e83edd828c" />
+		<rom name="tm3" offset="0x4000" size="0x2000" crc="ff4e0d83" sha1="ef98a1abb45b22d7498a0aca520f43bbee248b22" />
+		<rom name="diag.5h" offset="0x6000" size="0x2000" crc="020eac50" sha1="5459248dbd590393936af4ceef8fabc4a30b0315" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="tm6" offset="0x0" size="0x2000" crc="c2507f40" sha1="07221875e3f81d9def67c57a7ccd82d52ce65e01" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x4000">
+		<rom name="tm4" offset="0x0" size="0x2000" crc="7e437c3e" sha1="cbe2ccd2cd503af62f009cd5aab73aa7366230b1" />
+		<rom name="tm5" offset="0x2000" size="0x2000" crc="e8ca87b9" sha1="5dd30d3fb9fd8cf9e6a8e37e7ea858c7fd038a7e" />
+		</dataarea>
+		<dataarea name="proms" size="0x240">
+		<rom name="timeplt.b4" offset="0x0" size="0x20" crc="34c91839" sha1="f62e279e21fce171231d3139be7adabe1f4b8c2e" />
+		<rom name="timeplt.b5" offset="0x20" size="0x20" crc="463b2b07" sha1="9ad275365eba4869f94749f39ff8705d92056a10" />
+		<rom name="timeplt.e9" offset="0x40" size="0x100" crc="4bbb2150" sha1="678433b21aae1daa938e32d3293eeed529a42ef9" />
+		<rom name="timeplt.e12" offset="0x140" size="0x100" crc="f7b7663e" sha1="151bd2dff4e4ef76d6438c1ab2cae71f987b9dad" />
+		</dataarea>
+		<dataarea name="timeplt_audio:tpsound" size="0x10000">
+		<rom name="tm7" offset="0x0" size="0x1000" crc="d66da813" sha1="408fca4515e8af84211df3e204c8776b2f8adb23" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

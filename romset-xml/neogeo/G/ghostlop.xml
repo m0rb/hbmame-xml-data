@@ -1,0 +1,19 @@
+<software name="ghostlop">
+	<description>Ghostlop (prototype)</description>
+	<year>1996</year>
+	<publisher>Data East Corporation</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="proto_228-p1.p1" offset="0x0" size="0x100000" crc="6033172e" sha1="f57fb706aa8dd9e5f9e992a5d35c1799578b59f8" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="proto_228-c1.c1" offset="0x0" size="0x400000" crc="bfc99efe" sha1="5cd2545310142080b8286e787cf5b859f627b3db" />
+		<rom loadflag="load16_byte" name="proto_228-c2.c2" offset="0x1" size="0x400000" crc="69788082" sha1="c3ecb42ddcbd9e16d0018a0c3adb56a911d813ca" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="proto_228-v1.v1" offset="0x0" size="0x200000" crc="c603fce6" sha1="5a866471d35895b2ae13cbd5d1cb41bf2e72e1b8" />
+		</dataarea>
+	</part>
+</software>

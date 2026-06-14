@@ -1,0 +1,18 @@
+<software name="cakefght">
+	<description>Cake Fighter</description>
+	<year>2022</year>
+	<publisher>ADK/EKORZ</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="335.p1" offset="0x0" size="0x200000" crc="717afa0f" sha1="b0e0556b9c996e29c16fcb3416d763d454b8e8ab" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x600000">
+		<rom name="335.v1" offset="0x0" size="0x400000" crc="3eb19769" sha1="5fe4e4de25e354406ebb30d5a964dd3b80f161f0" />
+		<rom name="224.v2" offset="0x400000" size="0x200000" crc="7ad26599" sha1="822030037b7664795bf3d64e1452d0aecc22497e" />
+		</dataarea>
+		<dataarea name="sprites" size="0xa00000">
+		<rom name="335.c1" offset="0x0" size="0xa00000" crc="8cd7c899" sha1="c471466634e42c8df8dd343bbe9058e12c88e785" />
+		</dataarea>
+	</part>
+</software>

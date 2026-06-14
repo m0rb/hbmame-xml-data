@@ -1,0 +1,24 @@
+<software name="turfmste" cloneof="turfmast">
+	<description>Neo Turf Masters / Big Tournament Golf (Earlier)</description>
+	<year>1996</year>
+	<publisher>Nazca</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="200.p1" offset="0x100000" size="0x100000" crc="28c83048" sha1="e7ef87e1de21d2bb17ef17bb08657e92363f0e9a" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="200.v1" offset="0x0" size="0x200000" crc="00fd48d2" sha1="ddfee09328632e598fd51537b3ae8593219b2111" />
+		<rom name="200.v2" offset="0x200000" size="0x200000" crc="082acb31" sha1="2f1c053040e9d50a6d45fd7bea1b96742bae694f" />
+		<rom name="200.v3" offset="0x400000" size="0x200000" crc="7abca053" sha1="e229bc0ea82a371d6ee8fd9fe442b0fd141d0a71" />
+		<rom name="200.v4" offset="0x600000" size="0x200000" crc="6c7b4902" sha1="d55e0f542d928a9a851133ff26763c8236cbbd4d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="200e.c1" offset="0x400000" size="0x200000" crc="8c6733f2" sha1="c4d20a8df03bbb6bb72b8fc089d4833b79c75cee" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="200e.c2" offset="0x400001" size="0x200000" crc="596cc256" sha1="705f949b3ba721b2e7973eaf2b2f9283dfef778c" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		</dataarea>
+	</part>
+</software>

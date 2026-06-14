@@ -1,0 +1,19 @@
+<software name="b2b">
+	<description>Bang Bang Busters (2010 NCI release)</description>
+	<year>2000</year>
+	<publisher>Visco</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="071.p1" offset="0x0" size="0x80000" crc="7687197d" sha1="4bb9cb7819807f7a7e1f85f1c4faac4a2f8761e8" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="071.c1" offset="0x0" size="0x200000" crc="23d84a7a" sha1="9034658ad40e2c45558abc3db312aa2764102fc4" />
+		<rom loadflag="load16_byte" name="071.c2" offset="0x1" size="0x200000" crc="ce7b6248" sha1="ad1cd5adae5c151e183ff88b68afe10f7009f48e" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x100000">
+		<rom name="071.v1" offset="0x0" size="0x100000" crc="50feffb0" sha1="00127dae0130889995bfa7560bc4b0662f74fba5" />
+		</dataarea>
+	</part>
+</software>

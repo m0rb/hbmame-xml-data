@@ -1,0 +1,28 @@
+<software name="mslug3lb05" cloneof="mslug3">
+	<description>Metal Slug 3 (Enemy Soldier Reset Version #3, 2020-09-29)[Edition 2]</description>
+	<year>2020</year>
+	<publisher>Gaston90</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="256la01.p1" offset="0x0" size="0x100000" crc="8a83a696" sha1="23ddfc7f3748934e40b489403f7672a8016df940" />
+		<rom loadflag="load16_word_swap" name="256lb05.p2" offset="0x100000" size="0x400000" crc="b7bf263f" sha1="965815a9502385f3bd68a68a86eca176b1c7a1d2" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="256.v1" offset="0x0" size="0x400000" crc="f2690241" sha1="fd56babc1934d10e0d27c32f032f9edda7ca8ce9" />
+		<rom name="256.v2" offset="0x400000" size="0x400000" crc="7e2a10bd" sha1="0d587fb9f64cba0315ce2d8a03e2b8fe34936dff" />
+		<rom name="256.v3" offset="0x800000" size="0x400000" crc="0eaec17c" sha1="c3ed613cc6993edd6fc0d62a90bcd85de8e21915" />
+		<rom name="256.v4" offset="0xc00000" size="0x400000" crc="9b4b22d4" sha1="9764fbf8453e52f80aa97a46fb9cf5937ef15a31" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="256d.c1" offset="0x0" size="0x800000" crc="3540398c" sha1="0a96f2360eb26c66bf02bbc6f52230b55cc95e4e" />
+		<rom loadflag="load16_byte" name="256d.c2" offset="0x1" size="0x800000" crc="bdd220f0" sha1="f52851023f3bc120b05f622af0e0ab1bedc41604" />
+		<rom loadflag="load16_byte" name="256d.c3" offset="0x1000000" size="0x800000" crc="bfaade82" sha1="66b07e592c9a9b35567fe463496f8f75c32a7db9" />
+		<rom loadflag="load16_byte" name="256d.c4" offset="0x1000001" size="0x800000" crc="1463add6" sha1="4db91b46d6430da272d27d00a6dc0eb25949bea1" />
+		<rom loadflag="load16_byte" name="256d.c5" offset="0x2000000" size="0x800000" crc="48ca7f28" sha1="e903876be5fb4fa582c988d74c6bef1c3b9c7083" />
+		<rom loadflag="load16_byte" name="256d.c6" offset="0x2000001" size="0x800000" crc="806eb36f" sha1="a412a9cab80c326733dde7652d1db2a46afb3ebb" />
+		<rom loadflag="load16_byte" name="256h54.c7" offset="0x3000000" size="0x800000" crc="ed559fac" sha1="e2e73b068785226cd97abbb8c2bd2b5800e9bf19" />
+		<rom loadflag="load16_byte" name="256h54.c8" offset="0x3000001" size="0x800000" crc="1c52378b" sha1="05cd499f5444eae6360c96bfd3d3db8870d9656a" />
+		</dataarea>
+	</part>
+</software>

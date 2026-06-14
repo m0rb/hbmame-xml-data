@@ -1,0 +1,34 @@
+<software name="altbeast02" cloneof="altbeast">
+	<description>Altered Beast (Spanish, 2018-08-05)</description>
+	<year>2018</year>
+	<publisher>MamePlus</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom loadflag="load16_byte" name="epr-11907_s02.a7" offset="0x0" size="0x20000" crc="a9ba790b" sha1="3df2fef74fbc1d766dea568b94f17bee091bf9dc" />
+		<rom loadflag="load16_byte" name="epr-11906_s02.a5" offset="0x1" size="0x20000" crc="8162cd10" sha1="1d4ea99a5346aac2b4ca80e434154b600db2632b" />
+		</dataarea>
+		<dataarea name="sprites" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="epr-11677.b1" offset="0x1" size="0x20000" crc="a01425cd" sha1="72be5ec29e476601f9bf6aaedef9b73cedeb42f0" />
+		<rom loadflag="load16_byte" name="epr-11681.b5" offset="0x0" size="0x20000" crc="d9e03363" sha1="995a7c6a8f0c61468b57a3bb407461a2a3ae8adc" />
+		<rom loadflag="load16_byte" name="epr-11678.b2" offset="0x40001" size="0x20000" crc="17a9fc53" sha1="85a9a605742ae5aab86db37189b9ee4d54c70e56" />
+		<rom loadflag="load16_byte" name="epr-11682.b6" offset="0x40000" size="0x20000" crc="e3f77c5e" sha1="6b3cb7918ab0c7c97a51cc5ea19ced3374ff3914" />
+		<rom loadflag="load16_byte" name="epr-11679.b3" offset="0x80001" size="0x20000" crc="14dcc245" sha1="1ca1b6e0f2b7bedad2a8ab70f52da8c54d40d3cf" />
+		<rom loadflag="load16_byte" name="epr-11683.b7" offset="0x80000" size="0x20000" crc="f9a60f06" sha1="0cffcfdb02733feaa869198b7e668c58b47c321a" />
+		<rom loadflag="load16_byte" name="epr-11680.b4" offset="0xc0001" size="0x20000" crc="f43dcdec" sha1="2941500cf33afca487f19f2329033d5d17aad826" />
+		<rom loadflag="load16_byte" name="epr-11684.b8" offset="0xc0000" size="0x20000" crc="b20c0edb" sha1="6c8694d05e3adac37c9015037ab800233371db36" />
+		</dataarea>
+		<dataarea name="mcu" size="0x1000">
+		<rom name="317-0078.c2" offset="0x0" size="0x1000" crc="8101925f" sha1="a45d772ebe2fd1a577a6ccac8c6c76bb622258bb" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x60000">
+		<rom name="opr-11674.a14" offset="0x0" size="0x20000" crc="a57a66d5" sha1="5103583d48997abad12a0c5fee26431c486ced52" />
+		<rom name="opr-11675.a15" offset="0x20000" size="0x20000" crc="2ef2f144" sha1="38d22d609db2d9b6067b5d12f6499436de4605cb" />
+		<rom name="opr-11676.a16" offset="0x40000" size="0x20000" crc="0c04acac" sha1="87fe2a0dd9913f9550e9b4cbc7e7465b61640e07" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x50000">
+		<rom name="epr-11671.a10" offset="0x0" size="0x8000" crc="2b71343b" sha1="8a657f787de2b9d5161ed2c109642a148348af09" />
+		<rom name="opr-11672.a11" offset="0x10000" size="0x20000" crc="bbd7f460" sha1="bbc5c2219cb3a827d84062b19affd9780da2a3cf" />
+		<rom name="opr-11673.a12" offset="0x30000" size="0x20000" crc="400c4a36" sha1="de4bdfa91734410e0a7f6a16bf8336db172f458a" />
+		</dataarea>
+	</part>
+</software>

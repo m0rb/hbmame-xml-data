@@ -1,0 +1,19 @@
+<software name="horekidb3">
+	<description>Kid no Hore Hore Daisakusen (Neo-Geo port)</description>
+	<year>2022</year>
+	<publisher>iq132</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="500.p1" offset="0x0" size="0x80000" crc="f0b31d22" sha1="3b942f5f4de04bcaf2a46c8bc16e38b557191a10" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="500.v1" offset="0x0" size="0x800000" crc="fccb11f4" sha1="ac027581c1b23036aab74afa79d5fefc59a45e32" />
+		<rom name="500.v2" offset="0x100000" size="0x800000" crc="c65a5900" sha1="a87f0bddb885082f1e8907a451640572f574c0b9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x80000">
+		<rom loadflag="load16_byte" name="500.c1" offset="0x0" size="0x40000" crc="18b0b56b" sha1="b3e4cdcb72bd1d8af6b505280774ec49de1f7c66" />
+		<rom loadflag="load16_byte" name="500.c2" offset="0x1" size="0x40000" crc="9ccea1d5" sha1="10c7c99d2a647e90e9b2b0d005733fea786ac61c" />
+		</dataarea>
+	</part>
+</software>

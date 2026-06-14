@@ -1,0 +1,27 @@
+<software name="viostorms03">
+	<description>Violent Storm (Enhanced Edition, 2018-05-07)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_byte" name="168uab01_ps03.15h" offset="0x1" size="0x80000" crc="45126fb4" sha1="f1a1b769d2789d54b66de08cc70f926205559409" />
+		<rom loadflag="load16_byte" name="168uab02_ps03.15f" offset="0x0" size="0x80000" crc="d4a738f0" sha1="0e4bcc5d977710f894fa6f6fbb2ad2b2c58d8985" />
+		</dataarea>
+		<dataarea name="eeprom" size="0x80">
+		<rom name="viostormub.nv" offset="0x0" size="0x80" crc="b6937413" sha1="eabc2ea661201f5ed42ab541aee765480bbdd5bc" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x40000">
+		</dataarea>
+		<dataarea name="k054539" size="0x400000">
+		<rom name="168a06.1c" offset="0x0" size="0x2" crc="25404fd7" sha1="282cf523728b38d0bf14d765dd7257aa1fb2af39" />
+		<rom name="168a07.1e" offset="0x200000" size="0x2" crc="fdbbf8cc" sha1="a8adf72a25fe2b9c4c338350d02c92deb5f8c8e9" />
+		</dataarea>
+		<dataarea name="k055673" size="0x800000">
+		</dataarea>
+		<dataarea name="k056832" size="0x600000">
+		</dataarea>
+		<dataarea name="soundcpu" size="0x40000">
+		<rom name="168a05.7c" offset="0x0" size="0x20000" crc="507fb3eb" sha1="a4f676e3caaafe86918c76ded08d0c202969adf6" />
+		</dataarea>
+	</part>
+</software>

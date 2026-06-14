@@ -1,0 +1,22 @@
+<software name="grdians03">
+	<description>Guardians (Blood Blue Initial Lengthening)</description>
+	<year>1995</year>
+	<publisher>hooooook</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_byte" name="s03.u2" offset="0x0" size="0x80000" crc="d0424f67" sha1="5f019365c74b83230be37023ab0637a7a1cb410c" />
+		<rom loadflag="load16_byte" name="s03.u3" offset="0x1" size="0x80000" crc="6eb7501e" sha1="8dabc28d9c260c765c088d8e1d57ce3ada6a9c26" />
+		<rom loadflag="load16_byte" name="s03.u4" offset="0x100000" size="0x80000" crc="a79c6c3a" sha1="07045ceb12c9462a0ac09c1cbb049c1702d22a9e" />
+		<rom loadflag="load16_byte" name="s03.u5" offset="0x100001" size="0x80000" crc="dcd32e22" sha1="8ba85bf46efa1dd6b7434fa2b549b5f5b41611d8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="continue" offset="0x1000000" size="0x200000" />
+		<rom loadflag="continue" offset="0x1000002" size="0x200000" />
+		<rom loadflag="continue" offset="0x1000004" size="0x200000" />
+		<rom loadflag="continue" offset="0x1000006" size="0x200000" />
+		</dataarea>
+		<dataarea name="x1snd" size="0x100000">
+		<rom name="u32.bin" offset="0x0" size="0x100000" crc="cf0f3017" sha1="8376d3a674f71aec72f52c72758fbc53d9feb1a1" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,22 @@
+<software name="spclone">
+	<description>Salamander (version YY 0.7.3) </description>
+	<year>2007</year>
+	<publisher>Konami</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_byte" name="spclone.18b" offset="0x0" size="0x10000" crc="14c19a46" sha1="1a65a98c390693949247f4e568fe71cff82d59b4" />
+		<rom loadflag="load16_byte" name="spclone.18c" offset="0x1" size="0x10000" crc="fdafc246" sha1="1641411023f85afe82af749b15d067efc5859f4e" />
+		<rom loadflag="load16_byte" name="587-c03.17b" offset="0x40000" size="0x20000" crc="e5caf6e6" sha1="f5df4fbc43cfa6e2866558c99dd95ba8dc89dc7a" />
+		<rom loadflag="load16_byte" name="587-c06.17c" offset="0x40001" size="0x20000" crc="c2f567ea" sha1="0c38fea53f3d4a9ae0deada5669deca4be8c9fd3" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="spclone.11j" offset="0x0" size="0x8000" crc="bf83b182" sha1="e702eddffea3bad8944bfab03d53c6e277bca866" />
+		</dataarea>
+		<dataarea name="k007232" size="0x20000">
+		<rom name="587-c01.10a" offset="0x0" size="0x20000" crc="09fe0632" sha1="4c3b29c623d70bbe8a938a0beb4638912c46fb6a" />
+		</dataarea>
+		<dataarea name="vlm" size="0x4000">
+		<rom name="587-d08.8g" offset="0x0" size="0x4000" crc="f9ac6b82" sha1="3370fc3a7f82e922e19d54afb3bca7b07fa4aa9a" />
+		</dataarea>
+	</part>
+</software>

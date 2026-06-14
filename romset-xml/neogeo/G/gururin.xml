@@ -1,0 +1,19 @@
+<software name="gururin">
+	<description>Gururin</description>
+	<year>1994</year>
+	<publisher>Face</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="067-p1.p1" offset="0x0" size="0x80000" crc="4cea8a49" sha1="cea4a35db8de898e30eb40dd339b3cbe77ac0856" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="067-c1.c1" offset="0x0" size="0x200000" crc="35866126" sha1="e4b24670ccc7901af5f66b11b15fae4e67f843ab" />
+		<rom loadflag="load16_byte" name="067-c2.c2" offset="0x1" size="0x200000" crc="9db64084" sha1="68a43c12f63f5e98d68ad0902a6551c5d30f8543" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x80000">
+		<rom name="067-v1.v1" offset="0x0" size="0x80000" crc="cf23afd0" sha1="10f87014ee10613f92b04f482f449721a6379db7" />
+		</dataarea>
+	</part>
+</software>

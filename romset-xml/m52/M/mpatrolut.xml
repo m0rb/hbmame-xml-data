@@ -1,0 +1,45 @@
+<software name="mpatrolut" cloneof="mpatrol">
+	<description>Moon Patrol: Unknown Territories</description>
+	<year>2025</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="mpaut-1w.3m" offset="0x0" size="0x1000" crc="f0c4405b" sha1="034b4f08051325a7295258c2c9d93fd52b710590" />
+		<rom name="mpaut-2w.3l" offset="0x1000" size="0x1000" crc="1cd1640d" sha1="c11e48149f9099aa7a8de75d2ff2bcd881a8d5e5" />
+		<rom name="mpaut-3w.3k" offset="0x2000" size="0x1000" crc="45943910" sha1="5ea6c63913197222ecb0faf6c3b099b0baab76cc" />
+		<rom name="mpaut-4w.3j" offset="0x3000" size="0x1000" crc="825e0ad3" sha1="d536660d1235090c4e6581961bef25e51f8e81b9" />
+		</dataarea>
+		<dataarea name="bg0" size="0x2000">
+		<rom name="mpe-1.3l" offset="0x0" size="0x1000" crc="c46a7f72" sha1="8bb7c9acaf6833fb6c0575b015991b873a305a84" />
+		</dataarea>
+		<dataarea name="bg1" size="0x2000">
+		<rom name="mpe-2.3k" offset="0x0" size="0x1000" crc="c7aa1fb0" sha1="14c6c76e1d0db2c0745e5d6d33ea6945fac8e9ee" />
+		</dataarea>
+		<dataarea name="bg2" size="0x2000">
+		<rom name="mpe-3.3h" offset="0x0" size="0x1000" crc="a0919392" sha1="8a090cb8d483a3d67c7360058e3fdd70e151cd62" />
+		</dataarea>
+		<dataarea name="bg_pal" size="0x20">
+		<rom name="mpcut-3.1m" offset="0x0" size="0x20" crc="1d02b31c" sha1="06af545dee525634c3da618bcff42f0968260ce9" />
+		</dataarea>
+		<dataarea name="irem_audio:iremsound" size="0x8000">
+		<rom name="mp-s1.1a" offset="0x7000" size="0x1000" crc="561d3108" sha1="4998c68a9e9a8002251fa8f07aa1082444a9dc80" />
+		</dataarea>
+		<dataarea name="sp" size="0x3000">
+		<rom name="mpbut-2.3m" offset="0x0" size="0x1000" crc="bd17d3ac" sha1="7358e01e63428763bb76824ea9af8f9f0da88675" />
+		<rom name="mpbut-1.3n" offset="0x1000" size="0x1000" crc="9ce028bf" sha1="29a1f75a18e82e08be6f9c5e01f0dfcad7e09e30" />
+		</dataarea>
+		<dataarea name="spr_clut" size="0x100">
+		<rom name="mpcut-2.2h" offset="0x0" size="0x100" crc="e35efd45" sha1="65ee74c09cb9d208aa208a52273c8b5a3380dcd8" />
+		</dataarea>
+		<dataarea name="spr_pal" size="0x20">
+		<rom name="mpcut-1.1f" offset="0x0" size="0x20" crc="298daa56" sha1="f81d5ecc3545f358bf27dc4d9ca9c7c199524745" />
+		</dataarea>
+		<dataarea name="tx" size="0x2000">
+		<rom name="mpeut-5w.3e" offset="0x0" size="0x1000" crc="0c61ffa6" sha1="0acfa34254d9b6f86534e2705eb211da45f6767c" />
+		<rom name="mpeut-4w.3f" offset="0x1000" size="0x1000" crc="8fbcaa31" sha1="79712fb3c5407468bb437504b570d55ffe6f6ca7" />
+		</dataarea>
+		<dataarea name="tx_pal" size="0x200">
+		<rom name="mpcut-4a.2a" offset="0x0" size="0x200" crc="2f926603" sha1="78e88908ff68ea24bbaa63ef9e38c1f5755168aa" />
+		</dataarea>
+	</part>
+</software>

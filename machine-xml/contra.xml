@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="contra" description="Contra cartridges">
+<software name="contraj01">
+	<description>Contra (Chinese)</description>
+	<year>1987</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x20000">
+		<rom name="s01.17a" offset="0x0" size="0x10000" crc="10447386" sha1="e06dbe59f77ceea6953b45de8b8bd5e813d44881" />
+		<rom name="s01.18a" offset="0x10000" size="0x10000" crc="10faba24" sha1="8769ab8f00d8aa215b1a759c60f6a9a0bd17af57" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x8000">
+		<rom name="633e01.12a" offset="0x0" size="0x8000" crc="d1549255" sha1="d700c7de36746ba247e3a5d0410b7aa036aa4073" />
+		</dataarea>
+		<dataarea name="k007121_1" size="0x80000">
+		<rom loadflag="load16_byte" name="s01.7d" offset="0x0" size="0x40000" crc="60515b18" sha1="242d104fffc2dab1c81bd55b676a048d76a27c9e" />
+		<rom loadflag="load16_byte" name="s01.7f" offset="0x1" size="0x40000" crc="595566c5" sha1="89b56dec9293f158ea1c06afc5492f50ac2478d3" />
+		</dataarea>
+		<dataarea name="k007121_2" size="0x80000">
+		<rom loadflag="load16_byte" name="s01.16d" offset="0x0" size="0x40000" crc="40a66752" sha1="b3a28c5faa49bd76dd5fefa0f070b309a131c618" />
+		<rom loadflag="load16_byte" name="s01.16f" offset="0x1" size="0x40000" crc="635466bb" sha1="229f9334f2d5fcb14cb2808c95073ed4b95926f6" />
+		</dataarea>
+		<dataarea name="pals" size="0x1">
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		<rom name="633e08.10g" offset="0x0" size="0x100" crc="9f0949fa" sha1="7c8fefdcae4523d008a7d39062194c7a80aa3500" />
+		<rom name="633e09.12g" offset="0x100" size="0x100" crc="14ca5e19" sha1="eeee2f8b3d1e4acf47de1e74c4e507ff924591e7" />
+		<rom name="633f10.18g" offset="0x200" size="0x100" crc="2b244d84" sha1="c3bde7afb501bae58d07721c637dc06938c22150" />
+		<rom name="633f11.20g" offset="0x300" size="0x100" crc="14ca5e19" sha1="eeee2f8b3d1e4acf47de1e74c4e507ff924591e7" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

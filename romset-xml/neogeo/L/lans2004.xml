@@ -1,0 +1,27 @@
+<software name="lans2004" cloneof="shocktr2">
+	<description>Lansquenet 2004 (Shock Troopers - 2nd Squad bootleg)</description>
+	<year>1998</year>
+	<publisher>bootleg</publisher>
+	<info name="source" value="lans2004" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x600000">
+		<rom loadflag="load16_word_swap" name="lnsq-p1.bin" offset="0x0" size="0x200000" crc="b40a879a" sha1="379f3d44b0bae430b32157fd5f4018d77b243c58" />
+		<rom loadflag="load16_word_swap" name="lnsq-p21.bin" offset="0x200000" size="0x200000" crc="ecdb2d42" sha1="0d930cd369dfbcab7778b144355e5f70874aa324" />
+		<rom loadflag="load16_word_swap" name="lnsq-p22.bin" offset="0x400000" size="0x200000" crc="fac5e2e7" sha1="5cce7226c137da80c969df00e1cda41ef9c5082c" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="lnsq-c1.bin" offset="0x0" size="0x800000" crc="b83de59f" sha1="8cc060f9a57ab7d4238543b0bce5f5cd1d271d4f" />
+		<rom loadflag="load16_byte" name="lnsq-c2.bin" offset="0x1" size="0x800000" crc="e08969fd" sha1="c192639d023cdad64a8f53dbcda02aa8cfb4168e" />
+		<rom loadflag="load16_byte" name="lnsq-c3.bin" offset="0x1000000" size="0x800000" crc="013f2cda" sha1="6261111ce69dc23fbf97241131e5a6a49355d18c" />
+		<rom loadflag="load16_byte" name="lnsq-c4.bin" offset="0x1000001" size="0x800000" crc="d8c3a758" sha1="d19ca3be06f9fb0cb1933b1eb3da318524c3145d" />
+		<rom loadflag="load16_byte" name="lnsq-c5.bin" offset="0x2000000" size="0x800000" crc="75500b82" sha1="06d2afe94ea3eb3c4e523f593b8e709dd7c284a3" />
+		<rom loadflag="load16_byte" name="lnsq-c6.bin" offset="0x2000001" size="0x800000" crc="670ac13b" sha1="f448a144caae51b69ea19e1f43940db135d1164a" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0xa00000">
+		<rom name="lnsq-v1.bin" offset="0x0" size="0x400000" crc="4408ebc3" sha1="e3f4d8a7e243a8cf48e97d91bbfec7829c0d9404" />
+		<rom name="lnsq-v2.bin" offset="0x400000" size="0x400000" crc="3d953975" sha1="6a4ab02ab3d4416a65343cf16815007cb273f19b" />
+		<rom name="lnsq-v3.bin" offset="0x800000" size="0x200000" crc="437d1d8e" sha1="95e015c21707b53ed7223eaa19f6cdcfb4d94f0c" />
+		</dataarea>
+	</part>
+</software>

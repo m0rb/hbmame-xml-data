@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="kurikint" description="Kurikint cartridges">
+<software name="kurikint01">
+	<description>Kuri Kinton (Chinese)</description>
+	<year>1988</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom name="b42-05_s01.ic2" offset="0x0" size="0x20000" crc="b0656c45" sha1="777a9206ac8bc3a519000c35cbab58dafec461f5" />
+		<rom name="b42-06_s01.ic6" offset="0x20000" size="0x20000" crc="677547d9" sha1="56c2befe20182d5241580fae3787abf506df2b6f" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="b42-07.ic22" offset="0x0" size="0x10000" crc="0f2719c0" sha1="f870335a75f236f0059522f9a577dee7ca3acb2f" />
+		</dataarea>
+		<dataarea name="maincpu:gfx" size="0x100000">
+		<rom name="b42-01hc01.ic1" offset="0x0" size="0x80000" crc="592c6d20" sha1="4c5d58e23855a905064049a7758706778a81f129" />
+		<rom name="b42-02hc01.ic5" offset="0x80000" size="0x80000" crc="cd5fc143" sha1="5a5a6e674a47786ed9c843cefacf307429df9933" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

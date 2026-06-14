@@ -1,0 +1,18 @@
+<software name="sf2ceb5" cloneof="sf2ce">
+	<description>Street Fighter II&#x27;: Champion Edition (Playmark bootleg, set 3)</description>
+	<year>1992</year>
+	<publisher>bootleg (Playmark)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c19seb.p1" offset="0x0" size="0x80000" crc="a2355d90" sha1="6c9e1294c55a5a9f244f6f1ce46224c51f910bb1" />
+		<rom loadflag="load16_byte" name="c19seb.p2" offset="0x1" size="0x80000" crc="c6f86e84" sha1="546841fe7d423fff05a7772aa57fa3274515c32b" />
+		<rom loadflag="load16_byte" name="c19mdta.p3" offset="0x100000" size="0x20000" crc="74844192" sha1="99cd546c78cce7f632007af454d8a55eddb6b19b" />
+		<rom loadflag="load16_byte" name="c19mdta.p4" offset="0x100001" size="0x20000" crc="bd98ff15" sha1="ed902d949b0b5c5beaaea78a4b418ffa6db9e1df" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x30000">
+		<rom name="c19mdt.m1" offset="0x0" size="0x20000" crc="17d5ba8a" sha1="6ff3b8860d7e1fdee3561846f645eb4d3a8965ec" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+	</part>
+</software>

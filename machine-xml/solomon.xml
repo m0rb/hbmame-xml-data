@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="solomon" description="Solomon cartridges">
+<software name="solomon01">
+	<description>Solomon no Kagi (Chinese)</description>
+	<year>1986</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="slmn_06.s01" offset="0x0" size="0x4000" crc="bbc0d319" sha1="2d3ff5f640e691c4147f8b6fe97bc5e1fefdac85" />
+		<rom name="slmn_07.s01" offset="0x8000" size="0x4000" crc="2465a83a" sha1="bd7212205e353d221b97ced4dddcb6d339c1c3c0" />
+		<rom loadflag="continue" offset="0x4000" size="0x4000" />
+		<rom name="slmn_08.bin" offset="0xf000" size="0x1000" crc="b924d162" sha1="6299b791ec874bc3ef0424b277ec8a736c8cdd9a" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="1.3jk" offset="0x0" size="0x4000" crc="fa6e562e" sha1="713036c0a80b623086aa674bb5f8a135b6fedb01" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x10000">
+		<rom name="slmn_12.s01" offset="0x0" size="0x8000" crc="e80594fc" sha1="f6617f76e287d683b5b2de97c2cd8c452ad234bf" />
+		<rom name="slmn_11.s01" offset="0x8000" size="0x8000" crc="9dab2e9a" sha1="63a96425394b312e07022aba34fbb36836161994" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x10000">
+		<rom name="slmn_10.s01" offset="0x0" size="0x8000" crc="cf11872e" sha1="91546375057d67f94ed3db6418112825706c2ac5" />
+		<rom name="slmn_09.s01" offset="0x8000" size="0x8000" crc="60122e98" sha1="5947dc82bda6065c1103107f1137183dca0847de" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x10000">
+		<rom name="slmn_02.s01" offset="0x0" size="0x4000" crc="bb5c5400" sha1="cc7aa14cdcc5940319f091aee821ce272ca1db42" />
+		<rom name="slmn_03.s01" offset="0x4000" size="0x4000" crc="66137d2b" sha1="a010c93adb98580fb9a8681e2e0d67dfee740d0b" />
+		<rom name="slmn_04.s01" offset="0x8000" size="0x4000" crc="33299a3a" sha1="5e25008f437618180c6296314568d62bd038cc8a" />
+		<rom name="slmn_05.s01" offset="0xc000" size="0x4000" crc="5856d9b0" sha1="509ea27714bbeed72915d854f05a29693a85575c" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

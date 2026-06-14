@@ -1,0 +1,21 @@
+<software name="progearj02" cloneof="progear">
+	<description>Halfway to Hell - Progear Red Label (2016-01-17 Red label ver)</description>
+	<year>2016</year>
+	<publisher>Halfway House</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c85j02.p1" offset="0x0" size="0x80000" crc="55ce8d4a" sha1="3b7342afbfa1244cb5cbf5be7391d3e1f8231822" />
+		<rom loadflag="load16_word_swap" name="c85j02.p2" offset="0x80000" size="0x80000" crc="71060b9e" sha1="007a174ceca6ae080f19f088bf0fc6cd0fe2510c" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c85.m1" offset="0x0" size="0x8000" crc="bdbfa992" sha1="7c5496c1daaea6a7ab95c0b25625d325ec3427cc" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c85j02.q1" offset="0x0" size="0x400000" crc="33ebf625" sha1="39e5f9afd37a258005b0143fa38b9c53b63f700d" />
+		<rom loadflag="load16_word_swap" name="c85j02.q2" offset="0x0" size="0x400000" crc="47f25cf4" sha1="714b5baf146d720cc86f77aeee5b1160f553d958" />
+		</dataarea>
+	</part>
+</software>

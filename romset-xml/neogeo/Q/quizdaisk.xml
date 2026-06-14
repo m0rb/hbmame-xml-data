@@ -1,0 +1,19 @@
+<software name="quizdaisk" cloneof="quizdais">
+	<description>Quiz Salibtamjeong - The Last Count Down (Korean localized Quiz Daisousa Sen)</description>
+	<year>1995</year>
+	<publisher>SNK / Viccom</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="123-p1.p1" offset="0x0" size="0x100000" crc="a6f35eae" sha1="edd3fd5ba8eae2231e2b0a6605fa00e5c6de094a" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="123-c1.c1" offset="0x0" size="0x100000" crc="e579a606" sha1="b9430ec157902f0707e5d52e69bd5d93792e7118" />
+		<rom loadflag="load16_byte" name="123-c2.c2" offset="0x1" size="0x100000" crc="e182c837" sha1="a8f7648bf21ebd3efe3a49606b53220815a60d0f" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="123-v1.v1" offset="0x0" size="0x200000" crc="986f4af9" sha1="9e15d2142ec5e5d076582dc1cecfd724b0924f54" />
+		</dataarea>
+	</part>
+</software>

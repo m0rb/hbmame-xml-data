@@ -1,0 +1,26 @@
+<software name="mslug5dh63" cloneof="mslug5">
+	<description>Metal Slug 5 (Enhanced Edition, 2014-10-31)</description>
+	<year>2014</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load32_word_swap" name="268dh63.p1" offset="0x0" size="0x400000" crc="0a942d65" sha1="85c93e90a1dba3c756bbf91e3d470524388220be" />
+		<rom loadflag="load32_word_swap" name="268dh63.p2" offset="0x2" size="0x400000" crc="61b2fe6e" sha1="3bcf05ff5d48ecff69e98674c6bc666e50b605bf" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="268.v1" offset="0x0" size="0x800000" crc="ae31d60c" sha1="c42285cf4e52fea74247860813e826df5aa7600a" />
+		<rom name="268.v2" offset="0x800000" size="0x800000" crc="c40613ed" sha1="af889570304e2867d7dfea1e94e388c06249fb67" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="268d.c1" offset="0x0" size="0x800000" crc="969c0d62" sha1="de3c5cfa980cca2fab0416ac0d292948b5d4c9c3" />
+		<rom loadflag="load16_byte" name="268d.c2" offset="0x1" size="0x800000" crc="c69ae867" sha1="3198ee5c7c2c7563b49ebd9f7ba95d9b0b303f6c" />
+		<rom loadflag="load16_byte" name="268d.c3" offset="0x1000000" size="0x800000" crc="d7beaeaf" sha1="99443ea4c1bab45f1977a390eb7e1a0163915110" />
+		<rom loadflag="load16_byte" name="268d.c4" offset="0x1000001" size="0x800000" crc="899fb2af" sha1="a06a424c813c1b4f922c5404405779f605c90a06" />
+		<rom loadflag="load16_byte" name="268d.c5" offset="0x2000000" size="0x800000" crc="2fa1a5ad" sha1="4ae15d29ba979601598eddf8905072fe1d9e0a98" />
+		<rom loadflag="load16_byte" name="268d.c6" offset="0x2000001" size="0x800000" crc="6de89589" sha1="86a6c036bf51af516fea83a30874026ec1586a83" />
+		<rom loadflag="load16_byte" name="268d.c7" offset="0x3000000" size="0x800000" crc="97bd0c0a" sha1="30f3280fe527098ecf46541cc645a59b366105ea" />
+		<rom loadflag="load16_byte" name="268d.c8" offset="0x3000001" size="0x800000" crc="c0d5bc20" sha1="b5d0d81d5cc624538b0651c568295e578a1330d1" />
+		</dataarea>
+	</part>
+</software>

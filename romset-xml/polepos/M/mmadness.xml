@@ -1,0 +1,72 @@
+<software name="mmadness">
+	<description>Mars Madness</description>
+	<year>2018</year>
+	<publisher>Tesla</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="tr9b.bin" offset="0x0" size="0x2000" crc="538bd0cb" sha1="36a0628ce735c76e5db83d195af3a9bed5155c60" />
+		<rom name="tr10.bin" offset="0x2000" size="0x1000" crc="7174bcb7" sha1="460326a6cea201db2df813013c95562a222ea95d" />
+		</dataarea>
+		<dataarea name="52xx" size="0x6000">
+		<rom name="tr11.b1" offset="0x0" size="0x2000" crc="5b4cf05e" sha1="52342572940489175607bbf5b6cfd05ee9b0f004" />
+		</dataarea>
+		<dataarea name="engine" size="0x4000">
+		<rom name="tr15.bin" offset="0x0" size="0x2000" crc="b5ad4d5f" sha1="c07e77a050200d6fe9952031f971ca35f4d15ff8" />
+		<rom name="tr16.bin" offset="0x2000" size="0x2000" crc="8fdd2f6f" sha1="3818dc94c60cd78c4212ab7a4367cf3d98166ee6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="tr28.t" offset="0x0" size="0x1000" crc="6d322e8d" sha1="520a7d93bf6816ad2985855772310f388bcc7f7e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x1000">
+		<rom name="tr29.t" offset="0x0" size="0x1000" crc="d6ffa1bb" sha1="63e17bdee08be4c30a5c4144328c124e4d654e97" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x4000">
+		<rom name="tr25.t" offset="0x0" size="0x2000" crc="eff6859c" sha1="555bc184c5be8fb51293180094cd4ecf82601318" />
+		<rom name="tr26.t" offset="0x2000" size="0x2000" crc="9a0869e9" sha1="61b90ab5d4efae78f655e6398cef6864b09ae915" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x10000">
+		<rom name="tr17.t" offset="0x0" size="0x2000" crc="11c068b5" sha1="202f976380b1c80c73937f950ef3d9b849291440" />
+		<rom name="tr19.t" offset="0x2000" size="0x2000" crc="52a6ed10" sha1="41a6334182e0dab3abd999795dc72ebe18a99c8a" />
+		<rom name="tr21.t" offset="0x4000" size="0x2000" crc="facfe34f" sha1="c132a7a8469e2c3b0299a4d55e0e1203fde3dba1" />
+		<rom name="tr18.t" offset="0x8000" size="0x2000" crc="208cb9bf" sha1="a5f959c70bd4677bcb22f8cb974964ca0385a60d" />
+		<rom name="tr20.t" offset="0xa000" size="0x2000" crc="304a2524" sha1="1c97164124774249cff40ce8d6eed3dd2c26e07c" />
+		<rom name="tr22.t" offset="0xc000" size="0x2000" crc="f84b2711" sha1="0bc034fc6c92b56b2ec95e69be01cd84fe8b719f" />
+		</dataarea>
+		<dataarea name="gfx5" size="0x5000">
+		<rom name="tr30.bin" offset="0x0" size="0x2000" crc="ee6b3315" sha1="9cc26c6d3604c0f60d716f86e67e9d9c0487f87d" />
+		<rom name="tr31.bin" offset="0x2000" size="0x2000" crc="6d1e7042" sha1="90113ff0c93ed86d95067290088705bb5e6608d1" />
+		<rom name="tr32.bin" offset="0x4000" size="0x1000" crc="4e97f101" sha1="f377d053821c74aee93ebcd30a4d43e6156f3cfe" />
+		</dataarea>
+		<dataarea name="gfx6" size="0x1000">
+		<rom name="tr27.bin" offset="0x0" size="0x1000" crc="a61bff15" sha1="f7a59970831cdaaa7bf59c2221a38e4746c54244" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="7052-5.e9" offset="0x0" size="0x100" crc="8568decc" sha1="0aac1fa082858d4d201e21511c609a989f9a1535" />
+		</dataarea>
+		<dataarea name="proms" size="0x1040">
+		<rom name="7052-7.k21.t" offset="0x0" size="0x100" crc="3fc4fce7" sha1="8590fd9eb388586641cc8f7428d19e9ff647edc4" />
+		<rom name="7052-8.k20.t" offset="0x100" size="0x100" crc="30eed1bd" sha1="e2fa5edaf9d38bb85c34e755f3381870b0cad032" />
+		<rom name="7052-9.k19.t" offset="0x200" size="0x100" crc="1f392710" sha1="60ed6f8ba0c10a1bcf2b45a955b1d5fd8b9376b4" />
+		<rom name="7052-10.h15" offset="0x300" size="0x100" crc="5af3f710" sha1="da13d17acf8abd0f6ebb4b51b23c3324c6197b7d" />
+		<rom name="7052-11.j15" offset="0x400" size="0x100" crc="8c90e36e" sha1="2646288d9e0f86300da7f06e1dc0595673205bb4" />
+		<rom name="7052-15.d1" offset="0x500" size="0x100" crc="2d502464" sha1="682b7dd22e51d5db52c0804b7e27e47641dfa6bd" />
+		<rom name="7052-16.d2" offset="0x600" size="0x100" crc="027aa62c" sha1="c7030d8b64b80e107c446f6fbdd63f560c0a91c0" />
+		<rom name="7052-17.d3" offset="0x700" size="0x100" crc="1f8d0df3" sha1="b8f17758f114f5e247b65b3f2922ca2660757e66" />
+		<rom name="7122.a19" offset="0x800" size="0x400" crc="7afc7cfc" sha1="ba2407f6eff124e881b354f13205a4c058b7cf60" />
+		<rom name="7122.e7" offset="0xc00" size="0x400" crc="2f1079ee" sha1="18a27998a78deff13dd198f3668a7e92f084f467" />
+		<rom name="7051-13.l7" offset="0x1000" size="0x20" crc="4330a51b" sha1="9531d18ce2de4eda9913d47ef8c5cd8f05791716" />
+		<rom name="7051-14.l8" offset="0x1020" size="0x20" crc="4330a51b" sha1="9531d18ce2de4eda9913d47ef8c5cd8f05791716" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom loadflag="load16_byte" name="tr1b.bin" offset="0x1" size="0x2000" crc="127f0750" sha1="97ae6c6f8086187c7cdb8bff5fec94914791890b" />
+		<rom loadflag="load16_byte" name="tr2b.bin" offset="0x0" size="0x2000" crc="6bd4ff6b" sha1="cf992de39a8cf7804961a8e6773fc4f7feb1878b" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom loadflag="load16_byte" name="tr5b.bin" offset="0x1" size="0x2000" crc="4e5f7b9c" sha1="d26b1f24dd9ef00388987890bc5b95d4db403815" />
+		<rom loadflag="load16_byte" name="tr6b.bin" offset="0x0" size="0x2000" crc="b3641d0c" sha1="38ce172b2e38895749cbd3cc1c0e2c0fe8be744a" />
+		</dataarea>
+		<dataarea name="user1" size="0x100">
+		<rom name="7052-4.c14" offset="0x0" size="0x100" crc="0e742cb1" sha1="3ae43270aab4848fdeece1648e7e040ab216b08e" />
+		</dataarea>
+	</part>
+</software>

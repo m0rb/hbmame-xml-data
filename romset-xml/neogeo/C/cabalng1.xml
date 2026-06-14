@@ -1,0 +1,19 @@
+<software name="cabalng1" cloneof="cabalng">
+	<description>Cabal (Neo-Geo port, sprite fix)</description>
+	<year>2021</year>
+	<publisher>iq132</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="497a.p1" offset="0x0" size="0x100000" crc="bb193926" sha1="e87473aaaa8c7af56148e86a410672870fa63d00" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="497.v1" offset="0x0" size="0x100000" crc="1a5bbc12" sha1="3b4c74d943bd41189052313d41cd37b81e18ba25" />
+		<rom name="497.v2" offset="0x100000" size="0x100000" crc="a2b9c011" sha1="6019d3b7bf78c509394765f2e8bfd5c91645d5c4" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="497.c1" offset="0x0" size="0x100000" crc="9f5ea8bb" sha1="dbe5ebe37d720bba20fc68a948298aa96a11dc85" />
+		<rom loadflag="load16_byte" name="497.c2" offset="0x1" size="0x100000" crc="edf277f2" sha1="aa287598a620f03794e143500ff842dfb4b64d9a" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,19 @@
+<software name="zintrckb">
+	<description>Zintrick / Oshidashi Zentrix (bootleg of CD version)</description>
+	<year>1996</year>
+	<publisher>bootleg</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="zin-p1.bin" offset="0x0" size="0x100000" crc="06c8fca7" sha1="b7bf38965c3d0db4d7a9684d14cac94a45b4a45b" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="zin-c1.bin" offset="0x0" size="0x200000" crc="76aee189" sha1="ad6929804c5b9a59aa609e6baebc6aa37e858a47" />
+		<rom loadflag="load16_byte" name="zin-c2.bin" offset="0x1" size="0x200000" crc="844ed4b3" sha1="fb7cd057bdc6cbe8b78097dd124118bae7402256" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x200000">
+		<rom name="zin-v1.bin" offset="0x0" size="0x200000" crc="c09f74f1" sha1="d0b56a780a6eba85ff092240b1f1cc6718f17c21" />
+		</dataarea>
+	</part>
+</software>

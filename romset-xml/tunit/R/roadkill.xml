@@ -1,0 +1,36 @@
+<software name="roadkill">
+	<description>Roadkill demo</description>
+	<year>2023</year>
+	<publisher>Midway</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="roadkill.uj12" offset="0x0" size="0x80000" crc="6886e5fd" sha1="f986b4520008206c1068f8711e2250ebac568659" />
+		<rom loadflag="load16_byte" name="roadkill.ug12" offset="0x1" size="0x80000" crc="ad9d9e36" sha1="45af79e9208c500460d834797aff3fa076dfaec5" />
+		</dataarea>
+		<dataarea name="adpcm:cpu" size="0x50000">
+		<rom name="l1_nba_jam_tournament_u3_sound_rom.u3" offset="0x10000" size="0x20000" crc="d4551195" sha1="e8908fbe4339fb8c93f7e74113dfd25dda1667ea" />
+		</dataarea>
+		<dataarea name="adpcm:oki" size="0x100000">
+		<rom name="roadkill.u12" offset="0x0" size="0x80000" crc="cd5d4532" sha1="63ff4b5b22e02ee90cdcb745acc6bf9dbc1c3140" />
+		<rom name="roadkill.u13" offset="0x80000" size="0x80000" crc="c4cbede2" sha1="8b1a26ee852281de1564af35fc3605a89eb0b7dd" />
+		</dataarea>
+		<dataarea name="gfxrom" size="0xc00000">
+		<rom loadflag="load32_byte" name="roadkill.ug14" offset="0x0" size="0x80000" crc="d8a59fc9" sha1="103b811945f43e60750deb4a190cf6da9b764166" />
+		<rom loadflag="load32_byte" name="roadkill.uj14" offset="0x1" size="0x80000" crc="68489a33" sha1="d2b4b5fdb4d905d98635c0ef872bdf2648a10086" />
+		<rom loadflag="load32_byte" name="roadkill.ug19" offset="0x2" size="0x80000" crc="d4c8e3bc" sha1="87796a8e9b65134478a45bd83160893d047a2b80" />
+		<rom loadflag="load32_byte" name="roadkill.uj19" offset="0x3" size="0x80000" crc="f194afe8" sha1="e33f921fa67633c5444ebe3151ac8c9da13a50ed" />
+		<rom loadflag="load32_byte" name="roadkill.ug16" offset="0x200000" size="0x80000" crc="0eb13bf2" sha1="a6e92d6e8600ca16032511881096d44513b55ba4" />
+		<rom loadflag="load32_byte" name="roadkill.uj16" offset="0x200001" size="0x80000" crc="04c2243f" sha1="ff75b15db65168488edf32712be34d40348e9d61" />
+		<rom loadflag="load32_byte" name="roadkill.ug20" offset="0x200002" size="0x80000" crc="a278d2fb" sha1="5b5c594e9949db481afd534604842d2c32e39585" />
+		<rom loadflag="load32_byte" name="roadkill.uj20" offset="0x200003" size="0x80000" crc="f8f2e005" sha1="16950f72ba71ade146b8f56a77dc44884ecf34b4" />
+		<rom loadflag="load32_byte" name="roadkill.ug17" offset="0x400000" size="0x80000" crc="3adb453f" sha1="ca4e2c911ff65d88ae6e0ccf479a119946df5cc7" />
+		<rom loadflag="load32_byte" name="roadkill.uj17" offset="0x400001" size="0x80000" crc="306ee426" sha1="2ff0bb77fa39a17d5ae41d7a9ec2fb52b75cdc38" />
+		<rom loadflag="load32_byte" name="roadkill.ug22" offset="0x400002" size="0x80000" crc="16d36f9e" sha1="8da4a7ddcee9f305ba0d9d553b2a0649aee9cc25" />
+		<rom loadflag="load32_byte" name="roadkill.uj22" offset="0x400003" size="0x80000" crc="e6ec599c" sha1="9276dc6c99124ebdc4687bb601437c5bbd07b116" />
+		<rom loadflag="load32_byte" name="roadkill.ug18" offset="0x600000" size="0x80000" crc="1029c0de" sha1="ab300397b9569670fd4339518a0a7b136d3999db" />
+		<rom loadflag="load32_byte" name="roadkill.uj18" offset="0x600001" size="0x80000" crc="ec9adf00" sha1="fc06ecc782f2f2d4c41d8d1e28ec9b3a282afb73" />
+		<rom loadflag="load32_byte" name="roadkill.ug23" offset="0x600002" size="0x80000" crc="52203dfd" sha1="c95f53cbf0da4faa513bd2172a2ef17f2e8035b1" />
+		<rom loadflag="load32_byte" name="roadkill.uj23" offset="0x600003" size="0x80000" crc="ca6734d4" sha1="3cb81cfc7da53e072e5dbabc744cb5aafe218473" />
+		</dataarea>
+	</part>
+</software>

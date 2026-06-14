@@ -1,0 +1,18 @@
+<software name="foodfn">
+	<description>Food Fight (Neo-Geo port)</description>
+	<year>2025</year>
+	<publisher>iq132</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="514.p1" offset="0x0" size="0x80000" crc="904bb32f" sha1="b6e29634485af5e88997971f0dfb7661e93e8724" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="514.v1" offset="0x0" size="0x80000" crc="16d20386" sha1="79787d1a6f23937f3da6cb3d7bfea798a3ccaf1f" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="514.c1" offset="0x0" size="0x80000" crc="7b4ca9e3" sha1="ed5aa0f673e6489f608b4fe3cd16ef7f6fdcff31" />
+		<rom loadflag="load16_byte" name="514.c2" offset="0x1" size="0x80000" crc="d9f831bb" sha1="f2bf06591506c8d142873800a55713de831c49eb" />
+		</dataarea>
+	</part>
+</software>

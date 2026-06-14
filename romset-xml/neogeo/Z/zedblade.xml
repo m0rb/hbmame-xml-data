@@ -1,0 +1,23 @@
+<software name="zedblade">
+	<description>Zed Blade / Operation Ragnarok</description>
+	<year>1994</year>
+	<publisher>NMK</publisher>
+	<info name="source" value="neobase" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="076-p1.p1" offset="0x0" size="0x80000" crc="d7c1effd" sha1="485c2308a40baecd122be9ab4996044622bdcc7e" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="076-c1.c1" offset="0x0" size="0x200000" crc="4d9cb038" sha1="c0b52b32e1fa719b99ae242d61d5dbea1437331c" />
+		<rom loadflag="load16_byte" name="076-c2.c2" offset="0x1" size="0x200000" crc="09233884" sha1="1895cd0d126a022bce1cc4c7a569032d89f35e3f" />
+		<rom loadflag="load16_byte" name="076-c3.c3" offset="0x400000" size="0x200000" crc="d06431e3" sha1="643bd1ad74af272795b02143ba80a76e375036ab" />
+		<rom loadflag="load16_byte" name="076-c4.c4" offset="0x400001" size="0x200000" crc="4b1c089b" sha1="cd63961d88c5be84673cce83c683a86b222a064d" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x500000">
+		<rom name="076-v1.v1" offset="0x0" size="0x200000" crc="1a21d90c" sha1="4793ab06421228ad122e359653ed0f1339b90c7a" />
+		<rom name="076-v2.v2" offset="0x200000" size="0x200000" crc="b61686c3" sha1="5a3405e833ce36abb7421190438b5cccc8537919" />
+		<rom name="076-v3.v3" offset="0x400000" size="0x100000" crc="b90658fa" sha1="b9a4b34565ce3688495c47e35c9b888ef686ae9f" />
+		</dataarea>
+	</part>
+</software>

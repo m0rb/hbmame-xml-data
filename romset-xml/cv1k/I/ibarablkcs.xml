@@ -1,0 +1,17 @@
+<software name="ibarablkcs" cloneof="ibarablk">
+	<description>Ibara Kuro Black Label (2006-02-06. MASTER VER. COLOR SAT)</description>
+	<year>2006</year>
+	<publisher>ArcCabView</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="ibarablk_u4" offset="0x0" size="0x200000" crc="ee1f1f77" sha1="ac276f3955aa4dde2544af4912819a7ae6bcf8dd" />
+		</dataarea>
+		<dataarea name="game" size="0x8400000">
+		<rom name="ibarablkcs_u2" offset="0x0" size="0x8400000" crc="60723c96" sha1="eb06ad85f0ebdad1f66102772dc9181fbd727950" />
+		</dataarea>
+		<dataarea name="ymz770" size="0x800000">
+		<rom loadflag="load16_word_swap" name="u23" offset="0x0" size="0x400000" crc="a436bb22" sha1="0556e771cc02638bf8814315ba671c2d442594f1" />
+		<rom loadflag="load16_word_swap" name="u24" offset="0x400000" size="0x400000" crc="d11ab6b6" sha1="2132191cbe847e2560423e4545c969f21f8ff825" />
+		</dataarea>
+	</part>
+</software>

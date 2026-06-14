@@ -1,0 +1,30 @@
+<software name="kof2003h" cloneof="kof2003">
+	<description>The King of Fighters 2003 (NGH-2710)</description>
+	<year>2003</year>
+	<publisher>SNK Playmore</publisher>
+	<info name="source" value="kof2003h" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:fixed" size="0x80000">
+		</dataarea>
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x900000">
+		<rom loadflag="load32_word_swap" name="271-p1k.p1" offset="0x0" size="0x400000" crc="d0d0ae3e" sha1="538d054ac50c91694fbbfefcce548b063713e14e" />
+		<rom loadflag="load32_word_swap" name="271-p2k.p2" offset="0x2" size="0x400000" crc="fb3f79d9" sha1="f253d10e732d6e23ae82d74ac9269d21f69ddb4d" />
+		<rom loadflag="load16_word_swap" name="271-p3k.p3" offset="0x800000" size="0x100000" crc="232702ad" sha1="6045046027dac1cbd4cbd14b5c1ece522bc6197f" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="271-c1k.c1" offset="0x0" size="0x800000" crc="efb9dd24" sha1="1c6fe10fdbfc3306c3b7321c731f28ffdbfb15b8" />
+		<rom loadflag="load16_byte" name="271-c2k.c2" offset="0x1" size="0x800000" crc="3fb90447" sha1="04d196de7c54c77bc75eba56d3060d46efc2d406" />
+		<rom loadflag="load16_byte" name="271-c3k.c3" offset="0x1000000" size="0x800000" crc="27950f28" sha1="924f4de61c86b9efde6f1104b986886f1117055d" />
+		<rom loadflag="load16_byte" name="271-c4k.c4" offset="0x1000001" size="0x800000" crc="735177f8" sha1="c95da1bc256995a7f44c9cc3312879ab6cbc15d6" />
+		<rom loadflag="load16_byte" name="271-c5k.c5" offset="0x2000000" size="0x800000" crc="a51b7c0f" sha1="53dcf692b35b8d32abe5962ac799b8d641f04710" />
+		<rom loadflag="load16_byte" name="271-c6k.c6" offset="0x2000001" size="0x800000" crc="d5cae4e0" sha1="248cd9eaac7a04d6b5d80c7534de90b057d566d7" />
+		<rom loadflag="load16_byte" name="271-c7k.c7" offset="0x3000000" size="0x800000" crc="e65ae2d0" sha1="39744e10697d7ac539ecfcfa597e75597f321955" />
+		<rom loadflag="load16_byte" name="271-c8k.c8" offset="0x3000001" size="0x800000" crc="312f528c" sha1="b4ad75f54f730ada6cb00112b74022250f055725" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x1000000">
+		<rom name="271-v1c.v1" offset="0x0" size="0x800000" crc="ffa3f8c7" sha1="7cf4a933973ca23b7f87c81151d8659e6ec4bd20" />
+		<rom name="271-v2c.v2" offset="0x800000" size="0x800000" crc="5382c7d1" sha1="1bf999705eda80ba1e7b0d6bdd010d9bfb18bd76" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,22 @@
+<software name="pgemeni">
+	<description>P-Gemeni (2006-01-23)</description>
+	<year>2006</year>
+	<publisher>Blastar</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="pgemeni.p1" offset="0x100000" size="0x200000" crc="6cafa56b" sha1="0b3447357cf9dc10e9473102a109a2c9f63be66b" />
+		</dataarea>
+		<dataarea name="ics" size="0x600000">
+		<rom name="pgmdemo.m1" offset="0x400000" size="0x200000" crc="8d89877e" sha1="7d76d48d64d7ac5411d714a4bb83f37e3e5b8df6" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="pgemeni.a1" offset="0x0" size="0x400000" crc="105d7cee" sha1="43b19032e9e3a1aeabd7ce11438c6658ac4b5dd0" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="pgemeni.b1" offset="0x0" size="0x400000" crc="b4127373" sha1="fa731bedec8ff4c19ec68bd44e8ce0b80ec0c716" />
+		</dataarea>
+		<dataarea name="tiles" size="0x800000">
+		<rom name="pgemeni.t1" offset="0x180000" size="0x400000" crc="42b979dd" sha1="38ae8a7e07f1169b876bd41e0a9bfe19ecb0256f" />
+		</dataarea>
+	</part>
+</software>

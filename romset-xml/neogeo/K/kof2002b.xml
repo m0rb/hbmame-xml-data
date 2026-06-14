@@ -1,0 +1,27 @@
+<software name="kof2002b" cloneof="kof2002">
+	<description>The King of Fighters 2002 (bootleg)</description>
+	<year>2002</year>
+	<publisher>bootleg</publisher>
+	<info name="source" value="kof2002b" />
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="cslot1:maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="265-p1.p1" offset="0x0" size="0x100000" crc="9ede7323" sha1="ad9d45498777fda9fa58e75781f48e09aee705a6" />
+		<rom loadflag="load16_word_swap" name="2k2-p2.bin" offset="0x100000" size="0x400000" crc="6dbee4df" sha1="9a9646c81b233b44213c624b898c19f83e9a07f8" />
+		</dataarea>
+		<dataarea name="cslot1:sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="2k2-c1.bin" offset="0x0" size="0x800000" crc="f25d3d66" sha1="eb1da3e171c126d91e851ce141840709a2f62f8a" />
+		<rom loadflag="load16_byte" name="2k2-c2.bin" offset="0x1" size="0x800000" crc="e3e66f1d" sha1="af93e9e134816353d6187a53959c6e418b83ad8d" />
+		<rom loadflag="load16_byte" name="2k2-c3.bin" offset="0x1000000" size="0x800000" crc="8732fa30" sha1="81c482b375c04bcfbbc69e3e2a2e9ab567c9bb78" />
+		<rom loadflag="load16_byte" name="2k2-c4.bin" offset="0x1000001" size="0x800000" crc="0989fd40" sha1="355d6b2c528319e41ce89952c5cf5bcc47cd6de0" />
+		<rom loadflag="load16_byte" name="2k2-c5.bin" offset="0x2000000" size="0x800000" crc="60635cd2" sha1="0cf2c54e003edfcdbed64e0570e6b800e7ed3c1b" />
+		<rom loadflag="load16_byte" name="2k2-c6.bin" offset="0x2000001" size="0x800000" crc="bd736824" sha1="d897fc8248ace145fef57d8aa393eaebc4a1ccc4" />
+		<rom loadflag="load16_byte" name="2k2-c7.bin" offset="0x3000000" size="0x800000" crc="2da8d8cf" sha1="ab8aa88b8e1baba88e5fc01d0f3cb55503b6c81a" />
+		<rom loadflag="load16_byte" name="2k2-c8.bin" offset="0x3000001" size="0x800000" crc="2048404a" sha1="d6d0f049ffc196334825328e0472b04e04bf6695" />
+		</dataarea>
+		<dataarea name="cslot1:ymsnd:adpcma" size="0x1000000">
+		<rom name="265-v1.v1" offset="0x0" size="0x800000" crc="15e8f3f5" sha1="7c9e6426b9fa6db0158baa17a6485ffce057d889" />
+		<rom name="265-v2.v2" offset="0x800000" size="0x800000" crc="da41d6f9" sha1="a43021f1e58947dcbe3c8ca5283b20b649f0409d" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,22 @@
+<software name="grdians13">
+	<description>Denjin Makai II (Kerron Edition, 2019-08-17)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_byte" name="s13.u2" offset="0x0" size="0x80000" crc="6a2baf4d" sha1="81d2f76a2c40b0cfd94268a55c2d33ca2a8c18e8" />
+		<rom loadflag="load16_byte" name="s13.u3" offset="0x1" size="0x80000" crc="d945583e" sha1="3ea74d71e0164c3b6ac0a82595ba7e8d3a4b223f" />
+		<rom loadflag="load16_byte" name="u4.bin" offset="0x100000" size="0x80000" crc="bb52447b" sha1="61433f683210ab2bc2cf1cc4b5b7a39cc5b6493d" />
+		<rom loadflag="load16_byte" name="u5.bin" offset="0x100001" size="0x80000" crc="9c164a3b" sha1="6d688c7af9e7e8e8d54b2e4dfbf41f59c79242eb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="continue" offset="0x1000000" size="0x200000" />
+		<rom loadflag="continue" offset="0x1000002" size="0x200000" />
+		<rom loadflag="continue" offset="0x1000004" size="0x200000" />
+		<rom loadflag="continue" offset="0x1000006" size="0x200000" />
+		</dataarea>
+		<dataarea name="x1snd" size="0x100000">
+		<rom name="u32.bin" offset="0x0" size="0x100000" crc="cf0f3017" sha1="8376d3a674f71aec72f52c72758fbc53d9feb1a1" />
+		</dataarea>
+	</part>
+</software>
