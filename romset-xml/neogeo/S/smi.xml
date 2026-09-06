@@ -1,0 +1,23 @@
+<software name="smi">
+	<description>Spiderman (Intro demo)</description>
+	<year>2009</year>
+	<publisher>[Raregame]</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="629.p1" offset="0x0" size="0x100000" crc="66b5cfe8" sha1="65754292a085fce07a04fbe8b91a62c42a9695b1" />
+		<rom loadflag="load16_word_swap" name="629.p2" offset="0x100000" size="0x400000" crc="72082aea" sha1="a56a8d9196c7d6cc5d66204623cce964e1feda05" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="629.v1" offset="0x0" size="0x96100" crc="95c138da" sha1="7bfcd525ecf01737ec85db88355323d676f1f03b" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1800000">
+		<rom loadflag="load16_byte" name="629.c1" offset="0x0" size="0x400000" crc="8e5ccfdd" sha1="a26a3cadf67f864ded64daca3af13a8db8a73b62" />
+		<rom loadflag="load16_byte" name="629.c2" offset="0x1" size="0x400000" crc="a6406f5b" sha1="fe63d5aba68bc51861d44ad3ec385e05fd3198c5" />
+		<rom loadflag="load16_byte" name="629.c3" offset="0x800000" size="0x400000" crc="adfff926" sha1="39a1c634168803181b43843dbd562405ed7a8fe6" />
+		<rom loadflag="load16_byte" name="629.c4" offset="0x800001" size="0x400000" crc="068c307f" sha1="47d52fa960a2451f20d6b45c87aef7f5b78e00a5" />
+		<rom loadflag="load16_byte" name="629.c5" offset="0x1000000" size="0x400000" crc="9a5cf7a6" sha1="2c6a0fd9139152a85f936323f9e8a26b13819fc2" />
+		<rom loadflag="load16_byte" name="629.c6" offset="0x1000001" size="0x400000" crc="934f03c0" sha1="2a54f8fb1be63dcfef2756b9fa5904af3a2ca874" />
+		</dataarea>
+	</part>
+</software>

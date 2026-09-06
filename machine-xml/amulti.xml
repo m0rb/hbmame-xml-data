@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="amulti" description="Amulti cartridges">
+<software name="amulti" cloneof="astdelux">
+	<description>Asteroids Multigame</description>
+	<year>2002</year>
+	<publisher>Braze</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="036430-02.d1" offset="0x6000" size="0x800" crc="a4d7a525" sha1="abe262193ec8e1981be36928e9a89a8ac95cd0ad" />
+		<rom name="036431-02.ef1" offset="0x6800" size="0x800" crc="d4004aae" sha1="aa2099b8fc62a79879efeea70ea1e9ed77e3e6f0" />
+		<rom name="036432-02.fh1" offset="0x7000" size="0x800" crc="6d720c41" sha1="198218cd2f43f8b83e4463b1f3a8aa49da5015e4" />
+		<rom name="036433-03.j1" offset="0x7800" size="0x800" crc="0dcc0be6" sha1="bf10ffb0c4870e777d6b509cbede35db8bb6b0b8" />
+		<rom name="036800-02.r2" offset="0x4800" size="0x800" crc="bb8cabe1" sha1="cebaa1b91b96e8b80f2b2c17c6fd31fa9f156386" />
+		<rom name="036799-01.np2" offset="0x5000" size="0x800" crc="7d511572" sha1="1956a12bccb5d3a84ce0c1cc10c6ad7f64e30b40" />
+		</dataarea>
+		<dataarea name="dvg:prom" size="0x100">
+		<rom name="034602-01.c8" offset="0x0" size="0x100" crc="97953db8" sha1="8cbded64d1dd35b18c4d5cece00f77e7b2cab2ad" />
+		</dataarea>
+		<dataarea name="earom" size="0x40">
+		</dataarea>
+		<dataarea name="user2" size="0x18000">
+		<rom name="adld-11a.512" offset="0x0" size="0x10000" crc="44e8583b" sha1="945074d1efff3af83805bd3bcc403362038a1858" />
+		</dataarea>
+		<dataarea name="user3" size="0x18000">
+		<rom name="035127-02.np3" offset="0x11000" size="0x800" crc="8b71fd9e" sha1="8cd5005e531eafa361d6b7e9eed159d164776c70" />
+		<rom name="036800-02.r2" offset="0x12800" size="0x800" crc="bb8cabe1" sha1="cebaa1b91b96e8b80f2b2c17c6fd31fa9f156386" />
+		<rom name="036799-01.np2" offset="0x13000" size="0x800" crc="7d511572" sha1="1956a12bccb5d3a84ce0c1cc10c6ad7f64e30b40" />
+		<rom name="034599-01.r3" offset="0x14800" size="0x800" crc="355a9371" sha1="6ecb40169b797d9eb623bcb17872f745b1bf20fa" />
+		<rom name="034598-01.np3" offset="0x15000" size="0x800" crc="9c4ffa68" sha1="eb4ffc289d254f699f821df3146aa2c6cd78597f" />
+		<rom name="034597-01.m3" offset="0x15800" size="0x800" crc="ebb744f2" sha1="e685b094c1261a351e4e82dfb487462163f136a4" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

@@ -1,0 +1,24 @@
+<software name="starfgh2">
+	<description>Starfighter II</description>
+	<year>19</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x4000">
+		<rom name="a1.bin" offset="0x0" size="0x800" crc="0d496c93" sha1="c0f9a20d01a11045f6ad8a6c9c3980a52ba16495" />
+		<rom name="a2.bin" offset="0x800" size="0x800" crc="4f0676eb" sha1="7b4a230c723959261cb240fce52d378a01740942" />
+		<rom name="b2.bin" offset="0x1000" size="0x800" crc="1496a894" sha1="d010cd02b1ffe351ef1abdd424cdefca44ea6b29" />
+		<rom name="c1.bin" offset="0x1800" size="0x800" crc="59820900" sha1="d42b99573a44f76620d75647c1c253a869e9a403" />
+		<rom name="p5.bin" offset="0x2000" size="0x800" crc="fade512b" sha1="ccef2650f1d9dc3fdde2d441774246d47febc2cc" />
+		<rom name="e2.bin" offset="0x2800" size="0x800" crc="153316b8" sha1="c7de0c0f65723d3699e68f3b8b76cd1d69dbd0f3" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="g09.bin" offset="0x0" size="0x800" crc="9503a23a" sha1="23848de56841dd1de9ef74d5a9c981c784098175" />
+		<rom name="g11.bin" offset="0x800" size="0x800" crc="0adfc3fe" sha1="a4da488632d9906066db45ae62747caf5ffbf2d8" />
+		<rom name="g10.bin" offset="0x1000" size="0x800" crc="3e61f849" sha1="efa0059bc843af0c3bb94f4bc0a8286ca5069179" />
+		<rom name="g12.bin" offset="0x1800" size="0x800" crc="7130e9eb" sha1="e6bb7a9b4f2fc001296e1060d0671b7a88599c8b" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="colour.bin" offset="0x0" size="0x20" crc="57a45057" sha1="d4ec6a54f72640e5b485aa59e206c090e67ff640" />
+		</dataarea>
+	</part>
+</software>

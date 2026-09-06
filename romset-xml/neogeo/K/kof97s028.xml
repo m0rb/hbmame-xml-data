@@ -1,0 +1,25 @@
+<software name="kof97s028" cloneof="kof97">
+	<description>Kof&#x27;97 (KOF vs SF2)</description>
+	<year>2017</year>
+	<publisher>Emu_Max</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="232s028.p1" offset="0x0" size="0x100000" crc="66553472" sha1="bb16d709a4ee7bdafcf5d927c8842314d0bba548" />
+		<rom loadflag="load16_word_swap" name="232s028.p2" offset="0x100000" size="0x400000" crc="a62ecbcf" sha1="b5fec8e19cba3c1a45f92cadf4d5e1dca0a1e7c4" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="232s028.c1" offset="0x0" size="0x800000" crc="53256410" sha1="d584c85013c34a971338b08858b3e4349c926249" />
+		<rom loadflag="load16_byte" name="232s028.c2" offset="0x1" size="0x800000" crc="44a8091f" sha1="bdb1d7a73a4e32fc86d191babf264a48bdf7df32" />
+		<rom loadflag="load16_byte" name="232s028.c3" offset="0x1000000" size="0x800000" crc="749d229d" sha1="6ea1b0c274983f3a1901d6bca10242fa06a9c7de" />
+		<rom loadflag="load16_byte" name="232s028.c4" offset="0x1000001" size="0x800000" crc="0588c550" sha1="7b1825b4f54c2b2dc38b88821afeb46721e96de2" />
+		<rom loadflag="load16_byte" name="232s286.c5" offset="0x2000000" size="0x800000" crc="2cb9f438" sha1="a358f81e937504b6bc087bf0e40a17ac07a968b2" />
+		<rom loadflag="load16_byte" name="232s286.c6" offset="0x2000001" size="0x800000" crc="95029580" sha1="51cc1186269da68c89af2e2f491477e0e2eb244f" />
+		</dataarea>
+	</part>
+</software>

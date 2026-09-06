@@ -1,0 +1,26 @@
+<software name="sfex2s01" cloneof="sfex2">
+	<description>Street Fighter EX2 (Enable Hidden Characters)</description>
+	<year>1998</year>
+	<publisher>Yumeji</publisher>
+	<part name="cart">
+		<dataarea name="audiocpu" size="0x40000">
+		<rom name="ex2_02.2e" offset="0x0" size="0x20000" crc="9489875e" sha1="1fc9985ff98232c63ea8d05a69f7d77cdf72919f" />
+		</dataarea>
+		<dataarea name="bankedroms" endianness="little" size="0x3000000">
+		<rom name="ex2-05m_s01.3h" offset="0x0" size="0x800000" crc="b78cdfd2" sha1="64b53a777af2c943b023011afe1919aba452a6d1" />
+		<rom name="ex2-06m.4h" offset="0x800000" size="0x800000" crc="be1075ed" sha1="36dc673372f30f8b3ff5689ae568c5cd01fe2c07" />
+		<rom name="ex2-07m.5h" offset="0x1000000" size="0x800000" crc="6496c6ed" sha1="054bcecbb04033abea14d9ffe6634b2bd11ca88b" />
+		<rom name="ex2-08m.2k" offset="0x1800000" size="0x800000" crc="3194132e" sha1="d1324fcf0a8528fc683791d6342697a7e08674f4" />
+		<rom name="ex2-09m.3k" offset="0x2000000" size="0x400000" crc="075ae585" sha1="6b88851db618fc3e96f1d740c46c1bc5be0ee21b" />
+		</dataarea>
+		<dataarea name="cat702_2" size="0x8">
+		<rom name="cp08" offset="0x0" size="0x8" crc="a63d6fa6" sha1="68995438a1e90ff9aa59090e7e031d51c68c4d73" />
+		</dataarea>
+		<dataarea name="countryrom" endianness="little" size="0x80000">
+		<rom name="ex2u_04a.2h" offset="0x0" size="0x80000" crc="8dc5317f" sha1="c35224caf70662a0e45a74cbead294a51f9b9e16" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="ex2-01m.3a" offset="0x0" size="0x400000" crc="14a5bb0e" sha1="dfe3c3a53bd4c58743d8039b5344d3afbe2a9c24" />
+		</dataarea>
+	</part>
+</software>

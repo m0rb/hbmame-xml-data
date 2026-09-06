@@ -1,0 +1,26 @@
+<software name="matrim06" cloneof="matrim">
+	<description>Matrimelee (Power Lv 3)</description>
+	<year>2002</year>
+	<publisher>HappyAsr[EGCG]</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="266s06.p1" offset="0x0" size="0x100000" crc="4265913c" sha1="f41bf19e50ca0e2d90245d1f545a25c17e31c776" />
+		<rom loadflag="load16_word_swap" name="266.p2" offset="0x100000" size="0x400000" crc="a14b1906" sha1="1daa14d73512f760ef569b06f9facb279437d1db" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="266.v1" offset="0x0" size="0x800000" crc="a4f83690" sha1="200d683d8c30ebc6d0ed331aa5bbba39b4e07160" />
+		<rom name="266.v2" offset="0x800000" size="0x800000" crc="d0f69eda" sha1="9d7e98976ad433ed8a35d7afffa38130444ba7db" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="266.c1" offset="0x0" size="0x800000" crc="505f4e30" sha1="f22b6f76fc0cad963555dc89d072967c8dc8b79a" />
+		<rom loadflag="load16_byte" name="266.c2" offset="0x1" size="0x800000" crc="3cb57482" sha1="dab15bc24391f9a5173de76af48b612fb9636ccf" />
+		<rom loadflag="load16_byte" name="266.c3" offset="0x1000000" size="0x800000" crc="f1cc6ad0" sha1="66c1cccc0332ffd2d3064f06330c41f95ca09ced" />
+		<rom loadflag="load16_byte" name="266.c4" offset="0x1000001" size="0x800000" crc="45b806b7" sha1="c2bb866fded53d62fad0fc88d89d5e7d4cb1894f" />
+		<rom loadflag="load16_byte" name="266.c5" offset="0x2000000" size="0x800000" crc="9a15dd6b" sha1="194a6973a7a9e3847efe1bdbaeaeb16e74aff2dd" />
+		<rom loadflag="load16_byte" name="266.c6" offset="0x2000001" size="0x800000" crc="281cb939" sha1="bdb7766cfde581ccfaee2be7fe48445f360a2301" />
+		<rom loadflag="load16_byte" name="266.c7" offset="0x3000000" size="0x800000" crc="4b71f780" sha1="d5611a6f6b730db58613b48f2b0174661ccfb7bb" />
+		<rom loadflag="load16_byte" name="266.c8" offset="0x3000001" size="0x800000" crc="29873d33" sha1="dc77f129ed49b8d40d0d4241feef3f6c2f19a987" />
+		</dataarea>
+	</part>
+</software>

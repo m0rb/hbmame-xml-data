@@ -1,0 +1,20 @@
+<software name="superspy01" cloneof="superspy">
+	<description>The Super Spy (CD conversion)</description>
+	<year>1990</year>
+	<publisher>CD_conv</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="011s01.p1" offset="0x0" size="0xa0000" crc="6ef37a8c" sha1="b65328a4d9af099dabdca931a7487b07122e9433" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="011s01.v1" offset="0x0" size="0x100000" crc="9d697082" sha1="92497e97e1755b930bd960d861f4c5289af7d78d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="011.c1" offset="0x0" size="0x100000" crc="cae7be57" sha1="43b35b349594535689c358d9f324adda55e5281a" />
+		<rom loadflag="load16_byte" name="011.c2" offset="0x1" size="0x100000" crc="9e29d986" sha1="b417763bad1acf76116cd56f4203c2d2677e22e5" />
+		<rom loadflag="load16_byte" name="011.c3" offset="0x200000" size="0x100000" crc="14832ff2" sha1="1179792d773d97d5e45e7d8f009051d362d72e24" />
+		<rom loadflag="load16_byte" name="011.c4" offset="0x200001" size="0x100000" crc="b7f63162" sha1="077a81b2bb0a8f17c9df6945078608f74432877a" />
+		</dataarea>
+	</part>
+</software>

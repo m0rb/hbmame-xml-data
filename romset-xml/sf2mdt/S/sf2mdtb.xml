@@ -1,0 +1,18 @@
+<software name="sf2mdtb" cloneof="sf2ce">
+	<description>Street Fighter II&#x27;: Magic Delta Turbo (bootleg, set 3)</description>
+	<year>1992</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c19mdtb.p1" offset="0x0" size="0x80000" crc="0bdb9da2" sha1="5224ee81d94be70a84ffaa3a56b8093aa36d6b4f" />
+		<rom loadflag="load16_byte" name="c19mdtb.p2" offset="0x1" size="0x80000" crc="d88abbce" sha1="57667a92710bb1d37daed09262c3064d09cbf4af" />
+		<rom loadflag="load16_byte" name="c19mdta.p3" offset="0x100000" size="0x20000" crc="74844192" sha1="99cd546c78cce7f632007af454d8a55eddb6b19b" />
+		<rom loadflag="load16_byte" name="c19mdta.p4" offset="0x100001" size="0x20000" crc="bd98ff15" sha1="ed902d949b0b5c5beaaea78a4b418ffa6db9e1df" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x30000">
+		<rom name="c19mdta.m1" offset="0x0" size="0x20000" crc="d5bee9cc" sha1="e638cb5ce7a22c18b60296a7defe8b03418da56c" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+	</part>
+</software>

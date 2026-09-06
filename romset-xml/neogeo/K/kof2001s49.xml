@@ -1,0 +1,37 @@
+<software name="kof2001s49" cloneof="kof2001">
+	<description>Kof2001 (All Boss Plus, 2025-05-31)</description>
+	<year>2025</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x600000">
+		<rom loadflag="load16_word_swap" name="262s49.p1" offset="0x0" size="0x100000" crc="2f5662b8" sha1="33c3c2f3afb64303f6e61ff38fac9dfba240e849" />
+		<rom loadflag="load16_word_swap" name="262s49.p2" offset="0x100000" size="0x500000" crc="da344c08" sha1="03a65e18d38beb21d2cfaf00350797a1e71f1723" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1c00000">
+		<rom name="262s49.v1" offset="0x0" size="0x400000" crc="44532d73" sha1="e38b32741fab960710e5f4724ae74a98c337dbc9" />
+		<rom name="262s49.v2" offset="0x400000" size="0x400000" crc="c063647a" sha1="104253e7d8b3800981dfcc0d563cd64e1e82eda1" />
+		<rom name="262s49.v3" offset="0x800000" size="0x400000" crc="44a334b8" sha1="1e0adbaa4778d3ec9eb32b0a8f4f9c89741cf0be" />
+		<rom name="262s49.v4" offset="0xc00000" size="0x400000" crc="93abe5f4" sha1="977258892223fe501ba9beddb3fc44cc796ef4cb" />
+		<rom name="262s49.v5" offset="0x1000000" size="0x400000" crc="84d06192" sha1="8c39139f216ad9d5f2ab7aa269bd64f3dbab097d" />
+		<rom name="262s49.v6" offset="0x1400000" size="0x400000" crc="17bf22ae" sha1="3c4067ac09aa07c257d70b927c0a5cadccf4dfa6" />
+		<rom name="262s49.v7" offset="0x1800000" size="0x400000" crc="f7021b3c" sha1="c45bec6d9f0e3acccb00efb4a83e0dd8f8e43bc3" />
+		</dataarea>
+		<dataarea name="sprites" size="0x7000000">
+		<rom loadflag="load16_byte" name="262s49.c1" offset="0x0" size="0x800000" crc="8b531868" sha1="43629f573d311706b490eaae7fd45fea715dc2b3" />
+		<rom loadflag="load16_byte" name="262s49.c2" offset="0x1" size="0x800000" crc="947e7421" sha1="d5926027c0acbb23a1aa6a2a93a5f226d26a780c" />
+		<rom loadflag="load16_byte" name="262s49.c3" offset="0x1000000" size="0x800000" crc="26b67ec6" sha1="4a64b527281dd8f59a702a545672a1f1632ba5e5" />
+		<rom loadflag="load16_byte" name="262s49.c4" offset="0x1000001" size="0x800000" crc="7dc77374" sha1="c4c4197c2adf2f55a31ec9a6ec465ee38cb65f04" />
+		<rom loadflag="load16_byte" name="262s49.c5" offset="0x2000000" size="0x800000" crc="c08c3279" sha1="ebfc301f44741912f08cd51a78b65da26559ffdd" />
+		<rom loadflag="load16_byte" name="262s49.c6" offset="0x2000001" size="0x800000" crc="cad8b68c" sha1="d5430c8c3a3daca2fea1a63fdd350996ca25c7a4" />
+		<rom loadflag="load16_byte" name="262s49.c7" offset="0x3000000" size="0x800000" crc="8641cd8b" sha1="80ac2bf02aa61f02a5aca731031940a4d6dcbcba" />
+		<rom loadflag="load16_byte" name="262s49.c8" offset="0x3000001" size="0x800000" crc="6a21a2b8" sha1="0053cd401553e0f963c96e79de5e09083217b7f1" />
+		<rom loadflag="load16_byte" name="262s49.c9" offset="0x4000000" size="0x800000" crc="1a4d9823" sha1="866438a0c7068544b4dcc860993de4e2fe6ff8ed" />
+		<rom loadflag="load16_byte" name="262s49.c10" offset="0x4000001" size="0x800000" crc="74fc85e9" sha1="a5d929a98302f8e961d0dceee324a612814ea17c" />
+		<rom loadflag="load16_byte" name="265d.c7" offset="0x5000000" size="0x800000" crc="8a5b561c" sha1="a19697d4c2cc8edebc669c95ae1db4c8c2a70b2c" />
+		<rom loadflag="load16_byte" name="265d.c8" offset="0x5000001" size="0x800000" crc="bef667a3" sha1="d5e8bc185dcf63343d129c31d2ddab9f723f1a12" />
+		<rom loadflag="load16_byte" name="262s49.c13" offset="0x6000000" size="0x800000" crc="421998ab" sha1="c3f0ab7fed704cbb54fc4b7442279606c565319d" />
+		<rom loadflag="load16_byte" name="262s49.c14" offset="0x6000001" size="0x800000" crc="9b169e23" sha1="cb8c63ea0907e786898b9805252597c76f7bbe77" />
+		</dataarea>
+	</part>
+</software>

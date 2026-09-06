@@ -1,0 +1,31 @@
+<software name="kovshs99" cloneof="kovsh">
+	<description>Knights of Valour Super Heroes (Super Beta 1)</description>
+	<year>1999</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_pw99.322" offset="0x100000" size="0x400000" crc="959036db" sha1="f48fb2381cbc946fd8bb950a868b1c8181cf57d9" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u4" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_pw99.asic" offset="0x0" size="0x4000" crc="efb8b0a6" sha1="3f4075a2c0778a8a3ed32574b4d8729d316761be" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="pgm_a0600.u1" offset="0x0" size="0x800000" crc="d8167834" sha1="fa55a99629d03b2ea253392352f70d2c8639a991" />
+		<rom name="pgm_a0601.u3" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u5" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="pgm_a0613.u7" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		<rom name="a0604_pw99.rom" offset="0x1a00000" size="0x400000" crc="35c00b9e" sha1="ef13eb49a1083905271fda5071c34ab16e94617e" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b0600.u6" offset="0x0" size="0x800000" crc="7d3cd059" sha1="00cf994b63337e0e4ebe96453daf45f24192af1c" />
+		<rom name="b0601_pw99.rom" offset="0x800000" size="0x400000" crc="8787611e" sha1="d57269f6bc5418e14b186bf5e1e367025e3ab25a" />
+		<rom name="b0602_pw99.rom" offset="0xc00000" size="0x100000" crc="7f9e12f4" sha1="60c6fd540deeae505dcf67b5195f1be9f87195a1" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="pgm_t0600.u11" offset="0x180000" size="0x800000" crc="4acc1ad6" sha1="0668dbd5e856c2406910c6b7382548b37c631780" />
+		</dataarea>
+	</part>
+</software>

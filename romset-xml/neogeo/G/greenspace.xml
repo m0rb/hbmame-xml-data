@@ -1,0 +1,15 @@
+<software name="greenspace">
+	<description>Green Space</description>
+	<year>2019</year>
+	<publisher>Peter Lemon</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="646.p1" offset="0x0" size="0x80000" crc="194065e1" sha1="42363196eb774fe11acbb2e9264296f03a660a57" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="646.c1" offset="0x0" size="0x100000" crc="2e28134d" sha1="fad8d76e9b398d87d31206b2018e7cdc60394ceb" />
+		<rom loadflag="load16_byte" name="646.c2" offset="0x1" size="0x100000" crc="666f11f3" sha1="2a7417b0a0716ca38e031b4fd29a763f49ac46bc" />
+		</dataarea>
+	</part>
+</software>

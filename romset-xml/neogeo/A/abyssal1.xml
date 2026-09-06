@@ -1,0 +1,18 @@
+<software name="abyssal1" cloneof="abyssal">
+	<description>Abyssal Infants (newer version)</description>
+	<year>2021</year>
+	<publisher>Kako Eimon</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="498a.p1" offset="0x0" size="0x80000" crc="a8a2a8a6" sha1="da0ea757e17531be8c8e3b0a1f6cc71b0eb04b92" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="498a.v1" offset="0x0" size="0x200000" crc="1fae3797" sha1="2e3b410bc52366788b18f70ae5e912a8e2d5e93f" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="498a.c1" offset="0x0" size="0x200000" crc="24dabe27" sha1="4b7519cbcf028b0be7b0acf9c8827a126a33007d" />
+		<rom loadflag="load16_byte" name="498a.c2" offset="0x1" size="0x200000" crc="bbdacc24" sha1="39025e7f593cc7f464e9f0403feab69ddbd371c8" />
+		</dataarea>
+	</part>
+</software>

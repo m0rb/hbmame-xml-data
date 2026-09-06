@@ -1,0 +1,14 @@
+<software name="sflush">
+	<description>Straight Flush (Extra Sounds)</description>
+	<year>1979</year>
+	<publisher>Taito</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="fr05.sc2" offset="0xd800" size="0x800" crc="c4f08f9f" sha1="997f216f5244942fc1a19f5c1988adbfadc301fc" />
+		<rom name="fr04.sc3" offset="0xe000" size="0x800" crc="87a754a5" sha1="07c0e2c3cb7aa0086d8f4dd202a452bc6c20d4ee" />
+		<rom name="fr03.sc4" offset="0xe800" size="0x800" crc="5b12847f" sha1="4b62342723dd49a387fae6637c331d7c853712a3" />
+		<rom name="fr02.sc5" offset="0xf000" size="0x800" crc="291c9b1f" sha1="7e5b3e1605581abf3d8165f4de9d4e32a5ee3bb0" />
+		<rom name="fr01.sc6" offset="0xf800" size="0x800" crc="55d688c6" sha1="574a3a2ca73cabb4b8f3444aa4464e6d64daa3ad" />
+		</dataarea>
+	</part>
+</software>

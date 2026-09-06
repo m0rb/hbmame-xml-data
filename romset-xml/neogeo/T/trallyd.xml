@@ -1,0 +1,33 @@
+<software name="trallyd" cloneof="trally">
+	<description>Thrash Rally (MGD2)</description>
+	<year>1991</year>
+	<publisher>Alpha Denshi Co.</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n038001a.038" offset="0x1" size="0x40000" crc="400bed38" sha1="9ccc6a505e98e964db9253b50ae549a8d13beffb" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		<rom loadflag="load16_byte" name="n038001a.03c" offset="0x80001" size="0x40000" crc="77196e9a" sha1="31490ce2b97f67e9571ace32d97217232113fb72" />
+		<rom loadflag="continue" offset="0x80000" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x180000">
+		<rom name="n038001a.1f8" offset="0x0" size="0x80000" crc="1c93fb89" sha1="a5056e33552e3e6fc3570d41e893a73d78086077" />
+		<rom name="n038001a.1fc" offset="0x80000" size="0x80000" crc="39f18253" sha1="97622e15ebc180dc24d5b9049d6603cbe039dc81" />
+		<rom name="038.v2" offset="0x100000" size="0x80000" crc="ddd8d1e6" sha1="65c819fa2392f264f5a1a0a4967c96775732500b" />
+		</dataarea>
+		<dataarea name="sprites" size="0x300000">
+		<rom loadflag="load32_byte" name="n038001a.538" offset="0x0" size="0x40000" crc="4d002ecb" sha1="07330d6cbcd126bd67c702cc351ac4f668108e55" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n038001a.638" offset="0x1" size="0x40000" crc="6b2f79de" sha1="7725b9b66738a6f9fe9456cc6aadd4fa98d50bff" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n038001a.53c" offset="0x100000" size="0x40000" crc="b0be56db" sha1="f511e1ef9074eec9bff37f22607cd5b491860ee7" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n038001a.63c" offset="0x100001" size="0x40000" crc="091f38b4" sha1="0e579029524f004370d1c93d7b14ad47243bee66" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n038001b.538" offset="0x200000" size="0x40000" crc="2f213750" sha1="fe5a8cd26b52928afeece5504ecca7ec452b7027" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n038001b.638" offset="0x200001" size="0x40000" crc="268be38b" sha1="98f9dfee915ddf8d858297075c7b7d6731527aa3" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

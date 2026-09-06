@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="pisces" description="Pisces cartridges">
+<software name="cosmicw" cloneof="uniwars">
+	<description>Cosmic Wars</description>
+	<year>1979</year>
+	<publisher>B.G.Video Ltd</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x4000">
+		<rom name="sb1" offset="0x0" size="0x800" crc="d975af10" sha1="a2e2a36a75db8fd09441308b08b6ae073c68b8cf" />
+		<rom name="sb2" offset="0x800" size="0x800" crc="b2ed14c3" sha1="7668df11f64b8e296eedfee53437777dc53a56d5" />
+		<rom name="sb3" offset="0x1000" size="0x800" crc="945f4160" sha1="5fbe879f51e14c4c7ae551e5b3089f8e148770a4" />
+		<rom name="sb4" offset="0x1800" size="0x800" crc="8229835c" sha1="8cfd8f6cab6f80ca69645a184f7e841fc69f47f6" />
+		<rom name="cw5" offset="0x2000" size="0x800" crc="74e70148" sha1="e3fc1931bc52e831b953ba1bba6e484dffd19c69" />
+		<rom name="sb6" offset="0x2800" size="0x800" crc="d915a389" sha1="0e2ff6eec9453856a1276889946b463cfae58eba" />
+		<rom name="sb7" offset="0x3000" size="0x800" crc="c9245346" sha1="239bad3fe64eaab2dfc3febd06d1124103a10504" />
+		<rom name="sb8" offset="0x3800" size="0x800" crc="e59ff1ae" sha1="fef22885cbd3273882f8c7755dd04c28e843b9ea" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="sb12" offset="0x0" size="0x800" crc="8313c959" sha1="b09157c6f824d6e94647728cbb329877fcb4e502" />
+		<rom name="sb14" offset="0x800" size="0x800" crc="c26132af" sha1="7ae125a911dfd47aeca4f129f580762ce4d8d91a" />
+		<rom name="sb11" offset="0x1000" size="0x800" crc="c9d4537e" sha1="65d27066ffec04b755d2f5d3f36f5ec6792e8d6c" />
+		<rom name="k01_2.bin" offset="0x1800" size="0x800" crc="dcc2b33b" sha1="c3a5ac935c519400dfabb28909f7e460769d1837" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="mmi6331.6l" offset="0x0" size="0x20" crc="6a0c7d87" sha1="140335d85c67c75b65689d4e76d29863c209cf32" />
+		</dataarea>
+	</part>
+</software>
+<software name="starfgh2">
+	<description>Starfighter II</description>
+	<year>19</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x4000">
+		<rom name="a1.bin" offset="0x0" size="0x800" crc="0d496c93" sha1="c0f9a20d01a11045f6ad8a6c9c3980a52ba16495" />
+		<rom name="a2.bin" offset="0x800" size="0x800" crc="4f0676eb" sha1="7b4a230c723959261cb240fce52d378a01740942" />
+		<rom name="b2.bin" offset="0x1000" size="0x800" crc="1496a894" sha1="d010cd02b1ffe351ef1abdd424cdefca44ea6b29" />
+		<rom name="c1.bin" offset="0x1800" size="0x800" crc="59820900" sha1="d42b99573a44f76620d75647c1c253a869e9a403" />
+		<rom name="p5.bin" offset="0x2000" size="0x800" crc="fade512b" sha1="ccef2650f1d9dc3fdde2d441774246d47febc2cc" />
+		<rom name="e2.bin" offset="0x2800" size="0x800" crc="153316b8" sha1="c7de0c0f65723d3699e68f3b8b76cd1d69dbd0f3" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="g09.bin" offset="0x0" size="0x800" crc="9503a23a" sha1="23848de56841dd1de9ef74d5a9c981c784098175" />
+		<rom name="g11.bin" offset="0x800" size="0x800" crc="0adfc3fe" sha1="a4da488632d9906066db45ae62747caf5ffbf2d8" />
+		<rom name="g10.bin" offset="0x1000" size="0x800" crc="3e61f849" sha1="efa0059bc843af0c3bb94f4bc0a8286ca5069179" />
+		<rom name="g12.bin" offset="0x1800" size="0x800" crc="7130e9eb" sha1="e6bb7a9b4f2fc001296e1060d0671b7a88599c8b" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="colour.bin" offset="0x0" size="0x20" crc="57a45057" sha1="d4ec6a54f72640e5b485aa59e206c090e67ff640" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

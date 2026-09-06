@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="dragoonj" description="Dragoonj cartridges">
+<software name="dragoona01" cloneof="dragoona">
+	<description>Dragoon Might (Always Have Super Move)</description>
+	<year>1995</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x800000">
+		<rom loadflag="load32_word_swap" name="417aab02_s01.31b" offset="0x200002" size="0x200" crc="b391f67e" sha1="b7066b1aa5906056f84cae4dc639d69768f97d09" />
+		<rom loadflag="load32_word_swap" name="417aab03_s01.27b" offset="0x200000" size="0x200" crc="3e0eded0" sha1="7ec68b74271544f3c8690316a3829141c84c03e1" />
+		<rom loadflag="load32_word_swap" name="417a04.26c" offset="0x400002" size="0x400" crc="dc574747" sha1="43cbb6a08c27bb96bb25568c3b636c44fff3e08e" />
+		<rom loadflag="load32_word_swap" name="417a05.23c" offset="0x400000" size="0x400" crc="2ee2c587" sha1="a1b2b288c375a3406d4b12e66c973484c03fe26e" />
+		</dataarea>
+		<dataarea name="eeprom" endianness="big" size="0x80">
+		<rom name="dragoona.nv" offset="0x0" size="0x80" crc="7980ad2b" sha1="dccaab02d23edbd81ae13441fbac0dbd7112c258" />
+		</dataarea>
+		<dataarea name="k054539" size="0x200000">
+		<rom name="417a17.9g" offset="0x0" size="0x2" crc="88d47dfd" sha1="b5d6dd7ee9ac0c427dc3e714a97945c954260913" />
+		</dataarea>
+		<dataarea name="k055673" size="0x1000000">
+		</dataarea>
+		<dataarea name="k056832" size="0x400000">
+		</dataarea>
+		<dataarea name="soundcpu" size="0x40000">
+		<rom loadflag="load16_byte" name="417a06.9c" offset="0x0" size="0x80" crc="8addbbee" sha1="fdb38fab1fd65b7362578b108bf6128e926b5f13" />
+		<rom loadflag="load16_byte" name="417a07.7c" offset="0x1" size="0x80" crc="c1fd7584" sha1="1b204165ef07b6b53f47adc16eed69d11dab53b2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dragoona02" cloneof="dragoona">
+	<description>Dragoon Might (Easy Move)</description>
+	<year>1995</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x800000">
+		<rom loadflag="load32_word_swap" name="417aab02_s02.31b" offset="0x200002" size="0x200" crc="d4e6eace" sha1="2bfb96e968359d0d9c227f89ad41457e95479b32" />
+		<rom loadflag="load32_word_swap" name="417aab03_s02.27b" offset="0x200000" size="0x200" crc="bf4598c4" sha1="d7ec625cf019eb41d5847945b66e9f33d895ec57" />
+		<rom loadflag="load32_word_swap" name="417a04.26c" offset="0x400002" size="0x400" crc="dc574747" sha1="43cbb6a08c27bb96bb25568c3b636c44fff3e08e" />
+		<rom loadflag="load32_word_swap" name="417a05.23c" offset="0x400000" size="0x400" crc="2ee2c587" sha1="a1b2b288c375a3406d4b12e66c973484c03fe26e" />
+		</dataarea>
+		<dataarea name="eeprom" endianness="big" size="0x80">
+		<rom name="dragoona.nv" offset="0x0" size="0x80" crc="7980ad2b" sha1="dccaab02d23edbd81ae13441fbac0dbd7112c258" />
+		</dataarea>
+		<dataarea name="k054539" size="0x200000">
+		<rom name="417a17.9g" offset="0x0" size="0x2" crc="88d47dfd" sha1="b5d6dd7ee9ac0c427dc3e714a97945c954260913" />
+		</dataarea>
+		<dataarea name="k055673" size="0x1000000">
+		</dataarea>
+		<dataarea name="k056832" size="0x400000">
+		</dataarea>
+		<dataarea name="soundcpu" size="0x40000">
+		<rom loadflag="load16_byte" name="417a06.9c" offset="0x0" size="0x80" crc="8addbbee" sha1="fdb38fab1fd65b7362578b108bf6128e926b5f13" />
+		<rom loadflag="load16_byte" name="417a07.7c" offset="0x1" size="0x80" crc="c1fd7584" sha1="1b204165ef07b6b53f47adc16eed69d11dab53b2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dragoona03" cloneof="dragoona">
+	<description>Dragoon Might (Enable Hidden Character)</description>
+	<year>1995</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x800000">
+		<rom loadflag="load32_word_swap" name="417aab02_s03.31b" offset="0x200002" size="0x200" crc="38d338b5" sha1="239802338167b0f7a64d62ad230b46b58af3e46e" />
+		<rom loadflag="load32_word_swap" name="417aab03_s03.27b" offset="0x200000" size="0x200" crc="520c29ff" sha1="125feb1526a70bd315cee7aded77547b33d06dcd" />
+		<rom loadflag="load32_word_swap" name="417a04.26c" offset="0x400002" size="0x400" crc="dc574747" sha1="43cbb6a08c27bb96bb25568c3b636c44fff3e08e" />
+		<rom loadflag="load32_word_swap" name="417a05.23c" offset="0x400000" size="0x400" crc="2ee2c587" sha1="a1b2b288c375a3406d4b12e66c973484c03fe26e" />
+		</dataarea>
+		<dataarea name="eeprom" endianness="big" size="0x80">
+		<rom name="dragoona.nv" offset="0x0" size="0x80" crc="7980ad2b" sha1="dccaab02d23edbd81ae13441fbac0dbd7112c258" />
+		</dataarea>
+		<dataarea name="k054539" size="0x200000">
+		<rom name="417a17.9g" offset="0x0" size="0x2" crc="88d47dfd" sha1="b5d6dd7ee9ac0c427dc3e714a97945c954260913" />
+		</dataarea>
+		<dataarea name="k055673" size="0x1000000">
+		</dataarea>
+		<dataarea name="k056832" size="0x400000">
+		</dataarea>
+		<dataarea name="soundcpu" size="0x40000">
+		<rom loadflag="load16_byte" name="417a06.9c" offset="0x0" size="0x80" crc="8addbbee" sha1="fdb38fab1fd65b7362578b108bf6128e926b5f13" />
+		<rom loadflag="load16_byte" name="417a07.7c" offset="0x1" size="0x80" crc="c1fd7584" sha1="1b204165ef07b6b53f47adc16eed69d11dab53b2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dragoona04" cloneof="dragoona">
+	<description>Dragoon Might (Unknown Hack, 2018-03-04)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x800000">
+		<rom loadflag="load32_word_swap" name="417aab02_s04.31b" offset="0x200002" size="0x200" crc="5fa42405" sha1="0335d3a5aba5e02eb7383b5ae7e45aec0677e905" />
+		<rom loadflag="load32_word_swap" name="417aab03_s04.27b" offset="0x200000" size="0x200" crc="d3476feb" sha1="fdd5818e80e8cd1e72c88b1b015abe071354ee4a" />
+		<rom loadflag="load32_word_swap" name="417a04.26c" offset="0x400002" size="0x400" crc="dc574747" sha1="43cbb6a08c27bb96bb25568c3b636c44fff3e08e" />
+		<rom loadflag="load32_word_swap" name="417a05.23c" offset="0x400000" size="0x400" crc="2ee2c587" sha1="a1b2b288c375a3406d4b12e66c973484c03fe26e" />
+		</dataarea>
+		<dataarea name="eeprom" endianness="big" size="0x80">
+		<rom name="dragoona.nv" offset="0x0" size="0x80" crc="7980ad2b" sha1="dccaab02d23edbd81ae13441fbac0dbd7112c258" />
+		</dataarea>
+		<dataarea name="k054539" size="0x200000">
+		<rom name="417a17.9g" offset="0x0" size="0x2" crc="88d47dfd" sha1="b5d6dd7ee9ac0c427dc3e714a97945c954260913" />
+		</dataarea>
+		<dataarea name="k055673" size="0x1000000">
+		</dataarea>
+		<dataarea name="k056832" size="0x400000">
+		</dataarea>
+		<dataarea name="soundcpu" size="0x40000">
+		<rom loadflag="load16_byte" name="417a06.9c" offset="0x0" size="0x80" crc="8addbbee" sha1="fdb38fab1fd65b7362578b108bf6128e926b5f13" />
+		<rom loadflag="load16_byte" name="417a07.7c" offset="0x1" size="0x80" crc="c1fd7584" sha1="1b204165ef07b6b53f47adc16eed69d11dab53b2" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

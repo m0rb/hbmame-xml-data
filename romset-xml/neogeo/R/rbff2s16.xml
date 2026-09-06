@@ -1,0 +1,26 @@
+<software name="rbff2s16" cloneof="rbff2">
+	<description>Real Bout Fatal Fury 2 (Enable Hidden Characters &amp; Boss V3)</description>
+	<year>1998</year>
+	<publisher>Eddids - FCHT</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="240s16.p1" offset="0x0" size="0x100000" crc="d01854fa" sha1="1a4230404df76c111c76348a04d86976cd68df93" />
+		<rom loadflag="load16_word_swap" name="240s05.p2" offset="0x100000" size="0x400000" crc="c063193d" sha1="3321d90f93b1f7bf423a20b780b453a756e041be" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="240.v1" offset="0x0" size="0x400000" crc="f796265a" sha1="736dff37eb91fc856b4d189249fb0de9b6c0813a" />
+		<rom name="240.v2" offset="0x400000" size="0x400000" crc="2cb3f3bb" sha1="697e677890892f4b028c9a27c66809ca0a8a9b18" />
+		<rom name="240.v3" offset="0x800000" size="0x400000" crc="8fe1367a" sha1="093d7a4ac2b54ad7ffb2dc316fe29415f7a99535" />
+		<rom name="240s01.v4" offset="0xc00000" size="0x400000" crc="33a356ee" sha1="b2a08052be670f301f8d4903b36c70088d1a11da" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="240.c1" offset="0x0" size="0x800000" crc="effac504" sha1="e36a96e7369b02c7e839b5abf3c6799453ba1927" />
+		<rom loadflag="load16_byte" name="240.c2" offset="0x1" size="0x800000" crc="ed182d44" sha1="a9fc0a3a786bf067c129ec7220df65953dff804f" />
+		<rom loadflag="load16_byte" name="240.c3" offset="0x1000000" size="0x800000" crc="22e0330a" sha1="0fe7f6a8aeba7f17dbb278e85003969ff10d3cd2" />
+		<rom loadflag="load16_byte" name="240.c4" offset="0x1000001" size="0x800000" crc="c19a07eb" sha1="139eac8b51cadf328dd42d8109f4e2463f57230c" />
+		<rom loadflag="load16_byte" name="240s05.c5" offset="0x2000000" size="0x800000" crc="21831787" sha1="928620e9efb849c591d75a645969c24b15e5c337" />
+		<rom loadflag="load16_byte" name="240s05.c6" offset="0x2000001" size="0x800000" crc="06b2d1da" sha1="d39da350a9017a68704ea99bff7f48163b0866fb" />
+		</dataarea>
+	</part>
+</software>

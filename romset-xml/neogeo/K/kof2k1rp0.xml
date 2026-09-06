@@ -1,0 +1,28 @@
+<software name="kof2k1rp0" cloneof="kof2001">
+	<description>Kof2001 (Remix Pro v1.02 Final, 2004-03-01)</description>
+	<year>2004</year>
+	<publisher>Jason, Kim &amp; Raymonose</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="262rp.p1" offset="0x0" size="0x100000" crc="e9e42e55" sha1="2a254d056ab046d2704e16ebbaa2b68c6e867dc7" />
+		<rom loadflag="load16_word_swap" name="262rp.p2" offset="0x100000" size="0x400000" crc="91668d86" sha1="3df31baaa1c87b040f88eeffff1a174960f9f1fc" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="262.v1" offset="0x0" size="0x400000" crc="83d49ecf" sha1="2f2c116e45397652e77fcf5d951fa5f71b639572" />
+		<rom name="262.v2" offset="0x400000" size="0x400000" crc="003f1843" sha1="bdd58837ad542548bd4053c262f558af88e3b989" />
+		<rom name="262.v3" offset="0x800000" size="0x400000" crc="2ae38dbe" sha1="4e82b7dd3b899d61907620517a5a27bdaba0725d" />
+		<rom name="262.v4" offset="0xc00000" size="0x400000" crc="26ec4dd9" sha1="8bd68d95a2d913be41a51f51e48dbe3bff5924fb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="262rp0.c1" offset="0x0" size="0x800000" crc="caeeb878" sha1="233b5e1b864389e19fee16a1ab952c569dffc267" />
+		<rom loadflag="load16_byte" name="262rp0.c2" offset="0x1" size="0x800000" crc="278a8934" sha1="c56f2cd6725c06bb4cfc79cdb03419b6392475fe" />
+		<rom loadflag="load16_byte" name="262rp0.c3" offset="0x1000000" size="0x800000" crc="ecfbe08f" sha1="9459f62aaeb7b0187dbc33bd2e4bd116ef2ac425" />
+		<rom loadflag="load16_byte" name="262rp0.c4" offset="0x1000001" size="0x800000" crc="7ae95994" sha1="d2e1e6606388a84875832e67f0190f94d7b74f55" />
+		<rom loadflag="load16_byte" name="262rp0.c5" offset="0x2000000" size="0x800000" crc="37f8e297" sha1="4f40af3c55a9df3c252ac6e5ea466565cc254f8e" />
+		<rom loadflag="load16_byte" name="262rp0.c6" offset="0x2000001" size="0x800000" crc="34372229" sha1="5e121ca6d02d96893c29a5ec0672fe7ab18d5d05" />
+		<rom loadflag="load16_byte" name="262rp0.c7" offset="0x3000000" size="0x800000" crc="713e7150" sha1="4c16d7ad96237dc98eec684f1a3646a7da2771a2" />
+		<rom loadflag="load16_byte" name="262rp0.c8" offset="0x3000001" size="0x800000" crc="9aa68c3a" sha1="6a21de5a1676fec157ad01246352ddd838842512" />
+		</dataarea>
+	</part>
+</software>

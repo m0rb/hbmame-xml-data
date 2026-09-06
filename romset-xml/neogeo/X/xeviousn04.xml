@@ -1,0 +1,18 @@
+<software name="xeviousn04" cloneof="xeviousn">
+	<description>Zetsu Xevious (beta 4)</description>
+	<year>2025</year>
+	<publisher>Zeroco</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="420s04.p1" offset="0x0" size="0x100000" crc="dfa5538b" sha1="547eb0ccbfa0eb660437372491387f135f18f7e3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="420s03.v1" offset="0x0" size="0x100000" crc="929b34ab" sha1="f3bb51036e51621d40c2d7c3f763dcf6b5d0fea3" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="420s03.c1" offset="0x0" size="0x100000" crc="8759341e" sha1="9f557ffed34cc6832f726261cf32ba71cb9938d1" />
+		<rom loadflag="load16_byte" name="420s03.c2" offset="0x1" size="0x100000" crc="f1c31214" sha1="b31beea8380029b95b9339489f471f4e56d97d28" />
+		</dataarea>
+	</part>
+</software>

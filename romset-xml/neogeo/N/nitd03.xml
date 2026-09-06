@@ -1,0 +1,18 @@
+<software name="nitd03" cloneof="nitd">
+	<description>Nightmare in the Dark (French V1a)</description>
+	<year>2006</year>
+	<publisher>Arkatrad</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="260s03.p1" offset="0x0" size="0x80000" crc="aa52c3cf" sha1="f098aa068ee365fa7af9c638bc09eb82396e1749" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="260.v1" offset="0x0" size="0x400000" crc="24b0480c" sha1="d769e621be52a5cd2e2568891b5f95a48268e1e0" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="260s03.c1" offset="0x0" size="0x800000" crc="7c469419" sha1="06a45016c9493b85fbb8d9ebd33409a0d933ed22" />
+		<rom loadflag="load16_byte" name="260s03.c2" offset="0x1" size="0x800000" crc="74ada44f" sha1="77d051a3522d2c658ef4790ddeac0271e9490fd2" />
+		</dataarea>
+	</part>
+</software>

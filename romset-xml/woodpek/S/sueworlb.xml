@@ -1,0 +1,19 @@
+<software name="sueworlb" cloneof="mspacman">
+	<description>Sue&#x27;s World (Old)</description>
+	<year>2000</year>
+	<publisher>PacFay</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="sueworlb.4" offset="0x3000" size="0x1000" crc="edc5ad28" sha1="b1b95ed715a935fe3bf68c71cb4ac66402c17e79" />
+		<rom name="boot5" offset="0x8000" size="0x1000" crc="8c3e6de6" sha1="fed6e9a2b210b07e7189a18574f6b8c4ec5bb49b" />
+		<rom name="boot6" offset="0x9000" size="0x1000" crc="368cb165" sha1="387010a0c76319a1eab61b54c9bcb5c66c4b67a1" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="sueworld.5e" offset="0x0" size="0x1000" crc="6c975345" sha1="8c294a14c3a2b390c85d75d61453e73ee8721058" />
+		<rom name="sueworld.5f" offset="0x1000" size="0x1000" crc="2c809842" sha1="4325af0b41b67ce3783b667506b60d0221c6ac45" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="forgottn" description="Forgottn cartridges">
+<software name="forgottn">
+	<description>Forgotten Worlds (World, newer)</description>
+	<year>1988</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c01.p1" offset="0x0" size="0x20000" crc="73e920b7" sha1="2df12fc1a66f488d06b0927db909da81466d7d07" />
+		<rom loadflag="load16_byte" name="c01.p2" offset="0x1" size="0x20000" crc="58210b9e" sha1="416cb56a81e74fce6f86c2b2519ba620457b785a" />
+		<rom loadflag="load16_byte" name="c01.p3" offset="0x40000" size="0x20000" crc="bea45994" sha1="c419f65c5e0c11ae7508ec54412bf6b62fac4f72" />
+		<rom loadflag="load16_byte" name="c01.p4" offset="0x40001" size="0x20000" crc="539b2339" sha1="8a9e452ef8ed05e0b956d36990266657d3077470" />
+		<rom loadflag="load16_word_swap" name="c01.p5" offset="0x80000" size="0x80000" crc="fd252a26" sha1="5cfb097984912a5167a8c7ec4c2e119b642f9970" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c01.m1" offset="0x0" size="0x8000" crc="59df2a63" sha1="dfe1fffc7a17179a80a2ae623e93b30a7d6df20d" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="forgottn.key" offset="0x0" size="0x80" crc="ec5025a0" sha1="21ac00fbfca9ae369e99469ee372fea0a5bbdb25" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c01.v1" offset="0x0" size="0x20000" crc="807d051f" sha1="720e4733787b9b11f4d1cdce0892b69475802844" />
+		<rom name="c01.v2" offset="0x20000" size="0x20000" crc="e6cd098e" sha1="667f6e5736f76a1c4c450c4e2035574ea89d7910" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>
+<software name="forgottna">
+	<description>Forgotten Worlds (World)</description>
+	<year>1988</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c01.p1" offset="0x0" size="0x20000" crc="73e920b7" sha1="2df12fc1a66f488d06b0927db909da81466d7d07" />
+		<rom loadflag="load16_byte" name="c01a.p2" offset="0x1" size="0x20000" crc="50d7012d" sha1="f82a28a835f0a83b26c2c8170b824447b1d7409f" />
+		<rom loadflag="load16_byte" name="c01.p3" offset="0x40000" size="0x20000" crc="bea45994" sha1="c419f65c5e0c11ae7508ec54412bf6b62fac4f72" />
+		<rom loadflag="load16_byte" name="c01.p4" offset="0x40001" size="0x20000" crc="539b2339" sha1="8a9e452ef8ed05e0b956d36990266657d3077470" />
+		<rom loadflag="load16_word_swap" name="c01.p5" offset="0x80000" size="0x80000" crc="fd252a26" sha1="5cfb097984912a5167a8c7ec4c2e119b642f9970" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c01.m1" offset="0x0" size="0x8000" crc="59df2a63" sha1="dfe1fffc7a17179a80a2ae623e93b30a7d6df20d" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="forgottn.key" offset="0x0" size="0x80" crc="ec5025a0" sha1="21ac00fbfca9ae369e99469ee372fea0a5bbdb25" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c01.v1" offset="0x0" size="0x20000" crc="807d051f" sha1="720e4733787b9b11f4d1cdce0892b69475802844" />
+		<rom name="c01.v2" offset="0x20000" size="0x20000" crc="e6cd098e" sha1="667f6e5736f76a1c4c450c4e2035574ea89d7910" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>
+<software name="forgottnj">
+	<description>Forgotten Worlds (Japan) (English prototype)</description>
+	<year>1988</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c01nj.p1" offset="0x0" size="0x20000" crc="c9a6b319" sha1="152f65658af6333f10a0608a90330e1cc074d1b2" />
+		<rom loadflag="load16_byte" name="c01nj.p2" offset="0x1" size="0x20000" crc="524f920e" sha1="9c3ad6c8009ff55f81cc859c2e47fa6d6ede112b" />
+		<rom loadflag="load16_byte" name="c01nj.p3" offset="0x40000" size="0x20000" crc="ff7e41d9" sha1="6fc0c9692233ce68068a515c000a976f82585f8b" />
+		<rom loadflag="load16_byte" name="c01nj.p4" offset="0x40001" size="0x20000" crc="80c3a813" sha1="7d50a6de8a2634e4300985c459e190d1b4eddb10" />
+		<rom loadflag="load16_word_swap" name="c01.p5" offset="0x80000" size="0x80000" crc="fd252a26" sha1="5cfb097984912a5167a8c7ec4c2e119b642f9970" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c01nj.m1" offset="0x0" size="0x8000" crc="3bc962ea" sha1="d61240a4512c4b27a9d89758e05aeebef6326fec" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="forgottn.key" offset="0x0" size="0x80" crc="ec5025a0" sha1="21ac00fbfca9ae369e99469ee372fea0a5bbdb25" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c01.v1" offset="0x0" size="0x20000" crc="807d051f" sha1="720e4733787b9b11f4d1cdce0892b69475802844" />
+		<rom name="c01.v2" offset="0x20000" size="0x20000" crc="e6cd098e" sha1="667f6e5736f76a1c4c450c4e2035574ea89d7910" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>
+<software name="forgottnsf2">
+	<description>Forgotten Worlds (SF2 conversion)</description>
+	<year>2017</year>
+	<publisher>Arcadefixer</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c01sf2.p1" offset="0x0" size="0x80000" crc="987ac84e" sha1="f720c26eab8e1ba0ae09754defa9f32d3be2a87b" />
+		<rom loadflag="load16_word_swap" name="c01.p5" offset="0x80000" size="0x80000" crc="fd252a26" sha1="5cfb097984912a5167a8c7ec4c2e119b642f9970" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c01.m1" offset="0x0" size="0x8000" crc="59df2a63" sha1="dfe1fffc7a17179a80a2ae623e93b30a7d6df20d" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="forgottn.key" offset="0x0" size="0x80" crc="ec5025a0" sha1="21ac00fbfca9ae369e99469ee372fea0a5bbdb25" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="jed" size="0x800">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c01.v1" offset="0x0" size="0x20000" crc="807d051f" sha1="720e4733787b9b11f4d1cdce0892b69475802844" />
+		<rom name="c01.v2" offset="0x20000" size="0x20000" crc="e6cd098e" sha1="667f6e5736f76a1c4c450c4e2035574ea89d7910" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>
+<software name="forgottnu">
+	<description>Forgotten Worlds (USA, B-Board 88621B-2, Rev. C)</description>
+	<year>1988</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c01u.p1" offset="0x0" size="0x20000" crc="e62742b6" sha1="39dd3bdd405a8217d8816567d4f2014fc77f5ce8" />
+		<rom loadflag="load16_byte" name="c01u.p2" offset="0x1" size="0x20000" crc="1b70f216" sha1="f200f615dca8aa23d166e74b8baa9a8863ee7a95" />
+		<rom loadflag="load16_byte" name="c01u.p3" offset="0x40000" size="0x20000" crc="8f5ea3f5" sha1="c3e43659bd7e03ec3d5c79647db380bde391b0f1" />
+		<rom loadflag="load16_byte" name="c01u.p4" offset="0x40001" size="0x20000" crc="708e7472" sha1="44f82db41ffd1eece2d3f3c977f481fd84dfdbf3" />
+		<rom loadflag="load16_word_swap" name="c01.p5" offset="0x80000" size="0x80000" crc="fd252a26" sha1="5cfb097984912a5167a8c7ec4c2e119b642f9970" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c01.m1" offset="0x0" size="0x8000" crc="59df2a63" sha1="dfe1fffc7a17179a80a2ae623e93b30a7d6df20d" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="forgottn.key" offset="0x0" size="0x80" crc="ec5025a0" sha1="21ac00fbfca9ae369e99469ee372fea0a5bbdb25" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c01.v1" offset="0x0" size="0x20000" crc="807d051f" sha1="720e4733787b9b11f4d1cdce0892b69475802844" />
+		<rom name="c01.v2" offset="0x20000" size="0x20000" crc="e6cd098e" sha1="667f6e5736f76a1c4c450c4e2035574ea89d7910" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>
+<software name="forgottnua">
+	<description>Forgotten Worlds (USA, B-Board 88618B-2, Rev. A)</description>
+	<year>1988</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c01ua.p1" offset="0x0" size="0x20000" crc="ddf78831" sha1="b9c815613efdfde933d4500b588798b7fb4c1854" />
+		<rom loadflag="load16_byte" name="c01ua.p2" offset="0x1" size="0x20000" crc="f7ce2097" sha1="44c06fabdb6de7d8afc2164458c90b0be9cf945d" />
+		<rom loadflag="load16_byte" name="c01ua.p3" offset="0x40000" size="0x20000" crc="8cb38c81" sha1="1d36cab7d17ff778ee7dfcd9606a3a87f6906f21" />
+		<rom loadflag="load16_byte" name="c01ua.p4" offset="0x40001" size="0x20000" crc="d70ef9fd" sha1="b393aa2a7bea440fdcf057ffc6ff233fc0d35d4b" />
+		<rom loadflag="load16_word_swap" name="c01.p5" offset="0x80000" size="0x80000" crc="fd252a26" sha1="5cfb097984912a5167a8c7ec4c2e119b642f9970" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c01.m1" offset="0x0" size="0x8000" crc="59df2a63" sha1="dfe1fffc7a17179a80a2ae623e93b30a7d6df20d" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="forgottn.key" offset="0x0" size="0x80" crc="ec5025a0" sha1="21ac00fbfca9ae369e99469ee372fea0a5bbdb25" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c01.v1" offset="0x0" size="0x20000" crc="807d051f" sha1="720e4733787b9b11f4d1cdce0892b69475802844" />
+		<rom name="c01.v2" offset="0x20000" size="0x20000" crc="e6cd098e" sha1="667f6e5736f76a1c4c450c4e2035574ea89d7910" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>
+<software name="forgottnuaa">
+	<description>Forgotten Worlds (USA, B-Board 88618B-2, Rev. AA)</description>
+	<year>1988</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c01.p1" offset="0x0" size="0x20000" crc="73e920b7" sha1="2df12fc1a66f488d06b0927db909da81466d7d07" />
+		<rom loadflag="load16_byte" name="c01uaa.p2" offset="0x1" size="0x20000" crc="e47524b9" sha1="2fad1e59432cb63017caf691bb28eb7cbcecb3c6" />
+		<rom loadflag="load16_byte" name="c01.p3" offset="0x40000" size="0x20000" crc="bea45994" sha1="c419f65c5e0c11ae7508ec54412bf6b62fac4f72" />
+		<rom loadflag="load16_byte" name="c01.p4" offset="0x40001" size="0x20000" crc="539b2339" sha1="8a9e452ef8ed05e0b956d36990266657d3077470" />
+		<rom loadflag="load16_word_swap" name="c01.p5" offset="0x80000" size="0x80000" crc="fd252a26" sha1="5cfb097984912a5167a8c7ec4c2e119b642f9970" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c01.m1" offset="0x0" size="0x8000" crc="59df2a63" sha1="dfe1fffc7a17179a80a2ae623e93b30a7d6df20d" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="forgottn.key" offset="0x0" size="0x80" crc="ec5025a0" sha1="21ac00fbfca9ae369e99469ee372fea0a5bbdb25" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c01.v1" offset="0x0" size="0x20000" crc="807d051f" sha1="720e4733787b9b11f4d1cdce0892b69475802844" />
+		<rom name="c01.v2" offset="0x20000" size="0x20000" crc="e6cd098e" sha1="667f6e5736f76a1c4c450c4e2035574ea89d7910" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>
+<software name="forgottnuc">
+	<description>Forgotten Worlds (USA, B-Board 88618B-2, Rev. C)</description>
+	<year>1988</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c01u.p1" offset="0x0" size="0x20000" crc="e62742b6" sha1="39dd3bdd405a8217d8816567d4f2014fc77f5ce8" />
+		<rom loadflag="load16_byte" name="c01u.p2" offset="0x1" size="0x20000" crc="1b70f216" sha1="f200f615dca8aa23d166e74b8baa9a8863ee7a95" />
+		<rom loadflag="load16_byte" name="c01u.p3" offset="0x40000" size="0x20000" crc="8f5ea3f5" sha1="c3e43659bd7e03ec3d5c79647db380bde391b0f1" />
+		<rom loadflag="load16_byte" name="c01u.p4" offset="0x40001" size="0x20000" crc="708e7472" sha1="44f82db41ffd1eece2d3f3c977f481fd84dfdbf3" />
+		<rom loadflag="load16_word_swap" name="c01.p5" offset="0x80000" size="0x80000" crc="fd252a26" sha1="5cfb097984912a5167a8c7ec4c2e119b642f9970" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c01.m1" offset="0x0" size="0x8000" crc="59df2a63" sha1="dfe1fffc7a17179a80a2ae623e93b30a7d6df20d" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="forgottn.key" offset="0x0" size="0x80" crc="ec5025a0" sha1="21ac00fbfca9ae369e99469ee372fea0a5bbdb25" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c01.v1" offset="0x0" size="0x20000" crc="807d051f" sha1="720e4733787b9b11f4d1cdce0892b69475802844" />
+		<rom name="c01.v2" offset="0x20000" size="0x20000" crc="e6cd098e" sha1="667f6e5736f76a1c4c450c4e2035574ea89d7910" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>
+<software name="forgottnue">
+	<description>Forgotten Worlds (USA, B-Board 88618B-2, Rev. E)</description>
+	<year>1988</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c01ue.p1" offset="0x0" size="0x20000" crc="82656910" sha1="2a939b2bbd1696ce59a86c760eacde044c487274" />
+		<rom loadflag="load16_byte" name="c01ue.p2" offset="0x1" size="0x20000" crc="fb1e2bd0" sha1="a8aca09428fd37845d828151886a2e96fa0a14b4" />
+		<rom loadflag="load16_byte" name="c01ue.p3" offset="0x40000" size="0x20000" crc="3ce81dbe" sha1="fad65a60eb673543ccea09a3c716b33d45d12dbb" />
+		<rom loadflag="load16_byte" name="c01ue.p4" offset="0x40001" size="0x20000" crc="472eaad1" sha1="71d4b1d7048689ec8d757600389d7592aec4a888" />
+		<rom loadflag="load16_word_swap" name="c01.p5" offset="0x80000" size="0x80000" crc="fd252a26" sha1="5cfb097984912a5167a8c7ec4c2e119b642f9970" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c01.m1" offset="0x0" size="0x8000" crc="59df2a63" sha1="dfe1fffc7a17179a80a2ae623e93b30a7d6df20d" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="forgottn.key" offset="0x0" size="0x80" crc="ec5025a0" sha1="21ac00fbfca9ae369e99469ee372fea0a5bbdb25" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c01.v1" offset="0x0" size="0x20000" crc="807d051f" sha1="720e4733787b9b11f4d1cdce0892b69475802844" />
+		<rom name="c01.v2" offset="0x20000" size="0x20000" crc="e6cd098e" sha1="667f6e5736f76a1c4c450c4e2035574ea89d7910" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>
+<software name="lostwrld">
+	<description>Lost Worlds (Japan)</description>
+	<year>1988</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c01j.p1" offset="0x0" size="0x20000" crc="67e42546" sha1="3e385661f71616180a26b74e443978077246fe66" />
+		<rom loadflag="load16_byte" name="c01j.p2" offset="0x1" size="0x20000" crc="402e2a46" sha1="cbb7017e75a425706505717bf83c2615f53309f9" />
+		<rom loadflag="load16_byte" name="c01j.p3" offset="0x40000" size="0x20000" crc="c46479d7" sha1="84fd9ef33ae7d0af2110e8dc299de25c0f039cee" />
+		<rom loadflag="load16_byte" name="c01j.p4" offset="0x40001" size="0x20000" crc="97670f4a" sha1="f249977c814abdff85007216d7fa57db5684be0f" />
+		<rom loadflag="load16_word_swap" name="c01.p5" offset="0x80000" size="0x80000" crc="fd252a26" sha1="5cfb097984912a5167a8c7ec4c2e119b642f9970" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c01.m1" offset="0x0" size="0x8000" crc="59df2a63" sha1="dfe1fffc7a17179a80a2ae623e93b30a7d6df20d" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="forgottn.key" offset="0x0" size="0x80" crc="ec5025a0" sha1="21ac00fbfca9ae369e99469ee372fea0a5bbdb25" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c01j.v1" offset="0x0" size="0x20000" crc="ce2159e7" sha1="77d564f8b768c1cbd6e5b334f7ee86c4c3f9d62e" />
+		<rom name="c01j.v2" offset="0x20000" size="0x20000" crc="39305536" sha1="ad24d7b6df2dc5e84a35aecb9ba9b0aaa27ab6e5" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>
+<software name="lostwrldo">
+	<description>Lost Worlds (Japan Old Ver.)</description>
+	<year>1988</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c01jo.p1" offset="0x0" size="0x20000" crc="61e2cc56" sha1="bc192e37806129dd00677ca2c2e4287aa670973d" />
+		<rom loadflag="load16_byte" name="c01jo.p2" offset="0x1" size="0x20000" crc="8a0c18d3" sha1="7a4d80cefa0c2be427de43fbbbb906880876ed1d" />
+		<rom loadflag="load16_byte" name="c01jo.p3" offset="0x40000" size="0x20000" crc="23bca4d5" sha1="c9d356d052d82117b6c30e40aa02a5f1f5335a73" />
+		<rom loadflag="load16_byte" name="c01jo.p4" offset="0x40001" size="0x20000" crc="3a023771" sha1="30de9b76e104e897ddce64615f24bba0aa270d14" />
+		<rom loadflag="load16_word_swap" name="c01.p5" offset="0x80000" size="0x80000" crc="fd252a26" sha1="5cfb097984912a5167a8c7ec4c2e119b642f9970" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c01.m1" offset="0x0" size="0x8000" crc="59df2a63" sha1="dfe1fffc7a17179a80a2ae623e93b30a7d6df20d" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="forgottn.key" offset="0x0" size="0x80" crc="ec5025a0" sha1="21ac00fbfca9ae369e99469ee372fea0a5bbdb25" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c01j.v1" offset="0x0" size="0x20000" crc="ce2159e7" sha1="77d564f8b768c1cbd6e5b334f7ee86c4c3f9d62e" />
+		<rom name="c01j.v2" offset="0x20000" size="0x20000" crc="39305536" sha1="ad24d7b6df2dc5e84a35aecb9ba9b0aaa27ab6e5" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

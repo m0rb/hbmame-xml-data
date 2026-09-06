@@ -1,0 +1,27 @@
+<software name="mercsu" cloneof="mercs">
+	<description>Mercs (USA 900608)</description>
+	<year>1990</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c09u.p1" offset="0x0" size="0x20000" crc="e4e725d7" sha1="b0454dedeb741a7dd4ceb18bac958417ca74a7e6" />
+		<rom loadflag="load16_byte" name="c09u.p2" offset="0x1" size="0x20000" crc="e7843445" sha1="192c85ced637e05b37ed889246ebb73e792e984b" />
+		<rom loadflag="load16_byte" name="c09u.p3" offset="0x40000" size="0x20000" crc="c0b91dea" sha1="5c1d086ae09e4f66384a03994b3c5e12d80582ff" />
+		<rom loadflag="load16_byte" name="c09u.p4" offset="0x40001" size="0x20000" crc="591edf6c" sha1="68d77e21fe32e0b95d2fabe40bc1cadd419ab0bd" />
+		<rom loadflag="load16_word_swap" name="c09.p5" offset="0x80000" size="0x80000" crc="2eb5cf0c" sha1="e0d765fb6957d156ffd40cabf51ba6098cbbeb19" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c09.m1" offset="0x0" size="0x8000" crc="d09d7c7a" sha1="8e8532be08818c855d9c3ce45716eb07cfab5767" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="mercs.key" offset="0x0" size="0x80" crc="b0f59dee" sha1="744e4239ddbfdc6d1b53dc1bd49a34df422c8886" />
+		</dataarea>
+		<dataarea name="gfx" size="0x300000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c09.v1" offset="0x0" size="0x20000" crc="bbea1643" sha1="d43d68a120550067bf0b181f88687ad230cd7908" />
+		<rom name="c09.v2" offset="0x20000" size="0x20000" crc="ac58aa71" sha1="93102272e358bc49d3936302efdc5bb68df84d68" />
+		</dataarea>
+	</part>
+</software>

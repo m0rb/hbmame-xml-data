@@ -1,0 +1,25 @@
+<software name="teetertfp">
+	<description>Teeter Torture (Free Play Hack)</description>
+	<year>2013</year>
+	<publisher>DogP</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="teetertfp.11" offset="0xa000" size="0x1000" crc="550375ab" sha1="ae262f30def469cd56fc2f10336b25f766fc1320" />
+		<rom name="10a-cpu" offset="0xb000" size="0x1000" crc="3ae7e445" sha1="e511ce4c553ac58e87b6ee623f8c42d7653de972" />
+		<rom name="teetertfp.9" offset="0xc000" size="0x1000" crc="9fab266f" sha1="b6ad26740f9c87c49b4df122819d1a335fe5545e" />
+		<rom name="8a-cpu" offset="0xd000" size="0x1000" crc="68de66e7" sha1="70a0cc950f16f2c408fae717e6fdb75eb0fd8039" />
+		<rom name="7a-cpu" offset="0xe000" size="0x1000" crc="84491333" sha1="db9f8e4c49057a4574a3784d71e627da7f7a4b44" />
+		<rom name="6a-cpu" offset="0xf000" size="0x1000" crc="3600d465" sha1="84d633e042f73bfd6bf4a4d0ffee1cd2027c65d2" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x800">
+		<rom name="11d-cpu" offset="0x0" size="0x800" crc="0fe70b00" sha1="6068be263d7a8e6b71af6f4dceec40bb8d246376" />
+		</dataarea>
+		<dataarea name="soundbd:audiocpu" size="0x8000">
+		<rom name="3a-ac" offset="0x5800" size="0x800" crc="83b8836f" sha1="ec0e2de62caea61ceff56e924449213997bff8cd" />
+		<rom name="4a-ac" offset="0x6000" size="0x800" crc="5154c39e" sha1="e6f011630eb1aa4116a0e5824ad6b65c1be2455f" />
+		<rom name="5a-ac" offset="0x6800" size="0x800" crc="1e1e3916" sha1="867e586583e07cd01e0e852f6ea52a040995725d" />
+		<rom name="6a-ac" offset="0x7000" size="0x800" crc="80f3357a" sha1="f1ee638251e8676a526e6367c11866b1d52f5910" />
+		<rom name="7a-ac" offset="0x7800" size="0x800" crc="466addc7" sha1="0230b5365d6aeee3ca47666a9eadee4141de125b" />
+		</dataarea>
+	</part>
+</software>

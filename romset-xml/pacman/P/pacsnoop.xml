@@ -1,0 +1,17 @@
+<software name="pacsnoop" cloneof="puckman">
+	<description>Pac Snoop v1.3 [f]</description>
+	<year>2004</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacsnoop.6e" offset="0x0" size="0x1000" crc="fa536307" sha1="55742123de6ef87e1deef31dc75744b98129aa9e" />
+		<rom name="pacsnoop.6f" offset="0x1000" size="0x1000" crc="30ea615c" sha1="afb953167aa8060dc60173f3de065c07fd933cc1" />
+		<rom name="pacsnoop.6h" offset="0x2000" size="0x1000" crc="25da6440" sha1="93414e82442044324ac5475a45fb124da70e5d6f" />
+		<rom name="pacsnoop.6j" offset="0x3000" size="0x1000" crc="a9594951" sha1="5c4fa744fdcc3b0ead7900b079a13297d16a996f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacman.5e" offset="0x0" size="0x1000" crc="0c944964" sha1="06ef227747a440831c9a3a613b76693d52a2f0a9" />
+		<rom name="pacman.5f" offset="0x1000" size="0x1000" crc="958fedf9" sha1="4a937ac02216ea8c96477d4a15522070507fb599" />
+		</dataarea>
+	</part>
+</software>

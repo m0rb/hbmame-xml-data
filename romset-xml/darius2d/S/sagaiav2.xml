@@ -1,0 +1,38 @@
+<software name="sagaiav2">
+	<description>Sagaia (dual screen) (V2)</description>
+	<year>2018</year>
+	<publisher>Taito Corporation Japan</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="c07_44v2.74" offset="0x0" size="0x20000" crc="62e0c736" sha1="86973c4260143e9f1d0d03605487607c6d0c569f" />
+		<rom loadflag="load16_byte" name="c07_43v2.73" offset="0x1" size="0x20000" crc="1c59400b" sha1="6ce3e9c13706b6b96cfeb772d4bfab5622d9d628" />
+		<rom loadflag="load16_byte" name="c07_45v2.76" offset="0x40000" size="0x20000" crc="4fbc9e5f" sha1="4e6ec0cf448397f32854e73d54aa63afebe6893a" />
+		<rom loadflag="load16_byte" name="c07_42v2.71" offset="0x40001" size="0x20000" crc="6c092f03" sha1="b33b607d1a9f7494e680f834a7290925a9db8d33" />
+		<rom loadflag="load16_word_swap" name="c07-09.75" offset="0x80000" size="0x80000" crc="cc69c2ce" sha1="47883b9e14d8b6dd74db221bff396477231938f2" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom name="c07_41.69" offset="0x0" size="0x20000" crc="b50256ea" sha1="6ed271e4dafd1c759adaa55d5b2343d7374c721a" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="c07-10.95" offset="0x0" size="0x80000" crc="4bbe0ed9" sha1="081b73c4e4d4fa548445e5548573099bcb1e9213" />
+		<rom name="c07-11.96" offset="0x80000" size="0x80000" crc="3c815699" sha1="0471ff5b0c0da905267f2cee52fd68c8661cccc9" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x80000">
+		<rom name="c07-12.107" offset="0x0" size="0x80000" crc="e0b71258" sha1="0258e308b643d723475824752ebffc4ea29d1ac4" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		</dataarea>
+		<dataarea name="tc0100scn_1" size="0x100000">
+		<rom loadflag="load16_word_swap" name="c07-03.12" offset="0x0" size="0x80000" crc="189bafce" sha1="d885e444523489fe24269b90dec58e0d92cfbd6e" />
+		<rom loadflag="load16_word_swap" name="c07-04.11" offset="0x80000" size="0x80000" crc="50421e81" sha1="27ac420602f1dac00dc32903543a518e6f47fb2f" />
+		</dataarea>
+		<dataarea name="tc0100scn_2" size="0x100000">
+		<rom loadflag="load16_word_swap" name="c07-03.47" offset="0x0" size="0x80000" crc="189bafce" sha1="d885e444523489fe24269b90dec58e0d92cfbd6e" />
+		<rom loadflag="load16_word_swap" name="c07-04.48" offset="0x80000" size="0x80000" crc="50421e81" sha1="27ac420602f1dac00dc32903543a518e6f47fb2f" />
+		</dataarea>
+		<dataarea name="user1" size="0x1000">
+		<rom name="c07-13.37" offset="0x0" size="0x400" crc="3ca18eb3" sha1="54560f02c2be67993940831222130e90cd171991" />
+		<rom name="c07-14.38" offset="0x0" size="0x400" crc="baf2a193" sha1="b7f103b5f5aab0702dd21fd7e3a82261ae1760e9" />
+		</dataarea>
+	</part>
+</software>

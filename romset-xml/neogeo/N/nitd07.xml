@@ -1,0 +1,18 @@
+<software name="nitd07" cloneof="nitd">
+	<description>Nightmare in the Dark (Spanish)</description>
+	<year>2015</year>
+	<publisher>Meganiuz</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="260s08.p1" offset="0x0" size="0x80000" crc="42b69e41" sha1="cb814190d96ef67096ee9f4f305611d870a76e93" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="260.v1" offset="0x0" size="0x400000" crc="24b0480c" sha1="d769e621be52a5cd2e2568891b5f95a48268e1e0" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="260s08.c1" offset="0x0" size="0x800000" crc="3f7fbd0c" sha1="2e6cedcb099ae8f5bbdb9d989ca3918d7fb0504f" />
+		<rom loadflag="load16_byte" name="260s08.c2" offset="0x1" size="0x800000" crc="b5ddbb97" sha1="b44dee65bbb5b2c6d7c6d4990762b26deaf3c696" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,28 @@
+<software name="ffightjs01" cloneof="ffight">
+	<description>Final Fight (Japan, CD cutscenes, 2026-08-25)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c07.p1" offset="0x0" size="0x20000" crc="5da20636" sha1="52b55f24ed103a9ebd4d2ec31bf08a3a6c75b239" />
+		<rom loadflag="load16_byte" name="c07.p2" offset="0x1" size="0x20000" crc="978b1808" sha1="c4f011245de03c613a9103cc114a9b3300e6b750" />
+		<rom loadflag="load16_byte" name="c07.p3" offset="0x40000" size="0x20000" crc="118eb060" sha1="12188886993438298a83d2f4c0377672c809994b" />
+		<rom loadflag="load16_byte" name="c07j.p4" offset="0x40001" size="0x20000" crc="d660195d" sha1="452616779332436bc11b33ef5fd4fd47a066ba1c" />
+		<rom loadflag="load16_word_swap" name="c07.p5" offset="0x80000" size="0x80000" crc="468258c6" sha1="6e76620075169f2fd260f17820ae2e20c9e177b0" />
+		<rom loadflag="load16_word_swap" name="c07js01.p7" offset="0x100000" size="0x100000" crc="32709844" sha1="37cf05d19a224d36459e5bbf64dc45f3acd35289" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c07.m1" offset="0x0" size="0x8000" crc="283b10ed" sha1="3d7979967145bd28c01490dd7ef9d9716dede2dd" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="ffightjs01.key" offset="0x0" size="0x80" crc="44c06640" sha1="1c947e46dc87338f54266af7e6281eac1ed1c121" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c07.v1" offset="0x0" size="0x20000" crc="375c66e7" sha1="36189e23209ce4ae5d9cbabd1574540d0591e7b3" />
+		<rom name="c07.v2" offset="0x20000" size="0x20000" crc="1ef137f9" sha1="974b5e72aa28b87ebfa7438efbdfeda769dedf5e" />
+		</dataarea>
+	</part>
+</software>

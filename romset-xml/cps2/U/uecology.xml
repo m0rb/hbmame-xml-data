@@ -1,0 +1,26 @@
+<software name="uecology" cloneof="ecofghtr">
+	<description>Ultimate Ecology (Japan 931203)</description>
+	<year>1993</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c49j.p1" offset="0x0" size="0x80000" crc="94c40a4c" sha1="6446b22a30a9a3c87b7a9fc2f15fbceccfbfb942" />
+		<rom loadflag="load16_word_swap" name="c49j.p2" offset="0x80000" size="0x80000" crc="8d6e3a09" sha1="80167275f288a4c4b2bb61bdde956015f4206b78" />
+		<rom loadflag="load16_word_swap" name="c49j.p3" offset="0x100000" size="0x80000" crc="8604ecd7" sha1="e1690565b40db84f4ce30e6eb2d7940b82989678" />
+		<rom loadflag="load16_word_swap" name="c49j.p4" offset="0x180000" size="0x80000" crc="b7e1d31f" sha1="6567f14af9fd567dea963fda5cd37c55cab30704" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c49.m1" offset="0x0" size="0x8000" crc="c235bd15" sha1="feb7cd7db9dc0b9887b33eed9796bb0205fb719d" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="uecology.key" offset="0x0" size="0x14" crc="0bab792d" sha1="e71ca1abf4101a8d580f9a81ac71b5fd33c0fbfb" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c49.q1" offset="0x0" size="0x200000" crc="81b25d39" sha1="448adfcc7d98873a48c710d857225cdd1580e5c9" />
+		<rom loadflag="load16_word_swap" name="c49.q2" offset="0x200000" size="0x200000" crc="27729e52" sha1="a55c8159adf766dda70cb047f5ac85ce6bc0a3f3" />
+		</dataarea>
+	</part>
+</software>

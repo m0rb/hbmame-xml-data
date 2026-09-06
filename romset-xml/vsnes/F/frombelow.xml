@@ -1,0 +1,16 @@
+<software name="frombelow" cloneof="suprmrio">
+	<description>Vs. From Below (beta 0.8.0, 2020-12-21)</description>
+	<year>2020</year>
+	<publisher>Matt Hughson</publisher>
+	<part name="cart">
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="from_below_vs_2020_12_21_v_0_8_0.nes.chr.2b.bin" offset="0x0" size="0x2000" crc="7f2e1b5b" sha1="949af8437d6789c1b1e60a242bc1e1da2d07b468" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="from_below_vs_2020_12_21_v_0_8_0.nes.prg.1a.bin" offset="0x6000" size="0x2000" crc="37445c70" sha1="494cb76e5d79a86da1f584d7cd71790f657de82c" />
+		<rom name="from_below_vs_2020_12_21_v_0_8_0.nes.prg.1b.bin" offset="0x4000" size="0x2000" crc="d991120e" sha1="bbcb7c069d90124f61b0aecece438aed5f50996d" />
+		<rom name="from_below_vs_2020_12_21_v_0_8_0.nes.prg.1c.bin" offset="0x2000" size="0x2000" crc="345ae82e" sha1="531ceb32bed3e641aef5c875c9cca540944e77cc" />
+		<rom name="from_below_vs_2020_12_21_v_0_8_0.nes.prg.1d.bin" offset="0x0" size="0x2000" crc="1aebf43b" sha1="45e5aa6a8a7df503c1488acf6bd406aed17075af" />
+		</dataarea>
+	</part>
+</software>

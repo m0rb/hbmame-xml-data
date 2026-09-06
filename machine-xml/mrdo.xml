@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="mrdo" description="Mrdo cartridges">
+<software name="mrdigdo">
+	<description>Mr. Do! (Dig Dug sprites)</description>
+	<year>1998</year>
+	<publisher>Justin Clark</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="d1" offset="0x0" size="0x2000" crc="3dcd9359" sha1="bfe00450ee8822f437d87514f051ad1be6de9463" />
+		<rom name="d2" offset="0x2000" size="0x2000" crc="710058d8" sha1="168cc179f2266bbf9437445bef9ff7d3358a8e6b" />
+		<rom name="d3" offset="0x4000" size="0x2000" crc="467d12d8" sha1="7bb85e6a780de1c0c224229ee571cab39098f78d" />
+		<rom name="d4" offset="0x6000" size="0x2000" crc="fce9afeb" sha1="26236a42c1c620975d4480c4315d0c6f112429b6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mrdigdo.d9" offset="0x0" size="0x1000" crc="b83b8a84" sha1="138a4fd1b7470def1b4e8aa4cfcf4c4b6bebf35b" />
+		<rom name="mrdigdo.d10" offset="0x1000" size="0x1000" crc="061cabb9" sha1="cdc8876f1c402565835db01a78906200430bcf72" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="r8-08.bin" offset="0x0" size="0x1000" crc="dbdc9ffa" sha1="93f29fc106283eecbba3fd69cf3c4658aa38ab9f" />
+		<rom name="n8-07.bin" offset="0x1000" size="0x1000" crc="4b9973db" sha1="8766c51a345a5e63446e65614c6f665ab5fbe0d7" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x2000">
+		<rom name="mrdigdo.d5" offset="0x0" size="0x1000" crc="401f9fa5" sha1="7483150ae429c9841d04ec4d79eda59bf1db8330" />
+		<rom name="mrdigdo.d6" offset="0x1000" size="0x1000" crc="ff401f59" sha1="5f34363ffb5e470470c3a0d9ff704f4d9b814ecd" />
+		</dataarea>
+		<dataarea name="proms" size="0x80">
+		<rom name="u02--2.bin" offset="0x0" size="0x20" crc="238a65d7" sha1="a5b20184a1989db23544296331462ec4d7be7516" />
+		<rom name="t02--3.bin" offset="0x20" size="0x20" crc="ae263dc0" sha1="7072c100b9d692f5bb12b0c9e304425f534481e2" />
+		<rom name="f10--1.bin" offset="0x40" size="0x20" crc="16ee4ca2" sha1="fcba4d103708b9711452009cd29c4f88d2f64cd3" />
+		<rom name="j10--4.bin" offset="0x60" size="0x20" crc="ff7fe284" sha1="3ac8e30011c1fcba0ee8f4dc932f82296c3ba143" />
+		</dataarea>
+	</part>
+</software>
+<software name="mrdofast">
+	<description>Mr. Do! (Speedup Hack)</description>
+	<year>1982</year>
+	<publisher>Evil Exidy Dump</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="a4-01.bin" offset="0x0" size="0x2000" crc="03dcfba2" sha1="c15e3d0c4225e0ca120bcd28aca39632575f8e11" />
+		<rom name="mrdofast.02" offset="0x2000" size="0x2000" crc="894d12e4" sha1="ff89eca0506727f1973b14a13d848799e7ada7ec" />
+		<rom name="e4-03.bin" offset="0x4000" size="0x2000" crc="358f5dc2" sha1="9fed1f5d1d04935d1b77687c8b2f3bfce970dc08" />
+		<rom name="f4-04.bin" offset="0x6000" size="0x2000" crc="f4190cfc" sha1="24f5125d900f944294d4eda068b710c8f1c6d39f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="s8-09.bin" offset="0x0" size="0x1000" crc="aa80c5b6" sha1="76f9f90deb74598470e7ed565237da38dd07e4e9" />
+		<rom name="u8-10.bin" offset="0x1000" size="0x1000" crc="d20ec85b" sha1="9762bbe34d3fa209ea719807c723f57cb6bf4e01" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="r8-08.bin" offset="0x0" size="0x1000" crc="dbdc9ffa" sha1="93f29fc106283eecbba3fd69cf3c4658aa38ab9f" />
+		<rom name="n8-07.bin" offset="0x1000" size="0x1000" crc="4b9973db" sha1="8766c51a345a5e63446e65614c6f665ab5fbe0d7" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x2000">
+		<rom name="h5-05.bin" offset="0x0" size="0x1000" crc="e1218cc5" sha1="d946613a1cf1c97f7533a4f8c2d0078d1b7daaa8" />
+		<rom name="k5-06.bin" offset="0x1000" size="0x1000" crc="b1f68b04" sha1="25709cd81c03df51f27cd730fecf86a1daa9e27e" />
+		</dataarea>
+		<dataarea name="proms" size="0x80">
+		<rom name="u02--2.bin" offset="0x0" size="0x20" crc="238a65d7" sha1="a5b20184a1989db23544296331462ec4d7be7516" />
+		<rom name="t02--3.bin" offset="0x20" size="0x20" crc="ae263dc0" sha1="7072c100b9d692f5bb12b0c9e304425f534481e2" />
+		<rom name="f10--1.bin" offset="0x40" size="0x20" crc="16ee4ca2" sha1="fcba4d103708b9711452009cd29c4f88d2f64cd3" />
+		<rom name="j10--4.bin" offset="0x60" size="0x20" crc="ff7fe284" sha1="3ac8e30011c1fcba0ee8f4dc932f82296c3ba143" />
+		</dataarea>
+	</part>
+</software>
+<software name="mrdotest">
+	<description>Mr. Do! Test Rom (2017-12-07)</description>
+	<year>2017</year>
+	<publisher>Phil Murray</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="mrdotest.01" offset="0x0" size="0x426" crc="6fcd7d9a" sha1="83f9b849da2327320893f156684a53ad9b0a5d7b" />
+		<rom name="c4-02.bin" offset="0x2000" size="0x2000" crc="0ecdd39c" sha1="c64b3363593911a676c647bf3dba8fe063fcb0de" />
+		<rom name="e4-03.bin" offset="0x4000" size="0x2000" crc="358f5dc2" sha1="9fed1f5d1d04935d1b77687c8b2f3bfce970dc08" />
+		<rom name="f4-04.bin" offset="0x6000" size="0x2000" crc="f4190cfc" sha1="24f5125d900f944294d4eda068b710c8f1c6d39f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="s8-09.bin" offset="0x0" size="0x1000" crc="aa80c5b6" sha1="76f9f90deb74598470e7ed565237da38dd07e4e9" />
+		<rom name="u8-10.bin" offset="0x1000" size="0x1000" crc="d20ec85b" sha1="9762bbe34d3fa209ea719807c723f57cb6bf4e01" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="r8-08.bin" offset="0x0" size="0x1000" crc="dbdc9ffa" sha1="93f29fc106283eecbba3fd69cf3c4658aa38ab9f" />
+		<rom name="n8-07.bin" offset="0x1000" size="0x1000" crc="4b9973db" sha1="8766c51a345a5e63446e65614c6f665ab5fbe0d7" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x2000">
+		<rom name="h5-05.bin" offset="0x0" size="0x1000" crc="e1218cc5" sha1="d946613a1cf1c97f7533a4f8c2d0078d1b7daaa8" />
+		<rom name="k5-06.bin" offset="0x1000" size="0x1000" crc="b1f68b04" sha1="25709cd81c03df51f27cd730fecf86a1daa9e27e" />
+		</dataarea>
+		<dataarea name="pal16r6" size="0x200">
+		<rom name="u001_pal16r6cn.j2" offset="0x0" size="0x104" crc="84dbe498" sha1="5863342b2db85ffef31b5e9ce26bfd8fca9923b0" />
+		</dataarea>
+		<dataarea name="proms" size="0x80">
+		<rom name="u02--2.bin" offset="0x0" size="0x20" crc="238a65d7" sha1="a5b20184a1989db23544296331462ec4d7be7516" />
+		<rom name="t02--3.bin" offset="0x20" size="0x20" crc="ae263dc0" sha1="7072c100b9d692f5bb12b0c9e304425f534481e2" />
+		<rom name="f10--1.bin" offset="0x40" size="0x20" crc="16ee4ca2" sha1="fcba4d103708b9711452009cd29c4f88d2f64cd3" />
+		<rom name="j10--4.bin" offset="0x60" size="0x20" crc="ff7fe284" sha1="3ac8e30011c1fcba0ee8f4dc932f82296c3ba143" />
+		</dataarea>
+	</part>
+</software>
+<software name="mrpac">
+	<description>Mr. Pac! (Set 1)</description>
+	<year>2002</year>
+	<publisher>Twisty</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="a4-01.bin" offset="0x0" size="0x2000" crc="03dcfba2" sha1="c15e3d0c4225e0ca120bcd28aca39632575f8e11" />
+		<rom name="c4-02.bin" offset="0x2000" size="0x2000" crc="0ecdd39c" sha1="c64b3363593911a676c647bf3dba8fe063fcb0de" />
+		<rom name="e4-03.bin" offset="0x4000" size="0x2000" crc="358f5dc2" sha1="9fed1f5d1d04935d1b77687c8b2f3bfce970dc08" />
+		<rom name="f4-04.bin" offset="0x6000" size="0x2000" crc="f4190cfc" sha1="24f5125d900f944294d4eda068b710c8f1c6d39f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mrpac-s8-09" offset="0x0" size="0x1000" crc="930908e5" sha1="13666166bb6a38c0b7a8d4133a0fb6fdd7aee372" />
+		<rom name="mrpac-u8-10" offset="0x1000" size="0x1000" crc="ead6d3d6" sha1="2dc959ca1e9e2cbdc0098ce92b9a11dc24643a38" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="r8-08.bin" offset="0x0" size="0x1000" crc="dbdc9ffa" sha1="93f29fc106283eecbba3fd69cf3c4658aa38ab9f" />
+		<rom name="n8-07.bin" offset="0x1000" size="0x1000" crc="4b9973db" sha1="8766c51a345a5e63446e65614c6f665ab5fbe0d7" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x2000">
+		<rom name="mrpac-h5-05" offset="0x0" size="0x1000" crc="de213e01" sha1="61f3d3081dded0cc753640632127e52e4ddf0a75" />
+		<rom name="mrpac-k5-06" offset="0x1000" size="0x1000" crc="c2e376a4" sha1="d7e5fbdcd2b66ec56524e37eee18f91af96443dd" />
+		</dataarea>
+		<dataarea name="proms" size="0x80">
+		<rom name="u02--2.bin" offset="0x0" size="0x20" crc="238a65d7" sha1="a5b20184a1989db23544296331462ec4d7be7516" />
+		<rom name="t02--3.bin" offset="0x20" size="0x20" crc="ae263dc0" sha1="7072c100b9d692f5bb12b0c9e304425f534481e2" />
+		<rom name="f10--1.bin" offset="0x40" size="0x20" crc="16ee4ca2" sha1="fcba4d103708b9711452009cd29c4f88d2f64cd3" />
+		<rom name="j10--4.bin" offset="0x60" size="0x20" crc="ff7fe284" sha1="3ac8e30011c1fcba0ee8f4dc932f82296c3ba143" />
+		</dataarea>
+	</part>
+</software>
+<software name="mrpacb">
+	<description>Mr. Pac! (Set 2)</description>
+	<year>2002</year>
+	<publisher>Twisty</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="a4-01.bin" offset="0x0" size="0x2000" crc="03dcfba2" sha1="c15e3d0c4225e0ca120bcd28aca39632575f8e11" />
+		<rom name="c4-02.bin" offset="0x2000" size="0x2000" crc="0ecdd39c" sha1="c64b3363593911a676c647bf3dba8fe063fcb0de" />
+		<rom name="e4-03.bin" offset="0x4000" size="0x2000" crc="358f5dc2" sha1="9fed1f5d1d04935d1b77687c8b2f3bfce970dc08" />
+		<rom name="f4-04.bin" offset="0x6000" size="0x2000" crc="f4190cfc" sha1="24f5125d900f944294d4eda068b710c8f1c6d39f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mrpacb-s8-09" offset="0x0" size="0x1000" crc="ff01d8a0" sha1="d3d674d8e5bfc6a133fc047bbfb21d179a322c07" />
+		<rom name="mrpacb-u8-10" offset="0x1000" size="0x1000" crc="c1e9b7e8" sha1="ea455a616597c58bfa88b5ba1069b3fb33d84a7f" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="r8-08.bin" offset="0x0" size="0x1000" crc="dbdc9ffa" sha1="93f29fc106283eecbba3fd69cf3c4658aa38ab9f" />
+		<rom name="n8-07.bin" offset="0x1000" size="0x1000" crc="4b9973db" sha1="8766c51a345a5e63446e65614c6f665ab5fbe0d7" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x2000">
+		<rom name="mrpac-h5-05" offset="0x0" size="0x1000" crc="de213e01" sha1="61f3d3081dded0cc753640632127e52e4ddf0a75" />
+		<rom name="mrpac-k5-06" offset="0x1000" size="0x1000" crc="c2e376a4" sha1="d7e5fbdcd2b66ec56524e37eee18f91af96443dd" />
+		</dataarea>
+		<dataarea name="proms" size="0x80">
+		<rom name="u02--2.bin" offset="0x0" size="0x20" crc="238a65d7" sha1="a5b20184a1989db23544296331462ec4d7be7516" />
+		<rom name="t02--3.bin" offset="0x20" size="0x20" crc="ae263dc0" sha1="7072c100b9d692f5bb12b0c9e304425f534481e2" />
+		<rom name="f10--1.bin" offset="0x40" size="0x20" crc="16ee4ca2" sha1="fcba4d103708b9711452009cd29c4f88d2f64cd3" />
+		<rom name="j10--4.bin" offset="0x60" size="0x20" crc="ff7fe284" sha1="3ac8e30011c1fcba0ee8f4dc932f82296c3ba143" />
+		</dataarea>
+	</part>
+</software>
+<software name="newdigdo">
+	<description>Mr. Dig-Do!</description>
+	<year>1999</year>
+	<publisher>Vic Twenty George, Jerky, Justin Clark</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="a4-01.bin" offset="0x0" size="0x2000" crc="03dcfba2" sha1="c15e3d0c4225e0ca120bcd28aca39632575f8e11" />
+		<rom name="c4-02.bin" offset="0x2000" size="0x2000" crc="0ecdd39c" sha1="c64b3363593911a676c647bf3dba8fe063fcb0de" />
+		<rom name="e4-03.bin" offset="0x4000" size="0x2000" crc="358f5dc2" sha1="9fed1f5d1d04935d1b77687c8b2f3bfce970dc08" />
+		<rom name="f4-04.bin" offset="0x6000" size="0x2000" crc="f4190cfc" sha1="24f5125d900f944294d4eda068b710c8f1c6d39f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="nd-s8-09" offset="0x0" size="0x1000" crc="48f2bd6d" sha1="d741f58d5b7e74c498eee11cb8b959f7eec73671" />
+		<rom name="nd-u8-10" offset="0x1000" size="0x1000" crc="7be2fc3e" sha1="763f95812e35671b3815385cec5ccdaeca4b2b2a" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="nd-r8-08" offset="0x0" size="0x1000" crc="069a3e35" sha1="09a361baed6417fdb4ecc1d8dd09ae9b2ccdef99" />
+		<rom name="nd-n8-07" offset="0x1000" size="0x1000" crc="7ef6f5e4" sha1="8839f6670010c0249b19f306c200c29775dc0351" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x2000">
+		<rom name="nd-h5-05" offset="0x0" size="0x1000" crc="4c8f6cf8" sha1="92a0a5b8178fec5f7c4214c03d7d691872fed59a" />
+		<rom name="nd-k5-06" offset="0x1000" size="0x1000" crc="1a5f18fc" sha1="58cbad50c1001dfcb302c28db183e511907e6f86" />
+		</dataarea>
+		<dataarea name="proms" size="0x80">
+		<rom name="u02--2.bin" offset="0x0" size="0x20" crc="238a65d7" sha1="a5b20184a1989db23544296331462ec4d7be7516" />
+		<rom name="t02--3.bin" offset="0x20" size="0x20" crc="ae263dc0" sha1="7072c100b9d692f5bb12b0c9e304425f534481e2" />
+		<rom name="f10--1.bin" offset="0x40" size="0x20" crc="16ee4ca2" sha1="fcba4d103708b9711452009cd29c4f88d2f64cd3" />
+		<rom name="j10--4.bin" offset="0x60" size="0x20" crc="ff7fe284" sha1="3ac8e30011c1fcba0ee8f4dc932f82296c3ba143" />
+		</dataarea>
+	</part>
+</software>
+<software name="stickydo">
+	<description>Mr. Sticky Do!</description>
+	<year>2001</year>
+	<publisher>Marks Hacks</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="a4-01.bin" offset="0x0" size="0x2000" crc="03dcfba2" sha1="c15e3d0c4225e0ca120bcd28aca39632575f8e11" />
+		<rom name="c4-02.bin" offset="0x2000" size="0x2000" crc="0ecdd39c" sha1="c64b3363593911a676c647bf3dba8fe063fcb0de" />
+		<rom name="e4-03.bin" offset="0x4000" size="0x2000" crc="358f5dc2" sha1="9fed1f5d1d04935d1b77687c8b2f3bfce970dc08" />
+		<rom name="f4-04.bin" offset="0x6000" size="0x2000" crc="f4190cfc" sha1="24f5125d900f944294d4eda068b710c8f1c6d39f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="st-s8-09" offset="0x0" size="0x1000" crc="0becc7bc" sha1="d5ef21aa6f8daaf98f4c6c809504edea4fde35a1" />
+		<rom name="st-u8-10" offset="0x1000" size="0x1000" crc="fc08364e" sha1="69edf2405836511035f46cddb339e57b4eb5b2fe" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="nd-r8-08" offset="0x0" size="0x1000" crc="069a3e35" sha1="09a361baed6417fdb4ecc1d8dd09ae9b2ccdef99" />
+		<rom name="nd-n8-07" offset="0x1000" size="0x1000" crc="7ef6f5e4" sha1="8839f6670010c0249b19f306c200c29775dc0351" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x2000">
+		<rom name="st-h5-05" offset="0x0" size="0x1000" crc="64d2f54f" sha1="f301c0190f780bc60d03e5b752bde5e81ce5e93c" />
+		<rom name="st-k5-06" offset="0x1000" size="0x1000" crc="af9b0d35" sha1="da2d469514a3b95362dace2f48d320234a695e28" />
+		</dataarea>
+		<dataarea name="proms" size="0x80">
+		<rom name="u02--2.bin" offset="0x0" size="0x20" crc="238a65d7" sha1="a5b20184a1989db23544296331462ec4d7be7516" />
+		<rom name="t02--3.bin" offset="0x20" size="0x20" crc="ae263dc0" sha1="7072c100b9d692f5bb12b0c9e304425f534481e2" />
+		<rom name="f10--1.bin" offset="0x40" size="0x20" crc="16ee4ca2" sha1="fcba4d103708b9711452009cd29c4f88d2f64cd3" />
+		<rom name="j10--4.bin" offset="0x60" size="0x20" crc="ff7fe284" sha1="3ac8e30011c1fcba0ee8f4dc932f82296c3ba143" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

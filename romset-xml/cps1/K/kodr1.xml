@@ -1,0 +1,30 @@
+<software name="kodr1" cloneof="kod">
+	<description>The King of Dragons (World 910711)</description>
+	<year>1991</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c16r1.p1" offset="0x0" size="0x20000" crc="c7414fd4" sha1="37d27fbe7c617a26b53bfdfcd532cf573d42f33b" />
+		<rom loadflag="load16_byte" name="c16r1.p2" offset="0x1" size="0x20000" crc="a5bf40d2" sha1="cd34dbeabd0974709411579e669f01d0d799c2a1" />
+		<rom loadflag="load16_byte" name="c16r1.p3" offset="0x40000" size="0x20000" crc="1fffc7bd" sha1="822c9ad996ca51a99a2bb1fe08fa19e18413030d" />
+		<rom loadflag="load16_byte" name="c16r1.p4" offset="0x40001" size="0x20000" crc="89e57a82" sha1="aad35f86a8b1b7e3a0b5f3e6efd0e844b3d3d82f" />
+		<rom loadflag="load16_byte" name="c16.p5" offset="0x80000" size="0x20000" crc="9367bcd9" sha1="8243b4b9bb9756f3fa726717e19a166cb2f5b50a" />
+		<rom loadflag="load16_byte" name="c16.p6" offset="0x80001" size="0x20000" crc="4ca6a48a" sha1="9d440ecd8d2d0e293fecf64ca3915252b94e7aef" />
+		<rom loadflag="load16_byte" name="c16r1.p7" offset="0xc0000" size="0x20000" crc="6a0ba878" sha1="82e4037d73889a76b0cdc7a4f8e77e585d38e56e" />
+		<rom loadflag="load16_byte" name="c16r1.p8" offset="0xc0001" size="0x20000" crc="b509b39d" sha1="6023855e54b170e55abf0f607600031e19e5e722" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c16r1.m1" offset="0x0" size="0x8000" crc="f5514510" sha1="07e9c836adf9ef2f7e7729e99015f71e3b5f16e0" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="kod.key" offset="0x0" size="0x80" crc="b79ea9b9" sha1="cefded329a6ccc34d3b68e614c8f3a2c174e3fdd" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c16r1.v1" offset="0x0" size="0x20000" crc="69ecb2c8" sha1="fadf266b6b20bd6329a3e638918c5a3106413476" />
+		<rom name="c16r1.v2" offset="0x20000" size="0x20000" crc="02d851c1" sha1="c959a6fc3e7d893557f319debae91f28471f4be2" />
+		</dataarea>
+	</part>
+</software>

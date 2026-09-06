@@ -1,0 +1,13 @@
+<software name="warrior4j2">
+	<description>Warrior (4 joysticks, v2)</description>
+	<year>2014</year>
+	<publisher>Timothy Shiels</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x2000">
+		<rom loadflag="load16_byte" name="warrior4j2.t7" offset="0x0" size="0x800" crc="fdf360c8" sha1="4a1eb1d38a0a1523e1b5da5f95011136ed34e0ab" />
+		<rom loadflag="load16_byte" name="warrior4j2.p7" offset="0x1" size="0x800" crc="b9b94d47" sha1="18964b0c05841003d0b67a08f4f5760122668dce" />
+		<rom loadflag="load16_byte" name="warrior4j2.u7" offset="0x1000" size="0x800" crc="f7de23b2" sha1="a5e2efbfa10e0aaf081f81b1c88ab0042b6b7126" />
+		<rom loadflag="load16_byte" name="warrior4j2.r7" offset="0x1001" size="0x800" crc="ba00c108" sha1="3b37f24bc66ba9607dc11655bbbd8f53bd77cda5" />
+		</dataarea>
+	</part>
+</software>

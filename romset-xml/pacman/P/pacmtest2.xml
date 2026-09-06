@@ -1,0 +1,14 @@
+<software name="pacmtest2" cloneof="puckman">
+	<description>Pacman Test Rom (set 3)</description>
+	<year>2020</year>
+	<publisher>Phil Murray</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacmtest2.1" offset="0x0" size="0x530" crc="3c33cbeb" sha1="b26f4fcad7042f93e6df29af73c3ee91a7333837" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacman.5e" offset="0x0" size="0x1000" crc="0c944964" sha1="06ef227747a440831c9a3a613b76693d52a2f0a9" />
+		<rom name="pacman.5f" offset="0x1000" size="0x1000" crc="958fedf9" sha1="4a937ac02216ea8c96477d4a15522070507fb599" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,36 @@
+<software name="lightbr01" cloneof="lightbr">
+	<description>Light Bringer (Chinese, 2017-04-26)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="d69-20hc01.bin" offset="0x0" size="0x80000" crc="5b29e745" sha1="a20ffaf53cb7572217ad5e92d3641927b1998eab" />
+		<rom loadflag="load32_byte" name="d69-13hc01.bin" offset="0x1" size="0x80000" crc="0764221f" sha1="1465f51396348c12c7d272232699eb69bd46bf9b" />
+		<rom loadflag="load32_byte" name="d69-15hc01.bin" offset="0x2" size="0x80000" crc="66c3a572" sha1="122bdab9becdd2df0f43c2a34e079cf1625159b9" />
+		<rom loadflag="load32_byte" name="d69-14hc01.bin" offset="0x3" size="0x80000" crc="c1588074" sha1="0e5c1677f89953791837d1293cc924cfa7fe54e5" />
+		</dataarea>
+		<dataarea name="sprites" size="0x600000">
+		<rom loadflag="load16_byte" name="d69-06.bin" offset="0x0" size="0x200000" crc="cb4aac81" sha1="15d315c6b9695cc2fe07defc67c7a4fb26de1950" />
+		<rom loadflag="load16_byte" name="d69-07.bin" offset="0x1" size="0x200000" crc="b749f984" sha1="39fd662bdc42e812519181a640a83e29e300826a" />
+		<rom loadflag="load16_byte" name="d69-09hc01.bin" offset="0x400000" size="0x100000" crc="dbac0bf3" sha1="ff17a43fc0b2f6b41b8394ad00e00b2683e2287a" />
+		<rom loadflag="load16_byte" name="d69-10hc01.bin" offset="0x400001" size="0x100000" crc="50673c49" sha1="62f3fa18c39c0149ec021c5617d2989d546550aa" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x300000">
+		<rom name="d69-08.bin" offset="0x0" size="0x200000" crc="5b68d7d8" sha1="f2ee3dd7100a3c9d8f402fe36dae2bc66cb17be3" />
+		<rom name="d69-11hc01.bin" offset="0x200000" size="0x100000" crc="1988fb12" sha1="790bfaf765bad2665381b6b752d2c26c010b4e4e" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x140000">
+		<rom loadflag="load16_byte" name="d69-18.bin" offset="0x100000" size="0x20000" crc="04600d7b" sha1="666cfab09b61fd6e0bc4ff277018ebf1cda01b0e" />
+		<rom loadflag="load16_byte" name="d69-19.bin" offset="0x100001" size="0x20000" crc="1484e853" sha1="4459c18ba005786483c652857e527c6093efb036" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="d69-01.bin" offset="0x0" size="0x200000" crc="9ac93ac2" sha1="1c44f6ba95505f85b0c8a90395f09d2a49da3553" />
+		<rom loadflag="load16_byte" name="d69-02.bin" offset="0x400000" size="0x200000" crc="dce28dd7" sha1="eacfc98349b0608fc1a944c11f0483fb6caa4445" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x400000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x200000">
+		<rom name="d69-05hc01.bin" offset="0x0" size="0x200000" crc="f84c9c40" sha1="2e1945ecd904d41d4bca9fbde0083b0c78037b2f" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,24 @@
+<software name="gulunpa">
+	<description>Gulun.Pa! (Japan 931220 L) (prototype)</description>
+	<year>1993</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c29.p1" offset="0x0" size="0x20000" crc="f30ffa29" sha1="9e70daf4229485dc5700b074dba55839c7357351" />
+		<rom loadflag="load16_byte" name="c29.p2" offset="0x1" size="0x20000" crc="5d35f737" sha1="47b6bfa6eaa512684e12c23162243d1a21cb1a7a" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c29.m1" offset="0x0" size="0x8000" crc="15afd06f" sha1="1a4ff3e11e55266e7c93743b6564c226eaaba142" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="gulunpa.key" offset="0x0" size="0x80" crc="8c631504" sha1="2a81419406e09ed9cded92e7fc4f2cf292bbafba" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c29.v1" offset="0x0" size="0x20000" crc="9997a34f" sha1="8e107d6413836c48fc57e4a9b89ae99a9e381e8b" />
+		<rom name="c29.v2" offset="0x20000" size="0x20000" crc="e95270ac" sha1="dc684abfa1ea276a00ec541ab8f3f9f131375faa" />
+		</dataarea>
+	</part>
+</software>

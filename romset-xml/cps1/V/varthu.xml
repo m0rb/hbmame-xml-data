@@ -1,0 +1,24 @@
+<software name="varthu" cloneof="varth">
+	<description>Varth: Operation Thunderstorm (USA 920612)</description>
+	<year>1992</year>
+	<publisher>Capcom (Romstar license)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c21u.p1" offset="0x0" size="0x80000" crc="fbe68726" sha1="68917d366551d2203400adc3261355dd3b332bcb" />
+		<rom loadflag="load16_word_swap" name="c21u.p5" offset="0x80000" size="0x80000" crc="0ed71bbd" sha1="e7f0f0edf0936a774e122842b09f5c5ce25a96ad" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c21.m1" offset="0x0" size="0x8000" crc="7a99446e" sha1="ca027f41e3e58be5abc33ad7380746658cb5380a" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="varth.key" offset="0x0" size="0x80" crc="9af7013d" sha1="6182dfe656c25cc5ef009bfb1b5820ad3ce71c77" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c21.v1" offset="0x0" size="0x20000" crc="de30510e" sha1="8e878696192606b76a3a0e53553e638d9621cff7" />
+		<rom name="c21.v2" offset="0x20000" size="0x20000" crc="0610a4ac" sha1="3da02ea6a7a56c85de898806d2a1cf6bc526c1b3" />
+		</dataarea>
+	</part>
+</software>

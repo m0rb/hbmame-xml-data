@@ -1,0 +1,17 @@
+<software name="pc_smb3_ps04" cloneof="pc_smb3">
+	<description>Super Mario Bros. 3 (Key Substitution Version, 2013-11-25)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="u1um" offset="0x0" size="0x20000" crc="c2928c49" sha1="2697d1f21b72a6d8e7d2a2d2c51c9c5550f68b56" />
+		</dataarea>
+		<dataarea name="prg" size="0x40000">
+		<rom name="u4um" offset="0x0" size="0x20000" crc="590b4d7c" sha1="ac45940b71215a3a48983e22e1c7e71a71642b91" />
+		<rom name="u5um_ps04" offset="0x20000" size="0x20000" crc="95625dc7" sha1="363cfe756b06d7239d2d28c76d0dd66dd332fe41" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="e48f4945" sha1="66fe537cfe540317d6194847321ce4a9bdf0bba4" />
+		</dataarea>
+	</part>
+</software>

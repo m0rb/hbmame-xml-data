@@ -1,0 +1,21 @@
+<software name="hypernoid">
+	<description>Hypernoid (2021-11-28)</description>
+	<year>2021</year>
+	<publisher>M.Priewe</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="447.p1" offset="0x0" size="0x100000" crc="e024fa76" sha1="6ef393ad80ec80e30929f07c95305d97fca3ad22" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="447.v1" offset="0x0" size="0x400000" crc="dafa1bdd" sha1="743a5ad24a3dba04ce8f3e2d95ebd5ca83fd9f98" />
+		<rom name="447.v2" offset="0x400000" size="0x400000" crc="85ad8283" sha1="8abcf48a353dcd4777608b13471608f7290d89a5" />
+		<rom name="447.v3" offset="0x800000" size="0x400000" crc="86c27f0c" sha1="85b740e0224d5ea09b600683dec6fe532a723355" />
+		<rom name="447.v4" offset="0xc00000" size="0x400000" crc="a3982244" sha1="7191909d7264df3dc417dc76cee53291986d84e9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="447.c1" offset="0x0" size="0x200000" crc="41d6140a" sha1="862b95ca1fe2b75d7ead0de8ac50c1b8a049c774" />
+		<rom loadflag="load16_byte" name="447.c2" offset="0x1" size="0x200000" crc="36f35df2" sha1="22715561d5383263e41563fcb060f83a0c544531" />
+		</dataarea>
+	</part>
+</software>

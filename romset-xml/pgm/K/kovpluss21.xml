@@ -1,0 +1,29 @@
+<software name="kovpluss21" cloneof="kovplus">
+	<description>Knights of Valour Plus (Legend Of Evil Phoenix, True Unparalleled Dance, And The Sublimation Of Feng)</description>
+	<year>1999</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_ph21.119" offset="0x100000" size="0x400000" crc="437f6fd3" sha1="3731a0dff28ac7b3b78f64fc2f75333e367045ec" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u3" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600lw.rom" offset="0x0" size="0x800000" crc="cca70135" sha1="2d288df75907e50c7fc2beca5fb9fd895faece55" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602lw.rom" offset="0x1000000" size="0x800000" crc="71c8a46c" sha1="6391eb95e1f2933b0e02518232a4bbcf7c91b73f" />
+		<rom name="pgm_a0603.u9" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600lw.rom" offset="0x0" size="0x800000" crc="a4155c55" sha1="3146774f00dd4156b7423d9983dc6e678aca648d" />
+		<rom name="b0601lw.rom" offset="0x800000" size="0x400000" crc="a261d5bd" sha1="19204c5ab9861f8ccfb0b168e2bb4137f9d14dfe" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_ph06.rom" offset="0x180000" size="0x800000" crc="d049c5bf" sha1="8f75b6f3171d5dda9010be325a4c8f880b8fc645" />
+		</dataarea>
+	</part>
+</software>

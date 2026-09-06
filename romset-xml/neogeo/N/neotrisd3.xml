@@ -1,0 +1,25 @@
+<software name="neotrisd3" cloneof="neotrisd1">
+	<description>Neotris Demo 3</description>
+	<year>2020</year>
+	<publisher>Totologic</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="491b.p1" offset="0x0" size="0x80000" crc="4cd619cf" sha1="081a7819c71171a37f10d1b20f8887ca90df49a8" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="491b.v1" offset="0x0" size="0x400000" crc="fef16eb4" sha1="64021cf913c4594d27d0602afc28754f0b76091f" />
+		<rom name="491b.v2" offset="0x400000" size="0x400000" crc="f0d28e19" sha1="e47318bf3b5ef1d9e08928eb7f7ca7dfc15ab2e5" />
+		<rom name="491b.v3" offset="0x800000" size="0x400000" crc="fc652c8b" sha1="a76040eef8dd76da3657bc39b6b5c3dded539829" />
+		<rom name="491b.v4" offset="0xc00000" size="0x400000" crc="c25764ca" sha1="ee0f2fa8db2da5c95b94c062bff8ee37ec2b2c7d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1800000">
+		<rom loadflag="load16_byte" name="491b.c1" offset="0x0" size="0x400000" crc="e1c8eca9" sha1="be1babdc0ae0fd9916e8335c1635148e0498a961" />
+		<rom loadflag="load16_byte" name="491b.c2" offset="0x1" size="0x400000" crc="11ca6e64" sha1="166c1f973f4fd7f472c3ddd37e0eb945c36d7454" />
+		<rom loadflag="load16_byte" name="491b.c3" offset="0x800000" size="0x400000" crc="1d9e2046" sha1="c2415775170455bd44e19e7c7c8e10817da56385" />
+		<rom loadflag="load16_byte" name="491b.c4" offset="0x800001" size="0x400000" crc="9091e795" sha1="59e7a751633ce8f3db138fc818e50003da4582dc" />
+		<rom loadflag="load16_byte" name="491b.c5" offset="0x1000000" size="0x400000" crc="bf278afe" sha1="e7f84cb325dd4535accd44d84f61c53cb4bab312" />
+		<rom loadflag="load16_byte" name="491b.c6" offset="0x1000001" size="0x400000" crc="8eb17e24" sha1="7977475bf19073b8bc38fcb88be9226453c7d6e4" />
+		</dataarea>
+	</part>
+</software>

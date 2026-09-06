@@ -1,0 +1,20 @@
+<software name="doubled1b" cloneof="doubled1">
+	<description>Double Dragon One demo (2025-02-17)</description>
+	<year>2025</year>
+	<publisher>La Casa De Ruivo / Neo Byte Force</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="505b.p1" offset="0x0" size="0x100000" crc="0dd47ea6" sha1="b792a538d7653f7cba53541e8bbe95c9e1db6ca0" />
+		<rom loadflag="load16_word_swap" name="505b.p2" offset="0x100000" size="0x400000" crc="719b98e6" sha1="b0a95156c48e54ee7f51cbda3abb293a61f9b007" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="505b.v1" offset="0x0" size="0x800000" crc="5018b7a9" sha1="86adce8b24e551d42a2594f39124cffd17364f6e" />
+		<rom name="502b.v2" offset="0x800000" size="0x800000" crc="f5c8192f" sha1="dcef8c78bee1a8e88aa3f45ce9c8e5ab212d9238" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="505b.c1" offset="0x0" size="0x1000000" crc="d4c50841" sha1="c806d0f01fe29984efa49e8c524c86f6e2de8b0e" />
+		<rom loadflag="load16_byte" name="505b.c2" offset="0x1" size="0x1000000" crc="728eb8ae" sha1="a2e9d020cb940ea4ebdb1946eb3ab136c643da17" />
+		</dataarea>
+	</part>
+</software>

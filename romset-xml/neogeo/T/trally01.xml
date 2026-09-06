@@ -1,0 +1,21 @@
+<software name="trally01" cloneof="trally">
+	<description>Rally Chase (CD conversion)</description>
+	<year>1991</year>
+	<publisher>CD_conv</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="038s01.p1" offset="0x0" size="0x80000" crc="430c531b" sha1="731348fbbb320506918abdc8f12fb86a52287cdb" />
+		<rom loadflag="load16_word_swap" name="038s01.p2" offset="0x80000" size="0x80000" crc="9facb7fb" sha1="96b4edbdddbd9ba642d0d046b33349c95559badd" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xe0000">
+		<rom name="038s01.v1" offset="0x0" size="0xe0000" crc="f7ce806e" sha1="83967145a6bd616ffe8c19dbf5b0bf63296f2c24" />
+		</dataarea>
+		<dataarea name="sprites" size="0x300000">
+		<rom loadflag="load16_byte" name="038s01.c1" offset="0x0" size="0x100000" crc="840e6161" sha1="553431723d0f348f4776b1e41beb2a4b39c2aeec" />
+		<rom loadflag="load16_byte" name="038s01.c2" offset="0x1" size="0x100000" crc="51979c7a" sha1="833600da39daeae40ac700931e77898e9c60a45d" />
+		<rom loadflag="load16_byte" name="038.c3" offset="0x200000" size="0x80000" crc="3bb7b9d6" sha1="bc1eae6181ad5abf79736afc8db4ca34113d43f8" />
+		<rom loadflag="load16_byte" name="038.c4" offset="0x200001" size="0x80000" crc="a4513ecf" sha1="934aa103c226eac55157b44d7b4dfa35515322c3" />
+		</dataarea>
+	</part>
+</software>

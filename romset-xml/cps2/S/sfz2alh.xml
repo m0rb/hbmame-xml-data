@@ -1,0 +1,29 @@
+<software name="sfz2alh" cloneof="sfz2al">
+	<description>Street Fighter Zero 2 Alpha (Hispanic 960813)</description>
+	<year>1996</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c67h.p1" offset="0x0" size="0x80000" crc="06f93d1d" sha1="495de176ba55b35270fc05f19edf17a0f249ff0e" />
+		<rom loadflag="load16_word_swap" name="c67h.p2" offset="0x80000" size="0x80000" crc="e62ee914" sha1="def4f27c1b64be5143234f1f402260adae66cdde" />
+		<rom loadflag="load16_word_swap" name="c67h.p3" offset="0x100000" size="0x80000" crc="2b7f4b20" sha1="5511263f5f6e532ee7fe1995f08f16651a1d45a1" />
+		<rom loadflag="load16_word_swap" name="c67h.p4" offset="0x180000" size="0x80000" crc="0abda2fc" sha1="830da40f6a9bb3bc866ee9c5cab1b0eb3c4dcb71" />
+		<rom loadflag="load16_word_swap" name="c67h.p5" offset="0x200000" size="0x80000" crc="e9430762" sha1="923aea8db5f9b59212ec6dbc35be0808ea015140" />
+		<rom loadflag="load16_word_swap" name="c67h.p6" offset="0x280000" size="0x80000" crc="b65711a9" sha1="3918f44e1bb189e2a115625b35f477eb91a65f04" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c64.m1" offset="0x0" size="0x8000" crc="1bc323cf" sha1="83fbd6e9b327700dc9f1c59700b7385bc3705749" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c64.m2" offset="0x28000" size="0x20000" crc="ba6a5013" sha1="7814f3e56b69529b9860dd61c3b1e8d700244b03" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="sfz2alh.key" offset="0x0" size="0x14" crc="f320f655" sha1="2bedd94afd600da2f2a5c74bc0b0c2d33a4c13cf" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c64.q1" offset="0x0" size="0x200000" crc="aa47a601" sha1="a4d1ee89c84a3b9db06469bb66e85293b5aa9ac9" />
+		<rom loadflag="load16_word_swap" name="c64.q2" offset="0x200000" size="0x200000" crc="2237bc53" sha1="96d5693047e4cf1ed10a8ee1905cea267a278e92" />
+		</dataarea>
+	</part>
+</software>

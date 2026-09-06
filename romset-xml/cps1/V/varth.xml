@@ -1,0 +1,30 @@
+<software name="varth">
+	<description>Varth: Operation Thunderstorm (World 920714)</description>
+	<year>1992</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c21.p1" offset="0x0" size="0x20000" crc="adb8d391" sha1="5e7160509e0315eb32cc390ddd7e4ef7a4a1a70a" />
+		<rom loadflag="load16_byte" name="c21.p2" offset="0x1" size="0x20000" crc="44e5548f" sha1="17b4be1f4159f6b6803d8c2950823ece0bdde8b2" />
+		<rom loadflag="load16_byte" name="c21.p3" offset="0x40000" size="0x20000" crc="1749a71c" sha1="bd9bfd5bbe2d426c94df755c977faa92a28f16ab" />
+		<rom loadflag="load16_byte" name="c21.p4" offset="0x40001" size="0x20000" crc="5f2e2450" sha1="676e8d96406d81ceadd4a0a69959cdcb6d5d9ac8" />
+		<rom loadflag="load16_byte" name="c21.p5" offset="0x80000" size="0x20000" crc="e524ca50" sha1="487d5ddabe852872f331362034c4fa16e0926e3d" />
+		<rom loadflag="load16_byte" name="c21.p6" offset="0x80001" size="0x20000" crc="c0bbf8c9" sha1="447540b856776770af8022a291d46612c1bb5909" />
+		<rom loadflag="load16_byte" name="c21.p7" offset="0xc0000" size="0x20000" crc="6640996a" sha1="3ed7bd947dc8224435680dedf4955ed6041c6028" />
+		<rom loadflag="load16_byte" name="c21.p8" offset="0xc0001" size="0x20000" crc="fa59be8a" sha1="86a3d3a7126c021e2ca8ac20238695396367e098" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c21.m1" offset="0x0" size="0x8000" crc="7a99446e" sha1="ca027f41e3e58be5abc33ad7380746658cb5380a" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="varth.key" offset="0x0" size="0x80" crc="9af7013d" sha1="6182dfe656c25cc5ef009bfb1b5820ad3ce71c77" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c21.v1" offset="0x0" size="0x20000" crc="de30510e" sha1="8e878696192606b76a3a0e53553e638d9621cff7" />
+		<rom name="c21.v2" offset="0x20000" size="0x20000" crc="0610a4ac" sha1="3da02ea6a7a56c85de898806d2a1cf6bc526c1b3" />
+		</dataarea>
+	</part>
+</software>

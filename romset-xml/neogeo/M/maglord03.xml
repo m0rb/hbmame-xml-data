@@ -1,0 +1,26 @@
+<software name="maglord03" cloneof="maglord">
+	<description>Magician Lord (Again Changes From Hell v1.0.0, French)</description>
+	<year>2025</year>
+	<publisher>Boomchild</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="005s03.p1" offset="0x0" size="0x80000" crc="f201c65a" sha1="61173b0922bb0c1386d6312a819b492d402b4b7f" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="005.v11" offset="0x0" size="0x80000" crc="cc0455fd" sha1="a8ff4270e7705e263d25ff0b301f503bccea7e59" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x100000">
+		<rom name="005.v21" offset="0x0" size="0x80000" crc="f94ab5b7" sha1="2c16985102e3585e08622d8c54ac5c60425b9ff8" />
+		<rom name="005.v22" offset="0x80000" size="0x80000" crc="232cfd04" sha1="61b66a9decbbd1f500a8c186615e7fd077c6861e" />
+		</dataarea>
+		<dataarea name="sprites" size="0x300000">
+		<rom loadflag="load16_byte" name="005.c1" offset="0x0" size="0x80000" crc="806aee34" sha1="3c32a0edbbddb694495b510c13979c44b83de8bc" />
+		<rom loadflag="load16_byte" name="005.c2" offset="0x1" size="0x80000" crc="34aa9a86" sha1="cec97e1ff7f91158040c629ba75742db82c4ae5e" />
+		<rom loadflag="load16_byte" name="005.c3" offset="0x100000" size="0x80000" crc="c4c2b926" sha1="478bfafca21f5a1338808251a06ab405e6a9e65f" />
+		<rom loadflag="load16_byte" name="005.c4" offset="0x100001" size="0x80000" crc="9c46dcf4" sha1="4c05f3dc25777a87578ce09a6cefb3a4cebf3266" />
+		<rom loadflag="load16_byte" name="005.c5" offset="0x200000" size="0x80000" crc="69086dec" sha1="7fa47f4a765948813ebf366168275dcc3c42e951" />
+		<rom loadflag="load16_byte" name="005.c6" offset="0x200001" size="0x80000" crc="ab7ac142" sha1="e6ad2843947d35d8e913d2666f87946c1ba7944f" />
+		</dataarea>
+	</part>
+</software>

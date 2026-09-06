@@ -1,0 +1,23 @@
+<software name="newpuc1" cloneof="puckman">
+	<description>Newpuc1 (Italian dump)</description>
+	<year>1983</year>
+	<publisher>E.P.</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="newpuck1.6e" offset="0x0" size="0x800" crc="2c0fa0ab" sha1="37680e4502771ae69d51d07ce43f65b9b2dd2a49" />
+		<rom name="pacheart.6k" offset="0x800" size="0x800" crc="b9152a38" sha1="b6be2cb6bc7dd123503eb6bf1165dd1c99456813" />
+		<rom name="puckman.6f" offset="0x1000" size="0x800" crc="7d177853" sha1="9b5ddaaa8b564654f97af193dbcc29f81f230a25" />
+		<rom name="pacheart.6m" offset="0x1800" size="0x800" crc="842d6574" sha1="40e32d09cc8d701eb318716493a68cf3f95d3d6d" />
+		<rom name="pacheart.6h" offset="0x2000" size="0x800" crc="9045a44c" sha1="a97d7016effbd2ace9a7d92ceb04a6ce18fb42f9" />
+		<rom name="pacheart.6n" offset="0x2800" size="0x800" crc="888f3c3e" sha1="c2b5917bf13071131dd53ea76f0da86706db2d80" />
+		<rom name="newpuck1.6j" offset="0x3000" size="0x800" crc="565687c6" sha1="9ee8e8197e87e468669279e738fe518e5480363c" />
+		<rom name="pacheart.6p" offset="0x3800" size="0x800" crc="1a21a381" sha1="d5367a327d19fb57ba5e484bd4fda1b10953c040" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="newpuck1.5e" offset="0x0" size="0x800" crc="3ed40275" sha1="bf56f9a21bc1dacee438d88eb5bc59f20906b00c" />
+		<rom name="puckman.5h" offset="0x800" size="0x800" crc="3591b89d" sha1="79bb456be6c39c1ccd7d077fbe181523131fb300" />
+		<rom name="puckman.5f" offset="0x1000" size="0x800" crc="9e39323a" sha1="be933e691df4dbe7d12123913c3b7b7b585b7a35" />
+		<rom name="puckman.5j" offset="0x1800" size="0x800" crc="1b1d9096" sha1="53771c573051db43e7185b1d188533056290a620" />
+		</dataarea>
+	</part>
+</software>

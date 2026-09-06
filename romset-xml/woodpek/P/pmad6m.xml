@@ -1,0 +1,18 @@
+<software name="pmad6m" cloneof="puckman">
+	<description>Pacman 2000 After Dark</description>
+	<year>2000</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman6.6h" offset="0x2000" size="0x1000" crc="aee79ea1" sha1="4f3214b56056c3ac00c0535ce5d6a367ccda6e31" />
+		<rom name="pacman6.6j" offset="0x3000" size="0x1000" crc="581ae70b" sha1="a184c9d9b6ffbaba936867aef14e783234bf7af2" />
+		<rom name="pmad6m.map" offset="0x8000" size="0x1000" crc="d6a0d7f2" sha1="7f3de6e13dd834a1495fb7faf2743fcc71b84747" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="hanglyad.5e" offset="0x0" size="0x1000" crc="93fd3682" sha1="792ddb541aeab304b5facfcf929c3bba18150346" />
+		<rom name="pacjr1.5f" offset="0x1000" size="0x1000" crc="c2310808" sha1="84c28a4fc327afcb441daee35acdab6f7613395e" />
+		</dataarea>
+	</part>
+</software>

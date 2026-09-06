@@ -1,0 +1,29 @@
+<software name="kovshp31" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Rockman G)</description>
+	<year>2004</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po31.rom" offset="0x100000" size="0x400000" crc="1ca558a7" sha1="46d842443bfd6cf2527c6cec3acf07ecc55ab070" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u5" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="pgm_t0600.u2" offset="0x180000" size="0x800000" crc="4acc1ad6" sha1="0668dbd5e856c2406910c6b7382548b37c631780" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_po31.rom" offset="0x0" size="0x800000" crc="9262f949" sha1="2c03c14466640814eabfb2aba851a3d768a11173" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="a0540_po31.rom" offset="0x1800000" size="0x800000" crc="732fac87" sha1="d0106472c9114199892e14ddc8a173c2156525d1" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_po31.rom" offset="0x0" size="0x800000" crc="49378fe7" sha1="370349b4d278bb69d0362652a6cee557045ed4f7" />
+		<rom name="b0540_po31.rom" offset="0x800000" size="0x800000" crc="cafe39a8" sha1="6870d3e9b141e084bb22c9122c365106ec1c8147" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.asic" offset="0x0" size="0x4000" crc="0f09a5c1" sha1="621b38c05f33277608d58b49822aebc930ae4870" />
+		</dataarea>
+	</part>
+</software>

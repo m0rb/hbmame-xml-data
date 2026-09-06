@@ -1,0 +1,15 @@
+<software name="alienres">
+	<description>Alien Rescue</description>
+	<year>2002</year>
+	<publisher>MonstersGoBoom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="alienres.6e" offset="0x0" size="0x1000" crc="154e2017" sha1="026ec12d575dbb8cb6df5cb748a9dff833d3669f" />
+		<rom name="alienres.6f" offset="0x1000" size="0x1000" crc="75237455" sha1="8af41e9e3f4e3fbda9586ea93c9db29526906d23" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="alienres.5e" offset="0x0" size="0x1000" crc="57ae12e7" sha1="5c9de2cf75b183484c6d22b999ba823d69da7268" />
+		<rom name="alienres.5f" offset="0x1000" size="0x1000" crc="097eca05" sha1="f863108e2cc5419b239e3cf02854438701f3ef28" />
+		</dataarea>
+	</part>
+</software>

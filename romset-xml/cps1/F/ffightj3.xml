@@ -1,0 +1,30 @@
+<software name="ffightj3" cloneof="ffight">
+	<description>Final Fight (Japan 900405)</description>
+	<year>1989</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c07ub.p1" offset="0x0" size="0x20000" crc="e619eb30" sha1="41c2589a1b2cab2d0ded527a89f8e0e39e61efe1" />
+		<rom loadflag="load16_byte" name="c07ub.p2" offset="0x1" size="0x20000" crc="bca85263" sha1="249bc81426ee93cf2efa5594d6813d5dd896cea3" />
+		<rom loadflag="load16_byte" name="c07j3.p3" offset="0x40000" size="0x20000" crc="a8127e4e" sha1="9864156ab2c96f4fc8bba2f3b965e3ed90b6bb94" />
+		<rom loadflag="load16_byte" name="c07j3.p4" offset="0x40001" size="0x20000" crc="56ccd34a" sha1="3e00ec395a30697d5697bc6ace42b58c3f322c23" />
+		<rom loadflag="load16_byte" name="c07u1.p5" offset="0x80000" size="0x20000" crc="0c8dc3fc" sha1="edcce3efd9cdd131ef0c96df15a68722d5c3498e" />
+		<rom loadflag="load16_byte" name="c07u1.p6" offset="0x80001" size="0x20000" crc="8075bab9" sha1="f9c7405133f6fc5557c90e60e8ccc459e4f6fd7d" />
+		<rom loadflag="load16_byte" name="c07u1.p7" offset="0xc0000" size="0x20000" crc="4a934121" sha1="3982c261582755a0eac340d6d7ed96e6c263c8b6" />
+		<rom loadflag="load16_byte" name="c07u1.p8" offset="0xc0001" size="0x20000" crc="2af68154" sha1="7d549cb38650b4b79c68ad6d0dfcefdd62be4e99" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c07.m1" offset="0x0" size="0x8000" crc="b8367eb5" sha1="ec3db29fdd6200e9a8f4f8073a7e34aef731354f" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="ffightj3.key" offset="0x0" size="0x80" crc="db3b8df6" sha1="0ef24748959a6eff70494ef0d4a3a6012807513d" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c07.v1" offset="0x0" size="0x20000" crc="375c66e7" sha1="36189e23209ce4ae5d9cbabd1574540d0591e7b3" />
+		<rom name="c07.v2" offset="0x20000" size="0x20000" crc="1ef137f9" sha1="974b5e72aa28b87ebfa7438efbdfeda769dedf5e" />
+		</dataarea>
+	</part>
+</software>

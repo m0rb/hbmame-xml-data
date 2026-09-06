@@ -1,0 +1,30 @@
+<software name="kovshp149" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Journey To The West 2019, 2019-08-18)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x700000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po149.rom" offset="0x100000" size="0x200000" crc="4d972b05" sha1="30ce31f7b9ca82b006d6279f313990f0a60e47fc" />
+		<rom loadflag="load16_word_swap" name="p0601h_101_po149.rom" offset="0x300000" size="0x200000" crc="60071bdd" sha1="49013eb0847c552bd9ba335e7d352ef1ec857e6b" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u5" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="pgm_t0600.u2" offset="0x180000" size="0x800000" crc="4acc1ad6" sha1="0668dbd5e856c2406910c6b7382548b37c631780" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_pw149.rom" offset="0x0" size="0x800000" crc="9f98ed76" sha1="b4ceab1d10c8214f7e19302fca9d4a469f35b078" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="a0540_pw149.rom" offset="0x1800000" size="0x800000" crc="f5f5d7fc" sha1="150eac16162b1f8830b16e326f2584d7190413f9" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_pw149.rom" offset="0x0" size="0x800000" crc="7d1eacc7" sha1="ef759850110cc121504be58fbc3bc4aca3fa5b62" />
+		<rom name="b0540_pw149.rom" offset="0x800000" size="0x800000" crc="9708e8b8" sha1="8d304ee075171adf4963b60cd457a88a0de78ac0" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.asic" offset="0x0" size="0x4000" crc="0f09a5c1" sha1="621b38c05f33277608d58b49822aebc930ae4870" />
+		</dataarea>
+	</part>
+</software>

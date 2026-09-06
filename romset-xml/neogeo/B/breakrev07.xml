@@ -1,0 +1,24 @@
+<software name="breakrev07" cloneof="breakrev">
+	<description>Breakers Revenge (Add hidden character)</description>
+	<year>1998</year>
+	<publisher>ZKW</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="245s07.p1" offset="0x100000" size="0x100000" crc="bae71481" sha1="df20a616754fe43706fdf55c7371c832dd23245d" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="245.v1" offset="0x0" size="0x400000" crc="e255446c" sha1="b3933340d49d4ba581f3bf1af7ad69d786205790" />
+		<rom name="245.v2" offset="0x400000" size="0x400000" crc="9068198a" sha1="71819b0475a5e173a2f9a6e4ff19a94655141c3c" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1800000">
+		<rom loadflag="load16_byte" name="245.c1" offset="0x0" size="0x400000" crc="68d4ae76" sha1="2e820067f6963669f104bebf19e865fe4127b4dd" />
+		<rom loadflag="load16_byte" name="245.c2" offset="0x1" size="0x400000" crc="fdee05cd" sha1="efc4ffd790953ac7c25d5f045c64a9b49d24b096" />
+		<rom loadflag="load16_byte" name="245.c3" offset="0x800000" size="0x400000" crc="645077f3" sha1="0ae74f3b4b3b88f128c6d8c0f35ffa53f5d67ef2" />
+		<rom loadflag="load16_byte" name="245.c4" offset="0x800001" size="0x400000" crc="63aeb74c" sha1="9ff6930c0c3d79b46b86356e8565ce4fcd69ac38" />
+		<rom loadflag="load16_byte" name="245.c5" offset="0x1000000" size="0x400000" crc="b5f40e7f" sha1="b332bac64dbb9a9dd66c5315f47ea08634d36f45" />
+		<rom loadflag="load16_byte" name="245.c6" offset="0x1000001" size="0x400000" crc="d0337328" sha1="dff86b75dc283bd4512557a5c64f16e6be6c16e4" />
+		</dataarea>
+	</part>
+</software>

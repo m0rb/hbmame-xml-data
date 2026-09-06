@@ -1,0 +1,20 @@
+<software name="doapp01" cloneof="doapp">
+	<description>Dead Or Alive ++ (Enable Hidden Characters)</description>
+	<year>1998</year>
+	<publisher>Yumeji</publisher>
+	<part name="cart">
+		<dataarea name="bankedroms" endianness="little" size="0x2800000">
+		<rom loadflag="load16_byte" name="doapp119.s01" offset="0x1" size="0x100000" crc="f3691595" sha1="470ea8989229b6400cb7adac30939a2f635dccd9" />
+		<rom loadflag="load16_byte" name="doapp120.s01" offset="0x0" size="0x100000" crc="3a8e9786" sha1="8632bcba3ecd42c112885821792c78f7b0f51cd9" />
+		<rom name="doapp-0.216" offset="0x400000" size="0x400000" crc="acc6c539" sha1="a744567a3d75634098b1749103307981be9acbdd" />
+		<rom name="doapp-1.217" offset="0x800000" size="0x400000" crc="14b961c4" sha1="3fae1fcb4665ba8bad391881b26c2d087718d42f" />
+		<rom name="doapp-2.218" offset="0xc00000" size="0x400000" crc="134f698f" sha1="6422972cf5d30a0f09f0c20f042691d5969207b4" />
+		<rom name="doapp-3.219" offset="0x1000000" size="0x400000" crc="1c6540f3" sha1="8631fde93a1da6325d7b31c7edf12c964f0ac4fc" />
+		<rom name="doapp-4.220" offset="0x1400000" size="0x400000" crc="f83bacf7" sha1="5bd66da993f0db966581dde80dd7e5b377754412" />
+		<rom name="doapp-5.221" offset="0x1800000" size="0x400000" crc="e11e8b71" sha1="b1d1b9532b5f074ce216a603436d5674d136865d" />
+		</dataarea>
+		<dataarea name="cat702_2" size="0x8">
+		<rom name="mg05" offset="0x0" size="0x8" crc="5748a4ca" sha1="c88d73f6a646a9ddefdfd84cba70d591759c069f" />
+		</dataarea>
+	</part>
+</software>

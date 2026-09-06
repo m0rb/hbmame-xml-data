@@ -1,0 +1,28 @@
+<software name="sf2ebbl3" cloneof="sf2">
+	<description>Street Fighter II: The World Warrior (TAB Austria, bootleg, set 4)</description>
+	<year>1992</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c14ebbl3.p1" offset="0x0" size="0x80000" crc="963200d2" sha1="3fa23fdee6d43f01066a94b4b01b1811168637a2" />
+		<rom loadflag="load16_byte" name="c14ebbl3.p2" offset="0x1" size="0x80000" crc="02e88ec7" sha1="1898e110108301a08686945f449fd084e394fc17" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c14.m1" offset="0x0" size="0x8000" crc="a4823a1b" sha1="7b6bf59dfd578bfbbdb64c27988796783442d659" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2ebbl.key" offset="0x0" size="0x80" crc="1560b7bb" sha1="5ffc5501bdeb8ba5f4bc242bfeafd8295702cd2b" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		<rom loadflag="continue" offset="0x400004" size="0x10000" />
+		<rom loadflag="continue" offset="0x400006" size="0x10000" />
+		<rom loadflag="continue" offset="0x400005" size="0x10000" />
+		<rom loadflag="continue" offset="0x400007" size="0x10000" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c14.v1" offset="0x0" size="0x20000" crc="7f162009" sha1="346bf42992b4c36c593e21901e22c87ae4a7d86d" />
+		<rom name="c14.v2" offset="0x20000" size="0x20000" crc="beade53f" sha1="277c397dc12752719ec6b47d2224750bd1c07f79" />
+		</dataarea>
+	</part>
+</software>

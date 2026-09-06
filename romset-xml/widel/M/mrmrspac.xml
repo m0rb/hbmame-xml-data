@@ -1,0 +1,19 @@
+<software name="mrmrspac" cloneof="mspacman">
+	<description>Mr and Mrs Pacman (MR MRS PAC-MAN)[c]</description>
+	<year>2003</year>
+	<publisher>David Widel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="mrmrspac.1" offset="0x0" size="0x1000" crc="02a86998" sha1="649cfe5140eb63e42069ae9ad6c426837179fcbf" />
+		<rom name="mrmrspac.2" offset="0x1000" size="0x1000" crc="8917172f" sha1="7b09ab3b6f2a1b5d889a05295b42f70bafb5aa98" />
+		<rom name="mrmrspac.3" offset="0x2000" size="0x1000" crc="6fd1444a" sha1="64a98336eec75bb6ed90e77da18db8b71af562c1" />
+		<rom name="mrmrspac.4" offset="0x3000" size="0x1000" crc="22f68a1f" sha1="bd8d684f957ee33dace9eddcc923006036181787" />
+		<rom name="boot5" offset="0x8000" size="0x1000" crc="8c3e6de6" sha1="fed6e9a2b210b07e7189a18574f6b8c4ec5bb49b" />
+		<rom name="mrmrspac.6" offset="0x9000" size="0x1000" crc="23580455" sha1="836b815c7b1dd4deb1a1297556d0a5c126250c34" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="5e" offset="0x0" size="0x1000" crc="5c281d01" sha1="5e8b472b615f12efca3fe792410c23619f067845" />
+		<rom name="5f" offset="0x1000" size="0x1000" crc="615af909" sha1="fd6a1dde780b39aea76bf1c4befa5882573c2ef4" />
+		</dataarea>
+	</part>
+</software>

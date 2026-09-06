@@ -1,0 +1,21 @@
+<software name="magdrop3s02" cloneof="magdrop3">
+	<description>Magical Drop III (Remix Edition 1.0, 2018-08-03)</description>
+	<year>2018</year>
+	<publisher>GSC2007/Shyma.X/Gaston90</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="233s02.p1" offset="0x0" size="0x100000" crc="fe314e43" sha1="96028dd1081e09932dda43ec628cb365481c54cd" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x480000">
+		<rom name="233.v1" offset="0x0" size="0x400000" crc="58839298" sha1="18cae7bba997c52780761cbf119c4e4b34397a61" />
+		<rom name="233.v2" offset="0x400000" size="0x80000" crc="d5e30df4" sha1="bbbc0ff5b975471bd682f85976ac4a93f6d44f2e" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="233s02.c1" offset="0x0" size="0x400000" crc="b10223f2" sha1="d99565751bdde47cae4c5bb5fac32a0b80bae2b9" />
+		<rom loadflag="load16_byte" name="233s02.c2" offset="0x1" size="0x400000" crc="39c0f4b8" sha1="a09c20c12d418e938ce84ea87d3d8bbb3007563c" />
+		<rom loadflag="load16_byte" name="233.c3" offset="0x800000" size="0x400000" crc="0ba2c502" sha1="8e0f1e553aef04758aaaa14d5115f0ecace4391e" />
+		<rom loadflag="load16_byte" name="233.c4" offset="0x800001" size="0x400000" crc="70dbbd6d" sha1="32dd6a04c6329e89f4878e7a56f0d172a6388eea" />
+		</dataarea>
+	</part>
+</software>

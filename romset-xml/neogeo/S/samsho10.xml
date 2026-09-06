@@ -1,0 +1,25 @@
+<software name="samsho10" cloneof="samsho">
+	<description>Samurai Shodown (Add Char - Ultra kill start max)</description>
+	<year>1993</year>
+	<publisher>Ydmis</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x180000">
+		<rom loadflag="load16_word_swap" name="045s10.p1" offset="0x0" size="0x80000" crc="ba5277df" sha1="255f467e0b9b2ee2210028829d68efd060a1480d" />
+		<rom loadflag="load16_word_swap" name="045s09.p3" offset="0x80000" size="0x80000" crc="71768728" sha1="9ff0e01d3fb73ad04279d4fdf4c53c3160888179" />
+		<rom loadflag="load16_word_swap" name="045s09.p2" offset="0x100000" size="0x80000" crc="38ee9ba9" sha1="48190699a6be83cb6257365ae81f93fdd23abe09" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="045.v1" offset="0x0" size="0x200000" crc="37f78a9b" sha1="6279b497d12fa90b49ab5ac3aae20fb302ec8b81" />
+		<rom name="045.v2" offset="0x200000" size="0x200000" crc="568b20cf" sha1="61af858685472a1fad608e230cccc2b108509ddb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x900000">
+		<rom loadflag="load16_byte" name="045.c1" offset="0x0" size="0x200000" crc="2e5873a4" sha1="65c74c1e2d34390666bbb630df7d1f4c9570c3db" />
+		<rom loadflag="load16_byte" name="045.c2" offset="0x1" size="0x200000" crc="04febb10" sha1="16a8cbf0fd9468e81bf9eab6dbe7a8e3623a843e" />
+		<rom loadflag="load16_byte" name="045.c3" offset="0x400000" size="0x200000" crc="f3dabd1e" sha1="c80e52df42be9f8b2e89b467b11ab140a480cee8" />
+		<rom loadflag="load16_byte" name="045.c4" offset="0x400001" size="0x200000" crc="935c62f0" sha1="0053d40085fac14096b683f4341f65e543b71dc1" />
+		<rom loadflag="load16_byte" name="045s09.c5" offset="0x800000" size="0x80000" crc="a2bb8284" sha1="aa118e3b8c062daa219b36758b9a3814c08c69dc" />
+		<rom loadflag="load16_byte" name="045s09.c6" offset="0x800001" size="0x80000" crc="4fa71252" sha1="afe374a9d1f2d955a59efe7b6196b89e021b164c" />
+		</dataarea>
+	</part>
+</software>

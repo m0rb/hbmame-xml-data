@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="ckongmc" description="Ckongmc cartridges">
+<software name="congor" cloneof="ckong">
+	<description>Congorilla</description>
+	<year>1981</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkprom1.bin" offset="0x0" size="0x800" crc="0fc3bea3" sha1="fce1dfa404be37b948bcab5d1fb0d1c86b6615af" />
+		<rom name="cg7.bin" offset="0x800" size="0x800" crc="7f5aeb79" sha1="67e6e45194d118bfa80e5a43119b4f9e5fd99ce4" />
+		<rom name="dkprom3.bin" offset="0x1000" size="0x800" crc="c6c018e0" sha1="87c87610cc98eb226b4e9f3ee7e6c9d4f574095c" />
+		<rom name="dkprom4.bin" offset="0x1800" size="0x800" crc="2141e537" sha1="941320ede2addc68879cf1a09f18f821126d71fa" />
+		<rom name="dkprom5.bin" offset="0x2000" size="0x800" crc="74f15a59" sha1="a8a806dcd949c4bce6161bf7c2477f1a2fda7bf0" />
+		<rom name="cg9.bin" offset="0x2800" size="0x800" crc="5a9c20a3" sha1="fdbde28cbfa93c7c412f4c61f61380ef4d4057a2" />
+		<rom name="dkprom7.bin" offset="0x3000" size="0x800" crc="8e0be5c3" sha1="e29ded9f290931a671a1883b75ae60e94b2c3709" />
+		<rom name="cg10.bin" offset="0x3800" size="0x800" crc="8bec5d92" sha1="af1baff2aeba42bc91cde261c8a86e9cc2425a78" />
+		<rom name="dkprom9.bin" offset="0x4000" size="0x800" crc="5a9ee1ed" sha1="1bc420a42a4931c389b4f8db451de7c59786dfbc" />
+		<rom name="dkprom10.bin" offset="0x4800" size="0x800" crc="da9216d8" sha1="79dcc754c9f1b64b4ed89976a8a62c549cea4026" />
+		<rom name="dkprom11.bin" offset="0x5000" size="0x800" crc="61900dc8" sha1="12e96d4fb99c74a71707b3cf2bb74dacec5a0d72" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="cg2.bin" offset="0x0" size="0x800" crc="d1352c31" sha1="da726a63a8be830d695afeddc1717749af8c9d47" />
+		<rom name="cg1.bin" offset="0x800" size="0x800" crc="a7a2fdbd" sha1="529865f8bbfbdbbf34ac39c70ef17e6d5bd0f845" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="dk_cprom.bin" offset="0x0" size="0x20" crc="6a0c7d87" sha1="140335d85c67c75b65689d4e76d29863c209cf32" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

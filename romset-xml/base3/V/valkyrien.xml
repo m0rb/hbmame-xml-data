@@ -1,0 +1,33 @@
+<software name="valkyrien" cloneof="valkyrie">
+	<description>Valkyrie no Densetsu (English Translation)</description>
+	<year>1989</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom loadflag="load16_byte" name="wd1mpr0.en" offset="0x0" size="0x20000" crc="e98e0da1" sha1="17fd6d822ea0dae5f4877eba3d81db57112f95e0" />
+		<rom loadflag="load16_byte" name="wd1mpr1.en" offset="0x1" size="0x20000" crc="91f9fa03" sha1="eaced548be789490cef0c0aa2503f567b1571051" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom name="wd1snd0.bin" offset="0x0" size="0x20000" crc="d0fbf58b" sha1="bc149eefcf5566a8e37ae60a62f5037a6e0f10bd" />
+		</dataarea>
+		<dataarea name="c123tmap" size="0x400000">
+		</dataarea>
+		<dataarea name="c123tmap:mask" size="0x80000">
+		</dataarea>
+		<dataarea name="c140" endianness="big" size="0x200000">
+		</dataarea>
+		<dataarea name="c65mcu:external" size="0x8000">
+		<rom name="sys2c65c.bin" offset="0x0" size="0x8000" crc="a5b2a4ff" sha1="068bdfcc71a5e83706e8b23330691973c1c214dc" />
+		</dataarea>
+		<dataarea name="data_rom" endianness="big" size="0x200000">
+		</dataarea>
+		<dataarea name="s2roz" size="0x400000">
+		</dataarea>
+		<dataarea name="slave" size="0x40000">
+		<rom loadflag="load16_byte" name="wd1spr0.bin" offset="0x0" size="0x10000" crc="b2398321" sha1="13b76d8756a5e47d7469f72ef5fd2837b3e24b3e" />
+		<rom loadflag="load16_byte" name="wd1spr1.bin" offset="0x1" size="0x10000" crc="38dba897" sha1="22254186906b1accfb043172e6d0129d23d83b02" />
+		</dataarea>
+		<dataarea name="sprite" size="0x400000">
+		</dataarea>
+	</part>
+</software>

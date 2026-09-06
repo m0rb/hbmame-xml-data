@@ -1,0 +1,21 @@
+<software name="gladmort">
+	<description>Gladmort</description>
+	<year>2024</year>
+	<publisher>Pixelheart / ChipsOnSteroids</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="503.p1" offset="0x0" size="0x100000" crc="64d77ca4" sha1="8cf0e12d462dd1f4f67c782c5c643a7da29bc718" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="503.v1" offset="0x0" size="0x400000" crc="4c0efb20" sha1="80424564a8cd19bbe7e3f8003129585174cc9367" />
+		<rom name="503.v2" offset="0x400000" size="0x400000" crc="dbd083f5" sha1="c76980473550fda0ece72fa87104ea79a6a8024e" />
+		<rom name="503.v3" offset="0x800000" size="0x400000" crc="2f5c4eeb" sha1="4ed687bde1d3b549581270e90832d90a46101df0" />
+		<rom name="503.v4" offset="0xc00000" size="0x400000" crc="12e01947" sha1="b8147e584712d77c47e97c7a4790807536a22a86" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="503.c1" offset="0x0" size="0x1400000" crc="c7d367cc" sha1="91a5241ba793c367e06341c951e9fb43726d0944" />
+		<rom loadflag="load16_byte" name="503.c2" offset="0x1" size="0x1400000" crc="2c39b98e" sha1="da26d5073fe483650cbcacf595b4410e4f5f4787" />
+		</dataarea>
+	</part>
+</software>

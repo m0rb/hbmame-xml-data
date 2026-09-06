@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="asuka" description="Asuka cartridges">
+<software name="asuka01">
+	<description>Asuka &amp; Asuka (Chinese)</description>
+	<year>1988</year>
+	<publisher>Taito Corporation</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s01.ic23" offset="0x0" size="0x20000" crc="356a3151" sha1="a2929a30bcd45962a4fc08a980e82d9914078c29" />
+		<rom loadflag="load16_byte" name="s01.ic8" offset="0x1" size="0x20000" crc="8bd073d4" sha1="53453cb0dd4aa606215922ad8363e536524dc0f3" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x1c000">
+		<rom name="b68-11.ic27" offset="0x0" size="0x10000" crc="c378b508" sha1="1b145fe736b924f298e02532cf9f26cc18b42ca7" />
+		</dataarea>
+		<dataarea name="msm" size="0x10000">
+		<rom name="b68-10.ic24" offset="0x0" size="0x10000" crc="387aaf40" sha1="47c583564ef1d49ece15f97221b2e073e8fb0544" />
+		</dataarea>
+		<dataarea name="pals" size="0x144">
+		<rom name="b68-04.ic32" offset="0x0" size="0x144" crc="9be618d1" sha1="61ee33c3db448a05ff8f455e77fe17d51106baec" />
+		<rom name="b68-05.ic43" offset="0x0" size="0x104" crc="d6524ccc" sha1="f3b56253692aebb63278d47832fc27b8b212b59c" />
+		</dataarea>
+		<dataarea name="pc090oj" size="0xa0000">
+		<rom loadflag="load16_word_swap" name="s01.ic6" offset="0x0" size="0x80000" crc="09927d23" sha1="b9761286feaa14c4eb6fc87ec35e7245c318d687" />
+		<rom loadflag="load16_byte" name="b68-07.ic5" offset="0x80000" size="0x10000" crc="c113acc8" sha1="613c61a78df73dcb0b9c9018ae829e865baac772" />
+		<rom loadflag="load16_byte" name="b68-06.ic4" offset="0x80001" size="0x10000" crc="f517e64d" sha1="8be491bfe0f7eed58521de9d31da677acf635c23" />
+		</dataarea>
+		<dataarea name="tc0100scn" size="0x80000">
+		<rom loadflag="load16_word_swap" name="s01.ic3" offset="0x0" size="0x80000" crc="d5dec087" sha1="1f8888c15cb08c1c0d27ce29cb71106360c9c852" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

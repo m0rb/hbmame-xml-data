@@ -1,0 +1,15 @@
+<software name="freedoom">
+	<description>Freedoom demo (v0.13.0)</description>
+	<year>2024</year>
+	<publisher>Sabino</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="523.p1" offset="0x0" size="0x80000" crc="f57478f2" sha1="ada3a015ede437312effa13f1ab98c8ae6f61780" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="523.c1" offset="0x0" size="0x400000" crc="bb8e2a1b" sha1="0181eb9a6dc5b920b7e8779d7c51db3c0845119c" />
+		<rom loadflag="load16_byte" name="523.c2" offset="0x1" size="0x400000" crc="51a2ebaa" sha1="64636eaf67ba57c67cd358894c623df072dfac66" />
+		</dataarea>
+	</part>
+</software>

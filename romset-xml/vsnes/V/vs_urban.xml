@@ -1,0 +1,17 @@
+<software name="vs_urban">
+	<description>Vs. Urban Champion</description>
+	<year>2020</year>
+	<publisher>Nintendo</publisher>
+	<part name="cart">
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="urb.2b" offset="0x0" size="0x2000" crc="ddb9a263" sha1="7309276e29c0073bc49ad9dc77bb6cacbca7270a" />
+		<rom name="urb.2a" offset="0x2000" size="0x2000" crc="329b8b6d" sha1="ae11f8d84327fcde0d80e2cc951be9648d4e4b10" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="urb.1a" offset="0x6000" size="0x2000" crc="7ccff543" sha1="9f369b2b55482019d6f4d0c19ede54a60788e4a3" />
+		<rom name="urb.1b" offset="0x4000" size="0x2000" crc="82b79f28" sha1="5ccda9a889924e60f329caaa927647347ccfb7e7" />
+		<rom name="urb.1c" offset="0x2000" size="0x2000" crc="de14ac45" sha1="8a8f4ebbbd7584dcfaf291a6acbca9435b599a17" />
+		<rom name="urb.1d" offset="0x0" size="0x2000" crc="b31a2c0c" sha1="4fb747b71bc308789f0d6b17d2e6a1a833102a36" />
+		</dataarea>
+	</part>
+</software>

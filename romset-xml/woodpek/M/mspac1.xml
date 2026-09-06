@@ -1,0 +1,15 @@
+<software name="mspac1" cloneof="mspacman">
+	<description>Ms. Pacman (single rom set 2)</description>
+	<year>1981</year>
+	<publisher>[Midway]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="mspac1.cpu" offset="0x0" size="0x4000" crc="ba5953c8" sha1="ee5a0b9594f88c60be93e13f70adf45c5939f4da" />
+		<rom loadflag="continue" offset="0x8000" size="0x2000" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="5e" offset="0x0" size="0x1000" crc="5c281d01" sha1="5e8b472b615f12efca3fe792410c23619f067845" />
+		<rom name="5f" offset="0x1000" size="0x1000" crc="615af909" sha1="fd6a1dde780b39aea76bf1c4befa5882573c2ef4" />
+		</dataarea>
+	</part>
+</software>

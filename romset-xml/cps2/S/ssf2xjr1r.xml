@@ -1,0 +1,36 @@
+<software name="ssf2xjr1r" cloneof="ssf2t">
+	<description>Super Street Fighter II X: Grand Master Challenge (Japan 940223 rent version)</description>
+	<year>1994</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c51o.p1" offset="0x0" size="0x80000" crc="2ba33dc6" sha1="ab31046c1604eae30e55eb0e03804c98765d578e" />
+		<rom loadflag="load16_word_swap" name="c51o.p2" offset="0x80000" size="0x80000" crc="ba663dd7" sha1="46baf0a48e4fd807098aa48e34625964b279a223" />
+		<rom loadflag="load16_word_swap" name="c51o.p3" offset="0x100000" size="0x80000" crc="1321625c" sha1="af5bce813bc2d8d406c7cb30ba5cb61b17b74efd" />
+		<rom loadflag="load16_word_swap" name="c51o.p4" offset="0x180000" size="0x80000" crc="0cc490ed" sha1="59c708ff3824964bddaa508e2aea2d6f26742d40" />
+		<rom loadflag="load16_word_swap" name="c51o.p5" offset="0x200000" size="0x80000" crc="64b9015e" sha1="1b22029e2c8304e5dcda01c2e48c24e89d93b13b" />
+		<rom loadflag="load16_word_swap" name="c51o.p6" offset="0x280000" size="0x80000" crc="b60f4b58" sha1="1db3876daef85713a22dbc42f76a26a47fa26079" />
+		<rom loadflag="load16_word_swap" name="c51.p7" offset="0x300000" size="0x80000" crc="642fae3f" sha1="746df99b826b9837bba267104132161153c1daff" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c51.m1" offset="0x0" size="0x8000" crc="b47b8835" sha1="c8b2d50fe3a329bd0592ea160d505155d873dab1" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c51.m2" offset="0x28000" size="0x20000" crc="0022633f" sha1="cab3afc79da53e3887eb1ccd1f4d19790728e6cd" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="ssf2xjr1r.key" offset="0x0" size="0x14" crc="82c86e63" sha1="e99efc6a5652fb96489ffcd7bcc6a1726b08d56b" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c51o.q1" offset="0x0" size="0x80000" crc="9eda6954" sha1="28e007e8dcea127ffd82fe243a4729fa765347d6" />
+		<rom loadflag="load16_word_swap" name="c51o.q2" offset="0x80000" size="0x80000" crc="355f6589" sha1="86f7243bc8ed22760658779d0f8810b1e1f9cdd6" />
+		<rom loadflag="load16_word_swap" name="c51o.q3" offset="0x100000" size="0x80000" crc="d5d08a05" sha1="78549077a105384c7b1b609dc2e9e115dea4a220" />
+		<rom loadflag="load16_word_swap" name="c51o.q4" offset="0x180000" size="0x80000" crc="930725eb" sha1="5ff27e89f4c203207d2a762776fa014a31ab5409" />
+		<rom loadflag="load16_word_swap" name="c51o.q5" offset="0x200000" size="0x80000" crc="827abf3c" sha1="51d9ed9b182bcf24b0ccc3e99a781750609fec58" />
+		<rom loadflag="load16_word_swap" name="c51o.q6" offset="0x280000" size="0x80000" crc="3919c0e5" sha1="23b21b13775c62f0c8ee6b9db403196397981b27" />
+		<rom loadflag="load16_word_swap" name="c51o.q7" offset="0x300000" size="0x80000" crc="1ba9bfa6" sha1="e010e66aea28b2688ccf6feaf678728bab89a852" />
+		<rom loadflag="load16_word_swap" name="c51o.q8" offset="0x380000" size="0x80000" crc="0c89a272" sha1="55eb7322c8498e0897165a689feb0406caa09db6" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,24 @@
+<software name="neobombee" cloneof="neobombe">
+	<description>Neo Bomberman (Earlier)</description>
+	<year>1997</year>
+	<publisher>Hudson</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="093.p1" offset="0x0" size="0x100000" crc="a1a71d0d" sha1="059284c84f61a825923d86d2f29c91baa2c439cd" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x600000">
+		<rom name="093e.v1" offset="0x200000" size="0x200000" crc="43057e99" sha1="b24a44daf54ec76801e7dc863645022dc2d4abdb" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom name="093.v2" offset="0x400000" size="0x200000" crc="a92b8b3d" sha1="b672c97b85d2f52eba3cb26025008ebc7a18312a" />
+		</dataarea>
+		<dataarea name="sprites" size="0x900000">
+		<rom loadflag="load16_byte" name="093e.c1" offset="0x400000" size="0x200000" crc="b90ebed4" sha1="e9e441fb9b425505e500e0e0b40ef11a43b2d4b2" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="093e.c2" offset="0x400001" size="0x200000" crc="41e62b4f" sha1="2fb1f752643d7dd3470ade76229e3756818412f7" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		<rom loadflag="load16_byte" name="093.c3" offset="0x800000" size="0x80000" crc="e37578c5" sha1="20024caa0f09ee887a6418dd02d02a0df93786fd" />
+		<rom loadflag="load16_byte" name="093.c4" offset="0x800001" size="0x80000" crc="59826783" sha1="0110a2b6186cca95f75225d4d0269d61c2ad25b1" />
+		</dataarea>
+	</part>
+</software>

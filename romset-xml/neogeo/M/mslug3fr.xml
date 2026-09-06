@@ -1,0 +1,28 @@
+<software name="mslug3fr" cloneof="mslug3">
+	<description>Metal Slug 3 (Traduction French)</description>
+	<year>2004</year>
+	<publisher>Arkatrad</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="256fr.p1" offset="0x0" size="0x100000" crc="1f5fcb35" sha1="387e0e0121a26254991b446d6bbdf755cf2e3ad2" />
+		<rom loadflag="load16_word_swap" name="256h.p2" offset="0x100000" size="0x400000" crc="1f3d8ce8" sha1="08b05a8abfb86ec09a5e758d6273acf1489961f9" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="256.v1" offset="0x0" size="0x400000" crc="f2690241" sha1="fd56babc1934d10e0d27c32f032f9edda7ca8ce9" />
+		<rom name="256.v2" offset="0x400000" size="0x400000" crc="7e2a10bd" sha1="0d587fb9f64cba0315ce2d8a03e2b8fe34936dff" />
+		<rom name="256.v3" offset="0x800000" size="0x400000" crc="0eaec17c" sha1="c3ed613cc6993edd6fc0d62a90bcd85de8e21915" />
+		<rom name="256.v4" offset="0xc00000" size="0x400000" crc="9b4b22d4" sha1="9764fbf8453e52f80aa97a46fb9cf5937ef15a31" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="256fr.c1" offset="0x0" size="0x800000" crc="6ac28a9f" sha1="9dae9703d20af3644456eda228ea7fb52fe67bd7" />
+		<rom loadflag="load16_byte" name="256fr.c2" offset="0x1" size="0x800000" crc="c9725cd0" sha1="59a0a2778ae35ddcac17fba05a81f3da5eaca1f1" />
+		<rom loadflag="load16_byte" name="256d.c3" offset="0x1000000" size="0x800000" crc="bfaade82" sha1="66b07e592c9a9b35567fe463496f8f75c32a7db9" />
+		<rom loadflag="load16_byte" name="256d.c4" offset="0x1000001" size="0x800000" crc="1463add6" sha1="4db91b46d6430da272d27d00a6dc0eb25949bea1" />
+		<rom loadflag="load16_byte" name="256d.c5" offset="0x2000000" size="0x800000" crc="48ca7f28" sha1="e903876be5fb4fa582c988d74c6bef1c3b9c7083" />
+		<rom loadflag="load16_byte" name="256d.c6" offset="0x2000001" size="0x800000" crc="806eb36f" sha1="a412a9cab80c326733dde7652d1db2a46afb3ebb" />
+		<rom loadflag="load16_byte" name="256d.c7" offset="0x3000000" size="0x800000" crc="9395b809" sha1="ca9ac9832017094eee3623f0b6c4c4b7b4f1374d" />
+		<rom loadflag="load16_byte" name="256d.c8" offset="0x3000001" size="0x800000" crc="a369f9d4" sha1="f8146ea80a1a23da7e7e04c88f778ee9abdfeb5c" />
+		</dataarea>
+	</part>
+</software>

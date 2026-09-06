@@ -1,0 +1,36 @@
+<software name="dinoha" cloneof="dino">
+	<description>Cadillacs and Dinosaurs Turbo 97 (bootleg set 1, 930223 Asia TW)</description>
+	<year>1993</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c25s57.p1" offset="0x80000" size="0x80000" crc="4c70dca7" sha1="2e7a10c90924e0f87903eddb04313f61233a998f" />
+		<rom loadflag="continue" offset="0x0" size="0x80000" />
+		<rom loadflag="load16_word_swap" name="c25s57.p3" offset="0x180000" size="0x80000" crc="c6ae7338" sha1="4b8543cf1ac89ae95fe63e6d81c87d2bda52da69" />
+		<rom loadflag="continue" offset="0x100000" size="0x80000" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c25.m1" offset="0x0" size="0x8000" crc="605fdb0b" sha1="9da90ddc6513aaaf2260f0c69719c6b0e585ba8c" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="dinoh.key" offset="0x0" size="0x80" crc="67862673" sha1="9ae7446231da7fd6355e1f22ac3fb974c3775600" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom loadflag="load16_word" name="c25ha.c01" offset="0x0" size="0x80000" crc="7e4f9fb3" sha1="b985d925e0fb799cdf0a671e4800961d9872cd8f" />
+		<rom loadflag="continue" offset="0x4" size="0x80000" />
+		<rom loadflag="continue" offset="0x200000" size="0x80000" />
+		<rom loadflag="continue" offset="0x200004" size="0x80000" />
+		<rom loadflag="load16_word" name="c25ha.c03" offset="0x2" size="0x80000" crc="89532d85" sha1="6743c4d9b4407421416c13878b8a1fae097dd7a7" />
+		<rom loadflag="continue" offset="0x6" size="0x80000" />
+		<rom loadflag="continue" offset="0x200002" size="0x80000" />
+		<rom loadflag="continue" offset="0x200006" size="0x80000" />
+		</dataarea>
+		<dataarea name="qsound" size="0x200000">
+		<rom name="c25.q1" offset="0x0" size="0x80000" crc="60927775" sha1="f8599bc84c38573ebbe8685822c58b6a38b50462" />
+		<rom name="c25.q2" offset="0x80000" size="0x80000" crc="770f4c47" sha1="fec8ef00a6669d4d5e37787ecc7b58ee46709326" />
+		<rom name="c25.q3" offset="0x100000" size="0x80000" crc="2f273ffc" sha1="f0de462f6c4d251911258e0ebd886152c14d1586" />
+		<rom name="c25.q4" offset="0x180000" size="0x80000" crc="2c67821d" sha1="6e2528d0b22508300a6a142a796dd3bf53a66946" />
+		</dataarea>
+	</part>
+</software>

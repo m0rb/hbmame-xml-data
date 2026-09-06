@@ -1,0 +1,33 @@
+<software name="bubsymph01" cloneof="bublbob2">
+	<description>Bubble Symphony (Chinese)</description>
+	<year>1994</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="d90hc01-12" offset="0x0" size="0x40000" crc="1ae40f57" sha1="56cfcfc69b0f29a2f13745f47462dd442c422260" />
+		<rom loadflag="load32_byte" name="d90hc01-11" offset="0x1" size="0x40000" crc="bc2ad86a" sha1="3bbc20396fa328901747dcd6c88cf2a90e852ccb" />
+		<rom loadflag="load32_byte" name="d90hc01-10" offset="0x2" size="0x40000" crc="db7c9cc2" sha1="11786688b5525b0429532e53580e93dba2afd18a" />
+		<rom loadflag="load32_byte" name="d90hc01-09" offset="0x3" size="0x40000" crc="20a5f8a1" sha1="50070b30c166350b397bec3ffc4038adcb3289b5" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="d90hc01-03" offset="0x0" size="0x100000" crc="9e610be0" sha1="d8663197e052c17f6cd507a9e0fc5be53060b483" />
+		<rom loadflag="load16_byte" name="d90hc01-02" offset="0x1" size="0x100000" crc="881e91a1" sha1="3e273c831b1d620bfc97d803636988d397b494ad" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x100000">
+		<rom name="d90hc01-01" offset="0x0" size="0x100000" crc="4a577d64" sha1="37acf59c3d3dd2fe9dda30c30cbbc4cad548af8f" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="d90-13.ic32" offset="0x100000" size="0x40000" crc="6762bd90" sha1="771db0382bc8dab2caf13d0fc20648366c685829" />
+		<rom loadflag="load16_byte" name="d90-14.ic33" offset="0x100001" size="0x40000" crc="8e33357e" sha1="68b81693c22e6357e37244f2a416818a81338138" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="d90-04" offset="0x0" size="0x200000" crc="feee5fda" sha1="b89354013ec4d34bcd51ecded412effa66dd2f2f" />
+		<rom loadflag="load16_byte" name="d90-05" offset="0x400000" size="0x200000" crc="c192331f" sha1="ebab05b3681c70b373bc06c1826be1cc397d3af7" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x100000">
+		<rom name="d90hc01-06" offset="0x0" size="0x100000" crc="f3a70b9c" sha1="5fd676db3783dbd905b53b0e9e6199371dca88a7" />
+		</dataarea>
+	</part>
+</software>

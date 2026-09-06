@@ -1,0 +1,30 @@
+<software name="ssf2tnl4" cloneof="ssf2t">
+	<description>Super Street Fighter II Turbo (New Legacy v0.4 beta, 2020-11-13)</description>
+	<year>2020</year>
+	<publisher>Born2SPD</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="tnl4.p1" offset="0x0" size="0x80000" crc="8eb183f3" sha1="f874a0b759a1ca758400163855812f3b3f4fa8d5" />
+		<rom loadflag="load16_word_swap" name="tnl4.p2" offset="0x80000" size="0x80000" crc="9966e741" sha1="318a01fe3d18bd3de695f88cd6f878996a3c59b9" />
+		<rom loadflag="load16_word_swap" name="tnl4.p3" offset="0x100000" size="0x80000" crc="5b79d5b5" sha1="a6db98500be81a1c1b6803eb487b875e24fe5237" />
+		<rom loadflag="load16_word_swap" name="tnl4.p4" offset="0x180000" size="0x80000" crc="5d65a16c" sha1="a17cd9fa5467fc7c3db35d81c8cd741f62fd7727" />
+		<rom loadflag="load16_word_swap" name="tnl4.p5" offset="0x200000" size="0x80000" crc="fa3b5717" sha1="7ee72ac88d953ef32072971da789dd78441915ea" />
+		<rom loadflag="load16_word_swap" name="tnl4.p6" offset="0x280000" size="0x80000" crc="ac0f3088" sha1="641884bd25f0ab93db6193c1999c4b10b6f1e248" />
+		<rom loadflag="load16_word_swap" name="tnl4.p7" offset="0x300000" size="0x80000" crc="2a738eb9" sha1="88220fe35efa74d836985014dea7f20d5c6b6d34" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c51.m1" offset="0x0" size="0x8000" crc="b47b8835" sha1="c8b2d50fe3a329bd0592ea160d505155d873dab1" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c51.m2" offset="0x28000" size="0x20000" crc="0022633f" sha1="cab3afc79da53e3887eb1ccd1f4d19790728e6cd" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="ssf2t.key" offset="0x0" size="0x14" crc="524d608e" sha1="fcd2b9a1a640a0dee4a674dc9cfb3975466f7757" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c51.q1" offset="0x0" size="0x200000" crc="9bdbd476" sha1="a8520f77f30b97aae36408e0c4ca1ebbde1808a5" />
+		<rom loadflag="load16_word_swap" name="c51.q2" offset="0x200000" size="0x200000" crc="a05e3aab" sha1="d4eb9cae66c74e956569fea8b815156fbd420f83" />
+		</dataarea>
+	</part>
+</software>

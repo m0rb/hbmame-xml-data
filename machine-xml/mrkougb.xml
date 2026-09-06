@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="mrkougb" description="Mrkougb cartridges">
+<software name="troopyx" cloneof="mrkougar">
+	<description>Troopy (fixed graphics)</description>
+	<year>2020</year>
+	<publisher>chaneman</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="ic2cb.bin" offset="0x0" size="0x1000" crc="a1798961" sha1="45a1f6183016229fced3b459c95c99d83408151a" />
+		<rom name="ic2eb.bin" offset="0x1000" size="0x1000" crc="7f3572f9" sha1="2f89f743a32378ed4ac4184627ed9be007c3334a" />
+		<rom name="ic2fb.bin" offset="0x2000" size="0x1000" crc="42e666fd" sha1="caa6a2b07098ef1d6203309ddd3a591194b4ac70" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="ic5c.bin" offset="0x0" size="0x1000" crc="af42a371" sha1="edacbb29df34fdf400a5c726d851af1479a34c70" />
+		<rom name="ic5d.bin" offset="0x1000" size="0x1000" crc="862b8902" sha1="91dcbc634f7c7ed78dfbd0be5cf1e0631429cfbf" />
+		<rom name="ic5e.bin" offset="0x2000" size="0x1000" crc="a0396cc8" sha1="c8266b58b144a4bc564f3a2503d5b953c0ba6ca7" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="troopyx.ic5h" offset="0x0" size="0x800" crc="9a40b385" sha1="4a3b3cafe5c064f3b485a769c045eba5fc7c12ce" />
+		<rom name="ic5f_neu.bin" offset="0x800" size="0x800" crc="cbbfefc2" sha1="2378949275b8d3fc69551b00d9b2c654b91fd780" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="82s123" offset="0x0" size="0x20" crc="4e3caeab" sha1="a25083c3e36d28afdefe4af6e6d4f3155e303625" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

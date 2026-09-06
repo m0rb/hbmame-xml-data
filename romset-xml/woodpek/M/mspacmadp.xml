@@ -1,0 +1,19 @@
+<software name="mspacmadp" cloneof="mspacman">
+	<description>Ms. Pacman (Pac Droid Plus)</description>
+	<year>2018</year>
+	<publisher>MamePlus</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacmdp.1" offset="0x0" size="0x1000" crc="69c02827" sha1="12b675ab56cb9f3184a6a6bd280eafbab4ceb5b2" />
+		<rom name="pacmdp.2" offset="0x1000" size="0x1000" crc="e961c8b3" sha1="f0486c1c49ed7abd9f865c939a5d8fa685125b75" />
+		<rom name="pacmdp.3" offset="0x2000" size="0x1000" crc="e9faa733" sha1="46a87428b72d9d81e5952e318148d0f8fc94bc51" />
+		<rom name="pacmdp.4" offset="0x3000" size="0x1000" crc="93deebb4" sha1="7d84ce6f70abc8ec60973430f966019beb1f0346" />
+		<rom name="pacmdp.5" offset="0x8000" size="0x1000" crc="a935866b" sha1="64b280174b6ac9abed5e6bb7ce631f4c7f3c4b02" />
+		<rom name="pacmdp.6" offset="0x9000" size="0x1200" crc="59aec466" sha1="14357226551b735d02208492b81d4f90a8eefdc2" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacmdp.5e" offset="0x0" size="0x1000" crc="843ff4f5" sha1="8aa82364d5fbd2692d8c22e4673a27731f9b20e5" />
+		<rom name="pacmdp.5f" offset="0x1000" size="0x1000" crc="aadcfae1" sha1="800c46b4f08b575082840807d73cd47d0eb9fe00" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,33 @@
+<software name="rastsaga01">
+	<description>Rastan Saga (Brazil)</description>
+	<year>2019</year>
+	<publisher>Antigeno</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x60000">
+		<rom loadflag="load16_byte" name="s01-14.19" offset="0x0" size="0x10000" crc="f33adf4d" sha1="b916ef7f8268b2ebbf0b486ec801db929a1a63c1" />
+		<rom loadflag="load16_byte" name="s01-13.7" offset="0x1" size="0x10000" crc="dcc16c00" sha1="d188d5cc054a80b5a7f0860f6d8ddeb5c356f81a" />
+		<rom loadflag="load16_byte" name="s01-16.20" offset="0x20000" size="0x10000" crc="8375d5a3" sha1="f6c3e6ded5242ab7e73399104fdd2b31ecde2d29" />
+		<rom loadflag="load16_byte" name="s01-15.8" offset="0x20001" size="0x10000" crc="602ccf6d" sha1="778ee5dc1a7a59542a456786c359d28159a0d4b9" />
+		<rom loadflag="load16_byte" name="s01-18-1.21" offset="0x40000" size="0x10000" crc="1846353b" sha1="cfe64e34d35407ff5d58d9c30e0b03615451efa8" />
+		<rom loadflag="load16_byte" name="s01-17-1.9" offset="0x40001" size="0x10000" crc="8f4414b8" sha1="ad55ff4b1ad336cb9f39f66236c7c8efe95bd95f" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="b04-19.49" offset="0x0" size="0x10000" crc="ee81fdd8" sha1="fa59dac2583a7d2979550dffc6f9c6c2bd67bfd5" />
+		</dataarea>
+		<dataarea name="adpcm" size="0x10000">
+		<rom name="b04-20.76" offset="0x0" size="0x10000" crc="fd1a34cc" sha1="b1682959521fa295769207b75cf7d839e9ec95fd" />
+		</dataarea>
+		<dataarea name="pc080sn" size="0x80000">
+		<rom loadflag="load16_byte" name="s01-01.40" offset="0x0" size="0x20000" crc="56494cce" sha1="c5a7a2f28e079a5436d0b2faacfd9ba51cb19b3e" />
+		<rom loadflag="load16_byte" name="s01-02.67" offset="0x1" size="0x20000" crc="e4beeb34" sha1="63209de854b3aaabae96f710f6dc4d7ac9b88c2d" />
+		<rom loadflag="load16_byte" name="b04-03.39" offset="0x40000" size="0x20000" crc="ab67e064" sha1="5c49f0ff9221cba9f2bb8da86eb4448c73012410" />
+		<rom loadflag="load16_byte" name="b04-04.66" offset="0x40001" size="0x20000" crc="94737e93" sha1="3df7f085fe6468bda11fab2e86252df6f74f7a99" />
+		</dataarea>
+		<dataarea name="pc090oj" size="0x80000">
+		<rom loadflag="load16_byte" name="s01-05.15" offset="0x0" size="0x20000" crc="d0de533f" sha1="80874f3febbc8c64c4ba79133eb2e2febfdc62dc" />
+		<rom loadflag="load16_byte" name="s01-06.28" offset="0x1" size="0x20000" crc="78510eed" sha1="14230a5d0d16a3c61b9425ff574b1fc9808f00cb" />
+		<rom loadflag="load16_byte" name="s01-07.14" offset="0x40000" size="0x20000" crc="7521af01" sha1="4d510ac719d64b650fc61b317d570183fdcdfdcf" />
+		<rom loadflag="load16_byte" name="s01-08.27" offset="0x40001" size="0x20000" crc="ca183d63" sha1="b19a7fdcff91e74789bc0f6682c5f7d1646a5919" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,24 @@
+<software name="alpacap7" cloneof="alpaca8">
+	<description>Alpaca v0.7 (Pengo Hardware)</description>
+	<year>2003</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="alp7.u8" offset="0x0" size="0x1000" crc="e70923e4" sha1="86a96dc0dee5f5b532121892528ed2b456d51174" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="alp7_ic92" offset="0x0" size="0x1000" crc="693b1a96" sha1="ded8ac0a4186458fda6a241c027718742ba87973" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom name="alp_ic105" offset="0x1000" size="0x1000" crc="bda193f4" sha1="a61b5e86809feff025c73de78fc751ead646125b" />
+		<rom loadflag="continue" offset="0x3000" size="0x1000" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="pr1635.ic51" offset="0x0" size="0x100" crc="c29dea27" sha1="563c9770028fe39188e62630711589d6ed242a66" />
+		<rom name="pr1636.ic70" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x420">
+		<rom name="pr1633.ic78" offset="0x0" size="0x20" crc="3a5844ec" sha1="680eab0e1204c9b74adc11588461651b474021bb" />
+		<rom name="pr1634.ic88" offset="0x20" size="0x400" crc="766b139b" sha1="3fcd66610fcaee814953a115bf5e04788923181f" />
+		</dataarea>
+	</part>
+</software>

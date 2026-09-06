@@ -1,0 +1,21 @@
+<software name="pacyuyu" cloneof="puckman">
+	<description>Pac-Yuyu</description>
+	<year>2022</year>
+	<publisher>Kirai Shouen, 125scratch</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="pacyuyu.6j" offset="0x3000" size="0x1000" crc="85bb3cba" sha1="9c3897b773c6dba55d78a385b0edc8f49439fbd2" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacyuyu.5e" offset="0x0" size="0x1000" crc="430a4708" sha1="96026757c4de2e6a1bc5b6f91ca5a5499880f7da" />
+		<rom name="pacyuyu.5f" offset="0x1000" size="0x1000" crc="333e98df" sha1="c9fa72b9aad48a4d99a0ab9767335619d408ddc9" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="pacyuyu.7f" offset="0x0" size="0x20" crc="67141599" sha1="dd99fc1329f237a7c56abe643de15b49c18abb64" />
+		<rom name="pacyuyu.4a" offset="0x20" size="0x100" crc="2c004790" sha1="00031f2dc7bd64b894ee5b5a5113f41f36c58edb" />
+		</dataarea>
+	</part>
+</software>

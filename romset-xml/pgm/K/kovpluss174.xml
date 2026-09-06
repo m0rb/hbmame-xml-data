@@ -1,0 +1,29 @@
+<software name="kovpluss174" cloneof="kovplus">
+	<description>Knights of Valour Plus (Nightmare Coming 2016 2016-03-18)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_ph174.119" offset="0x100000" size="0x455145" crc="cf978606" sha1="be3eb0290a2829104a65f88d48fbe71d8881e48b" />
+		</dataarea>
+		<dataarea name="ics" size="0x1000000">
+		<rom name="m0600_ph174.rom" offset="0x400000" size="0x454f47" crc="132765c9" sha1="b4f56dfeba59fea248ec4e04255033e2cb3ec8fb" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_ph174.rom" offset="0x0" size="0x800000" crc="b2a208a1" sha1="3c4191336aa760e6077eee9983c809dfbe3eb57a" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="pgm_a0603.u9" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_ph174.rom" offset="0x0" size="0x800000" crc="e0a70b54" sha1="ad94e39fb418770af677083406c3db7a0279c865" />
+		<rom name="pgm_b0601.u7" offset="0x800000" size="0x400000" crc="a0bb1c2f" sha1="0542348c6e27779e0a98de16f04f9c18158f2b28" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_ph174.rom" offset="0x180000" size="0x800000" crc="f7b6f432" sha1="1c450f5eac830a41248c93b3e3f67abc217e18c3" />
+		</dataarea>
+	</part>
+</software>

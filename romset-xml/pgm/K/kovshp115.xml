@@ -1,0 +1,29 @@
+<software name="kovshp115" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Warriors World War II, 2019-12-26)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po115.rom" offset="0x100000" size="0x40089a" crc="2b2ece8c" sha1="668fbc67ab19a9006b19d123fea82d15626d8e4c" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600_ph259.rom" offset="0x400000" size="0x400000" crc="7a50501b" sha1="1af6be69f3133ed56d4a132a1910cf562da83dac" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0600_pw111.rom" offset="0x180000" size="0x800000" crc="de7fdc0c" sha1="67cf82401d44336ea6b41fb60eb36028d0236a7d" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="pgm_a0600.u3" offset="0x0" size="0x800000" crc="d8167834" sha1="fa55a99629d03b2ea253392352f70d2c8639a991" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_po111.rom" offset="0x1000000" size="0x800000" crc="f7bac06b" sha1="9252cb2dc080814fb72438b4b4b64a22fecaefc3" />
+		<rom name="a0540_po115.rom" offset="0x1800000" size="0x800000" crc="3aff2125" sha1="efe5746f8280d2b87e6b3a048e7bfa153e56ffbf" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b0600.u9" offset="0x0" size="0x800000" crc="7d3cd059" sha1="00cf994b63337e0e4ebe96453daf45f24192af1c" />
+		<rom name="b0540_po115.rom" offset="0x800000" size="0x800000" crc="12c0ab5b" sha1="4bad455c96c6f017f5b7fd48dcf8be438db269b3" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_pw111.asic" offset="0x0" size="0x4000" crc="5aa832c1" sha1="ccd7c7553050cbd94faf6a70dc1e3bc79bbecafb" />
+		</dataarea>
+	</part>
+</software>

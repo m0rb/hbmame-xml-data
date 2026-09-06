@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="mooncrst" description="Mooncrst cartridges">
+<software name="mooncrst01">
+	<description>Moon Cresta (bootleg)</description>
+	<year>1980</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="mooncrst01.7k" offset="0x0" size="0x1000" crc="d62875a5" sha1="2e162bf559a72acb5d23434497a9377a302b0440" />
+		<rom name="mooncrst01.7j" offset="0x1000" size="0x1000" crc="1683e74c" sha1="5887ddeed7d3399e93bc3146f54c23e9f8893866" />
+		<rom name="mooncrst01.7h" offset="0x2000" size="0x1000" crc="46921e92" sha1="7a3cec261a9e0baf969bd356a0766b4b266eaa39" />
+		<rom name="mooncrst01.7a" offset="0x3000" size="0x400" crc="5318be0c" sha1="cca73501da8783e47f3f3c7d8a795011d5fd91a3" />
+		<rom name="mooncrst01.7b" offset="0x3400" size="0x400" crc="aed8acb2" sha1="a2429daba96e6c064f4bc65cab2df6b15a43bf44" />
+		<rom name="mooncrst01.5f" offset="0x3800" size="0x400" crc="76db94a5" sha1="f7d9c81d5e09f7e42258caf265606b1ba32439dd" />
+		<rom name="mooncrst01.7d" offset="0x3c00" size="0x400" crc="db0528cf" sha1="be06b78d890e07fcbbfd6931d1a59ab0fb8b7a53" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mooncrst01.1h" offset="0x800" size="0x800" crc="60d783bc" sha1="584a0600ef1c47fb8bce86f738af7691fdf91c9c" />
+		<rom loadflag="continue" offset="0x0" size="0x800" />
+		<rom name="mooncrst01.1k" offset="0x1800" size="0x800" crc="bc25be88" sha1="0e698a1e573f28e8aad07e79c11f38519d93286c" />
+		<rom loadflag="continue" offset="0x1000" size="0x800" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="mmi6331.6l" offset="0x0" size="0x20" crc="6a0c7d87" sha1="140335d85c67c75b65689d4e76d29863c209cf32" />
+		</dataarea>
+	</part>
+</software>
+<software name="mooncrst02">
+	<description>Moon Creamsta</description>
+	<year>2000</year>
+	<publisher>Kazzy</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="mc1" offset="0x0" size="0x800" crc="7d954a7a" sha1="a93ee403cfd7887538ad12d33f6dd6c71bea2a32" />
+		<rom name="mc2" offset="0x800" size="0x800" crc="44bb7cfa" sha1="349c2e23a9fce73f95bb8168d369082fa129fe3d" />
+		<rom name="mc3" offset="0x1000" size="0x800" crc="9c412104" sha1="1b40054ebb1ace965a8522119bb23f09797bc5f6" />
+		<rom name="mc4" offset="0x1800" size="0x800" crc="7e9b1ab5" sha1="435f603c0c3e788a509dd144a7916a34e791ae44" />
+		<rom name="mc5.7r" offset="0x2000" size="0x800" crc="16c759af" sha1="3b48050411f65f9d3fb41ff22901e22d82bf1cf6" />
+		<rom name="mc6.8d" offset="0x2800" size="0x800" crc="69bcafdb" sha1="939c8c6ed1cd4660a3d99b8f17ed99cbd7e1352a" />
+		<rom name="mc7.8e" offset="0x3000" size="0x800" crc="b50dbc46" sha1="4fa084fd1ba5f78e7703e684c57af15ca7a844e4" />
+		<rom name="mc8" offset="0x3800" size="0x800" crc="18ca312b" sha1="39219059003b949e38305553fea2d33071062c64" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mmcs_b" offset="0x0" size="0x800" crc="94d69a79" sha1="d984ce68046244589e94cb526dc2fa11a85077d9" />
+		<rom name="mmcs_d" offset="0x800" size="0x800" crc="44a6c84a" sha1="464dc9a11fdf3015ce9d4735c27c1d6eab51cecb" />
+		<rom name="mmcs_a" offset="0x1000" size="0x800" crc="d8c9713c" sha1="13f514bed011bb7f420e99bd9caeca0f2a1012ff" />
+		<rom name="mmcs_c" offset="0x1800" size="0x800" crc="50e37124" sha1="ae07715733e864eadc3b4586c3e9f1852a4cf127" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="mmi6331.6l" offset="0x0" size="0x20" crc="6a0c7d87" sha1="140335d85c67c75b65689d4e76d29863c209cf32" />
+		</dataarea>
+	</part>
+</software>
+<software name="moontest">
+	<description>Moon Cresta Test Rom (2017-12-07)</description>
+	<year>2017</year>
+	<publisher>Phil Murray</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x8000">
+		<rom name="moontest.7k" offset="0x0" size="0x400" crc="caf5eb02" sha1="3ba9df1e8f3fa548a68f1f596f744c188a1ea48a" />
+		<rom name="mc2" offset="0x800" size="0x800" crc="44bb7cfa" sha1="349c2e23a9fce73f95bb8168d369082fa129fe3d" />
+		<rom name="mc3" offset="0x1000" size="0x800" crc="9c412104" sha1="1b40054ebb1ace965a8522119bb23f09797bc5f6" />
+		<rom name="mc4" offset="0x1800" size="0x800" crc="7e9b1ab5" sha1="435f603c0c3e788a509dd144a7916a34e791ae44" />
+		<rom name="mc5.7r" offset="0x2000" size="0x800" crc="16c759af" sha1="3b48050411f65f9d3fb41ff22901e22d82bf1cf6" />
+		<rom name="mc6.8d" offset="0x2800" size="0x800" crc="69bcafdb" sha1="939c8c6ed1cd4660a3d99b8f17ed99cbd7e1352a" />
+		<rom name="mc7.8e" offset="0x3000" size="0x800" crc="b50dbc46" sha1="4fa084fd1ba5f78e7703e684c57af15ca7a844e4" />
+		<rom name="mc8" offset="0x3800" size="0x800" crc="18ca312b" sha1="39219059003b949e38305553fea2d33071062c64" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mcs_b" offset="0x0" size="0x800" crc="fb0f1f81" sha1="38a6679a8b69bc1870a0e67e692131c42f9535c8" />
+		<rom name="mcs_d" offset="0x800" size="0x800" crc="13932a15" sha1="b8885c555c6ad7021be55c6925a0a0872c1b6abd" />
+		<rom name="mcs_a" offset="0x1000" size="0x800" crc="631ebb5a" sha1="5bc9493afa76c55858b8c8849524cbc77dc838fc" />
+		<rom name="mcs_c" offset="0x1800" size="0x800" crc="24cfd145" sha1="08c6599db170dd6ee364c44f70a0f5c0f881b6ef" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="mmi6331.6l" offset="0x0" size="0x20" crc="6a0c7d87" sha1="140335d85c67c75b65689d4e76d29863c209cf32" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

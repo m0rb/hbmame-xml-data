@@ -1,0 +1,16 @@
+<software name="pc_smb_ps03" cloneof="pc_smb">
+	<description>Super Mario Bros. (Always An Adult, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps03" offset="0x0" size="0x8000" crc="055a9072" sha1="3e6e559ee2ef22d1514ce73dd68b1cf23a57dda1" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

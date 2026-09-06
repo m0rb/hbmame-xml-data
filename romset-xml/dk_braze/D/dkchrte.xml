@@ -1,0 +1,35 @@
+<software name="dkchrte" cloneof="dkong">
+	<description>Donkey Kong Christmas Tournament Edition</description>
+	<year>2022</year>
+	<publisher>John Kowalski</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="c_5et_g.bin" offset="0x0" size="0x1000" crc="ba70b88b" sha1="d76ebecfea1af098d843ee7e578e480cd658ac1a" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="c_5at_g.bin" offset="0x3000" size="0x1000" crc="b9005ac0" sha1="3fe3599f6fa7c496f782053ddf7bacb453d197c4" />
+		</dataarea>
+		<dataarea name="braze" size="0x10000">
+		<rom name="dkchrte.bin" offset="0x0" size="0x10000" crc="3d6b05f6" sha1="2fcfbe81f00ee8c672edaf869b28620fb2ab2944" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkchrte.5h" offset="0x0" size="0x800" crc="0bdb6d28" sha1="f95394d1b9a18dbda25af0e56f3f7c7ad3d37799" />
+		<rom name="dkchrte.3pt" offset="0x800" size="0x800" crc="6bb0affb" sha1="ca72ee4435f34c656963f712d5dee5ba865e0c85" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkchrte.4m" offset="0x0" size="0x800" crc="3282f0a1" sha1="c8034fdc3acc013e3f497c14f26a3800e507dee8" />
+		<rom name="dkchrte.4n" offset="0x800" size="0x800" crc="89ebf388" sha1="c567ee4ac9e5bcf32d12eef7319dc30ca2d093d0" />
+		<rom name="dkchrte.4r" offset="0x1000" size="0x800" crc="fe8b84a8" sha1="0a43cadbda6e91ddf937561622c63faa0ff7fab6" />
+		<rom name="dkchrte.4s" offset="0x1800" size="0x800" crc="3b18ae70" sha1="5a4b485a379d8282dab033dc77fa361f6fef5e51" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.ch" offset="0x0" size="0x100" crc="c6cee97e" sha1="6590b6815a0cb19b800bce0f504494217977ae44" />
+		<rom name="c-2j.ch" offset="0x100" size="0x100" crc="1f64ac3d" sha1="0591495a75a301772856c121f34299da4f9df341" />
+		<rom name="v-5e.ch" offset="0x200" size="0x100" crc="5a8ca805" sha1="8e711af73ddb20ed62a9a8b53f1150feab1dc051" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>

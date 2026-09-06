@@ -1,0 +1,20 @@
+<software name="ddsprdmo">
+	<description>Double Dragon SpritePool demo</description>
+	<year>2018</year>
+	<publisher>Vasily Familiya</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom name="687.p1" offset="0x0" size="0x618f" crc="c9379981" sha1="17ca5d41a27daf47887df55596e7bf2955cf9cbf" />
+		<rom name="687.p2" offset="0x100000" size="0x28424" crc="1e717427" sha1="f605f02f8f35313eeb58dc9858599e4ba8a0c632" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x300000">
+		<rom name="687.v1" offset="0x0" size="0x100000" crc="8d9a4aa4" sha1="52dfbcdb6015e692b5b030c3e44099d51c31d92d" />
+		<rom name="687.v2" offset="0x100000" size="0x100000" crc="5a326fc1" sha1="18034072a32bd25ee3562ce56d7685ba6db2cd8e" />
+		<rom name="687.v3" offset="0x200000" size="0x100000" crc="c37bb043" sha1="6fcfeccad763a91c07ce7e2ab8ef5efd4aa7bda9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom name="687.c1" offset="0x0" size="0x127000" crc="092721a3" sha1="c5b8ce994baf1bbf50727dbab0759cba0d01a719" />
+		</dataarea>
+	</part>
+</software>

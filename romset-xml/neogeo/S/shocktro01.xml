@@ -1,0 +1,26 @@
+<software name="shocktro01" cloneof="shocktro">
+	<description>Shock Troopers (Super Plus, 2009-08-18)</description>
+	<year>2009</year>
+	<publisher>e107</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="238s01.p1" offset="0x0" size="0x100000" crc="6ee78d00" sha1="8847879749e55f7b24e149a7e24ec301f7b56929" />
+		<rom loadflag="load16_word_swap" name="238.p2" offset="0x100000" size="0x400000" crc="5b4a09c5" sha1="de04036cba2da4bb2da73d902d1822b82b4f67a9" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x600000">
+		<rom name="238.v1" offset="0x0" size="0x400000" crc="260c0bef" sha1="9c4f80ce4bb205afed11bb8b8926d20748eb5512" />
+		<rom name="238.v2" offset="0x400000" size="0x200000" crc="4ad7d59e" sha1="bfdf2684f7f38af4e75ad0068ff9463dc2601598" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="238.c1" offset="0x0" size="0x400000" crc="90c6a181" sha1="a381bc8449718814ff12b3a4f7fc4d1bb7ea1631" />
+		<rom loadflag="load16_byte" name="238.c2" offset="0x1" size="0x400000" crc="888720f0" sha1="cd4d65df8d3ef0dbcca2b7f3f803f45c457f5beb" />
+		<rom loadflag="load16_byte" name="238.c3" offset="0x800000" size="0x400000" crc="2c393aa3" sha1="1cd7cebe5861a2d65f1d6615dd7752162e573a02" />
+		<rom loadflag="load16_byte" name="238.c4" offset="0x800001" size="0x400000" crc="b9e909eb" sha1="33cc9b2d13e4ed2ab6040ff582a53dc9bca402e0" />
+		<rom loadflag="load16_byte" name="238.c5" offset="0x1000000" size="0x400000" crc="c22c68eb" sha1="a4b04118b1b1909d3b76be8d9ee5d97db6120600" />
+		<rom loadflag="load16_byte" name="238.c6" offset="0x1000001" size="0x400000" crc="119323cd" sha1="05a9d4b1fb4cc963b25452ff6f81e296e0c0b2a1" />
+		<rom loadflag="load16_byte" name="238.c7" offset="0x1800000" size="0x400000" crc="a72ce7ed" sha1="05b151554bd7af09ccf554a17bc3c75a0512faaf" />
+		<rom loadflag="load16_byte" name="238.c8" offset="0x1800001" size="0x400000" crc="1c7c2efb" sha1="b055ee43cbdaf9a3cb19e4e1f9dd2c40bde69d70" />
+		</dataarea>
+	</part>
+</software>

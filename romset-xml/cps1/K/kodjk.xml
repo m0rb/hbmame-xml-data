@@ -1,0 +1,27 @@
+<software name="kodjk" cloneof="kod">
+	<description>The King of Dragons (910805, Korea)</description>
+	<year>1991</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c16k.p1" offset="0x0" size="0x20000" crc="dccccf4f" sha1="50f7746a4d11c0f24aa1191b0b87b72657da0af5" />
+		<rom loadflag="load16_byte" name="c16k.p2" offset="0x1" size="0x20000" crc="1cb9a149" sha1="72f55ea48ae24354a2f07ba088b99008fde08e60" />
+		<rom loadflag="load16_byte" name="c16k.p3" offset="0x40000" size="0x20000" crc="622dd533" sha1="f9b039099e535830ab9aa96347d507c94160c0c2" />
+		<rom loadflag="load16_byte" name="c16k.p4" offset="0x40001" size="0x20000" crc="4cb36b59" sha1="f28d09f6a1458abb9b42f1e00a5b14026a646f49" />
+		<rom loadflag="load16_word_swap" name="c16k.p5" offset="0x80000" size="0x80000" crc="260f5607" sha1="6465ca8493c1ecde926b6a6d948b48dba87ac6e2" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c16.m1" offset="0x0" size="0x8000" crc="bac6ec26" sha1="6cbb6d55660150ae3f5270e023328275ee1bbf50" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="kod.key" offset="0x0" size="0x80" crc="b79ea9b9" sha1="cefded329a6ccc34d3b68e614c8f3a2c174e3fdd" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c16.v1" offset="0x0" size="0x20000" crc="4c63181d" sha1="270f27534a95cb0be3ff3f9ca71c502320d8090b" />
+		<rom name="c16.v2" offset="0x20000" size="0x20000" crc="92941b80" sha1="5fa7c2793e6febee54a83042d118ddd4f2b7d127" />
+		</dataarea>
+	</part>
+</software>

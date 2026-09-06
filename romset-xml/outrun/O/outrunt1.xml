@@ -1,0 +1,48 @@
+<software name="outrunt1">
+	<description>Out Run (Memory Test v0.1)</description>
+	<year>2017</year>
+	<publisher>Alex Bartholomeus</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x60000">
+		<rom loadflag="load16_byte" name="outrunt1.133" offset="0x0" size="0x10000" crc="e4eaa777" sha1="64b3f8ca76aab5a26fae0580ad5dd1481069f7d9" />
+		<rom loadflag="load16_byte" name="outrunt1.118" offset="0x1" size="0x10000" crc="0a50e00f" sha1="db92a1cc8c8a47b2ce322e754f52fa88dcc79c83" />
+		</dataarea>
+		<dataarea name="sprites" endianness="little" size="0x100000">
+		<rom loadflag="load32_byte" name="mpr-10371.9" offset="0x0" size="0x20000" crc="7cc86208" sha1="21320f945f7c8e990c97c9b1232a0f4b6bd00f8f" />
+		<rom loadflag="load32_byte" name="mpr-10373.10" offset="0x1" size="0x20000" crc="b0d26ac9" sha1="3a9ce8547cd43b7b04abddf9a9ab5634e0bbfaba" />
+		<rom loadflag="load32_byte" name="mpr-10375.11" offset="0x2" size="0x20000" crc="59b60bd7" sha1="e5d8c67e020608edd24ba87b7687b2ac2483ee7f" />
+		<rom loadflag="load32_byte" name="mpr-10377.12" offset="0x3" size="0x20000" crc="17a1b04a" sha1="9f7210cb4153ac9029a785dcd4b45f4513a4b008" />
+		<rom loadflag="load32_byte" name="mpr-10372.13" offset="0x80000" size="0x20000" crc="b557078c" sha1="a3746a2da077a8df4932348f650a061f413e8430" />
+		<rom loadflag="load32_byte" name="mpr-10374.14" offset="0x80001" size="0x20000" crc="8051e517" sha1="9c8509fbed170b4ac74c169da573393e54774f49" />
+		<rom loadflag="load32_byte" name="mpr-10376.15" offset="0x80002" size="0x20000" crc="f3b8f318" sha1="a5f2532613f33a64441e0f75443c10ba78dccc6e" />
+		<rom loadflag="load32_byte" name="mpr-10378.16" offset="0x80003" size="0x20000" crc="a1062984" sha1="4399030a155caf71f2dec7f75c4b65531ab53576" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x30000">
+		<rom name="opr-10268.99" offset="0x0" size="0x8000" crc="95344b04" sha1="b3480714b11fc49b449660431f85d4ba92f799ba" />
+		<rom name="opr-10232.102" offset="0x8000" size="0x8000" crc="776ba1eb" sha1="e3477961d19e694c97643066534a1f720e0c4327" />
+		<rom name="opr-10267.100" offset="0x10000" size="0x8000" crc="a85bb823" sha1="a7e0143dee5a47e679fd5155e58e717813912692" />
+		<rom name="opr-10231.103" offset="0x18000" size="0x8000" crc="8908bcbf" sha1="8e1237b640a6f26bdcbfd5e201dadb2687c4febb" />
+		<rom name="opr-10266.101" offset="0x20000" size="0x8000" crc="9f6f1a74" sha1="09164e858ebeedcff4d389524ddf89e7c216dcae" />
+		<rom name="opr-10230.104" offset="0x28000" size="0x8000" crc="686f5e50" sha1="03697b892f911177968aa40de6c5f464eb0258e7" />
+		</dataarea>
+		<dataarea name="pcm" size="0x80000">
+		<rom name="opr-10193.66" offset="0x0" size="0x8000" crc="bcd10dde" sha1="417ce1d7242884640c5b14f4db8ee57cde7d085d" />
+		<rom name="opr-10192.67" offset="0x10000" size="0x8000" crc="770f1270" sha1="686bdf44d45c1d6002622f6658f037735382f3e0" />
+		<rom name="opr-10191.68" offset="0x20000" size="0x8000" crc="20a284ab" sha1="7c9027416d4122791ba53782fe2230cf02b7d506" />
+		<rom name="opr-10190.69" offset="0x30000" size="0x8000" crc="7cab70e2" sha1="a3c581d2b438630d0d4c39481dcfd85681c9f889" />
+		<rom name="opr-10189.70" offset="0x40000" size="0x8000" crc="01366b54" sha1="f467a6b807694d5832a985f5381c170d24aaee4e" />
+		<rom name="opr-10188.71" offset="0x50000" size="0x8000" crc="bad30ad9" sha1="f70dd3a6362c314adef313b064102f7a250401c8" />
+		</dataarea>
+		<dataarea name="segaic16road" size="0x10000">
+		<rom name="opr-10186.47" offset="0x0" size="0x8000" crc="22794426" sha1="a554d4b68e71861a0d0da4d031b3b811b246f082" />
+		<rom name="opr-10185.11" offset="0x8000" size="0x8000" crc="22794426" sha1="a554d4b68e71861a0d0da4d031b3b811b246f082" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x10000">
+		<rom name="epr-10187.88" offset="0x0" size="0x8000" crc="a10abaa9" sha1="01c8a819587a66d2ee4d255656e36fa0904377b0" />
+		</dataarea>
+		<dataarea name="subcpu" size="0x60000">
+		<rom loadflag="load16_byte" name="outrunt1.76" offset="0x0" size="0x10000" crc="ffb6755c" sha1="0139386ccd1e789b97ae78fd2b69d7cd2c49bb08" />
+		<rom loadflag="load16_byte" name="outrunt1.58" offset="0x1" size="0x10000" crc="41e0d02e" sha1="00af9d38d64aecffbd1cfe1dc1f66566789b4d0a" />
+		</dataarea>
+	</part>
+</software>

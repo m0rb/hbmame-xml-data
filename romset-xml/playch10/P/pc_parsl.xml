@@ -1,0 +1,16 @@
+<software name="pc_parsl">
+	<description>Parasol Stars-The Story of Bubble Bobble 3 (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="parsl-u1" offset="0x0" size="0x20000" crc="af5400dc" sha1="68258fedf7e2ba3afcf20e8261ad93d282c10bd9" />
+		</dataarea>
+		<dataarea name="prg" size="0x20000">
+		<rom name="parsl-u4" offset="0x0" size="0x20000" crc="15382139" sha1="50991602680588a9e7b03e06d45ee607fc00db13" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="ec5641d6.prm" offset="0x0" size="0x10" crc="ec5641d6" sha1="05f546aec5a9db167688a9abbac922f5ced7f7c5" />
+		</dataarea>
+	</part>
+</software>

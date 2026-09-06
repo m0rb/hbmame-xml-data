@@ -1,0 +1,16 @@
+<software name="pc_digdg">
+	<description>Dig Dug (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="digdug.u2" offset="0x0" size="0x2000" crc="2dabc198" sha1="79f1e65eea2a2841dc47916cb86fbf992b936bd5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="digdug.u1" offset="0x0" size="0x8000" crc="a26ae22e" sha1="0f95aa5f74ef2b192e355381987cf4624fce5653" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="29893c7f.prm" offset="0x0" size="0x10" crc="29893c7f" sha1="58478b7de2177c8dc1d6885bd34eeeeb5e46d7a3" />
+		</dataarea>
+	</part>
+</software>

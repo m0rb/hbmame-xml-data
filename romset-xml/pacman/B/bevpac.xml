@@ -1,0 +1,25 @@
+<software name="bevpac" cloneof="puckman">
+	<description>Bevelled Pacman</description>
+	<year>2000</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="bevpac.6j" offset="0x3000" size="0x1000" crc="a9460bc2" sha1="4969e3eba36e6e17d2d0db9239dd22f97baddd50" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="bevpac.5e" offset="0x0" size="0x1000" crc="997948fa" sha1="61162569679fa0791151ec17c6fde509ddaedbed" />
+		<rom name="bevpac.5f" offset="0x1000" size="0x1000" crc="5be1e1fd" sha1="0ef63767c16d40bd999419d4977a97d9034d85ea" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="82s126.1m" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="82s126.3m" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="82s123.7f" offset="0x0" size="0x20" crc="2fc650bd" sha1="8d0268dee78e47c712202b0ec4f1f51109b1f2a5" />
+		<rom name="bevpac.4a" offset="0x20" size="0x100" crc="17d9b991" sha1="32d4b8d0b476fafcbf3409b15dcd6ef3b50b52b2" />
+		</dataarea>
+	</part>
+</software>

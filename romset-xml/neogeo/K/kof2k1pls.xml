@@ -1,0 +1,28 @@
+<software name="kof2k1pls" cloneof="kof2001">
+	<description>Kof2001 Plus (Set 1, bootleg / hack)</description>
+	<year>2002</year>
+	<publisher>bootleg</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="262pls.p1" offset="0x0" size="0x100000" crc="758529a7" sha1="cefdc7049772dcb77d658ac8571a12eedabda3c9" />
+		<rom loadflag="load16_word_swap" name="262h.p2" offset="0x100000" size="0x400000" crc="91eea062" sha1="82bae42bbeedb9f3aa0c7c0b0a7a69be499cf98f" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="262.v1" offset="0x0" size="0x400000" crc="83d49ecf" sha1="2f2c116e45397652e77fcf5d951fa5f71b639572" />
+		<rom name="262.v2" offset="0x400000" size="0x400000" crc="003f1843" sha1="bdd58837ad542548bd4053c262f558af88e3b989" />
+		<rom name="262.v3" offset="0x800000" size="0x400000" crc="2ae38dbe" sha1="4e82b7dd3b899d61907620517a5a27bdaba0725d" />
+		<rom name="262.v4" offset="0xc00000" size="0x400000" crc="26ec4dd9" sha1="8bd68d95a2d913be41a51f51e48dbe3bff5924fb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="262hc03.c1" offset="0x0" size="0x800000" crc="d750a13e" sha1="8173cdfd3d43a7c4b2153952fd14d9cb1f2ff6b9" />
+		<rom loadflag="load16_byte" name="262hc03.c2" offset="0x1" size="0x800000" crc="4310979a" sha1="6eacac44266d8232f6fb253150bd4e0aae37e946" />
+		<rom loadflag="load16_byte" name="262hc03.c3" offset="0x1000000" size="0x800000" crc="eed3f5cf" sha1="c0d1e9ff8da6c948dbc4b2b8f084d73f1d7f640d" />
+		<rom loadflag="load16_byte" name="262hc03.c4" offset="0x1000001" size="0x800000" crc="7966c2c7" sha1="85ef98838b72366a876f3d8cd502abeb5dfb0b08" />
+		<rom loadflag="load16_byte" name="262hc03.c5" offset="0x2000000" size="0x800000" crc="27cfda9f" sha1="87c987d3e40f04f1c03db6800cede3cfb73068d4" />
+		<rom loadflag="load16_byte" name="262hc03.c6" offset="0x2000001" size="0x800000" crc="99cd0921" sha1="f7dffb83f3d91a00cb9c2342b0b9949c0b18cbb3" />
+		<rom loadflag="load16_byte" name="262hc03.c7" offset="0x3000000" size="0x800000" crc="129d63ed" sha1="e565f949c674017523f6e24d184edbe5e5f4de32" />
+		<rom loadflag="load16_byte" name="262hc03.c8" offset="0x3000001" size="0x800000" crc="51a5b6c1" sha1="aed4fd5037b7beb4ad0d6c2d56bfd4dce62ed604" />
+		</dataarea>
+	</part>
+</software>

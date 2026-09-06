@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="mightybj" description="Mightybj cartridges">
+<software name="mightybj01" cloneof="nvs_mightybj">
+	<description>Mighty Bomb Jack (Greek)</description>
+	<year>2025</year>
+	<publisher>Vag</publisher>
+	<part name="cart">
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mbj01.2b" offset="0x0" size="0x2000" crc="f98394b3" sha1="6e274cd015fe5304df02a79bd0dec55658f64e50" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="mbj01.1d" offset="0x0" size="0x2000" crc="cbb4bcd0" sha1="d02d8289b1c9232db454000638d60743b9e5783a" />
+		<rom name="mbj01.1c" offset="0x2000" size="0x2000" crc="336b71d9" sha1="e9a9079e5040b79e418c0364c401a2fa37aefb4f" />
+		<rom name="mbj01.1b" offset="0x4000" size="0x2000" crc="9501ccf0" sha1="1f2675898c939e79236e4ec300fab7fc060058ff" />
+		<rom name="mbj01.1a" offset="0x6000" size="0x2000" crc="25832a5b" sha1="dda726855c6446a7f4f8c40363f14e9fb3b9e452" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

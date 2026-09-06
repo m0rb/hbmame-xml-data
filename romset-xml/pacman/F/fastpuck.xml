@@ -1,0 +1,17 @@
+<software name="fastpuck" cloneof="puckman">
+	<description>New Puck-X [f]</description>
+	<year>2000</year>
+	<publisher>Deluxe</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="newpuck2.6e" offset="0x0" size="0x1000" crc="a8ae23c5" sha1="1481a4f083b563350744f9d25b1bcd28073875d6" />
+		<rom name="pacmanf.6f" offset="0x1000" size="0x1000" crc="720dc3ee" sha1="7224d7acfa0144b681c71d7734a7337189835361" />
+		<rom name="newpuck2.6h" offset="0x2000" size="0x1000" crc="197443f8" sha1="119aab12a9e1052c7b9a1f81e563740b41429a8c" />
+		<rom name="fastpuck.6j" offset="0x3000" size="0x1000" crc="2e64a3ba" sha1="f86a921173f32211b18d023c2701664d13ae23be" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacman.5e" offset="0x0" size="0x1000" crc="0c944964" sha1="06ef227747a440831c9a3a613b76693d52a2f0a9" />
+		<rom name="pacman.5f" offset="0x1000" size="0x1000" crc="958fedf9" sha1="4a937ac02216ea8c96477d4a15522070507fb599" />
+		</dataarea>
+	</part>
+</software>

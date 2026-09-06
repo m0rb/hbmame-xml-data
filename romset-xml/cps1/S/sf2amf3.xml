@@ -1,0 +1,35 @@
+<software name="sf2amf3" cloneof="sf2ce">
+	<description>Street Fighter II&#x27;: Champion Edition (L735 Test Rom, bootleg, set 2)</description>
+	<year>1992</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c19amf3.p1" offset="0x0" size="0x80000" crc="0d305e8b" sha1="7094160abbf24c119a575d93e3fe1ab84b537de0" />
+		<rom loadflag="load16_byte" name="c19amf3.p2" offset="0x1" size="0x80000" crc="137d8665" sha1="cf4805a11ab614ce5b7e1302ac14ba50fb01e5f4" />
+		<rom loadflag="load16_byte" name="c19amf3.p3" offset="0x100000" size="0x40000" crc="0b3fe5dd" sha1="9b66cb867da61595f53d1c9e6b48c6bb7e06e1e0" />
+		<rom loadflag="load16_byte" name="c19amf3.p4" offset="0x100001" size="0x40000" crc="dbee7b18" sha1="e56af12fc9d30e92d37e688ff621ea09abb94b53" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c14.m1" offset="0x0" size="0x8000" crc="a4823a1b" sha1="7b6bf59dfd578bfbbdb64c27988796783442d659" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2m2.key" offset="0x0" size="0x80" crc="67e80fca" sha1="e937bc4cf0e05ba93c32bc47d65c5b027bc2b48e" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		<rom loadflag="continue" offset="0x0" size="0x80000" />
+		<rom loadflag="continue" offset="0x2" size="0x80000" />
+		<rom loadflag="continue" offset="0x200000" size="0x80000" />
+		<rom loadflag="continue" offset="0x200002" size="0x80000" />
+		<rom loadflag="continue" offset="0x400000" size="0x80000" />
+		<rom loadflag="continue" offset="0x400002" size="0x80000" />
+		<rom loadflag="continue" offset="0x400000" size="0x10000" />
+		<rom loadflag="continue" offset="0x400002" size="0x10000" />
+		<rom loadflag="continue" offset="0x400001" size="0x10000" />
+		<rom loadflag="continue" offset="0x400003" size="0x10000" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c19m8.v1" offset="0x0" size="0x40000" crc="6cfffb11" sha1="995526183ffd35f92e9096500a3fe6237faaa2dd" />
+		</dataarea>
+	</part>
+</software>

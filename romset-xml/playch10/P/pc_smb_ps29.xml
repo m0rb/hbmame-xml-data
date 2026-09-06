@@ -1,0 +1,16 @@
+<software name="pc_smb_ps29" cloneof="pc_smb">
+	<description>Super Mario Bros. (kamikazev 3, 2012-01-13)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps29" offset="0x0" size="0x2000" crc="0feb1254" sha1="b3e7cc137d88d6ceff59436eb3c3af13b120aed1" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps29" offset="0x0" size="0x8000" crc="fddc08c9" sha1="fc790b7027fa299edec9ddcd9ff27ced7afa05c7" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

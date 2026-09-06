@@ -1,0 +1,32 @@
+<software name="hook15">
+	<description>Hook (XX version, 2022-01-13)</description>
+	<year>2022</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s15.h0" offset="0x1" size="0x40000" crc="a0e0b42e" sha1="2aae5fa582b0e94cd000af53a34fc54409af6e2c" />
+		<rom loadflag="load16_byte" name="s15.l0" offset="0x0" size="0x40000" crc="4081226e" sha1="42caa91342d6eb3bf6e56fa148a9bb9965f8aa42" />
+		<rom loadflag="load16_byte" name="h-h1.rom" offset="0x80001" size="0x20000" crc="264ba1f0" sha1="49ecf9b3e5375629607fb747abe264406065580b" />
+		<rom loadflag="load16_byte" name="h-l1.rom" offset="0x80000" size="0x20000" crc="f9913731" sha1="be7871d6843e76f66fae6b501c5ee83ccc366463" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="hook-c0.rom" offset="0x0" size="0x40000" crc="dec63dcf" sha1="e9869110f832d782c460b123928b042c65fdf8bd" />
+		<rom name="hook-c1.rom" offset="0x40000" size="0x40000" crc="e4eb0b92" sha1="159da3ec973490a153c69c96c1373cf4e0290736" />
+		<rom name="hook-c2.rom" offset="0x80000" size="0x40000" crc="a52b320b" sha1="1522562239bb3b93ef552c47445daa4ee021495c" />
+		<rom name="hook-c3.rom" offset="0xc0000" size="0x40000" crc="7ef67731" sha1="af0b0ee6e1c06af04c609af7e077d4a7d76d8817" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="hook-000.rom" offset="0x0" size="0x100000" crc="ccceac30" sha1="16e2b4393840344debe869034135feead7450184" />
+		<rom name="hook-010.rom" offset="0x100000" size="0x100000" crc="8ac8da67" sha1="a9b962cb0bc0d8bc3bda8a0ed1ce06641d666b41" />
+		<rom name="hook-020.rom" offset="0x200000" size="0x100000" crc="8847af9a" sha1="f82cdbd640fac373136219422172ca9fbf5d1830" />
+		<rom name="hook-030.rom" offset="0x300000" size="0x100000" crc="239e877e" sha1="445e1096619c4e3a2d5b50a645fd45bd7c501590" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="hook-da.rom" offset="0x0" size="0x80000" crc="88cd0212" sha1="789532f5544b5d024d8af60eb8a5c133ae0d19d4" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x100000">
+		<rom loadflag="load16_byte" name="h-sh0-a.3l" offset="0x1" size="0x10000" crc="bd3d1f61" sha1="0c884a0b5519f9c0823128872baf7b0c4078e5c4" />
+		<rom loadflag="load16_byte" name="h-sl0-a.3n" offset="0x0" size="0x10000" crc="76371def" sha1="b7a86fd4eecdd8a538c32e08cd920c27bd50924b" />
+		</dataarea>
+	</part>
+</software>

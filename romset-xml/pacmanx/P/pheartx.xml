@@ -1,0 +1,21 @@
+<software name="pheartx" cloneof="puckmanx">
+	<description>Pac-Man (Hearts) (hires hack)</description>
+	<year>1981</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacheart.6e" offset="0x0" size="0x800" crc="d844b679" sha1="c4486198b3126bb8e05a308c53787e51065f77ae" />
+		<rom name="pacheart.6k" offset="0x800" size="0x800" crc="b9152a38" sha1="b6be2cb6bc7dd123503eb6bf1165dd1c99456813" />
+		<rom name="puckman.6f" offset="0x1000" size="0x800" crc="7d177853" sha1="9b5ddaaa8b564654f97af193dbcc29f81f230a25" />
+		<rom name="pacheart.6m" offset="0x1800" size="0x800" crc="842d6574" sha1="40e32d09cc8d701eb318716493a68cf3f95d3d6d" />
+		<rom name="pacheart.6h" offset="0x2000" size="0x800" crc="9045a44c" sha1="a97d7016effbd2ace9a7d92ceb04a6ce18fb42f9" />
+		<rom name="pacheart.6n" offset="0x2800" size="0x800" crc="888f3c3e" sha1="c2b5917bf13071131dd53ea76f0da86706db2d80" />
+		<rom name="pacheart.6j" offset="0x3000" size="0x800" crc="f5265c10" sha1="9a320790d7a03fd6192a92d30b3e9c754bbc6a9d" />
+		<rom name="pacheart.6p" offset="0x3800" size="0x800" crc="1a21a381" sha1="d5367a327d19fb57ba5e484bd4fda1b10953c040" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="pheartx.5e" offset="0x0" size="0x4000" crc="868825e6" sha1="0cbe23ad47ef77f4ddfc0d476704a79701c621f1" />
+		<rom name="pheartx.5f" offset="0x4000" size="0x4000" crc="b7d222ba" sha1="83a6bceff705bc2f7d7766f417ba5a9aa2a9a28e" />
+		</dataarea>
+	</part>
+</software>

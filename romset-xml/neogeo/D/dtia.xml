@@ -1,0 +1,24 @@
+<software name="dtia" cloneof="dti">
+	<description>Duck Tales (Intro demo v2)</description>
+	<year>2009</year>
+	<publisher>[Raregame]</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="631.p1" offset="0x0" size="0x800000" crc="f975711c" sha1="0bce8bf92536dd18920cdc1ab66a9c42b0a96df3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="631a.v1" offset="0x0" size="0x90200" crc="24b716ee" sha1="ec153b7f4054644a8dbeacfc1c03a464a7c47c3b" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="631.c1" offset="0x0" size="0x400000" crc="02adabba" sha1="7b1eafebed09dbfc1b8d9612f0ed477e25ab152d" />
+		<rom loadflag="load16_byte" name="631.c2" offset="0x1" size="0x400000" crc="00bd87ac" sha1="cb3c02c799109fa7083110825dacf19c89372c55" />
+		<rom loadflag="load16_byte" name="631.c3" offset="0x800000" size="0x400000" crc="263307c8" sha1="5dabc76b18c02c6955abfbc5010b8fbac7d15753" />
+		<rom loadflag="load16_byte" name="631.c4" offset="0x800001" size="0x400000" crc="b8330c1e" sha1="e3ab645eb1101e561bc581e6b2cf696a0ca1e673" />
+		<rom loadflag="load16_byte" name="631.c5" offset="0x1000000" size="0x400000" crc="ce99fcb8" sha1="f6222f1b0dc31e5ae5e6c7e3223aa7129b38b772" />
+		<rom loadflag="load16_byte" name="631.c6" offset="0x1000001" size="0x400000" crc="a6d30781" sha1="a29e6b39169f9354a64cf64b302b9e91e0671c82" />
+		<rom loadflag="load16_byte" name="631.c7" offset="0x1800000" size="0x400000" crc="eda15323" sha1="ef7291870fd30e7b04cb63e59ff45a3c0acab714" />
+		<rom loadflag="load16_byte" name="631.c8" offset="0x1800001" size="0x400000" crc="400fd4cd" sha1="20cc401de5d429deb7d076535a0b42fc62c48c52" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,34 @@
+<software name="crswordd" cloneof="crsword">
+	<description>Crossed Swords (MGD2)</description>
+	<year>1991</year>
+	<publisher>Alpha Denshi Co.</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n037001a.038" offset="0x1" size="0x40000" crc="42c78fe1" sha1="4e680092f87baa8ce1ec375bedfd393b553bad11" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="n037001a.1f8" offset="0x0" size="0x80000" crc="525df5c8" sha1="de8802aa515de5b552df87ba4eb3aa27c12105c9" />
+		<rom name="n037001a.1fc" offset="0x80000" size="0x80000" crc="a11ecaf4" sha1="214ef018628a6acf2464fdd98afadb02e4f609eb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load32_byte" name="n037001a.538" offset="0x0" size="0x40000" crc="4b373de7" sha1="4a3cd07cb2b029c28bdea9918d839fa308324921" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n037001a.638" offset="0x1" size="0x40000" crc="e05f5f33" sha1="af11079524edf2db79efd8ab25b33689a0d1080b" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n037001a.53c" offset="0x100000" size="0x40000" crc="cddf6d69" sha1="04f002d6648af24ca5c887bcd8b73d3a59becd2c" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n037001a.63c" offset="0x100001" size="0x40000" crc="91ab11a4" sha1="b063bf2ab89382014159fbe5372a0893782fa510" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n037001b.538" offset="0x200000" size="0x40000" crc="61d25cb3" sha1="fde39e2a3cc920772981afb6843f69c6b7b55f2d" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n037001b.638" offset="0x200001" size="0x40000" crc="01357559" sha1="898db3366147e4c8920de9efb52b9d852dded010" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n037001b.53c" offset="0x300000" size="0x40000" crc="00bc3d84" sha1="9eab28250902748563bc6a0dc4bd0ea66126a767" />
+		<rom loadflag="continue" offset="0x300002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n037001b.63c" offset="0x300001" size="0x40000" crc="28c6d19a" sha1="96aa762ec26a6b954ec7414b74febf6b88e272aa" />
+		<rom loadflag="continue" offset="0x300003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

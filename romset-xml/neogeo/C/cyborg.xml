@@ -1,0 +1,20 @@
+<software name="cyborg">
+	<description>Cyborg Force</description>
+	<year>2023</year>
+	<publisher>Neo Byte Force</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x400000">
+		<rom loadflag="load16_word_swap" name="502.p1" offset="0x0" size="0x100000" crc="89e1c728" sha1="4b996f42373d77969c490534858aa0906d110685" />
+		<rom loadflag="load16_word_swap" name="502.p2" offset="0x100000" size="0x300000" crc="e4a8b27a" sha1="cbdf21414a5be59664dfd363b4d62ba0c8b05847" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="502.v1" offset="0x0" size="0x800000" crc="dc50718c" sha1="e4150bc3625a60be197d629444906a8663a4aebe" />
+		<rom name="502.v2" offset="0x800000" size="0x800000" crc="8135d5a8" sha1="186a516ed0fbc1d39f96385513de2ad662511559" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="502.c1" offset="0x0" size="0x1000000" crc="77078687" sha1="9485bcc2af6f59ebce57a6b19f215db712f93278" />
+		<rom loadflag="load16_byte" name="502.c2" offset="0x1" size="0x1000000" crc="a5abdb83" sha1="cfc54c46ae6a593a9d2f4fdd1ee0d27877f55c20" />
+		</dataarea>
+	</part>
+</software>

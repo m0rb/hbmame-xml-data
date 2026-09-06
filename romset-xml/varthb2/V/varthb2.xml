@@ -1,0 +1,24 @@
+<software name="varthb2" cloneof="varth">
+	<description>Varth: Operation Thunderstorm (bootleg, set 2)</description>
+	<year>1992</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c21b2.p1" offset="0x0" size="0x80000" crc="fd2f93a8" sha1="d76c2f063f9e1ed32b451c97ff94ec80aef5e9ba" />
+		<rom loadflag="load16_byte" name="c21b2.p2" offset="0x1" size="0x80000" crc="3b187dc3" sha1="0fcd17e934e89928f46b73f3eebbb5ad71a7cf2f" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c21.m1" offset="0x0" size="0x8000" crc="7a99446e" sha1="ca027f41e3e58be5abc33ad7380746658cb5380a" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="varthb2.key" offset="0x0" size="0x80" crc="8a688bec" sha1="2a7879b40d53c0d9b6ee453cb64e104a405e8909" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c21.v1" offset="0x0" size="0x20000" crc="de30510e" sha1="8e878696192606b76a3a0e53553e638d9621cff7" />
+		<rom name="c21.v2" offset="0x20000" size="0x20000" crc="0610a4ac" sha1="3da02ea6a7a56c85de898806d2a1cf6bc526c1b3" />
+		</dataarea>
+	</part>
+</software>

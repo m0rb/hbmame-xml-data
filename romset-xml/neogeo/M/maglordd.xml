@@ -1,0 +1,33 @@
+<software name="maglordd" cloneof="maglord">
+	<description>Magician Lord (MGD2)</description>
+	<year>1990</year>
+	<publisher>Alpha Denshi Co.</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n005001a.038" offset="0x1" size="0x40000" crc="e51c3815" sha1="19f36c8393191caf95a254ca52ce9e0012e6947a" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="005.v11" offset="0x0" size="0x80000" crc="cc0455fd" sha1="a8ff4270e7705e263d25ff0b301f503bccea7e59" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x100000">
+		<rom name="005.v21" offset="0x0" size="0x80000" crc="f94ab5b7" sha1="2c16985102e3585e08622d8c54ac5c60425b9ff8" />
+		<rom name="005.v22" offset="0x80000" size="0x80000" crc="232cfd04" sha1="61b66a9decbbd1f500a8c186615e7fd077c6861e" />
+		</dataarea>
+		<dataarea name="sprites" size="0x300000">
+		<rom loadflag="load32_byte" name="n005001a.538" offset="0x0" size="0x40000" crc="86aacd0d" sha1="ee36e015908a7c087ace6cea0650822681066c94" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n005001a.638" offset="0x1" size="0x40000" crc="b62658b5" sha1="21a1d1f9ebe8c7a442c0b0a96f12af8047b8dbf3" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n005001a.53c" offset="0x100000" size="0x40000" crc="3997403e" sha1="95e8375c897953055c952fd1fd3ff282fdc68928" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n005001a.63c" offset="0x100001" size="0x40000" crc="bd534fe2" sha1="eebafc4a1daf650a6e7c3a64b2628e160e130b59" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n005001b.538" offset="0x200000" size="0x40000" crc="fbd1e9f1" sha1="4faa14c164000e5581bb47788d2e8e1ee74ca0c6" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n005001b.638" offset="0x200001" size="0x40000" crc="a6461283" sha1="a3eb28e584b0b91a0b5b372c932815cf4047d5bd" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="wofhfh" description="Wofhfh cartridges">
+<software name="dinohunt" cloneof="dino">
+	<description>Dinosaur Hunter (Chinese bootleg of Cadillacs and Dinosaurs)</description>
+	<year>1993</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c25dh.p1" offset="0x0" size="0x80000" crc="8d5ddc5d" sha1="3ed1da71d73425308d0c3ac1a01a7242e60b6677" />
+		<rom loadflag="load16_word_swap" name="c25dh.p2" offset="0x80000" size="0x80000" crc="f72cd219" sha1="a3f580bd328b54d2546ae7e94262c1a706d27172" />
+		<rom loadflag="load16_word_swap" name="c25dh.p3" offset="0x100000" size="0x80000" crc="bc275b76" sha1="1f7f7533b4ccb511dc479f531d9d6740d3ca6712" />
+		<rom loadflag="load16_word_swap" name="c25dh.p4" offset="0x180000" size="0x80000" crc="8987c975" sha1="3fd856805d627f855f72acc7aacc2e8ecf0f12bd" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c25dh.m1" offset="0x0" size="0x8000" crc="2eb16a83" sha1="067ea0bfc2c1e73520d6b836c72fbb9da9998311" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="wofch.key" offset="0x0" size="0x80" crc="23f2d0bb" sha1="48ba9300bc2136e9583754a51d5ab2532eca85c6" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c25dh.v1" offset="0x0" size="0x20000" crc="8d2899ba" sha1="0b3ac6cf2ce0323e3bfc9da3ebfcb0fd14bc405b" />
+		<rom name="c25dh.v2" offset="0x20000" size="0x20000" crc="b34a4b42" sha1="3eeb9e33bb911359e03d44949ac58439a3d3d54b" />
+		</dataarea>
+	</part>
+</software>
+<software name="punisherbz" cloneof="punisher">
+	<description>Biaofeng Zhanjing (Chinese bootleg of The Punisher)</description>
+	<year>1993</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c26bz.p1" offset="0x0" size="0x80000" crc="bfa45d23" sha1="56d04d02c9b9b22603205b1ce9e376874d2eaa05" />
+		<rom loadflag="load16_word_swap" name="c26bz.p5" offset="0x80000" size="0x80000" crc="092578a4" sha1="c3c8f98f8b8fc9c71b33fb906b4c591067b4355b" />
+		<rom loadflag="load16_word_swap" name="c26bz.p9" offset="0x100000" size="0x80000" crc="d21ccddb" sha1="295c886cd14ee54e12acfe3f1e8f13513442c8c0" />
+		<rom loadflag="load16_word_swap" name="c26bz.p10" offset="0x180000" size="0x80000" crc="f9f334ce" sha1="22e58ce5096b95138a30e9726e1169895118e990" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c07.m1" offset="0x0" size="0x8000" crc="b8367eb5" sha1="ec3db29fdd6200e9a8f4f8073a7e34aef731354f" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="wofch.key" offset="0x0" size="0x80" crc="23f2d0bb" sha1="48ba9300bc2136e9583754a51d5ab2532eca85c6" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c07.v1" offset="0x0" size="0x20000" crc="375c66e7" sha1="36189e23209ce4ae5d9cbabd1574540d0591e7b3" />
+		<rom name="c26bz.v2" offset="0x20000" size="0x20000" crc="eb5ca884" sha1="3592c69f77c7cd6ee241d6c1079c34a3e58abb5b" />
+		</dataarea>
+	</part>
+</software>
+<software name="sk2f1" cloneof="wof">
+	<description>Huo Feng Huang (Cancel The Move)</description>
+	<year>1992</year>
+	<publisher>20562056</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c23hfh.p1" offset="0x0" size="0x80000" crc="6ae4b312" sha1="fa39f69385d180d90bccd8c5dc9262edd04a6457" />
+		<rom loadflag="load16_word_swap" name="sk2f1.p2" offset="0x80000" size="0x80000" crc="525eb574" sha1="bf5290d64d4e2c805c9e510358d9ed014b3aa877" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c23hfh.m1" offset="0x0" size="0x8000" crc="86fe8a97" sha1="cab82bcd0f49bcb40201b439cfdd10266f46752a" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="wofch.key" offset="0x0" size="0x80" crc="23f2d0bb" sha1="48ba9300bc2136e9583754a51d5ab2532eca85c6" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c23hfh.v1" offset="0x0" size="0x20000" crc="c04be720" sha1="2e544e0a0358b6afbdf826d35d9c4c59e4787a93" />
+		<rom name="c23hfh.v2" offset="0x20000" size="0x20000" crc="fbb8d8c1" sha1="8a7689bb7ed56243333133cbacf01a0ae825201e" />
+		</dataarea>
+	</part>
+</software>
+<software name="sk2f2" cloneof="wof">
+	<description>Huo Feng Huang (Sword Energy Attack)</description>
+	<year>1992</year>
+	<publisher>caonima</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="sk2f2.p1" offset="0x0" size="0x80000" crc="7a886f9a" sha1="73aa50fb11ee47dd4b7e5e8e13dd8e1a75d540af" />
+		<rom loadflag="load16_word_swap" name="c23hfh.p2" offset="0x80000" size="0x80000" crc="94e8d01a" sha1="875763f6b22734c1a5a890e6c8063515c134045b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c23hfh.m1" offset="0x0" size="0x8000" crc="86fe8a97" sha1="cab82bcd0f49bcb40201b439cfdd10266f46752a" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="wofch.key" offset="0x0" size="0x80" crc="23f2d0bb" sha1="48ba9300bc2136e9583754a51d5ab2532eca85c6" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c23hfh.v1" offset="0x0" size="0x20000" crc="c04be720" sha1="2e544e0a0358b6afbdf826d35d9c4c59e4787a93" />
+		<rom name="c23hfh.v2" offset="0x20000" size="0x20000" crc="fbb8d8c1" sha1="8a7689bb7ed56243333133cbacf01a0ae825201e" />
+		</dataarea>
+	</part>
+</software>
+<software name="sk2f3" cloneof="wof">
+	<description>Huo Feng Huang (Add Enemy Damage Repair)</description>
+	<year>1992</year>
+	<publisher>King of Destruction</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="sk2f3.p1" offset="0x0" size="0x80000" crc="e0e38b3b" sha1="fb5a326718efa7d5043884198505fca56f81d130" />
+		<rom loadflag="load16_word_swap" name="c23hfh.p2" offset="0x80000" size="0x80000" crc="94e8d01a" sha1="875763f6b22734c1a5a890e6c8063515c134045b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c23hfh.m1" offset="0x0" size="0x8000" crc="86fe8a97" sha1="cab82bcd0f49bcb40201b439cfdd10266f46752a" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="wofch.key" offset="0x0" size="0x80" crc="23f2d0bb" sha1="48ba9300bc2136e9583754a51d5ab2532eca85c6" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c23hfh.v1" offset="0x0" size="0x20000" crc="c04be720" sha1="2e544e0a0358b6afbdf826d35d9c4c59e4787a93" />
+		<rom name="c23hfh.v2" offset="0x20000" size="0x20000" crc="fbb8d8c1" sha1="8a7689bb7ed56243333133cbacf01a0ae825201e" />
+		</dataarea>
+	</part>
+</software>
+<software name="sk2f4" cloneof="wof">
+	<description>Huo Feng Huang (Riboud Houja attack strengthened)</description>
+	<year>1992</year>
+	<publisher>King of Destruction</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="sk2f4.p1" offset="0x0" size="0x80000" crc="537c6f51" sha1="c2ca98dfca003114e2b987fc88ed80d3e5a1c321" />
+		<rom loadflag="load16_word_swap" name="c23hfh.p2" offset="0x80000" size="0x80000" crc="94e8d01a" sha1="875763f6b22734c1a5a890e6c8063515c134045b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c23hfh.m1" offset="0x0" size="0x8000" crc="86fe8a97" sha1="cab82bcd0f49bcb40201b439cfdd10266f46752a" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="wofch.key" offset="0x0" size="0x80" crc="23f2d0bb" sha1="48ba9300bc2136e9583754a51d5ab2532eca85c6" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c23hfh.v1" offset="0x0" size="0x20000" crc="c04be720" sha1="2e544e0a0358b6afbdf826d35d9c4c59e4787a93" />
+		<rom name="c23hfh.v2" offset="0x20000" size="0x20000" crc="fbb8d8c1" sha1="8a7689bb7ed56243333133cbacf01a0ae825201e" />
+		</dataarea>
+	</part>
+</software>
+<software name="wofhfh" cloneof="wof">
+	<description>Huo Feng Huang (Chinese bootleg of Sangokushi II)</description>
+	<year>1999</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c23hfh.p1" offset="0x0" size="0x80000" crc="6ae4b312" sha1="fa39f69385d180d90bccd8c5dc9262edd04a6457" />
+		<rom loadflag="load16_word_swap" name="c23hfh.p2" offset="0x80000" size="0x80000" crc="94e8d01a" sha1="875763f6b22734c1a5a890e6c8063515c134045b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c23hfh.m1" offset="0x0" size="0x8000" crc="86fe8a97" sha1="cab82bcd0f49bcb40201b439cfdd10266f46752a" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="wofhfh.key" offset="0x0" size="0x80" crc="287d8a40" sha1="46aa717f599f88d32afb5ecc0bf43c2cbe6892d0" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c23hfh.v1" offset="0x0" size="0x20000" crc="c04be720" sha1="2e544e0a0358b6afbdf826d35d9c4c59e4787a93" />
+		<rom name="c23hfh.v2" offset="0x20000" size="0x20000" crc="fbb8d8c1" sha1="8a7689bb7ed56243333133cbacf01a0ae825201e" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

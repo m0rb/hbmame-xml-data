@@ -1,0 +1,28 @@
+<software name="lastblad38" cloneof="lastblad">
+	<description>Last Blade (Special v2.5 Final)</description>
+	<year>2023</year>
+	<publisher>GOTVG</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x700000">
+		<rom loadflag="load16_word_swap" name="234s38.p1" offset="0x0" size="0x100000" crc="977753ce" sha1="e67b55ee357f30e8b8ef5d24dcf55604158f4708" />
+		<rom loadflag="load16_word_swap" name="234s38.p2" offset="0x100000" size="0x600000" crc="4a2a92fc" sha1="2056380e607dbbfdb5c0a770faf014d2caa975c4" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="234.v1" offset="0x0" size="0x400000" crc="ed66b76f" sha1="8a05ff06d9b6f01c6c16b3026282eaabb0e25b44" />
+		<rom name="234.v2" offset="0x400000" size="0x400000" crc="a0e7f6e2" sha1="753ff74fa9294f695aae511ae01ead119b114a57" />
+		<rom name="234.v3" offset="0x800000" size="0x400000" crc="a506e1e2" sha1="b3e04ba1a5cb50b77c6fbe9fe353b9b64b6f3f74" />
+		<rom name="234s38.v4" offset="0xc00000" size="0x400000" crc="bb72113a" sha1="9dc2b53ff17502e591deaa131d38b7928987464b" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="234.c1" offset="0x0" size="0x800000" crc="9f7e2bd3" sha1="2828aca0c0f5802110f10453c1cf640f69736554" />
+		<rom loadflag="load16_byte" name="234.c2" offset="0x1" size="0x800000" crc="80623d3c" sha1="ad460615115ec8fb25206f012da59ecfc8059b64" />
+		<rom loadflag="load16_byte" name="234.c3" offset="0x1000000" size="0x800000" crc="91ab1a30" sha1="e3cf9133784bef2c8f1bfe45f277ccf82cc6f6a1" />
+		<rom loadflag="load16_byte" name="234.c4" offset="0x1000001" size="0x800000" crc="3d60b037" sha1="78a50233bcd19e92c7b6f7ee1a53417d9db21f6a" />
+		<rom loadflag="load16_byte" name="234s33.c5" offset="0x2000000" size="0x400000" crc="4ea22fe0" sha1="e72d75111d82ee387c5cbfddcaf2e0c13371e455" />
+		<rom loadflag="load16_byte" name="234s33.c6" offset="0x2000001" size="0x400000" crc="a863c882" sha1="92a3baeea3991c4e0d3fd771d3355a379759c4b2" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="234s38.p3" offset="0x0" size="0x20000" crc="d5fbd2dc" sha1="a744a5ad2e2bf8839d67ecf583d24e1e96914709" />
+		</dataarea>
+	</part>
+</software>

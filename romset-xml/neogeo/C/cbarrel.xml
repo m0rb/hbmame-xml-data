@@ -1,0 +1,20 @@
+<software name="cbarrel">
+	<description>Captain Barrel</description>
+	<year>2024</year>
+	<publisher>Neo Byte Force</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="343.p1" offset="0x0" size="0x100000" crc="6da1737d" sha1="49c8dafb1448bcbf706fcb5b3e713119d421d964" />
+		<rom loadflag="load16_word_swap" name="343.p2" offset="0x100000" size="0x100000" crc="f6f90237" sha1="c92b2ab39a2d01cd7c83ececa72dda0a50f429d0" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="343.v1" offset="0x0" size="0x800000" crc="8cfcceb7" sha1="6657b89d0b0cf6b27ec6cd051eb73d83efa025a2" />
+		<rom name="343.v2" offset="0x800000" size="0x800000" crc="d1080962" sha1="e017e5211c2701ee454ea28bba87b05ccc385c11" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="343.c1" offset="0x0" size="0x200000" crc="bce671cd" sha1="755e4091871d6db28fc3cbb43f7662b48dd2bb57" />
+		<rom loadflag="load16_byte" name="343.c2" offset="0x1" size="0x200000" crc="843e16ac" sha1="4288905ef92f813b540e38702477c76dc5146312" />
+		</dataarea>
+	</part>
+</software>

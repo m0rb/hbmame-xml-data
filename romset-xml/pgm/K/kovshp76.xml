@@ -1,0 +1,31 @@
+<software name="kovshp76" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Enhanced Edition, 2017-08)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po76.rom" offset="0x100000" size="0x400000" crc="8e22f85c" sha1="f8ff963689a775ca70b9f87cc23f4baab21a3e71" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600_po69.rom" offset="0x400000" size="0x400000" crc="ec3f335d" sha1="f81e2238eae4bb5154afa28ff07e69b8f10c5ee2" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0600_pw10.rom" offset="0x180000" size="0x800000" crc="a919ec0f" sha1="b464490abba8a5e651c407a7833c3a2e3befa5b8" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x4000000">
+		<rom name="a0600_po73.rom" offset="0x0" size="0x800000" crc="72643288" sha1="632f4a24f4f6a65f38dfbb9af1d624bc5c1d01f1" />
+		<rom name="a0601_po73.rom" offset="0x800000" size="0x800000" crc="9c1d1bea" sha1="f1fba1e71493b2f6755095b9a655c5d038f1ca0d" />
+		<rom name="a0602_po73.rom" offset="0x1000000" size="0x800000" crc="7b437e0f" sha1="b3daa3c7d02ec79457e6a2e661daa1c6a9a8388c" />
+		<rom name="a0540_po76.rom" offset="0x1800000" size="0x800000" crc="85e9c4c0" sha1="8c9f28902dc37086f638a58e43cb8ce64de839bb" />
+		<rom name="a0541_po75.rom" offset="0x2000000" size="0x800000" crc="eb14e314" sha1="62e4291768acc852f5c8c19ba96b9c3172351518" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x2000000">
+		<rom name="b0600_po73.rom" offset="0x0" size="0x800000" crc="0646c5ef" sha1="062261023538da5d647e17a4fa47b4e4ebc4614d" />
+		<rom name="b0540_po75.rom" offset="0x800000" size="0x800000" crc="9a295eb6" sha1="9d89cfee82ee94cea83b6c329c12cb3f523dc2d9" />
+		<rom name="b0601_po76.rom" offset="0x1000000" size="0x800000" crc="75c127d3" sha1="07a45e9a2d3f0a7413ec34fc2756a044660f366b" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_po76.asic" offset="0x0" size="0x4000" crc="1e968c13" sha1="3618e4f04ca528e51276a8b6d29c1c0b180b9b37" />
+		</dataarea>
+	</part>
+</software>

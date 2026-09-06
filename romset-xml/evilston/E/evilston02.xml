@@ -1,0 +1,18 @@
+<software name="evilston02">
+	<description>Evil Stone (French V1)</description>
+	<year>2007</year>
+	<publisher>Arkatrad</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom name="c67-03s02.ic2" offset="0x0" size="0x20000" crc="3fa7e884" sha1="94716256c199b5f347bbe122d04adbab1a54b1ce" />
+		<rom name="c67-04s02.ic6" offset="0x20000" size="0x20000" crc="8c43dc76" sha1="ee395d55ee8e66c86e12f604774799ca7cfe1858" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x80000">
+		<rom name="c67-05.ic22" offset="0x0" size="0x20000" crc="94d3a642" sha1="af20aa5bb60a45c05eb1deba23ba30e6640ca235" />
+		</dataarea>
+		<dataarea name="maincpu:gfx" size="0x100000">
+		<rom name="c67-01.ic1" offset="0x0" size="0x80000" crc="2f351bf4" sha1="0fb37abf3413cd11baece1c9bbca5a51b0f28938" />
+		<rom name="c67-02.ic5" offset="0x80000" size="0x80000" crc="eb4f895c" sha1="2c902572fe5a5d4442e4dd29e8a85cb40c384140" />
+		</dataarea>
+	</part>
+</software>

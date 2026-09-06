@@ -1,0 +1,22 @@
+<software name="cphd">
+	<description>Crouching Pony Hidden Dragon Demo</description>
+	<year>2013</year>
+	<publisher>Le Cortex</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x900000">
+		<rom loadflag="load16_word_swap" name="341d.p1" offset="0x0" size="0x100000" crc="de032a95" sha1="5566ddbb17c8cc4016e25de1afb0ea5c281844ae" />
+		<rom loadflag="load16_word_swap" name="341d.p2" offset="0x100000" size="0x800000" crc="7a3a2e41" sha1="a1bd9e20f29f283f892ed3d937b3a79a63d9a04b" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="341.v1" offset="0x0" size="0x1000000" crc="04eb9c07" sha1="226f6d6e0365613fb66671775a1f8e5ca62d0549" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x1000000">
+		<rom name="341.v2" offset="0x0" size="0x1000000" crc="9c9aec7f" sha1="dc54b4ea34724da5dc9e5b498a2b16d7f1ffc1b4" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="341.c1" offset="0x0" size="0x2000000" crc="f3a4b475" sha1="07a5e8c3a0a8e29f952e448d8eac772ccef6586e" />
+		<rom loadflag="load16_byte" name="341.c2" offset="0x1" size="0x2000000" crc="05ce93a9" sha1="a29f7ca6d0b3c53a0b2889e716b34fe921da432c" />
+		</dataarea>
+	</part>
+</software>

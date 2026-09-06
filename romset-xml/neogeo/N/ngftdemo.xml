@@ -1,0 +1,18 @@
+<software name="ngftdemo">
+	<description>NGF Transparency Demo</description>
+	<year>2012</year>
+	<publisher>CeL</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="624.p1" offset="0x0" size="0x80000" crc="84d87190" sha1="7b944603a47a062c050faf9d7e2f9ed754c325cf" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="624.v1" offset="0x0" size="0x200000" crc="d03c87eb" sha1="033815e3cf8fa3732c481ef308aacea595e3e008" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="624.c1" offset="0x0" size="0x200000" crc="b2fba994" sha1="278bc9b2f969cec8160dbea879426bbf2c7ea2d4" />
+		<rom loadflag="load16_byte" name="624.c2" offset="0x1" size="0x200000" crc="37495ab2" sha1="b6caba50aaf7cf73cfd5c23302fac4785baafe43" />
+		</dataarea>
+	</part>
+</software>

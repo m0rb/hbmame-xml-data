@@ -1,0 +1,23 @@
+<software name="area88r" cloneof="unsquad">
+	<description>Area 88 (Japan Resale Ver.)</description>
+	<year>1989</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c06jr.p1" offset="0x0" size="0x80000" crc="7045d6cb" sha1="5f8f3160e8e960ee67778232368d4f3430a0dade" />
+		<rom loadflag="load16_word_swap" name="c06jr.p5" offset="0x80000" size="0x80000" crc="9913002e" sha1="b2da8ad34bf4ea51679d35d91601faa91ef40ae5" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c06jr.m1" offset="0x0" size="0x8000" crc="af88359c" sha1="5b7d872700a074fe1a4e11722e73374a23fa5e99" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="area88r.key" offset="0x0" size="0x80" crc="c9860e3b" sha1="5ef3655a3de6f06af0fe9ba15ec30d1e51609d29" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c06.v1" offset="0x0" size="0x20000" crc="584b43a9" sha1="7820815c8c67d484baf2fdad7e55d8c14b98b860" />
+		</dataarea>
+	</part>
+</software>

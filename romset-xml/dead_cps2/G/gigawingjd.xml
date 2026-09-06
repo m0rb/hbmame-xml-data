@@ -1,0 +1,22 @@
+<software name="gigawingjd" cloneof="gigawing">
+	<description>Giga Wing (Japan 990223 Phoenix Edition) (bootleg)</description>
+	<year>1999</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c79jd.p1" offset="0x0" size="0x80000" crc="cb1c756e" sha1="f8b37120b429e14aad6e7d2106f8f8c422f2ce2b" />
+		<rom loadflag="load16_word_swap" name="c79jd.p2" offset="0x80000" size="0x80000" crc="fa158e04" sha1="bd0f0351fabe376944c28e327bcf83a8d9229441" />
+		<rom loadflag="load16_word_swap" name="c79jd.p3" offset="0x100000" size="0x80000" crc="1c5bc4e7" sha1="7f338cb45686b24b9136dd1e575fd842f9fd0b05" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c79.m1" offset="0x0" size="0x8000" crc="4c6351d5" sha1="cef81fb7c4b8cb2ef1f8f3c27982aefbcbe38160" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c79.q1" offset="0x0" size="0x400000" crc="e172acf5" sha1="d7b0963d66165f3607d887741c5e7ab952bcf2ff" />
+		<rom loadflag="load16_word_swap" name="c79.q2" offset="0x400000" size="0x400000" crc="4bee4e8f" sha1="c440b5a38359ec3b8002f39690b79bf78703f5d0" />
+		</dataarea>
+	</part>
+</software>

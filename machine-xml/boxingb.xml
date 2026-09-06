@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="boxingb" description="Boxingb cartridges">
+<software name="bbugtest">
+	<description>Test Rom - Boxing Bugs</description>
+	<year>1981</year>
+	<publisher>Test Rom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom loadflag="load16_byte" name="bbugtest.t7" offset="0x0" size="0x1000" crc="92a460f1" sha1="eaa8fea38d87f1fd6e2e52b92085fed43498e5ce" />
+		<rom loadflag="load16_byte" name="bbugtest.p7" offset="0x1" size="0x1000" crc="06d0bde2" sha1="b0a224b7a74fa739b293ad7383236ffaa012f3c3" />
+		</dataarea>
+		<dataarea name="proms" size="0x1a0">
+		<rom name="prom.f14" offset="0x0" size="0x100" crc="9edbf536" sha1="036ad8a231284e05f44b1106d38fc0c7e041b6e8" />
+		<rom name="prom.e14" offset="0x100" size="0x20" crc="29dbfb87" sha1="d8c40ab010b2ea30f29b2c443819e2b69f376c04" />
+		<rom name="prom.d14" offset="0x120" size="0x20" crc="9a05afbf" sha1="5d806a42424942ba5ef0b70a1d629315b37f931b" />
+		<rom name="prom.c14" offset="0x140" size="0x20" crc="07492cda" sha1="32df9148797c23f70db47b840139c40e046dd710" />
+		<rom name="prom.j14" offset="0x160" size="0x20" crc="a481ca71" sha1="ce145d61686f600cc16b77febfd5c783bf8c13b0" />
+		<rom name="prom.e8" offset="0x180" size="0x20" crc="791ec9e1" sha1="6f7fcce4aa3be9020595235568381588adaab88e" />
+		</dataarea>
+	</part>
+</software>
+<software name="bbugtest1" cloneof="bbugtest">
+	<description>Test Rom - Cinematic</description>
+	<year>2018</year>
+	<publisher>Timothy Shiels</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom loadflag="load16_byte" name="bbugtest1.t7" offset="0x0" size="0x1000" crc="53154517" sha1="63b21f7548dcd1de9ca193fe82ba768a2949a747" />
+		<rom loadflag="load16_byte" name="bbugtest1.p7" offset="0x1" size="0x1000" crc="ac5a63ee" sha1="45b2940929a06e65cca8d50d79bdbda8acc6c628" />
+		</dataarea>
+		<dataarea name="proms" size="0x1a0">
+		<rom name="prom.f14" offset="0x0" size="0x100" crc="9edbf536" sha1="036ad8a231284e05f44b1106d38fc0c7e041b6e8" />
+		<rom name="prom.e14" offset="0x100" size="0x20" crc="29dbfb87" sha1="d8c40ab010b2ea30f29b2c443819e2b69f376c04" />
+		<rom name="prom.d14" offset="0x120" size="0x20" crc="9a05afbf" sha1="5d806a42424942ba5ef0b70a1d629315b37f931b" />
+		<rom name="prom.c14" offset="0x140" size="0x20" crc="07492cda" sha1="32df9148797c23f70db47b840139c40e046dd710" />
+		<rom name="prom.j14" offset="0x160" size="0x20" crc="a481ca71" sha1="ce145d61686f600cc16b77febfd5c783bf8c13b0" />
+		<rom name="prom.e8" offset="0x180" size="0x20" crc="791ec9e1" sha1="6f7fcce4aa3be9020595235568381588adaab88e" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

@@ -1,0 +1,25 @@
+<software name="megamana" cloneof="megaman">
+	<description>Mega Man: The Power Battle (CPS1, Asia 951006)</description>
+	<year>1995</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c35a.p1" offset="0x0" size="0x80000" crc="61e4a397" sha1="a90b1cbef4206a4554398bc458a4b3e2c46d4c4f" />
+		<rom loadflag="load16_word_swap" name="c35.p2" offset="0x80000" size="0x80000" crc="708268c4" sha1="554e011cad285b95dd1b6aa19be61b2413662a3a" />
+		<rom loadflag="load16_word_swap" name="c35.p3" offset="0x100000" size="0x80000" crc="4376ea95" sha1="7370ceffca513aa9f68a74f6869d561476589200" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c35a.m1" offset="0x0" size="0x8000" crc="9632d6ef" sha1="2bcb6f17005ffbc9ef8fa4478a814f24b2e6e0b6" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="megaman.key" offset="0x0" size="0x80" crc="9c89eb62" sha1="e67a3ed58f82875cff4861c14bd701b54dcc111f" />
+		</dataarea>
+		<dataarea name="gfx" size="0x800000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c35.v1" offset="0x0" size="0x20000" crc="80f1f8aa" sha1="4a5b7b2a6941ad68da7472c63362c7bcd353fa54" />
+		<rom name="c35.v2" offset="0x20000" size="0x20000" crc="f257dbe1" sha1="967def6b6f93039dbc46373caabeb3301577be75" />
+		</dataarea>
+	</part>
+</software>

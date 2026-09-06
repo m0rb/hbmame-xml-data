@@ -1,0 +1,24 @@
+<software name="mtwinsb" cloneof="mtwins">
+	<description>Twins (Mega Twins bootleg)</description>
+	<year>1993</year>
+	<publisher>David Inc. (bootleg)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c10b.p1" offset="0x1" size="0x80000" crc="8938a029" sha1="50104d2afaec8d69d317780c071a4f2248e23e62" />
+		<rom loadflag="load16_byte" name="c10b.p2" offset="0x0" size="0x80000" crc="7d5b8a97" sha1="d3e456061a569765d400fc7c9b43e4fdacf17951" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c10.m1" offset="0x0" size="0x8000" crc="4d4255b7" sha1="81a76b58043af7252a854b7efc4109957ef0e679" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		<rom loadflag="continue" offset="0x1" size="0x40000" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c10b.v1" offset="0x0" size="0x40000" crc="a0c3de92" sha1="5135cd982564f898f799ff1bc2bb2a75154be0cd" />
+		</dataarea>
+	</part>
+</software>

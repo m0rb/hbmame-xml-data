@@ -1,0 +1,29 @@
+<software name="kovshp01" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (In the troubled times, Xiongxiong strengthened the 1.8 reinforcements and did not crash 01, 2015-02-15)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po01.rom" offset="0x100000" size="0x400000" crc="8102c945" sha1="f2f168974fe1b1b2d345456d3f2ce90d8f8a5221" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u5" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0600_pw10.rom" offset="0x180000" size="0x800000" crc="a919ec0f" sha1="b464490abba8a5e651c407a7833c3a2e3befa5b8" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_po01.rom" offset="0x0" size="0x800000" crc="eaa46772" sha1="b70b2b7aaf87cd1c56f860eb2a88aed3564996da" />
+		<rom name="a0601_po01.rom" offset="0x800000" size="0x800000" crc="d94abe4b" sha1="58ee22308ca8eaa73ee6532cefbb574f0a994eee" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="a0540_po01.rom" offset="0x1800000" size="0x800000" crc="631a868d" sha1="cb15835b49f10c923c8e083579c9810dfc0424d2" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_po01.rom" offset="0x0" size="0x800000" crc="f2a85ce6" sha1="815c8f74909a0d37299aa7f4d22b5c0550674c55" />
+		<rom name="b0540_po01.rom" offset="0x800000" size="0x800000" crc="53002691" sha1="d65477c93da089a7e54ffb1e00a122a787062ae0" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_po01.asic" offset="0x0" size="0x4000" crc="7ece721c" sha1="3aa11f11803643f9aa4bdafa35421626d066c4e9" />
+		</dataarea>
+	</part>
+</software>

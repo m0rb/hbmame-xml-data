@@ -1,0 +1,34 @@
+<software name="pheliosx" cloneof="phelios">
+	<description>Phelios (Sound Bug fix - Final Battle)</description>
+	<year>1988</year>
+	<publisher>Wayder</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom loadflag="load16_byte" name="ps2_mpr1x.mpr0" offset="0x1" size="0x20000" crc="e277e0a7" sha1="5b97fb2d6918802a39275a8875260533ee874346" />
+		<rom loadflag="load16_byte" name="ps2_mpr0.mpr0" offset="0x0" size="0x20000" crc="28f04e1a" sha1="06cb053f7281ec9cb59319a4aa1262c128b369c8" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom name="ps2_snd0.snd0" offset="0x0" size="0x20000" crc="da694838" sha1="e1a20aedd18c49dcd12717e8ce479a5a441c10e6" />
+		</dataarea>
+		<dataarea name="c123tmap" size="0x400000">
+		</dataarea>
+		<dataarea name="c123tmap:mask" size="0x80000">
+		</dataarea>
+		<dataarea name="c140" endianness="big" size="0x200000">
+		<rom loadflag="load16_byte" name="ps_voi-1.voice1" offset="0x0" size="0x80000" crc="f67376ed" sha1="b54257aad34c6ad03d5b040e6a5dda94a48b6780" />
+		</dataarea>
+		<dataarea name="c65mcu:external" size="0x8000">
+		<rom name="sys2_c65c.3f" offset="0x0" size="0x8000" crc="a5b2a4ff" sha1="068bdfcc71a5e83706e8b23330691973c1c214dc" />
+		</dataarea>
+		<dataarea name="data_rom" endianness="big" size="0x200000">
+		</dataarea>
+		<dataarea name="s2roz" size="0x400000">
+		</dataarea>
+		<dataarea name="slave" size="0x40000">
+		<rom loadflag="load16_byte" name="ps2_spr0.spr0" offset="0x0" size="0x10000" crc="e9c6987e" sha1="325532b065999276e4629b10c27d7df083e81c33" />
+		<rom loadflag="load16_byte" name="ps2_spr1.spr1" offset="0x1" size="0x10000" crc="02b074fb" sha1="4025c3dd83e26ac87de9f2f73753d1cb1211c1ae" />
+		</dataarea>
+		<dataarea name="sprite" size="0x400000">
+		</dataarea>
+	</part>
+</software>

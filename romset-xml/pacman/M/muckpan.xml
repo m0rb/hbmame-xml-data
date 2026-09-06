@@ -1,0 +1,23 @@
+<software name="muckpan" cloneof="puckman">
+	<description>Muckpan</description>
+	<year>1983</year>
+	<publisher>E.P.</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="puckman.6e" offset="0x0" size="0x800" crc="f36e88ab" sha1="813cecf44bf5464b1aed64b36f5047e4c79ba176" />
+		<rom name="puckman.6k" offset="0x800" size="0x800" crc="618bd9b3" sha1="b9ca52b63a49ddece768378d331deebbe34fe177" />
+		<rom name="puckman.6f" offset="0x1000" size="0x800" crc="7d177853" sha1="9b5ddaaa8b564654f97af193dbcc29f81f230a25" />
+		<rom name="puckman.6m" offset="0x1800" size="0x800" crc="d3e8914c" sha1="c2f00e1773c6864435f29c8b7f44f2ef85d227d3" />
+		<rom name="puckman.6h" offset="0x2000" size="0x800" crc="6bf4f625" sha1="afe72fdfec66c145b53ed865f98734686b26e921" />
+		<rom name="puckman.6n" offset="0x2800" size="0x800" crc="a948ce83" sha1="08759833f7e0690b2ccae573c929e2a48e5bde7f" />
+		<rom name="muckpan.6j" offset="0x3000" size="0x800" crc="e1f4f531" sha1="df8f898df416445330c0ce473e165c2e437da79f" />
+		<rom name="muckpan.6p" offset="0x3800" size="0x800" crc="1d5b18bf" sha1="82e17571a8b740884f0a164572c8297896b19e66" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="puckman.5e" offset="0x0" size="0x800" crc="2066a0b7" sha1="6d4ccc27d6be185589e08aa9f18702b679e49a4a" />
+		<rom name="puckman.5h" offset="0x800" size="0x800" crc="3591b89d" sha1="79bb456be6c39c1ccd7d077fbe181523131fb300" />
+		<rom name="puckman.5f" offset="0x1000" size="0x800" crc="9e39323a" sha1="be933e691df4dbe7d12123913c3b7b7b585b7a35" />
+		<rom name="puckman.5j" offset="0x1800" size="0x800" crc="1b1d9096" sha1="53771c573051db43e7185b1d188533056290a620" />
+		</dataarea>
+	</part>
+</software>

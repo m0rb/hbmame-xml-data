@@ -1,0 +1,30 @@
+<software name="ssf2tbd" cloneof="ssf2">
+	<description>Super Street Fighter II: The Tournament Battle (World 931119 Phoenix Edition) (bootleg)</description>
+	<year>1993</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c48tbd.p1" offset="0x0" size="0x80000" crc="5d86caf8" sha1="6209caad6613f0b35002fb13350ae3f81c8c9c5f" />
+		<rom loadflag="load16_word_swap" name="c48tbd.p2" offset="0x80000" size="0x80000" crc="f6e1f98d" sha1="2d7506fdf12c8ca8766da1458420e0764f159a9b" />
+		<rom loadflag="load16_word_swap" name="c48ud.p3" offset="0x100000" size="0x80000" crc="75c651ef" sha1="8c6f60d3cf10d802190438c403a719bc30ccbeaa" />
+		<rom loadflag="load16_word_swap" name="c48tbd.p4" offset="0x180000" size="0x80000" crc="9adac7d7" sha1="8677f882f84e6db9ed39ae89ffc3bf9b6b53e4e5" />
+		<rom loadflag="load16_word_swap" name="c48tbd.p5" offset="0x200000" size="0x80000" crc="84f54db3" sha1="7c2016f9c1839f096c9a39bad882eed95bf552b4" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c48r1.m1" offset="0x0" size="0x8000" crc="eb247e8c" sha1="24296c18d9b1136d69712bf1c9d9d15463041e83" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom name="c48.q1" offset="0x0" size="0x80000" crc="a6f9da5c" sha1="6d19f83a01bd25b838d5c2871f7964529d926c98" />
+		<rom name="c48.q2" offset="0x80000" size="0x80000" crc="8c66ae26" sha1="32a82aee6ed4480e5a990f9af161734c7c0a1403" />
+		<rom name="c48.q3" offset="0x100000" size="0x80000" crc="695cc2ca" sha1="c2675f0233608b76de528d2a6ef19846d1348060" />
+		<rom name="c48.q4" offset="0x180000" size="0x80000" crc="9d9ebe32" sha1="9b26329370041374f1a90b479a172d2bc2801c4d" />
+		<rom name="c48.q5" offset="0x200000" size="0x80000" crc="4770e7b7" sha1="0e764f0befb9227b0b36508d8ca8ec9be31bcb05" />
+		<rom name="c48.q6" offset="0x280000" size="0x80000" crc="4e79c951" sha1="1144781d7dc57ef8a6458d982f5c91548ff59e27" />
+		<rom name="c48.q7" offset="0x300000" size="0x80000" crc="cdd14313" sha1="ebe767a9d4b51dba4282fa0a36a546a88620dd59" />
+		<rom name="c48.q8" offset="0x380000" size="0x80000" crc="6f5a088c" sha1="6c0b4690479647a99d76335f174be8455b4ff118" />
+		</dataarea>
+	</part>
+</software>

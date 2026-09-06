@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="widel" description="Widel cartridges">
+<software name="aa">
+	<description>Alien Armada</description>
+	<year>2003</year>
+	<publisher>David Widel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="aa.1" offset="0x0" size="0x1000" crc="7b73ff28" sha1="3b05c9ecaa418291b9b3501fbfd4a1e48be7281e" />
+		<rom name="aa.2" offset="0x1000" size="0x1000" crc="848ca2fa" sha1="d11e874a0bd0dcf88ed0781d7dc7b7d98b4ac1e8" />
+		<rom name="aa.3" offset="0x2000" size="0x1000" crc="b3d3ff37" sha1="0df28470eb70f4a84f24c2a86b4b9d338b9b6a76" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="aa.5e" offset="0x0" size="0x1000" crc="e69596af" sha1="b53ef6fce2d9fa1163f722a1a6be56085bde415c" />
+		<rom name="aa.5f" offset="0x1000" size="0x1000" crc="c26ecd63" sha1="40d618b171c7ea164384c2ded098520c77941cbc" />
+		</dataarea>
+	</part>
+</software>
+<software name="bace">
+	<description>Balloon Ace</description>
+	<year>2003</year>
+	<publisher>David Widel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="bace.1" offset="0x0" size="0x1000" crc="8b60ff7c" sha1="c787246f0ae080fc9088631acb923a2df37c14b2" />
+		<rom name="bace.2" offset="0x1000" size="0x1000" crc="25d8361a" sha1="20792c3d4c583dfc0297c6b5db1c14194e053088" />
+		<rom name="bace.3" offset="0x2000" size="0x1000" crc="fc38d994" sha1="319691caf79292f21282006337df3c637c033602" />
+		<rom name="bace.4" offset="0x3000" size="0x1000" crc="5853f341" sha1="0794324ee1bab92baaa6f5bf2cd647ce10614200" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="bace.5e" offset="0x0" size="0x1000" crc="6da99c7b" sha1="dcd488e0117662caf77f453b73330740ae34ca55" />
+		<rom name="bace.5f" offset="0x1000" size="0x1000" crc="b81cdc64" sha1="67f4cde661dbcdcf0192289e31ee80cbd0dc9dc5" />
+		</dataarea>
+	</part>
+</software>
+<software name="dderby">
+	<description>Death Derby</description>
+	<year>2003</year>
+	<publisher>David Widel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dderby.6e" offset="0x0" size="0x1000" crc="6f373bd4" sha1="e2c4f9def801c5664cf2b9684a36f762e97d12d6" />
+		<rom name="dderby.6f" offset="0x1000" size="0x1000" crc="2fbf16bf" sha1="9f3714ecc40707cfa4ff1942d5fe87a03888f548" />
+		<rom name="dderby.6h" offset="0x2000" size="0x1000" crc="6e16cd16" sha1="7f13a2b181e4a62d7d71294cac8fe09fd9ac64a9" />
+		<rom name="dderby.6j" offset="0x3000" size="0x1000" crc="f7e09874" sha1="7080aaa47e0bc893cd8bd038de7af769ef4eddf6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="dderby.5e" offset="0x0" size="0x1000" crc="7e2c0a53" sha1="c3c62b32927ac3c5948faeff28d4c2148fe18d0b" />
+		<rom name="dderby.5f" offset="0x1000" size="0x1000" crc="cb2dd072" sha1="e5813cc4247b9799e9513ff1a624fabc066582e3" />
+		</dataarea>
+	</part>
+</software>
+<software name="mrmrspac" cloneof="mspacman">
+	<description>Mr and Mrs Pacman (MR MRS PAC-MAN)[c]</description>
+	<year>2003</year>
+	<publisher>David Widel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="mrmrspac.1" offset="0x0" size="0x1000" crc="02a86998" sha1="649cfe5140eb63e42069ae9ad6c426837179fcbf" />
+		<rom name="mrmrspac.2" offset="0x1000" size="0x1000" crc="8917172f" sha1="7b09ab3b6f2a1b5d889a05295b42f70bafb5aa98" />
+		<rom name="mrmrspac.3" offset="0x2000" size="0x1000" crc="6fd1444a" sha1="64a98336eec75bb6ed90e77da18db8b71af562c1" />
+		<rom name="mrmrspac.4" offset="0x3000" size="0x1000" crc="22f68a1f" sha1="bd8d684f957ee33dace9eddcc923006036181787" />
+		<rom name="boot5" offset="0x8000" size="0x1000" crc="8c3e6de6" sha1="fed6e9a2b210b07e7189a18574f6b8c4ec5bb49b" />
+		<rom name="mrmrspac.6" offset="0x9000" size="0x1000" crc="23580455" sha1="836b815c7b1dd4deb1a1297556d0a5c126250c34" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="5e" offset="0x0" size="0x1000" crc="5c281d01" sha1="5e8b472b615f12efca3fe792410c23619f067845" />
+		<rom name="5f" offset="0x1000" size="0x1000" crc="615af909" sha1="fd6a1dde780b39aea76bf1c4befa5882573c2ef4" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

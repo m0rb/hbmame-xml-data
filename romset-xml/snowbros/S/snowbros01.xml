@@ -1,0 +1,17 @@
+<software name="snowbros01">
+	<description>Snow Bros (Ex Super Version)</description>
+	<year>1990</year>
+	<publisher>nianxu</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom loadflag="load16_byte" name="sn6.s01" offset="0x0" size="0x20000" crc="effe7b36" sha1="07d34f0e76dc2dfa879c517374e61ee77dab6208" />
+		<rom loadflag="load16_byte" name="sn5.s01" offset="0x1" size="0x20000" crc="cdd895de" sha1="7cd64bca3e5e5d9d8fc05b5a846276f0a343fd9c" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x80000">
+		<rom name="sbros-1.41" offset="0x0" size="0x80000" crc="16f06b3a" sha1="c64d3b2d32f0f0fcf1d8c5f02f8589d59ddfd428" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x10000">
+		<rom name="sbros-4.29" offset="0x0" size="0x8000" crc="e6eab4e4" sha1="d08187d03b21192e188784cb840a37a7bdb5ad32" />
+		</dataarea>
+	</part>
+</software>

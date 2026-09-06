@@ -1,0 +1,16 @@
+<software name="pc_dk">
+	<description>Donkey Kong (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dk.u2" offset="0x0" size="0x2000" crc="e472a17c" sha1="3e3d5a2213c132fcb86a97089f03a7ebf8384d36" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="dk.u1" offset="0x4000" size="0x4000" crc="f56a5b10" sha1="2c4b1d653194df0996d54d9de9188b270d0337d9" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="2cd98ef6.prm" offset="0x0" size="0x10" crc="2cd98ef6" sha1="bd5142c6a29df674ab835c8beafff7e93712d88f" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,33 @@
+<software name="kovshp163" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Heavenly King Edition, 2012-11-17)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po163.322" offset="0x100000" size="0x400000" crc="6c61f80f" sha1="2797971c5a53c983284525603e2d41b2efd8f26d" />
+		</dataarea>
+		<dataarea name="ics" size="0x900000">
+		<rom name="pgm_m01s_bios=bh05.rom" offset="0x0" size="0x200000" crc="ef3a23ab" sha1="5f0b73a1b8dfa5a19aa471e832a6f619c4bd4db1" />
+		<rom name="m0600.sh5" offset="0x400000" size="0x400000" crc="eae5bf80" sha1="5052849cb1ea573ee98188c594b4a449c195e441" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="pgm_t01s.rom" offset="0x0" size="0x200000" crc="1a7123a0" sha1="cc567f577bfbf45427b54d6695b11b74f2578af3" />
+		<rom name="t0600_pw10.rom" offset="0x180000" size="0x800000" crc="a919ec0f" sha1="b464490abba8a5e651c407a7833c3a2e3befa5b8" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x4000000">
+		<rom name="pgm_a0600.u3" offset="0x0" size="0x800000" crc="d8167834" sha1="fa55a99629d03b2ea253392352f70d2c8639a991" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="a0540_po163.rom" offset="0x1800000" size="0x800000" crc="eadc7955" sha1="7ae5acded2a5c47ccbeb1726f93f14afdd1ede86" />
+		<rom name="pgm_a0613.u7" offset="0x2000000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x2000000">
+		<rom name="pgm_b0600.u9" offset="0x0" size="0x800000" crc="7d3cd059" sha1="00cf994b63337e0e4ebe96453daf45f24192af1c" />
+		<rom name="b0540_po163.rom" offset="0x800000" size="0x800000" crc="bf30ea67" sha1="9d8049307c4084765eb1a1adb0530811347f2695" />
+		<rom name="b0601_kv11.rom" offset="0x1000000" size="0x400000" crc="184fb667" sha1="532aab9ad823d4eb6c21b143c6d5be429bcc1f38" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.asic" offset="0x0" size="0x4000" crc="0f09a5c1" sha1="621b38c05f33277608d58b49822aebc930ae4870" />
+		</dataarea>
+	</part>
+</software>

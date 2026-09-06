@@ -1,0 +1,30 @@
+<software name="oldsps28" cloneof="oldsplus">
+	<description>Oriental Legend 2 (New Revision CN)</description>
+	<year>2008</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="v-211cn.u10" offset="0x100000" size="0x400000" crc="1f78ce71" sha1="5fda3858853364a61d6be9fcf54f2cf5cad68a9f" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="s28.w05301b032.u5" offset="0x400000" size="0x400000" crc="b740b810" sha1="e2539df0fcce63157586b15f45fb24d0b59fcebc" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="s28.t05301w064.u2" offset="0x180000" size="0x800000" crc="bf3db9be" sha1="c460e9d33f91d30e665dc2747bcf7bd8578c3b5b" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="s28.a05301.u3" offset="0x0" size="0x800000" crc="0f456049" sha1="cb9395f3865132c6d84372560ddd8bb2cab8b22a" />
+		<rom name="a05302_pw19.rom" offset="0x800000" size="0x800000" crc="4ed9028c" sha1="9c4038097b225c331618dbf0dac3fb9d37a25e9f" />
+		<rom name="s28.a05303w064.u6" offset="0x1000000" size="0x800000" crc="5f75eca2" sha1="09b1657c8acfe144fc10d12a0607eb347f4e7943" />
+		<rom name="s28.a05304w064.u8" offset="0x1800000" size="0x800000" crc="bce3d08b" sha1="129604e52a582e27c0437176475165c0dd4e471b" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="s28.b05301.u9" offset="0x0" size="0x800000" crc="1cc7c2b1" sha1="557a07af4df83789c2524c730060631736d45f8b" />
+		<rom name="s28.b05302.u11" offset="0x800000" size="0x800000" crc="25b7a816" sha1="958c6397674da18b56f3b015a1263196240b8f0b" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		</dataarea>
+		<dataarea name="user1" size="0x800000">
+		</dataarea>
+	</part>
+</software>

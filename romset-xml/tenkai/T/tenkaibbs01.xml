@@ -1,0 +1,15 @@
+<software name="tenkaibbs01">
+	<description>Mahjong Tenkaigen (No AI Cheat, 2006-12-29)</description>
+	<year>2006</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x50000">
+		<rom name="tdh-12m_ps01.u11" offset="0x0" size="0x40000" crc="58eae7cd" sha1="75d1a86a6fa5816b9e6ee781e334a947149bcccd" />
+		</dataarea>
+		<dataarea name="blitter" size="0x300000">
+		<rom name="lzc-01.u6" offset="0x0" size="0x100000" crc="786698e3" sha1="9ddf4e31f454fb3c7969b1433771e95a976de741" />
+		<rom name="lzc-02.u19" offset="0x100000" size="0x100000" crc="90a19443" sha1="8f593c00e39dd5acc76b058591019d117967a17b" />
+		<rom name="lzc-03.u15" offset="0x200000" size="0x20000" crc="5b552cdf" sha1="86aaa02dcf8dab670d818287c91c8cb296362401" />
+		</dataarea>
+	</part>
+</software>

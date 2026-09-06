@@ -1,0 +1,29 @@
+<software name="sfz2da" cloneof="sfz2al">
+	<description>Street Fighter Zero 2 Dash (960826, English, PS2 Backport, 2026-08-27)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="szaa.03" offset="0x0" size="0x80000" crc="f4b2b9ad" sha1="c7956675292d8cf2a2639bf1e36c8dd3ea6ceac1" />
+		<rom loadflag="load16_word_swap" name="szaa.04" offset="0x80000" size="0x80000" crc="15d9b8df" sha1="cd3ff0ce9c6e533ac7486bbf881de58355d8b604" />
+		<rom loadflag="load16_word_swap" name="szaa.05" offset="0x100000" size="0x80000" crc="f053a55e" sha1="f98a8af5cd33a543a5596d59381f9adafed38854" />
+		<rom loadflag="load16_word_swap" name="szaa.06" offset="0x180000" size="0x80000" crc="cfc0e7a8" sha1="31ed58451c7a6ac88a8fccab369167694698f044" />
+		<rom loadflag="load16_word_swap" name="szaa.07" offset="0x200000" size="0x80000" crc="674755ae" sha1="f1dcc6529db8148d0b2e7128212e237e9fde36b8" />
+		<rom loadflag="load16_word_swap" name="szaa.08" offset="0x280000" size="0x80000" crc="97b0f288" sha1="8a389fd642e7034e446af386b6fe38d354753014" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="sza.01" offset="0x0" size="0x8000" crc="1588cdd2" sha1="1bce1c43affa7bba91ff85ec805de2b91f3a5792" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="sza.02" offset="0x28000" size="0x20000" crc="82ec6d9f" sha1="56a3f249fd4232fa600a76ea50c21b4862d832a7" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="sfz2al.key" offset="0x0" size="0x14" crc="2904963e" sha1="f4fa44646746ab4c6f2e76eaba57a7aee32e2933" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="sza.11m" offset="0x0" size="0x400000" crc="f23db54d" sha1="2354b0bb3f937ece496cfdcba6c430973031bf3f" />
+		<rom loadflag="load16_word_swap" name="sza.12m" offset="0x400000" size="0x400000" crc="c824a1ea" sha1="c2885908c63f29521d6f209e57dfa8f12849297d" />
+		</dataarea>
+	</part>
+</software>

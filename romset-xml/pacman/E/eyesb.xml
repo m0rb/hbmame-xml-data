@@ -1,0 +1,21 @@
+<software name="eyesb" cloneof="eyes">
+	<description>Eyes (unknown bootleg)</description>
+	<year>1982</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="eyesb.7d" offset="0x0" size="0x1000" crc="7e7dd02d" sha1="a0026fec57c089dd500efa107b0e884ed9edd4d6" />
+		<rom name="eyesb.7f" offset="0x1000" size="0x1000" crc="d6d73eb5" sha1="b0c51afc09dd62bdda70710d57ae5b90a5e981ac" />
+		<rom name="eyesb.7h" offset="0x2000" size="0x1000" crc="951ad5dd" sha1="9aed1044256070ae6555d561856d0bea454f97a8" />
+		<rom name="eyesb.7j" offset="0x3000" size="0x1000" crc="acc9cd8b" sha1="d7fcf1b4b3466ee2187f82080634346a5427385e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="eyes.5d" offset="0x0" size="0x1000" crc="d6af0030" sha1="652b779533e3f00e81cc102b78d367d503b06f33" />
+		<rom name="eyes.5e" offset="0x1000" size="0x1000" crc="a42b5201" sha1="2e5cede3b6039c7bd5230de27d02aaa3f35a7b64" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="82s123.7f" offset="0x0" size="0x20" crc="2fc650bd" sha1="8d0268dee78e47c712202b0ec4f1f51109b1f2a5" />
+		<rom name="82s129.4a" offset="0x20" size="0x100" crc="d8d78829" sha1="19820d1651423210083a087fb70ebea73ad34951" />
+		</dataarea>
+	</part>
+</software>

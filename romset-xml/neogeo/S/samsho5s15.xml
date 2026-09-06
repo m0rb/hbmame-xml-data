@@ -1,0 +1,26 @@
+<software name="samsho5s15" cloneof="samsho5">
+	<description>Samurai Shodown V (Set 3 / decrypted C)</description>
+	<year>2003</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="270.p1" offset="0x0" size="0x400000" crc="4a2a09e6" sha1="2644de02cdab8ccc605488a7c76b8c9cd1d5bcb9" />
+		<rom loadflag="load16_word_swap" name="270.p2" offset="0x400000" size="0x400000" crc="e0c74c85" sha1="df24a4ee76438e40c2f04a714175a7f85cacdfe0" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="270s15.v1" offset="0x0" size="0x800000" crc="7541763a" sha1="59ab05876ab508e36451ef2bedb29bd304894a33" />
+		<rom name="270s15.v2" offset="0x800000" size="0x800000" crc="4e6e7d98" sha1="bde7568f60a65a9df74598d2463987bc9d93999c" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="270.c1" offset="0x0" size="0x800000" crc="14ffffac" sha1="2ccebfdd0c7907679ae95bf6eca85b8d322441e2" />
+		<rom loadflag="load16_byte" name="270.c2" offset="0x1" size="0x800000" crc="401f7299" sha1="94e48cdf1682b1250f53c59f3f71d995e928d17b" />
+		<rom loadflag="load16_byte" name="270s15.c3" offset="0x1000000" size="0x800000" crc="1bff0d0e" sha1="a6fcbed491dde02789063fbf061f7fcd66ce5617" />
+		<rom loadflag="load16_byte" name="270.c4" offset="0x1000001" size="0x800000" crc="041560a5" sha1="d165e533699f15b1e079c82f97db3542b3a7dd66" />
+		<rom loadflag="load16_byte" name="270.c5" offset="0x2000000" size="0x800000" crc="bd30b52d" sha1="9f8282e684415b4045218cf764ef7d75a70e3240" />
+		<rom loadflag="load16_byte" name="270.c6" offset="0x2000001" size="0x800000" crc="86a69c70" sha1="526732cdb408cf680af9da39057bce6a4dfb5e13" />
+		<rom loadflag="load16_byte" name="270.c7" offset="0x3000000" size="0x800000" crc="d28fbc3c" sha1="a82a6ba6760fad14d9309f9147cb7d80bd6f70fc" />
+		<rom loadflag="load16_byte" name="270.c8" offset="0x3000001" size="0x800000" crc="02c530a6" sha1="7a3fafa6075506c6ef78cc4ec2cb72118ec83cb9" />
+		</dataarea>
+	</part>
+</software>

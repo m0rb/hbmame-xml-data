@@ -1,0 +1,30 @@
+<software name="kod">
+	<description>The King of Dragons (World 910805)</description>
+	<year>1991</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c16.p1" offset="0x0" size="0x20000" crc="fcb5efe2" sha1="6122e4852633876ff2ccd4b72296fce96446b3ee" />
+		<rom loadflag="load16_byte" name="c16.p2" offset="0x1" size="0x20000" crc="f22e5266" sha1="2fbadce701218f4a56bfd6dfd758abacb34a2181" />
+		<rom loadflag="load16_byte" name="c16.p3" offset="0x40000" size="0x20000" crc="c710d722" sha1="a2e9b84d3e7d835a910ab9f584bdc64c2559995a" />
+		<rom loadflag="load16_byte" name="c16.p4" offset="0x40001" size="0x20000" crc="57d6ed3a" sha1="a47da5068723c8e16ed458fbfa3e3db57b32d87d" />
+		<rom loadflag="load16_byte" name="c16.p5" offset="0x80000" size="0x20000" crc="9367bcd9" sha1="8243b4b9bb9756f3fa726717e19a166cb2f5b50a" />
+		<rom loadflag="load16_byte" name="c16.p6" offset="0x80001" size="0x20000" crc="4ca6a48a" sha1="9d440ecd8d2d0e293fecf64ca3915252b94e7aef" />
+		<rom loadflag="load16_byte" name="c16.p7" offset="0xc0000" size="0x20000" crc="0360fa72" sha1="274769c8717a874397cf37369e3ef80a682d9ef2" />
+		<rom loadflag="load16_byte" name="c16.p8" offset="0xc0001" size="0x20000" crc="95a3cef8" sha1="9b75c1ed0eafacc230197ffd9b81e0c8f4f2c464" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c16.m1" offset="0x0" size="0x8000" crc="bac6ec26" sha1="6cbb6d55660150ae3f5270e023328275ee1bbf50" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="kod.key" offset="0x0" size="0x80" crc="b79ea9b9" sha1="cefded329a6ccc34d3b68e614c8f3a2c174e3fdd" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c16.v1" offset="0x0" size="0x20000" crc="4c63181d" sha1="270f27534a95cb0be3ff3f9ca71c502320d8090b" />
+		<rom name="c16.v2" offset="0x20000" size="0x20000" crc="92941b80" sha1="5fa7c2793e6febee54a83042d118ddd4f2b7d127" />
+		</dataarea>
+	</part>
+</software>

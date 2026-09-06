@@ -1,0 +1,26 @@
+<software name="samsho5s09" cloneof="samsho5">
+	<description>Samurai Shodown V (Hidden Characters-Poppy As Challenger Patch V1)</description>
+	<year>2003</year>
+	<publisher>wesker[FGCH]</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="270s09.p1" offset="0x0" size="0x400000" crc="3ba3d63b" sha1="89afa0fcc8b8954d4b0032539ac04a2e536a4eaa" />
+		<rom loadflag="load16_word_swap" name="270.p2" offset="0x400000" size="0x400000" crc="e0c74c85" sha1="df24a4ee76438e40c2f04a714175a7f85cacdfe0" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="270.v1" offset="0x0" size="0x800000" crc="62e434eb" sha1="1985f5e88f8e866f9683b6cea901aa28c04b80bf" />
+		<rom name="270.v2" offset="0x800000" size="0x800000" crc="180f3c9a" sha1="6d7dc2605ead6e78704efa127e7e0dfe621e2c54" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="270.c1" offset="0x0" size="0x800000" crc="14ffffac" sha1="2ccebfdd0c7907679ae95bf6eca85b8d322441e2" />
+		<rom loadflag="load16_byte" name="270.c2" offset="0x1" size="0x800000" crc="401f7299" sha1="94e48cdf1682b1250f53c59f3f71d995e928d17b" />
+		<rom loadflag="load16_byte" name="270.c3" offset="0x1000000" size="0x800000" crc="838f0260" sha1="d5c8d3c6e7221d04e0b20882a847752e5ba95635" />
+		<rom loadflag="load16_byte" name="270.c4" offset="0x1000001" size="0x800000" crc="041560a5" sha1="d165e533699f15b1e079c82f97db3542b3a7dd66" />
+		<rom loadflag="load16_byte" name="270.c5" offset="0x2000000" size="0x800000" crc="bd30b52d" sha1="9f8282e684415b4045218cf764ef7d75a70e3240" />
+		<rom loadflag="load16_byte" name="270.c6" offset="0x2000001" size="0x800000" crc="86a69c70" sha1="526732cdb408cf680af9da39057bce6a4dfb5e13" />
+		<rom loadflag="load16_byte" name="270.c7" offset="0x3000000" size="0x800000" crc="d28fbc3c" sha1="a82a6ba6760fad14d9309f9147cb7d80bd6f70fc" />
+		<rom loadflag="load16_byte" name="270.c8" offset="0x3000001" size="0x800000" crc="02c530a6" sha1="7a3fafa6075506c6ef78cc4ec2cb72118ec83cb9" />
+		</dataarea>
+	</part>
+</software>

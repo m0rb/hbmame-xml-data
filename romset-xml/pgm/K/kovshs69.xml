@@ -1,0 +1,31 @@
+<software name="kovshs69" cloneof="kovsh">
+	<description>Knights of Valour Super Heroes (2000 Boss Zero Chun Li Fire Fighting)</description>
+	<year>1999</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_pw69.322" offset="0x100000" size="0x400000" crc="07f125b3" sha1="3ac9286cbbbe703a34ef7ee53f373abe82e86d53" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u4" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_pw09.asic" offset="0x0" size="0x4000" crc="95b190a7" sha1="6379acd02919fbf0dd77d86648cf17a3c3b81546" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_pw69.rom" offset="0x0" size="0x800000" crc="4a60c44f" sha1="eb410468b96f7b8675f85372d7040f0b08a45e99" />
+		<rom name="pgm_a0601.u3" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u5" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="pgm_a0613.u7" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		<rom name="pgm_a0604_v200.u9" offset="0x1a00000" size="0x400000" crc="26b59fd3" sha1="53219376056f4766dc5236735599d982ceb56b84" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_pw69.rom" offset="0x0" size="0x800000" crc="dbd1edcb" sha1="8d4869a03cddf6997b9a13d7bb3763e0c36b85d6" />
+		<rom name="pgm_b0601.u8" offset="0x800000" size="0x400000" crc="a0bb1c2f" sha1="0542348c6e27779e0a98de16f04f9c18158f2b28" />
+		<rom name="pgm_b0602_v200.u10" offset="0xc00000" size="0x100000" crc="9df77934" sha1="99a3fe337c13702c9aa2373bcd1bb1befd0e2a13" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="pgm_t0600.u11" offset="0x180000" size="0x800000" crc="4acc1ad6" sha1="0668dbd5e856c2406910c6b7382548b37c631780" />
+		</dataarea>
+	</part>
+</software>

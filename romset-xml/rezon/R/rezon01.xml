@@ -1,0 +1,26 @@
+<software name="rezon01">
+	<description>Rezon (3 button version (Fixed Vaws, Rapid Fire)</description>
+	<year>1991</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_byte" name="us001001_s01.u3" offset="0x0" size="0x20000" crc="8ee3b85d" sha1="f3ed438b680e0e0b97f27f38580951029d1f1be1" />
+		<rom loadflag="load16_byte" name="us001002_s01.u4" offset="0x1" size="0x20000" crc="56562aff" sha1="7e72d4a9b46e2aa033a20f2c8bfac4d304ed0428" />
+		<rom loadflag="load16_byte" name="us001004.103" offset="0x100000" size="0x20000" crc="54871c7c" sha1="2f807b15760b1e712fa69eee6f33cc8a36ee1c02" />
+		<rom loadflag="load16_byte" name="us001003.102" offset="0x100001" size="0x20000" crc="1ac3d272" sha1="0f19bc9c19e355dad5b463b0fa33127523bf141b" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="us001006.u64" offset="0x0" size="0x80000" crc="a4916e96" sha1="bfb63b72273e4fbf0843b3201bb4fddaf54909a7" />
+		<rom name="us001005.u63" offset="0x80000" size="0x80000" crc="e6251ebc" sha1="f02a4c8373e33fc57e18e39f1b5ecff3f6d9ca9e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x80000">
+		<rom loadflag="load16_word_swap" name="us001007.u66" offset="0x0" size="0x80000" crc="3760b935" sha1="f5fe69f7e93c90a5b6c1dff236402b962821e33f" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x80000">
+		<rom loadflag="load16_word_swap" name="us001008.u68" offset="0x0" size="0x80000" crc="0ab73910" sha1="78e2c0570c5c6f5e1cdb2fbeae73376923127024" />
+		</dataarea>
+		<dataarea name="x1snd" size="0x100000">
+		<rom loadflag="load16_word_swap" name="us001009.u70" offset="0x0" size="0x100000" crc="0d7d2e2b" sha1="cfba19314ecb0a49ed9ff8df32cd6a3fe37ff526" />
+		</dataarea>
+	</part>
+</software>

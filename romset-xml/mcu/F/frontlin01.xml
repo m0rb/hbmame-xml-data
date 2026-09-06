@@ -1,0 +1,40 @@
+<software name="frontlin01" cloneof="frontlin">
+	<description>Front Line (Chinese)</description>
+	<year>1982</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x12000">
+		<rom name="fl69_po01.u69" offset="0x0" size="0x1000" crc="2a3500bb" sha1="2ff28197fc91c57bb8554b0b0eb0136ec7cbd04e" />
+		<rom name="fl68_po01.u68" offset="0x1000" size="0x1000" crc="f2c6a7f9" sha1="876b52854366b110413ba9875b2ee9f436b0ae78" />
+		<rom name="fl67.u67" offset="0x2000" size="0x1000" crc="3fa1ba12" sha1="06eaccc75a4a950ed509c0dd203eeb7120849e74" />
+		<rom name="fl66.u66" offset="0x3000" size="0x1000" crc="4a3db285" sha1="0b486523d4ae302962dcb4ca042754fd96208259" />
+		<rom name="fl65.u65" offset="0x4000" size="0x1000" crc="da00ec70" sha1="652eb07c1e98ed04042a334ad8e27fd3da8dd6a2" />
+		<rom name="fl64.u64" offset="0x5000" size="0x1000" crc="9fc90a20" sha1="2d1bc248ed68dbb1993c360a9f2e2dbe26c216fb" />
+		<rom name="fl55.u55" offset="0x6000" size="0x1000" crc="359242c2" sha1="63bd845b2d881946a7904e4df1db3d78a60b57ad" />
+		<rom name="fl54.u54" offset="0x7000" size="0x1000" crc="d234c60f" sha1="b45bf432a64b7aaf3762d72a762b5eca198d5b3d" />
+		<rom name="aa1_10_po01.8" offset="0xe000" size="0x1000" crc="78556a20" sha1="ebf41e49261f7f557d3e298c93ddddde57258697" />
+		<rom name="fl53_po01.u53" offset="0x10000" size="0x1000" crc="ea89040c" sha1="03676c6c9a5f12d81d78b55dcb6f833e6e034c79" />
+		<rom name="fl52.u52" offset="0x11000" size="0x1000" crc="cb223d34" sha1="a1a4530ed25064c6cabe34c52bb239e3656e4ced" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="aa1_11.ic70" offset="0x0" size="0x1000" crc="15f4ed8c" sha1="ec096234e4e594100180eb99c8c57eb97b9f57e2" />
+		<rom name="aa1_12.ic71" offset="0x1000" size="0x1000" crc="c3eb38e7" sha1="427e5deb6a6e22d8c34923209a818f79d50e59d4" />
+		</dataarea>
+		<dataarea name="bmcu:mcu" size="0x800">
+		<rom name="aa1_13.ic24" offset="0x0" size="0x800" crc="7e78bdd3" sha1="9eeb0e969fd013b9db074a15b0463216453e9364" />
+		</dataarea>
+		<dataarea name="gfx" size="0x8000">
+		<rom name="fl1.u1" offset="0x0" size="0x1000" crc="e82c9f46" sha1="eaab468bb5e46e9c714e6f84e65f954331fdbc56" />
+		<rom name="fl2.u2" offset="0x1000" size="0x1000" crc="123055d3" sha1="6aaddd8ebb418c7c8584eb74ad13cd5accd5a196" />
+		<rom name="fl3.u3" offset="0x2000" size="0x1000" crc="7ea46347" sha1="b924a614abe01f7ca6a31463864d6cc55a47946e" />
+		<rom name="fl4.u4" offset="0x3000" size="0x1000" crc="9e2cff10" sha1="0932c15eacccab5a3a931dd40c1a35b5a4ca1cd5" />
+		<rom name="fl5.u5" offset="0x4000" size="0x1000" crc="630b4be1" sha1="780f75fdea68917a08f5f00da3831eaa26fd4405" />
+		<rom name="fl6.u6" offset="0x5000" size="0x1000" crc="9e092d58" sha1="8388870bb40c7a2e3b4ede74c37c71c3a3d1a607" />
+		<rom name="fl7.u7" offset="0x6000" size="0x1000" crc="613682a3" sha1="b681f3a4e70f207ce140adfac1388900d5013317" />
+		<rom name="fl8_po01.u8" offset="0x7000" size="0x1000" crc="7f3e197a" sha1="87863cef9bb381f3bd644d49f4f551716d09c7af" />
+		</dataarea>
+		<dataarea name="proms" size="0x100">
+		<rom name="eb16.ic22" offset="0x0" size="0x100" crc="b833b5ea" sha1="d233f1bf8a3e6cd876853ffd721b9b64c61c9047" />
+		</dataarea>
+	</part>
+</software>

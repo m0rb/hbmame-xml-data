@@ -1,0 +1,23 @@
+<software name="sengoku2s01" cloneof="sengoku2">
+	<description>Sengoku 2 (Red Blood)</description>
+	<year>2026</year>
+	<publisher>Raphael-Boichot</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="040s01.p1" offset="0x0" size="0x100000" crc="b26122f7" sha1="e32e9a8a4321fb076d78788dea3b124d64b70085" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x300000">
+		<rom name="040.v1" offset="0x0" size="0x200000" crc="71cb4b5d" sha1="56d9aca1d476c19c7d0f707176a8fed53e0189b7" />
+		<rom name="040.v2" offset="0x200000" size="0x100000" crc="c5cece01" sha1="923a3377dac1919e8c3d9ab316902250caa4785f" />
+		</dataarea>
+		<dataarea name="sprites" size="0x600000">
+		<rom loadflag="load16_byte" name="040s01.c1" offset="0x0" size="0x100000" crc="414b1c85" sha1="f556141553ba12d4942c9f7a76cc67c701ae881a" />
+		<rom loadflag="continue" offset="0x400000" size="0x100000" />
+		<rom loadflag="load16_byte" name="040s01.c2" offset="0x1" size="0x100000" crc="86b929ad" sha1="f0abfcfc54d5ca1f9e7ade2b23e45d849d7263a0" />
+		<rom loadflag="continue" offset="0x400001" size="0x100000" />
+		<rom loadflag="load16_byte" name="040s01.c3" offset="0x200000" size="0x80000" crc="327e432f" sha1="66855ab18c063dfc61ffa2bee4a1afcffd8b0767" />
+		<rom loadflag="load16_byte" name="040s01.c4" offset="0x200001" size="0x80000" crc="4c6d8667" sha1="a48aceb7c17c39f3a343da430948b6e40d46dcea" />
+		</dataarea>
+	</part>
+</software>

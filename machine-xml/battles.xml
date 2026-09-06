@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="battles" description="Battles cartridges">
+<software name="battlesh" cloneof="xevious">
+	<description>Battles 2002</description>
+	<year>2002</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="bg1.d9" offset="0x0" size="0x2000" crc="b6e4f4f3" sha1="ceaaa63b50e75dcb05aeb68574336dfe56a8434a" />
+		<rom name="bg2.d10" offset="0x2000" size="0x2000" crc="47017bc8" sha1="0da73ae079fb6a64eed56197e2c88609ef34166c" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="bg9.c10" offset="0x0" size="0x1000" crc="5bd6e9ae" sha1="f16c7eec39fce856c775b2b81ab55fb42376850e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="bg10.c8" offset="0x0" size="0x1000" crc="b43ea55d" sha1="06f4c4e7fc71b9e173c3bdf91c40f47750051b5e" />
+		<rom name="bg11.c7" offset="0x1000" size="0x1000" crc="73603931" sha1="1f7824b107a5a3d5c3434f02f17173a1f85fd29c" />
+		</dataarea>
+		<dataarea name="gfx3" size="0xa000">
+		<rom name="xh_xvi_15.4m" offset="0x0" size="0x2000" crc="308c5bad" sha1="583a6c2b9a3c9fac6ed33de6ae5ee11543fe6164" />
+		<rom name="xh_xvi_17.4p" offset="0x2000" size="0x2000" crc="b06b9ccb" sha1="186442f0aa7bf0365adfb2da874110c01797b140" />
+		<rom name="xh_xvi_16.4n" offset="0x4000" size="0x1000" crc="1cbbddce" sha1="5fcf20b3ab335cfac01f1c2bcfca76b90c92618b" />
+		<rom name="xh_xvi_18.4r" offset="0x5000" size="0x2000" crc="f56c3697" sha1="4f5108a1bf6b828dbed4a34836c42fd359fb68c5" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x4000">
+		<rom name="xvi_9.2a" offset="0x0" size="0x1000" crc="57ed9879" sha1="3106d1aacff06cf78371bd19967141072b32b7d7" />
+		<rom name="xvi_10.2b" offset="0x1000" size="0x2000" crc="ae3ba9e5" sha1="49064b25667ffcd81137cd5e800df4b78b182a46" />
+		<rom name="xvi_11.2c" offset="0x3000" size="0x1000" crc="31e244dd" sha1="3f7eac12863697a98e1122111801606759e44b2a" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="xvi-2.7n" offset="0x0" size="0x100" crc="550f06bc" sha1="816a0fafa0b084ac11ae1af70a5186539376fc2a" />
+		<rom name="xvi-1.5n" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0xb00">
+		<rom name="xvi-8.6a" offset="0x0" size="0x100" crc="5cc2727f" sha1="0dc1e63a47a4cb0ba75f6f1e0c15e408bb0ee2a1" />
+		<rom name="xvi-9.6d" offset="0x100" size="0x100" crc="5c8796cc" sha1="63015e3c0874afc6b1ca032f1ffb8f90562c77c8" />
+		<rom name="xvi-10.6e" offset="0x200" size="0x100" crc="3cb60975" sha1="c94d5a5dd4d8a08d6d39c051a4a722581b903f45" />
+		<rom name="xvi-7.4h" offset="0x300" size="0x200" crc="22d98032" sha1="ec6626828c79350417d08b98e9631ad35edd4a41" />
+		<rom name="xvi-6.4f" offset="0x500" size="0x200" crc="3a7599f0" sha1="a4bdf58c190ca16fc7b976c97f41087a61fdb8b8" />
+		<rom name="xvi-4.3l" offset="0x700" size="0x200" crc="fd8b9d91" sha1="87ddf0b9d723aabb422d6d416aa9ec6bc246bf34" />
+		<rom name="xvi-5.3m" offset="0x900" size="0x200" crc="bf906d82" sha1="776168a73d3b9f0ce05610acc8a623deae0a572b" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="bg3.d12" offset="0x0" size="0x2000" crc="0ede5706" sha1="65b235c5abe487612e11d0235410f1ca59b06e95" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="xvi_7.2c" offset="0x0" size="0x1000" crc="dd35cf1c" sha1="f8d1f8e019d8198308443c2e7e815d0d04b23d14" />
+		</dataarea>
+		<dataarea name="sub3" size="0x10000">
+		<rom name="bg5.h5" offset="0x0" size="0x1000" crc="23107dfb" sha1="74c49a5648faab632ae5ed8dd18a1d8b39837e2d" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

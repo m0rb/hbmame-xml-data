@@ -1,0 +1,31 @@
+<software name="mrdigdo">
+	<description>Mr. Do! (Dig Dug sprites)</description>
+	<year>1998</year>
+	<publisher>Justin Clark</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="d1" offset="0x0" size="0x2000" crc="3dcd9359" sha1="bfe00450ee8822f437d87514f051ad1be6de9463" />
+		<rom name="d2" offset="0x2000" size="0x2000" crc="710058d8" sha1="168cc179f2266bbf9437445bef9ff7d3358a8e6b" />
+		<rom name="d3" offset="0x4000" size="0x2000" crc="467d12d8" sha1="7bb85e6a780de1c0c224229ee571cab39098f78d" />
+		<rom name="d4" offset="0x6000" size="0x2000" crc="fce9afeb" sha1="26236a42c1c620975d4480c4315d0c6f112429b6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mrdigdo.d9" offset="0x0" size="0x1000" crc="b83b8a84" sha1="138a4fd1b7470def1b4e8aa4cfcf4c4b6bebf35b" />
+		<rom name="mrdigdo.d10" offset="0x1000" size="0x1000" crc="061cabb9" sha1="cdc8876f1c402565835db01a78906200430bcf72" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="r8-08.bin" offset="0x0" size="0x1000" crc="dbdc9ffa" sha1="93f29fc106283eecbba3fd69cf3c4658aa38ab9f" />
+		<rom name="n8-07.bin" offset="0x1000" size="0x1000" crc="4b9973db" sha1="8766c51a345a5e63446e65614c6f665ab5fbe0d7" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x2000">
+		<rom name="mrdigdo.d5" offset="0x0" size="0x1000" crc="401f9fa5" sha1="7483150ae429c9841d04ec4d79eda59bf1db8330" />
+		<rom name="mrdigdo.d6" offset="0x1000" size="0x1000" crc="ff401f59" sha1="5f34363ffb5e470470c3a0d9ff704f4d9b814ecd" />
+		</dataarea>
+		<dataarea name="proms" size="0x80">
+		<rom name="u02--2.bin" offset="0x0" size="0x20" crc="238a65d7" sha1="a5b20184a1989db23544296331462ec4d7be7516" />
+		<rom name="t02--3.bin" offset="0x20" size="0x20" crc="ae263dc0" sha1="7072c100b9d692f5bb12b0c9e304425f534481e2" />
+		<rom name="f10--1.bin" offset="0x40" size="0x20" crc="16ee4ca2" sha1="fcba4d103708b9711452009cd29c4f88d2f64cd3" />
+		<rom name="j10--4.bin" offset="0x60" size="0x20" crc="ff7fe284" sha1="3ac8e30011c1fcba0ee8f4dc932f82296c3ba143" />
+		</dataarea>
+	</part>
+</software>

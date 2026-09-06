@@ -1,0 +1,24 @@
+<software name="ffightjh" cloneof="ffight">
+	<description>Street Smart / Final Fight (Japan, hack)</description>
+	<year>1989</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c07jh.p1" offset="0x0" size="0x80000" crc="ae3dda7f" sha1="5f08ce1e6b6b0d45994d3354d59ef79f489c7ad7" />
+		<rom loadflag="load16_word_swap" name="c07jh.p5" offset="0x80000" size="0x80000" crc="b2d5a3aa" sha1="b60f7480d3d3ceebad4c21025394bacc154d7042" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c07.m1" offset="0x0" size="0x8000" crc="b8367eb5" sha1="ec3db29fdd6200e9a8f4f8073a7e34aef731354f" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="ffightb.key" offset="0x0" size="0x80" crc="328f442c" sha1="f58a07458f00ee7fdd0471fa03f7859ae9e2629b" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c07.v1" offset="0x0" size="0x20000" crc="375c66e7" sha1="36189e23209ce4ae5d9cbabd1574540d0591e7b3" />
+		<rom name="c07.v2" offset="0x20000" size="0x20000" crc="1ef137f9" sha1="974b5e72aa28b87ebfa7438efbdfeda769dedf5e" />
+		</dataarea>
+	</part>
+</software>

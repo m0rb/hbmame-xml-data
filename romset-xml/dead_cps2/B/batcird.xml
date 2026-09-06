@@ -1,0 +1,27 @@
+<software name="batcird" cloneof="batcir">
+	<description>Battle Circuit (Euro 970319 Phoenix Edition) (bootleg)</description>
+	<year>1997</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c70d.p1" offset="0x0" size="0x80000" crc="0737db6d" sha1="e7f02f568a8013d5abf32e0e7dc120c004adb6c9" />
+		<rom loadflag="load16_word_swap" name="c70d.p2" offset="0x80000" size="0x80000" crc="ef1a8823" sha1="9326e031b937af18b98dc3f236caaac632dac66d" />
+		<rom loadflag="load16_word_swap" name="c70d.p3" offset="0x100000" size="0x80000" crc="20bdbb14" sha1="fe3a202741ca657b2b67e89050788b67d709a36d" />
+		<rom loadflag="load16_word_swap" name="c70d.p4" offset="0x180000" size="0x80000" crc="b4d8f5bc" sha1="dc5ca580ecfb051ded551663ea4e9f161f820f81" />
+		<rom loadflag="load16_word_swap" name="c70.p5" offset="0x200000" size="0x80000" crc="7322d5db" sha1="473be1f1bf603bdd82451661a6206507f50ed2b6" />
+		<rom loadflag="load16_word_swap" name="c70.p6" offset="0x280000" size="0x80000" crc="6aac85ab" sha1="ad02d4185c2b3664fb96350d8ad317d3939a7554" />
+		<rom loadflag="load16_word_swap" name="c70.p7" offset="0x300000" size="0x80000" crc="1203db08" sha1="fdbea14618b277132f9e010ef36c134a8ea42162" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c70.m1" offset="0x0" size="0x8000" crc="1e194310" sha1="3b29de0aca9dbca59d6b50fb2509e2a913c6b0af" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c70.m2" offset="0x28000" size="0x20000" crc="01aeb8e6" sha1="50a5d1cce0caf7c5143d4904431e8f41e2a57464" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c70.q1" offset="0x0" size="0x200000" crc="c27f2229" sha1="df2459493af40937b6656a16fad43ff51bed2204" />
+		<rom loadflag="load16_word_swap" name="c70.q2" offset="0x200000" size="0x200000" crc="418a2e33" sha1="0642ddff2ab9255f154419da24ba644ed63f34ab" />
+		</dataarea>
+	</part>
+</software>

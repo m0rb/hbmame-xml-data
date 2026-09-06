@@ -1,0 +1,29 @@
+<software name="jigkmgri01">
+	<description>Jigoku Meguri (Japan, hack?)</description>
+	<year>1988</year>
+	<publisher>Taito Corporation</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s01.17" offset="0x0" size="0x10000" crc="5d3a5283" sha1="8c4804569f5e55ecef7a0ac83292ba4153dbf2a4" />
+		<rom loadflag="load16_byte" name="s01.26" offset="0x1" size="0x10000" crc="e1f2f205" sha1="ba1184107ac4e4558fbfb75d6bbf983168705769" />
+		<rom loadflag="load16_byte" name="b41-10.16" offset="0x20000" size="0x10000" crc="4ca94d77" sha1="69a9f6bcb6d5e4132eed50860bdfe8d6b6d914cd" />
+		<rom loadflag="load16_byte" name="b41-12.25" offset="0x20001" size="0x10000" crc="40d9c1fc" sha1="6f03d263e10559988aaa2be00d9bbf55f2fb864e" />
+		<rom loadflag="load16_word_swap" name="b41-01.15" offset="0x80000" size="0x80000" crc="5d072fa4" sha1="6ffe1b8531381eb6dd3f1fec18c91294a6aca9f6" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="b41-13.20" offset="0x0" size="0x10000" crc="9e464254" sha1="b6f6126b54c15320ecaa652d0eeabaa4cd94bd26" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="b41-04.48" offset="0x0" size="0x80000" crc="c668638f" sha1="07238a6cb4d93ffaf6351657163b5d80f0dbf688" />
+		</dataarea>
+		<dataarea name="cchip:cchip_eprom" size="0x2000">
+		<rom name="cchip_b41-05.43" offset="0x0" size="0x2000" crc="75c52553" sha1="87bbaefab90e7d43f63556fbae3e937baf9d397b" />
+		</dataarea>
+		<dataarea name="pc090oj" size="0x80000">
+		<rom loadflag="load16_word_swap" name="b41-02.7" offset="0x0" size="0x80000" crc="29f205d9" sha1="9e9f0c2755a9aa5acfe2601911bfa07d8d61164c" />
+		</dataarea>
+		<dataarea name="tc0100scn" size="0x80000">
+		<rom loadflag="load16_word_swap" name="b41-03.1" offset="0x0" size="0x80000" crc="736d35d0" sha1="7d41a7d71e117714bbd2cdda2953589cda6e763a" />
+		</dataarea>
+	</part>
+</software>

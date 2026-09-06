@@ -1,0 +1,19 @@
+<software name="mspacpbl" cloneof="mspacman">
+	<description>Ms. Pac Plus (bootleg)</description>
+	<year>2006</year>
+	<publisher>Dav/PMP</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="mspacpbl.1" offset="0x0" size="0x1000" crc="34f60afa" sha1="86813f3f0c3832451ee215d542cce7ad2aaa9785" />
+		<rom name="mspacpbl.2" offset="0x1000" size="0x1000" crc="5426636c" sha1="35cdd13e917c2d1e11086745de6dc3b85bf1fdbb" />
+		<rom name="mspacpbl.3" offset="0x2000" size="0x1000" crc="60c890a1" sha1="c1fbaedb212449803f5b506ac6f8e258644e4536" />
+		<rom name="mspacpbl.4" offset="0x3000" size="0x1000" crc="586f1bfd" sha1="1cf77bb44ba153ca03e7e8b26174b33f192da071" />
+		<rom name="mspacpbl.5" offset="0x8000" size="0x1000" crc="85a44e94" sha1="59b2249f6834ee4634e9fb8daa53739e80654c85" />
+		<rom name="mspacpbl.6" offset="0x9000" size="0x1000" crc="3babaeab" sha1="abc7f705a16dfd53540dfe7e0b6723a5843682c2" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mspacpbl.5e" offset="0x0" size="0x1000" crc="5ba9c39a" sha1="50e49234b051d74ce21ec4b819cccbbb98c57c3c" />
+		<rom name="mspacpbl.5f" offset="0x1000" size="0x1000" crc="4aeefccb" sha1="68810190397415be042c4787618feade7dcfe23a" />
+		</dataarea>
+	</part>
+</software>

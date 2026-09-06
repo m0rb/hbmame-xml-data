@@ -1,0 +1,37 @@
+<software name="ncommandd" cloneof="ncommand">
+	<description>Ninja Commando (MGD2)</description>
+	<year>1992</year>
+	<publisher>Alpha Denshi Co</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n050001a.038" offset="0x1" size="0x40000" crc="fdaaca42" sha1="aa32936bbe8ee53e717a3582847af89d1e160ff4" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		<rom loadflag="load16_byte" name="n050001a.03c" offset="0x80001" size="0x40000" crc="b34e91fe" sha1="3fbf40b9473bc6b0633c62fffdebc43d86785c7d" />
+		<rom loadflag="continue" offset="0x80000" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x180000">
+		<rom name="n050001a.1f8" offset="0x0" size="0x80000" crc="222e71c8" sha1="5a598414b859ae6fbe4fb1b4bf622b1198232864" />
+		<rom name="n050001a.1fc" offset="0x80000" size="0x80000" crc="12acd064" sha1="c2d7f55df6e49c54c0cab6d5db4cb82f97c6bab9" />
+		<rom name="050.v2" offset="0x100000" size="0x80000" crc="80b8a984" sha1="950cf0e78ceffa4037663f1086fbbc88588f49f2" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load32_byte" name="n050001a.538" offset="0x0" size="0x40000" crc="73acaa79" sha1="1394c93132337469e283053f34c83658a9df771e" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n050001a.638" offset="0x1" size="0x40000" crc="7b24359f" sha1="99c5f59d479afbbc6ab8ef9dc4f90b9b5d42a199" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n050001a.53c" offset="0x100000" size="0x40000" crc="ad56623d" sha1="afeaeed8917f259905a5cb46deb42bf6b0e7fd35" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n050001a.63c" offset="0x100001" size="0x40000" crc="0913a784" sha1="5cee03ff0b41c58ad0b663c4bf100ae4a2152ee1" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n050001b.538" offset="0x200000" size="0x40000" crc="c8d763cd" sha1="1d489c22bedd324d19cb02bed874e986f2627152" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n050001b.638" offset="0x200001" size="0x40000" crc="574612ec" sha1="6c5863f2fc7b63808e8762aa839614919034aaa8" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n050001b.53c" offset="0x300000" size="0x40000" crc="63829529" sha1="132f835fc2a6ca073700b1935ce3ebd32ba37f3e" />
+		<rom loadflag="continue" offset="0x300002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n050001b.63c" offset="0x300001" size="0x40000" crc="990d302a" sha1="e0d07eb287b2ad143c72eeef39a3455d9d802a4a" />
+		<rom loadflag="continue" offset="0x300003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,38 @@
+<software name="olds100ass61" cloneof="olds">
+	<description>Oriental Legend Special (Cloud Sea Churning 2)</description>
+	<year>1998</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0500_ah61.v10" offset="0x100000" size="0x400000" crc="fbf202cf" sha1="d52630beaa8a06973662bfaf920f09b46606e06c" />
+		</dataarea>
+		<dataarea name="ics" size="0x1000000">
+		<rom name="pgm_m0500.u1" offset="0x400000" size="0x200000" crc="37928cdd" sha1="e80498cabc2a6a54d4f3ebcb097d4b3fad96fe55" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="pgm_a0500.u5" offset="0x0" size="0x400000" crc="80a59197" sha1="7d0108e2f0d0347d43ace2d96c0388202c05fdfb" />
+		<rom name="pgm_a0501.u6" offset="0x400000" size="0x400000" crc="98c931b1" sha1="9b70d1a7beb4c3a0c1436c25fd1fb76e47539538" />
+		<rom name="pgm_a0502.u7" offset="0x800000" size="0x400000" crc="c3fcdf1d" sha1="107585fd103fcd0af0fb7db283be4f7c7058aef7" />
+		<rom name="pgm_a0503.u8" offset="0xc00000" size="0x400000" crc="066dffec" sha1="f023032a7202b7090fb609a39e0f19018e664bf3" />
+		<rom name="pgm_a0504.u11" offset="0x1000000" size="0x400000" crc="45337583" sha1="c954d0e5bf7fa99c90b0d154e7119d2b0c461f1c" />
+		<rom name="pgm_a0505.u12" offset="0x1400000" size="0x400000" crc="5b8cf3a5" sha1="856d1e47b5d9a66dcfbdc74a51ed646fd7d96a35" />
+		<rom name="pgm_a0506.u13" offset="0x1800000" size="0x400000" crc="087ac60c" sha1="3d5bf7dd40c8a3c1224cf82e12410ca904c0c5db" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b0500.u9" offset="0x0" size="0x400000" crc="cde07f74" sha1="1fe90db7c57faa28f3a054b2c07909bef89e3efb" />
+		<rom name="pgm_b0501.u10" offset="0x400000" size="0x400000" crc="1546c2e9" sha1="a7b9c8b44203db54a59d49fe469bb52bba807ba2" />
+		<rom name="pgm_b0502.u15" offset="0x800000" size="0x400000" crc="e97b31c3" sha1="1a7ca4f6c8644e84a33ae41cd4637f21046b14c5" />
+		<rom name="pgm_b0503.u16" offset="0xc00000" size="0x400000" crc="e41d98e4" sha1="f80b27fcee81762993e09bf1b3cad6e85274760c" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="pgm_t0500.u18" offset="0x180000" size="0x400000" crc="d881726c" sha1="a82517e665996f7b7017c940f1fcf016fccb65c2" />
+		<rom name="pgm_t0501.u19" offset="0x580000" size="0x200000" crc="d2106864" sha1="65d827135b87d82196433aea3279608ee263feca" />
+		</dataarea>
+		<dataarea name="user1" size="0x10000">
+		<rom name="sp_data.u6" offset="0x0" size="0x10000" crc="e7613dda" sha1="0d7c043b90e2f9a36a45066f22e3e305dc716676" />
+		</dataarea>
+		<dataarea name="user2" size="0x4000">
+		<rom name="ram_dump" offset="0x0" size="0x4000" crc="280cfb4e" sha1="cd2bdcaa21347952c2bf38b105a204d327fde39e" />
+		</dataarea>
+	</part>
+</software>

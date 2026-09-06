@@ -1,0 +1,31 @@
+<software name="mrdofast">
+	<description>Mr. Do! (Speedup Hack)</description>
+	<year>1982</year>
+	<publisher>Evil Exidy Dump</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="a4-01.bin" offset="0x0" size="0x2000" crc="03dcfba2" sha1="c15e3d0c4225e0ca120bcd28aca39632575f8e11" />
+		<rom name="mrdofast.02" offset="0x2000" size="0x2000" crc="894d12e4" sha1="ff89eca0506727f1973b14a13d848799e7ada7ec" />
+		<rom name="e4-03.bin" offset="0x4000" size="0x2000" crc="358f5dc2" sha1="9fed1f5d1d04935d1b77687c8b2f3bfce970dc08" />
+		<rom name="f4-04.bin" offset="0x6000" size="0x2000" crc="f4190cfc" sha1="24f5125d900f944294d4eda068b710c8f1c6d39f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="s8-09.bin" offset="0x0" size="0x1000" crc="aa80c5b6" sha1="76f9f90deb74598470e7ed565237da38dd07e4e9" />
+		<rom name="u8-10.bin" offset="0x1000" size="0x1000" crc="d20ec85b" sha1="9762bbe34d3fa209ea719807c723f57cb6bf4e01" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="r8-08.bin" offset="0x0" size="0x1000" crc="dbdc9ffa" sha1="93f29fc106283eecbba3fd69cf3c4658aa38ab9f" />
+		<rom name="n8-07.bin" offset="0x1000" size="0x1000" crc="4b9973db" sha1="8766c51a345a5e63446e65614c6f665ab5fbe0d7" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x2000">
+		<rom name="h5-05.bin" offset="0x0" size="0x1000" crc="e1218cc5" sha1="d946613a1cf1c97f7533a4f8c2d0078d1b7daaa8" />
+		<rom name="k5-06.bin" offset="0x1000" size="0x1000" crc="b1f68b04" sha1="25709cd81c03df51f27cd730fecf86a1daa9e27e" />
+		</dataarea>
+		<dataarea name="proms" size="0x80">
+		<rom name="u02--2.bin" offset="0x0" size="0x20" crc="238a65d7" sha1="a5b20184a1989db23544296331462ec4d7be7516" />
+		<rom name="t02--3.bin" offset="0x20" size="0x20" crc="ae263dc0" sha1="7072c100b9d692f5bb12b0c9e304425f534481e2" />
+		<rom name="f10--1.bin" offset="0x40" size="0x20" crc="16ee4ca2" sha1="fcba4d103708b9711452009cd29c4f88d2f64cd3" />
+		<rom name="j10--4.bin" offset="0x60" size="0x20" crc="ff7fe284" sha1="3ac8e30011c1fcba0ee8f4dc932f82296c3ba143" />
+		</dataarea>
+	</part>
+</software>

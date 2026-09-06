@@ -1,0 +1,29 @@
+<software name="smbombr1" cloneof="ringdest">
+	<description>Super Muscle Bomber: The International Blowout (Japan 940808)</description>
+	<year>1994</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c54jr1.p1" offset="0x0" size="0x80000" crc="52eafb10" sha1="5abfe07e948748eba982dc8f2e21462aec187590" />
+		<rom loadflag="load16_word_swap" name="c54jr1.p2" offset="0x80000" size="0x80000" crc="aa6e8078" sha1="58b4e15e7e3209e59a37ce48d8b9f0dc8b933cdc" />
+		<rom loadflag="load16_word_swap" name="c54jr1.p3" offset="0x100000" size="0x80000" crc="b69e7d5f" sha1="e66430ef05ed0d1c848d24c7436ee5f1b511dcea" />
+		<rom loadflag="load16_word_swap" name="c54jr1.p4" offset="0x180000" size="0x80000" crc="8d857b56" sha1="48c4e5f195e4343a8b7b9ec496fa1a77d659f72e" />
+		<rom loadflag="load16_word_swap" name="c54.p5" offset="0x200000" size="0x80000" crc="b9a11577" sha1="e9b58ef8acd1fedd3c9e0a3489593c7e931106c0" />
+		<rom loadflag="load16_word_swap" name="c54.p6" offset="0x280000" size="0x80000" crc="f931b76b" sha1="0b7e8d1278dcba89f0063bd09cda96d6ae1bc282" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c54.m1" offset="0x0" size="0x8000" crc="0abc229a" sha1="967f574e6358dfc1b01e6a4a4df1a8f34eb3d814" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c54.m2" offset="0x28000" size="0x20000" crc="d051679a" sha1="583c2521a30db1740d95dd94a38751fbeff3aae5" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1200000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="smbomb.key" offset="0x0" size="0x14" crc="f690069b" sha1="efd40f5ff900b2ba1e1da5e31d4a4717adacfe79" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c54.q1" offset="0x0" size="0x200000" crc="c56935f9" sha1="ca1705e48e31ddc13505e6297bceca2bec1bb209" />
+		<rom loadflag="load16_word_swap" name="c54.q2" offset="0x200000" size="0x200000" crc="955b0782" sha1="ee09500e7b44e923126533613bfe26cdabc7ab5f" />
+		</dataarea>
+	</part>
+</software>

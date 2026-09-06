@@ -1,0 +1,19 @@
+<software name="androdun02" cloneof="androdun">
+	<description>Andro Dunos (Plus Max)</description>
+	<year>1992</year>
+	<publisher>Xyahzhs</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="049s02.p1" offset="0x0" size="0x80000" crc="5f63193e" sha1="7ba7bb8f9382ddd7b35601b8171a0e532c9dfe55" />
+		<rom loadflag="load16_word_swap" name="049.p2" offset="0x80000" size="0x80000" crc="2f062209" sha1="991cf3e3677929b2cc0b2787b0c7b6ad3700f618" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="049.v1" offset="0x0" size="0x100000" crc="ce43cb89" sha1="47f82e077abb6efc6b1b0490412ae147d5d2acef" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="049.c1" offset="0x0" size="0x100000" crc="7ace6db3" sha1="c41cc9de8c0788dcc49ca494fd3bb3124062d9dd" />
+		<rom loadflag="load16_byte" name="049.c2" offset="0x1" size="0x100000" crc="b17024f7" sha1="fcf7efae48fcdccaf5255c145de414fb246128f0" />
+		</dataarea>
+	</part>
+</software>

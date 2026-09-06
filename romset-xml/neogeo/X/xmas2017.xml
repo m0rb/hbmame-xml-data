@@ -1,0 +1,18 @@
+<software name="xmas2017">
+	<description>Xmas/Happy New Year 2017 demo</description>
+	<year>2016</year>
+	<publisher>Blastar</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="609.p1" offset="0x0" size="0x4000" crc="fde7cb36" sha1="d85ef72dc33e18a7bfebf61ce5bd3d315a1399e6" />
+		<rom name="609.s1" offset="0x0" size="0x8000" crc="750b643c" sha1="fb4cac813ba5ab9eb93b1b6391b73b6e3ed0e0a6" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x40000">
+		<rom name="609.v1" offset="0x0" size="0x40000" crc="aa5dc85c" sha1="b07372624110833c292fd2e66332be23b535d8b7" />
+		</dataarea>
+		<dataarea name="sprites" size="0x20000">
+		<rom name="609.c1" offset="0x0" size="0x20000" crc="18cde781" sha1="2b28f3ee7a332532a20694436167cf19f33a2753" />
+		</dataarea>
+	</part>
+</software>

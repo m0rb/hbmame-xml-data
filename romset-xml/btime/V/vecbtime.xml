@@ -1,0 +1,33 @@
+<software name="vecbtime">
+	<description>Burgertime (Vector sim)</description>
+	<year>2000</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x2">
+		<rom name="ab05a1.12b" offset="0xb000" size="0x1000" crc="0a98b230" sha1="aeee4f6f0aaa27575b80261d03c5453cc6ebd646" />
+		<rom name="ab04.9b" offset="0xc000" size="0x1000" crc="797e5f75" sha1="35ea5fa4b8f3494adf7774b3946ed2540ac826ff" />
+		<rom name="ab06.13b" offset="0xd000" size="0x1000" crc="c77f3f64" sha1="f283087fad0a102fe92be7ce80ed18e64dc93b67" />
+		<rom name="ab05.10b" offset="0xe000" size="0x1000" crc="b0d3640f" sha1="6ba28971714ece6f1c04fa2dbf1f9f216ded7cfa" />
+		<rom name="ab07.15b" offset="0xf000" size="0x1000" crc="a142f862" sha1="39d7ef172d18874885f1b1542e885cc4287dc344" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="ab14.12h" offset="0xe000" size="0x1000" crc="f55e5211" sha1="27940026d0c6212d1138d2fd88880df697218627" />
+		</dataarea>
+		<dataarea name="bg_map" size="0x800">
+		<rom name="ab03.6b" offset="0x0" size="0x800" crc="d26bc1f3" sha1="737af6e264183a1f151f277a07cf250d6abb3fd8" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x6000">
+		<rom name="vec_ab12.7k" offset="0x0" size="0x1000" crc="b02d859c" sha1="0d506c52dd2a76d62bd980087fbb5c3808aedf56" />
+		<rom name="vec_ab13.9k" offset="0x1000" size="0x1000" crc="d9757010" sha1="fc70cfbd7bb7c23d0b5880f42ef92df711c6a46d" />
+		<rom name="vec_ab10.10k" offset="0x2000" size="0x1000" crc="2b71a1db" sha1="424c3fceeeb030c0cf89e8f872957a75d5475cfb" />
+		<rom name="vec_ab11.12k" offset="0x3000" size="0x1000" crc="a98fea41" sha1="1ddbb8b26bca2b8c6ab4d9b1bfd8b21db2b2d97b" />
+		<rom name="vec_ab8.13k" offset="0x4000" size="0x1000" crc="0ca7828f" sha1="eb7db2607b10e8276a97a20030bdbeeeb7b6935b" />
+		<rom name="vec_ab9.15k" offset="0x5000" size="0x1000" crc="1e460ff7" sha1="6ac3ec08e3c79490262324fd4a93a6eb1188554b" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x1800">
+		<rom name="vec_ab00.1b" offset="0x0" size="0x800" crc="03dbe9b6" sha1="4844d490a767d15ed5230868cbd25dadf70cf1e3" />
+		<rom name="vec_ab01.3b" offset="0x800" size="0x800" crc="698089da" sha1="6b6e61536d1247a8784a4657cdc50e48b002335d" />
+		<rom name="vec_ab02.4b" offset="0x1000" size="0x800" crc="4464ccef" sha1="1fa91178c55c1120910be89f724b909a356796e8" />
+		</dataarea>
+	</part>
+</software>

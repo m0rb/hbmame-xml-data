@@ -1,0 +1,24 @@
+<software name="ddtodd" cloneof="ddtod">
+	<description>Dungeons &amp; Dragons: Tower of Doom (Euro 940412 Phoenix Edition) (bootleg)</description>
+	<year>1993</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c50d.p1" offset="0x0" size="0x80000" crc="843330f4" sha1="3f77876ac5d61b595c22697724a16034b16954af" />
+		<rom loadflag="load16_word_swap" name="c50d.p2" offset="0x80000" size="0x80000" crc="306f14fc" sha1="b684ee72acc3087ada20b2d13202366c3cff1014" />
+		<rom loadflag="load16_word_swap" name="c50d.p3" offset="0x100000" size="0x80000" crc="8c6b8328" sha1="ab5d2c608bd3cdb298a9743d819616bf2df02ddd" />
+		<rom loadflag="load16_word_swap" name="c50.p4" offset="0x180000" size="0x80000" crc="6225495a" sha1="a9a02abb072e3482ac92d7aed8ce9a5bcf636bc0" />
+		<rom loadflag="load16_word_swap" name="c50d.p5" offset="0x200000" size="0x80000" crc="0f0df6cc" sha1="5da5f989ed71faf5e2950fdf9650d94918616ae4" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c50.m1" offset="0x0" size="0x8000" crc="3f5e2424" sha1="4aa744576bc6752c43a90a27a816ebd90076b248" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c50.q1" offset="0x0" size="0x200000" crc="0c499b67" sha1="a8ebd8a1cd6dece8344b7cb0439d85843fb97616" />
+		<rom loadflag="load16_word_swap" name="c50.q2" offset="0x200000" size="0x200000" crc="2f0b5a4e" sha1="8d1ebbb811aa469b0f0d29d719d2b9af28fb63a2" />
+		</dataarea>
+	</part>
+</software>

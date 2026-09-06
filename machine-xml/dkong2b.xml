@@ -1,0 +1,2500 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="dkong2b" description="Dkong2B cartridges">
+<software name="dkbarpal" cloneof="dkong">
+	<description>Donkey Kong Barrelpalooza v1.07 (2021-06-15)</description>
+	<year>2021</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkbarpal.5et" offset="0x0" size="0x1000" crc="c80c0431" sha1="446e897150d027f797edbe30d0502f5f5a652ba7" />
+		<rom name="dkbarpal6.5ct" offset="0x1000" size="0x1000" crc="c742739c" sha1="a143af813f7c23b6bab483ad2610e686ebc568da" />
+		<rom name="dkbarpal6.5bt" offset="0x2000" size="0x1000" crc="a46859ec" sha1="bbe8a32b7396f6347ce8b4a77b760277fb965551" />
+		<rom name="dkbarpal.5at" offset="0x3000" size="0x1000" crc="4742a48e" sha1="ddef0c7e25cbeba37a387de1d72583a2861dbbf4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkbarpal2.5h" offset="0x0" size="0x800" crc="caf8820b" sha1="b3e5768bd19c16510d05cd9d5d7ad72e05d08a8c" />
+		<rom name="dkbarpal2.3pt" offset="0x800" size="0x800" crc="b0cd1e84" sha1="16f8404114e3f62e0789819f6a65f34189b595bc" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkbarpal2.4m" offset="0x0" size="0x800" crc="1b46aae1" sha1="f08c57f2c85df81180444cab76acb4f367d71619" />
+		<rom name="dkbarpal2.4n" offset="0x800" size="0x800" crc="fbaaa6f0" sha1="e61e92418270fb81d9fd33da0a92970d458f69e4" />
+		<rom name="dkbarpal2.4r" offset="0x1000" size="0x800" crc="919362a0" sha1="5df953cded45ad55ba2bbd5f6d5c7e4577dcaa5f" />
+		<rom name="dkbarpal2.4s" offset="0x1800" size="0x800" crc="d57098ca" sha1="b746b0e137844e0e1cb715df065bbf7a3246f2e9" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkbarpal2.2k" offset="0x0" size="0x100" crc="4826ce71" sha1="5fe7d63ce7adece81ab8930196434410fbe4e241" />
+		<rom name="dkbarpal2.2j" offset="0x100" size="0x100" crc="4a7a511b" sha1="c0d3ee62e5f6e22d24603ab24403b206d043956f" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="dkbarpal.3i" offset="0x0" size="0x800" crc="7590f5ee" sha1="b08245ce86d2c2de1b0d000743b7e9fcdf2ee215" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkbarpal2" cloneof="dkong">
+	<description>Donkey Kong Barrelpalooza (2020-11-03)</description>
+	<year>2020</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkbarpal2.5at" offset="0x3000" size="0x1000" crc="c216f65b" sha1="96910744a61b5dd85814af56673cc7ffa3443b15" />
+		<rom name="dkbarpal2.5bt" offset="0x2000" size="0x1000" crc="ae1057f2" sha1="2665c1a5ba2a85832ebbf06ab0893192eb858473" />
+		<rom name="dkbarpal2.5ct" offset="0x1000" size="0x1000" crc="bb94a16b" sha1="433d6f3a42c766cbf478c297c7d6025c738ffda6" />
+		<rom name="dkbarpal2.5et" offset="0x0" size="0x1000" crc="4621e696" sha1="bb61a347a157a668950fbf2f61950717ac1cc77a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkbarpal2.3pt" offset="0x800" size="0x800" crc="b0cd1e84" sha1="16f8404114e3f62e0789819f6a65f34189b595bc" />
+		<rom name="dkbarpal2.5h" offset="0x0" size="0x800" crc="caf8820b" sha1="b3e5768bd19c16510d05cd9d5d7ad72e05d08a8c" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkbarpal2.4m" offset="0x0" size="0x800" crc="1b46aae1" sha1="f08c57f2c85df81180444cab76acb4f367d71619" />
+		<rom name="dkbarpal2.4n" offset="0x800" size="0x800" crc="fbaaa6f0" sha1="e61e92418270fb81d9fd33da0a92970d458f69e4" />
+		<rom name="dkbarpal2.4r" offset="0x1000" size="0x800" crc="919362a0" sha1="5df953cded45ad55ba2bbd5f6d5c7e4577dcaa5f" />
+		<rom name="dkbarpal2.4s" offset="0x1800" size="0x800" crc="d57098ca" sha1="b746b0e137844e0e1cb715df065bbf7a3246f2e9" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkbarpal2.2j" offset="0x100" size="0x100" crc="4a7a511b" sha1="c0d3ee62e5f6e22d24603ab24403b206d043956f" />
+		<rom name="dkbarpal2.2k" offset="0x0" size="0x100" crc="4826ce71" sha1="5fe7d63ce7adece81ab8930196434410fbe4e241" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkbarpal3" cloneof="dkong">
+	<description>Donkey Kong Barrelpalooza v1.03 (2021-03-02)</description>
+	<year>2021</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkbarpal3.5at" offset="0x3000" size="0x1000" crc="d6d14fc3" sha1="9e901825ed1c8dae40f5a9b6db804675b6c5ec70" />
+		<rom name="dkbarpal3.5bt" offset="0x2000" size="0x1000" crc="b526e924" sha1="280c54d212f0d1c86a351277540570420ad73bff" />
+		<rom name="dkbarpal2.5ct" offset="0x1000" size="0x1000" crc="bb94a16b" sha1="433d6f3a42c766cbf478c297c7d6025c738ffda6" />
+		<rom name="dkbarpal3.5et" offset="0x0" size="0x1000" crc="3a79f8ad" sha1="ef26bf95a8a9c37bced4e8172522dc34b5ca0ab4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkbarpal2.3pt" offset="0x800" size="0x800" crc="b0cd1e84" sha1="16f8404114e3f62e0789819f6a65f34189b595bc" />
+		<rom name="dkbarpal2.5h" offset="0x0" size="0x800" crc="caf8820b" sha1="b3e5768bd19c16510d05cd9d5d7ad72e05d08a8c" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkbarpal2.4m" offset="0x0" size="0x800" crc="1b46aae1" sha1="f08c57f2c85df81180444cab76acb4f367d71619" />
+		<rom name="dkbarpal2.4n" offset="0x800" size="0x800" crc="fbaaa6f0" sha1="e61e92418270fb81d9fd33da0a92970d458f69e4" />
+		<rom name="dkbarpal2.4r" offset="0x1000" size="0x800" crc="919362a0" sha1="5df953cded45ad55ba2bbd5f6d5c7e4577dcaa5f" />
+		<rom name="dkbarpal2.4s" offset="0x1800" size="0x800" crc="d57098ca" sha1="b746b0e137844e0e1cb715df065bbf7a3246f2e9" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkbarpal2.2j" offset="0x100" size="0x100" crc="4a7a511b" sha1="c0d3ee62e5f6e22d24603ab24403b206d043956f" />
+		<rom name="dkbarpal2.2k" offset="0x0" size="0x100" crc="4826ce71" sha1="5fe7d63ce7adece81ab8930196434410fbe4e241" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkbarpal4" cloneof="dkong">
+	<description>Donkey Kong Barrelpalooza v1.04 (2021-04-06)</description>
+	<year>2021</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkbarpal4.5at" offset="0x3000" size="0x1000" crc="f162e9ef" sha1="674a005139255c454a09df7701eda2e29868f97a" />
+		<rom name="dkbarpal4.5bt" offset="0x2000" size="0x1000" crc="dbf5b518" sha1="fe4f1fe9baeb588941fe991541f3a5197a0ca860" />
+		<rom name="dkbarpal2.5ct" offset="0x1000" size="0x1000" crc="bb94a16b" sha1="433d6f3a42c766cbf478c297c7d6025c738ffda6" />
+		<rom name="dkbarpal4.5et" offset="0x0" size="0x1000" crc="bb5c7dca" sha1="f4bab16cb33ecca302fa6dd39b718a292958c691" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkbarpal2.3pt" offset="0x800" size="0x800" crc="b0cd1e84" sha1="16f8404114e3f62e0789819f6a65f34189b595bc" />
+		<rom name="dkbarpal2.5h" offset="0x0" size="0x800" crc="caf8820b" sha1="b3e5768bd19c16510d05cd9d5d7ad72e05d08a8c" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkbarpal2.4m" offset="0x0" size="0x800" crc="1b46aae1" sha1="f08c57f2c85df81180444cab76acb4f367d71619" />
+		<rom name="dkbarpal2.4n" offset="0x800" size="0x800" crc="fbaaa6f0" sha1="e61e92418270fb81d9fd33da0a92970d458f69e4" />
+		<rom name="dkbarpal2.4r" offset="0x1000" size="0x800" crc="919362a0" sha1="5df953cded45ad55ba2bbd5f6d5c7e4577dcaa5f" />
+		<rom name="dkbarpal2.4s" offset="0x1800" size="0x800" crc="d57098ca" sha1="b746b0e137844e0e1cb715df065bbf7a3246f2e9" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkbarpal2.2j" offset="0x100" size="0x100" crc="4a7a511b" sha1="c0d3ee62e5f6e22d24603ab24403b206d043956f" />
+		<rom name="dkbarpal2.2k" offset="0x0" size="0x100" crc="4826ce71" sha1="5fe7d63ce7adece81ab8930196434410fbe4e241" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="dkbarpal.3i" offset="0x0" size="0x800" crc="7590f5ee" sha1="b08245ce86d2c2de1b0d000743b7e9fcdf2ee215" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkbarpal5" cloneof="dkong">
+	<description>Donkey Kong Barrelpalooza v1.05 (2021-04-12)</description>
+	<year>2021</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkbarpal5.5at" offset="0x3000" size="0x1000" crc="0791b6e1" sha1="6feeb6cd3b2b498e9ab3d2f9e548b54b2578af81" />
+		<rom name="dkbarpal4.5bt" offset="0x2000" size="0x1000" crc="dbf5b518" sha1="fe4f1fe9baeb588941fe991541f3a5197a0ca860" />
+		<rom name="dkbarpal5.5ct" offset="0x1000" size="0x1000" crc="b543574d" sha1="dd8b260c8671cf560fa1348075f535aedfd8b418" />
+		<rom name="dkbarpal4.5et" offset="0x0" size="0x1000" crc="bb5c7dca" sha1="f4bab16cb33ecca302fa6dd39b718a292958c691" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkbarpal2.3pt" offset="0x800" size="0x800" crc="b0cd1e84" sha1="16f8404114e3f62e0789819f6a65f34189b595bc" />
+		<rom name="dkbarpal2.5h" offset="0x0" size="0x800" crc="caf8820b" sha1="b3e5768bd19c16510d05cd9d5d7ad72e05d08a8c" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkbarpal2.4m" offset="0x0" size="0x800" crc="1b46aae1" sha1="f08c57f2c85df81180444cab76acb4f367d71619" />
+		<rom name="dkbarpal2.4n" offset="0x800" size="0x800" crc="fbaaa6f0" sha1="e61e92418270fb81d9fd33da0a92970d458f69e4" />
+		<rom name="dkbarpal2.4r" offset="0x1000" size="0x800" crc="919362a0" sha1="5df953cded45ad55ba2bbd5f6d5c7e4577dcaa5f" />
+		<rom name="dkbarpal2.4s" offset="0x1800" size="0x800" crc="d57098ca" sha1="b746b0e137844e0e1cb715df065bbf7a3246f2e9" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkbarpal2.2j" offset="0x100" size="0x100" crc="4a7a511b" sha1="c0d3ee62e5f6e22d24603ab24403b206d043956f" />
+		<rom name="dkbarpal2.2k" offset="0x0" size="0x100" crc="4826ce71" sha1="5fe7d63ce7adece81ab8930196434410fbe4e241" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="dkbarpal.3i" offset="0x0" size="0x800" crc="7590f5ee" sha1="b08245ce86d2c2de1b0d000743b7e9fcdf2ee215" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkbarpal6" cloneof="dkong">
+	<description>Donkey Kong Barrelpalooza v1.06 (2021-05-13)</description>
+	<year>2021</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkbarpal4.5et" offset="0x0" size="0x1000" crc="bb5c7dca" sha1="f4bab16cb33ecca302fa6dd39b718a292958c691" />
+		<rom name="dkbarpal6.5ct" offset="0x1000" size="0x1000" crc="c742739c" sha1="a143af813f7c23b6bab483ad2610e686ebc568da" />
+		<rom name="dkbarpal6.5bt" offset="0x2000" size="0x1000" crc="a46859ec" sha1="bbe8a32b7396f6347ce8b4a77b760277fb965551" />
+		<rom name="dkbarpal6.5at" offset="0x3000" size="0x1000" crc="eafd7c54" sha1="1b44ac9c90621a8aeda00ef2677e9ad00d475467" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkbarpal2.5h" offset="0x0" size="0x800" crc="caf8820b" sha1="b3e5768bd19c16510d05cd9d5d7ad72e05d08a8c" />
+		<rom name="dkbarpal2.3pt" offset="0x800" size="0x800" crc="b0cd1e84" sha1="16f8404114e3f62e0789819f6a65f34189b595bc" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkbarpal2.4m" offset="0x0" size="0x800" crc="1b46aae1" sha1="f08c57f2c85df81180444cab76acb4f367d71619" />
+		<rom name="dkbarpal2.4n" offset="0x800" size="0x800" crc="fbaaa6f0" sha1="e61e92418270fb81d9fd33da0a92970d458f69e4" />
+		<rom name="dkbarpal2.4r" offset="0x1000" size="0x800" crc="919362a0" sha1="5df953cded45ad55ba2bbd5f6d5c7e4577dcaa5f" />
+		<rom name="dkbarpal2.4s" offset="0x1800" size="0x800" crc="d57098ca" sha1="b746b0e137844e0e1cb715df065bbf7a3246f2e9" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkbarpal2.2k" offset="0x0" size="0x100" crc="4826ce71" sha1="5fe7d63ce7adece81ab8930196434410fbe4e241" />
+		<rom name="dkbarpal2.2j" offset="0x100" size="0x100" crc="4a7a511b" sha1="c0d3ee62e5f6e22d24603ab24403b206d043956f" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="dkbarpal.3i" offset="0x0" size="0x800" crc="7590f5ee" sha1="b08245ce86d2c2de1b0d000743b7e9fcdf2ee215" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkbrlbss" cloneof="dkong">
+	<description>Donkey Kong Barrel Boss v1.01 (2023-08-16)</description>
+	<year>2023</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkbrlbss.5et" offset="0x0" size="0x1000" crc="1b7fcbdb" sha1="4a00b135bc0cef9424a093ad92573aa29e50d08d" />
+		<rom name="dkbrlbss.5ct" offset="0x1000" size="0x1000" crc="27a23476" sha1="78b97b56c8a3971b81d637b1d5e06f2303252775" />
+		<rom name="dkbrlbss.5bt" offset="0x2000" size="0x1000" crc="146e3c1b" sha1="6d9248a1cf016dea8cb2b1f02ffd5ac973f5f0e0" />
+		<rom name="dkbrlbss.5at" offset="0x3000" size="0x1000" crc="1ac59880" sha1="1b4584074ad1b7832ddfab88541ff658c69214bc" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dksprfin.5h" offset="0x0" size="0x800" crc="b41e2713" sha1="2a4e37e5bb997b0a6a0d8aef61fd8f89d97d8213" />
+		<rom name="dksprfin.3pt" offset="0x800" size="0x800" crc="b33f2ba7" sha1="900ff22f44b4504da4f3b8fe9dcdf7f5b88ea597" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dksprfin.2k" offset="0x0" size="0x100" crc="6baa5ba0" sha1="2c0e9f4b4ac2d14aeeeba9afa9bf675337650276" />
+		<rom name="dksprfin.2j" offset="0x100" size="0x100" crc="1a144a25" sha1="6e73470b7589ea5f14cf0dd9a9fbfd176e5e1c36" />
+		<rom name="dkbrlbss.5e" offset="0x200" size="0x100" crc="b8bce45e" sha1="a25651f493d03c2bdccfb5ac338972e9830c0e97" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkcbarrel" cloneof="dkong">
+	<description>Donkey Kong Crazy Barrels Edition (2019-10-04)</description>
+	<year>2019</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkcbarrel.5et" offset="0x0" size="0x1000" crc="78e37c41" sha1="1a30f11d6c49f168da9ccb7bda44e2d001544177" />
+		<rom name="dkcbarrel.5ct" offset="0x1000" size="0x1000" crc="a46cbb85" sha1="f19a397b0556676dbc854b3072a0f48660759d8a" />
+		<rom name="dkcbarrel.5bt" offset="0x2000" size="0x1000" crc="07da5b15" sha1="14f0a510783ce618c1acdcef35837f0dc3fbd370" />
+		<rom name="dkcbarrel.5at" offset="0x3000" size="0x1000" crc="515e0639" sha1="c556cc9aa67cb36fa3aad6b4ad4d5e726b35378a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkfreerun" cloneof="dkong">
+	<description>Donkey Kong Freerun Edition (2019-06-20)</description>
+	<year>2019</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkfreerun.5et" offset="0x0" size="0x1000" crc="2b85ddf0" sha1="61a0cb413e4ec794ee5997f7b67f36645f9af03b" />
+		<rom name="dkfreerun.5ct" offset="0x1000" size="0x1000" crc="ef7e15d7" sha1="22a8c25eed51b7fc4bbcc09ae87fc24baf688983" />
+		<rom name="dkfreerun.5bt" offset="0x2000" size="0x1000" crc="cb390d7c" sha1="13dc382a543d216772858451be749534337c5163" />
+		<rom name="dkfreerun.5at" offset="0x3000" size="0x1000" crc="76fb86ba" sha1="9934df182b54fdc7f5e551eb07e236550308ec73" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkjungle" cloneof="dkong">
+	<description>Donkey Kong Jungle (2020-09-22)</description>
+	<year>2020</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkjungle.5at" offset="0x3000" size="0x1000" crc="6d1ea836" sha1="2f59ce4b522b9c5aa1966b904a6089dfb9f9a89e" />
+		<rom name="dkjungle.5bt" offset="0x2000" size="0x1000" crc="b1990430" sha1="7a99f07b95f1fb2f7ef0f443f74737153ec446ba" />
+		<rom name="dkjungle.5ct" offset="0x1000" size="0x1000" crc="ed5c7b13" sha1="5c3865d50750eb4fd0fc36cccd1fbe3d7e59b29b" />
+		<rom name="dkjungle.5et" offset="0x0" size="0x1000" crc="4ebc7956" sha1="04a58199de5e247fe4335f8f1c54e5083f78934c" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkjungle0.3pt" offset="0x800" size="0x800" crc="95408f9f" sha1="2783148806531d427c40b45bf568b45fdd9d3d79" />
+		<rom name="dkjungle0.5h" offset="0x0" size="0x800" crc="fccb93d6" sha1="152e83a2e3002835f260f55adb53079bb502ae6d" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkjungle.4m" offset="0x0" size="0x800" crc="5e77597e" sha1="8b241f32bb1fec2c2a00ad75cb650c5eadc37bd3" />
+		<rom name="dkjungle.4n" offset="0x800" size="0x800" crc="715c29ff" sha1="b5e544ebdc23b8ae236705f3f128261bb0f61ff6" />
+		<rom name="dkjungle.4r" offset="0x1000" size="0x800" crc="7b24438d" sha1="f34d532a11d0bcdd6e28cf0f4d4700e38228ff25" />
+		<rom name="dkjungle.4s" offset="0x1800" size="0x800" crc="57d3989a" sha1="3e17f2c197790a1985836ee5652288ce3bd5735d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkjungle0.2j" offset="0x100" size="0x100" crc="a81ca93c" sha1="349cdb6348cbe1773f217ebacb1f0ece144fa8fd" />
+		<rom name="dkjungle0.2k" offset="0x0" size="0x100" crc="84be5373" sha1="5d091cbe4002c7f9adbab24b7e4c31409de4be32" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkjungle0" cloneof="dkong">
+	<description>Donkey Kong Jungle (2020-07-08)</description>
+	<year>2020</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkjungle0.5at" offset="0x3000" size="0x1000" crc="6e120e2b" sha1="4d1dd8a653afbde974ad72c06f64cd1a783b0d26" />
+		<rom name="dkjungle0.5bt" offset="0x2000" size="0x1000" crc="6f7158a3" sha1="450925dfb2238b891c8b0693eb3fa38d5353eaff" />
+		<rom name="dktwist0.5ct" offset="0x1000" size="0x1000" crc="e8a247f7" sha1="f96d50e6306c6cfc8fe05e77936f90ac1f5d2f85" />
+		<rom name="dkjungle0.5et" offset="0x0" size="0x1000" crc="8012acdd" sha1="49d3895f68724cb221811854d6f251aa7f3173a9" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkjungle0.3pt" offset="0x800" size="0x800" crc="95408f9f" sha1="2783148806531d427c40b45bf568b45fdd9d3d79" />
+		<rom name="dkjungle0.5h" offset="0x0" size="0x800" crc="fccb93d6" sha1="152e83a2e3002835f260f55adb53079bb502ae6d" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkjungle0.4m" offset="0x0" size="0x800" crc="3ee61846" sha1="9c52912911878be0eb196612b9f328b2e40f475a" />
+		<rom name="dkjungle0.4n" offset="0x800" size="0x800" crc="d928f7a8" sha1="fa4d6896cbe6b3178e81488a0ededa921aad0238" />
+		<rom name="dkjungle0.4r" offset="0x1000" size="0x800" crc="12468998" sha1="3ff1168936ff8e034524e09f737f4f33ed7bdb91" />
+		<rom name="dkjungle0.4s" offset="0x1800" size="0x800" crc="d4cba860" sha1="4afd92bad6136f9c674e96eb16b6f07a91deb937" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkjungle0.2j" offset="0x100" size="0x100" crc="a81ca93c" sha1="349cdb6348cbe1773f217ebacb1f0ece144fa8fd" />
+		<rom name="dkjungle0.2k" offset="0x0" size="0x100" crc="84be5373" sha1="5d091cbe4002c7f9adbab24b7e4c31409de4be32" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong01" cloneof="dkong">
+	<description>2nut Kong (2022-08-17, set 1)</description>
+	<year>2022</year>
+	<publisher>Jon Wilson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s01.5et" offset="0x0" size="0x1000" crc="13d328c1" sha1="7d8e19ea301fe36a97514da1e29dd27871103b8b" />
+		<rom name="s01.5ct" offset="0x1000" size="0x1000" crc="5f9f85b7" sha1="211211c4f1b8b0bb23f4bd0a515129fa1fe5be7a" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="s01.5at" offset="0x3000" size="0x1000" crc="5de178ca" sha1="cf7460b1ee76290803834950a2da28bd06971506" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="s01.5h" offset="0x0" size="0x800" crc="88791795" sha1="5066bdecc39dc7828746d4b8e526f2264e791772" />
+		<rom name="s01.3pt" offset="0x800" size="0x800" crc="5fa452f7" sha1="6435383249442f2e00914f537886ddfb72202708" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong02" cloneof="dkong">
+	<description>2nut Kong (2022-08-17, set 2)</description>
+	<year>2022</year>
+	<publisher>Jon Wilson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s02.5et" offset="0x0" size="0x1000" crc="167da4a2" sha1="6bac9c7438e3372f9d805a657526da49bd00a9f0" />
+		<rom name="s01.5ct" offset="0x1000" size="0x1000" crc="5f9f85b7" sha1="211211c4f1b8b0bb23f4bd0a515129fa1fe5be7a" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="s02.5at" offset="0x3000" size="0x1000" crc="54abe269" sha1="53e369210fe46b193cf6d551049b5fd9161234eb" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="s01.5h" offset="0x0" size="0x800" crc="88791795" sha1="5066bdecc39dc7828746d4b8e526f2264e791772" />
+		<rom name="s01.3pt" offset="0x800" size="0x800" crc="5fa452f7" sha1="6435383249442f2e00914f537886ddfb72202708" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong03" cloneof="dkong">
+	<description>2nut Kong (2022-08-17, set 3)</description>
+	<year>2022</year>
+	<publisher>Jon Wilson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s03.5et" offset="0x0" size="0x1000" crc="8ab9cd48" sha1="291b716dd73e186cbde8e73f077ef6a4bd4016b0" />
+		<rom name="s01.5ct" offset="0x1000" size="0x1000" crc="5f9f85b7" sha1="211211c4f1b8b0bb23f4bd0a515129fa1fe5be7a" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="s03.5at" offset="0x3000" size="0x1000" crc="753e688c" sha1="9647621645af814d688e49d142911b821d0495b3" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="s01.5h" offset="0x0" size="0x800" crc="88791795" sha1="5066bdecc39dc7828746d4b8e526f2264e791772" />
+		<rom name="s01.3pt" offset="0x800" size="0x800" crc="5fa452f7" sha1="6435383249442f2e00914f537886ddfb72202708" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong04" cloneof="dkong">
+	<description>Donkey Kong Fireballs (2021-06-07)</description>
+	<year>2021</year>
+	<publisher>Jon Wilson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="c_5et_g.bin" offset="0x0" size="0x1000" crc="ba70b88b" sha1="d76ebecfea1af098d843ee7e578e480cd658ac1a" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="s04.5at" offset="0x3000" size="0x1000" crc="09a3dd4a" sha1="3e23387ca6f95da28af8f780c6b1200087c924df" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="s04.4m" offset="0x0" size="0x800" crc="05e0178d" sha1="b18d82c18cc86e5835407368c6c69b2cd420f3e0" />
+		<rom name="s04.4n" offset="0x800" size="0x800" crc="84e00e39" sha1="9752a278b29ecd46f46154a01a26067d7d37a608" />
+		<rom name="s04.4r" offset="0x1000" size="0x800" crc="ed02bdad" sha1="0d946c0c520803e7b42e46195edb18d62da2c98c" />
+		<rom name="s04.4s" offset="0x1800" size="0x800" crc="3c34b034" sha1="a90cffb1fd8a7a46306f8cbbbaa4f2c2d7f009b1" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong05" cloneof="dkong">
+	<description>Donkey Kong (Barreling)</description>
+	<year>2022</year>
+	<publisher>Jon Wilson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="c_5et_g.bin" offset="0x0" size="0x1000" crc="ba70b88b" sha1="d76ebecfea1af098d843ee7e578e480cd658ac1a" />
+		<rom name="s05.5ct" offset="0x1000" size="0x1000" crc="bcf79636" sha1="eac1b8c80c10cbc58dc2cf205084b0cb05ea6f5a" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="s05.5at" offset="0x3000" size="0x1000" crc="c1b95bd3" sha1="a447c9f82e7c4a9b7f60b33a037156ae355aa949" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong06" cloneof="dkong">
+	<description>Donkey Kong (Half Kong)</description>
+	<year>2022</year>
+	<publisher>Jon Wilson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s06.5et" offset="0x0" size="0x1000" crc="da0c3028" sha1="5a2d8d9c05906eb891757917dab61757e1c6dc5a" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="s06.5at" offset="0x3000" size="0x1000" crc="f41cd662" sha1="1fad3138c8f920b0425a11f8e29a8d1c542c11e9" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="s06.5h" offset="0x0" size="0x800" crc="77b4c1f9" sha1="8fc70474542c573869981d7754ab05ed4dfbdf1d" />
+		<rom name="s06.3pt" offset="0x800" size="0x800" crc="4a4ba8d4" sha1="045b72caa312bb4fba2b938856b73996346d2adf" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="s06.4m" offset="0x0" size="0x800" crc="8f6b9786" sha1="303fc53fef58ce41aa230f87ba582ab660d53ff9" />
+		<rom name="s06.4n" offset="0x800" size="0x800" crc="8744b5e3" sha1="c20bc6ff27e67b65aa891d57f1279712a75c7d98" />
+		<rom name="s06.4r" offset="0x1000" size="0x800" crc="2839cb25" sha1="71884c312e469d97ea82a87d2d9e016ae0ec3710" />
+		<rom name="s06.4s" offset="0x1800" size="0x800" crc="c0981d89" sha1="7a305d07000f94607621a7d1bbeba46c4f87d25e" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong07" cloneof="dkong">
+	<description>Donkey Kong (Kana Kong)</description>
+	<year>2022</year>
+	<publisher>Kirai Shouen, 125scratch</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="c_5et_g.bin" offset="0x0" size="0x1000" crc="ba70b88b" sha1="d76ebecfea1af098d843ee7e578e480cd658ac1a" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="c_5at_g.bin" offset="0x3000" size="0x1000" crc="b9005ac0" sha1="3fe3599f6fa7c496f782053ddf7bacb453d197c4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="s07.5h" offset="0x0" size="0x800" crc="d314c451" sha1="bb28f431c5ce6e9c1dd77a0aad3728e882f0f9c0" />
+		<rom name="s07.3pt" offset="0x800" size="0x800" crc="3525a8c0" sha1="7e94f5c212dfb6fe00f7dbcd8e1ecb56b6066d5e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="s07.4m" offset="0x0" size="0x800" crc="089af499" sha1="33445181a67a25be2e953dec7a0d2437070e71f1" />
+		<rom name="s07.4n" offset="0x800" size="0x800" crc="7375d02d" sha1="8c0d3130c01d7a0e3cd50eb7de6cc000a4215c67" />
+		<rom name="s07.4r" offset="0x1000" size="0x800" crc="a8142c34" sha1="7bbaf33f12ce971a02e1c38e8b9b807554657ec6" />
+		<rom name="s07.4s" offset="0x1800" size="0x800" crc="72de5617" sha1="01a08d52aeb1151b5261218afb980cfcb6bef937" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="s07.2k" offset="0x0" size="0x100" crc="2f18a54e" sha1="098f70fe519102ebb146a3aa42b0aa1d6fb7fbe7" />
+		<rom name="s07.2j" offset="0x100" size="0x100" crc="4f1f882a" sha1="df95e3424ba7372b1096e39d6c10f7eaa51cf739" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong08" cloneof="dkong">
+	<description>Konkey Dong</description>
+	<year>2022</year>
+	<publisher>Jon Wilson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="c_5et_g.bin" offset="0x0" size="0x1000" crc="ba70b88b" sha1="d76ebecfea1af098d843ee7e578e480cd658ac1a" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="s08.5bt" offset="0x2000" size="0x1000" crc="ca1e5693" sha1="422f14bef6d80903d950298f97242fbd0b69f32b" />
+		<rom name="s08.5at" offset="0x3000" size="0x1000" crc="a72252cd" sha1="bfdd01ac68ebb65d5da661347fa7d2abeeb8cf05" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="s08.5h" offset="0x0" size="0x800" crc="9fd983a7" sha1="3b80759286e69aa60d5efe308373d28a6639e525" />
+		<rom name="s08.3pt" offset="0x800" size="0x800" crc="f866040f" sha1="7740f95ccdad7f89b67fed6d068a5dda12a88ff0" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="s08.4m" offset="0x0" size="0x800" crc="4b882a01" sha1="9f95a032b2d19800e9271b71e70dbe64f1ee5ae4" />
+		<rom name="s08.4n" offset="0x800" size="0x800" crc="dc13a5b3" sha1="b78b3239b00b2b2fd0b461764fbabbf79c1091e9" />
+		<rom name="s08.4r" offset="0x1000" size="0x800" crc="80558471" sha1="a50ea67e4d78d3d02d2d8082c7e566d2adb49acb" />
+		<rom name="s08.4s" offset="0x1800" size="0x800" crc="18d7d478" sha1="7cc666f28deba131c3fe8805f79a53199e0363c9" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong09" cloneof="dkong">
+	<description>Donkey Kong (DK Lava Panic!)</description>
+	<year>2022</year>
+	<publisher>Jon Wilson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="c_5et_g.bin" offset="0x0" size="0x1000" crc="ba70b88b" sha1="d76ebecfea1af098d843ee7e578e480cd658ac1a" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="s09.5at" offset="0x3000" size="0x1000" crc="e9fb42fc" sha1="162b70fe4dfa7a4f66816aefa532a2f9da79de16" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong10" cloneof="dkong">
+	<description>Donkey Kong (NoLuck Kong)</description>
+	<year>2022</year>
+	<publisher>Jon Wilson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s10.5et" offset="0x0" size="0x1000" crc="b653104f" sha1="8bf17b6695b4593ba46aba909aeea2a56cf6e489" />
+		<rom name="s10.5ct" offset="0x1000" size="0x1000" crc="89363e27" sha1="fa5493c30d1be98ca1c6facb99d1e4e1ecc5e4c0" />
+		<rom name="s10.5bt" offset="0x2000" size="0x1000" crc="11e0a7a2" sha1="4af6ab490ffc297a31631184e903b5206486ed9a" />
+		<rom name="s10.5at" offset="0x3000" size="0x1000" crc="8df18df7" sha1="bcc765395fb1af47154bae0291f38d8864ed3382" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="s10.5h" offset="0x0" size="0x800" crc="659aaeb5" sha1="ba5e11ed16cdc6aed4ea9a557f4780ea645a31c0" />
+		<rom name="s10.3pt" offset="0x800" size="0x800" crc="4f158a44" sha1="4660c62d1b14571f549a696e0797c75a0707e285" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong11" cloneof="dkong">
+	<description>Donkey Kong (Octo Monkey)</description>
+	<year>2022</year>
+	<publisher>Jon Wilson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s11.5et" offset="0x0" size="0x1000" crc="264d83c7" sha1="9270264ecd8a9c8598196ef244efd87507cdeeae" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="s11.5at" offset="0x3000" size="0x1000" crc="36768adf" sha1="0ca5fc7a2a3e13d4751b2626f51a01d3ebc896c4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="s11.5h" offset="0x0" size="0x800" crc="43488249" sha1="0df7629167ae2c188ce22d2642c90686ca807ca1" />
+		<rom name="s11.3pt" offset="0x800" size="0x800" crc="9bfa72d3" sha1="5a0aec001f8fcbd2d35603629860c772fd6d6f70" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="s11.4m" offset="0x0" size="0x800" crc="b31de054" sha1="fd270483858bfac85ff08b5df03ec66964b45e69" />
+		<rom name="s11.4n" offset="0x800" size="0x800" crc="2154c474" sha1="401c438a1a8314ba769d791d6adab09f9ffb76f7" />
+		<rom name="s11.4r" offset="0x1000" size="0x800" crc="144fbcf7" sha1="c723ce2f5976b050d58f9498408bb9bc54fd35e0" />
+		<rom name="s11.4s" offset="0x1800" size="0x800" crc="66886c1e" sha1="b16ec71a1926280e1ef317c8cdacb9d5ae26b1db" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong12" cloneof="dkong">
+	<description>Donkey Kong (Pies only)</description>
+	<year>2022</year>
+	<publisher>Jon Wilson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s12.5et" offset="0x0" size="0x1000" crc="fa9b1242" sha1="4c139e31a040844f3a61089da2614000c7104f48" />
+		<rom name="s05.5ct" offset="0x1000" size="0x1000" crc="bcf79636" sha1="eac1b8c80c10cbc58dc2cf205084b0cb05ea6f5a" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="s12.5at" offset="0x3000" size="0x1000" crc="9eae173c" sha1="e5dc63bede32763fa7b5b0de0dab0b96113e764e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong13" cloneof="dkong">
+	<description>Donkey Kong (Quarter)</description>
+	<year>2022</year>
+	<publisher>Jon Wilson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s13.5et" offset="0x0" size="0x1000" crc="7bb6a069" sha1="860e5e3c85fcdf932dc5df3b7c3e98e0495a062d" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="s13.5at" offset="0x3000" size="0x1000" crc="2d95e2dc" sha1="2f72341b626b25745e83987929883eda7df6478d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="s13.5h" offset="0x0" size="0x800" crc="3123e13e" sha1="8b444bacdabc91c472d24daa64f94cd3396877b0" />
+		<rom name="s13.3pt" offset="0x800" size="0x800" crc="8a7cc885" sha1="2c369e023051dcaba711c1f3ad49fff8f6c4671f" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="s13.4m" offset="0x0" size="0x800" crc="43899f5d" sha1="44b1e9ce7dea9289796515679c787765110fcff4" />
+		<rom name="s13.4n" offset="0x800" size="0x800" crc="a3c087db" sha1="bc6a579aaeb872dbd9074d0b1f2f21ff63bc4fa9" />
+		<rom name="s13.4r" offset="0x1000" size="0x800" crc="e4dbc3fe" sha1="97944896a0be4f55c05b698eb3a3a9d67afc2790" />
+		<rom name="s13.4s" offset="0x1800" size="0x800" crc="e41c2fb1" sha1="3d167796b5f987f9d772af703b04280f1b670e11" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong14" cloneof="dkong">
+	<description>Donkey Kong (Riveting)</description>
+	<year>2022</year>
+	<publisher>Jon Wilson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s14.5et" offset="0x0" size="0x1000" crc="7b4c47d0" sha1="ad95cb487a6598fef7d4610d5ab88846cf64285a" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="s14.5at" offset="0x3000" size="0x1000" crc="6f2d5bfe" sha1="5799e972234e3b3c8cc27e884b43088dec70192d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong15" cloneof="dkong">
+	<description>Donkey Kong (Springy)</description>
+	<year>2022</year>
+	<publisher>Jon Wilson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s15.5et" offset="0x0" size="0x1000" crc="73ed763a" sha1="d9db48fe1478fd0b6e8ef05cb21429d02dde5cff" />
+		<rom name="s05.5ct" offset="0x1000" size="0x1000" crc="bcf79636" sha1="eac1b8c80c10cbc58dc2cf205084b0cb05ea6f5a" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="s15.5at" offset="0x3000" size="0x1000" crc="bf13dd67" sha1="0acddff1087445cd93a8b0e63e5e8d98ceb1513b" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong16" cloneof="dkong">
+	<description>Donkey Kong (Wild Barrel hack)</description>
+	<year>2022</year>
+	<publisher>Jon Wilson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s16.5et" offset="0x0" size="0x1000" crc="df6f3ad0" sha1="a87c1262c8f0ccf6a906a88ddcfe1d147504ff53" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="s16.5bt" offset="0x2000" size="0x1000" crc="c34b67aa" sha1="84ef5e509f32eb544179e5a186cbe3f1193d1ee3" />
+		<rom name="s16.5at" offset="0x3000" size="0x1000" crc="c282c79c" sha1="0612b15738e5a5ad0ceffa988886fbadcece68d3" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong17" cloneof="dkong">
+	<description>Donkey Kong (DK Who and the Daleks)</description>
+	<year>2022</year>
+	<publisher>Jon Wilson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="c_5et_g.bin" offset="0x0" size="0x1000" crc="ba70b88b" sha1="d76ebecfea1af098d843ee7e578e480cd658ac1a" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="s17.5at" offset="0x3000" size="0x1000" crc="9591efd4" sha1="025043df8d4b27343cf4532f3737a843ca6d20ee" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="s17.5h" offset="0x0" size="0x800" crc="621f575c" sha1="15884de84759421ba59faadf4b2da669a6d9a1be" />
+		<rom name="s17.3pt" offset="0x800" size="0x800" crc="36fb859c" sha1="577d7d0027b789561800963dfb7bcbb84037d85a" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="s17.4m" offset="0x0" size="0x800" crc="8c2b5bcd" sha1="6f6445eb1ceff1a0c22b3654edb5976469ecf57f" />
+		<rom name="s17.4n" offset="0x800" size="0x800" crc="3876fdb6" sha1="c1a0c0fc7084d0ae3679d13c578f8542c7cdc620" />
+		<rom name="s17.4r" offset="0x1000" size="0x800" crc="dd96b24c" sha1="5318ded576d3e027c58b5667c68d26df8b390bee" />
+		<rom name="s17.4s" offset="0x1800" size="0x800" crc="1feca016" sha1="b0ea321fb85a16c6b96db4b1fcb22532615046aa" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong19" cloneof="dkong">
+	<description>Donkey Kong (2600 graphics, set 1)</description>
+	<year>1999</year>
+	<publisher>Vic Twenty George</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="c_5et_g.bin" offset="0x0" size="0x1000" crc="ba70b88b" sha1="d76ebecfea1af098d843ee7e578e480cd658ac1a" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="c_5at_g.bin" offset="0x3000" size="0x1000" crc="b9005ac0" sha1="3fe3599f6fa7c496f782053ddf7bacb453d197c4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="s19.5h" offset="0x0" size="0x800" crc="0e6a2a6d" sha1="7ebbcb78b269184cf588b5ad0b90f449d6d4e299" />
+		<rom name="s19.3pt" offset="0x800" size="0x800" crc="ca57e0f4" sha1="12c7821fc9f7fee276f7aa27dd0421f565b0f469" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="s19.4m" offset="0x0" size="0x800" crc="cf450a43" sha1="efa772f92b890181c0823b8113e069b7c4400ede" />
+		<rom name="s19.4n" offset="0x800" size="0x800" crc="d5046907" sha1="1eb08ed67f6de04c4f3cb8f449503bbedc6207bc" />
+		<rom name="s19.4r" offset="0x1000" size="0x800" crc="1539fe2a" sha1="ea599987a2d65ffe2d09ca0951529bde2d31b1be" />
+		<rom name="s19.4s" offset="0x1800" size="0x800" crc="77cc00ab" sha1="7560bf4fd65c03f28f015abf64f83fc4ad7ae512" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="s19.2k" offset="0x0" size="0x100" crc="1e82d375" sha1="8f2da5cedd1f62be08555dd0eb929eb41da5079d" />
+		<rom name="s19.2j" offset="0x100" size="0x100" crc="2ab01dc8" sha1="c25958d0706cabf997efe16fad71f454fc1ced0b" />
+		<rom name="s19.5e" offset="0x200" size="0x100" crc="44988665" sha1="68c474fc81aff46eae6c9a7ac6ab80288303e291" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong20" cloneof="dkong">
+	<description>Donkey Kong (2600 graphics, set 2)</description>
+	<year>1999</year>
+	<publisher>Vic Twenty George</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="c_5et_g.bin" offset="0x0" size="0x1000" crc="ba70b88b" sha1="d76ebecfea1af098d843ee7e578e480cd658ac1a" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="c_5at_g.bin" offset="0x3000" size="0x1000" crc="b9005ac0" sha1="3fe3599f6fa7c496f782053ddf7bacb453d197c4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="s20.5h" offset="0x0" size="0x800" crc="04cfd877" sha1="8cbbcbc4d2c459bde0a652d8dbd2c6cec9d90ef3" />
+		<rom name="s20.3pt" offset="0x800" size="0x800" crc="50c92785" sha1="27411c03ecf6b3cbd864d310af42d54cc25d659d" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="s20.4m" offset="0x0" size="0x800" crc="ac877f07" sha1="2392789f7a9ddcc9e48ffba6a786f08e55b7bef0" />
+		<rom name="s20.4n" offset="0x800" size="0x800" crc="5c9e71e1" sha1="4981f6d4fe21baeb35e267eca19771c6cd995944" />
+		<rom name="s20.4r" offset="0x1000" size="0x800" crc="f1834ba5" sha1="8ba39a25f1085d9e9a7be4b3ed953a2584a4db84" />
+		<rom name="s20.4s" offset="0x1800" size="0x800" crc="d1ce232a" sha1="0531ddc86c76048689eadd39911adb236901cf2a" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="s19.2k" offset="0x0" size="0x100" crc="1e82d375" sha1="8f2da5cedd1f62be08555dd0eb929eb41da5079d" />
+		<rom name="s19.2j" offset="0x100" size="0x100" crc="2ab01dc8" sha1="c25958d0706cabf997efe16fad71f454fc1ced0b" />
+		<rom name="s19.5e" offset="0x200" size="0x100" crc="44988665" sha1="68c474fc81aff46eae6c9a7ac6ab80288303e291" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong21" cloneof="dkong">
+	<description>Donkey Kong Pacman Crossover v1.00 (2024-01-17)</description>
+	<year>2024</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s21.5et" offset="0x0" size="0x1000" crc="a7a913d5" sha1="163f851b0517a84d54d6612f8bbe52d214a0f846" />
+		<rom name="s21.5ct" offset="0x1000" size="0x1000" crc="03ce5531" sha1="9d8c1df41dfb04f3b9498109fad7d9288f4a00fe" />
+		<rom name="s21.5bt" offset="0x2000" size="0x1000" crc="abaf3fa1" sha1="d05ae561800b8386b932aae4921c4b197bf8f9c4" />
+		<rom name="s21.5at" offset="0x3000" size="0x1000" crc="843a9751" sha1="c6b564e4bf0b472dfb42e9d23f9ec5ee157e7832" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="s21.5h" offset="0x0" size="0x800" crc="b212d49b" sha1="941d907990eb6982793d79ed63974f9c9c6a159d" />
+		<rom name="s21.3pt" offset="0x800" size="0x800" crc="2bd67b35" sha1="7e5660b35f53f81410a68b73bf8784a56bb6ebac" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="s21.4m" offset="0x0" size="0x800" crc="7db40811" sha1="a149e5fdcd3f0c1a570cebcdd236013eaefd5398" />
+		<rom name="s21.4n" offset="0x800" size="0x800" crc="c9f3b37a" sha1="87ac9f2b5d0c0150e95aa9ebfba7438b49958c1d" />
+		<rom name="s21.4r" offset="0x1000" size="0x800" crc="137ad00e" sha1="38e0717af7601803c7cd7b1cf0286cd6c8a2cbda" />
+		<rom name="s21.4s" offset="0x1800" size="0x800" crc="72b56559" sha1="99fa2699f0a2652e4048f09187b17619bf2e8c80" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="s21.2k" offset="0x0" size="0x100" crc="929a396b" sha1="bc5f50ab46fad619e2bee782fc9676868affb08e" />
+		<rom name="s21.2j" offset="0x100" size="0x100" crc="1aa9c17e" sha1="0c6e11caec0e805aa8c6173895963bb6e50417ea" />
+		<rom name="s21.5e" offset="0x200" size="0x100" crc="d06c6ba8" sha1="71989ca72740e44c1f967239236b9764be0698c2" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s21.3i" offset="0x0" size="0x800" crc="4f865d26" sha1="d31c431ff2512d3a8f983fc4676ba51995d945e6" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong22" cloneof="dkong">
+	<description>Donkey Kong (hitboxes)</description>
+	<year>2024</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s22.5et" offset="0x0" size="0x1000" crc="866487b7" sha1="25f3000c9925a8c2b54b507d72020007ad99fbe9" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="dkongchm.5bt" offset="0x2000" size="0x1000" crc="fce41e06" sha1="fdab4f37f914d56a28092592f9cbb3d2502c925e" />
+		<rom name="s22.5at" offset="0x3000" size="0x1000" crc="592e538c" sha1="8b8dca78149df5c2190a1eadda8ad6374b59d58d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="s22.4m" offset="0x0" size="0x800" crc="2ca964fe" sha1="550c685f59ddf45dfeac245c9fea4d8041d8d188" />
+		<rom name="s22.4n" offset="0x800" size="0x800" crc="8ca9f14e" sha1="5fd2646e272147ef184f9f1a0b8b36f53bd5069a" />
+		<rom name="s22.4r" offset="0x1000" size="0x800" crc="7241e939" sha1="8083eb54e148e8b4d6c1b0c1c0db96037c59e391" />
+		<rom name="s22.4s" offset="0x1800" size="0x800" crc="65904993" sha1="e618a8638a295c413a85d7ba568735c6db08ad8a" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong23" cloneof="dkong">
+	<description>Donkey Kong (hitboxes and sprites)</description>
+	<year>2024</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s22.5et" offset="0x0" size="0x1000" crc="866487b7" sha1="25f3000c9925a8c2b54b507d72020007ad99fbe9" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="dkongchm.5bt" offset="0x2000" size="0x1000" crc="fce41e06" sha1="fdab4f37f914d56a28092592f9cbb3d2502c925e" />
+		<rom name="s22.5at" offset="0x3000" size="0x1000" crc="592e538c" sha1="8b8dca78149df5c2190a1eadda8ad6374b59d58d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="s23.4m" offset="0x0" size="0x800" crc="7b285f39" sha1="0826a9c69226a4aaa663170c032f87c8dfd89664" />
+		<rom name="s23.4n" offset="0x800" size="0x800" crc="979ca7dc" sha1="b685aaae4c7512abc55a6ba8a72ea6eaf9214064" />
+		<rom name="s23.4r" offset="0x1000" size="0x800" crc="63fee21c" sha1="1b1c2826597e9d958241ee7ee5e6a1c8a570bb3e" />
+		<rom name="s23.4s" offset="0x1800" size="0x800" crc="d9a8536e" sha1="3fe4edbc1d5e42506f2dbadc548538276581839e" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong24" cloneof="dkong">
+	<description>Donkey Kong (longtime hack)</description>
+	<year>2025</year>
+	<publisher>Jon Wilson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s24.5et" offset="0x0" size="0x1000" crc="4dab7562" sha1="cdec96323207f35c61521c7586ac4d574794237d" />
+		<rom name="s05.5ct" offset="0x1000" size="0x1000" crc="bcf79636" sha1="eac1b8c80c10cbc58dc2cf205084b0cb05ea6f5a" />
+		<rom name="s24.5bt" offset="0x2000" size="0x1000" crc="b0b5c859" sha1="71e6fb2af3706b05fd4ec8fc46a12d475d9b7628" />
+		<rom name="s24.5at" offset="0x3000" size="0x1000" crc="345a3c3e" sha1="da1eb53b724e88782cc06d3b5a609ff6f3d0d7c2" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="s24.5h" offset="0x0" size="0x800" crc="fa9316e1" sha1="941dce1c649e8b1617ee670b56f8dfc405dbb54a" />
+		<rom name="s24.3pt" offset="0x800" size="0x800" crc="d01c3210" sha1="a0605288e469528e97a26b0258704df3375e9960" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong25" cloneof="dkong">
+	<description>Donkey Kong (Bowser&#x27;s Takeover v1.00)</description>
+	<year>2026</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s25.5et" offset="0x0" size="0x1000" crc="2680ae9e" sha1="5239366465edc95979ff1e4b575b1dc4f690086c" />
+		<rom name="s25.5ct" offset="0x1000" size="0x1000" crc="5cc230f1" sha1="ae35ae204e6b6ebaa053540af7f7252fbc2d09fc" />
+		<rom name="s25.5bt" offset="0x2000" size="0x1000" crc="c1918928" sha1="6868c23e5f024fc2edfa570f227f7dce3c2a9365" />
+		<rom name="s25.5at" offset="0x3000" size="0x1000" crc="7f3b508b" sha1="8fce60753304c0d1df37c3a0da521701754cd879" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="s25.5h" offset="0x0" size="0x800" crc="bbf41cd4" sha1="8d2ff109837d050c06f9a16b4c8b1f9b20279e13" />
+		<rom name="s25.3pt" offset="0x800" size="0x800" crc="1653cadb" sha1="62a80a3fbc1d68bac2a9128111eb8d4431f67512" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="s25.4m" offset="0x0" size="0x800" crc="c8563065" sha1="112404a9736c9378f068d64a8fece7984b9900fb" />
+		<rom name="s25.4n" offset="0x800" size="0x800" crc="acb90323" sha1="d4978893a58fcb2ff80ba990ec445cf02a0f76f0" />
+		<rom name="s25.4r" offset="0x1000" size="0x800" crc="18e81522" sha1="fac5a434305779d4daf0f30b7b7e1adad2466923" />
+		<rom name="s25.4s" offset="0x1800" size="0x800" crc="5aae0c7a" sha1="f357a81b87021ae37a0977f1e8112144797da50d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="s25.2k" offset="0x0" size="0x100" crc="cd5154ef" sha1="4d4f993d148b2e7c8c382af559de44b2b2b8302d" />
+		<rom name="s25.2j" offset="0x100" size="0x100" crc="1a687240" sha1="0549a500a4efa28672e15a7ed545d810d498921a" />
+		<rom name="s25.5e" offset="0x200" size="0x100" crc="a1444094" sha1="3d8ccda152b3f1f8879b8183610bd0b35ff49287" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s25.3i" offset="0x0" size="0x800" crc="9e77db35" sha1="d6e239fb68f61a82e7c45c57e9add0424693dde2" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkong2m" cloneof="dkong">
+	<description>Donkey Kong (2 marios)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="c_5et_g.bin" offset="0x0" size="0x1000" crc="ba70b88b" sha1="d76ebecfea1af098d843ee7e578e480cd658ac1a" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="c_5at_g.bin" offset="0x3000" size="0x1000" crc="b9005ac0" sha1="3fe3599f6fa7c496f782053ddf7bacb453d197c4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_bm.bin" offset="0x0" size="0x800" crc="4b67ccf9" sha1="8206436a0e5d1f7d5569f918eb87102f03b6cea3" />
+		<rom name="l_4n_bm.bin" offset="0x800" size="0x800" crc="32a708cb" sha1="2c8b4d5179f10fb2e8e9da2012419bdfb436a545" />
+		<rom name="l_4r_bm.bin" offset="0x1000" size="0x800" crc="22b5d5c4" sha1="6bf39a5766786023cc18620283f12dbb9194cbfd" />
+		<rom name="l_4s_bm.bin" offset="0x1800" size="0x800" crc="b212b185" sha1="03d3586e80cafd2440d03d60b7a4c8808b0c6caa" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongacc" cloneof="dkong">
+	<description>Donkey Kong Accelerate v1.01 (2023-09-05)</description>
+	<year>2023</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongacc.5et" offset="0x0" size="0x1000" crc="cfb3a3be" sha1="a5cfcdc4c2a66cf0c48adad4a15ce74cfd6de2d7" />
+		<rom name="dkongacc.5ct" offset="0x1000" size="0x1000" crc="9a527b63" sha1="b0a4680887539b81e1c2cee23b42303b6adcf182" />
+		<rom name="dkongacc.5bt" offset="0x2000" size="0x1000" crc="107b677c" sha1="d9519a7a8617528ded4addb65ad419fb1e552e1f" />
+		<rom name="dkongacc.5at" offset="0x3000" size="0x1000" crc="622b283f" sha1="e883070b9a18c9d22b9e1c03eaf79f6fc1c6673c" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkongacc.5h" offset="0x0" size="0x800" crc="b3a5f655" sha1="2eaba75655b9ae4e5a55a79f3e037ece4bf571b7" />
+		<rom name="dkongacc.3pt" offset="0x800" size="0x800" crc="0bebf954" sha1="f6ad0e083f58bcf1f617a29f4af0aab9a64b2f10" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkongacc.4m" offset="0x0" size="0x800" crc="3c7c711e" sha1="2385962c4da66dd30b553f9a683b7c5799d6d4f4" />
+		<rom name="dkongacc.4n" offset="0x800" size="0x800" crc="7f0e788f" sha1="4c4b1fc8b2481b376fb6b49c1d1ef9156c8c7cc7" />
+		<rom name="dkongacc.4r" offset="0x1000" size="0x800" crc="89129b53" sha1="7d52ee4925a54124d8063151badc71812d5b5c64" />
+		<rom name="dkongacc.4s" offset="0x1800" size="0x800" crc="df2aa287" sha1="be41a3f2d87905e056666f31a9051a065eb91f29" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkongacc.2k" offset="0x0" size="0x100" crc="d46f27e1" sha1="e818e6953e9716c0bebeeb29bb1e152dfbc68a88" />
+		<rom name="dkongacc.2j" offset="0x100" size="0x100" crc="9e4af035" sha1="3d727fb90ecec3d9b57df5e9cae6fafe8b93adb2" />
+		<rom name="dkongacc.5e" offset="0x200" size="0x100" crc="ece3b0f2" sha1="3b13cf44164849a9854f2efa918a36d747e91341" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongan" cloneof="dkong">
+	<description>Donkey Kong 40th Anniversary Edition (2021-03-02)</description>
+	<year>2021</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongan.5et" offset="0x0" size="0x1000" crc="cf44c2dd" sha1="26776fa00250fbffdc1cb2ef012f851cffd67b3d" />
+		<rom name="dkongan0.5ct" offset="0x1000" size="0x1000" crc="34238a95" sha1="a997989a33d5ad8dc77483781de12fd161e57f39" />
+		<rom name="dkongan0.5bt" offset="0x2000" size="0x1000" crc="6c5614e5" sha1="cf8a31c303eb18260cc328593f365ebd9d81fb5c" />
+		<rom name="dkongan.5at" offset="0x3000" size="0x1000" crc="0b92803c" sha1="01bb401837ddeeb5ff36d98eebde9a5819ac19e8" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkongan0.5h" offset="0x0" size="0x800" crc="ae4c3990" sha1="20db41211bfdc6b79198fc8cd022465468430059" />
+		<rom name="dkongan0.3pt" offset="0x800" size="0x800" crc="25cc07d4" sha1="62374e89c79527cb78a70f83781299d4786bcec0" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkongan0.4m" offset="0x0" size="0x800" crc="410ab9a2" sha1="c98f2053bc2f2140209ac2d8d0a7c1f489ec429c" />
+		<rom name="dkongan0.4n" offset="0x800" size="0x800" crc="4f7e8fd4" sha1="b031f512a40d6cdd430cc57f470efe53e55fbad7" />
+		<rom name="dkongan0.4r" offset="0x1000" size="0x800" crc="9eb470c0" sha1="58644eed4c4f0b714f51147fbf77b9c2ee18ad2c" />
+		<rom name="dkongan0.4s" offset="0x1800" size="0x800" crc="73ef61cc" sha1="7736e1451a36f1b9b20108c0d5f6ba861602d307" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="dkongan.3i" offset="0x0" size="0x800" crc="44993c29" sha1="7beeae49df5126bbf268dc66bb61e6a8b832fa31" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongan0" cloneof="dkong">
+	<description>Donkey Kong 40th Anniversary Edition (2021-01-20)</description>
+	<year>2021</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongan0.5at" offset="0x3000" size="0x1000" crc="56ef8519" sha1="6dab077e190da06d79496cb6b92cbd34ea36e935" />
+		<rom name="dkongan0.5bt" offset="0x2000" size="0x1000" crc="6c5614e5" sha1="cf8a31c303eb18260cc328593f365ebd9d81fb5c" />
+		<rom name="dkongan0.5ct" offset="0x1000" size="0x1000" crc="34238a95" sha1="a997989a33d5ad8dc77483781de12fd161e57f39" />
+		<rom name="dkongan0.5et" offset="0x0" size="0x1000" crc="c3f2ed18" sha1="e598f85c6c375a9202e8628b390165186d287f55" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkongan0.3pt" offset="0x800" size="0x800" crc="25cc07d4" sha1="62374e89c79527cb78a70f83781299d4786bcec0" />
+		<rom name="dkongan0.5h" offset="0x0" size="0x800" crc="ae4c3990" sha1="20db41211bfdc6b79198fc8cd022465468430059" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkongan0.4m" offset="0x0" size="0x800" crc="410ab9a2" sha1="c98f2053bc2f2140209ac2d8d0a7c1f489ec429c" />
+		<rom name="dkongan0.4n" offset="0x800" size="0x800" crc="4f7e8fd4" sha1="b031f512a40d6cdd430cc57f470efe53e55fbad7" />
+		<rom name="dkongan0.4r" offset="0x1000" size="0x800" crc="9eb470c0" sha1="58644eed4c4f0b714f51147fbf77b9c2ee18ad2c" />
+		<rom name="dkongan0.4s" offset="0x1800" size="0x800" crc="73ef61cc" sha1="7736e1451a36f1b9b20108c0d5f6ba861602d307" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="dkongan.3i" offset="0x0" size="0x800" crc="44993c29" sha1="7beeae49df5126bbf268dc66bb61e6a8b832fa31" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongbcc" cloneof="dkong">
+	<description>Donkey Kong (Barrel control coloring)</description>
+	<year>1981</year>
+	<publisher>Jeff Kulczycki</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkbcc.5et" offset="0x0" size="0x1000" crc="eec71586" sha1="8c9c05c919265d6b930e5088e869c4b44264ded4" />
+		<rom name="dkbcc.5ct" offset="0x1000" size="0x1000" crc="49200edb" sha1="e40a19700196dc7b2ae766cbef51867856c986aa" />
+		<rom name="dkbcc.5bt" offset="0x2000" size="0x1000" crc="56f7c409" sha1="265817ce17951d49b95a2361c5cc3032620aae96" />
+		<rom name="dkbcc.5at" offset="0x3000" size="0x1000" crc="03b56372" sha1="fea19bb4c46c88c26943ccd910b560cecd5dc44c" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongce" cloneof="dkong">
+	<description>Donkey Kong Championship Edition v1.01 (2020-03-06)</description>
+	<year>2020</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongchm.5et" offset="0x0" size="0x1000" crc="26890d72" sha1="3d32d8d892ea7256882528f07236db4c0c225220" />
+		<rom name="dkongchm.5ct" offset="0x1000" size="0x1000" crc="d5965c23" sha1="266f8864b3e27cb4327e17eaf122e21b3b8909b8" />
+		<rom name="dkongchm.5bt" offset="0x2000" size="0x1000" crc="fce41e06" sha1="fdab4f37f914d56a28092592f9cbb3d2502c925e" />
+		<rom name="dkongchm1.5at" offset="0x3000" size="0x1000" crc="458ff9b9" sha1="81c5874fd03fbd32f9c83ca5534f66a41ffc1fe4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongdu" cloneof="dkong">
+	<description>Donkey Kong Duel v1.02 (2021-11-10)</description>
+	<year>2021</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongdu0.5et" offset="0x0" size="0x1000" crc="87a4912f" sha1="bca9f1c489c193f4cd15a108dd4dd2d99aa89c35" />
+		<rom name="dkongdu.5ct" offset="0x1000" size="0x1000" crc="1c547c2b" sha1="d5373bae4e3a067821253ec6e0e5169a2bfd9dfe" />
+		<rom name="dkongchm.5bt" offset="0x2000" size="0x1000" crc="fce41e06" sha1="fdab4f37f914d56a28092592f9cbb3d2502c925e" />
+		<rom name="dkongdu.5at" offset="0x3000" size="0x1000" crc="c1e0654c" sha1="decf2a73730b117d977ca90039a9b93651883f8d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkongdu0.5h" offset="0x0" size="0x800" crc="3cf6ef8b" sha1="d4f1ac5dfa93b7073d9b441f05b24077c0d22924" />
+		<rom name="dkongdu0.3pt" offset="0x800" size="0x800" crc="3775dd7b" sha1="0e73e1e64673140e8e5fd318cc679c64812608a7" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkongdu0.2k" offset="0x0" size="0x100" crc="02e1f91b" sha1="fadb853a060db98ea13d67059fda91e7095b0050" />
+		<rom name="dkongdu0.2j" offset="0x100" size="0x100" crc="4176057f" sha1="ccb7d553f6aa82bff4d30da9b97d107684f329ca" />
+		<rom name="dkongdu0.5e" offset="0x200" size="0x100" crc="94695888" sha1="fc0167730b303c9743d24dba577b6a72ffc07c15" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="dkongdu0.3i" offset="0x0" size="0x800" crc="cc9aea3b" sha1="e5b985efc1447ad04cfe347a7b761c9e5ff8ea5c" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongdu0" cloneof="dkong">
+	<description>Donkey Kong Duel v1.00 (2021-11-04)</description>
+	<year>2021</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongdu0.5at" offset="0x3000" size="0x1000" crc="5e7fff6a" sha1="6538160a1ed8c583dc5e0525ed85da7e144dc887" />
+		<rom name="dkongchm.5bt" offset="0x2000" size="0x1000" crc="fce41e06" sha1="fdab4f37f914d56a28092592f9cbb3d2502c925e" />
+		<rom name="dkongdu0.5ct" offset="0x1000" size="0x1000" crc="fc9cdaa0" sha1="964ac1d908c5abfaa4aa459f52f4ead133d41346" />
+		<rom name="dkongdu0.5et" offset="0x0" size="0x1000" crc="87a4912f" sha1="bca9f1c489c193f4cd15a108dd4dd2d99aa89c35" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkongdu0.5h" offset="0x0" size="0x800" crc="3cf6ef8b" sha1="d4f1ac5dfa93b7073d9b441f05b24077c0d22924" />
+		<rom name="dkongdu0.3pt" offset="0x800" size="0x800" crc="3775dd7b" sha1="0e73e1e64673140e8e5fd318cc679c64812608a7" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkongdu0.2k" offset="0x0" size="0x100" crc="02e1f91b" sha1="fadb853a060db98ea13d67059fda91e7095b0050" />
+		<rom name="dkongdu0.2j" offset="0x100" size="0x100" crc="4176057f" sha1="ccb7d553f6aa82bff4d30da9b97d107684f329ca" />
+		<rom name="dkongdu0.5e" offset="0x200" size="0x100" crc="94695888" sha1="fc0167730b303c9743d24dba577b6a72ffc07c15" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="dkongdu0.3i" offset="0x0" size="0x800" crc="cc9aea3b" sha1="e5b985efc1447ad04cfe347a7b761c9e5ff8ea5c" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongdu1" cloneof="dkong">
+	<description>Donkey Kong Duel v1.01 (2021-11-08)</description>
+	<year>2021</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongdu0.5et" offset="0x0" size="0x1000" crc="87a4912f" sha1="bca9f1c489c193f4cd15a108dd4dd2d99aa89c35" />
+		<rom name="dkongdu1.5ct" offset="0x1000" size="0x1000" crc="1f574afa" sha1="5fe8291bc14539cf25db245e05d90f35e96674dc" />
+		<rom name="dkongchm.5bt" offset="0x2000" size="0x1000" crc="fce41e06" sha1="fdab4f37f914d56a28092592f9cbb3d2502c925e" />
+		<rom name="dkongdu1.5at" offset="0x3000" size="0x1000" crc="11b03279" sha1="412e5036db0b39e318f97736665e15cbd5690cb0" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkongdu0.5h" offset="0x0" size="0x800" crc="3cf6ef8b" sha1="d4f1ac5dfa93b7073d9b441f05b24077c0d22924" />
+		<rom name="dkongdu0.3pt" offset="0x800" size="0x800" crc="3775dd7b" sha1="0e73e1e64673140e8e5fd318cc679c64812608a7" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkongdu0.2k" offset="0x0" size="0x100" crc="02e1f91b" sha1="fadb853a060db98ea13d67059fda91e7095b0050" />
+		<rom name="dkongdu0.2j" offset="0x100" size="0x100" crc="4176057f" sha1="ccb7d553f6aa82bff4d30da9b97d107684f329ca" />
+		<rom name="dkongdu0.5e" offset="0x200" size="0x100" crc="94695888" sha1="fc0167730b303c9743d24dba577b6a72ffc07c15" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="dkongdu0.3i" offset="0x0" size="0x800" crc="cc9aea3b" sha1="e5b985efc1447ad04cfe347a7b761c9e5ff8ea5c" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongex" cloneof="dkong">
+	<description>Donkey Kong Foundry</description>
+	<year>2005</year>
+	<publisher>Jeff Kulczycki</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dk_f.5et" offset="0x0" size="0x1000" crc="00b7efaf" sha1="97ed5930eb5d0cb98a9008b1d329ba7f3b8b8dbf" />
+		<rom name="dk_f.5ct" offset="0x1000" size="0x1000" crc="88af9b69" sha1="c5621dd8198c333b3fa32fdece60ee5a3d8b2276" />
+		<rom name="dk_f.5bt" offset="0x2000" size="0x1000" crc="de74ad91" sha1="c80227361bdbc565e9f5764e6364b52d40ca778a" />
+		<rom name="dkongex.5at" offset="0x3000" size="0x1000" crc="9fa3e5b7" sha1="5c34170f762a147d5285d17d6689fd64dab99ff2" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkonghh" cloneof="dkong">
+	<description>Donkey Kong HeartHunt v1.01 (2022-10-15)</description>
+	<year>2022</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkonghh.5et" offset="0x0" size="0x1000" crc="c9a84bae" sha1="209263a6cb4191151d93f6461df1b8ffc7b4818b" />
+		<rom name="dkonghh.5ct" offset="0x1000" size="0x1000" crc="e55daf9e" sha1="847fce74dace325e83c625c2ebae71e8b67ba576" />
+		<rom name="dkonghh.5bt" offset="0x2000" size="0x1000" crc="34466de4" sha1="46a097614b31e470791d5acb73eec3efd0d1551f" />
+		<rom name="dkonghh.5at" offset="0x3000" size="0x1000" crc="d51b8307" sha1="5dc6212298f055e3a39a4e0f1c86217ae4b43443" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkonghh.5h" offset="0x0" size="0x800" crc="c52ec836" sha1="3b4da038ebadd3b524aa344e5d95163415704cff" />
+		<rom name="dkonghh.3pt" offset="0x800" size="0x800" crc="655b1313" sha1="94cc77d8a6ee8efbf961028afc6ed4d629f7a62e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="dkonghh.5e" offset="0x200" size="0x100" crc="15ea25d5" sha1="0ac15a8399967fa8079b3de0c312f63aa537db75" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongitd" cloneof="dkong">
+	<description>Donkey Kong Into the Dark v1.02 (2020-04-29)</description>
+	<year>2020</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongitd.5et" offset="0x0" size="0x1000" crc="abddd83e" sha1="37b4926f5bde6aba40c638884b3aa0e0a866d16a" />
+		<rom name="dkongitd.5ct" offset="0x1000" size="0x1000" crc="ee146d99" sha1="67f1e176d5b189b25f3a99c9072752cb0b7122b9" />
+		<rom name="dkongchm.5bt" offset="0x2000" size="0x1000" crc="fce41e06" sha1="fdab4f37f914d56a28092592f9cbb3d2502c925e" />
+		<rom name="dkongitd.5at" offset="0x3000" size="0x1000" crc="6b8d5524" sha1="88ea04ae7ae3ba89c55a00ec1a23b7515225f9e9" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkongitd.5h" offset="0x0" size="0x800" crc="3d4ea8f8" sha1="1726ad8de28e71c823b20296915623c8123f6165" />
+		<rom name="dkongitd.3pt" offset="0x800" size="0x800" crc="0979cf74" sha1="6bce6b924a64b1e9260c228f538fc16ab380a87c" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkongitd.4m" offset="0x0" size="0x800" crc="21a04aa5" sha1="65333757f6c640a32fffa5fef5fb26ed33579857" />
+		<rom name="dkongitd.4n" offset="0x800" size="0x800" crc="27ddec12" sha1="c863b9c79510f20506865f9baadb9b6db43ba7dd" />
+		<rom name="dkongitd.4r" offset="0x1000" size="0x800" crc="ddfee3e1" sha1="8b6c27a71a749e329545b409692d735353e4f193" />
+		<rom name="dkongitd.4s" offset="0x1800" size="0x800" crc="42d26b1b" sha1="4b4b0f891865f009763e8d447f57fde5c0dd37ff" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkongitd.2k" offset="0x0" size="0x100" crc="8d918467" sha1="a2e51ac14a4a6a1089a638c4c19c335be6b5a2a8" />
+		<rom name="dkongitd.2j" offset="0x100" size="0x100" crc="9aadf04a" sha1="d88b624af808bd007e9ed05ba3e3d7f67e716da1" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongklc" cloneof="dkong">
+	<description>Donkey Kong League Championship v1.00 (2020-02-28)</description>
+	<year>2020</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongchm.5et" offset="0x0" size="0x1000" crc="26890d72" sha1="3d32d8d892ea7256882528f07236db4c0c225220" />
+		<rom name="dkongchm.5ct" offset="0x1000" size="0x1000" crc="d5965c23" sha1="266f8864b3e27cb4327e17eaf122e21b3b8909b8" />
+		<rom name="dkongchm.5bt" offset="0x2000" size="0x1000" crc="fce41e06" sha1="fdab4f37f914d56a28092592f9cbb3d2502c925e" />
+		<rom name="dkongchm.5at" offset="0x3000" size="0x1000" crc="c48a4053" sha1="a0a4282e75b6e44e2ce9162329a568c5d1676944" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.chm" offset="0x0" size="0x800" crc="a7a3772b" sha1="09cff96e166794154aca8f6899a08d1637827cc0" />
+		<rom name="v_3pt.chm" offset="0x800" size="0x800" crc="72b0b861" sha1="6517b7a4f8d4f9db483ea2b72ebb9e45cebb4cd5" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongotr" cloneof="dkong">
+	<description>Donkey Kong On the Run v1.02 (2020-05-26)</description>
+	<year>2020</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongotr.5et" offset="0x0" size="0x1000" crc="fd64526a" sha1="73e0cd21eb6befd5f370267811e83b4326dd4046" />
+		<rom name="dkongotr8.5ct" offset="0x1000" size="0x1000" crc="6d692d1b" sha1="d6eff5b4718301ee425384a5ad9f286b3683c892" />
+		<rom name="dkongotr8.5bt" offset="0x2000" size="0x1000" crc="d029c495" sha1="3fc4a883ff7028a399a3452dcacee74fa50cc3db" />
+		<rom name="dkongotr.5at" offset="0x3000" size="0x1000" crc="9b58b813" sha1="72fd12e0ed25dfb3d9084666ea61b472d117e76e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkongotr7.5h" offset="0x0" size="0x800" crc="0d588de5" sha1="17f133823dba09969d035907f4de154a0b859dc7" />
+		<rom name="dkongotr7.3pt" offset="0x800" size="0x800" crc="bfb2c04f" sha1="85b32c16537f53348489c6b9224822090a6b9789" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkongotr6.4m" offset="0x0" size="0x800" crc="f224b2bc" sha1="718368f6cfa41b73365e9da0705774fe41ca20bb" />
+		<rom name="dkongotr6.4n" offset="0x800" size="0x800" crc="def8bca4" sha1="bd39b9a9fa0577fe38abf2576de2be43e792e513" />
+		<rom name="dkongotr6.4r" offset="0x1000" size="0x800" crc="59e3e846" sha1="444af5f47f7abd971a17313947500c083dc8caa1" />
+		<rom name="dkongotr6.4s" offset="0x1800" size="0x800" crc="b5a2e920" sha1="1ff2143539410b83139fccab0c799d39f61bf76c" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongotr6" cloneof="dkong">
+	<description>Donkey Kong On the Run (2020-04-29)</description>
+	<year>2020</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongotr6.5at" offset="0x3000" size="0x1000" crc="6d9b3599" sha1="2858e01ee7d5625a4b62a72a3d375e033a297e81" />
+		<rom name="dkongotr6.5bt" offset="0x2000" size="0x1000" crc="942efe0d" sha1="0bc648452c1f9845a527d457a78aa5b8b9218c9c" />
+		<rom name="dkongotr6.5ct" offset="0x1000" size="0x1000" crc="1f669217" sha1="e9efcbf407a98ed2be44f4a35cc24fff2fbd12e9" />
+		<rom name="dkongotr6.5et" offset="0x0" size="0x1000" crc="3f5e2a9b" sha1="e84005f6ce07310e306bfc27559389ce90cf4233" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkongotr6.3pt" offset="0x800" size="0x800" crc="afbbd1e3" sha1="55f06467c0aa5e99572f6083d3b7719c7e7155ae" />
+		<rom name="dkongotr6.5h" offset="0x0" size="0x800" crc="4754cb2d" sha1="d7079408aedd5fb06fa6eb7557ce9ceb0dfd82d3" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkongotr6.4m" offset="0x0" size="0x800" crc="f224b2bc" sha1="718368f6cfa41b73365e9da0705774fe41ca20bb" />
+		<rom name="dkongotr6.4n" offset="0x800" size="0x800" crc="def8bca4" sha1="bd39b9a9fa0577fe38abf2576de2be43e792e513" />
+		<rom name="dkongotr6.4r" offset="0x1000" size="0x800" crc="59e3e846" sha1="444af5f47f7abd971a17313947500c083dc8caa1" />
+		<rom name="dkongotr6.4s" offset="0x1800" size="0x800" crc="b5a2e920" sha1="1ff2143539410b83139fccab0c799d39f61bf76c" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongotr7" cloneof="dkong">
+	<description>Donkey Kong On the Run (2020-05-25)</description>
+	<year>2020</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongotr7.5at" offset="0x3000" size="0x1000" crc="ec18bc3c" sha1="b0ad1f15ec4b07718e20f022030878446cb5ce4a" />
+		<rom name="dkongotr7.5bt" offset="0x2000" size="0x1000" crc="482f4a98" sha1="24520e5462be8f4e603dad2446c219ce2fbee805" />
+		<rom name="dkongotr6.5ct" offset="0x1000" size="0x1000" crc="1f669217" sha1="e9efcbf407a98ed2be44f4a35cc24fff2fbd12e9" />
+		<rom name="dkongotr7.5et" offset="0x0" size="0x1000" crc="6a52532c" sha1="7d612b87ad85d4d533c2ce049ca67b0ed1a141fe" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkongotr7.3pt" offset="0x800" size="0x800" crc="bfb2c04f" sha1="85b32c16537f53348489c6b9224822090a6b9789" />
+		<rom name="dkongotr7.5h" offset="0x0" size="0x800" crc="0d588de5" sha1="17f133823dba09969d035907f4de154a0b859dc7" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkongotr6.4m" offset="0x0" size="0x800" crc="f224b2bc" sha1="718368f6cfa41b73365e9da0705774fe41ca20bb" />
+		<rom name="dkongotr6.4n" offset="0x800" size="0x800" crc="def8bca4" sha1="bd39b9a9fa0577fe38abf2576de2be43e792e513" />
+		<rom name="dkongotr6.4r" offset="0x1000" size="0x800" crc="59e3e846" sha1="444af5f47f7abd971a17313947500c083dc8caa1" />
+		<rom name="dkongotr6.4s" offset="0x1800" size="0x800" crc="b5a2e920" sha1="1ff2143539410b83139fccab0c799d39f61bf76c" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongotr8" cloneof="dkong">
+	<description>Donkey Kong On the Run (2020-05-26)</description>
+	<year>2020</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongotr8.5at" offset="0x3000" size="0x1000" crc="83f713d8" sha1="f9e4e14b64e0c7f851b72e9b8ac8600429a13548" />
+		<rom name="dkongotr8.5bt" offset="0x2000" size="0x1000" crc="d029c495" sha1="3fc4a883ff7028a399a3452dcacee74fa50cc3db" />
+		<rom name="dkongotr8.5ct" offset="0x1000" size="0x1000" crc="6d692d1b" sha1="d6eff5b4718301ee425384a5ad9f286b3683c892" />
+		<rom name="dkongotr8.5et" offset="0x0" size="0x1000" crc="243cb649" sha1="5585c1d35863a290606345dfcd0e6190372c9a56" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkongotr7.3pt" offset="0x800" size="0x800" crc="bfb2c04f" sha1="85b32c16537f53348489c6b9224822090a6b9789" />
+		<rom name="dkongotr7.5h" offset="0x0" size="0x800" crc="0d588de5" sha1="17f133823dba09969d035907f4de154a0b859dc7" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkongotr6.4m" offset="0x0" size="0x800" crc="f224b2bc" sha1="718368f6cfa41b73365e9da0705774fe41ca20bb" />
+		<rom name="dkongotr6.4n" offset="0x800" size="0x800" crc="def8bca4" sha1="bd39b9a9fa0577fe38abf2576de2be43e792e513" />
+		<rom name="dkongotr6.4r" offset="0x1000" size="0x800" crc="59e3e846" sha1="444af5f47f7abd971a17313947500c083dc8caa1" />
+		<rom name="dkongotr6.4s" offset="0x1800" size="0x800" crc="b5a2e920" sha1="1ff2143539410b83139fccab0c799d39f61bf76c" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongotr9" cloneof="dkong">
+	<description>Donkey Kong On the Run (2020-05-26a)</description>
+	<year>2020</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongotr9.5at" offset="0x3000" size="0x1000" crc="e380a2fb" sha1="7b40d9ff32c22cb4209469d039ce89e399bf3a7e" />
+		<rom name="dkongotr8.5bt" offset="0x2000" size="0x1000" crc="d029c495" sha1="3fc4a883ff7028a399a3452dcacee74fa50cc3db" />
+		<rom name="dkongotr8.5ct" offset="0x1000" size="0x1000" crc="6d692d1b" sha1="d6eff5b4718301ee425384a5ad9f286b3683c892" />
+		<rom name="dkongotr9.5et" offset="0x0" size="0x1000" crc="9ef703dd" sha1="ada898fcc900581c0a55e6ed58598960ce98f12f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkongotr7.3pt" offset="0x800" size="0x800" crc="bfb2c04f" sha1="85b32c16537f53348489c6b9224822090a6b9789" />
+		<rom name="dkongotr7.5h" offset="0x0" size="0x800" crc="0d588de5" sha1="17f133823dba09969d035907f4de154a0b859dc7" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkongotr6.4m" offset="0x0" size="0x800" crc="f224b2bc" sha1="718368f6cfa41b73365e9da0705774fe41ca20bb" />
+		<rom name="dkongotr6.4n" offset="0x800" size="0x800" crc="def8bca4" sha1="bd39b9a9fa0577fe38abf2576de2be43e792e513" />
+		<rom name="dkongotr6.4r" offset="0x1000" size="0x800" crc="59e3e846" sha1="444af5f47f7abd971a17313947500c083dc8caa1" />
+		<rom name="dkongotr6.4s" offset="0x1800" size="0x800" crc="b5a2e920" sha1="1ff2143539410b83139fccab0c799d39f61bf76c" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongp" cloneof="dkong">
+	<description>Donkey Kong (patched)</description>
+	<year>2007</year>
+	<publisher>Don Hodges</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongp_c_5et" offset="0x0" size="0x1000" crc="2066139d" sha1="2eaf4cd6eb18eacb210892a85147e70db58bee48" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="c_5at_g.bin" offset="0x3000" size="0x1000" crc="b9005ac0" sha1="3fe3599f6fa7c496f782053ddf7bacb453d197c4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongpac" cloneof="dkong">
+	<description>Donkey Kong (Pac-man graphics)</description>
+	<year>2001</year>
+	<publisher>Tim Appleton</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="c_5et_g.bin" offset="0x0" size="0x1000" crc="ba70b88b" sha1="d76ebecfea1af098d843ee7e578e480cd658ac1a" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="dkongpac.5a" offset="0x3000" size="0x1000" crc="56d28137" sha1="62ad0783df4a4d8a7c45693966858b69343045ff" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkongpac.3n" offset="0x0" size="0x800" crc="1beba830" sha1="04dce2464d0627b78d185924706f8ca38892d6d3" />
+		<rom name="dkongpac.3p" offset="0x800" size="0x800" crc="94d61766" sha1="f45f10d523fefe0581dde42450b713cb94ce2072" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkongpac.7c" offset="0x0" size="0x800" crc="065e2713" sha1="a32d506a247a692a10962c9e47024d51bbb52d22" />
+		<rom name="dkongpac.7d" offset="0x800" size="0x800" crc="a84b347d" sha1="5a3e6fa3d520aef3c529e515d1e9fa464cbc6a78" />
+		<rom name="dkongpac.7e" offset="0x1000" size="0x800" crc="6ae6f476" sha1="a79927a1c7511bf510107d9ba5fcc8f284541259" />
+		<rom name="dkongpac.7f" offset="0x1800" size="0x800" crc="9d293922" sha1="14af1cd7f9854dec820c899d999be4623d0048b0" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="s19.2k" offset="0x0" size="0x100" crc="1e82d375" sha1="8f2da5cedd1f62be08555dd0eb929eb41da5079d" />
+		<rom name="s19.2j" offset="0x100" size="0x100" crc="2ab01dc8" sha1="c25958d0706cabf997efe16fad71f454fc1ced0b" />
+		<rom name="s19.5e" offset="0x200" size="0x100" crc="44988665" sha1="68c474fc81aff46eae6c9a7ac6ab80288303e291" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongrev" cloneof="dkong">
+	<description>Donkey Kong Reverse (2019-08-29)</description>
+	<year>2019</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongrev.5et" offset="0x0" size="0x1000" crc="ee02057e" sha1="4d035ed48d8ff6f602cc8892033c28a784242787" />
+		<rom name="dkongrev.5ct" offset="0x1000" size="0x1000" crc="e6fabd0f" sha1="53782655b5cbdeb78abff9a5194467c82ff8f48e" />
+		<rom name="dkongrev.5bt" offset="0x2000" size="0x1000" crc="31c5bea3" sha1="d92c86ef55c09d9e038551f8c69c7777fd71c11a" />
+		<rom name="dkongrev.5at" offset="0x3000" size="0x1000" crc="c7d04ef3" sha1="33224c6c869a898212a4b3b5f56bd80b3dbd4bac" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongrnd" cloneof="dkong">
+	<description>Donkey Kong Randomized Edition v1.01 (2020-05-01)</description>
+	<year>2020</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongrnd.5et" offset="0x0" size="0x1000" crc="fc29f234" sha1="6e55ca043699ed12b08cd0658bdd98a195c89380" />
+		<rom name="dkongrnd.5ct" offset="0x1000" size="0x1000" crc="49e16508" sha1="b67d5b94685a7193ae674f2a78f69bf7d678d707" />
+		<rom name="dkongchm.5bt" offset="0x2000" size="0x1000" crc="fce41e06" sha1="fdab4f37f914d56a28092592f9cbb3d2502c925e" />
+		<rom name="dkongrnd.5at" offset="0x3000" size="0x1000" crc="86723e5d" sha1="88e8b4209eaad14902cb2aaf9886727007e9b0ed" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkongrnd.5h" offset="0x0" size="0x800" crc="17ef76ad" sha1="ca58ae7de241417f05a510b459db16f1f2120cd0" />
+		<rom name="dkongrnd.3pt" offset="0x800" size="0x800" crc="49d408cd" sha1="562751627dc050a13552f401221806b30797afd4" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongrnd0" cloneof="dkong">
+	<description>Donkey Kong Randomized Edition (2020-03-14)</description>
+	<year>2020</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongrnd0.5at" offset="0x3000" size="0x1000" crc="71356cfe" sha1="8f426c8d80523e3dcd4cdf3dec544e09eda5d980" />
+		<rom name="dkongchm.5bt" offset="0x2000" size="0x1000" crc="fce41e06" sha1="fdab4f37f914d56a28092592f9cbb3d2502c925e" />
+		<rom name="dkongrnd0.5ct" offset="0x1000" size="0x1000" crc="e25eccf8" sha1="9fe57daf894d78f07092262682a78b22360d8b57" />
+		<rom name="dkongrnd0.5et" offset="0x0" size="0x1000" crc="c450e88c" sha1="d4de8bf551e8416329771a7c68c4eb79b4ea1bb0" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkongrnd.5h" offset="0x0" size="0x800" crc="17ef76ad" sha1="ca58ae7de241417f05a510b459db16f1f2120cd0" />
+		<rom name="dkongrnd.3pt" offset="0x800" size="0x800" crc="49d408cd" sha1="562751627dc050a13552f401221806b30797afd4" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongss" cloneof="dkong">
+	<description>Donkey Kong Skip Start v1.00 (2020-05-01)</description>
+	<year>2020</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongss.5et" offset="0x0" size="0x1000" crc="87c65c59" sha1="51f3d6160f58449ff9a8a5374ced4fe5b5af86b4" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="dkongss.5bt" offset="0x2000" size="0x1000" crc="f31c0c47" sha1="1cd546e4e1924fedcb44894c43345fe2680d6f8a" />
+		<rom name="dkongss.5at" offset="0x3000" size="0x1000" crc="87d58e2e" sha1="46c940a0fd0c15bfa6c304699bef29542aabab32" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongst" cloneof="dkong">
+	<description>Donkey Kong Springs Trainer</description>
+	<year>2019</year>
+	<publisher>John Kowalski</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongst.5et" offset="0x0" size="0x1000" crc="8fb6e908" sha1="f361699ef3ba76e3734dfe31dedeb4363ac7f837" />
+		<rom name="dkongst.5ct" offset="0x1000" size="0x1000" crc="c9d766ea" sha1="0e4d6fc04e88c4622a63fccf49cdfa2e008210cf" />
+		<rom name="dkongst.5bt" offset="0x2000" size="0x1000" crc="aef88ff5" sha1="621300c9a43c000958aa8a11e7ff0cf2d14a2d32" />
+		<rom name="dkongst.5at" offset="0x3000" size="0x1000" crc="5cf3774b" sha1="7061fb739b03d947a320a2ce3a11598ef520d586" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongst2" cloneof="dkong">
+	<description>Donkey Kong Springs Trainer 2</description>
+	<year>2020</year>
+	<publisher>John Kowalski</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongst2.5et" offset="0x0" size="0x1000" crc="21ddc6cc" sha1="4473f7656462bc3bc319d0f01c1742003d27cbb0" />
+		<rom name="dkongst2.5ct" offset="0x1000" size="0x1000" crc="fa14da2c" sha1="3011062ee771f621f359f0fa68bf85ccb76e2989" />
+		<rom name="dkongst2.5bt" offset="0x2000" size="0x1000" crc="32a8f924" sha1="540de355eab7ca7068e655de72dfbdb4015098ee" />
+		<rom name="dkongst2.5at" offset="0x3000" size="0xf00" crc="27b9c90d" sha1="5b5e92d35a0b487cd1b618ddded80a9e33ee2ca9" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkongtj" cloneof="dkong">
+	<description>Donkey Kong Twisted Jungle v1.05 (2020-12-12)</description>
+	<year>2020</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongtj.5et" offset="0x0" size="0x1000" crc="63e2a483" sha1="1e07674b77c51e5a50b5d7bd3bc7a77933e31d94" />
+		<rom name="dkjungle.5ct" offset="0x1000" size="0x1000" crc="ed5c7b13" sha1="5c3865d50750eb4fd0fc36cccd1fbe3d7e59b29b" />
+		<rom name="dkjungle.5bt" offset="0x2000" size="0x1000" crc="b1990430" sha1="7a99f07b95f1fb2f7ef0f443f74737153ec446ba" />
+		<rom name="dkongtj.5at" offset="0x3000" size="0x1000" crc="b4e0240a" sha1="432a73d5f49ccd1c13402c5aac0bb64584de77ce" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkjungle0.3pt" offset="0x800" size="0x800" crc="95408f9f" sha1="2783148806531d427c40b45bf568b45fdd9d3d79" />
+		<rom name="dkjungle0.5h" offset="0x0" size="0x800" crc="fccb93d6" sha1="152e83a2e3002835f260f55adb53079bb502ae6d" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkjungle.4m" offset="0x0" size="0x800" crc="5e77597e" sha1="8b241f32bb1fec2c2a00ad75cb650c5eadc37bd3" />
+		<rom name="dkjungle.4n" offset="0x800" size="0x800" crc="715c29ff" sha1="b5e544ebdc23b8ae236705f3f128261bb0f61ff6" />
+		<rom name="dkjungle.4r" offset="0x1000" size="0x800" crc="7b24438d" sha1="f34d532a11d0bcdd6e28cf0f4d4700e38228ff25" />
+		<rom name="dkjungle.4s" offset="0x1800" size="0x800" crc="57d3989a" sha1="3e17f2c197790a1985836ee5652288ce3bd5735d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkjungle0.2k" offset="0x0" size="0x100" crc="84be5373" sha1="5d091cbe4002c7f9adbab24b7e4c31409de4be32" />
+		<rom name="dkjungle0.2j" offset="0x100" size="0x100" crc="a81ca93c" sha1="349cdb6348cbe1773f217ebacb1f0ece144fa8fd" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkpace" cloneof="dkong">
+	<description>Donkey Kong Pace</description>
+	<year>2016</year>
+	<publisher>John Kowalski</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkp.5et" offset="0x0" size="0x1000" crc="e05563d5" sha1="db17bf866e223a5b57e3fdd23f79f1f8ca67f697" />
+		<rom name="dkp.5ct" offset="0x1000" size="0x1000" crc="88aa1ddf" sha1="d1582ba10cf15b24286524fa494279a4d25adfbb" />
+		<rom name="dkp.5bt" offset="0x2000" size="0x1000" crc="8ee0b1d2" sha1="7cae6b1b3143fbf1c2ad0cbfa7855eb1c9519fde" />
+		<rom name="dkp.5at" offset="0x3000" size="0x1000" crc="0bc9c8db" sha1="8e51b4d6905d8321c9d29e51d830c8554a94f664" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkrainbow" cloneof="dkong">
+	<description>Rainbow Donkey Kong</description>
+	<year>2015</year>
+	<publisher>John Kowalski</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="c_5et_g.bin" offset="0x0" size="0x1000" crc="ba70b88b" sha1="d76ebecfea1af098d843ee7e578e480cd658ac1a" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="c_5at_g.bin" offset="0x3000" size="0x1000" crc="b9005ac0" sha1="3fe3599f6fa7c496f782053ddf7bacb453d197c4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="rainbow_c.2k" offset="0x0" size="0x100" crc="c0dce2f5" sha1="d2195886f509359ac483fd6c96a0477eef514929" />
+		<rom name="rainbow_c.2j" offset="0x100" size="0x100" crc="03c3153f" sha1="611267c0a205c9fe258451b7b5545c7a3d2fb541" />
+		<rom name="rainbow_v.5e" offset="0x200" size="0x100" crc="d9f3005a" sha1="c4f09f27f5c78d95d31e6af1b8a977b86bbab9a4" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkrdemo" cloneof="dkong">
+	<description>Donkey Kong Remix demo 1.8</description>
+	<year>2015</year>
+	<publisher>John Kowalski</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkrdemo.5et" offset="0x0" size="0x1000" crc="f9fdff29" sha1="c2eb8f0ede8384369e17d8616f4ce063ae12b6c2" />
+		<rom name="dkrdemo.5ct" offset="0x1000" size="0x1000" crc="f48cb898" sha1="470b8bee7f55e1d828abc0b1ec4b423392c83a78" />
+		<rom name="dkrdemo.5bt" offset="0x2000" size="0x1000" crc="660d43ec" sha1="8bba334cec022ea851c4a82f6ecbc91c0708daea" />
+		<rom name="dkrdemo.5at" offset="0x3000" size="0x1000" crc="e59d406c" sha1="7698e319ae191bb8bf7deeea5c4f18da04d73f73" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkrndmzr" cloneof="dkong">
+	<description>Donkey Kong RNDMZR v1.00 (2022-05-22)</description>
+	<year>2022</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkrndmzr.5et" offset="0x0" size="0x1000" crc="281b9bb6" sha1="b8602325070ace94928c0431c5ecb55e22c55c97" />
+		<rom name="dkrndmzr.5ct" offset="0x1000" size="0x1000" crc="7fa1be23" sha1="3c79c2a5df44b60ccf9c46ffdef65d1f02f738bc" />
+		<rom name="dkrndmzr.5bt" offset="0x2000" size="0x1000" crc="50ad6d22" sha1="b3187bc24245740e0c617d35b968fe5371492cf8" />
+		<rom name="dkrndmzr.5at" offset="0x3000" size="0x1000" crc="4c9e7085" sha1="6b8fefd44426848407e8a2f4f7010751dcf8cf39" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkrndmzr.5h" offset="0x0" size="0x800" crc="c77456de" sha1="130ad5ea31a485169dcbdd719ec9753f4f125567" />
+		<rom name="dkrndmzr.3pt" offset="0x800" size="0x800" crc="994f28be" sha1="dd21af28b39b8b7963b083556abc5565213621ea" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dksprfin" cloneof="dkong">
+	<description>Donkey Kong Springfinity v1.01 (2022-04-29)</description>
+	<year>2022</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dksprfin.5et" offset="0x0" size="0x1000" crc="fd23db80" sha1="2188bf0c8943e9c4771c3f9ff3bd1cfcc14a5ba4" />
+		<rom name="dksprfin.5ct" offset="0x1000" size="0x1000" crc="3ee5db14" sha1="ff984eb269064f10305bbeeaa68a1d3160e0b1fa" />
+		<rom name="dksprfin.5bt" offset="0x2000" size="0x1000" crc="50772c6c" sha1="4368d4501e3d971929015c545aef88d9c06e0604" />
+		<rom name="dksprfin.5at" offset="0x3000" size="0x1000" crc="5a31dc81" sha1="44015be4a70dc75035edfe4b7ba19bbfed6c249a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dksprfin.5h" offset="0x0" size="0x800" crc="b41e2713" sha1="2a4e37e5bb997b0a6a0d8aef61fd8f89d97d8213" />
+		<rom name="dksprfin.3pt" offset="0x800" size="0x800" crc="b33f2ba7" sha1="900ff22f44b4504da4f3b8fe9dcdf7f5b88ea597" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dksprfin.2k" offset="0x0" size="0x100" crc="6baa5ba0" sha1="2c0e9f4b4ac2d14aeeeba9afa9bf675337650276" />
+		<rom name="dksprfin.2j" offset="0x100" size="0x100" crc="1a144a25" sha1="6e73470b7589ea5f14cf0dd9a9fbfd176e5e1c36" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dksprfin2" cloneof="dkong">
+	<description>Donkey Kong Springfinity v1.02 (2023-08-15)</description>
+	<year>2023</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dksprfin.5et" offset="0x0" size="0x1000" crc="fd23db80" sha1="2188bf0c8943e9c4771c3f9ff3bd1cfcc14a5ba4" />
+		<rom name="dksprfin2.5ct" offset="0x1000" size="0x1000" crc="257fee24" sha1="284c7b73c1f08b5161582807d218e901da61aeda" />
+		<rom name="dksprfin2.5bt" offset="0x2000" size="0x1000" crc="5237ac87" sha1="19f7563315311b88d4fed80fff886a0b585c351e" />
+		<rom name="dksprfin2.5at" offset="0x3000" size="0x1000" crc="ce0a0a63" sha1="170fa312f65a87fced6ba54a648c9d653436b37d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dksprfin.5h" offset="0x0" size="0x800" crc="b41e2713" sha1="2a4e37e5bb997b0a6a0d8aef61fd8f89d97d8213" />
+		<rom name="dksprfin.3pt" offset="0x800" size="0x800" crc="b33f2ba7" sha1="900ff22f44b4504da4f3b8fe9dcdf7f5b88ea597" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dksprfin.2k" offset="0x0" size="0x100" crc="6baa5ba0" sha1="2c0e9f4b4ac2d14aeeeba9afa9bf675337650276" />
+		<rom name="dksprfin.2j" offset="0x100" size="0x100" crc="1a144a25" sha1="6e73470b7589ea5f14cf0dd9a9fbfd176e5e1c36" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dksprfin3" cloneof="dkong">
+	<description>Donkey Kong Springfinity v1.03 (2023-09-17)</description>
+	<year>2023</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dksprfin.5et" offset="0x0" size="0x1000" crc="fd23db80" sha1="2188bf0c8943e9c4771c3f9ff3bd1cfcc14a5ba4" />
+		<rom name="dksprfin2.5ct" offset="0x1000" size="0x1000" crc="257fee24" sha1="284c7b73c1f08b5161582807d218e901da61aeda" />
+		<rom name="dksprfin3.5bt" offset="0x2000" size="0x1000" crc="0af06019" sha1="b270b0994a8b8f7513c854a7fa154663c73bfef0" />
+		<rom name="dksprfin3.5at" offset="0x3000" size="0x1000" crc="dbbec3de" sha1="38c905cb2399fa7cd8cb734cf56c4d02d7168403" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dksprfin.5h" offset="0x0" size="0x800" crc="b41e2713" sha1="2a4e37e5bb997b0a6a0d8aef61fd8f89d97d8213" />
+		<rom name="dksprfin.3pt" offset="0x800" size="0x800" crc="b33f2ba7" sha1="900ff22f44b4504da4f3b8fe9dcdf7f5b88ea597" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dksprfin.2k" offset="0x0" size="0x100" crc="6baa5ba0" sha1="2c0e9f4b4ac2d14aeeeba9afa9bf675337650276" />
+		<rom name="dksprfin.2j" offset="0x100" size="0x100" crc="1a144a25" sha1="6e73470b7589ea5f14cf0dd9a9fbfd176e5e1c36" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dktrain" cloneof="dkong">
+	<description>Donkey Kong Trainer 1.01</description>
+	<year>2016</year>
+	<publisher>John Kowalski</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkt.5et" offset="0x0" size="0x1000" crc="7ed5a945" sha1="27ea2b9ca8e03a660943b043a2880c95a4f92de8" />
+		<rom name="dkt.5ct" offset="0x1000" size="0x1000" crc="98e2caa8" sha1="5289f2268bac39bd04da8b9b94e25e55e4ea8e04" />
+		<rom name="dkt.5bt" offset="0x2000" size="0x1000" crc="098a840a" sha1="05ea657be2de863fb8a42bf1e173a6a80fb16cc7" />
+		<rom name="dkt.5at" offset="0x3000" size="0x1000" crc="dd092591" sha1="36455e5a689a926b79be79e38d96ad8fe2ce7417" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dktrain2" cloneof="dkong">
+	<description>Donkey Kong Trainer 1.01 (bugfix)</description>
+	<year>2022</year>
+	<publisher>John Kowalski</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkt2.5et" offset="0x0" size="0x1000" crc="c7dc68c4" sha1="5cc76f41e09132143620230ed9f63cc7621203c9" />
+		<rom name="dkt2.5ct" offset="0x1000" size="0x1000" crc="1a7c2bb8" sha1="e6b6d17331e3fc74d83285b74563955f8e97ee66" />
+		<rom name="dkt2.5bt" offset="0x2000" size="0x1000" crc="dc4cbd2f" sha1="eaf87adb9252b6bbdceaee9f7c5e791e939cc25f" />
+		<rom name="dkt2.5at" offset="0x3000" size="0x1000" crc="36e333d2" sha1="207f51d7ef53e7c6d9db2b7cb7a2ded49ffa2db5" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dktwist" cloneof="dkong">
+	<description>Donkey Kong Twisted (2020-08-21)</description>
+	<year>2020</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dktwist.5at" offset="0x3000" size="0x1000" crc="a5eaceee" sha1="ad936386642118afb40b1175c8830a3ed43612f3" />
+		<rom name="dktwist.5bt" offset="0x2000" size="0x1000" crc="1cbdd0a6" sha1="cb0bde4db4dcfce5ba386061f1449b3647b36c76" />
+		<rom name="dktwist0.5ct" offset="0x1000" size="0x1000" crc="e8a247f7" sha1="f96d50e6306c6cfc8fe05e77936f90ac1f5d2f85" />
+		<rom name="dktwist.5et" offset="0x0" size="0x1000" crc="3b618106" sha1="efe1c39f959665e8211285b8355200abade3f412" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dktwist0.4m" offset="0x0" size="0x800" crc="95cbe0dc" sha1="094479bd7ba8b56e2cb218b96110cdb318e473ac" />
+		<rom name="dktwist0.4n" offset="0x800" size="0x800" crc="72095b51" sha1="955d168fa02b3cbddc43ca8ecc540bface695195" />
+		<rom name="dktwist0.4r" offset="0x1000" size="0x800" crc="36d605e7" sha1="0521d1ccf200ebe6f7f9a1d7d3041086f26cc085" />
+		<rom name="dktwist0.4s" offset="0x1800" size="0x800" crc="9d0796a5" sha1="b26f08070e5d912d1dd93b7f5f06bf1580aaf0f1" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dktwist0" cloneof="dkong">
+	<description>Donkey Kong Twisted (2020-05-18)</description>
+	<year>2020</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dktwist0.5at" offset="0x3000" size="0x1000" crc="efa40f57" sha1="61899f16af335158c08bd847c692496e252c85b2" />
+		<rom name="dktwist0.5bt" offset="0x2000" size="0x1000" crc="efbe0c5e" sha1="6961f773556fdc115b86e28c484feed5ce024f7d" />
+		<rom name="dktwist0.5ct" offset="0x1000" size="0x1000" crc="e8a247f7" sha1="f96d50e6306c6cfc8fe05e77936f90ac1f5d2f85" />
+		<rom name="dktwist0.5et" offset="0x0" size="0x1000" crc="83059998" sha1="4ea321991afc8a6e280c0e4ab29393af4dcced12" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_3pt.bin" offset="0x800" size="0x800" crc="15e9c5e9" sha1="976eb1e18c74018193a35aa86cff482ebfc5cc4e" />
+		<rom name="v_5h_b.bin" offset="0x0" size="0x800" crc="12c8c95d" sha1="a57ff5a231c45252a63b354137c920a1379b70a3" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dktwist0.4m" offset="0x0" size="0x800" crc="95cbe0dc" sha1="094479bd7ba8b56e2cb218b96110cdb318e473ac" />
+		<rom name="dktwist0.4n" offset="0x800" size="0x800" crc="72095b51" sha1="955d168fa02b3cbddc43ca8ecc540bface695195" />
+		<rom name="dktwist0.4r" offset="0x1000" size="0x800" crc="36d605e7" sha1="0521d1ccf200ebe6f7f9a1d7d3041086f26cc085" />
+		<rom name="dktwist0.4s" offset="0x1800" size="0x800" crc="9d0796a5" sha1="b26f08070e5d912d1dd93b7f5f06bf1580aaf0f1" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkwizard" cloneof="dkong">
+	<description>Donkey Kong Wizardry v1.03 (2022-05-22)</description>
+	<year>2022</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkwizard2.5et" offset="0x0" size="0x1000" crc="f42bb2e5" sha1="2bd74d51d9ce43207f2ec879746ec44bdd13aef1" />
+		<rom name="dkwizard2.5ct" offset="0x1000" size="0x1000" crc="85cf6e4c" sha1="4140865b1dabee98346f4217e9b7b355d177ebc7" />
+		<rom name="dkwizard.5bt" offset="0x2000" size="0x1000" crc="6e888d7b" sha1="58d164193d95a9a93238a06ab1338e14b448f3f7" />
+		<rom name="dkwizard.5at" offset="0x3000" size="0x1000" crc="b8e1a56d" sha1="5551faf1477492c570b5d58c8bc2359b83520186" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkwizard1.5h" offset="0x0" size="0x800" crc="39736a8a" sha1="8825f1473415fc588a189887f4aa302313bfcec8" />
+		<rom name="dkwizard1.3pt" offset="0x800" size="0x800" crc="c94468a9" sha1="136b204735223c5e3f94340db5f6b7cfd0ad2666" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkwizard1.4m" offset="0x0" size="0x800" crc="f98da4c5" sha1="362c2083b0bad94174c3bd2e77b52dee18069d00" />
+		<rom name="dkwizard0.4n" offset="0x800" size="0x800" crc="cf3cdb75" sha1="9ac98e0cfada360b9615af1c14c2d5e27129f328" />
+		<rom name="dkwizard1.4r" offset="0x1000" size="0x800" crc="7e2d1ef4" sha1="2f6d2d7afd4b595b2e24e31263433611e9761c86" />
+		<rom name="dkwizard1.4s" offset="0x1800" size="0x800" crc="cc547d47" sha1="087f9c5da33831d2a7a9f5f86d9da1d7f1cf15b6" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkwizard1.2k" offset="0x0" size="0x100" crc="193134e9" sha1="6101bbdff23f0a1ccaba99cdbd966bcf780751bd" />
+		<rom name="dkwizard1.2j" offset="0x100" size="0x100" crc="dcbba451" sha1="31bf6bc17f790d4a61392ca1fd68361698ac9338" />
+		<rom name="dkwizard0.5e" offset="0x200" size="0x100" crc="c24f2312" sha1="61dfcec8ecaa7a38ed222f2d3c4d6695db6f33b1" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkwizard0" cloneof="dkong">
+	<description>Donkey Kong Wizardry v1.00 (2022-02-09)</description>
+	<year>2022</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkwizard0.5at" offset="0x3000" size="0x1000" crc="934e1f36" sha1="7f1116f0f7b459578931e69cd88bdc78986bcf73" />
+		<rom name="dkwizard0.5bt" offset="0x2000" size="0x1000" crc="8d5bda23" sha1="ca2d1f9a7d8abc56c583cb510075fd2e4cee2d85" />
+		<rom name="dkwizard0.5ct" offset="0x1000" size="0x1000" crc="9d276435" sha1="8ef89c3bb10a01c4a438918a4f777eb4ea5b08bb" />
+		<rom name="dkwizard0.5et" offset="0x0" size="0x1000" crc="95dd923b" sha1="3704da244d7ade149a9a22060a95d64ce2e47571" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkwizard0.3pt" offset="0x800" size="0x800" crc="8f6e6c62" sha1="53cac9a77cbd068d775541a876e7f5f450d03a81" />
+		<rom name="dkwizard0.5h" offset="0x0" size="0x800" crc="8d54ad8d" sha1="58ef5d7a9d7a45473b7724e216a0a4027562049b" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkwizard0.4m" offset="0x0" size="0x800" crc="700944c8" sha1="7915bae6c9d062ef5b13d7bc43297785692e9115" />
+		<rom name="dkwizard0.4n" offset="0x800" size="0x800" crc="cf3cdb75" sha1="9ac98e0cfada360b9615af1c14c2d5e27129f328" />
+		<rom name="dkwizard0.4r" offset="0x1000" size="0x800" crc="e6e9b11e" sha1="86cda6de37c1da0476223138a56449f36f1e2b14" />
+		<rom name="dkwizard0.4s" offset="0x1800" size="0x800" crc="dd1432a0" sha1="18ef383485a77866b29c05b66992c3cc6cc4f5ea" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkwizard0.2k" offset="0x0" size="0x100" crc="6a3503a9" sha1="10f416c915219ea7303f4e4b31cb6f499a04154d" />
+		<rom name="dkwizard0.2j" offset="0x100" size="0x100" crc="c5e5326c" sha1="5d809737ed4ab9242d310f4cbe46636d3570d873" />
+		<rom name="dkwizard0.5e" offset="0x200" size="0x100" crc="c24f2312" sha1="61dfcec8ecaa7a38ed222f2d3c4d6695db6f33b1" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkwizard1" cloneof="dkong">
+	<description>Donkey Kong Wizardry v1.01 (2022-02-11)</description>
+	<year>2022</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkwizard1.5at" offset="0x3000" size="0x1000" crc="277e3f4b" sha1="66db4fe02ef7d6860b45f4222793f0d8e1a3e1f8" />
+		<rom name="dkwizard0.5bt" offset="0x2000" size="0x1000" crc="8d5bda23" sha1="ca2d1f9a7d8abc56c583cb510075fd2e4cee2d85" />
+		<rom name="dkwizard1.5ct" offset="0x1000" size="0x1000" crc="1ba39916" sha1="9c0b7d178134fbf2b6a55dc4e1e40011d9464c45" />
+		<rom name="dkwizard0.5et" offset="0x0" size="0x1000" crc="95dd923b" sha1="3704da244d7ade149a9a22060a95d64ce2e47571" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkwizard1.5h" offset="0x0" size="0x800" crc="39736a8a" sha1="8825f1473415fc588a189887f4aa302313bfcec8" />
+		<rom name="dkwizard1.3pt" offset="0x800" size="0x800" crc="c94468a9" sha1="136b204735223c5e3f94340db5f6b7cfd0ad2666" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkwizard1.4m" offset="0x0" size="0x800" crc="f98da4c5" sha1="362c2083b0bad94174c3bd2e77b52dee18069d00" />
+		<rom name="dkwizard0.4n" offset="0x800" size="0x800" crc="cf3cdb75" sha1="9ac98e0cfada360b9615af1c14c2d5e27129f328" />
+		<rom name="dkwizard1.4r" offset="0x1000" size="0x800" crc="7e2d1ef4" sha1="2f6d2d7afd4b595b2e24e31263433611e9761c86" />
+		<rom name="dkwizard1.4s" offset="0x1800" size="0x800" crc="cc547d47" sha1="087f9c5da33831d2a7a9f5f86d9da1d7f1cf15b6" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkwizard1.2k" offset="0x0" size="0x100" crc="193134e9" sha1="6101bbdff23f0a1ccaba99cdbd966bcf780751bd" />
+		<rom name="dkwizard1.2j" offset="0x100" size="0x100" crc="dcbba451" sha1="31bf6bc17f790d4a61392ca1fd68361698ac9338" />
+		<rom name="dkwizard0.5e" offset="0x200" size="0x100" crc="c24f2312" sha1="61dfcec8ecaa7a38ed222f2d3c4d6695db6f33b1" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="dkwizard2" cloneof="dkong">
+	<description>Donkey Kong Wizardry v1.02 (2022-02-13)</description>
+	<year>2022</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkwizard2.5et" offset="0x0" size="0x1000" crc="f42bb2e5" sha1="2bd74d51d9ce43207f2ec879746ec44bdd13aef1" />
+		<rom name="dkwizard2.5ct" offset="0x1000" size="0x1000" crc="85cf6e4c" sha1="4140865b1dabee98346f4217e9b7b355d177ebc7" />
+		<rom name="dkwizard0.5bt" offset="0x2000" size="0x1000" crc="8d5bda23" sha1="ca2d1f9a7d8abc56c583cb510075fd2e4cee2d85" />
+		<rom name="dkwizard2.5at" offset="0x3000" size="0x1000" crc="f72e687e" sha1="e2575f6e0f9d3ae1d40fbb22084439a84d103e30" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkwizard1.5h" offset="0x0" size="0x800" crc="39736a8a" sha1="8825f1473415fc588a189887f4aa302313bfcec8" />
+		<rom name="dkwizard1.3pt" offset="0x800" size="0x800" crc="c94468a9" sha1="136b204735223c5e3f94340db5f6b7cfd0ad2666" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkwizard1.4m" offset="0x0" size="0x800" crc="f98da4c5" sha1="362c2083b0bad94174c3bd2e77b52dee18069d00" />
+		<rom name="dkwizard0.4n" offset="0x800" size="0x800" crc="cf3cdb75" sha1="9ac98e0cfada360b9615af1c14c2d5e27129f328" />
+		<rom name="dkwizard1.4r" offset="0x1000" size="0x800" crc="7e2d1ef4" sha1="2f6d2d7afd4b595b2e24e31263433611e9761c86" />
+		<rom name="dkwizard1.4s" offset="0x1800" size="0x800" crc="cc547d47" sha1="087f9c5da33831d2a7a9f5f86d9da1d7f1cf15b6" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkwizard1.2k" offset="0x0" size="0x100" crc="193134e9" sha1="6101bbdff23f0a1ccaba99cdbd966bcf780751bd" />
+		<rom name="dkwizard1.2j" offset="0x100" size="0x100" crc="dcbba451" sha1="31bf6bc17f790d4a61392ca1fd68361698ac9338" />
+		<rom name="dkwizard0.5e" offset="0x200" size="0x100" crc="c24f2312" sha1="61dfcec8ecaa7a38ed222f2d3c4d6695db6f33b1" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+<software name="nadkong" cloneof="dkong">
+	<description>Naked Donkey Kong</description>
+	<year>2004</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="c_5et_g.bin" offset="0x0" size="0x1000" crc="ba70b88b" sha1="d76ebecfea1af098d843ee7e578e480cd658ac1a" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="c_5at_g.bin" offset="0x3000" size="0x1000" crc="b9005ac0" sha1="3fe3599f6fa7c496f782053ddf7bacb453d197c4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="nadkong.5h" offset="0x0" size="0x800" crc="88772f5b" sha1="0fd6cbb593e87b863eb317b063151ef3b81565c2" />
+		<rom name="nadkong.3p" offset="0x800" size="0x800" crc="4c8aa728" sha1="a277988d48f0d2f5d7cf9ef05eef222a36248cd3" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="nadkong.4m" offset="0x0" size="0x800" crc="2afbf9e6" sha1="51e4f2f67903158b77574d55fcd17f302bc04a52" />
+		<rom name="nadkong.4n" offset="0x800" size="0x800" crc="4f077877" sha1="4f2c2bc693b0e8d36114024b6eaeb37a3b5d853d" />
+		<rom name="nadkong.4r" offset="0x1000" size="0x800" crc="d868da93" sha1="c1c5d21f8c6a057fd5f54cab1eb4dbef06120405" />
+		<rom name="nadkong.4s" offset="0x1800" size="0x800" crc="7ebfe9f3" sha1="75bd16e9590ada93b061dee3ec7916e1e1f113c3" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

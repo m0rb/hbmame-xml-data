@@ -1,0 +1,16 @@
+<software name="pc_dk3">
+	<description>Donkey Kong 3 (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dk3.u2" offset="0x0" size="0x2000" crc="85d06c57" sha1="803adef82721452704607fbf70027ff792636325" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="dk3.u1" offset="0x0" size="0x8000" crc="01eb0432" sha1="94546c80c0bd41acc85f6e73a1425125c967d5db" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="29893c7f.prm" offset="0x0" size="0x10" crc="29893c7f" sha1="58478b7de2177c8dc1d6885bd34eeeeb5e46d7a3" />
+		</dataarea>
+	</part>
+</software>

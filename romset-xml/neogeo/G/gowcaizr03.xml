@@ -1,0 +1,27 @@
+<software name="gowcaizr03" cloneof="gowcaizr">
+	<description>Voltage Fighter Gowcaizer (Add Boss Revised Version)(Uniform killing, 2009-10-05)</description>
+	<year>2009</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="094s03.p1" offset="0x100000" size="0x100000" crc="0316a857" sha1="8dbe033e3d3d6925c6187335acdd10369b274b46" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x500000">
+		<rom name="094.v1" offset="0x0" size="0x200000" crc="6c31223c" sha1="ede3a2806d7d872a0f737626a23ecce200b534e6" />
+		<rom name="094.v2" offset="0x200000" size="0x200000" crc="8edb776c" sha1="a9eac5e24f83ccdcf303d63261747b1bad876a24" />
+		<rom name="094.v3" offset="0x400000" size="0x100000" crc="c63b9285" sha1="6bbbacfe899e204e74657d6c3f3d05ce75e432f1" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="094.c1" offset="0x0" size="0x200000" crc="042f6af5" sha1="1c50df6a1a53ffb3079ea0a19c746f5c9536a3ed" />
+		<rom loadflag="load16_byte" name="094.c2" offset="0x1" size="0x200000" crc="0fbcd046" sha1="9a6dc920a877f27424477c3478907b23afbaa5ea" />
+		<rom loadflag="load16_byte" name="094.c3" offset="0x400000" size="0x200000" crc="58bfbaa1" sha1="4c6f9cf138c5e6dfe89a45e2a690a986c75f5bfc" />
+		<rom loadflag="load16_byte" name="094.c4" offset="0x400001" size="0x200000" crc="9451ee73" sha1="7befee4a886b1d7493c06cefb7abf4ec01c14a8b" />
+		<rom loadflag="load16_byte" name="094.c5" offset="0x800000" size="0x200000" crc="ff9cf48c" sha1="5f46fb5d0812275b0006919d8540f22be7c16492" />
+		<rom loadflag="load16_byte" name="094.c6" offset="0x800001" size="0x200000" crc="31bbd918" sha1="7ff8c5e3f17d40e7a8a189ad8f8026de55368810" />
+		<rom loadflag="load16_byte" name="094.c7" offset="0xc00000" size="0x200000" crc="2091ec04" sha1="a81d4bdbef1ac6ea49845dc30e31bf9745694100" />
+		<rom loadflag="load16_byte" name="094.c8" offset="0xc00001" size="0x200000" crc="d80dd241" sha1="1356a64e4d4e271f62cd0d83f79ee9c906440810" />
+		</dataarea>
+	</part>
+</software>

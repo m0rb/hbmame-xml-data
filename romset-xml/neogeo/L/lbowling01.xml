@@ -1,0 +1,22 @@
+<software name="lbowling01" cloneof="lbowling">
+	<description>League Bowling (CD Conversion)</description>
+	<year>1990</year>
+	<publisher>CD_conv</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="019s01.p1" offset="0x0" size="0x40000" crc="c17fd30f" sha1="908b045542bb575ac05f208a6595ab49c5ca5c0f" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="019.v11" offset="0x0" size="0x80000" crc="0fb74872" sha1="38c555926c77576d63472bc075210c42e9ce13a3" />
+		<rom name="019.v12" offset="0x80000" size="0x80000" crc="029faa57" sha1="7bbaa87e38929ab1e32df5f6a2ec0fd5001e7cdb" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x80000">
+		<rom name="019.v21" offset="0x0" size="0x80000" crc="2efd5ada" sha1="8ba70f5f665d566824333075227d9bce1253b8d8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="019.c1" offset="0x0" size="0x80000" crc="4ccdef18" sha1="5011e30ec235d0b0a5a513a11d4275777e61acdb" />
+		<rom loadflag="load16_byte" name="019.c2" offset="0x1" size="0x80000" crc="d4dd0802" sha1="82069752028c118d42384a95befde45844f0f247" />
+		</dataarea>
+	</part>
+</software>

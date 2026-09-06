@@ -1,0 +1,38 @@
+<software name="olds162" cloneof="olds">
+	<description>Oriental Legend Special (Street Fighter 2, 2017-09-29)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0500_ah162.v10" offset="0x100000" size="0x400000" crc="a7c39af7" sha1="f0004e3d221ff6060531cc6931fb2cf59caafaae" />
+		</dataarea>
+		<dataarea name="ics" size="0x1000000">
+		<rom name="pgm_m0500.u1" offset="0x400000" size="0x200000" crc="37928cdd" sha1="e80498cabc2a6a54d4f3ebcb097d4b3fad96fe55" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0500_ah64.rom" offset="0x180000" size="0x400000" crc="d6e659d2" sha1="5161b6462ecb6192c7e5494ce63bc962fce01844" />
+		<rom name="pgm_t0501.u19" offset="0x580000" size="0x200000" crc="d2106864" sha1="65d827135b87d82196433aea3279608ee263feca" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a0500_ah64.rom" offset="0x0" size="0x400000" crc="3bd1f686" sha1="44924f2fede3f539fe7b61a88beda62c21bac0f1" />
+		<rom name="a0501_ah64.rom" offset="0x400000" size="0x400000" crc="66761144" sha1="a371c765886067c8d75202438172ca81dc6db96d" />
+		<rom name="pgm_a0502.u7" offset="0x800000" size="0x400000" crc="c3fcdf1d" sha1="107585fd103fcd0af0fb7db283be4f7c7058aef7" />
+		<rom name="pgm_a0503.u8" offset="0xc00000" size="0x400000" crc="066dffec" sha1="f023032a7202b7090fb609a39e0f19018e664bf3" />
+		<rom name="pgm_a0504.u11" offset="0x1000000" size="0x400000" crc="45337583" sha1="c954d0e5bf7fa99c90b0d154e7119d2b0c461f1c" />
+		<rom name="pgm_a0505.u12" offset="0x1400000" size="0x400000" crc="5b8cf3a5" sha1="856d1e47b5d9a66dcfbdc74a51ed646fd7d96a35" />
+		<rom name="a0506_ah64.rom" offset="0x1800000" size="0x400000" crc="cdc61ba7" sha1="2f3c52d2ba801780ad5c94b76000d885a136ac3e" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b0500_ah64.rom" offset="0x0" size="0x400000" crc="37efad3a" sha1="48a552d7a5ef45d4a44cfc848b4b6da1a99f2a48" />
+		<rom name="b0501_ah64.rom" offset="0x400000" size="0x400000" crc="e79b47bf" sha1="588af08a8ebeab2ff202cdf289b7b8fd35976655" />
+		<rom name="pgm_b0502.u15" offset="0x800000" size="0x400000" crc="e97b31c3" sha1="1a7ca4f6c8644e84a33ae41cd4637f21046b14c5" />
+		<rom name="b0503_ah64.u16" offset="0xc00000" size="0x400000" crc="83d3f7b4" sha1="33dc746ea3e415424e69f966e881808109475aa7" />
+		</dataarea>
+		<dataarea name="igs028" size="0x10000">
+		<rom name="sp_data.u6" offset="0x0" size="0x10000" crc="e7613dda" sha1="0d7c043b90e2f9a36a45066f22e3e305dc716676" />
+		</dataarea>
+		<dataarea name="user2" size="0x4000">
+		<rom name="ram_dump" offset="0x0" size="0x4000" crc="280cfb4e" sha1="cd2bdcaa21347952c2bf38b105a204d327fde39e" />
+		</dataarea>
+	</part>
+</software>

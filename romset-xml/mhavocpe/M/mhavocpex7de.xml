@@ -1,0 +1,29 @@
+<software name="mhavocpex7de" cloneof="mhavoc">
+	<description>Major Havoc - The Promised End (BETA v0.78) GERMAN</description>
+	<year>2021</year>
+	<publisher>JMA</publisher>
+	<part name="cart">
+		<dataarea name="alpha" size="0x20000">
+		<rom name="mhpex078de.1mn" offset="0x8000" size="0x4000" crc="30fc2132" sha1="0d07fab70e9e2d606a825837436c242706fa690a" />
+		<rom name="mhpex078de.1l" offset="0xc000" size="0x4000" crc="245100c8" sha1="90333f9ad7b1c4422bc0b68a9a4d59edd9596d65" />
+		<rom name="mhpex078de.1q" offset="0x10000" size="0x8000" crc="8fb86a78" sha1="53b3ec55962c7a6f615838005b56de7458147f46" />
+		<rom name="mhpex078de.1np" offset="0x18000" size="0x8000" crc="c8a86dfb" sha1="8e3257068ae52095b8f15012a46cc99d9e28242f" />
+		</dataarea>
+		<dataarea name="avg" size="0x8000">
+		<rom name="mhpex078de.6h" offset="0x0" size="0x4000" crc="8df8c6e5" sha1="b5fadd531f040ef01c9c39810bfe81b800a32f78" />
+		<rom name="mhpex078de.6jk" offset="0x4000" size="0x4000" crc="5fb0fb0d" sha1="70f72856cb8ade503b00e43c12ed52bbabbd7ca6" />
+		</dataarea>
+		<dataarea name="avg:prom" size="0x100">
+		<rom name="136002-125.6c" offset="0x0" size="0x100" crc="5903af03" sha1="24bc0366f394ad0ec486919212e38be0f08d0239" />
+		</dataarea>
+		<dataarea name="gamma" size="0x10000">
+		<rom name="mhpex078de.9s" offset="0x8000" size="0x4000" crc="722ade2e" sha1="212cb5c9201e41e08eada3aec3c77ab8728135b1" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="mhpex078.x1" offset="0x0" size="0x40000" crc="5cfa1865" sha1="ab520b4af6a9ffc2593223798fee8026266a722e" />
+		</dataarea>
+		<dataarea name="vectorrom" size="0x2000">
+		<rom name="mhpex078de.6kl" offset="0x0" size="0x2000" crc="6bc3240f" sha1="6152a5015a99142d77203fa70f96160ffecd460c" />
+		</dataarea>
+	</part>
+</software>

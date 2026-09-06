@@ -1,0 +1,16 @@
+<software name="sqij15" cloneof="sqij">
+	<description>SQIJ! v1.5</description>
+	<year>2018</year>
+	<publisher>Sokurah</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="sqij15.ic10" offset="0x0" size="0xf000" crc="793c8b97" sha1="66b1a6b6c9cd95f06ca5c23843bf61be0474b659" />
+		</dataarea>
+		<dataarea name="maincpu:gfx" size="0x20000">
+		<rom loadflag="load16_byte" name="sqij.ic9" offset="0x0" size="0x10000" crc="c4de729b" sha1="58e4c8d8af121dd25eba737cc1917841bc3ec6f5" />
+		<rom loadflag="load16_byte" name="sqij.ic8" offset="0x1" size="0x10000" crc="978df42d" sha1="51d7310591c68ec12178b606f0779915f15de8a0" />
+		</dataarea>
+		<dataarea name="plds" size="0x200">
+		</dataarea>
+	</part>
+</software>

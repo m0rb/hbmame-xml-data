@@ -1,0 +1,19 @@
+<software name="msf1pac" cloneof="mspacman">
+	<description>Ms. F1 Pacman</description>
+	<year>2000</year>
+	<publisher>Marcel Silvius</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="msf1pac.4" offset="0x3000" size="0x1000" crc="e255428b" sha1="fd128743eac8521f1a65bdbb2cfd59398eddfac5" />
+		<rom name="boot5" offset="0x8000" size="0x1000" crc="8c3e6de6" sha1="fed6e9a2b210b07e7189a18574f6b8c4ec5bb49b" />
+		<rom name="boot6" offset="0x9000" size="0x1000" crc="368cb165" sha1="387010a0c76319a1eab61b54c9bcb5c66c4b67a1" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="msindy.5e" offset="0x0" size="0x1000" crc="c7183fd2" sha1="af7e3bb7c4751f5df12bd321d6f583045c5acb10" />
+		<rom name="msindy.5f" offset="0x1000" size="0x1000" crc="a355e061" sha1="b9223e01a77027d2f6afe4502b4a2dce3b3bdc0e" />
+		</dataarea>
+	</part>
+</software>

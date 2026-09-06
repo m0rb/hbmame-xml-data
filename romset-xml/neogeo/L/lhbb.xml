@@ -1,0 +1,22 @@
+<software name="lhbb" cloneof="lasthope">
+	<description>Last Hope (Blue Bullets)</description>
+	<year>2020</year>
+	<publisher>Elrayzeur</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="300bb.p1" offset="0x0" size="0x100000" crc="a5e6f24b" sha1="d5a39d146982b4847e9008600f4ea9d38a1226e0" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x600000">
+		<rom name="300.v1" offset="0x0" size="0x200000" crc="b765bafe" sha1="b2048c44089bf250c8dcfabb27c7981e9ee5002a" />
+		<rom name="300.v2" offset="0x200000" size="0x200000" crc="9fd0d559" sha1="09e70d5e1c6e172a33f48feb3e442515c34a8f3d" />
+		<rom name="300.v3" offset="0x400000" size="0x200000" crc="6d5107e2" sha1="4ba74836e3d0421a28af47d3d8341ac16af1d7d7" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="300.c1" offset="0x0" size="0x400000" crc="53ef41b5" sha1="a8f1fe546403b609e12f0df211c05d7ac479d98d" />
+		<rom loadflag="load16_byte" name="300.c2" offset="0x1" size="0x400000" crc="f9b15ab3" sha1="d8ff2f43686bfc8c2f7ead3ef445e51c15dfbf16" />
+		<rom loadflag="load16_byte" name="300.c3" offset="0x800000" size="0x400000" crc="50cc21cf" sha1="0350aaef480c5fa12e68e540a4c974dbf5870add" />
+		<rom loadflag="load16_byte" name="300.c4" offset="0x800001" size="0x400000" crc="8486ad9e" sha1="19a2a73c825687e0cb9fd62bde00db91b5409529" />
+		</dataarea>
+	</part>
+</software>

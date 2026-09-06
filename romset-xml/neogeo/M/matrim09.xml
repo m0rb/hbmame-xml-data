@@ -1,0 +1,28 @@
+<software name="matrim09" cloneof="matrim">
+	<description>Matrimelee (Bootleg/Fixed)</description>
+	<year>2003</year>
+	<publisher>Noise Factory / Atlus Corporation</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="266s09.p1" offset="0x0" size="0x100000" crc="1e59c746" sha1="9a6cdb6c56d5a80e373bb5ec476f1e7c3b3fbba9" />
+		<rom loadflag="load16_word_swap" name="266s09.p2" offset="0x100000" size="0x400000" crc="b0132cef" sha1="3780db1b8947a8371a46b67ca1a14a12bf97986b" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="266s09.v1" offset="0x0" size="0x400000" crc="352b0a07" sha1="19f7cc12f3f6d0fda9c7449816c4c32367447897" />
+		<rom name="266s09.v2" offset="0x400000" size="0x400000" crc="945f8831" sha1="6ac9bd41e0bb33601c82ebeb2aa5b1b8b91fada1" />
+		<rom name="266s09.v3" offset="0x800000" size="0x400000" crc="e8362fcc" sha1="42d558fd80cabe22a1c09a1fa75741afbcf46b7c" />
+		<rom name="266s09.v4" offset="0xc00000" size="0x400000" crc="393c9a62" sha1="0eaee0007557e59e64edcdbca229e6f776de9aef" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="266s09.c1" offset="0x0" size="0x800000" crc="f2240352" sha1="3bb6763ebbc33db172d413276213eb3f2c7093c0" />
+		<rom loadflag="load16_byte" name="266s09.c2" offset="0x1" size="0x800000" crc="338a9142" sha1="eb589b4141c394ca78c2f5eb1b510cde982f3225" />
+		<rom loadflag="load16_byte" name="266s09.c3" offset="0x1000000" size="0x800000" crc="6233412d" sha1="b473cddc0a4343dffc4e35df68cd1bf9b163bd64" />
+		<rom loadflag="load16_byte" name="266s09.c4" offset="0x1000001" size="0x800000" crc="304a2d9f" sha1="29d2e50a64476640f4bff68227d6b1fdb45530c1" />
+		<rom loadflag="load16_byte" name="266s09.c5" offset="0x2000000" size="0x800000" crc="18382650" sha1="df10fb0b43f0dabdc57b55e923536b6c215678ff" />
+		<rom loadflag="load16_byte" name="266s09.c6" offset="0x2000001" size="0x800000" crc="c5e7a840" sha1="a1336c5c1284221d0b420bb44dd7c462d3e83ca7" />
+		<rom loadflag="load16_byte" name="266s09.c7" offset="0x3000000" size="0x800000" crc="bfaa985c" sha1="3ff7d56d8caaa1a34d0dcbc16bfc97df4afeab48" />
+		<rom loadflag="load16_byte" name="266s09.c8" offset="0x3000001" size="0x800000" crc="efaf3f3c" sha1="9374eb39fe30ba679878729992f136fdce1d92fc" />
+		</dataarea>
+	</part>
+</software>

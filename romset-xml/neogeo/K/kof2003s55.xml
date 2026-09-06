@@ -1,0 +1,27 @@
+<software name="kof2003s55" cloneof="kof2003">
+	<description>Kof2003 (Three Artifact Edition Simplified, 2020-02-28)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x700000">
+		<rom loadflag="load16_word_swap" name="271s55.p0" offset="0x0" size="0x100000" crc="3ddc8218" sha1="9232975b21d8760571e8348e978903c0ce212e84" />
+		<rom loadflag="load16_word_swap" name="271s45.p1" offset="0x100000" size="0x400000" crc="342d37e5" sha1="52b8e4dbd06f8ffb08cd1549c367b257c1bc6c4d" />
+		<rom loadflag="load16_word_swap" name="271s44.p2" offset="0x500000" size="0x200000" crc="0d0a5861" sha1="823dd3d11574a42f98588a6d1f9bb5d721f34be2" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="271s65.v1" offset="0x0" size="0x800000" crc="dd6c6a85" sha1="e32b16d0b716a4f3b95868457347303d020147fb" />
+		<rom name="271s65.v2" offset="0x800000" size="0x800000" crc="0e84f8c1" sha1="28c964fe89c800b445d3a65c965de32b4e504726" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="271b.c1" offset="0x0" size="0x800000" crc="e42fc226" sha1="1cd9364993e141facdcdd53ec2277df7b275d8a7" />
+		<rom loadflag="load16_byte" name="271b.c2" offset="0x1" size="0x800000" crc="1b5e3b58" sha1="0eb254477a9479541291e43e415310852a0f0bed" />
+		<rom loadflag="load16_byte" name="271b.c3" offset="0x1000000" size="0x800000" crc="d334fdd9" sha1="1efe30b4f56a55e25ab518cf6999de797b5e407c" />
+		<rom loadflag="load16_byte" name="271b.c4" offset="0x1000001" size="0x800000" crc="0d457699" sha1="ec73d0c9fc7094d0ac6c0986a6e07cde25893e57" />
+		<rom loadflag="load16_byte" name="271b.c5" offset="0x2000000" size="0x800000" crc="8a91aae4" sha1="802f4baacf801646be1ef686e105b2e867a6a5df" />
+		<rom loadflag="load16_byte" name="271b.c6" offset="0x2000001" size="0x800000" crc="9f8674b8" sha1="65964f40b2227d020023fb436579927e65807dcd" />
+		<rom loadflag="load16_byte" name="271s45.c7" offset="0x3000000" size="0x800000" crc="b65182c8" sha1="49d9ca3032b540b2d1609c174afba6739de708bb" />
+		<rom loadflag="load16_byte" name="271s45.c8" offset="0x3000001" size="0x800000" crc="3a4f522f" sha1="53aeef47c52815cab2fee02590e5be3076f2aa18" />
+		</dataarea>
+	</part>
+</software>

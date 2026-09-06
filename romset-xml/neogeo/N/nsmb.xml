@@ -1,0 +1,20 @@
+<software name="nsmb">
+	<description>New! Super Mario Bros.</description>
+	<year>2020</year>
+	<publisher>OzzyOuzo</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="495.p1" offset="0x0" size="0x100000" crc="9e0fded1" sha1="333da236947c440e10e69ee70b8e99a818488f1d" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x300000">
+		<rom name="495.v1" offset="0x0" size="0x100000" crc="d1e4fc94" sha1="03bf016533b08eac16f1e8a368ab6422d4163364" />
+		<rom name="495.v2" offset="0x100000" size="0x100000" crc="7d42fab3" sha1="242288e91790818f130d7ddacbf68f5bf2d993be" />
+		<rom name="495.v3" offset="0x200000" size="0x100000" crc="806b797d" sha1="24b4951991afea6d81a55901320cf6f532713b16" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="495.c1" offset="0x0" size="0x800000" crc="f187934c" sha1="72c7f23e45febb94fc89c01ffb475ae9c4b8fff3" />
+		<rom loadflag="load16_byte" name="495.c2" offset="0x1" size="0x800000" crc="7ecfc8bb" sha1="2d61e86ccfe9e92dcc400efba63f91fd2e77e251" />
+		</dataarea>
+	</part>
+</software>

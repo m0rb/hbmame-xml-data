@@ -1,0 +1,19 @@
+<software name="mspacman05" cloneof="mspacman">
+	<description>Ms Pac-Man</description>
+	<year>2000</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s05.1" offset="0x0" size="0x1000" crc="2671b2fd" sha1="dff5224806a417641bf7bf14a4a92295a3a69f2a" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="robot.3" offset="0x2000" size="0x1000" crc="1ae6f796" sha1="7d0e0fbf7379d8df7c48b9eccfa0bc0defeec5f9" />
+		<rom name="s05.4" offset="0x3000" size="0x1000" crc="5afa0e42" sha1="a8ed868275cb402469e70f7182ee72312529b9dd" />
+		<rom name="robot.5" offset="0x8000" size="0x1000" crc="655796dd" sha1="cc4747e4572b2a1d01a407adbb20d94799d81e76" />
+		<rom name="s05.6" offset="0x9000" size="0x1000" crc="a16f14db" sha1="3d101e5dfb90615b7fdc0bd592e48c65724dbcc5" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="5e" offset="0x0" size="0x1000" crc="5c281d01" sha1="5e8b472b615f12efca3fe792410c23619f067845" />
+		<rom name="5f" offset="0x1000" size="0x1000" crc="615af909" sha1="fd6a1dde780b39aea76bf1c4befa5882573c2ef4" />
+		</dataarea>
+	</part>
+</software>

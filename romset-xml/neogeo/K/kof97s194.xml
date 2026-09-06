@@ -1,0 +1,25 @@
+<software name="kof97s194" cloneof="kof97">
+	<description>Kof&#x27;97 (Ultimate Battle Plus Simplify 2019, 2020-07-08)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="232s194.p1" offset="0x0" size="0x100000" crc="3e72a8b7" sha1="71f954fd1eb1f31aa7f7acc2e7b2c7234d90e8e7" />
+		<rom loadflag="load16_word_swap" name="232s193.p2" offset="0x100000" size="0x400000" crc="c0c73a15" sha1="d5303ce0b5556fdbc804e470d15e52b23500fe87" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232s193.v2" offset="0x400000" size="0x400000" crc="92b14f89" sha1="64809538c80e44512130d288b515dbed129bd687" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="232s193.c1" offset="0x0" size="0x800000" crc="a41dd2c0" sha1="8f5eae03c4ed9ae51c7d9c069b41925b9fcf187e" />
+		<rom loadflag="load16_byte" name="232s193.c2" offset="0x1" size="0x800000" crc="47eb128a" sha1="dbf8ef9dd65388c42af716db609cdc32b7fbaf64" />
+		<rom loadflag="load16_byte" name="232s006.c3" offset="0x1000000" size="0x800000" crc="b092e64f" sha1="7d809432d068db8f9056f5210570191416f1a53b" />
+		<rom loadflag="load16_byte" name="232s006.c4" offset="0x1000001" size="0x800000" crc="d25e8a04" sha1="52227828e3fdd27399b4cd514551abf856293f47" />
+		<rom loadflag="load16_byte" name="232s193.c5" offset="0x2000000" size="0x800000" crc="4922b325" sha1="2c93d529bdbdd6864eb3f570f853b2e18e438558" />
+		<rom loadflag="load16_byte" name="232s193.c6" offset="0x2000001" size="0x800000" crc="cebac145" sha1="40e09ff8d08e9855ca33896b43b2703fd7a3b19c" />
+		</dataarea>
+	</part>
+</software>

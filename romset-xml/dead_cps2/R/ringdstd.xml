@@ -1,0 +1,26 @@
+<software name="ringdstd" cloneof="ringdest">
+	<description>Ring of Destruction: Slammasters II (Euro 940902 Phoenix Edition) (bootleg)</description>
+	<year>1994</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c54d.p1" offset="0x0" size="0x80000" crc="f6fba4cd" sha1="aecea7a4c3ed2153017b465b075c7558d914cdc8" />
+		<rom loadflag="load16_word_swap" name="c54d.p2" offset="0x80000" size="0x80000" crc="193bc493" sha1="d2c6af56d3514c6d392aa3f2ea4778bbe5ef513f" />
+		<rom loadflag="load16_word_swap" name="c54d.p3" offset="0x100000" size="0x80000" crc="168cccbb" sha1="c3e1695e013f1197f7093aa499482ff8d7f75b5b" />
+		<rom loadflag="load16_word_swap" name="c54d.p4" offset="0x180000" size="0x80000" crc="04673262" sha1="6ebdfb2adfa0039f6db4d1e81e9ea0a692be4fdc" />
+		<rom loadflag="load16_word_swap" name="c54.p5" offset="0x200000" size="0x80000" crc="b9a11577" sha1="e9b58ef8acd1fedd3c9e0a3489593c7e931106c0" />
+		<rom loadflag="load16_word_swap" name="c54.p6" offset="0x280000" size="0x80000" crc="f931b76b" sha1="0b7e8d1278dcba89f0063bd09cda96d6ae1bc282" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c54.m1" offset="0x0" size="0x8000" crc="0abc229a" sha1="967f574e6358dfc1b01e6a4a4df1a8f34eb3d814" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c54.m2" offset="0x28000" size="0x20000" crc="d051679a" sha1="583c2521a30db1740d95dd94a38751fbeff3aae5" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1200000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c54.q1" offset="0x0" size="0x200000" crc="c56935f9" sha1="ca1705e48e31ddc13505e6297bceca2bec1bb209" />
+		<rom loadflag="load16_word_swap" name="c54.q2" offset="0x200000" size="0x200000" crc="955b0782" sha1="ee09500e7b44e923126533613bfe26cdabc7ab5f" />
+		</dataarea>
+	</part>
+</software>

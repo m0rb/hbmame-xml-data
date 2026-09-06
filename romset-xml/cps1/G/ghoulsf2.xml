@@ -1,0 +1,24 @@
+<software name="ghoulsf2" cloneof="ghouls">
+	<description>Ghouls&#x27;n Ghosts (SF2 conversion)</description>
+	<year>2017</year>
+	<publisher>Arcadefixer</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c02sf2.p1" offset="0x0" size="0x80000" crc="a633f99f" sha1="2f176d390d62dd17c0ccc8df9f570193c1e3c085" />
+		<rom loadflag="load16_word_swap" name="c02jr.p5" offset="0x80000" size="0x80000" crc="595ff2f3" sha1="ac14b81e15f2c340526a03acbb4c28181d94d5b9" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c02sf2.m1" offset="0x0" size="0x8000" crc="d8ed184e" sha1="c00ebe11bbd0beb701c5a022353e71128f75bb45" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="daimakair.key" offset="0x0" size="0x80" crc="8b8cdff4" sha1="69e750171817d9507c8f86db8a79b25d8dae5001" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="jed" size="0x800">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		</dataarea>
+	</part>
+</software>

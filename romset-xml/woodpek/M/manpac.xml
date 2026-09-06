@@ -1,0 +1,27 @@
+<software name="manpac" cloneof="mspacman">
+	<description>Man-Pac</description>
+	<year>2021</year>
+	<publisher>Mr McScrewup</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="manpac.1" offset="0x0" size="0x1000" crc="298cbceb" sha1="8ffa56f7ee233402df05b1c3f742d2f144c5ec64" />
+		<rom name="manpac.2" offset="0x1000" size="0x1000" crc="df8d352e" sha1="5f7cf8337e50439daefd2ff662863d8c660e724e" />
+		<rom name="manpac.3" offset="0x2000" size="0x1000" crc="b5dd5136" sha1="b8b7ca513950abdb8d5bf09909f9f63f95d95209" />
+		<rom name="manpac.4" offset="0x3000" size="0x1000" crc="1ca7a831" sha1="dd4ef06984f94167b0fc620701c11b9d2e3b3291" />
+		<rom name="manpac.5" offset="0x8000" size="0x1000" crc="6c48990a" sha1="ae9d3a39c9c9d0faaf1745d4e32e4081c8a377e8" />
+		<rom name="manpac.6" offset="0x9000" size="0x1000" crc="08a56798" sha1="a8ed010c2cc466edf63f0866d87a20ac8cf587d8" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="manpac.5e" offset="0x0" size="0x1000" crc="0f2493ad" sha1="8101d2931adacea4c5629fb531f7be2b8f18a2a7" />
+		<rom name="manpac.5f" offset="0x1000" size="0x1000" crc="964a83df" sha1="4ad35a0b5e0ac971c879b5e5d8bbd183bfcc2e2b" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="manpac.1m" offset="0x0" size="0x100" crc="c310be6c" sha1="ff41683453a847cbd680ff5329ae223f304bb58f" />
+		<rom name="manpac.3m" offset="0x100" size="0x100" crc="c310be6c" sha1="ff41683453a847cbd680ff5329ae223f304bb58f" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="manpac.7f" offset="0x0" size="0x20" crc="4e5ca597" sha1="4c8f0988f09982fb0ed878a6e720576a28ba6b55" />
+		<rom name="manpac.4a" offset="0x20" size="0x100" crc="db6343b4" sha1="24752b3c7324765941d859272ad2d2ec1a2b2ded" />
+		</dataarea>
+	</part>
+</software>

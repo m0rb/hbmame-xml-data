@@ -1,0 +1,31 @@
+<software name="vhunt2">
+	<description>Vampire Hunter 2: Darkstalkers Revenge (Japan 970929)</description>
+	<year>1997</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c75.p1" offset="0x0" size="0x80000" crc="9ae8f186" sha1="f4e3a1b6ae823737d3b18561469f206921b48587" />
+		<rom loadflag="load16_word_swap" name="c75.p2" offset="0x80000" size="0x80000" crc="e2fabf53" sha1="78c53f8e984b00245486b751515248879df77437" />
+		<rom loadflag="load16_word_swap" name="c75.p3" offset="0x100000" size="0x80000" crc="de34f624" sha1="60bbbd1765e76839b01c38765da2368c5188ec61" />
+		<rom loadflag="load16_word_swap" name="c75.p4" offset="0x180000" size="0x80000" crc="6a3b9897" sha1="4f3b37004db8a3d3dde709b51c94c392615134b5" />
+		<rom loadflag="load16_word_swap" name="c75.p5" offset="0x200000" size="0x80000" crc="b021c029" sha1="de4299197600608e83fe50775e3f352f5add844d" />
+		<rom loadflag="load16_word_swap" name="c75.p6" offset="0x280000" size="0x80000" crc="ac873dff" sha1="ad9a085b8403801035683b6f63eee33daf4e97ae" />
+		<rom loadflag="load16_word_swap" name="c75.p7" offset="0x300000" size="0x80000" crc="eaefce9c" sha1="d842a824f0d0adc13a86f780084164c1273c45a4" />
+		<rom loadflag="load16_word_swap" name="c75.p8" offset="0x380000" size="0x80000" crc="11730952" sha1="2966b80b99ab065614a6ddb546110f482b998e32" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c75.m1" offset="0x0" size="0x8000" crc="67b9f779" sha1="3994c65f888004b56ea9f478b1feaa81e306347e" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c75.m2" offset="0x28000" size="0x20000" crc="aaf15fcb" sha1="6f61daa162c835165a8aabaf1d0ea8816fbfbd40" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="vhunt2.key" offset="0x0" size="0x14" crc="61306b20" sha1="f72cf44837f6d934dd6bc877c3c98db388e72a67" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c75.q1" offset="0x0" size="0x400000" crc="38922efd" sha1="8cfb36bdce3a524d0a81fec12ca0cba82222fa30" />
+		<rom loadflag="load16_word_swap" name="c75.q2" offset="0x400000" size="0x400000" crc="6e2430af" sha1="b475faf943bec4171ba0130f287e1948743ca273" />
+		</dataarea>
+	</part>
+</software>

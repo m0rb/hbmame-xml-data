@@ -1,0 +1,26 @@
+<software name="kof2002s084" cloneof="kof2002">
+	<description>Kof2002 (Black Beta 0.76)</description>
+	<year>2002</year>
+	<publisher>KalceTin</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="265s084.p1" offset="0x0" size="0x100000" crc="37db2f18" sha1="30bc4bb582a52b576869fe58c33708c2afe31fa4" />
+		<rom loadflag="load16_word_swap" name="265s084.p2" offset="0x100000" size="0x400000" crc="bb8e15dc" sha1="d57311c71a2d578476c04da227cf7f47d8aa9c4b" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="265.v1" offset="0x0" size="0x800000" crc="15e8f3f5" sha1="7c9e6426b9fa6db0158baa17a6485ffce057d889" />
+		<rom name="265.v2" offset="0x800000" size="0x800000" crc="da41d6f9" sha1="a43021f1e58947dcbe3c8ca5283b20b649f0409d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="265s084.c1" offset="0x0" size="0x800000" crc="c1689858" sha1="a395d7d4c1fb911685c4a23391e5db69f2b2d809" />
+		<rom loadflag="load16_byte" name="265s084.c2" offset="0x1" size="0x800000" crc="2e2bdeac" sha1="e896d0678a2743e1ddbb5c4cabea144d90189c2c" />
+		<rom loadflag="load16_byte" name="265.c3" offset="0x1000000" size="0x800000" crc="875e9fd7" sha1="28f52d56192d48bbc5dc3c97abf456bd34a58cbd" />
+		<rom loadflag="load16_byte" name="265.c4" offset="0x1000001" size="0x800000" crc="2da13947" sha1="f8d79ec2c236aa3d3648a4f715676899602122c1" />
+		<rom loadflag="load16_byte" name="265.c5" offset="0x2000000" size="0x800000" crc="61bd165d" sha1="b3424db84bc683d858fb635bc42728f9cdd89caf" />
+		<rom loadflag="load16_byte" name="265.c6" offset="0x2000001" size="0x800000" crc="03fdd1eb" sha1="6155c7e802062f4eafa27e414c4e73ee59b868bf" />
+		<rom loadflag="load16_byte" name="265s084.c7" offset="0x3000000" size="0x800000" crc="363b78a0" sha1="118cb7ef985ee07c7898a0fa969c783eda8fd236" />
+		<rom loadflag="load16_byte" name="265s084.c8" offset="0x3000001" size="0x800000" crc="a61e81d4" sha1="22659c794b2457677a44a7772bc225aa3bc30e36" />
+		</dataarea>
+	</part>
+</software>

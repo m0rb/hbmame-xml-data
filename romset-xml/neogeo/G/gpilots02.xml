@@ -1,0 +1,25 @@
+<software name="gpilots02" cloneof="gpilots">
+	<description>Ghost Pilots (Ex Super version, 2014-10-24)</description>
+	<year>2014</year>
+	<publisher>Kawada7278</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="020s02.p1" offset="0x0" size="0x80000" crc="80d6950e" sha1="c83e119c316b9c5d86e06fff598b1be7e2cc53a5" />
+		<rom loadflag="load16_word_swap" name="020.p2" offset="0x80000" size="0x20000" crc="edcb22ac" sha1="505d2db38ae999b7d436e8f2ff56b81796d62b54" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x180000">
+		<rom name="020.v11" offset="0x0" size="0x100000" crc="1b526c8b" sha1="2801868d2badcf8aaf5d490e010e4049d81d7bc1" />
+		<rom name="020.v12" offset="0x100000" size="0x80000" crc="4a9e6f03" sha1="d3ac11f333b03d8a318921bdaefb14598e289a14" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x80000">
+		<rom name="020.v21" offset="0x0" size="0x80000" crc="7abf113d" sha1="5b2a0e70f2eaf4638b44702dacd4cb17838fb1d5" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="020.c1" offset="0x0" size="0x100000" crc="bd6fe78e" sha1="50b704862cd79d64fa488e621b079f6e413c33bc" />
+		<rom loadflag="load16_byte" name="020.c2" offset="0x1" size="0x100000" crc="5f4a925c" sha1="71c5ef8141234daaa7025427a6c65e79766973a5" />
+		<rom loadflag="load16_byte" name="020.c3" offset="0x200000" size="0x100000" crc="d1e42fd0" sha1="f0d476aebbdc2ce008f5f0783be86d295b24aa44" />
+		<rom loadflag="load16_byte" name="020.c4" offset="0x200001" size="0x100000" crc="edde439b" sha1="79be7b10ecdab54c2f77062b8f5fda0e299fa982" />
+		</dataarea>
+	</part>
+</software>

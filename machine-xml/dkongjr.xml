@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="dkongjr" description="Dkongjr cartridges">
+<software name="dkongjr01">
+	<description>Donkey Kong Junior (bugfixed)</description>
+	<year>1982</year>
+	<publisher>John Kowalski</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s01.5b" offset="0x0" size="0x1000" crc="50c2a9a0" sha1="84fc30dd6e0a5a5376482a0c80f02b7f69945c1c" />
+		<rom loadflag="continue" offset="0x3000" size="0x1000" />
+		<rom name="s01.5c" offset="0x2000" size="0x800" crc="dd65bd02" sha1="f1f7feb3e727e2a938dd6639a588219d131a256d" />
+		<rom loadflag="continue" offset="0x4800" size="0x800" />
+		<rom loadflag="continue" offset="0x1000" size="0x800" />
+		<rom loadflag="continue" offset="0x5800" size="0x800" />
+		<rom name="s01.5e" offset="0x4000" size="0x800" crc="1fa0d992" sha1="636fd28bb05296937945adc7c63da04bd7adbb44" />
+		<rom loadflag="continue" offset="0x2800" size="0x800" />
+		<rom loadflag="continue" offset="0x5000" size="0x800" />
+		<rom loadflag="continue" offset="0x1800" size="0x800" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="djr1-v.3n" offset="0x0" size="0x1000" crc="8d51aca9" sha1="64887564b079d98e98aafa53835e398f34fe4e3f" />
+		<rom name="djr1-v.3p" offset="0x1000" size="0x1000" crc="4ef64ba5" sha1="41a7a4005087951f57f62c9751d62a8c495e6bb3" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="djr1-v_7c.7c" offset="0x0" size="0x800" crc="dc7f4164" sha1="07a6242e95b5c3b8dfdcd4b4950f463dba16dd77" />
+		<rom name="djr1-v_7d.7d" offset="0x800" size="0x800" crc="0ce7dcf6" sha1="0654b77526c49f0dfa077ac4f1f69cf5cb2e2f64" />
+		<rom name="djr1-v_7e.7e" offset="0x1000" size="0x800" crc="24d1ff17" sha1="696854bf3dc5447d33b4815db357e6ce3834d867" />
+		<rom name="djr1-v_7f.7f" offset="0x1800" size="0x800" crc="0f8c083f" sha1="0b688ae9da296b2447fffa5e135fd6a56ec3e790" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="djr1-c-2e.2e" offset="0x0" size="0x100" crc="463dc7ad" sha1="b2c9f22facc8885be2d953b056eb8dcddd4f34cb" />
+		<rom name="djr1-c-2f.2f" offset="0x100" size="0x100" crc="47ba0042" sha1="dbec3f4b8013628c5b8f83162e5f8b1f82f6ee5f" />
+		<rom name="djr1-v-2n.2n" offset="0x200" size="0x100" crc="dbf185bf" sha1="2697a991a4afdf079dd0b7e732f71c7618f43b70" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1000">
+		<rom name="djr1-c_3h.3h" offset="0x0" size="0x1000" crc="715da5f8" sha1="f708c3fd374da65cbd9fe2e191152f5d865414a0" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

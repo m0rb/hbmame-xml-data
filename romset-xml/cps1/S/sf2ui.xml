@@ -1,0 +1,30 @@
+<software name="sf2ui" cloneof="sf2">
+	<description>Street Fighter II: The World Warrior (USA 910522, Rev. I)</description>
+	<year>1991</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c14.p1" offset="0x0" size="0x20000" crc="fe39ee33" sha1="22558eb15e035b09b80935a32b8425d91cd79669" />
+		<rom loadflag="load16_byte" name="c14ui.p2" offset="0x1" size="0x20000" crc="9df707dd" sha1="b148ea450f9e96f3c20f487010a3c57f778e40c1" />
+		<rom loadflag="load16_byte" name="c14.p3" offset="0x40000" size="0x20000" crc="69a0a301" sha1="86a3954335310865b14ce8b4e0e4499feb14fc12" />
+		<rom loadflag="load16_byte" name="c14ui.p4" offset="0x40001" size="0x20000" crc="4cb46daf" sha1="dee103ae1391cd9ac150f787187233cd8c06ea1e" />
+		<rom loadflag="load16_byte" name="c14ui.p5" offset="0x80000" size="0x20000" crc="1580be4c" sha1="d89ed0ff4bf14ff2eaae4609f55970b6b37c8e32" />
+		<rom loadflag="load16_byte" name="c14ui.p6" offset="0x80001" size="0x20000" crc="1468d185" sha1="750de0cad3859e4917aebb02c2e137dea619f201" />
+		<rom loadflag="load16_byte" name="c14.p7" offset="0xc0000" size="0x20000" crc="bb4af315" sha1="75f0827f4f7e9f292add46467f8d4fe19b2514c9" />
+		<rom loadflag="load16_byte" name="c14.p8" offset="0xc0001" size="0x20000" crc="c02a13eb" sha1="b807cc495bff3f95d03b061fc629c95f965cb6d8" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c14.m1" offset="0x0" size="0x8000" crc="a4823a1b" sha1="7b6bf59dfd578bfbbdb64c27988796783442d659" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2ui.key" offset="0x0" size="0x80" crc="b8266818" sha1="70321117ccc967d1bb69452bdb5ba4dce5420f98" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c14.v1" offset="0x0" size="0x20000" crc="7f162009" sha1="346bf42992b4c36c593e21901e22c87ae4a7d86d" />
+		<rom name="c14.v2" offset="0x20000" size="0x20000" crc="beade53f" sha1="277c397dc12752719ec6b47d2224750bd1c07f79" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,17 @@
+<software name="rainboh">
+	<description>Rainbow (Incomplete)</description>
+	<year>2003</year>
+	<publisher>David Widel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="rainboh.1" offset="0x0" size="0x1000" crc="676b742e" sha1="0ec4bd459533f3f66782d0b978a0972c66b69ed4" />
+		<rom name="rainboh.2" offset="0x1000" size="0x1000" crc="3c9f1ada" sha1="8951170cf75e5397136193ed69d920d2b9744f29" />
+		<rom name="rainboh.3" offset="0x2000" size="0x1000" crc="fbad5604" sha1="4cdc2a87712471ed2bba7dc215b584e9e2c37c39" />
+		<rom name="rainboh.4" offset="0x3000" size="0x1000" crc="1af32a9b" sha1="9830816c11342b40c056d555d6208ef1c6537557" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="rainboh.5e" offset="0x0" size="0x1000" crc="c3292da2" sha1="11d2b8cb36dfa86c08f6072e603f18074d56c2c2" />
+		<rom name="rainboh.5f" offset="0x1000" size="0x1000" crc="2b7455d8" sha1="9decb7671a97e7fd248cc05798119d82b7830097" />
+		</dataarea>
+	</part>
+</software>

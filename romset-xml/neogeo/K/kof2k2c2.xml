@@ -1,0 +1,26 @@
+<software name="kof2k2c2" cloneof="kof2002">
+	<description>Kof2002 (3rd Strike of the Orochi, 2016-01-04)</description>
+	<year>2016</year>
+	<publisher>EGCG / EGHT</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="265or.p1" offset="0x0" size="0x100000" crc="eb84d68f" sha1="8dccf250cf04e129529793abcc655f5fc7fb6629" />
+		<rom loadflag="load16_word_swap" name="265c2.p2" offset="0x100000" size="0x400000" crc="5b307583" sha1="283dffc62c279e7b237da3a30a15e06cccda7a80" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="kf10-v1.bin" offset="0x0" size="0x800000" crc="0fc9a58d" sha1="9d79ef00e2c2abd9f29af5521c2fbe5798bf336f" />
+		<rom name="kf10-v2.bin" offset="0x800000" size="0x800000" crc="b8c475a4" sha1="10caf9c69927a223445d2c4b147864c02ce520a8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="265d.c1" offset="0x0" size="0x800000" crc="7efa6ef7" sha1="71345a4202e7cc9239538fb978638141416c8893" />
+		<rom loadflag="load16_byte" name="265d.c2" offset="0x1" size="0x800000" crc="aa82948b" sha1="b2a40797f68bdeb80bc54dccc5495be68934bf0e" />
+		<rom loadflag="load16_byte" name="265d.c3" offset="0x1000000" size="0x800000" crc="959fad0b" sha1="63ab83ddc5f688dc8165a7ff8d262df3fcd942a2" />
+		<rom loadflag="load16_byte" name="265rm13.c4" offset="0x1000001" size="0x800000" crc="2558972f" sha1="2e0627fc5d689bf64fe36f02a489408d103c4499" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="265or.c7" offset="0x3000000" size="0x800000" crc="201e75e0" sha1="7805d7a753df4d97bd73e05f22f31fe6440eaf6c" />
+		<rom loadflag="load16_byte" name="265or.c8" offset="0x3000001" size="0x800000" crc="ff0fd53b" sha1="68289ab3f808b9c067a948948f48d5a3f1787e6c" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,22 @@
+<software name="frogtest" cloneof="frogger">
+	<description>Frogger Sound Test</description>
+	<year>2004</year>
+	<publisher>msmcdoug / JROK</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="frogtest.ic5" offset="0x0" size="0x226" crc="1f5a7f35" sha1="608ad6ac8c34aea66b13aac7e45c298a2083d642" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="frogger.608" offset="0x0" size="0x800" crc="e8ab0256" sha1="f090afcfacf5f13cdfa0dfda8e3feb868c6ce8bc" />
+		<rom name="frogger.609" offset="0x800" size="0x800" crc="7380a48f" sha1="75582a94b696062cbdb66a4c5cf0bc0bb94f81ee" />
+		<rom name="frogger.610" offset="0x1000" size="0x800" crc="31d7eb27" sha1="2e1d34ae4da385fd7cac94707d25eeddf4604e1a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="frogger.607" offset="0x0" size="0x800" crc="05f7d883" sha1="78831fd287da18928651a8adb7e578d291493eff" />
+		<rom name="frogger.606" offset="0x800" size="0x800" crc="f524ee30" sha1="dd768967add61467baa08d5929001f157d6cd911" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="pr-91.6l" offset="0x0" size="0x20" crc="413703bf" sha1="66648b2b28d3dcbda5bdb2605d1977428939dd3c" />
+		</dataarea>
+	</part>
+</software>

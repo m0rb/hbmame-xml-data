@@ -1,0 +1,34 @@
+<software name="wwewfest">
+	<description>WWE WrestleFest (Basic Fun)</description>
+	<year>2025</year>
+	<publisher>Anton LeDec</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_byte" name="31e13-0.ic19" offset="0x1" size="0x40000" crc="4fda3f4c" sha1="08bd8d3e0b51857681b58ddd43e9c54d4d62f462" />
+		<rom loadflag="load16_byte" name="31e14-0.ic18" offset="0x0" size="0x40000" crc="06e7b1bc" sha1="71fbe292e124c5357088d1e9e9b1620bc483714b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="31a11-2.ic42" offset="0x0" size="0x10000" crc="5ddebfea" sha1="30073963e965250d94f0dc3bd261a054850adf95" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x20000">
+		<rom name="31e12-0.ic33" offset="0x0" size="0x20000" crc="5a5734f4" sha1="21c42bc3b1873fda760ccfba4b8114e75fcb1244" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x800000">
+		<rom name="31j3.ic9" offset="0x0" size="0x100000" crc="7f15f532" sha1="00b9dfdd6e6a6dfaeaab09e7d0867c62a5068c8e" />
+		<rom name="31j2.ic8" offset="0x100000" size="0x100000" crc="5ea77cfe" sha1="d3fc8eabb4b0ebf87715cb3f82d589ad0fd3636f" />
+		<rom name="31j5.ic11" offset="0x200000" size="0x100000" crc="baa3aa29" sha1="e166513ccb76afc4eea0a5a6841f21a984b1abb1" />
+		<rom name="31j4.ic10" offset="0x300000" size="0x100000" crc="ebe3bef1" sha1="f8f4f1c00cd53107d63b7a0dc2eccc4d7765d100" />
+		<rom name="31j6.ic12" offset="0x400000" size="0x100000" crc="54a60260" sha1="2db35cba93ac7fd62b99851d9ea12b48db18c37d" />
+		<rom name="31j7.ic13" offset="0x500000" size="0x100000" crc="64005709" sha1="ed40aa69c18560b764ac44aa435fcb35f02ab441" />
+		<rom name="31j9.ic15" offset="0x600000" size="0x100000" crc="81f63a7e" sha1="3f72602e7de03e92d568aec56a9419d5c1d719c7" />
+		<rom name="31j8.ic14" offset="0x700000" size="0x100000" crc="abff2c7b" sha1="84646fbc9d094c7a9c7f52432dca2ceb2242d205" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x80000">
+		<rom name="31j0.ic1" offset="0x40000" size="0x40000" crc="f6b4f9d3" sha1="d6ebfbb2a07f740dfae17a625f53d5b48bead74e" />
+		<rom name="31j1.ic2" offset="0x0" size="0x40000" crc="ec86da22" sha1="0c95ff9bd64f850251390dbf3402c54c5ac81217" />
+		</dataarea>
+		<dataarea name="oki" size="0x80000">
+		<rom name="31j10.ic73" offset="0x0" size="0x80000" crc="6c522edb" sha1="8005d59c94160638ba2ea7caf4e991fff03003d5" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,18 @@
+<software name="speccies">
+	<description>Speccies 2</description>
+	<year>2015</year>
+	<publisher>Sokurah</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="speccies.ic10" offset="0x0" size="0x55e9" crc="29e126ac" sha1="1e3e1379f964e0967d6ea5ef6a84741319b5108f" />
+		</dataarea>
+		<dataarea name="maincpu:gfx" size="0x20000">
+		<rom loadflag="load16_byte" name="speccies.ic9" offset="0x0" size="0x10000" crc="11ed1528" sha1="55f0b63bcbbbe4ad4d1041dca980b55ccb7a7aea" />
+		<rom loadflag="load16_byte" name="speccies.ic8" offset="0x1" size="0x10000" crc="fcfeb89f" sha1="fc0e811c72313b371d3a6530b27f9023ff201e31" />
+		</dataarea>
+		<dataarea name="mcu:mcu" size="0x800">
+		</dataarea>
+		<dataarea name="plds" size="0x200">
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,29 @@
+<software name="kovpluss77" cloneof="kovplus">
+	<description>Knights of Valour Plus (Three Kingdoms War Rider Savior)</description>
+	<year>1999</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_ph77.119" offset="0x100000" size="0x400000" crc="b1bf5c01" sha1="4a01160060e38c368c91ab7b07cc004a995bec70" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u3" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_ph77.rom" offset="0x0" size="0x800000" crc="d44d710e" sha1="2a0e07b1c60b325e0ddd1c5ab85ef7c51a66d251" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="pgm_a0603.u9" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_ph77.rom" offset="0x0" size="0x800000" crc="d6438e91" sha1="34afcc219f1cec19293c4d1af5d8d0512e305166" />
+		<rom name="pgm_b0601.u7" offset="0x800000" size="0x400000" crc="a0bb1c2f" sha1="0542348c6e27779e0a98de16f04f9c18158f2b28" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_ph77.rom" offset="0x180000" size="0x800000" crc="e7d4d577" sha1="900796b2c88ac8d9e454380d17c811d37243452d" />
+		</dataarea>
+	</part>
+</software>
