@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="rallyx" description="Rallyx cartridges">
+<software name="nrallyv">
+	<description>New Rally X (Vertical Screen)</description>
+	<year>1981</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="nrallyx.1b" offset="0x0" size="0x1000" crc="9404c8d6" sha1="ee7e45c22a2fbf72d3ac5ac26ab1111a22623fc5" />
+		<rom name="nrallyx.1e" offset="0x1000" size="0x1000" crc="ac01bf3f" sha1="8e1a7cce92ef709d18727db6ee7f89936f4b8df8" />
+		<rom name="nrallyx.1h" offset="0x2000" size="0x1000" crc="aeba29b5" sha1="2a6e4568729b83c430bf70e43c4146ad6a556b1b" />
+		<rom name="nrallyx.1k" offset="0x3000" size="0x1000" crc="78f17da7" sha1="1e035746a10f91e898166a58093d45bdb158ae47" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="nrallyv.8e" offset="0x0" size="0x1000" crc="031acfc5" sha1="7e0df966b7f2be416e22ec2c36bb86425138c203" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x100">
+		<rom name="rx1-6.8m" offset="0x0" size="0x100" crc="3c16f62c" sha1="7a3800be410e306cf85753b9953ffc5575afbcd6" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="nrallyv.spr" offset="0x0" size="0x100" crc="b75c4e87" sha1="450f79a5ae09e34f7624d37769815baf93c0028e" />
+		<rom name="rx1-4.2m" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="nrx1-1.11n" offset="0x0" size="0x20" crc="a0a49017" sha1="494c920a157e9f876d533c1b0146275a366c4989" />
+		<rom name="nrallyv.pr2" offset="0x20" size="0x100" crc="b2b7ca15" sha1="e604d58f2f20ebf042f28b01e74eddeacf5baba9" />
+		</dataarea>
+	</part>
+</software>
+<software name="rxtron">
+	<description>Rally-X Tron</description>
+	<year>1998</year>
+	<publisher>Jerky and Sil</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="1b" offset="0x0" size="0x1000" crc="5882700d" sha1="b6029e9730f1694894fe8b729ac0ba8d6712dea9" />
+		<rom name="rxtron.1e" offset="0x1000" size="0x1000" crc="8d5b88e5" sha1="95a8bde287325f88cfc7ce12ad900647831b861e" />
+		<rom name="rxtron.1h" offset="0x2000" size="0x1000" crc="1ecfddc0" sha1="e800a3bb0e2d35dbfba49c7724689d29ab1912fd" />
+		<rom name="rxtron.1k" offset="0x3000" size="0x1000" crc="2729e00a" sha1="1f3d17e8342d8a7db57d64fd890b70e64315752a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="rxtron.8e" offset="0x0" size="0x1000" crc="91538868" sha1="4ba04a56a6255895214bca1e0249e365b95f566d" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x100">
+		<rom name="rx1-6.8m" offset="0x0" size="0x100" crc="3c16f62c" sha1="7a3800be410e306cf85753b9953ffc5575afbcd6" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="rx1-5.3p" offset="0x0" size="0x100" crc="4bad7017" sha1="3e6da9d798f5e07fa18d6ce7d0b148be98c766d5" />
+		<rom name="rx1-4.2m" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="rx1-1.11n" offset="0x0" size="0x20" crc="c7865434" sha1="70c1c9610ba6f1ead77f347e7132958958bccb31" />
+		<rom name="rx1-7.8p" offset="0x20" size="0x100" crc="834d4fda" sha1="617864d3df0917a513e8255ad8d96ae7a04da5a1" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

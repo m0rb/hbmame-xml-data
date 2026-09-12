@@ -1,0 +1,20 @@
+<software name="astropd2">
+	<description>Astropede II</description>
+	<year>2002</year>
+	<publisher>Twisty</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="136001-307.d1" offset="0x2000" size="0x800" crc="5ab0d9de" sha1="8ea6e3304202831aabaf31dbd0f970a7b3bfe421" />
+		<rom name="136001-308.e1" offset="0x2800" size="0x800" crc="4c07fd3e" sha1="af4fdbf32c23b1864819d620a874e7f205da3cdb" />
+		<rom name="136001-309.fh1" offset="0x3000" size="0x800" crc="ff69b424" sha1="689fa560d40a384dcbcad7c8095bc12e91875580" />
+		<rom name="136001-310.j1" offset="0x3800" size="0x800" crc="44e40fa4" sha1="c557db83876afc8ab52047ab1a3c3bfef34d6351" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="astropd2.211" offset="0x0" size="0x800" crc="7bdb6861" sha1="38e3f1827687e8a93ad66f69bee5a34f5f553fa4" />
+		<rom name="astropd2.212" offset="0x800" size="0x800" crc="043f9810" sha1="954e55d6cc464f6f992f615b89b43d6cb29d35a9" />
+		</dataarea>
+		<dataarea name="proms" size="0x100">
+		<rom name="136001-213.p4" offset="0x0" size="0x100" crc="6fa3093a" sha1="2b7aeca74c1ae4156bf1878453a047330f96f0a8" />
+		</dataarea>
+	</part>
+</software>

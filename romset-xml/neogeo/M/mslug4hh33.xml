@@ -1,0 +1,24 @@
+<software name="mslug4hh33" cloneof="mslug4">
+	<description>Metal Slug 4 (Jump In Mid Air)</description>
+	<year>2002</year>
+	<publisher>DDJ</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="263hh33.p1" offset="0x0" size="0x100000" crc="414416d1" sha1="78d3f7bc4a5e603c8035a2c9ece3969f9ee1b567" />
+		<rom loadflag="load16_word_swap" name="263.p2" offset="0x100000" size="0x400000" crc="fdb7aed8" sha1="dbeaec38f44e58ffedba99e70fa1439c2bf0dfa3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="263.v1" offset="0x0" size="0x800000" crc="01e9b9cd" sha1="0b045c2999449f7dab5ae8a42e957d5b6650431e" />
+		<rom name="263.v2" offset="0x800000" size="0x800000" crc="4ab2bf81" sha1="77ccfa48f7e3daddef5fe5229a0093eb2f803742" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="263.c1" offset="0x0" size="0x800000" crc="84865f8a" sha1="34467ada896eb7c7ca58658bf2a932936d8b632c" />
+		<rom loadflag="load16_byte" name="263.c2" offset="0x1" size="0x800000" crc="81df97f2" sha1="2b74493b8ec8fd49216a627aeb3db493f76124e3" />
+		<rom loadflag="load16_byte" name="263.c3" offset="0x1000000" size="0x800000" crc="1a343323" sha1="bbbb5232bba538c277ce2ee02e2956ca2243b787" />
+		<rom loadflag="load16_byte" name="263.c4" offset="0x1000001" size="0x800000" crc="942cfb44" sha1="d9b46c71726383c4581fb042e63897e5a3c92d1b" />
+		<rom loadflag="load16_byte" name="263.c5" offset="0x2000000" size="0x800000" crc="a748854f" sha1="2611bbedf9b5d8e82c6b2c99b88f842c46434d41" />
+		<rom loadflag="load16_byte" name="263.c6" offset="0x2000001" size="0x800000" crc="5c8ba116" sha1="6034db09c8706d4ddbcefc053efbc47a0953eb92" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,15 @@
+<software name="armdemo">
+	<description>Demo - ARM</description>
+	<year>1990</year>
+	<publisher>Charles Doty</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x800000">
+		<rom loadflag="load32_byte" name="armdemo.01" offset="0x0" size="0x10000" crc="62b840be" sha1="148b30b1e851e1c012482dde27f4159d1ac56a15" />
+		<rom loadflag="load32_byte" name="armdemo.02" offset="0x1" size="0x10000" crc="78d41ef7" sha1="db7b33e91507314371e6b21a5b92bc259dc06559" />
+		<rom loadflag="load32_byte" name="armdemo.03" offset="0x2" size="0x10000" crc="efd0057f" sha1="61baccc350623aca6d8b940816459372368c31ef" />
+		<rom loadflag="load32_byte" name="armdemo.04" offset="0x3" size="0x10000" crc="55eb17b2" sha1="c55614124214a0ad5617bfbab419f340ee48e6ed" />
+		</dataarea>
+		<dataarea name="vram" size="0x200000">
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,20 @@
+<software name="sfz3mix28" cloneof="sfa3">
+	<description>Street Fighter Zero 3 (Turbo Mix 0.28)</description>
+	<year>2024</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom name="sfz3mix28.p1" offset="0x0" size="0x600000" crc="3a39b20a" sha1="86de016f23abbbc8220d53fe19e8955138194aa4" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x80000">
+		<rom name="sfz3mix23.m1" offset="0x0" size="0x80000" crc="c6322d7b" sha1="0530f0d7c248180478ff588397263d961b8c5c8b" />
+		</dataarea>
+		<dataarea name="gfx" size="0x4000000">
+		<rom name="sfz3mix28.c1" offset="0x0" size="0x2000000" crc="bebc6a92" sha1="46484d02228bd8566f9c48c067125c364bfdb8d1" />
+		<rom name="sfz3mix23.c2" offset="0x2000000" size="0x2000000" crc="cbc02909" sha1="a3bcf2f7a2d4139024790d55e4ab5a156b36e6e3" />
+		</dataarea>
+		<dataarea name="qsound" size="0x1000000">
+		<rom name="sfz3mix23.q1" offset="0x0" size="0x1000000" crc="180cbe91" sha1="182b56517606f8a9bde0f643fcc3b164f18136f7" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,21 @@
+<software name="ramokromok">
+	<description>RAM OK ROM OK (Galaxian hardware demo)</description>
+	<year>2023</year>
+	<publisher>Ben Larson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x4000">
+		<rom name="rr.u" offset="0x0" size="0x800" crc="bc2c1a30" sha1="850cf4709b8c9e016ff9c148f64bc8a5ddfa02d7" />
+		<rom name="rr.v" offset="0x800" size="0x800" crc="b9ef4fae" sha1="9d5be6f12f768ebf5f2bbf7477bd6528e1f7faf3" />
+		<rom name="rr.w" offset="0x1000" size="0x800" crc="cf81c756" sha1="b22234f3f08e7c6768a1bfbe75fb14b9bd704229" />
+		<rom name="rr.y" offset="0x1800" size="0x800" crc="76f4040d" sha1="be95ff6a103efb7e933bade442b9e2d3860afe9e" />
+		<rom name="rr.7l" offset="0x2000" size="0x800" crc="dcea5513" sha1="d9d1d50fea4f2d06f0ee9a2183a38b906dc36c14" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="rr.1h" offset="0x0" size="0x800" crc="15988db6" sha1="0eedf35fdb576680533d1bcb0d5658970b87412c" />
+		<rom name="rr.1k" offset="0x800" size="0x800" crc="bad7ec8e" sha1="432f5ee714765a367aeaf163a1d5db8483fcced9" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>

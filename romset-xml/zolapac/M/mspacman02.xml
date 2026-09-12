@@ -1,0 +1,19 @@
+<software name="mspacman02" cloneof="mspacman">
+	<description>Ms Pacman (Fast)</description>
+	<year>2017</year>
+	<publisher>Mameplus</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="robot.1" offset="0x0" size="0x1000" crc="8c5d136a" sha1="5356dec1026dc2beaae57152312b1b0bcaf9fa26" />
+		<rom name="fastplus.2" offset="0x1000" size="0x1000" crc="a8d6c227" sha1="b5891f911bb054ca2547e663a3c27c93897f2075" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="s01.4" offset="0x3000" size="0x1000" crc="0127cbb5" sha1="920ed77f2fe0d962965c1269d4b2ec1e096e5c10" />
+		<rom name="boot5" offset="0x8000" size="0x1000" crc="8c3e6de6" sha1="fed6e9a2b210b07e7189a18574f6b8c4ec5bb49b" />
+		<rom name="s01.6" offset="0x9000" size="0x1000" crc="b1ad3a59" sha1="6153d39917f0cfa13fe5e15198d360c2dbe5914d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="s01.5e" offset="0x0" size="0x1000" crc="73cb7028" sha1="44c3e7de28dd04d2b08fd21d20e91e73a4781f87" />
+		<rom name="s01.5f" offset="0x1000" size="0x1000" crc="38506811" sha1="7471bfab185141718f6e5f684538bd45c5acd3b8" />
+		</dataarea>
+	</part>
+</software>

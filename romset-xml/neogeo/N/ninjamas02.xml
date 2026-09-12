@@ -1,0 +1,26 @@
+<software name="ninjamas02" cloneof="ninjamas">
+	<description>Ninja Master&#x27;s (Command Change V1)</description>
+	<year>1996</year>
+	<publisher>007325</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x300000">
+		<rom loadflag="load16_word_swap" name="217s02.p1" offset="0x0" size="0x100000" crc="4a39ded2" sha1="f761d56acbcc04b2395dda43af8f277d4673b48a" />
+		<rom loadflag="load16_word_swap" name="217.p2" offset="0x100000" size="0x200000" crc="191fca88" sha1="e318e5931704779bbe461719a5eeeba89bd83a5d" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x600000">
+		<rom name="217.v1" offset="0x0" size="0x400000" crc="1c34e013" sha1="5368e413d2188c4fd063b6bb7d5f498ff83ea812" />
+		<rom name="217.v2" offset="0x400000" size="0x200000" crc="22f1c681" sha1="09da03b2e63d180e55173ff25e8735c4162f027b" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="217.c1" offset="0x0" size="0x400000" crc="5fe97bc4" sha1="d76c955d83baa2b9fd24222a9b2852947b7b92f0" />
+		<rom loadflag="load16_byte" name="217.c2" offset="0x1" size="0x400000" crc="886e0d66" sha1="d407e1525e4ebe996e14f6e5c0396a10f736a50d" />
+		<rom loadflag="load16_byte" name="217.c3" offset="0x800000" size="0x400000" crc="59e8525f" sha1="19f602c71545d6c021dc72e112d3a8b8efe7a9b7" />
+		<rom loadflag="load16_byte" name="217.c4" offset="0x800001" size="0x400000" crc="8521add2" sha1="0d1a6f2979302c4c282e31ff334d2d887aec74f7" />
+		<rom loadflag="load16_byte" name="217.c5" offset="0x1000000" size="0x400000" crc="fb1896e5" sha1="777a8caa9ebdbddf89e3d5ab650c94a55228ce54" />
+		<rom loadflag="load16_byte" name="217.c6" offset="0x1000001" size="0x400000" crc="1c98c54b" sha1="cb1cad161d9b9f2f5a7cf8ae4d6d35b51acf90f5" />
+		<rom loadflag="load16_byte" name="217.c7" offset="0x1800000" size="0x400000" crc="8b0ede2e" sha1="ea632ac98291ddac95441b7fe2349974b2da8a42" />
+		<rom loadflag="load16_byte" name="217.c8" offset="0x1800001" size="0x400000" crc="a085bb61" sha1="6a3e9e6ba96072b8849b407f2b24103dc0852259" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,26 @@
+<software name="sfz2ald" cloneof="sfz2al">
+	<description>Street Fighter Zero 2 Alpha (Asia 960826 Phoenix Edition) (bootleg)</description>
+	<year>1996</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c67d.p1" offset="0x0" size="0x80000" crc="89f9483b" sha1="5da4f82ddc79d9b5697ba2fea96dcaf460118248" />
+		<rom loadflag="load16_word_swap" name="c67d.p2" offset="0x80000" size="0x80000" crc="aef27ae5" sha1="5877a05e7355195d686a4d0a97062aacbd3277ee" />
+		<rom loadflag="load16_word_swap" name="c67.p3" offset="0x100000" size="0x80000" crc="f053a55e" sha1="f98a8af5cd33a543a5596d59381f9adafed38854" />
+		<rom loadflag="load16_word_swap" name="c67.p4" offset="0x180000" size="0x80000" crc="cfc0e7a8" sha1="31ed58451c7a6ac88a8fccab369167694698f044" />
+		<rom loadflag="load16_word_swap" name="c67.p5" offset="0x200000" size="0x80000" crc="5feb8b20" sha1="13c79c9b72c3abf0a0b75d507d91ece71e460c06" />
+		<rom loadflag="load16_word_swap" name="c67.p6" offset="0x280000" size="0x80000" crc="6eb6d412" sha1="c858fec9c1dfea70dfcca629c1c24306f8ae6d81" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c64.m1" offset="0x0" size="0x8000" crc="1bc323cf" sha1="83fbd6e9b327700dc9f1c59700b7385bc3705749" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c64.m2" offset="0x28000" size="0x20000" crc="ba6a5013" sha1="7814f3e56b69529b9860dd61c3b1e8d700244b03" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c64.q1" offset="0x0" size="0x200000" crc="aa47a601" sha1="a4d1ee89c84a3b9db06469bb66e85293b5aa9ac9" />
+		<rom loadflag="load16_word_swap" name="c64.q2" offset="0x200000" size="0x200000" crc="2237bc53" sha1="96d5693047e4cf1ed10a8ee1905cea267a278e92" />
+		</dataarea>
+	</part>
+</software>

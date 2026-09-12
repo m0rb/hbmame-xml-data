@@ -1,0 +1,21 @@
+<software name="galaxian05" cloneof="galnamco">
+	<description>Galaxian (Kyodo)</description>
+	<year>1979</year>
+	<publisher>Kyodo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="galaxian05.u" offset="0x0" size="0x800" crc="acfde501" sha1="4b72c1ffecaccadc541da2367f3ef70a2a9aed64" />
+		<rom name="galakian05.v" offset="0x800" size="0x800" crc="65cf3c77" sha1="1c5249815816b395e1e04bf6a7dbb63e40faa0e3" />
+		<rom name="galaxian05.w" offset="0x1000" size="0x800" crc="9eef9ae6" sha1="b2282e4edb8911e6aabfa936c3526f90381e1320" />
+		<rom name="galaxian05.y" offset="0x1800" size="0x800" crc="56a5ddd1" sha1="1f87f647ebdffba28d5957f195448f6bce17f4d5" />
+		<rom name="galaxian05.z" offset="0x2000" size="0x800" crc="f4bc7262" sha1="c4b70e474d49f45cec96f7c250bd77e01e18601a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="galaxian05.1h" offset="0x0" size="0x800" crc="66a4335d" sha1="0527a9ea99e525b3ba25c172034a61cde9307a9b" />
+		<rom name="galaxian05.1k" offset="0x800" size="0x800" crc="2160265b" sha1="97385e9c8012bc7fe85e29cfccefda72e4ca3320" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>

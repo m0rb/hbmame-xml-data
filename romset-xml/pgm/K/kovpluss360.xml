@@ -1,0 +1,26 @@
+<software name="kovpluss360" cloneof="kovplus">
+	<description>Knights of Valour Plus 2012 (Nightmare Ares 2019-04-16)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po124.rom" offset="0x100000" size="0x200000" crc="89b79e94" sha1="220ed08ec4b580275410cc6239dc75d94bd2811d" />
+		<rom loadflag="load16_word_swap" name="p0601h_101_po124.rom" offset="0x300000" size="0x200000" crc="9697e436" sha1="9b53cfb3e0ef86d3b36f9538bf3bc49c42703ef7" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u3" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x4000000">
+		<rom name="a0600_po124.rom" offset="0x0" size="0x1c00000" crc="96dd05b7" sha1="9224bcfa2c1c0517f0e7654dd4a777b543362884" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x2000000">
+		<rom name="b0600_po124.rom" offset="0x0" size="0xc00000" crc="75ef71a8" sha1="1dc6486ccb8ddf3890c534905953a716d7100c58" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_ph19.rom" offset="0x180000" size="0x800000" crc="a51f6c60" sha1="e2c184d6e4bb1e6fc02ee2e5953693c7461746be" />
+		</dataarea>
+	</part>
+</software>

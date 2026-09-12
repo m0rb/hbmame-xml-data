@@ -1,0 +1,28 @@
+<software name="kof99s093" cloneof="kof99">
+	<description>Kof&#x27;99 (Remix Pro 2.00f)</description>
+	<year>1999</year>
+	<publisher>Raymonose &amp; Raymonose, Jasonly, Eddids, Andy chan, Hiker</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="251fc2.p1" offset="0x0" size="0x100000" crc="7f14f664" sha1="0f17b6fbe919b78f63de4e10fc95c6e7e688206d" />
+		<rom loadflag="load16_word_swap" name="251fc.p2" offset="0x100000" size="0x400000" crc="01e111b3" sha1="4ae2fbd552246779146684d2191a7bc9a3554c59" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xe00000">
+		<rom name="251.v1" offset="0x0" size="0x400000" crc="ef2eecc8" sha1="8ed13b9db92dba3124bc5ba66e3e275885ece24a" />
+		<rom name="251.v2" offset="0x400000" size="0x400000" crc="73e211ca" sha1="0e60fa64cab6255d9721e2b4bc22e3de64c874c5" />
+		<rom name="251s016.v3" offset="0x800000" size="0x400000" crc="403628da" sha1="e9fddfbedfdb70ba345820d95b154c1c73101a1c" />
+		<rom name="251.v4" offset="0xc00000" size="0x200000" crc="b49e6178" sha1="dde6f76e958841e8c99b693e13ced9aa9ef316dc" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="251s093.c1" offset="0x0" size="0x800000" crc="39fbe868" sha1="6207a11f53dfd1253d5f4e09de7e6399fbc00cb1" />
+		<rom loadflag="load16_byte" name="251s093.c2" offset="0x1" size="0x800000" crc="ef461a92" sha1="96dbf00b283630a9f4bc4ce1998f1e68c5c021e8" />
+		<rom loadflag="load16_byte" name="251s093.c3" offset="0x1000000" size="0x800000" crc="c79dfe9d" sha1="d0cdc2d6de828bd01c56b26a81a3f21c61ecf5f5" />
+		<rom loadflag="load16_byte" name="251s093.c4" offset="0x1000001" size="0x800000" crc="24907843" sha1="af11409ac8cffc499a87f3e5962a73b1780f6f89" />
+		<rom loadflag="load16_byte" name="251s093.c5" offset="0x2000000" size="0x800000" crc="3192738e" sha1="73ac21770606f65b8e62a23c263bef6f61dbaaf4" />
+		<rom loadflag="load16_byte" name="251s093.c6" offset="0x2000001" size="0x800000" crc="0c9f4912" sha1="74fd7d24f1ddae4b087c6ef790fed2db8dba1b6f" />
+		<rom loadflag="load16_byte" name="251s093.c7" offset="0x3000000" size="0x800000" crc="54bc5d03" sha1="bd27254cbc5c19247cef2ff84ef52561dc35007d" />
+		<rom loadflag="load16_byte" name="251s093.c8" offset="0x3000001" size="0x800000" crc="4943a1c3" sha1="40ed95a443ebf626c599118daa7c35da29aba489" />
+		</dataarea>
+	</part>
+</software>

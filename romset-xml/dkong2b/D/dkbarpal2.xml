@@ -1,0 +1,32 @@
+<software name="dkbarpal2" cloneof="dkong">
+	<description>Donkey Kong Barrelpalooza (2020-11-03)</description>
+	<year>2020</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkbarpal2.5at" offset="0x3000" size="0x1000" crc="c216f65b" sha1="96910744a61b5dd85814af56673cc7ffa3443b15" />
+		<rom name="dkbarpal2.5bt" offset="0x2000" size="0x1000" crc="ae1057f2" sha1="2665c1a5ba2a85832ebbf06ab0893192eb858473" />
+		<rom name="dkbarpal2.5ct" offset="0x1000" size="0x1000" crc="bb94a16b" sha1="433d6f3a42c766cbf478c297c7d6025c738ffda6" />
+		<rom name="dkbarpal2.5et" offset="0x0" size="0x1000" crc="4621e696" sha1="bb61a347a157a668950fbf2f61950717ac1cc77a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkbarpal2.3pt" offset="0x800" size="0x800" crc="b0cd1e84" sha1="16f8404114e3f62e0789819f6a65f34189b595bc" />
+		<rom name="dkbarpal2.5h" offset="0x0" size="0x800" crc="caf8820b" sha1="b3e5768bd19c16510d05cd9d5d7ad72e05d08a8c" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkbarpal2.4m" offset="0x0" size="0x800" crc="1b46aae1" sha1="f08c57f2c85df81180444cab76acb4f367d71619" />
+		<rom name="dkbarpal2.4n" offset="0x800" size="0x800" crc="fbaaa6f0" sha1="e61e92418270fb81d9fd33da0a92970d458f69e4" />
+		<rom name="dkbarpal2.4r" offset="0x1000" size="0x800" crc="919362a0" sha1="5df953cded45ad55ba2bbd5f6d5c7e4577dcaa5f" />
+		<rom name="dkbarpal2.4s" offset="0x1800" size="0x800" crc="d57098ca" sha1="b746b0e137844e0e1cb715df065bbf7a3246f2e9" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkbarpal2.2j" offset="0x100" size="0x100" crc="4a7a511b" sha1="c0d3ee62e5f6e22d24603ab24403b206d043956f" />
+		<rom name="dkbarpal2.2k" offset="0x0" size="0x100" crc="4826ce71" sha1="5fe7d63ce7adece81ab8930196434410fbe4e241" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>

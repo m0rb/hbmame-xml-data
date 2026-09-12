@@ -1,0 +1,16 @@
+<software name="pc_smb_ps58" cloneof="pc_smb">
+	<description>Super Mario Bros. (Super Catholic Bros, 2015-09-20)(PlayChoice-10)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps58" offset="0x0" size="0x2000" crc="b7e74b76" sha1="49d13b90c93cd0700c510a1314858218a1ffa29a" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps58" offset="0x0" size="0x8000" crc="f6844d13" sha1="ea65580e42de7226eec3ee75621bb73e6f9f199f" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

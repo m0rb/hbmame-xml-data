@@ -1,0 +1,32 @@
+<software name="kovshs120" cloneof="kovsh">
+	<description>Knights of Valour Super Heroes (The Legend of Ares 2019 2019-08-03)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_pw120.322" offset="0x100000" size="0x200000" crc="53eaa0c6" sha1="e91353361aa6091aa8f3cf7d04f3d6b8bca688eb" />
+		<rom loadflag="load16_word_swap" name="p0601_pw120.322" offset="0x300000" size="0x200000" crc="d0725ac0" sha1="31b8caaa84bb977b2bca3ee2bf4cb6a4b02852e2" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600_ph259.rom" offset="0x400000" size="0x400000" crc="7a50501b" sha1="1af6be69f3133ed56d4a132a1910cf562da83dac" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.asic" offset="0x0" size="0x4000" crc="0f09a5c1" sha1="621b38c05f33277608d58b49822aebc930ae4870" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="pgm_a0600.u1" offset="0x0" size="0x800000" crc="d8167834" sha1="fa55a99629d03b2ea253392352f70d2c8639a991" />
+		<rom name="pgm_a0601.u3" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u5" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="pgm_a0613.u7" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		<rom name="pgm_a0604_v200.u9" offset="0x1a00000" size="0x400000" crc="26b59fd3" sha1="53219376056f4766dc5236735599d982ceb56b84" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b0600.u6" offset="0x0" size="0x800000" crc="7d3cd059" sha1="00cf994b63337e0e4ebe96453daf45f24192af1c" />
+		<rom name="b0601_ph177.rom" offset="0x800000" size="0x400000" crc="f43e4276" sha1="b0ad317f70681e4300228f34bb8f4bead50111ea" />
+		<rom name="pgm_b0602_v200.u10" offset="0xc00000" size="0x100000" crc="9df77934" sha1="99a3fe337c13702c9aa2373bcd1bb1befd0e2a13" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_pw122.rom" offset="0x180000" size="0x800000" crc="355eb28d" sha1="dd3aa7b7d8d7d7ffa631a63eecd33173cad5fe6f" />
+		</dataarea>
+	</part>
+</software>

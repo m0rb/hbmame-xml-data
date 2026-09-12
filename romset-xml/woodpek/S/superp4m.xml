@@ -1,0 +1,19 @@
+<software name="superp4m" cloneof="mspacman">
+	<description>Otto Project P4M</description>
+	<year>2014</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="superp4m.1" offset="0x0" size="0x1000" crc="9caaac56" sha1="8858e4e9d7e3b9a1cd55f6bff1b9766b13fd9b8b" />
+		<rom name="superp4g.2" offset="0x1000" size="0x1000" crc="e6886710" sha1="63207a2487a334e8de51ccede03b6d50e84e071a" />
+		<rom name="superp4g.3" offset="0x2000" size="0x1000" crc="c76dd2e6" sha1="3172733cab013945de5f1c79e0a829cacad224ab" />
+		<rom name="superp4g.4" offset="0x3000" size="0x1000" crc="ba5b054e" sha1="b7bb14167167c59ab9035539d5cf6338a10f00e0" />
+		<rom name="superp4m.5" offset="0x8000" size="0x1000" crc="c4b3240c" sha1="7839463d69c24d15ac4c4de199f2ba6ce1cfaad7" />
+		<rom name="boot6" offset="0x9000" size="0x1000" crc="368cb165" sha1="387010a0c76319a1eab61b54c9bcb5c66c4b67a1" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="superp4g.5e" offset="0x0" size="0x1000" crc="593576fe" sha1="238006f0d4fe6d478521a8d116f8d0679b502f6d" />
+		<rom name="superp4m.5f" offset="0x1000" size="0x1000" crc="9142e698" sha1="229cc0f45ef4dcc60f1e449d24881a0a13720972" />
+		</dataarea>
+	</part>
+</software>

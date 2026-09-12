@@ -1,0 +1,28 @@
+<software name="sfz3mix12" cloneof="sfa3">
+	<description>Street Fighter Zero 3 (Mix 0.12)</description>
+	<year>2022</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c78mix12.p1" offset="0x0" size="0x80000" crc="4eee8312" sha1="0e439d21690125cc33151c51d71892bcf4babf55" />
+		<rom loadflag="load16_word_swap" name="c78mix12.p2" offset="0x80000" size="0x80000" crc="3f6bac25" sha1="e8439bffa1a2a8a058e2fb98bd433a484ef346dc" />
+		<rom loadflag="load16_word_swap" name="c78mix12.p3" offset="0x100000" size="0x80000" crc="4314b417" sha1="e7212535b5e60e049a162590f4c32143b93d190e" />
+		<rom loadflag="load16_word_swap" name="c78mix12.p4" offset="0x180000" size="0x80000" crc="b15a331c" sha1="94b53aa28f19139ec192f19256b65b8fb2d0271c" />
+		<rom loadflag="load16_word_swap" name="c78mix12.p5" offset="0x200000" size="0x80000" crc="505ea66f" sha1="037fddfaa65af1bbbc221300c8816a888b752a33" />
+		<rom loadflag="load16_word_swap" name="c78mix12.p6" offset="0x280000" size="0x80000" crc="c9661960" sha1="49879dbde4b9298ec1ca919ecaef243d311e142b" />
+		<rom loadflag="load16_word_swap" name="c78mix12.p7" offset="0x300000" size="0x80000" crc="7a5a0d3c" sha1="4c9eb75c4b555a37e39d67c1318f4735bf7702f7" />
+		<rom loadflag="load16_word_swap" name="c78mix12.p8" offset="0x380000" size="0x80000" crc="07286674" sha1="0c8aefd7380e03972eced07fffb4f569a3631057" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c78mix12.m1" offset="0x0" size="0x8000" crc="85143fac" sha1="65561f11780d5b5cd92783b5bf1bfa02bbfa7e10" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c78mix12.m2" offset="0x28000" size="0x20000" crc="b0f7dd76" sha1="4debfb4d1a3880d0679e3d035c74cceecab45d93" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c78.q1" offset="0x0" size="0x400000" crc="1c89eed1" sha1="649a0b0a3eb72e2e69e9fb1ac51a58b70daa39f3" />
+		<rom loadflag="load16_word_swap" name="c78.q2" offset="0x400000" size="0x400000" crc="f392b13a" sha1="fa04ce0370144a49bd1d5acd873eef87b0dc9d15" />
+		</dataarea>
+	</part>
+</software>

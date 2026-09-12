@@ -1,0 +1,28 @@
+<software name="kof2k4se40" cloneof="kof2k4se">
+	<description>Kof Special Edition 2004 (Remix Ultra v2.6F)</description>
+	<year>2010</year>
+	<publisher>MVS Hacks PSP</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="365s40.p1" offset="0x0" size="0x100000" crc="69100ad2" sha1="36a818fb6fbe8433df89187dcf171058128f4f22" />
+		<rom loadflag="load16_word_swap" name="365s40.p2" offset="0x100000" size="0x400000" crc="c6b895e0" sha1="e0080f4bb268253f0605a48c361b6c8088e173b7" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="265sm.v1" offset="0x0" size="0x400000" crc="8991f6e9" sha1="ce5afc0169c142d7f98111afbc60b3a9a2e17256" />
+		<rom name="265sm.v2" offset="0x400000" size="0x400000" crc="511e4d2f" sha1="28190ec86ac2169ab6fad80635ed13cfcf430c65" />
+		<rom name="265sm.v3" offset="0x800000" size="0x400000" crc="1dd8b53a" sha1="9aa84f145ba07f5f3c3b3fb682eb8a8ab1500b4c" />
+		<rom name="265sm.v4" offset="0xc00000" size="0x400000" crc="63bb5462" sha1="afc6a085e25bd006f26e16beda4244bc8bc19bb8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="365s40.c1" offset="0x0" size="0x800000" crc="c55d7733" sha1="3837f178788c78dcf7b0a4fbab3d62bfe0b41f9a" />
+		<rom loadflag="load16_byte" name="365s40.c2" offset="0x1" size="0x800000" crc="d89b45c9" sha1="31d7ad16534839821f68db07b28dd564fe5c13c3" />
+		<rom loadflag="load16_byte" name="265ori.c3" offset="0x1000000" size="0x800000" crc="e5074eea" sha1="387ef21d58b416126b95843bac1a0b6cc346818f" />
+		<rom loadflag="load16_byte" name="265ori.c4" offset="0x1000001" size="0x800000" crc="f6eb1ff2" sha1="77cb493b9e75d42c204a9a6c052a813c2730e44f" />
+		<rom loadflag="load16_byte" name="265s202.c5" offset="0x2000000" size="0x800000" crc="11126545" sha1="4ae58848c8a6701c9cfcd60e6674e8fb7491c0c0" />
+		<rom loadflag="load16_byte" name="265s202.c6" offset="0x2000001" size="0x800000" crc="d225bb9b" sha1="ee627dab6aeebfb1af9dbdc315a927245243817c" />
+		<rom loadflag="load16_byte" name="365s40.c7" offset="0x3000000" size="0x800000" crc="750a7a2b" sha1="3ef7688eedc3fcb9cef55306055b838f60a96285" />
+		<rom loadflag="load16_byte" name="365s40.c8" offset="0x3000001" size="0x800000" crc="aa21b917" sha1="12f256f2a54246b1ed604ae4dcaa1af6e48a7b1f" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,26 @@
+<software name="kovshp188" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (God of War, 2020-07-10)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po188.rom" offset="0x100000" size="0x200000" crc="6f2a7954" sha1="4dc2f28d76d890d7fb0da2b895238d7493ac800e" />
+		<rom loadflag="load16_word_swap" name="p0601h_101_po188.rom" offset="0x300000" size="0x200000" crc="02ee468a" sha1="9ab2db0d31dee0b14ad7ade5324fb0f25bcb3f80" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600_po69.rom" offset="0x400000" size="0x400000" crc="ec3f335d" sha1="f81e2238eae4bb5154afa28ff07e69b8f10c5ee2" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0600_pw111.rom" offset="0x180000" size="0x800000" crc="de7fdc0c" sha1="67cf82401d44336ea6b41fb60eb36028d0236a7d" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_po128.rom" offset="0x0" size="0x2000000" crc="92444dcd" sha1="0c10f5d2e6f4a58c647153df535756b08e47e0d9" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_po128.rom" offset="0x0" size="0x1000000" crc="5d5d9512" sha1="212620d0156ce3daed88a62f0cd941d6cad31ee9" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_po14.asic" offset="0x0" size="0x4000" crc="0d87d4a1" sha1="bc981c20da426143c5e49d9fadf680b185002dd1" />
+		</dataarea>
+	</part>
+</software>

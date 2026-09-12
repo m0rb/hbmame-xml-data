@@ -1,0 +1,15 @@
+<software name="neo2500">
+	<description>Neo 2500 Demo</description>
+	<year>2004</year>
+	<publisher>Blastar</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="607.p1" offset="0x0" size="0x80000" crc="2321c0d8" sha1="e0d535af20f271794dc14c83ff3ffbc1f6bf98d9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="607.c1" offset="0x0" size="0x80000" crc="8c304b56" sha1="f99298b7942c0bafb6b8038b2ac3b80b75034e34" />
+		<rom loadflag="load16_byte" name="607.c2" offset="0x1" size="0x80000" crc="9a0758d6" sha1="ac1c147fe55c80082c9a68a86c30b516ff086cc4" />
+		</dataarea>
+	</part>
+</software>

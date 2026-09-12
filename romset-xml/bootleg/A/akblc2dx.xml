@@ -1,0 +1,20 @@
+<software name="akblc2dx" cloneof="arkanoid">
+	<description>Block Deluxe (Game Corporation)</description>
+	<year>2000</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="akblc2dx.bin" offset="0x0" size="0x10000" crc="e8ca9820" sha1="ac97ebf285d1b8dd216dfc7024f7630fceac50b6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x18000">
+		<rom name="a75-03.ic64" offset="0x0" size="0x8000" crc="038b74ba" sha1="ac053cc4908b4075f918748b89570e07a0ba5116" />
+		<rom name="a75-04.ic63" offset="0x8000" size="0x8000" crc="71fae199" sha1="5d253c46ccf4cd2976a5fb8b8713f0f345443d06" />
+		<rom name="a75-05.ic62" offset="0x10000" size="0x8000" crc="c76374e2" sha1="7520dd48de20db60a2038f134dcaa454988e7874" />
+		</dataarea>
+		<dataarea name="proms" size="0x600">
+		<rom name="a75-07.ic24" offset="0x0" size="0x200" crc="0af8b289" sha1="6bc589e8a609b4cf450aebedc8ce02d5d45c970f" />
+		<rom name="a75-08.ic23" offset="0x200" size="0x200" crc="abb002fb" sha1="c14f56b8ef103600862e7930709d293b0aa97a73" />
+		<rom name="a75-09.ic22" offset="0x400" size="0x200" crc="a7c6c277" sha1="adaa003dcd981576ea1cc5f697d709b2d6b2ea29" />
+		</dataarea>
+	</part>
+</software>

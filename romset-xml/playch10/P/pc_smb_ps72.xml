@@ -1,0 +1,16 @@
+<software name="pc_smb_ps72" cloneof="pc_smb">
+	<description>Super Mario Bros. (Yoona(cu)Hard, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps72" offset="0x0" size="0x2000" crc="fc5cd67e" sha1="3923b3498b93c028ec5b0babe58af7de5ef11c37" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps72" offset="0x0" size="0x8000" crc="a4956d9a" sha1="69f1b70ad797e923b94a8a6b24673a7a565508f2" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,26 @@
+<software name="galaxian03" cloneof="galnamco">
+	<description>Andromeda</description>
+	<year>1979</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="and01" offset="0x0" size="0x400" crc="a0059ddd" sha1="06bc3bd5eef9fea9e038ec08e5a228ab19f31a56" />
+		<rom name="and02" offset="0x400" size="0x400" crc="da6421b8" sha1="d3099d94d722e3e12ade712842261aac8b45f9f4" />
+		<rom name="and03" offset="0x800" size="0x400" crc="30e28016" sha1="07a621e5061d85a9559a920d76716ea4db61b674" />
+		<rom name="and04" offset="0xc00" size="0x400" crc="de7e7770" sha1="b06043a1d898eb323ddabffd3d2a3b1f63df0e5e" />
+		<rom name="and05" offset="0x1000" size="0x400" crc="a916c919" sha1="b3e264ff92687022a0f2f551d5df36db848b48eb" />
+		<rom name="and06" offset="0x1400" size="0x400" crc="9175882b" sha1="d9943efcb9245af7f01aecc533a699bdefc7d283" />
+		<rom name="and07" offset="0x1800" size="0x400" crc="1237b9da" sha1="00e11532c599fca452a816683b361a24476b7100" />
+		<rom name="and08" offset="0x1c00" size="0x400" crc="8b181929" sha1="c7e789d1a76e8db0251ac4c75aa85f0a4259fc81" />
+		<rom name="and09" offset="0x2000" size="0x400" crc="17fd5357" sha1="abda92319f6851232a0dd26229fc55cf6d8361d8" />
+		<rom name="and10" offset="0x2400" size="0x400" crc="3032821c" sha1="7ff45a9ddd86e77a550b10148147f44c4c934467" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="1h.bin" offset="0x0" size="0x800" crc="39fb43a4" sha1="4755609bd974976f04855d51e08ec0d62ab4bc07" />
+		<rom name="1k.bin" offset="0x800" size="0x800" crc="7e3f56a2" sha1="a9795d8b7388f404f3b0e2c6ce15d713a4c5bafa" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>

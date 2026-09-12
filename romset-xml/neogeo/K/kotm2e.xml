@@ -1,0 +1,26 @@
+<software name="kotm2e" cloneof="kotm2">
+	<description>King of the Monsters 2 - The Next Thing (Earlier)</description>
+	<year>1992</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="039.p1" offset="0x0" size="0x80000" crc="b372d54c" sha1="b70fc6f72e16a66b6e144cc01370548e3398b8b8" />
+		<rom loadflag="load16_word_swap" name="039.p2" offset="0x80000" size="0x80000" crc="28661afe" sha1="6c85ff6ab334b1ca744f726f42dac211537e7315" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x300000">
+		<rom name="039.v2" offset="0x0" size="0x200000" crc="86d34b25" sha1="89bdb614b0c63d678962da52e2f596750d20828c" />
+		<rom name="039.v4" offset="0x200000" size="0x100000" crc="8fa62a0b" sha1="58ac2fdd73c542eb8178cfc4adfa0e5940183283" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="039.c1" offset="0x0" size="0x100000" crc="6d1c4aa9" sha1="4fbc9d7cb37522ec298eefbe38c75a2d050fbb4a" />
+		<rom loadflag="continue" offset="0x400000" size="0x100000" />
+		<rom loadflag="load16_byte" name="039.c2" offset="0x1" size="0x100000" crc="f7b75337" sha1="4d85f85948c3e6ed38b0b0ccda79de3ce026e2d9" />
+		<rom loadflag="continue" offset="0x400001" size="0x100000" />
+		<rom loadflag="load16_byte" name="039e.c3" offset="0x200000" size="0x100000" crc="40156dca" sha1="909b04757f1b90f225dde3a4c65c6a7d3e0d7289" />
+		<rom loadflag="continue" offset="0x600000" size="0x100000" />
+		<rom loadflag="load16_byte" name="039e.c4" offset="0x200001" size="0x100000" crc="b0d44111" sha1="9ef02149c87aeeb9fca611e57139e3ccf9ae72cd" />
+		<rom loadflag="continue" offset="0x600001" size="0x100000" />
+		</dataarea>
+	</part>
+</software>

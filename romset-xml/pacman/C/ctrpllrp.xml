@@ -1,0 +1,23 @@
+<software name="ctrpllrp" cloneof="puckman">
+	<description>Caterpillar Pacman Hack</description>
+	<year>1982</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="hangly3.6e" offset="0x0" size="0x800" crc="9d027c4a" sha1="88e094880057451a75cdc2ce9477403021813982" />
+		<rom name="ctrpllrp.6k" offset="0x800" size="0x800" crc="f39846d3" sha1="bc1137a45898210523cf8da1e6a2425e7c322884" />
+		<rom name="ctrpllrp.6f" offset="0x1000" size="0x800" crc="afa149a8" sha1="207b842854ac9e015e12a2dae41105438cda1df9" />
+		<rom name="hangly2.6m" offset="0x1800" size="0x800" crc="baf5461e" sha1="754586a6449fd54a342f260e572c1cd60ab70815" />
+		<rom name="ctrpllrp.6h" offset="0x2000" size="0x800" crc="6bb282a1" sha1="a96f25dc0f49ebe7e528e3297a112d778c6c3030" />
+		<rom name="ctrpllrp.6n" offset="0x2800" size="0x800" crc="fa2140f5" sha1="123d31e653e8af78c6153702eca2e136c427ed64" />
+		<rom name="ctrpllrp.6j" offset="0x3000" size="0x800" crc="86c91e0e" sha1="52af6a3af5b1363859f790470ca5860ef2a08566" />
+		<rom name="ctrpllrp.6p" offset="0x3800" size="0x800" crc="3d28134e" sha1="45a257a0aca74e2ab36dd70097220d8be29cc87b" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="ctrpllrp.5e" offset="0x0" size="0x800" crc="1c4617be" sha1="2b2b10f1256b4612e3e01ed1c8e2d7ccb6989f5d" />
+		<rom name="ctrpllrp.5h" offset="0x800" size="0x800" crc="46f72fef" sha1="daf334c78fdb73d43d524b733b763b290c602ae2" />
+		<rom name="ctrpllrp.5f" offset="0x1000" size="0x800" crc="ba9ec199" sha1="626ab2eedf4c8d307dfad3b8863a67f8c34dda97" />
+		<rom name="ctrpllrp.5j" offset="0x1800" size="0x800" crc="41c09655" sha1="cc639e660443b9dcb33f9aefe9af5d332591c466" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,32 @@
+<software name="knightshb2" cloneof="knights">
+	<description>Knights of the Round (bootleg/set 2)</description>
+	<year>1991</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c18b2.p1" offset="0x0" size="0x80000" crc="95d00a7e" sha1="2da1c47aa15d44aa842a8d79e030e7e7b69bec19" />
+		<rom loadflag="load16_byte" name="c18b2.p2" offset="0x1" size="0x80000" crc="5a9d0b64" sha1="6ff312879c3d675ceee6fd3e262f797fabb9871e" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c18.m1" offset="0x0" size="0x8000" crc="5e44d9ee" sha1="47a7503321be8d52b5c44af838e3bb82ee15a415" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="knightsb2.key" offset="0x0" size="0x80" crc="67017a7f" sha1="d9db5b41b214539f71cc2f0d92a27285c27e38c4" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom loadflag="load16_word" name="c18.c01" offset="0x0" size="0x80000" crc="9e36c1a4" sha1="772daae74e119371dfb76fde9775bda78a8ba125" />
+		<rom loadflag="load16_word" name="c18.c03" offset="0x2" size="0x80000" crc="c5832cae" sha1="a188cf401cd3a2909b377d3059f14d22ec3b0643" />
+		<rom loadflag="load16_word" name="c18.c05" offset="0x4" size="0x80000" crc="f095be2d" sha1="0427d1574062f277a9d04440019d5638b05de561" />
+		<rom loadflag="load16_word" name="c18.c07" offset="0x6" size="0x80000" crc="179dfd96" sha1="b1844e69da7ab13474da569978d5b47deb8eb2be" />
+		<rom loadflag="load16_word" name="c18.c17" offset="0x200000" size="0x80000" crc="1f4298d2" sha1="4b162a7f649b0bcd676f8ca0c5eee9a1250d6452" />
+		<rom loadflag="load16_word" name="c18.c19" offset="0x200002" size="0x80000" crc="37fa8751" sha1="b88b39d1f08621f15a5620095aef998346fa9891" />
+		<rom loadflag="load16_word" name="c18.c21" offset="0x200004" size="0x80000" crc="0200bc3d" sha1="c900b1be2b4e49b951e5c1e3fd1e19d21b82986e" />
+		<rom loadflag="load16_word" name="c18.c23" offset="0x200006" size="0x80000" crc="0bb2b4e7" sha1="983b800925d58e4aeb4e5105f93ed5faf66d009c" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c18.v1" offset="0x0" size="0x20000" crc="da69d15f" sha1="9616207e693bae85705f786cef60b9f6951b5067" />
+		<rom name="c18.v2" offset="0x20000" size="0x20000" crc="bfc654e9" sha1="01b3d92e4dedf55ea3933d387c7ddb9ba2549773" />
+		</dataarea>
+	</part>
+</software>

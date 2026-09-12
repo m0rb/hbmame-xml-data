@@ -1,0 +1,18 @@
+<software name="ngem2k">
+	<description>NGEM2K (Beta, 2006-01-18)</description>
+	<year>2006</year>
+	<publisher>Blastar</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="411.p1" offset="0x0" size="0x80000" crc="f2c42fe3" sha1="fcd7453019ad21ecf77999a60b6792fc8d72d409" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="411.v1" offset="0x0" size="0x80000" crc="c32199f0" sha1="2e17a6736c27d703c64d58fdc1b43edd8bb36d35" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="411.c1" offset="0x0" size="0x100000" crc="a8e2ab47" sha1="69a6ee8f659a63600a48e31b10782fba263e32e2" />
+		<rom loadflag="load16_byte" name="411.c2" offset="0x1" size="0x100000" crc="a738ea1c" sha1="3b71f43ff30f4b15b5cd85dd9e95ebc7e84eb5a3" />
+		</dataarea>
+	</part>
+</software>

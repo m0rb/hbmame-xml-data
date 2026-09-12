@@ -1,0 +1,26 @@
+<software name="kovsho139" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Resurgence Gold Edition 2019-02-17)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po139.rom" offset="0x100000" size="0x200000" crc="e0c103f2" sha1="1c48bf874d2db0335f81b913f73e5e1cb8295e79" />
+		<rom loadflag="load16_word_swap" name="p0601h_101_po139.rom" offset="0x300000" size="0x200000" crc="9debf14d" sha1="d306cc227b5fbbf70c2d9cadae5a45ec176097a6" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600_ph259.rom" offset="0x400000" size="0x400000" crc="7a50501b" sha1="1af6be69f3133ed56d4a132a1910cf562da83dac" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_pw114.asic" offset="0x0" size="0x4000" crc="5e6ead02" sha1="51583aac28e45e30b0a79faf759f2edb877b6770" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_po136.rom" offset="0x0" size="0x2000000" crc="110b8d33" sha1="01fb69ed61a65ecafee67b0b996fd97d928f76f5" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_po136.rom" offset="0x0" size="0x1000000" crc="43a2406e" sha1="a23830a95f39576ad3ac70e5e973bb58d567dbe6" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_pw136.rom" offset="0x180000" size="0x800000" crc="355eb28d" sha1="dd3aa7b7d8d7d7ffa631a63eecd33173cad5fe6f" />
+		</dataarea>
+	</part>
+</software>

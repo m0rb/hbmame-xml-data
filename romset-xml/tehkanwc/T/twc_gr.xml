@@ -1,0 +1,32 @@
+<software name="twc_gr">
+	<description>Tehkan World Cup (Greek)</description>
+	<year>2004</year>
+	<publisher>GreekRoms</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="twc-1gr.bin" offset="0x0" size="0x4000" crc="0686377f" sha1="69c4d63c216e0b640ad514568a07c414a94bae7c" />
+		<rom name="twc-2.bin" offset="0x4000" size="0x4000" crc="7017a221" sha1="4b4700af0a6ff64f976db369ba4b9d97cee1fd5f" />
+		<rom name="twc-3gr.bin" offset="0x8000" size="0x4000" crc="9a10118d" sha1="1319e465620ab297bf70aed6eed426b68580a327" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="twc-6.bin" offset="0x0" size="0x4000" crc="e3112be2" sha1="7859e51b4312dc5df01c88e1d97cf608abc7ca72" />
+		</dataarea>
+		<dataarea name="adpcm" size="0x8000">
+		<rom name="twc-5.bin" offset="0x0" size="0x4000" crc="444b5544" sha1="0786d6d9ada7fe49c8ab9751b049095474d2e598" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="twc-12gr.bin" offset="0x0" size="0x4000" crc="17808225" sha1="259c0162c4eef4eceb889f4a1a142b541376e04d" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x10000">
+		<rom name="twc-8.bin" offset="0x0" size="0x8000" crc="055a5264" sha1="fe294ba57c2c858952e2fab0be1b8859730846cb" />
+		<rom name="twc-7.bin" offset="0x8000" size="0x8000" crc="59faebe7" sha1="85dad90928369601e039467d575750539410fcf6" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x10000">
+		<rom name="twc-11gr.bin" offset="0x0" size="0x8000" crc="ceab1e34" sha1="f803965ef8b69a5951656f890f0e411dfdeef7ab" />
+		<rom name="twc-9gr.bin" offset="0x8000" size="0x8000" crc="b120fbee" sha1="a7012ec3ecbedfb3d04477bdda6f87f1fe819919" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="twc-4gr.bin" offset="0x0" size="0x8000" crc="8a13d6ac" sha1="cc9b7a0836d6b4ff5f037a165451f6cf2f967d21" />
+		</dataarea>
+	</part>
+</software>

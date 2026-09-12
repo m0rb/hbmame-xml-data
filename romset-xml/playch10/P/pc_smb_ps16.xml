@@ -1,0 +1,16 @@
+<software name="pc_smb_ps16" cloneof="pc_smb">
+	<description>Super Mario Bros. (Downmario, 2011-12-23)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps16" offset="0x0" size="0x2000" crc="628488bd" sha1="02dfc7593860c32a32c2bc32fb40a908b4984d0c" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps16" offset="0x0" size="0x8000" crc="bbbf02cc" sha1="e1beb9a7bb35f8781ef10be8a40301ba0a12ea08" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

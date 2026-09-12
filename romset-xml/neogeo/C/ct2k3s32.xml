@@ -1,0 +1,28 @@
+<software name="ct2k3s32" cloneof="cthd2k3b">
+	<description>Crouching Tiger Hidden Dragon 2003  (set 2 fully decrypted)</description>
+	<year>2004</year>
+	<publisher>bootleg</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="360s32.p1" offset="0x0" size="0x100000" crc="83783954" sha1="963a352bdc755b7c9cdf6b5f1c6b4f790061d6c3" />
+		<rom loadflag="load16_word_swap" name="360s32.p2" offset="0x100000" size="0x400000" crc="84b0b164" sha1="1d7de20d8fc71c2e74a4fda17a2f41e2a6f027ba" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="262.v1" offset="0x0" size="0x400000" crc="83d49ecf" sha1="2f2c116e45397652e77fcf5d951fa5f71b639572" />
+		<rom name="360s31.v2" offset="0x400000" size="0x400000" crc="2b498449" sha1="8e2b01dd17dbf4498a197bda8ce3e08cdf785f12" />
+		<rom name="262.v3" offset="0x800000" size="0x400000" crc="2ae38dbe" sha1="4e82b7dd3b899d61907620517a5a27bdaba0725d" />
+		<rom name="262.v4" offset="0xc00000" size="0x400000" crc="26ec4dd9" sha1="8bd68d95a2d913be41a51f51e48dbe3bff5924fb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="360s32.c1" offset="0x0" size="0x800000" crc="eddd5e2f" sha1="2af647a57ec12ed60c37a3469adf3e58cb6728c6" />
+		<rom loadflag="load16_byte" name="360s32.c2" offset="0x1" size="0x800000" crc="23d8d1d6" sha1="b831e2d506bf8c1436b48d34fc6e2d321602434d" />
+		<rom loadflag="load16_byte" name="360s33.c3" offset="0x1000000" size="0x800000" crc="71b3172d" sha1="1b742b63e726f537df437df36b1bce35568c092a" />
+		<rom loadflag="load16_byte" name="360s33.c4" offset="0x1000001" size="0x800000" crc="564c70c1" sha1="c67977f5be5a1cc9fbce4450a844967c019142c0" />
+		<rom loadflag="load16_byte" name="360s33.c5" offset="0x2000000" size="0x800000" crc="8ef8aef9" sha1="ef464293c4fd720d6f59d243af9b064bc680c9f9" />
+		<rom loadflag="load16_byte" name="360s33.c6" offset="0x2000001" size="0x800000" crc="8a0fd440" sha1="74428817d08d331a0bdd4a749ea578dff982f028" />
+		<rom loadflag="load16_byte" name="360s32.c7" offset="0x3000000" size="0x800000" crc="4f50e1ae" sha1="676ecba2b3c5f1def2822559c1c1299d4eae503f" />
+		<rom loadflag="load16_byte" name="360s32.c8" offset="0x3000001" size="0x800000" crc="4f5f09bf" sha1="1c2d66e793f7943c2c3bbc8390d455001f07baa4" />
+		</dataarea>
+	</part>
+</software>

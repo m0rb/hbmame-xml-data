@@ -1,0 +1,36 @@
+<software name="mutnatd" cloneof="mutnat">
+	<description>Mutation Nation (MGD2)</description>
+	<year>1992</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n014001a.038" offset="0x1" size="0x40000" crc="30cbd46b" sha1="48357c8b704526da7101c06a120b096ec160a7bb" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="n014001a.1f8" offset="0x0" size="0x80000" crc="8db2effe" sha1="4bdfc36ed3c986ef153e03efbc581536876a3ebb" />
+		<rom name="n014001a.1fc" offset="0x80000" size="0x80000" crc="a49fe238" sha1="378842d7fa93496ee103be3a0996c6943d285274" />
+		<rom name="n014001b.1f8" offset="0x100000" size="0x80000" crc="2ba17cb7" sha1="99fa247c003b74b5da56631d11a63045dd5ef0d5" />
+		<rom name="n014001b.1fc" offset="0x180000" size="0x80000" crc="42419a29" sha1="5185c978edb89a1764ee0b874be980b61280c822" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load32_byte" name="n014001a.538" offset="0x0" size="0x40000" crc="83d59ccf" sha1="90daecf9594715ac33c4a6294f481914351c702f" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n014001a.638" offset="0x1" size="0x40000" crc="9e115a04" sha1="16f04c7b3c5f6888591e9c2e385efb984e393571" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n014001a.53c" offset="0x100000" size="0x40000" crc="b2f1409d" sha1="ab3af0fb4f4ca4afba098a6f8e9926b530a279df" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n014001a.63c" offset="0x100001" size="0x40000" crc="1bb648c1" sha1="21afaf1e5ea541d5ac9bb273887baf662c52dfab" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n014001b.538" offset="0x200000" size="0x40000" crc="eaa2801a" sha1="fec321bc839e5eeb4bfc88785276ee7af345f6c0" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n014001b.638" offset="0x200001" size="0x40000" crc="32bf4a2d" sha1="f68419c9414dfbcc67c3a4b8cbef42b0b5fda0bc" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n014001b.53c" offset="0x300000" size="0x40000" crc="c718b731" sha1="37eb725d43ecda891f67b607b5d5f039fc81a8cb" />
+		<rom loadflag="continue" offset="0x300002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n014001b.63c" offset="0x300001" size="0x40000" crc="7d120067" sha1="d0e4f0f8c1455a51b5d769fa4bcd5f29bd894c13" />
+		<rom loadflag="continue" offset="0x300003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

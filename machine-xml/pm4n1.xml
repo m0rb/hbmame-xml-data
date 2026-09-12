@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="pm4n1" description="Pm4N1 cartridges">
+<software name="pm4n1" cloneof="puckman">
+	<description>Pacman 4in1 v1.0 [c]</description>
+	<year>2007</year>
+	<publisher>Jason Souza</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x34000">
+		<rom name="pm4n1.cpu" offset="0x10000" size="0x24000" crc="248f3153" sha1="c36fb95c38619ec4947017a686f7d5feb643d269" />
+		</dataarea>
+		<dataarea name="gfx1" size="0xa000">
+		<rom name="96in1a.gfx" offset="0x0" size="0x1000" crc="f4ce2dca" sha1="b0515ee98766225d4d4a1368949942324703e865" />
+		<rom loadflag="continue" offset="0x5000" size="0x1000" />
+		<rom loadflag="continue" offset="0x0" size="0x1000" />
+		<rom loadflag="continue" offset="0x5000" size="0x1000" />
+		<rom loadflag="continue" offset="0x1000" size="0x1000" />
+		<rom loadflag="continue" offset="0x6000" size="0x1000" />
+		<rom loadflag="continue" offset="0x4000" size="0x1000" />
+		<rom loadflag="continue" offset="0x9000" size="0x1000" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom loadflag="continue" offset="0x7000" size="0x1000" />
+		<rom loadflag="continue" offset="0x3000" size="0x1000" />
+		<rom loadflag="continue" offset="0x8000" size="0x1000" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom loadflag="continue" offset="0x7000" size="0x1000" />
+		<rom loadflag="continue" offset="0x3000" size="0x1000" />
+		<rom loadflag="continue" offset="0x8000" size="0x1000" />
+		</dataarea>
+	</part>
+</software>
+<software name="pm4n1a" cloneof="puckman">
+	<description>Pacman 4in1 v1.1 [c]</description>
+	<year>2007</year>
+	<publisher>Jason Souza</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x34000">
+		<rom name="pm4n1a.cpu" offset="0x10000" size="0x24000" crc="cdc319bb" sha1="0f7b9956a67e46d5f3cb0bd84c350662668fd02d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0xa000">
+		<rom name="96in1a.gfx" offset="0x0" size="0x1000" crc="f4ce2dca" sha1="b0515ee98766225d4d4a1368949942324703e865" />
+		<rom loadflag="continue" offset="0x5000" size="0x1000" />
+		<rom loadflag="continue" offset="0x0" size="0x1000" />
+		<rom loadflag="continue" offset="0x5000" size="0x1000" />
+		<rom loadflag="continue" offset="0x1000" size="0x1000" />
+		<rom loadflag="continue" offset="0x6000" size="0x1000" />
+		<rom loadflag="continue" offset="0x4000" size="0x1000" />
+		<rom loadflag="continue" offset="0x9000" size="0x1000" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom loadflag="continue" offset="0x7000" size="0x1000" />
+		<rom loadflag="continue" offset="0x3000" size="0x1000" />
+		<rom loadflag="continue" offset="0x8000" size="0x1000" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom loadflag="continue" offset="0x7000" size="0x1000" />
+		<rom loadflag="continue" offset="0x3000" size="0x1000" />
+		<rom loadflag="continue" offset="0x8000" size="0x1000" />
+		</dataarea>
+	</part>
+</software>
+<software name="pm4n1b" cloneof="puckman">
+	<description>Pacman 4in1 v1.2 [c]</description>
+	<year>2007</year>
+	<publisher>Jason Souza</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom name="pm4n1b.cpu" offset="0x10000" size="0x30000" crc="31ea8134" sha1="61bd5589ed1d304cfef90ccf9af95f2a6743782e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0xa000">
+		<rom name="pm4n1b.gfx" offset="0x0" size="0x1000" crc="949a50a2" sha1="2b661e584b35740ce8b530f51485865a620354e6" />
+		<rom loadflag="continue" offset="0x5000" size="0x1000" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom loadflag="continue" offset="0x7000" size="0x1000" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

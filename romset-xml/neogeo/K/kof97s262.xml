@@ -1,0 +1,25 @@
+<software name="kof97s262" cloneof="kof97">
+	<description>Kof&#x27;97 (Nude)</description>
+	<year>1997</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="232.p1" offset="0x0" size="0x100000" crc="7db81ad9" sha1="8bc42be872fd497eb198ca13bf004852b88eb1dc" />
+		<rom loadflag="load16_word_swap" name="232.p2" offset="0x100000" size="0x400000" crc="158b23f6" sha1="9744620a70513490aaf9c5eda33e5ec31222be19" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="232s244.c1" offset="0x0" size="0x800000" crc="91697765" sha1="19ea6bf74da9dd4fed4213d82cb7d003a871599b" />
+		<rom loadflag="load16_byte" name="232s244.c2" offset="0x1" size="0x800000" crc="0c069a41" sha1="094f587325acc55b6663a17fce6ea0920331a3ff" />
+		<rom loadflag="load16_byte" name="232.c3" offset="0x1000000" size="0x800000" crc="581d6618" sha1="14d3124a08ded59f86932c6b28e1a4e48c564ccd" />
+		<rom loadflag="load16_byte" name="232.c4" offset="0x1000001" size="0x800000" crc="49bb1e68" sha1="f769c1bd1b019521111ff3f0d22c63cb1f2640ef" />
+		<rom loadflag="load16_byte" name="232s262.c5" offset="0x2000000" size="0x400000" crc="f0336a63" sha1="aefb4ac0341d1b35d1b61395b3baf99af2e9ab98" />
+		<rom loadflag="load16_byte" name="232s262.c6" offset="0x2000001" size="0x400000" crc="52968b9f" sha1="9f3be2219e3c1a19626624ec16f175ac25723bce" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,19 @@
+<software name="ottop2" cloneof="mspacman">
+	<description>Otto Project P2</description>
+	<year>2014</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="ottop2.1" offset="0x0" size="0x1000" crc="a9c0c5fc" sha1="4631b6260b88c5dc23503ea420a62f946f5bb978" />
+		<rom name="ottop1.2" offset="0x1000" size="0x1000" crc="f6c05582" sha1="3803f1a9546ff6293e3fad1984300eb1c2835ff6" />
+		<rom name="ottop1.3" offset="0x2000" size="0x1000" crc="08381b15" sha1="8727ddb990668acd0288ee9ec9de4922a505c7d1" />
+		<rom name="ottop2.4" offset="0x3000" size="0x1000" crc="c8517a08" sha1="ab6ed1004e6a66dfce426ad5db0bfc0cd4e6eabc" />
+		<rom name="ottop2.5" offset="0x8000" size="0x1000" crc="d8d8ceec" sha1="b3ea6f35118b04281c568806127fe1a97c22ed42" />
+		<rom name="ottop2.6" offset="0x9000" size="0x1000" crc="184f877a" sha1="473b47566fce1b53d6b885b54562c4ae82ed9ae1" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="ottop2.5e" offset="0x0" size="0x1000" crc="54a743f7" sha1="9406b856edf3f6a7979926295663cabdf53bb0d4" />
+		<rom name="ottop1.5f" offset="0x1000" size="0x1000" crc="ad353000" sha1="8ec0c31dc4e9da5bd8cc8087abb3a9936759b39d" />
+		</dataarea>
+	</part>
+</software>

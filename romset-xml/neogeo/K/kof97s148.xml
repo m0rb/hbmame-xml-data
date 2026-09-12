@@ -1,0 +1,25 @@
+<software name="kof97s148" cloneof="kof97">
+	<description>Kof&#x27;97 (Dogs Edition, 2019-11-26)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="232s148.p1" offset="0x0" size="0x100000" crc="236277ec" sha1="abe0e9a7b5496625c33c2da4d645420d5e9c6bd4" />
+		<rom loadflag="load16_word_swap" name="232s148.p2" offset="0x100000" size="0x400000" crc="33bd46fd" sha1="7b8c6f92382fb16f1e13968f98c7b7279dbfccf6" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="232s243.c1" offset="0x0" size="0x800000" crc="6f837a71" sha1="dfc6dcb9e3def1c78fb43550a332657fae68650f" />
+		<rom loadflag="load16_byte" name="232s243.c2" offset="0x1" size="0x800000" crc="c1a51c17" sha1="38b8862267daf7975a235dc72cf787256ca108fb" />
+		<rom loadflag="load16_byte" name="232s006.c3" offset="0x1000000" size="0x800000" crc="b092e64f" sha1="7d809432d068db8f9056f5210570191416f1a53b" />
+		<rom loadflag="load16_byte" name="232s006.c4" offset="0x1000001" size="0x800000" crc="d25e8a04" sha1="52227828e3fdd27399b4cd514551abf856293f47" />
+		<rom loadflag="load16_byte" name="232s148.c5" offset="0x2000000" size="0x400000" crc="b3d8b15b" sha1="4d749328e23389dcae300e01b7d02b99cfd85505" />
+		<rom loadflag="load16_byte" name="232s148.c6" offset="0x2000001" size="0x400000" crc="4e5437ba" sha1="4aebee44da4abc410162bddf6061971a2c7ffd20" />
+		</dataarea>
+	</part>
+</software>

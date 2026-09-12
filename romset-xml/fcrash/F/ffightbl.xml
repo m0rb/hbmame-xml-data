@@ -1,0 +1,22 @@
+<software name="ffightbl" cloneof="ffight">
+	<description>Final Fight (bootleg)</description>
+	<year>1990</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c17bl.p1" offset="0x0" size="0x80000" crc="f8ccf27e" sha1="08ff445d946da81e7dc0cc021f686b5968fa34ab" />
+		<rom loadflag="load16_byte" name="c17bl.p2" offset="0x1" size="0x80000" crc="d96c76b2" sha1="3f9ca4625491cab07cf4a1bf001f1325dc3652a3" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x30000">
+		<rom name="c17fc.m1" offset="0x0" size="0x20000" crc="5b276c14" sha1="73e53c077d4e3c1b919eee28b29e34176ee204f8" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		<rom loadflag="load32_byte" name="c17bl.c01" offset="0x0" size="0x80000" crc="4303f863" sha1="72a3246e14f9c4d1fb4712bd67d087db42d722d9" />
+		<rom loadflag="load32_byte" name="c17bl.c02" offset="0x1" size="0x80000" crc="d1dfcd2d" sha1="8796db70459e1e6232a75f5c3f4bf8b227b16f46" />
+		<rom loadflag="load32_byte" name="c17bl.c03" offset="0x2" size="0x80000" crc="22f2c097" sha1="bbf2d30d31c5a7802b7f7f164dd51a4584511936" />
+		<rom loadflag="load32_byte" name="c17bl.c04" offset="0x3" size="0x80000" crc="16a89b2c" sha1="4d0e1ec6ae9a2bd31fa77140532bbce64d3874e9" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>

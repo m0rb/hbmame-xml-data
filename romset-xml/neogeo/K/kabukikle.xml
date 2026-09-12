@@ -1,0 +1,28 @@
+<software name="kabukikle" cloneof="kabukikl">
+	<description>Far East of Eden - Kabuki Klash / Tengai Makyou - Shin Den (Earlier)</description>
+	<year>1995</year>
+	<publisher>Hudson</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="092.p1" offset="0x100000" size="0x100000" crc="28ec9b77" sha1="7cdc789a99f8127f437d68cbc41278c926be9efd" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x700000">
+		<rom name="092.v1" offset="0x0" size="0x200000" crc="69e90596" sha1="1a2007d7784b3ce90d115980c3353862f1664d45" />
+		<rom name="092.v2" offset="0x200000" size="0x200000" crc="7abdb75d" sha1="0bff764889fe02f37877514c7fc450250839f632" />
+		<rom name="092.v3" offset="0x400000" size="0x200000" crc="eccc98d3" sha1="b0dfbdb1ea045cb961323ac6906ab342256c3dc7" />
+		<rom name="092.v4" offset="0x600000" size="0x100000" crc="a7c9c949" sha1="574bc55b45e81ce357b14f5992426115de25cd35" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="092e.c1" offset="0x400000" size="0x200000" crc="4d896a58" sha1="03567f31de0fa947264f49817370345e7023c2c4" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="092e.c2" offset="0x400001" size="0x200000" crc="3cf78a18" sha1="82ab69d0899ed2d79e2097f842883dbd542c6f59" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		<rom loadflag="load16_byte" name="092e.c3" offset="0xc00000" size="0x200000" crc="58c454e7" sha1="64dca760e473fabada869037d6c24cbc58663911" />
+		<rom loadflag="continue" offset="0x800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="092e.c4" offset="0xc00001" size="0x200000" crc="e1a8aa6a" sha1="3e33d6e0d6a0feb8cc43dc511a2792922742547d" />
+		<rom loadflag="continue" offset="0x800001" size="0x200000" />
+		</dataarea>
+	</part>
+</software>

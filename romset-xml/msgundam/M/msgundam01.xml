@@ -1,0 +1,24 @@
+<software name="msgundam01">
+	<description>Mobile Suit Gundam (Easy Move)</description>
+	<year>1993</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_word_swap" name="fa003002_s01.u25" offset="0x0" size="0x80000" crc="b06cc71a" sha1="b5de10639458a569fe4789e3595fa4acd645dbf4" />
+		<rom loadflag="load16_word_swap" name="fa001001.u20" offset="0x100000" size="0x100000" crc="fca139d0" sha1="b56282c69f7ec64c697a48e42d59a2565401c032" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x400000">
+		<rom name="fa001008.u21" offset="0x0" size="0x200000" crc="e7accf48" sha1="dca9d53bc9cf0ecb661358d5a3f388c4ce9388e7" />
+		<rom name="fa001007.u22" offset="0x200000" size="0x200000" crc="793198a6" sha1="45f53870e74b14126680d18dd58dbbe01a6ef509" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x100000">
+		<rom loadflag="load16_word_swap" name="fa001006.u23" offset="0x0" size="0x100000" crc="3b60365c" sha1="bdf5a0b1b45eb75dbbb6725d1e5303716321aeb9" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x80000">
+		<rom loadflag="load16_word_swap" name="fa001005.u24" offset="0x0" size="0x80000" crc="8cd7ff86" sha1="ce7eb90776e21239f8f52e822c636143506c6f9b" />
+		</dataarea>
+		<dataarea name="x1snd" size="0x100000">
+		<rom name="fa001004.u26" offset="0x0" size="0x100000" crc="b965f07c" sha1="ff7827cc80655465ffbb732d55ba81f21f51a5ca" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,40 @@
+<software name="superspyd" cloneof="superspy">
+	<description>The Super Spy (MGD2)</description>
+	<year>1990</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n011001a.038" offset="0x1" size="0x40000" crc="2e949e32" sha1="c5a5bb996c5c0224b27813a76223c56860ddb399" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		<rom loadflag="load16_byte" name="n011001a.03c" offset="0x80001" size="0x40000" crc="54443d72" sha1="5cb78d50996c1f9a182e9350d94ba2953463ed4b" />
+		<rom loadflag="continue" offset="0x80000" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x180000">
+		<rom name="n011001a.178" offset="0x0" size="0x80000" crc="b993bc83" sha1="b7689a57120b9eb3d23b6675f8791c117360a267" />
+		<rom name="n011001a.17c" offset="0x80000" size="0x80000" crc="d7a059b1" sha1="b13c1c674f66cb6852f0a206554e4616f5fde236" />
+		<rom name="011.v12" offset="0x100000" size="0x80000" crc="9f513d5a" sha1="37b04962f0b8e2a74abd35c407337a6151dc4e95" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x80000">
+		<rom name="011.v21" offset="0x0" size="0x80000" crc="426cd040" sha1="b2b45189837c8287223c2b8bd4df9525b72a3f16" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load32_byte" name="n011001a.538" offset="0x0" size="0x40000" crc="239f22c4" sha1="91f985fb9acb36ab5f8877f62c0476a291f3b591" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n011001a.638" offset="0x1" size="0x40000" crc="5f2e5184" sha1="b2704eff6815da611f0f2ad15f2a85d482a111d3" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n011001a.53c" offset="0x100000" size="0x40000" crc="ce80c326" sha1="3f1f72d923dde87e87bc74080cc1858f42413ab2" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n011001a.63c" offset="0x100001" size="0x40000" crc="79b3e0b1" sha1="1f627f7b8d86292d4f4cdc0f15782d060a91b551" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n011001b.538" offset="0x200000" size="0x40000" crc="1edcf268" sha1="a691f76980e7a0da63948a5d75f32afa6c92c9c3" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n011001b.638" offset="0x200001" size="0x40000" crc="b2afe822" sha1="56d623e4a468ac88c6bbc54ff6f640a7aa5f93f5" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n011001b.53c" offset="0x300000" size="0x40000" crc="a41602a0" sha1="95ee2162de50be72982edcecb437995a43d39a07" />
+		<rom loadflag="continue" offset="0x300002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n011001b.63c" offset="0x300001" size="0x40000" crc="d425f967" sha1="4085782d440ad265ae45f43c83b1d1fa96d15524" />
+		<rom loadflag="continue" offset="0x300003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,27 @@
+<software name="mslug5dh55" cloneof="mslug5">
+	<description>Metal Slug 5 (Enemy Soldiers Magic Version, 2019-05-27)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x600000">
+		<rom loadflag="load16_word_swap" name="268dh55.p1" offset="0x0" size="0x600000" crc="0c4ac4fd" sha1="626df2d4b5f545136a2d0202d4ea8231277f0a5f" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="268boot.v1" offset="0x0" size="0x400000" crc="c3540e0d" sha1="bf7ca3abe291b28a4cfaef791f0c556cc98ad8d8" />
+		<rom name="268boot.v2" offset="0x400000" size="0x400000" crc="077bd2f4" sha1="1699959d17f8c7113cebdb9da2e1cd18ce48486c" />
+		<rom name="268boot.v3" offset="0x800000" size="0x400000" crc="39b14567" sha1="1658612a93ba30130f9260bc41d3f18f6b90c1e7" />
+		<rom name="268boot.v4" offset="0xc00000" size="0x400000" crc="969ff3b2" sha1="50feceb741a1c08b000b077a33151ab1352eb798" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="268d.c1" offset="0x0" size="0x800000" crc="969c0d62" sha1="de3c5cfa980cca2fab0416ac0d292948b5d4c9c3" />
+		<rom loadflag="load16_byte" name="268d.c2" offset="0x1" size="0x800000" crc="c69ae867" sha1="3198ee5c7c2c7563b49ebd9f7ba95d9b0b303f6c" />
+		<rom loadflag="load16_byte" name="268d.c3" offset="0x1000000" size="0x800000" crc="d7beaeaf" sha1="99443ea4c1bab45f1977a390eb7e1a0163915110" />
+		<rom loadflag="load16_byte" name="268nd.c4" offset="0x1000001" size="0x800000" crc="e1b1131b" sha1="68a36d336582069e79ad481638d92f57c4cd6523" />
+		<rom loadflag="load16_byte" name="268d.c5" offset="0x2000000" size="0x800000" crc="2fa1a5ad" sha1="4ae15d29ba979601598eddf8905072fe1d9e0a98" />
+		<rom loadflag="load16_byte" name="268d.c6" offset="0x2000001" size="0x800000" crc="6de89589" sha1="86a6c036bf51af516fea83a30874026ec1586a83" />
+		<rom loadflag="load16_byte" name="268d.c7" offset="0x3000000" size="0x800000" crc="97bd0c0a" sha1="30f3280fe527098ecf46541cc645a59b366105ea" />
+		<rom loadflag="load16_byte" name="268d.c8" offset="0x3000001" size="0x800000" crc="c0d5bc20" sha1="b5d0d81d5cc624538b0651c568295e578a1330d1" />
+		</dataarea>
+	</part>
+</software>

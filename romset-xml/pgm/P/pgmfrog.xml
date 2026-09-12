@@ -1,0 +1,22 @@
+<software name="pgmfrog">
+	<description>Frog Feast (PGM)</description>
+	<year>2006</year>
+	<publisher>Rastersoft</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="pgmfrog.p1" offset="0x100000" size="0x200000" crc="cdec9e8d" sha1="183753b3f19e9b06c6059206aac85d865bf1dd66" />
+		</dataarea>
+		<dataarea name="ics" size="0x600000">
+		<rom name="pgmfrog.m1" offset="0x400000" size="0x200000" crc="05e2f761" sha1="c93d94a8f11c41b019fcf9b6a90645416fd2c75b" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="pgmfrog.a1" offset="0x0" size="0x400000" crc="dc1eafe6" sha1="11eb0d02c38df828ae0361bc7624c4658047df67" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="pgmfrog.b1" offset="0x0" size="0x400000" crc="3d44b66f" sha1="04347002bd942d320c6b8240e4485aec626f2aaa" />
+		</dataarea>
+		<dataarea name="tiles" size="0x800000">
+		<rom name="pgmfrog.t1" offset="0x180000" size="0x400000" crc="8f58b6d8" sha1="79b3b503f29593170a7faa93d75707682d800c66" />
+		</dataarea>
+	</part>
+</software>

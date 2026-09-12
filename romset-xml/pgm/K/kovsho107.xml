@@ -1,0 +1,30 @@
+<software name="kovsho107" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (The Road to Survival True King Version 2019-05-30)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po107.rom" offset="0x100000" size="0x4006f8" crc="c0f02cd0" sha1="9c168039ac785a15ea595b713a382ed83ee0f104" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600_po69.rom" offset="0x400000" size="0x400000" crc="ec3f335d" sha1="f81e2238eae4bb5154afa28ff07e69b8f10c5ee2" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_po89.asic" offset="0x0" size="0x4000" crc="4627f36f" sha1="c4daf33bcf2b3a8a8cd4c53fa0ede594170ab326" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x4000000">
+		<rom name="a0600_po73.rom" offset="0x0" size="0x800000" crc="72643288" sha1="632f4a24f4f6a65f38dfbb9af1d624bc5c1d01f1" />
+		<rom name="a0601_po73.rom" offset="0x800000" size="0x800000" crc="9c1d1bea" sha1="f1fba1e71493b2f6755095b9a655c5d038f1ca0d" />
+		<rom name="a0602_po73.rom" offset="0x1000000" size="0x800000" crc="7b437e0f" sha1="b3daa3c7d02ec79457e6a2e661daa1c6a9a8388c" />
+		<rom name="a0540_po89.rom" offset="0x1800000" size="0x800000" crc="b038e568" sha1="67ae413771279cce95622025ef6be5b50983bc39" />
+		<rom name="a0541_po73.rom" offset="0x2000000" size="0x800000" crc="1fa3c921" sha1="44f053826c50e762af6de9b3017563e485a4c5de" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_po73.rom" offset="0x0" size="0x800000" crc="0646c5ef" sha1="062261023538da5d647e17a4fa47b4e4ebc4614d" />
+		<rom name="b0540_po89.rom" offset="0x800000" size="0x800000" crc="03a1641e" sha1="38934c2eb18fa75011de68f92bfccee7ec044524" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_pw10.rom" offset="0x180000" size="0x800000" crc="a919ec0f" sha1="b464490abba8a5e651c407a7833c3a2e3befa5b8" />
+		</dataarea>
+	</part>
+</software>

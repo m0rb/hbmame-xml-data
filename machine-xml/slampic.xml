@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="slampic" description="Slampic cartridges">
+<software name="slampic" cloneof="slammast">
+	<description>Saturday Night Slam Masters (bootleg with PIC16c57)</description>
+	<year>1993</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c27pic.p1" offset="0x0" size="0x80000" crc="7dba63cd" sha1="222e781ffc40c5c23f5789c0682f549f00beeb8d" />
+		<rom loadflag="load16_byte" name="c27pic.p2" offset="0x1" size="0x80000" crc="d86671f3" sha1="d95fae27b0f4d3688f1c2229c9d3780724a870a8" />
+		<rom loadflag="load16_byte" name="c27pic.p7" offset="0x100000" size="0x80000" crc="d14d0e42" sha1="b60c44193b247dc4856bd36d69cbbe9dcb2d21a7" />
+		<rom loadflag="load16_byte" name="c27pic.p8" offset="0x100001" size="0x80000" crc="38063cd8" sha1="e647433414ff4fdc0b2c4c7036b8995a95289efa" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x2000">
+		<rom name="pic16c57-xt-p.bin" offset="0x0" size="0x2000" crc="aeae5ccc" sha1="553afb68f7bf130cdf34e24512f72b4ecef1576f" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		<rom name="c27pic.c01" offset="0x0" size="0x40000" crc="dc140351" sha1="0e69e1c8ded85ba26eb8236449d38ead0243ae78" />
+		<rom loadflag="continue" offset="0x4" size="0x40000" />
+		<rom name="c27pic.c02" offset="0x1" size="0x40000" crc="9ae88035" sha1="3329e9582ca052940e115e759bb3d96f4a9c87fa" />
+		<rom loadflag="continue" offset="0x5" size="0x40000" />
+		<rom name="c27pic.c03" offset="0x2" size="0x40000" crc="5321f759" sha1="7538a6587cf1077921b938070185e0a0ce5ca922" />
+		<rom loadflag="continue" offset="0x6" size="0x40000" />
+		<rom name="c27pic.c04" offset="0x3" size="0x40000" crc="c8eb5f76" sha1="a361d2d2dfe71789736666b744ae5f1e4bf7e1b2" />
+		<rom loadflag="continue" offset="0x7" size="0x40000" />
+		<rom name="c27pic.c05" offset="0x200000" size="0x40000" crc="21652214" sha1="039335251f6553c4f36e2d33e8b43fb5726e833e" />
+		<rom loadflag="continue" offset="0x200004" size="0x40000" />
+		<rom name="c27pic.c06" offset="0x200001" size="0x40000" crc="d49d2eb0" sha1="1af01575340730166975be93bae438e2b0492f98" />
+		<rom loadflag="continue" offset="0x200005" size="0x40000" />
+		<rom name="c27pic.c07" offset="0x200002" size="0x40000" crc="0d98bfd6" sha1="c11fbf555880a933a4cbf6faa517f59f8443304f" />
+		<rom loadflag="continue" offset="0x200006" size="0x40000" />
+		<rom name="c27pic.c08" offset="0x200003" size="0x40000" crc="807284f1" sha1="c747c3eaade31c2633fb0a0682dbea900bf2b092" />
+		<rom loadflag="continue" offset="0x200007" size="0x40000" />
+		<rom name="c27pic.c09" offset="0x400000" size="0x40000" crc="293579c5" sha1="9adafe29664b20834365b339f7ae379cdb9ee138" />
+		<rom loadflag="continue" offset="0x400004" size="0x40000" />
+		<rom name="c27pic.c10" offset="0x400001" size="0x40000" crc="c3727ce7" sha1="c4abc2c59152c59a45f85393e9525505bc2c9e6e" />
+		<rom loadflag="continue" offset="0x400005" size="0x40000" />
+		<rom name="c27pic.c11" offset="0x400002" size="0x40000" crc="2919883b" sha1="44ad979daae673c77b3157d2b352797d4ad0ec24" />
+		<rom loadflag="continue" offset="0x400006" size="0x40000" />
+		<rom name="c27pic.c12" offset="0x400003" size="0x40000" crc="f538e620" sha1="354cd0548b067dfc8782bbe13b0a9c2083dbd290" />
+		<rom loadflag="continue" offset="0x400007" size="0x40000" />
+		</dataarea>
+		<dataarea name="oki" size="0x80000">
+		<rom name="c27pic.v1" offset="0x0" size="0x80000" crc="73a0c11c" sha1="a66e1a964313e21c4436200d36c598dcb277cd34" />
+		</dataarea>
+		<dataarea name="user1" size="0x20000">
+		<rom name="c27.m1" offset="0x0" size="0x20000" crc="e21a03c4" sha1="98c03fd2c9b6bf8a4fc25a4edca87fff7c3c3819" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="scramble" description="Scramble cartridges">
+<software name="offender">
+	<description>Offender</description>
+	<year>1998</year>
+	<publisher>Chris Henry (Battlpriest)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="off-2d" offset="0x0" size="0x800" crc="bb09d91e" sha1="f47cd3fd91fc569c7a9bb6e485a3281b92656b7f" />
+		<rom name="2e" offset="0x800" size="0x800" crc="e9b4b9eb" sha1="a8ee9ddfadf5e9accedfaf81da757a88a2e55a0a" />
+		<rom name="2f" offset="0x1000" size="0x800" crc="a1f14f4c" sha1="3eae2b3e4596505a8afb5c5cfb108e823c2c4319" />
+		<rom name="2h" offset="0x1800" size="0x800" crc="591bc0d9" sha1="170f9e92f0a3bee04407be27210b4fa825367688" />
+		<rom name="2j" offset="0x2000" size="0x800" crc="22f11b6b" sha1="e426ef6a7444a39a34d59799973b07d11b89f372" />
+		<rom name="2l" offset="0x2800" size="0x800" crc="705ffe49" sha1="174df3f281068c767344f751daace646360e26d6" />
+		<rom name="2m" offset="0x3000" size="0x800" crc="ea26c35c" sha1="a2f3380982d93a022f46756f974fd16c4cd617de" />
+		<rom name="2p" offset="0x3800" size="0x800" crc="94d8f5e3" sha1="f3a9c4d1d91836476fcad87ea0d243dde7171e0a" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="ot1.5c" offset="0x0" size="0x800" crc="bcd297f0" sha1="8ed78487d76fd0a917ab7b258937a46e2cd9800c" />
+		<rom name="ot2.5d" offset="0x800" size="0x800" crc="de7912da" sha1="8558b4eff5d7e63029b325edef9914feda5834c3" />
+		<rom name="ot3.5e" offset="0x1000" size="0x800" crc="ba2fa933" sha1="1f976d8595706730e29f93027e7ab4620075c078" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="off-5f" offset="0x0" size="0x800" crc="7015a2e1" sha1="19bb4cb26c8b91cd79368e4ed48065df6fd6577e" />
+		<rom name="off-5h" offset="0x800" size="0x800" crc="a36ac0fa" sha1="b58412536833ab5ea705e919562b7b495ff3dff4" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="c01s.6e" offset="0x0" size="0x20" crc="4e3caeab" sha1="a25083c3e36d28afdefe4af6e6d4f3155e303625" />
+		</dataarea>
+	</part>
+</software>
+<software name="scratest">
+	<description>Scramble Test Rom (2019-01-27)</description>
+	<year>2019</year>
+	<publisher>Phil Murray</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="scratest.2d" offset="0x0" size="0x43d" crc="a7f3cf0f" sha1="4a934f6f660e536009ccb96b4914ed65f7a28855" />
+		<rom name="2e" offset="0x800" size="0x800" crc="e9b4b9eb" sha1="a8ee9ddfadf5e9accedfaf81da757a88a2e55a0a" />
+		<rom name="2f" offset="0x1000" size="0x800" crc="a1f14f4c" sha1="3eae2b3e4596505a8afb5c5cfb108e823c2c4319" />
+		<rom name="2h" offset="0x1800" size="0x800" crc="591bc0d9" sha1="170f9e92f0a3bee04407be27210b4fa825367688" />
+		<rom name="2j" offset="0x2000" size="0x800" crc="22f11b6b" sha1="e426ef6a7444a39a34d59799973b07d11b89f372" />
+		<rom name="2l" offset="0x2800" size="0x800" crc="705ffe49" sha1="174df3f281068c767344f751daace646360e26d6" />
+		<rom name="2m" offset="0x3000" size="0x800" crc="ea26c35c" sha1="a2f3380982d93a022f46756f974fd16c4cd617de" />
+		<rom name="2p" offset="0x3800" size="0x800" crc="94d8f5e3" sha1="f3a9c4d1d91836476fcad87ea0d243dde7171e0a" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="ot1.5c" offset="0x0" size="0x800" crc="bcd297f0" sha1="8ed78487d76fd0a917ab7b258937a46e2cd9800c" />
+		<rom name="ot2.5d" offset="0x800" size="0x800" crc="de7912da" sha1="8558b4eff5d7e63029b325edef9914feda5834c3" />
+		<rom name="ot3.5e" offset="0x1000" size="0x800" crc="ba2fa933" sha1="1f976d8595706730e29f93027e7ab4620075c078" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="off-5f" offset="0x0" size="0x800" crc="7015a2e1" sha1="19bb4cb26c8b91cd79368e4ed48065df6fd6577e" />
+		<rom name="off-5h" offset="0x800" size="0x800" crc="a36ac0fa" sha1="b58412536833ab5ea705e919562b7b495ff3dff4" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="c01s.6e" offset="0x0" size="0x20" crc="4e3caeab" sha1="a25083c3e36d28afdefe4af6e6d4f3155e303625" />
+		</dataarea>
+	</part>
+</software>
+<software name="superdog">
+	<description>Superdog</description>
+	<year>1998</year>
+	<publisher>Jerky</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="sdog-2d" offset="0x0" size="0x800" crc="99dc8bb5" sha1="a7f533471df4482f67be0ed969e559f483fb147a" />
+		<rom name="2e" offset="0x800" size="0x800" crc="e9b4b9eb" sha1="a8ee9ddfadf5e9accedfaf81da757a88a2e55a0a" />
+		<rom name="2f" offset="0x1000" size="0x800" crc="a1f14f4c" sha1="3eae2b3e4596505a8afb5c5cfb108e823c2c4319" />
+		<rom name="2h" offset="0x1800" size="0x800" crc="591bc0d9" sha1="170f9e92f0a3bee04407be27210b4fa825367688" />
+		<rom name="2j" offset="0x2000" size="0x800" crc="22f11b6b" sha1="e426ef6a7444a39a34d59799973b07d11b89f372" />
+		<rom name="2l" offset="0x2800" size="0x800" crc="705ffe49" sha1="174df3f281068c767344f751daace646360e26d6" />
+		<rom name="2m" offset="0x3000" size="0x800" crc="ea26c35c" sha1="a2f3380982d93a022f46756f974fd16c4cd617de" />
+		<rom name="2p" offset="0x3800" size="0x800" crc="94d8f5e3" sha1="f3a9c4d1d91836476fcad87ea0d243dde7171e0a" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="ot1.5c" offset="0x0" size="0x800" crc="bcd297f0" sha1="8ed78487d76fd0a917ab7b258937a46e2cd9800c" />
+		<rom name="ot2.5d" offset="0x800" size="0x800" crc="de7912da" sha1="8558b4eff5d7e63029b325edef9914feda5834c3" />
+		<rom name="ot3.5e" offset="0x1000" size="0x800" crc="ba2fa933" sha1="1f976d8595706730e29f93027e7ab4620075c078" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="sdog-5f" offset="0x0" size="0x800" crc="7edbc59c" sha1="53c9a7f46a968b2f804243f661479918870756b5" />
+		<rom name="sdog-5h" offset="0x800" size="0x800" crc="5b130bea" sha1="269df1344414c0d517084a32a348a856c25d499c" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="c01s.6e" offset="0x0" size="0x20" crc="4e3caeab" sha1="a25083c3e36d28afdefe4af6e6d4f3155e303625" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

@@ -1,0 +1,26 @@
+<software name="tk2h45" cloneof="wof">
+	<description>Tenchi wo Kurau II (Lock Three-Person Model First Edition)</description>
+	<year>1992</year>
+	<publisher>Pluto</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="tk2h45.p1" offset="0x0" size="0x80000" crc="f7a39971" sha1="6fa2329fa86623a483d23e3447a312f13ebec38b" />
+		<rom loadflag="load16_word_swap" name="c23j.p2" offset="0x80000" size="0x80000" crc="b74b09ac" sha1="3a44d6db5f51e1b5d2b43ef0ad1191da21e48427" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c23.m1" offset="0x0" size="0x8000" crc="c9183a0d" sha1="d8b1d41c572f08581f8ab9eb878de77d6ea8615d" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="wof.key" offset="0x0" size="0x80" crc="ef8848dd" sha1="e500a89ddb16abb31c7cb45f8dbea922d01fccc1" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="qsound" size="0x200000">
+		<rom name="c23.q1" offset="0x0" size="0x80000" crc="611268cf" sha1="83ab059f2110fb25fdcff928d56b790fc1f5c975" />
+		<rom name="c23.q2" offset="0x80000" size="0x80000" crc="20f55ca9" sha1="90134e9a9c4749bb65c728b66ea4dac1fd4d88a4" />
+		<rom name="c23.q3" offset="0x100000" size="0x80000" crc="bfcf6f52" sha1="2a85ff3fc89b4cbabd20779ec12da2e116333c7c" />
+		<rom name="c23.q4" offset="0x180000" size="0x80000" crc="36642e88" sha1="8ab25b19e2b67215a5cb1f3aa81b9d26009cfeb8" />
+		</dataarea>
+	</part>
+</software>

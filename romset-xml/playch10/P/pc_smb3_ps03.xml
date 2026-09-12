@@ -1,0 +1,17 @@
+<software name="pc_smb3_ps03" cloneof="pc_smb3">
+	<description>Super Mario Bros. 3 (412 Hack, 2012-01-22)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="u1um_ps03" offset="0x0" size="0x20000" crc="a1d5edf4" sha1="4aee98d6f15430c03e6b549e4b93ba64bba47e18" />
+		</dataarea>
+		<dataarea name="prg" size="0x40000">
+		<rom name="u4um_ps03" offset="0x0" size="0x20000" crc="e760a21e" sha1="398676f59f3e189b0b6b68b864820fa3cb26e474" />
+		<rom name="u5um_ps03" offset="0x20000" size="0x20000" crc="82ed2a33" sha1="6bc7b838b52ed8a32553f8b2f90f950095c5cc54" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="e48f4945" sha1="66fe537cfe540317d6194847321ce4a9bdf0bba4" />
+		</dataarea>
+	</part>
+</software>

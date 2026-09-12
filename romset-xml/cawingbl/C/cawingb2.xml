@@ -1,0 +1,38 @@
+<software name="cawingb2" cloneof="cawing">
+	<description>Carrier Air Wing (bootleg with 2xYM2203 + 2xMSM5205, set 2)</description>
+	<year>1990</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c12b2.p1" offset="0x0" size="0x20000" crc="f655708c" sha1="9962a1c96ea08bc71b25d4f58e5d1fb1beebf0dc" />
+		<rom loadflag="load16_byte" name="c12b2.p2" offset="0x1" size="0x20000" crc="a02fb5aa" sha1="c9c064a83899c48f681ac803cfc5886503b9d992" />
+		<rom loadflag="load16_byte" name="c12b2.p3" offset="0x40000" size="0x20000" crc="8c6c7430" sha1="3ed5713caf774b050b41a6adea026e1307b570df" />
+		<rom loadflag="load16_byte" name="c12b2.p4" offset="0x40001" size="0x20000" crc="f585bf2c" sha1="3a3169791f8deace8d9bee1adb08f19fbcd309c6" />
+		<rom loadflag="load16_byte" name="c12u.p5" offset="0x80000" size="0x20000" crc="5fda906e" sha1="7b3ef17d494a2f92e58ab7e34a3beaad8c149fca" />
+		<rom loadflag="load16_byte" name="c12u.p6" offset="0x80001" size="0x20000" crc="736c1835" sha1="a91f479fab30603a111304adc0478d430faa80fc" />
+		<rom loadflag="load16_byte" name="c12b2.p7" offset="0xc0000" size="0x20000" crc="76458083" sha1="cbb4ef5f7615c834b2ee1ad3c86e7262f2f62c01" />
+		<rom loadflag="load16_byte" name="c12b2.p8" offset="0xc0001" size="0x20000" crc="d3523f34" sha1="005ea378c2b78782f85ecc591946c027ca2ca023" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x30000">
+		<rom name="c12bl.m1" offset="0x0" size="0x20000" crc="ffe16cdc" sha1="8069ea69f0b89d61c35995c8040a4989d7be9c1f" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		<rom loadflag="load32_byte" name="c12b2.c01" offset="0x0" size="0x20000" crc="0b538062" sha1="ac6e5dc82efdca311adfe6e6cdda160ad4a0d04d" />
+		<rom loadflag="load32_byte" name="c12b2.c02" offset="0x1" size="0x20000" crc="3ad62311" sha1="1c132696b55191d16af30ebd36d2320d979eab36" />
+		<rom loadflag="load32_byte" name="c12b2.c03" offset="0x2" size="0x20000" crc="1b872a98" sha1="7a3f72c6d384dfa8e224f93604997a7b6e5c8926" />
+		<rom loadflag="load32_byte" name="c12b2.c04" offset="0x3" size="0x20000" crc="ad49eecd" sha1="39909996765391ed734a02c74f683e1bd9ce1561" />
+		<rom loadflag="load32_byte" name="c12b2.c05" offset="0x80000" size="0x20000" crc="8cd4df5b" sha1="771b6d6a6baa95a669335fe64e2219fe7226e140" />
+		<rom loadflag="load32_byte" name="c12b2.c06" offset="0x80001" size="0x20000" crc="bf14418a" sha1="7a0e1c65b8825a252338d6c1db59a88966ec6cfb" />
+		<rom loadflag="load32_byte" name="c12b2.c07" offset="0x80002" size="0x20000" crc="cef1aab8" sha1="677a889b939ff00e95737a4a53053744bb6744c0" />
+		<rom loadflag="load32_byte" name="c12b2.c08" offset="0x80003" size="0x20000" crc="397725dc" sha1="9450362bbf2f91b4225a088d6e283d7b16407b74" />
+		<rom loadflag="load32_byte" name="c12b2.c09" offset="0x100000" size="0x20000" crc="9b14f7ed" sha1="72b6e1174d4faab487261aa6739de842d2423e1a" />
+		<rom loadflag="load32_byte" name="c12b2.c10" offset="0x100001" size="0x20000" crc="59bcc1bb" sha1="c725060e068294dea1d962c54a9018050fa70297" />
+		<rom loadflag="load32_byte" name="c12b2.c11" offset="0x100002" size="0x20000" crc="23dc647a" sha1="2d8d4c4c7b2d0616430360d1639b07216dd731d6" />
+		<rom loadflag="load32_byte" name="c12b2.c12" offset="0x100003" size="0x20000" crc="eda9fa6b" sha1="4a3510ce71b015a1ea568fd0bbe61c5c093a2fbf" />
+		<rom loadflag="load32_byte" name="c12b2.c13" offset="0x180000" size="0x20000" crc="17174249" sha1="71c6424ab4629065dd6af8bb47b18f5b5d0fbe49" />
+		<rom loadflag="load32_byte" name="c12b2.c14" offset="0x180001" size="0x20000" crc="490440b2" sha1="2597bf16340308f84b32cfa048c426db571b4a35" />
+		<rom loadflag="load32_byte" name="c12b2.c15" offset="0x180002" size="0x20000" crc="344a8270" sha1="fdb588a7ba60783225e3b5c72446f79625de4f9c" />
+		<rom loadflag="load32_byte" name="c12b2.c16" offset="0x180003" size="0x20000" crc="b991ad91" sha1="5c59131ddf068cb54d23f8836293360fbc967d58" />
+		</dataarea>
+	</part>
+</software>

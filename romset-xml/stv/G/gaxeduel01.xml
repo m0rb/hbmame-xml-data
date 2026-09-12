@@ -1,0 +1,16 @@
+<software name="gaxeduel01" cloneof="gaxeduel">
+	<description>Golden Axe (Enable Hidden Characters)</description>
+	<year>1994</year>
+	<publisher>Yumeji</publisher>
+	<part name="cart">
+		<dataarea name="cart" endianness="big" size="0x3000000">
+		<rom loadflag="load16_byte" name="epr17766_s01.13" offset="0x1" size="0x80000" crc="e9728569" sha1="fc7cfc982648d0035c1c69d2fda26142cc98f231" />
+		<rom loadflag="load16_word_swap" name="mpr17768.2" offset="0x400000" size="0x400000" crc="d6808a7d" sha1="83a97bbe1160cb45b3bdcbde8adc0d9bae5ded60" />
+		<rom loadflag="load16_word_swap" name="mpr17769.3" offset="0x800000" size="0x400000" crc="3471dd35" sha1="24febddfe70984cebc0e6948ad718e0e6957fa82" />
+		<rom loadflag="load16_word_swap" name="mpr17770.4" offset="0xc00000" size="0x400000" crc="06978a00" sha1="a8d1333a9f4322e28b23724937f595805315b136" />
+		<rom loadflag="load16_word_swap" name="mpr17771.5" offset="0x1000000" size="0x400000" crc="aea2ea3b" sha1="2fbe3e10d3f5a3b3099a7ed5b38b93b6e22e19b8" />
+		<rom loadflag="load16_word_swap" name="mpr17772.6" offset="0x1400000" size="0x400000" crc="b3dc0e75" sha1="fbe2790c84466d186ea3e9d41edfcb7afaf54bea" />
+		<rom loadflag="load16_word_swap" name="mpr17767.1" offset="0x1800000" size="0x400000" crc="9ba1e7b1" sha1="f297c3697d2e8ba4476d672267163f91f371b362" />
+		</dataarea>
+	</part>
+</software>

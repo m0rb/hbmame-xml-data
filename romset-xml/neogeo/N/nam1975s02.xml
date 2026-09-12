@@ -1,0 +1,27 @@
+<software name="nam1975s02" cloneof="nam1975">
+	<description>NAM-1975 (Max Plus Edition)</description>
+	<year>2008</year>
+	<publisher>Blast</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="001s02.p1" offset="0x0" size="0x80000" crc="908a4fd0" sha1="37ffc705ee772a1a25e77ff8696750a78dacc7f7" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="001.v1" offset="0x0" size="0x80000" crc="a7c3d5e5" sha1="e3efc86940f91c53b7724c4566cfc21ea1a7a465" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x180000">
+		<rom name="001.v21" offset="0x0" size="0x80000" crc="55e670b3" sha1="a047049646a90b6db2d1882264df9256aa5a85e5" />
+		<rom name="001.v22" offset="0x80000" size="0x80000" crc="ab0d8368" sha1="404114db9f3295929080b87a5d0106b40da6223a" />
+		<rom name="001.v23" offset="0x100000" size="0x80000" crc="df468e28" sha1="4e5d4a709a4737a87bba4083aeb788f657862f1a" />
+		</dataarea>
+		<dataarea name="sprites" size="0x300000">
+		<rom loadflag="load16_byte" name="001.c1" offset="0x0" size="0x80000" crc="32ea98e1" sha1="c2fb3fb7dd14523a4b4b7fbdb81f44cb4cc48239" />
+		<rom loadflag="load16_byte" name="001.c2" offset="0x1" size="0x80000" crc="cbc4064c" sha1="224c970fd060d841fd430c946ef609bb57b6d78c" />
+		<rom loadflag="load16_byte" name="001.c3" offset="0x100000" size="0x80000" crc="0151054c" sha1="f24fb501a7845f64833f4e5a461bcf9dc3262557" />
+		<rom loadflag="load16_byte" name="001.c4" offset="0x100001" size="0x80000" crc="0a32570d" sha1="f108446ec7844fde25f7a4ab454f76d384bf5e52" />
+		<rom loadflag="load16_byte" name="001.c5" offset="0x200000" size="0x80000" crc="90b74cc2" sha1="89898da36db259180e5261ed45eafc99ca13e504" />
+		<rom loadflag="load16_byte" name="001.c6" offset="0x200001" size="0x80000" crc="e62bed58" sha1="d05b2903b212a51ee131e52c761b714cb787683e" />
+		</dataarea>
+	</part>
+</software>

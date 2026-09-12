@@ -1,0 +1,16 @@
+<software name="pc_smb_ps74" cloneof="pc_smb">
+	<description>Super Mario Bros. (Zzt, 2015-09-20)(PlayChoice-10)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps74" offset="0x0" size="0x2000" crc="a94709ce" sha1="6b697ee59252f0c4e30efa1e0b62d80876ed6712" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps74" offset="0x0" size="0x8000" crc="c28daf74" sha1="6b2bbd0ffd8bcc36daafd2d11696a789e1b269eb" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

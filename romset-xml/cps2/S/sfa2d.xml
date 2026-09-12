@@ -1,0 +1,29 @@
+<software name="sfa2d" cloneof="sfz2al">
+	<description>Street Fighter Alpha 2 Dash (960826, PS2 Backport, 2026-08-27)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="szaa.03" offset="0x0" size="0x80000" crc="f69e0a9a" sha1="90fc740a87fcb9caede594ddffd93d334385dfde" />
+		<rom loadflag="load16_word_swap" name="szaa.04" offset="0x80000" size="0x80000" crc="b6b08562" sha1="745b028dea7aac7aade0ac6058bc3479d07447e1" />
+		<rom loadflag="load16_word_swap" name="szaa.05" offset="0x100000" size="0x80000" crc="f053a55e" sha1="f98a8af5cd33a543a5596d59381f9adafed38854" />
+		<rom loadflag="load16_word_swap" name="szaa.06" offset="0x180000" size="0x80000" crc="cfc0e7a8" sha1="31ed58451c7a6ac88a8fccab369167694698f044" />
+		<rom loadflag="load16_word_swap" name="szaa.07" offset="0x200000" size="0x80000" crc="6dd50660" sha1="dbad9258b7cbb8182b2bd1945c2d660bd04d2027" />
+		<rom loadflag="load16_word_swap" name="szaa.08" offset="0x280000" size="0x80000" crc="80c1ff3d" sha1="e821d90eefda4344a21a6ee0d837a592c57592a7" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="sza.01" offset="0x0" size="0x8000" crc="1588cdd2" sha1="1bce1c43affa7bba91ff85ec805de2b91f3a5792" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="sza.02" offset="0x28000" size="0x20000" crc="82ec6d9f" sha1="56a3f249fd4232fa600a76ea50c21b4862d832a7" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="sfz2al.key" offset="0x0" size="0x14" crc="2904963e" sha1="f4fa44646746ab4c6f2e76eaba57a7aee32e2933" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="sza.11m" offset="0x0" size="0x400000" crc="f23db54d" sha1="2354b0bb3f937ece496cfdcba6c430973031bf3f" />
+		<rom loadflag="load16_word_swap" name="sza.12m" offset="0x400000" size="0x400000" crc="c824a1ea" sha1="c2885908c63f29521d6f209e57dfa8f12849297d" />
+		</dataarea>
+	</part>
+</software>

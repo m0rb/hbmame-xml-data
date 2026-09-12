@@ -1,0 +1,25 @@
+<software name="kof97s176" cloneof="kof97">
+	<description>Kof&#x27;97 (14 Windbreaker Eight Gods Enhanced Edition Simplified Move, 2020-05-25)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="232s176.p1" offset="0x0" size="0x100000" crc="3cc05e97" sha1="c061536357264d9944e431b6948f46358c4ac687" />
+		<rom loadflag="load16_word_swap" name="232s176.p2" offset="0x100000" size="0x400000" crc="2247d94d" sha1="1e7cbcd06ceac370f272e0fffd2a3615deb0273e" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="232s176.c1" offset="0x0" size="0x800000" crc="84679523" sha1="8053b9799eb9d2e79397d02fc2362e8a9affd794" />
+		<rom loadflag="load16_byte" name="232s176.c2" offset="0x1" size="0x800000" crc="e40aa514" sha1="e32dac26b6c52ed76dc6b310c57f61238caa9d6c" />
+		<rom loadflag="load16_byte" name="232s006.c3" offset="0x1000000" size="0x800000" crc="b092e64f" sha1="7d809432d068db8f9056f5210570191416f1a53b" />
+		<rom loadflag="load16_byte" name="232s006.c4" offset="0x1000001" size="0x800000" crc="d25e8a04" sha1="52227828e3fdd27399b4cd514551abf856293f47" />
+		<rom loadflag="load16_byte" name="232s176.c5" offset="0x2000000" size="0x800000" crc="a262015e" sha1="6ac99a1d560eeae00d91e61922d4b6ec429f9536" />
+		<rom loadflag="load16_byte" name="232s176.c6" offset="0x2000001" size="0x800000" crc="5155b008" sha1="a4f386142e39766f85d73088b692b8a58c679eb0" />
+		</dataarea>
+	</part>
+</software>

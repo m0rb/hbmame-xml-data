@@ -1,0 +1,24 @@
+<software name="gpilots01" cloneof="gpilots">
+	<description>Ghost Pilots (CD conversion)</description>
+	<year>1991</year>
+	<publisher>CD_conv</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="020s01.p1" offset="0x0" size="0x100000" crc="f139df88" sha1="8a2ce01f83c3c529b3c823555e19f815e0a558b3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x180000">
+		<rom name="020s01.v11" offset="0x0" size="0x100000" crc="1285132c" sha1="dad570624888550937ea15180c9ceb5fcdb418b8" />
+		<rom name="020.v12" offset="0x100000" size="0x80000" crc="4a9e6f03" sha1="d3ac11f333b03d8a318921bdaefb14598e289a14" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x80000">
+		<rom name="020.v21" offset="0x0" size="0x80000" crc="7abf113d" sha1="5b2a0e70f2eaf4638b44702dacd4cb17838fb1d5" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="020.c1" offset="0x0" size="0x100000" crc="bd6fe78e" sha1="50b704862cd79d64fa488e621b079f6e413c33bc" />
+		<rom loadflag="load16_byte" name="020.c2" offset="0x1" size="0x100000" crc="5f4a925c" sha1="71c5ef8141234daaa7025427a6c65e79766973a5" />
+		<rom loadflag="load16_byte" name="020.c3" offset="0x200000" size="0x100000" crc="d1e42fd0" sha1="f0d476aebbdc2ce008f5f0783be86d295b24aa44" />
+		<rom loadflag="load16_byte" name="020.c4" offset="0x200001" size="0x100000" crc="edde439b" sha1="79be7b10ecdab54c2f77062b8f5fda0e299fa982" />
+		</dataarea>
+	</part>
+</software>

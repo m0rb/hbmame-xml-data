@@ -1,0 +1,21 @@
+<software name="ngym2610">
+	<description>NeoGeo YM2610 Test</description>
+	<year>2018</year>
+	<publisher>Blastar</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="610.p1" offset="0x0" size="0x100000" crc="61c31db6" sha1="7f43848b5a5ad321849e3c80f640449ba73c3716" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="610.v1" offset="0x0" size="0x1000000" crc="cb87831f" sha1="22572f4dbe3a85fe05d0818efeb90611b1078245" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x1000000">
+		<rom name="610.v21" offset="0x0" size="0x1000000" crc="23f83969" sha1="c29fd0a8ab2b2f8511f8724221c2614dea026503" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="610.c1" offset="0x0" size="0x100000" crc="c8050090" sha1="7168328582c5ce336b58d662fbb59c2d382bf30e" />
+		<rom loadflag="load16_byte" name="610.c2" offset="0x1" size="0x100000" crc="908d8b09" sha1="7abd2ab313cbe1b859151b606b3e8facaa2fca25" />
+		</dataarea>
+	</part>
+</software>

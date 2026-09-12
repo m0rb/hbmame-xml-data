@@ -1,0 +1,27 @@
+<software name="samsho4s10" cloneof="samsho4">
+	<description>Samurai Shodown IV (Amakusa is coming back, 2014-11-27)</description>
+	<year>2014</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="222s10.p1" offset="0x0" size="0x100000" crc="6299241f" sha1="e1ef78133e9706c9bd8757d604738b53d603dacf" />
+		<rom loadflag="load16_word_swap" name="222s29.p2" offset="0x100000" size="0x400000" crc="2c9c64db" sha1="2a9825bc7577cb1f3128b6a9f41b72bb1228e037" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xa00000">
+		<rom name="222.v1" offset="0x0" size="0x400000" crc="7d6ba95f" sha1="03cb4e0d770e0b332b07b64cacef624460b84c78" />
+		<rom name="222.v2" offset="0x400000" size="0x400000" crc="6c33bb5d" sha1="fd5d4e08a962dd0d22c52c91bad5ec7f23cfb901" />
+		<rom name="222.v3" offset="0x800000" size="0x200000" crc="831ea8c0" sha1="f2987b7d09bdc4311e972ce8a9ab7ca9802db4db" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="222.c1" offset="0x0" size="0x400000" crc="68f2ed95" sha1="c0a02df012cd25bcfe341770ea861a80294148cb" />
+		<rom loadflag="load16_byte" name="222.c2" offset="0x1" size="0x400000" crc="a6e9aff0" sha1="15addca49951ed53fa3c000c8d7cd327d012a620" />
+		<rom loadflag="load16_byte" name="222.c3" offset="0x800000" size="0x400000" crc="c91b40f4" sha1="dcda45e0336204e3e024de08edfd0a3217bc1fdd" />
+		<rom loadflag="load16_byte" name="222.c4" offset="0x800001" size="0x400000" crc="359510a4" sha1="b6642677ebdff7788263266402080272b8a66b15" />
+		<rom loadflag="load16_byte" name="222.c5" offset="0x1000000" size="0x400000" crc="9cfbb22d" sha1="789c32f917d0c6e38601cd390a7bf9d803131a4a" />
+		<rom loadflag="load16_byte" name="222.c6" offset="0x1000001" size="0x400000" crc="685efc32" sha1="db21ba1c7e3631ce0f1cb6f503ae7e0e043ff71b" />
+		<rom loadflag="load16_byte" name="222s29.c7" offset="0x1800000" size="0x400000" crc="ecb13c24" sha1="5f7a62e04a7c2bed52cc4d6377f41d1dbe55f6ee" />
+		<rom loadflag="load16_byte" name="222s29.c8" offset="0x1800001" size="0x400000" crc="0f9a0bda" sha1="6093f607dbcc9e1475bb1bb8e713b23fcd99c486" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,17 @@
+<software name="hmpopey" cloneof="puckman">
+	<description>Hangly-Man (Popeye)</description>
+	<year>1981</year>
+	<publisher>[Nittoh]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="hangly.6e" offset="0x0" size="0x1000" crc="5fe8610a" sha1="d63eaebd85e10aa6c27bb7f47642dd403eeb6934" />
+		<rom name="hangly.6f" offset="0x1000" size="0x1000" crc="73726586" sha1="cedddc5194589039dd8b64f07ab6320d7d4f55f9" />
+		<rom name="hangly.6h" offset="0x2000" size="0x1000" crc="4e7ef99f" sha1="bd42e68b29b4d654dc817782ba00db69b7d2dfe2" />
+		<rom name="hangly.6j" offset="0x3000" size="0x1000" crc="7f4147e6" sha1="0a7ac0e59d4d26fe52a2f4196c9f19e5ab677c87" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacman.5e" offset="0x0" size="0x1000" crc="0c944964" sha1="06ef227747a440831c9a3a613b76693d52a2f0a9" />
+		<rom name="pacpopey.5f" offset="0x1000" size="0x1000" crc="af2b610b" sha1="c787b1db588125f0770dc2bf4626ad22f0faee72" />
+		</dataarea>
+	</part>
+</software>

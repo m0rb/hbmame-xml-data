@@ -1,0 +1,30 @@
+<software name="oldsps04" cloneof="oldsplus">
+	<description>Oriental Legend 2 (Super Edition Macabre Enhanced Version, 2015-12-30)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p05301_pw04.rom" offset="0x100000" size="0x454f99" crc="861ce19f" sha1="f53612050fa9df90cb8bcb4b3c1602bf78652c5a" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="igs_w05301b032.u5" offset="0x400000" size="0x400000" crc="86ec83bc" sha1="067cb7ec449eacd1f49298f45a364368934db5dd" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="igs_t05301w064.u2" offset="0x180000" size="0x800000" crc="8257bbb0" sha1="b48067b7e7081a15fddf21739b641d677c2df3d9" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a05301_pw04.rom" offset="0x0" size="0x800000" crc="802266a0" sha1="098a3b08462328912087384048c3538b705f001d" />
+		<rom name="igs_a05302w064.u4" offset="0x800000" size="0x800000" crc="3459a0b8" sha1="94ab6f980b5582f1db9bb12019d03f0b6e0a06df" />
+		<rom name="igs_a05303w064.u6" offset="0x1000000" size="0x800000" crc="13475d85" sha1="4683a3bf304fdc15ffb1c61b7957ad68b023fa33" />
+		<rom name="igs_a05304w064.u8" offset="0x1800000" size="0x800000" crc="f03ef7a6" sha1="c18b1b622b430d5e031e65daa6819b84c3e12ef5" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b05301_pw04.rom" offset="0x0" size="0x800000" crc="bb7b3060" sha1="1d299440fe634b2fb1f69a0a3f09eceb3d3c70c0" />
+		<rom name="igs_b05302w064.u11" offset="0x800000" size="0x800000" crc="9f6094a8" sha1="69f6f2003ab975eae13ea6b5c2ffa40df6e6bdf6" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		</dataarea>
+		<dataarea name="user1" size="0x800000">
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,29 @@
+<software name="lostwrldo">
+	<description>Lost Worlds (Japan Old Ver.)</description>
+	<year>1988</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c01jo.p1" offset="0x0" size="0x20000" crc="61e2cc56" sha1="bc192e37806129dd00677ca2c2e4287aa670973d" />
+		<rom loadflag="load16_byte" name="c01jo.p2" offset="0x1" size="0x20000" crc="8a0c18d3" sha1="7a4d80cefa0c2be427de43fbbbb906880876ed1d" />
+		<rom loadflag="load16_byte" name="c01jo.p3" offset="0x40000" size="0x20000" crc="23bca4d5" sha1="c9d356d052d82117b6c30e40aa02a5f1f5335a73" />
+		<rom loadflag="load16_byte" name="c01jo.p4" offset="0x40001" size="0x20000" crc="3a023771" sha1="30de9b76e104e897ddce64615f24bba0aa270d14" />
+		<rom loadflag="load16_word_swap" name="c01.p5" offset="0x80000" size="0x80000" crc="fd252a26" sha1="5cfb097984912a5167a8c7ec4c2e119b642f9970" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c01.m1" offset="0x0" size="0x8000" crc="59df2a63" sha1="dfe1fffc7a17179a80a2ae623e93b30a7d6df20d" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="forgottn.key" offset="0x0" size="0x80" crc="ec5025a0" sha1="21ac00fbfca9ae369e99469ee372fea0a5bbdb25" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c01j.v1" offset="0x0" size="0x20000" crc="ce2159e7" sha1="77d564f8b768c1cbd6e5b334f7ee86c4c3f9d62e" />
+		<rom name="c01j.v2" offset="0x20000" size="0x20000" crc="39305536" sha1="ad24d7b6df2dc5e84a35aecb9ba9b0aaa27ab6e5" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,21 @@
+<software name="pzlcrz" cloneof="pbobblen">
+	<description>Puzzle Crazy</description>
+	<year>2020</year>
+	<publisher>Elrayzeur</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="461.p1" offset="0x0" size="0x80000" crc="616e953c" sha1="0f393e0c6397d6fec7f4e8d5b6864c062b824788" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x380000">
+		<rom name="461.v1" offset="0x0" size="0x100000" crc="3d59ad53" sha1="b09b860cb385616c1649e68474d71bf3399cedc6" />
+		<rom name="461.v2" offset="0x100000" size="0x100000" crc="56d0c568" sha1="d38d4eea7b50026dfc1e9839865243a83ce11d5b" />
+		<rom name="083ch.v3" offset="0x200000" size="0x100000" crc="30ce579e" sha1="635f7ab2178981ba38cc0080f4f97e954e552440" />
+		<rom name="083.v4" offset="0x300000" size="0x80000" crc="0a548948" sha1="e1e4afd17811cb60401c14fbcf0465035165f4fb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="461.c1" offset="0x0" size="0x80000" crc="f8d39bdc" sha1="3a36b4be73e04955adb41214fbbf9ea6a6a218d3" />
+		<rom loadflag="load16_byte" name="461.c2" offset="0x1" size="0x80000" crc="40b2ad28" sha1="ce29406727710b23c7aacb3babf724d808c0e975" />
+		</dataarea>
+	</part>
+</software>

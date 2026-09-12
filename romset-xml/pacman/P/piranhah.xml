@@ -1,0 +1,19 @@
+<software name="piranhah" cloneof="puckman">
+	<description>Piranha (hack)</description>
+	<year>1981</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pr1.cpu" offset="0x0" size="0x1000" crc="bc5ad024" sha1="a3ed781b514a1068b24a7146a28f0a2adfaa2719" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pr3.cpu" offset="0x2000" size="0x1000" crc="473c379d" sha1="6e7985367c3e544b4cb98ba8291908df88eafe7f" />
+		<rom name="pr4.cpu" offset="0x3000" size="0x1000" crc="63fbf895" sha1="d328bf3b8f307fb774614834edec211117148e64" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pr5.cpu" offset="0x0" size="0x800" crc="3fc4030c" sha1="5e45f0c19cf96daa17afd2fa1c628d7ac7f4a79c" />
+		<rom name="pr7.cpu" offset="0x800" size="0x800" crc="30b9a010" sha1="b0ba8b6cd430feb32d11d092e1959b9f5d240f1b" />
+		<rom name="pr6.cpu" offset="0x1000" size="0x800" crc="f3e9c9d5" sha1="709a75b2457f21f0f1a3d9e7f4c8579468ee5cad" />
+		<rom name="pr8.cpu" offset="0x1800" size="0x800" crc="133d720d" sha1="8af75ed9e115a996379acedd44d0c09332ec5a03" />
+		</dataarea>
+	</part>
+</software>

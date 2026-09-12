@@ -1,0 +1,32 @@
+<software name="dkong07" cloneof="dkong">
+	<description>Donkey Kong (Kana Kong)</description>
+	<year>2022</year>
+	<publisher>Kirai Shouen, 125scratch</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="c_5et_g.bin" offset="0x0" size="0x1000" crc="ba70b88b" sha1="d76ebecfea1af098d843ee7e578e480cd658ac1a" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="c_5at_g.bin" offset="0x3000" size="0x1000" crc="b9005ac0" sha1="3fe3599f6fa7c496f782053ddf7bacb453d197c4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="s07.5h" offset="0x0" size="0x800" crc="d314c451" sha1="bb28f431c5ce6e9c1dd77a0aad3728e882f0f9c0" />
+		<rom name="s07.3pt" offset="0x800" size="0x800" crc="3525a8c0" sha1="7e94f5c212dfb6fe00f7dbcd8e1ecb56b6066d5e" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="s07.4m" offset="0x0" size="0x800" crc="089af499" sha1="33445181a67a25be2e953dec7a0d2437070e71f1" />
+		<rom name="s07.4n" offset="0x800" size="0x800" crc="7375d02d" sha1="8c0d3130c01d7a0e3cd50eb7de6cc000a4215c67" />
+		<rom name="s07.4r" offset="0x1000" size="0x800" crc="a8142c34" sha1="7bbaf33f12ce971a02e1c38e8b9b807554657ec6" />
+		<rom name="s07.4s" offset="0x1800" size="0x800" crc="72de5617" sha1="01a08d52aeb1151b5261218afb980cfcb6bef937" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="s07.2k" offset="0x0" size="0x100" crc="2f18a54e" sha1="098f70fe519102ebb146a3aa42b0aa1d6fb7fbe7" />
+		<rom name="s07.2j" offset="0x100" size="0x100" crc="4f1f882a" sha1="df95e3424ba7372b1096e39d6c10f7eaa51cf739" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>

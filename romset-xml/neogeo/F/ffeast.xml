@@ -1,0 +1,19 @@
+<software name="ffeast">
+	<description>Frog Feast (NeoGeo)</description>
+	<year>2006</year>
+	<publisher>Rastersoft</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="431.p1" offset="0x0" size="0x80000" crc="c26848da" sha1="33737f8d2366b3a554ceb9ea2fcd85aaed75f344" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="431.v1" offset="0x0" size="0x100000" crc="2639da11" sha1="4309e46014d623066d427ce3473542c99f678f86" />
+		<rom name="431.v2" offset="0x100000" size="0x100000" crc="e5eda58b" sha1="ae203cfedf4b563da914939e0a4d7f4697070f82" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="431.c1" offset="0x0" size="0x100000" crc="7b2f9fb3" sha1="62deacf16c3b259422f962c9604b4efc2f32d91b" />
+		<rom loadflag="load16_byte" name="431.c2" offset="0x1" size="0x100000" crc="a7f18a6f" sha1="1a277c79eaacf09d12a4b7c88421e7a6d6153503" />
+		</dataarea>
+	</part>
+</software>

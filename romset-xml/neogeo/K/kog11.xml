@@ -1,0 +1,25 @@
+<software name="kog11" cloneof="kof97">
+	<description>King of Gladiator (Add Chris&#x27;s Purple Fire)</description>
+	<year>1997</year>
+	<publisher>Bloodlust</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x600000">
+		<rom loadflag="load16_word_swap" name="5232-p1.bin" offset="0x0" size="0x200000" crc="d2413ec6" sha1="c0bf409d1e714cba5fdc6f79e4c2aec805316634" />
+		<rom loadflag="load16_word_swap" name="232s388.p2" offset="0x200000" size="0x400000" crc="90a09fde" sha1="9a585fa3d3ba744954bd7fe9a11266594d6f366b" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="5232-c1a.bin" offset="0x0" size="0x800000" crc="4eab9b0a" sha1="a6f6b755215a3f41474e0a76b5463303a522c2d3" />
+		<rom loadflag="load16_byte" name="5232-c2a.bin" offset="0x1" size="0x800000" crc="697f8fd0" sha1="5784464c2357ccef8e6e79b6298843fc3d13b39c" />
+		<rom loadflag="load16_byte" name="5232-c1b.bin" offset="0x1000000" size="0x800000" crc="1143fdf3" sha1="9dc5fe9a3b7599380db62095880e2d6f237a41bd" />
+		<rom loadflag="load16_byte" name="5232-c2b.bin" offset="0x1000001" size="0x800000" crc="ea82cf8f" sha1="3d9ab64b69cecd6b3950839ac2c6d151ad66dcf8" />
+		<rom loadflag="load16_byte" name="5232-c3.bin" offset="0x2000000" size="0x400000" crc="abd1be07" sha1="857eb68bbee4538770bbfa77aaa540d61ab0abcd" />
+		<rom loadflag="load16_byte" name="5232-c4.bin" offset="0x2000001" size="0x400000" crc="d2bd967b" sha1="c494e0a98e127d37ca360a28accc167fa50fb626" />
+		</dataarea>
+	</part>
+</software>

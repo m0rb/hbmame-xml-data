@@ -1,0 +1,18 @@
+<software name="blueandr">
+	<description>Blue and Red Fight the Robots v1.7</description>
+	<year>2026</year>
+	<publisher>Kaiju Wasp</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="519.p1" offset="0x0" size="0x100000" crc="39755597" sha1="12cefd1e68560ea096bcd826e7fa558475dad13c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="519.v1" offset="0x0" size="0xb80000" crc="4aa33827" sha1="2935649e4e87f6f66b8d13802ad5ea751c58ce8b" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="519.c1" offset="0x0" size="0x40000" crc="c4dada7c" sha1="6e45be91a9e24dc7153b1052522b243be817d3b8" />
+		<rom loadflag="load16_byte" name="519.c2" offset="0x1" size="0x40000" crc="76edd8a9" sha1="3bf89afdabd3fabbca240548f150b37d60f19cc3" />
+		</dataarea>
+	</part>
+</software>

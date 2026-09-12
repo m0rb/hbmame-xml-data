@@ -1,0 +1,16 @@
+<software name="pc_smb_ps51" cloneof="pc_smb">
+	<description>Super Mario Bros. (Sakura, 2015-09-20)(PlayChoice-10)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps51" offset="0x0" size="0x2000" crc="57b68cc5" sha1="884f2598244a0fab6edb498a03d057d638be9639" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps51" offset="0x0" size="0x8000" crc="9246fde9" sha1="21b8ac3c119dd0160a442d5363b5a3898dc8c476" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

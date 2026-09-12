@@ -1,0 +1,28 @@
+<software name="kof97s641" cloneof="kof97">
+	<description>Kof&#x27;97 (Invincible Plus!, B2.1.2107, 2021-07-09)</description>
+	<year>2021</year>
+	<publisher>GOTVG</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="232s641.p1" offset="0x0" size="0x100000" crc="f8e08514" sha1="91fa403d770a31366eca6c33f861b936eb9e827d" />
+		<rom loadflag="load16_word_swap" name="232s641.p2" offset="0x100000" size="0x400000" crc="9bccc862" sha1="529422e86220b95cfa6bde1a07b9f9eadc351a5c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		<rom name="232s641.v4" offset="0xc00000" size="0x400000" crc="225996c3" sha1="0f18db5a2d9d007c7d37c7976b14a6fa001702d2" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="232s641.c1" offset="0x0" size="0x800000" crc="b496fb6e" sha1="55cf8396865fe34a8e8f73bd8319edaa067175cb" />
+		<rom loadflag="load16_byte" name="232s641.c2" offset="0x1" size="0x800000" crc="ff3fde05" sha1="4fbd4dd74de4f8efc0298eafe28075398951478d" />
+		<rom loadflag="load16_byte" name="232s641.c3" offset="0x1000000" size="0x800000" crc="46db93d9" sha1="89ac7942c843e053d1619f7782185b34dd898ed5" />
+		<rom loadflag="load16_byte" name="232s641.c4" offset="0x1000001" size="0x800000" crc="b1a4ac4a" sha1="2de3c6ab24a415107bc2d5f51b6bc80d2346f97d" />
+		<rom loadflag="load16_byte" name="232s641.c5" offset="0x2000000" size="0x800000" crc="1a921988" sha1="7c01bfa415e3ccafa681dfd1bc566aa4bc610085" />
+		<rom loadflag="load16_byte" name="232s641.c6" offset="0x2000001" size="0x800000" crc="07630b58" sha1="27cc0eb09c39b6114f57ec3cdd6700ce7ff36a09" />
+		<rom loadflag="load16_byte" name="232s641.c7" offset="0x3000000" size="0x400000" crc="c71dcab9" sha1="058d7dbb4a6b70fae1dda1d371ae19afb69526db" />
+		<rom loadflag="load16_byte" name="232s641.c8" offset="0x3000001" size="0x400000" crc="c6d74eaf" sha1="64fd60576b731b104b4d3114abe838d855136fab" />
+		</dataarea>
+	</part>
+</software>

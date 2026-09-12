@@ -1,0 +1,18 @@
+<software name="zintrick03" cloneof="zintrckb">
+	<description>ZinTricK (CD test)</description>
+	<year>2014</year>
+	<publisher>Razoola</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="211s03.p1" offset="0x0" size="0x100000" crc="032df2ba" sha1="dfd35d77da203ebad5319b355fd65e6ed6a553da" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="211s03.v1" offset="0x0" size="0x800000" crc="00e392ed" sha1="8a46673c02fc25e65821d45749aa6fe697fa81c1" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="211.c1" offset="0x0" size="0x200000" crc="76aee189" sha1="ad6929804c5b9a59aa609e6baebc6aa37e858a47" />
+		<rom loadflag="load16_byte" name="211.c2" offset="0x1" size="0x200000" crc="844ed4b3" sha1="fb7cd057bdc6cbe8b78097dd124118bae7402256" />
+		</dataarea>
+	</part>
+</software>

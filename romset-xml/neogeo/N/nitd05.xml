@@ -1,0 +1,18 @@
+<software name="nitd05" cloneof="nitd">
+	<description>Nightmare in the Dark (French V1c)</description>
+	<year>2000</year>
+	<publisher>Eleven / Gavaking</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="260s04.p1" offset="0x0" size="0x80000" crc="b294c6ce" sha1="77f641c05a645e8d57014540ef1b7f52c4a8849b" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="260.v1" offset="0x0" size="0x400000" crc="24b0480c" sha1="d769e621be52a5cd2e2568891b5f95a48268e1e0" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="260s04.c1" offset="0x0" size="0x800000" crc="14c5a25f" sha1="8b29f7e6920eb1b4a7dc42a063e4c8e6ec9a5700" />
+		<rom loadflag="load16_byte" name="260s04.c2" offset="0x1" size="0x800000" crc="6630c255" sha1="c8a77a3d6e17e1ed64eb6b1e85172567e7e3e71c" />
+		</dataarea>
+	</part>
+</software>

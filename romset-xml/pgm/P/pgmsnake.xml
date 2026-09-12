@@ -1,0 +1,18 @@
+<software name="pgmsnake">
+	<description>PGM test program</description>
+	<year>2023</year>
+	<publisher>IQ_132</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="pgmsnake.p1" offset="0x100000" size="0x80000" crc="d8a86ce2" sha1="eccdfc8b84e32aadd0300b7691af02bb209e0c95" />
+		</dataarea>
+		<dataarea name="ics" size="0x600000">
+		</dataarea>
+		<dataarea name="igs023" size="0x800000">
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		</dataarea>
+	</part>
+</software>

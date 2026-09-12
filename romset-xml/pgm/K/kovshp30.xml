@@ -1,0 +1,29 @@
+<software name="kovshp30" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Q Version Of The Three Kingdoms G5 Beta)</description>
+	<year>2004</year>
+	<publisher>Grand</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po30.rom" offset="0x100000" size="0x400000" crc="1d82fc88" sha1="fea4f8b5ed77236a66f40dfd4c74c7a87f7d0d5f" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u5" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="pgm_t0600.u2" offset="0x180000" size="0x800000" crc="4acc1ad6" sha1="0668dbd5e856c2406910c6b7382548b37c631780" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_po30.rom" offset="0x0" size="0x800000" crc="f43d9969" sha1="16240cfa7c6951c87cfa64c65dc822c33261eb2d" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="a0540_po30.rom" offset="0x1800000" size="0x800000" crc="fdc4601d" sha1="4d24744438b4b1c254d7e454b8f00a6e8c00509a" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_po28.rom" offset="0x0" size="0x800000" crc="7f17c867" sha1="00ecfd6ad0b53d3839ef025b28d760045bd1ad57" />
+		<rom name="b0540_po30.rom" offset="0x800000" size="0x800000" crc="2b5f7874" sha1="bdd1a3906cccd47bfa09e1aed0b77ee214ed0bd8" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.asic" offset="0x0" size="0x4000" crc="0f09a5c1" sha1="621b38c05f33277608d58b49822aebc930ae4870" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,26 @@
+<software name="kof2k2cn" cloneof="kof2002">
+	<description>Kof2002 (Chinese)</description>
+	<year>2002</year>
+	<publisher>FoxUU / ZUOJIE</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="265cn.p1" offset="0x0" size="0x100000" crc="07de031f" sha1="6d2c6caea4d94388da597e89cde61ed6efba96fa" />
+		<rom loadflag="load16_word_swap" name="265cn.p2" offset="0x100000" size="0x400000" crc="9cb1dd35" sha1="5e04716cf02e3321fac7bd4551fa352d8a54c7a3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="kf10-v1.bin" offset="0x0" size="0x800000" crc="0fc9a58d" sha1="9d79ef00e2c2abd9f29af5521c2fbe5798bf336f" />
+		<rom name="kf10-v2.bin" offset="0x800000" size="0x800000" crc="b8c475a4" sha1="10caf9c69927a223445d2c4b147864c02ce520a8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="265cn.c1" offset="0x0" size="0x800000" crc="35b6ee83" sha1="1ee4fdd0482ae391544535020c96dba1fd4fb9a4" />
+		<rom loadflag="load16_byte" name="265cn.c2" offset="0x1" size="0x800000" crc="9d4bd32f" sha1="ed0dce5dd6cffce2c55a62559b368ccc46115497" />
+		<rom loadflag="load16_byte" name="265d.c3" offset="0x1000000" size="0x800000" crc="959fad0b" sha1="63ab83ddc5f688dc8165a7ff8d262df3fcd942a2" />
+		<rom loadflag="load16_byte" name="265d.c4" offset="0x1000001" size="0x800000" crc="efe6a468" sha1="2a414285e48aa948b5b0d4a9333bab083b5fb853" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="265cn.c7" offset="0x3000000" size="0x800000" crc="204c1b0e" sha1="4e44371fc4d0abbd455554eb066ede07ab5f68f9" />
+		<rom loadflag="load16_byte" name="265cn.c8" offset="0x3000001" size="0x800000" crc="b44c1d54" sha1="22f9fb31b4f36f5c4fce66b5bd64b45737db43d9" />
+		</dataarea>
+	</part>
+</software>

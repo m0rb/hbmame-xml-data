@@ -1,0 +1,28 @@
+<software name="kizuna07" cloneof="kizuna">
+	<description>Kizuna Encounter (Simplify Edition, 2018-06-04)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="216s07.p1" offset="0x100000" size="0x100000" crc="d2ca0cbe" sha1="84dc3678a1be2357b1b02eedb1dd0088a94e0ca2" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="059.v1" offset="0x0" size="0x200000" crc="530c50fd" sha1="29401cee7f7d2c199c7cb58092e86b28205e81ad" />
+		<rom name="216.v2" offset="0x200000" size="0x200000" crc="03667a8d" sha1="3b0475e553a49f8788f32b0c84f82645cc6b4273" />
+		<rom name="059.v3" offset="0x400000" size="0x200000" crc="7038c2f9" sha1="c1d6f86b24feba03fe009b58199d2eeabe572f4e" />
+		<rom name="216.v4" offset="0x600000" size="0x200000" crc="31b99bd6" sha1="5871751f8e9e6b98337472c22b5e1c7ede0a9311" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1c00000">
+		<rom loadflag="load16_byte" name="059.c1" offset="0x0" size="0x200000" crc="763ba611" sha1="d3262e0332c894ee149c5963f882cc5e5562ee57" />
+		<rom loadflag="load16_byte" name="059.c2" offset="0x1" size="0x200000" crc="e05e8ca6" sha1="986a9b16ff92bc101ab567d2d01348e093abea9a" />
+		<rom loadflag="load16_byte" name="216.c3" offset="0x800000" size="0x400000" crc="665c9f16" sha1="7ec781a49a462f395b450460b29493f55134eac2" />
+		<rom loadflag="load16_byte" name="216.c4" offset="0x800001" size="0x400000" crc="7f5d03db" sha1="365ed266c121f4df0bb76898955a8ae0e668a216" />
+		<rom loadflag="load16_byte" name="059.c5" offset="0x1000000" size="0x200000" crc="59013f9e" sha1="5bf48fcc450da72a8c4685f6e3887e67eae49988" />
+		<rom loadflag="load16_byte" name="059.c6" offset="0x1000001" size="0x200000" crc="1c8d5def" sha1="475d89a5c4922a9f6bd756d23c2624d57b6e9d62" />
+		<rom loadflag="load16_byte" name="059.c7" offset="0x1800000" size="0x200000" crc="c88f7035" sha1="c29a428b741f4fe7b71a3bc23c87925b6bc1ca8f" />
+		<rom loadflag="load16_byte" name="059.c8" offset="0x1800001" size="0x200000" crc="484ce3ba" sha1="4f21ed20ce6e2b67e2b079404599310c94f591ff" />
+		</dataarea>
+	</part>
+</software>

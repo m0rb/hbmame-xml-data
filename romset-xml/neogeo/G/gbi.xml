@@ -1,0 +1,23 @@
+<software name="gbi">
+	<description>GhostBusters (Intro demo)</description>
+	<year>2009</year>
+	<publisher>[Raregame]</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="627.p1" offset="0x0" size="0x100000" crc="af69ef5f" sha1="e218d1c99e491afcf1887ef9f5bed3e7a5e53fe4" />
+		<rom loadflag="load16_word_swap" name="627.p2" offset="0x100000" size="0x400000" crc="f57e393f" sha1="4e4ac08db6cc28bcc47808854b1ceb407a486fe5" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="627.v1" offset="0x0" size="0x94a00" crc="44864761" sha1="35334b93c65b3e27338290c2ba1f73aa902aa893" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1800000">
+		<rom loadflag="load16_byte" name="627.c1" offset="0x0" size="0x400000" crc="4281fecd" sha1="a4f4c278b28740cde042f81769c8c10e5d274fcf" />
+		<rom loadflag="load16_byte" name="627.c2" offset="0x1" size="0x400000" crc="0f07018c" sha1="eccd998c8fe4c4e3039f104dbdc89713cd9e10cb" />
+		<rom loadflag="load16_byte" name="627.c3" offset="0x800000" size="0x400000" crc="a4589b2a" sha1="ff3784921b093f61c3f620c26f296b8f4f798028" />
+		<rom loadflag="load16_byte" name="627.c4" offset="0x800001" size="0x400000" crc="2a72bd04" sha1="8d30b1851ca706b669d8d02b1d17a2b40a424b8d" />
+		<rom loadflag="load16_byte" name="627.c5" offset="0x1000000" size="0x400000" crc="ad3b72f9" sha1="0274f7b85cb1a53a5f98399ac1952418803ab765" />
+		<rom loadflag="load16_byte" name="627.c6" offset="0x1000001" size="0x400000" crc="963e0941" sha1="04ae20247e74f27721a2a87f0acd41a733c6f753" />
+		</dataarea>
+	</part>
+</software>

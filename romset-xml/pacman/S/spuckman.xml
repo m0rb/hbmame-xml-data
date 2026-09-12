@@ -1,0 +1,23 @@
+<software name="spuckman" cloneof="puckman">
+	<description>Super Puckman</description>
+	<year>1981</year>
+	<publisher>TV Tune / Miet!o!mat</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="hangly3.6e" offset="0x0" size="0x800" crc="9d027c4a" sha1="88e094880057451a75cdc2ce9477403021813982" />
+		<rom name="hangly3.6k" offset="0x800" size="0x800" crc="194c7189" sha1="fd423bac2810015313841c7b935054565390fbd0" />
+		<rom name="hangly2.6f" offset="0x1000" size="0x800" crc="5ba228bb" sha1="b0e902cdf98bee72d6ec8069eec96adce3245074" />
+		<rom name="hangly2.6m" offset="0x1800" size="0x800" crc="baf5461e" sha1="754586a6449fd54a342f260e572c1cd60ab70815" />
+		<rom name="pheartb.6h" offset="0x2000" size="0x800" crc="b42416d1" sha1="3714efae24f35fe63dd89f0d7b82e4564c5405d3" />
+		<rom name="hangly3.6n" offset="0x2800" size="0x800" crc="ab74b51f" sha1="1bce8933ed7807eb7aca9670df8994f8d1a8b5b7" />
+		<rom name="spuckman.6j" offset="0x3000" size="0x800" crc="bc33aa79" sha1="b974755edebb19455efccd56412995e3fa9fbd8e" />
+		<rom name="spuckman.6p" offset="0x3800" size="0x800" crc="e95eafca" sha1="0a0080340a2beb6408fe79a19e7fa97f35de9619" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="hangly3.5e" offset="0x0" size="0x800" crc="5f4be3cc" sha1="eeb0e1e44549b99eab481d9ac016b4359e19fe30" />
+		<rom name="puckman.5h" offset="0x800" size="0x800" crc="3591b89d" sha1="79bb456be6c39c1ccd7d077fbe181523131fb300" />
+		<rom name="puckman.5f" offset="0x1000" size="0x800" crc="9e39323a" sha1="be933e691df4dbe7d12123913c3b7b7b585b7a35" />
+		<rom name="puckman.5j" offset="0x1800" size="0x800" crc="1b1d9096" sha1="53771c573051db43e7185b1d188533056290a620" />
+		</dataarea>
+	</part>
+</software>

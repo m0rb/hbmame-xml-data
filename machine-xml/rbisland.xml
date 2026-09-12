@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="rbisland" description="Rbisland cartridges">
+<software name="rbistest">
+	<description>Rainbow Islands Cchip Test (2013-12-24)</description>
+	<year>2013</year>
+	<publisher>Porchy</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_byte" name="rbistest.19" offset="0x0" size="0x10000" crc="bd37dc4b" sha1="0519c04771ff1051cbad973ff708421f32853592" />
+		<rom loadflag="load16_byte" name="rbistest.20" offset="0x1" size="0x10000" crc="fd62eaad" sha1="67ec2f7b2c84c591de555f666237ce52d737e6cc" />
+		<rom loadflag="load16_byte" name="b22-08-1.21" offset="0x20000" size="0x10000" crc="15d6e17a" sha1="7b0339180239e75adf1437aee276b652a1bfee51" />
+		<rom loadflag="load16_byte" name="b22-09-1.22" offset="0x20001" size="0x10000" crc="454e66bc" sha1="54d57dee90da04101f4b1473770b38001d63230f" />
+		<rom loadflag="load16_byte" name="b22-03.23" offset="0x40000" size="0x20000" crc="3ebb0fb8" sha1="1b41b305623d121255eb70cb992e4d9da13abd82" />
+		<rom loadflag="load16_byte" name="b22-04.24" offset="0x40001" size="0x20000" crc="91625e7f" sha1="765afd973d9b82bb496b04beca284bf2769d6e6f" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x1c000">
+		<rom name="b22-14.43" offset="0x0" size="0x4000" crc="113c1a5b" sha1="effa2adf54a6be78b2d4baf3a47529342fb0d895" />
+		<rom loadflag="continue" offset="0x10000" size="0xc000" />
+		</dataarea>
+		<dataarea name="cchip:cchip_eprom" size="0x2000">
+		<rom name="cchip_b22-15.53" offset="0x0" size="0x2000" crc="08c588a6" sha1="7e38342be68d37f7106df069dd2021c509be1244" />
+		</dataarea>
+		<dataarea name="pc080sn" size="0x80000">
+		<rom loadflag="load16_word_swap" name="b22-01.2" offset="0x0" size="0x80000" crc="b76c9168" sha1="e924be0c8294b930488bb04583784254a840a52e" />
+		</dataarea>
+		<dataarea name="pc090oj" size="0xa0000">
+		<rom loadflag="load16_word_swap" name="b22-02.5" offset="0x0" size="0x80000" crc="1b87ecf0" sha1="37a463184f4064fe0565367236e289d57639614c" />
+		<rom loadflag="load16_byte" name="b22-13.6" offset="0x80000" size="0x10000" crc="2fda099f" sha1="a1e27a4497f6733608be924d69d965b19f725b99" />
+		<rom loadflag="load16_byte" name="b22-12.7" offset="0x80001" size="0x10000" crc="67a76dc6" sha1="626ee684eb3ea859c695ffe03344ccaa442da4af" />
+		</dataarea>
+	</part>
+</software>
+<software name="rbistest1">
+	<description>Rainbow Islands Test Rom (2013-12-24)</description>
+	<year>2013</year>
+	<publisher>Porchy</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_byte" name="rbistest1.19" offset="0x0" size="0x10000" crc="3c9f547a" sha1="d915e11d433096be8359db60f2b1e678a3d0bdc0" />
+		<rom loadflag="load16_byte" name="rbistest1.20" offset="0x1" size="0x10000" crc="0ad961b5" sha1="53d59025d1a2a026a7439fb94086a9aac61cada8" />
+		<rom loadflag="load16_byte" name="rbistest1.21" offset="0x20000" size="0x10000" crc="962fb845" sha1="1c5581e697902ee5cde0fb841ef05eade04a901b" />
+		<rom loadflag="load16_byte" name="rbistest1.22" offset="0x20001" size="0x10000" crc="f43efa27" sha1="f92bcdbe9bbc1c200946c10605846bb406d8e963" />
+		<rom loadflag="load16_byte" name="rbistest1.23" offset="0x40000" size="0x20000" crc="e8603162" sha1="043a09053bbca5f2413d9cc470ab3133ef5763cd" />
+		<rom loadflag="load16_byte" name="rbistest1.24" offset="0x40001" size="0x20000" crc="903719c4" sha1="41b0122f7427d17397f662d9bd6562f6bde44f4c" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x1c000">
+		<rom name="b22-14.43" offset="0x0" size="0x4000" crc="113c1a5b" sha1="effa2adf54a6be78b2d4baf3a47529342fb0d895" />
+		<rom loadflag="continue" offset="0x10000" size="0xc000" />
+		</dataarea>
+		<dataarea name="cchip:cchip_eprom" size="0x2000">
+		<rom name="cchip_b22-15.53" offset="0x0" size="0x2000" crc="08c588a6" sha1="7e38342be68d37f7106df069dd2021c509be1244" />
+		</dataarea>
+		<dataarea name="pc080sn" size="0x80000">
+		<rom loadflag="load16_word_swap" name="b22-01.2" offset="0x0" size="0x80000" crc="b76c9168" sha1="e924be0c8294b930488bb04583784254a840a52e" />
+		</dataarea>
+		<dataarea name="pc090oj" size="0xa0000">
+		<rom loadflag="load16_word_swap" name="b22-02.5" offset="0x0" size="0x80000" crc="1b87ecf0" sha1="37a463184f4064fe0565367236e289d57639614c" />
+		<rom loadflag="load16_byte" name="b22-13.6" offset="0x80000" size="0x10000" crc="2fda099f" sha1="a1e27a4497f6733608be924d69d965b19f725b99" />
+		<rom loadflag="load16_byte" name="b22-12.7" offset="0x80001" size="0x10000" crc="67a76dc6" sha1="626ee684eb3ea859c695ffe03344ccaa442da4af" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

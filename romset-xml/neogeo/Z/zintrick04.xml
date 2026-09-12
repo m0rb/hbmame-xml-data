@@ -1,0 +1,18 @@
+<software name="zintrick04" cloneof="zintrckb">
+	<description>ZinTricK (Music test)</description>
+	<year>2010</year>
+	<publisher>Elrayseur</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="211s04.p1" offset="0x0" size="0x100000" crc="b3fb325c" sha1="27a34ff0dfea02b1aac3ddbc7c965684694390f1" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="211s04.v1" offset="0x0" size="0x200000" crc="baa2b9a5" sha1="914782b6c81d9a76ce02251575592b0648434ba3" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="211.c1" offset="0x0" size="0x200000" crc="76aee189" sha1="ad6929804c5b9a59aa609e6baebc6aa37e858a47" />
+		<rom loadflag="load16_byte" name="211.c2" offset="0x1" size="0x200000" crc="844ed4b3" sha1="fb7cd057bdc6cbe8b78097dd124118bae7402256" />
+		</dataarea>
+	</part>
+</software>

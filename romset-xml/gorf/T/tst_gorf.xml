@@ -1,0 +1,10 @@
+<software name="tst_gorf">
+	<description>Test Rom - Gorf</description>
+	<year>2005</year>
+	<publisher>David Turner</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="gorfmd.bin" offset="0x0" size="0x1000" crc="3776a6a1" sha1="bd6b0a1dd587e8d4b325ef4133b8e3797416d8d2" />
+		</dataarea>
+	</part>
+</software>

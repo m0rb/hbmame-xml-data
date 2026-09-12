@@ -1,0 +1,17 @@
+<software name="pmba2000" cloneof="puckman">
+	<description>Pac Man Babies 2000</description>
+	<year>2001</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="pmba2000.6j" offset="0x3000" size="0x1000" crc="f7d647d8" sha1="4edf34fc4a0da7367557392d55beac4a5eb5038a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pmba2000.5e" offset="0x0" size="0x1000" crc="ff6308bb" sha1="93bc32cfb43d521e77179597141587a9866c5319" />
+		<rom name="pmba2000.5f" offset="0x1000" size="0x1000" crc="c8b456b5" sha1="a9e435300171779a6c0e145a50284045b3996d91" />
+		</dataarea>
+	</part>
+</software>

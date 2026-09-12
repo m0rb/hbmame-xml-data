@@ -1,0 +1,27 @@
+<software name="kof2k3hd" cloneof="kof2003">
+	<description>Kof2003 (NGH-2710)(decrypted C)</description>
+	<year>2003</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x900000">
+		<rom loadflag="load32_word_swap" name="271h.p1" offset="0x0" size="0x400000" crc="d0d0ae3e" sha1="538d054ac50c91694fbbfefcce548b063713e14e" />
+		<rom loadflag="load32_word_swap" name="271h.p2" offset="0x2" size="0x400000" crc="fb3f79d9" sha1="f253d10e732d6e23ae82d74ac9269d21f69ddb4d" />
+		<rom loadflag="load16_word_swap" name="271h.p3" offset="0x800000" size="0x100000" crc="232702ad" sha1="6045046027dac1cbd4cbd14b5c1ece522bc6197f" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="271.v1" offset="0x0" size="0x800000" crc="ffa3f8c7" sha1="7cf4a933973ca23b7f87c81151d8659e6ec4bd20" />
+		<rom name="271.v2" offset="0x800000" size="0x800000" crc="5382c7d1" sha1="1bf999705eda80ba1e7b0d6bdd010d9bfb18bd76" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="271b.c1" offset="0x0" size="0x800000" crc="e42fc226" sha1="1cd9364993e141facdcdd53ec2277df7b275d8a7" />
+		<rom loadflag="load16_byte" name="271b.c2" offset="0x1" size="0x800000" crc="1b5e3b58" sha1="0eb254477a9479541291e43e415310852a0f0bed" />
+		<rom loadflag="load16_byte" name="271b.c3" offset="0x1000000" size="0x800000" crc="d334fdd9" sha1="1efe30b4f56a55e25ab518cf6999de797b5e407c" />
+		<rom loadflag="load16_byte" name="271b.c4" offset="0x1000001" size="0x800000" crc="0d457699" sha1="ec73d0c9fc7094d0ac6c0986a6e07cde25893e57" />
+		<rom loadflag="load16_byte" name="271b.c5" offset="0x2000000" size="0x800000" crc="8a91aae4" sha1="802f4baacf801646be1ef686e105b2e867a6a5df" />
+		<rom loadflag="load16_byte" name="271b.c6" offset="0x2000001" size="0x800000" crc="9f8674b8" sha1="65964f40b2227d020023fb436579927e65807dcd" />
+		<rom loadflag="load16_byte" name="271hd.c7" offset="0x3000000" size="0x800000" crc="efe714f8" sha1="c239744cf372f6f7b2cd1b539a59f792038fe179" />
+		<rom loadflag="load16_byte" name="271hd.c8" offset="0x3000001" size="0x800000" crc="c015cdb7" sha1="baa1bf179f13e07bd93d33bf40b37deaf65d0b0c" />
+		</dataarea>
+	</part>
+</software>

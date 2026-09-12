@@ -1,0 +1,20 @@
+<software name="baddudesn">
+	<description>Bad Dudes vs Dragonninja Burger Edition demo (2025-06-28)</description>
+	<year>2025</year>
+	<publisher>La Casa De Ruivo / Neo Byte Force</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="511.p1" offset="0x0" size="0x100000" crc="77a74315" sha1="90a63f02ec8e242af776b55aaca7998fa493cc39" />
+		<rom loadflag="load16_word_swap" name="511.p2" offset="0x100000" size="0x700000" crc="f827dd6e" sha1="36ac12cbde4869c266c1159a58c40d851d113fdf" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="511.v1" offset="0x0" size="0x800000" crc="d8ac5857" sha1="afea061d7122398938899a42f2c4141d4f125c69" />
+		<rom name="511.v2" offset="0x800000" size="0x800000" crc="f37bd666" sha1="66d1cf293eea4cfe1cc36fe7ee9f6b46b0d731ee" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="511.c1" offset="0x0" size="0x1000000" crc="fe7bb928" sha1="9afa02773e1fcd845ecb3c7ec3c5d5232ac8be2c" />
+		<rom loadflag="load16_byte" name="511.c2" offset="0x1" size="0x1000000" crc="68deb392" sha1="c01f17582b54332c50086f4161e13d6433d16c85" />
+		</dataarea>
+	</part>
+</software>

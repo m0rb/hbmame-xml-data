@@ -1,0 +1,18 @@
+<software name="pnyaa02" cloneof="pnyaa">
+	<description>Pochi &amp; Nyaa (decrypted C Set 2)</description>
+	<year>2003</year>
+	<publisher>Aiky</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="267.p1" offset="0x0" size="0x100000" crc="112fe2c0" sha1="01420e051f0bdbd4f68ce306a3738161b96f8ba8" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="267.v1" offset="0x0" size="0x400000" crc="e2e8e917" sha1="7f412d55aebff3d38a225a88c632916295ab0584" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="267s02.c1" offset="0x0" size="0x800000" crc="2bd02a33" sha1="77771ace5c27679f09454d3b3c5aa4f761259263" />
+		<rom loadflag="load16_byte" name="267s02.c2" offset="0x1" size="0x800000" crc="8fb27b0b" sha1="84c9e7994f00e44841e6324219fd5f2e6ab5ca15" />
+		</dataarea>
+	</part>
+</software>

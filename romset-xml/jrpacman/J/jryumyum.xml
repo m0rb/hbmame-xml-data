@@ -1,0 +1,25 @@
+<software name="jryumyum">
+	<description>Jr. Pac-Man Vs YumYum + Friends</description>
+	<year>2000</year>
+	<publisher>Tim Appleton</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jryumyum.8e" offset="0x2000" size="0x2000" crc="934f1d34" sha1="1c502edea62ee7fca11d54cb8ff0ea6263828056" />
+		<rom name="jryumyum.8h" offset="0x8000" size="0x2000" crc="d59cb636" sha1="f2e9c0d4c62706a9d7ec68633ccb0edadf5e5439" />
+		<rom name="jryumyum.8j" offset="0xa000" size="0x2000" crc="010fb8dd" sha1="4c1193d3a1abde76f8c28245a451873162ec6848" />
+		<rom name="jryumyum.8k" offset="0xc000" size="0x2000" crc="191a176c" sha1="ae5e3c4bd788dd56e0da4130388ee841002cab6c" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jryumyum.2c" offset="0x0" size="0x2000" crc="f057d596" sha1="66cbe2720ecc456e9cef5422cf060bd507967fc2" />
+		<rom name="jryumyum.2e" offset="0x2000" size="0x2000" crc="e851bf29" sha1="d31fd0bb3b0614a9750f07a55e93b94d16643899" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>

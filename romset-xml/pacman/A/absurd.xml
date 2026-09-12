@@ -1,0 +1,20 @@
+<software name="absurd">
+	<description>Absurd!/QuadBlok (non-working alpha ver 3)</description>
+	<year>2006</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="absurd.1" offset="0x0" size="0x1000" crc="cbda6dcb" sha1="e17628ecc06b8877c6c9e55e2c8983272dd38e1e" />
+		<rom name="absurd.2" offset="0x1000" size="0x1000" crc="3b669ec6" sha1="94db6cb04f74384a2ef1830e48b9fb79e1636739" />
+		<rom name="absurd.3" offset="0x2000" size="0x1000" crc="beb9024b" sha1="9fb296e6f27373a1364a7ef439e36276e19e09f6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="absurd.5e" offset="0x0" size="0x1000" crc="0a4f5731" sha1="0023b3175da4f25b5c59550c20b0435ac85cec2f" />
+		<rom name="absurd.5f" offset="0x1000" size="0x1000" crc="ae9805ee" sha1="fd90b8bb2492a39f27216e0cda09f9594a9dada7" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="glob.7f" offset="0x0" size="0x20" crc="1f617527" sha1="448845cab63800a05fcb106897503d994377f78f" />
+		<rom name="absurd.4a" offset="0x20" size="0x100" crc="9379a246" sha1="88c84668f67afc4a5ff12e794ac37a0636bd7153" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,31 @@
+<software name="kovshs51" cloneof="kovsh">
+	<description>Knights of Valour Super Heroes (The Three Kingdoms, The British Biography, The Military Commander, The Hegemony)</description>
+	<year>1999</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_pw51.322" offset="0x100000" size="0x400000" crc="2b120176" sha1="1929119183cab3fe42785e7615d5e888bb0ef782" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u4" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_pw51.asic" offset="0x0" size="0x4000" crc="46641fb2" sha1="537492a69681b3ffe9daa2a2401ce51ff25baeb0" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_pw52.rom" offset="0x0" size="0x800000" crc="cfc64d4b" sha1="5ae172eb375a8d5250cfafd488b05048dfa2cc7a" />
+		<rom name="pgm_a0601.u3" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_pw51.rom" offset="0x1000000" size="0x800000" crc="ee4a32c0" sha1="61870d61665c972f9026398f8e81fff28e04b67b" />
+		<rom name="a0603_pw52.rom" offset="0x1800000" size="0x400000" crc="e804de4f" sha1="20e7adfcb1d7455d005c8f532bf455e7a72696dd" />
+		<rom name="a0604_pw52.rom" offset="0x1a00000" size="0x400000" crc="52d77dab" sha1="c79aaee269251adf9e03a6ebd69b360b03425fba" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b0600.u6" offset="0x0" size="0x800000" crc="7d3cd059" sha1="00cf994b63337e0e4ebe96453daf45f24192af1c" />
+		<rom name="b0601_pw52.rom" offset="0x800000" size="0x400000" crc="d678e7cd" sha1="61cbf9eb2835e9c95a69d731bd8b54f4ff24a38e" />
+		<rom name="b0602_pw51.rom" offset="0xc00000" size="0x100000" crc="445405df" sha1="e423503be662bb97756d9356b5cc595a0451239e" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="pgm_t0600.u11" offset="0x180000" size="0x800000" crc="4acc1ad6" sha1="0668dbd5e856c2406910c6b7382548b37c631780" />
+		</dataarea>
+	</part>
+</software>

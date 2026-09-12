@@ -1,0 +1,26 @@
+<software name="kof2k2ori2" cloneof="kof2002">
+	<description>Kof2002 (Orochi&#x27;s Iori Remixed Rev.2)</description>
+	<year>2002</year>
+	<publisher>FCHT</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="265ori2.p1" offset="0x0" size="0x100000" crc="42a7a398" sha1="355edf6c75a52c535118b1ed58c3eb348e0770ca" />
+		<rom loadflag="load16_word_swap" name="265ori.p2" offset="0x100000" size="0x400000" crc="de6ffd21" sha1="0f9108aae7541d0d754ce764b195c921c021c373" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="kf10-v1.bin" offset="0x0" size="0x800000" crc="0fc9a58d" sha1="9d79ef00e2c2abd9f29af5521c2fbe5798bf336f" />
+		<rom name="kf10-v2.bin" offset="0x800000" size="0x800000" crc="b8c475a4" sha1="10caf9c69927a223445d2c4b147864c02ce520a8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="265rs.c1" offset="0x0" size="0x800000" crc="c1a21b4c" sha1="235938175d6011c5c8a37fc94f8fb604132d8038" />
+		<rom loadflag="load16_byte" name="265rs.c2" offset="0x1" size="0x800000" crc="9b3d7e8d" sha1="38c16541862636934a456f23632f64ff0f5ae617" />
+		<rom loadflag="load16_byte" name="265ori.c3" offset="0x1000000" size="0x800000" crc="e5074eea" sha1="387ef21d58b416126b95843bac1a0b6cc346818f" />
+		<rom loadflag="load16_byte" name="265ori.c4" offset="0x1000001" size="0x800000" crc="f6eb1ff2" sha1="77cb493b9e75d42c204a9a6c052a813c2730e44f" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="265ori.c7" offset="0x3000000" size="0x800000" crc="0e9f6adb" sha1="0e4cdbd3df2ef7b0c78c3275ee22684c67bf2d23" />
+		<rom loadflag="load16_byte" name="265ori.c8" offset="0x3000001" size="0x800000" crc="9961799e" sha1="cf5d43bbd90269155ac41fe9a31328654784351f" />
+		</dataarea>
+	</part>
+</software>

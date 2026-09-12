@@ -1,0 +1,33 @@
+<software name="dariusg01" cloneof="dariusg">
+	<description>Darius Gaiden (Unknown Hack)</description>
+	<year>1994</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="dge_mpr3.bin" offset="0x0" size="0x80000" crc="1c1e24a7" sha1="eafde331c3be5be55d0d838a84017f357ff92634" />
+		<rom loadflag="load32_byte" name="dge_mpr2.bin" offset="0x1" size="0x80000" crc="7be23e23" sha1="4764355f51e207f4538dd753aea59bf2689835de" />
+		<rom loadflag="load32_byte" name="dge_mpr1.bin" offset="0x2" size="0x80000" crc="bc030f6f" sha1="841396911d26ddfae0c9863431e02e0b5e762ac6" />
+		<rom loadflag="load32_byte" name="dge_wrd.bin" offset="0x3" size="0x80000" crc="2bb37270" sha1="98bc07894e92ca9cce34fc7390f40d3357783e3f" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="d87-03.bin" offset="0x0" size="0x200000" crc="4be1666e" sha1="35ba7bcf29ec7a8f8b6944ee3544693d4df1bfc2" />
+		<rom loadflag="load16_byte" name="d87-04.bin" offset="0x1" size="0x200000" crc="2616002c" sha1="003f98b740a697274385b8da03c78f3c6f7b5e89" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x200000">
+		<rom name="d87-05.bin" offset="0x0" size="0x200000" crc="4e5891a9" sha1="fd08d848079841c9237fa359a850980fd00114d8" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="d87-13.bin" offset="0x100000" size="0x40000" crc="15b1fff4" sha1="28692b731ae98a47c2c5e11a8a71b61a813d9a64" />
+		<rom loadflag="load16_byte" name="d87-14.bin" offset="0x100001" size="0x40000" crc="eecda29a" sha1="6eb238e47bc7bf635ffbdbb25fb06a37db980ef8" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="d87-01.bin" offset="0x0" size="0x200000" crc="3848a110" sha1="802e91695a526f665c7fd261f0a7639a0b883c9e" />
+		<rom loadflag="load16_byte" name="d87-02.bin" offset="0x400000" size="0x200000" crc="9250abae" sha1="07cae8edbc3cca0a95022d9b40a5c18a55350b67" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x400000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x200000">
+		<rom name="d87-08.bin" offset="0x0" size="0x200000" crc="76d23602" sha1="ca53ea6641182c44a4038bbeaa5effb1687f1980" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,28 @@
+<software name="forgottnsf2">
+	<description>Forgotten Worlds (SF2 conversion)</description>
+	<year>2017</year>
+	<publisher>Arcadefixer</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c01sf2.p1" offset="0x0" size="0x80000" crc="987ac84e" sha1="f720c26eab8e1ba0ae09754defa9f32d3be2a87b" />
+		<rom loadflag="load16_word_swap" name="c01.p5" offset="0x80000" size="0x80000" crc="fd252a26" sha1="5cfb097984912a5167a8c7ec4c2e119b642f9970" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c01.m1" offset="0x0" size="0x8000" crc="59df2a63" sha1="dfe1fffc7a17179a80a2ae623e93b30a7d6df20d" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="forgottn.key" offset="0x0" size="0x80" crc="ec5025a0" sha1="21ac00fbfca9ae369e99469ee372fea0a5bbdb25" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="jed" size="0x800">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c01.v1" offset="0x0" size="0x20000" crc="807d051f" sha1="720e4733787b9b11f4d1cdce0892b69475802844" />
+		<rom name="c01.v2" offset="0x20000" size="0x20000" crc="e6cd098e" sha1="667f6e5736f76a1c4c450c4e2035574ea89d7910" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>

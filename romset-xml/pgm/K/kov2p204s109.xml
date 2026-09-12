@@ -1,0 +1,34 @@
+<software name="kov2p204s109" cloneof="kov2p">
+	<description>Knights of Valour 2 Plus (Evil Phoenix Tianchi 2017-07-26)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="v204-32m-p109.rom" offset="0x100000" size="0x400000" crc="70f89284" sha1="fb0abf18e7e52a970612b3aa918eba219c8da695" />
+		</dataarea>
+		<dataarea name="ics" size="0x1000000">
+		<rom name="pgm_m1200-p109.u3" offset="0x800000" size="0x800000" crc="8e579cfe" sha1="7305d013fd51eef5bd228e0db1b081a747f6d2ab" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov2p_igs027a_china-p81.bin" offset="0x0" size="0x4000" crc="40a75c7e" sha1="d2fc992a300a0c09f7ac3deba639aca4e8446663" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x4000000">
+		<rom name="pgm_a1200-p109.u1" offset="0x0" size="0x800000" crc="f93967d6" sha1="9f47403dba30ef837297143f9ee0a8d0b8f2dfce" />
+		<rom name="pgm_a1201.u4" offset="0x800000" size="0x800000" crc="21063ca7" sha1="cf561b44902425a920d5cbea5bf65dd9530b2289" />
+		<rom name="pgm_a1202-p109.u6" offset="0x1000000" size="0x800000" crc="bc3ea06a" sha1="b9cdc79086f77f1b2b6688a5a1687eaa1bba54e2" />
+		<rom name="pgm_a1203-p109.u8" offset="0x1800000" size="0x800000" crc="56a3f258" sha1="623c887e04068dcf4953a2b255ff38dea65cc4c7" />
+		<rom name="pgm_a1204-p109.u10" offset="0x2000000" size="0x800000" crc="c36f77ae" sha1="166b39a74a59dfd8b797bbd292164a4142a6c47d" />
+		<rom name="pgm_a1205-p109.u12" offset="0x2800000" size="0x200000" crc="7bbc9f1e" sha1="ead54fb6681d3eab50779dc9f500d4fc43dd4a45" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b1200-p109.u5" offset="0x0" size="0x800000" crc="d9cdb53e" sha1="143f3c284cde4b2907628f48b806713c4c13cc1e" />
+		<rom name="pgm_b1201-p109.u7" offset="0x800000" size="0x800000" crc="ab5cd6c5" sha1="d81341cd2383a4f2f45c0503499c02ba21ba6f7a" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="pgm_t1200.u21" offset="0x180000" size="0x800000" crc="d7e26609" sha1="bdad810f82fcf1d50a8791bdc495374ec5a309c6" />
+		</dataarea>
+		<dataarea name="user1" endianness="little" size="0x400000">
+		<rom name="v200_16m-p109.u23" offset="0x0" size="0x200000" crc="c64ef7b7" sha1="d5542ada8d0b4549d7fd5363bcb53cd4d36a6bf8" />
+		</dataarea>
+	</part>
+</software>

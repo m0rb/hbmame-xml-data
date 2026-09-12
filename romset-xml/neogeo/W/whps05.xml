@@ -1,0 +1,27 @@
+<software name="whps05" cloneof="whp">
+	<description>World Heroes Perfect (Moved To Modify V2)</description>
+	<year>1995</year>
+	<publisher>007325</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="090s05.p1" offset="0x100000" size="0x100000" crc="f5ff4854" sha1="b936b5fceda161b1eba9e62f4166bb883c15c153" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x600000">
+		<rom name="090.v1" offset="0x0" size="0x200000" crc="30cf2709" sha1="d1845033f16de2470afd3858ee0efb45176d9ed7" />
+		<rom name="064.v2" offset="0x200000" size="0x200000" crc="b6527edd" sha1="2bcf5bfa6e117cf4a3728a5e5f5771313c93f22a" />
+		<rom name="090.v3" offset="0x400000" size="0x200000" crc="1908a7ce" sha1="78f31bcfea33eb94752bbf5226c481baec1af5ac" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1c00000">
+		<rom loadflag="load16_byte" name="090.c1" offset="0x0" size="0x400000" crc="cd30ed9b" sha1="839c20f7ff31251acc875ae402b5d267e55510c7" />
+		<rom loadflag="load16_byte" name="090.c2" offset="0x1" size="0x400000" crc="10eed5ee" sha1="12131b1c8c017ea77a98c044b392a5db6aad0143" />
+		<rom loadflag="load16_byte" name="064.c3" offset="0x800000" size="0x200000" crc="436d1b31" sha1="059776d77b91377ed0bcfc278802d659c917fc0f" />
+		<rom loadflag="load16_byte" name="064.c4" offset="0x800001" size="0x200000" crc="f9c8dd26" sha1="25a9eea1d49b21b4a988beb32c25bf2f7796f227" />
+		<rom loadflag="load16_byte" name="064.c5" offset="0x1000000" size="0x200000" crc="8e34a9f4" sha1="67b839b426ef3fad0a85d951fdd44c0a45c55226" />
+		<rom loadflag="load16_byte" name="064.c6" offset="0x1000001" size="0x200000" crc="a43e4766" sha1="54f282f2b1ff2934cca7acbb4386a2b99a29df3a" />
+		<rom loadflag="load16_byte" name="064.c7" offset="0x1800000" size="0x200000" crc="59d97215" sha1="85a960dc7f364df13ee0c2f99a4c53aefb081486" />
+		<rom loadflag="load16_byte" name="064.c8" offset="0x1800001" size="0x200000" crc="fc092367" sha1="69ff4ae909dd857de3ca8645d63f8b4bde117448" />
+		</dataarea>
+	</part>
+</software>

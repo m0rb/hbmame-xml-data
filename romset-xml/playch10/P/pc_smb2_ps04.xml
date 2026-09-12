@@ -1,0 +1,16 @@
+<software name="pc_smb2_ps04" cloneof="pc_smb2">
+	<description>Super Mario Bros. 2 (All Floating, 2013-11-25)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="mw-u1" offset="0x0" size="0x20000" crc="f2ba1170" sha1="d9976b677ad222b76fbdaf31713374e2f283d44e" />
+		</dataarea>
+		<dataarea name="prg" size="0x20000">
+		<rom name="mw-u5_ps04" offset="0x0" size="0x20000" crc="fd4fb826" sha1="5a931a9f93869716ef18e25a2c9bc77b9db57175" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="372f4e84" sha1="cdf221d49f3b454997d696f213d60b5dce0ce9fb" />
+		</dataarea>
+	</part>
+</software>

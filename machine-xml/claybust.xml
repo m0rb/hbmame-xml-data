@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="claybust" description="Claybust cartridges">
+<software name="claybust">
+	<description>Claybuster (Extra Sounds)</description>
+	<year>1978</year>
+	<publisher>Model Racing</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x2000">
+		<rom name="0.a1" offset="0x0" size="0x400" crc="90810582" sha1="a5c3655bae6f92a3cd0eae3a5a3c25e414d4fdf0" />
+		<rom name="1.a2" offset="0x400" size="0x400" crc="5ce6fb0e" sha1="19fa3fbc0dd7e0fa4fffc005ded5a814c3b48f2d" />
+		<rom name="2.a4" offset="0x800" size="0x400" crc="d4c1d523" sha1="1a4785095caa8200d7e1d8d53a93c8e298f52c65" />
+		<rom name="3.a5" offset="0xc00" size="0x400" crc="1ca00825" sha1="74633a4903a51f1eebdd09679597dbe86db2e001" />
+		<rom name="4.a6" offset="0x1000" size="0x400" crc="09a21120" sha1="e976d2c173c649e51b032bc5dad54f006864155c" />
+		<rom name="5.a8" offset="0x1400" size="0x400" crc="92cd4da8" sha1="217e00012a52c479bf0b0cf37ce556387755740d" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

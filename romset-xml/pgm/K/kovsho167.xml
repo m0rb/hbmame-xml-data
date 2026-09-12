@@ -1,0 +1,31 @@
+<software name="kovsho167" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (KOF Pirated Version 3 2012-08-03)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po164.322" offset="0x100000" size="0x400000" crc="54f6c5d9" sha1="9abf1fed12261fdddd2e40d30d6ce536e91c1c55" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600.sh5" offset="0x400000" size="0x400000" crc="eae5bf80" sha1="5052849cb1ea573ee98188c594b4a449c195e441" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_po167.asic" offset="0x0" size="0x4000" crc="62d4c604" sha1="9f40aa8508f6f6e7ae0dcd17f7adcf5d6f10559e" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x4000000">
+		<rom name="pgm_a0600.u3" offset="0x0" size="0x800000" crc="d8167834" sha1="fa55a99629d03b2ea253392352f70d2c8639a991" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="a0540_po167.rom" offset="0x1800000" size="0x800000" crc="cbc57bc1" sha1="ae1ef43a5caaa1e1a0be6ba7a6598eeaeb284a1e" />
+		<rom name="pgm_a0613.u7" offset="0x2000000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x2000000">
+		<rom name="pgm_b0600.u9" offset="0x0" size="0x800000" crc="7d3cd059" sha1="00cf994b63337e0e4ebe96453daf45f24192af1c" />
+		<rom name="b0540_pl03.rom" offset="0x800000" size="0x800000" crc="1885039b" sha1="23f832ee7493d11f78ea06954da748ff1fa3c595" />
+		<rom name="pgm_b0601.u8" offset="0x1000000" size="0x400000" crc="a0bb1c2f" sha1="0542348c6e27779e0a98de16f04f9c18158f2b28" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_pw10.rom" offset="0x180000" size="0x800000" crc="a919ec0f" sha1="b464490abba8a5e651c407a7833c3a2e3befa5b8" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,24 @@
+<software name="pnicku" cloneof="pnickj">
+	<description>Pnickies (USA 940608 Loca Test)</description>
+	<year>1994</year>
+	<publisher>Creamymami[EGCG]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c32.p1" offset="0x0" size="0x20000" crc="2d4ffb2b" sha1="6e49cf89a36834fd1de8b4b860fe66f3d7d67a84" />
+		<rom loadflag="load16_byte" name="c32u.p2" offset="0x1" size="0x20000" crc="22d20227" sha1="a103c9b1f6134c529405bd258da9f601c1459c47" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c32.m1" offset="0x0" size="0x8000" crc="e86f787a" sha1="de04cbe89c655faf04afe169bfd9913049ccc4a8" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="pnick.key" offset="0x0" size="0x80" crc="38afadc4" sha1="05b49635f99e7cb97a99b9666239d68154cb3641" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c32.v1" offset="0x0" size="0x20000" crc="5092257d" sha1="95dc9d10940653b2fb37baf5c1ed27145b02104e" />
+		<rom name="c32.v2" offset="0x20000" size="0x20000" crc="22109aaa" sha1="cf21e75674d81b2daae2083d02f9f4b6e52722c6" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,21 @@
+<software name="centipb" cloneof="centiped">
+	<description>Centipede</description>
+	<year>1980</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="d1" offset="0x2000" size="0x800" crc="b17b8e0b" sha1="01944cf040cf23aeb4c50d4f2e63181e08a07310" />
+		<rom name="e1" offset="0x2800" size="0x800" crc="7684398e" sha1="eea8e05506a7af2fec55c2689e3caafc62ea524f" />
+		<rom name="h1" offset="0x3000" size="0x800" crc="74580fe4" sha1="35b8a8675e4e020e234e51c3e4bd4ee5c24b79d2" />
+		<rom name="centipb.4" offset="0x3800" size="0x800" crc="849b1614" sha1="9060e39ec1d5c66e26c8d28a86818bcc1801c610" />
+		<rom name="centipb.5" offset="0x6000" size="0x800" crc="9d3ad0e5" sha1="ad7520b3c95d729bfd022553817f868485e9a191" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="136001-211.f7" offset="0x0" size="0x800" crc="880acfb9" sha1="6c862352c329776f2f9974a0df9dbe41f9dbc361" />
+		<rom name="136001-212.hj7" offset="0x800" size="0x800" crc="b1397029" sha1="974c03d29aeca672fffa4dfc00a06be6a851aacb" />
+		</dataarea>
+		<dataarea name="proms" size="0x100">
+		<rom name="136001-213.p4" offset="0x0" size="0x100" crc="6fa3093a" sha1="2b7aeca74c1ae4156bf1878453a047330f96f0a8" />
+		</dataarea>
+	</part>
+</software>

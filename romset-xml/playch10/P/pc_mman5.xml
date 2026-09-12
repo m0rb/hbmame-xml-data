@@ -1,0 +1,16 @@
+<software name="pc_mman5">
+	<description>Megaman 5 (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x40000">
+		<rom name="2n-u1" offset="0x0" size="0x40000" crc="25e0ae72" sha1="45d3ffbb5e399c891df6fcbd78b94b866be9b663" />
+		</dataarea>
+		<dataarea name="prg" size="0x40000">
+		<rom name="2n-u5" offset="0x0" size="0x40000" crc="f3c743aa" sha1="ee907c7279dba52320e35906ab5b0a1bdbbf0bfb" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="237e8519.prm" offset="0x0" size="0x10" crc="237e8519" sha1="81b368d0784e4172c5cf9f4f4b92e29e05d34ae7" />
+		</dataarea>
+	</part>
+</software>

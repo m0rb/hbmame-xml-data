@@ -1,0 +1,30 @@
+<software name="kof98s56" cloneof="kof98">
+	<description>Kof&#x27;98 (Easy Combo Edition, 2024-12-01)</description>
+	<year>2024</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="242_hc01.p1" offset="0x0" size="0x100000" crc="aef99d50" sha1="0b2cded7bf553b3f055806d347b98d86c4c471b5" />
+		<rom loadflag="load16_word_swap" name="242_hc01.p2" offset="0x100000" size="0x400000" crc="3abd98eb" sha1="187d529a47bd44eef0a5e400f43536e2e52a6eca" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="242_hc01.v1" offset="0x0" size="0x400000" crc="93804bfe" sha1="08a76afc3f51e295d392b47f034791939fff3618" />
+		<rom name="242_hc01.v2" offset="0x400000" size="0x400000" crc="77acfcae" sha1="9e415c38abb1660aa1d56436da37a0901aa1c262" />
+		<rom name="242_hc01.v3" offset="0x800000" size="0x400000" crc="33b1e408" sha1="89b93f1e050848fe51faaf70f6554a35d071b77d" />
+		<rom name="242_hc01.v4" offset="0xc00000" size="0x400000" crc="50c82369" sha1="db72f0a533efa6438187ccbc54b6b64372a472d2" />
+		</dataarea>
+		<dataarea name="sprites" size="0x5000000">
+		<rom loadflag="load16_byte" name="242_hc01.c1" offset="0x0" size="0x800000" crc="b977ce78" sha1="12ab9179a5b438ea7983fc0c5447ec74c8ec6a95" />
+		<rom loadflag="load16_byte" name="242_hc01.c2" offset="0x1" size="0x800000" crc="0fce3203" sha1="e8499bd9dcfcc4794216198fd8daa7bbec02329f" />
+		<rom loadflag="load16_byte" name="242_hc01.c3" offset="0x1000000" size="0x800000" crc="fd04ebd3" sha1="a44441e3b0a9f78e2c66b48a520828f2cf895c3a" />
+		<rom loadflag="load16_byte" name="242_hc01.c4" offset="0x1000001" size="0x800000" crc="413f0427" sha1="cddee78abc6ace9ce4ced652548b9c2525f7dc34" />
+		<rom loadflag="load16_byte" name="242s56.c5" offset="0x2000000" size="0x800000" crc="76252bdc" sha1="2b41cfd7c99d78818147e13eecbae9183e219556" />
+		<rom loadflag="load16_byte" name="242s56.c6" offset="0x2000001" size="0x800000" crc="13d5b9b7" sha1="5a1e9ff19e92f96bfdb0883d4521332c8fccfcf9" />
+		<rom loadflag="load16_byte" name="242_hc01.c7" offset="0x3000000" size="0x800000" crc="c3dda442" sha1="18e76001809cbe128d02310fe03562f02444ebcd" />
+		<rom loadflag="load16_byte" name="242_hc01.c8" offset="0x3000001" size="0x800000" crc="f8e2c321" sha1="e93d5f7896e30b3a1ed4e0496edf7d17bce054dd" />
+		<rom loadflag="load16_byte" name="242_hc01.c9" offset="0x4000000" size="0x800000" crc="32a32160" sha1="f776f5f1aaab109197a14879bc02d0a3284d99c0" />
+		<rom loadflag="load16_byte" name="242_hc01.c10" offset="0x4000001" size="0x800000" crc="3fa53db9" sha1="37561fe9e72cfbfa24071fde7c6400b1b669e8dc" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="nbbatman" description="Nbbatman cartridges">
+<software name="nbbatman01">
+	<description>Ninja Baseball Bat Man (X2 Edition, 2018-05-05)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s01.34" offset="0x1" size="0x40000" crc="81e706e6" sha1="95e3b0e490d8a0d8cb8f01c227e6a81bf764fcc5" />
+		<rom loadflag="load16_byte" name="s01.31" offset="0x0" size="0x40000" crc="353c90e9" sha1="6f53e93f83b08bbb9acd0f593265880a01f96df4" />
+		<rom loadflag="load16_byte" name="a1-h1-.33" offset="0x80001" size="0x40000" crc="3ce2aab5" sha1="b39f17853bcab7ab290fdfaf9f3d8e8c2d91072a" />
+		<rom loadflag="load16_byte" name="a1-l1-.32" offset="0x80000" size="0x40000" crc="116d9bcc" sha1="c2faf8d1c6b51ac1483757777fd55961b74501fb" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x200000">
+		<rom name="lh534k0c.9" offset="0x0" size="0x80000" crc="314a0c6d" sha1="a918ae638f10b18165f7d34ab7db54fbf258df01" />
+		<rom name="lh534k0e.10" offset="0x80000" size="0x80000" crc="dc31675b" sha1="81b0a6b35285e855c778c7f32f31115f1edce099" />
+		<rom name="lh534k0f.11" offset="0x100000" size="0x80000" crc="e15d8bfb" sha1="74ea6f9748ed52e579cb08445282c871b3fd0f3a" />
+		<rom name="lh534k0g.12" offset="0x180000" size="0x80000" crc="888d71a3" sha1="d1609e326fda5ac579ddf1ad5dc77443ec2a180f" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="lh538393.42" offset="0x0" size="0x100000" crc="26cdd224" sha1="ab2a3dd8eafec78866a0d45c1f051209025bdc77" />
+		<rom name="lh538394.43" offset="0x100000" size="0x100000" crc="4bbe94fa" sha1="7c13b22e056dc1cf497ea0b3e9766579c33d4370" />
+		<rom name="lh538395.44" offset="0x200000" size="0x100000" crc="2a533b5e" sha1="ceb9750b674adfa5fa0f88e46bce7b2b58440873" />
+		<rom name="lh538396.45" offset="0x300000" size="0x100000" crc="863a66fa" sha1="0edc4734daee8fc1738df4f4f17bcd817f0ade0a" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="lh534k0k.8" offset="0x0" size="0x80000" crc="735e6380" sha1="bf019815e579ef2393c00869f101a01f746e04d6" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="a1-sh0-.14" offset="0x1" size="0x10000" crc="b7fae3e6" sha1="ce41380d6c0f29f2facf9bf23dd4403648cd9eb4" />
+		<rom loadflag="load16_byte" name="a1-sl0-.17" offset="0x0" size="0x10000" crc="b26d54fc" sha1="136e1a83da08a0dc9046faf71f3f58d8d3095fde" />
+		</dataarea>
+	</part>
+</software>
+<software name="nbbatman02">
+	<description>Ninja Baseball Bat Man (1v4, 2017-03-15)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s02.34" offset="0x1" size="0x40000" crc="7c17d59a" sha1="1493e9f5ee06dbefe49e5ef74cff7cb7d3dc6f19" />
+		<rom loadflag="load16_byte" name="s02.31" offset="0x0" size="0x40000" crc="e54a6e81" sha1="7059eba1e03a6d1b96c8a5eee606ec503569c695" />
+		<rom loadflag="load16_byte" name="a1-h1-.33" offset="0x80001" size="0x40000" crc="3ce2aab5" sha1="b39f17853bcab7ab290fdfaf9f3d8e8c2d91072a" />
+		<rom loadflag="load16_byte" name="a1-l1-.32" offset="0x80000" size="0x40000" crc="116d9bcc" sha1="c2faf8d1c6b51ac1483757777fd55961b74501fb" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x200000">
+		<rom name="lh534k0c.9" offset="0x0" size="0x80000" crc="314a0c6d" sha1="a918ae638f10b18165f7d34ab7db54fbf258df01" />
+		<rom name="lh534k0e.10" offset="0x80000" size="0x80000" crc="dc31675b" sha1="81b0a6b35285e855c778c7f32f31115f1edce099" />
+		<rom name="lh534k0f.11" offset="0x100000" size="0x80000" crc="e15d8bfb" sha1="74ea6f9748ed52e579cb08445282c871b3fd0f3a" />
+		<rom name="lh534k0g.12" offset="0x180000" size="0x80000" crc="888d71a3" sha1="d1609e326fda5ac579ddf1ad5dc77443ec2a180f" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="lh538393.42" offset="0x0" size="0x100000" crc="26cdd224" sha1="ab2a3dd8eafec78866a0d45c1f051209025bdc77" />
+		<rom name="lh538394.43" offset="0x100000" size="0x100000" crc="4bbe94fa" sha1="7c13b22e056dc1cf497ea0b3e9766579c33d4370" />
+		<rom name="lh538395.44" offset="0x200000" size="0x100000" crc="2a533b5e" sha1="ceb9750b674adfa5fa0f88e46bce7b2b58440873" />
+		<rom name="lh538396.45" offset="0x300000" size="0x100000" crc="863a66fa" sha1="0edc4734daee8fc1738df4f4f17bcd817f0ade0a" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="lh534k0k.8" offset="0x0" size="0x80000" crc="735e6380" sha1="bf019815e579ef2393c00869f101a01f746e04d6" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="a1-sh0-.14" offset="0x1" size="0x10000" crc="b7fae3e6" sha1="ce41380d6c0f29f2facf9bf23dd4403648cd9eb4" />
+		<rom loadflag="load16_byte" name="a1-sl0-.17" offset="0x0" size="0x10000" crc="b26d54fc" sha1="136e1a83da08a0dc9046faf71f3f58d8d3095fde" />
+		</dataarea>
+	</part>
+</software>
+<software name="nbbatman03">
+	<description>Ninja Baseball Bat Man (1v2, 2020-04-17)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s03.34" offset="0x1" size="0x40000" crc="331c5d1d" sha1="929d4248d20763edea7e161800c84289b88a7ab9" />
+		<rom loadflag="load16_byte" name="s03.31" offset="0x0" size="0x40000" crc="7ac5c39e" sha1="ae412dd0e03d0daab9207b8c3240ee32783177f4" />
+		<rom loadflag="load16_byte" name="a1-h1-.33" offset="0x80001" size="0x40000" crc="3ce2aab5" sha1="b39f17853bcab7ab290fdfaf9f3d8e8c2d91072a" />
+		<rom loadflag="load16_byte" name="a1-l1-.32" offset="0x80000" size="0x40000" crc="116d9bcc" sha1="c2faf8d1c6b51ac1483757777fd55961b74501fb" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x200000">
+		<rom name="lh534k0c.9" offset="0x0" size="0x80000" crc="314a0c6d" sha1="a918ae638f10b18165f7d34ab7db54fbf258df01" />
+		<rom name="lh534k0e.10" offset="0x80000" size="0x80000" crc="dc31675b" sha1="81b0a6b35285e855c778c7f32f31115f1edce099" />
+		<rom name="lh534k0f.11" offset="0x100000" size="0x80000" crc="e15d8bfb" sha1="74ea6f9748ed52e579cb08445282c871b3fd0f3a" />
+		<rom name="lh534k0g.12" offset="0x180000" size="0x80000" crc="888d71a3" sha1="d1609e326fda5ac579ddf1ad5dc77443ec2a180f" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="lh538393.42" offset="0x0" size="0x100000" crc="26cdd224" sha1="ab2a3dd8eafec78866a0d45c1f051209025bdc77" />
+		<rom name="lh538394.43" offset="0x100000" size="0x100000" crc="4bbe94fa" sha1="7c13b22e056dc1cf497ea0b3e9766579c33d4370" />
+		<rom name="lh538395.44" offset="0x200000" size="0x100000" crc="2a533b5e" sha1="ceb9750b674adfa5fa0f88e46bce7b2b58440873" />
+		<rom name="lh538396.45" offset="0x300000" size="0x100000" crc="863a66fa" sha1="0edc4734daee8fc1738df4f4f17bcd817f0ade0a" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="lh534k0k.8" offset="0x0" size="0x80000" crc="735e6380" sha1="bf019815e579ef2393c00869f101a01f746e04d6" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="a1-sh0-.14" offset="0x1" size="0x10000" crc="b7fae3e6" sha1="ce41380d6c0f29f2facf9bf23dd4403648cd9eb4" />
+		<rom loadflag="load16_byte" name="a1-sl0-.17" offset="0x0" size="0x10000" crc="b26d54fc" sha1="136e1a83da08a0dc9046faf71f3f58d8d3095fde" />
+		</dataarea>
+	</part>
+</software>
+<software name="nbbatman04">
+	<description>Ninja Baseball Bat Man (Enhanced Edition, 2013-06-04)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s04.34" offset="0x1" size="0x40000" crc="5f0a22de" sha1="84a6c3abd72f000a3ce031376bcc5008a07fcd9d" />
+		<rom loadflag="load16_byte" name="s04.31" offset="0x0" size="0x40000" crc="ff1773f3" sha1="10a3b81b9dc0104e983a820375e72ee028515c2e" />
+		<rom loadflag="load16_byte" name="a1-h1-.33" offset="0x80001" size="0x40000" crc="3ce2aab5" sha1="b39f17853bcab7ab290fdfaf9f3d8e8c2d91072a" />
+		<rom loadflag="load16_byte" name="a1-l1-.32" offset="0x80000" size="0x40000" crc="116d9bcc" sha1="c2faf8d1c6b51ac1483757777fd55961b74501fb" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x200000">
+		<rom name="lh534k0c.9" offset="0x0" size="0x80000" crc="314a0c6d" sha1="a918ae638f10b18165f7d34ab7db54fbf258df01" />
+		<rom name="lh534k0e.10" offset="0x80000" size="0x80000" crc="dc31675b" sha1="81b0a6b35285e855c778c7f32f31115f1edce099" />
+		<rom name="lh534k0f.11" offset="0x100000" size="0x80000" crc="e15d8bfb" sha1="74ea6f9748ed52e579cb08445282c871b3fd0f3a" />
+		<rom name="lh534k0g.12" offset="0x180000" size="0x80000" crc="888d71a3" sha1="d1609e326fda5ac579ddf1ad5dc77443ec2a180f" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="lh538393.42" offset="0x0" size="0x100000" crc="26cdd224" sha1="ab2a3dd8eafec78866a0d45c1f051209025bdc77" />
+		<rom name="lh538394.43" offset="0x100000" size="0x100000" crc="4bbe94fa" sha1="7c13b22e056dc1cf497ea0b3e9766579c33d4370" />
+		<rom name="lh538395.44" offset="0x200000" size="0x100000" crc="2a533b5e" sha1="ceb9750b674adfa5fa0f88e46bce7b2b58440873" />
+		<rom name="lh538396.45" offset="0x300000" size="0x100000" crc="863a66fa" sha1="0edc4734daee8fc1738df4f4f17bcd817f0ade0a" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="lh534k0k.8" offset="0x0" size="0x80000" crc="735e6380" sha1="bf019815e579ef2393c00869f101a01f746e04d6" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="a1-sh0-.14" offset="0x1" size="0x10000" crc="b7fae3e6" sha1="ce41380d6c0f29f2facf9bf23dd4403648cd9eb4" />
+		<rom loadflag="load16_byte" name="a1-sl0-.17" offset="0x0" size="0x10000" crc="b26d54fc" sha1="136e1a83da08a0dc9046faf71f3f58d8d3095fde" />
+		</dataarea>
+	</part>
+</software>
+<software name="nbbatman05">
+	<description>Ninja Baseball Bat Man (New Lite Edition, 2016-10-16)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s05.34" offset="0x1" size="0x40000" crc="8616455a" sha1="35d7674fba172eca5dc6669e556e005f9570cae6" />
+		<rom loadflag="load16_byte" name="s05.31" offset="0x0" size="0x40000" crc="5350d781" sha1="b754861f38592572941a9c2d39848f3b57f0e90d" />
+		<rom loadflag="load16_byte" name="a1-h1-.33" offset="0x80001" size="0x40000" crc="3ce2aab5" sha1="b39f17853bcab7ab290fdfaf9f3d8e8c2d91072a" />
+		<rom loadflag="load16_byte" name="a1-l1-.32" offset="0x80000" size="0x40000" crc="116d9bcc" sha1="c2faf8d1c6b51ac1483757777fd55961b74501fb" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x200000">
+		<rom name="lh534k0c.9" offset="0x0" size="0x80000" crc="314a0c6d" sha1="a918ae638f10b18165f7d34ab7db54fbf258df01" />
+		<rom name="lh534k0e.10" offset="0x80000" size="0x80000" crc="dc31675b" sha1="81b0a6b35285e855c778c7f32f31115f1edce099" />
+		<rom name="lh534k0f.11" offset="0x100000" size="0x80000" crc="e15d8bfb" sha1="74ea6f9748ed52e579cb08445282c871b3fd0f3a" />
+		<rom name="lh534k0g.12" offset="0x180000" size="0x80000" crc="888d71a3" sha1="d1609e326fda5ac579ddf1ad5dc77443ec2a180f" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="lh538393.42" offset="0x0" size="0x100000" crc="26cdd224" sha1="ab2a3dd8eafec78866a0d45c1f051209025bdc77" />
+		<rom name="lh538394.43" offset="0x100000" size="0x100000" crc="4bbe94fa" sha1="7c13b22e056dc1cf497ea0b3e9766579c33d4370" />
+		<rom name="lh538395.44" offset="0x200000" size="0x100000" crc="2a533b5e" sha1="ceb9750b674adfa5fa0f88e46bce7b2b58440873" />
+		<rom name="lh538396.45" offset="0x300000" size="0x100000" crc="863a66fa" sha1="0edc4734daee8fc1738df4f4f17bcd817f0ade0a" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="lh534k0k.8" offset="0x0" size="0x80000" crc="735e6380" sha1="bf019815e579ef2393c00869f101a01f746e04d6" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="a1-sh0-.14" offset="0x1" size="0x10000" crc="b7fae3e6" sha1="ce41380d6c0f29f2facf9bf23dd4403648cd9eb4" />
+		<rom loadflag="load16_byte" name="a1-sl0-.17" offset="0x0" size="0x10000" crc="b26d54fc" sha1="136e1a83da08a0dc9046faf71f3f58d8d3095fde" />
+		</dataarea>
+	</part>
+</software>
+<software name="nbbatman06">
+	<description>Ninja Baseball Bat Man (Warriors Edition, 2019-02-23)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s06.34" offset="0x1" size="0x40000" crc="9844b72c" sha1="6ce65d8d73f608e1c69ee621a6ea6938422cf674" />
+		<rom loadflag="load16_byte" name="s06.31" offset="0x0" size="0x40000" crc="d93afb35" sha1="031c9bfec7b071bc9a4d3d5c40e15bad0c769331" />
+		<rom loadflag="load16_byte" name="a1-h1-.33" offset="0x80001" size="0x40000" crc="3ce2aab5" sha1="b39f17853bcab7ab290fdfaf9f3d8e8c2d91072a" />
+		<rom loadflag="load16_byte" name="a1-l1-.32" offset="0x80000" size="0x40000" crc="116d9bcc" sha1="c2faf8d1c6b51ac1483757777fd55961b74501fb" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x200000">
+		<rom name="lh534k0c.9" offset="0x0" size="0x80000" crc="314a0c6d" sha1="a918ae638f10b18165f7d34ab7db54fbf258df01" />
+		<rom name="lh534k0e.10" offset="0x80000" size="0x80000" crc="dc31675b" sha1="81b0a6b35285e855c778c7f32f31115f1edce099" />
+		<rom name="lh534k0f.11" offset="0x100000" size="0x80000" crc="e15d8bfb" sha1="74ea6f9748ed52e579cb08445282c871b3fd0f3a" />
+		<rom name="lh534k0g.12" offset="0x180000" size="0x80000" crc="888d71a3" sha1="d1609e326fda5ac579ddf1ad5dc77443ec2a180f" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="lh538393.42" offset="0x0" size="0x100000" crc="26cdd224" sha1="ab2a3dd8eafec78866a0d45c1f051209025bdc77" />
+		<rom name="lh538394.43" offset="0x100000" size="0x100000" crc="4bbe94fa" sha1="7c13b22e056dc1cf497ea0b3e9766579c33d4370" />
+		<rom name="lh538395.44" offset="0x200000" size="0x100000" crc="2a533b5e" sha1="ceb9750b674adfa5fa0f88e46bce7b2b58440873" />
+		<rom name="lh538396.45" offset="0x300000" size="0x100000" crc="863a66fa" sha1="0edc4734daee8fc1738df4f4f17bcd817f0ade0a" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="lh534k0k.8" offset="0x0" size="0x80000" crc="735e6380" sha1="bf019815e579ef2393c00869f101a01f746e04d6" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="a1-sh0-.14" offset="0x1" size="0x10000" crc="b7fae3e6" sha1="ce41380d6c0f29f2facf9bf23dd4403648cd9eb4" />
+		<rom loadflag="load16_byte" name="a1-sl0-.17" offset="0x0" size="0x10000" crc="b26d54fc" sha1="136e1a83da08a0dc9046faf71f3f58d8d3095fde" />
+		</dataarea>
+	</part>
+</software>
+<software name="nbbatman07">
+	<description>Ninja Baseball Bat Man (Characters Changeable, 2016-12-03)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s07.34" offset="0x1" size="0x40000" crc="b49f2163" sha1="38eeae2d24b4082a3ac5695bb527c4b574618772" />
+		<rom loadflag="load16_byte" name="s07.31" offset="0x0" size="0x40000" crc="0183e06b" sha1="5961ec9aab85881db6789d4020aade958a39a37c" />
+		<rom loadflag="load16_byte" name="a1-h1-.33" offset="0x80001" size="0x40000" crc="3ce2aab5" sha1="b39f17853bcab7ab290fdfaf9f3d8e8c2d91072a" />
+		<rom loadflag="load16_byte" name="a1-l1-.32" offset="0x80000" size="0x40000" crc="116d9bcc" sha1="c2faf8d1c6b51ac1483757777fd55961b74501fb" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x200000">
+		<rom name="lh534k0c.9" offset="0x0" size="0x80000" crc="314a0c6d" sha1="a918ae638f10b18165f7d34ab7db54fbf258df01" />
+		<rom name="lh534k0e.10" offset="0x80000" size="0x80000" crc="dc31675b" sha1="81b0a6b35285e855c778c7f32f31115f1edce099" />
+		<rom name="lh534k0f.11" offset="0x100000" size="0x80000" crc="e15d8bfb" sha1="74ea6f9748ed52e579cb08445282c871b3fd0f3a" />
+		<rom name="lh534k0g.12" offset="0x180000" size="0x80000" crc="888d71a3" sha1="d1609e326fda5ac579ddf1ad5dc77443ec2a180f" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="lh538393.42" offset="0x0" size="0x100000" crc="26cdd224" sha1="ab2a3dd8eafec78866a0d45c1f051209025bdc77" />
+		<rom name="lh538394.43" offset="0x100000" size="0x100000" crc="4bbe94fa" sha1="7c13b22e056dc1cf497ea0b3e9766579c33d4370" />
+		<rom name="lh538395.44" offset="0x200000" size="0x100000" crc="2a533b5e" sha1="ceb9750b674adfa5fa0f88e46bce7b2b58440873" />
+		<rom name="lh538396.45" offset="0x300000" size="0x100000" crc="863a66fa" sha1="0edc4734daee8fc1738df4f4f17bcd817f0ade0a" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="lh534k0k.8" offset="0x0" size="0x80000" crc="735e6380" sha1="bf019815e579ef2393c00869f101a01f746e04d6" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="a1-sh0-.14" offset="0x1" size="0x10000" crc="b7fae3e6" sha1="ce41380d6c0f29f2facf9bf23dd4403648cd9eb4" />
+		<rom loadflag="load16_byte" name="a1-sl0-.17" offset="0x0" size="0x10000" crc="b26d54fc" sha1="136e1a83da08a0dc9046faf71f3f58d8d3095fde" />
+		</dataarea>
+	</part>
+</software>
+<software name="nbbatman08">
+	<description>Ninja Baseball Bat Man (Warriors Edition, 2019-03-08)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s08.34" offset="0x1" size="0x40000" crc="80aa047d" sha1="3df5b9b3443c9fb49f812efb73aefedc28429ca5" />
+		<rom loadflag="load16_byte" name="s08.31" offset="0x0" size="0x40000" crc="fd078299" sha1="bf9fd24bb9ccc6d4c1019691a09722f00be8658e" />
+		<rom loadflag="load16_byte" name="a1-h1-.33" offset="0x80001" size="0x40000" crc="3ce2aab5" sha1="b39f17853bcab7ab290fdfaf9f3d8e8c2d91072a" />
+		<rom loadflag="load16_byte" name="a1-l1-.32" offset="0x80000" size="0x40000" crc="116d9bcc" sha1="c2faf8d1c6b51ac1483757777fd55961b74501fb" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x200000">
+		<rom name="lh534k0c.9" offset="0x0" size="0x80000" crc="314a0c6d" sha1="a918ae638f10b18165f7d34ab7db54fbf258df01" />
+		<rom name="lh534k0e.10" offset="0x80000" size="0x80000" crc="dc31675b" sha1="81b0a6b35285e855c778c7f32f31115f1edce099" />
+		<rom name="lh534k0f.11" offset="0x100000" size="0x80000" crc="e15d8bfb" sha1="74ea6f9748ed52e579cb08445282c871b3fd0f3a" />
+		<rom name="lh534k0g.12" offset="0x180000" size="0x80000" crc="888d71a3" sha1="d1609e326fda5ac579ddf1ad5dc77443ec2a180f" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="lh538393.42" offset="0x0" size="0x100000" crc="26cdd224" sha1="ab2a3dd8eafec78866a0d45c1f051209025bdc77" />
+		<rom name="lh538394.43" offset="0x100000" size="0x100000" crc="4bbe94fa" sha1="7c13b22e056dc1cf497ea0b3e9766579c33d4370" />
+		<rom name="lh538395.44" offset="0x200000" size="0x100000" crc="2a533b5e" sha1="ceb9750b674adfa5fa0f88e46bce7b2b58440873" />
+		<rom name="lh538396.45" offset="0x300000" size="0x100000" crc="863a66fa" sha1="0edc4734daee8fc1738df4f4f17bcd817f0ade0a" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="lh534k0k.8" offset="0x0" size="0x80000" crc="735e6380" sha1="bf019815e579ef2393c00869f101a01f746e04d6" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="a1-sh0-.14" offset="0x1" size="0x10000" crc="b7fae3e6" sha1="ce41380d6c0f29f2facf9bf23dd4403648cd9eb4" />
+		<rom loadflag="load16_byte" name="a1-sl0-.17" offset="0x0" size="0x10000" crc="b26d54fc" sha1="136e1a83da08a0dc9046faf71f3f58d8d3095fde" />
+		</dataarea>
+	</part>
+</software>
+<software name="nbbatman09">
+	<description>Ninja Baseball Bat Man (Warriors Edition, 2020-01-15)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s09.34" offset="0x1" size="0x40000" crc="e0fc1836" sha1="fb6d574bb13549a8ebc3d948c337d59601490bf4" />
+		<rom loadflag="load16_byte" name="s09.31" offset="0x0" size="0x40000" crc="c50a979f" sha1="79c3696ac2aa6631008c9ec6a1c98ed4356aeba4" />
+		<rom loadflag="load16_byte" name="a1-h1-.33" offset="0x80001" size="0x40000" crc="3ce2aab5" sha1="b39f17853bcab7ab290fdfaf9f3d8e8c2d91072a" />
+		<rom loadflag="load16_byte" name="a1-l1-.32" offset="0x80000" size="0x40000" crc="116d9bcc" sha1="c2faf8d1c6b51ac1483757777fd55961b74501fb" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x200000">
+		<rom name="lh534k0c.9" offset="0x0" size="0x80000" crc="314a0c6d" sha1="a918ae638f10b18165f7d34ab7db54fbf258df01" />
+		<rom name="lh534k0e.10" offset="0x80000" size="0x80000" crc="dc31675b" sha1="81b0a6b35285e855c778c7f32f31115f1edce099" />
+		<rom name="lh534k0f.11" offset="0x100000" size="0x80000" crc="e15d8bfb" sha1="74ea6f9748ed52e579cb08445282c871b3fd0f3a" />
+		<rom name="lh534k0g.12" offset="0x180000" size="0x80000" crc="888d71a3" sha1="d1609e326fda5ac579ddf1ad5dc77443ec2a180f" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="lh538393.42" offset="0x0" size="0x100000" crc="26cdd224" sha1="ab2a3dd8eafec78866a0d45c1f051209025bdc77" />
+		<rom name="lh538394.43" offset="0x100000" size="0x100000" crc="4bbe94fa" sha1="7c13b22e056dc1cf497ea0b3e9766579c33d4370" />
+		<rom name="lh538395.44" offset="0x200000" size="0x100000" crc="2a533b5e" sha1="ceb9750b674adfa5fa0f88e46bce7b2b58440873" />
+		<rom name="lh538396.45" offset="0x300000" size="0x100000" crc="863a66fa" sha1="0edc4734daee8fc1738df4f4f17bcd817f0ade0a" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="lh534k0k.8" offset="0x0" size="0x80000" crc="735e6380" sha1="bf019815e579ef2393c00869f101a01f746e04d6" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="a1-sh0-.14" offset="0x1" size="0x10000" crc="b7fae3e6" sha1="ce41380d6c0f29f2facf9bf23dd4403648cd9eb4" />
+		<rom loadflag="load16_byte" name="a1-sl0-.17" offset="0x0" size="0x10000" crc="b26d54fc" sha1="136e1a83da08a0dc9046faf71f3f58d8d3095fde" />
+		</dataarea>
+	</part>
+</software>
+<software name="nbbatman10">
+	<description>Ninja Baseball Bat Man (1v8, 2020-01-08)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s10.34" offset="0x1" size="0x40000" crc="6b0d4c4a" sha1="8723e8079ef56ca73be49be389ca0ebbac2c39c5" />
+		<rom loadflag="load16_byte" name="s10.31" offset="0x0" size="0x40000" crc="ae7bafa9" sha1="d04f36d7fa77db5cf0d01da6227a433a0295aa15" />
+		<rom loadflag="load16_byte" name="a1-h1-.33" offset="0x80001" size="0x40000" crc="3ce2aab5" sha1="b39f17853bcab7ab290fdfaf9f3d8e8c2d91072a" />
+		<rom loadflag="load16_byte" name="a1-l1-.32" offset="0x80000" size="0x40000" crc="116d9bcc" sha1="c2faf8d1c6b51ac1483757777fd55961b74501fb" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x200000">
+		<rom name="lh534k0c.9" offset="0x0" size="0x80000" crc="314a0c6d" sha1="a918ae638f10b18165f7d34ab7db54fbf258df01" />
+		<rom name="lh534k0e.10" offset="0x80000" size="0x80000" crc="dc31675b" sha1="81b0a6b35285e855c778c7f32f31115f1edce099" />
+		<rom name="lh534k0f.11" offset="0x100000" size="0x80000" crc="e15d8bfb" sha1="74ea6f9748ed52e579cb08445282c871b3fd0f3a" />
+		<rom name="lh534k0g.12" offset="0x180000" size="0x80000" crc="888d71a3" sha1="d1609e326fda5ac579ddf1ad5dc77443ec2a180f" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="lh538393.42" offset="0x0" size="0x100000" crc="26cdd224" sha1="ab2a3dd8eafec78866a0d45c1f051209025bdc77" />
+		<rom name="lh538394.43" offset="0x100000" size="0x100000" crc="4bbe94fa" sha1="7c13b22e056dc1cf497ea0b3e9766579c33d4370" />
+		<rom name="lh538395.44" offset="0x200000" size="0x100000" crc="2a533b5e" sha1="ceb9750b674adfa5fa0f88e46bce7b2b58440873" />
+		<rom name="lh538396.45" offset="0x300000" size="0x100000" crc="863a66fa" sha1="0edc4734daee8fc1738df4f4f17bcd817f0ade0a" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="lh534k0k.8" offset="0x0" size="0x80000" crc="735e6380" sha1="bf019815e579ef2393c00869f101a01f746e04d6" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="a1-sh0-.14" offset="0x1" size="0x10000" crc="b7fae3e6" sha1="ce41380d6c0f29f2facf9bf23dd4403648cd9eb4" />
+		<rom loadflag="load16_byte" name="a1-sl0-.17" offset="0x0" size="0x10000" crc="b26d54fc" sha1="136e1a83da08a0dc9046faf71f3f58d8d3095fde" />
+		</dataarea>
+	</part>
+</software>
+<software name="nbbatman11">
+	<description>Ninja Baseball Bat Man (One Key Edition, 2020-09-06)</description>
+	<year>2021</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s11.34" offset="0x1" size="0x40000" crc="ad7e9c69" sha1="f96054d292fe203501c9b29299e10a3e6138725b" />
+		<rom loadflag="load16_byte" name="s11.31" offset="0x0" size="0x40000" crc="17da7b70" sha1="4cf1f91a685c0fb137fd93e293721bb2a6ca2c32" />
+		<rom loadflag="load16_byte" name="a1-h1-.33" offset="0x80001" size="0x40000" crc="3ce2aab5" sha1="b39f17853bcab7ab290fdfaf9f3d8e8c2d91072a" />
+		<rom loadflag="load16_byte" name="a1-l1-.32" offset="0x80000" size="0x40000" crc="116d9bcc" sha1="c2faf8d1c6b51ac1483757777fd55961b74501fb" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x200000">
+		<rom name="lh534k0c.9" offset="0x0" size="0x80000" crc="314a0c6d" sha1="a918ae638f10b18165f7d34ab7db54fbf258df01" />
+		<rom name="lh534k0e.10" offset="0x80000" size="0x80000" crc="dc31675b" sha1="81b0a6b35285e855c778c7f32f31115f1edce099" />
+		<rom name="lh534k0f.11" offset="0x100000" size="0x80000" crc="e15d8bfb" sha1="74ea6f9748ed52e579cb08445282c871b3fd0f3a" />
+		<rom name="lh534k0g.12" offset="0x180000" size="0x80000" crc="888d71a3" sha1="d1609e326fda5ac579ddf1ad5dc77443ec2a180f" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="lh538393.42" offset="0x0" size="0x100000" crc="26cdd224" sha1="ab2a3dd8eafec78866a0d45c1f051209025bdc77" />
+		<rom name="lh538394.43" offset="0x100000" size="0x100000" crc="4bbe94fa" sha1="7c13b22e056dc1cf497ea0b3e9766579c33d4370" />
+		<rom name="lh538395.44" offset="0x200000" size="0x100000" crc="2a533b5e" sha1="ceb9750b674adfa5fa0f88e46bce7b2b58440873" />
+		<rom name="lh538396.45" offset="0x300000" size="0x100000" crc="863a66fa" sha1="0edc4734daee8fc1738df4f4f17bcd817f0ade0a" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="lh534k0k.8" offset="0x0" size="0x80000" crc="735e6380" sha1="bf019815e579ef2393c00869f101a01f746e04d6" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="a1-sh0-.14" offset="0x1" size="0x10000" crc="b7fae3e6" sha1="ce41380d6c0f29f2facf9bf23dd4403648cd9eb4" />
+		<rom loadflag="load16_byte" name="a1-sl0-.17" offset="0x0" size="0x10000" crc="b26d54fc" sha1="136e1a83da08a0dc9046faf71f3f58d8d3095fde" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

@@ -1,0 +1,32 @@
+<software name="dkong21" cloneof="dkong">
+	<description>Donkey Kong Pacman Crossover v1.00 (2024-01-17)</description>
+	<year>2024</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s21.5et" offset="0x0" size="0x1000" crc="a7a913d5" sha1="163f851b0517a84d54d6612f8bbe52d214a0f846" />
+		<rom name="s21.5ct" offset="0x1000" size="0x1000" crc="03ce5531" sha1="9d8c1df41dfb04f3b9498109fad7d9288f4a00fe" />
+		<rom name="s21.5bt" offset="0x2000" size="0x1000" crc="abaf3fa1" sha1="d05ae561800b8386b932aae4921c4b197bf8f9c4" />
+		<rom name="s21.5at" offset="0x3000" size="0x1000" crc="843a9751" sha1="c6b564e4bf0b472dfb42e9d23f9ec5ee157e7832" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="s21.5h" offset="0x0" size="0x800" crc="b212d49b" sha1="941d907990eb6982793d79ed63974f9c9c6a159d" />
+		<rom name="s21.3pt" offset="0x800" size="0x800" crc="2bd67b35" sha1="7e5660b35f53f81410a68b73bf8784a56bb6ebac" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="s21.4m" offset="0x0" size="0x800" crc="7db40811" sha1="a149e5fdcd3f0c1a570cebcdd236013eaefd5398" />
+		<rom name="s21.4n" offset="0x800" size="0x800" crc="c9f3b37a" sha1="87ac9f2b5d0c0150e95aa9ebfba7438b49958c1d" />
+		<rom name="s21.4r" offset="0x1000" size="0x800" crc="137ad00e" sha1="38e0717af7601803c7cd7b1cf0286cd6c8a2cbda" />
+		<rom name="s21.4s" offset="0x1800" size="0x800" crc="72b56559" sha1="99fa2699f0a2652e4048f09187b17619bf2e8c80" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="s21.2k" offset="0x0" size="0x100" crc="929a396b" sha1="bc5f50ab46fad619e2bee782fc9676868affb08e" />
+		<rom name="s21.2j" offset="0x100" size="0x100" crc="1aa9c17e" sha1="0c6e11caec0e805aa8c6173895963bb6e50417ea" />
+		<rom name="s21.5e" offset="0x200" size="0x100" crc="d06c6ba8" sha1="71989ca72740e44c1f967239236b9764be0698c2" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s21.3i" offset="0x0" size="0x800" crc="4f865d26" sha1="d31c431ff2512d3a8f983fc4676ba51995d945e6" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>

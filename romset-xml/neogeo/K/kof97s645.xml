@@ -1,0 +1,25 @@
+<software name="kof97s645" cloneof="kof97">
+	<description>Kof&#x27;97 (Ultimate Battle Plus, 2020-03-27)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="232s645.p1" offset="0x0" size="0x100000" crc="8490e92e" sha1="95232948f1ed94d8d38b8eadc6b5190f782340fe" />
+		<rom loadflag="load16_word_swap" name="232s645.p2" offset="0x100000" size="0x400000" crc="33482c71" sha1="964e8a18afb5aa4135868cda275f755c7dc70bb4" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232s193.v2" offset="0x400000" size="0x400000" crc="92b14f89" sha1="64809538c80e44512130d288b515dbed129bd687" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="232s645.c1" offset="0x0" size="0x800000" crc="e1b11416" sha1="1883c1ff65a35c42676181523c59290b39199247" />
+		<rom loadflag="load16_byte" name="232s645.c2" offset="0x1" size="0x800000" crc="0ea40438" sha1="4163b92cb42c1f6b49fddd09c239454d926adc3c" />
+		<rom loadflag="load16_byte" name="232s006.c3" offset="0x1000000" size="0x800000" crc="b092e64f" sha1="7d809432d068db8f9056f5210570191416f1a53b" />
+		<rom loadflag="load16_byte" name="232s006.c4" offset="0x1000001" size="0x800000" crc="d25e8a04" sha1="52227828e3fdd27399b4cd514551abf856293f47" />
+		<rom loadflag="load16_byte" name="232s645.c5" offset="0x2000000" size="0x800000" crc="8572aa61" sha1="5ff961ee598717999212dd060f0edfded66e94bb" />
+		<rom loadflag="load16_byte" name="232s645.c6" offset="0x2000001" size="0x800000" crc="dcef5f41" sha1="2ac11c081351076a78d48619667bc1093a0759a5" />
+		</dataarea>
+	</part>
+</software>

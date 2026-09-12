@@ -1,0 +1,20 @@
+<software name="teot_4" cloneof="teot">
+	<description>The Eye of Typhoon (Tsunami Edition, beta, 2022-01-05)</description>
+	<year>2022</year>
+	<publisher>OzzyOuzo</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x900000">
+		<rom loadflag="load16_word_swap" name="323d.p1" offset="0x0" size="0x100000" crc="603fac98" sha1="b5d4caf9162cac28d153fe33169cfc8acb679f84" />
+		<rom loadflag="load16_word_swap" name="323d.p2" offset="0x100000" size="0x800000" crc="5f557ad5" sha1="9983d3b913f0d3bb315b696cd77f2ad7d04fbcd3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="323d.v1" offset="0x0" size="0x800000" crc="91b3deed" sha1="6408ad38bcbe2712a11e30efecb47b027cabd49a" />
+		<rom name="323d.v2" offset="0x800000" size="0x800000" crc="985e6f6b" sha1="b3e92d6ab08ad42347b622dbb72a7589a7dbe885" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="323d.c1" offset="0x0" size="0x1000000" crc="7919ea09" sha1="bb8e058346ebc02b7e20f324411c6455271a837b" />
+		<rom loadflag="load16_byte" name="323d.c2" offset="0x1" size="0x1000000" crc="62aa59a8" sha1="dc4b7dc87d43b2c61bea799d2de5344d1c1999b9" />
+		</dataarea>
+	</part>
+</software>

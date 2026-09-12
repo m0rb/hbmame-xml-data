@@ -1,0 +1,23 @@
+<software name="pmheart" cloneof="puckman">
+	<description>Puckman Hearts</description>
+	<year>1980</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="newpuck1.6e" offset="0x0" size="0x800" crc="2c0fa0ab" sha1="37680e4502771ae69d51d07ce43f65b9b2dd2a49" />
+		<rom name="pmheart.6k" offset="0x800" size="0x800" crc="afeca2f1" sha1="1e6d6c75eeb3a354ce2dc88da62caf9e7d53d0cb" />
+		<rom name="pmheart.6f" offset="0x1000" size="0x800" crc="6b53ada9" sha1="a905688b389bfbc6792965d8f3d5bb1b9f0f4ec6" />
+		<rom name="pmheart.6m" offset="0x1800" size="0x800" crc="35f3ca84" sha1="3da7336caa0742ea79f1e0e8f6b80f8560507a33" />
+		<rom name="pacheart.6h" offset="0x2000" size="0x800" crc="9045a44c" sha1="a97d7016effbd2ace9a7d92ceb04a6ce18fb42f9" />
+		<rom name="pmheart.6n" offset="0x2800" size="0x800" crc="93f344c5" sha1="987c7fa18a774a47c045fa1dc7dff37457cb8983" />
+		<rom name="pmheart.6j" offset="0x3000" size="0x800" crc="bed4a077" sha1="39ac1d4d2acf4752ff7f9839f8f0d1974e023fab" />
+		<rom name="pmheart.6p" offset="0x3800" size="0x800" crc="800be41e" sha1="6f40e741d95c2cfe1b217f1061da3497b4c2a153" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacheart.5e" offset="0x0" size="0x800" crc="c62bbabf" sha1="f6f28ae33c2ab274105283b22b49ad243780a95e" />
+		<rom name="puckman.5h" offset="0x800" size="0x800" crc="3591b89d" sha1="79bb456be6c39c1ccd7d077fbe181523131fb300" />
+		<rom name="newpuc2.5f" offset="0x1000" size="0x800" crc="ca8c184c" sha1="833aa845824ed80777b62f03df36a920ad7c3656" />
+		<rom name="puckman.5j" offset="0x1800" size="0x800" crc="1b1d9096" sha1="53771c573051db43e7185b1d188533056290a620" />
+		</dataarea>
+	</part>
+</software>

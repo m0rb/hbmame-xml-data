@@ -1,0 +1,19 @@
+<software name="ms1000" cloneof="mspacman">
+	<description>Ms. Pacman 1000 (MS PAC-MAN 1000)</description>
+	<year>2001</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="ms1000.4" offset="0x3000" size="0x1000" crc="22a10392" sha1="7c17601428988dd996bbe64afee486fcf2333beb" />
+		<rom name="boot5" offset="0x8000" size="0x1000" crc="8c3e6de6" sha1="fed6e9a2b210b07e7189a18574f6b8c4ec5bb49b" />
+		<rom name="boot6" offset="0x9000" size="0x1000" crc="368cb165" sha1="387010a0c76319a1eab61b54c9bcb5c66c4b67a1" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="ms1000.5e" offset="0x0" size="0x1000" crc="adde7864" sha1="6e21d412b11bbabf05c65ad3c0dccba73fe15eb5" />
+		<rom name="ms1000.5f" offset="0x1000" size="0x1000" crc="5cb008a9" sha1="bb9049b2a48773dac775acd70cb0cb54dcd6a5b0" />
+		</dataarea>
+	</part>
+</software>

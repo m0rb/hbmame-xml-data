@@ -1,0 +1,26 @@
+<software name="kof2002s270" cloneof="kof2002">
+	<description>Kof2002 (Magic Fking)</description>
+	<year>2002</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="265s270.p1" offset="0x0" size="0x100000" crc="db2cd5db" sha1="6f02392030f1cd52b896eca96fa4603582259715" />
+		<rom loadflag="load16_word_swap" name="k2k2m2p2.bin" offset="0x100000" size="0x400000" crc="432fdf53" sha1="d7e542cd84d948162c60768e40ee4ed33d8e7913" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="265.v1" offset="0x0" size="0x800000" crc="15e8f3f5" sha1="7c9e6426b9fa6db0158baa17a6485ffce057d889" />
+		<rom name="265.v2" offset="0x800000" size="0x800000" crc="da41d6f9" sha1="a43021f1e58947dcbe3c8ca5283b20b649f0409d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="265d.c1" offset="0x0" size="0x800000" crc="7efa6ef7" sha1="71345a4202e7cc9239538fb978638141416c8893" />
+		<rom loadflag="load16_byte" name="265d.c2" offset="0x1" size="0x800000" crc="aa82948b" sha1="b2a40797f68bdeb80bc54dccc5495be68934bf0e" />
+		<rom loadflag="load16_byte" name="265d.c3" offset="0x1000000" size="0x800000" crc="959fad0b" sha1="63ab83ddc5f688dc8165a7ff8d262df3fcd942a2" />
+		<rom loadflag="load16_byte" name="265d.c4" offset="0x1000001" size="0x800000" crc="efe6a468" sha1="2a414285e48aa948b5b0d4a9333bab083b5fb853" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="265d.c7" offset="0x3000000" size="0x800000" crc="8a5b561c" sha1="a19697d4c2cc8edebc669c95ae1db4c8c2a70b2c" />
+		<rom loadflag="load16_byte" name="265d.c8" offset="0x3000001" size="0x800000" crc="bef667a3" sha1="d5e8bc185dcf63343d129c31d2ddab9f723f1a12" />
+		</dataarea>
+	</part>
+</software>

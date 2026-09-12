@@ -1,0 +1,48 @@
+<software name="wh1d" cloneof="wh1">
+	<description>World Heroes (MGD2)</description>
+	<year>1992</year>
+	<publisher>Alpha Denshi Co.</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n053001a.038" offset="0x1" size="0x40000" crc="ab39923d" sha1="be9fc3c89a452e64d02231d531bb298d201ef002" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		<rom loadflag="load16_byte" name="n053001a.03c" offset="0x80001" size="0x40000" crc="5adc98ef" sha1="0c87725b343f7705f974de71c4bc46afdc75c80b" />
+		<rom loadflag="continue" offset="0x80000" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x300000">
+		<rom name="n053001a.1f8" offset="0x0" size="0x80000" crc="77994663" sha1="7adaddf13177b1d18604611dfae7fc43b35a0766" />
+		<rom name="n053001a.1fc" offset="0x80000" size="0x80000" crc="d74ad0da" sha1="fe71db5808d46f7b56ea7603e500534cd8ab8beb" />
+		<rom name="n053001b.1f8" offset="0x100000" size="0x80000" crc="9d5fe808" sha1="825eb3727d67e1cf8d8e254576de52952a35c25c" />
+		<rom name="n053001b.1fc" offset="0x180000" size="0x80000" crc="883fb383" sha1="ceef987b5e8ce9c0201eb0c66628456b99b41fd2" />
+		<rom name="n053001c.1f8" offset="0x200000" size="0x80000" crc="b4ff60d7" sha1="a1615ec7b309839fd0e690e57d19ab5a857eef1d" />
+		<rom name="n053001c.1fc" offset="0x280000" size="0x80000" crc="b358e4f5" sha1="6b74306beb801f9e35e1a948b2508a38facb2080" />
+		</dataarea>
+		<dataarea name="sprites" size="0x600000">
+		<rom loadflag="load32_byte" name="n053001a.538" offset="0x0" size="0x40000" crc="ad8fcc5d" sha1="67683d40fa438032a3e9f5997c7ca5b798f50325" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n053001a.638" offset="0x1" size="0x40000" crc="3182b4db" sha1="371f898f5ef28b1efe8129fa6837ee31452e0881" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n053001a.53c" offset="0x100000" size="0x40000" crc="0dca726e" sha1="9c9ea623102818b0c551a998be8b909c16967896" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n053001a.63c" offset="0x100001" size="0x40000" crc="1cb0a840" sha1="c52b1dd8b4860d1bcff207f0f7c2278dfa195219" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n053001b.538" offset="0x200000" size="0x40000" crc="bb807a43" sha1="f0583c2bd3ad69f12d3635edece4480414497395" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n053001b.638" offset="0x200001" size="0x40000" crc="c9f439f8" sha1="be7ba30e5cfe22341f61ea2571cec551a5793bf3" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n053001b.53c" offset="0x300000" size="0x40000" crc="e913f93c" sha1="af17419e46aa4f4809fc2f620a6e2d109fe17197" />
+		<rom loadflag="continue" offset="0x300002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n053001b.63c" offset="0x300001" size="0x40000" crc="80441c48" sha1="fdfab6abd4e2212635c47270df27108c1904a15b" />
+		<rom loadflag="continue" offset="0x300003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n053001c.538" offset="0x400000" size="0x40000" crc="3c359a14" sha1="3415bc48511d57bb54f926df1e282ee02787776d" />
+		<rom loadflag="continue" offset="0x400002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n053001c.638" offset="0x400001" size="0x40000" crc="7c4b85b4" sha1="ae7b199f6e59b1b697c36e21ddfc525d6ad77c83" />
+		<rom loadflag="continue" offset="0x400003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n053001c.53c" offset="0x500000" size="0x40000" crc="b1327d84" sha1="02f58cb1a18448f1f3c3752bb802b6f737151b9d" />
+		<rom loadflag="continue" offset="0x500002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n053001c.63c" offset="0x500001" size="0x40000" crc="959f29db" sha1="f1126098840fb602c8b3349111e5954b73a66934" />
+		<rom loadflag="continue" offset="0x500003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

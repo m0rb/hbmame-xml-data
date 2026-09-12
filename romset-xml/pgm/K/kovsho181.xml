@@ -1,0 +1,33 @@
+<software name="kovsho181" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Heavenly King Edition 2.7s 2020-02-11)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po181.rom" offset="0x100000" size="0x400000" crc="9c446f36" sha1="d98cd30fd92b70b7749a9af0cc6886766031a10d" />
+		</dataarea>
+		<dataarea name="ics" size="0x900000">
+		<rom name="pgm_m01s_bios=bh03.rom" offset="0x0" size="0x200000" crc="81a6aeca" sha1="9b77df457566209fdbf47ed3f62c5d3249b03ec7" />
+		<rom name="m0600_po07.rom" offset="0x400000" size="0x40001c" crc="c68e36b6" sha1="690b5f4734a4f48fa010df0611d7188f3dff4deb" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_pw147.asic" offset="0x0" size="0x4000" crc="c5494399" sha1="77a1bdd68e6eaaa9a00d41123cbc71d4f3018612" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x4000000">
+		<rom name="a0600_po147.rom" offset="0x0" size="0x800000" crc="8bccc3ba" sha1="5511109abf8dd6e69d167c021ae6a7a9fd08b026" />
+		<rom name="a0601_po07.rom" offset="0x800000" size="0x800000" crc="cd391de8" sha1="c593f61ba9e0c42c4a48e549b217c396099ca840" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="a0540_po147.rom" offset="0x1800000" size="0x1000000" crc="3b11c9b3" sha1="3244d263c0a1aea3b619670b47c21220a42a7d10" />
+		<rom name="pgm_a0613.u7" offset="0x2800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x2000000">
+		<rom name="b0600_po147.rom" offset="0x0" size="0x800000" crc="32cb43ef" sha1="96e20d08506b94a345cfc2681da24ae68fe15ed2" />
+		<rom name="b0540_po147.rom" offset="0x800000" size="0x800000" crc="127085a9" sha1="aeddde5212f7f0dc9478ec1503e925dc54b0eac8" />
+		<rom name="b0601_kv11.rom" offset="0x1000000" size="0x400000" crc="184fb667" sha1="532aab9ad823d4eb6c21b143c6d5be429bcc1f38" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="pgm_t01s.rom" offset="0x0" size="0x200000" crc="1a7123a0" sha1="cc567f577bfbf45427b54d6695b11b74f2578af3" />
+		<rom name="t0600_pw10.rom" offset="0x180000" size="0x800000" crc="a919ec0f" sha1="b464490abba8a5e651c407a7833c3a2e3befa5b8" />
+		</dataarea>
+	</part>
+</software>

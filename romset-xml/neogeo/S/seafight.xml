@@ -1,0 +1,18 @@
+<software name="seafight">
+	<description>Sea Fighter 0.01.009</description>
+	<year>2018</year>
+	<publisher>kl3mousse</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="444.p1" offset="0x0" size="0x100000" crc="598d14ef" sha1="da6dda92ec8cf3a5f46fae2dd4578f945f7a8ec7" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="444.v1" offset="0x0" size="0x100000" crc="becc781e" sha1="a5a3ed13de539ce55c4f35bb052ee35ffe29fb5d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="444.c1" offset="0x0" size="0x100000" crc="383a9dde" sha1="6d54c6389f9f992c1654643a537c01fda9b83259" />
+		<rom loadflag="load16_byte" name="444.c2" offset="0x1" size="0x100000" crc="1f43c1f4" sha1="aa0cd4eebb02225b939f57cee4347c0a43654d31" />
+		</dataarea>
+	</part>
+</software>

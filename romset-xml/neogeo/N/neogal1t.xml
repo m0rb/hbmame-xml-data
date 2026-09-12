@@ -1,0 +1,15 @@
+<software name="neogal1t" cloneof="neogal1">
+	<description>NeoGeo Galaga Demo R001 (text)</description>
+	<year>2013</year>
+	<publisher>Cristiano Bei</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="640_1t.p1" offset="0x0" size="0x100000" crc="01dc85fd" sha1="7fed5c859901066e27bac777d3846e69185648e6" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="640_1t.c1" offset="0x0" size="0x100000" crc="f8221e34" sha1="c8bb90c03213dc493bdaa36d94c713508303a275" />
+		<rom loadflag="load16_byte" name="640_1t.c2" offset="0x1" size="0x100000" crc="c30cf1fc" sha1="774a1896fc15cdf9fddf1e1a874ea43fe4136bd6" />
+		</dataarea>
+	</part>
+</software>

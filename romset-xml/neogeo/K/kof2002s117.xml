@@ -1,0 +1,30 @@
+<software name="kof2002s117" cloneof="kof2002">
+	<description>Kof2002 (Magic Plus 4)</description>
+	<year>2022</year>
+	<publisher>Mikasa</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x600000">
+		<rom loadflag="load16_word_swap" name="265s117.p1" offset="0x0" size="0x100000" crc="57853a11" sha1="0d12879a384f206ed0f30123b7d119a873c1a48e" />
+		<rom loadflag="load16_word_swap" name="265s117.p2" offset="0x100000" size="0x400000" crc="c27de382" sha1="421b18cc30f5c71be2d1c304414a815f61485025" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="265nu.v1" offset="0x0" size="0x400000" crc="13d98607" sha1="0f1a374247992d301bc26c0bab200631a13a9f4a" />
+		<rom name="265nu.v2" offset="0x400000" size="0x400000" crc="9cf74677" sha1="073e7cb00127690fdec05c19f00347ec449f15ac" />
+		<rom name="265nu.v3" offset="0x800000" size="0x400000" crc="8e9448b5" sha1="c22420649c7c68a172290548cab846345c861cb0" />
+		<rom name="265nu.v4" offset="0xc00000" size="0x400000" crc="067271b5" sha1="36e07da78aaf634824c98023053bef802be4e218" />
+		</dataarea>
+		<dataarea name="sprites" size="0x5000000">
+		<rom loadflag="load16_byte" name="265d.c1" offset="0x0" size="0x800000" crc="7efa6ef7" sha1="71345a4202e7cc9239538fb978638141416c8893" />
+		<rom loadflag="load16_byte" name="265d.c2" offset="0x1" size="0x800000" crc="aa82948b" sha1="b2a40797f68bdeb80bc54dccc5495be68934bf0e" />
+		<rom loadflag="load16_byte" name="265js.c3" offset="0x1000000" size="0x800000" crc="ca656090" sha1="ed7f79eeabb965f5cdfbdd1c2d137ef5db366e03" />
+		<rom loadflag="load16_byte" name="265js.c4" offset="0x1000001" size="0x800000" crc="eb898849" sha1="eac79b04382fc20dd9f7b9345d929aff58889e8f" />
+		<rom loadflag="load16_byte" name="365ru.c5" offset="0x2000000" size="0x800000" crc="11126545" sha1="4ae58848c8a6701c9cfcd60e6674e8fb7491c0c0" />
+		<rom loadflag="load16_byte" name="365ru.c6" offset="0x2000001" size="0x800000" crc="d225bb9b" sha1="ee627dab6aeebfb1af9dbdc315a927245243817c" />
+		<rom loadflag="load16_byte" name="265s117.c7" offset="0x3000000" size="0x800000" crc="991f939e" sha1="f565425f727d8659525d8710986cc41bd0e6379e" />
+		<rom loadflag="load16_byte" name="265s117.c8" offset="0x3000001" size="0x800000" crc="7933e4a2" sha1="c5ac4381625b5eddcf12bf151a523ed0ff607460" />
+		<rom loadflag="load16_byte" name="265s117.c9" offset="0x4000000" size="0x800000" crc="95e2cdb8" sha1="bf1cf09e4d1d6e8c789252d77d8d6fde2b3ba23f" />
+		<rom loadflag="load16_byte" name="265s117.c10" offset="0x4000001" size="0x800000" crc="2e868133" sha1="f69b5fcdc294d8e72012f81066b7ce3d7319c1ac" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,17 @@
+<software name="fasthang" cloneof="puckman">
+	<description>Hangly Man [f]</description>
+	<year>2000</year>
+	<publisher>[Nittoh]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="hangly.6e" offset="0x0" size="0x1000" crc="5fe8610a" sha1="d63eaebd85e10aa6c27bb7f47642dd403eeb6934" />
+		<rom name="fasthang.6f" offset="0x1000" size="0x1000" crc="1b1014bc" sha1="c7ff86832ccd207ce8505291ae309ee0240d0586" />
+		<rom name="hangly.6h" offset="0x2000" size="0x1000" crc="4e7ef99f" sha1="bd42e68b29b4d654dc817782ba00db69b7d2dfe2" />
+		<rom name="hangly.6j" offset="0x3000" size="0x1000" crc="7f4147e6" sha1="0a7ac0e59d4d26fe52a2f4196c9f19e5ab677c87" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacman.5e" offset="0x0" size="0x1000" crc="0c944964" sha1="06ef227747a440831c9a3a613b76693d52a2f0a9" />
+		<rom name="pacman.5f" offset="0x1000" size="0x1000" crc="958fedf9" sha1="4a937ac02216ea8c96477d4a15522070507fb599" />
+		</dataarea>
+	</part>
+</software>

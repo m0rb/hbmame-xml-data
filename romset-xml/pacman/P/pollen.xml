@@ -1,0 +1,16 @@
+<software name="pollen" cloneof="puckman">
+	<description>Pollen Angel</description>
+	<year>2023</year>
+	<publisher>Arlasoft</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pollen.6e" offset="0x0" size="0x1000" crc="cafb430f" sha1="9ac81affec3c9f1dfbec722712f7e907905f5662" />
+		<rom name="pollen.6f" offset="0x1000" size="0x1000" crc="9ca9850b" sha1="b2d48cba1a58e28f450aa4556139ac5021f7fa61" />
+		<rom name="pollen.6h" offset="0x2000" size="0x1000" crc="04108eb0" sha1="4773af22762b2da2f992867bee706325a999c2b0" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pollen.5e" offset="0x0" size="0x1000" crc="c360bb29" sha1="f220959c11a17d3f443743f88435553f9d7916c4" />
+		<rom name="pollen.5f" offset="0x1000" size="0x1000" crc="b049f6cd" sha1="69bea38cf4c133c7f6ce8b52824d214e8d726c7c" />
+		</dataarea>
+	</part>
+</software>

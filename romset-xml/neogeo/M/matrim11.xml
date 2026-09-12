@@ -1,0 +1,26 @@
+<software name="matrim11" cloneof="matrim">
+	<description>Matrimelee (Decrypted C)</description>
+	<year>2002</year>
+	<publisher>Noise Factory / Atlus</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="266.p1" offset="0x0" size="0x100000" crc="5d4c2dc7" sha1="8d723b0d28ec344eef26009b361a2b97d300dd51" />
+		<rom loadflag="load16_word_swap" name="266.p2" offset="0x100000" size="0x400000" crc="a14b1906" sha1="1daa14d73512f760ef569b06f9facb279437d1db" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="266.v1" offset="0x0" size="0x800000" crc="a4f83690" sha1="200d683d8c30ebc6d0ed331aa5bbba39b4e07160" />
+		<rom name="266.v2" offset="0x800000" size="0x800000" crc="d0f69eda" sha1="9d7e98976ad433ed8a35d7afffa38130444ba7db" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="266s11.c1" offset="0x0" size="0x800000" crc="0ab54c54" sha1="31bca460462b8545b3e5264804987ab951e9b202" />
+		<rom loadflag="load16_byte" name="266s11.c2" offset="0x1" size="0x800000" crc="b834dd89" sha1="579470839a8d23b2d22cf727d2b43c6c3c113e1f" />
+		<rom loadflag="load16_byte" name="266s11.c3" offset="0x1000000" size="0x800000" crc="f31d68d4" sha1="a6b8aaf11d25f871b52e9626fe0e4ae0683c3c52" />
+		<rom loadflag="load16_byte" name="266s11.c4" offset="0x1000001" size="0x800000" crc="58cfb6e9" sha1="106875db996ec29b0254b34f9d935c761cde20c4" />
+		<rom loadflag="load16_byte" name="266s11.c5" offset="0x2000000" size="0x800000" crc="f3c0e3fd" sha1="3a2f14517617fb98a202ceec88d52891e1438c8e" />
+		<rom loadflag="load16_byte" name="266s11.c6" offset="0x2000001" size="0x800000" crc="b53c8dcf" sha1="9f4b0bac92262e8c1c1055a70f13c7c326367f73" />
+		<rom loadflag="load16_byte" name="266s11.c7" offset="0x3000000" size="0x800000" crc="3c1fb02a" sha1="43e170e6d48c01d8c323f9309f97e6038bab20d7" />
+		<rom loadflag="load16_byte" name="266s11.c8" offset="0x3000001" size="0x800000" crc="5ee31f80" sha1="3cdd8037f5004df92f4c19ba0746c8bccb4e2473" />
+		</dataarea>
+	</part>
+</software>

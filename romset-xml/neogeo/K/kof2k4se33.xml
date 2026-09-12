@@ -1,0 +1,28 @@
+<software name="kof2k4se33" cloneof="kof2k4se">
+	<description>Kof Special Edition 2004 (Omega v1.0, 2020-01-03)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x900000">
+		<rom loadflag="load16_word_swap" name="365s33.p1" offset="0x0" size="0x3bd4c1" crc="176576d4" sha1="adb1529665b918d6628886b712d49c26a5f1eb43" />
+		<rom loadflag="load16_word_swap" name="365s30.p2" offset="0x100000" size="0x400000" crc="35c8ec2f" sha1="2587a0452d3929820f0c1507d0657683a9a9b125" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="265sm.v1" offset="0x0" size="0x400000" crc="8991f6e9" sha1="ce5afc0169c142d7f98111afbc60b3a9a2e17256" />
+		<rom name="265sm.v2" offset="0x400000" size="0x400000" crc="511e4d2f" sha1="28190ec86ac2169ab6fad80635ed13cfcf430c65" />
+		<rom name="265sm.v3" offset="0x800000" size="0x400000" crc="1dd8b53a" sha1="9aa84f145ba07f5f3c3b3fb682eb8a8ab1500b4c" />
+		<rom name="265sm.v4" offset="0xc00000" size="0x400000" crc="63bb5462" sha1="afc6a085e25bd006f26e16beda4244bc8bc19bb8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000400">
+		<rom loadflag="load16_byte" name="365.c1" offset="0x0" size="0x800000" crc="7a050288" sha1="55a20c5b01e11a859f096af3f8e09986025d288f" />
+		<rom loadflag="load16_byte" name="365.c2" offset="0x1" size="0x800000" crc="e924afcf" sha1="651e974f7339d2cdcfa58c5398013197a0525b77" />
+		<rom loadflag="load16_byte" name="265d.c3" offset="0x1000000" size="0x800000" crc="959fad0b" sha1="63ab83ddc5f688dc8165a7ff8d262df3fcd942a2" />
+		<rom loadflag="load16_byte" name="365s30.c4" offset="0x1000001" size="0x880400" crc="72482b25" sha1="0ad1aaeaa359a0a35f6be84bdb813559c11ddcd2" />
+		<rom loadflag="load16_byte" name="365s30.c5" offset="0x2000000" size="0x800000" crc="cef18d97" sha1="8a42837828f8d69854186fe1bbe6acd520414f8e" />
+		<rom loadflag="load16_byte" name="365s30.c6" offset="0x2000001" size="0x800000" crc="cafb6c0a" sha1="683efa1435c5fc07c357b2530390559980cfb5d9" />
+		<rom loadflag="load16_byte" name="365s30.c7" offset="0x3000000" size="0x800000" crc="13d68c11" sha1="11de1fb01068fecd2b68c64a49be83e1c7a5c790" />
+		<rom loadflag="load16_byte" name="365s30.c8" offset="0x3000001" size="0x800000" crc="f155bf30" sha1="c1ac15ae6d3b8a9f719ff819398685ebd5c42450" />
+		</dataarea>
+	</part>
+</software>

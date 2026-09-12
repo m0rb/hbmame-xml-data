@@ -1,0 +1,17 @@
+<software name="pac2600" cloneof="puckman">
+	<description>Pac 2600</description>
+	<year>2000</year>
+	<publisher>Bobby Tribble</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pac2600.6f" offset="0x1000" size="0x1000" crc="0a27d11d" sha1="b7b8da84b3a472974ed2f53a82d56bc8e81cef5c" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="pac2600.6j" offset="0x3000" size="0x1000" crc="ab23fe0c" sha1="1ae9882ee1c33ea18cf40c2ef5563cc3b546dcd5" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pac2600.5e" offset="0x0" size="0x1000" crc="87d8f5ce" sha1="fe421ee0f5ef70b56f0760473b003a886bed3d72" />
+		<rom name="pac2600.5f" offset="0x1000" size="0x1000" crc="91bd671f" sha1="ae1745a03090a747baf78f8554ea8620fa2b9d81" />
+		</dataarea>
+	</part>
+</software>

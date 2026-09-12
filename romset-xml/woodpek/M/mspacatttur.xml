@@ -1,0 +1,20 @@
+<software name="mspacatttur" cloneof="mspacman">
+	<description>Ms. Pac Attack Plus Turbo</description>
+	<year>2018</year>
+	<publisher>MamePlus</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacmdp.1" offset="0x0" size="0x1000" crc="69c02827" sha1="12b675ab56cb9f3184a6a6bd280eafbab4ceb5b2" />
+		<rom name="pacmdp.2" offset="0x1000" size="0x1000" crc="e961c8b3" sha1="f0486c1c49ed7abd9f865c939a5d8fa685125b75" />
+		<rom name="pacmdp.3" offset="0x2000" size="0x1000" crc="e9faa733" sha1="46a87428b72d9d81e5952e318148d0f8fc94bc51" />
+		<rom name="mspacatttur.4" offset="0x3000" size="0x1000" crc="f543117f" sha1="ba2b13156462562822eabcc990bc8b10bb1d419f" />
+		<rom name="pacmdp.5" offset="0x8000" size="0x1000" crc="a935866b" sha1="64b280174b6ac9abed5e6bb7ce631f4c7f3c4b02" />
+		<rom name="mspacatttur.6" offset="0x9000" size="0x1200" crc="d13b1805" sha1="da4c1855abd8e28d3e7700ad12fe23ba4bff5879" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mspacatttur.5e" offset="0x0" size="0x1000" crc="f5740f12" sha1="0d542e434cc7d0c486b77cb93df286c41216ad4a" />
+		<rom name="mspacatttur.5ef" offset="0x1000" size="0x800" crc="d48bfefd" sha1="f2e6292525f263bb4a61b579a20e2b077c329aed" />
+		<rom name="mspacatttur.5hj" offset="0x1800" size="0x800" crc="e3f22762" sha1="3e694ac5580e78d5a7d7721149ee764a2f4c6bfa" />
+		</dataarea>
+	</part>
+</software>

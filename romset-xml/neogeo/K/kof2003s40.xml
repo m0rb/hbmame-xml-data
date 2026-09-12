@@ -1,0 +1,27 @@
+<software name="kof2003s40" cloneof="kof2003">
+	<description>Kof2003 (Replace Time Border And Font Into PS2 Style)</description>
+	<year>2003</year>
+	<publisher>Eddids</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x900000">
+		<rom loadflag="load32_word_swap" name="271.p1" offset="0x0" size="0x400000" crc="530ecc14" sha1="812cf7e9902af3f5e9e330b7c05c2171b139ad2b" />
+		<rom loadflag="load32_word_swap" name="271.p2" offset="0x2" size="0x400000" crc="fd568da9" sha1="46364906a1e81dc251117e91a1a7b43af1373ada" />
+		<rom loadflag="load16_word_swap" name="271s40.p3" offset="0x800000" size="0x100000" crc="e104d106" sha1="9a818825910cb938e9ce46a4ecf5947b84bc081a" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="271.v1" offset="0x0" size="0x800000" crc="ffa3f8c7" sha1="7cf4a933973ca23b7f87c81151d8659e6ec4bd20" />
+		<rom name="271.v2" offset="0x800000" size="0x800000" crc="5382c7d1" sha1="1bf999705eda80ba1e7b0d6bdd010d9bfb18bd76" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="271s40.c1" offset="0x0" size="0x800000" crc="58ef6c95" sha1="eb92c3168abc554d9a32c41bb77d0242f2d392d1" />
+		<rom loadflag="load16_byte" name="271s40.c2" offset="0x1" size="0x800000" crc="97e5f216" sha1="9698d644f8cafbb00c9c63fe3ddadc1530181e9c" />
+		<rom loadflag="load16_byte" name="271s40.c3" offset="0x1000000" size="0x800000" crc="b7470fba" sha1="2ef8a63ad498f0578696139b0ef400bacd9eb0d7" />
+		<rom loadflag="load16_byte" name="271s40.c4" offset="0x1000001" size="0x800000" crc="7ba91d1a" sha1="bc0273a0ded3324b4c36762824f35b8a9d83944a" />
+		<rom loadflag="load16_byte" name="271s40.c5" offset="0x2000000" size="0x800000" crc="c151ceb9" sha1="70beb33751d1dcd4b368500ea83a2a445175a4ff" />
+		<rom loadflag="load16_byte" name="271s40.c6" offset="0x2000001" size="0x800000" crc="335aefd4" sha1="fb649a7e10550eadf75a5698bcfa10c97503c74b" />
+		<rom loadflag="load16_byte" name="271s40.c7" offset="0x3000000" size="0x800000" crc="fc17ec22" sha1="6d6d3ac79c44baefcdb2fd21a2c774425d549c72" />
+		<rom loadflag="load16_byte" name="271s40.c8" offset="0x3000001" size="0x800000" crc="74cdedd3" sha1="31a4cdd57aa5228543ec3f511feae86a43ed144d" />
+		</dataarea>
+	</part>
+</software>

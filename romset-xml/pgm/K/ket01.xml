@@ -1,0 +1,30 @@
+<software name="ket01" cloneof="ket">
+	<description>Ketsui: Kizuna Jigoku Tachi (2003/01/01 Master Ver.)</description>
+	<year>2007</year>
+	<publisher>Cave (AMI license)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="ket_matsuriver.u38" offset="0x0" size="0x200000" crc="d6dbd74d" sha1="dc9f90445ddfc4db6ba8ab1d71c862437dfb3a36" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="cave_m04701b032.u17" offset="0x400000" size="0x400000" crc="b46e22d1" sha1="670853dc485942fb96380568494bdf3235f446ee" />
+		</dataarea>
+		<dataarea name="igs023" size="0xa00000">
+		<rom name="pgm_t01s.rom" offset="0x0" size="0x200000" crc="1a7123a0" sha1="cc567f577bfbf45427b54d6695b11b74f2578af3" />
+		<rom name="cave_t04701w064.u19" offset="0x180000" size="0x800000" crc="2665b041" sha1="fb1107778b66f2af0de77ac82e1ee2902f53a959" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x1000000">
+		<rom name="cave_a04701w064.u7" offset="0x0" size="0x800000" crc="5ef1b94b" sha1="f10dfa46e0a4d297c3a856aea5b49d648f98935c" />
+		<rom name="cave_a04702w064.u8" offset="0x800000" size="0x800000" crc="26d6da7f" sha1="f20e07a7994f41b5ed917f8b0119dc5542f3541c" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x800000">
+		<rom name="cave_b04701w064.u1" offset="0x0" size="0x800000" crc="1bec008d" sha1="07d117dc2eebb35727fb18a7c563acbaf25a8d36" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="ket_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sram" size="0x20000">
+		<rom name="ket_defaults.nv" offset="0x0" size="0x20000" crc="3ca892d8" sha1="67430df5217e453ae8140c5653deeadfad8fa684" />
+		</dataarea>
+	</part>
+</software>

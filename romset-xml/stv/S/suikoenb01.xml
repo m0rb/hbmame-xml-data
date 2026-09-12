@@ -1,0 +1,18 @@
+<software name="suikoenb01" cloneof="suikoenb">
+	<description>Suiko Enbu / Outlaws of the Lost Dynasty (Enable Hidden Characters)</description>
+	<year>1995</year>
+	<publisher>Yumeji</publisher>
+	<part name="cart">
+		<dataarea name="cart" endianness="big" size="0x3000000">
+		<rom loadflag="load16_byte" name="fpr17834_s01.13" offset="0x1" size="0x100000" crc="f526855b" sha1="b742fac38c8c480f4825d3bb904da9ba413d2442" />
+		<rom loadflag="load16_word_swap" name="mpr17836.2" offset="0x400000" size="0x400000" crc="55e9642d" sha1="5198291cd1dce0398eb47760db2c19eae99273b0" />
+		<rom loadflag="load16_word_swap" name="mpr17837.3" offset="0x800000" size="0x400000" crc="13d1e667" sha1="cd513ceb33cc20032090113b61227638cf3b3998" />
+		<rom loadflag="load16_word_swap" name="mpr17838.4" offset="0xc00000" size="0x400000" crc="f9e70032" sha1="8efdbcce01bdf77acfdb293545c59bf224a9c7d2" />
+		<rom loadflag="load16_word_swap" name="mpr17839.5" offset="0x1000000" size="0x400000" crc="1b2762c5" sha1="5c7d5fc8a4705249a5b0ea64d51dc3dc95d723f5" />
+		<rom loadflag="load16_word_swap" name="mpr17840.6" offset="0x1400000" size="0x400000" crc="0fd4c857" sha1="42caf22716e834d59e60d45c24f51d95734e63ae" />
+		<rom loadflag="load16_word_swap" name="mpr17835.1" offset="0x1800000" size="0x400000" crc="77f5cb43" sha1="a4f54bc08d73a56caee5b26bea06360568655bd7" />
+		<rom loadflag="load16_word_swap" name="mpr17841.8" offset="0x1c00000" size="0x400000" crc="f48beffc" sha1="92f1730a206f4a0abf7fb0ee1210e083a464ad70" />
+		<rom loadflag="load16_word_swap" name="mpr17842.9" offset="0x2000000" size="0x400000" crc="ac8deed7" sha1="370eb2216b8080d3ddadbd32804db63c4ebac76f" />
+		</dataarea>
+	</part>
+</software>

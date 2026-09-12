@@ -1,0 +1,26 @@
+<software name="dinohunt" cloneof="dino">
+	<description>Dinosaur Hunter (Chinese bootleg of Cadillacs and Dinosaurs)</description>
+	<year>1993</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c25dh.p1" offset="0x0" size="0x80000" crc="8d5ddc5d" sha1="3ed1da71d73425308d0c3ac1a01a7242e60b6677" />
+		<rom loadflag="load16_word_swap" name="c25dh.p2" offset="0x80000" size="0x80000" crc="f72cd219" sha1="a3f580bd328b54d2546ae7e94262c1a706d27172" />
+		<rom loadflag="load16_word_swap" name="c25dh.p3" offset="0x100000" size="0x80000" crc="bc275b76" sha1="1f7f7533b4ccb511dc479f531d9d6740d3ca6712" />
+		<rom loadflag="load16_word_swap" name="c25dh.p4" offset="0x180000" size="0x80000" crc="8987c975" sha1="3fd856805d627f855f72acc7aacc2e8ecf0f12bd" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c25dh.m1" offset="0x0" size="0x8000" crc="2eb16a83" sha1="067ea0bfc2c1e73520d6b836c72fbb9da9998311" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="wofch.key" offset="0x0" size="0x80" crc="23f2d0bb" sha1="48ba9300bc2136e9583754a51d5ab2532eca85c6" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c25dh.v1" offset="0x0" size="0x20000" crc="8d2899ba" sha1="0b3ac6cf2ce0323e3bfc9da3ebfcb0fd14bc405b" />
+		<rom name="c25dh.v2" offset="0x20000" size="0x20000" crc="b34a4b42" sha1="3eeb9e33bb911359e03d44949ac58439a3d3d54b" />
+		</dataarea>
+	</part>
+</software>

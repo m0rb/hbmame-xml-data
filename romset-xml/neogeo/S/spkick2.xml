@@ -1,0 +1,18 @@
+<software name="spkick2">
+	<description>Super Power Kick (beta 2)</description>
+	<year>2025</year>
+	<publisher>Kakoeimon</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="509a.p1" offset="0x0" size="0x100000" crc="5de08fed" sha1="cc0a4da3cec73a8e6372b78b65a9805c28403e75" />
+		<rom name="509.s1" offset="0x0" size="0x40000" crc="8856e60b" sha1="d695fcc77770782c753fa07a35c70963fb3f2cdb" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="509a.v1" offset="0x0" size="0x100000" crc="3159d577" sha1="06c9c1ee9a67faa8cc8b9a7a6812b042c4b94f87" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom name="509a.c1" offset="0x0" size="0x400000" crc="ef914101" sha1="9f5f37a930982a476ef42ad6da9a25c7a7fdd0e2" />
+		</dataarea>
+	</part>
+</software>

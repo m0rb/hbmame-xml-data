@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="mspacmnx" description="Mspacmnx cartridges">
+<software name="mspacatx">
+	<description>Ms. Pac Attack (hires hack)</description>
+	<year>1981</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x20000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="pacman.6j" offset="0x3000" size="0x1000" crc="817d94e3" sha1="d4a70d56bb01d27d094d73db8667ffb00ca69cb9" />
+		<rom name="u5" offset="0x8000" size="0x800" crc="f45fbbcd" sha1="b26cc1c8ee18e9b1daa97956d2159b954703a0ec" />
+		<rom name="u6pacatk" offset="0x9000" size="0x1000" crc="f6d83f4d" sha1="6135b187d6b968554d08f2ac00d3a3313efb8638" />
+		<rom name="u7" offset="0xb000" size="0x1000" crc="c82cd714" sha1="1d8ac7ad03db2dc4c8c18ade466e12032673f874" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="mspacmnx.5e" offset="0x0" size="0x4000" crc="d9a2897d" sha1="38cc83d1a854ae289da7904faff32114a9731bda" />
+		<rom name="mspacmnx.5f" offset="0x4000" size="0x4000" crc="6f625a9e" sha1="d9d739ba412c9374b26006d99a345212ef97f868" />
+		</dataarea>
+	</part>
+</software>
+<software name="mspacmfx">
+	<description>Ms. Pac-Man (hires hack) [f]</description>
+	<year>1981</year>
+	<publisher>Midway</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x20000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacmanf.6f" offset="0x1000" size="0x1000" crc="720dc3ee" sha1="7224d7acfa0144b681c71d7734a7337189835361" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="pacman.6j" offset="0x3000" size="0x1000" crc="817d94e3" sha1="d4a70d56bb01d27d094d73db8667ffb00ca69cb9" />
+		<rom name="u5" offset="0x8000" size="0x800" crc="f45fbbcd" sha1="b26cc1c8ee18e9b1daa97956d2159b954703a0ec" />
+		<rom name="u6" offset="0x9000" size="0x1000" crc="a90e7000" sha1="e4df96f1db753533f7d770aa62ae1973349ea4cf" />
+		<rom name="u7" offset="0xb000" size="0x1000" crc="c82cd714" sha1="1d8ac7ad03db2dc4c8c18ade466e12032673f874" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="mspacmnx.5e" offset="0x0" size="0x4000" crc="d9a2897d" sha1="38cc83d1a854ae289da7904faff32114a9731bda" />
+		<rom name="mspacmnx.5f" offset="0x4000" size="0x4000" crc="6f625a9e" sha1="d9d739ba412c9374b26006d99a345212ef97f868" />
+		</dataarea>
+	</part>
+</software>
+<software name="mspacmnx">
+	<description>Ms. Pac-Man (hires hack)</description>
+	<year>1981</year>
+	<publisher>Midway</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x20000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="pacman.6j" offset="0x3000" size="0x1000" crc="817d94e3" sha1="d4a70d56bb01d27d094d73db8667ffb00ca69cb9" />
+		<rom name="u5" offset="0x8000" size="0x800" crc="f45fbbcd" sha1="b26cc1c8ee18e9b1daa97956d2159b954703a0ec" />
+		<rom name="u6" offset="0x9000" size="0x1000" crc="a90e7000" sha1="e4df96f1db753533f7d770aa62ae1973349ea4cf" />
+		<rom name="u7" offset="0xb000" size="0x1000" crc="c82cd714" sha1="1d8ac7ad03db2dc4c8c18ade466e12032673f874" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="mspacmnx.5e" offset="0x0" size="0x4000" crc="d9a2897d" sha1="38cc83d1a854ae289da7904faff32114a9731bda" />
+		<rom name="mspacmnx.5f" offset="0x4000" size="0x4000" crc="6f625a9e" sha1="d9d739ba412c9374b26006d99a345212ef97f868" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

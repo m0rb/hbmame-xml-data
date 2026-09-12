@@ -1,0 +1,25 @@
+<software name="kof97s293" cloneof="kof97">
+	<description>Kof&#x27;97 (XI Flash Version)</description>
+	<year>1997</year>
+	<publisher>Jacky</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="232s293.p1" offset="0x0" size="0x100000" crc="acc7bfb2" sha1="64e0b8897a7f80627ac020452daaa1aa2a073ffe" />
+		<rom loadflag="load16_word_swap" name="232s293.p2" offset="0x100000" size="0x400000" crc="098f4871" sha1="d4e7bfe953f6602b71ccb69bb91fc8e78d911467" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="232s226.c1" offset="0x0" size="0x800000" crc="47932f00" sha1="3dcedd194a2138cd8b006462a42b52e925f6b5ce" />
+		<rom loadflag="load16_byte" name="232s226.c2" offset="0x1" size="0x800000" crc="f87c3d84" sha1="0de2dcb6a475ea6475d67c60a254e6b7cbcde951" />
+		<rom loadflag="load16_byte" name="232.c3" offset="0x1000000" size="0x800000" crc="581d6618" sha1="14d3124a08ded59f86932c6b28e1a4e48c564ccd" />
+		<rom loadflag="load16_byte" name="232.c4" offset="0x1000001" size="0x800000" crc="49bb1e68" sha1="f769c1bd1b019521111ff3f0d22c63cb1f2640ef" />
+		<rom loadflag="load16_byte" name="232s293.c5" offset="0x2000000" size="0x800000" crc="1e441dd9" sha1="5ae1973f87abec4b84ab76a64dd30c56d8a535ac" />
+		<rom loadflag="load16_byte" name="232s293.c6" offset="0x2000001" size="0x800000" crc="69d1435a" sha1="21a1f739dd77ea6d4112896608cde0158c2adf6b" />
+		</dataarea>
+	</part>
+</software>

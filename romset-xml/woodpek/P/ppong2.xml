@@ -1,0 +1,22 @@
+<software name="ppong2" cloneof="ppong">
+	<description>Ping Pong demo (Pacman Hardware) v2</description>
+	<year>2003</year>
+	<publisher>David Widel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="ppong2.1" offset="0x0" size="0x1000" crc="b0d6d512" sha1="1d1ccc0cf0436680fc3b2bbd1a77292506b7514b" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="ppong.5e" offset="0x0" size="0x1000" crc="57fe0ace" sha1="87b9e980c8c30b73ebf7c2750dd40806754bed51" />
+		<rom name="ppong.5f" offset="0x1000" size="0x1000" crc="8bbd8de5" sha1="feec6c9d413c6767edf2a521da439b21ccdf3d9a" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="ppong2.1m" offset="0x0" size="0x100" crc="0d968558" sha1="b376885ac8452b6cbf9ced81b1080bfd570d9b91" />
+		<rom name="82s126.3m" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="ppong2.7f" offset="0x0" size="0x20" crc="e3a96194" sha1="6eb54a64e9d1df6052fecb754852bd44dd9ed69e" />
+		<rom name="ppong2.4a" offset="0x20" size="0x100" crc="dbd17cc2" sha1="072e20975ae0453df57cfc54c344238aa311c373" />
+		</dataarea>
+	</part>
+</software>

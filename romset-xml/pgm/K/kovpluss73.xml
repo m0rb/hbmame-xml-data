@@ -1,0 +1,29 @@
+<software name="kovpluss73" cloneof="kovplus">
+	<description>Knights of Valour Plus (Really War Of The Flies Fluttering The Three Kingdoms West Tour Fix It)</description>
+	<year>1999</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_ph73.119" offset="0x100000" size="0x400000" crc="7b919a5b" sha1="372d0a78556249c41adc1327be8a61e029c0d33d" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u3" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600lw.rom" offset="0x0" size="0x800000" crc="cca70135" sha1="2d288df75907e50c7fc2beca5fb9fd895faece55" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_ph73.rom" offset="0x1000000" size="0x800000" crc="3ff98a24" sha1="15062bb92ffcb5b9305e651e8b8ede48e159dbb7" />
+		<rom name="pgm_a0603.u9" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_ph73.rom" offset="0x0" size="0x800000" crc="062b72ce" sha1="757fe110a55f870c30a597ddb388ebb0f9ec73f4" />
+		<rom name="b0601_ph73.rom" offset="0x800000" size="0x400000" crc="e2b94fea" sha1="d9dcb089fc68226b3e346b2b37ceb909ef459cf8" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_ph73.rom" offset="0x180000" size="0x800000" crc="f1b5ad3b" sha1="b70827e57852308107192f16590fe569460e6051" />
+		</dataarea>
+	</part>
+</software>

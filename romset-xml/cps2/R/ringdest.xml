@@ -1,0 +1,29 @@
+<software name="ringdest">
+	<description>Ring of Destruction: Slammasters II (Euro 940902)</description>
+	<year>1994</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c54.p1" offset="0x0" size="0x80000" crc="b8016278" sha1="f744b08b27c11b8567ca7a94fbd75e398563c008" />
+		<rom loadflag="load16_word_swap" name="c54.p2" offset="0x80000" size="0x80000" crc="18c4c447" sha1="3723ad6d6939fa1ac7dd016254b32017b5e7b24e" />
+		<rom loadflag="load16_word_swap" name="c54.p3" offset="0x100000" size="0x80000" crc="18ebda7f" sha1="eacc3e76af5c47abe0a778be7a7beacf0924884e" />
+		<rom loadflag="load16_word_swap" name="c54.p4" offset="0x180000" size="0x80000" crc="89c80007" sha1="4c85aa5b224fdbb64f719a7b8b5b2e7413107c70" />
+		<rom loadflag="load16_word_swap" name="c54.p5" offset="0x200000" size="0x80000" crc="b9a11577" sha1="e9b58ef8acd1fedd3c9e0a3489593c7e931106c0" />
+		<rom loadflag="load16_word_swap" name="c54.p6" offset="0x280000" size="0x80000" crc="f931b76b" sha1="0b7e8d1278dcba89f0063bd09cda96d6ae1bc282" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c54.m1" offset="0x0" size="0x8000" crc="0abc229a" sha1="967f574e6358dfc1b01e6a4a4df1a8f34eb3d814" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c54.m2" offset="0x28000" size="0x20000" crc="d051679a" sha1="583c2521a30db1740d95dd94a38751fbeff3aae5" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1200000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="ringdest.key" offset="0x0" size="0x14" crc="17f9269c" sha1="596d94ba937a407da94e85d9c2026a7c7d592173" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c54.q1" offset="0x0" size="0x200000" crc="c56935f9" sha1="ca1705e48e31ddc13505e6297bceca2bec1bb209" />
+		<rom loadflag="load16_word_swap" name="c54.q2" offset="0x200000" size="0x200000" crc="955b0782" sha1="ee09500e7b44e923126533613bfe26cdabc7ab5f" />
+		</dataarea>
+	</part>
+</software>

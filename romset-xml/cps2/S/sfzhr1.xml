@@ -1,0 +1,27 @@
+<software name="sfzhr1" cloneof="sfa">
+	<description>Street Fighter Zero (Hispanic 950627)</description>
+	<year>1995</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c59jhr1.p1" offset="0x0" size="0x80000" crc="bce635aa" sha1="323da2de6c3ff6fd8c2c66ce6bd1d287873db9b1" />
+		<rom loadflag="load16_word_swap" name="c59r2.p2" offset="0x80000" size="0x80000" crc="5f99e9a5" sha1="e9f286315d17096adc08e6b4e6ff7c5351f5bef3" />
+		<rom loadflag="load16_word_swap" name="c59.p3" offset="0x100000" size="0x80000" crc="0810544d" sha1="5f39bda3e7b16508eb58e5a2e0cc58c09cf428ce" />
+		<rom loadflag="load16_word_swap" name="c59.p4" offset="0x180000" size="0x80000" crc="806e8f38" sha1="b6d6912aa8f2f590335d7ff9a8214648e7131ebb" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c59.m1" offset="0x0" size="0x8000" crc="ffffec7d" sha1="75b4aef001b72a0f571b51b2b97803facc1832dd" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c59.m2" offset="0x28000" size="0x20000" crc="45f46a08" sha1="e32dbd27b52ab708278045b5a829376e55a4ca81" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="sfzh.key" offset="0x0" size="0x14" crc="4763446f" sha1="f1397e31f85fc35f8d4aeee638c414595ca09ce1" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c59.q1" offset="0x0" size="0x200000" crc="c4b093cd" sha1="256526bb693a0b72443f047e060304c9b739acd1" />
+		<rom loadflag="load16_word_swap" name="c59.q2" offset="0x200000" size="0x200000" crc="8bdbc4b4" sha1="0e21c9a75a17a7e7dfd8bb51098c2b9dc4c933ec" />
+		</dataarea>
+	</part>
+</software>

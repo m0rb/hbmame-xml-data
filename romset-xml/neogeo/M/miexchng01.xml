@@ -1,0 +1,20 @@
+<software name="miexchng01" cloneof="miexchng">
+	<description>Money Puzzle Exchanger (French)</description>
+	<year>2005</year>
+	<publisher>Arkatrad</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="231s01.p1" offset="0x0" size="0x80000" crc="a107101b" sha1="f1a165779a4a26d7c9067b649fdcb7da40f3aea6" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="231.v1" offset="0x0" size="0x400000" crc="113fb898" sha1="9168ba90c4aa969f69eb11ba3f4d76592d81e05a" />
+		</dataarea>
+		<dataarea name="sprites" size="0x500000">
+		<rom loadflag="load16_byte" name="231s01.c1" offset="0x0" size="0x200000" crc="0764d51c" sha1="06a63359e5859d30ae5a8e2beed5a7615563298a" />
+		<rom loadflag="load16_byte" name="231s01.c2" offset="0x1" size="0x200000" crc="6a2acd38" sha1="bc35e7f9898ed6d7fd9ce43d4a4be91a81d0bd04" />
+		<rom loadflag="load16_byte" name="231s01.c3" offset="0x400000" size="0x80000" crc="14524eb5" sha1="e090b99a1ee2cca4a7f7d5262e764d1cab6bada2" />
+		<rom loadflag="load16_byte" name="231s01.c4" offset="0x400001" size="0x80000" crc="1694f171" sha1="a6af5d3f1e0b3f73da275e04d4434c6c9c7b9208" />
+		</dataarea>
+	</part>
+</software>

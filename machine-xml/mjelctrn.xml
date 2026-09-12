@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="mjelctrn" description="Mjelctrn cartridges">
+<software name="mjelct3s01">
+	<description>Mahjong Electron Base (parts 2 &amp; 3, No AI Cheat, 2004-09-17)</description>
+	<year>2004</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x50000">
+		<rom name="se-3010_ps01" offset="0x0" size="0x20000" crc="676a6322" sha1="08f8d715b8e76c8575ab6a3fdba8067eb0f8badc" />
+		<rom loadflag="continue" offset="0x28000" size="0x8000" />
+		<rom loadflag="continue" offset="0x20000" size="0x8000" />
+		<rom loadflag="continue" offset="0x18000" size="0x8000" />
+		</dataarea>
+		<dataarea name="blitter" size="0x200000">
+		<rom name="eb-01.rom" offset="0x0" size="0x100000" crc="e5c41448" sha1="b8322e32b0cb3d771316c9c4f7be91de6e422a24" />
+		<rom name="eb-02.rom" offset="0x100000" size="0x80000" crc="e1f1b431" sha1="04a612aff4c30cb8ea741f228bfa7e4289acfee8" />
+		</dataarea>
+	</part>
+</software>
+<software name="mjelctrns01">
+	<description>Mahjong Electron Base (parts 2 &amp; 4, No AI Cheat, 2005-09-03)</description>
+	<year>2005</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x50000">
+		<rom name="u27b-020_ps01" offset="0x0" size="0x20000" crc="bb163451" sha1="03c4ef439a5bca1a4281bf6f77f7356fdbd24027" />
+		<rom loadflag="continue" offset="0x0" size="0x20000" />
+		<rom loadflag="continue" offset="0x28000" size="0x8000" />
+		<rom loadflag="continue" offset="0x20000" size="0x8000" />
+		<rom loadflag="continue" offset="0x18000" size="0x8000" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="blitter" size="0x300000">
+		<rom name="eb-01.rom" offset="0x0" size="0x100000" crc="e5c41448" sha1="b8322e32b0cb3d771316c9c4f7be91de6e422a24" />
+		<rom name="eb-02_ps01.rom" offset="0x100000" size="0x80000" crc="f5b354d1" sha1="d3f35d090de9af3f50aae9ff11de731950256212" />
+		<rom name="mj-1c020" offset="0x200000" size="0x40000" crc="f8e8d91b" sha1="409e276157b328e7bbba5dda6a4c7adc020d519a" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

@@ -1,0 +1,434 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="galaxian" description="Galaxian cartridges">
+<software name="galapx01" cloneof="galnamco">
+	<description>Galaxian Part X (New Invasion, set 1)</description>
+	<year>1980</year>
+	<publisher>Petaco S.A.</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="galx.u" offset="0x0" size="0x800" crc="79e4007d" sha1="d55050498a670d1c022ba3caad34f8fcaccf4a30" />
+		<rom name="galx.v" offset="0x800" size="0x800" crc="bc16064e" sha1="4e3220fd63c8184bf9581a89dffb6944d8fae3bb" />
+		<rom name="galx.w" offset="0x1000" size="0x800" crc="72d2d3ee" sha1="96e0c5824e46d7398c7e58dd6b75a9f4ead6f3f5" />
+		<rom name="galx.y" offset="0x1800" size="0x800" crc="afe397f3" sha1="283c6f3b3f07581d88f7a6e11fc36947a9d90e2e" />
+		<rom name="galx.z" offset="0x2000" size="0x800" crc="778c0d3c" sha1="6a81875abfea515d379c6212cb57f8e54573e943" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="galaktron.c2" offset="0x0" size="0x800" crc="1b13ca05" sha1="6999068771dacc6bf6c17eb858af593a929d09af" />
+		<rom name="galaktron.c1" offset="0x800" size="0x800" crc="5cd7df03" sha1="77873408c89546a17b1da3f64b7e96e314fadb17" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>
+<software name="galapx02" cloneof="galnamco">
+	<description>Galaxian Part X (New Invasion, set 2)</description>
+	<year>1980</year>
+	<publisher>Petaco S.A.</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="galapx02.u" offset="0x0" size="0x800" crc="0701fcff" sha1="b4fbc864fb9d95af63c32427779aad05934d95d0" />
+		<rom name="galapx02.v" offset="0x800" size="0x800" crc="cb1136d8" sha1="7be8c50bbd1b891ca7ded597e55b481efa6ac9d5" />
+		<rom name="galapx02.w" offset="0x1000" size="0x800" crc="f45ef2c7" sha1="6b50383d98360afee8137a94c4c91d4d10db9221" />
+		<rom name="galapx02.y" offset="0x1800" size="0x800" crc="3f5c8a62" sha1="7bde7f712c2cb97d40467062390097707b2896ae" />
+		<rom name="galapx02.z" offset="0x2000" size="0x800" crc="2d897370" sha1="21c108712e7c00bd0f30d1fdddfaa71eed84158c" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="galapx02.1h" offset="0x0" size="0x800" crc="6c14fa93" sha1="0ac55adee875fde0488b4376c4ca5e0047d09fbf" />
+		<rom name="galapx02.1k" offset="0x800" size="0x800" crc="2bd0ef95" sha1="a17edda8940bca02820e270a3ec9e38666343b26" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="galapx02.clr" offset="0x0" size="0x20" crc="5aa5c5dd" sha1="be74103889248f24123d1df553da02586681835e" />
+		</dataarea>
+	</part>
+</software>
+<software name="galapx03" cloneof="galnamco">
+	<description>Galaxian Part X (Philip)</description>
+	<year>19</year>
+	<publisher>International Scientific</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="1.c7" offset="0x0" size="0x800" crc="75bdc82e" sha1="e7476b4ab418653d73a45d8046aa0d704d77fb05" />
+		<rom name="2.d7" offset="0x800" size="0x800" crc="c71eca8e" sha1="29ab3fe155b20bf166c8a94f8f911367f77b4a98" />
+		<rom name="galx.w" offset="0x1000" size="0x800" crc="72d2d3ee" sha1="96e0c5824e46d7398c7e58dd6b75a9f4ead6f3f5" />
+		<rom name="galx.y" offset="0x1800" size="0x800" crc="afe397f3" sha1="283c6f3b3f07581d88f7a6e11fc36947a9d90e2e" />
+		<rom name="5.k7" offset="0x2000" size="0x800" crc="0b80b4c1" sha1="807362c1bc7f176e85a769d9836ad7045d2dd5a7" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="piii.6" offset="0x0" size="0x800" crc="977e37cf" sha1="88ff1e4edadf5cfc83413a1fe999aecf4ba72232" />
+		<rom name="piii.7" offset="0x800" size="0x800" crc="d0ba22c9" sha1="678b22d10e1ae7dcea068da838bf6bd648e9ee28" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>
+<software name="galapx04" cloneof="galnamco">
+	<description>Gaylaxian</description>
+	<year>1998</year>
+	<publisher>The Dog</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="galx.u" offset="0x0" size="0x800" crc="79e4007d" sha1="d55050498a670d1c022ba3caad34f8fcaccf4a30" />
+		<rom name="galx.v" offset="0x800" size="0x800" crc="bc16064e" sha1="4e3220fd63c8184bf9581a89dffb6944d8fae3bb" />
+		<rom name="galx.w" offset="0x1000" size="0x800" crc="72d2d3ee" sha1="96e0c5824e46d7398c7e58dd6b75a9f4ead6f3f5" />
+		<rom name="galx.y" offset="0x1800" size="0x800" crc="afe397f3" sha1="283c6f3b3f07581d88f7a6e11fc36947a9d90e2e" />
+		<rom name="galx.z" offset="0x2000" size="0x800" crc="778c0d3c" sha1="6a81875abfea515d379c6212cb57f8e54573e943" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="galapx04.1h" offset="0x0" size="0x800" crc="ce77d89b" sha1="17de678c91e96bf3dc414cc2ad8631a8f617da3d" />
+		<rom name="galapx04.1k" offset="0x800" size="0x800" crc="08008d2c" sha1="6600dbc42e5076f9ce3abe677134bf1677ae70ea" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>
+<software name="galaxian01" cloneof="galnamco">
+	<description>Galaxian (bootleg 01)</description>
+	<year>1979</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="galmidw.u" offset="0x0" size="0x800" crc="745e2d61" sha1="e65f74e35b1bfaccd407e168ea55678ae9b68edf" />
+		<rom name="galmidw.v" offset="0x800" size="0x800" crc="9c999a40" sha1="02fdcd95d8511e64c0d2b007b874112d53e41045" />
+		<rom name="galmidw.w" offset="0x1000" size="0x800" crc="b5894925" sha1="0046b9ed697a34d088de1aead8bd7cbe526a2396" />
+		<rom name="galaxian01.y" offset="0x1800" size="0x800" crc="f96100db" sha1="f4af839a57f261399279f71b7fca287acec836b4" />
+		<rom name="galmxian01.z" offset="0x2000" size="0x800" crc="6f0602a8" sha1="4b91425185df5d43031c18678e256a000ee3af88" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="piii.7" offset="0x0" size="0x800" crc="d0ba22c9" sha1="678b22d10e1ae7dcea068da838bf6bd648e9ee28" />
+		<rom name="galaxian01.1k" offset="0x800" size="0x800" crc="52b7080d" sha1="2b10367e808ecb6fbc45ab42a7ad7efba2a4c346" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>
+<software name="galaxian02" cloneof="galnamco">
+	<description>Galaxian (bootleg 02)</description>
+	<year>1979</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="galaxian02.u" offset="0x0" size="0x800" crc="e8f3aa67" sha1="a0e9576784dbe602dd9780e667f01f31defd7c00" />
+		<rom name="galaxian02.v" offset="0x800" size="0x800" crc="f58283e3" sha1="edc6e72516c50fd3402281d9936574d276581ce9" />
+		<rom name="galaxian02.w" offset="0x1000" size="0x800" crc="4c7031c0" sha1="97f7ab0cedcd8eba1c8f6f516d84d672a2108258" />
+		<rom name="galaxian02.y" offset="0x1800" size="0x800" crc="097d92a2" sha1="63ef86657286a4e1fae4f795e0e6b410ca2ef06b" />
+		<rom name="galaxian02.z" offset="0x2000" size="0x800" crc="5341d75a" sha1="40bc8fcc598f58c6ff944e2a4a9288463e75a09d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="piii.6" offset="0x0" size="0x800" crc="977e37cf" sha1="88ff1e4edadf5cfc83413a1fe999aecf4ba72232" />
+		<rom name="galaxian02.1k" offset="0x800" size="0x800" crc="58e878df" sha1="bc301fe208934105f12c913ac2f06a2dae110afd" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>
+<software name="galaxian03" cloneof="galnamco">
+	<description>Andromeda</description>
+	<year>1979</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="and01" offset="0x0" size="0x400" crc="a0059ddd" sha1="06bc3bd5eef9fea9e038ec08e5a228ab19f31a56" />
+		<rom name="and02" offset="0x400" size="0x400" crc="da6421b8" sha1="d3099d94d722e3e12ade712842261aac8b45f9f4" />
+		<rom name="and03" offset="0x800" size="0x400" crc="30e28016" sha1="07a621e5061d85a9559a920d76716ea4db61b674" />
+		<rom name="and04" offset="0xc00" size="0x400" crc="de7e7770" sha1="b06043a1d898eb323ddabffd3d2a3b1f63df0e5e" />
+		<rom name="and05" offset="0x1000" size="0x400" crc="a916c919" sha1="b3e264ff92687022a0f2f551d5df36db848b48eb" />
+		<rom name="and06" offset="0x1400" size="0x400" crc="9175882b" sha1="d9943efcb9245af7f01aecc533a699bdefc7d283" />
+		<rom name="and07" offset="0x1800" size="0x400" crc="1237b9da" sha1="00e11532c599fca452a816683b361a24476b7100" />
+		<rom name="and08" offset="0x1c00" size="0x400" crc="8b181929" sha1="c7e789d1a76e8db0251ac4c75aa85f0a4259fc81" />
+		<rom name="and09" offset="0x2000" size="0x400" crc="17fd5357" sha1="abda92319f6851232a0dd26229fc55cf6d8361d8" />
+		<rom name="and10" offset="0x2400" size="0x400" crc="3032821c" sha1="7ff45a9ddd86e77a550b10148147f44c4c934467" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="1h.bin" offset="0x0" size="0x800" crc="39fb43a4" sha1="4755609bd974976f04855d51e08ec0d62ab4bc07" />
+		<rom name="1k.bin" offset="0x800" size="0x800" crc="7e3f56a2" sha1="a9795d8b7388f404f3b0e2c6ce15d713a4c5bafa" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>
+<software name="galaxian04" cloneof="galnamco">
+	<description>Galaxian (Edition Hack)</description>
+	<year>1981</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="galaxian04.u" offset="0x0" size="0x800" crc="63e6d8ab" sha1="ec2ade4d93903ba99bc9565b68328bd7d0830eac" />
+		<rom name="galaxian02.v" offset="0x800" size="0x800" crc="f58283e3" sha1="edc6e72516c50fd3402281d9936574d276581ce9" />
+		<rom name="galaxian02.w" offset="0x1000" size="0x800" crc="4c7031c0" sha1="97f7ab0cedcd8eba1c8f6f516d84d672a2108258" />
+		<rom name="galaxian04.y" offset="0x1800" size="0x800" crc="faa0bd8c" sha1="30dd130298609632212b34874a0819340b1c8037" />
+		<rom name="galaxian04.z" offset="0x2000" size="0x800" crc="5766c95b" sha1="cf6c226df0cc9d088b04ade43d6db87d278f8b09" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="piii.6" offset="0x0" size="0x800" crc="977e37cf" sha1="88ff1e4edadf5cfc83413a1fe999aecf4ba72232" />
+		<rom name="galaxian04.1k" offset="0x800" size="0x800" crc="bc7d0985" sha1="550a44c9ddc8da66a29405591a590f91d2675cdf" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>
+<software name="galaxian05" cloneof="galnamco">
+	<description>Galaxian (Kyodo)</description>
+	<year>1979</year>
+	<publisher>Kyodo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="galaxian05.u" offset="0x0" size="0x800" crc="acfde501" sha1="4b72c1ffecaccadc541da2367f3ef70a2a9aed64" />
+		<rom name="galakian05.v" offset="0x800" size="0x800" crc="65cf3c77" sha1="1c5249815816b395e1e04bf6a7dbb63e40faa0e3" />
+		<rom name="galaxian05.w" offset="0x1000" size="0x800" crc="9eef9ae6" sha1="b2282e4edb8911e6aabfa936c3526f90381e1320" />
+		<rom name="galaxian05.y" offset="0x1800" size="0x800" crc="56a5ddd1" sha1="1f87f647ebdffba28d5957f195448f6bce17f4d5" />
+		<rom name="galaxian05.z" offset="0x2000" size="0x800" crc="f4bc7262" sha1="c4b70e474d49f45cec96f7c250bd77e01e18601a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="galaxian05.1h" offset="0x0" size="0x800" crc="66a4335d" sha1="0527a9ea99e525b3ba25c172034a61cde9307a9b" />
+		<rom name="galaxian05.1k" offset="0x800" size="0x800" crc="2160265b" sha1="97385e9c8012bc7fe85e29cfccefda72e4ca3320" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>
+<software name="galaxian06" cloneof="galnamco">
+	<description>Galaxian (Vector Sim)</description>
+	<year>1998</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="galnamco.7f" offset="0x0" size="0x1000" crc="b10533fd" sha1="ea8653e80000d607cd37a41f2de27ffe6e190f0f" />
+		<rom name="galnamco.7j" offset="0x1000" size="0x1000" crc="9163454d" sha1="683ce43c0e24fd5110b860e424e5de30d59e5223" />
+		<rom name="galnamco.7l" offset="0x2000" size="0x1000" crc="952c6135" sha1="e0989d5dce37ae421c34833d48b09e76d178680d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="galaxian06.1h" offset="0x0" size="0x800" crc="02815aec" sha1="94975ee5eff84a3ae483dd3d5766384859402477" />
+		<rom name="galaxian06.1k" offset="0x800" size="0x800" crc="11c9898c" sha1="fb6bac221b3984a70a775bccf06f6e2f17d447cf" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>
+<software name="galaxian07" cloneof="galnamco">
+	<description>Galaxian (Bug sprites)</description>
+	<year>1998</year>
+	<publisher>The Dog</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="galmidw.u" offset="0x0" size="0x800" crc="745e2d61" sha1="e65f74e35b1bfaccd407e168ea55678ae9b68edf" />
+		<rom name="galmidw.v" offset="0x800" size="0x800" crc="9c999a40" sha1="02fdcd95d8511e64c0d2b007b874112d53e41045" />
+		<rom name="galmidw.w" offset="0x1000" size="0x800" crc="b5894925" sha1="0046b9ed697a34d088de1aead8bd7cbe526a2396" />
+		<rom name="galmidw.y" offset="0x1800" size="0x800" crc="6b3ca10b" sha1="18d8714e5ef52f63ba8888ecc5a25b17b3bf17d1" />
+		<rom name="galmidw.z" offset="0x2000" size="0x800" crc="cb24f797" sha1="e6bb977ded0654c2c7388aad188059e1e0647908" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="galaxian07.1j" offset="0x0" size="0x800" crc="b8d46e4b" sha1="5fbf130912029fbe2aea5282b2201c6a17eae40b" />
+		<rom name="galaxian07.1k" offset="0x800" size="0x800" crc="a00bde50" sha1="c6519af48d2cf0a641b2f5aa327c3591f3184dbc" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>
+<software name="galaxian08" cloneof="galnamco">
+	<description>Galaxian (Space Invaders sprites)</description>
+	<year>1998</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="galnamco.7f" offset="0x0" size="0x1000" crc="b10533fd" sha1="ea8653e80000d607cd37a41f2de27ffe6e190f0f" />
+		<rom name="galnamco.7j" offset="0x1000" size="0x1000" crc="9163454d" sha1="683ce43c0e24fd5110b860e424e5de30d59e5223" />
+		<rom name="galnamco.7l" offset="0x2000" size="0x1000" crc="952c6135" sha1="e0989d5dce37ae421c34833d48b09e76d178680d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="galaxian08.1h" offset="0x0" size="0x800" crc="d3d42377" sha1="4eae6b2b20cfb6841d679006f394c7081f8f426f" />
+		<rom name="galaxian08.1k" offset="0x800" size="0x800" crc="7e515c84" sha1="e15ff199f1db55e9abb30c403fc667a4e7143b4f" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>
+<software name="galaxian09" cloneof="galnamco">
+	<description>Galaxian (bootleg 09)</description>
+	<year>1979</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x4000">
+		<rom name="galaxian02.u" offset="0x0" size="0x800" crc="e8f3aa67" sha1="a0e9576784dbe602dd9780e667f01f31defd7c00" />
+		<rom name="galx.v" offset="0x800" size="0x800" crc="bc16064e" sha1="4e3220fd63c8184bf9581a89dffb6944d8fae3bb" />
+		<rom name="superg.w" offset="0x1000" size="0x800" crc="ddeabdae" sha1="daa5109a32c7c9a80bdb212dc3e4e3e3c104a731" />
+		<rom name="galaxian09.y" offset="0x1800" size="0x800" crc="4ba676f3" sha1="4115dcdfc72a177f8cbd191102df37d6ab404c7c" />
+		<rom name="galturbo.z" offset="0x2000" size="0x800" crc="3247f3d4" sha1="5754dedc2d06736629d85514b2e7c262ce27bf2d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="piii.6" offset="0x0" size="0x800" crc="977e37cf" sha1="88ff1e4edadf5cfc83413a1fe999aecf4ba72232" />
+		<rom name="piii.7" offset="0x800" size="0x800" crc="d0ba22c9" sha1="678b22d10e1ae7dcea068da838bf6bd648e9ee28" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>
+<software name="galnamco">
+	<description>Galaxians</description>
+	<year>1979</year>
+	<publisher>Namco</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="galnamco.7f" offset="0x0" size="0x1000" crc="b10533fd" sha1="ea8653e80000d607cd37a41f2de27ffe6e190f0f" />
+		<rom name="galnamco.7j" offset="0x1000" size="0x1000" crc="9163454d" sha1="683ce43c0e24fd5110b860e424e5de30d59e5223" />
+		<rom name="galnamco.7l" offset="0x2000" size="0x1000" crc="952c6135" sha1="e0989d5dce37ae421c34833d48b09e76d178680d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="1h.bin" offset="0x0" size="0x800" crc="39fb43a4" sha1="4755609bd974976f04855d51e08ec0d62ab4bc07" />
+		<rom name="1k.bin" offset="0x800" size="0x800" crc="7e3f56a2" sha1="a9795d8b7388f404f3b0e2c6ce15d713a4c5bafa" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>
+<software name="galxtest1" cloneof="galnamco">
+	<description>Galaxian Test Rom</description>
+	<year>19</year>
+	<publisher>&lt;unknown&gt;</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x4000">
+		<rom name="test.u" offset="0x0" size="0x800" crc="0614cd7f" sha1="12440678be8a27a6c3032b6e43c45e27905ffa83" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="1h.bin" offset="0x0" size="0x800" crc="39fb43a4" sha1="4755609bd974976f04855d51e08ec0d62ab4bc07" />
+		<rom name="1k.bin" offset="0x800" size="0x800" crc="7e3f56a2" sha1="a9795d8b7388f404f3b0e2c6ce15d713a4c5bafa" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>
+<software name="galxtest2" cloneof="galnamco">
+	<description>Galaxian Test Rom (2017-12-07)</description>
+	<year>2017</year>
+	<publisher>Phil Murray</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x4000">
+		<rom name="galxtest2.u" offset="0x0" size="0x400" crc="bdf2a530" sha1="a60ab7c232d3552427744a36ea93ef597f0383f8" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="1h.bin" offset="0x0" size="0x800" crc="39fb43a4" sha1="4755609bd974976f04855d51e08ec0d62ab4bc07" />
+		<rom name="1k.bin" offset="0x800" size="0x800" crc="7e3f56a2" sha1="a9795d8b7388f404f3b0e2c6ce15d713a4c5bafa" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>
+<software name="mrdonm">
+	<description>Mr. Do&#x27;s Nightmare</description>
+	<year>2003</year>
+	<publisher>Krazy Ivan</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="mrdonm.u" offset="0x0" size="0x800" crc="197493a6" sha1="f939fd712985db24dced4f7a66f4a804ca34ce60" />
+		<rom name="mrdonm.v" offset="0x800" size="0x800" crc="b8ee84cf" sha1="c5018f21da2f65fa573a2d5e9c8f96db1f0136e9" />
+		<rom name="mrdonm.w" offset="0x1000" size="0x800" crc="76879d31" sha1="7aae5ee1eeaa5dacf4a232b3336f9e3df74018ca" />
+		<rom name="mrdonm.y" offset="0x1800" size="0x800" crc="d6d5e47e" sha1="e5f41f90ca357f3e7ef1a6b055ca0cccc91ed391" />
+		<rom name="mrdonm.z" offset="0x2000" size="0x800" crc="34913886" sha1="c1936ef6dc6080d080715d1c064513d581180fea" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="mrdonm.1h" offset="0x0" size="0x800" crc="f880af4b" sha1="67d24ac48a6bd68de5b914675dc4cd5982d8ffc4" />
+		<rom name="mrdonm.1k" offset="0x800" size="0x800" crc="40fd608a" sha1="3a58d5ac17e98bea3d58d238d81bd6a5dd24bb81" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="mrdonm.6l" offset="0x0" size="0x20" crc="77f95861" sha1="2acb3021e31b3c91bbf48763d2504dfad0d87f38" />
+		</dataarea>
+	</part>
+</software>
+<software name="pandajump">
+	<description>Panda Jump (set 1)</description>
+	<year>2022</year>
+	<publisher>Ben Larson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x4000">
+		<rom name="pj.u" offset="0x0" size="0x800" crc="b2658d7d" sha1="d9e87bd4483f925861cfc4f571201d0d088e8565" />
+		<rom name="pj.v" offset="0x800" size="0x800" crc="d47fa6c5" sha1="ddb5058c28feb18fb35c8bf88f362decfc9d6fb3" />
+		<rom name="pj.w" offset="0x1000" size="0x800" crc="12e3e07e" sha1="9544a0b5e5990d6ca302236e2f639f981a9132c2" />
+		<rom name="pj.y" offset="0x1800" size="0x800" crc="ee2133d0" sha1="ad64039ec280ec24b8ff921bedbf8719762b569f" />
+		<rom name="pj.7l" offset="0x2000" size="0x800" crc="f1e8ba9e" sha1="605db3fdbaff4ba13729371ad0c4fbab3889378e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="pj.1h" offset="0x0" size="0x800" crc="6ac96510" sha1="acb9897a4c5325b26eadd0300e49e43bbbf11462" />
+		<rom name="pj.1k" offset="0x800" size="0x800" crc="f2fb3d80" sha1="fe421dcf4b9d2f75d9d98f0adb7630f054115b36" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>
+<software name="pandajump2" cloneof="pandajump">
+	<description>Panda Jump (set 2)</description>
+	<year>2022</year>
+	<publisher>Ben Larson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x4000">
+		<rom name="pj2.u" offset="0x0" size="0x800" crc="239b9e2d" sha1="352449ef93e58ce631b5b64a308d9177504b51fa" />
+		<rom name="pj2.v" offset="0x800" size="0x800" crc="d38fa1a6" sha1="80892d2392d03cecdb715f527389f34d5fa7b8d1" />
+		<rom name="pj2.w" offset="0x1000" size="0x800" crc="94b8ffd6" sha1="ac87995a600f2787df4544f43aec62e80463ebff" />
+		<rom name="pj2.y" offset="0x1800" size="0x800" crc="c6a9c24b" sha1="140600eb2313385ae6ce55569e17c77d2928f23d" />
+		<rom name="pj.7l" offset="0x2000" size="0x800" crc="f1e8ba9e" sha1="605db3fdbaff4ba13729371ad0c4fbab3889378e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="pj.1h" offset="0x0" size="0x800" crc="6ac96510" sha1="acb9897a4c5325b26eadd0300e49e43bbbf11462" />
+		<rom name="pj.1k" offset="0x800" size="0x800" crc="f2fb3d80" sha1="fe421dcf4b9d2f75d9d98f0adb7630f054115b36" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>
+<software name="ramokromok">
+	<description>RAM OK ROM OK (Galaxian hardware demo)</description>
+	<year>2023</year>
+	<publisher>Ben Larson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x4000">
+		<rom name="rr.u" offset="0x0" size="0x800" crc="bc2c1a30" sha1="850cf4709b8c9e016ff9c148f64bc8a5ddfa02d7" />
+		<rom name="rr.v" offset="0x800" size="0x800" crc="b9ef4fae" sha1="9d5be6f12f768ebf5f2bbf7477bd6528e1f7faf3" />
+		<rom name="rr.w" offset="0x1000" size="0x800" crc="cf81c756" sha1="b22234f3f08e7c6768a1bfbe75fb14b9bd704229" />
+		<rom name="rr.y" offset="0x1800" size="0x800" crc="76f4040d" sha1="be95ff6a103efb7e933bade442b9e2d3860afe9e" />
+		<rom name="rr.7l" offset="0x2000" size="0x800" crc="dcea5513" sha1="d9d1d50fea4f2d06f0ee9a2183a38b906dc36c14" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="rr.1h" offset="0x0" size="0x800" crc="15988db6" sha1="0eedf35fdb576680533d1bcb0d5658970b87412c" />
+		<rom name="rr.1k" offset="0x800" size="0x800" crc="bad7ec8e" sha1="432f5ee714765a367aeaf163a1d5db8483fcced9" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>
+<software name="wbeast">
+	<description>Wriggly Beasties</description>
+	<year>1981</year>
+	<publisher>Compost</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="wbeast.7f" offset="0x0" size="0x1000" crc="967e92ee" sha1="319953fda4bedd447e95f93cd800fc036ce6a8e4" />
+		<rom name="wbeast.7j" offset="0x1000" size="0x1000" crc="72c70fff" sha1="e0e2cfafdce4d027f89a32542cdc2d724da9f6b0" />
+		<rom name="wbeast.7l" offset="0x2000" size="0x1000" crc="2486d3a6" sha1="93ac6178303bf65175b8b0b889c1dae11da46d0e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="wbeast.1h" offset="0x0" size="0x1000" crc="623bb742" sha1="081cc0cc2f3133338495e61a8e904448521c6c9a" />
+		<rom name="wbeast.1k" offset="0x1000" size="0x1000" crc="c1b1143f" sha1="72436840ff72f7f6341b11c43e25107ecb3ebb73" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="warofbug.clr" offset="0x0" size="0x20" crc="8688e64b" sha1="ed13414257f580b98b50c9892a14159c55e7838d" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

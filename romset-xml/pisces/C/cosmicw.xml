@@ -1,0 +1,26 @@
+<software name="cosmicw" cloneof="uniwars">
+	<description>Cosmic Wars</description>
+	<year>1979</year>
+	<publisher>B.G.Video Ltd</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x4000">
+		<rom name="sb1" offset="0x0" size="0x800" crc="d975af10" sha1="a2e2a36a75db8fd09441308b08b6ae073c68b8cf" />
+		<rom name="sb2" offset="0x800" size="0x800" crc="b2ed14c3" sha1="7668df11f64b8e296eedfee53437777dc53a56d5" />
+		<rom name="sb3" offset="0x1000" size="0x800" crc="945f4160" sha1="5fbe879f51e14c4c7ae551e5b3089f8e148770a4" />
+		<rom name="sb4" offset="0x1800" size="0x800" crc="8229835c" sha1="8cfd8f6cab6f80ca69645a184f7e841fc69f47f6" />
+		<rom name="cw5" offset="0x2000" size="0x800" crc="74e70148" sha1="e3fc1931bc52e831b953ba1bba6e484dffd19c69" />
+		<rom name="sb6" offset="0x2800" size="0x800" crc="d915a389" sha1="0e2ff6eec9453856a1276889946b463cfae58eba" />
+		<rom name="sb7" offset="0x3000" size="0x800" crc="c9245346" sha1="239bad3fe64eaab2dfc3febd06d1124103a10504" />
+		<rom name="sb8" offset="0x3800" size="0x800" crc="e59ff1ae" sha1="fef22885cbd3273882f8c7755dd04c28e843b9ea" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="sb12" offset="0x0" size="0x800" crc="8313c959" sha1="b09157c6f824d6e94647728cbb329877fcb4e502" />
+		<rom name="sb14" offset="0x800" size="0x800" crc="c26132af" sha1="7ae125a911dfd47aeca4f129f580762ce4d8d91a" />
+		<rom name="sb11" offset="0x1000" size="0x800" crc="c9d4537e" sha1="65d27066ffec04b755d2f5d3f36f5ec6792e8d6c" />
+		<rom name="k01_2.bin" offset="0x1800" size="0x800" crc="dcc2b33b" sha1="c3a5ac935c519400dfabb28909f7e460769d1837" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="mmi6331.6l" offset="0x0" size="0x20" crc="6a0c7d87" sha1="140335d85c67c75b65689d4e76d29863c209cf32" />
+		</dataarea>
+	</part>
+</software>

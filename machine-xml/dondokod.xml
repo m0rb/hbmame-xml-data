@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="dondokod" description="Dondokod cartridges">
+<software name="dondokod01">
+	<description>Don Doko Don (Chinese)</description>
+	<year>1989</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_byte" name="b95-12.s01" offset="0x0" size="0x20000" crc="717c4ee8" sha1="f789773694ad2d0ab49ecb9ab6f9834cced5fda9" />
+		<rom loadflag="load16_byte" name="b95-11-1.s01" offset="0x1" size="0x20000" crc="2f2f56ef" sha1="e487fcb792192cd8f8a1518db6e34906c6ee209b" />
+		<rom loadflag="load16_byte" name="b95-10.s01" offset="0x40000" size="0x20000" crc="add6563a" sha1="3e93cba5198dd9c69d3bb9a42c528e2f11dee7da" />
+		<rom loadflag="load16_byte" name="b95-09.s01" offset="0x40001" size="0x20000" crc="b60afcdd" sha1="4b2bdbb51a6c0dbafbedbe60c97b75bb10fae0ee" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x1c000">
+		<rom name="b95-08.bin" offset="0x0" size="0x10000" crc="b5aa49e1" sha1="83b0a3434e0d0b9aa581c1acdd0c70308362b923" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="b95-04.bin" offset="0x0" size="0x80000" crc="ac4c1716" sha1="06a9def7fa3bd739438f4a1d7b55f70eb904bf54" />
+		</dataarea>
+		<dataarea name="sprites" size="0x80000">
+		<rom name="b95-01.bin" offset="0x0" size="0x80000" crc="51c176ce" sha1="2866e8bd57b301a0d4690f194be95784c53f9fcb" />
+		</dataarea>
+		<dataarea name="tc0100scn_1" size="0x80000">
+		<rom loadflag="load16_word_swap" name="b95-02.s01" offset="0x0" size="0x80000" crc="76a18cbf" sha1="e8766586c6f65b24fab4dd773ebf96a6823bb4e6" />
+		</dataarea>
+		<dataarea name="tc0280grd" size="0x80000">
+		<rom name="b95-03.s01" offset="0x0" size="0x80000" crc="d3f76493" sha1="a17f39b637089bf6878c9d93cca7085f0a5ede64" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

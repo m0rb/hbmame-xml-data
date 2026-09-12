@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="vanguard" description="Vanguard cartridges">
+<software name="vantris">
+	<description>Vantris 98</description>
+	<year>1998</year>
+	<publisher>Norbert Kehrer</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="vantris.ic13" offset="0x8000" size="0x1000" crc="f9f367a5" sha1="49249a73951ae9a8a965954d8b03627b5fcf4fe3" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="vantris.ic50" offset="0x0" size="0x800" crc="a7061526" sha1="f5f5860a9dc468cb4177348e0b0592e5adda28f1" />
+		<rom name="vantris.ic51" offset="0x800" size="0x800" crc="67bd31ed" sha1="24f03cf097e5382500a85483351f21913a98fdd5" />
+		</dataarea>
+		<dataarea name="proms" size="0x40">
+		<rom name="vantris.ic7" offset="0x0" size="0x20" crc="90f17fc1" sha1="fc92864178cbceccd6f7f2c75249b5c568bdbea8" />
+		</dataarea>
+		<dataarea name="snk6502" size="0x1000">
+		<rom name="vantris.ic53" offset="0x0" size="0x800" crc="fd4d8bb0" sha1="d59ec7569147263aed50041b15aed2ca4f395c23" />
+		<rom name="sk4_ic52.bin" offset="0x800" size="0x800" crc="cc4a0b6f" sha1="251b24d60083d516c4ba686d75b41e04d10f7198" />
+		</dataarea>
+		<dataarea name="speech" size="0x5800">
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

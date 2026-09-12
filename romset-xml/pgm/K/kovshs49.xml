@@ -1,0 +1,31 @@
+<software name="kovshs49" cloneof="kovsh">
+	<description>Knights of Valour Super Heroes (True, chaotic world, blazing B2)</description>
+	<year>1999</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_pw49.322" offset="0x100000" size="0x400000" crc="ba637e67" sha1="acee7a37c4fd9918f2b07d69224fd323bb5c46cb" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600_pw02.rom" offset="0x400000" size="0x400000" crc="baf0b56e" sha1="ed6f30a7f62aee1f263efc12ffd3f908191cd171" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.322" offset="0x0" size="0x4000" crc="a09af141" sha1="fa7430874cb2f18437ea1192445fcd85fb2b3211" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_pw02.rom" offset="0x0" size="0x800000" crc="b41159b2" sha1="3f563fda2984aa9db14203fd8ba482db1a8ad0af" />
+		<rom name="pgm_a0601.u3" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_pw02.rom" offset="0x1000000" size="0x800000" crc="f86395c0" sha1="86db74a862ea316cb7ac30ed0ddd90181809f6f4" />
+		<rom name="a0603_pw02.rom" offset="0x1800000" size="0x400000" crc="fc061deb" sha1="2f6906117c63dd6ee13c5aad70d8b9e7541c23cc" />
+		<rom name="a0604_pw02.rom" offset="0x1a00000" size="0x400000" crc="87ff1a5e" sha1="02a6f4d6976f0b3ca3fe993725e4419231697f07" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_pw02.rom" offset="0x0" size="0x800000" crc="895a1902" sha1="d84fd403fdc8f4d707135fdecfe05eca950bb67b" />
+		<rom name="b0601_pw02.rom" offset="0x800000" size="0x400000" crc="388ab398" sha1="bff124d2ed3b74cb460433dea1317b88d3b4d22d" />
+		<rom name="b0602_pw02.rom" offset="0xc00000" size="0x100000" crc="3346e6c7" sha1="e0a59a81918118f8da5ad382a6f0071d5309f3dc" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_pw02.rom" offset="0x180000" size="0x800000" crc="c9077658" sha1="708c63fccc8dc88513492fc8cd803aca3a62e9fb" />
+		</dataarea>
+	</part>
+</software>

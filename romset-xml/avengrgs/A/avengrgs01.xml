@@ -1,0 +1,36 @@
+<software name="avengrgs01">
+	<description>Avengers In Galactic Storm (Boss Hack, set 1)</description>
+	<year>2022</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load32_word_swap" name="s01.7k" offset="0x2" size="0x80000" crc="6aa15730" sha1="9ad2c7f71a486a767be3f1a1fd8962e2e746a89b" />
+		<rom loadflag="load32_word_swap" name="s01.7l" offset="0x0" size="0x80000" crc="6ef1380a" sha1="350fd325b812f141f3f433649c5d3466b2adfdfe" />
+		</dataarea>
+		<dataarea name="eeprom" endianness="big" size="0x80">
+		<rom name="avengrgs.nv" offset="0x0" size="0x80" crc="c0e84b4e" sha1="e7afca68cc5fa69ded32bc0a1dcc6a59fe7f081b" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1800000">
+		<rom loadflag="load16_byte" name="mcg-00.1j" offset="0x1" size="0x200000" crc="99129d9a" sha1="1d1574e2326dca1043e05c229b54497df6ed5a35" />
+		<rom loadflag="load16_byte" name="mcg-02.1f" offset="0x0" size="0x200000" crc="29af9866" sha1="56531911f8724975a7f81e61b7dec7fa72d50747" />
+		<rom loadflag="load16_byte" name="mcg-01.1d" offset="0x400001" size="0x200000" crc="3638861b" sha1="0896110acdb4442e4819f73285b9e725fc787b7a" />
+		<rom loadflag="load16_byte" name="mcg-03.7m" offset="0x400000" size="0x200000" crc="4a0c965f" sha1="b658ae5e6e2ff6f42b605bb6c49ad8a67507f2ab" />
+		<rom loadflag="load16_byte" name="mcg-08.7p" offset="0x800001" size="0x200000" crc="c253943e" sha1="b97a1d565ffbf2190ba0b25de5ef0bb3b9c9248b" />
+		<rom loadflag="load16_byte" name="mcg-09.7n" offset="0x800000" size="0x200000" crc="8fb9870b" sha1="046b6d07610cf09f008d1595605139071671d95c" />
+		<rom loadflag="load16_byte" name="mcg-04.3j" offset="0xc00001" size="0x200000" crc="a4954c0e" sha1="897a7313505f562879578941931a39afd34c9eef" />
+		<rom loadflag="load16_byte" name="mcg-06.3f" offset="0xc00000" size="0x200000" crc="01571cf6" sha1="74f85d523f2783374f041aa95abe6d1b8c872127" />
+		<rom loadflag="load16_byte" name="mcg-05.3d" offset="0x1000001" size="0x200000" crc="182c2b49" sha1="e53c06e95508e6c7e746f81668a4f7c08bfc6d36" />
+		<rom loadflag="load16_byte" name="mcg-07.8m" offset="0x1000000" size="0x200000" crc="d09a3635" sha1="8e184f3a3046bd8401762bbb480f5832fde91dde" />
+		<rom loadflag="load16_byte" name="mcg-10.8p" offset="0x1400001" size="0x200000" crc="1383f524" sha1="eadd8b579cc21ae119b7439c7882e39f22ac3b8c" />
+		<rom loadflag="load16_byte" name="mcg-11.8n" offset="0x1400000" size="0x200000" crc="8f7fc281" sha1="8cac51036088dbf4ff3c2b91ef88ef30a30b0be1" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x80000">
+		<rom name="sf_02-0.6j" offset="0x0" size="0x80000" crc="c98585dd" sha1="752e246e2c72eb2b786c49d69f7ee4401a15c8aa" />
+		</dataarea>
+		<dataarea name="ymz" size="0x800000">
+		<rom name="mcg-12.5a" offset="0x0" size="0x200000" crc="bef9b28f" sha1="b7a2a0539ea4d22b48ce3f3eb367017f219da2c1" />
+		<rom name="mcg-13.9k" offset="0x200000" size="0x200000" crc="92301551" sha1="a7891e7a3c8d7f165ca73f5d5a034501df46e9a2" />
+		<rom name="mcg-14.6a" offset="0x400000" size="0x200000" crc="c0d8b5f0" sha1="08eecf6e7d0273e41cda3472709a67e2b16068c9" />
+		</dataarea>
+	</part>
+</software>

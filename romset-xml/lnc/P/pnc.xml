@@ -1,0 +1,28 @@
+<software name="pnc">
+	<description>Pac&#x27;n&#x27;Chase</description>
+	<year>1981</year>
+	<publisher>Marks Hacks</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x2">
+		<rom name="s3-3d" offset="0xc000" size="0x1000" crc="1ab4f2c2" sha1="c5890b768172cd2e3912b84db5f71546969ad7e2" />
+		<rom name="s2-3c" offset="0xd000" size="0x1000" crc="5e46b789" sha1="00b2510e07eb565cb373db798dd537191b0b7cc8" />
+		<rom name="s1-3b" offset="0xe000" size="0x1000" crc="1308a32e" sha1="da64fe7b76f5ac8ac35460e6c789ab1e986c78ef" />
+		<rom name="s0-3a" offset="0xf000" size="0x1000" crc="beb4b1fc" sha1="166a96b5757946231f3619844366218065412935" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="sa-1h" offset="0xe000" size="0x1000" crc="379387ec" sha1="29d37f04c64ed53a2573962dfa9c0623b89e0045" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x6000">
+		<rom name="pnc-s4-11l" offset="0x0" size="0x1000" crc="38a40f50" sha1="c5188fc3eeffb9843a22211b95ef6fec656dedb9" />
+		<rom name="pnc-s5-11m" offset="0x1000" size="0x1000" crc="c6c7236a" sha1="da50b4066c6d39c1c860afdbd353de5576bf9fbf" />
+		<rom name="pnc-s6-13l" offset="0x2000" size="0x1000" crc="20779144" sha1="f580db44ce870cb5945ef341ef5dd674b170ffc6" />
+		<rom name="pnc-s7-13m" offset="0x3000" size="0x1000" crc="8911a546" sha1="e78ff510af33789e6a25227afa269008c049b553" />
+		<rom name="pnc-s8-15l" offset="0x4000" size="0x1000" crc="1c8f5112" sha1="01601dc443e1db13f9fb9b32cc5180d5d19b4c10" />
+		<rom name="pnc-s9-15m" offset="0x5000" size="0x1000" crc="b919e43b" sha1="1bb22f48a7914afc8b4eb8d90b9c6a4d93ae2b24" />
+		</dataarea>
+		<dataarea name="proms" size="0x40">
+		<rom name="sc-5m" offset="0x0" size="0x20" crc="2a976ebe" sha1="f3c1b0d98f431f9cd0d5fa009fafa1115aabe6e5" />
+		<rom name="sb-4c" offset="0x20" size="0x20" crc="a29b4204" sha1="7f15cae5c4aaa29638fb45029782dafd2b3d1484" />
+		</dataarea>
+	</part>
+</software>

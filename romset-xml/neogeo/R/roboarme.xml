@@ -1,0 +1,25 @@
+<software name="roboarme" cloneof="roboarmy">
+	<description>Robo Army (Earlier)</description>
+	<year>1991</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="032.p1" offset="0x0" size="0x80000" crc="cd11cbd4" sha1="23163e3da2f07e830a7f4a02aea1cb01a54ccbf3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="032e.v1" offset="0x0" size="0x80000" crc="daff9896" sha1="2f8a39b98ff2f4a0c8901b1befcc69e0cc5f5aed" />
+		<rom name="032e.v2" offset="0x80000" size="0x80000" crc="8781b1bc" sha1="4e3cc22ac0acd4033cd4a327269c68b5f56bbe34" />
+		<rom name="032e.v3" offset="0x100000" size="0x80000" crc="b69c1da5" sha1="7d5ea49338aeef711fc64755abed51fcdd939d48" />
+		<rom name="032e.v4" offset="0x180000" size="0x80000" crc="2c929c17" sha1="7e053035573de9f601de80d200d09ed4844506fe" />
+		</dataarea>
+		<dataarea name="sprites" size="0x300000">
+		<rom loadflag="load16_byte" name="032e.c1" offset="0x0" size="0x80000" crc="e17fa618" sha1="14347886b776c24d2dd8b19353ad8897d5f7e56c" />
+		<rom loadflag="load16_byte" name="032e.c2" offset="0x1" size="0x80000" crc="d5ebdb4d" sha1="cc811af611cc528fd3a9d1bdd8ab427fe9fea693" />
+		<rom loadflag="load16_byte" name="032e.c3" offset="0x100000" size="0x80000" crc="aa4d7695" sha1="2d6c5b4f6fce82b5800fae17b4a94cf8a41216f4" />
+		<rom loadflag="load16_byte" name="032e.c4" offset="0x100001" size="0x80000" crc="8d4ebbe3" sha1="384ee64db1726b0aef2d3ce8b1d914b56e7925d9" />
+		<rom loadflag="load16_byte" name="032.c5" offset="0x200000" size="0x80000" crc="40adfccd" sha1="b11f866dd70ba0ed9123424508355cb948b19bdc" />
+		<rom loadflag="load16_byte" name="032.c6" offset="0x200001" size="0x80000" crc="462571de" sha1="5c3d610d492f91564423873b3b434dcda700373f" />
+		</dataarea>
+	</part>
+</software>

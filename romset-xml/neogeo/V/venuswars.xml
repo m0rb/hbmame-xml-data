@@ -1,0 +1,17 @@
+<software name="venuswars">
+	<description>Venus Wars demo</description>
+	<year>2019</year>
+	<publisher>Vasily Familiya</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom name="689.p1" offset="0x0" size="0x5beaa" crc="29950bbd" sha1="8acb73f03924ba4fd2cbcb9f227641a268ac75f7" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="689.v1" offset="0x0" size="0x800000" crc="5e44a6e6" sha1="409330797213af87d9d86425ef056ae4d8ca79d1" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom name="689.c1" offset="0x0" size="0x37e880" crc="6983fb91" sha1="1f626f52544b6ddcdd1756bc529df999f3a47872" />
+		</dataarea>
+	</part>
+</software>

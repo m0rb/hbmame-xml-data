@@ -1,0 +1,15 @@
+<software name="badapple">
+	<description>Bad Apple demo (v1)</description>
+	<year>2017</year>
+	<publisher>BEY</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x300000">
+		<rom name="642.v1" offset="0x0" size="0x300000" crc="ce9bf279" sha1="d14133414570d30ac477c226771175fa4b54073b" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1800000">
+		</dataarea>
+	</part>
+</software>

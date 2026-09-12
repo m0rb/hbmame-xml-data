@@ -1,0 +1,23 @@
+<software name="pickinpi">
+	<description>Pickin&#x27; (Color Hack)</description>
+	<year>1983</year>
+	<publisher>Pi</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="9e" offset="0x0" size="0x1000" crc="efd0bd43" sha1="b70a471a809c08286a82934046357fb46556f641" />
+		<rom name="9f" offset="0x1000" size="0x1000" crc="b5785a23" sha1="9eddda5695981cb0470dfea68d5e2e8e220382b1" />
+		<rom name="9j" offset="0x2000" size="0x1000" crc="65ee9fd4" sha1="2efa40c19a7b0644ef4f4b2ce6a025b2b880239d" />
+		<rom name="9k" offset="0x3000" size="0x1000" crc="7b23350e" sha1="dff19602a0e46ca0bcdbdf2a1d61fd2c80ac70e7" />
+		<rom name="9m" offset="0x4000" size="0x1000" crc="935a7248" sha1="d9af4405d51ce1ff6c4b84709dc85c0db88b1d54" />
+		<rom name="9n" offset="0x5000" size="0x1000" crc="52485d1d" sha1="c309eec506f978388463f20d56d958e6639c31e8" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="1f" offset="0x0" size="0x1000" crc="c5e96ac6" sha1="b2d740b6d07c765e8eb2dce31fe285a15a9fe597" />
+		<rom name="1j" offset="0x1000" size="0x1000" crc="41c4ac1c" sha1="aac58a9d675a9b70140d82341231bcf6c77c7b41" />
+		</dataarea>
+		<dataarea name="proms" size="0x40">
+		<rom name="6331-1pi.3p" offset="0x0" size="0x20" crc="b1dd1e68" sha1="059c5f6c43e62b9381f4a0fa322dbe59c29812f5" />
+		<rom name="6331-1pi.3r" offset="0x20" size="0x20" crc="47fadc93" sha1="3ba46957e664a2ea639a97a0c199a9636861ca50" />
+		</dataarea>
+	</part>
+</software>

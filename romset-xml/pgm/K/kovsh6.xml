@@ -1,0 +1,29 @@
+<software name="kovsh6" cloneof="kovsh">
+	<description>Knights of Valour Super Heroes (Hack set 6)</description>
+	<year>1999</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600.sh6" offset="0x100000" size="0x400000" crc="8d02a952" sha1="9af1d7193bba64631b8bd89f6de3a04c0bf7891f" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600.sh5" offset="0x400000" size="0x400000" crc="eae5bf80" sha1="5052849cb1ea573ee98188c594b4a449c195e441" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.asic" offset="0x0" size="0x4000" crc="0f09a5c1" sha1="621b38c05f33277608d58b49822aebc930ae4870" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="pgm_a0600.u1" offset="0x0" size="0x800000" crc="d8167834" sha1="fa55a99629d03b2ea253392352f70d2c8639a991" />
+		<rom name="pgm_a0601.u3" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u5" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="a0603.sh6" offset="0x1800000" size="0x800000" crc="cbc57bc1" sha1="ae1ef43a5caaa1e1a0be6ba7a6598eeaeb284a1e" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b0600.u6" offset="0x0" size="0x800000" crc="7d3cd059" sha1="00cf994b63337e0e4ebe96453daf45f24192af1c" />
+		<rom name="b0601.sh6" offset="0x800000" size="0x800000" crc="1885039b" sha1="23f832ee7493d11f78ea06954da748ff1fa3c595" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="pgm_t0600.u11" offset="0x180000" size="0x800000" crc="4acc1ad6" sha1="0668dbd5e856c2406910c6b7382548b37c631780" />
+		</dataarea>
+	</part>
+</software>

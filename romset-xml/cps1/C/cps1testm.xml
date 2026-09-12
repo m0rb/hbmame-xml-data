@@ -1,0 +1,25 @@
+<software name="cps1testm" cloneof="megaman">
+	<description>CPS1 Diagnostic (For megaman, 2012-10-30)</description>
+	<year>2012</year>
+	<publisher>Cal2</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c35test.p1" offset="0x0" size="0x80000" crc="35a39adb" sha1="dcb93102108a02f1f169833cfd355bd492cd9065" />
+		<rom loadflag="load16_word_swap" name="c35.p2" offset="0x80000" size="0x80000" crc="708268c4" sha1="554e011cad285b95dd1b6aa19be61b2413662a3a" />
+		<rom loadflag="load16_word_swap" name="c35.p3" offset="0x100000" size="0x80000" crc="4376ea95" sha1="7370ceffca513aa9f68a74f6869d561476589200" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c35.m1" offset="0x0" size="0x8000" crc="22ac8f5f" sha1="d1441d880f98034645cb4fcecd7bb746bde638af" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="megaman.key" offset="0x0" size="0x80" crc="9c89eb62" sha1="e67a3ed58f82875cff4861c14bd701b54dcc111f" />
+		</dataarea>
+		<dataarea name="gfx" size="0x800000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c35.v1" offset="0x0" size="0x20000" crc="80f1f8aa" sha1="4a5b7b2a6941ad68da7472c63362c7bcd353fa54" />
+		<rom name="c35.v2" offset="0x20000" size="0x20000" crc="f257dbe1" sha1="967def6b6f93039dbc46373caabeb3301577be75" />
+		</dataarea>
+	</part>
+</software>

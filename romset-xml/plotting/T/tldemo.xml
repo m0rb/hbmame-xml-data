@@ -1,0 +1,14 @@
+<software name="tldemo">
+	<description>Demo - System Timed Cheat Tool</description>
+	<year>2014</year>
+	<publisher>cmonkey</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="tldemo.ic10" offset="0x0" size="0x56a4" crc="fda3d418" sha1="e0171cc1c035d1f800702c3766825b63f6acd291" />
+		</dataarea>
+		<dataarea name="maincpu:gfx" size="0x20000">
+		<rom loadflag="load16_byte" name="tldemo.ic9" offset="0x0" size="0x10000" crc="792b8c11" sha1="0592481b586bfca0f8f8eb096bee46690943596b" />
+		<rom loadflag="load16_byte" name="tldemo.ic8" offset="0x1" size="0x10000" crc="59cfc5ab" sha1="133084eeacdf978ed13db565f64d155c08ecaade" />
+		</dataarea>
+	</part>
+</software>

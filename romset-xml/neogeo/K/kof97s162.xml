@@ -1,0 +1,27 @@
+<software name="kof97s162" cloneof="kof97">
+	<description>Kof&#x27;97 (The Increasingly, 2020-02-08)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="232s162.p1" offset="0x0" size="0x100000" crc="4cc5da14" sha1="4c3cfeffc855801adad974cbd9ae99db4df33728" />
+		<rom loadflag="load16_word_swap" name="232s162.p2" offset="0x100000" size="0x400000" crc="503d49f9" sha1="2a54c40a3dbcb76f02c8b7c7cae1290c9ab2d1f8" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3800000">
+		<rom loadflag="load16_byte" name="232s162.c1" offset="0x0" size="0x800000" crc="3853472a" sha1="72467892be527c1a0baeb034257027c4388455d5" />
+		<rom loadflag="load16_byte" name="232s162.c2" offset="0x1" size="0x800000" crc="5d107791" sha1="cfc6c012f4460329c53a9eb6323fa8b32cae2fd7" />
+		<rom loadflag="load16_byte" name="232s162.c3" offset="0x1000000" size="0x800000" crc="4751f8ba" sha1="c7c1fdecd7af0fdefb357e660adef5cbc42c5bed" />
+		<rom loadflag="load16_byte" name="232s162.c4" offset="0x1000001" size="0x800000" crc="068442a6" sha1="55feac9a9f527796a087748df63e8c8e0f254d6f" />
+		<rom loadflag="load16_byte" name="232s162.c5" offset="0x2000000" size="0x800000" crc="f5c81739" sha1="739a1c4b893fa6f809ed92489abbd227a897217f" />
+		<rom loadflag="load16_byte" name="232s162.c6" offset="0x2000001" size="0x800000" crc="aaf393bc" sha1="41f4a2f717ecc2264fe0742d1195fa51803f2e93" />
+		<rom loadflag="load16_byte" name="232s158.c7" offset="0x3000000" size="0x400000" crc="c0dd9942" sha1="a465ebacb09c44ccb2f9f11342693921c04b80a9" />
+		<rom loadflag="load16_byte" name="232s158.c8" offset="0x3000001" size="0x400000" crc="61002b18" sha1="66a3e2ce53a0a311b5a40bf3e9ebf60799310f80" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,38 @@
+<software name="fatfury1d" cloneof="fatfury1">
+	<description>Fatal Fury (MGD2)</description>
+	<year>1991</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n033001a.038" offset="0x1" size="0x40000" crc="47e51379" sha1="bb1558765f55e0b8e3e0c1c5c79db8cec8b51085" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		<rom loadflag="load16_byte" name="n033001a.03c" offset="0x80001" size="0x40000" crc="19d36805" sha1="6b2d5326a08b06a9152d80a8de054ad9f159a453" />
+		<rom loadflag="continue" offset="0x80000" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="n033001a.1f8" offset="0x0" size="0x80000" crc="86fabf00" sha1="df087f58c689128f7696b91e2fcb600ccac017af" />
+		<rom name="n033001a.1fc" offset="0x80000" size="0x80000" crc="ead1467b" sha1="6f4381d7a0625f5d02739a9813ff593c2dc99dde" />
+		<rom name="n033001b.1f8" offset="0x100000" size="0x80000" crc="fc3bd6f7" sha1="8d3094ecd8d5cfe3f58be9ac6d76a2bb65eb1d00" />
+		<rom name="n033001b.1fc" offset="0x180000" size="0x80000" crc="d312f6c0" sha1="3fae32af628ed8d0176a7f6668ff4f2d898c9f7a" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load32_byte" name="n033001a.538" offset="0x0" size="0x40000" crc="9aaa6d73" sha1="345ed4b75a6459cd0b8fc8f71d58f4951296177f" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n033001a.638" offset="0x1" size="0x40000" crc="9cae3703" sha1="1144ccf448ea7c00ca425fe54f2ce84b8fdb3c78" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n033001a.53c" offset="0x100000" size="0x40000" crc="a986f4a9" sha1="a45cc6b5902333d6614b7a2018ebd5ada7c5f075" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n033001a.63c" offset="0x100001" size="0x40000" crc="308b619f" sha1="384efb66633a888d7c48d2ab0e918d823178b382" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n033001b.538" offset="0x200000" size="0x40000" crc="7aefe57d" sha1="ab97881ff620ab7130d9ce1527c23bcfc0b21a5e" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n033001b.638" offset="0x200001" size="0x40000" crc="b39a0cde" sha1="e5829525bc2ffe489ebb0ec4ab0094417f141027" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n033001b.53c" offset="0x300000" size="0x40000" crc="e3057c96" sha1="b6a2e55633db0aad7f1ca4e8b42c2a327f772add" />
+		<rom loadflag="continue" offset="0x300002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n033001b.63c" offset="0x300001" size="0x40000" crc="737bc030" sha1="03ceeabb84dac6f27c6f6ba2b7097b756f411270" />
+		<rom loadflag="continue" offset="0x300003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

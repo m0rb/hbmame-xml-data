@@ -1,0 +1,17 @@
+<software name="seq2" cloneof="seq1">
+	<description>Sequencer and Music Player</description>
+	<year>2003</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="seq2.6e" offset="0x0" size="0x1000" crc="0ec135be" sha1="f2ba6f8ee4256420e6149853a34a2b11a3545eea" />
+		<rom name="seq2.6f" offset="0x1000" size="0x1000" crc="1b95f321" sha1="f9d76544cce43ce779a1bf59a01ac00297baa82c" />
+		<rom name="seq2.6h" offset="0x2000" size="0x1000" crc="5892650a" sha1="7c63f42ea3f75faa15c6f5864569cb6a8f8c7c79" />
+		<rom name="seq2.6j" offset="0x3000" size="0x1000" crc="8612016a" sha1="4e144069f194d240e503b24df9b10bcde68b2c6c" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="at.5e" offset="0x0" size="0x1000" crc="eeb359bf" sha1="36f153b5ce53475fd144af50e4bd67b0e0b3a01f" />
+		<rom name="pacman.5f" offset="0x1000" size="0x1000" crc="958fedf9" sha1="4a937ac02216ea8c96477d4a15522070507fb599" />
+		</dataarea>
+	</part>
+</software>

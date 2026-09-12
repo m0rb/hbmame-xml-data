@@ -1,0 +1,29 @@
+<software name="kof2000s30" cloneof="kof2000">
+	<description>Kof2000 (The Eight Gods Of The Blood Of The Great Snake)</description>
+	<year>2000</year>
+	<publisher>sujianxiong</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x900000">
+		<rom loadflag="load16_word_swap" name="neo-sma" offset="0xc0000" size="0x40000" crc="71c6e6bb" sha1="1bd29ded4c6b29780db8e8b772c452189699ca89" />
+		<rom loadflag="load16_word_swap" name="257s30.p1" offset="0x100000" size="0x400000" crc="d0242653" sha1="75251a1af1c76f57468be1dfa47d59275fcdc7af" />
+		<rom loadflag="load16_word_swap" name="257.p2" offset="0x500000" size="0x400000" crc="1b7ec415" sha1="f19fa44e9ee5b5a6eb4a051349d6bc4acc3bbbdb" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="257.v1" offset="0x0" size="0x400000" crc="17cde847" sha1="4bcc0205b70dc6d9216b29025450c9c5b08cb65d" />
+		<rom name="257.v2" offset="0x400000" size="0x400000" crc="1afb20ff" sha1="57dfd2de058139345ff2b744a225790baaecd5a2" />
+		<rom name="257.v3" offset="0x800000" size="0x400000" crc="4605036a" sha1="51b228a0600d38a6ec37aec4822879ec3b0ee106" />
+		<rom name="257.v4" offset="0xc00000" size="0x400000" crc="764bbd6b" sha1="df23c09ca6cf7d0ae5e11ff16e30c159725106b3" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="257ev.c1" offset="0x0" size="0x800000" crc="c89d1994" sha1="2eb8a27f39dea743907b4be9e9d99f1858a30ba4" />
+		<rom loadflag="load16_byte" name="257ev.c2" offset="0x1" size="0x800000" crc="19754968" sha1="ca9692d5eac8e6eef5e5dd9888c5e8edcc9a0a7a" />
+		<rom loadflag="load16_byte" name="257ev.c3" offset="0x1000000" size="0x800000" crc="c76b919b" sha1="3f6245580e55c63d248478818005348f0cb92a6b" />
+		<rom loadflag="load16_byte" name="257ev.c4" offset="0x1000001" size="0x800000" crc="5e03f2af" sha1="85b7ec527a70411ad27d32a1169915b62230a3a7" />
+		<rom loadflag="load16_byte" name="257ev.c5" offset="0x2000000" size="0x800000" crc="6a3b2fbd" sha1="dbcf018f96767f753a2bab87f8d31fa6f6ef98d2" />
+		<rom loadflag="load16_byte" name="257ev.c6" offset="0x2000001" size="0x800000" crc="ac4a8edc" sha1="a305c8c5df3c2191fcdb73d799074a4191f2a252" />
+		<rom loadflag="load16_byte" name="257ev.c7" offset="0x3000000" size="0x800000" crc="608ffca9" sha1="0d3b184e44b9833f7338514e5633ccb3b3e39fb1" />
+		<rom loadflag="load16_byte" name="257ev.c8" offset="0x3000001" size="0x800000" crc="73280ea8" sha1="76bad66577b6d9618f2a190d54259eb3b1082d69" />
+		</dataarea>
+	</part>
+</software>

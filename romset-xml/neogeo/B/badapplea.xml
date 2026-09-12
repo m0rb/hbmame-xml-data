@@ -1,0 +1,32 @@
+<software name="badapplea" cloneof="badapple">
+	<description>Bad Apple demo (v2)</description>
+	<year>2017</year>
+	<publisher>BEY</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x900000">
+		<rom name="642a.p1" offset="0x0" size="0xc5b0" crc="f916d0bf" sha1="21b7bdb47893e00ef77abca9aba831059e0d48dc" />
+		<rom name="642a.p2" offset="0x100000" size="0xc628c" crc="6e0e218c" sha1="f15ceae5c9fb4b268d8b1c6513a3954746ace550" />
+		<rom name="642a.p3" offset="0x200000" size="0x872cc" crc="475877e0" sha1="f6fa2aeab36264a544895bb49c3858286a3edde7" />
+		<rom name="642a.p4" offset="0x300000" size="0x8ced4" crc="9529aad1" sha1="54ce5fa06e915383430b4fc2eb4b2bd8d5d0ca62" />
+		<rom name="642a.p5" offset="0x400000" size="0x8ca3c" crc="1fa70a3b" sha1="d4f5560a38d057081fc16d7c3e673171bd194b72" />
+		<rom name="642a.p6" offset="0x500000" size="0xc99c4" crc="7b7bc0e2" sha1="6bd31d2e4e424ac27117b4c94273ae8cb779f17d" />
+		<rom name="642a.p7" offset="0x600000" size="0x9824c" crc="9a331574" sha1="38454cca5e9dc003aa575b2463dd644a1f46a206" />
+		<rom name="642a.p8" offset="0x700000" size="0x67d3c" crc="473889f4" sha1="5120a1dd1ff8fa30836ac934f08cae73616983e7" />
+		<rom name="642a.p9" offset="0x800000" size="0x4b114" crc="73424cd1" sha1="fe48a88c10925e17e25e02d7728c80a7f72dd24f" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="642a.v1" offset="0x0" size="0x400000" crc="77656df1" sha1="c95a1b09ee77020c19d5ab58de4ab8dc8b94a3b4" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom name="642a.c0" offset="0x0" size="0x413b00" crc="d5a0e4dc" sha1="a3a34ba916c7df9ffdafdc25579d627784cfbdf1" />
+		<rom name="642a.c1" offset="0x500000" size="0x464d80" crc="35da6dbc" sha1="f5cc58620074a11363f0937f16c0eec6b6c0438e" />
+		<rom name="642a.c2" offset="0xa00000" size="0x398e80" crc="34482b96" sha1="a6a88e99d55a56a9e84e65e9edc68099214cdbd6" />
+		<rom name="642a.c3" offset="0xf00000" size="0x439780" crc="95aa9237" sha1="55a085727e3e30e40aa13e7444611226ab114b00" />
+		<rom name="642a.c4" offset="0x1400000" size="0x4f0d00" crc="4489296d" sha1="bd32f6647179080413d196b33a72280d2a1b6694" />
+		<rom name="642a.c5" offset="0x1900000" size="0x3eac00" crc="744c9151" sha1="503c2bdb07fe1677213368c4db1cc6acf236ca54" />
+		<rom name="642a.c6" offset="0x1e00000" size="0x2a2200" crc="1320af55" sha1="b6ea612bd689799a36cab1f6ab6ba213ce07b3ea" />
+		<rom name="642a.c7" offset="0x2300000" size="0x1cbf80" crc="95d6d202" sha1="2f10a548420b9d52ddd6b6698ba1fbeee6fcdfa1" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,26 @@
+<software name="avspj" cloneof="avsp">
+	<description>Alien vs. Predator (Japan 940520)</description>
+	<year>1994</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c52j.p1" offset="0x0" size="0x80000" crc="49799119" sha1="71a938b779291c3092ef6ef22935d89fd9c1186c" />
+		<rom loadflag="load16_word_swap" name="c52j.p2" offset="0x80000" size="0x80000" crc="8cd2bba8" sha1="1ea493d0d4b6e202ad38843b93035fa3f7e1b8c7" />
+		<rom loadflag="load16_word_swap" name="c52.p3" offset="0x100000" size="0x80000" crc="fbfb5d7a" sha1="5549bc9d780753bc9c10fba82588e5c3d4a2acb2" />
+		<rom loadflag="load16_word_swap" name="c52.p4" offset="0x180000" size="0x80000" crc="190b817f" sha1="9bcfc0a015ffba9cdac25b6270939a9690de5da7" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c52.m1" offset="0x0" size="0x8000" crc="2d3b4220" sha1="2b2d04d4282550fa9f6e1ad8528f20d1f2ac02eb" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="avspj.key" offset="0x0" size="0x14" crc="3d5ccc08" sha1="85b30ccde86e2e1f50e662598dc81d47219519a1" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c52.q1" offset="0x0" size="0x200000" crc="83499817" sha1="e65b0ebd61ddc748842a9d4d92404b5305307623" />
+		<rom loadflag="load16_word_swap" name="c52.q2" offset="0x200000" size="0x200000" crc="f4110d49" sha1="f27538776cc1ba8213f19f98728ed8c02508d3ac" />
+		</dataarea>
+	</part>
+</software>

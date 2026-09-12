@@ -1,0 +1,33 @@
+<software name="punisherh" cloneof="punisher">
+	<description>The Punisher (Hispanic 930422)</description>
+	<year>1993</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c26h.p1" offset="0x0" size="0x20000" crc="6ad2bb83" sha1="c1c5e8922af948955f53eb56d1b9902dd8944a71" />
+		<rom loadflag="load16_byte" name="c26h.p2" offset="0x1" size="0x20000" crc="058d3659" sha1="b3fad151f80e0cc21afff3ec00b7871f21d40437" />
+		<rom loadflag="load16_byte" name="c26h.p3" offset="0x40000" size="0x20000" crc="579f4fd3" sha1="5459da68e844db6e6249186aa31fe71aa72d9ff4" />
+		<rom loadflag="load16_byte" name="c26h.p4" offset="0x40001" size="0x20000" crc="2c9f70b5" sha1="c5d89f37def4b9340a0325e616306f0e9e68ab13" />
+		<rom loadflag="load16_byte" name="c26h.p5" offset="0x80000" size="0x20000" crc="faa14841" sha1="d998f1cdfba3305eb1398909d4b07e7492dbdec0" />
+		<rom loadflag="load16_byte" name="c26h.p6" offset="0x80001" size="0x20000" crc="5c5b1f20" sha1="47ee27dc9849a69c54a5a0e269b20e61f17f34c0" />
+		<rom loadflag="load16_byte" name="c26h.p7" offset="0xc0000" size="0x20000" crc="724fdfda" sha1="23d75e7864dfa0da8c2231785878fb05a5aac628" />
+		<rom loadflag="load16_byte" name="c26h.p8" offset="0xc0001" size="0x20000" crc="779cf901" sha1="6761edcf26084e44783f3eecd5822e50f1a099bd" />
+		<rom loadflag="load16_word_swap" name="c26.p9" offset="0x100000" size="0x80000" crc="8affa5a9" sha1="268760b83b1723ff50a019ec51ef7af2e49935bf" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c26.m1" offset="0x0" size="0x8000" crc="49ff4446" sha1="87af12f87a940a6c5428b4574ad44a4b54867bc3" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="punisher.key" offset="0x0" size="0x80" crc="6f47f8b8" sha1="6da917e977c84eabd3598bab8dfa7cb910a80d48" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="qsound" size="0x200000">
+		<rom name="c26.q1" offset="0x0" size="0x80000" crc="31fd8726" sha1="1d73a76682e9fb908db0c55b9a18163f7539fea1" />
+		<rom name="c26.q2" offset="0x80000" size="0x80000" crc="980a9eef" sha1="36571381f349bc726508a7e618ba1c635ec9d271" />
+		<rom name="c26.q3" offset="0x100000" size="0x80000" crc="0dd44491" sha1="903cea1d7f3120545ea3229d30fbd687d11ad68f" />
+		<rom name="c26.q4" offset="0x180000" size="0x80000" crc="bed42f03" sha1="21302f7e75f9c795392a3b34e16a959fc5f6e4e9" />
+		</dataarea>
+	</part>
+</software>

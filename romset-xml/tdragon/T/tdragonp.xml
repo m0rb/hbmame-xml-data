@@ -1,0 +1,33 @@
+<software name="tdragonp">
+	<description>Thunder Dragon (Practice Mode)</description>
+	<year>1991</year>
+	<publisher>Trap15</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_byte" name="91070_68k.8p" offset="0x0" size="0x20000" crc="6930fffc" sha1="571cc735dca654b77cd759b6cc52a74c24d88865" />
+		<rom loadflag="load16_byte" name="91070_68k.7p" offset="0x1" size="0x20000" crc="c2d90c90" sha1="d6c3dd955e516e9dc5efbb7aebc6dee9c49a8c98" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="91070.1" offset="0x0" size="0x10000" crc="bf493d74" sha1="6f8f5eff4b71fb6cabda10075cfa88a3f607859e" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_word_swap" name="91070.4" offset="0x0" size="0x100000" crc="3eedc2fe" sha1="9f48986c231a8fbc07f2b39b2017d1e967b2ed3c" />
+		</dataarea>
+		<dataarea name="bgtile" size="0x100000">
+		<rom name="91070.5" offset="0x0" size="0x100000" crc="d0bde826" sha1="3b74d5fc88a4a9329e101ee72f393608d327d816" />
+		</dataarea>
+		<dataarea name="fgtile" size="0x20000">
+		<rom name="91070.6" offset="0x0" size="0x20000" crc="fe365920" sha1="7581931cb95cd5a8ed40e4f5385b533e3d19af22" />
+		</dataarea>
+		<dataarea name="oki1" size="0x80000">
+		<rom name="91070.3" offset="0x0" size="0x80000" crc="ae6875a8" sha1="bfdb350b3d3fce2bead1ac60875beafe427765ed" />
+		</dataarea>
+		<dataarea name="oki2" size="0x80000">
+		<rom name="91070.2" offset="0x0" size="0x80000" crc="ecfea43e" sha1="d664dfa6698fec8e602523bdae16068f1ff6547b" />
+		</dataarea>
+		<dataarea name="proms" size="0x200">
+		<rom name="91070.9" offset="0x0" size="0x100" crc="cfdbb86c" sha1="588822f6308a860937349c9106c2b4b1a75823ec" />
+		<rom name="91070.10" offset="0x100" size="0x100" crc="e6ead349" sha1="6d81b1c0233580aa48f9718bade42d640e5ef3dd" />
+		</dataarea>
+	</part>
+</software>

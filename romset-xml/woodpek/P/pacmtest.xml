@@ -1,0 +1,14 @@
+<software name="pacmtest" cloneof="puckman">
+	<description>Pacman Test Rom (set 1)</description>
+	<year>19</year>
+	<publisher>David Widel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pactest.1" offset="0x0" size="0x1000" crc="c0423406" sha1="51630780dd7fa32a827d81a060906130fbe57345" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="ptest.5e" offset="0x0" size="0x1000" crc="a650e73e" sha1="e51df8e976259ea8b431dd13b6bc4728ba213d19" />
+		<rom name="ptest.5f" offset="0x1000" size="0x1000" crc="51aa0303" sha1="59fdfc5393e883d65bf00f8b3bbfb7173440dec3" />
+		</dataarea>
+	</part>
+</software>

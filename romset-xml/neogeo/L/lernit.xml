@@ -1,0 +1,17 @@
+<software name="lernit">
+	<description>Team Lernit</description>
+	<year>2018</year>
+	<publisher>Vasily Familiya</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom name="682.p1" offset="0x0" size="0xb6f1" crc="63d5cf31" sha1="331a65cec376b0c780ec506001b59f74cccbd5a3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="098.v1" offset="0x0" size="0x100000" crc="6f8ccddc" sha1="696df2d0f416c2374b0eb7c858486054688c5bca" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom name="682.c1" offset="0x0" size="0x47e80" crc="5e85884b" sha1="7d7ba5718cddc582f7f2ec20ed8e46e5800589a6" />
+		</dataarea>
+	</part>
+</software>
