@@ -1,0 +1,27 @@
+<software name="mspacmabscre" cloneof="mspacman">
+	<description>Ms. Pacman (Split Screen Solved)</description>
+	<year>2017</year>
+	<publisher>Mameplus</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="robot.3" offset="0x2000" size="0x1000" crc="1ae6f796" sha1="7d0e0fbf7379d8df7c48b9eccfa0bc0defeec5f9" />
+		<rom name="boot4" offset="0x3000" size="0x1000" crc="165a9dd8" sha1="3022a408118fa7420060e32a760aeef15b8a96cf" />
+		<rom name="robot.5" offset="0x8000" size="0x1000" crc="655796dd" sha1="cc4747e4572b2a1d01a407adbb20d94799d81e76" />
+		<rom name="screen.6" offset="0x9000" size="0x1000" crc="21538467" sha1="bae74137fee6bdc1ca07e71df3f83a8c676fb5e6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="5e" offset="0x0" size="0x1000" crc="5c281d01" sha1="5e8b472b615f12efca3fe792410c23619f067845" />
+		<rom name="5f" offset="0x1000" size="0x1000" crc="615af909" sha1="fd6a1dde780b39aea76bf1c4befa5882573c2ef4" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="82s126.1m" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="82s126.3m" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="82s123.7f" offset="0x0" size="0x20" crc="2fc650bd" sha1="8d0268dee78e47c712202b0ec4f1f51109b1f2a5" />
+		<rom name="82s126.4a" offset="0x20" size="0x100" crc="3eb3a8e4" sha1="19097b5f60d1030f8b82d9f1d3a241f93e5c75d6" />
+		</dataarea>
+	</part>
+</software>

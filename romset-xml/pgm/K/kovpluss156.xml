@@ -1,0 +1,29 @@
+<software name="kovpluss156" cloneof="kovplus">
+	<description>Knights of Valour Plus (God of War 2016 Color Changed Edition 2016-08-11)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_ph156.119" offset="0x100000" size="0x400000" crc="92be46c6" sha1="781519a35703af02ff32427c04209479a8ea1b2b" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u3" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_ph116.rom" offset="0x0" size="0x800000" crc="24091941" sha1="7fc28b716aa115815470add57f07d99c21e53f38" />
+		<rom name="a0601_ph116.rom" offset="0x800000" size="0x800000" crc="5f01af74" sha1="a150902df6427463da17016d8263ee5e6ee52ae3" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="pgm_a0603.u9" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_ph116.rom" offset="0x0" size="0x800000" crc="1ce751b1" sha1="6bb9297eb66d88ba4c6202bdc3b4142df51b13bd" />
+		<rom name="pgm_b0601.u7" offset="0x800000" size="0x400000" crc="a0bb1c2f" sha1="0542348c6e27779e0a98de16f04f9c18158f2b28" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_ph116.rom" offset="0x180000" size="0x800000" crc="b51c6edb" sha1="92bcb6d1cfa2ecbebba90fa2f2c5e378b10f6189" />
+		</dataarea>
+	</part>
+</software>

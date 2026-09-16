@@ -1,0 +1,28 @@
+<software name="daimakaimaiden" cloneof="ghouls">
+	<description>Daimakaimura - Maiden Artoria Edition (Japan)</description>
+	<year>2026</year>
+	<publisher>GoodLuckTrying</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="dmj_38maiden.12f" offset="0x0" size="0x20000" crc="7f436646" sha1="dd60f7757418e0b682c3d14ab1f077668aa328f6" />
+		<rom loadflag="load16_byte" name="dmj_39maiden.12h" offset="0x1" size="0x20000" crc="ebc72dee" sha1="f82157fdacfe6496398b8702cb4e97a3bcb750c5" />
+		<rom loadflag="load16_byte" name="dmj_40maiden.13f" offset="0x40000" size="0x20000" crc="a8371817" sha1="56f2be6fba857d026da3a0d4e801edd0e6e53d10" />
+		<rom loadflag="load16_byte" name="dmj_41maiden.13h" offset="0x40001" size="0x20000" crc="cd7de9bb" sha1="77dcf1128ae8fd2c5ef3ff9800f69aa875c56436" />
+		<rom loadflag="load16_byte" name="dm_33maiden.10f" offset="0x80000" size="0x20000" crc="0e47e3b3" sha1="3e0b12607f5745c5b4a789e68307cfd08da1ac18" />
+		<rom loadflag="load16_byte" name="dm_34maiden.10h" offset="0x80001" size="0x20000" crc="d9675957" sha1="43fd195995ec311bde79f6a17c47e938baaae545" />
+		<rom loadflag="load16_byte" name="dm_35maiden.11f" offset="0xc0000" size="0x20000" crc="c04b85c8" sha1="f8659624bb9d418d02f63f43478d3b53cfe18718" />
+		<rom loadflag="load16_byte" name="dm_36maiden.11h" offset="0xc0001" size="0x20000" crc="89be83de" sha1="6dfd1380304a85dee7cac4d0b2cfd7625b9020bf" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="37.13c" offset="0x0" size="0x8000" crc="3692f6e5" sha1="61b8438d60a39b4cf5062dff0a53228e8a4e4b5f" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="daimakai.key" offset="0x0" size="0x80" crc="4d1e621d" sha1="c3636962bee035aa0a26125d8af4826bf7f148e8" />
+		</dataarea>
+		<dataarea name="gfx" size="0x300000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		</dataarea>
+	</part>
+</software>

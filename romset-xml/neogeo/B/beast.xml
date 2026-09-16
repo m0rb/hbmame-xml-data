@@ -1,0 +1,18 @@
+<software name="beast">
+	<description>Shadow of the Beast (NeoGeo Demo)</description>
+	<year>2002</year>
+	<publisher>Jeff Kurtz</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="601.p1" offset="0x0" size="0x80000" crc="1f9e62a4" sha1="f245ce9802c5deb257a11fa714b2d1d4d72fc786" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="407.v1" offset="0x0" size="0x80000" crc="504bf849" sha1="13a184ec9e176371808938015111f8918cb4df7d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="601.c1" offset="0x0" size="0x80000" crc="e1974741" sha1="175b09778875a18f12e7b34c53862ac8c93141c1" />
+		<rom loadflag="load16_byte" name="601.c2" offset="0x1" size="0x80000" crc="9f5b9cf6" sha1="857595fc93bfec069c8b1cf647ab9feedce56f1f" />
+		</dataarea>
+	</part>
+</software>

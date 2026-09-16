@@ -1,0 +1,16 @@
+<software name="aa">
+	<description>Alien Armada</description>
+	<year>2003</year>
+	<publisher>David Widel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="aa.1" offset="0x0" size="0x1000" crc="7b73ff28" sha1="3b05c9ecaa418291b9b3501fbfd4a1e48be7281e" />
+		<rom name="aa.2" offset="0x1000" size="0x1000" crc="848ca2fa" sha1="d11e874a0bd0dcf88ed0781d7dc7b7d98b4ac1e8" />
+		<rom name="aa.3" offset="0x2000" size="0x1000" crc="b3d3ff37" sha1="0df28470eb70f4a84f24c2a86b4b9d338b9b6a76" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="aa.5e" offset="0x0" size="0x1000" crc="e69596af" sha1="b53ef6fce2d9fa1163f722a1a6be56085bde415c" />
+		<rom name="aa.5f" offset="0x1000" size="0x1000" crc="c26ecd63" sha1="40d618b171c7ea164384c2ded098520c77941cbc" />
+		</dataarea>
+	</part>
+</software>

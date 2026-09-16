@@ -1,0 +1,31 @@
+<software name="theglad08" cloneof="theglad">
+	<description>The Gladiator (Excalibur Vol. 2017 + Enhanced, 2017-11-04)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="v101_u6.u6" offset="0x100000" size="0x80000" crc="f799e866" sha1="dccc3c903357c40c3cf85ac0ae8fc12fb0f853a6" />
+		</dataarea>
+		<dataarea name="ics" size="0x1000000">
+		<rom name="igs_w04601b64m.u1" offset="0x400000" size="0x800000" crc="5f15ddb3" sha1="c38dcef8e06802a84e42a7fc9fa505475fc3ac65" />
+		</dataarea>
+		<dataarea name="igs023" size="0xa00000">
+		<rom name="igs_t04601w64m.u33" offset="0x180000" size="0x800000" crc="e5dab371" sha1="2e3c93958eb0326b6b84b95c2168626f26bbac76" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="igs_a04601w64m.u2" offset="0x0" size="0x800000" crc="d9b2e004" sha1="8e1882b800fe9f12d7d49303e7417ba5b6f8ef85" />
+		<rom name="igs_a04602w64m.u4" offset="0x800000" size="0x800000" crc="14f22308" sha1="7fad54704e8c97eab723f53dfb50fb3e7bb606d2" />
+		<rom name="igs_a04603w64m.u6" offset="0x1000000" size="0x800000" crc="8f621e17" sha1="b0f87f378e0115d0c95017ca0f1b0d508827a7c6" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="igs_b04601w64m.u11" offset="0x0" size="0x800000" crc="ee72bccf" sha1="73c25fe659f6c903447066e4ef83d2f580449d76" />
+		<rom name="igs_b04602w32m.u12" offset="0x800000" size="0x400000" crc="7dba9c38" sha1="a03d509274e8f6a500a7ebe2da5aab8bed4e7f2f" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="theglad_igs027a_v100_overseas_pw01.bin" offset="0x188" size="0x3e78" crc="bb1f6013" sha1="ac6109c64ed775dd38e732fc0f517db026f4239f" />
+		</dataarea>
+		<dataarea name="user1" endianness="little" size="0x800000">
+		<rom name="v101_pw01.u26" offset="0x0" size="0x200000" crc="9629273b" sha1="3004d44079ddd680ea426b00b2bcff5e9e123e81" />
+		</dataarea>
+	</part>
+</software>

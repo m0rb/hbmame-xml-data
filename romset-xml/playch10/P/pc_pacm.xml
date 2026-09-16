@@ -1,0 +1,16 @@
+<software name="pc_pacm">
+	<description>Pacman (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="pacman.u2" offset="0x0" size="0x2000" crc="db6c9324" sha1="f0d0fa49fbccc3b005742fc72a8dd3dce63909d1" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="pacman.u1" offset="0x4000" size="0x4000" crc="de2070ab" sha1="a9324a94fa3d5ae6396a90c3d6d8399de8f93bd1" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="2cd98ef6.prm" offset="0x0" size="0x10" crc="2cd98ef6" sha1="bd5142c6a29df674ab835c8beafff7e93712d88f" />
+		</dataarea>
+	</part>
+</software>

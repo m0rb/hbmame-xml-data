@@ -1,0 +1,33 @@
+<software name="arabianm01" cloneof="arabianm">
+	<description>Arabian Magic (Chinese, 2017-04-27)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="d29-23hc01.ic40" offset="0x0" size="0x40000" crc="dd54b8ed" sha1="2584ae22e52d2f5990cf0857ddd5707f8df4beb0" />
+		<rom loadflag="load32_byte" name="d29-22hc01.ic38" offset="0x1" size="0x40000" crc="4605b9e1" sha1="0d050754c37fdab7596385daf242054d50882872" />
+		<rom loadflag="load32_byte" name="d29-21hc01.ic36" offset="0x2" size="0x40000" crc="b3b115c1" sha1="31a7abf491c8cc568415d8684584137041c7c6b9" />
+		<rom loadflag="load32_byte" name="d29-20hc01.ic34" offset="0x3" size="0x40000" crc="e2725176" sha1="fe738d76efd491cf449909470a5c7f5023de6e38" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="d29-03hc01.ic66" offset="0x0" size="0x100000" crc="281fd530" sha1="6db5095ae49b12709086010fa112500e45901081" />
+		<rom loadflag="load16_byte" name="d29-04hc01.ic67" offset="0x1" size="0x100000" crc="29dc7a2d" sha1="2cf49f7680fead656f474442a4f0c8fd403d79a1" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x100000">
+		<rom name="d29-05hc01.ic68" offset="0x0" size="0x100000" crc="445b2514" sha1="2fd20bab02bd0bf242ef6c35ea2dc65c0e44ee91" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x140000">
+		<rom loadflag="load16_byte" name="d29-18.ic5" offset="0x100000" size="0x20000" crc="d97780df" sha1="d0f9d2fd7ce13f620bb44083bf012f67dda4b10b" />
+		<rom loadflag="load16_byte" name="d29-19.ic6" offset="0x100001" size="0x20000" crc="b1ad365c" sha1="1cd26d8feaaa06b50dfee32e9b7950b8ee92ac55" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="d29-01.ic17" offset="0x0" size="0x200000" crc="545ac4b3" sha1="f89513fca8a03cab11160aa1f0a9c3adbc8bda08" />
+		<rom loadflag="load16_byte" name="d29-02.ic18" offset="0x600000" size="0x100000" crc="ed894fe1" sha1="5bf2fb6abdcf25bc525a2c3b29dbf7aca0b18fea" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x100000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x80000">
+		<rom name="d29-08hc01.ic51" offset="0x0" size="0x80000" crc="531ef983" sha1="89d072c285677f35ca3564f7dc4018e2f0410ee6" />
+		</dataarea>
+	</part>
+</software>

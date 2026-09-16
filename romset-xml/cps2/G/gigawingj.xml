@@ -1,0 +1,25 @@
+<software name="gigawingj" cloneof="gigawing">
+	<description>Giga Wing (Japan 990223)</description>
+	<year>1999</year>
+	<publisher>Takumi (Capcom license)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c79j.p1" offset="0x0" size="0x80000" crc="fdd23b91" sha1="c805473d3dc6bdb7ce232a9d7181d213544b2e7b" />
+		<rom loadflag="load16_word_swap" name="c79j.p2" offset="0x80000" size="0x80000" crc="8c6e093c" sha1="a4864b3b54cf648af81f74e2936d2bb8b99d68a9" />
+		<rom loadflag="load16_word_swap" name="c79j.p3" offset="0x100000" size="0x80000" crc="43811454" sha1="2a9563c840bd934c7e94f434a01686b7ff92e6d2" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c79.m1" offset="0x0" size="0x8000" crc="4c6351d5" sha1="cef81fb7c4b8cb2ef1f8f3c27982aefbcbe38160" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="gigawingj.key" offset="0x0" size="0x14" crc="8121a25e" sha1="6e21e1f639394e0e442f6250a60f9d78e160ec09" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c79.q1" offset="0x0" size="0x400000" crc="e172acf5" sha1="d7b0963d66165f3607d887741c5e7ab952bcf2ff" />
+		<rom loadflag="load16_word_swap" name="c79.q2" offset="0x400000" size="0x400000" crc="4bee4e8f" sha1="c440b5a38359ec3b8002f39690b79bf78703f5d0" />
+		</dataarea>
+	</part>
+</software>

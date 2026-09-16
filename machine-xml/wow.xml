@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="wow" description="Wow cartridges">
+<software name="tst_wow2">
+	<description>Test Rom - Wizard of Wor (ver 0.2b)</description>
+	<year>2003</year>
+	<publisher>David Turner</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="wowmd02b.x1" offset="0x0" size="0x1000" crc="0af2f2c8" sha1="e883afe696c2a444c8691041f1b9e0e015dff517" />
+		</dataarea>
+	</part>
+</software>
+<software name="tst_wow3">
+	<description>Test Rom - Wizard of Wor (ver 0.3)</description>
+	<year>2004</year>
+	<publisher>David Turner</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="wowmd030.x1" offset="0x0" size="0x1000" crc="f493ec4d" sha1="030cd12e7a7e9ac346e8299df83b62480004c954" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

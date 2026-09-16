@@ -1,0 +1,18 @@
+<software name="kof96s62" cloneof="kof96">
+	<description>Kof&#x27;96 (Chinese Edition Rev.2)</description>
+	<year>1996</year>
+	<publisher>KVS</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="214s62.p1" offset="0x0" size="0x800000" crc="802a8874" sha1="c76857acf29366af9e3ac8bf07fad0976ec2607f" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xa00000">
+		<rom name="214s62.v1" offset="0x0" size="0xa00000" crc="4f14a72b" sha1="fb1105aa271ea14016f777017cf6079ff61e176f" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="214s62.c1" offset="0x0" size="0x1800000" crc="252e41e9" sha1="2844b65dce7a47c04da4473d5ef519cbbdab0e09" />
+		<rom loadflag="load16_byte" name="214s61.c2" offset="0x1" size="0x1800000" crc="e4a5e70d" sha1="4f4691d386cfd63015812475bc58b1e8ae4b23ff" />
+		</dataarea>
+	</part>
+</software>

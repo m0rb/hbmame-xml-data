@@ -1,0 +1,19 @@
+<software name="pbobblen03" cloneof="pbobblen">
+	<description>Puzzle Bobble Deluxe (bootleg)</description>
+	<year>2000</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="083s03.p1" offset="0x0" size="0x40000" crc="5ed56e87" sha1="b927c9fd907f90e1b5556c96f22b5245b23f07a6" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x380000">
+		<rom name="083.v3" offset="0x200000" size="0x100000" crc="0840cbc4" sha1="1adbd7aef44fa80832f63dfb8efdf69fd7256a57" />
+		<rom name="083.v4" offset="0x300000" size="0x80000" crc="0a548948" sha1="e1e4afd17811cb60401c14fbcf0465035165f4fb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="083.c5" offset="0x0" size="0x80000" crc="e89ad494" sha1="69c9ea415773af94ac44c48af05d55ada222b138" />
+		<rom loadflag="load16_byte" name="083.c6" offset="0x1" size="0x80000" crc="4b42d7eb" sha1="042ae50a528cea21cf07771d3915c57aa16fd5af" />
+		</dataarea>
+	</part>
+</software>

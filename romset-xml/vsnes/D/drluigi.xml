@@ -1,0 +1,16 @@
+<software name="drluigi" cloneof="drmario">
+	<description>Dr. Luigi</description>
+	<year>2019</year>
+	<publisher>Szemigi</publisher>
+	<part name="cart">
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="dl-u3chr" offset="0x0" size="0x8000" crc="07f8d222" sha1="f6a0e418ab6da29eda25d0b871df072c16ded4fe" />
+		</dataarea>
+		<dataarea name="ppu1:palette" size="0xc0">
+		<rom name="dl_rp2c04-0003.pal" offset="0x0" size="0xc0" crc="c40eea5f" sha1="2b4a03f709441e8d4344d6e39060b8d9a376074f" />
+		</dataarea>
+		<dataarea name="prg" size="0x10000">
+		<rom name="dl-uiprg" offset="0x0" size="0x10000" crc="bcef3c87" sha1="797f09e3c7b07a1b0828d44b0302a81a9d62a0e8" />
+		</dataarea>
+	</part>
+</software>

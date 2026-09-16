@@ -1,0 +1,17 @@
+<software name="shaman16">
+	<description>Shaman King demo 0.16</description>
+	<year>2018</year>
+	<publisher>Vasily Familiya</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom name="688.p1" offset="0x0" size="0x682f9" crc="19223e4e" sha1="944e1dc661a77bdc80c0b83bd72e988d498e5f23" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="098.v1" offset="0x0" size="0x100000" crc="6f8ccddc" sha1="696df2d0f416c2374b0eb7c858486054688c5bca" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom name="688.c1" offset="0x0" size="0x3ce380" crc="1174dafe" sha1="493fc5da846b1369529a819efe87d4a5438af02f" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,16 @@
+<software name="pcmbdemo">
+	<description>ADPCM-B Playback Demo</description>
+	<year>2015</year>
+	<publisher>Freem</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="670.p1" offset="0x0" size="0x80000" crc="904e90ad" sha1="1e13a81a2e0b1926d1745288e81dc51cd1ade5ac" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="670.v1" offset="0x0" size="0x80000" crc="baffec3e" sha1="58ec4b684220ea558ed7dea99dfed1d24c57e662" />
+		</dataarea>
+		<dataarea name="sprites" size="0x10000">
+		</dataarea>
+	</part>
+</software>

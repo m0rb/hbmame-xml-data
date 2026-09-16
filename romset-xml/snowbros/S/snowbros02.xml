@@ -1,0 +1,17 @@
+<software name="snowbros02">
+	<description>Snow Bros (Cure Version 2.6A)</description>
+	<year>1990</year>
+	<publisher>EMU_MAX</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom loadflag="load16_byte" name="sn6.s02" offset="0x0" size="0x20000" crc="f756cd9d" sha1="99a43d9233501c1c28cf74829138527bf990a3d7" />
+		<rom loadflag="load16_byte" name="sn5.s02" offset="0x1" size="0x20000" crc="cdaa04ed" sha1="d2bde893aa82b84783712c3156aa7f23322f76bf" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x80000">
+		<rom name="sbros-1.41" offset="0x0" size="0x80000" crc="16f06b3a" sha1="c64d3b2d32f0f0fcf1d8c5f02f8589d59ddfd428" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x10000">
+		<rom name="sbros-4.29" offset="0x0" size="0x8000" crc="e6eab4e4" sha1="d08187d03b21192e188784cb840a37a7bdb5ad32" />
+		</dataarea>
+	</part>
+</software>

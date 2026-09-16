@@ -1,0 +1,23 @@
+<software name="hkittymp">
+	<description>Hello Kitty Magical Pumpkin (Japan 960712)</description>
+	<year>1996</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c36.p1" offset="0x0" size="0x80000" crc="38b9883a" sha1="94a89a360a502f209aa905e7eb2f1d472960850f" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c36.m1" offset="0x0" size="0x8000" crc="0b5b1b72" sha1="a8883f141a00870c98a74d9d57378c4a607dc590" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sfach.key" offset="0x0" size="0x80" crc="8ac48367" sha1="aeeab2c3436009d05dd9caa1b1929af4d7e607ae" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c36.v1" offset="0x0" size="0x20000" crc="cef6d39e" sha1="3180a3f397b5c4fbbc2b8f84cf461764ddd10d4e" />
+		<rom name="c36.v2" offset="0x20000" size="0x20000" crc="24947f8e" sha1="e26270962cc4b0f9a6a5c306fa09d2cdd524cfa9" />
+		</dataarea>
+	</part>
+</software>

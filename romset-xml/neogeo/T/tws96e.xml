@@ -1,0 +1,23 @@
+<software name="tws96e" cloneof="tws96">
+	<description>Tecmo World Soccer &#x27;96 (Earlier)</description>
+	<year>1996</year>
+	<publisher>Tecmo</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="086.p1" offset="0x0" size="0x100000" crc="03e20ab6" sha1="3a0a5a54649178ce7a6158980cb4445084b40fb5" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="086.v1" offset="0x0" size="0x200000" crc="97bf1986" sha1="b80d3a37e18d0a52f1e0092dc300989c9647efd1" />
+		<rom name="086.v2" offset="0x200000" size="0x200000" crc="b7eb05df" sha1="ff2b55c7021c248cfdcfc9cd3658f2896bcbca38" />
+		</dataarea>
+		<dataarea name="sprites" size="0xa00000">
+		<rom loadflag="load16_byte" name="086e.c1" offset="0x400000" size="0x200000" crc="d301a867" sha1="6ec5ef48943750ac03d7b574b1aa87b84f01dfab" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="086e.c2" offset="0x400001" size="0x200000" crc="305fc74f" sha1="27b3c9eb96dadea05a5f3252e425eb605e12c619" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		<rom loadflag="load16_byte" name="086.c3" offset="0x800000" size="0x100000" crc="750ddc0c" sha1="9304a83d81afd544d88be0cd3ee47ae401d2da0e" />
+		<rom loadflag="load16_byte" name="086.c4" offset="0x800001" size="0x100000" crc="7a6e7d82" sha1="b1bb82cec3d68367d5e01e63c44c11b67e577411" />
+		</dataarea>
+	</part>
+</software>

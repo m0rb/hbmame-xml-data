@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="endurord" description="Endurord cartridges">
+<software name="endurorrc" cloneof="enduror">
+	<description>Enduro Racer (retroclinic bootleg)</description>
+	<year>2018</year>
+	<publisher>RetroClinic</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom loadflag="load16_byte" name="dpr-7640a.ic97" offset="0x0" size="0x8000" crc="259bd1d2" sha1="4e579ae60323012e62a46d01903c2d0ccde6f757" />
+		<rom loadflag="load16_byte" name="dpr-7636a.ic84" offset="0x1" size="0x8000" crc="fd10fc0f" sha1="4d19328308cba3590c930287f38ecf44dc61d4e4" />
+		<rom loadflag="load16_byte" name="bootleg_epr-7641.ic98" offset="0x10000" size="0x8000" crc="2153154a" sha1="145d8ed59812d26ca412a01ae77cd7872adaba5a" />
+		<rom loadflag="load16_byte" name="bootleg_epr-7637.ic85" offset="0x10001" size="0x8000" crc="0a97992c" sha1="7a6fc8c575637107ed07a30f6f0f8cb8877cbb43" />
+		<rom loadflag="load16_byte" name="bootleg_epr-7642.ic99" offset="0x20000" size="0x8000" crc="f6391091" sha1="3160b342b6447cccf67c932c7c1a42354cdfb058" />
+		<rom loadflag="load16_byte" name="bootleg_epr-7638.ic86" offset="0x20001" size="0x8000" crc="79b367d7" sha1="e901036b1b9fac460415d513837c8f852f7750b0" />
+		</dataarea>
+		<dataarea name="sprites" endianness="little" size="0x100000">
+		<rom loadflag="load32_byte" name="epr-7678.ic36" offset="0x0" size="0x8000" crc="9fb5e656" sha1="264b0ad017eb0fc7e0b542e6dd160ba964c100fd" />
+		<rom loadflag="load32_byte" name="epr-7670.ic28" offset="0x1" size="0x8000" crc="dbbe2f6e" sha1="310797a61f91d6866e728e0da3b30828e06d1b52" />
+		<rom loadflag="load32_byte" name="epr-7662.ic18" offset="0x2" size="0x8000" crc="cb0c13c5" sha1="856d1234fd8f8146e20fe6c65c0a535b7b7512cd" />
+		<rom loadflag="load32_byte" name="epr-7654.ic8" offset="0x3" size="0x8000" crc="2db6520d" sha1="d16739e84316b4bd26963b729208169bbf01f499" />
+		<rom loadflag="load32_byte" name="epr-7677.ic35" offset="0x20000" size="0x8000" crc="7764765b" sha1="62543130816c084d292f229a15b3ce1305c99bb3" />
+		<rom loadflag="load32_byte" name="epr-7669.ic27" offset="0x20001" size="0x8000" crc="f9525faa" sha1="fbe2f67a9baee069dbca26a669d0a263bcca0d09" />
+		<rom loadflag="load32_byte" name="epr-7661.ic17" offset="0x20002" size="0x8000" crc="fe93a79b" sha1="591025a371a451c9cddc8c7480c9841a18bb9a7f" />
+		<rom loadflag="load32_byte" name="epr-7653.ic7" offset="0x20003" size="0x8000" crc="46a52114" sha1="d646ab03c1985953401619457d03072833edc6c7" />
+		<rom loadflag="load32_byte" name="epr-7676.ic34" offset="0x40000" size="0x8000" crc="2e42e0d4" sha1="508f6f89e681b59272884ba129a5c6ffa1b6ba05" />
+		<rom loadflag="load32_byte" name="epr-7668.ic26" offset="0x40001" size="0x8000" crc="e115ce33" sha1="1af591bc1567b89d0de399e4a02d896fba938bab" />
+		<rom loadflag="load32_byte" name="epr-7660.ic16" offset="0x40002" size="0x8000" crc="86dfbb68" sha1="a05ac16fbe3aaf34dd46229d4b71fc1f72a3a556" />
+		<rom loadflag="load32_byte" name="epr-7652.ic6" offset="0x40003" size="0x8000" crc="2880cfdb" sha1="94b78d78d82c324ca108970d8689f1d6b2ca8a24" />
+		<rom loadflag="load32_byte" name="epr-7675.ic33" offset="0x60000" size="0x8000" crc="05cd2d61" sha1="51688a5a9bc4da3f88ce162ff30affe8c6d3d0c8" />
+		<rom loadflag="load32_byte" name="epr-7667.ic25" offset="0x60001" size="0x8000" crc="923bde9d" sha1="7722a7fdbf45f862f1011d1afae8dedd5885bf52" />
+		<rom loadflag="load32_byte" name="epr-7659.ic15" offset="0x60002" size="0x8000" crc="629dc8ce" sha1="4af2a53678890b02922dee54f7cd3c5550001572" />
+		<rom loadflag="load32_byte" name="epr-7651.ic5" offset="0x60003" size="0x8000" crc="d7902bad" sha1="f4872d1a42dcf7d5dbdbc1233606a706b39478d7" />
+		<rom loadflag="load32_byte" name="epr-7674.ic32" offset="0x80000" size="0x8000" crc="1a129acf" sha1="ebaa60ccedc95c58af3ce99105b924b303827f6e" />
+		<rom loadflag="load32_byte" name="epr-7666.ic24" offset="0x80001" size="0x8000" crc="23697257" sha1="19453b14e8e6789e4c48a80d1b83dbaf37fbdceb" />
+		<rom loadflag="load32_byte" name="epr-7658.ic14" offset="0x80002" size="0x8000" crc="1677f24f" sha1="4786996cc8a04344e82ec9be7c4e7c8a005914a3" />
+		<rom loadflag="load32_byte" name="epr-7650.ic4" offset="0x80003" size="0x8000" crc="642635ec" sha1="e42bbae178e9a139325633e8c85a606c91e39e36" />
+		<rom loadflag="load32_byte" name="epr-7673.ic31" offset="0xa0000" size="0x8000" crc="82602394" sha1="d714f397f33a52429f394fc4c403d39be7911ccf" />
+		<rom loadflag="load32_byte" name="epr-7665.ic23" offset="0xa0001" size="0x8000" crc="12d77607" sha1="5b5d25646336a8ceae449d5b7a6b70372d81dd8b" />
+		<rom loadflag="load32_byte" name="epr-7657.ic13" offset="0xa0002" size="0x8000" crc="8158839c" sha1="f22081caf11d6b57488c969b5935cd4686e11197" />
+		<rom loadflag="load32_byte" name="epr-7649.ic3" offset="0xa0003" size="0x8000" crc="4edba14c" sha1="db0aab94de50f8f9501b7afd2fff70fb0a6b2b36" />
+		<rom loadflag="load32_byte" name="epr-7672.ic30" offset="0xc0000" size="0x8000" crc="d11452f7" sha1="f68183053005a26c0014050592bad6d63325895e" />
+		<rom loadflag="load32_byte" name="epr-7664.ic22" offset="0xc0001" size="0x8000" crc="0df2cfad" sha1="d62d12922be921967da37fbc624aaed72c4a2a98" />
+		<rom loadflag="load32_byte" name="epr-7656.ic12" offset="0xc0002" size="0x8000" crc="6c741272" sha1="ccaedda1436ddc339377e610d51e13726bb6c7eb" />
+		<rom loadflag="load32_byte" name="epr-7648.ic2" offset="0xc0003" size="0x8000" crc="983ea830" sha1="9629476a300ba711893775ca94dce81a00afd246" />
+		<rom loadflag="load32_byte" name="epr-7671.ic29" offset="0xe0000" size="0x8000" crc="b0c7fdc6" sha1="c9e0993fed36526e0e46ab2da9413af24b96cae8" />
+		<rom loadflag="load32_byte" name="epr-7663.ic21" offset="0xe0001" size="0x8000" crc="2b0b8f08" sha1="14aa1e6866f1c23c9ff271e8f216f6ecc21601ab" />
+		<rom loadflag="load32_byte" name="epr-7655.ic11" offset="0xe0002" size="0x8000" crc="3433fe7b" sha1="636449a0707d6629bf6ea503cfb52ad24af1c017" />
+		<rom loadflag="load32_byte" name="epr-7647.ic1" offset="0xe0003" size="0x8000" crc="2e7fbec0" sha1="a59ec5fc3341833671fb948cd21b47f3a49db538" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x18000">
+		<rom name="epr-7644.ic31" offset="0x0" size="0x8000" crc="e7a4ff90" sha1="06d18470019041e32be9a969870cd995de626cd6" />
+		<rom name="epr-7645.ic46" offset="0x8000" size="0x8000" crc="4caa0095" sha1="a24c741cdca0542e462f17ff94f132c62710e198" />
+		<rom name="epr-7646.ic60" offset="0x10000" size="0x8000" crc="7e432683" sha1="c8249b23fce77eb456166161c2d9aa34309efe31" />
+		</dataarea>
+		<dataarea name="pcm" size="0x20000">
+		<rom name="epr-7681.ic8" offset="0x0" size="0x8000" crc="bc0c4d12" sha1="3de71bde4c23e3c31984f20fc4bc7e221354c56f" />
+		<rom name="epr-7680.ic7" offset="0x10000" size="0x8000" crc="627b3c8c" sha1="806fe7dce619ad19c09178061be4607d2beba14d" />
+		</dataarea>
+		<dataarea name="segaic16road" size="0x8000">
+		<rom name="epr-7633.ic1" offset="0x0" size="0x8000" crc="6f146210" sha1="2f58f0c3563b434ed02700b9ca1545a696a5716e" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x10000">
+		<rom name="epr-7682.ic58" offset="0x0" size="0x8000" crc="c4efbf48" sha1="2bcbc4757d98f291fcaec467abc36158b3f59be3" />
+		</dataarea>
+		<dataarea name="sprites:zoom" size="0x2000">
+		<rom name="epr-6844.ic123" offset="0x0" size="0x2000" crc="e3ec7bd6" sha1="feec0fe664e16fac0fde61cf64b401b9b0575323" />
+		</dataarea>
+		<dataarea name="subcpu" size="0x40000">
+		<rom loadflag="load16_byte" name="epr-7634a.ic54" offset="0x0" size="0x8000" crc="aec83731" sha1="3fe2d0f1a8806b850836741d664c07754a701459" />
+		<rom loadflag="load16_byte" name="epr-7635a.ic67" offset="0x1" size="0x8000" crc="b2fce96f" sha1="9d6c1a7c2bdbf86430b849a5f6c6fdb5595dc91c" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

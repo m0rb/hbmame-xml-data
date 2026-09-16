@@ -1,0 +1,26 @@
+<software name="kovsho145" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Ginger Iron Horse 2019-12-26)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po145.rom" offset="0x100000" size="0x200000" crc="3ba88b2c" sha1="9c37a963024bb43b196608393bb69e27fe75996e" />
+		<rom loadflag="load16_word_swap" name="p0601h_101_po145.rom" offset="0x300000" size="0x200000" crc="7ca150c7" sha1="6b01ff9a4eaeedf519fde06cb2b851e0233f1539" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u5" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.asic" offset="0x0" size="0x4000" crc="0f09a5c1" sha1="621b38c05f33277608d58b49822aebc930ae4870" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_po145.rom" offset="0x0" size="0x2000000" crc="6f06104e" sha1="f21f0f87fcbd3aedea55f12e8552b028e16ecd36" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_po145.rom" offset="0x0" size="0x1000000" crc="8235d4ba" sha1="e194bf83f6581bc851b3f3a70d07eb7a547a65c4" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="pgm_t0600.u2" offset="0x180000" size="0x800000" crc="4acc1ad6" sha1="0668dbd5e856c2406910c6b7382548b37c631780" />
+		</dataarea>
+	</part>
+</software>

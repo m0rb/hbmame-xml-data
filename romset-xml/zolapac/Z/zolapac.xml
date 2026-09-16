@@ -1,0 +1,15 @@
+<software name="zolapac" cloneof="mspacman">
+	<description>Super Zola Pac Gal</description>
+	<year>2000</year>
+	<publisher>Tqwn Amusement</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="zolapac1.bin" offset="0x0" size="0x4000" crc="1aa2f312" sha1="7b9685355e398c97de6972ec947fb11ca627a4d3" />
+		<rom name="zolapac2.bin" offset="0x8000" size="0x2000" crc="420ff603" sha1="a314c28ec5c526da91535fd47f51c95539a2e8e8" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="5e" offset="0x0" size="0x1000" crc="5c281d01" sha1="5e8b472b615f12efca3fe792410c23619f067845" />
+		<rom name="5f" offset="0x1000" size="0x1000" crc="615af909" sha1="fd6a1dde780b39aea76bf1c4befa5882573c2ef4" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,25 @@
+<software name="fatfursp05" cloneof="fatfursp">
+	<description>Fatal Fury Special (Optional Hidden Character Second Edition)</description>
+	<year>1993</year>
+	<publisher>Dodowang</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x180000">
+		<rom loadflag="load16_word_swap" name="058s05.p1" offset="0x0" size="0x100000" crc="5da7db92" sha1="755c90b1a722a844c0e518ca188d915317c5abb0" />
+		<rom loadflag="load16_word_swap" name="058.p2" offset="0x100000" size="0x80000" crc="d7c71a6b" sha1="b3428063031a2e5857da40a5d2ffa87fb550c1bb" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x500000">
+		<rom name="058.v1" offset="0x0" size="0x200000" crc="55d7ce84" sha1="05ac6a395d9bf9166925acca176a8d6129f533c8" />
+		<rom name="058.v2" offset="0x200000" size="0x200000" crc="ee080b10" sha1="29814fc21bbe30d37745c8918fab00c83a309be4" />
+		<rom name="058.v3" offset="0x400000" size="0x100000" crc="f9eb3d4a" sha1="d1747f9460b965f6daf4f881ed4ecd04c5253434" />
+		</dataarea>
+		<dataarea name="sprites" size="0xc00000">
+		<rom loadflag="load16_byte" name="058.c1" offset="0x0" size="0x200000" crc="044ab13c" sha1="569d283638a132bc163faac2a9055497017ee0d2" />
+		<rom loadflag="load16_byte" name="058.c2" offset="0x1" size="0x200000" crc="11e6bf96" sha1="c093a4f93f13e07b276e28b30c2a14dda9135d8f" />
+		<rom loadflag="load16_byte" name="058.c3" offset="0x400000" size="0x200000" crc="6f7938d5" sha1="be057b0a3faeb76d5fff161d3e6fea8a26e11d2c" />
+		<rom loadflag="load16_byte" name="058.c4" offset="0x400001" size="0x200000" crc="4ad066ff" sha1="4e304646d954d5f7bbabc5d068e85de31d38830f" />
+		<rom loadflag="load16_byte" name="058.c5" offset="0x800000" size="0x200000" crc="49c5e0bf" sha1="f3784178f90751990ea47a082a6aa869ee3566c9" />
+		<rom loadflag="load16_byte" name="058.c6" offset="0x800001" size="0x200000" crc="8ff1f43d" sha1="6180ceb5412a3e2e34e9513a3283b9f63087f747" />
+		</dataarea>
+	</part>
+</software>

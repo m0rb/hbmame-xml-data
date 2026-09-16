@@ -1,0 +1,26 @@
+<software name="ms5pcbd" cloneof="ms5pcb">
+	<description>Metal Slug 5 (JAMMA PCB) (Decrypted)</description>
+	<year>2003</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load32_word_swap" name="268.p1" offset="0x0" size="0x400000" crc="d0466792" sha1="880819933d997fab398f91061e9dbccb959ae8a1" />
+		<rom loadflag="load32_word_swap" name="268.p2" offset="0x2" size="0x400000" crc="fbf6b61e" sha1="9ec743d5988b5e3183f37f8edf45c72a8c0c893e" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x90000">
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="268pcbd.v1" offset="0x0" size="0x1000000" crc="4182838b" sha1="03e58b6709db467e92397b26b84658f5adb0ff92" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="268pcbd.c1" offset="0x0" size="0x1000000" crc="996debed" sha1="ec6965a24862541f337a1b7e259038b9b40ad1d2" />
+		<rom loadflag="load16_byte" name="268pcbd.c2" offset="0x1" size="0x1000000" crc="960a9764" sha1="687cf957d91ef9da219b573f444e668209dcea41" />
+		<rom loadflag="load16_byte" name="268pcbd.c3" offset="0x2000000" size="0x1000000" crc="f699994f" sha1="ff079d3c126e9611760956d51c5df66d8013dd78" />
+		<rom loadflag="load16_byte" name="268pcbd.c4" offset="0x2000001" size="0x1000000" crc="49e902e8" sha1="289a560ffe3d50abd773c61fa2df3c1f18d7e803" />
+		</dataarea>
+		<dataarea name="audiocrypt" size="0x80000">
+		<rom name="268.m1" offset="0x0" size="0x80000" crc="4a5a6e0e" sha1="df0f660f2465e1db7be5adfcaf5e88ad61a74a42" />
+		</dataarea>
+	</part>
+</software>

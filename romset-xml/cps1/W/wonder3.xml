@@ -1,0 +1,30 @@
+<software name="wonder3" cloneof="3wonders">
+	<description>Wonder 3 (Japan 910520)</description>
+	<year>1991</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c15j.p1" offset="0x0" size="0x20000" crc="e3741247" sha1="4deb0f667697631693fbefddaeb8cf98fd0b90ce" />
+		<rom loadflag="load16_byte" name="c15j.p2" offset="0x1" size="0x20000" crc="b4baa117" sha1="44486b3d50f9b0a8c32c2c2dc5f1a046aface7b6" />
+		<rom loadflag="load16_byte" name="c15j.p3" offset="0x40000" size="0x20000" crc="a1f677b0" sha1="e1511ea0fa4a689d1355119ac37c075192880dde" />
+		<rom loadflag="load16_byte" name="c15j.p4" offset="0x40001" size="0x20000" crc="85337a47" sha1="0a247aa56c5cc17b1e888df7b502f65e88715469" />
+		<rom loadflag="load16_byte" name="c15.p5" offset="0x80000" size="0x20000" crc="054137c8" sha1="e4c406e0a32198323a5931093fbaa6836510b8ad" />
+		<rom loadflag="load16_byte" name="c15.p6" offset="0x80001" size="0x20000" crc="7264cb1b" sha1="b367acb9f6579569321ecaa98a14e29dd775b9db" />
+		<rom loadflag="load16_byte" name="c15j.p7" offset="0xc0000" size="0x20000" crc="e72f9ea3" sha1="c63df200416bd61af73e8589204f7daef743041e" />
+		<rom loadflag="load16_byte" name="c15j.p8" offset="0xc0001" size="0x20000" crc="a11ee998" sha1="b892398e2ff4e40e51b858cfdbce866a75c670e6" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c15.m1" offset="0x0" size="0x8000" crc="abfca165" sha1="428069d3bdc45775854cd0e8abe447f134fe5492" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="3wondersj.key" offset="0x0" size="0x80" crc="2458f392" sha1="63080dc3faa960d14d1e2aa582413575c113adfe" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c15.v1" offset="0x0" size="0x20000" crc="26b211ab" sha1="0ea03fdd9edff41eacfc52aa9e0421c10968356b" />
+		<rom name="c15.v2" offset="0x20000" size="0x20000" crc="dbe64ad0" sha1="09f2ad522fe75d7bcca094b8c6696c3733b539d5" />
+		</dataarea>
+	</part>
+</software>

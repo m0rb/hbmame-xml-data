@@ -1,0 +1,35 @@
+<software name="bstarsd" cloneof="bstars">
+	<description>Baseball Stars Professional (MGD2)</description>
+	<year>1990</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n002001a.038" offset="0x1" size="0x40000" crc="68ce5b06" sha1="cab050a4efcf346463609910b367f7f6c1c0158b" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="002.v11" offset="0x0" size="0x80000" crc="b7b925bd" sha1="644c92fa90e74998e73714f74b1e0680ee372a07" />
+		<rom name="002.v12" offset="0x80000" size="0x80000" crc="329f26fc" sha1="2c8009edc88c6b26f7be5beb2b8d260aac394ee1" />
+		<rom name="002.v13" offset="0x100000" size="0x80000" crc="0c39f3c8" sha1="db8f8670639601215707d918d4fb93221460446a" />
+		<rom name="002.v14" offset="0x180000" size="0x80000" crc="c7e11c38" sha1="5abf2a7877e0162c758a4dcf09f183930fa7ef24" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x80000">
+		<rom name="002.v21" offset="0x0" size="0x80000" crc="04a733d1" sha1="84159368c0f6de2c3b8121227201cd3422455cf6" />
+		</dataarea>
+		<dataarea name="sprites" size="0x300000">
+		<rom loadflag="load32_byte" name="n002001a.538" offset="0x0" size="0x40000" crc="c55a7229" sha1="23a28f8ba6c1339dde4f674bbca6e6cffafabcc7" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n002001a.638" offset="0x1" size="0x40000" crc="cd3eeb2d" sha1="3997788c063cea48a901ff6033574d2c8a9e0516" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n002001a.53c" offset="0x100000" size="0x40000" crc="a0074bd9" sha1="f1b1ba3630befd595d141bfc580b1bbe01bee324" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n002001a.63c" offset="0x100001" size="0x40000" crc="d651fecf" sha1="3e7bbda2ecd487e568f8e8eb9b141941d6a761b9" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n002001b.538" offset="0x200000" size="0x40000" crc="d57767e6" sha1="cf18dd9cf6f9da09af7be5e0c9f7f12eaa61c129" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n002001b.638" offset="0x200001" size="0x40000" crc="5d0a8692" sha1="1a0f767d11f73fd41aa2f1840fc300fb23b8d262" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

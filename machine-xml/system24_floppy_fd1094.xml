@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="system24_floppy_fd1094" description="System24_Floppy_Fd1094 cartridges">
+<software name="gground01" cloneof="gground">
+	<description>Gain Ground (Restore Bug 4-8 Enemy Count)</description>
+	<year>1988</year>
+	<publisher>Wayder</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom loadflag="load16_byte" name="epr-12187.ic2" offset="0x0" size="0x20000" crc="e83783f3" sha1="4b3b32df7de85aef9cd77c8a4ffc17e10466b638" />
+		<rom loadflag="load16_byte" name="epr-12186.ic1" offset="0x1" size="0x20000" crc="ce76319d" sha1="0ede61f0700f9161285c768fa97636f0e42b96f8" />
+		</dataarea>
+		<dataarea name="floppy" size="0x1c2000">
+		<rom name="ds3-5000-03d-rev-a_s01.img" offset="0x0" size="0x1c2000" crc="8e31bbea" sha1="d419245a52c266630d15dfb6927a7c445f068459" />
+		</dataarea>
+		<dataarea name="subcpu:key" size="0x2000">
+		<rom name="317-0058-03d.key" offset="0x0" size="0x2000" crc="e1785bbd" sha1="b4bebb2829299f1c0815d6a5f317a2526b322f63" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

@@ -1,0 +1,29 @@
+<software name="mhavocpe" cloneof="mhavoc">
+	<description>Major Havoc - The Promised End (v1.01) ENGLISH - ADPCM Speech</description>
+	<year>2022</year>
+	<publisher>JMA</publisher>
+	<part name="cart">
+		<dataarea name="alpha" size="0x20000">
+		<rom name="mhpe101.1mn" offset="0x8000" size="0x4000" crc="8b4b1c7c" sha1="9840532b78f5ca7e9785d35883f191b46d0e1436" />
+		<rom name="mhpe101.1l" offset="0xc000" size="0x4000" crc="90348169" sha1="58227bd56d123aa76c8f287f75b83a3a7cc6d1d2" />
+		<rom name="mhpe101.1q" offset="0x10000" size="0x8000" crc="d5d86868" sha1="ddc6330a55106dadefa356b55f1562affb9ebc00" />
+		<rom name="mhpe101.1np" offset="0x18000" size="0x8000" crc="6f7b38a9" sha1="0107cc88a54780c6bca97afbf0e99adf1f4ceba1" />
+		</dataarea>
+		<dataarea name="avg" size="0x8000">
+		<rom name="mhpe101.6h" offset="0x0" size="0x4000" crc="6b380183" sha1="2fad9dc301aa5622195e3acac2865339406ccc38" />
+		<rom name="mhpe101.6jk" offset="0x4000" size="0x4000" crc="7ecfd43b" sha1="7f99fde09062bc4ca4bbbf06f1b11dc3f5203541" />
+		</dataarea>
+		<dataarea name="avg:prom" size="0x100">
+		<rom name="136002-125.6c" offset="0x0" size="0x100" crc="5903af03" sha1="24bc0366f394ad0ec486919212e38be0f08d0239" />
+		</dataarea>
+		<dataarea name="gamma" size="0x10000">
+		<rom name="mhpe101.9s" offset="0x8000" size="0x4000" crc="46cdd0fa" sha1="f6c75333311279b15cb42ce3ed8a40e54a508869" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="mhpe101.x1" offset="0x0" size="0x40000" crc="aade65d1" sha1="7e379ee84ee36395095ce68d1c1da4fcf907a07e" />
+		</dataarea>
+		<dataarea name="vectorrom" size="0x2000">
+		<rom name="mhpe101.6kl" offset="0x0" size="0x2000" crc="ddcaab40" sha1="d70b91137204ebbf2685fe22a3498cb6014a7bef" />
+		</dataarea>
+	</part>
+</software>

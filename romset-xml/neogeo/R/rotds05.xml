@@ -1,0 +1,25 @@
+<software name="rotds05" cloneof="rotd">
+	<description>Rage of the Dragons (Enable Hidden Characters &amp; Boss V4)</description>
+	<year>2002</year>
+	<publisher>Dodowang[EGCG]</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="264s05.p1" offset="0x0" size="0x800000" crc="44889313" sha1="45b7cbdb9cdc57f0218d372558aaae5fb87766f6" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="264.v1" offset="0x0" size="0x800000" crc="fa005812" sha1="73723126dab5a640ac11955ed6da1bf7a91394f5" />
+		<rom name="264.v2" offset="0x800000" size="0x800000" crc="c3dc8bf0" sha1="a105e37262d9500a30fb8a5dac05aa4fab2562a3" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="264s05.c1" offset="0x0" size="0x800000" crc="a9df0cce" sha1="3bf0a30aa314a5ad390b3c7413c7828c8f71d555" />
+		<rom loadflag="load16_byte" name="264s05.c2" offset="0x1" size="0x800000" crc="8b390a0b" sha1="7eb6c839a44f22d23dffddd50324d8d87903aacc" />
+		<rom loadflag="load16_byte" name="264s05.c3" offset="0x1000000" size="0x800000" crc="b7b87b63" sha1="46851133cab4ddf1545c2a22859e7f364a80c757" />
+		<rom loadflag="load16_byte" name="264s05.c4" offset="0x1000001" size="0x800000" crc="b0c8ef2e" sha1="c5abd4207335da5acddaf718e169f17a4bc9cbc5" />
+		<rom loadflag="load16_byte" name="264s05.c5" offset="0x2000000" size="0x800000" crc="738a9edd" sha1="4a46254ac440557a626fe2668cae679a2f64994a" />
+		<rom loadflag="load16_byte" name="264s05.c6" offset="0x2000001" size="0x800000" crc="fddcd101" sha1="d6a4d5088e8ba204066e840a6ea658e77100c07f" />
+		<rom loadflag="load16_byte" name="264s05.c7" offset="0x3000000" size="0x800000" crc="e32cc8d5" sha1="9749ed4343762f8342bbc92e97fadc6704413be6" />
+		<rom loadflag="load16_byte" name="264s05.c8" offset="0x3000001" size="0x800000" crc="03f124d2" sha1="cf92a5f7aeca74946b52e7f4e96606eec62548eb" />
+		</dataarea>
+	</part>
+</software>

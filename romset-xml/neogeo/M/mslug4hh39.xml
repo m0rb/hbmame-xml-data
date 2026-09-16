@@ -1,0 +1,24 @@
+<software name="mslug4hh39" cloneof="mslug4">
+	<description>Metal Slug 4 (Neo Arc French Traduction (Version Unknown))</description>
+	<year>2002</year>
+	<publisher>Mame Neht</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="263hh34.p1" offset="0x0" size="0x100000" crc="a3ceab91" sha1="f0e125e708bb466308e6846bb943022f4b5785a3" />
+		<rom loadflag="load16_word_swap" name="263.p2" offset="0x100000" size="0x400000" crc="fdb7aed8" sha1="dbeaec38f44e58ffedba99e70fa1439c2bf0dfa3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="263.v1" offset="0x0" size="0x800000" crc="01e9b9cd" sha1="0b045c2999449f7dab5ae8a42e957d5b6650431e" />
+		<rom name="263.v2" offset="0x800000" size="0x800000" crc="4ab2bf81" sha1="77ccfa48f7e3daddef5fe5229a0093eb2f803742" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="263hh38.c1" offset="0x0" size="0x800000" crc="4586314e" sha1="54a4b9731f0a3b48fce8a842b74fb699bfdf32f8" />
+		<rom loadflag="load16_byte" name="263hh38.c2" offset="0x1" size="0x800000" crc="2e10ad0b" sha1="38215adacd47a48c4640703c8a9f6234235c8ae8" />
+		<rom loadflag="load16_byte" name="263d.c3" offset="0x1000000" size="0x800000" crc="61af560c" sha1="aa7bc45e03a6bbd18eb56d118d4932102ccb196a" />
+		<rom loadflag="load16_byte" name="263d.c4" offset="0x1000001" size="0x800000" crc="f2c544fd" sha1="179b064f81b49f5808d7a7a5bce28e95b09e5abe" />
+		<rom loadflag="load16_byte" name="263hh38.c5" offset="0x2000000" size="0x800000" crc="658a0425" sha1="ad54b9d5219c24f7214d755af520e6409a9314dd" />
+		<rom loadflag="load16_byte" name="263hh38.c6" offset="0x2000001" size="0x800000" crc="17fb9d89" sha1="8fd141f3db0ac0cd60157ddbd3d3b2f90fea522b" />
+		</dataarea>
+	</part>
+</software>

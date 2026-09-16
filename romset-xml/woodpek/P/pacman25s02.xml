@@ -1,0 +1,29 @@
+<software name="pacman25s02" cloneof="puckman">
+	<description>Pac Man - (Fruit 1)</description>
+	<year>2021</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s02.6e" offset="0x0" size="0x1000" crc="e9df2a73" sha1="b57f4b360fa7624319e30fb36834f4a1806252f9" />
+		<rom name="pac25.6f" offset="0x1000" size="0x1000" crc="c5ec2352" sha1="86178b16dabb90005b132febc1a261651a73018d" />
+		<rom name="pac25.6h" offset="0x2000" size="0x1000" crc="92cd89b9" sha1="c3a0141480341c550a889b58692c8c90b322ee67" />
+		<rom name="s02.6j" offset="0x3000" size="0x1000" crc="3aad8292" sha1="5489c7b409cbbd1d73e6367fd60852388b691883" />
+		<rom name="maps1.s02" offset="0x8000" size="0x1000" crc="5652bc93" sha1="bcb6cbb86a0d37b79d8124ff9153b50ccf19fb79" />
+		<rom name="maps2.rom" offset="0x9000" size="0x1000" crc="7cdbd912" sha1="b19868bd5da3163e03320e6de0428b22b8e02d80" />
+		<rom name="maps3.rom" offset="0xa000" size="0x1000" crc="c626ea9c" sha1="3cd3f20e002845937a43f323b685425c95881d9e" />
+		<rom name="maps4.rom" offset="0xb000" size="0x1000" crc="f5ba954d" sha1="eba18f9a7f6d50f167ed37bff0adec43f52b49a0" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="s02.5e" offset="0x0" size="0x1000" crc="d50bd122" sha1="89d71c43a1229236df2417892dd7a5787bbdce2b" />
+		<rom name="s02.5f" offset="0x1000" size="0x1000" crc="44226756" sha1="c783582af949972230126d89b9dcaf608d3c030b" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="82s126.1m" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="82s126.3m" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="82s123.7f" offset="0x0" size="0x20" crc="2fc650bd" sha1="8d0268dee78e47c712202b0ec4f1f51109b1f2a5" />
+		<rom name="82s126.4a" offset="0x20" size="0x100" crc="3eb3a8e4" sha1="19097b5f60d1030f8b82d9f1d3a241f93e5c75d6" />
+		</dataarea>
+	</part>
+</software>

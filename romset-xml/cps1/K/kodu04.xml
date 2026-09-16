@@ -1,0 +1,30 @@
+<software name="kodu04" cloneof="kod">
+	<description>The King of Dragons (910910U, Tough Plus, 2021-06-22)</description>
+	<year>2021</year>
+	<publisher>GOTVG</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c16s04.p1" offset="0x0" size="0x20000" crc="1de154ff" sha1="cf4812adfa6e38f53d1cbf7ef898571aa2505149" />
+		<rom loadflag="load16_byte" name="c16s04.p2" offset="0x1" size="0x20000" crc="225e422b" sha1="bb3e44f3064c574fb8ea609c83623aeed884ba7b" />
+		<rom loadflag="load16_byte" name="c16s04.p3" offset="0x40000" size="0x20000" crc="4e5ac22a" sha1="6fe3bcf57f75b4d68abaa57e6736a5bb21950aac" />
+		<rom loadflag="load16_byte" name="c16s04.p4" offset="0x40001" size="0x20000" crc="d402b86a" sha1="146f2711ee427cdfe6487b88274f8090bfac029c" />
+		<rom loadflag="load16_byte" name="c16.p5" offset="0x80000" size="0x20000" crc="9367bcd9" sha1="8243b4b9bb9756f3fa726717e19a166cb2f5b50a" />
+		<rom loadflag="load16_byte" name="c16.p6" offset="0x80001" size="0x20000" crc="4ca6a48a" sha1="9d440ecd8d2d0e293fecf64ca3915252b94e7aef" />
+		<rom loadflag="load16_byte" name="c16.p7" offset="0xc0000" size="0x20000" crc="0360fa72" sha1="274769c8717a874397cf37369e3ef80a682d9ef2" />
+		<rom loadflag="load16_byte" name="c16.p8" offset="0xc0001" size="0x20000" crc="95a3cef8" sha1="9b75c1ed0eafacc230197ffd9b81e0c8f4f2c464" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c16.m1" offset="0x0" size="0x8000" crc="bac6ec26" sha1="6cbb6d55660150ae3f5270e023328275ee1bbf50" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="kod.key" offset="0x0" size="0x80" crc="b79ea9b9" sha1="cefded329a6ccc34d3b68e614c8f3a2c174e3fdd" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c16.v1" offset="0x0" size="0x20000" crc="4c63181d" sha1="270f27534a95cb0be3ff3f9ca71c502320d8090b" />
+		<rom name="c16.v2" offset="0x20000" size="0x20000" crc="92941b80" sha1="5fa7c2793e6febee54a83042d118ddd4f2b7d127" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,39 @@
+<software name="tpgolfd" cloneof="tpgolf">
+	<description>Top Player&#x27;s Golf (MGD2)</description>
+	<year>1990</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n003001a.038" offset="0x1" size="0x40000" crc="542e93d9" sha1="530d8e344481ae98edd4ca8b86146c44f587228f" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		<rom loadflag="load16_byte" name="n003001a.03c" offset="0x80001" size="0x40000" crc="03f1bead" sha1="b2e40d936636e5d2108fcdf4f440095b3e6da9b5" />
+		<rom loadflag="continue" offset="0x80000" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="003.v11" offset="0x0" size="0x80000" crc="ff97f1cb" sha1="defa249d46ae220f7bfa70746f5202bbbcc3e5fe" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x100000">
+		<rom name="003.v21" offset="0x0" size="0x80000" crc="d34960c6" sha1="36d5877d5e42aab943f4d693159f4f3ad8b0addc" />
+		<rom name="003.v22" offset="0x80000" size="0x80000" crc="9a5f58d4" sha1="2b580595e1820430a36f06fd3e0e0b8f7d686889" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load32_byte" name="n003001a.538" offset="0x0" size="0x40000" crc="67633f80" sha1="951e11f5f74434a3ce9b11bf75b822b2ffbf2c8f" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n003001a.638" offset="0x1" size="0x40000" crc="ba49936b" sha1="c5eb478da0dc409bc5853438387a93d9a2ecdd04" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n003001a.53c" offset="0x100000" size="0x40000" crc="bed644d0" sha1="687ebf0928983e6e795619124a90696c3de3d55d" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n003001a.63c" offset="0x100001" size="0x40000" crc="7fc96498" sha1="f97da62165388d321ef6e31b3121b14e17fa9a5f" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n003001b.538" offset="0x200000" size="0x40000" crc="977a0ea9" sha1="a2704d9a4a576058feacd237bb7ba28508df0207" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n003001b.638" offset="0x200001" size="0x40000" crc="a56853ec" sha1="242e65c73b63adc0cd527bcdb03ac82fde5be5ef" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n003001b.53c" offset="0x300000" size="0x40000" crc="bc0ebc0e" sha1="ed6c4b8b126ea66e75666358c02cbfe2e90985fe" />
+		<rom loadflag="continue" offset="0x300002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n003001b.63c" offset="0x300001" size="0x40000" crc="81347ea7" sha1="8f7b78c91f449ba8e8d449ad436dd5421b6f12a6" />
+		<rom loadflag="continue" offset="0x300003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

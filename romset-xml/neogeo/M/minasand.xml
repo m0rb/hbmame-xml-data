@@ -1,0 +1,38 @@
+<software name="minasand" cloneof="minasan">
+	<description>Minnasanno Okagesamadesu (MGD2)</description>
+	<year>1990</year>
+	<publisher>Monolith Corp.</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n027001a.038" offset="0x1" size="0x40000" crc="86805d5a" sha1="9f9e300f4d4aef1bddb239580e8e5e3087957a50" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="n027001a.178" offset="0x0" size="0x80000" crc="79d65e8e" sha1="8e5d8608e43564e5ce1d458a9e09b2c8100e3f4f" />
+		<rom name="n027001a.17c" offset="0x80000" size="0x80000" crc="0b3854d5" sha1="27e951b47c0ab96f3c64704f913400020156895a" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x100000">
+		<rom name="n027001a.278" offset="0x0" size="0x80000" crc="0100e548" sha1="627d16aba58602d28c865e93894f8d00d4815779" />
+		<rom name="n027001a.27c" offset="0x80000" size="0x80000" crc="0c31c5b0" sha1="372168e5e6845eb5e2450a6f6daec26429b446c0" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load32_byte" name="n027001a.538" offset="0x0" size="0x40000" crc="43f48265" sha1="05500d56c808123b803be0efa71dd233a55793d1" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n027001a.638" offset="0x1" size="0x40000" crc="f774d850" sha1="5b63b4893b5b86b5c2ecf3e0be6d83d9b92e754c" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n027001a.53c" offset="0x100000" size="0x40000" crc="cbf9eef8" sha1="6baf6c5f4fc52fc48d0e43014b11fdfe26e6db70" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n027001a.63c" offset="0x100001" size="0x40000" crc="14a81e58" sha1="53216ad674e553829db3cc23d1e827c18d70c04e" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n027001b.538" offset="0x200000" size="0x40000" crc="3dae0a05" sha1="0bf63e5676e3caab6f9d4895c9cbeb600bb6a8a1" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n027001b.638" offset="0x200001" size="0x40000" crc="0fb30b5b" sha1="89f1176a55040d7ca0246231a9a0b027d2e0c304" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n027001b.53c" offset="0x300000" size="0x40000" crc="6979368e" sha1="d1faae6fafbb7de21e7ee56356c30f18b7c4a130" />
+		<rom loadflag="continue" offset="0x300002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n027001b.63c" offset="0x300001" size="0x40000" crc="cfa90d59" sha1="3185e00a030ace45f543b3a4ab6c101107727d01" />
+		<rom loadflag="continue" offset="0x300003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

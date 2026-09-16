@@ -1,0 +1,20 @@
+<software name="violentv">
+	<description>Violent Vengeance: the universe hero (beta 3.28, 2026-02-01)</description>
+	<year>2026</year>
+	<publisher>Balek Corp</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x900000">
+		<rom loadflag="load16_word_swap" name="516b.p1" offset="0x0" size="0x100000" crc="59b78bc5" sha1="12dbf637041a9b0b16a24b830a035407e76798bd" />
+		<rom loadflag="load16_word_swap" name="516b.p2" offset="0x100000" size="0x800000" crc="fdad36d7" sha1="8d8af3bb540185fc25d459608b0c67fd587f49fb" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="516b.v1" offset="0x0" size="0x800000" crc="dd128a57" sha1="d3431e9aa946c3aa294477b46a01e4454ccaf855" />
+		<rom name="516b.v2" offset="0x800000" size="0x800000" crc="b6ff9217" sha1="da84a7ee79cfad282f8ed7b8763604a814edb2fc" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="516b.c1" offset="0x0" size="0x1000000" crc="5b3ef4e1" sha1="7c9a8b22c994d25880e36bb493a16a6b321f950d" />
+		<rom loadflag="load16_byte" name="516b.c2" offset="0x1" size="0x1000000" crc="970ba8c2" sha1="c75444236de9aba99f9415f8ab0748376435046e" />
+		</dataarea>
+	</part>
+</software>

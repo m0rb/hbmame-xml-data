@@ -1,0 +1,22 @@
+<software name="lhpb" cloneof="lasthope">
+	<description>Last Hope (Pink Bullets, hack, v1.0)</description>
+	<year>2026</year>
+	<publisher>=LoW=</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="300pb.p1" offset="0x0" size="0x100000" crc="b81dd2e0" sha1="53cfc791267e56d07f1288a20fd1cca4a9f7c631" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x600000">
+		<rom name="300pb.v1" offset="0x0" size="0x200000" crc="2dda0948" sha1="dc791a41d16b3aeb27f8da2fb7656b73ace579e1" />
+		<rom name="300pb.v2" offset="0x200000" size="0x200000" crc="056f66ef" sha1="d3ef0d5b75bc763f865315cbd3344e395a6673df" />
+		<rom name="300pb.v3" offset="0x400000" size="0x200000" crc="3754d8f9" sha1="620098a19151e289471cdab2230d71caacdab70c" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="300pb.c1" offset="0x0" size="0x400000" crc="bc2d2a8b" sha1="fd57c05863649ff609d3927c9d7c02d67b752f50" />
+		<rom loadflag="load16_byte" name="300pb.c2" offset="0x1" size="0x400000" crc="1673318d" sha1="6c3fafd7b3d22021c1430a9c019f63200e0cb5d7" />
+		<rom loadflag="load16_byte" name="300pb.c3" offset="0x800000" size="0x400000" crc="bf0e4af1" sha1="41dac8b64e429550964529069e90a503a3b3dd35" />
+		<rom loadflag="load16_byte" name="300pb.c4" offset="0x800001" size="0x400000" crc="6b44c6a0" sha1="295a60f69f6ed9a015b7d8790b88615ecf4f81f6" />
+		</dataarea>
+	</part>
+</software>

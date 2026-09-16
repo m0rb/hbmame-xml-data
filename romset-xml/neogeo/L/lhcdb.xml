@@ -1,0 +1,22 @@
+<software name="lhcdb" cloneof="lasthope">
+	<description>Last Hope (CD conversion 1)</description>
+	<year>2007</year>
+	<publisher>NG:DEV.TEAM</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="300cd.p1" offset="0x0" size="0x100000" crc="83e7b181" sha1="eb13909c0b062d56d20cbdfe75abf6139eae9ee0" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="300cd.v1" offset="0x0" size="0x400000" crc="de563ec3" sha1="cd0f1a436cdac679792fc78906e718c78369b15a" />
+		<rom name="300cd.v2" offset="0x400000" size="0x400000" crc="93478033" sha1="a03e0fcb7f51c66ec0bc5d164744db00b96973c2" />
+		<rom name="300cd.v3" offset="0x800000" size="0x3c3500" crc="f0ad87b8" sha1="f992e84c6cbbc3cab79747a2ca4d646d18bebcbd" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="300cd.c1" offset="0x0" size="0x400000" crc="554e6b73" sha1="3637a8a4474e33eb75ac4a4ce0815f6a514fe337" />
+		<rom loadflag="load16_byte" name="300cd.c2" offset="0x1" size="0x400000" crc="7c84b0fc" sha1="cbd7a7865113e4f21f2b1f990a077fa5c2eae894" />
+		<rom loadflag="load16_byte" name="300cd.c3" offset="0x800000" size="0x400000" crc="28ec7555" sha1="f094739272e6017a7193fa96cde3c1ed573a66b6" />
+		<rom loadflag="load16_byte" name="300cd.c4" offset="0x800001" size="0x400000" crc="8b7c236b" sha1="1cb3fe81f433a2180c85be935e340da3c55aafdb" />
+		</dataarea>
+	</part>
+</software>

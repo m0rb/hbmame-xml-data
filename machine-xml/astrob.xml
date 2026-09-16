@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="astrob" description="Astrob cartridges">
+<software name="astrob2h">
+	<description>Astro Blaster (ver 2 Hack)</description>
+	<year>1981</year>
+	<publisher>Clay Cowgill</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0xc000">
+		<rom name="829b.cpu-u25" offset="0x0" size="0x800" crc="14ae953c" sha1="eb63d1b95faa5193db7fa6ab245e99325d519b5e" />
+		<rom name="888a.prom-u1" offset="0x800" size="0x800" crc="42601744" sha1="6bb58384c28b2105746a2f410f5e0979609db9bf" />
+		<rom name="889b2h.u2" offset="0x1000" size="0x800" crc="9fcdc62f" sha1="6dbf7e1ad62548263ca5edaa81d38cbc7a9a281f" />
+		<rom name="890.prom-u3" offset="0x1800" size="0x800" crc="26f5b4cf" sha1="be45e802f976b8847689ae8de7159843ac9100eb" />
+		<rom name="891b2h.u4" offset="0x2000" size="0x800" crc="74f906dc" sha1="edf9efc0ec25f578214b26010d99385c0bace3ad" />
+		<rom name="892.prom-u5" offset="0x2800" size="0x800" crc="2d3c949b" sha1="17e3c5300793f2345ff6e28e82cd7a22f1d6e41f" />
+		<rom name="893.prom-u6" offset="0x3000" size="0x800" crc="ccdb1a76" sha1="1c8f0555e397c5558bbfca1fa1487cc32aca8592" />
+		<rom name="894.prom-u7" offset="0x3800" size="0x800" crc="66ae5ced" sha1="81bb6e3adcc76ffbeafefecce5fe5541a7eefc37" />
+		<rom name="895.prom-u8" offset="0x4000" size="0x800" crc="202cf3a3" sha1="26fcccfb3e94b2a01d38c14daa66713c223efb18" />
+		<rom name="896.prom-u9" offset="0x4800" size="0x800" crc="b603fe23" sha1="3128877355a9c5bba5cd22e9addf4c8b79ee39d2" />
+		<rom name="897.prom-u10" offset="0x5000" size="0x800" crc="989198c6" sha1="3344bf7272e388571026c4e68a2e4e5e0ebbc5e3" />
+		<rom name="898.prom-u11" offset="0x5800" size="0x800" crc="ef2bab04" sha1="108a9812cb9d1ec4629b0306c45ba164f94ab426" />
+		<rom name="899.prom-u12" offset="0x6000" size="0x800" crc="e0d189ee" sha1="dcab31d64e6b2d248a82cbae9e37afe031dfc6cd" />
+		<rom name="900.prom-u13" offset="0x6800" size="0x800" crc="682d4604" sha1="6ac0d2d8ff407cc7e10b460736ae7fbc21148640" />
+		<rom name="901.prom-u14" offset="0x7000" size="0x800" crc="9ed11c61" sha1="dd965c06d2013acdabd958e713109eeb049d5d5e" />
+		<rom name="902.prom-u15" offset="0x7800" size="0x800" crc="b4d6c330" sha1="922a562b5f1a8a286e6777ba7d141bd0db6e2a92" />
+		<rom name="903a.prom-u16" offset="0x8000" size="0x800" crc="84acc38c" sha1="86bed143ac2d95116e50e77b5c262d67156c6a59" />
+		<rom name="904.prom-u17" offset="0x8800" size="0x800" crc="5eba3097" sha1="e785d1c1cea50aa25e5eea5e58a0c48fd53208c6" />
+		<rom name="905.prom-u18" offset="0x9000" size="0x800" crc="4f08f9f4" sha1="755a825b18ed50caa7bf274a0a5c3a1b00b1c070" />
+		<rom name="906.prom-u19" offset="0x9800" size="0x800" crc="58149df1" sha1="2bba56576a225ca47ce31a5b6dcc491546dfffec" />
+		</dataarea>
+		<dataarea name="proms" size="0x420">
+		<rom name="316-0806.video1-u52" offset="0x0" size="0x20" crc="358128b6" sha1="b6b4b9ecfdcc69b45e69e7a8614153d83be4c62b" />
+		<rom name="316-0764.cpu-u15" offset="0x400" size="0x20" crc="c609b79e" sha1="49dbcbb607079a182d7eb396c0da097166ea91c9" />
+		</dataarea>
+		<dataarea name="speech:cpu" size="0x800">
+		<rom name="808b.speech-u7" offset="0x0" size="0x800" crc="5988c767" sha1="3b91a8cd46aa7e714028cc40f700fea32287afb1" />
+		</dataarea>
+		<dataarea name="speech:data" size="0x4000">
+		<rom name="809a.speech-u6" offset="0x0" size="0x800" crc="893f228d" sha1="41c08210d322105f5446cfaa1258c194dd078a34" />
+		<rom name="810.speech-u5" offset="0x800" size="0x800" crc="ff0163c5" sha1="158a12f9bf01d25c7e98f34fce56df51d49e5a85" />
+		<rom name="811.speech-u4" offset="0x1000" size="0x800" crc="219f3978" sha1="728edb9251f7cde237fa3b005971366a099c6342" />
+		<rom name="812a.speech-u3" offset="0x1800" size="0x800" crc="410ad0d2" sha1="9b5f05bb64a6ecfe3543025a10c6ec67de797333" />
+		</dataarea>
+		<dataarea name="speech:proms" size="0x20">
+		<rom name="pr84.speech-u30" offset="0x0" size="0x20" crc="adcb81d0" sha1="74b0efc7e8362b0c98e54a6107981cff656d87e1" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

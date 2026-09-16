@@ -1,0 +1,17 @@
+<software name="mcpacman" cloneof="puckman">
+	<description>McPacman</description>
+	<year>1998</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="mcpacman.6j" offset="0x3000" size="0x1000" crc="addd1c14" sha1="ac7e7ebb62b44c435a1c722d2b982097ff59b538" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mcpacman.5e" offset="0x0" size="0x1000" crc="ab5f40ba" sha1="b5d6b1515fadf1d3b22092bb922b2c5a380830c3" />
+		<rom name="mcpacman.5f" offset="0x1000" size="0x1000" crc="43752d25" sha1="8e8c0ae54288a58de2613bf98a9a96c6a7369647" />
+		</dataarea>
+	</part>
+</software>

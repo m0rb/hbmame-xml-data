@@ -1,0 +1,30 @@
+<software name="shtron" cloneof="shollow">
+	<description>Satan&#x27;s Hollow (Tron Hardware)</description>
+	<year>2004</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="shtron.00" offset="0x0" size="0x2000" crc="9aec754c" sha1="d17a221ceb8af59d9087ae63a73026c0bd1d58cb" />
+		<rom name="sh-pro.01" offset="0x2000" size="0x2000" crc="b99f6ff8" sha1="575cdba5bf9965c7765ce913a3376c7ba36b8291" />
+		<rom name="shtron.02" offset="0x4000" size="0x2000" crc="621ad715" sha1="8cd34d33c86d10142e0503994a0666ac77c08d4b" />
+		<rom name="sh-pro.03" offset="0x6000" size="0x2000" crc="0a64afb9" sha1="3ac6660d2b0166c58ec4fecfe37ce36e545064df" />
+		<rom name="sh-pro.04" offset="0x8000" size="0x2000" crc="22fa9175" sha1="fd8ea76b3a7ffaf48fc11dd3b7c58e548e3e57c5" />
+		<rom name="sh-pro.05" offset="0xa000" size="0x2000" crc="1716e2bb" sha1="771e4c20d63e4e1d99723e6355db67064a278ae5" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="sh-bg.00" offset="0x0" size="0x2000" crc="3e2b333c" sha1="b4347d0b3d6149e94da4a38684c0fab931e76cc5" />
+		<rom name="sh-bg.01" offset="0x2000" size="0x2000" crc="d1d70cc4" sha1="550e2e8c0bcbf7913b218fe48cd3324622c8d0f4" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x8000">
+		<rom name="sh-fg.00" offset="0x0" size="0x2000" crc="33f4554e" sha1="88dd803158d3c65429b79d2aaf8334130315aa93" />
+		<rom name="sh-fg.01" offset="0x2000" size="0x2000" crc="ba1a38b4" sha1="cee5f0a66e40c779f1bfbb4bfafe5301385e7dae" />
+		<rom name="sh-fg.02" offset="0x4000" size="0x2000" crc="6b57f6da" sha1="71165df59dd5ca037116dc0f46fd4f6aac6dbfd1" />
+		<rom name="sh-fg.03" offset="0x6000" size="0x2000" crc="37ea9d07" sha1="82e006b01ee12390308be530d4b68fc2404b6b91" />
+		</dataarea>
+		<dataarea name="ssio:cpu" size="0x10000">
+		<rom name="snd-0.a7" offset="0x0" size="0x1000" crc="9d815bb3" sha1="51af797e08dbe3921e11ce70c3d0da50979336a4" />
+		<rom name="snd-1.a8" offset="0x1000" size="0x1000" crc="9f253412" sha1="a526e864073a2f9e67e2cbe53ab17fe726336241" />
+		<rom name="snd-2.a9" offset="0x2000" size="0x1000" crc="7783d6c6" sha1="1fb2117532e7da28afdb9837bcb6848165cf8173" />
+		</dataarea>
+	</part>
+</software>

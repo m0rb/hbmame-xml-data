@@ -1,0 +1,25 @@
+<software name="kof97s064" cloneof="kof97">
+	<description>Kof&#x27;97 (Plus 2017, 2017-05-06)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="232s064.p1" offset="0x0" size="0x100000" crc="47eceb42" sha1="473f2c6824e52f19a45bfa54e403c196e1b3afbf" />
+		<rom loadflag="load16_word_swap" name="232s064.p2" offset="0x100000" size="0x400000" crc="753e571f" sha1="574635e39a3308e1bc8b4080e2472bddb6d4e5a2" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="232s226.c1" offset="0x0" size="0x800000" crc="47932f00" sha1="3dcedd194a2138cd8b006462a42b52e925f6b5ce" />
+		<rom loadflag="load16_byte" name="232s226.c2" offset="0x1" size="0x800000" crc="f87c3d84" sha1="0de2dcb6a475ea6475d67c60a254e6b7cbcde951" />
+		<rom loadflag="load16_byte" name="232s006.c3" offset="0x1000000" size="0x800000" crc="b092e64f" sha1="7d809432d068db8f9056f5210570191416f1a53b" />
+		<rom loadflag="load16_byte" name="232s006.c4" offset="0x1000001" size="0x800000" crc="d25e8a04" sha1="52227828e3fdd27399b4cd514551abf856293f47" />
+		<rom loadflag="load16_byte" name="232s064.c5" offset="0x2000000" size="0x800000" crc="ea46b47a" sha1="3a607c538242fb58e4ee7d79c86776e1727ad5f5" />
+		<rom loadflag="load16_byte" name="232s064.c6" offset="0x2000001" size="0x800000" crc="31120b57" sha1="72f226763cef94c6399e3441442df614f04e7bb1" />
+		</dataarea>
+	</part>
+</software>

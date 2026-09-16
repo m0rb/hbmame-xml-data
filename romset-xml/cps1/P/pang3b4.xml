@@ -1,0 +1,29 @@
+<software name="pang3b4" cloneof="pang3">
+	<description>Pang! 3 (bootleg, set 4)</description>
+	<year>1995</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c34b4.p1" offset="0x0" size="0x20000" crc="bf3ebe68" sha1="10f3eb3f6e747eaed1821c611fa19350c3528362" />
+		<rom loadflag="load16_byte" name="c34b4.p2" offset="0x1" size="0x20000" crc="d20db83c" sha1="ac97ad76848bb6069e6d07d1f2feb2c328578228" />
+		<rom loadflag="load16_byte" name="c34b4.p3" offset="0x40000" size="0x20000" crc="94d494c2" sha1="33a2c1ea041a68655b7c3c44b1c5d58dec3add89" />
+		<rom loadflag="load16_byte" name="c34b4.p4" offset="0x40001" size="0x20000" crc="38e43390" sha1="ae346c5e21b3aad86b118a0c99a550304916debf" />
+		<rom loadflag="load16_byte" name="c34b4.p5" offset="0x80000" size="0x20000" crc="8daf3814" sha1="a83a0434b9f281c70dae35362741f52a8b3ea622" />
+		<rom loadflag="load16_byte" name="c34b4.p6" offset="0x80001" size="0x20000" crc="bb34e444" sha1="2cfb135dbd763f327fe3c5ed2d8d291fd97118c2" />
+		<rom loadflag="load16_byte" name="c34b4.p7" offset="0xc0000" size="0x20000" crc="54d0b680" sha1="5527673286dc9db82eed357cda1f53ccdd3e2d1f" />
+		<rom loadflag="load16_byte" name="c34b4.p8" offset="0xc0001" size="0x20000" crc="d666ec70" sha1="3305fa5c6c78bdfc5ef5393f001e710ce3c4d28a" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c34.m1" offset="0x0" size="0x8000" crc="cb1423a2" sha1="3191bf5d340168647881738cb2aed09b1d86146e" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="pang3b4.key" offset="0x0" size="0x80" crc="9e376bb9" sha1="f4ad731f9510961b7bf09ffeb4270a13d7930841" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c34.v1" offset="0x0" size="0x20000" crc="73a10d5d" sha1="999465e4fbc35a34746d2db61ad49f61403d5af7" />
+		<rom name="c34.v2" offset="0x20000" size="0x20000" crc="affa4f82" sha1="27b9292bbc121cf585f53297a79fe8f0d0a729ae" />
+		</dataarea>
+	</part>
+</software>

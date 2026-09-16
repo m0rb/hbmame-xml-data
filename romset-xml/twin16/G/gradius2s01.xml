@@ -1,0 +1,39 @@
+<software name="gradius2s01" cloneof="vulcan">
+	<description>Gradius II - GOFER no Yabou (Ver xH, 2008-08-28)</description>
+	<year>2008</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom loadflag="load16_byte" name="s01_785_w05.6n" offset="0x0" size="0x10000" crc="956f2ea8" sha1="8200378b62592685f6123bc39eb9e523b8c01702" />
+		<rom loadflag="load16_byte" name="s01_785_w04.4n" offset="0x1" size="0x10000" crc="dfd4fbf2" sha1="c077c9d0614bd71131265a319bf73890a4f92b55" />
+		<rom loadflag="load16_byte" name="s01_785_w09.6r" offset="0x20000" size="0x10000" crc="9142ae6e" sha1="3595a4056964e487d57e9f95a608bc988c2a1b75" />
+		<rom loadflag="load16_byte" name="s01_785_w08.4r" offset="0x20001" size="0x10000" crc="065f3167" sha1="60ee344d2390ed69f32f51fe7033e4ed2b2118a2" />
+		</dataarea>
+		<dataarea name="fixed" size="0x4000">
+		<rom name="s01_785_h14.d8" offset="0x0" size="0x4000" crc="f48979a3" sha1="74bbb394ea6b5feb091306f10d16e09989a9ab51" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x8000">
+		<rom name="785_g03.10a" offset="0x0" size="0x8000" crc="67a3b50d" sha1="3c83f3b0df73d9361ec3cda26a6c4c603a088419" />
+		</dataarea>
+		<dataarea name="data" endianness="big" size="0x20000">
+		</dataarea>
+		<dataarea name="gfxrom" endianness="big" size="0x200000">
+		<rom loadflag="load32_word_swap" name="785f15.p13" offset="0x0" size="0x80000" crc="5bd239ac" sha1="9c96f6069d06a1d80c04650ed56bc5e1508db657" />
+		<rom loadflag="load32_word_swap" name="785f17.p16" offset="0x2" size="0x80000" crc="4e7a7b82" sha1="520b5ebd400954042d55cf243842a6d6b6d10210" />
+		<rom loadflag="load32_word_swap" name="785f16.p15" offset="0x100000" size="0x80000" crc="95c6b8a3" sha1="0a906af72d08993fd83f23d72ffb919801aa17af" />
+		<rom loadflag="load32_word_swap" name="785f18.p18" offset="0x100002" size="0x80000" crc="3f604e9a" sha1="c5e0b6f6dd506209e8c07cbae89c821828f488ff" />
+		</dataarea>
+		<dataarea name="k007232" size="0x20000">
+		<rom name="785_f01.5a" offset="0x0" size="0x20000" crc="a0d8d69e" sha1="2994e5740b7c099d55fb162a363a26ef1995c756" />
+		</dataarea>
+		<dataarea name="sub" size="0x40000">
+		<rom loadflag="load16_byte" name="785_p07.10n" offset="0x0" size="0x10000" crc="686d549d" sha1="9687be801c4fb963bf6b0199e2ae9f5051213f7a" />
+		<rom loadflag="load16_byte" name="785_p06.8n" offset="0x1" size="0x10000" crc="70c94bee" sha1="951e00ca4d3a47a21b4db05bcdc8ead45b42c3f1" />
+		<rom loadflag="load16_byte" name="785_p13.10s" offset="0x20000" size="0x10000" crc="478fdb0a" sha1="2e285ad6dcfc67f3e24d231e0e1be19036ce64d2" />
+		<rom loadflag="load16_byte" name="785_p12.8s" offset="0x20001" size="0x10000" crc="38ea402a" sha1="90ff2bd71435988cde967704ce3b1401de206683" />
+		</dataarea>
+		<dataarea name="upd" size="0x20000">
+		<rom name="785_f02.7c" offset="0x0" size="0x20000" crc="c39f5ca4" sha1="92ebea11b7d3a72d0f58c456f16a6ff36d6b3062" />
+		</dataarea>
+	</part>
+</software>

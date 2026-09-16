@@ -1,0 +1,25 @@
+<software name="trukker">
+	<description>Trukker</description>
+	<year>1999</year>
+	<publisher>Grimlick</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="frogger.ic5" offset="0x0" size="0x1000" crc="efab0c79" sha1="68c99b6cdcb9396bb473739a62ffc009b4bf57d5" />
+		<rom name="frogger.ic6" offset="0x1000" size="0x1000" crc="aeca9c13" sha1="cdf560adbd7f2813e86e378da7781cccf7928a44" />
+		<rom name="frogger.ic7" offset="0x2000" size="0x1000" crc="dd251066" sha1="4612e1fe1ab7182a277140b1a1976cc17e0746a5" />
+		<rom name="frogger.ic8" offset="0x3000" size="0x1000" crc="bf293a02" sha1="be94e9f5caa74c3de6fd95bd20928f4a9c514227" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="frogger.608" offset="0x0" size="0x800" crc="e8ab0256" sha1="f090afcfacf5f13cdfa0dfda8e3feb868c6ce8bc" />
+		<rom name="frogger.609" offset="0x800" size="0x800" crc="7380a48f" sha1="75582a94b696062cbdb66a4c5cf0bc0bb94f81ee" />
+		<rom name="frogger.610" offset="0x1000" size="0x800" crc="31d7eb27" sha1="2e1d34ae4da385fd7cac94707d25eeddf4604e1a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="trukker.606" offset="0x0" size="0x800" crc="f0c49466" sha1="f88d02ada32a9f1e10004785d17659279fd1d651" />
+		<rom name="trukker.607" offset="0x800" size="0x800" crc="6ab5c2eb" sha1="d13fcd5669bd0f8f76505684ba5e788b395aeef1" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="pr-91.6l" offset="0x0" size="0x20" crc="413703bf" sha1="66648b2b28d3dcbda5bdb2605d1977428939dd3c" />
+		</dataarea>
+	</part>
+</software>

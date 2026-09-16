@@ -1,0 +1,32 @@
+<software name="roboarmyd" cloneof="roboarmy">
+	<description>Robo Army (MGD2)</description>
+	<year>1991</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n032001a.038" offset="0x1" size="0x40000" crc="99c7b4fc" sha1="06a5bd4dd8f6db81eb36d0a8f0612caa1c917325" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="032e.v1" offset="0x0" size="0x80000" crc="daff9896" sha1="2f8a39b98ff2f4a0c8901b1befcc69e0cc5f5aed" />
+		<rom name="032e.v2" offset="0x80000" size="0x80000" crc="8781b1bc" sha1="4e3cc22ac0acd4033cd4a327269c68b5f56bbe34" />
+		<rom name="032e.v3" offset="0x100000" size="0x80000" crc="b69c1da5" sha1="7d5ea49338aeef711fc64755abed51fcdd939d48" />
+		<rom name="032e.v4" offset="0x180000" size="0x80000" crc="2c929c17" sha1="7e053035573de9f601de80d200d09ed4844506fe" />
+		</dataarea>
+		<dataarea name="sprites" size="0x300000">
+		<rom loadflag="load32_byte" name="n032001a.538" offset="0x0" size="0x40000" crc="e3afaf17" sha1="b11a45e77f10764f8c845a258d4add74146f1ffe" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n032001a.638" offset="0x1" size="0x40000" crc="3a098b3b" sha1="93520f664a76de7fac0baeb81daae8943aef0749" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n032001a.53c" offset="0x100000" size="0x40000" crc="17098f54" sha1="69c775685f29e6b6af4f2bed1570bdd7a9c20cec" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n032001a.63c" offset="0x100001" size="0x40000" crc="8e3b2b88" sha1="3ae3c3a5b64a523b294f1166f5506c850edc7f15" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n032001b.538" offset="0x200000" size="0x40000" crc="13cbb7c5" sha1="2f3a92dccd440a5dd9542f423ac74ee3f4255066" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n032001b.638" offset="0x200001" size="0x40000" crc="b6f5fc62" sha1="5d520d2cdd2d99e7d1c9f3c20448464318c8a03c" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

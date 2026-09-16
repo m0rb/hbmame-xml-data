@@ -1,0 +1,38 @@
+<software name="olds100ass151" cloneof="olds">
+	<description>Oriental Legend Special (Unknown Hack 2015-05-21)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0500_ah151.v10" offset="0x100000" size="0x400000" crc="4a60bad0" sha1="476b3539120593ea3e5aad8e1f21f71c24e67f2b" />
+		</dataarea>
+		<dataarea name="ics" size="0x1000000">
+		<rom name="pgm_m0500.u1" offset="0x400000" size="0x200000" crc="37928cdd" sha1="e80498cabc2a6a54d4f3ebcb097d4b3fad96fe55" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0500_ah151.rom" offset="0x0" size="0x400000" crc="a8301c7d" sha1="0830bb0c8db9438420416d9a8f1647c1f858fea1" />
+		<rom name="a0501_ah151.rom" offset="0x400000" size="0x400000" crc="2e35efb6" sha1="f2e8e4b397e57bfd62bf617994155ba1eeb1bdb1" />
+		<rom name="pgm_a0502.u7" offset="0x800000" size="0x400000" crc="c3fcdf1d" sha1="107585fd103fcd0af0fb7db283be4f7c7058aef7" />
+		<rom name="pgm_a0503.u8" offset="0xc00000" size="0x400000" crc="066dffec" sha1="f023032a7202b7090fb609a39e0f19018e664bf3" />
+		<rom name="pgm_a0504.u11" offset="0x1000000" size="0x400000" crc="45337583" sha1="c954d0e5bf7fa99c90b0d154e7119d2b0c461f1c" />
+		<rom name="pgm_a0505.u12" offset="0x1400000" size="0x400000" crc="5b8cf3a5" sha1="856d1e47b5d9a66dcfbdc74a51ed646fd7d96a35" />
+		<rom name="a0506_ah151.rom" offset="0x1800000" size="0x400000" crc="dd008b31" sha1="3cfa40307851ec1957f071c1867b05977a0cbfa2" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0500_ah151.rom" offset="0x0" size="0x400000" crc="165cd4f0" sha1="485bfde30da9962144065d0ccf9b04cc08001ed4" />
+		<rom name="b0501_ah151.rom" offset="0x400000" size="0x400000" crc="c246c293" sha1="b468f3c5c0e07f570aeba004d96065c4fffcfb9e" />
+		<rom name="pgm_b0502.u15" offset="0x800000" size="0x400000" crc="e97b31c3" sha1="1a7ca4f6c8644e84a33ae41cd4637f21046b14c5" />
+		<rom name="b0503_ah151.u16" offset="0xc00000" size="0x400000" crc="abbd7f24" sha1="c92cd538779fddd63553e91340addde81683e06c" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0500_ah151.rom" offset="0x180000" size="0x400000" crc="53dd5728" sha1="59f76db5f78ba2e8b6d280d4dd998c207c1e9ce4" />
+		<rom name="pgm_t0501.u19" offset="0x580000" size="0x200000" crc="d2106864" sha1="65d827135b87d82196433aea3279608ee263feca" />
+		</dataarea>
+		<dataarea name="user1" size="0x10000">
+		<rom name="sp_data.u6" offset="0x0" size="0x10000" crc="e7613dda" sha1="0d7c043b90e2f9a36a45066f22e3e305dc716676" />
+		</dataarea>
+		<dataarea name="user2" size="0x4000">
+		<rom name="ram_dump" offset="0x0" size="0x4000" crc="280cfb4e" sha1="cd2bdcaa21347952c2bf38b105a204d327fde39e" />
+		</dataarea>
+	</part>
+</software>

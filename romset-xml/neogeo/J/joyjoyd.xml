@@ -1,0 +1,24 @@
+<software name="joyjoyd" cloneof="joyjoy">
+	<description>Puzzled (MGD2)</description>
+	<year>1990</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n021001a.038" offset="0x1" size="0x40000" crc="ea512c9f" sha1="094d8c06a1038dd38b74ced3d213a52b340062a6" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="021.v11" offset="0x0" size="0x80000" crc="66c1e5c4" sha1="7e85420021d4c39c36ed75a1cec567c5610ffce0" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x80000">
+		<rom name="021.v21" offset="0x0" size="0x80000" crc="8ed20a86" sha1="d15cba5eac19ea56fdd4877541f1bb3eb755ebba" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load32_byte" name="n021001a.538" offset="0x0" size="0x40000" crc="cb27be65" sha1="bdadc0da89026af3ed0dc6a18f2449c0cb24ee0c" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n021001a.638" offset="0x1" size="0x40000" crc="7e134979" sha1="e33b30e39283963e8e806ccd12d9559de27c8bbe" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

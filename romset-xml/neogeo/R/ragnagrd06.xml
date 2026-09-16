@@ -1,0 +1,26 @@
+<software name="ragnagrd06" cloneof="ragnagrd">
+	<description>Ragnagard (Chichi-Nene moves easy)</description>
+	<year>1996</year>
+	<publisher>Invgod</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="218s06.p1" offset="0x100000" size="0x100000" crc="370a3b64" sha1="85ddeb5ec0801c66268824236ed9ce2df51e927b" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="218.v1" offset="0x0" size="0x400000" crc="61eee7f4" sha1="5b11b1a0b1b74dfbc2998cbda9f8f7a5e9059957" />
+		<rom name="218.v2" offset="0x400000" size="0x400000" crc="6104e20b" sha1="18e8aae3e51e141977d523a10e737ff68fe81910" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="218.c1" offset="0x0" size="0x400000" crc="c31500a4" sha1="cc82100038988872721028044ed2e9764bcc2fb0" />
+		<rom loadflag="load16_byte" name="218.c2" offset="0x1" size="0x400000" crc="98aba1f9" sha1="121276c569967e501d8e1b83747f1bdebff612ea" />
+		<rom loadflag="load16_byte" name="218.c3" offset="0x800000" size="0x400000" crc="833c163a" sha1="b7e5356bbd9efab67fedb5bc671ba8bbd661fe0f" />
+		<rom loadflag="load16_byte" name="218.c4" offset="0x800001" size="0x400000" crc="c1a30f69" sha1="f87ddda4695abcd14f5c2d4b7d41f72ad5b064cc" />
+		<rom loadflag="load16_byte" name="218.c5" offset="0x1000000" size="0x400000" crc="6b6de0ff" sha1="1abb24cb407258235f4a572cf101d0774823040b" />
+		<rom loadflag="load16_byte" name="218.c6" offset="0x1000001" size="0x400000" crc="94beefcf" sha1="d2ff0bac325c9c823dba68bd4f281b3b9f8f68e7" />
+		<rom loadflag="load16_byte" name="218.c7" offset="0x1800000" size="0x400000" crc="de6f9b28" sha1="455adb6bb986af8a00d7f32b7f4f3715fc3007f6" />
+		<rom loadflag="load16_byte" name="218.c8" offset="0x1800001" size="0x400000" crc="d9b311f6" sha1="ba61a7ab3f08bb7348ad6cd01e5d29ca5ee75074" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,16 @@
+<software name="pc_smb2_ps02" cloneof="pc_smb2">
+	<description>Super Mario Bros. 2 (458 Hack, 2012-01-22)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="mw-u1_ps02" offset="0x0" size="0x20000" crc="43fd715f" sha1="2f789330e289f5315d8bc0bc013d4ff4e3158a01" />
+		</dataarea>
+		<dataarea name="prg" size="0x20000">
+		<rom name="mw-u5_ps02" offset="0x0" size="0x20000" crc="e6f152c0" sha1="83826a57094eafebbe7e5a43075774710d2d590f" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="372f4e84" sha1="cdf221d49f3b454997d696f213d60b5dce0ce9fb" />
+		</dataarea>
+	</part>
+</software>

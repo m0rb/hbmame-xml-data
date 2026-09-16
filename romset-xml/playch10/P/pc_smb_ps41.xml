@@ -1,0 +1,16 @@
+<software name="pc_smb_ps41" cloneof="pc_smb">
+	<description>Super Mario Bros. (Mario In Zebes, 2015-09-20)(PlayChoice-10)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps41" offset="0x0" size="0x2000" crc="678f9338" sha1="d8c44aa0672603ded63900bfcfd1ad27c9f2e763" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps41" offset="0x0" size="0x8000" crc="b90bc087" sha1="1529efacde9cbb9177ba9e5bd0c28dac6b5701de" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

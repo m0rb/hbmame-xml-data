@@ -1,0 +1,19 @@
+<software name="sgz">
+	<description>Shadow Gangs demo</description>
+	<year>2025</year>
+	<publisher>Shadow Gangs</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="539.p1" offset="0x0" size="0x100000" crc="825d0989" sha1="0b58b061af47df7bfe402fd8207aa7d9f76aecda" />
+		<rom loadflag="load16_word_swap" name="539.p2" offset="0x100000" size="0x100000" crc="3d1f0314" sha1="f3699d294145910fa75a2deee822f9ecd9a53150" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="539.v1" offset="0x0" size="0x200000" crc="8928bcf2" sha1="aa139c5bfa79f12188794c373fdc91d6cae972de" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="539.c1" offset="0x0" size="0x200000" crc="7679fe24" sha1="7ad065393103869c80caaac8b90ac324ef165128" />
+		<rom loadflag="load16_byte" name="539.c2" offset="0x1" size="0x200000" crc="5374cdad" sha1="177f5a2b1e9c37b5997e7cd5175e80373a6ccdc9" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,49 @@
+<software name="deathbrd01">
+	<description>Death Brade (Plus)</description>
+	<year>1992</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_byte" name="s01.2c" offset="0x0" size="0x20000" crc="3817f150" sha1="0568fdf517737d00e2990a83e6b5195f4f230ce2" />
+		<rom loadflag="load16_byte" name="s01.2a" offset="0x1" size="0x20000" crc="d307dea6" sha1="b0de4b4c5f10ff8e2cc132b7f9d51bb0eec5629c" />
+		<rom loadflag="load16_byte" name="hd-04-1.4c" offset="0x40000" size="0x20000" crc="fd2ea8d7" sha1="00e50d42fcc7f6d5076963b02f5abb36275dc993" />
+		<rom loadflag="load16_byte" name="hd-01-1.4a" offset="0x40001" size="0x20000" crc="48a247ac" sha1="c69d67e44ffae92b261de247f8d3eac2e02fcf11" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="hd-12.21j" offset="0x0" size="0x10000" crc="13d55f11" sha1="6438dca57f43b3ca6d273bf82b62104a49260132" />
+		</dataarea>
+		<dataarea name="chars" size="0xa0000">
+		<rom loadflag="load16_byte" name="hd-06-1.8d" offset="0x0" size="0x10000" crc="8b7a558b" sha1="06f1f6910b9a54e208ee9a0b734d5df946016236" />
+		<rom loadflag="load16_byte" name="hd-07-1.9d" offset="0x1" size="0x10000" crc="d2a3d449" sha1="10ad634eb0238f6e9ba04266e4dbaf9470f5d169" />
+		</dataarea>
+		<dataarea name="oki1" size="0x40000">
+		<rom name="maf-10.20l" offset="0x0" size="0x40000" crc="7c57f48b" sha1="9a5624553b3b038d70f9b517f410a635c00a8771" />
+		</dataarea>
+		<dataarea name="oki2" size="0x80000">
+		<rom name="maf-09.18l" offset="0x0" size="0x80000" crc="28e7ed81" sha1="e168a2748b75c647f6f9c0d7d25d4f046aa98094" />
+		</dataarea>
+		<dataarea name="sprites1" size="0x500000">
+		<rom name="maf-06.18d" offset="0x0" size="0x100000" crc="f5c7a9b5" sha1="92efc9401347598c90acf62c9aef30109c990ad6" />
+		<rom name="maf-07.20d" offset="0x100000" size="0x100000" crc="fd6008a3" sha1="7b680424eca3804c70fa0c4dc415d665c8626498" />
+		<rom name="maf-08.21d" offset="0x200000" size="0x80000" crc="e41cf1e7" sha1="06524e1aed0adc4c32c92e16a00dc983014f4994" />
+		<rom name="maf-03.18a" offset="0x280000" size="0x100000" crc="f4366d2c" sha1="20964d0e1b879b3e5cb5d18a46d2a17dca2b4171" />
+		<rom name="maf-04.20a" offset="0x380000" size="0x100000" crc="0c8f654e" sha1="e566d4b789b345e20caf7e061e43be7c2e1be9b2" />
+		<rom name="maf-05.21a" offset="0x480000" size="0x80000" crc="b0cfeb80" sha1="b8519c604b03eb8bcf26d00a43b39d48f1b45ab5" />
+		</dataarea>
+		<dataarea name="sprites2" size="0x40000">
+		<rom loadflag="load16_byte" name="hf-08.15a" offset="0x0" size="0x10000" crc="93b7279f" sha1="14304a1ffe1bc791bfa83f8200793d897449133c" />
+		<rom loadflag="load16_byte" name="hf-09.17a" offset="0x1" size="0x10000" crc="05e2c074" sha1="ec95303e8196424864964b5d2ae862bf75571e83" />
+		<rom loadflag="load16_byte" name="hf-10.15c" offset="0x20000" size="0x10000" crc="9b06f418" sha1="d1579ae36676e38c96ee55a1ffa20aa307a21654" />
+		<rom loadflag="load16_byte" name="hf-11.17c" offset="0x20001" size="0x10000" crc="3859a531" sha1="a2a0c1aa28181b5ef6c075ff0118178340389693" />
+		</dataarea>
+		<dataarea name="tiles1" size="0x80000">
+		<rom name="maf-00.8a" offset="0x0" size="0x80000" crc="e56f528d" sha1="3908d9b189fa4895c532d1d1f133df0913810cf9" />
+		</dataarea>
+		<dataarea name="tiles2" size="0x100000">
+		<rom name="maf-01.9a" offset="0x0" size="0x40000" crc="c3d5173d" sha1="2b6559bf65d7cc5b957ad347b64cf6a18f661686" />
+		<rom loadflag="continue" offset="0x80000" size="0x40000" />
+		<rom name="maf-02.11a" offset="0x40000" size="0x40000" crc="0b37d849" sha1="a0606fb8130a2e86a241ce5ce0b4f61373a88c17" />
+		<rom loadflag="continue" offset="0xc0000" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

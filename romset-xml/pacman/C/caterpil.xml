@@ -1,0 +1,17 @@
+<software name="caterpil" cloneof="puckman">
+	<description>Caterpillar</description>
+	<year>2000</year>
+	<publisher>Phi</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="caterpil.6e" offset="0x0" size="0x1000" crc="b53c5650" sha1="54f1fee2494cfc0452051a6f134c5c3b691b4ffb" />
+		<rom name="caterpil.6f" offset="0x1000" size="0x1000" crc="53845efb" sha1="e6db734a7a806aead30422de4073511da55a17f1" />
+		<rom name="caterpil.6h" offset="0x2000" size="0x1000" crc="a474357e" sha1="0fb93ca3364b5955428bc59e2f6d9f186182a280" />
+		<rom name="caterpil.6j" offset="0x3000" size="0x1000" crc="5df0ea3b" sha1="dce379bb4cf5fa7c253cc16702360cbc3b637f37" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="caterpil.5e" offset="0x0" size="0x1000" crc="0387907d" sha1="014745c480ee4b81c161cfa7a011df673059a1a8" />
+		<rom name="caterpil.5f" offset="0x1000" size="0x1000" crc="aa450714" sha1="8a888ce6573623d15913ff297a027d4056eb2875" />
+		</dataarea>
+	</part>
+</software>
