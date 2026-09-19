@@ -1,0 +1,17 @@
+<software name="vecbaby3" cloneof="puckman">
+	<description>Vector Pacman (Baby Maze 3)</description>
+	<year>2000</year>
+	<publisher>[Midway]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="pacbaby3.6j" offset="0x3000" size="0x1000" crc="b82f2b73" sha1="63619220b9ed4dfeb4f462b41d9685870716590a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="vecpac.5e" offset="0x0" size="0x1000" crc="936d0475" sha1="8db1fc56ed236deda01cb6a5169fb7d4cda53e7a" />
+		<rom name="vecpac.5f" offset="0x1000" size="0x1000" crc="022d0686" sha1="ea64d134ececc6eb3fc373821318188489b0e7cc" />
+		</dataarea>
+	</part>
+</software>

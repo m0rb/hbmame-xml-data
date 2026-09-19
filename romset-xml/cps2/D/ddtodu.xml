@@ -1,0 +1,27 @@
+<software name="ddtodu" cloneof="ddtod">
+	<description>Dungeons &amp; Dragons: Tower of Doom (USA 940125)</description>
+	<year>1993</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c50u.p1" offset="0x0" size="0x80000" crc="a519905f" sha1="7f846d7ac5d5e0d06657f712a7a09bee984a4f4b" />
+		<rom loadflag="load16_word_swap" name="c50u.p2" offset="0x80000" size="0x80000" crc="52562d38" sha1="3ee21399a19ee5e2db2a8c2a893d8a31a3419399" />
+		<rom loadflag="load16_word_swap" name="c50u.p3" offset="0x100000" size="0x80000" crc="ee1cfbfe" sha1="4107e495827ada1712a2393dffcdf52d98aca2e0" />
+		<rom loadflag="load16_word_swap" name="c50r1.p4" offset="0x180000" size="0x80000" crc="13aa3e56" sha1="ccd3cda528d625bbf4dc0e8c5ad629af6080d705" />
+		<rom loadflag="load16_word_swap" name="c50r1.p5" offset="0x200000" size="0x80000" crc="431cb6dd" sha1="ad3342e2fb8f0b3d7f57e845d5b80a871923324d" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c50.m1" offset="0x0" size="0x8000" crc="3f5e2424" sha1="4aa744576bc6752c43a90a27a816ebd90076b248" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="ddtodu.key" offset="0x0" size="0x14" crc="7c03ec9e" sha1="4fbcb1484dd5b8d569e54a96c81b3aa0faf37789" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c50.q1" offset="0x0" size="0x200000" crc="0c499b67" sha1="a8ebd8a1cd6dece8344b7cb0439d85843fb97616" />
+		<rom loadflag="load16_word_swap" name="c50.q2" offset="0x200000" size="0x200000" crc="2f0b5a4e" sha1="8d1ebbb811aa469b0f0d29d719d2b9af28fb63a2" />
+		</dataarea>
+	</part>
+</software>

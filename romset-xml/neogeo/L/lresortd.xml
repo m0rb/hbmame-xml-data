@@ -1,0 +1,32 @@
+<software name="lresortd" cloneof="lresort">
+	<description>Last Resort (MGD2)</description>
+	<year>1992</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n024001a.038" offset="0x1" size="0x40000" crc="5f0a5a4b" sha1="69e33ed94f533528038fb157529b44dc940ab231" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="n024001a.1f8" offset="0x0" size="0x80000" crc="0722da38" sha1="66a9b463d5277908b3a01c03de82b3de9118f2cb" />
+		<rom name="n024001a.1fc" offset="0x80000" size="0x80000" crc="670ce3ec" sha1="9004aa85d4a9b0ecf9cf9357b073ed55a98fdb02" />
+		<rom name="n024001b.1f8" offset="0x100000" size="0x80000" crc="2e39462b" sha1="b0a9b1a3377bf0369f3020192505c46ca52927d6" />
+		<rom name="n024001b.1fc" offset="0x180000" size="0x80000" crc="7944754f" sha1="d42a46c5127c6c62041ebffb0007af8a24abd360" />
+		</dataarea>
+		<dataarea name="sprites" size="0x300000">
+		<rom loadflag="load32_byte" name="n024001a.538" offset="0x0" size="0x40000" crc="9f7995a9" sha1="e3efdef66f5a6136ebe8fa9e3ff917323ab3fc5e" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n024001a.638" offset="0x1" size="0x40000" crc="68c70bac" sha1="7a6ddb1beb8cb6f6991d675affeb78226c18180e" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n024001a.53c" offset="0x100000" size="0x40000" crc="e122b155" sha1="c9e759302fcf5aaf989463bf94157e45d76e68ea" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n024001a.63c" offset="0x100001" size="0x40000" crc="f18a9b02" sha1="5cb9cf37de1b97ef680411beeff9ca262e77b067" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n024001b.538" offset="0x200000" size="0x40000" crc="e7138cb9" sha1="d65c9e4f305cec30264355dd46a8ab413221dd82" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n024001b.638" offset="0x200001" size="0x40000" crc="08178e27" sha1="e03137bf8e5bcd3c000113ec49da36f7100727e9" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

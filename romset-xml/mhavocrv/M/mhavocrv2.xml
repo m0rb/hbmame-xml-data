@@ -1,0 +1,26 @@
+<software name="mhavocrv2" cloneof="mhavoc">
+	<description>Major Havoc - Return to Vax 1.8</description>
+	<year>20</year>
+	<publisher>hack (JMA)</publisher>
+	<part name="cart">
+		<dataarea name="alpha" size="0x18000">
+		<rom name="136025.916a" offset="0x8000" size="0x4000" crc="8613f09b" sha1="20befacfce4263a45b0674369d0e7de495fdc4fd" />
+		<rom name="136025.917" offset="0xc000" size="0x4000" crc="21889079" sha1="d1ad6d9fa1432912e376bca50ceeefac2bfd6ac3" />
+		<rom name="136025.915a" offset="0x10000" size="0x4000" crc="39dc3ac1" sha1="5be399340e6688b070f236768e2122f5f5a596fa" />
+		<rom name="136025.918a" offset="0x14000" size="0x4000" crc="d60ff5bd" sha1="eac5fd92eb9ed7f8efff6821037ef5156e0b765f" />
+		</dataarea>
+		<dataarea name="avg" size="0x8000">
+		<rom name="136025.106" offset="0x0" size="0x4000" crc="2ca83c76" sha1="cc1adca32f70af30c4590e9fd6b056b051ccdb38" />
+		<rom name="136025.907" offset="0x4000" size="0x4000" crc="4deea2c9" sha1="c4107581748a3f2d2084de2a4f120abd67a52189" />
+		</dataarea>
+		<dataarea name="avg:prom" size="0x100">
+		<rom name="136002-125.6c" offset="0x0" size="0x100" crc="5903af03" sha1="24bc0366f394ad0ec486919212e38be0f08d0239" />
+		</dataarea>
+		<dataarea name="gamma" size="0x4000">
+		<rom name="136025.908" offset="0x0" size="0x4000" crc="c52ec664" sha1="08120a385f71b17ec02a3c2ef856ff835a91773e" />
+		</dataarea>
+		<dataarea name="vectorrom" size="0x2000">
+		<rom name="136025.210" offset="0x0" size="0x2000" crc="c67284ca" sha1="d9adad80c266d36429444f483cac4ebcf1fec7b8" />
+		</dataarea>
+	</part>
+</software>

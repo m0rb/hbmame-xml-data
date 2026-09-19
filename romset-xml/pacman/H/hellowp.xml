@@ -1,0 +1,14 @@
+<software name="hellowp" cloneof="puckman">
+	<description>Hello World (Pacman HW)</description>
+	<year>2014</year>
+	<publisher>cmonkey</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="hellowp.6e" offset="0x0" size="0xf3" crc="699152c6" sha1="cf8ec6a969177146ccc6155d896b693afbb70dd8" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacman.5e" offset="0x0" size="0x1000" crc="0c944964" sha1="06ef227747a440831c9a3a613b76693d52a2f0a9" />
+		<rom name="pacman.5f" offset="0x1000" size="0x1000" crc="958fedf9" sha1="4a937ac02216ea8c96477d4a15522070507fb599" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,25 @@
+<software name="kof97s274" cloneof="kof97">
+	<description>Kof&#x27;97 (The resurrection Of Serpent Bai Luo Luo Jing, 2016-01-04)</description>
+	<year>2016</year>
+	<publisher>BisMill Hassan</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="232s274.p1" offset="0x0" size="0x100000" crc="565adea2" sha1="fa179e2b958096033692bd523571e130f8f52b77" />
+		<rom loadflag="load16_word_swap" name="232s274.p2" offset="0x100000" size="0x400000" crc="96848312" sha1="198ddbbbc0834b8cdabf1f765d6c82e382de95ff" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="232s274.c1" offset="0x0" size="0x800000" crc="ba114558" sha1="8e66d600b3c65061f83622934585f58ba8809691" />
+		<rom loadflag="load16_byte" name="232s274.c2" offset="0x1" size="0x800000" crc="cb287153" sha1="d08559131d0fc9900de12433733af176d698dff4" />
+		<rom loadflag="load16_byte" name="232.c3" offset="0x1000000" size="0x800000" crc="581d6618" sha1="14d3124a08ded59f86932c6b28e1a4e48c564ccd" />
+		<rom loadflag="load16_byte" name="232.c4" offset="0x1000001" size="0x800000" crc="49bb1e68" sha1="f769c1bd1b019521111ff3f0d22c63cb1f2640ef" />
+		<rom loadflag="load16_byte" name="232s248.c5" offset="0x2000000" size="0x400000" crc="9c543bc6" sha1="cb227c71aca5e632a08fbd7f5af53581b5b28f93" />
+		<rom loadflag="load16_byte" name="232s248.c6" offset="0x2000001" size="0x400000" crc="e3feb991" sha1="978b106bccd31c8229c9abcc6e682a7b5fc98154" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,43 @@
+<software name="airwolf01" cloneof="airwolf">
+	<description>Airwolf (French, 2017-10-29)</description>
+	<year>2007</year>
+	<publisher>S.Arkames</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="bfr.2s" offset="0x0" size="0x8000" crc="ccf90d88" sha1="6f88c0c4f5985d8033efdbc5e5516552007b7bdf" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="f.4a" offset="0x0" size="0x1000" crc="4df44ce9" sha1="145986009d4ae6f7dd98ce715838d0331dea005d" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x6000">
+		<rom name="09h_14.bin" offset="0x0" size="0x2000" crc="25e57e1f" sha1="bef24bced102cd470e10bd4aa19da3c608211258" />
+		<rom name="10h_13.bin" offset="0x2000" size="0x2000" crc="cf0de5e9" sha1="32f3eb4c9298d59aca1dc2530b0e92f64311946d" />
+		<rom name="11h_12.bin" offset="0x4000" size="0x2000" crc="4050c048" sha1="ca21e0750f01342d9791067160339eec436c9458" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x18000">
+		<rom name="e.6a" offset="0x0" size="0x2000" crc="e8fbc7d2" sha1="a9a651b4a714f490a051a89fd0327a665353d64b" />
+		<rom loadflag="continue" offset="0x4000" size="0x2000" />
+		<rom loadflag="continue" offset="0x2000" size="0x2000" />
+		<rom loadflag="continue" offset="0x6000" size="0x2000" />
+		<rom name="d.8a" offset="0x8000" size="0x2000" crc="c5d4156b" sha1="f66ec33b67e39f3df016231b00e48c9757e322f3" />
+		<rom loadflag="continue" offset="0xc000" size="0x2000" />
+		<rom loadflag="continue" offset="0xa000" size="0x2000" />
+		<rom loadflag="continue" offset="0xe000" size="0x2000" />
+		<rom name="c.10a" offset="0x10000" size="0x2000" crc="de91dfb1" sha1="9f338542f44905d0b895d99510475113eb860f0d" />
+		<rom loadflag="continue" offset="0x14000" size="0x2000" />
+		<rom loadflag="continue" offset="0x12000" size="0x2000" />
+		<rom loadflag="continue" offset="0x16000" size="0x2000" />
+		</dataarea>
+		<dataarea name="plds" size="0x400">
+		</dataarea>
+		<dataarea name="proms" size="0x340">
+		<rom name="01j.bin" offset="0x0" size="0x100" crc="6a94b2a3" sha1="b1f9bd97aa26c9fb6377ef32d5dd125583361f48" />
+		<rom name="01h.bin" offset="0x100" size="0x100" crc="ec0923d3" sha1="26f9eda4260a8b767893b8dea42819f192ef0b20" />
+		<rom name="01f.bin" offset="0x200" size="0x100" crc="ade97052" sha1="cc1b4cd57d7bc55ce44de6b89a322ff08eabb1a0" />
+		<rom name="m1.2c" offset="0x320" size="0x20" crc="83a39201" sha1="4fdc722c9e20ee152c890342ef0dce18e35e2ef8" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="a.7s" offset="0x0" size="0x8000" crc="a3c7af5c" sha1="0f70ca94f3d168d38e0e93252e9441973f72441a" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,29 @@
+<software name="forgottnj">
+	<description>Forgotten Worlds (Japan) (English prototype)</description>
+	<year>1988</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c01nj.p1" offset="0x0" size="0x20000" crc="c9a6b319" sha1="152f65658af6333f10a0608a90330e1cc074d1b2" />
+		<rom loadflag="load16_byte" name="c01nj.p2" offset="0x1" size="0x20000" crc="524f920e" sha1="9c3ad6c8009ff55f81cc859c2e47fa6d6ede112b" />
+		<rom loadflag="load16_byte" name="c01nj.p3" offset="0x40000" size="0x20000" crc="ff7e41d9" sha1="6fc0c9692233ce68068a515c000a976f82585f8b" />
+		<rom loadflag="load16_byte" name="c01nj.p4" offset="0x40001" size="0x20000" crc="80c3a813" sha1="7d50a6de8a2634e4300985c459e190d1b4eddb10" />
+		<rom loadflag="load16_word_swap" name="c01.p5" offset="0x80000" size="0x80000" crc="fd252a26" sha1="5cfb097984912a5167a8c7ec4c2e119b642f9970" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c01nj.m1" offset="0x0" size="0x8000" crc="3bc962ea" sha1="d61240a4512c4b27a9d89758e05aeebef6326fec" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="forgottn.key" offset="0x0" size="0x80" crc="ec5025a0" sha1="21ac00fbfca9ae369e99469ee372fea0a5bbdb25" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c01.v1" offset="0x0" size="0x20000" crc="807d051f" sha1="720e4733787b9b11f4d1cdce0892b69475802844" />
+		<rom name="c01.v2" offset="0x20000" size="0x20000" crc="e6cd098e" sha1="667f6e5736f76a1c4c450c4e2035574ea89d7910" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>

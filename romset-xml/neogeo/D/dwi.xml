@@ -1,0 +1,24 @@
+<software name="dwi">
+	<description>DarkWing Duck (Intro demo v1)</description>
+	<year>2009</year>
+	<publisher>[Raregame]</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="626.p1" offset="0x0" size="0x800000" crc="8e3f2ea8" sha1="80efd45770938b2dc3ac8c67d823bae4369a68aa" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="626.v1" offset="0x0" size="0x9b000" crc="13bb4ce4" sha1="0762db7991a5958ae7d8fd5cad2a850f1803a372" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="626.c1" offset="0x0" size="0x400000" crc="2b8bda94" sha1="68a8239a620dba52762fec548b44c7d0e703fca3" />
+		<rom loadflag="load16_byte" name="626.c2" offset="0x1" size="0x400000" crc="5345e4de" sha1="eee16fc63c901184b1b59dc3edcea260e82b5bf5" />
+		<rom loadflag="load16_byte" name="626.c3" offset="0x800000" size="0x400000" crc="c6185f14" sha1="46539c90a2c3e59b7736925cdd59700ca99ac1e1" />
+		<rom loadflag="load16_byte" name="626.c4" offset="0x800001" size="0x400000" crc="c9e59701" sha1="67b5c396591e00ca6d58d35b7d95465d6a65d3eb" />
+		<rom loadflag="load16_byte" name="626.c5" offset="0x1000000" size="0x400000" crc="42dd1c90" sha1="1ca19d11a7d0f9f8dbedf5c8fe2eadfc28337ad9" />
+		<rom loadflag="load16_byte" name="626.c6" offset="0x1000001" size="0x400000" crc="9fa6d651" sha1="653592013a44b804b713302f17b4109b316662ce" />
+		<rom loadflag="load16_byte" name="626.c7" offset="0x1800000" size="0x400000" crc="5cfa6886" sha1="e550e898f64a2ad9992aaa4ff7a64d6881294ce8" />
+		<rom loadflag="load16_byte" name="626.c8" offset="0x1800001" size="0x400000" crc="59c37871" sha1="7413282800d4461ea151d10b91fa24fef1df94a0" />
+		</dataarea>
+	</part>
+</software>

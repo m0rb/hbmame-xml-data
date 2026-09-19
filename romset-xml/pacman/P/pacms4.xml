@@ -1,0 +1,17 @@
+<software name="pacms4" cloneof="puckman">
+	<description>Pacman (Ms. Pacman Maze 4)</description>
+	<year>2000</year>
+	<publisher>[Midway]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="pacms4.6j" offset="0x3000" size="0x1000" crc="7b63ff9b" sha1="84c167878ca4a1a1d79c397438defc8dcc6326f7" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacms1.5e" offset="0x0" size="0x1000" crc="7394868b" sha1="832c44cf91251ebc1f7f6706ca71aa41cedc81e7" />
+		<rom name="pacms1.5f" offset="0x1000" size="0x1000" crc="ce1a3264" sha1="04fb1954ad6d60ddcd515f9c30ece1abfe2455cc" />
+		</dataarea>
+	</part>
+</software>

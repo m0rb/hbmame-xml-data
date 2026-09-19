@@ -1,0 +1,29 @@
+<software name="kovpluss189" cloneof="kovplus">
+	<description>Knights of Valour Plus (Authentic Moxie Legend 2015-12-23)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_ph189.119" offset="0x100000" size="0x454fbe" crc="7dff5c82" sha1="f4cf18c41c731b377c13cc4abc060a23b4eb0f24" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u3" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_ph78.rom" offset="0x0" size="0x800000" crc="098cd614" sha1="663e8ad60d1bdbdea22f8b186454649b4e432092" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="pgm_a0603.u9" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_ph78.rom" offset="0x0" size="0x800000" crc="b3691ed3" sha1="3664fbd8bd775817a5f51326ecc05180c83c5e19" />
+		<rom name="pgm_b0601.u7" offset="0x800000" size="0x400000" crc="a0bb1c2f" sha1="0542348c6e27779e0a98de16f04f9c18158f2b28" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_ph147.rom" offset="0x180000" size="0x800000" crc="657bc51d" sha1="ecc451788779000009ff15c4895d93408a51c3ce" />
+		</dataarea>
+	</part>
+</software>

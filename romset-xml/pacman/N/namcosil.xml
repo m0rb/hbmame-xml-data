@@ -1,0 +1,17 @@
+<software name="namcosil" cloneof="puckman">
+	<description>Pacman (Namco) (Sil hack) [c]</description>
+	<year>1998</year>
+	<publisher>Marcel Silvius</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pac25.6e" offset="0x0" size="0x1000" crc="fee263b3" sha1="87117ba5082cd7a615b4ec7c02dd819003fbd669" />
+		<rom name="pac25.6f" offset="0x1000" size="0x1000" crc="c5ec2352" sha1="86178b16dabb90005b132febc1a261651a73018d" />
+		<rom name="puckmanb.6h" offset="0x2000" size="0x1000" crc="02083b03" sha1="7e1945f6eb51f2e51806d0439f975f7a2889b9b8" />
+		<rom name="namcosil.6j" offset="0x3000" size="0x1000" crc="57a07f6e" sha1="8a7a1d4662e4fc5c5374ad1cad09fd4da1f8398a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacman.5e" offset="0x0" size="0x1000" crc="0c944964" sha1="06ef227747a440831c9a3a613b76693d52a2f0a9" />
+		<rom name="pacman.5f" offset="0x1000" size="0x1000" crc="958fedf9" sha1="4a937ac02216ea8c96477d4a15522070507fb599" />
+		</dataarea>
+	</part>
+</software>

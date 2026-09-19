@@ -1,0 +1,15 @@
+<software name="zolavect" cloneof="mspacman">
+	<description>Vector Super Zola Pac Gal</description>
+	<year>2000</year>
+	<publisher>Tqwn Amusement</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="zolapac1.bin" offset="0x0" size="0x4000" crc="1aa2f312" sha1="7b9685355e398c97de6972ec947fb11ca627a4d3" />
+		<rom name="zolapac2.bin" offset="0x8000" size="0x2000" crc="420ff603" sha1="a314c28ec5c526da91535fd47f51c95539a2e8e8" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="msvectr.5e" offset="0x0" size="0x1000" crc="56560aef" sha1="1eac2b242328ec4d6ba9faac2fd972c8cb6c3e55" />
+		<rom name="msvectr.5f" offset="0x1000" size="0x1000" crc="57cb31e3" sha1="dc9278cee7f7ce341087760654bf0a1bcdeb2f7c" />
+		</dataarea>
+	</part>
+</software>

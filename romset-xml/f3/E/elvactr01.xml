@@ -1,0 +1,33 @@
+<software name="elvactr01" cloneof="elvactr">
+	<description>Elevator Action Returns (Chinese)</description>
+	<year>1994</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="e02-12hc01.20" offset="0x0" size="0x80000" crc="eaaefe10" sha1="d13e41ea42fd3d7915a1391925a1029c88c40b12" />
+		<rom loadflag="load32_byte" name="e02-11hc01.19" offset="0x1" size="0x80000" crc="990c1409" sha1="3922137958d54715941c612425567f23e74d17ae" />
+		<rom loadflag="load32_byte" name="e02-10hc01.18" offset="0x2" size="0x80000" crc="b9a54080" sha1="0999662fed8c36d96186114384d68dc9251b9262" />
+		<rom loadflag="load32_byte" name="e02-09hc01.17" offset="0x3" size="0x80000" crc="7fb5f049" sha1="a40a79c06a855695769cd5e59729be85dd74c7b1" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="e02-03hc01.12" offset="0x0" size="0x200000" crc="86ec9f36" sha1="d989742bdd9237fa37730090ceb2324c83c1675f" />
+		<rom loadflag="load16_byte" name="e02-02hc01.8" offset="0x1" size="0x200000" crc="3484fa1d" sha1="06573ac3738dbceb7812cd0666f1b5fd24fb65c1" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x200000">
+		<rom name="e02-01hc01.4" offset="0x0" size="0x200000" crc="9dd378b7" sha1="9f9a08da225288287993ddcd165d442a777d1af6" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="e02-13.32" offset="0x100000" size="0x40000" crc="80932702" sha1="c468234d03aa31b2aa0c3bd6bec32034216c2ae4" />
+		<rom loadflag="load16_byte" name="e02-14.33" offset="0x100001" size="0x40000" crc="706671a5" sha1="1ac90647d617e73f12a67274a025ae43a6b3a316" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="e02-04.38" offset="0x0" size="0x200000" crc="b74307af" sha1="deb42415049efa2df70e7b25ba8b1b716aa227f1" />
+		<rom loadflag="load16_byte" name="e02-05.39" offset="0x400000" size="0x200000" crc="eb729855" sha1="85253efe794e8b5ffaf16bcb1123bca831e776a5" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x400000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x200000">
+		<rom name="e02-06hc01.43" offset="0x0" size="0x200000" crc="44ef81a0" sha1="e7a32fe6302a12d5cc061671ad192fbadd4cdec6" />
+		</dataarea>
+	</part>
+</software>

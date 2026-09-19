@@ -1,0 +1,17 @@
+<software name="pacman3d" cloneof="puckman">
+	<description>Pacman 3D</description>
+	<year>1998</year>
+	<publisher>Marcel Silvius</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman3d.6f" offset="0x1000" size="0x1000" crc="96364259" sha1="ec2f36a44fd0c13dfd7dc571b9499bc9dbaa247d" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="pacman3d.6j" offset="0x3000" size="0x1000" crc="959e930e" sha1="0ef24017be05ddf85248c4d00f0e21cbf658f78c" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacman3d.5e" offset="0x0" size="0x1000" crc="aa203d45" sha1="7d2fb9bc8718601efc33d2469452a08018167e60" />
+		<rom name="pacman3d.5f" offset="0x1000" size="0x1000" crc="d1830540" sha1="5d276774997e3be8fc9c21d55562288acd1cffcc" />
+		</dataarea>
+	</part>
+</software>

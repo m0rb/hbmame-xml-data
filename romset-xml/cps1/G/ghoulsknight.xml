@@ -1,0 +1,24 @@
+<software name="ghoulsknight" cloneof="ghouls">
+	<description>Ghouls&#x27;n Ghosts - Knight Artoria Edition (World)</description>
+	<year>2026</year>
+	<publisher>GoodLuckTrying</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="dme_29knight.10h" offset="0x0" size="0x20000" crc="a26366a2" sha1="5fcbb7b594814d5dd074f17c61d2ef72467b89fc" />
+		<rom loadflag="load16_byte" name="dme_30knight.10j" offset="0x1" size="0x20000" crc="906bfbd9" sha1="003d5cffd8ef23f349158136c0b6e34c93f4abbd" />
+		<rom loadflag="load16_byte" name="dme_27knight.9h" offset="0x40000" size="0x20000" crc="0f80f588" sha1="b0def403185ccbf0c373a868afcfe757e7b7caf8" />
+		<rom loadflag="load16_byte" name="dme_28knight.9j" offset="0x40001" size="0x20000" crc="448bf481" sha1="804a2e8a22153135c16a6388f69150049bd9c651" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="26.10a" offset="0x0" size="0x8000" crc="3692f6e5" sha1="61b8438d60a39b4cf5062dff0a53228e8a4e4b5f" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="ghouls.key" offset="0x0" size="0x80" crc="888fd6ec" sha1="7dcd7493119b42eb8cab76a6f417685e578e26f4" />
+		</dataarea>
+		<dataarea name="gfx" size="0x300000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,21 @@
+<software name="gladmortd2" cloneof="gladmortd">
+	<description>Gladmort (Demo 2)</description>
+	<year>2024</year>
+	<publisher>Pixelheart</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="503d2.p1" offset="0x0" size="0x100000" crc="d7712425" sha1="eb9c32b584a600cc67784113cd87629c3eab4e1c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="503d2.v1" offset="0x0" size="0x400000" crc="3b5e1408" sha1="90cc923273d002819228cde8bdc57d76915b52f1" />
+		<rom name="503d2.v2" offset="0x400000" size="0x400000" crc="d44f004d" sha1="bfb652111b1d065d48833034ab0333e69af9c947" />
+		<rom name="503d2.v3" offset="0x800000" size="0x400000" crc="e9e8de2f" sha1="2a480f925073776308c07b6d4cc2334115bc17f2" />
+		<rom name="503d2.v4" offset="0xc00000" size="0x400000" crc="aaf3f4e2" sha1="9e126db19a98de4bd0c649f7a655e1e79cc236ed" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="503d2.c1" offset="0x0" size="0x1400000" crc="bcb081ba" sha1="68cdd3c2920a0fc5c52a5ba1d6e4efd0e735e11d" />
+		<rom loadflag="load16_byte" name="503d2.c2" offset="0x1" size="0x1400000" crc="1b927329" sha1="4861da95ce6a9d0521bbeed3b4f06daa0750c15c" />
+		</dataarea>
+	</part>
+</software>

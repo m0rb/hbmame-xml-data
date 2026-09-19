@@ -1,0 +1,25 @@
+<software name="sf2red07" cloneof="sf2ce">
+	<description>Street Fighter II&#x27;: Champion Edition (2020 Golden Edition)</description>
+	<year>2020</year>
+	<publisher>MamePlus</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c19reds07.p1" offset="0x0" size="0x80000" crc="2995bef5" sha1="24da08b8b716bf58fb9a7351d7095079f46347f9" />
+		<rom loadflag="load16_word_swap" name="c19reds07.p2" offset="0x80000" size="0x80000" crc="e04c15ae" sha1="06109775358e89ee13d007d19111b92730755db1" />
+		<rom loadflag="load16_word_swap" name="c19reds07.p3" offset="0x100000" size="0x80000" crc="5f870e0b" sha1="1a58dfa270075259d6ce26707706bb02de7801b4" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c19.m1" offset="0x0" size="0x8000" crc="08f6b60e" sha1="8258fcaca4ac419312531eec67079b97f471179c" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2ce.key" offset="0x0" size="0x80" crc="35b37429" sha1="b372cce106c0900554735c207fb333ac93554ec2" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c14.v1" offset="0x0" size="0x20000" crc="7f162009" sha1="346bf42992b4c36c593e21901e22c87ae4a7d86d" />
+		<rom name="c14.v2" offset="0x20000" size="0x20000" crc="beade53f" sha1="277c397dc12752719ec6b47d2224750bd1c07f79" />
+		</dataarea>
+	</part>
+</software>

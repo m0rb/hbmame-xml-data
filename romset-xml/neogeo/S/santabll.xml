@@ -1,0 +1,18 @@
+<software name="santabll">
+	<description>Santaball</description>
+	<year>2012</year>
+	<publisher>M.Priewe</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="443.p1" offset="0x0" size="0x100000" crc="2af7a77c" sha1="ff79d4695e8060f5a7b981524303336a0ad99c0c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="443.v1" offset="0x0" size="0x100000" crc="d0150804" sha1="b3d4cdb6d0f426de3801eb04d56f867bec8fe611" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="443.c1" offset="0x0" size="0x100000" crc="1e271a9b" sha1="5cae43aa094d5ee34983bc70aeab06652a6b0e7f" />
+		<rom loadflag="load16_byte" name="443.c2" offset="0x1" size="0x100000" crc="1c7fd396" sha1="aa2e2fff1ad1804631f3058b9666b970a368a847" />
+		</dataarea>
+	</part>
+</software>

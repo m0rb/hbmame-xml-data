@@ -1,0 +1,26 @@
+<software name="moontest">
+	<description>Moon Cresta Test Rom (2017-12-07)</description>
+	<year>2017</year>
+	<publisher>Phil Murray</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x8000">
+		<rom name="moontest.7k" offset="0x0" size="0x400" crc="caf5eb02" sha1="3ba9df1e8f3fa548a68f1f596f744c188a1ea48a" />
+		<rom name="mc2" offset="0x800" size="0x800" crc="44bb7cfa" sha1="349c2e23a9fce73f95bb8168d369082fa129fe3d" />
+		<rom name="mc3" offset="0x1000" size="0x800" crc="9c412104" sha1="1b40054ebb1ace965a8522119bb23f09797bc5f6" />
+		<rom name="mc4" offset="0x1800" size="0x800" crc="7e9b1ab5" sha1="435f603c0c3e788a509dd144a7916a34e791ae44" />
+		<rom name="mc5.7r" offset="0x2000" size="0x800" crc="16c759af" sha1="3b48050411f65f9d3fb41ff22901e22d82bf1cf6" />
+		<rom name="mc6.8d" offset="0x2800" size="0x800" crc="69bcafdb" sha1="939c8c6ed1cd4660a3d99b8f17ed99cbd7e1352a" />
+		<rom name="mc7.8e" offset="0x3000" size="0x800" crc="b50dbc46" sha1="4fa084fd1ba5f78e7703e684c57af15ca7a844e4" />
+		<rom name="mc8" offset="0x3800" size="0x800" crc="18ca312b" sha1="39219059003b949e38305553fea2d33071062c64" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mcs_b" offset="0x0" size="0x800" crc="fb0f1f81" sha1="38a6679a8b69bc1870a0e67e692131c42f9535c8" />
+		<rom name="mcs_d" offset="0x800" size="0x800" crc="13932a15" sha1="b8885c555c6ad7021be55c6925a0a0872c1b6abd" />
+		<rom name="mcs_a" offset="0x1000" size="0x800" crc="631ebb5a" sha1="5bc9493afa76c55858b8c8849524cbc77dc838fc" />
+		<rom name="mcs_c" offset="0x1800" size="0x800" crc="24cfd145" sha1="08c6599db170dd6ee364c44f70a0f5c0f881b6ef" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="mmi6331.6l" offset="0x0" size="0x20" crc="6a0c7d87" sha1="140335d85c67c75b65689d4e76d29863c209cf32" />
+		</dataarea>
+	</part>
+</software>

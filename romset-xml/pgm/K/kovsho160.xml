@@ -1,0 +1,33 @@
+<software name="kovsho160" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Chuan Shuo B9 Da She Jiang Lin Final 1 2016-04-26)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po160.322" offset="0x100000" size="0x400000" crc="67269a51" sha1="fe6fce69337b8e4cbc9b165c42ec2fa289c65a5f" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600_ph365.rom" offset="0x400000" size="0x400000" crc="968a15b9" sha1="a335cb0e0bea1e6d3abd330a5ffb588eac0edba4" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_po365.asic" offset="0x0" size="0x4000" crc="f6b6b4e8" sha1="3e6032e1fc59485ae451c76f84a358b233e8b800" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x4000000">
+		<rom name="a0600_ph365.rom" offset="0x0" size="0x800000" crc="45002bf4" sha1="7feb231e6c92ed18c4e35ca38ecaced3fae6e0a3" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_ph177.rom" offset="0x1000000" size="0x800000" crc="efb30f14" sha1="ab5b4232b2dfc9f4e3a77112028a903f30b41fb9" />
+		<rom name="a0603_ph365.rom" offset="0x1800000" size="0x200000" crc="5ce4b5fa" sha1="dd183f4e068b034bb7fbd00b070fccb0f68b0f2c" />
+		<rom name="a0604_ph365.rom" offset="0x1a00000" size="0x800000" crc="2528d0d2" sha1="cdf4ad1b08447a45b454f0f13905c4338bc89b2a" />
+		<rom name="a0605_ph365.rom" offset="0x2200000" size="0x800000" crc="29704c84" sha1="2636b5cde03cb9f7824fe6bda6f4f90157669cf3" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x2000000">
+		<rom name="b0600_ph365.rom" offset="0x0" size="0x800000" crc="f073c2d2" sha1="d644f90db9becc28ec6e05d05126129929249985" />
+		<rom name="b0601_ph177.rom" offset="0x800000" size="0x400000" crc="f43e4276" sha1="b0ad317f70681e4300228f34bb8f4bead50111ea" />
+		<rom name="b0602_ph365.rom" offset="0xc00000" size="0x400000" crc="aea83396" sha1="0819cd580aa253750f16f993c997663ad7a11580" />
+		<rom name="b0603_ph365.rom" offset="0x1000000" size="0x200000" crc="11ac08fc" sha1="f6174354957ce1fc873ce478d0660c8a9f38fb82" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_po165.rom" offset="0x180000" size="0x800000" crc="4afd743c" sha1="7ad3fafe7d5a398a162d2654ba48d519a9b7acd2" />
+		</dataarea>
+	</part>
+</software>

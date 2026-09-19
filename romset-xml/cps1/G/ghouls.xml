@@ -1,0 +1,24 @@
+<software name="ghouls">
+	<description>Ghouls&#x27;n Ghosts (World)</description>
+	<year>1988</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c02.p1" offset="0x0" size="0x20000" crc="166a58a2" sha1="f21fcf88d2ebb7bc9e8885fde760a5d82f295c1a" />
+		<rom loadflag="load16_byte" name="c02.p2" offset="0x1" size="0x20000" crc="7ac8407a" sha1="3613699213db47bfeabedf87f12eb0fa7e5973b6" />
+		<rom loadflag="load16_byte" name="c02.p3" offset="0x40000" size="0x20000" crc="f734b2be" sha1="fa230bf5503487ec11d767485a18f0a55dcc13d2" />
+		<rom loadflag="load16_byte" name="c02.p4" offset="0x40001" size="0x20000" crc="03d3e714" sha1="a07786062358c89f3b4634b8822173261802290b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c02.m1" offset="0x0" size="0x8000" crc="3692f6e5" sha1="61b8438d60a39b4cf5062dff0a53228e8a4e4b5f" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="ghouls.key" offset="0x0" size="0x80" crc="888fd6ec" sha1="7dcd7493119b42eb8cab76a6f417685e578e26f4" />
+		</dataarea>
+		<dataarea name="gfx" size="0x300000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		</dataarea>
+	</part>
+</software>

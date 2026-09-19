@@ -1,0 +1,32 @@
+<software name="dksprfin3" cloneof="dkong">
+	<description>Donkey Kong Springfinity v1.03 (2023-09-17)</description>
+	<year>2023</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dksprfin.5et" offset="0x0" size="0x1000" crc="fd23db80" sha1="2188bf0c8943e9c4771c3f9ff3bd1cfcc14a5ba4" />
+		<rom name="dksprfin2.5ct" offset="0x1000" size="0x1000" crc="257fee24" sha1="284c7b73c1f08b5161582807d218e901da61aeda" />
+		<rom name="dksprfin3.5bt" offset="0x2000" size="0x1000" crc="0af06019" sha1="b270b0994a8b8f7513c854a7fa154663c73bfef0" />
+		<rom name="dksprfin3.5at" offset="0x3000" size="0x1000" crc="dbbec3de" sha1="38c905cb2399fa7cd8cb734cf56c4d02d7168403" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dksprfin.5h" offset="0x0" size="0x800" crc="b41e2713" sha1="2a4e37e5bb997b0a6a0d8aef61fd8f89d97d8213" />
+		<rom name="dksprfin.3pt" offset="0x800" size="0x800" crc="b33f2ba7" sha1="900ff22f44b4504da4f3b8fe9dcdf7f5b88ea597" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dksprfin.2k" offset="0x0" size="0x100" crc="6baa5ba0" sha1="2c0e9f4b4ac2d14aeeeba9afa9bf675337650276" />
+		<rom name="dksprfin.2j" offset="0x100" size="0x100" crc="1a144a25" sha1="6e73470b7589ea5f14cf0dd9a9fbfd176e5e1c36" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>

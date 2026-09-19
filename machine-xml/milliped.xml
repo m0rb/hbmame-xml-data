@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="milliped" description="Milliped cartridges">
+<software name="silliped">
+	<description>Sillipede</description>
+	<year>1998</year>
+	<publisher>Andy</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="136013-104.mn1" offset="0x4000" size="0x1000" crc="40711675" sha1="b595d6a0f5d3c611ade1b83a94c3b909d2124dc4" />
+		<rom name="136013-103.l1" offset="0x5000" size="0x1000" crc="fb01baf2" sha1="9c1d0bbc20bf25dd21761a311fd1ed80aa029241" />
+		<rom name="136013-102.jk1" offset="0x6000" size="0x1000" crc="62e137e0" sha1="9fe40db55ba1d20d4f11704f7f5df9ff75b87f30" />
+		<rom name="136013-101.h1" offset="0x7000" size="0x1000" crc="46752c7d" sha1="ab06b1fd80271849946f90757b3837b617394929" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="silliped.106" offset="0x0" size="0x800" crc="b946599e" sha1="3bd7360c8b4e4bbda0ffcda6b8d5961430073d5c" />
+		<rom name="silliped.107" offset="0x800" size="0x800" crc="89442fbc" sha1="450bedd9d09300191bbc31c4cc5b5ca0424661ef" />
+		</dataarea>
+		<dataarea name="proms" size="0x100">
+		<rom name="136001-213.e7" offset="0x0" size="0x100" crc="6fa3093a" sha1="2b7aeca74c1ae4156bf1878453a047330f96f0a8" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

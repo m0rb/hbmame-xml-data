@@ -1,0 +1,24 @@
+<software name="samsho5s17" cloneof="samsho5">
+	<description>Samurai Shodown V (Remix Hack Data)</description>
+	<year>2003</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="270s17.p2" offset="0x0" size="0x400000" crc="f05852c5" sha1="178d28d3f0264dab987d6e9283c971e61d3843d4" />
+		<rom loadflag="load16_word_swap" name="270s17.p1" offset="0x400000" size="0x400000" crc="62b9b5f7" sha1="9b91eb41a355ba3fcf81c9729b0401b2cb0e55f2" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="ssv.v1" offset="0x0" size="0x400000" crc="a3609761" sha1="6dce1dbfd228c739b3716ae1cf08fd7f925d8650" />
+		<rom name="ssv.v2" offset="0x400000" size="0x400000" crc="cbd6ebd5" sha1="00211be3fa32035b0947ac65920ea8acae7bfae2" />
+		<rom name="ssv.v3" offset="0x800000" size="0x400000" crc="6f1c2703" sha1="8015df3d788cb7926ebbcda64a96964fe102ba27" />
+		<rom name="ssv.v4" offset="0xc00000" size="0x400000" crc="5020c055" sha1="bd1e68d1b0a47b0e2b365159e210048f8b22823a" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="ssv.c1" offset="0x0" size="0x1000000" crc="9c564a01" sha1="99dc8900fd8f56ae04fff72b34ddcaa8abe4c1be" />
+		<rom loadflag="load16_byte" name="ssv.c2" offset="0x1" size="0x1000000" crc="4b73b8da" sha1="a8b626de74cf57bbd8c222e8e24c953c9e8680f4" />
+		<rom loadflag="load16_byte" name="270s16.c3" offset="0x2000000" size="0x1000000" crc="e4939565" sha1="2cf1582554534082472befa073905ea3be39fa1a" />
+		<rom loadflag="load16_byte" name="270s16.c4" offset="0x2000001" size="0x1000000" crc="e99ac373" sha1="e882396a94b7e120917cc439f7834cf85f4afbf0" />
+		</dataarea>
+	</part>
+</software>

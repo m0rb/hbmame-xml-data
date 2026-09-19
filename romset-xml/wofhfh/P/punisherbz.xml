@@ -1,0 +1,26 @@
+<software name="punisherbz" cloneof="punisher">
+	<description>Biaofeng Zhanjing (Chinese bootleg of The Punisher)</description>
+	<year>1993</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c26bz.p1" offset="0x0" size="0x80000" crc="bfa45d23" sha1="56d04d02c9b9b22603205b1ce9e376874d2eaa05" />
+		<rom loadflag="load16_word_swap" name="c26bz.p5" offset="0x80000" size="0x80000" crc="092578a4" sha1="c3c8f98f8b8fc9c71b33fb906b4c591067b4355b" />
+		<rom loadflag="load16_word_swap" name="c26bz.p9" offset="0x100000" size="0x80000" crc="d21ccddb" sha1="295c886cd14ee54e12acfe3f1e8f13513442c8c0" />
+		<rom loadflag="load16_word_swap" name="c26bz.p10" offset="0x180000" size="0x80000" crc="f9f334ce" sha1="22e58ce5096b95138a30e9726e1169895118e990" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c07.m1" offset="0x0" size="0x8000" crc="b8367eb5" sha1="ec3db29fdd6200e9a8f4f8073a7e34aef731354f" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="wofch.key" offset="0x0" size="0x80" crc="23f2d0bb" sha1="48ba9300bc2136e9583754a51d5ab2532eca85c6" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c07.v1" offset="0x0" size="0x20000" crc="375c66e7" sha1="36189e23209ce4ae5d9cbabd1574540d0591e7b3" />
+		<rom name="c26bz.v2" offset="0x20000" size="0x20000" crc="eb5ca884" sha1="3592c69f77c7cd6ee241d6c1079c34a3e58abb5b" />
+		</dataarea>
+	</part>
+</software>

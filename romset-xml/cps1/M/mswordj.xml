@@ -1,0 +1,30 @@
+<software name="mswordj" cloneof="msword">
+	<description>Magic Sword: Heroic Fantasy (Japan 900623)</description>
+	<year>1990</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c11j.p1" offset="0x0" size="0x20000" crc="04f0ef50" sha1="76dac695732ade1873bb6da51834ef90c6595689" />
+		<rom loadflag="load16_byte" name="c11j.p2" offset="0x1" size="0x20000" crc="9fcbb9cd" sha1="bfbf805ddecd3fa9e209a658526e1430ad9e459a" />
+		<rom loadflag="load16_byte" name="c11j.p3" offset="0x40000" size="0x20000" crc="6c060d70" sha1="7fe56f125bc11156955bf0defc956fe7c18a1c72" />
+		<rom loadflag="load16_byte" name="c11j.p4" offset="0x40001" size="0x20000" crc="aec77787" sha1="3260f9a80b67394dd90dbabdd544c9b8b31e5817" />
+		<rom loadflag="load16_byte" name="c11j.p5" offset="0x80000" size="0x20000" crc="0e59a62d" sha1="d109e5edfb32ce3dc7c32e10a78fc3e943029a73" />
+		<rom loadflag="load16_byte" name="c11j.p6" offset="0x80001" size="0x20000" crc="babade3a" sha1="00acdcb5b316611a6df55e54f6ac4ec3503e1cac" />
+		<rom loadflag="load16_byte" name="c11j.p7" offset="0xc0000" size="0x20000" crc="03da99d1" sha1="f21a27f1122e1ee237a53b06ecd24737ac0d2c0e" />
+		<rom loadflag="load16_byte" name="c11j.p8" offset="0xc0001" size="0x20000" crc="fadf99ea" sha1="a3f3ef357f02c30b7f76941e5f854746774b0114" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c11.m1" offset="0x0" size="0x8000" crc="57b29519" sha1="a6b4fc2b9595d1a49f2b93581f107b68d484d156" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="mswordj.key" offset="0x0" size="0x80" crc="da71e42c" sha1="689cbf3f4b6f546d2baf17d607df7b9b90addd76" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c11.v1" offset="0x0" size="0x20000" crc="fb64e90d" sha1="d1a596ce2f8ac14a80b34335b173369a14b45f55" />
+		<rom name="c11.v2" offset="0x20000" size="0x20000" crc="74f892b9" sha1="bf48db5c438154e7b96fd31fde1be4aad5cf25eb" />
+		</dataarea>
+	</part>
+</software>

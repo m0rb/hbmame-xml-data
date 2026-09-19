@@ -1,0 +1,35 @@
+<software name="galaga03">
+	<description>Galaga Challenging Only (2024-03-26)</description>
+	<year>2024</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="03_1b.3p" offset="0x0" size="0x1000" crc="35768124" sha1="41f3bf262eae71e0ca7f0cbf459565d2d6c2b5ec" />
+		<rom name="03_2b.3m" offset="0x1000" size="0x1000" crc="873b6c48" sha1="ce67e08d3249f4dd27a1e70625ea2262dfc41c1a" />
+		<rom name="gg1_3.2m" offset="0x2000" size="0x1000" crc="753ce503" sha1="481f443aea3ed3504ec2f3a6bfcf3cd47e2f8f81" />
+		<rom name="02_4b.2l" offset="0x3000" size="0x1000" crc="16f469ef" sha1="ab493ab138df2bce42eb951032ed704dd8755897" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="gg1_9.4l" offset="0x0" size="0x1000" crc="58b2f47c" sha1="62f1279a784ab2f8218c4137c7accda00e6a3490" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="gg1_11.4d" offset="0x0" size="0x1000" crc="ad447c80" sha1="e697c180178cabd1d32483c5d8889a40633f7857" />
+		<rom name="gg1_10.4f" offset="0x1000" size="0x1000" crc="dd6f1afc" sha1="c340ed8c25e0979629a9a1730edc762bd72d0cff" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="prom-1.1d" offset="0x0" size="0x100" crc="7a2815b4" sha1="085ada18c498fdb18ecedef0ea8fe9217edb7b46" />
+		<rom name="prom-2.5c" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="prom-4.2n" offset="0x20" size="0x100" crc="59b6edab" sha1="0281de86c236c88739297ff712e0a4f5c8bf8ab9" />
+		<rom name="prom-3.1c" offset="0x120" size="0x100" crc="4a04bb6b" sha1="cdd4bc1013f5c11984fdc4fd10e2d2e27120c1e5" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="gg1_5b.3f" offset="0x0" size="0x1000" crc="bb5caae3" sha1="e957a581463caac27bc37ca2e2a90f27e4f62b6f" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="gg1_7b.2c" offset="0x0" size="0x1000" crc="d016686b" sha1="44c1a04fba3c7c826ff484185cb881b4b22e6657" />
+		</dataarea>
+	</part>
+</software>

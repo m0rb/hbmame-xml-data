@@ -1,0 +1,18 @@
+<software name="zintrick02" cloneof="zintrckb">
+	<description>ZinTricK (CD conversion)</description>
+	<year>1996</year>
+	<publisher>Razoola</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="211s02.p1" offset="0x0" size="0x100000" crc="9a0bfe0a" sha1="94299c51572b66fa37e3e496436299573b1faaa8" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="211s02.v1" offset="0x0" size="0x100000" crc="781439da" sha1="a80cdf3be55b5fc2ba1d167f69e222463d06ad88" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="211.c1" offset="0x0" size="0x200000" crc="76aee189" sha1="ad6929804c5b9a59aa609e6baebc6aa37e858a47" />
+		<rom loadflag="load16_byte" name="211.c2" offset="0x1" size="0x200000" crc="844ed4b3" sha1="fb7cd057bdc6cbe8b78097dd124118bae7402256" />
+		</dataarea>
+	</part>
+</software>

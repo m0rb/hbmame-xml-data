@@ -1,0 +1,29 @@
+<software name="kovpluss320" cloneof="kovplus">
+	<description>Knights of Valour Plus (Single Ride Savior 2018 Final Edition 2018-03-08)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_ph320.119" offset="0x100000" size="0x400000" crc="6be54539" sha1="4ac994b877f62abb987340531089fd862b2f3bab" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600_ph320.rom" offset="0x400000" size="0x400000" crc="b61b8214" sha1="2dfcdc203d9c75df6a699cb7b9e119e1ea9d743a" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_ph320.rom" offset="0x0" size="0x800000" crc="4f287f85" sha1="7ea2b432bc8f76a365086813ef09a9b4eb716c31" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_ph320.rom" offset="0x1000000" size="0x800000" crc="11ecd0bf" sha1="78ff855a9dfd67f2f2442625bfd81846b2ea09da" />
+		<rom name="pgm_a0603.u9" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_ph320.rom" offset="0x0" size="0x800000" crc="9783ed2c" sha1="b58f0536e4b406333eeca4767a9e5b1cba87021a" />
+		<rom name="b0601_ph320.rom" offset="0x800000" size="0x400000" crc="50d9c24c" sha1="0fb32a8c1e36cd29f305896fd0a13396aff632c3" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_ph180.rom" offset="0x180000" size="0x800000" crc="169b4e8b" sha1="dec35a62db009075fa4fc4181730985366b0df65" />
+		</dataarea>
+	</part>
+</software>

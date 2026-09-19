@@ -1,0 +1,21 @@
+<software name="pandajump">
+	<description>Panda Jump (set 1)</description>
+	<year>2022</year>
+	<publisher>Ben Larson</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x4000">
+		<rom name="pj.u" offset="0x0" size="0x800" crc="b2658d7d" sha1="d9e87bd4483f925861cfc4f571201d0d088e8565" />
+		<rom name="pj.v" offset="0x800" size="0x800" crc="d47fa6c5" sha1="ddb5058c28feb18fb35c8bf88f362decfc9d6fb3" />
+		<rom name="pj.w" offset="0x1000" size="0x800" crc="12e3e07e" sha1="9544a0b5e5990d6ca302236e2f639f981a9132c2" />
+		<rom name="pj.y" offset="0x1800" size="0x800" crc="ee2133d0" sha1="ad64039ec280ec24b8ff921bedbf8719762b569f" />
+		<rom name="pj.7l" offset="0x2000" size="0x800" crc="f1e8ba9e" sha1="605db3fdbaff4ba13729371ad0c4fbab3889378e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="pj.1h" offset="0x0" size="0x800" crc="6ac96510" sha1="acb9897a4c5325b26eadd0300e49e43bbbf11462" />
+		<rom name="pj.1k" offset="0x800" size="0x800" crc="f2fb3d80" sha1="fe421dcf4b9d2f75d9d98f0adb7630f054115b36" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>

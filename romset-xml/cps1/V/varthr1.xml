@@ -1,0 +1,30 @@
+<software name="varthr1" cloneof="varth">
+	<description>Varth: Operation Thunderstorm (World 920612)</description>
+	<year>1992</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c21r1.p1" offset="0x0" size="0x20000" crc="7fcd0091" sha1="7bed452736eda4a26c43c5dd54ec6799afa6e770" />
+		<rom loadflag="load16_byte" name="c21r1.p2" offset="0x1" size="0x20000" crc="35cf9509" sha1="a189ca7740d77262413ec2891af034d0057892be" />
+		<rom loadflag="load16_byte" name="c21r1.p3" offset="0x40000" size="0x20000" crc="15e5ee81" sha1="6c6248b07f7e956a37d5dcb4b67d026f57fae13b" />
+		<rom loadflag="load16_byte" name="c21r1.p4" offset="0x40001" size="0x20000" crc="153a201e" sha1="5936e447d5cd02ff13802cf78393b521431ad06c" />
+		<rom loadflag="load16_byte" name="c21r1.p5" offset="0x80000" size="0x20000" crc="7a0e0d25" sha1="203692ef1daeef7ba08b154cf029cc07a2e0e23d" />
+		<rom loadflag="load16_byte" name="c21r1.p6" offset="0x80001" size="0x20000" crc="f2365922" sha1="efb2221033e4b46fedaf3d8c850e208f849e6af0" />
+		<rom loadflag="load16_byte" name="c21r1.p7" offset="0xc0000" size="0x20000" crc="5e2cd2c3" sha1="eff955c7dc0d8ae215e7188cc4865726104c7777" />
+		<rom loadflag="load16_byte" name="c21r1.p8" offset="0xc0001" size="0x20000" crc="3d9bdf83" sha1="d655803a6f07b90e44aacaa3e6059ac330ef2ec6" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c21.m1" offset="0x0" size="0x8000" crc="7a99446e" sha1="ca027f41e3e58be5abc33ad7380746658cb5380a" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="varth.key" offset="0x0" size="0x80" crc="9af7013d" sha1="6182dfe656c25cc5ef009bfb1b5820ad3ce71c77" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c21.v1" offset="0x0" size="0x20000" crc="de30510e" sha1="8e878696192606b76a3a0e53553e638d9621cff7" />
+		<rom name="c21.v2" offset="0x20000" size="0x20000" crc="0610a4ac" sha1="3da02ea6a7a56c85de898806d2a1cf6bc526c1b3" />
+		</dataarea>
+	</part>
+</software>

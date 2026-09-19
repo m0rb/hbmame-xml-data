@@ -1,0 +1,24 @@
+<software name="mslug4d" cloneof="mslug4">
+	<description>Metal Slug 4 (Decrypted C)</description>
+	<year>2002</year>
+	<publisher>Mega</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="263.p1" offset="0x0" size="0x100000" crc="27e4def3" sha1="a08785e8145981bb6b5332a3b2df7eb321253cca" />
+		<rom loadflag="load16_word_swap" name="263.p2" offset="0x100000" size="0x400000" crc="fdb7aed8" sha1="dbeaec38f44e58ffedba99e70fa1439c2bf0dfa3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="263.v1" offset="0x0" size="0x800000" crc="01e9b9cd" sha1="0b045c2999449f7dab5ae8a42e957d5b6650431e" />
+		<rom name="263.v2" offset="0x800000" size="0x800000" crc="4ab2bf81" sha1="77ccfa48f7e3daddef5fe5229a0093eb2f803742" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="263d.c1" offset="0x0" size="0x800000" crc="a75ffcde" sha1="97f405a95a56615ae49f79e1a69f98cc2f2434ef" />
+		<rom loadflag="load16_byte" name="263d.c2" offset="0x1" size="0x800000" crc="5ab0d12b" sha1="8a3d95dd2e9cc1b6dcf6a957fed43ee390248307" />
+		<rom loadflag="load16_byte" name="263d.c3" offset="0x1000000" size="0x800000" crc="61af560c" sha1="aa7bc45e03a6bbd18eb56d118d4932102ccb196a" />
+		<rom loadflag="load16_byte" name="263d.c4" offset="0x1000001" size="0x800000" crc="f2c544fd" sha1="179b064f81b49f5808d7a7a5bce28e95b09e5abe" />
+		<rom loadflag="load16_byte" name="263d.c5" offset="0x2000000" size="0x800000" crc="84c66c44" sha1="9273f44bf11891aa04ddd2cbb6442d084c2a2e04" />
+		<rom loadflag="load16_byte" name="263d.c6" offset="0x2000001" size="0x800000" crc="5ed018ab" sha1="e78501fa8a80960093a4d54ce952681a98300148" />
+		</dataarea>
+	</part>
+</software>

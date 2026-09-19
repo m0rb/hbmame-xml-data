@@ -1,0 +1,25 @@
+<software name="fatfury3s01" cloneof="fatfury3">
+	<description>Fatal Fury 3 (Enable Hidden Characters v1)</description>
+	<year>1995</year>
+	<publisher>Creamymami</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x300000">
+		<rom loadflag="load16_word_swap" name="069s01.p1" offset="0x0" size="0x100000" crc="743ad8a1" sha1="962d11224b14ba9d5be554e45b4aca9e3a818610" />
+		<rom loadflag="load16_word_swap" name="069.p2" offset="0x100000" size="0x200000" crc="dbe963ed" sha1="8ece7f663cfe8e563576a397e41161d392cee67e" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xa00000">
+		<rom name="069.v1" offset="0x0" size="0x400000" crc="2bdbd4db" sha1="5f4fecf69c2329d699cbd45829c19303b1e2a80e" />
+		<rom name="069.v2" offset="0x400000" size="0x400000" crc="a698a487" sha1="11b8bc53bc26a51f4a408e900e3769958625c4ed" />
+		<rom name="069.v3" offset="0x800000" size="0x200000" crc="581c5304" sha1="e9550ec547b4f605afed996b22d711f49b48fa92" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1400000">
+		<rom loadflag="load16_byte" name="069.c1" offset="0x0" size="0x400000" crc="e302f93c" sha1="d8610b14900b2b8fe691b67ca9b1abb335dbff74" />
+		<rom loadflag="load16_byte" name="069.c2" offset="0x1" size="0x400000" crc="1053a455" sha1="69501bfac68739e63d798045b812badd251d57b8" />
+		<rom loadflag="load16_byte" name="069.c3" offset="0x800000" size="0x400000" crc="1c0fde2f" sha1="cf6c2ef56c03a861de3b0b6dc0d7c9204d947f9d" />
+		<rom loadflag="load16_byte" name="069.c4" offset="0x800001" size="0x400000" crc="a25fc3d0" sha1="83cb349e2f1032652060b233e741fb893be5af16" />
+		<rom loadflag="load16_byte" name="069.c5" offset="0x1000000" size="0x200000" crc="b3ec6fa6" sha1="7e4c8ee9dd8d9a25ff183d9d8b05f38769348bc7" />
+		<rom loadflag="load16_byte" name="069.c6" offset="0x1000001" size="0x200000" crc="69210441" sha1="6d496c549dba65caabeaffe5b762e86f9d648a26" />
+		</dataarea>
+	</part>
+</software>

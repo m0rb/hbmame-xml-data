@@ -1,0 +1,17 @@
+<software name="plotting01">
+	<description>Plotting (Chinese)</description>
+	<year>1989</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="plot01_s01.ic10" offset="0x0" size="0x10000" crc="134e39a3" sha1="c3ec3ed35b3fb39d780369a4c50beb6e4ccaaff2" />
+		</dataarea>
+		<dataarea name="maincpu:gfx" size="0x20000">
+		<rom loadflag="load16_byte" name="b96-02hc01.ic9" offset="0x0" size="0x10000" crc="78b05c85" sha1="384626d0ef246702cdf6869bedee42fa18c2f438" />
+		<rom loadflag="load16_byte" name="b96-03hc01.ic8" offset="0x1" size="0x10000" crc="ef56d689" sha1="16391444b2e50accfd81e5bf35bf2b5f74e3d138" />
+		</dataarea>
+		<dataarea name="plds" size="0x200">
+		<rom name="gal16v8-b86-04.bin" offset="0x0" size="0x117" crc="bf8c0ea0" sha1="e0a00f1f6363fb79650202f90a56329990876d49" />
+		</dataarea>
+	</part>
+</software>

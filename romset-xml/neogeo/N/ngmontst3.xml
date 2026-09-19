@@ -1,0 +1,18 @@
+<software name="ngmontst3">
+	<description>NeoGeo Monitor Test v1.3</description>
+	<year>2022</year>
+	<publisher>M.Priewe</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="446c.p1" offset="0x0" size="0x100000" crc="8a140722" sha1="a7e4ac8b7bf531a10b68460e37e7e6da59ecccfe" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="446c.v1" offset="0x0" size="0x200000" crc="0f88bd1a" sha1="75a288744533e2546fb94dddf50da0148f158d19" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="446c.c1" offset="0x0" size="0x100000" crc="5c63f88a" sha1="418e3345c40fc1d8d964ee55ca68a56be32f4df2" />
+		<rom loadflag="load16_byte" name="446c.c2" offset="0x1" size="0x100000" crc="3c7e0729" sha1="695d36002cc428dfaf6174bdcf5fed351df39b35" />
+		</dataarea>
+	</part>
+</software>

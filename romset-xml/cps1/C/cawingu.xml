@@ -1,0 +1,30 @@
+<software name="cawingu" cloneof="cawing">
+	<description>Carrier Air Wing (USA 901130)</description>
+	<year>1990</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c12u.p1" offset="0x0" size="0x20000" crc="c2574c0c" sha1="dc74a02cc81f7ef283e4c750b1f3c08a85c7f9a4" />
+		<rom loadflag="load16_byte" name="c12u.p2" offset="0x1" size="0x20000" crc="d89e00be" sha1="4c64648f0f80c7e85170a50f5e558a100b937c8f" />
+		<rom loadflag="load16_byte" name="c12u.p3" offset="0x40000" size="0x20000" crc="8e6d4f8a" sha1="dd9c429e753b8e4c10a16f5121ebd727c7c653a4" />
+		<rom loadflag="load16_byte" name="c12u.p4" offset="0x40001" size="0x20000" crc="ece07955" sha1="46e3f0123c9f651b3d7c3798938ca14dd0227f76" />
+		<rom loadflag="load16_byte" name="c12u.p5" offset="0x80000" size="0x20000" crc="5fda906e" sha1="7b3ef17d494a2f92e58ab7e34a3beaad8c149fca" />
+		<rom loadflag="load16_byte" name="c12u.p6" offset="0x80001" size="0x20000" crc="736c1835" sha1="a91f479fab30603a111304adc0478d430faa80fc" />
+		<rom loadflag="load16_byte" name="c12u.p7" offset="0xc0000" size="0x20000" crc="74c2ddf0" sha1="df1b50649fdad9cc57dfddbf12345056a2f1d121" />
+		<rom loadflag="load16_byte" name="c12u.p8" offset="0xc0001" size="0x20000" crc="2a44bfe5" sha1="f29cf5548e753c79b081e742cf30af9c177c2cc7" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c12.m1" offset="0x0" size="0x8000" crc="96fe7485" sha1="10466889dfc6bc8afd3075385e241a16372efbeb" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="cawingu.key" offset="0x0" size="0x80" crc="0bc9fe61" sha1="5e57fd7a800b690ac597d2661fb22f2a66201ebb" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c12.v1" offset="0x0" size="0x20000" crc="4a613a2c" sha1="06e10644fc60925b85d2ca0888c9fa057bfe996a" />
+		<rom name="c12.v2" offset="0x20000" size="0x20000" crc="74584493" sha1="5cfb15f1b9729323707972646313aee8ab3ac4eb" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="segac" description="Segac cartridges">
+<software name="c2frog">
+	<description>Frog Feast (Sega C2 hardware)</description>
+	<year>2007</year>
+	<publisher>Rastersoft</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x1000000">
+		<rom loadflag="load16_byte" name="c2frog.ic32" offset="0x0" size="0x20000" crc="d7039bd3" sha1="82b9e3a760ebc845afe7bd78f22b897e1a530651" />
+		<rom loadflag="load16_byte" name="c2frog.ic31" offset="0x1" size="0x20000" crc="754b111a" sha1="5542fc3b955df843e15e7c98aebc4f80c7d44b69" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

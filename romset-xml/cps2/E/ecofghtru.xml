@@ -1,0 +1,26 @@
+<software name="ecofghtru" cloneof="ecofghtr">
+	<description>Eco Fighters (USA 940215)</description>
+	<year>1993</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c49u.p1" offset="0x0" size="0x80000" crc="22d88a4d" sha1="0aa5a4b51ae98b8b3bfc65aef9449796ffad7f10" />
+		<rom loadflag="load16_word_swap" name="c49u.p2" offset="0x80000" size="0x80000" crc="6436cfcd" sha1="adb4e1ab2a01a1ea1b08a76ecf58654450e13cf9" />
+		<rom loadflag="load16_word_swap" name="c49u.p3" offset="0x100000" size="0x80000" crc="336f121b" sha1="93800c459b516382cc62cebeb456274f48322fab" />
+		<rom loadflag="load16_word_swap" name="c49u.p4" offset="0x180000" size="0x80000" crc="6f99d984" sha1="3f962197edab648bf87c1f2976956ea21e7ac3c4" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c49.m1" offset="0x0" size="0x8000" crc="c235bd15" sha1="feb7cd7db9dc0b9887b33eed9796bb0205fb719d" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="ecofghtru.key" offset="0x0" size="0x14" crc="611aa137" sha1="933e651779ea0b26b657de5dc62703e37821b07f" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c49.q1" offset="0x0" size="0x200000" crc="81b25d39" sha1="448adfcc7d98873a48c710d857225cdd1580e5c9" />
+		<rom loadflag="load16_word_swap" name="c49.q2" offset="0x200000" size="0x200000" crc="27729e52" sha1="a55c8159adf766dda70cb047f5ac85ce6bc0a3f3" />
+		</dataarea>
+	</part>
+</software>

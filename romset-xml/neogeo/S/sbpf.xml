@@ -1,0 +1,17 @@
+<software name="sbpf">
+	<description>Super Bubble Pop (fixed)</description>
+	<year>2004</year>
+	<publisher>Vektorlogic</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="338f.p1" offset="0x0" size="0x40000" crc="1aa8f9e2" sha1="98ecb3020c45b4833ccec7fc98e33c2d1a31f45e" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="338f.v1" offset="0x0" size="0x800000" crc="7ae9fbdb" sha1="53d25c4f0a33392490fc74c2fa5329a31b246fde" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom name="338f.c1" offset="0x0" size="0x200000" crc="72a26879" sha1="1b78d6698a67aa9252ec16206c7ea7ae02a7c069" />
+		</dataarea>
+	</part>
+</software>

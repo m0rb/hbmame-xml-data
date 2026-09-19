@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="tecmosys" description="Tecmosys cartridges">
+<software name="deroon01" cloneof="deroon">
+	<description>Deroon DeroDero (Unknown hack)</description>
+	<year>1995</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="t.01" offset="0x0" size="0x80000" crc="7ad6c740" sha1="51be70edf30364919c0d1da4a9bdd16bfbace213" />
+		<rom loadflag="load16_byte" name="t.02" offset="0x1" size="0x80000" crc="e44f4430" sha1="8a4ff12ef3a238694c30516fd7f39ccb4625dae9" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x40000">
+		<rom name="t003.uz1" offset="0x0" size="0x40000" crc="8bdfafa0" sha1="c0cf3eb7a65d967958fe2aace171859b0faf7753" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load32_word_swap" name="t101.uah1" offset="0x0" size="0x200000" crc="74baf845" sha1="935d2954ba227a894542be492654a2750198e1bc" />
+		<rom loadflag="load32_word_swap" name="t102.ual1" offset="0x2" size="0x200000" crc="1a02c4a3" sha1="5155eeaef009fc9a9f258e3e54ca2a7f78242df5" />
+		<rom loadflag="load32_word_swap" name="t103.ubl1" offset="0x800002" size="0x400000" crc="84e7da88" sha1="b5c3234f33bb945cc9762b91db087153a0589cfb" />
+		<rom loadflag="load32_word_swap" name="t104.ucl1" offset="0x1000002" size="0x200000" crc="66eb611a" sha1="64435d35677fea3c06fdb03c670f3f63ee481c02" />
+		</dataarea>
+		<dataarea name="cpu2" size="0x2200">
+		</dataarea>
+		<dataarea name="layer0" size="0x100000">
+		<rom name="t301.ubd1" offset="0x0" size="0x100000" crc="8b026177" sha1="3887856bdaec4d9d3669fe3bc958ef186fbe9adb" />
+		</dataarea>
+		<dataarea name="layer1" size="0x100000">
+		</dataarea>
+		<dataarea name="layer2" size="0x100000">
+		<rom name="t201.ubb1" offset="0x0" size="0x100000" crc="d5a087ac" sha1="5098160ce7719d93e3edae05f6edd317d4c61f0d" />
+		</dataarea>
+		<dataarea name="layer3" size="0x100000">
+		<rom name="t202.ubc1" offset="0x0" size="0x100000" crc="f051dae1" sha1="f5677c07fe644b3838657370f0309fb09244c619" />
+		</dataarea>
+		<dataarea name="oki" size="0x80000">
+		<rom name="t501.uad1" offset="0x0" size="0x80000" crc="2fbcfe27" sha1="f25c830322423f0959a36955edb563a6150f2142" />
+		</dataarea>
+		<dataarea name="ymz" size="0x200000">
+		<rom name="t401.uya1" offset="0x0" size="0x200000" crc="92111992" sha1="ae27e11ae76dec0b9892ad32e1a8bf6ab11f2e6c" />
+		</dataarea>
+	</part>
+</software>
+<software name="tkdensho01" cloneof="tkdensho">
+	<description>Toukidenshou (Enable Hidden Characters)</description>
+	<year>1996</year>
+	<publisher>Yumeji1768</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_byte" name="aeprge-2s01.pal" offset="0x0" size="0x80000" crc="56ce787e" sha1="3fee1acd962246b7f15fc9f578702207836a8e54" />
+		<rom loadflag="load16_byte" name="aeprgo-2s01.pau" offset="0x1" size="0x80000" crc="dc0e29f2" sha1="7234faeda7cc625bf5eb4d75f8524f8dc9b55c6b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x40000">
+		<rom name="aesprg-2.z1" offset="0x0" size="0x20000" crc="43550ab6" sha1="2580129ef8ebd9295249175de4ba985c752e06fe" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load32_word_swap" name="ae100h.ah1" offset="0x0" size="0x400000" crc="06be252b" sha1="08d1bb569fd2e66e2c2f47da7780b31945232e62" />
+		<rom loadflag="load32_word_swap" name="ae100.al1" offset="0x2" size="0x400000" crc="009cdff4" sha1="fd88f07313d14fd4429b09a1e8d6b595df3b98e5" />
+		<rom loadflag="load32_word_swap" name="ae101h.bh1" offset="0x800000" size="0x400000" crc="f2469eff" sha1="ba49d15cc7949437ba9f56d9b425a5f0e62137df" />
+		<rom loadflag="load32_word_swap" name="ae101.bl1" offset="0x800002" size="0x400000" crc="db7791bb" sha1="1fe40b747b7cee7a9200683192b1d60a735a0446" />
+		<rom loadflag="load32_word_swap" name="ae102h.ch1" offset="0x1000000" size="0x200000" crc="f9d2a343" sha1="d141ac0b20be587e77a576ef78f15d269d9c84e5" />
+		<rom loadflag="load32_word_swap" name="ae102.cl1" offset="0x1000002" size="0x200000" crc="681be889" sha1="8044ca7cbb325e6dcadb409f91e0c01b88a1bca7" />
+		<rom loadflag="load32_word_swap" name="ae104.el1" offset="0x2000002" size="0x400000" crc="e431b798" sha1="c2c24d4f395bba8c78a45ecf44009a830551e856" />
+		<rom loadflag="load32_word_swap" name="ae105.fl1" offset="0x2800002" size="0x400000" crc="b7f9ebc1" sha1="987f664072b43a578b39fa6132aaaccc5fe5bfc2" />
+		<rom loadflag="load32_word_swap" name="ae106.gl1" offset="0x3000002" size="0x200000" crc="7c50374b" sha1="40865913125230122072bb13f46fb5fb60c088ea" />
+		</dataarea>
+		<dataarea name="cpu2" size="0x2200">
+		</dataarea>
+		<dataarea name="layer0" size="0x80000">
+		<rom name="ae300w36.bd1" offset="0x0" size="0x80000" crc="e829f29e" sha1="e56bfe2669ed1d1ae394c644def426db129d97e3" />
+		</dataarea>
+		<dataarea name="layer1" size="0x100000">
+		<rom name="ae200w74.ba1" offset="0x0" size="0x100000" crc="c1645041" sha1="323670a6aa2a4524eb968cc0b4d688098ffeeb12" />
+		</dataarea>
+		<dataarea name="layer2" size="0x100000">
+		<rom name="ae201w75.bb1" offset="0x0" size="0x100000" crc="3f63bdff" sha1="0d3d57fdc0ec4bceef27c11403b3631d23abadbf" />
+		</dataarea>
+		<dataarea name="layer3" size="0x100000">
+		<rom name="ae202w76.bc1" offset="0x0" size="0x100000" crc="5cc857ca" sha1="2553fb5220433acc15dfb726dc064fe333e51d88" />
+		</dataarea>
+		<dataarea name="oki" size="0x80000">
+		<rom name="ae500w07.ad1" offset="0x0" size="0x80000" crc="3734f92c" sha1="048555b5aa89eaf983305c439ba08d32b4a1bb80" />
+		</dataarea>
+		<dataarea name="ymz" size="0x400000">
+		<rom name="ae400t23.ya1" offset="0x0" size="0x200000" crc="c6ffb043" sha1="e0c6c5f6b840f63c9a685a2c3be66efa4935cbeb" />
+		<rom name="ae401t24.yb1" offset="0x200000" size="0x200000" crc="d83f1a73" sha1="412b7ac9ff09a984c28b7d195330d78c4aac3dc5" />
+		</dataarea>
+	</part>
+</software>
+<software name="tkdensho02" cloneof="tkdensho">
+	<description>Toukidenshou (Always Have Super Move)</description>
+	<year>1996</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_byte" name="aeprge-2s02.pal" offset="0x0" size="0x80000" crc="60f63f74" sha1="f927b41d74e8fddec3c22746dbf40ce931a26b1b" />
+		<rom loadflag="load16_byte" name="aeprgo-2s02.pau" offset="0x1" size="0x80000" crc="85d5a27f" sha1="b5e47a30dfcce6de8a8e4eccdd6708fa3e4d351c" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x40000">
+		<rom name="aesprg-2.z1" offset="0x0" size="0x20000" crc="43550ab6" sha1="2580129ef8ebd9295249175de4ba985c752e06fe" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load32_word_swap" name="ae100h.ah1" offset="0x0" size="0x400000" crc="06be252b" sha1="08d1bb569fd2e66e2c2f47da7780b31945232e62" />
+		<rom loadflag="load32_word_swap" name="ae100.al1" offset="0x2" size="0x400000" crc="009cdff4" sha1="fd88f07313d14fd4429b09a1e8d6b595df3b98e5" />
+		<rom loadflag="load32_word_swap" name="ae101h.bh1" offset="0x800000" size="0x400000" crc="f2469eff" sha1="ba49d15cc7949437ba9f56d9b425a5f0e62137df" />
+		<rom loadflag="load32_word_swap" name="ae101.bl1" offset="0x800002" size="0x400000" crc="db7791bb" sha1="1fe40b747b7cee7a9200683192b1d60a735a0446" />
+		<rom loadflag="load32_word_swap" name="ae102h.ch1" offset="0x1000000" size="0x200000" crc="f9d2a343" sha1="d141ac0b20be587e77a576ef78f15d269d9c84e5" />
+		<rom loadflag="load32_word_swap" name="ae102.cl1" offset="0x1000002" size="0x200000" crc="681be889" sha1="8044ca7cbb325e6dcadb409f91e0c01b88a1bca7" />
+		<rom loadflag="load32_word_swap" name="ae104.el1" offset="0x2000002" size="0x400000" crc="e431b798" sha1="c2c24d4f395bba8c78a45ecf44009a830551e856" />
+		<rom loadflag="load32_word_swap" name="ae105.fl1" offset="0x2800002" size="0x400000" crc="b7f9ebc1" sha1="987f664072b43a578b39fa6132aaaccc5fe5bfc2" />
+		<rom loadflag="load32_word_swap" name="ae106.gl1" offset="0x3000002" size="0x200000" crc="7c50374b" sha1="40865913125230122072bb13f46fb5fb60c088ea" />
+		</dataarea>
+		<dataarea name="cpu2" size="0x2200">
+		</dataarea>
+		<dataarea name="layer0" size="0x80000">
+		<rom name="ae300w36.bd1" offset="0x0" size="0x80000" crc="e829f29e" sha1="e56bfe2669ed1d1ae394c644def426db129d97e3" />
+		</dataarea>
+		<dataarea name="layer1" size="0x100000">
+		<rom name="ae200w74.ba1" offset="0x0" size="0x100000" crc="c1645041" sha1="323670a6aa2a4524eb968cc0b4d688098ffeeb12" />
+		</dataarea>
+		<dataarea name="layer2" size="0x100000">
+		<rom name="ae201w75.bb1" offset="0x0" size="0x100000" crc="3f63bdff" sha1="0d3d57fdc0ec4bceef27c11403b3631d23abadbf" />
+		</dataarea>
+		<dataarea name="layer3" size="0x100000">
+		<rom name="ae202w76.bc1" offset="0x0" size="0x100000" crc="5cc857ca" sha1="2553fb5220433acc15dfb726dc064fe333e51d88" />
+		</dataarea>
+		<dataarea name="oki" size="0x80000">
+		<rom name="ae500w07.ad1" offset="0x0" size="0x80000" crc="3734f92c" sha1="048555b5aa89eaf983305c439ba08d32b4a1bb80" />
+		</dataarea>
+		<dataarea name="ymz" size="0x400000">
+		<rom name="ae400t23.ya1" offset="0x0" size="0x200000" crc="c6ffb043" sha1="e0c6c5f6b840f63c9a685a2c3be66efa4935cbeb" />
+		<rom name="ae401t24.yb1" offset="0x200000" size="0x200000" crc="d83f1a73" sha1="412b7ac9ff09a984c28b7d195330d78c4aac3dc5" />
+		</dataarea>
+	</part>
+</software>
+<software name="tkdensho03" cloneof="tkdensho">
+	<description>Toukidenshou (Easy Move)</description>
+	<year>1996</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_byte" name="aeprge-2s03.pal" offset="0x0" size="0x80000" crc="e0c230ab" sha1="4f7b3952d0d1b31a6a087fc09f7e995baf633cb5" />
+		<rom loadflag="load16_byte" name="aeprgo-2s03.pau" offset="0x1" size="0x80000" crc="92af28b0" sha1="bb768a2105c390c6bb7c5540c64fdc12d81ffabb" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x40000">
+		<rom name="aesprg-2.z1" offset="0x0" size="0x20000" crc="43550ab6" sha1="2580129ef8ebd9295249175de4ba985c752e06fe" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load32_word_swap" name="ae100h.ah1" offset="0x0" size="0x400000" crc="06be252b" sha1="08d1bb569fd2e66e2c2f47da7780b31945232e62" />
+		<rom loadflag="load32_word_swap" name="ae100.al1" offset="0x2" size="0x400000" crc="009cdff4" sha1="fd88f07313d14fd4429b09a1e8d6b595df3b98e5" />
+		<rom loadflag="load32_word_swap" name="ae101h.bh1" offset="0x800000" size="0x400000" crc="f2469eff" sha1="ba49d15cc7949437ba9f56d9b425a5f0e62137df" />
+		<rom loadflag="load32_word_swap" name="ae101.bl1" offset="0x800002" size="0x400000" crc="db7791bb" sha1="1fe40b747b7cee7a9200683192b1d60a735a0446" />
+		<rom loadflag="load32_word_swap" name="ae102h.ch1" offset="0x1000000" size="0x200000" crc="f9d2a343" sha1="d141ac0b20be587e77a576ef78f15d269d9c84e5" />
+		<rom loadflag="load32_word_swap" name="ae102.cl1" offset="0x1000002" size="0x200000" crc="681be889" sha1="8044ca7cbb325e6dcadb409f91e0c01b88a1bca7" />
+		<rom loadflag="load32_word_swap" name="ae104.el1" offset="0x2000002" size="0x400000" crc="e431b798" sha1="c2c24d4f395bba8c78a45ecf44009a830551e856" />
+		<rom loadflag="load32_word_swap" name="ae105.fl1" offset="0x2800002" size="0x400000" crc="b7f9ebc1" sha1="987f664072b43a578b39fa6132aaaccc5fe5bfc2" />
+		<rom loadflag="load32_word_swap" name="ae106.gl1" offset="0x3000002" size="0x200000" crc="7c50374b" sha1="40865913125230122072bb13f46fb5fb60c088ea" />
+		</dataarea>
+		<dataarea name="cpu2" size="0x2200">
+		</dataarea>
+		<dataarea name="layer0" size="0x80000">
+		<rom name="ae300w36.bd1" offset="0x0" size="0x80000" crc="e829f29e" sha1="e56bfe2669ed1d1ae394c644def426db129d97e3" />
+		</dataarea>
+		<dataarea name="layer1" size="0x100000">
+		<rom name="ae200w74.ba1" offset="0x0" size="0x100000" crc="c1645041" sha1="323670a6aa2a4524eb968cc0b4d688098ffeeb12" />
+		</dataarea>
+		<dataarea name="layer2" size="0x100000">
+		<rom name="ae201w75.bb1" offset="0x0" size="0x100000" crc="3f63bdff" sha1="0d3d57fdc0ec4bceef27c11403b3631d23abadbf" />
+		</dataarea>
+		<dataarea name="layer3" size="0x100000">
+		<rom name="ae202w76.bc1" offset="0x0" size="0x100000" crc="5cc857ca" sha1="2553fb5220433acc15dfb726dc064fe333e51d88" />
+		</dataarea>
+		<dataarea name="oki" size="0x80000">
+		<rom name="ae500w07.ad1" offset="0x0" size="0x80000" crc="3734f92c" sha1="048555b5aa89eaf983305c439ba08d32b4a1bb80" />
+		</dataarea>
+		<dataarea name="ymz" size="0x400000">
+		<rom name="ae400t23.ya1" offset="0x0" size="0x200000" crc="c6ffb043" sha1="e0c6c5f6b840f63c9a685a2c3be66efa4935cbeb" />
+		<rom name="ae401t24.yb1" offset="0x200000" size="0x200000" crc="d83f1a73" sha1="412b7ac9ff09a984c28b7d195330d78c4aac3dc5" />
+		</dataarea>
+	</part>
+</software>
+<software name="tkdensho04" cloneof="tkdensho">
+	<description>Toukidenshou (Enable Hidden Characters V2)</description>
+	<year>1996</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_byte" name="aeprge-2s04.pal" offset="0x0" size="0x80000" crc="2692bf88" sha1="52ee2b3f0e5cf8b4f297799f770aaf3d2078ccae" />
+		<rom loadflag="load16_byte" name="aeprgo-2s04.pau" offset="0x1" size="0x80000" crc="84364dc9" sha1="bdd159cd2f787973e1631ded4329127672517d78" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x40000">
+		<rom name="aesprg-2.z1" offset="0x0" size="0x20000" crc="43550ab6" sha1="2580129ef8ebd9295249175de4ba985c752e06fe" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load32_word_swap" name="ae100h.ah1" offset="0x0" size="0x400000" crc="06be252b" sha1="08d1bb569fd2e66e2c2f47da7780b31945232e62" />
+		<rom loadflag="load32_word_swap" name="ae100.al1" offset="0x2" size="0x400000" crc="009cdff4" sha1="fd88f07313d14fd4429b09a1e8d6b595df3b98e5" />
+		<rom loadflag="load32_word_swap" name="ae101h.bh1" offset="0x800000" size="0x400000" crc="f2469eff" sha1="ba49d15cc7949437ba9f56d9b425a5f0e62137df" />
+		<rom loadflag="load32_word_swap" name="ae101.bl1" offset="0x800002" size="0x400000" crc="db7791bb" sha1="1fe40b747b7cee7a9200683192b1d60a735a0446" />
+		<rom loadflag="load32_word_swap" name="ae102h.ch1" offset="0x1000000" size="0x200000" crc="f9d2a343" sha1="d141ac0b20be587e77a576ef78f15d269d9c84e5" />
+		<rom loadflag="load32_word_swap" name="ae102.cl1" offset="0x1000002" size="0x200000" crc="681be889" sha1="8044ca7cbb325e6dcadb409f91e0c01b88a1bca7" />
+		<rom loadflag="load32_word_swap" name="ae104.el1" offset="0x2000002" size="0x400000" crc="e431b798" sha1="c2c24d4f395bba8c78a45ecf44009a830551e856" />
+		<rom loadflag="load32_word_swap" name="ae105.fl1" offset="0x2800002" size="0x400000" crc="b7f9ebc1" sha1="987f664072b43a578b39fa6132aaaccc5fe5bfc2" />
+		<rom loadflag="load32_word_swap" name="ae106.gl1" offset="0x3000002" size="0x200000" crc="7c50374b" sha1="40865913125230122072bb13f46fb5fb60c088ea" />
+		</dataarea>
+		<dataarea name="cpu2" size="0x2200">
+		</dataarea>
+		<dataarea name="layer0" size="0x80000">
+		<rom name="ae300w36.bd1" offset="0x0" size="0x80000" crc="e829f29e" sha1="e56bfe2669ed1d1ae394c644def426db129d97e3" />
+		</dataarea>
+		<dataarea name="layer1" size="0x100000">
+		<rom name="ae200w74.ba1" offset="0x0" size="0x100000" crc="c1645041" sha1="323670a6aa2a4524eb968cc0b4d688098ffeeb12" />
+		</dataarea>
+		<dataarea name="layer2" size="0x100000">
+		<rom name="ae201w75.bb1" offset="0x0" size="0x100000" crc="3f63bdff" sha1="0d3d57fdc0ec4bceef27c11403b3631d23abadbf" />
+		</dataarea>
+		<dataarea name="layer3" size="0x100000">
+		<rom name="ae202w76.bc1" offset="0x0" size="0x100000" crc="5cc857ca" sha1="2553fb5220433acc15dfb726dc064fe333e51d88" />
+		</dataarea>
+		<dataarea name="oki" size="0x80000">
+		<rom name="ae500w07.ad1" offset="0x0" size="0x80000" crc="3734f92c" sha1="048555b5aa89eaf983305c439ba08d32b4a1bb80" />
+		</dataarea>
+		<dataarea name="ymz" size="0x400000">
+		<rom name="ae400t23.ya1" offset="0x0" size="0x200000" crc="c6ffb043" sha1="e0c6c5f6b840f63c9a685a2c3be66efa4935cbeb" />
+		<rom name="ae401t24.yb1" offset="0x200000" size="0x200000" crc="d83f1a73" sha1="412b7ac9ff09a984c28b7d195330d78c4aac3dc5" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

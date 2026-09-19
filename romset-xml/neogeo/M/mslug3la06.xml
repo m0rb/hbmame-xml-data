@@ -1,0 +1,24 @@
+<software name="mslug3la06" cloneof="mslug3">
+	<description>Metal Slug 3 (Random Enemies Resetting Version 1.0, 2020-10-07)[Edition 1]</description>
+	<year>2020</year>
+	<publisher>Gaston90</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="256la06.p1" offset="0x0" size="0x100000" crc="6ff261d2" sha1="1af09eef4edd9ff789152de7e8efc2d02e21fbdf" />
+		<rom loadflag="load16_word_swap" name="256la06.p2" offset="0x100000" size="0x400000" crc="78584c8a" sha1="fc6e8b9e86e0f7111f2230d3b78177ed2abe8c9c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="256.v1" offset="0x0" size="0x400000" crc="f2690241" sha1="fd56babc1934d10e0d27c32f032f9edda7ca8ce9" />
+		<rom name="256.v2" offset="0x400000" size="0x400000" crc="7e2a10bd" sha1="0d587fb9f64cba0315ce2d8a03e2b8fe34936dff" />
+		<rom name="256.v3" offset="0x800000" size="0x400000" crc="0eaec17c" sha1="c3ed613cc6993edd6fc0d62a90bcd85de8e21915" />
+		<rom name="256.v4" offset="0xc00000" size="0x400000" crc="9b4b22d4" sha1="9764fbf8453e52f80aa97a46fb9cf5937ef15a31" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="256h50.c1" offset="0x0" size="0x1000000" crc="1195f6b3" sha1="9ab352b6b88ffb2cc8944a7806ee04966ed5e40f" />
+		<rom loadflag="load16_byte" name="256h50.c2" offset="0x1" size="0x1000000" crc="fa28d925" sha1="5c2f4dec96d2c855fbdb5249c110c17905432109" />
+		<rom loadflag="load16_byte" name="256h50.c3" offset="0x2000000" size="0x1000000" crc="5d78a51c" sha1="94f90d3f5ed994995718f54da228e5cf393596f8" />
+		<rom loadflag="load16_byte" name="256h50.c4" offset="0x2000001" size="0x1000000" crc="45478437" sha1="b3ac06c533eeb27a9ea438027edaa3b2e2a80a7d" />
+		</dataarea>
+	</part>
+</software>

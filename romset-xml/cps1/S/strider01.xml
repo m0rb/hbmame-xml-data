@@ -1,0 +1,29 @@
+<software name="strider01" cloneof="strider">
+	<description>Strider (US, fixes graphics and music)</description>
+	<year>1989</year>
+	<publisher>Willkaotix</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c03s01.p1" offset="0x0" size="0x20000" crc="8be794bf" sha1="b237288638f27ed778745f3090be04f8718ab388" />
+		<rom loadflag="load16_byte" name="c03s01.p2" offset="0x1" size="0x20000" crc="9318060c" sha1="78f02fe9d87eb5bd9dfb1fad910d9a80d7cf0e34" />
+		<rom loadflag="load16_byte" name="c03.p3" offset="0x40000" size="0x20000" crc="d20786db" sha1="c9c75488e6bb37cfd0d56073faf87ff5713bc9a0" />
+		<rom loadflag="load16_byte" name="c03.p4" offset="0x40001" size="0x20000" crc="21aa2863" sha1="446dc9280630318deb423531210a4eedfb4adfa6" />
+		<rom loadflag="load16_word_swap" name="c03.p5" offset="0x80000" size="0x80000" crc="9b3cfc08" sha1="a7d7f270a097437affa845d80bed82a1fa874878" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c03ua.m1" offset="0x0" size="0x8000" crc="08d63519" sha1="c120ecfe25c3c50bc51bc7d5a9ef1c8ca6591240" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="strider.key" offset="0x0" size="0x80" crc="39065af5" sha1="ffff84fd87e851718c564062564970677da923c9" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c03.v1" offset="0x0" size="0x20000" crc="4386bc80" sha1="fb2b261995aeacfa13e7ee40b1a973dfb178f015" />
+		<rom name="c03.v2" offset="0x20000" size="0x20000" crc="444536d7" sha1="a14f5de2f6b5b29ae5161dca1f8c08c566301a91" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>

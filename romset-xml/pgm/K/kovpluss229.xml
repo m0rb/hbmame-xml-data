@@ -1,0 +1,29 @@
+<software name="kovpluss229" cloneof="kovplus">
+	<description>Knights of Valour Plus (Qin Double Love Dominate The World Second Version)</description>
+	<year>1999</year>
+	<publisher>Kallor</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_ph229.119" offset="0x100000" size="0x400000" crc="dba4b521" sha1="0773b303583537f609fab8e5c1c975c75e979a7d" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u3" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="pgm_a0600.u2" offset="0x0" size="0x800000" crc="d8167834" sha1="fa55a99629d03b2ea253392352f70d2c8639a991" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_ph07.rom" offset="0x1000000" size="0x800000" crc="d9ea9298" sha1="abaab6400613c1f2ff534fc0a9625e7dcf88a351" />
+		<rom name="pgm_a0603.u9" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b0600.u5" offset="0x0" size="0x800000" crc="7d3cd059" sha1="00cf994b63337e0e4ebe96453daf45f24192af1c" />
+		<rom name="b0601_ph14.rom" offset="0x800000" size="0x400000" crc="b0809a1e" sha1="3e9a20d38afea5eedbe0e7fd790c3223c88e20f8" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_ph06.rom" offset="0x180000" size="0x800000" crc="d049c5bf" sha1="8f75b6f3171d5dda9010be325a4c8f880b8fc645" />
+		</dataarea>
+	</part>
+</software>

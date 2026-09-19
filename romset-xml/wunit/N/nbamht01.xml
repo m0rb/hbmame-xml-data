@@ -1,0 +1,46 @@
+<software name="nbamht01" cloneof="nbahangt">
+	<description>NBA Maximum Hangtime (Custom Rebuild, 2026-07-02)</description>
+	<year>2026</year>
+	<publisher>Midway</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="nbamht01.u54" offset="0x0" size="0x80000" crc="9fcf1f48" sha1="ad10d0d890dfcad2c10bacbb24c2e1cc3f8b656d" />
+		<rom loadflag="load16_byte" name="nbamht01.u63" offset="0x1" size="0x80000" crc="29530746" sha1="99f1d4c83802f0cd7b9973c2f3b4f34adf242fcd" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0x800000">
+		<rom loadflag="load16_byte" name="l1.0_nba_hangtime_u_2_music_spch.u2" offset="0x0" size="0x100000" crc="3f0b0d0a" sha1="e3b8a264686ce7359d86e4926237d8cf17612991" />
+		<rom loadflag="load16_byte" name="l1.0_nba_hangtime_u_3_music_spch.u3" offset="0x200000" size="0x100000" crc="ec1db988" sha1="1cf06d0b75f20ded7db648070e85c056043765bb" />
+		<rom loadflag="load16_byte" name="l1.0_nba_hangtime_u_4_music_spch.u4" offset="0x400000" size="0x100000" crc="c7f847a3" sha1="c50175dffa3563ccd5792c59a6b44523f4014544" />
+		<rom loadflag="load16_byte" name="l1.0_nba_hangtime_u_5_music_spch.u5" offset="0x600000" size="0x100000" crc="ef19316a" sha1="d41ae87ab45630a37c73684de42f7f6e0ed8f13b" />
+		</dataarea>
+		<dataarea name="serial_security:pic" size="0x2000">
+		<rom name="459_nba_hang_time_u64.u64" offset="0x0" size="0x2000" crc="0e642b39" sha1="7e93a5bd0bd4a5fabf0612cdfdbfb400c6035ef7" />
+		</dataarea>
+		<dataarea name="video" size="0x2000000">
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_133_image_rom.u133" offset="0x0" size="0x100000" crc="3163feed" sha1="eb7f128de306933929a0933e36e57760459cb0a1" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_132_image_rom.u132" offset="0x1" size="0x100000" crc="428eaf44" sha1="2897efef4ab1653870b5bebb2762ea85549da03a" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_131_image_rom.u131" offset="0x2" size="0x100000" crc="5f7c5111" sha1="14337f50b7b98254b54250af00f8a4a46bd7ee8d" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_130_image_rom.u130" offset="0x3" size="0x100000" crc="c7c0c514" sha1="49788ff885996d9c5909c0ecebe06b6abd4298ed" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_129_image_rom.u129" offset="0x400000" size="0x100000" crc="b3d0daa0" sha1="302208c30f2b0c4aead8cf9201ae4c9501f7f952" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_128_image_rom.u128" offset="0x400001" size="0x100000" crc="3704ee69" sha1="e57846e96380af480fd6851c5359f88d432ac7cc" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_127_image_rom.u127" offset="0x400002" size="0x100000" crc="4ea64d5a" sha1="e7054c3946898ab0c5b4c27244c2eb6b24eaced7" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_126_image_rom.u126" offset="0x400003" size="0x100000" crc="0c5c19b7" sha1="802a05f53fcc2827960a63ef5c32a884fc96aaee" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_125_image_rom.u125" offset="0x800000" size="0x100000" crc="46c43d67" sha1="13a4d924fed51c2db7f750436b0b7c6ef03d36a5" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_124_image_rom.u124" offset="0x800001" size="0x100000" crc="ed495156" sha1="40f67fb2ccdd185b444f1127b1ec2fa4b493d7d6" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_123_image_rom.u123" offset="0x800002" size="0x100000" crc="b48aa5da" sha1="d8ee259a63dd7d997f2b99b73d0f11a277ba961d" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_122_image_rom.u122" offset="0x800003" size="0x100000" crc="b18cd181" sha1="d86eb5c81b10ba112ed989ab581683ccb669c3b5" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_121_image_rom.u121" offset="0xc00000" size="0x100000" crc="5acb267a" sha1="9c7e55991f795f0deae5f5cada3d5f49b7da578e" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_120_image_rom.u120" offset="0xc00001" size="0x100000" crc="28e05f86" sha1="ab642e7525b8fe55aab79597fcf84c4a8265463f" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_119_image_rom.u119" offset="0xc00002" size="0x100000" crc="b4f604ea" sha1="3997acfc856eead321e98584f7cb21953c95951a" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_118_image_rom.u118" offset="0xc00003" size="0x100000" crc="a257b973" sha1="31b4e3cf4e93be673d9b32dc85d7be0edcf6234c" />
+		<rom loadflag="load32_byte" name="nbamht01.u117" offset="0x1000000" size="0x100000" crc="6cf2e7b5" sha1="6f76f663d48804daaece95decd5120d1d919e383" />
+		<rom loadflag="load32_byte" name="nbamht01.u116" offset="0x1000001" size="0x100000" crc="b19a5771" sha1="a829ba6460df001139c1b20695c5a9ded725cbba" />
+		<rom loadflag="load32_byte" name="nbamht01.u115" offset="0x1000002" size="0x100000" crc="3a6dd372" sha1="703635fc6e5e2fbf1137f45d26332315136f9ef5" />
+		<rom loadflag="load32_byte" name="nbamht01.u114" offset="0x1000003" size="0x100000" crc="23dbb571" sha1="82598d728f89afdb788d3c80457bbfe293eccc3d" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_113_image_rom.u113" offset="0x1400000" size="0x100000" crc="d712a779" sha1="ca0e25fbb570c28c9ac6674f35050152a9072a5b" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_112_image_rom.u112" offset="0x1400001" size="0x100000" crc="644e1bca" sha1="447cc3b0a16aaff39b6cd095f1c255a91f235f7f" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_111_image_rom.u111" offset="0x1400002" size="0x100000" crc="10d3b768" sha1="e22fcb02a17c78f963ee5d35a38a9ab14f3de450" />
+		<rom loadflag="load32_byte" name="l1.0_nba_hangtime_u_110_image_rom.u110" offset="0x1400003" size="0x100000" crc="8575aeb2" sha1="883acfc45416ab6e1ab77fc897638f89286bea7e" />
+		</dataarea>
+	</part>
+</software>

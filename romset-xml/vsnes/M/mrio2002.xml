@@ -1,0 +1,17 @@
+<software name="mrio2002" cloneof="suprmrio">
+	<description>Vs. Super Mario Bros. 2002</description>
+	<year>2002</year>
+	<publisher>Nintendo</publisher>
+	<part name="cart">
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="mrio2002.2b" offset="0x0" size="0x2000" crc="1feda640" sha1="f26be31f43dacdaa9d8bffa75f4fcd9d8d04953a" />
+		<rom name="mds-sm4-4__2aor8a_e.2a or 8a" offset="0x2000" size="0x2000" crc="15506b86" sha1="69ecf7a3cc8bf719c1581ec7c0d68798817d416f" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="mds-sm4-4__1dor6d_e.1d or 6d" offset="0x0" size="0x2000" crc="be4d5436" sha1="08162a7c987f1939d09bebdb676f596c86abf465" />
+		<rom name="mds-sm4.1c" offset="0x2000" size="0x2000" crc="0011fc5a" sha1="5c2c49938a12affc03e64e5bdab307998be20020" />
+		<rom name="mds-sm4-4__1bor6b_e.1b or 6b" offset="0x4000" size="0x2000" crc="b1b87893" sha1="8563ceaca664cf4495ef1020c07179ca7e4af9f3" />
+		<rom name="mds-sm4-4__1aor6a_e.1a or 6a" offset="0x6000" size="0x2000" crc="1abf053c" sha1="f17db88ce0c9bf1ed88dc16b9650f11d10835cec" />
+		</dataarea>
+	</part>
+</software>

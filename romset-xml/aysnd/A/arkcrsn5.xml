@@ -1,0 +1,21 @@
+<software name="arkcrsn5" cloneof="arkanoid">
+	<description>Cruisin 5 (demo)</description>
+	<year>2023</year>
+	<publisher>Abyss</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="cruisin5.3f" offset="0x0" size="0x8000" crc="41ed7668" sha1="afd1600317d210b6da2c63a65f1614be1f77854b" />
+		<rom name="cruisin5.5f" offset="0x8000" size="0x8000" crc="77e310cc" sha1="e2638bf6c565df9dab98d92c857d2212b150a2d1" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x18000">
+		<rom name="cruisin5.2c" offset="0x0" size="0x8000" crc="7fb9dafc" sha1="74a312729f10ab4753204b41de59ff41b93e80cb" />
+		<rom name="cruisin5.3c" offset="0x8000" size="0x8000" crc="05229af9" sha1="76c469506430bc23ee77bbcefbc357478437bba7" />
+		<rom name="cruisin5.5c" offset="0x10000" size="0x8000" crc="a4c1a25f" sha1="29d49572c1e7c6c8ac428ad2a3e625f0f548f66c" />
+		</dataarea>
+		<dataarea name="proms" size="0x600">
+		<rom name="a75-07.ic24" offset="0x0" size="0x200" crc="0af8b289" sha1="6bc589e8a609b4cf450aebedc8ce02d5d45c970f" />
+		<rom name="a75-08.ic23" offset="0x200" size="0x200" crc="abb002fb" sha1="c14f56b8ef103600862e7930709d293b0aa97a73" />
+		<rom name="a75-09.ic22" offset="0x400" size="0x200" crc="a7c6c277" sha1="adaa003dcd981576ea1cc5f697d709b2d6b2ea29" />
+		</dataarea>
+	</part>
+</software>

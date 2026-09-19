@@ -1,0 +1,26 @@
+<software name="samsh5sp25" cloneof="samsh5sp">
+	<description>Samurai Shodown V Special (Edition Final, location test, 2020-06-16)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="272s25.p1" offset="0x0" size="0x400000" crc="6e20b19a" sha1="906481e91da79564be9aa01c481acf28cbb69607" />
+		<rom loadflag="load16_word_swap" name="272s26.p2" offset="0x400000" size="0x400000" crc="1f5469bc" sha1="31d031c2b1268c4895c6679ce38a46b5c5b829d1" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="272s01.v1" offset="0x0" size="0x800000" crc="3bf61586" sha1="270fd58781b2b897a7365ccdf878c7e57048da35" />
+		<rom name="272s01.v2" offset="0x800000" size="0x800000" crc="95fe7646" sha1="eec1a3a4dc5b5a960735147c29b976581a660628" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="272s26.c1" offset="0x0" size="0x800000" crc="ec9fda8d" sha1="acc307e864d0ba15beb78a42edfa62941394ab9f" />
+		<rom loadflag="load16_byte" name="272s26.c2" offset="0x1" size="0x800000" crc="d2fc888d" sha1="cffa2aed9581ac42db0672a25ae737885f4c2044" />
+		<rom loadflag="load16_byte" name="272s26.c3" offset="0x1000000" size="0x800000" crc="b0ea781b" sha1="6e336952df4ec2d203a335e024ca85b912f7fa38" />
+		<rom loadflag="load16_byte" name="272s26.c4" offset="0x1000001" size="0x800000" crc="d34ac591" sha1="dc429100fc26baaca70f6dbf9d1c4d837b85935e" />
+		<rom loadflag="load16_byte" name="272s26.c5" offset="0x2000000" size="0x800000" crc="1b5c1ea2" sha1="7741344a640945770b9c97ccb3e30155874de9e8" />
+		<rom loadflag="load16_byte" name="272s26.c6" offset="0x2000001" size="0x800000" crc="deeaad58" sha1="e718fb195af55c2df8a101cbb6b5a050c4cb14e3" />
+		<rom loadflag="load16_byte" name="272s26.c7" offset="0x3000000" size="0x800000" crc="dce0119f" sha1="a89adc624fc549d69222df9202bdf277ccdbf735" />
+		<rom loadflag="load16_byte" name="272s26.c8" offset="0x3000001" size="0x800000" crc="3bf256c5" sha1="7b24d2b78a8937ad1aed1b68c134bc48b60bfbba" />
+		</dataarea>
+	</part>
+</software>

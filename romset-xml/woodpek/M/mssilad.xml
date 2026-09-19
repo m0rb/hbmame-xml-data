@@ -1,0 +1,19 @@
+<software name="mssilad" cloneof="mspacman">
+	<description>Ms. Pacman After Dark (Sil)</description>
+	<year>2000</year>
+	<publisher>[Midway]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="mssilad.3" offset="0x2000" size="0x1000" crc="79d241dd" sha1="98f95619d4212da9f23b83ad5c9c793576d51177" />
+		<rom name="boot4" offset="0x3000" size="0x1000" crc="165a9dd8" sha1="3022a408118fa7420060e32a760aeef15b8a96cf" />
+		<rom name="mssilad.5" offset="0x8000" size="0x1000" crc="2e2fcde0" sha1="718dcbf395eb92b956adf185b5b2cf46aa5b9694" />
+		<rom name="mssilad.6" offset="0x9000" size="0x1000" crc="22c6d19a" sha1="92cb3f962b7dab5e92b780d60f448b9f57c03687" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="msatkad.5e" offset="0x0" size="0x1000" crc="dc70ed2e" sha1="b9fbb1d21085bc78eb82c429506b20e332b18e0e" />
+		<rom name="msatkad.5f" offset="0x1000" size="0x1000" crc="643d5523" sha1="565f92294a4b6a11dc5e9a165f35284c2a526e6c" />
+		</dataarea>
+	</part>
+</software>

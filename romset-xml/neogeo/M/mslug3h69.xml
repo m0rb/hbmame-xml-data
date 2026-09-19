@@ -1,0 +1,28 @@
+<software name="mslug3h69" cloneof="mslug3">
+	<description>Metal Slug 3 (Crazy Fire Edition, 2020-09-03)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="256h69.p1" offset="0x0" size="0x100000" crc="920a3352" sha1="cc4036f4ecea65d87b8b4f4530a6ac101b89d4a7" />
+		<rom loadflag="load16_word_swap" name="256h64.p2" offset="0x100000" size="0x400000" crc="62e699b3" sha1="eac088b21d2243198034a9796aa0815d686ccfac" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="256.v1" offset="0x0" size="0x400000" crc="f2690241" sha1="fd56babc1934d10e0d27c32f032f9edda7ca8ce9" />
+		<rom name="256.v2" offset="0x400000" size="0x400000" crc="7e2a10bd" sha1="0d587fb9f64cba0315ce2d8a03e2b8fe34936dff" />
+		<rom name="256.v3" offset="0x800000" size="0x400000" crc="0eaec17c" sha1="c3ed613cc6993edd6fc0d62a90bcd85de8e21915" />
+		<rom name="256h46.v4" offset="0xc00000" size="0x400000" crc="b45d9a3b" sha1="eee342e11865facbbfcaf82b8e16b9e64b8c309c" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="256d.c1" offset="0x0" size="0x800000" crc="3540398c" sha1="0a96f2360eb26c66bf02bbc6f52230b55cc95e4e" />
+		<rom loadflag="load16_byte" name="256d.c2" offset="0x1" size="0x800000" crc="bdd220f0" sha1="f52851023f3bc120b05f622af0e0ab1bedc41604" />
+		<rom loadflag="load16_byte" name="256d.c3" offset="0x1000000" size="0x800000" crc="bfaade82" sha1="66b07e592c9a9b35567fe463496f8f75c32a7db9" />
+		<rom loadflag="load16_byte" name="256d.c4" offset="0x1000001" size="0x800000" crc="1463add6" sha1="4db91b46d6430da272d27d00a6dc0eb25949bea1" />
+		<rom loadflag="load16_byte" name="256d.c5" offset="0x2000000" size="0x800000" crc="48ca7f28" sha1="e903876be5fb4fa582c988d74c6bef1c3b9c7083" />
+		<rom loadflag="load16_byte" name="256d.c6" offset="0x2000001" size="0x800000" crc="806eb36f" sha1="a412a9cab80c326733dde7652d1db2a46afb3ebb" />
+		<rom loadflag="load16_byte" name="256d.c7" offset="0x3000000" size="0x800000" crc="9395b809" sha1="ca9ac9832017094eee3623f0b6c4c4b7b4f1374d" />
+		<rom loadflag="load16_byte" name="256d.c8" offset="0x3000001" size="0x800000" crc="a369f9d4" sha1="f8146ea80a1a23da7e7e04c88f778ee9abdfeb5c" />
+		</dataarea>
+	</part>
+</software>

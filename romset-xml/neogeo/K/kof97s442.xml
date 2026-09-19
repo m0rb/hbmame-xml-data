@@ -1,0 +1,25 @@
+<software name="kof97s442" cloneof="kof97">
+	<description>Kof&#x27;97 (Random Selection Plus Version V1, 2013-06-05)</description>
+	<year>1997</year>
+	<publisher>zhuoxian2007</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="232s442.p1" offset="0x0" size="0x100000" crc="70e1112c" sha1="3a9e7d25fa6215b74d116b7bd1db17036e741162" />
+		<rom loadflag="load16_word_swap" name="232s442.p2" offset="0x100000" size="0x400000" crc="8911b37d" sha1="ee6e89e553bede30843552262c5a15a860a88999" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="232s442.c1" offset="0x0" size="0x800000" crc="3f3917e6" sha1="a5cab5d612de12acdd4019b1709c20dc3f23bf63" />
+		<rom loadflag="load16_byte" name="232s442.c2" offset="0x1" size="0x800000" crc="2e9308a0" sha1="3e9a46dc7ed0157d895bb2f7fa7b2aa4acaa1fbf" />
+		<rom loadflag="load16_byte" name="232.c3" offset="0x1000000" size="0x800000" crc="581d6618" sha1="14d3124a08ded59f86932c6b28e1a4e48c564ccd" />
+		<rom loadflag="load16_byte" name="232.c4" offset="0x1000001" size="0x800000" crc="49bb1e68" sha1="f769c1bd1b019521111ff3f0d22c63cb1f2640ef" />
+		<rom loadflag="load16_byte" name="232.c5" offset="0x2000000" size="0x400000" crc="34fc4e51" sha1="b39c65f27873f71a6f5a5d1d04e5435f874472ee" />
+		<rom loadflag="load16_byte" name="232.c6" offset="0x2000001" size="0x400000" crc="4ff4d47b" sha1="4d5689ede24a5fe4330bd85d4d3f4eb2795308bb" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,17 @@
+<software name="mjdchuka01" cloneof="mjdchuka">
+	<description>Mahjong The Dai Chuuka Ken (No AI Cheat, 2006-01-06)</description>
+	<year>2006</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom name="2.5b_s01" offset="0x0" size="0x80000" crc="1cd3662f" sha1="2a9f645c4c72648b14350986696520a6e48556a0" />
+		</dataarea>
+		<dataarea name="blitter" size="0x100000">
+		<rom loadflag="load16_byte" name="3.11c" offset="0x0" size="0x80000" crc="c66553c3" sha1="6e5380fdb97cc8b52986f3a3a8cac43c0f38cf54" />
+		<rom loadflag="load16_byte" name="4.11a" offset="0x1" size="0x80000" crc="972852fb" sha1="157f0a772bf060efc39033b10e63a6cb1022edf6" />
+		</dataarea>
+		<dataarea name="oki" size="0x80000">
+		<rom name="1.1b" offset="0x0" size="0x80000" crc="9759c65e" sha1="cf098c07616b6d2a2ba10ff6ae0006442b675326" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,15 @@
+<software name="seq1">
+	<description>16 Step Simple Sequencer</description>
+	<year>2003</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="seq1.6e" offset="0x0" size="0x1000" crc="7063b724" sha1="3a291d26bdfbf5c895d5f6aa70fc164299e8d9f1" />
+		<rom name="seq1.6f" offset="0x1000" size="0x1000" crc="95db4723" sha1="a0c47ea05e14cebc6493705cd2d46d1e3d12b23a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="at.5e" offset="0x0" size="0x1000" crc="eeb359bf" sha1="36f153b5ce53475fd144af50e4bd67b0e0b3a01f" />
+		<rom name="pacman.5f" offset="0x1000" size="0x1000" crc="958fedf9" sha1="4a937ac02216ea8c96477d4a15522070507fb599" />
+		</dataarea>
+	</part>
+</software>

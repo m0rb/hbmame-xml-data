@@ -1,0 +1,25 @@
+<software name="samsho5s01" cloneof="samsho5">
+	<description>Samurai Shodown V (ABC power revision - hideaway essential factor activation)</description>
+	<year>2003</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="270s01.p1" offset="0x0" size="0x800000" crc="821d9735" sha1="adb8fa6489ee9ef7a74d2536b6ebec593f0ab248" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="270s35.v1" offset="0x0" size="0x800000" crc="809c7617" sha1="b6b542eb4c1078016fcd78d050433dc8e3029329" />
+		<rom name="270s35.v2" offset="0x800000" size="0x800000" crc="42671607" sha1="4fa64b5a9349e9c3d5d60806c9da4a2b6beff18a" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="270s36.c1" offset="0x0" size="0x800000" crc="a2fe269f" sha1="95ea363061bf5f4537ba885c0fbd894985f0a93a" />
+		<rom loadflag="load16_byte" name="270s40.c2" offset="0x1" size="0x800000" crc="ac0309e5" sha1="9795fb2fa9eea617ec25656cfa9cd507899ec4fe" />
+		<rom loadflag="load16_byte" name="270s36.c3" offset="0x1000000" size="0x800000" crc="8275bb23" sha1="101e784f273cce19158f81d23a8f581750ff7512" />
+		<rom loadflag="load16_byte" name="270s36.c4" offset="0x1000001" size="0x800000" crc="7a69cc1f" sha1="2b63b5093c07aa7585093617c179af65b5015305" />
+		<rom loadflag="load16_byte" name="270s36.c5" offset="0x2000000" size="0x800000" crc="5298d011" sha1="2090deb8341efc682b1dc55fb55e85a091d9ce2c" />
+		<rom loadflag="load16_byte" name="270s36.c6" offset="0x2000001" size="0x800000" crc="a33c04df" sha1="31b14f8be2ff108337c8d672996aa650edd2307f" />
+		<rom loadflag="load16_byte" name="270s36.c7" offset="0x3000000" size="0x800000" crc="61025f97" sha1="5ba6432aa35b1c27bc34ebd349ff47154dceb9a8" />
+		<rom loadflag="load16_byte" name="270s36.c8" offset="0x3000001" size="0x800000" crc="df3993ce" sha1="580327300ff84ce805694b06f8036eeffef4c046" />
+		</dataarea>
+	</part>
+</software>

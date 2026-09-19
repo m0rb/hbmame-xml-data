@@ -1,0 +1,29 @@
+<software name="kovshp174" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Plus, 2018-07-06)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po174.rom" offset="0x100000" size="0x400000" crc="5000b71c" sha1="6c3641c73df23fd8052800c977f9d4ba02b7c23d" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600_pw114.rom" offset="0x400000" size="0x400000" crc="63c76ec7" sha1="a0a7d34e25e97f2e4f12d74d7c04e7a7a2c2bd39" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="pgm_t0600.u2" offset="0x180000" size="0x800000" crc="4acc1ad6" sha1="0668dbd5e856c2406910c6b7382548b37c631780" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_po174.rom" offset="0x0" size="0x800000" crc="f203d4dd" sha1="8b47d046eb13a755fe4c9b6f1095f98db5638c5f" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="a0540_po174.rom" offset="0x1800000" size="0x800000" crc="7808afe8" sha1="f5957247e769363827d4ee2670feca77fe8e7c9f" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_po174.rom" offset="0x0" size="0x800000" crc="5a9a07b7" sha1="f2bcc2f4331fd38973c73cda9ca5c64c9d978e41" />
+		<rom name="b0540_po174.rom" offset="0x800000" size="0x800000" crc="b54bfc74" sha1="70bbc91e7d45543b4d631b107b9537a916a05155" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_pw174.asic" offset="0x0" size="0x4000" crc="9e9c04a3" sha1="004d6d5a7d47b355313fcbf16ca5b166133cd7b6" />
+		</dataarea>
+	</part>
+</software>

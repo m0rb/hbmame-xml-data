@@ -1,0 +1,25 @@
+<software name="mslugxlrse04" cloneof="mslugx">
+	<description>Metal Slug X (Level Reset Special 2R Edition 2014-11-08)(Burst Enhanced Edition)</description>
+	<year>2020</year>
+	<publisher>Gaston90/PlayerX China/Azstar China Soda/I love Nimes</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="250ps04.p1" offset="0x0" size="0x100000" crc="d3ed8994" sha1="9ce6d2f3fd36cd7893823c57c96d53a718ae2e38" />
+		<rom loadflag="load16_word_swap" name="250hbs02.p2" offset="0x100000" size="0x400000" crc="56ed7fa6" sha1="a741f54d6c596c260a7a0ef364fa908b184fdb31" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xa00000">
+		<rom name="250.v1" offset="0x0" size="0x400000" crc="c79ede73" sha1="ebfcc67204ff9677cf7972fd5b6b7faabf07280c" />
+		<rom name="250.v2" offset="0x400000" size="0x400000" crc="ea9aabe1" sha1="526c42ca9a388f7435569400e2f132e2724c71ff" />
+		<rom name="250.v3" offset="0x800000" size="0x200000" crc="2ca65102" sha1="45979d1edb1fc774a415d9386f98d7cb252a2043" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="250.c1" offset="0x0" size="0x800000" crc="09a52c6f" sha1="c3e8a8ccdac0f8bddc4c3413277626532405fae2" />
+		<rom loadflag="load16_byte" name="250.c2" offset="0x1" size="0x800000" crc="31679821" sha1="554f600a3aa09c16c13c625299b087a79d0d15c5" />
+		<rom loadflag="load16_byte" name="250.c3" offset="0x1000000" size="0x800000" crc="fd602019" sha1="c56646c62387bc1439d46610258c755beb8d7dd8" />
+		<rom loadflag="load16_byte" name="250.c4" offset="0x1000001" size="0x800000" crc="31354513" sha1="31be8ea2498001f68ce4b06b8b90acbf2dcab6af" />
+		<rom loadflag="load16_byte" name="250.c5" offset="0x2000000" size="0x800000" crc="a4b56124" sha1="d41069856df990a1a99d39fb263c8303389d5475" />
+		<rom loadflag="load16_byte" name="250.c6" offset="0x2000001" size="0x800000" crc="83e3e69d" sha1="39be66287696829d243fb71b3fb8b7dc2bc3298f" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,37 @@
+<software name="captcommb" cloneof="captcomm">
+	<description>Captain Commando (bootleg)</description>
+	<year>1991</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c17b.p1" offset="0x0" size="0x80000" crc="cb71ed7a" sha1="84f76b4861a3c7a59e67f38777f2d68749f19337" />
+		<rom loadflag="load16_byte" name="c17b.p2" offset="0x1" size="0x80000" crc="47cb2e87" sha1="8a990a3a122045b50dd73d2e7b02fe60ab9af0a3" />
+		<rom loadflag="load16_byte" name="c17b.p3" offset="0x100000" size="0x40000" crc="79794279" sha1="5a43a4cef6653454ba9a81f2dd7f3f91c8a3354c" />
+		<rom loadflag="load16_byte" name="c17b.p4" offset="0x100001" size="0x40000" crc="b01077ba" sha1="0698fbfca7beea8e6a676aa19fcbf5ddea3defb1" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c17.m1" offset="0x0" size="0x8000" crc="698e8b58" sha1="b7a3d905a7ed2c430426ca2e185e3d7e75e752a1" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="captcommb.key" offset="0x0" size="0x80" crc="25d443e9" sha1="5d1174e0b06c126c5cbc85d930a838fe9465f8ec" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom loadflag="continue" offset="0x4" size="0x40000" />
+		<rom loadflag="continue" offset="0x200000" size="0x40000" />
+		<rom loadflag="continue" offset="0x200004" size="0x40000" />
+		<rom loadflag="continue" offset="0x5" size="0x40000" />
+		<rom loadflag="continue" offset="0x200001" size="0x40000" />
+		<rom loadflag="continue" offset="0x200005" size="0x40000" />
+		<rom loadflag="continue" offset="0x6" size="0x40000" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="continue" offset="0x200006" size="0x40000" />
+		<rom loadflag="continue" offset="0x7" size="0x40000" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		<rom loadflag="continue" offset="0x200007" size="0x40000" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c17b.v1" offset="0x0" size="0x40000" crc="096115fb" sha1="b496550f61b3d4b54ba43522d31efd0b09057493" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,21 @@
+<software name="neobombe02" cloneof="neobombe">
+	<description>Neo Bomberman (Ex Super V2)</description>
+	<year>1997</year>
+	<publisher>Eezezy(Lb70)</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="093s02.p1" offset="0x0" size="0x100000" crc="8426e714" sha1="917361f9663f16b541e938c86ca7eb442d40b4ed" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x600000">
+		<rom name="093.v1" offset="0x0" size="0x400000" crc="02abd4b0" sha1="6bf33ebc9b01cd4a029f6a555694a9835e30ca1b" />
+		<rom name="093.v2" offset="0x400000" size="0x200000" crc="a92b8b3d" sha1="b672c97b85d2f52eba3cb26025008ebc7a18312a" />
+		</dataarea>
+		<dataarea name="sprites" size="0x900000">
+		<rom loadflag="load16_byte" name="093.c1" offset="0x0" size="0x400000" crc="d1f328f8" sha1="ddf71280c2ce85225f15fe9e973f330609281878" />
+		<rom loadflag="load16_byte" name="093.c2" offset="0x1" size="0x400000" crc="82c49540" sha1="5f37c1bc0d63c98a13967b44da3d2c85e6dbbe50" />
+		<rom loadflag="load16_byte" name="093.c3" offset="0x800000" size="0x80000" crc="e37578c5" sha1="20024caa0f09ee887a6418dd02d02a0df93786fd" />
+		<rom loadflag="load16_byte" name="093.c4" offset="0x800001" size="0x80000" crc="59826783" sha1="0110a2b6186cca95f75225d4d0269d61c2ad25b1" />
+		</dataarea>
+	</part>
+</software>

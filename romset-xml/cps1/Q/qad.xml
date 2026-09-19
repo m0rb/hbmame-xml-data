@@ -1,0 +1,26 @@
+<software name="qad">
+	<description>Quiz &amp; Dragons: Capcom Quiz Game (USA 920701)</description>
+	<year>1992</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c22.p1" offset="0x0" size="0x20000" crc="de9c24a0" sha1="458962943e8d97d1f4e5a15ac1c8d3bcaa32918b" />
+		<rom loadflag="load16_byte" name="c22.p2" offset="0x1" size="0x20000" crc="cfe36f0c" sha1="370a47461b2dbb7807f547f5b4b33296572c5d78" />
+		<rom loadflag="load16_byte" name="c22.p3" offset="0x40000" size="0x20000" crc="10d22320" sha1="73b2876d5447f50a850c466789d9297269f732d6" />
+		<rom loadflag="load16_byte" name="c22.p4" offset="0x40001" size="0x20000" crc="15e6beb9" sha1="68d11e9bdd82775060281c5880f249e3515dc235" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c22.m1" offset="0x0" size="0x8000" crc="cfb5264b" sha1="e662ed5555d02ccf4e62cdbcfa0bbfc019734ee1" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="qad.key" offset="0x0" size="0x80" crc="6c6932c4" sha1="22b09ce77f46b25a14e0e98abcec9703afd5f383" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c22.v1" offset="0x0" size="0x20000" crc="f190da84" sha1="d5cd4c69b5d135a2f2fea8ca9631251c9da79e70" />
+		<rom name="c22.v2" offset="0x20000" size="0x20000" crc="b7583f73" sha1="3896e0fcf375e9e5d9ba70cc1ed001cd702f9ff7" />
+		</dataarea>
+	</part>
+</software>

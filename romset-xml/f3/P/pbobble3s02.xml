@@ -1,0 +1,31 @@
+<software name="pbobble3s02" cloneof="pbobble3">
+	<description>Puzzle Bobble 3 (Recarbonated, 2p only)</description>
+	<year>2022</year>
+	<publisher>Bankbank</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="h02.12" offset="0x0" size="0x80000" crc="c22eda63" sha1="f6968fea221608bd210fae8fa6fd80045def9fe0" />
+		<rom loadflag="load32_byte" name="h02.11" offset="0x1" size="0x80000" crc="531e2891" sha1="5ce0708ddba9d900b755e842c1d5a9e67986c52d" />
+		<rom loadflag="load32_byte" name="h02.10" offset="0x2" size="0x80000" crc="ba599730" sha1="7611fbe426d5c9fcd0d0346d57bd44a98035d1b2" />
+		<rom loadflag="load32_byte" name="h02.16" offset="0x3" size="0x80000" crc="412e7ca4" sha1="84f5616397832855c16e0c6a635a6f08e908f87e" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="e29-02.rom" offset="0x0" size="0x100000" crc="437391d3" sha1="b3cc64c68553d37e0bd09e0dece14901d8df5866" />
+		<rom loadflag="load16_byte" name="e29-01.rom" offset="0x1" size="0x100000" crc="52547c77" sha1="d0cc8b8915cec1506c9733a1ce1638038ea93d25" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="e29-13.rom" offset="0x100000" size="0x40000" crc="1ef551ef" sha1="527defe8f35314304adb4b483285b08cd6ebe865" />
+		<rom loadflag="load16_byte" name="e29-14.rom" offset="0x100001" size="0x40000" crc="7ee7e688" sha1="d65aa9c449e1d64f10d1be9727a9d93ab1571e65" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x1000000">
+		<rom loadflag="load16_byte" name="e29-03.rom" offset="0x400000" size="0x200000" crc="a4371658" sha1="26510a3f6de97f49b10dfc5cb9b7da947a44bfcb" />
+		<rom loadflag="load16_byte" name="e29-04.rom" offset="0x800000" size="0x200000" crc="d1f42457" sha1="2c77be6365deb5ef215da0c66da23b415623bdb1" />
+		<rom loadflag="load16_byte" name="e29-05.rom" offset="0xc00000" size="0x200000" crc="e33c1234" sha1="84c336ed6fd8723e824889fe7b52c284be659e62" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x100000">
+		<rom name="e29-06.rom" offset="0x0" size="0x100000" crc="c16184f8" sha1="ded417d9d116b5a2f7518fa404bc2dda1c6a6366" />
+		</dataarea>
+	</part>
+</software>

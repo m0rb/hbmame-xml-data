@@ -1,0 +1,19 @@
+<software name="ms2600a" cloneof="mspacman">
+	<description>Ms. Pacman (Atari look)</description>
+	<year>2018</year>
+	<publisher>MamePlus</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="boot4" offset="0x3000" size="0x1000" crc="165a9dd8" sha1="3022a408118fa7420060e32a760aeef15b8a96cf" />
+		<rom name="ms2600.5" offset="0x8000" size="0x1000" crc="4852db05" sha1="8471e1640164dc311e0180a7a8323208a40cf889" />
+		<rom name="ms2600a.6" offset="0x9000" size="0x1000" crc="2287b7fe" sha1="cea476a18a12011c6807f88962fe0525e292b2d9" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="ms2600.5e" offset="0x0" size="0x1000" crc="6b07b97a" sha1="981ce12d92c57ed6c908d4b5b9b0c0b079d325db" />
+		<rom name="ms2600a.5f" offset="0x1000" size="0x1000" crc="40f8bcaa" sha1="9da2b447788aecb3898d403e5d89ebb2f4182fe2" />
+		</dataarea>
+	</part>
+</software>

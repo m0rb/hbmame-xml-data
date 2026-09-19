@@ -1,0 +1,25 @@
+<software name="sf2ce34" cloneof="sf2ce">
+	<description>Street Fighter II&#x27;: Champion Edition (Lowtax is a Wifebeater parody Simplified, 2020-08-03)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c19s34.p1" offset="0x0" size="0x80000" crc="139fe8ab" sha1="8ff4dad9506768fdc28fb41ab10202dc98729ac9" />
+		<rom loadflag="load16_word_swap" name="c19s34.p2" offset="0x80000" size="0x80000" crc="779b8751" sha1="d4e52efaed3caef45f1ab246f5320a82d4d2d930" />
+		<rom loadflag="load16_word_swap" name="c19.p3" offset="0x100000" size="0x80000" crc="925a7877" sha1="1960dca35f0ca6f2b399a9fccfbc0132ac6425d1" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c19.m1" offset="0x0" size="0x8000" crc="08f6b60e" sha1="8258fcaca4ac419312531eec67079b97f471179c" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2ce.key" offset="0x0" size="0x80" crc="35b37429" sha1="b372cce106c0900554735c207fb333ac93554ec2" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c14s09.v1" offset="0x0" size="0x20000" crc="6cda9fc8" sha1="cd846cc3074773ae96bba62a1709ecbb1f6135eb" />
+		<rom name="c14s09.v2" offset="0x20000" size="0x20000" crc="d54dc6ae" sha1="662d6a3260892376428b29d374d255f4cf7352b3" />
+		</dataarea>
+	</part>
+</software>

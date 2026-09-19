@@ -1,0 +1,25 @@
+<software name="sf2mix96d" cloneof="sf2ce">
+	<description>Street Fighter II: Dream Battle (Mix 0.96d)</description>
+	<year>2020</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="sf2mix96d.p1" offset="0x0" size="0x80000" crc="93e95ee7" sha1="3d15cabfacc848c75075204ce0b28ab6b08b99bb" />
+		<rom loadflag="load16_word_swap" name="sf2mix96d.p2" offset="0x80000" size="0x80000" crc="f74c6502" sha1="ee3f00bd0ebcb74eed5d553ec79d4458aef8a99c" />
+		<rom loadflag="load16_word_swap" name="sf2mix96d.p3" offset="0x100000" size="0x80000" crc="7918a0d3" sha1="a98e39c3ad47dd820274bd6220ab75947a3a0e37" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="sf2mix96.m1" offset="0x0" size="0x8000" crc="a379fdc5" sha1="e9de38c13bd665698528bc102b1b16e9bdcae65b" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2ce.key" offset="0x0" size="0x80" crc="35b37429" sha1="b372cce106c0900554735c207fb333ac93554ec2" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="sf2mix96.v1" offset="0x0" size="0x20000" crc="6aa5d7fa" sha1="87cfea3a9f62653fa236f49b5b25b927cff30a02" />
+		<rom name="sf2mix96.v2" offset="0x20000" size="0x20000" crc="f92f5a4f" sha1="3f1d477ab0299d2783231c3bd9983513a85b2fe6" />
+		</dataarea>
+	</part>
+</software>

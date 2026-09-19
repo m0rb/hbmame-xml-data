@@ -1,0 +1,38 @@
+<software name="bakatonod" cloneof="bakatono">
+	<description>Bakatonosama Mahjong Manyuki (MGD2)</description>
+	<year>1991</year>
+	<publisher>Monolith Corp.</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n036001a.038" offset="0x1" size="0x40000" crc="083ca651" sha1="8d947e5de3db3a8cf4195de3b149d4a7994704c1" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		<rom loadflag="load16_byte" name="n036001a.03c" offset="0x80001" size="0x40000" crc="b3bc26ae" sha1="c0a741198627a78f7a100ee406d994b50e63012f" />
+		<rom loadflag="continue" offset="0x80000" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="n036001a.1f8" offset="0x0" size="0x80000" crc="d3edbde6" sha1="c8628a47e275137e340f2005775272a58a594d81" />
+		<rom name="n036001a.1fc" offset="0x80000" size="0x80000" crc="cc487705" sha1="3bc30dc485917a01756ed33b3507133549e3c1f8" />
+		<rom name="n036001b.1f8" offset="0x100000" size="0x80000" crc="e28cf9b3" sha1="6c0bc9f5f496edb89dd8dc7acbec3c361bcef0f3" />
+		<rom name="n036001b.1fc" offset="0x180000" size="0x80000" crc="96c3ece9" sha1="357ed280157897e26eeecce080da9757f1c03b35" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load32_byte" name="n036001a.538" offset="0x0" size="0x40000" crc="acb82025" sha1="6bc9b61fdbcb04a1acc0c692a066791bf412d814" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n036001a.638" offset="0x1" size="0x40000" crc="647ba28f" sha1="761884eabcf3be81614ee1d2cf6a86515b3fb628" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n036001a.53c" offset="0x100000" size="0x40000" crc="c6954f8e" sha1="b7f09c1d5800ea82abee8f0b00d0c9395882fe00" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n036001a.63c" offset="0x100001" size="0x40000" crc="dffefa4f" sha1="bdc9bd4d09808a51d8fb27c337f0382d5ddd58df" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n036001b.538" offset="0x200000" size="0x40000" crc="eb751be8" sha1="50db6c2055160396f7a6e4ada9fa52a458046ad2" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n036001b.638" offset="0x200001" size="0x40000" crc="6135247a" sha1="0c23a0894484689124873cfc37a4e0a05e226f2d" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n036001b.53c" offset="0x300000" size="0x40000" crc="1d39bad6" sha1="8f275cc73844760725b476264db0543a1327fb21" />
+		<rom loadflag="continue" offset="0x300002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n036001b.63c" offset="0x300001" size="0x40000" crc="0d40c953" sha1="f77d84cb6b9bfe580f69a319d4f4fd98389e6d49" />
+		<rom loadflag="continue" offset="0x300003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

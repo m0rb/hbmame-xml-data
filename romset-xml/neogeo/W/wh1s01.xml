@@ -1,0 +1,24 @@
+<software name="wh1s01" cloneof="wh1">
+	<description>World Heroes (Enable Hidden Characters)</description>
+	<year>1992</year>
+	<publisher>yumeji[2ch]</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="053s01.p1" offset="0x0" size="0x80000" crc="a7b49883" sha1="c6dfe2326e66afe4b0eb670ce15a36b4f36b7bc8" />
+		<rom loadflag="load16_word_swap" name="053.p2" offset="0x80000" size="0x80000" crc="0e33e8a3" sha1="4b7086edb504f3c30529d51ba8f453d48eba5164" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x300000">
+		<rom name="053.v2" offset="0x0" size="0x200000" crc="a68df485" sha1="007fa715423fba72c899cd3db3f4bec13281cf7a" />
+		<rom name="053.v4" offset="0x200000" size="0x100000" crc="7bea8f66" sha1="428e8721bd87f7faa756adb1e12672219be46c1d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x600000">
+		<rom loadflag="load16_byte" name="053.c1" offset="0x0" size="0x100000" crc="85eb5bce" sha1="3d03d29296ca6e6b5106aac4aaeec9d4b4ed1313" />
+		<rom loadflag="continue" offset="0x400000" size="0x100000" />
+		<rom loadflag="load16_byte" name="053.c2" offset="0x1" size="0x100000" crc="ec93b048" sha1="d4159210df94e259f874a4671d271ec27be13451" />
+		<rom loadflag="continue" offset="0x400001" size="0x100000" />
+		<rom loadflag="load16_byte" name="053.c3" offset="0x200000" size="0x100000" crc="0dd64965" sha1="e97b3b8a461da5e8861b3dfdacb25e007ced37a1" />
+		<rom loadflag="load16_byte" name="053.c4" offset="0x200001" size="0x100000" crc="9270d954" sha1="a2ef909868f6b06cdcc22a63ddf6c96be12b999c" />
+		</dataarea>
+	</part>
+</software>

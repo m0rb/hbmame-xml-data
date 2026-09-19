@@ -1,0 +1,31 @@
+<software name="vampjr1" cloneof="dstlk">
+	<description>Vampire: The Night Warriors (Japan 940630)</description>
+	<year>1994</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c53jr1.p1" offset="0x0" size="0x80000" crc="8895bf77" sha1="7977dad8c4baf89f28668f54225233a8e759aa3e" />
+		<rom loadflag="load16_word_swap" name="c53jr1.p2" offset="0x80000" size="0x80000" crc="5027db3d" sha1="64bd09f2b5fd2435d8ec86f64543b640ab08f82f" />
+		<rom loadflag="load16_word_swap" name="c53jr1.p3" offset="0x100000" size="0x80000" crc="97c66fdb" sha1="fe5c099dd29797aef28a247913f8931aa8ce6160" />
+		<rom loadflag="load16_word_swap" name="c53jr1.p4" offset="0x180000" size="0x80000" crc="9b4c3426" sha1="a527535e5d23c3d12bac7617fd5d8e15c2522bbd" />
+		<rom loadflag="load16_word_swap" name="c53jr1.p5" offset="0x200000" size="0x80000" crc="303bc4fd" sha1="2e3b687c725d389afa7c3e1fe8720a53d0f40269" />
+		<rom loadflag="load16_word_swap" name="c53jr1.p6" offset="0x280000" size="0x80000" crc="3dea3646" sha1="3b3f7105284a04b12b3de40633bc8f21a8d73f58" />
+		<rom loadflag="load16_word_swap" name="c53jr1.p7" offset="0x300000" size="0x80000" crc="c119a827" sha1="422864dda2a12621175350b8a130f970ed690719" />
+		<rom loadflag="load16_word_swap" name="c53jr1.p8" offset="0x380000" size="0x80000" crc="46593b79" sha1="ff003cc80ed4f3cfaff722b43a09076828c9a9d7" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c53.m1" offset="0x0" size="0x8000" crc="64b685d5" sha1="6c180e7420db754eca5cad17a40f5a64f5c3bd15" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c53.m2" offset="0x28000" size="0x20000" crc="cf7c97c7" sha1="109a4b56ecd59be9c3f5869de99d40619bdaef21" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="vampj.key" offset="0x0" size="0x14" crc="8418cc6f" sha1="e7128ac94fc7c37a64e4640db08f1769215769e5" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c53.q1" offset="0x0" size="0x200000" crc="4a39deb2" sha1="7e63e615869958db66a4e52a0272afee5a10e446" />
+		<rom loadflag="load16_word_swap" name="c53.q2" offset="0x200000" size="0x200000" crc="1a3e5c03" sha1="c5a556e125d6c3d68da745b4d56cd7a851f2a23d" />
+		</dataarea>
+	</part>
+</software>

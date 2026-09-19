@@ -1,0 +1,34 @@
+<software name="shocktre" cloneof="shocktro">
+	<description>Shock Troopers (Earlier)</description>
+	<year>1997</year>
+	<publisher>Saurus</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="238.p1" offset="0x0" size="0x100000" crc="5677456f" sha1="f76169fa5c90871d65e2a16fd1bb036c90533ac8" />
+		<rom loadflag="load16_word_swap" name="238.p2" offset="0x100000" size="0x400000" crc="5b4a09c5" sha1="de04036cba2da4bb2da73d902d1822b82b4f67a9" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x600000">
+		<rom name="238.v1" offset="0x0" size="0x400000" crc="260c0bef" sha1="9c4f80ce4bb205afed11bb8b8926d20748eb5512" />
+		<rom name="238.v2" offset="0x400000" size="0x200000" crc="4ad7d59e" sha1="bfdf2684f7f38af4e75ad0068ff9463dc2601598" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="238e.c1" offset="0x400000" size="0x200000" crc="aad087fc" sha1="7246269496d53b4af2ee12a69620f29272ea9037" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="238e.c2" offset="0x400001" size="0x200000" crc="7e39df1f" sha1="ecead5bf06dc5719de0ae7593560b37e0f1481b0" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		<rom loadflag="load16_byte" name="238e.c3" offset="0xc00000" size="0x200000" crc="6682a458" sha1="2dc2c8c88d5c471869b08596eef585ad18f2b370" />
+		<rom loadflag="continue" offset="0x800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="238e.c4" offset="0xc00001" size="0x200000" crc="cbef1f17" sha1="25080c4f4ac4e7075c4f976d8fa6ab4d8f7d7237" />
+		<rom loadflag="continue" offset="0x800001" size="0x200000" />
+		<rom loadflag="load16_byte" name="238e.c5" offset="0x1400000" size="0x200000" crc="e17762b1" sha1="1cc8cb9e485d86e5e0e50bcbe0e81cfb273f0664" />
+		<rom loadflag="continue" offset="0x1000000" size="0x200000" />
+		<rom loadflag="load16_byte" name="238e.c6" offset="0x1400001" size="0x200000" crc="28beab71" sha1="683abb317b1b95ba122859aea701f52197c10208" />
+		<rom loadflag="continue" offset="0x1000001" size="0x200000" />
+		<rom loadflag="load16_byte" name="238e.c7" offset="0x1c00000" size="0x200000" crc="a47e62d2" sha1="39285f78a9ed1138034de91efb7045084a5925f0" />
+		<rom loadflag="continue" offset="0x1800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="238e.c8" offset="0x1c00001" size="0x200000" crc="e8e890fb" sha1="abbbfa0e162d7711d62df08a9721d8c923888c78" />
+		<rom loadflag="continue" offset="0x1800001" size="0x200000" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,31 @@
+<software name="killbldps01" cloneof="killbldp">
+	<description>The Killing Blade Plus (Easy Move)</description>
+	<year>2005</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="v300xx_u6.u6" offset="0x100000" size="0x80000" crc="b7fb8ec9" sha1="e71b2d74269a82c7155b9818821156e128b68b28" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="igs_w05701b032.u5" offset="0x400000" size="0x400000" crc="2d3ae593" sha1="b9c1d2994be95ba974bc134a3bf115bc9c9c9c16" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="killbldp_igs027a_alt.bin" offset="0x0" size="0x4000" crc="98316b06" sha1="09be9fad24d68980a0a5beae60ced48012286216" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="igs_a05701w064.u3" offset="0x0" size="0x800000" crc="8c0c992c" sha1="28391e50ca4400060676f1524bd49ede373292da" />
+		<rom name="igs_a05702w064.u4" offset="0x800000" size="0x800000" crc="7e5b0f27" sha1="9e8d69f34c30216925fcb7af87f8b37f703317e7" />
+		<rom name="igs_a05703w064.u6" offset="0x1000000" size="0x800000" crc="accbdb44" sha1="d59b2452c7a5b4e666473dc973b73a0f2b4edc13" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="igs_b05701w064.u9" offset="0x0" size="0x800000" crc="a20cdcef" sha1="029a49971adf1e72ab556a207172bdfbd0b86b03" />
+		<rom name="igs_b05702w016.u11" offset="0x800000" size="0x200000" crc="fe7457df" sha1="d66b1b31102b0210f9faf40e1473cd1511ccaf1f" />
+		</dataarea>
+		<dataarea name="tiles" size="0xa00000">
+		<rom name="igs_t05701w032.u33" offset="0x180000" size="0x400000" crc="567c714f" sha1="b25b20e1ec9f077d6f7b9d41723a68d0d461bef2" />
+		</dataarea>
+		<dataarea name="user1" endianness="little" size="0x800000">
+		<rom name="v300x_ps01.u26" offset="0x0" size="0x200000" crc="222488cc" sha1="c5e74be25d86d4230da982c037f9da75d12b145f" />
+		</dataarea>
+	</part>
+</software>

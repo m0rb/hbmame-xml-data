@@ -1,0 +1,29 @@
+<software name="runark01">
+	<description>Runark (Chinese)</description>
+	<year>1990</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="c74-10_s01.ic59" offset="0x0" size="0x40000" crc="fcad0393" sha1="0ef0e8fa6200d69790d2c5e899529c3bba84acba" />
+		<rom loadflag="load16_byte" name="c74-08_s01.ic61" offset="0x1" size="0x40000" crc="d2ab3dd8" sha1="d4a42629436721e3fd3b9d921cfebbb2841bff09" />
+		<rom loadflag="load16_byte" name="c74-11_s01.ic58" offset="0x80000" size="0x40000" crc="1f22c042" sha1="5a17a625692c1230e7dc94b273bd71a2874ac0d8" />
+		<rom loadflag="load16_byte" name="c74-09_s01.ic14" offset="0x80001" size="0x40000" crc="a52893c6" sha1="41587db25eb3850434a4424e5de9e967a1e31d12" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x1c000">
+		<rom name="c74-12.ic62" offset="0x0" size="0x10000" crc="bb6ed668" sha1="e8c3a15ccbc788ac57d42bd2cabcdb2db6305489" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="c74-04.ic28" offset="0x0" size="0x100000" crc="2d97edf2" sha1="d3a995303facdad4f8e1fdda04eaaec4440ff371" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x80000">
+		<rom name="c74-05.ic29" offset="0x0" size="0x80000" crc="e29c0828" sha1="f541d724f118130bb7a8f9e790582c68779cc6b6" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom name="c74-03_s01.ic12" offset="0x0" size="0x100000" crc="d01d6069" sha1="ea821841085977745117adb2e7c2d98a744d3873" />
+		<rom name="c74-02_s01.ic11" offset="0x100000" size="0x100000" crc="5624d1a1" sha1="fd7c31c343f6f3f3283e9b7c27ca4d7835be6fbc" />
+		</dataarea>
+		<dataarea name="tc0100scn_1" size="0x100000">
+		<rom loadflag="load16_word_swap" name="c74-01_s01.ic34" offset="0x0" size="0x100000" crc="a3b16d89" sha1="be1a45a588a022ee6224a082a225371dbf3bf7ed" />
+		</dataarea>
+	</part>
+</software>

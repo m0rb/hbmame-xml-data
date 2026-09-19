@@ -1,0 +1,18 @@
+<software name="astrofbl">
+	<description>Astro Fighter (Black Background)</description>
+	<year>1979</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="afii.6" offset="0xd000" size="0x800" crc="d6cd13a4" sha1="359b00b02f4256f1138c8526214c6a34d2e5b47a" />
+		<rom name="afii.5" offset="0xd800" size="0x800" crc="6fd3c4df" sha1="73aad03e2588ac9f249d5751eb4a7c7cd12fd3b9" />
+		<rom name="afii.4" offset="0xe000" size="0x800" crc="9612dae3" sha1="8ee1797c212e06c381972b7b555f240ff317d75d" />
+		<rom name="afii.3" offset="0xe800" size="0x800" crc="5a0fef42" sha1="92a575abdf17bbb5ed6bc67479049523a985aa75" />
+		<rom name="afii.2" offset="0xf000" size="0x800" crc="69f8a4fc" sha1="9f9a935f19187640018009ade92f8993912ef6c2" />
+		<rom name="afii.1" offset="0xf800" size="0x800" crc="322c09d2" sha1="89723e3d998ff9cb9b174bca4b072b412b290c04" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="astrf_bl.clr" offset="0x0" size="0x20" crc="6be69d4b" sha1="4197cf9110db08e45b5d18aedb0fde96779491c1" />
+		</dataarea>
+	</part>
+</software>

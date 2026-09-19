@@ -1,0 +1,17 @@
+<software name="jackman" cloneof="puckman">
+	<description>Jackman</description>
+	<year>2001</year>
+	<publisher>Brent Cobb</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="jackman.6j" offset="0x3000" size="0x1000" crc="1f52ef8b" sha1="0a803352a964de9567bc314f8ace1c612082e3d0" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="jackman.5e" offset="0x0" size="0x1000" crc="809bd73e" sha1="81989a21d089eb76297926905729efcd69abeb87" />
+		<rom name="jackman.5f" offset="0x1000" size="0x1000" crc="0509d3e6" sha1="e589543b9a2f1c81115c03b4b88096ac84826e62" />
+		</dataarea>
+	</part>
+</software>

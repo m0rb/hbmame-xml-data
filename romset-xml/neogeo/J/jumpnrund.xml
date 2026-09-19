@@ -1,0 +1,22 @@
+<software name="jumpnrund">
+	<description>Jump n Run Tech Demo (Nov 2020)</description>
+	<year>2020</year>
+	<publisher>Blastar</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="412.p1" offset="0x0" size="0x80000" crc="924f0e82" sha1="6934e1f1ed5e54b25bff139fa57679958b0a0e4f" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="412.v11" offset="0x0" size="0x80000" crc="01a1a847" sha1="6f82532101e19d9a60a495d562b4ef0836b10124" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x100000">
+		<rom name="412.v21" offset="0x0" size="0x80000" crc="398c3d56" sha1="f9724345908abf2abdfd1e92e29ac7307ccc46e9" />
+		<rom name="412.v22" offset="0x80000" size="0x80000" crc="47aa9572" sha1="de02801e619537ad336361eda29ee40818de6a5c" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="412.c1" offset="0x0" size="0x80000" crc="0164735f" sha1="e5049f7bc39c6dbe886b29dac59850a333a4b58b" />
+		<rom loadflag="load16_byte" name="412.c2" offset="0x1" size="0x80000" crc="38f8b27e" sha1="d621220bacb0d8da78acb83f10bc56bf6b988db6" />
+		</dataarea>
+	</part>
+</software>

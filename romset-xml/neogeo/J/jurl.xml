@@ -1,0 +1,18 @@
+<software name="jurl">
+	<description>Jurl (2025-06-14)</description>
+	<year>2025</year>
+	<publisher>Tonsomo Entertainment</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="513.p1" offset="0x0" size="0x80000" crc="601b540e" sha1="d2ec144bde329a2f23c08c425a47e4661c950034" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="513.v1" offset="0x0" size="0x400000" crc="16db022e" sha1="dab8973b95e813cc215011d6d00c6f96f651c636" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="513.c1" offset="0x0" size="0x100000" crc="02811fe9" sha1="0257251d7ce31202f7604d1eb48f2dadd09e7819" />
+		<rom loadflag="load16_byte" name="513.c2" offset="0x1" size="0x100000" crc="953bb9a9" sha1="cd75c64b559ed92c7c02da4f74653aaed314cae6" />
+		</dataarea>
+	</part>
+</software>

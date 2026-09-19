@@ -1,0 +1,18 @@
+<software name="flipshot01" cloneof="flipshot">
+	<description>Battle Flip Shot (Korean)</description>
+	<year>1998</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="247s01.p1" offset="0x0" size="0x80000" crc="d2e7a7e3" sha1="1ff4f070fcc658bbc7dc69e16c87f82d7392d100" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="247.v1" offset="0x0" size="0x200000" crc="42ec743d" sha1="f45b5167ebcbd59300f4e5b05448cd421654102a" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="247s01.c1" offset="0x0" size="0x200000" crc="1ccfeff9" sha1="3575b84acca6ec0f26f4a0ad30a16c140e1c0b2e" />
+		<rom loadflag="load16_byte" name="247s01.c2" offset="0x1" size="0x200000" crc="648cdd5d" sha1="8a0aaf13e2539e48f9b0b18f8154aa50bf4bed2a" />
+		</dataarea>
+	</part>
+</software>

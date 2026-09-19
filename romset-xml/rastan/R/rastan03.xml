@@ -1,0 +1,33 @@
+<software name="rastan03">
+	<description>Rastan Enemy Hack</description>
+	<year>2001</year>
+	<publisher>Neil Pearce</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x60000">
+		<rom loadflag="load16_byte" name="b04-38.19" offset="0x0" size="0x10000" crc="1c91dbb1" sha1="17fc55e8546cc0b847aebd67fb4570a1e9f128f3" />
+		<rom loadflag="load16_byte" name="b04-37.7" offset="0x1" size="0x10000" crc="ecf20bdd" sha1="92e46b1edef40a19be17091c09daba598d77bca8" />
+		<rom loadflag="load16_byte" name="dh_ic20_40.bin" offset="0x20000" size="0x10000" crc="8f1ab70d" sha1="58356b1b02d7c7de9f59bb8413782f655ebf0012" />
+		<rom loadflag="load16_byte" name="dh_ic08_39.bin" offset="0x20001" size="0x10000" crc="553a1ed8" sha1="ef872bcdf681dd5f723907da3a36c065b618c563" />
+		<rom loadflag="load16_byte" name="b04-42.21" offset="0x40000" size="0x10000" crc="1857a7cb" sha1="7d967d04ade648c6ddb19aad9e184b6e272856da" />
+		<rom loadflag="load16_byte" name="eh_ic09_43.bin" offset="0x40001" size="0x10000" crc="71037966" sha1="f32d87a47535c6eae9016b7cc027d347236c217e" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x1c000">
+		<rom name="b04-19.49" offset="0x0" size="0x10000" crc="ee81fdd8" sha1="fa59dac2583a7d2979550dffc6f9c6c2bd67bfd5" />
+		</dataarea>
+		<dataarea name="adpcm" size="0x10000">
+		<rom name="b04-20.76" offset="0x0" size="0x10000" crc="fd1a34cc" sha1="b1682959521fa295769207b75cf7d839e9ec95fd" />
+		</dataarea>
+		<dataarea name="pc080sn" size="0x80000">
+		<rom loadflag="load16_byte" name="b04-01.40" offset="0x0" size="0x20000" crc="cd30de19" sha1="f8d158d38cd07a24cb5ddefd4ce90beec706924d" />
+		<rom loadflag="load16_byte" name="b04-02.67" offset="0x1" size="0x20000" crc="54040fec" sha1="a2bea2ce1cebd25b33be41723299ca0512d95f9e" />
+		<rom loadflag="load16_byte" name="b04-03.39" offset="0x40000" size="0x20000" crc="ab67e064" sha1="5c49f0ff9221cba9f2bb8da86eb4448c73012410" />
+		<rom loadflag="load16_byte" name="b04-04.66" offset="0x40001" size="0x20000" crc="94737e93" sha1="3df7f085fe6468bda11fab2e86252df6f74f7a99" />
+		</dataarea>
+		<dataarea name="pc090oj" size="0x80000">
+		<rom loadflag="load16_byte" name="b04-05.15" offset="0x0" size="0x20000" crc="c22d94ac" sha1="04f69f9af7ac4242e95dba32988afa3616d75a92" />
+		<rom loadflag="load16_byte" name="b04-06.28" offset="0x1" size="0x20000" crc="002ccf39" sha1="fdc29f39198f9b488e298ee89b0eeb3417527733" />
+		<rom loadflag="load16_byte" name="b04-07.14" offset="0x40000" size="0x20000" crc="b5632a51" sha1="da6ebe6afe245443a76b33714213549356c0c5c3" />
+		<rom loadflag="load16_byte" name="b04-08.27" offset="0x40001" size="0x20000" crc="feafca05" sha1="9de9ff1fcf037e5ab25c181b678245041238d6ae" />
+		</dataarea>
+	</part>
+</software>

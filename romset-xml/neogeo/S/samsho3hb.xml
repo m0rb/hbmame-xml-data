@@ -1,0 +1,26 @@
+<software name="samsho3hb" cloneof="samsho3">
+	<description>Samurai Shodown III (bootleg / hack)</description>
+	<year>2010</year>
+	<publisher>bootleg</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x300000">
+		<rom loadflag="load16_word_swap" name="087hb.p1" offset="0x0" size="0x100000" crc="15e021ca" sha1="78aba32741d2e4b5bc4c641a4166f4405ab240e2" />
+		<rom loadflag="load16_word_swap" name="087hb.p2" offset="0x100000" size="0x200000" crc="1cc2c370" sha1="01fba8d315d684652fb506aa833fa0e8e3e350df" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x600000">
+		<rom name="087.v1" offset="0x0" size="0x400000" crc="84bdd9a0" sha1="adceceb00569eca13fcc2e0f0d9f0d9b06a06851" />
+		<rom name="087.v2" offset="0x400000" size="0x200000" crc="ac0f261a" sha1="5411bdff24cba7fdbc3397d45a70fb468d7a44b3" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1a00000">
+		<rom loadflag="load16_byte" name="087.c1" offset="0x0" size="0x400000" crc="07a233bc" sha1="654cb56cfd6eeebe6745c0b8b730317fb8ccd3d9" />
+		<rom loadflag="load16_byte" name="087.c2" offset="0x1" size="0x400000" crc="7a413592" sha1="b8c7a2d0d7a8b14d6cab94d7a5f347e73c6ab7a4" />
+		<rom loadflag="load16_byte" name="087.c3" offset="0x800000" size="0x400000" crc="8b793796" sha1="053acc129ea56691607a5d255845703e61fd3ada" />
+		<rom loadflag="load16_byte" name="087.c4" offset="0x800001" size="0x400000" crc="728fbf11" sha1="daa319d455f759bfc08a37b43218bdb48dc1c9e5" />
+		<rom loadflag="load16_byte" name="087.c5" offset="0x1000000" size="0x400000" crc="172ab180" sha1="a6122f683bdb78d0079e1e360c1b96ba28def7b7" />
+		<rom loadflag="load16_byte" name="087.c6" offset="0x1000001" size="0x400000" crc="002ff8f3" sha1="3a378708697d727796c4f702dd5bbf1c9eb4daec" />
+		<rom loadflag="load16_byte" name="087.c7" offset="0x1800000" size="0x100000" crc="ae450e3d" sha1="ec482632cc347ec3f9e68df0ebcaa16ebe41b9f9" />
+		<rom loadflag="load16_byte" name="087.c8" offset="0x1800001" size="0x100000" crc="a9e82717" sha1="e39ee15d5140dbe7f06eea945cce9984a5e8b06a" />
+		</dataarea>
+	</part>
+</software>

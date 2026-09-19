@@ -1,0 +1,39 @@
+<software name="deroon01" cloneof="deroon">
+	<description>Deroon DeroDero (Unknown hack)</description>
+	<year>1995</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="t.01" offset="0x0" size="0x80000" crc="7ad6c740" sha1="51be70edf30364919c0d1da4a9bdd16bfbace213" />
+		<rom loadflag="load16_byte" name="t.02" offset="0x1" size="0x80000" crc="e44f4430" sha1="8a4ff12ef3a238694c30516fd7f39ccb4625dae9" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x40000">
+		<rom name="t003.uz1" offset="0x0" size="0x40000" crc="8bdfafa0" sha1="c0cf3eb7a65d967958fe2aace171859b0faf7753" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load32_word_swap" name="t101.uah1" offset="0x0" size="0x200000" crc="74baf845" sha1="935d2954ba227a894542be492654a2750198e1bc" />
+		<rom loadflag="load32_word_swap" name="t102.ual1" offset="0x2" size="0x200000" crc="1a02c4a3" sha1="5155eeaef009fc9a9f258e3e54ca2a7f78242df5" />
+		<rom loadflag="load32_word_swap" name="t103.ubl1" offset="0x800002" size="0x400000" crc="84e7da88" sha1="b5c3234f33bb945cc9762b91db087153a0589cfb" />
+		<rom loadflag="load32_word_swap" name="t104.ucl1" offset="0x1000002" size="0x200000" crc="66eb611a" sha1="64435d35677fea3c06fdb03c670f3f63ee481c02" />
+		</dataarea>
+		<dataarea name="cpu2" size="0x2200">
+		</dataarea>
+		<dataarea name="layer0" size="0x100000">
+		<rom name="t301.ubd1" offset="0x0" size="0x100000" crc="8b026177" sha1="3887856bdaec4d9d3669fe3bc958ef186fbe9adb" />
+		</dataarea>
+		<dataarea name="layer1" size="0x100000">
+		</dataarea>
+		<dataarea name="layer2" size="0x100000">
+		<rom name="t201.ubb1" offset="0x0" size="0x100000" crc="d5a087ac" sha1="5098160ce7719d93e3edae05f6edd317d4c61f0d" />
+		</dataarea>
+		<dataarea name="layer3" size="0x100000">
+		<rom name="t202.ubc1" offset="0x0" size="0x100000" crc="f051dae1" sha1="f5677c07fe644b3838657370f0309fb09244c619" />
+		</dataarea>
+		<dataarea name="oki" size="0x80000">
+		<rom name="t501.uad1" offset="0x0" size="0x80000" crc="2fbcfe27" sha1="f25c830322423f0959a36955edb563a6150f2142" />
+		</dataarea>
+		<dataarea name="ymz" size="0x200000">
+		<rom name="t401.uya1" offset="0x0" size="0x200000" crc="92111992" sha1="ae27e11ae76dec0b9892ad32e1a8bf6ab11f2e6c" />
+		</dataarea>
+	</part>
+</software>

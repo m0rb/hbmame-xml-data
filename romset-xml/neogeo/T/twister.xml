@@ -1,0 +1,18 @@
+<software name="twister">
+	<description>Twister in a mirror intro</description>
+	<year>2015</year>
+	<publisher>Blastar</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="608.p1" offset="0x0" size="0x80000" crc="514bf0fd" sha1="d7d084b83ae5ae776d6cc7b7d183bd79b2ab114a" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="608.v1" offset="0x0" size="0x80000" crc="0c5e044c" sha1="e5717ea0e6daaf7c529f1e8cf5e4e73ee4a3f26f" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="608.c1" offset="0x0" size="0x100000" crc="72ceed51" sha1="aa5ead993db739cf34917287988aeb43afa7f7d5" />
+		<rom loadflag="load16_byte" name="608.c2" offset="0x1" size="0x100000" crc="27da57ee" sha1="323fcd0893aec82cc3c78687834920e2eeedb67b" />
+		</dataarea>
+	</part>
+</software>

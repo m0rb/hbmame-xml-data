@@ -1,0 +1,31 @@
+<software name="vsav2s02" cloneof="vsav2">
+	<description>Vampire Savior 2: The Lord of Vampire (970913J, Infinite Power, 2008-07-28)</description>
+	<year>2008</year>
+	<publisher>Pipi899</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c76s02.p1" offset="0x0" size="0x80000" crc="868ce7b8" sha1="4e91618c1e39adf2487bc6c9d117bd6d84ee68f3" />
+		<rom loadflag="load16_word_swap" name="c76.p2" offset="0x80000" size="0x80000" crc="107c091b" sha1="bf5c2e4339e1a66b3c819900cc9b723a537adf6b" />
+		<rom loadflag="load16_word_swap" name="c76.p3" offset="0x100000" size="0x80000" crc="61979638" sha1="4d5625a9a06926c1a42c8f6e3a4c943f17750ec2" />
+		<rom loadflag="load16_word_swap" name="c76.p4" offset="0x180000" size="0x80000" crc="f37c5bc2" sha1="d8c1040a6ee6b9fc677a6a32b99bf02b6a707812" />
+		<rom loadflag="load16_word_swap" name="c76.p5" offset="0x200000" size="0x80000" crc="8f885809" sha1="69dac07e1f483b6478f792d20a137d6a081fbea3" />
+		<rom loadflag="load16_word_swap" name="c76.p6" offset="0x280000" size="0x80000" crc="2018c120" sha1="de1184ab771c6f075cdefa744a28b09f78d91643" />
+		<rom loadflag="load16_word_swap" name="c76.p7" offset="0x300000" size="0x80000" crc="fac3c217" sha1="0e9dd54e401e6d7c4fe81107ffd27e42ca810fcb" />
+		<rom loadflag="load16_word_swap" name="c76.p8" offset="0x380000" size="0x80000" crc="eb490213" sha1="bf0416df66a33c7a4678ab4a047de334dfd3b31e" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c76.m1" offset="0x0" size="0x8000" crc="35190139" sha1="07f8e53ea398461de5dcda9814dde7c09faf9f65" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c76.m2" offset="0x28000" size="0x20000" crc="c32dba09" sha1="1fe337ff334fab79847f9677ba0e168e93daa1c8" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="vsav2.key" offset="0x0" size="0x14" crc="289028ce" sha1="35779f0284dc15591493c8ec75ecda801148f3e0" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c76.q1" offset="0x0" size="0x400000" crc="d67e47b7" sha1="15a3f6779eccb10551ed94edf7e6e406a79b3de7" />
+		<rom loadflag="load16_word_swap" name="c76.q2" offset="0x400000" size="0x400000" crc="6d020a14" sha1="e98f862fac1e357c90949768bb2646263d9981a0" />
+		</dataarea>
+	</part>
+</software>

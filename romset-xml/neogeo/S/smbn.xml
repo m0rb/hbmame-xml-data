@@ -1,0 +1,17 @@
+<software name="smbn">
+	<description>Super Mario Bros.</description>
+	<year>2026</year>
+	<publisher>Sabino</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="524.p1" offset="0x0" size="0x100000" crc="7f2203e2" sha1="40c8a2aaedfde648729341da967698e46ebeee46" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="524.v1" offset="0x0" size="0x80000" crc="87a8bcb3" sha1="36005525795ef2c4779eae3955fae722a0abafb7" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="524.c1" offset="0x0" size="0x200000" crc="6ca43fd1" sha1="35aacdc116d93d9ea719660e4d4ab13231944bc3" />
+		</dataarea>
+	</part>
+</software>

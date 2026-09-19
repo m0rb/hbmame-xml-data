@@ -1,0 +1,40 @@
+<software name="gpilotsd" cloneof="gpilots">
+	<description>Ghost Pilots (MGD2)</description>
+	<year>1991</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n020001a.038" offset="0x1" size="0x40000" crc="fc5837c0" sha1="1eb46c21b17130238a1453c219e006ea150370ee" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		<rom loadflag="load16_byte" name="n020001a.03c" offset="0x80001" size="0x40000" crc="47a641da" sha1="d369ee64fd70d705355df71766b72c402a236e24" />
+		<rom loadflag="continue" offset="0x80000" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x180000">
+		<rom name="n020001a.178" offset="0x0" size="0x80000" crc="8cc44140" sha1="0a88d8962e057bf0cabd4819d4ba67e093c49b82" />
+		<rom name="n020001a.17c" offset="0x80000" size="0x80000" crc="415c61cd" sha1="638e5fd9b02b4553df42f00188a7ac52a5a7bf84" />
+		<rom name="020.v12" offset="0x100000" size="0x80000" crc="4a9e6f03" sha1="d3ac11f333b03d8a318921bdaefb14598e289a14" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x80000">
+		<rom name="020.v21" offset="0x0" size="0x80000" crc="7abf113d" sha1="5b2a0e70f2eaf4638b44702dacd4cb17838fb1d5" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load32_byte" name="n020001a.538" offset="0x0" size="0x40000" crc="92b8ee5f" sha1="ff45ca2eed87863f3725d5dadd5f55ac39af033e" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n020001a.638" offset="0x1" size="0x40000" crc="05733639" sha1="a5f2639853ea53ec3ff91fe37fdb9e628a497883" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n020001a.53c" offset="0x100000" size="0x40000" crc="8c8e42e9" sha1="9aa2abd11358933d72dc52ae8d0214e3b350c83b" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n020001a.63c" offset="0x100001" size="0x40000" crc="347fef2b" sha1="8b4c7ab7d9cfda8e588d8e0f4796ce163b468407" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n020001b.538" offset="0x200000" size="0x40000" crc="4f12268b" sha1="fa531734c9dbba62e35cb29eb40d80a219d87c54" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n020001b.638" offset="0x200001" size="0x40000" crc="2c586176" sha1="0e28a27d59ae2ec6a9d1ff822244bfa4f960f338" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n020001b.53c" offset="0x300000" size="0x40000" crc="7c3c9c7e" sha1="43a15669788384024ac173e1f89e53a2bdd630d2" />
+		<rom loadflag="continue" offset="0x300002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n020001b.63c" offset="0x300001" size="0x40000" crc="9b2eee8b" sha1="420156256d5b628a62ea612edd526d293d2c7abc" />
+		<rom loadflag="continue" offset="0x300003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

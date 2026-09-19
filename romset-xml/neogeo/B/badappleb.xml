@@ -1,0 +1,18 @@
+<software name="badappleb" cloneof="badapple">
+	<description>Bad Apple demo (Giga Power Edition)</description>
+	<year>2017</year>
+	<publisher>HP Man</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x400000">
+		<rom loadflag="load16_word_swap" name="642b.p1" offset="0x0" size="0x400000" crc="f68ade5a" sha1="c2aa87783bc04cccb9d5df0ed74524787be1860f" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x500000">
+		<rom name="642b.v1" offset="0x0" size="0x500000" crc="3b741894" sha1="c3e509830b53e36211823d6b912d5a2acb983ed9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x6200000">
+		<rom loadflag="load16_byte" name="642b.c1" offset="0x0" size="0x3100000" crc="88ddc443" sha1="b682f86647903c10bd7b525bb92dfd0a13499b36" />
+		<rom loadflag="load16_byte" name="642b.c2" offset="0x1" size="0x3100000" crc="b64face4" sha1="f7f36370c6d6f56a6b924bedbdf87a3cd572b61d" />
+		</dataarea>
+	</part>
+</software>

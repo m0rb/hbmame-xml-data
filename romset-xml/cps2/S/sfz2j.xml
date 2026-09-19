@@ -1,0 +1,29 @@
+<software name="sfz2j" cloneof="sfa2">
+	<description>Street Fighter Zero 2 (Japan 960430)</description>
+	<year>1996</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c64j.p1" offset="0x0" size="0x80000" crc="3e1e2e85" sha1="11447b08803d6bf7aeca7aa348b817bd6d448fe8" />
+		<rom loadflag="load16_word_swap" name="c64j.p2" offset="0x80000" size="0x80000" crc="f53d6c45" sha1="674c06b2775834887db3b7705941feea7367f500" />
+		<rom loadflag="load16_word_swap" name="c64j.p3" offset="0x100000" size="0x80000" crc="dd224156" sha1="85d29f2a288430d51c53b88130f255131e5dc601" />
+		<rom loadflag="load16_word_swap" name="c64j.p4" offset="0x180000" size="0x80000" crc="a45a75a6" sha1="e9cd4ad08ac0d058e9e1660acb07eb350a141fd6" />
+		<rom loadflag="load16_word_swap" name="c64j.p5" offset="0x200000" size="0x80000" crc="6352f038" sha1="720a9865ecd0b34315c59ee88d137b4afcdd91cb" />
+		<rom loadflag="load16_word_swap" name="c64j.p6" offset="0x280000" size="0x80000" crc="92b66e01" sha1="f09cb38aa49b22a9c98219fb2ad8a66b11fa5872" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c64.m1" offset="0x0" size="0x8000" crc="1bc323cf" sha1="83fbd6e9b327700dc9f1c59700b7385bc3705749" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c64.m2" offset="0x28000" size="0x20000" crc="ba6a5013" sha1="7814f3e56b69529b9860dd61c3b1e8d700244b03" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="sfz2j.key" offset="0x0" size="0x14" crc="455bd098" sha1="6a928a2d44f416ccdb0c09a8dd7466ac12f38110" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c64.q1" offset="0x0" size="0x200000" crc="aa47a601" sha1="a4d1ee89c84a3b9db06469bb66e85293b5aa9ac9" />
+		<rom loadflag="load16_word_swap" name="c64.q2" offset="0x200000" size="0x200000" crc="2237bc53" sha1="96d5693047e4cf1ed10a8ee1905cea267a278e92" />
+		</dataarea>
+	</part>
+</software>

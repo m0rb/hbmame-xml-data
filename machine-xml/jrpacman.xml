@@ -1,0 +1,879 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="jrpacman" description="Jrpacman cartridges">
+<software name="jr1000">
+	<description>Jr. Pac-Man 1000</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr1000.2c" offset="0x0" size="0x2000" crc="8f93c273" sha1="e672e0fdc8956967783110c0f36cfe0fd77cca90" />
+		<rom name="jr1000.2e" offset="0x2000" size="0x2000" crc="eac97aec" sha1="af5b88e1ce9d14851ae2db4e90cb6adb8df949c7" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr1000_2">
+	<description>Jr. Pac-Man 1000 (Alt)</description>
+	<year>1983</year>
+	<publisher>Bally Midway</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr1000.2c" offset="0x0" size="0x2000" crc="8f93c273" sha1="e672e0fdc8956967783110c0f36cfe0fd77cca90" />
+		<rom name="jr1000_2.2e" offset="0x2000" size="0x2000" crc="4f2010d4" sha1="0835375487ccdb2ae77dd9e62229d0b6aeb9142a" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr2000">
+	<description>Jr. Pac-Man 2000</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr2000.2c" offset="0x0" size="0x2000" crc="2784936b" sha1="31ceeaa0a6c2ca042d829b0baa7b5455c3942790" />
+		<rom name="jr2000.2e" offset="0x2000" size="0x2000" crc="a26f1a49" sha1="86d51269db2f7d8f6a7f12bd2bc1e2ab82f8be83" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr2001">
+	<description>Jr. Pac-Man 2001</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr2001.2c" offset="0x0" size="0x2000" crc="9171f08f" sha1="d2af715feb9b5266edc24a0ea9eaecc456eb4fac" />
+		<rom name="jr2001.2e" offset="0x2000" size="0x2000" crc="3164b853" sha1="a3e23a902a9548a7025248a0e63fcbd4374de554" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr2001p">
+	<description>Jr. Pac-Man 2001 Plus</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr2001p.2c" offset="0x0" size="0x2000" crc="d56cb9c5" sha1="e598a28c0a4f1cdce2312a8dc418cfa441fc5fe8" />
+		<rom name="jr2001p.2e" offset="0x2000" size="0x2000" crc="1b534804" sha1="b93764b6d6aacdcb4a50fffec58cab7778ada3ab" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr2002">
+	<description>Jr. Pac-Man 2002</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr2002.2c" offset="0x0" size="0x2000" crc="e254096c" sha1="f56127a6dcf8a6a5c916f33a29d761d36d55e543" />
+		<rom name="jr2002.2e" offset="0x2000" size="0x2000" crc="e3240bec" sha1="255669c33f88e39a5c5f041a800f14ec29d24f38" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr2002p">
+	<description>Jr. Pac-Man 2002 Plus</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr2002p.2c" offset="0x0" size="0x2000" crc="ad1d0360" sha1="d401a4575899c64c35977c1c49dfe9ad38a804e7" />
+		<rom name="jr2002p.2e" offset="0x2000" size="0x2000" crc="160321a1" sha1="8e4ed3f8f5270fec8a00db92a6aebc9951074f33" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr2003">
+	<description>Jr. Pac-Man 2003</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr2003.2c" offset="0x0" size="0x2000" crc="0ffe21f5" sha1="3a5503f46d4813ff77aaa633122346228bba659b" />
+		<rom name="jr2003.2e" offset="0x2000" size="0x2000" crc="1fd35d7a" sha1="b04e25c1fd0a148c4caae8ccb07fd2e3b4120325" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr2003p">
+	<description>Jr. Pac-Man 2003 Plus</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr2003p.2c" offset="0x0" size="0x2000" crc="b24e9383" sha1="ba82f2e58e7ba1b64cf52c5da3bb8bf3fac7cea3" />
+		<rom name="jr2003p.2e" offset="0x2000" size="0x2000" crc="65ba2fb7" sha1="3a0ee8798c72d13300712a2537b3a44a13f9338f" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr2004">
+	<description>Jr. Pac-Man 2004</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr2004.2c" offset="0x0" size="0x2000" crc="3c20cf84" sha1="8d34d50839b3f62bfbe9ee4ed633422be6459e73" />
+		<rom name="jr2004.2e" offset="0x2000" size="0x2000" crc="f08575ab" sha1="c5935f88fac7cc9f58e56d857e89c232582c1882" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr2004p">
+	<description>Jr. Pac-Man 2004 Plus</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr2004p.2c" offset="0x0" size="0x2000" crc="6e1db602" sha1="27bf6776d044c602cf9da88cfd19e23d4771759d" />
+		<rom name="jr2004p.2e" offset="0x2000" size="0x2000" crc="ab075ebe" sha1="4cafb1019acf49111fdc5e695d95610219a0573d" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr2005">
+	<description>Jr. Pac-Man 2005</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr2005.2c" offset="0x0" size="0x2000" crc="42eb8848" sha1="79ee37c77ec8374c568699c4161cd46ef8631a17" />
+		<rom name="jr2005.2e" offset="0x2000" size="0x2000" crc="502d286c" sha1="7fcf21d4037f7ffaf68be4c9089b3b3aa0ad59d3" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr2005p">
+	<description>Jr. Pac-Man 2005 Plus</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr2005p.2c" offset="0x0" size="0x2000" crc="4d03cd0a" sha1="eb3c5ed5d0a5d4d67baae2ad629ffbfadbe2bea3" />
+		<rom name="jr2005p.2e" offset="0x2000" size="0x2000" crc="51cbce81" sha1="37129228e8e92dd2a500ac2653364506129b7a2e" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr3000p">
+	<description>Jr. Pac-Man 3000 Plus</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr1000.2c" offset="0x0" size="0x2000" crc="8f93c273" sha1="e672e0fdc8956967783110c0f36cfe0fd77cca90" />
+		<rom name="jr3000p.2e" offset="0x2000" size="0x2000" crc="0a8f7b5c" sha1="2182b24330021faa447944e51bebc5159b2b4f0b" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr4000p">
+	<description>Jr. Pac-Man 4000 Plus</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr4000p.2c" offset="0x0" size="0x2000" crc="c5f05f11" sha1="9fdafd46adebb709b2b897b0b53b05c4392239b2" />
+		<rom name="jr4000p.2e" offset="0x2000" size="0x2000" crc="944add80" sha1="c391a2bb0d655da87d13581b16d09fe896106efd" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr5000p">
+	<description>Jr. Pac-Man 5000 Plus</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr5000p.2c" offset="0x0" size="0x2000" crc="086979e1" sha1="6c7fa4118fbb90417d3397c9f1f5eee14cb938de" />
+		<rom name="jr5000p.2e" offset="0x2000" size="0x2000" crc="a0fce81b" sha1="8704a18e43c5134fc758df3a443c3f0e6990c417" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr6000">
+	<description>Jr. Pac-Man 6000</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr6000.2c" offset="0x0" size="0x2000" crc="44bd3c24" sha1="d0321f314f604bb268fd62fde2e6a536f2c735f2" />
+		<rom name="jr6000.2e" offset="0x2000" size="0x2000" crc="83c8ff32" sha1="ceae512347ca4c4aa1e88623894c3279281c0639" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr7000">
+	<description>Jr. Pac-Man 7000</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr7000.2c" offset="0x0" size="0x2000" crc="3dca34d5" sha1="02b8ac91a683fa9688e5897ac206f344fbd71767" />
+		<rom name="jr7000.2e" offset="0x2000" size="0x2000" crc="202f2f37" sha1="337f7e7d123f914833115610a763fe7dc55c3d24" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr7000p">
+	<description>Jr. Pac-Man 7000 Plus</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr7000p.2c" offset="0x0" size="0x2000" crc="3b3e60fe" sha1="26ff62f8aa655fa927694f791ae8a361dc438f3c" />
+		<rom name="jr7000p.2e" offset="0x2000" size="0x2000" crc="89b17c92" sha1="2fc39e05fc35a69a6d224b6024f978b7c15bfb80" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr8000">
+	<description>Jr. Pac-Man 8000</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr8000.2c" offset="0x0" size="0x2000" crc="9653f563" sha1="0a71d70645a8cd2e407a638e934deda43b41e56c" />
+		<rom name="jr8000.2e" offset="0x2000" size="0x2000" crc="0b1791f8" sha1="1d6d494d8acfd57301fc01a86a27df2b7e697f1b" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr8000p">
+	<description>Jr. Pac-Man 8000 Plus</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr8000p.2c" offset="0x0" size="0x2000" crc="913a0bea" sha1="005e3908956169648464dfdd6ae5e2b67ba2233f" />
+		<rom name="jr8000p.2e" offset="0x2000" size="0x2000" crc="aed01226" sha1="ae8022e36c7f7c083c1a697e54c7587044fcb491" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jr9000p">
+	<description>Jr. Pac-Man 9000 Plus</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr9000p.2c" offset="0x0" size="0x2000" crc="b2653891" sha1="e96ab61f58bb9b47751e7e9397f2d44ff35897e6" />
+		<rom name="jr9000p.2e" offset="0x2000" size="0x2000" crc="87f45bd7" sha1="7a45e0d5479de3d867518354f108e62f7e4d9877" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jrcheat">
+	<description>Jr. Pac-Man Cheat [c]</description>
+	<year>1983</year>
+	<publisher>Bally Midway</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="cheat-8d.bin" offset="0x0" size="0x2000" crc="8b5b8d72" sha1="65af9245015480751b3714980caed81e421d102c" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jrp2c.2c" offset="0x0" size="0x2000" crc="0527ff9b" sha1="37fe3176b0d125b7d629e108e7ebdc1196e4a132" />
+		<rom name="jrp2e.2e" offset="0x2000" size="0x2000" crc="73477193" sha1="f00a488958ea0438642d345693787bdf771219ad" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jrdeluxe">
+	<description>Jr. Pac-Man Deluxe</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jrdeluxe.2c" offset="0x0" size="0x2000" crc="90517001" sha1="cfb4a43bf9ef732a940b027de383e7a6ec0ec671" />
+		<rom name="jrdeluxe.2e" offset="0x2000" size="0x2000" crc="ef042965" sha1="8497d2c7fdae6b1903df421ae1358a3b41e78599" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jrfast">
+	<description>Jr. Pac-Man [f]</description>
+	<year>1983</year>
+	<publisher>Bally Midway</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jppac1.bin" offset="0x0" size="0x2000" crc="f3bcb240" sha1="b1fbf28666d5f159daf8f6156e3e31c932bb4081" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jrp2c.2c" offset="0x0" size="0x2000" crc="0527ff9b" sha1="37fe3176b0d125b7d629e108e7ebdc1196e4a132" />
+		<rom name="jrp2e.2e" offset="0x2000" size="0x2000" crc="73477193" sha1="f00a488958ea0438642d345693787bdf771219ad" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jrhearts">
+	<description>Jr. Pac-Man Hearts</description>
+	<year>2000</year>
+	<publisher>Bally Midway</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jrhearts.2c" offset="0x0" size="0x2000" crc="40cafa63" sha1="c68a7eefabe4d8b008533abe3cf4b1a6512cd25e" />
+		<rom name="jrp2e.2e" offset="0x2000" size="0x2000" crc="73477193" sha1="f00a488958ea0438642d345693787bdf771219ad" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jrpacad">
+	<description>Jr. Pac-Man After Dark</description>
+	<year>1983</year>
+	<publisher>Bally Midway</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jrpacad.2c" offset="0x0" size="0x2000" crc="1ecf940c" sha1="035b1d44da3a010f8c158211d07f5c6e7d16b63d" />
+		<rom name="jrvectr.2e" offset="0x2000" size="0x2000" crc="c0b35564" sha1="c0c6de032023c301608c584489d564a61256345b" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jrpacjr">
+	<description>Jr. Pac-Man Junior</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jrpacjr.2c" offset="0x0" size="0x2000" crc="54e6c297" sha1="fa3c5240ca8a9e0c520864189c8b18105af629a7" />
+		<rom name="jrpacjr.2e" offset="0x2000" size="0x2000" crc="5b34dd98" sha1="342393af97e13fe32b684e467bf48019f7c0c1c3" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jrpacjrp">
+	<description>Jr. Pac-Man Junior Plus</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jrpacjr.2c" offset="0x0" size="0x2000" crc="54e6c297" sha1="fa3c5240ca8a9e0c520864189c8b18105af629a7" />
+		<rom name="jrpacjrp.2e" offset="0x2000" size="0x2000" crc="1ee279ef" sha1="ec26313fdf82ff7e4ff0acef28e2ce21a0539c1f" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jrpacman">
+	<description>Jr. Pac-Man (11/9/83)</description>
+	<year>1983</year>
+	<publisher>Bally Midway</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jrp2c.2c" offset="0x0" size="0x2000" crc="0527ff9b" sha1="37fe3176b0d125b7d629e108e7ebdc1196e4a132" />
+		<rom name="jrp2e.2e" offset="0x2000" size="0x2000" crc="73477193" sha1="f00a488958ea0438642d345693787bdf771219ad" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jrpacmanf">
+	<description>Jr. Pac-Man (speedup hack)</description>
+	<year>1983</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="fast_jr.8d" offset="0x0" size="0x2000" crc="461e8b57" sha1="42e25d384e653efb95a97bd64f55a8c3b3f71239" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jrp2c.2c" offset="0x0" size="0x2000" crc="0527ff9b" sha1="37fe3176b0d125b7d629e108e7ebdc1196e4a132" />
+		<rom name="jrp2e.2e" offset="0x2000" size="0x2000" crc="73477193" sha1="f00a488958ea0438642d345693787bdf771219ad" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jrpacp">
+	<description>Jr. Pac-Man Plus</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jrpacp.2c" offset="0x0" size="0x2000" crc="4fe4238e" sha1="1175b3f9e3a9120a2149b124259097e8c574a76d" />
+		<rom name="jrpacp.2e" offset="0x2000" size="0x2000" crc="5993c0fa" sha1="d5eee63b06972b09668c3fd66e737668439e26b7" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jrspeed">
+	<description>Jr. Pac-Man Speed [f]</description>
+	<year>1983</year>
+	<publisher>Bally Midway</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="speed-8d.bin" offset="0x0" size="0x2000" crc="461e8b57" sha1="42e25d384e653efb95a97bd64f55a8c3b3f71239" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jrp2c.2c" offset="0x0" size="0x2000" crc="0527ff9b" sha1="37fe3176b0d125b7d629e108e7ebdc1196e4a132" />
+		<rom name="jrp2e.2e" offset="0x2000" size="0x2000" crc="73477193" sha1="f00a488958ea0438642d345693787bdf771219ad" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jrvectr">
+	<description>Jr. Pac-Man Vector</description>
+	<year>1983</year>
+	<publisher>Bally Midway</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jrvectr.2c" offset="0x0" size="0x2000" crc="4876ad83" sha1="6ab405a622fe93bcea627635cb266712a4174ce5" />
+		<rom name="jrvectr.2e" offset="0x2000" size="0x2000" crc="c0b35564" sha1="c0c6de032023c301608c584489d564a61256345b" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+<software name="jryumyum">
+	<description>Jr. Pac-Man Vs YumYum + Friends</description>
+	<year>2000</year>
+	<publisher>Tim Appleton</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jryumyum.8e" offset="0x2000" size="0x2000" crc="934f1d34" sha1="1c502edea62ee7fca11d54cb8ff0ea6263828056" />
+		<rom name="jryumyum.8h" offset="0x8000" size="0x2000" crc="d59cb636" sha1="f2e9c0d4c62706a9d7ec68633ccb0edadf5e5439" />
+		<rom name="jryumyum.8j" offset="0xa000" size="0x2000" crc="010fb8dd" sha1="4c1193d3a1abde76f8c28245a451873162ec6848" />
+		<rom name="jryumyum.8k" offset="0xc000" size="0x2000" crc="191a176c" sha1="ae5e3c4bd788dd56e0da4130388ee841002cab6c" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jryumyum.2c" offset="0x0" size="0x2000" crc="f057d596" sha1="66cbe2720ecc456e9cef5422cf060bd507967fc2" />
+		<rom name="jryumyum.2e" offset="0x2000" size="0x2000" crc="e851bf29" sha1="d31fd0bb3b0614a9750f07a55e93b94d16643899" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>
