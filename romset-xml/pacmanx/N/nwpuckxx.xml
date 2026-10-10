@@ -1,0 +1,17 @@
+<software name="nwpuckxx" cloneof="puckmanx">
+	<description>New Puck-X (hires hack)</description>
+	<year>1980</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="newpuck2.6e" offset="0x0" size="0x1000" crc="a8ae23c5" sha1="1481a4f083b563350744f9d25b1bcd28073875d6" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="newpuck2.6h" offset="0x2000" size="0x1000" crc="197443f8" sha1="119aab12a9e1052c7b9a1f81e563740b41429a8c" />
+		<rom name="fastpuck.6j" offset="0x3000" size="0x1000" crc="2e64a3ba" sha1="f86a921173f32211b18d023c2701664d13ae23be" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="pacmanx.5e" offset="0x0" size="0x4000" crc="a45138ce" sha1="f18344980b4a58d0abf0cc2b7853184af3d5bfa0" />
+		<rom name="pacmanx.5f" offset="0x4000" size="0x4000" crc="92e1b10e" sha1="bb04988502fa181365c08096b5fd47fa9541c291" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,34 @@
+<software name="captcomms76" cloneof="captcomm">
+	<description>Captain Commando (Enhanced Edition 2016-11-28)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c17s76.p1" offset="0x0" size="0x80000" crc="87704aaa" sha1="e404049cb1045062117a71e266fd35a67bc39362" />
+		<rom loadflag="load16_word_swap" name="c17s76.p2" offset="0x80000" size="0x80000" crc="10035c04" sha1="619f583c06d16ae780d976616269cb9ee3115ebc" />
+		<rom loadflag="load16_byte" name="c17r1.p3" offset="0x100000" size="0x20000" crc="680e543f" sha1="cfa963ab6329f615807db213bf53841860ed3149" />
+		<rom loadflag="load16_byte" name="c17r1.p4" offset="0x100001" size="0x20000" crc="8820039f" sha1="d68ce0b34ade75b8c5214168b2b1e0cdff45cd52" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c17.m1" offset="0x0" size="0x8000" crc="698e8b58" sha1="b7a3d905a7ed2c430426ca2e185e3d7e75e752a1" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="captcomm.key" offset="0x0" size="0x80" crc="3bd9c940" sha1="8964479f402ce7e000f1da8b3f6386e6915269e1" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom loadflag="load16_word" name="c17.c01" offset="0x0" size="0x80000" crc="7261d8ba" sha1="4b66292e42d20d0b79a756f0e445492ddb9c6bbc" />
+		<rom loadflag="load16_word" name="c17.c03" offset="0x2" size="0x80000" crc="6a60f949" sha1="87391ff92abaf3e451f70d789a938cffbd1fd222" />
+		<rom loadflag="load16_word" name="c17.c05" offset="0x4" size="0x80000" crc="00637302" sha1="2c554b59cceec2de67a9a4bc6281fe846d3c8cd2" />
+		<rom loadflag="load16_word" name="c17.c07" offset="0x6" size="0x80000" crc="cc87cf61" sha1="7fb1f49494cc1a08aded20754bb0cefb1c323198" />
+		<rom loadflag="load16_word" name="c17.c17" offset="0x200000" size="0x80000" crc="28718bed" sha1="dfdc4dd14dc609783bad94d608a9e9b137dea944" />
+		<rom loadflag="load16_word" name="c17.c19" offset="0x200002" size="0x80000" crc="d4acc53a" sha1="d03282ebbde362e679cc97f772aa9baf163d7606" />
+		<rom loadflag="load16_word" name="c17.c21" offset="0x200004" size="0x80000" crc="0c69f151" sha1="a170b8e568439e4a26d84376d53560e4248e4e2f" />
+		<rom loadflag="load16_word" name="c17.c23" offset="0x200006" size="0x80000" crc="1f9ebb97" sha1="023d00cb7b6a52d1b29e2052abe08ef34cb0c55c" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c17.v1" offset="0x0" size="0x20000" crc="6de2c2db" sha1="9a1eaba8d104f59a5e61f89679bb5de0c0c64364" />
+		<rom name="c17.v2" offset="0x20000" size="0x20000" crc="b99091ae" sha1="b19197c7ad3aeaf5f41c26bf853b0c9b502ecfca" />
+		</dataarea>
+	</part>
+</software>

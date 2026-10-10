@@ -1,0 +1,21 @@
+<software name="mitcdemo">
+	<description>Demo - Mitchell</description>
+	<year>1989</year>
+	<publisher>Charles Doty</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0xa0000">
+		<rom name="md_04.bin" offset="0x50000" size="0x8000" crc="f0ed5c22" sha1="b8e26a09fca279d627bd700c31a82ffc18483192" />
+		<rom loadflag="continue" offset="0x0" size="0x8000" />
+		</dataarea>
+		<dataarea name="sprites" size="0x40000">
+		<rom name="md10.bin" offset="0x0" size="0x20000" crc="709a27b6" sha1="b7e8d124ee207e75c420762d336a97f4cf4054f6" />
+		<rom name="md9.bin" offset="0x20000" size="0x20000" crc="47de1ec7" sha1="45bff13a6cdf58bc425fdc3cd2ae22d40d69a2c2" />
+		</dataarea>
+		<dataarea name="chars" size="0x100000">
+		<rom name="md_09.bin" offset="0x0" size="0x20000" crc="f76acc9a" sha1="31004f441fc56efb692e2e52c4ecc44748185d0a" />
+		<rom name="md_11.bin" offset="0x80000" size="0x20000" crc="48f92e6f" sha1="6c51cccf5bcf7b3bfe6579a95516a850e99c9b76" />
+		</dataarea>
+		<dataarea name="oki" size="0x80000">
+		</dataarea>
+	</part>
+</software>

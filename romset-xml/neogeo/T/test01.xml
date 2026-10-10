@@ -1,0 +1,20 @@
+<software name="test01">
+	<description>MVS Test 01</description>
+	<year>2000</year>
+	<publisher>Furrtek</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="657.p1" offset="0x0" size="0x80000" crc="dd059433" sha1="17cc7c48464d2d2a3d104f47e70a5f7cf3e19a5e" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="052.v1" offset="0x0" size="0x200000" crc="22c097a5" sha1="328c4e6db0a026f54a633cff1443a3f964a8daea" />
+		</dataarea>
+		<dataarea name="sprites" size="0x600000">
+		<rom loadflag="load16_byte" name="052-c1.c1" offset="0x0" size="0x100000" crc="53e1c002" sha1="2125b1be379ea7933893ffb1cd65d6c4bf8b03bd" />
+		<rom loadflag="continue" offset="0x400000" size="0x100000" />
+		<rom loadflag="load16_byte" name="052-c2.c2" offset="0x1" size="0x100000" crc="776a2d1f" sha1="bca0bac87443e9e78c623d284f6cc96cc9c9098f" />
+		<rom loadflag="continue" offset="0x400001" size="0x100000" />
+		</dataarea>
+	</part>
+</software>

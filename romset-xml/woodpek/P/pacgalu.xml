@@ -1,0 +1,14 @@
+<software name="pacgalu" cloneof="mspacman">
+	<description>Pac-Gal (Hearts)</description>
+	<year>1982</year>
+	<publisher>Uchida</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacgalu.bin" offset="0x0" size="0x4000" crc="23a0bd03" sha1="6ebf7985374a0b0d7402f54c3c9b488fdebeb65e" />
+		<rom loadflag="continue" offset="0x8000" size="0x4000" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacgalu.gfx" offset="0x0" size="0x2000" crc="d6e3a240" sha1="e176bfc6c0d2ecee825dce18758639c6e1dbe70d" />
+		</dataarea>
+	</part>
+</software>

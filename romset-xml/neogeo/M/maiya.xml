@@ -1,0 +1,18 @@
+<software name="maiya">
+	<description>Maiya Super Nature Girl</description>
+	<year>2026</year>
+	<publisher>Eagle Software</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="526.p1" offset="0x0" size="0x80000" crc="9c3698fb" sha1="4d1f4e1aefdba006e876afe0031cba4064f7c9bd" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="526.v1" offset="0x0" size="0x79ab00" crc="127b89b4" sha1="8ec212c59da5e650ed6978cf358e24220b5d33c3" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="526.c1" offset="0x0" size="0x400000" crc="5fa779f8" sha1="1bce1e2e77395cd2353be295035e2c9ffc3204d0" />
+		<rom loadflag="load16_byte" name="526.c2" offset="0x1" size="0x400000" crc="3af3dc8f" sha1="b245c8d819daa14f8f0543eafd91ac349d291f55" />
+		</dataarea>
+	</part>
+</software>

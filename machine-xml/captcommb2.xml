@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="captcommb2" description="Captcommb2 cartridges">
+<software name="captcommb2" cloneof="captcomm">
+	<description>Captain Commando (bootleg with 2xMSM5205)</description>
+	<year>1991</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c17b2.p1" offset="0x0" size="0x80000" crc="c3a6ed28" sha1="f79fed35f7b0dc383837a2ead846acc686dd3487" />
+		<rom loadflag="load16_byte" name="c17b2.p2" offset="0x1" size="0x80000" crc="28729335" sha1="6dd23c2d41e4e182434fe80c03d5c90785e6c0ce" />
+		<rom loadflag="load16_byte" name="c17b2.p3" offset="0x100000" size="0x20000" crc="1b526d73" sha1="3dd8dec61db4f4f5546937602a8fb01c639d72f8" />
+		<rom loadflag="continue" offset="0x0" size="0x4000" />
+		<rom loadflag="continue" offset="0x18000" size="0x4000" />
+		<rom loadflag="load16_byte" name="c17b2.p4" offset="0x100001" size="0x20000" crc="73c99709" sha1="e122e3771b698c44fb998589af0542b1f2a3876a" />
+		<rom loadflag="continue" offset="0x1" size="0x4000" />
+		<rom loadflag="continue" offset="0x18001" size="0x4000" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c17b2.m1" offset="0x0" size="0x40000" crc="aed2f4bd" sha1="3bd567dc350bf6ac3a349548790ad49eb5bd8307" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom loadflag="continue" offset="0x4" size="0x40000" />
+		<rom loadflag="continue" offset="0x5" size="0x40000" />
+		<rom loadflag="continue" offset="0x6" size="0x40000" />
+		<rom loadflag="continue" offset="0x7" size="0x40000" />
+		<rom loadflag="continue" offset="0x200004" size="0x40000" />
+		<rom loadflag="continue" offset="0x200005" size="0x40000" />
+		<rom loadflag="continue" offset="0x200006" size="0x40000" />
+		<rom loadflag="continue" offset="0x200007" size="0x40000" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

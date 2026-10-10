@@ -1,0 +1,18 @@
+<software name="nitd02" cloneof="nitd">
+	<description>Nightmare in the Dark (Decrypted C)</description>
+	<year>2000</year>
+	<publisher>Eleven / Gavaking</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="260.p1" offset="0x0" size="0x80000" crc="61361082" sha1="441f3f41c1aa752c0e0a9a0b1d92711d9e636b85" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="260.v1" offset="0x0" size="0x400000" crc="24b0480c" sha1="d769e621be52a5cd2e2568891b5f95a48268e1e0" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="260s02.c1" offset="0x0" size="0x800000" crc="f3ff4953" sha1="0e54548387f3056088e89086a30da05935d08b24" />
+		<rom loadflag="load16_byte" name="260s02.c2" offset="0x1" size="0x800000" crc="f1e49faa" sha1="2a771e318423addd9daae3a9af200de2c70f4021" />
+		</dataarea>
+	</part>
+</software>

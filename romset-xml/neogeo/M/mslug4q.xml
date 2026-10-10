@@ -1,0 +1,24 @@
+<software name="mslug4q" cloneof="mslug4">
+	<description>Metal Slug 4 (Longest Fight, 2022-06-23)</description>
+	<year>2022</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="263q.p1" offset="0x0" size="0x100000" crc="461579ae" sha1="fe7da7ec3e4ee2e0b4281ea76a130a7fe3cac549" />
+		<rom loadflag="load16_word_swap" name="263q.p2" offset="0x100000" size="0x400000" crc="a4d2e871" sha1="646ac0117a832f1642cffe17478b94635cf294a2" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="263dh.v1" offset="0x0" size="0x800000" crc="fd6b982e" sha1="100313166c9ec57f1c540de05625c506b30ad13c" />
+		<rom name="263dh.v2" offset="0x800000" size="0x800000" crc="20125227" sha1="2e350c0c580e87445bf103c01fc62b14f0c19216" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="263d.c1" offset="0x0" size="0x800000" crc="a75ffcde" sha1="97f405a95a56615ae49f79e1a69f98cc2f2434ef" />
+		<rom loadflag="load16_byte" name="263d.c2" offset="0x1" size="0x800000" crc="5ab0d12b" sha1="8a3d95dd2e9cc1b6dcf6a957fed43ee390248307" />
+		<rom loadflag="load16_byte" name="263d.c3" offset="0x1000000" size="0x800000" crc="61af560c" sha1="aa7bc45e03a6bbd18eb56d118d4932102ccb196a" />
+		<rom loadflag="load16_byte" name="263d.c4" offset="0x1000001" size="0x800000" crc="f2c544fd" sha1="179b064f81b49f5808d7a7a5bce28e95b09e5abe" />
+		<rom loadflag="load16_byte" name="263d.c5" offset="0x2000000" size="0x800000" crc="84c66c44" sha1="9273f44bf11891aa04ddd2cbb6442d084c2a2e04" />
+		<rom loadflag="load16_byte" name="263d.c6" offset="0x2000001" size="0x800000" crc="5ed018ab" sha1="e78501fa8a80960093a4d54ce952681a98300148" />
+		</dataarea>
+	</part>
+</software>

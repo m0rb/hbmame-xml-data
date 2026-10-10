@@ -1,0 +1,30 @@
+<software name="smulti">
+	<description>Scramble MultiKit v1.0</description>
+	<year>2022</year>
+	<publisher>HighScoreSaves</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom name="multi.main" offset="0x0" size="0x10000" crc="26e8a444" sha1="abf3b69076e9318f10c487a3bbe530fb74ee8290" />
+		<rom loadflag="continue" offset="0x20000" size="0x10000" />
+		<rom loadflag="continue" offset="0x40000" size="0x10000" />
+		<rom loadflag="continue" offset="0x60000" size="0x10000" />
+		<rom loadflag="continue" offset="0x10000" size="0x10000" />
+		<rom loadflag="continue" offset="0x30000" size="0x10000" />
+		<rom loadflag="continue" offset="0x50000" size="0x10000" />
+		<rom loadflag="continue" offset="0x70000" size="0x10000" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="multi-sndz80.bin" offset="0x0" size="0x10000" crc="25865125" sha1="5bbbc6f5a0ad6c6b86dea7893e4e18195c37192e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x20000">
+		<rom name="multi.gfx1" offset="0x0" size="0x10000" crc="7d420a14" sha1="e603c3cf8fd88fa09017269d4f9ce8d027e20eaf" />
+		<rom name="multi.gfx2" offset="0x10000" size="0x10000" crc="a5e17a10" sha1="9208a74f1b46c31c6d95e2b2fad325258f2301b7" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+		<dataarea name="user1" size="0x10000">
+		<rom name="multi-prom.6e" offset="0x0" size="0x10000" crc="5760a4f5" sha1="539f56cae010488f0c6e4ff8de43e7dfe9b34375" />
+		</dataarea>
+	</part>
+</software>

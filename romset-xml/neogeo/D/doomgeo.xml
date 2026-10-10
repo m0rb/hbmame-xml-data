@@ -1,0 +1,15 @@
+<software name="doomgeo">
+	<description>Doom Geo demo</description>
+	<year>2026</year>
+	<publisher>Sabino</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="522.p1" offset="0x0" size="0x80000" crc="3fbc2d79" sha1="591799dee2053fc1e8c95091127e5e20584eb929" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="522.c1" offset="0x0" size="0x400000" crc="70903dec" sha1="325b58a476a08267143a8923562bb27ef0e237a1" />
+		<rom loadflag="load16_byte" name="522.c2" offset="0x1" size="0x400000" crc="90bc023a" sha1="f82bafc5238d1fde72069f4200a0e9654a1a36bb" />
+		</dataarea>
+	</part>
+</software>

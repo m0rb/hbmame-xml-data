@@ -1,0 +1,27 @@
+<software name="kodj" cloneof="kod">
+	<description>The King of Dragons (Japan 910805, B-Board 90629B-3)</description>
+	<year>1991</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c16j.p1" offset="0x0" size="0x20000" crc="ebc788ad" sha1="f4a297e409fcdbb2c15a13b39a16e4a83e7e060b" />
+		<rom loadflag="load16_byte" name="c16j.p2" offset="0x1" size="0x20000" crc="e55c3529" sha1="a5254895499a53b4fbaac6fd50464b9e08175b8d" />
+		<rom loadflag="load16_byte" name="c16.p3" offset="0x40000" size="0x20000" crc="c710d722" sha1="a2e9b84d3e7d835a910ab9f584bdc64c2559995a" />
+		<rom loadflag="load16_byte" name="c16.p4" offset="0x40001" size="0x20000" crc="57d6ed3a" sha1="a47da5068723c8e16ed458fbfa3e3db57b32d87d" />
+		<rom loadflag="load16_word_swap" name="c16j.p5" offset="0x80000" size="0x80000" crc="9bd7ad4b" sha1="7bece5d408fd13116bd5518014b632ecc9a2feaa" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c16.m1" offset="0x0" size="0x8000" crc="bac6ec26" sha1="6cbb6d55660150ae3f5270e023328275ee1bbf50" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="kod.key" offset="0x0" size="0x80" crc="b79ea9b9" sha1="cefded329a6ccc34d3b68e614c8f3a2c174e3fdd" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c16.v1" offset="0x0" size="0x20000" crc="4c63181d" sha1="270f27534a95cb0be3ff3f9ca71c502320d8090b" />
+		<rom name="c16.v2" offset="0x20000" size="0x20000" crc="92941b80" sha1="5fa7c2793e6febee54a83042d118ddd4f2b7d127" />
+		</dataarea>
+	</part>
+</software>

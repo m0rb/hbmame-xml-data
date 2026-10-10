@@ -1,0 +1,20 @@
+<software name="kof2003nrx" cloneof="kof2003">
+	<description>Kof2003 (Neoragex)</description>
+	<year>2003</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="271nrx.p1" offset="0x0" size="0x800000" crc="57a1981d" sha1="0bc21c09c127e9abb3b03924166c0065ddec2057" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="271nrx.v1" offset="0x0" size="0x1000000" crc="2058ec5e" sha1="567fdf328f87551a949dc601f4e71c55368debf0" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="271d.c1" offset="0x0" size="0x1000000" crc="c29acd28" sha1="8a10409c5a9ad95fa9b56e94c14f1b96101fb179" />
+		<rom loadflag="load16_byte" name="271d.c2" offset="0x1" size="0x1000000" crc="328e80b1" sha1="c7f8069488be1a88a2ea03718b6a131f5c96bd3f" />
+		<rom loadflag="load16_byte" name="271d.c3" offset="0x2000000" size="0x1000000" crc="020a11f1" sha1="85cfae76234f72b0039ebc02f931bb2a9c10b1af" />
+		<rom loadflag="load16_byte" name="271d.c4" offset="0x2000001" size="0x1000000" crc="991b5ed2" sha1="99c4c470bc9cb388773e27de6df4a16803fc7b45" />
+		</dataarea>
+	</part>
+</software>

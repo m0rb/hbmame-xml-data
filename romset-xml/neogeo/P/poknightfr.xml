@@ -1,0 +1,19 @@
+<software name="poknightfr" cloneof="poknight">
+	<description>Poker Night (French)</description>
+	<year>2003</year>
+	<publisher>Jeff Kurtz</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="403b.p1" offset="0x0" size="0x20000" crc="e0b3e776" sha1="4b5aa783d59d37a04553671830e932a35561d447" />
+		<rom name="403b.s1" offset="0x0" size="0x8000" crc="3824214d" sha1="446bf7ec6afc80a758d7d5dc3156a12cdee3b38d" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="407.v1" offset="0x0" size="0x80000" crc="504bf849" sha1="13a184ec9e176371808938015111f8918cb4df7d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="403b.c1" offset="0x0" size="0x18000" crc="0ee80e14" sha1="4dbe8b0750ca8e479bc6936ecf15572ef5ff7462" />
+		<rom loadflag="load16_byte" name="403b.c2" offset="0x1" size="0x18000" crc="84f17a6d" sha1="3a2232469274c5418e58dd48b78106d540f2c6ad" />
+		</dataarea>
+	</part>
+</software>

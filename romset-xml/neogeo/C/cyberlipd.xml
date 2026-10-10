@@ -1,0 +1,41 @@
+<software name="cyberlipd" cloneof="cyberlip">
+	<description>Cyber-Lip (MGD2)</description>
+	<year>1990</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n010001a.038" offset="0x1" size="0x40000" crc="4012e465" sha1="81caac2b559183f5a87980b6f1ca7e42d5338962" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		<rom loadflag="load16_byte" name="n010001a.03c" offset="0x80001" size="0x40000" crc="ee899b19" sha1="3d0369ad2496e8622fb5a11f751056a2c5fad7bf" />
+		<rom loadflag="continue" offset="0x80000" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="010.v11" offset="0x0" size="0x80000" crc="90224d22" sha1="5443ee6f90d80d43194cb4b4f0e08851a59e7784" />
+		<rom name="010.v12" offset="0x80000" size="0x80000" crc="a0cf1834" sha1="8df57a7941bdae7e446a6056039adb012cdde246" />
+		<rom name="010.v13" offset="0x100000" size="0x80000" crc="ae38bc84" sha1="c0937b4f89b8b26c8a0e747b234f44ad6a3bf2ba" />
+		<rom name="010.v14" offset="0x180000" size="0x80000" crc="70899bd2" sha1="8cf01144f0bcf59f09777175ae6b71846b09f3a1" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x80000">
+		<rom name="010.v21" offset="0x0" size="0x80000" crc="586f4cb2" sha1="588460031d84c308e3353ecf714db9986425c21c" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load32_byte" name="n010001a.538" offset="0x0" size="0x40000" crc="0239fc08" sha1="27c2a68103ca6898780d72ded57f4447cf5f7f80" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n010001a.638" offset="0x1" size="0x40000" crc="e102a1bd" sha1="89ffd05845b452423b4cd69c4420eafa0c168507" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n010001a.53c" offset="0x100000" size="0x40000" crc="23f03b97" sha1="f5a2b3c0cf039a84cf78223f089f9fa3a7d9f01a" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n010001a.63c" offset="0x100001" size="0x40000" crc="520571d2" sha1="4be129b679d3962a95ce32f462c58aa08c43b1cd" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n010001b.538" offset="0x200000" size="0x40000" crc="065061ed" sha1="5c1e48e31cc6b5bbc50085abc8102ab436885b23" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n010001b.638" offset="0x200001" size="0x40000" crc="2e31e2d2" sha1="29c88296d10b6b716ab753d2692267e0619d6193" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n010001b.53c" offset="0x300000" size="0x40000" crc="e485e72d" sha1="1fb160f403b6ec1ff28408d141dfe31245dbfb58" />
+		<rom loadflag="continue" offset="0x300002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n010001b.63c" offset="0x300001" size="0x40000" crc="9e2af4db" sha1="0089d1a66fa40a25ea78c6da24b4872b4fd12782" />
+		<rom loadflag="continue" offset="0x300003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

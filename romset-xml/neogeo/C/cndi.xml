@@ -1,0 +1,24 @@
+<software name="cndi">
+	<description>Chip n Dale (Intro demo v1)</description>
+	<year>2009</year>
+	<publisher>[Raregame]</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="625.p1" offset="0x0" size="0x800000" crc="2df9a41d" sha1="f08d81f529f17d22218b4bb52840f4a13f5821a2" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="625.v1" offset="0x0" size="0x91000" crc="15d318a6" sha1="10f99dbded4093bac104ce954e93dba7ce8c4ade" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="625.c1" offset="0x0" size="0x400000" crc="55bd32fc" sha1="9ca14628b50182257e812a64ae7779b677f49b3a" />
+		<rom loadflag="load16_byte" name="625.c2" offset="0x1" size="0x400000" crc="bbb43733" sha1="cbb698354f34045a08f3f30ccd54796374c47ab9" />
+		<rom loadflag="load16_byte" name="625.c3" offset="0x800000" size="0x400000" crc="715e0318" sha1="ceab1079b9e8d53f32f0aafce5d7cda037a91e02" />
+		<rom loadflag="load16_byte" name="625.c4" offset="0x800001" size="0x400000" crc="016f3c7e" sha1="05fc02c571008dfa83eea11dc596248cee53153a" />
+		<rom loadflag="load16_byte" name="625.c5" offset="0x1000000" size="0x400000" crc="28c6cb8c" sha1="05acb12720a12918debed333243b4bc42555a0b3" />
+		<rom loadflag="load16_byte" name="625.c6" offset="0x1000001" size="0x400000" crc="9c89503f" sha1="8c3fc78f7bb903684367d663ede13b87c72c8cca" />
+		<rom loadflag="load16_byte" name="625.c7" offset="0x1800000" size="0x400000" crc="074dd407" sha1="83f4c80ab88d506152b375480b2fabb0e4ed2eaa" />
+		<rom loadflag="load16_byte" name="625.c8" offset="0x1800001" size="0x400000" crc="5ddb7db5" sha1="29cf08e39d7454fdeb7ab4a13afff1d422c7c859" />
+		</dataarea>
+	</part>
+</software>

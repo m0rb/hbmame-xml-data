@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="gorf" description="Gorf cartridges">
+<software name="tst_gor1">
+	<description>Test Rom - Gorf Complete Memory Diagnostics</description>
+	<year>2006</year>
+	<publisher>Mark Spaeth</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="gorftest.bin" offset="0x0" size="0x627" crc="676137a2" sha1="d99192a16add7b188b29db7f9497b6c129d81144" />
+		</dataarea>
+	</part>
+</software>
+<software name="tst_gorf">
+	<description>Test Rom - Gorf</description>
+	<year>2005</year>
+	<publisher>David Turner</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="gorfmd.bin" offset="0x0" size="0x1000" crc="3776a6a1" sha1="bd6b0a1dd587e8d4b325ef4133b8e3797416d8d2" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

@@ -1,0 +1,24 @@
+<software name="tmnti">
+	<description>Teenage Mutant Ninja Turtles (Intro demo v1)</description>
+	<year>2009</year>
+	<publisher>[Raregame]</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="630.p1" offset="0x0" size="0x800000" crc="2d5066ff" sha1="e1109c1e7532fa167ba5c9c90648d019740efd8e" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="630.v1" offset="0x0" size="0x94900" crc="273640c3" sha1="6d445e728fa9c4af00de4f454a73651de7a69ec9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="630.c1" offset="0x0" size="0x400000" crc="ae1735c1" sha1="a7a943fb088bccbd5e2c0fa34766bab8169000fa" />
+		<rom loadflag="load16_byte" name="630.c2" offset="0x1" size="0x400000" crc="344281b5" sha1="a7de77ce07bcd87ba6348278e9c2a61e0f96a499" />
+		<rom loadflag="load16_byte" name="630.c3" offset="0x800000" size="0x400000" crc="1058a648" sha1="878384e1bb8e7666723935a6270d61d3015fe475" />
+		<rom loadflag="load16_byte" name="630.c4" offset="0x800001" size="0x400000" crc="1c6ba1b0" sha1="065f059ef412c69c1a6e7d96e0d41d4151802c95" />
+		<rom loadflag="load16_byte" name="630.c5" offset="0x1000000" size="0x400000" crc="73a89fb0" sha1="6b17c878cf6e33f98f3d0779e908264a95a186ba" />
+		<rom loadflag="load16_byte" name="630.c6" offset="0x1000001" size="0x400000" crc="a139246a" sha1="facc1caa4f5e4f8476df75c3f68802184072a8ee" />
+		<rom loadflag="load16_byte" name="630.c7" offset="0x1800000" size="0x400000" crc="ed957842" sha1="0066baf544b87f7d99334401a93c239ce151df50" />
+		<rom loadflag="load16_byte" name="630.c8" offset="0x1800001" size="0x400000" crc="8c15d91b" sha1="4b4d4fd2302c43a5c82bb849803d13d43947a695" />
+		</dataarea>
+	</part>
+</software>

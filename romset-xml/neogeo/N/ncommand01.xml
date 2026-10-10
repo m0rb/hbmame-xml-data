@@ -1,0 +1,21 @@
+<software name="ncommand01" cloneof="ncommand">
+	<description>Ninja Commando (Super Plus, 2009-08-16)</description>
+	<year>2009</year>
+	<publisher>e107</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="050s01.p1" offset="0x0" size="0x100000" crc="76d37e41" sha1="b5f6a8861a197be6f20ddbde28cc00f1e9176a2c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x180000">
+		<rom name="050.v1" offset="0x0" size="0x100000" crc="23c3ab42" sha1="b6c59bb180f1aa34c95f3ec923f3aafb689d57b0" />
+		<rom name="050.v2" offset="0x100000" size="0x80000" crc="80b8a984" sha1="950cf0e78ceffa4037663f1086fbbc88588f49f2" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="050.c1" offset="0x0" size="0x100000" crc="87421a0a" sha1="1d8faaf03778f7c5b062554d7333bbd3f0ca12ad" />
+		<rom loadflag="load16_byte" name="050.c2" offset="0x1" size="0x100000" crc="c4cf5548" sha1="ef9eca5aeff9dda2209a050c2af00ed8979ae2bc" />
+		<rom loadflag="load16_byte" name="050.c3" offset="0x200000" size="0x100000" crc="03422c1e" sha1="920e5015aebe2ffc5ce43a52365c7f0a705f3b9e" />
+		<rom loadflag="load16_byte" name="050.c4" offset="0x200001" size="0x100000" crc="0845eadb" sha1="3c71a02bf0e07a5381846bb6d75bbe7dd546adea" />
+		</dataarea>
+	</part>
+</software>

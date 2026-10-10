@@ -1,0 +1,21 @@
+<software name="bjourney01" cloneof="bjourney">
+	<description>Blue&#x27;s Journey / Raguy (Plus Max)</description>
+	<year>1990</year>
+	<publisher>Xyahzhs</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="022s01.p1" offset="0x0" size="0x100000" crc="1e8b5847" sha1="59bfff5d8459b24bd3d403a73440ced5c440fd2b" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="022.v11" offset="0x0" size="0x100000" crc="2cb4ad91" sha1="169ec7303c4275155a66a88cc08270c24132bb36" />
+		<rom name="022.v22" offset="0x100000" size="0x100000" crc="65a54d13" sha1="a591fbcedca8f679dacbebcd554e3aa3fd163e92" />
+		</dataarea>
+		<dataarea name="sprites" size="0x300000">
+		<rom loadflag="load16_byte" name="022.c1" offset="0x0" size="0x100000" crc="4d47a48c" sha1="6e282285be72583d828e7765b1c1695ecdc44777" />
+		<rom loadflag="load16_byte" name="022.c2" offset="0x1" size="0x100000" crc="e8c1491a" sha1="c468d2556b3de095aaa05edd1bc16d71303e9478" />
+		<rom loadflag="load16_byte" name="022.c3" offset="0x200000" size="0x80000" crc="66e69753" sha1="974b823fc62236fbc23e727f25b61a805a707a9e" />
+		<rom loadflag="load16_byte" name="022.c4" offset="0x200001" size="0x80000" crc="71bfd48a" sha1="47288be69e6992d09ebef108b4de9ffab6293dc8" />
+		</dataarea>
+	</part>
+</software>

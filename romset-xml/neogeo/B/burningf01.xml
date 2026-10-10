@@ -1,0 +1,21 @@
+<software name="burningf01" cloneof="burningf">
+	<description>Burning Fight (Infinite Time)</description>
+	<year>1991</year>
+	<publisher>EEZEZY(LB70)</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="018s01.p1" offset="0x0" size="0x80000" crc="da26031b" sha1="44997a8c313356db48716bb007ab842473805d88" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="018.v1" offset="0x0" size="0x100000" crc="508c9ffc" sha1="cd3a97a233a4585f8507116aba85884623cccdc4" />
+		<rom name="018.v2" offset="0x100000" size="0x100000" crc="854ef277" sha1="4b3083b9c80620064cb44e812a787a700e32a6f3" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="018.c1" offset="0x0" size="0x100000" crc="25a25e9b" sha1="3cf02d0662e190678d0530d7b7d3f425209adf83" />
+		<rom loadflag="load16_byte" name="018.c2" offset="0x1" size="0x100000" crc="d4378876" sha1="45659aa1755d96b992c977042186e47fff68bba9" />
+		<rom loadflag="load16_byte" name="018.c3" offset="0x200000" size="0x100000" crc="862b60da" sha1="e2303eb1609f1050f0b4f46693a15e37deb176fb" />
+		<rom loadflag="load16_byte" name="018.c4" offset="0x200001" size="0x100000" crc="e2e0aff7" sha1="1c691c092a6e2787de4f433b0eb9252bfdaa7e16" />
+		</dataarea>
+	</part>
+</software>

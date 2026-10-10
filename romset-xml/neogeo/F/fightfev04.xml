@@ -1,0 +1,22 @@
+<software name="fightfev04" cloneof="fightfev">
+	<description>Fight Fever (Kanji Patch)</description>
+	<year>1994</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="060a.p1" offset="0x0" size="0x80000" crc="3032041b" sha1="4b8ed2e6f74579ea35a53e06ccac42d6905b0f51" />
+		<rom loadflag="load16_word_swap" name="060s04.p2" offset="0x80000" size="0x80000" crc="b0801d5f" sha1="085746d8f5d271d5f84ccbb7f577193c391f88d4" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x300000">
+		<rom name="060.v1" offset="0x0" size="0x200000" crc="f417c215" sha1="0f53b8dd056f43b5d880628e8b74c2b27881ffac" />
+		<rom name="060s04.v2" offset="0x200000" size="0x100000" crc="64470036" sha1="eb2b34b3c01eb5c1a0a40cff6f4c0f2eee7bf7f2" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="060.c1" offset="0x0" size="0x200000" crc="8908fff9" sha1="f8c16ab0248b60f3a62e0d4d65c456e2f8e4da49" />
+		<rom loadflag="load16_byte" name="060.c2" offset="0x1" size="0x200000" crc="c6649492" sha1="5d39b077387ed6897ac075ede4a2aa94bb64545e" />
+		<rom loadflag="load16_byte" name="060.c3" offset="0x400000" size="0x200000" crc="0956b437" sha1="c70be8b5cebf321afe4c3f5e9a12413c3077694a" />
+		<rom loadflag="load16_byte" name="060.c4" offset="0x400001" size="0x200000" crc="026f3b62" sha1="d608483b70d60e7aa0e41f25a8b3fed508129eb7" />
+		</dataarea>
+	</part>
+</software>

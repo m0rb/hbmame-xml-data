@@ -1,0 +1,14 @@
+<software name="ppong">
+	<description>Ping Pong demo (Pacman Hardware)</description>
+	<year>2003</year>
+	<publisher>David Widel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="ppong.1" offset="0x0" size="0x1000" crc="abf90af3" sha1="785059f68b69d031e8017fc5c6f44d22208ba1d1" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="ppong.5e" offset="0x0" size="0x1000" crc="57fe0ace" sha1="87b9e980c8c30b73ebf7c2750dd40806754bed51" />
+		<rom name="ppong.5f" offset="0x1000" size="0x1000" crc="8bbd8de5" sha1="feec6c9d413c6767edf2a521da439b21ccdf3d9a" />
+		</dataarea>
+	</part>
+</software>

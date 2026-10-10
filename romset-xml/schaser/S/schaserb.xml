@@ -1,0 +1,17 @@
+<software name="schaserb">
+	<description>Space Chaser (set 3)</description>
+	<year>1979</year>
+	<publisher>Taito</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="rt33.bin" offset="0x0" size="0x800" crc="eec6b032" sha1="da14fcd862d6b80531cd3b858034bc5a120ed8ae" />
+		<rom name="rt34.bin" offset="0x800" size="0x800" crc="13a73701" sha1="48ddbc10dec458070274c9fabbb0c420e2a07c96" />
+		<rom name="rt35.bin" offset="0x1000" size="0x800" crc="de9d3f85" sha1="13a71fdd889023cfc65ed2c0a65236884b79b1f0" />
+		<rom name="rt36.bin" offset="0x1800" size="0x800" crc="521ec25e" sha1="ce53e882c11a4c36f3edc3b389d3f5ad0e0ec151" />
+		<rom name="rt37.bin" offset="0x4000" size="0x800" crc="44f65f19" sha1="ee97d7987f54c9c26f5a20c72bdae04c46f94dc4" />
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		<rom name="rt06.ic2" offset="0x0" size="0x400" crc="950cf973" sha1="d22df09b325835a0057ccd0d54f827b374254ac6" />
+		</dataarea>
+	</part>
+</software>

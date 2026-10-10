@@ -1,0 +1,25 @@
+<software name="kof97s642" cloneof="kof97">
+	<description>Kof &#x27;97 Plus (Enhanced, 2023-11-13)</description>
+	<year>2023</year>
+	<publisher>GOTVG</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="232s642.p1" offset="0x0" size="0x100000" crc="677ce06d" sha1="c15bca056487cd467257e42aba23a788a6585d52" />
+		<rom loadflag="load16_word_swap" name="232s642.p2" offset="0x100000" size="0x400000" crc="000c6683" sha1="076f888f9b1a4c3721169e5259118ff0032c7c4e" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="232s570.c1" offset="0x0" size="0x800000" crc="fdfa1933" sha1="dab117da95ea5048bc2922e124fa07b70cba707b" />
+		<rom loadflag="load16_byte" name="232s570.c2" offset="0x1" size="0x800000" crc="ebd8a2c0" sha1="b5294887b89cbc1a9a3b86d2d8b9ccd12101944a" />
+		<rom loadflag="load16_byte" name="232s006.c3" offset="0x1000000" size="0x800000" crc="b092e64f" sha1="7d809432d068db8f9056f5210570191416f1a53b" />
+		<rom loadflag="load16_byte" name="232s006.c4" offset="0x1000001" size="0x800000" crc="d25e8a04" sha1="52227828e3fdd27399b4cd514551abf856293f47" />
+		<rom loadflag="load16_byte" name="232s001.c5" offset="0x2000000" size="0x400000" crc="6fe02054" sha1="47b3a6f0867e15900deb3ffd5f888cbcf6e2bbdd" />
+		<rom loadflag="load16_byte" name="232s001.c6" offset="0x2000001" size="0x400000" crc="0f96c84a" sha1="79a8e1ff71051ece0ca6c8f75b0bd1cd567f2e33" />
+		</dataarea>
+	</part>
+</software>

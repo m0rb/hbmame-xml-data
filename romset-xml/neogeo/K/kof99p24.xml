@@ -1,0 +1,28 @@
+<software name="kof99p24" cloneof="kof99p00">
+	<description>Kof&#x27;99 (EUR Version, 2015-07-13)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="251p24.p1" offset="0x0" size="0x100000" crc="bdb0aad2" sha1="182ab8d0531e9ab2d5e6367ce3b4508cef6453a7" />
+		<rom loadflag="load16_word_swap" name="251p24.p2" offset="0x100000" size="0x400000" crc="115a796a" sha1="eb869ddd0a30c5e64774e6c3db86e4ed4ab4d9c2" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xe00000">
+		<rom name="251ae.v1" offset="0x0" size="0x400000" crc="4ae46226" sha1="77dbd53772e1e5000a091b9ff4b3cdc14b62ab0b" />
+		<rom name="251s003.v2" offset="0x400000" size="0x400000" crc="07d70650" sha1="70d274771c07215268292f91517ec61634e32611" />
+		<rom name="251.v3" offset="0x800000" size="0x400000" crc="821901da" sha1="c6d4975bfaa19a62ed59126cadf2578c0a5c257f" />
+		<rom name="251.v4" offset="0xc00000" size="0x200000" crc="b49e6178" sha1="dde6f76e958841e8c99b693e13ced9aa9ef316dc" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="251s003.c1" offset="0x0" size="0x800000" crc="c7e8bf32" sha1="ede68ac10356f6824fa6b30e558038e78b604caf" />
+		<rom loadflag="load16_byte" name="251s003.c2" offset="0x1" size="0x800000" crc="4e8f9f7d" sha1="3a60df66bb24702041facb71025241483e5a1832" />
+		<rom loadflag="load16_byte" name="proto_251.c3" offset="0x1000000" size="0x800000" crc="f20959e8" sha1="38293043fa77ac51c5e3191118874c58f1ae4d30" />
+		<rom loadflag="load16_byte" name="proto_251.c4" offset="0x1000001" size="0x800000" crc="54ffbe9f" sha1="8e62442923551f07a552621951b1accab2830e3b" />
+		<rom loadflag="load16_byte" name="proto_251.c5" offset="0x2000000" size="0x800000" crc="d87a3bbc" sha1="430f6812088712e0eb5714dcc664d8bba75e921a" />
+		<rom loadflag="load16_byte" name="proto_251.c6" offset="0x2000001" size="0x800000" crc="4d40a691" sha1="2b580d0678a5e6033ef16130671e860364d35e56" />
+		<rom loadflag="load16_byte" name="251s003.c7" offset="0x3000000" size="0x800000" crc="f0b5ff02" sha1="b9a25e6dad48547acce8edb5623be9d35bff1b4c" />
+		<rom loadflag="load16_byte" name="251s003.c8" offset="0x3000001" size="0x800000" crc="7107b8d5" sha1="6754113de3eb6a34c1913bb5117dd12d705b961c" />
+		</dataarea>
+	</part>
+</software>

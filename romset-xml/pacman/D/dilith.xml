@@ -1,0 +1,16 @@
+<software name="dilith" cloneof="puckman">
+	<description>Dilithium Lift</description>
+	<year>2023</year>
+	<publisher>Arlasoft</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dilith.6e" offset="0x0" size="0x1000" crc="9b955235" sha1="be2287a344f86d9ec74489203dec21426bb6e051" />
+		<rom name="dilith.6f" offset="0x1000" size="0x1000" crc="c4e6c1d8" sha1="485aa91e2f69997ac1ed5cdc374977eb03bac32b" />
+		<rom name="pollen.6h" offset="0x2000" size="0x1000" crc="04108eb0" sha1="4773af22762b2da2f992867bee706325a999c2b0" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="dilith.5e" offset="0x0" size="0x1000" crc="db98f530" sha1="420a9d7c2888867c13ce2f1d4d43091e0443922b" />
+		<rom name="dilith.5f" offset="0x1000" size="0x1000" crc="081a59fc" sha1="d363324e9b0a6bcfc2812dc747803088d0f15d3c" />
+		</dataarea>
+	</part>
+</software>

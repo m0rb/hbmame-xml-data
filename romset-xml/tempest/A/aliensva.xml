@@ -1,0 +1,38 @@
+<software name="aliensva">
+	<description>Aliens alt version</description>
+	<year>1980</year>
+	<publisher>Atari</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="aliens.d1" offset="0x9000" size="0x800" crc="337e21f6" sha1="7adadeaa975e22f0b20e8f1fb6ad68b5c3934133" />
+		<rom name="aliens.f1" offset="0xa000" size="0x800" crc="4d2aabb0" sha1="31106a1fc22d2a19866f07b8d6c6f4bf76007909" />
+		<rom name="aliens.h1" offset="0xa800" size="0x800" crc="a503f54a" sha1="91ebf9f69a183a04a5bf55fcdd9e191523bb66bb" />
+		<rom name="aliens.j1" offset="0xb000" size="0x800" crc="5487d531" sha1="c95f037151b824345af03f27a6c3c7eb8a899b2c" />
+		<rom name="aliens.k1" offset="0xb800" size="0x800" crc="0ac96e87" sha1="37461e84e6f46516c25dbf4ddb2ffd65877445c0" />
+		<rom name="aliens.l1" offset="0xc000" size="0x800" crc="cd246ac2" sha1="de2e6fe2e72c092c3874e797fc302a71dbf57710" />
+		<rom name="aliens.n1" offset="0xc800" size="0x800" crc="bd98c5f3" sha1="268487d9cf46b4b7b49eab7420d078bf676e636c" />
+		<rom name="aliens.p1" offset="0xd000" size="0x800" crc="7c10adbd" sha1="38579128a90bff4a7a4ae46d6aaa42118b8bc218" />
+		<rom name="aliensa.r1" offset="0xd800" size="0x800" crc="4da6627d" sha1="01d8eea45373e3e87c81bc3b31d85ba8c7f4fcb3" />
+		</dataarea>
+		<dataarea name="avg:prom" size="0x100">
+		<rom name="136002-125.d7" offset="0x0" size="0x100" crc="5903af03" sha1="24bc0366f394ad0ec486919212e38be0f08d0239" />
+		</dataarea>
+		<dataarea name="earom" size="0x40">
+		</dataarea>
+		<dataarea name="user2" size="0x20">
+		<rom name="136002-126.a1" offset="0x0" size="0x20" crc="8b04f921" sha1="317b3397482f13b2d1bc21f296d3b3f9a118787b" />
+		</dataarea>
+		<dataarea name="user3" endianness="big" size="0x400">
+		<rom loadflag="load32_byte" name="136002-132.l1" offset="0x0" size="0x100" crc="2af82e87" sha1="3816835a9ccf99a76d246adf204989d9261bb065" />
+		<rom loadflag="load32_byte" name="136002-131.k1" offset="0x0" size="0x100" crc="b31f6e24" sha1="ce5f8ca34d06a5cfa0076b47400e61e0130ffe74" />
+		<rom loadflag="load32_byte" name="136002-130.j1" offset="0x1" size="0x100" crc="8119b847" sha1="c4fbaedd4ce1ad6a4128cbe902b297743edb606a" />
+		<rom loadflag="load32_byte" name="136002-129.h1" offset="0x1" size="0x100" crc="09f5a4d5" sha1="d6f2ac07ca9ee385c08831098b0dcaf56808993b" />
+		<rom loadflag="load32_byte" name="136002-128.f1" offset="0x2" size="0x100" crc="823b61ae" sha1="d99a839874b45f64e14dae92a036e47a53705d16" />
+		<rom loadflag="load32_byte" name="136002-127.e1" offset="0x2" size="0x100" crc="276eadd5" sha1="55718cd8ec4bcf75076d5ef0ee1ed2551e19d9ba" />
+		</dataarea>
+		<dataarea name="vectorrom" size="0x1000">
+		<rom name="aliens.n3" offset="0x0" size="0x800" crc="5c8fd38b" sha1="bb0d6bd062eba53b5d64b3f444d5ce0a34728bf5" />
+		<rom name="aliens.r3" offset="0x800" size="0x800" crc="6cabcd08" sha1="e3950de50f3dfbc4d4d2f4fe26625d8ef94c0819" />
+		</dataarea>
+	</part>
+</software>

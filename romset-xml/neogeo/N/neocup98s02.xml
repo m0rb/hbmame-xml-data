@@ -1,0 +1,20 @@
+<software name="neocup98s02" cloneof="neocup98">
+	<description>Neo-Geo Cup &#x27;98 (Korean V1)</description>
+	<year>1998</year>
+	<publisher>Long lived Raleigh</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="244.p1" offset="0x100000" size="0x100000" crc="f8fdb7a5" sha1="f34ee5d1c24e70427d05ef488f46906dbd9f9950" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x600000">
+		<rom name="244.v1" offset="0x0" size="0x400000" crc="79def46d" sha1="63414235de2e177654508f1c840040424f8993e6" />
+		<rom name="244.v2" offset="0x400000" size="0x200000" crc="b231902f" sha1="9209772e947a2c7ac31b49dd613bf2eab0cb3358" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="244s02.c1" offset="0x0" size="0x800000" crc="9067dfda" sha1="034c0e21ece55df30357d7abfb7cb05994e9b131" />
+		<rom loadflag="load16_byte" name="244s01.c2" offset="0x1" size="0x800000" crc="54e86379" sha1="e76f27b5cf2ab7ed00a8abfe2e2397394c51dac5" />
+		</dataarea>
+	</part>
+</software>

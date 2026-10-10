@@ -1,0 +1,33 @@
+<software name="aof3e" cloneof="aof3">
+	<description>Art of Fighting 3 - The Path of the Warrior / Art of Fighting - Ryuuko no Ken Gaiden (Earlier)</description>
+	<year>1996</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x300000">
+		<rom loadflag="load16_word_swap" name="096.p1" offset="0x0" size="0x100000" crc="9edb420d" sha1="150d80707325ece351c72c21c6186cfb5996adba" />
+		<rom loadflag="load16_word_swap" name="096.p2" offset="0x100000" size="0x200000" crc="4d5a2602" sha1="4c26d6135d2877d9c38169662033e9d0cc24d943" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x600000">
+		<rom name="096.v1" offset="0x0" size="0x200000" crc="e2c32074" sha1="69426e7e63fc31a73d1cd056cc9ae6a2c4499407" />
+		<rom name="096.v2" offset="0x200000" size="0x200000" crc="a290eee7" sha1="e66a98cd9740188bf999992b417f8feef941cede" />
+		<rom name="096.v3" offset="0x400000" size="0x200000" crc="199d12ea" sha1="a883bf34e685487705a8dafdd0b8db15eb360e80" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1c00000">
+		<rom loadflag="load16_byte" name="096e.c1" offset="0x400000" size="0x200000" crc="f6c74731" sha1="7cd585d40b0993e361a24f917aa220504f12c543" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="096e.c2" offset="0x400001" size="0x200000" crc="f587f149" sha1="496446ecc7b39a034b4e28218afb147577a04ab5" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		<rom loadflag="load16_byte" name="096e.c3" offset="0xc00000" size="0x200000" crc="7749f5e6" sha1="f777d55d10684e78b05c1301529b67ed6b6b4445" />
+		<rom loadflag="continue" offset="0x800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="096e.c4" offset="0xc00001" size="0x200000" crc="cbd58369" sha1="ff457eecbeef245db4e67ce4e8eddaf368bba93d" />
+		<rom loadflag="continue" offset="0x800001" size="0x200000" />
+		<rom loadflag="load16_byte" name="096e.c5" offset="0x1400000" size="0x200000" crc="1718bdcd" sha1="a34e4b3aa41cc39415db7dacabe99ca6f8893545" />
+		<rom loadflag="continue" offset="0x1000000" size="0x200000" />
+		<rom loadflag="load16_byte" name="096e.c6" offset="0x1400001" size="0x200000" crc="4fca967f" sha1="83eea4b7d166feb4274bd2d658f4fdcb20629a40" />
+		<rom loadflag="continue" offset="0x1000001" size="0x200000" />
+		<rom loadflag="load16_byte" name="096.c7" offset="0x1800000" size="0x200000" crc="51bd8ab2" sha1="c8def9c64de64571492b5b7e14b794e3c18f1393" />
+		<rom loadflag="load16_byte" name="096.c8" offset="0x1800001" size="0x200000" crc="9a34f99c" sha1="fca72d95ec42790a7f1e771a1e25dbc5bec5fc19" />
+		</dataarea>
+	</part>
+</software>

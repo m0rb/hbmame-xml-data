@@ -1,0 +1,25 @@
+<software name="spinmast01" cloneof="spinmast">
+	<description>Spin Master (Enhanced Version)</description>
+	<year>1993</year>
+	<publisher>Kawada7278</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x180000">
+		<rom loadflag="load16_word_swap" name="062s01.p1" offset="0x0" size="0x100000" crc="51d531ee" sha1="bc8b16ddc76d14de9d239efddd3a1cdfbf207521" />
+		<rom loadflag="load16_word_swap" name="062s01.p2" offset="0x100000" size="0x80000" crc="43763ad2" sha1="9b08cf1a79294c3206f6364466cae2c8b15acad5" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="062.v1" offset="0x0" size="0x100000" crc="cc281aef" sha1="68be154b3e25f837afb4a477600dbe0ee69bec44" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="062.c1" offset="0x0" size="0x100000" crc="a9375aa2" sha1="69218d8f1361e9ea709da11e3f15fe46b1db7181" />
+		<rom loadflag="load16_byte" name="062.c2" offset="0x1" size="0x100000" crc="0e73b758" sha1="a247f736fbca0b609818dca4844ebb8442753bc1" />
+		<rom loadflag="load16_byte" name="062.c3" offset="0x200000" size="0x100000" crc="df51e465" sha1="171953c7a870f3ab96e0f875117ee7343931fd38" />
+		<rom loadflag="load16_byte" name="062.c4" offset="0x200001" size="0x100000" crc="38517e90" sha1="f7c64b94ac20f5146f9bb48b53cb2b30fe5b8f8c" />
+		<rom loadflag="load16_byte" name="062.c5" offset="0x400000" size="0x100000" crc="7babd692" sha1="0d4cd5006baa8d951cd2b6194ace566fa2845b8a" />
+		<rom loadflag="load16_byte" name="062.c6" offset="0x400001" size="0x100000" crc="cde5ade5" sha1="5899ef5dfcdbb8cf8c6aba748dbb52f3c5fed5fe" />
+		<rom loadflag="load16_byte" name="062.c7" offset="0x600000" size="0x100000" crc="bb2fd7c0" sha1="cce11c4cf39ac60143235ff89261806df339dae5" />
+		<rom loadflag="load16_byte" name="062.c8" offset="0x600001" size="0x100000" crc="8d7be933" sha1="e7097cfa26a959f90721e2e8368ceb47ea9db661" />
+		</dataarea>
+	</part>
+</software>

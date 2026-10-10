@@ -1,0 +1,29 @@
+<software name="sfa2s04" cloneof="sfa2">
+	<description>Street Fighter Alpha 2 (960430U, Command Change, 2007-12-16)</description>
+	<year>1996</year>
+	<publisher>Pipi899</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c64s04.p1" offset="0x0" size="0x80000" crc="f6e6d427" sha1="85ff5c9fcd6849bfb325c9362b79851f9a41c7b4" />
+		<rom loadflag="load16_word_swap" name="c64u.p2" offset="0x80000" size="0x80000" crc="fae0e9c3" sha1="d84cfbf16079f9987df683911b83896b80b52b1a" />
+		<rom loadflag="load16_word_swap" name="c64u.p3" offset="0x100000" size="0x80000" crc="d02dd758" sha1="581bcd451b1d081b9b73d4a1b485da9f29756613" />
+		<rom loadflag="load16_word_swap" name="c64u.p4" offset="0x180000" size="0x80000" crc="c5c8eb63" sha1="4ea033834c7b260877335296f88c0db484dea289" />
+		<rom loadflag="load16_word_swap" name="c64u.p5" offset="0x200000" size="0x80000" crc="5de01cc5" sha1="b19bfe970b217c96e782860fc3ae3fcb976ed30d" />
+		<rom loadflag="load16_word_swap" name="c64u.p6" offset="0x280000" size="0x80000" crc="bea11d56" sha1="a1d475066d36de7cc5d931671ccdcd89737bc7ee" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c64.m1" offset="0x0" size="0x8000" crc="1bc323cf" sha1="83fbd6e9b327700dc9f1c59700b7385bc3705749" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c64.m2" offset="0x28000" size="0x20000" crc="ba6a5013" sha1="7814f3e56b69529b9860dd61c3b1e8d700244b03" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="sfa2u.key" offset="0x0" size="0x14" crc="4a8d91ef" sha1="e22567ab83b35c39c6545742bc85ca98ae97f288" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c64.q1" offset="0x0" size="0x200000" crc="aa47a601" sha1="a4d1ee89c84a3b9db06469bb66e85293b5aa9ac9" />
+		<rom loadflag="load16_word_swap" name="c64.q2" offset="0x200000" size="0x200000" crc="2237bc53" sha1="96d5693047e4cf1ed10a8ee1905cea267a278e92" />
+		</dataarea>
+	</part>
+</software>

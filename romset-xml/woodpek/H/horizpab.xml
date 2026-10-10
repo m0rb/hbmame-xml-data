@@ -1,0 +1,19 @@
+<software name="horizpab" cloneof="mspacman">
+	<description>Horiz Pac (v1.0)</description>
+	<year>2004</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="horizpac.1" offset="0x0" size="0x1000" crc="7cc1979d" sha1="557346859dcfce806e83dcf0da1fe60da20fed81" />
+		<rom name="horizpac.2" offset="0x1000" size="0x1000" crc="14202b73" sha1="136b860d6ac8efb9c83b67f77fbb47c3014d4adc" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="horizpab.4" offset="0x3000" size="0x1000" crc="c9df7abe" sha1="da21a182b81181260e2a1615115d22797bd1434a" />
+		<rom name="boot5" offset="0x8000" size="0x1000" crc="8c3e6de6" sha1="fed6e9a2b210b07e7189a18574f6b8c4ec5bb49b" />
+		<rom name="boot6" offset="0x9000" size="0x1000" crc="368cb165" sha1="387010a0c76319a1eab61b54c9bcb5c66c4b67a1" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="horizpac.5e" offset="0x0" size="0x1000" crc="0572335d" sha1="f2d8bb3124970b298026e841e057fbcc7cdfc4b1" />
+		<rom name="horizpac.5f" offset="0x1000" size="0x1000" crc="4198511d" sha1="b3808062835aa0cc05fa19a678a5c8ab8fb646d7" />
+		</dataarea>
+	</part>
+</software>

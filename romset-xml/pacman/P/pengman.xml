@@ -1,0 +1,17 @@
+<software name="pengman" cloneof="puckman">
+	<description>Pengo Man</description>
+	<year>2000</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="pengman.6j" offset="0x3000" size="0x1000" crc="37e7f3ba" sha1="f9b476d9389fdd8171b443e177e05fae2052024b" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pengman.5e" offset="0x0" size="0x1000" crc="02f5f5e6" sha1="029328f78f34330e90ad4407172b318a45017cac" />
+		<rom name="pengman.5f" offset="0x1000" size="0x1000" crc="5cd3db2e" sha1="808655f543fa83762a68e13adcf4a7091d07173f" />
+		</dataarea>
+	</part>
+</software>

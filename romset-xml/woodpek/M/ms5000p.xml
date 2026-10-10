@@ -1,0 +1,19 @@
+<software name="ms5000p" cloneof="mspacman">
+	<description>Ms. Pacman 5000 Plus (MSPAC-MAN 5000PLUS)</description>
+	<year>2001</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="ms5000p.4" offset="0x3000" size="0x1000" crc="d7ff3b21" sha1="478557c734062fc30a8b0252ebe04e15ec81a29a" />
+		<rom name="boot5" offset="0x8000" size="0x1000" crc="8c3e6de6" sha1="fed6e9a2b210b07e7189a18574f6b8c4ec5bb49b" />
+		<rom name="boot6" offset="0x9000" size="0x1000" crc="368cb165" sha1="387010a0c76319a1eab61b54c9bcb5c66c4b67a1" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="ms5000p.5e" offset="0x0" size="0x1000" crc="4fd847aa" sha1="39e1f184df81a61325a4d3cf2ef04eb3703f3944" />
+		<rom name="ms5000p.5f" offset="0x1000" size="0x1000" crc="50d5fa64" sha1="777e041901da0cae324524d64fa67b04b2f33bcc" />
+		</dataarea>
+	</part>
+</software>

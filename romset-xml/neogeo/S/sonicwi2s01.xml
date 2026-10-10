@@ -1,0 +1,22 @@
+<software name="sonicwi2s01" cloneof="sonicwi2">
+	<description>Aero Fighters 2 (Ex Super version)</description>
+	<year>1994</year>
+	<publisher>Kawada7278</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="075s01.p1" offset="0x100000" size="0x100000" crc="150cbac6" sha1="66009a8be55d70345569c1ba23d06a8b1c3e4641" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x300000">
+		<rom name="075.v1" offset="0x0" size="0x200000" crc="7577e949" sha1="3ba9f11094dd0cf519f33a16016cfae0d2c6629c" />
+		<rom name="075.v2" offset="0x200000" size="0x100000" crc="021760cd" sha1="8a24e38f1d4982c4dcd82718995571ac94cbb390" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="075.c1" offset="0x0" size="0x200000" crc="3278e73e" sha1="d9e6c8a3a5213690a1b8747d27806d8ac5aac405" />
+		<rom loadflag="load16_byte" name="075.c2" offset="0x1" size="0x200000" crc="fe6355d6" sha1="ca72fff7a908b6d9325761079ff2a0e28f34cf89" />
+		<rom loadflag="load16_byte" name="075.c3" offset="0x400000" size="0x200000" crc="c1b438f1" sha1="b3751c5b426bca0fcc3a58bdb86712c22ef908ab" />
+		<rom loadflag="load16_byte" name="075.c4" offset="0x400001" size="0x200000" crc="1f777206" sha1="e29c5ae65ebdcc1167a894306d2446ce909639da" />
+		</dataarea>
+	</part>
+</software>

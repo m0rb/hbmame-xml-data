@@ -1,0 +1,35 @@
+<software name="terror">
+	<description>Terrorist</description>
+	<year>2000</year>
+	<publisher>Hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="gg1-1" offset="0x0" size="0x1000" crc="a3a0f743" sha1="6907773db7c002ecde5e41853603d53387c5c7cd" />
+		<rom name="gg1-2" offset="0x1000" size="0x1000" crc="43bb0d5c" sha1="666975aed5ce84f09794c54b550d64d95ab311f0" />
+		<rom name="gg1_3.2m" offset="0x2000" size="0x1000" crc="753ce503" sha1="481f443aea3ed3504ec2f3a6bfcf3cd47e2f8f81" />
+		<rom name="gg1-4" offset="0x3000" size="0x1000" crc="83874442" sha1="366cb0dbd31b787e64f88d182108b670d03b393e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="gg1_9.4l" offset="0x0" size="0x1000" crc="58b2f47c" sha1="62f1279a784ab2f8218c4137c7accda00e6a3490" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="terror.bin" offset="0x0" size="0x1000" crc="1b629f80" sha1="6db66601fd357400edf3dc1d689255c64a46a72d" />
+		<rom name="gg1_10.4f" offset="0x1000" size="0x1000" crc="dd6f1afc" sha1="c340ed8c25e0979629a9a1730edc762bd72d0cff" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="1d.bin" offset="0x0" size="0x100" crc="86d92b24" sha1="6bef9102b97c83025a2cf84e89d95f2d44c3d2ed" />
+		</dataarea>
+		<dataarea name="proms" size="0x320">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="2n.bin" offset="0x20" size="0x100" crc="a547d33b" sha1="7323084320bb61ae1530d916f5edd8835d4d2461" />
+		<rom name="1c.bin" offset="0x120" size="0x100" crc="b6f585fb" sha1="dd10147c4f05fede7ae6e7a760681700a660e87e" />
+		<rom name="5c.bin" offset="0x220" size="0x100" crc="8bd565f6" sha1="bedba65816abfc2ebeacac6ee335ca6f136e3e3d" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="gg1-5" offset="0x0" size="0x1000" crc="3102fccd" sha1="d29b68d6aab3217fa2106b3507b9273ff3f927bf" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="gg1-7" offset="0x0" size="0x1000" crc="8995088d" sha1="d6cb439de0718826d1a0363c9d77de8740b18ecf" />
+		</dataarea>
+	</part>
+</software>

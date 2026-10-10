@@ -1,0 +1,26 @@
+<software name="sf2qp2" cloneof="sf2">
+	<description>Street Fighter II: The World Warrior (Quicken, bootleg)</description>
+	<year>1991</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c14qp2.p1" offset="0x0" size="0x40000" crc="43aa343d" sha1="501f14a68143344f8ff7f9091d7233ab53e0d531" />
+		<rom loadflag="continue" offset="0xc0000" size="0x40000" />
+		<rom loadflag="load16_word_swap" name="c14qp2.p5" offset="0x80000" size="0x40000" crc="d03b553f" sha1="edce2f9792ec2eb7da8c755d01616b874fbdef8e" />
+		<rom loadflag="continue" offset="0x40000" size="0x40000" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c14.m1" offset="0x0" size="0x8000" crc="a4823a1b" sha1="7b6bf59dfd578bfbbdb64c27988796783442d659" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2ui.key" offset="0x0" size="0x80" crc="b8266818" sha1="70321117ccc967d1bb69452bdb5ba4dce5420f98" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c14.v1" offset="0x0" size="0x20000" crc="7f162009" sha1="346bf42992b4c36c593e21901e22c87ae4a7d86d" />
+		<rom name="c14.v2" offset="0x20000" size="0x20000" crc="beade53f" sha1="277c397dc12752719ec6b47d2224750bd1c07f79" />
+		</dataarea>
+	</part>
+</software>

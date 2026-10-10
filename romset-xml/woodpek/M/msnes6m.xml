@@ -1,0 +1,19 @@
+<software name="msnes6m" cloneof="mspacman">
+	<description>Ms. Pacman NES (6 maps)</description>
+	<year>2000</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="mscrzyma.3" offset="0x2000" size="0x1000" crc="513f4d5c" sha1="ae011b89422bd8cbb80389814500bc1427f6ecb2" />
+		<rom name="mspac6m.4" offset="0x3000" size="0x1000" crc="e21c81ff" sha1="5a6ce8ee3059a31afbb9b8c1d0a1e37606d14a0a" />
+		<rom name="msnes6m.5" offset="0x8000" size="0x1000" crc="bc091971" sha1="d5046f5dcffd027805a53be937e7389a135e980f" />
+		<rom name="msnes6m.6" offset="0x9000" size="0x1000" crc="23ebe9a1" sha1="a51b6bd74edbea8e34ef35602c4aa8723d7f745a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="msnes6m.5e" offset="0x0" size="0x1000" crc="3abb116b" sha1="75abb47c9acfc4048d18265ff2a42db2d3591a48" />
+		<rom name="mspacnes.5f" offset="0x1000" size="0x1000" crc="6a4db98d" sha1="e0eeb83c1265f5c9881e1c752842d20dabf35783" />
+		</dataarea>
+	</part>
+</software>

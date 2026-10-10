@@ -1,0 +1,31 @@
+<software name="killbld02" cloneof="killbld">
+	<description>The Killing Blade (Easy Move)</description>
+	<year>1998</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="s02.u9" offset="0x100000" size="0x200000" crc="d82a1938" sha1="71ed4109d5e451fed359e826ca53a8ed48e827a7" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0300.u1" offset="0x400000" size="0x400000" crc="93159695" sha1="50c5976c9b681bd3d1ebefa3bfa9fe6e72dcb96f" />
+		</dataarea>
+		<dataarea name="igs022" size="0x10000">
+		<rom name="kb_u2_v109.u2" offset="0x0" size="0x10000" crc="de3eae63" sha1="03af767ef764055bda528b5cc6a24b9e1218cca8" />
+		</dataarea>
+		<dataarea name="igs023" size="0xa00000">
+		<rom name="pgm_t0300.u14" offset="0x180000" size="0x400000" crc="0922f7d9" sha1="4302b4b7369e13f315fad14f7d6cad1321101d24" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="pgm_a0300.u9" offset="0x0" size="0x400000" crc="3f9455d3" sha1="3718ce00ad93975383aafc14e5a74dc297b011a1" />
+		<rom name="pgm_a0301.u10" offset="0x400000" size="0x400000" crc="92776889" sha1="6d677837fefff47bfd1c6166322f69f89989a5e2" />
+		<rom name="pgm_a0303.u11" offset="0x800000" size="0x400000" crc="33f5cc69" sha1="9cacd5058d4bb25b77f71658bbbbd4b38d0a6b6a" />
+		<rom name="pgm_a0306.u12" offset="0xc00000" size="0x400000" crc="cc018a8e" sha1="37752d46f238fb57c0ab5a4f96b1e013f2077347" />
+		<rom name="pgm_a0307.u2" offset="0x1000000" size="0x400000" crc="bc772e39" sha1="079cc42a190cb916f02b59bca8fa90e524acefe9" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b0300.u13" offset="0x0" size="0x400000" crc="7f876981" sha1="43555a200929ad5ecc42137fc9aeb42dc4f50d20" />
+		<rom name="pgm_b0302.u14" offset="0x400000" size="0x400000" crc="eea9c502" sha1="04b3972c7111ea59a3cceab6ad124080c4ce3520" />
+		<rom name="pgm_b0303.u15" offset="0x800000" size="0x200000" crc="77a9652e" sha1="2342f643d37945fbda224a5034c013796e5134ca" />
+		</dataarea>
+	</part>
+</software>

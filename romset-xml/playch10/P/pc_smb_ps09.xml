@@ -1,0 +1,16 @@
+<software name="pc_smb_ps09" cloneof="pc_smb">
+	<description>Super Mario Bros. (Burn The Bank, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps09" offset="0x0" size="0x2000" crc="20d1ad42" sha1="5a849c38cb1bc86197d580cd89530245f20dffa5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps09" offset="0x0" size="0x8000" crc="35fa8c08" sha1="0716d4f8ef7edf71e9de470c0b9cbb75d01002bc" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

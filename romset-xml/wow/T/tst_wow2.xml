@@ -1,0 +1,10 @@
+<software name="tst_wow2">
+	<description>Test Rom - Wizard of Wor (ver 0.2b)</description>
+	<year>2003</year>
+	<publisher>David Turner</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="wowmd02b.x1" offset="0x0" size="0x1000" crc="0af2f2c8" sha1="e883afe696c2a444c8691041f1b9e0e015dff517" />
+		</dataarea>
+	</part>
+</software>

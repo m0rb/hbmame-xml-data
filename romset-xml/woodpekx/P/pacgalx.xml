@@ -1,0 +1,23 @@
+<software name="pacgalx" cloneof="mspacmnx">
+	<description>Pac-Gal (hires hack)</description>
+	<year>1981</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="mscrzyma.3" offset="0x2000" size="0x1000" crc="513f4d5c" sha1="ae011b89422bd8cbb80389814500bc1427f6ecb2" />
+		<rom name="pacman.7hj" offset="0x3000" size="0x1000" crc="70694c8e" sha1="d0d02f0997b44e1ba5ea27fc3f7af1b956e2a687" />
+		<rom name="boot5" offset="0x8000" size="0x1000" crc="8c3e6de6" sha1="fed6e9a2b210b07e7189a18574f6b8c4ec5bb49b" />
+		<rom name="boot6" offset="0x9000" size="0x1000" crc="368cb165" sha1="387010a0c76319a1eab61b54c9bcb5c66c4b67a1" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="mspacmnx.5e" offset="0x0" size="0x4000" crc="d9a2897d" sha1="38cc83d1a854ae289da7904faff32114a9731bda" />
+		<rom name="pacgalx.5f" offset="0x4000" size="0x4000" crc="dfb2a9e9" sha1="a7c297910fce9723054ce9a7abc0175e75e72d1c" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="82s123.7f" offset="0x0" size="0x20" crc="2fc650bd" sha1="8d0268dee78e47c712202b0ec4f1f51109b1f2a5" />
+		<rom name="2s140.4a" offset="0x20" size="0x100" crc="63efb927" sha1="5c144a613fc4960a1dfd7ead89e7fee258a63171" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,17 @@
+<software name="puckmodx" cloneof="puckmanx">
+	<description>PuckMan (Japan set 3) (hires hack)</description>
+	<year>1981</year>
+	<publisher>Namco</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pac25.6e" offset="0x0" size="0x1000" crc="fee263b3" sha1="87117ba5082cd7a615b4ec7c02dd819003fbd669" />
+		<rom name="puckmanb.6f" offset="0x1000" size="0x1000" crc="39d1fc83" sha1="326dbbf94c6fa2e96613dedb53702f8832b47d59" />
+		<rom name="puckmanb.6h" offset="0x2000" size="0x1000" crc="02083b03" sha1="7e1945f6eb51f2e51806d0439f975f7a2889b9b8" />
+		<rom name="puckmod.6j" offset="0x3000" size="0x1000" crc="7d98d5f5" sha1="39939bcd6fb785d0d06fd29f0287158ab1267dfc" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="pacmanx.5e" offset="0x0" size="0x4000" crc="a45138ce" sha1="f18344980b4a58d0abf0cc2b7853184af3d5bfa0" />
+		<rom name="pacmanx.5f" offset="0x4000" size="0x4000" crc="92e1b10e" sha1="bb04988502fa181365c08096b5fd47fa9541c291" />
+		</dataarea>
+	</part>
+</software>

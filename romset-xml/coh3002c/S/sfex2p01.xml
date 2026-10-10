@@ -1,0 +1,28 @@
+<software name="sfex2p01" cloneof="sfex2p">
+	<description>Street Fighter EX2 Plus (Enable Hidden Characters)</description>
+	<year>1999</year>
+	<publisher>Yumeji</publisher>
+	<part name="cart">
+		<dataarea name="audiocpu" size="0x40000">
+		<rom name="x2p_02.2e" offset="0x0" size="0x20000" crc="3705de5e" sha1="847007ca271da64bf13ffbf496d4291429eee27a" />
+		<rom name="x2p_03.3e" offset="0x20000" size="0x20000" crc="6ae828f6" sha1="41c54165e87b846a845da581f408b96979288158" />
+		</dataarea>
+		<dataarea name="bankedroms" endianness="little" size="0x3000000">
+		<rom name="x2p-05mp_s01.3h" offset="0x0" size="0x800000" crc="08e6a6f4" sha1="b18bb531fade80a6639cd6202c6e490f8a3144bd" />
+		<rom name="x2p-06m.4h" offset="0x800000" size="0x800000" crc="4cd53a45" sha1="39499ea6c9aa51c71f4fe44cc02f93d5a39e14ec" />
+		<rom name="x2p-07m.5h" offset="0x1000000" size="0x800000" crc="11207c2a" sha1="0182652819f1c3a36e7b42e34ef86d2455a2dd90" />
+		<rom name="x2p-08m.2k" offset="0x1800000" size="0x800000" crc="3560c2cc" sha1="8b0ce22d954387f7bb032b5220d1014ef68741e8" />
+		<rom name="x2p-09m.3k" offset="0x2000000" size="0x800000" crc="344aa227" sha1="69dc6f511939bf7fa25c2531ecf307a7565fe7a8" />
+		<rom name="x2p-10m.4k" offset="0x2800000" size="0x800000" crc="2eef5931" sha1="e5227529fb68eeb1b2f25813694173a75d906b52" />
+		</dataarea>
+		<dataarea name="cat702_2" size="0x8">
+		<rom name="cp12" offset="0x0" size="0x8" crc="7cc2ed68" sha1="a409ae837665700bdc4e3aa7c41a418d5b792940" />
+		</dataarea>
+		<dataarea name="countryrom" endianness="little" size="0x80000">
+		<rom name="x2pu_04.2h" offset="0x0" size="0x80000" crc="2938118c" sha1="4bdeeb9aa3dd54ef44aa3fc73d78d65297b1ed25" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="x2p-01m.3a" offset="0x0" size="0x400000" crc="14a5bb0e" sha1="dfe3c3a53bd4c58743d8039b5344d3afbe2a9c24" />
+		</dataarea>
+	</part>
+</software>

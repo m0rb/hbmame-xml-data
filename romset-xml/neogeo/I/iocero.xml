@@ -1,0 +1,15 @@
+<software name="iocero">
+	<description>Primo Demo</description>
+	<year>2013</year>
+	<publisher>iocerom</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="639.p1" offset="0x0" size="0x100000" crc="a315fb81" sha1="c958d78de5d83ff31c9545d54c6429c85cdbdb64" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="639.c1" offset="0x0" size="0x100000" crc="d68941e1" sha1="20b70416b9b284bae576b385ddc63fe9a47cf976" />
+		<rom loadflag="load16_byte" name="639.c2" offset="0x1" size="0x100000" crc="df7e359f" sha1="08d45350047ad9bcad17739d8b00b911b47417ee" />
+		</dataarea>
+	</part>
+</software>

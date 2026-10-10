@@ -1,0 +1,30 @@
+<software name="chikij" cloneof="mtwins">
+	<description>Chiki Chiki Boys (Japan 900619)</description>
+	<year>1990</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c10j.p1" offset="0x0" size="0x20000" crc="ec1328d8" sha1="a7111f9c264c56d1c6474ec3ad90e394a32a86f6" />
+		<rom loadflag="load16_byte" name="c10j.p2" offset="0x1" size="0x20000" crc="4ae13503" sha1="c47db0445e107ad4fb62b74e277a7dc2b4d9b7ea" />
+		<rom loadflag="load16_byte" name="c10j.p3" offset="0x40000" size="0x20000" crc="46d2cf7b" sha1="5cb7ed3003d89a08882d4dcd326c8fd9430f0eac" />
+		<rom loadflag="load16_byte" name="c10j.p4" offset="0x40001" size="0x20000" crc="8d387fe8" sha1="7832ecd487b5ef4e49b5ea78e80e52f8e2dcaa17" />
+		<rom loadflag="load16_byte" name="c10j.p5" offset="0x80000" size="0x20000" crc="609ed2f9" sha1="869924ff1bc78ac4b50bcfd37a8e76820a9fddf1" />
+		<rom loadflag="load16_byte" name="c10j.p6" offset="0x80001" size="0x20000" crc="be0d8301" sha1="28dbbb4176800b31068b1beecf54a78085092e5a" />
+		<rom loadflag="load16_byte" name="c10j.p7" offset="0xc0000" size="0x20000" crc="b810867f" sha1="c971d286c60a9b61f42ea3b792cf59847aacb965" />
+		<rom loadflag="load16_byte" name="c10j.p8" offset="0xc0001" size="0x20000" crc="8ad96155" sha1="673a5b5eb7330fbbc02aabcdb164efea193613a3" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c10.m1" offset="0x0" size="0x8000" crc="4d4255b7" sha1="81a76b58043af7252a854b7efc4109957ef0e679" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="chikij.key" offset="0x0" size="0x80" crc="60836fa4" sha1="15a3a3b538408a75b94b66ef8490c8ce556b9527" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c10.v1" offset="0x0" size="0x20000" crc="f909e8de" sha1="2dd5bd4076e7d5ded98b72919f868ea700df2e4f" />
+		<rom name="c10.v2" offset="0x20000" size="0x20000" crc="fc158cf7" sha1="294b93d0aea60663ffe96364671552e944a1264b" />
+		</dataarea>
+	</part>
+</software>

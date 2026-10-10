@@ -1,0 +1,17 @@
+<software name="pmextrap" cloneof="puckman">
+	<description>Pac Man Extra Plus</description>
+	<year>2001</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacplus.6e" offset="0x0" size="0x1000" crc="d611ef68" sha1="8531c54ca6b0de0ea4ccc34e0e801ba9847e75bc" />
+		<rom name="pacplus.6f" offset="0x1000" size="0x1000" crc="c7207556" sha1="8ba97215bdb75f0e70eb8d3223847efe4dc4fb48" />
+		<rom name="pacplus.6h" offset="0x2000" size="0x1000" crc="ae379430" sha1="4e8613d51a80cf106f883db79685e1e22541da45" />
+		<rom name="pacplus.6j" offset="0x3000" size="0x1000" crc="5a6dff7b" sha1="b956ae5d66683aab74b90469ad36b5bb361d677e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pmextra.5e" offset="0x0" size="0x1000" crc="3ee34b66" sha1="2d7a7e9a59dd87be7bda4964471b0fa27e82a219" />
+		<rom name="pmextrap.5f" offset="0x1000" size="0x1000" crc="34ff1749" sha1="55eb0199fdc04a3331bcf1e31baf686310af2cc7" />
+		</dataarea>
+	</part>
+</software>

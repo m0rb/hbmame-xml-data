@@ -1,0 +1,16 @@
+<software name="pc_smb_ps36" cloneof="pc_smb">
+	<description>Super Mario Bros. (Liu Mingjia&#x27;s Adventure, 2011-12-23)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps36" offset="0x0" size="0x2000" crc="6c5efd2f" sha1="54edf404aa9d1efcc1b551424b638809257c1e8f" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps36" offset="0x0" size="0x8000" crc="2849d729" sha1="f87b131cd55e48102151043128a87da704329fd4" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

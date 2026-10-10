@@ -1,0 +1,32 @@
+<software name="dkbarpal6" cloneof="dkong">
+	<description>Donkey Kong Barrelpalooza v1.06 (2021-05-13)</description>
+	<year>2021</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkbarpal4.5et" offset="0x0" size="0x1000" crc="bb5c7dca" sha1="f4bab16cb33ecca302fa6dd39b718a292958c691" />
+		<rom name="dkbarpal6.5ct" offset="0x1000" size="0x1000" crc="c742739c" sha1="a143af813f7c23b6bab483ad2610e686ebc568da" />
+		<rom name="dkbarpal6.5bt" offset="0x2000" size="0x1000" crc="a46859ec" sha1="bbe8a32b7396f6347ce8b4a77b760277fb965551" />
+		<rom name="dkbarpal6.5at" offset="0x3000" size="0x1000" crc="eafd7c54" sha1="1b44ac9c90621a8aeda00ef2677e9ad00d475467" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkbarpal2.5h" offset="0x0" size="0x800" crc="caf8820b" sha1="b3e5768bd19c16510d05cd9d5d7ad72e05d08a8c" />
+		<rom name="dkbarpal2.3pt" offset="0x800" size="0x800" crc="b0cd1e84" sha1="16f8404114e3f62e0789819f6a65f34189b595bc" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkbarpal2.4m" offset="0x0" size="0x800" crc="1b46aae1" sha1="f08c57f2c85df81180444cab76acb4f367d71619" />
+		<rom name="dkbarpal2.4n" offset="0x800" size="0x800" crc="fbaaa6f0" sha1="e61e92418270fb81d9fd33da0a92970d458f69e4" />
+		<rom name="dkbarpal2.4r" offset="0x1000" size="0x800" crc="919362a0" sha1="5df953cded45ad55ba2bbd5f6d5c7e4577dcaa5f" />
+		<rom name="dkbarpal2.4s" offset="0x1800" size="0x800" crc="d57098ca" sha1="b746b0e137844e0e1cb715df065bbf7a3246f2e9" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkbarpal2.2k" offset="0x0" size="0x100" crc="4826ce71" sha1="5fe7d63ce7adece81ab8930196434410fbe4e241" />
+		<rom name="dkbarpal2.2j" offset="0x100" size="0x100" crc="4a7a511b" sha1="c0d3ee62e5f6e22d24603ab24403b206d043956f" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="dkbarpal.3i" offset="0x0" size="0x800" crc="7590f5ee" sha1="b08245ce86d2c2de1b0d000743b7e9fcdf2ee215" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>

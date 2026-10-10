@@ -1,0 +1,29 @@
+<software name="kovpluss152" cloneof="kovplus">
+	<description>Knights of Valour Plus (Three Kingdoms War Valkyrie Come)</description>
+	<year>1999</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_ph152.119" offset="0x100000" size="0x400000" crc="6fa0b4f9" sha1="45ed5f09d7f59a317ee0821ec41a1d61c5ec5344" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u3" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600lw.rom" offset="0x0" size="0x800000" crc="cca70135" sha1="2d288df75907e50c7fc2beca5fb9fd895faece55" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_ph152.rom" offset="0x1000000" size="0x800000" crc="2c1c90ae" sha1="a29fe92715e8bc883cd2e26434c432fee2435d01" />
+		<rom name="a0603_ph67.rom" offset="0x1800000" size="0x400000" crc="4d755da5" sha1="8b04020578e96030b86359a9f0ba892adb703bf5" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600lw.rom" offset="0x0" size="0x800000" crc="a4155c55" sha1="3146774f00dd4156b7423d9983dc6e678aca648d" />
+		<rom name="b0601lw.rom" offset="0x800000" size="0x400000" crc="a261d5bd" sha1="19204c5ab9861f8ccfb0b168e2bb4137f9d14dfe" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_ph152.rom" offset="0x180000" size="0x800000" crc="23cb3f80" sha1="27fea91b263f3b8ea06d1570af620ba6c86141f8" />
+		</dataarea>
+	</part>
+</software>

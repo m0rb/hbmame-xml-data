@@ -1,0 +1,16 @@
+<software name="pc_smb_ps49" cloneof="pc_smb">
+	<description>Super Mario Bros. (Pandamar, 2013-03-17)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps49" offset="0x0" size="0x2000" crc="e4615dd5" sha1="2776057d8bad8cc31eb60244e1c6d39173bbb1a5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps49" offset="0x0" size="0x8000" crc="5396db08" sha1="6234baf5a35c82cb7ab931d67829f0399d2efbf2" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,21 @@
+<software name="galaxian07" cloneof="galnamco">
+	<description>Galaxian (Bug sprites)</description>
+	<year>1998</year>
+	<publisher>The Dog</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="galmidw.u" offset="0x0" size="0x800" crc="745e2d61" sha1="e65f74e35b1bfaccd407e168ea55678ae9b68edf" />
+		<rom name="galmidw.v" offset="0x800" size="0x800" crc="9c999a40" sha1="02fdcd95d8511e64c0d2b007b874112d53e41045" />
+		<rom name="galmidw.w" offset="0x1000" size="0x800" crc="b5894925" sha1="0046b9ed697a34d088de1aead8bd7cbe526a2396" />
+		<rom name="galmidw.y" offset="0x1800" size="0x800" crc="6b3ca10b" sha1="18d8714e5ef52f63ba8888ecc5a25b17b3bf17d1" />
+		<rom name="galmidw.z" offset="0x2000" size="0x800" crc="cb24f797" sha1="e6bb977ded0654c2c7388aad188059e1e0647908" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="galaxian07.1j" offset="0x0" size="0x800" crc="b8d46e4b" sha1="5fbf130912029fbe2aea5282b2201c6a17eae40b" />
+		<rom name="galaxian07.1k" offset="0x800" size="0x800" crc="a00bde50" sha1="c6519af48d2cf0a641b2f5aa327c3591f3184dbc" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>

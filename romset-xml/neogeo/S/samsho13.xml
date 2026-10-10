@@ -1,0 +1,24 @@
+<software name="samsho13" cloneof="samsho">
+	<description>Samurai Shodown (Unlimited Credits in Console Mode, 2008-10-23)</description>
+	<year>2008</year>
+	<publisher>zuojie &amp; kof1996</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="045s13.p1" offset="0x0" size="0x100000" crc="1538b682" sha1="6024b12084828bcc54f0da2ee51f0a01316eaba6" />
+		<rom loadflag="load16_word_swap" name="045.p2" offset="0x100000" size="0x100000" crc="46745b94" sha1="d9e959fd1f88c9402915c1d0dcdb4a9e3d49cdcb" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="045.v1" offset="0x0" size="0x200000" crc="37f78a9b" sha1="6279b497d12fa90b49ab5ac3aae20fb302ec8b81" />
+		<rom name="045.v2" offset="0x200000" size="0x200000" crc="568b20cf" sha1="61af858685472a1fad608e230cccc2b108509ddb" />
+		</dataarea>
+		<dataarea name="sprites" size="0xa00000">
+		<rom loadflag="load16_byte" name="045.c1" offset="0x0" size="0x200000" crc="2e5873a4" sha1="65c74c1e2d34390666bbb630df7d1f4c9570c3db" />
+		<rom loadflag="load16_byte" name="045.c2" offset="0x1" size="0x200000" crc="04febb10" sha1="16a8cbf0fd9468e81bf9eab6dbe7a8e3623a843e" />
+		<rom loadflag="load16_byte" name="045.c3" offset="0x400000" size="0x200000" crc="f3dabd1e" sha1="c80e52df42be9f8b2e89b467b11ab140a480cee8" />
+		<rom loadflag="load16_byte" name="045.c4" offset="0x400001" size="0x200000" crc="935c62f0" sha1="0053d40085fac14096b683f4341f65e543b71dc1" />
+		<rom loadflag="load16_byte" name="045.c5" offset="0x800000" size="0x100000" crc="81932894" sha1="550f15dc5892c4602422c51869f0d59f70f01e9e" />
+		<rom loadflag="load16_byte" name="045.c6" offset="0x800001" size="0x100000" crc="be30612e" sha1="5e8b785f917c176d6796eba0caed37b13ddb3e63" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,23 @@
+<software name="punleash" cloneof="puckman">
+	<description>Pacman Unleashed</description>
+	<year>2000</year>
+	<publisher>Peter Storey</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="punleash.1" offset="0x0" size="0x1000" crc="eddb20e7" sha1="07f6cabac3c59c2e3f522da877e845b3ceb2cffb" />
+		<rom name="punleash.2" offset="0x1000" size="0x1000" crc="57fe8b4d" sha1="629800fe793b53c27ee8c84a2e49caf7fe056f28" />
+		<rom name="punleash.3" offset="0x2000" size="0x1000" crc="94c63bb1" sha1="872dbca70b45285dccfd0e24cb50225a5c3ac005" />
+		<rom name="punleash.4" offset="0x3000" size="0x1000" crc="fe7734d5" sha1="f246baab82ea8e9b3cfd3dc5911445ab08223c1f" />
+		<rom name="punleash.5" offset="0x8000" size="0x1000" crc="ef155ffb" sha1="c5bcd57c2a336fa8a018b192b8542954271f1bac" />
+		<rom name="punleash.6" offset="0x9000" size="0x1000" crc="70d15899" sha1="9a7cff5811b591211eb23cee125fd77263f8d4fe" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="punleash.5e" offset="0x0" size="0x1000" crc="713a4ba4" sha1="f6eaadf92dae3a687fb317f2806b4d7a88f7c385" />
+		<rom name="punleash.5f" offset="0x1000" size="0x1000" crc="98d3d364" sha1="f8023d1772d377d090a9bfebf194bbbce8643f1d" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="punleash.7f" offset="0x0" size="0x20" crc="357c2523" sha1="f0c4cea06b17932cc15f6db2971406eaba3558b2" />
+		<rom name="punleash.4a" offset="0x20" size="0x100" crc="5ff3b85a" sha1="6b01b9c9302ab41fe83c140c3ff217d1d66773dd" />
+		</dataarea>
+	</part>
+</software>

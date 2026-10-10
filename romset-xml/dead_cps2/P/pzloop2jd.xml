@@ -1,0 +1,23 @@
+<software name="pzloop2jd" cloneof="pzloop2">
+	<description>Puzz Loop 2 (Japan 010226 Phoenix Edition) (bootleg)</description>
+	<year>2001</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c86jd.p1" offset="0x0" size="0x80000" crc="1f5d41c9" sha1="a205f8c73136d22c127ee547df724e300647c45a" />
+		<rom loadflag="load16_word_swap" name="c86jd.p2" offset="0x80000" size="0x80000" crc="60721b73" sha1="48918d94b8a21c1bb2bd2fc6166cde6bb427d862" />
+		<rom loadflag="load16_word_swap" name="c86jd.p3" offset="0x100000" size="0x80000" crc="0c39799f" sha1="3c16a814a5bbb2b00bd82a01f17e0ca797192c98" />
+		<rom loadflag="load16_word_swap" name="c86jd.p4" offset="0x180000" size="0x80000" crc="f3974d76" sha1="01f8caf5a85d27b24a18a313e459f508ba98a123" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c86.m1" offset="0x0" size="0x8000" crc="35697569" sha1="13718923cffb9ec53cef9e22d8875370b5f3dd74" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c86.q1" offset="0x0" size="0x200000" crc="85d8fbe8" sha1="c19d5e9084d07e610379b6e1b6be7bdf0b9b7f7f" />
+		<rom loadflag="load16_word_swap" name="c86.q2" offset="0x200000" size="0x200000" crc="1ed62584" sha1="28411f610f48cca6424a2d53e2a4ac691e826317" />
+		</dataarea>
+	</part>
+</software>

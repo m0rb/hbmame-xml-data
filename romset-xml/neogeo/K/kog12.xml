@@ -1,0 +1,25 @@
+<software name="kog12" cloneof="kof97">
+	<description>King of Gladiator (Resurgence Plus Dog Slaughter Edition, 2020-01-23)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="361s12.p1" offset="0x0" size="0x100000" crc="ea2ce829" sha1="a7a1c785ed3eb1c0c6e348942cbe1fc154da8ce0" />
+		<rom loadflag="load16_word_swap" name="361s12.p2" offset="0x100000" size="0x400000" crc="d1d6c3a5" sha1="a8878c2da73e7c25330d2f2130b63b6e8df71961" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="361s12.c1" offset="0x0" size="0x800000" crc="be9ec0a5" sha1="c77006fe0f24fb7cb80b4ed079927148059f72d9" />
+		<rom loadflag="load16_byte" name="361s12.c2" offset="0x1" size="0x800000" crc="f4739e81" sha1="1f2ea1f84edeb867e8ed630f6e148852a44803a2" />
+		<rom loadflag="load16_byte" name="232s006.c3" offset="0x1000000" size="0x800000" crc="b092e64f" sha1="7d809432d068db8f9056f5210570191416f1a53b" />
+		<rom loadflag="load16_byte" name="232s006.c4" offset="0x1000001" size="0x800000" crc="d25e8a04" sha1="52227828e3fdd27399b4cd514551abf856293f47" />
+		<rom loadflag="load16_byte" name="361s12.c5" offset="0x2000000" size="0x400000" crc="3c779848" sha1="20ec25277295de9dfd00b3380607e9f40b32c6e6" />
+		<rom loadflag="load16_byte" name="361s12.c6" offset="0x2000001" size="0x400000" crc="b0178cf0" sha1="a20a9bbd90e76ba72baea2c8ada2ec4cca64d02c" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="punipic" description="Punipic cartridges">
+<software name="punipic" cloneof="punisher">
+	<description>The Punisher (bootleg with PIC16c57, set 1)</description>
+	<year>1993</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c26pic.p1" offset="0x0" size="0x80000" crc="c3151563" sha1="61d3a20c25fea8a94ae6e473a87c21968867cba0" />
+		<rom loadflag="load16_byte" name="c26pic.p2" offset="0x1" size="0x80000" crc="8c2593ac" sha1="4261bc72b96c3a5690df35c5d8b71524765693d9" />
+		<rom loadflag="load16_byte" name="c26pic.p3" offset="0x100000" size="0x80000" crc="665a5485" sha1="c07920d110ca9c35f6cbff94a6a889c17300f994" />
+		<rom loadflag="load16_byte" name="c26pic.p4" offset="0x100001" size="0x80000" crc="d7b13f39" sha1="eb7cd92b44fdef3b72672b0be6786c526421b627" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="pic16c57" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom name="c26pic.c1" offset="0x0" size="0x40000" crc="9b9a887a" sha1="8805b36fc18837bd7c64c751b435d72b763b2235" />
+		<rom loadflag="continue" offset="0x4" size="0x40000" />
+		<rom name="c26pic.c2" offset="0x1" size="0x40000" crc="2b94287a" sha1="815d88e66f537e17550fc0483616f02f7126bfb1" />
+		<rom loadflag="continue" offset="0x5" size="0x40000" />
+		<rom name="c26pic.c3" offset="0x2" size="0x40000" crc="e9bd74f5" sha1="8ed7098c69d1c70093c99956bf82e532bd6fc7ac" />
+		<rom loadflag="continue" offset="0x6" size="0x40000" />
+		<rom name="c26pic.c4" offset="0x3" size="0x40000" crc="a5e1c8a4" sha1="3596265a45cf6bbf16c623f0fce7cdc65f9338ad" />
+		<rom loadflag="continue" offset="0x7" size="0x40000" />
+		<rom name="c26pic.c5" offset="0x200000" size="0x40000" crc="6d75a193" sha1="6c5a89517926d7ba4a925a3df800d4bdb8a6938d" />
+		<rom loadflag="continue" offset="0x200004" size="0x40000" />
+		<rom name="c26pic.c6" offset="0x200001" size="0x40000" crc="a3c205c1" sha1="6317cc49434dbbb9a249ddd4b50bd791803b3ebe" />
+		<rom loadflag="continue" offset="0x200005" size="0x40000" />
+		<rom name="c26pic.c7" offset="0x200002" size="0x40000" crc="22f2ec92" sha1="9186bfc5db71dc5b099c9a985e8fdd5710772d1c" />
+		<rom loadflag="continue" offset="0x200006" size="0x40000" />
+		<rom name="c26pic.c8" offset="0x200003" size="0x40000" crc="763974c9" sha1="f9b93c7cf0cb8c212fc21c57c85459b7d2e4e2fd" />
+		<rom loadflag="continue" offset="0x200007" size="0x40000" />
+		</dataarea>
+		<dataarea name="oki" size="0x200000">
+		<rom name="c26pic.v1" offset="0x0" size="0x80000" crc="aeec9dc6" sha1="56fd62e8db8aa96cdd242d8c705849a413567780" />
+		</dataarea>
+	</part>
+</software>
+<software name="punipic2" cloneof="punisher">
+	<description>The Punisher (bootleg with PIC16c57, set 2)</description>
+	<year>1993</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c26pic.p1" offset="0x0" size="0x80000" crc="c3151563" sha1="61d3a20c25fea8a94ae6e473a87c21968867cba0" />
+		<rom loadflag="load16_byte" name="c26pic.p2" offset="0x1" size="0x80000" crc="8c2593ac" sha1="4261bc72b96c3a5690df35c5d8b71524765693d9" />
+		<rom loadflag="load16_byte" name="c26pic.p3" offset="0x100000" size="0x80000" crc="665a5485" sha1="c07920d110ca9c35f6cbff94a6a889c17300f994" />
+		<rom loadflag="load16_byte" name="c26pic.p4" offset="0x100001" size="0x80000" crc="d7b13f39" sha1="eb7cd92b44fdef3b72672b0be6786c526421b627" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="pic16c57" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom loadflag="load16_word" name="c26pic2.c1" offset="0x0" size="0x80000" crc="6581faea" sha1="2b0e96998002a1df96c7869ec965257d2ecfb531" />
+		<rom loadflag="continue" offset="0x200000" size="0x80000" />
+		<rom loadflag="continue" offset="0x4" size="0x80000" />
+		<rom loadflag="continue" offset="0x200004" size="0x80000" />
+		<rom loadflag="load16_word" name="c26pic2.c2" offset="0x2" size="0x80000" crc="61613de4" sha1="8f8c46ce907be2b4c4715ad88bfd1456818bdd2c" />
+		<rom loadflag="continue" offset="0x200002" size="0x80000" />
+		<rom loadflag="continue" offset="0x6" size="0x80000" />
+		<rom loadflag="continue" offset="0x200006" size="0x80000" />
+		</dataarea>
+		<dataarea name="oki" size="0x200000">
+		<rom name="c26pic.v1" offset="0x0" size="0x80000" crc="aeec9dc6" sha1="56fd62e8db8aa96cdd242d8c705849a413567780" />
+		</dataarea>
+		<dataarea name="user1" size="0x200000">
+		<rom name="93c46.bin" offset="0x0" size="0x80" crc="36ab4e7d" sha1="60bea43051d86d9aefcbb7a390cf0c7d8b905a4b" />
+		</dataarea>
+	</part>
+</software>
+<software name="punipic3" cloneof="punisher">
+	<description>The Punisher (bootleg with PIC16c57, set 3)</description>
+	<year>1993</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c26pic3.p1" offset="0x0" size="0x80000" crc="58f42c05" sha1="e243928f0bbecdf2a8d07cf4a6fdea4440e46c01" />
+		<rom loadflag="load16_byte" name="c26pic3.p2" offset="0x1" size="0x80000" crc="90113db4" sha1="4decc203ae3ee4abcb2e017f11cd20eae2abf3f3" />
+		<rom loadflag="load16_byte" name="c26pic.p3" offset="0x100000" size="0x80000" crc="665a5485" sha1="c07920d110ca9c35f6cbff94a6a889c17300f994" />
+		<rom loadflag="load16_byte" name="c26pic.p4" offset="0x100001" size="0x80000" crc="d7b13f39" sha1="eb7cd92b44fdef3b72672b0be6786c526421b627" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom loadflag="load16_word" name="c26pic3.c1" offset="0x0" size="0x80000" crc="57f0f5e3" sha1="130b6e92181994bbe874261e0895db65d4f3d5d1" />
+		<rom loadflag="continue" offset="0x4" size="0x80000" />
+		<rom loadflag="continue" offset="0x200000" size="0x80000" />
+		<rom loadflag="continue" offset="0x200004" size="0x80000" />
+		<rom loadflag="load16_word" name="c26pic3.c2" offset="0x2" size="0x80000" crc="d9eb867e" sha1="9b6eaa4a780da5c9cf09658fcab3a1a6f632c2f4" />
+		<rom loadflag="continue" offset="0x6" size="0x80000" />
+		<rom loadflag="continue" offset="0x200002" size="0x80000" />
+		<rom loadflag="continue" offset="0x200006" size="0x80000" />
+		</dataarea>
+		<dataarea name="oki" size="0x200000">
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

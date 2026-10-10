@@ -1,0 +1,30 @@
+<software name="xmvsfjr1" cloneof="xmvsf">
+	<description>X-Men Vs. Street Fighter (Japan 961004)</description>
+	<year>1996</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c69jr1.p1" offset="0x0" size="0x80000" crc="ef24da96" sha1="8f4a2a626a059bcf36048770153a9ffc85bba304" />
+		<rom loadflag="load16_word_swap" name="c69jr1.p2" offset="0x80000" size="0x80000" crc="70a59b35" sha1="786d9b243373024735848f785503c6aa883b1c2f" />
+		<rom loadflag="load16_word_swap" name="c69.p3" offset="0x100000" size="0x80000" crc="7db6025d" sha1="2d74f48f83f45359bfaca28ab686625766af12ee" />
+		<rom loadflag="load16_word_swap" name="c69.p4" offset="0x180000" size="0x80000" crc="e8e2c75c" sha1="929408cb5d98e95cec75ea58e4701b0cbdbcd016" />
+		<rom loadflag="load16_word_swap" name="c69.p5" offset="0x200000" size="0x80000" crc="08f0abed" sha1="ef16c376232dba63b0b9bc3aa0640f9001ccb68a" />
+		<rom loadflag="load16_word_swap" name="c69.p6" offset="0x280000" size="0x80000" crc="81929675" sha1="19cf7afbc1daaefec40195e40ba74970f3906a1c" />
+		<rom loadflag="load16_word_swap" name="c69.p7" offset="0x300000" size="0x80000" crc="9641f36b" sha1="dcba3482d1ba37ccfb30d402793ee063c6621aed" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c69.m1" offset="0x0" size="0x8000" crc="3999e93a" sha1="fefcff8a9a5c83df7655a16187cf9ba3e7efbb25" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c69.m2" offset="0x28000" size="0x20000" crc="101bdee9" sha1="75920e88bf46fcd33a7957777a1d799818ffb0d6" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="xmvsfj.key" offset="0x0" size="0x14" crc="87576cda" sha1="65905400f4462c175baa93b43e015e8596def31b" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c69.q1" offset="0x0" size="0x200000" crc="9cadcdbc" sha1="64d3bd53b04daec84c9af4aa3ff010867b3d306d" />
+		<rom loadflag="load16_word_swap" name="c69.q2" offset="0x200000" size="0x200000" crc="7b11e460" sha1="a581c84acaaf0ce056841c15a6f36889e88be68d" />
+		</dataarea>
+	</part>
+</software>

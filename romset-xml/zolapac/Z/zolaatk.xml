@@ -1,0 +1,19 @@
+<software name="zolaatk" cloneof="mspacman">
+	<description>Super Zola Pac Gal Attack</description>
+	<year>2000</year>
+	<publisher>Tqwn Amusement</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="zolaatk.1" offset="0x0" size="0x1000" crc="2b9e9433" sha1="5ab15ad04b8fe1711c0ace0471ac3594382a9fb3" />
+		<rom name="zolaatk.2" offset="0x1000" size="0x1000" crc="0c8631d1" sha1="09739200c90979550ae4ef14d27583aac50fd724" />
+		<rom name="zolaatk.3" offset="0x2000" size="0x1000" crc="694450a3" sha1="fcaa1e3ee993c2f563721336c59cac8af30bcc15" />
+		<rom name="zolaatk.4" offset="0x3000" size="0x1000" crc="b5b30242" sha1="b0b2044bcc26a1f9aee41c81367995b67ccd5edb" />
+		<rom name="zolaatk.5" offset="0x8000" size="0x1000" crc="24cb5d9b" sha1="1439ba665b00e840838e5f12df7d44a022541ef4" />
+		<rom name="zolaatk.6" offset="0x9000" size="0x1000" crc="e0c03b4e" sha1="3ef3decf7725a3ddb996c8268d4a83cbf5edd6b4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="5e" offset="0x0" size="0x1000" crc="5c281d01" sha1="5e8b472b615f12efca3fe792410c23619f067845" />
+		<rom name="5f" offset="0x1000" size="0x1000" crc="615af909" sha1="fd6a1dde780b39aea76bf1c4befa5882573c2ef4" />
+		</dataarea>
+	</part>
+</software>

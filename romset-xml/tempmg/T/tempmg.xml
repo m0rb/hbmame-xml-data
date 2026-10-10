@@ -1,0 +1,75 @@
+<software name="tempmg" cloneof="tempest">
+	<description>Tempest Multigame</description>
+	<year>2001</year>
+	<publisher>Clay Cowgill</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x50000">
+		<rom name="tempmg-113.d1" offset="0x11000" size="0x800" crc="8a6633fb" sha1="b143a5d2019f24666b350b40b0dab2924bb9c7c0" />
+		<rom name="tempmg-114.e1" offset="0x11800" size="0x800" crc="2eedfdf6" sha1="2ed494bd8610bebd07284289ca8b7059fd805300" />
+		<rom name="tempmg-115.f1" offset="0x12000" size="0x800" crc="12f62746" sha1="37356b5738c27ffe4c38f1b6cf99ae21441d8e8e" />
+		<rom name="tempmg-222.r1" offset="0x15800" size="0x800" crc="1d8f194a" sha1="c77f6b83f5c498c0f2d5372089a4604913a4aad5" />
+		<rom name="aliens.d1" offset="0x19000" size="0x800" crc="337e21f6" sha1="7adadeaa975e22f0b20e8f1fb6ad68b5c3934133" />
+		<rom name="aliens.f1" offset="0x1a000" size="0x800" crc="4d2aabb0" sha1="31106a1fc22d2a19866f07b8d6c6f4bf76007909" />
+		<rom name="aliens.h1" offset="0x1a800" size="0x800" crc="a503f54a" sha1="91ebf9f69a183a04a5bf55fcdd9e191523bb66bb" />
+		<rom name="aliens.j1" offset="0x1b000" size="0x800" crc="5487d531" sha1="c95f037151b824345af03f27a6c3c7eb8a899b2c" />
+		<rom name="aliens.k1" offset="0x1b800" size="0x800" crc="0ac96e87" sha1="37461e84e6f46516c25dbf4ddb2ffd65877445c0" />
+		<rom name="aliens.l1" offset="0x1c000" size="0x800" crc="cd246ac2" sha1="de2e6fe2e72c092c3874e797fc302a71dbf57710" />
+		<rom name="aliens.n1" offset="0x1c800" size="0x800" crc="bd98c5f3" sha1="268487d9cf46b4b7b49eab7420d078bf676e636c" />
+		<rom name="aliens.p1" offset="0x1d000" size="0x800" crc="7c10adbd" sha1="38579128a90bff4a7a4ae46d6aaa42118b8bc218" />
+		<rom name="aliens.r1" offset="0x1d800" size="0x800" crc="555c3070" sha1="032f03af23c7ccac8a2bf50c3c646e141921ffee" />
+		<rom name="vbrakout.113" offset="0x21000" size="0x800" crc="6fd3efe5" sha1="d195d08984ad8797607bc1989e8a606d51547c68" />
+		<rom name="vbrakout.114" offset="0x21800" size="0x800" crc="9974b9a5" sha1="6ecc6f72070895bb15992977348f58835233911f" />
+		<rom name="vbrakout.115" offset="0x22000" size="0x800" crc="44d611d8" sha1="82cd63fc9067ea1f00feeffbee66e7d750cab7e5" />
+		<rom name="vbrakout.116" offset="0x22800" size="0x800" crc="cd58fc11" sha1="060e31e55183ccef67a1adc91fb48c22424a4ba5" />
+		<rom name="vbrakout.122" offset="0x25800" size="0x800" crc="1ae2dd53" sha1="b908ba6b59195aea853380a56a243aa8fa2fba71" />
+		<rom name="d1.bin" offset="0x29000" size="0x800" crc="3aff3417" sha1="3b7c31f01b7467757ec85e98a17038e5df5720bb" />
+		<rom name="e1.bin" offset="0x29800" size="0x800" crc="11861be3" sha1="a35797c649e8286c844cee6dac86ac50f4fbd669" />
+		<rom name="f1.bin" offset="0x2a000" size="0x800" crc="1d251111" sha1="2912a21dc708231e28d6164e54e593a8300b9c4a" />
+		<rom name="h1.bin" offset="0x2a800" size="0x800" crc="937a9859" sha1="336b25291533d19294f1ced730bbf20971849adf" />
+		<rom name="j1.bin" offset="0x2b000" size="0x800" crc="79481246" sha1="c5362670fd29ef1432f8e626323da395d6e8a675" />
+		<rom name="k1.bin" offset="0x2b800" size="0x800" crc="390f872a" sha1="c5463ea2d2307e21c941b5b459e3652c12154609" />
+		<rom name="lm1.bin" offset="0x2c000" size="0x800" crc="515760dd" sha1="773f06c9a64e72f9d3d8a5c622bf3ec2b4ba678d" />
+		<rom name="mn1.bin" offset="0x2c800" size="0x800" crc="c6c41c68" sha1="9323c07fc80a947142dde008c53f5e8c0b0c572d" />
+		<rom name="p1.bin" offset="0x2d000" size="0x800" crc="3c2ff130" sha1="32ebabcb2cbd7aab5e29de2b873f02ed78776ae6" />
+		<rom name="r1.bin" offset="0x2d800" size="0x800" crc="67cafbb1" sha1="467515733d843398e6fe29661002536a1e6c8fc9" />
+		<rom name="136002.113" offset="0x31000" size="0x800" crc="65d61fe7" sha1="38a1e8a8f65b7887cf3e190269fe4ce2c6f818aa" />
+		<rom name="136002-114.e1" offset="0x31800" size="0x800" crc="11077375" sha1="ed8ff0ca969da6672a7683b93d4fcf2935a0d903" />
+		<rom name="136002.115" offset="0x32000" size="0x800" crc="f3e2827a" sha1="bd04fcfbbba995e08c3144c1474fcddaaeb1c700" />
+		<rom name="136002.316" offset="0x32800" size="0x800" crc="aeb0f7e9" sha1="a5cc25015b98692673cfc1c7c2e9634efd750870" />
+		<rom name="136002.217" offset="0x33000" size="0x800" crc="ef2eb645" sha1="b1a2c969e8897e335d5354de6ae04a65d4b2a1e4" />
+		<rom name="tube-118.k1" offset="0x33800" size="0x800" crc="cefb03f0" sha1="41ddfa4991fa49a31d4740a04551556acca66196" />
+		<rom name="136002.119" offset="0x34000" size="0x800" crc="a4de050f" sha1="ea302e43a313a5a18115e74ddbaaedde0fbecda7" />
+		<rom name="136002.120" offset="0x34800" size="0x800" crc="35619648" sha1="48f1e8bed7ec6afa0b4c549a30e5ec331c071e40" />
+		<rom name="136002.121" offset="0x35000" size="0x800" crc="73d38e47" sha1="9980606376a79ba94f8e2a325871a6c8d10d83fc" />
+		<rom name="136002.222" offset="0x35800" size="0x800" crc="707bd5c3" sha1="2f0af6fb7154c244c794f7247e5c16a1e06ddf7d" />
+		<rom name="136002-116.h1" offset="0x3a800" size="0x800" crc="7356896c" sha1="a013ede292189a8f5a907de882ee1a573d784b3c" />
+		<rom name="136002-117.j1" offset="0x3b000" size="0x800" crc="55952119" sha1="470d914fa52fce3786cb6330889876d3547dca65" />
+		<rom name="136002.118" offset="0x3b800" size="0x800" crc="beb352ab" sha1="f213166d3970e0bd0f29d8dea8d6afa6990cce38" />
+		<rom name="136002-122.r1" offset="0x3d800" size="0x800" crc="796a9918" sha1="c862a0d4ea330161e4c3cc8e5e9ad38893fffbd4" />
+		</dataarea>
+		<dataarea name="avg:prom" size="0x100">
+		<rom name="136002-125.d7" offset="0x0" size="0x100" crc="5903af03" sha1="24bc0366f394ad0ec486919212e38be0f08d0239" />
+		</dataarea>
+		<dataarea name="earom" size="0x40">
+		</dataarea>
+		<dataarea name="user2" size="0x20">
+		<rom name="136002-126.a1" offset="0x0" size="0x20" crc="8b04f921" sha1="317b3397482f13b2d1bc21f296d3b3f9a118787b" />
+		</dataarea>
+		<dataarea name="user3" endianness="big" size="0x400">
+		<rom loadflag="load32_byte" name="136002-132.l1" offset="0x0" size="0x100" crc="2af82e87" sha1="3816835a9ccf99a76d246adf204989d9261bb065" />
+		<rom loadflag="load32_byte" name="136002-131.k1" offset="0x0" size="0x100" crc="b31f6e24" sha1="ce5f8ca34d06a5cfa0076b47400e61e0130ffe74" />
+		<rom loadflag="load32_byte" name="136002-130.j1" offset="0x1" size="0x100" crc="8119b847" sha1="c4fbaedd4ce1ad6a4128cbe902b297743edb606a" />
+		<rom loadflag="load32_byte" name="136002-129.h1" offset="0x1" size="0x100" crc="09f5a4d5" sha1="d6f2ac07ca9ee385c08831098b0dcaf56808993b" />
+		<rom loadflag="load32_byte" name="136002-128.f1" offset="0x2" size="0x100" crc="823b61ae" sha1="d99a839874b45f64e14dae92a036e47a53705d16" />
+		<rom loadflag="load32_byte" name="136002-127.e1" offset="0x2" size="0x100" crc="276eadd5" sha1="55718cd8ec4bcf75076d5ef0ee1ed2551e19d9ba" />
+		</dataarea>
+		<dataarea name="vectorrom" size="0x4000">
+		<rom name="136002-123.np3" offset="0x0" size="0x800" crc="29f7e937" sha1="686c8b9b8901262e743497cee7f2f7dd5cb3af7e" />
+		<rom name="136002-124.r3" offset="0x800" size="0x800" crc="c16ec351" sha1="a30a3662c740810c0f20e3712679606921b8ca06" />
+		<rom name="aliens.n3" offset="0x1000" size="0x800" crc="5c8fd38b" sha1="bb0d6bd062eba53b5d64b3f444d5ce0a34728bf5" />
+		<rom name="aliens.r3" offset="0x1800" size="0x800" crc="6cabcd08" sha1="e3950de50f3dfbc4d4d2f4fe26625d8ef94c0819" />
+		<rom name="n3.bin" offset="0x3000" size="0x800" crc="29c6a1cb" sha1="290702a1c0942a68e288b37963e51eba02177a3f" />
+		<rom name="r3.bin" offset="0x3800" size="0x800" crc="7fbe5e21" sha1="e5de6c3af82e64444b0ddcda559e9cb4fbf6c1da" />
+		</dataarea>
+	</part>
+</software>

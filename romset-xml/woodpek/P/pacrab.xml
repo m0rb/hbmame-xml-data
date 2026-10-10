@@ -1,0 +1,19 @@
+<software name="pacrab" cloneof="puckman">
+	<description>Pac Rabbit</description>
+	<year>19</year>
+	<publisher>[Midway]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacrab.1" offset="0x0" size="0x1000" crc="bb14430f" sha1="80c632cc611e6cf774cc594a833916296bbbfccc" />
+		<rom name="pacrab.2" offset="0x1000" size="0x1000" crc="f3f5a91b" sha1="38d912661cf95c6234b0d3650c2b6be8df3003f0" />
+		<rom name="pacrab.3" offset="0x2000" size="0x1000" crc="44caab2a" sha1="10aaa38a720266739add8d2c54a4785ed133af0d" />
+		<rom name="pacrab.4" offset="0x3000" size="0x1000" crc="25523534" sha1="e0272e5a8717ef95fd2d593597af4e5011081eca" />
+		<rom name="pacrab.5" offset="0x8000" size="0x1000" crc="af3985c4" sha1="fb2e472b23cea56bf49ba2691a6cdeee4629a1b7" />
+		<rom name="pacrab.6" offset="0x9000" size="0x1000" crc="3389fe5a" sha1="394df6145614083c16cfe606adb0faca8c6a7a09" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacrab.5e" offset="0x0" size="0x1000" crc="f33761a4" sha1="401d752eacb60f2c26aae5cf6079e2bf54a8260a" />
+		<rom name="pacrab.5f" offset="0x1000" size="0x1000" crc="60e1a3b7" sha1="962b307f9fa3f3abde68507914fda78d5560f15b" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,17 @@
+<software name="pacmod" cloneof="puckman">
+	<description>Pacman (Midway, harder)</description>
+	<year>1981</year>
+	<publisher>[Namco] (Midway license)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacmanh.6e" offset="0x0" size="0x1000" crc="3b2ec270" sha1="48fc607ad8d86249948aa377c677ae44bb8ad3da" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacmanh.6h" offset="0x2000" size="0x1000" crc="18811780" sha1="ab34acaa3dbcafe8b20c2197f36641e471984487" />
+		<rom name="pacmanh.6j" offset="0x3000" size="0x1000" crc="5c96a733" sha1="22ae15a6f088e7296f77c7487a350c4bd102f00e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacmanh.5e" offset="0x0" size="0x1000" crc="299fb17a" sha1="ad97adc2122482a9018bacd137df9d8f409ddf85" />
+		<rom name="pacman.5f" offset="0x1000" size="0x1000" crc="958fedf9" sha1="4a937ac02216ea8c96477d4a15522070507fb599" />
+		</dataarea>
+	</part>
+</software>

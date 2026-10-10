@@ -1,0 +1,28 @@
+<software name="tophuntr01" cloneof="tophuntr">
+	<description>Top Hunter (Plus Max)</description>
+	<year>1994</year>
+	<publisher>Xyahzhs</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="046s01.p1" offset="0x0" size="0x100000" crc="76506c27" sha1="fbfac571c199f0b97f0a09201c2fcf654db76749" />
+		<rom loadflag="load16_word_swap" name="046.p2" offset="0x100000" size="0x100000" crc="f182cb3e" sha1="6b4e0af5d4e623f0682f37ff5c69e5b705e20028" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="046.v1" offset="0x0" size="0x100000" crc="c1f9c2db" sha1="bed95a76afefa46503a12e0f0a9787c4c967ac50" />
+		<rom name="046.v2" offset="0x100000" size="0x100000" crc="56254a64" sha1="1cf049cb4c414419859d2c8ee714317a35a85251" />
+		<rom name="046.v3" offset="0x200000" size="0x100000" crc="58113fb1" sha1="40972982a63c7adecef840f9882f4165da723ab6" />
+		<rom name="046.v4" offset="0x300000" size="0x100000" crc="4f54c187" sha1="63a76949301b83bdd44aa1a4462f642ab9ca3c0b" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="046.c1" offset="0x0" size="0x100000" crc="fa720a4a" sha1="364913b9fa40d46e4e39ae3cdae914cfd0de137d" />
+		<rom loadflag="load16_byte" name="046.c2" offset="0x1" size="0x100000" crc="c900c205" sha1="50274e79aa26f334eb806288688b30720bade883" />
+		<rom loadflag="load16_byte" name="046.c3" offset="0x200000" size="0x100000" crc="880e3c25" sha1="b6974af0c833b766866919b6f15b6f8cef82530d" />
+		<rom loadflag="load16_byte" name="046.c4" offset="0x200001" size="0x100000" crc="7a2248aa" sha1="8af0b26025a54e3b91604dd24a3c1c518fbd8536" />
+		<rom loadflag="load16_byte" name="046.c5" offset="0x400000" size="0x100000" crc="4b735e45" sha1="2f8b46388c4696aee6a97e1e21cdadf6b142b01a" />
+		<rom loadflag="load16_byte" name="046.c6" offset="0x400001" size="0x100000" crc="273171df" sha1="9c35832221e016c12ef1ed71da167f565daaf86c" />
+		<rom loadflag="load16_byte" name="046s01.c7" offset="0x600000" size="0x100000" crc="e0d37cb8" sha1="6d19c80b7e3f87646e8de5780fbd4cb5076cb015" />
+		<rom loadflag="load16_byte" name="046s01.c8" offset="0x600001" size="0x100000" crc="a3d7ad03" sha1="9d2c6ae60dc266b746b836fff72907c5af119d35" />
+		</dataarea>
+	</part>
+</software>

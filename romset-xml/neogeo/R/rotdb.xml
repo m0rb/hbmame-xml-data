@@ -1,0 +1,25 @@
+<software name="rotdb" cloneof="rotd">
+	<description>Rage of the Dragons (Add Char - Console mode enabled set 4)</description>
+	<year>2002</year>
+	<publisher>Ydmis</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="264b.p1" offset="0x0" size="0x800000" crc="66d05f5b" sha1="8114262695229ec8af22001569481007a30dc977" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="264.v1" offset="0x0" size="0x800000" crc="fa005812" sha1="73723126dab5a640ac11955ed6da1bf7a91394f5" />
+		<rom name="264.v2" offset="0x800000" size="0x800000" crc="c3dc8bf0" sha1="a105e37262d9500a30fb8a5dac05aa4fab2562a3" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="264.c1" offset="0x0" size="0x800000" crc="4f148fee" sha1="0821463765fad8fbd0dfbbabb7807337d0333719" />
+		<rom loadflag="load16_byte" name="264.c2" offset="0x1" size="0x800000" crc="7cf5ff72" sha1="ccb2f94bce943576d224cb326806942426d25584" />
+		<rom loadflag="load16_byte" name="264.c3" offset="0x1000000" size="0x800000" crc="64d84c98" sha1="8faf153f465ce6fb7770b27a7ce63caf11dd4086" />
+		<rom loadflag="load16_byte" name="264.c4" offset="0x1000001" size="0x800000" crc="2f394a95" sha1="82347e8f2b48b0522d7d91fd3f372d5768934ab2" />
+		<rom loadflag="load16_byte" name="264.c5" offset="0x2000000" size="0x800000" crc="6b99b978" sha1="8fd0a60029b41668f9e1e3056edd3c90f62efa83" />
+		<rom loadflag="load16_byte" name="264.c6" offset="0x2000001" size="0x800000" crc="847d5c7d" sha1="a2ce03f6302edf81f2645de9ec61df1a281ddd78" />
+		<rom loadflag="load16_byte" name="264.c7" offset="0x3000000" size="0x800000" crc="231d681e" sha1="87836e64dc816f8bf1c834641535ea96baacc024" />
+		<rom loadflag="load16_byte" name="264.c8" offset="0x3000001" size="0x800000" crc="c5edb5c4" sha1="253378c8739daa5da4edb15eff7050820b2b3755" />
+		</dataarea>
+	</part>
+</software>

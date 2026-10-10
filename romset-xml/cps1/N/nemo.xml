@@ -1,0 +1,27 @@
+<software name="nemo">
+	<description>Nemo (World 901130)</description>
+	<year>1990</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c13.p1" offset="0x0" size="0x20000" crc="d2c03e56" sha1="df468e3b5deba01a6825b742f1cc87bfb26c1981" />
+		<rom loadflag="load16_byte" name="c13.p2" offset="0x1" size="0x20000" crc="5fd31661" sha1="12f92a7255e8cae6975452db956670cf72d51768" />
+		<rom loadflag="load16_byte" name="c13.p3" offset="0x40000" size="0x20000" crc="b2bd4f6f" sha1="82a59b5f36cb4c23dca05297e2a643842fc12609" />
+		<rom loadflag="load16_byte" name="c13.p4" offset="0x40001" size="0x20000" crc="ee9450e3" sha1="a5454268ef58533e71fe07167b4c3fd263363f77" />
+		<rom loadflag="load16_word_swap" name="c13.p5" offset="0x80000" size="0x80000" crc="d6d1add3" sha1="61c3013d322dbb7622cca032adcd020ba318e885" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c13.m1" offset="0x0" size="0x8000" crc="0f4b0581" sha1="2e5a2885149c632abfaf4292a1bf032c13c8da6c" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="nemo.key" offset="0x0" size="0x80" crc="f59953d8" sha1="034e7b0d200ead9dfac5b1be3cc47c50ea89709a" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c13.v1" offset="0x0" size="0x20000" crc="bab333d4" sha1="c1d0fb61ec46f17eb7edf69e1ad5ac91b5d51daa" />
+		<rom name="c13.v2" offset="0x20000" size="0x20000" crc="2650a0a8" sha1="e9e8cc1b27a2cb3e87124061fabcf42982f0611f" />
+		</dataarea>
+	</part>
+</software>

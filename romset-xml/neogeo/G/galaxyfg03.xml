@@ -1,0 +1,27 @@
+<software name="galaxyfg03" cloneof="galaxyfg">
+	<description>Galaxy Fight (Enhanced Version 2014)</description>
+	<year>2014</year>
+	<publisher>Yumeji</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="078s03.p1" offset="0x100000" size="0x100000" crc="bbfffa22" sha1="6bde48477f67241dce30107f84c38a8d0c34a81f" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x500000">
+		<rom name="078.v1" offset="0x0" size="0x200000" crc="e3b735ac" sha1="e16dfac09aef8115a20bae0bef8c86d4e7d0dc4a" />
+		<rom name="078.v2" offset="0x200000" size="0x200000" crc="6a8e78c2" sha1="f60b1f8a3a945f279a582745e82f37278ce5d83b" />
+		<rom name="078.v3" offset="0x400000" size="0x100000" crc="70bca656" sha1="218b7079c90898e7faa382b386e77f81f415e7ac" />
+		</dataarea>
+		<dataarea name="sprites" size="0xe00000">
+		<rom loadflag="load16_byte" name="078.c1" offset="0x0" size="0x200000" crc="c890c7c0" sha1="b96c18a41c34070a4f24ca77cb7516fae8b0fd0c" />
+		<rom loadflag="load16_byte" name="078.c2" offset="0x1" size="0x200000" crc="b6d25419" sha1="e089df9c9a9645f706e501108d634f4d222622a2" />
+		<rom loadflag="load16_byte" name="078.c3" offset="0x400000" size="0x200000" crc="9d87e761" sha1="ea1b6d7c9d5ef3a9b48968bde5a52d5699d591cc" />
+		<rom loadflag="load16_byte" name="078.c4" offset="0x400001" size="0x200000" crc="765d7cb8" sha1="7b9c86714d688602064d928c9d2b49d70bb7541e" />
+		<rom loadflag="load16_byte" name="078.c5" offset="0x800000" size="0x200000" crc="e6b77e6a" sha1="db3b8fc62a6f21c6653621c0665450d5d9a9913d" />
+		<rom loadflag="load16_byte" name="078.c6" offset="0x800001" size="0x200000" crc="d779a181" sha1="2761026abd9698a7b56114b76631563abd41fd12" />
+		<rom loadflag="load16_byte" name="078.c7" offset="0xc00000" size="0x100000" crc="4f27d580" sha1="c0f12496b45b2fe6e94aa8ac52b0157063127e0a" />
+		<rom loadflag="load16_byte" name="078.c8" offset="0xc00001" size="0x100000" crc="0a7cc0d8" sha1="68aaee6341c87e56ce11acc1c4ec8047839fe70d" />
+		</dataarea>
+	</part>
+</software>

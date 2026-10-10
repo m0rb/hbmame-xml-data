@@ -1,0 +1,35 @@
+<software name="shogwarr02">
+	<description>Shogun Warriors (Simplified, 2017-02-28)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom loadflag="load16_byte" name="fb030es02.u61" offset="0x0" size="0x20000" crc="3b7393b5" sha1="ef3a1d52bac11356d0cf410476c7726c4e0f6bdf" />
+		<rom loadflag="load16_byte" name="fb030es02.u62" offset="0x1" size="0x20000" crc="41df237f" sha1="8e92be40ab2eb9dd200af3d45b3f1aa8b94ddcc8" />
+		</dataarea>
+		<dataarea name="calc3_rom" size="0x20000">
+		<rom name="fb040e.u33" offset="0x0" size="0x20000" crc="299d0746" sha1="67fe3a47ab01fa02ce2bb5836c2041986c19d875" />
+		</dataarea>
+		<dataarea name="kan_spr" size="0x1000000">
+		<rom name="fb-020a.u1" offset="0x0" size="0x100000" crc="87e55c6d" sha1="87886c045d7c30b8dee3c8fb0bf8f2cdbc5fd7fb" />
+		<rom name="fb020b.u2" offset="0x100000" size="0x100000" crc="276b9d7b" sha1="7a154f65b4737f2b6ac8effa3352711079f571dc" />
+		<rom name="fb021a.u3" offset="0x200000" size="0x100000" crc="7da15d37" sha1="345cf2242e8210a697294a45197f2b3b974de885" />
+		<rom name="fb021b.u4" offset="0x300000" size="0x100000" crc="6a512d7b" sha1="7fc3002d23262a9a590a283ea9e111e38d889ef2" />
+		<rom name="fb-22a.u5" offset="0x400000" size="0x100000" crc="9039e5d3" sha1="222452cd7947f7c99c68e495835cca62e0449b5c" />
+		<rom name="fb-22b.u6" offset="0x500000" size="0x100000" crc="96ac9e54" sha1="2b066375963dc57fe2ce89d65f6c0a9d183a838d" />
+		<rom name="fb023.u7" offset="0x600000" size="0x100000" crc="132794bd" sha1="bcc73c3183c59a4b66f79d04774773b8a9239501" />
+		</dataarea>
+		<dataarea name="oki1" size="0x100000">
+		<rom name="fb001e.u43" offset="0x0" size="0x80000" crc="f524aaa1" sha1="006a886f9df2e57c51b61c6cea70a6574fc20304" />
+		<rom name="fb000e.u42" offset="0x80000" size="0x80000" crc="969f1465" sha1="4f56d1ad341b08f4db41b7ab2498740612ff7c3d" />
+		</dataarea>
+		<dataarea name="oki2" size="0x200000">
+		<rom name="fb-002.u45" offset="0x0" size="0x100000" crc="010acc17" sha1="2dc0897c7778eacf6bce12ff0adbadb307ea6c17" />
+		<rom name="fb-003.u44" offset="0x100000" size="0x100000" crc="0aea4ac5" sha1="8f3b30e505b0ba51c140a0a2c071680d4fa05db9" />
+		</dataarea>
+		<dataarea name="view2_0" size="0x400000">
+		<rom name="fb010.u65" offset="0x0" size="0x100000" crc="296ffd92" sha1="183a28e4594c428deb4726ed22d5166592b94b60" />
+		<rom name="fb011.u66" offset="0x100000" size="0x80000" crc="500a0367" sha1="6dc5190f81b21f59ee56a3b2332c8d86d6599782" />
+		</dataarea>
+	</part>
+</software>

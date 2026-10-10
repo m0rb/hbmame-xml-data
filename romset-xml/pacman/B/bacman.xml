@@ -1,0 +1,17 @@
+<software name="bacman" cloneof="puckman">
+	<description>Bac-man (2015-08-22)</description>
+	<year>2015</year>
+	<publisher>George Phillips</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="bacman.6e" offset="0x0" size="0x1000" crc="12f22a11" sha1="212f72ce9e8b999f00a0a8a31683e723b82c626a" />
+		<rom name="bacman.6f" offset="0x1000" size="0x1000" crc="6ed094e0" sha1="b8a9df2526275a993c9e5f67b2dc72a45c882f60" />
+		<rom name="bacman.6h" offset="0x2000" size="0x1000" crc="373f007b" sha1="a2b5067db2a19129fed16511ea18d2e7e49092e4" />
+		<rom name="bacman.6j" offset="0x3000" size="0x1000" crc="e060d3e2" sha1="43b30a23c3b9b4370038bdfff8fe7ab0686b6a28" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacman.5e" offset="0x0" size="0x1000" crc="0c944964" sha1="06ef227747a440831c9a3a613b76693d52a2f0a9" />
+		<rom name="pacman.5f" offset="0x1000" size="0x1000" crc="958fedf9" sha1="4a937ac02216ea8c96477d4a15522070507fb599" />
+		</dataarea>
+	</part>
+</software>

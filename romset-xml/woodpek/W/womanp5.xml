@@ -1,0 +1,19 @@
+<software name="womanp5" cloneof="mspacman">
+	<description>Otto Project P5</description>
+	<year>2014</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="womanp5.1" offset="0x0" size="0x1000" crc="0afeef14" sha1="39d7d8ce9ba3c166c0bef7f46e71520d50e00c32" />
+		<rom name="superp4g.2" offset="0x1000" size="0x1000" crc="e6886710" sha1="63207a2487a334e8de51ccede03b6d50e84e071a" />
+		<rom name="womanp5.3" offset="0x2000" size="0x1000" crc="835ebcc2" sha1="951ec2e88f4d47b0dcdcac28f964860ea21a5726" />
+		<rom name="womanp5.4" offset="0x3000" size="0x1000" crc="b85c5572" sha1="9eb397b24a783292d9a5ce9b866b19e9fdf2d1f8" />
+		<rom name="womanp5.5" offset="0x8000" size="0x1000" crc="ce7459ac" sha1="16df266e465d6673448f85e8834c4f0031ede671" />
+		<rom name="boot6" offset="0x9000" size="0x1000" crc="368cb165" sha1="387010a0c76319a1eab61b54c9bcb5c66c4b67a1" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="womanp5.5e" offset="0x0" size="0x1000" crc="83613632" sha1="1a47ef4d336baa3ba63cf0aceededec4bea35aaa" />
+		<rom name="womanp5.5f" offset="0x1000" size="0x1000" crc="f2c4195e" sha1="54446e6d1b74623410b67d303c3ab8eaee69f392" />
+		</dataarea>
+	</part>
+</software>

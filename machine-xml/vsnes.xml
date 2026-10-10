@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="vsnes" description="Vsnes cartridges">
+<software name="drluigi" cloneof="drmario">
+	<description>Dr. Luigi</description>
+	<year>2019</year>
+	<publisher>Szemigi</publisher>
+	<part name="cart">
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="dl-u3chr" offset="0x0" size="0x8000" crc="07f8d222" sha1="f6a0e418ab6da29eda25d0b871df072c16ded4fe" />
+		</dataarea>
+		<dataarea name="ppu1:palette" size="0xc0">
+		<rom name="dl_rp2c04-0003.pal" offset="0x0" size="0xc0" crc="c40eea5f" sha1="2b4a03f709441e8d4344d6e39060b8d9a376074f" />
+		</dataarea>
+		<dataarea name="prg" size="0x10000">
+		<rom name="dl-uiprg" offset="0x0" size="0x10000" crc="bcef3c87" sha1="797f09e3c7b07a1b0828d44b0302a81a9d62a0e8" />
+		</dataarea>
+	</part>
+</software>
+<software name="drmario01" cloneof="drmario">
+	<description>Vs. Dr. Mario (Chinese, 2002-10)</description>
+	<year>2002</year>
+	<publisher>liujunusa</publisher>
+	<part name="cart">
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="dm_s01-u3chr" offset="0x0" size="0x8000" crc="ac94c651" sha1="9ac7c97501d915c6f0041de3be421423f5de0448" />
+		</dataarea>
+		<dataarea name="prg" size="0x10000">
+		<rom name="dm_s01-uiprg" offset="0x0" size="0x10000" crc="a0c56a2a" sha1="0aeb5ff1f8c6308f723e88003ea6282914d22121" />
+		</dataarea>
+	</part>
+</software>
+<software name="frombelow" cloneof="suprmrio">
+	<description>Vs. From Below (beta 0.8.0, 2020-12-21)</description>
+	<year>2020</year>
+	<publisher>Matt Hughson</publisher>
+	<part name="cart">
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="from_below_vs_2020_12_21_v_0_8_0.nes.chr.2b.bin" offset="0x0" size="0x2000" crc="7f2e1b5b" sha1="949af8437d6789c1b1e60a242bc1e1da2d07b468" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="from_below_vs_2020_12_21_v_0_8_0.nes.prg.1a.bin" offset="0x6000" size="0x2000" crc="37445c70" sha1="494cb76e5d79a86da1f584d7cd71790f657de82c" />
+		<rom name="from_below_vs_2020_12_21_v_0_8_0.nes.prg.1b.bin" offset="0x4000" size="0x2000" crc="d991120e" sha1="bbcb7c069d90124f61b0aecece438aed5f50996d" />
+		<rom name="from_below_vs_2020_12_21_v_0_8_0.nes.prg.1c.bin" offset="0x2000" size="0x2000" crc="345ae82e" sha1="531ceb32bed3e641aef5c875c9cca540944e77cc" />
+		<rom name="from_below_vs_2020_12_21_v_0_8_0.nes.prg.1d.bin" offset="0x0" size="0x2000" crc="1aebf43b" sha1="45e5aa6a8a7df503c1488acf6bd406aed17075af" />
+		</dataarea>
+	</part>
+</software>
+<software name="mrio2002" cloneof="suprmrio">
+	<description>Vs. Super Mario Bros. 2002</description>
+	<year>2002</year>
+	<publisher>Nintendo</publisher>
+	<part name="cart">
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="mrio2002.2b" offset="0x0" size="0x2000" crc="1feda640" sha1="f26be31f43dacdaa9d8bffa75f4fcd9d8d04953a" />
+		<rom name="mds-sm4-4__2aor8a_e.2a or 8a" offset="0x2000" size="0x2000" crc="15506b86" sha1="69ecf7a3cc8bf719c1581ec7c0d68798817d416f" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="mds-sm4-4__1dor6d_e.1d or 6d" offset="0x0" size="0x2000" crc="be4d5436" sha1="08162a7c987f1939d09bebdb676f596c86abf465" />
+		<rom name="mds-sm4.1c" offset="0x2000" size="0x2000" crc="0011fc5a" sha1="5c2c49938a12affc03e64e5bdab307998be20020" />
+		<rom name="mds-sm4-4__1bor6b_e.1b or 6b" offset="0x4000" size="0x2000" crc="b1b87893" sha1="8563ceaca664cf4495ef1020c07179ca7e4af9f3" />
+		<rom name="mds-sm4-4__1aor6a_e.1a or 6a" offset="0x6000" size="0x2000" crc="1abf053c" sha1="f17db88ce0c9bf1ed88dc16b9650f11d10835cec" />
+		</dataarea>
+	</part>
+</software>
+<software name="suprsktr" cloneof="suprmrio">
+	<description>Vs. Super Skater Bros.</description>
+	<year>1986</year>
+	<publisher>Nintendo</publisher>
+	<part name="cart">
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="suprsktr.2b" offset="0x0" size="0x2000" crc="f3980303" sha1="b9a25c906d1861c89e2e40e878a34d318daf6619" />
+		<rom name="mds-sm4-4__2aor8a_e.2a or 8a" offset="0x2000" size="0x2000" crc="15506b86" sha1="69ecf7a3cc8bf719c1581ec7c0d68798817d416f" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="mds-sm4-4__1dor6d_e.1d or 6d" offset="0x0" size="0x2000" crc="be4d5436" sha1="08162a7c987f1939d09bebdb676f596c86abf465" />
+		<rom name="mds-sm4.1c" offset="0x2000" size="0x2000" crc="0011fc5a" sha1="5c2c49938a12affc03e64e5bdab307998be20020" />
+		<rom name="mds-sm4-4__1bor6b_e.1b or 6b" offset="0x4000" size="0x2000" crc="b1b87893" sha1="8563ceaca664cf4495ef1020c07179ca7e4af9f3" />
+		<rom name="mds-sm4-4__1aor6a_e.1a or 6a" offset="0x6000" size="0x2000" crc="1abf053c" sha1="f17db88ce0c9bf1ed88dc16b9650f11d10835cec" />
+		</dataarea>
+	</part>
+</software>
+<software name="vs_urban">
+	<description>Vs. Urban Champion</description>
+	<year>2020</year>
+	<publisher>Nintendo</publisher>
+	<part name="cart">
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="urb.2b" offset="0x0" size="0x2000" crc="ddb9a263" sha1="7309276e29c0073bc49ad9dc77bb6cacbca7270a" />
+		<rom name="urb.2a" offset="0x2000" size="0x2000" crc="329b8b6d" sha1="ae11f8d84327fcde0d80e2cc951be9648d4e4b10" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="urb.1a" offset="0x6000" size="0x2000" crc="7ccff543" sha1="9f369b2b55482019d6f4d0c19ede54a60788e4a3" />
+		<rom name="urb.1b" offset="0x4000" size="0x2000" crc="82b79f28" sha1="5ccda9a889924e60f329caaa927647347ccfb7e7" />
+		<rom name="urb.1c" offset="0x2000" size="0x2000" crc="de14ac45" sha1="8a8f4ebbbd7584dcfaf291a6acbca9435b599a17" />
+		<rom name="urb.1d" offset="0x0" size="0x2000" crc="b31a2c0c" sha1="4fb747b71bc308789f0d6b17d2e6a1a833102a36" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

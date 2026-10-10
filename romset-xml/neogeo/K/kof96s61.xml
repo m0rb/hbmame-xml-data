@@ -1,0 +1,20 @@
+<software name="kof96s61" cloneof="kof96">
+	<description>Kof&#x27;96 (Chinese Edition Rev.3)</description>
+	<year>1996</year>
+	<publisher>Guangzhou Game Team</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="214s61.p1" offset="0x0" size="0x800000" crc="51990a7f" sha1="eef003e5a7e43d670fe916c983c161d213337627" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xa00000">
+		<rom name="214.v1" offset="0x0" size="0x400000" crc="63f7b045" sha1="1353715f1a8476dca6f8031d9e7a401eacab8159" />
+		<rom name="214.v2" offset="0x400000" size="0x400000" crc="25929059" sha1="6a721c4cb8f8dc772774023877d4a9f50d5a9e31" />
+		<rom name="214.v3" offset="0x800000" size="0x200000" crc="92a2257d" sha1="5064aec78fa0d104e5dd5869b95382aa170214ee" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="214s61.c1" offset="0x0" size="0x1800000" crc="a89789ba" sha1="25632122b747eb97a4ffb94d8e0cd7c20940d118" />
+		<rom loadflag="load16_byte" name="214s61.c2" offset="0x1" size="0x1800000" crc="e4a5e70d" sha1="4f4691d386cfd63015812475bc58b1e8ae4b23ff" />
+		</dataarea>
+	</part>
+</software>

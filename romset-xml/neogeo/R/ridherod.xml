@@ -1,0 +1,32 @@
+<software name="ridherod" cloneof="ridhero">
+	<description>Riding Hero (MGD2)</description>
+	<year>1990</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n006001a.038" offset="0x1" size="0x40000" crc="dabfac95" sha1="234750f08954a94b2846f7ab79b67d6db2b67f6e" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="006.v11" offset="0x0" size="0x80000" crc="cdf74a42" sha1="a17106cc3f9e5c5d52b4def861c0545a98151da2" />
+		<rom name="006.v12" offset="0x80000" size="0x80000" crc="e2fd2371" sha1="cc95297bee7ffbdcb24ac4daeb5307cb39a52067" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x200000">
+		<rom name="006.v21" offset="0x0" size="0x80000" crc="94092bce" sha1="1a2906271fe6bc396898a756153629a5862930eb" />
+		<rom name="006.v22" offset="0x80000" size="0x80000" crc="4e2cd7c3" sha1="72fb215a4f208a22a764e801186d1643d3d840ca" />
+		<rom name="006.v23" offset="0x100000" size="0x80000" crc="069c71ed" sha1="f450e9f60cd6ef846dbc77993159ec6157fb64e7" />
+		<rom name="006.v24" offset="0x180000" size="0x80000" crc="89fbb825" sha1="656a97c6a8832dab3a5e1577d9cd257b561cc356" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load32_byte" name="n006001a.538" offset="0x0" size="0x40000" crc="24096241" sha1="60a3dd2400be7208c7a471a813621a778f083240" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n006001a.638" offset="0x1" size="0x40000" crc="df6a5b00" sha1="ffd55c36847b0caa7b94b102ef3409d89e0d66c7" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n006001a.53c" offset="0x100000" size="0x40000" crc="7026a3a2" sha1="55f70d2604832125c06742d75ce8ccf5c047d580" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n006001a.63c" offset="0x100001" size="0x40000" crc="15220d51" sha1="72ad9e0381f84a33219255d42223bca01a23927c" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,29 @@
+<software name="cleopatr02" cloneof="cleopatr">
+	<description>Cleopatra Fortune (Unknown Hack)</description>
+	<year>1996</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="e28-10.bin" offset="0x0" size="0x80000" crc="013fbc39" sha1="d36ac44609b88e1da35c98dda381042e0112ea00" />
+		<rom loadflag="load32_byte" name="e28-09.bin" offset="0x1" size="0x80000" crc="1c48a1f9" sha1="791d321c03073cdd0269b970f926897446d2a6fb" />
+		<rom loadflag="load32_byte" name="e28-08.bin" offset="0x2" size="0x80000" crc="7564f199" sha1="ec4b19edb0660ad478f6c0ec27d701368696a2e4" />
+		<rom loadflag="load32_byte" name="e28-wrd.bin" offset="0x3" size="0x80000" crc="544dd2e9" sha1="11ad1ce4202937108f23c44de2244da570452ce1" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="e28-02.bin" offset="0x0" size="0x80000" crc="b20d47cb" sha1="6888e5564688840fed1c123ab38467066cd59c7f" />
+		<rom loadflag="load16_byte" name="e28-01.bin" offset="0x1" size="0x80000" crc="4440e659" sha1="71dece81bac8d638473c6531fed5c32798096af9" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x140000">
+		<rom loadflag="load16_byte" name="e28-11.bin" offset="0x100000" size="0x20000" crc="01a06950" sha1="94d22cd839f9027e9d45264c366e0cb5d698e0b6" />
+		<rom loadflag="load16_byte" name="e28-12.bin" offset="0x100001" size="0x20000" crc="dc19260f" sha1="fa0ca03a236326652e4f9898d07cd837c1507a9d" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x400000">
+		<rom loadflag="load16_byte" name="e28-03.bin" offset="0x0" size="0x200000" crc="15c7989d" sha1="7cc63d93e5c1f9f52f889e973bbefd5e6f7ce807" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x100000">
+		<rom name="e28-04.bin" offset="0x0" size="0x100000" crc="57aef029" sha1="5c07209015d4749d1ffb3e9c1a890e6cfeec8cb0" />
+		</dataarea>
+	</part>
+</software>

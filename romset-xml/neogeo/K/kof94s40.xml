@@ -1,0 +1,27 @@
+<software name="kof94s40" cloneof="kof94">
+	<description>Kof&#x27;94 (Team Edit Edition v1.4.2)</description>
+	<year>2024</year>
+	<publisher>Matt Greer</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="055s40.p1" offset="0x100000" size="0x100000" crc="e4d3e394" sha1="c6f7a5c9ac97b49c627e949a51e952c7d741c3c0" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x600000">
+		<rom name="055.v1" offset="0x0" size="0x200000" crc="8889596d" sha1="c9ce713b720511438dbd3fe3bcc7c246f475c6a2" />
+		<rom name="055.v2" offset="0x200000" size="0x200000" crc="25022b27" sha1="2b040a831c3c92ac6e4719de38009a0d55b64f6b" />
+		<rom name="055.v3" offset="0x400000" size="0x200000" crc="83cf32c0" sha1="34a31a37eb10945b5169e96321bcea06eec33a00" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="055s40.c1" offset="0x0" size="0x200000" crc="daf4f5d5" sha1="72be8df4d575a1b0962f0c4d586c4a7ae027820f" />
+		<rom loadflag="load16_byte" name="055s40.c2" offset="0x1" size="0x200000" crc="849bdfba" sha1="4a7bdbe9c542a086567a0165e68c8d8c1474ce68" />
+		<rom loadflag="load16_byte" name="055.c3" offset="0x400000" size="0x200000" crc="54f66254" sha1="c594384bcd8b03beb8c595591505fecc44b185ac" />
+		<rom loadflag="load16_byte" name="055.c4" offset="0x400001" size="0x200000" crc="0b01765f" sha1="ec1fdcc944611408367bf5023d4ebe7edd9dfa88" />
+		<rom loadflag="load16_byte" name="055.c5" offset="0x800000" size="0x200000" crc="ee759363" sha1="8a5621c1b1f8267b9b9b6a14ab4944de542e1945" />
+		<rom loadflag="load16_byte" name="055.c6" offset="0x800001" size="0x200000" crc="498da52c" sha1="1e6e6202ee053a5261db889177ce3a087e078bda" />
+		<rom loadflag="load16_byte" name="055s40.c7" offset="0xc00000" size="0x200000" crc="78bf6367" sha1="223e97637131855faf1c6819057229ed937089ab" />
+		<rom loadflag="load16_byte" name="055s40.c8" offset="0xc00001" size="0x200000" crc="7f680a75" sha1="adc547d23d9f11412871b463202908120bb5bccf" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,24 @@
+<software name="kodr01" cloneof="kod">
+	<description>The King of Dragons (910711ETC, Bootleg)</description>
+	<year>2002</year>
+	<publisher>Wangy2</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c16r01.p1" offset="0x0" size="0x80000" crc="daf89cfb" sha1="de0944884d0e64c6b0410294d25308201508afbe" />
+		<rom loadflag="load16_word_swap" name="c16r01.p5" offset="0x80000" size="0x80000" crc="c83e19d8" sha1="8c342818a1c5337ad4b259700e184972f821aca4" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c16.m1" offset="0x0" size="0x8000" crc="bac6ec26" sha1="6cbb6d55660150ae3f5270e023328275ee1bbf50" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="kodr01.key" offset="0x0" size="0x80" crc="9d65fe9c" sha1="9671ee388d59a2d12cf38712620f5f598e93abfc" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c16.v1" offset="0x0" size="0x20000" crc="4c63181d" sha1="270f27534a95cb0be3ff3f9ca71c502320d8090b" />
+		<rom name="c16.v2" offset="0x20000" size="0x20000" crc="92941b80" sha1="5fa7c2793e6febee54a83042d118ddd4f2b7d127" />
+		</dataarea>
+	</part>
+</software>

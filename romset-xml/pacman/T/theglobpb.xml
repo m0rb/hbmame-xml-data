@@ -1,0 +1,27 @@
+<software name="theglobpb">
+	<description>Super Glob (English conversion of sprglbpg)</description>
+	<year>1999</year>
+	<publisher>chaneman</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="theglobpb.8" offset="0x0" size="0x800" crc="3fb1ab3d" sha1="29b8600c86a5161c90e1797cfec86875c948cf5d" />
+		<rom name="theglobpb.4" offset="0x800" size="0x800" crc="554a0461" sha1="149a0e317d91465c09fb3406073c331cc4e4aa95" />
+		<rom name="theglobpb.7" offset="0x1000" size="0x800" crc="07a2faf7" sha1="7f1e95ae94fc404b65ef4465e7f147dbd3093ffb" />
+		<rom name="theglobpb.3" offset="0x1800" size="0x800" crc="b097cb29" sha1="bfe750dffebcf6bc1b0acf5a4147fb445559b926" />
+		<rom name="theglobpb.6" offset="0x2000" size="0x800" crc="b459ba66" sha1="563259523a4e525eeb01c733fb3c192897725a45" />
+		<rom name="theglobpb.2" offset="0x2800" size="0x800" crc="d8ef9f98" sha1="caaefdda74d7415be28abacc192b57a87a72baf7" />
+		<rom name="theglobpb.5" offset="0x3000" size="0x800" crc="7204e11d" sha1="ca680a835edad78859b0b3bf54360b1963795850" />
+		<rom name="theglobpb.1" offset="0x3800" size="0x800" crc="edac5b91" sha1="8a6f29442370cca8114e7941a36747aa96e4f1bc" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="theglobpb.9" offset="0x0" size="0x800" crc="36408c76" sha1="f5bb18e38de57adc2aed6211048d9f0ee0e58df7" />
+		<rom name="theglobpb.11" offset="0x800" size="0x800" crc="b8ba069c" sha1="f8d8e40afd8214a6d951af8de2761703b0651f79" />
+		<rom name="theglobpb.10" offset="0x1000" size="0x800" crc="e0478b4e" sha1="9697c7fd92752d052aea4c46292b1b7cae28f606" />
+		<rom name="theglobpb.12" offset="0x1800" size="0x800" crc="7c4456a4" sha1="74f55ae921cdf8f1f7a866d75a63244187426f17" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="ic78.prm" offset="0x0" size="0x20" crc="1f617527" sha1="448845cab63800a05fcb106897503d994377f78f" />
+		<rom name="ic88.prm" offset="0x20" size="0x100" crc="28faa769" sha1="7588889f3102d4e0ca7918f536556209b2490ea1" />
+		</dataarea>
+	</part>
+</software>

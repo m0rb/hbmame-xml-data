@@ -1,0 +1,18 @@
+<software name="halozero">
+	<description>Halo Zero demo</description>
+	<year>2025</year>
+	<publisher>Earok</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="518.p1" offset="0x0" size="0x40000" crc="472205ad" sha1="9514c7975826b5f12607cc261e05904cb49007f3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x20000">
+		<rom name="518.v1" offset="0x0" size="0x20000" crc="293cf59b" sha1="c035d433050007f3363c5037e8599c413bc8f4f5" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="518.c1" offset="0x0" size="0x80000" crc="4749a9b0" sha1="4607ac7cd857783fef1f26960f42265e869d2d00" />
+		<rom loadflag="load16_byte" name="518.c2" offset="0x1" size="0x80000" crc="aced4adc" sha1="c06643c62042faa006623c9b5322670248a1bf04" />
+		</dataarea>
+	</part>
+</software>

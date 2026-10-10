@@ -1,0 +1,20 @@
+<software name="yoyoshkn">
+	<description>Yo-Yo Shuriken</description>
+	<year>2023</year>
+	<publisher>Dr Ludos</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="307.p1" offset="0x0" size="0x100000" crc="8a36bd7d" sha1="5a1af3f1de96cadd9680996d3b59471dfe6768e6" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x600000">
+		<rom name="307.v1" offset="0x0" size="0x200000" crc="79e1b73f" sha1="a905b24f973874199803d95beff786a81cb581ba" />
+		<rom name="307.v2" offset="0x200000" size="0x200000" crc="4c464d41" sha1="15ae20f3e26e7458ccfc3ad11ea99af754bf696d" />
+		<rom name="307.v3" offset="0x400000" size="0x200000" crc="0fbe1f09" sha1="952045f146aad3e593cc568fbebf1c4f4cdaddf3" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="307.c1" offset="0x0" size="0x200000" crc="fde9b178" sha1="21060a2695e3f1cd046322ebaacde9dbb3fb5436" />
+		<rom loadflag="load16_byte" name="307.c2" offset="0x1" size="0x200000" crc="780c2045" sha1="5551c7f3010da658ac31c3478820a59eab71f5f4" />
+		</dataarea>
+	</part>
+</software>

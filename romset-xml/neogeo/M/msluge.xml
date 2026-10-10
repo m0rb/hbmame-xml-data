@@ -1,0 +1,26 @@
+<software name="msluge" cloneof="mslug">
+	<description>Metal Slug - Super Vehicle-001 (Earlier)</description>
+	<year>1996</year>
+	<publisher>Nazca</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="201.p1" offset="0x100000" size="0x100000" crc="08d8daa5" sha1="b888993dbb7e9f0a28a01d7d2e1da00ef9cf6f38" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="201.v1" offset="0x0" size="0x400000" crc="23d22ed1" sha1="cd076928468ad6bcc5f19f88cb843ecb5e660681" />
+		<rom name="201.v2" offset="0x400000" size="0x400000" crc="472cf9db" sha1="5f79ea9286d22ed208128f9c31ca75552ce08b57" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="201e.c1" offset="0x400000" size="0x200000" crc="d00bd152" sha1="eb688dba2233bece1c3ba120ac8eb342f37fba37" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="201e.c2" offset="0x400001" size="0x200000" crc="ddff1dea" sha1="e6ac8950d8ad8498270097a248c4b49876804197" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		<rom loadflag="load16_byte" name="201e.c3" offset="0xc00000" size="0x200000" crc="d3d5f9e5" sha1="7d259314c2198ee81a380d76728c3c1ac2c8b528" />
+		<rom loadflag="continue" offset="0x800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="201e.c4" offset="0xc00001" size="0x200000" crc="5ac1d497" sha1="313249ea47b3553974cde1c4c36f1ff3adeb07d1" />
+		<rom loadflag="continue" offset="0x800001" size="0x200000" />
+		</dataarea>
+	</part>
+</software>

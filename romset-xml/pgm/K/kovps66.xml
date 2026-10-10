@@ -1,0 +1,28 @@
+<software name="kovps66" cloneof="kovplus">
+	<description>Knights of Valour Plus (The Legend of Tu Ya Plus, 2020-06-28)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_ph374.119" offset="0x100000" size="0x400000" crc="0701e666" sha1="8d3b6410d8b22cf9a3f0fda573e9f8ae6a8e1f46" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u3" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0600_ph155.rom" offset="0x180000" size="0x800000" crc="954551ff" sha1="97d1fc65334c9aec093275a45fedb8dcb8a3cc34" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="pgm_a0600.u2" offset="0x0" size="0x800000" crc="d8167834" sha1="fa55a99629d03b2ea253392352f70d2c8639a991" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_ph374.rom" offset="0x1000000" size="0x800000" crc="db9b1215" sha1="3584265564b95456baa4698b2a95bb72444a5268" />
+		<rom name="pgm_a0603.u9" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b0600.u5" offset="0x0" size="0x800000" crc="7d3cd059" sha1="00cf994b63337e0e4ebe96453daf45f24192af1c" />
+		<rom name="b0601_ph374.rom" offset="0x800000" size="0x400000" crc="3ed639f8" sha1="9c420ac3ddf2860037607acd1cd5babc4ef608cd" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		</dataarea>
+	</part>
+</software>

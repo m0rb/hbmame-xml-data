@@ -1,0 +1,20 @@
+<software name="vectiped">
+	<description>Vectipede</description>
+	<year>1998</year>
+	<publisher>The Dog</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="136001-307.d1" offset="0x2000" size="0x800" crc="5ab0d9de" sha1="8ea6e3304202831aabaf31dbd0f970a7b3bfe421" />
+		<rom name="136001-308.e1" offset="0x2800" size="0x800" crc="4c07fd3e" sha1="af4fdbf32c23b1864819d620a874e7f205da3cdb" />
+		<rom name="136001-309.fh1" offset="0x3000" size="0x800" crc="ff69b424" sha1="689fa560d40a384dcbcad7c8095bc12e91875580" />
+		<rom name="136001-310.j1" offset="0x3800" size="0x800" crc="44e40fa4" sha1="c557db83876afc8ab52047ab1a3c3bfef34d6351" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="vectiped.211" offset="0x0" size="0x800" crc="33eccc59" sha1="ab456577e4a4392abb35831a20e30e6314502367" />
+		<rom name="vectiped.212" offset="0x800" size="0x800" crc="bc71790c" sha1="b5a69ee0cb5861a0b328f478a49d453716a8703d" />
+		</dataarea>
+		<dataarea name="proms" size="0x100">
+		<rom name="136001-213.p4" offset="0x0" size="0x100" crc="6fa3093a" sha1="2b7aeca74c1ae4156bf1878453a047330f96f0a8" />
+		</dataarea>
+	</part>
+</software>

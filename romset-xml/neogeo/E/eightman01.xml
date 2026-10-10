@@ -1,0 +1,21 @@
+<software name="eightman01" cloneof="eightman">
+	<description>Eight Man (Enhanced Version, 2009-08-22)</description>
+	<year>1991</year>
+	<publisher>Blackheart</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="025s01.p1" offset="0x0" size="0x80000" crc="6356e4b9" sha1="c02fe3fe7c59592c464cba05183fe98b1ac13f54" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="025.v1" offset="0x0" size="0x100000" crc="4558558a" sha1="a4b277703ed67225c652be0d618daeca65a27b88" />
+		<rom name="025.v2" offset="0x100000" size="0x100000" crc="c5e052e9" sha1="fa1119c90ce4c706a6aa0c17d7bc06aa3068d9b2" />
+		</dataarea>
+		<dataarea name="sprites" size="0x300000">
+		<rom loadflag="load16_byte" name="025.c1" offset="0x0" size="0x100000" crc="555e16a4" sha1="1c96f3d2fd0991680fbf627a6cdd26ad2cd60319" />
+		<rom loadflag="load16_byte" name="025.c2" offset="0x1" size="0x100000" crc="e1ee51c3" sha1="da8d074bb4e923ed7b8a154fd31b42f2d65b8e96" />
+		<rom loadflag="load16_byte" name="025.c3" offset="0x200000" size="0x80000" crc="0923d5b0" sha1="ab72ba1e3ebf56dd356f9ad181f986b1360a1089" />
+		<rom loadflag="load16_byte" name="025.c4" offset="0x200001" size="0x80000" crc="e3eca67b" sha1="88154cbc1a261c2f425430119ebc08a30adc9675" />
+		</dataarea>
+	</part>
+</software>

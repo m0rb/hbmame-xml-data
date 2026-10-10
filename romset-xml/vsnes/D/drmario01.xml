@@ -1,0 +1,13 @@
+<software name="drmario01" cloneof="drmario">
+	<description>Vs. Dr. Mario (Chinese, 2002-10)</description>
+	<year>2002</year>
+	<publisher>liujunusa</publisher>
+	<part name="cart">
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="dm_s01-u3chr" offset="0x0" size="0x8000" crc="ac94c651" sha1="9ac7c97501d915c6f0041de3be421423f5de0448" />
+		</dataarea>
+		<dataarea name="prg" size="0x10000">
+		<rom name="dm_s01-uiprg" offset="0x0" size="0x10000" crc="a0c56a2a" sha1="0aeb5ff1f8c6308f723e88003ea6282914d22121" />
+		</dataarea>
+	</part>
+</software>

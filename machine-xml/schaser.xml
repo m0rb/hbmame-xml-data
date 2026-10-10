@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="schaser" description="Schaser cartridges">
+<software name="schaser">
+	<description>Space Chaser (set 1)</description>
+	<year>1979</year>
+	<publisher>Taito</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="rt13.bin" offset="0x0" size="0x400" crc="0dfbde68" sha1="7367b138ad8448aba9222fed632a892df65cecbd" />
+		<rom name="rt14.bin" offset="0x400" size="0x400" crc="5a508a25" sha1="c681d0bbf49317e79b596fb094e66b8912f0e409" />
+		<rom name="rt15.bin" offset="0x800" size="0x400" crc="2ac43a93" sha1="d364f0940681a888c0147e06bcb01f8a0d4a24c8" />
+		<rom name="rt16.bin" offset="0xc00" size="0x400" crc="f5583afc" sha1="5e8edb43ccb138fd47ac8f3da1af79b4444a4a82" />
+		<rom name="rt17.bin" offset="0x1000" size="0x400" crc="51cf1155" sha1="fd8c82d951602fd7e0ada65fc7cdee9f277c70db" />
+		<rom name="rt18.bin" offset="0x1400" size="0x400" crc="3f0fc73a" sha1="b801c3f1e8e6e41c564432db7c5891f6b27293b2" />
+		<rom name="rt19.bin" offset="0x1800" size="0x400" crc="b66ea369" sha1="d277f572f9c7c4301518546cf60671a6539326ee" />
+		<rom name="rt20.bin" offset="0x1c00" size="0x400" crc="e3a7466a" sha1="2378970f38b0cec066ef853a6540500e468e4ab4" />
+		<rom name="rt21.bin" offset="0x4000" size="0x400" crc="b368ac98" sha1="6860efe0496955db67611183be0efecda92c9c98" />
+		<rom name="rt22.bin" offset="0x4400" size="0x400" crc="6e060dfb" sha1="614e2ecf676c3ea2f9ea869125cfffef2f713684" />
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		<rom name="rt06.ic2" offset="0x0" size="0x400" crc="950cf973" sha1="d22df09b325835a0057ccd0d54f827b374254ac6" />
+		</dataarea>
+	</part>
+</software>
+<software name="schasera">
+	<description>Space Chaser (set 2)</description>
+	<year>1979</year>
+	<publisher>Taito</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="rt13.bin" offset="0x0" size="0x800" crc="7b0bfeed" sha1="832fe90430653d03cd0e7ea1b046524a2ca292ea" />
+		<rom name="rt15.bin" offset="0x800" size="0x800" crc="825fc8ac" sha1="176ff0f4d0cd55be30efb184bd5bef62b92d0333" />
+		<rom name="rt17.bin" offset="0x1000" size="0x800" crc="de9d3f85" sha1="13a71fdd889023cfc65ed2c0a65236884b79b1f0" />
+		<rom name="rt19.bin" offset="0x1800" size="0x800" crc="c0adab87" sha1="4bb8e4ccfb5eaa052584555bfa03fecf19ab8a29" />
+		<rom name="rt21.bin" offset="0x4000" size="0x800" crc="a3b31070" sha1="af0108e1446a2be66cfc00d0b837fa91ab882441" />
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		<rom name="rt06.ic2" offset="0x0" size="0x400" crc="950cf973" sha1="d22df09b325835a0057ccd0d54f827b374254ac6" />
+		</dataarea>
+	</part>
+</software>
+<software name="schaserb">
+	<description>Space Chaser (set 3)</description>
+	<year>1979</year>
+	<publisher>Taito</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="rt33.bin" offset="0x0" size="0x800" crc="eec6b032" sha1="da14fcd862d6b80531cd3b858034bc5a120ed8ae" />
+		<rom name="rt34.bin" offset="0x800" size="0x800" crc="13a73701" sha1="48ddbc10dec458070274c9fabbb0c420e2a07c96" />
+		<rom name="rt35.bin" offset="0x1000" size="0x800" crc="de9d3f85" sha1="13a71fdd889023cfc65ed2c0a65236884b79b1f0" />
+		<rom name="rt36.bin" offset="0x1800" size="0x800" crc="521ec25e" sha1="ce53e882c11a4c36f3edc3b389d3f5ad0e0ec151" />
+		<rom name="rt37.bin" offset="0x4000" size="0x800" crc="44f65f19" sha1="ee97d7987f54c9c26f5a20c72bdae04c46f94dc4" />
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		<rom name="rt06.ic2" offset="0x0" size="0x400" crc="950cf973" sha1="d22df09b325835a0057ccd0d54f827b374254ac6" />
+		</dataarea>
+	</part>
+</software>
+<software name="schaserc">
+	<description>Space Chaser (set 4)</description>
+	<year>1979</year>
+	<publisher>Taito</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="45.ic30" offset="0x0" size="0x400" crc="ca90619c" sha1="d2f9b29290d720c57f867d1dc193e877248e6afd" />
+		<rom name="46.ic36" offset="0x400" size="0x400" crc="6a016895" sha1="6984d9d002e5d8fa14bdaf16f6ba9ca02136372c" />
+		<rom name="rt15.bin" offset="0x800" size="0x400" crc="2ac43a93" sha1="d364f0940681a888c0147e06bcb01f8a0d4a24c8" />
+		<rom name="rt16.bin" offset="0xc00" size="0x400" crc="f5583afc" sha1="5e8edb43ccb138fd47ac8f3da1af79b4444a4a82" />
+		<rom name="rt17.bin" offset="0x1000" size="0x400" crc="51cf1155" sha1="fd8c82d951602fd7e0ada65fc7cdee9f277c70db" />
+		<rom name="rt18.bin" offset="0x1400" size="0x400" crc="3f0fc73a" sha1="b801c3f1e8e6e41c564432db7c5891f6b27293b2" />
+		<rom name="rt19.bin" offset="0x1800" size="0x400" crc="b66ea369" sha1="d277f572f9c7c4301518546cf60671a6539326ee" />
+		<rom name="47.ic39" offset="0x1c00" size="0x400" crc="d476e182" sha1="87428bf0131f8bf39d506b8df424af94cd944d82" />
+		<rom name="rt21.bin" offset="0x4000" size="0x400" crc="b368ac98" sha1="6860efe0496955db67611183be0efecda92c9c98" />
+		<rom name="rt22.bin" offset="0x4400" size="0x400" crc="6e060dfb" sha1="614e2ecf676c3ea2f9ea869125cfffef2f713684" />
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		<rom name="rt06.ic2" offset="0x0" size="0x400" crc="950cf973" sha1="d22df09b325835a0057ccd0d54f827b374254ac6" />
+		</dataarea>
+	</part>
+</software>
+<software name="schaserm">
+	<description>Space Chaser (Model Racing bootleg)</description>
+	<year>1979</year>
+	<publisher>Model Racing</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="mr26.71" offset="0x0" size="0x800" crc="4e547879" sha1="464fab35373d6bd6218474e7f5109425376f1db2" />
+		<rom name="rt08.70" offset="0x800" size="0x800" crc="825fc8ac" sha1="176ff0f4d0cd55be30efb184bd5bef62b92d0333" />
+		<rom name="rt09.69" offset="0x1000" size="0x800" crc="de9d3f85" sha1="13a71fdd889023cfc65ed2c0a65236884b79b1f0" />
+		<rom name="mr27.62" offset="0x1800" size="0x800" crc="069ec108" sha1="b12cd288d7e42002d01290f0572f9074adf2cdca" />
+		<rom name="rt11.61" offset="0x4000" size="0x800" crc="17a7ef7a" sha1="1a7b3f9393dceddcd1e220cadbff7e619594f884" />
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		<rom name="rt06.ic2" offset="0x0" size="0x400" crc="950cf973" sha1="d22df09b325835a0057ccd0d54f827b374254ac6" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

@@ -1,0 +1,26 @@
+<software name="kof2002s073" cloneof="kof2002">
+	<description>Kof2002 (Fix life Bar &amp; Timer)</description>
+	<year>2002</year>
+	<publisher>oak2003</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="265.p1" offset="0x0" size="0x100000" crc="9ede7323" sha1="ad9d45498777fda9fa58e75781f48e09aee705a6" />
+		<rom loadflag="load16_word_swap" name="265.p2" offset="0x100000" size="0x400000" crc="327266b8" sha1="98f445cc0a94f8744d74bca71cb420277622b034" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="265.v1" offset="0x0" size="0x800000" crc="15e8f3f5" sha1="7c9e6426b9fa6db0158baa17a6485ffce057d889" />
+		<rom name="265.v2" offset="0x800000" size="0x800000" crc="da41d6f9" sha1="a43021f1e58947dcbe3c8ca5283b20b649f0409d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="265s073.c1" offset="0x0" size="0x800000" crc="2ac53814" sha1="dae3e210240a446ebfecfc07b5d3b091026b0ab8" />
+		<rom loadflag="load16_byte" name="265s073.c2" offset="0x1" size="0x800000" crc="f64d1e3f" sha1="df14ba81b067bb0c892f22a0ca2b8657b23ab757" />
+		<rom loadflag="load16_byte" name="265s073.c3" offset="0x1000000" size="0x800000" crc="c3b39aeb" sha1="b7ae6f85b8bfa21dc53a8c37052a9bae930b57bb" />
+		<rom loadflag="load16_byte" name="265s073.c4" offset="0x1000001" size="0x800000" crc="cc7b419d" sha1="5b0ba94e00fdbdc3aa1756f7452c33a676067476" />
+		<rom loadflag="load16_byte" name="265s073.c5" offset="0x2000000" size="0x800000" crc="2ce42fa3" sha1="113b42e0d0de2c1192a4dd75c569c50542235c58" />
+		<rom loadflag="load16_byte" name="265s073.c6" offset="0x2000001" size="0x800000" crc="0dbff83e" sha1="59c029b5773b28fa2d6e2cd665665dcf530cce20" />
+		<rom loadflag="load16_byte" name="265s073.c7" offset="0x3000000" size="0x800000" crc="01b3dfc2" sha1="ab52edf9ff884c8128602697977948d76b8264a8" />
+		<rom loadflag="load16_byte" name="265s073.c8" offset="0x3000001" size="0x800000" crc="bad76d81" sha1="6b012fd45d8683bac066b31e44afed0273dd25a3" />
+		</dataarea>
+	</part>
+</software>

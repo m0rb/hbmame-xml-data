@@ -1,0 +1,17 @@
+<software name="baby4" cloneof="puckman">
+	<description>Pacman (Baby Maze 4)</description>
+	<year>2000</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="baby4.6j" offset="0x3000" size="0x1000" crc="f8cd7ebb" sha1="c7b8e690e96f9b863d31caddc81076d556058671" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="baby3.5e" offset="0x0" size="0x1000" crc="22174b65" sha1="ed90d2c515e2446b369861e20ed34987f10a3dc8" />
+		<rom name="baby2.5f" offset="0x1000" size="0x1000" crc="b6d77a1e" sha1="63ada2a7f154ce7bd756c5002a34e5f4002c2473" />
+		</dataarea>
+	</part>
+</software>

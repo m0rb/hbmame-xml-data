@@ -1,0 +1,22 @@
+<software name="adkw">
+	<description>ADK World</description>
+	<year>1995</year>
+	<publisher>pierpa86</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="204.p1" offset="0x100000" size="0x100000" crc="9d10383a" sha1="4743d9c806004d242a5949a3f70e42711af54096" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="204.v1" offset="0x0" size="0x400000" crc="a456c548" sha1="89289c886b76ff5032d9132dca3c412c56642972" />
+		<rom name="204.v2" offset="0x400000" size="0x400000" crc="0061e2ee" sha1="67fbabc7f59978bace709fce83565fe792d85aa6" />
+		<rom name="204.v3" offset="0x800000" size="0x400000" crc="62bb3457" sha1="20f72ae57ad560a24d975e4eed918d43e431739f" />
+		<rom name="204.v4" offset="0xc00000" size="0x400000" crc="212994c4" sha1="051fd0d78a858101e8975a3be04e649e7bb24593" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="204.c1" offset="0x0" size="0x800000" crc="e72150ba" sha1="1e15ad7ee5fa1ab9126f55c714e070ba9d8c9d89" />
+		<rom loadflag="load16_byte" name="204.c2" offset="0x1" size="0x800000" crc="5fab1784" sha1="37e330c76744844a1257f219e8135a8fd308fd74" />
+		</dataarea>
+	</part>
+</software>

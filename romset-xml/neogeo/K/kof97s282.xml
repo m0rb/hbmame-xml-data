@@ -1,0 +1,25 @@
+<software name="kof97s282" cloneof="kof97">
+	<description>Kof&#x27;97 (Queen Edition, 2016-01-04)</description>
+	<year>2016</year>
+	<publisher>Katana</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="232.p1" offset="0x0" size="0x100000" crc="7db81ad9" sha1="8bc42be872fd497eb198ca13bf004852b88eb1dc" />
+		<rom loadflag="load16_word_swap" name="232s282.p2" offset="0x100000" size="0x400000" crc="ca63e700" sha1="1b6a4d3491e467eb3cb0d2d947707482cac3ea34" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="232s282.c1" offset="0x0" size="0x800000" crc="085bcdfa" sha1="042deb49b20763bbe0a3e8236a6d5798b3036536" />
+		<rom loadflag="load16_byte" name="232s282.c2" offset="0x1" size="0x800000" crc="78613707" sha1="68f244a83e7314fe62a61bad0d0e5253a493da54" />
+		<rom loadflag="load16_byte" name="232s282.c3" offset="0x1000000" size="0x800000" crc="afde78ed" sha1="2075d68980a867b498fe812f3265a36bddd57a81" />
+		<rom loadflag="load16_byte" name="232s282.c4" offset="0x1000001" size="0x800000" crc="9d61d6ca" sha1="03d81bcda5d1d08fbe2eb2569937bcb0fdf83269" />
+		<rom loadflag="load16_byte" name="232s282.c5" offset="0x2000000" size="0x400000" crc="10ea56c6" sha1="8324418820f88264c19be5fd73a0fe98fe5b0c0e" />
+		<rom loadflag="load16_byte" name="232s282.c6" offset="0x2000001" size="0x400000" crc="d48fe6c9" sha1="6fec93dcc562b7243b2f550857073323f81d3db7" />
+		</dataarea>
+	</part>
+</software>

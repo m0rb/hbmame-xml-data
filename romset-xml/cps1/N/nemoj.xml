@@ -1,0 +1,30 @@
+<software name="nemoj" cloneof="nemo">
+	<description>Nemo (Japan 901120)</description>
+	<year>1990</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c13j.p1" offset="0x0" size="0x20000" crc="daeceabb" sha1="ebd44922be9d07a3d3411af52edee8a60cb11dad" />
+		<rom loadflag="load16_byte" name="c13j.p2" offset="0x1" size="0x20000" crc="55024740" sha1="4bacbd191bb435de5dc548ac7fa16ed286bd2d3b" />
+		<rom loadflag="load16_byte" name="c13j.p3" offset="0x40000" size="0x20000" crc="619068b6" sha1="2507c6f77a06a80f913c848dcb6816bcbf4bba8a" />
+		<rom loadflag="load16_byte" name="c13j.p4" offset="0x40001" size="0x20000" crc="a948a53b" sha1="65c2abf321cf8b171bbfbb51ed57bc99eb552ca9" />
+		<rom loadflag="load16_byte" name="c13j.p5" offset="0x80000" size="0x20000" crc="5737feed" sha1="2635715cc21381e9f0a4ae4227eb5896886ee3e2" />
+		<rom loadflag="load16_byte" name="c13j.p6" offset="0x80001" size="0x20000" crc="8a4099f3" sha1="d1af73d8992aa9ef6dcd729675a2fbea8c290311" />
+		<rom loadflag="load16_byte" name="c13j.p7" offset="0xc0000" size="0x20000" crc="bd11a7f8" sha1="1c09db7cbd132866d4f08720cdd60707069f8580" />
+		<rom loadflag="load16_byte" name="c13j.p8" offset="0xc0001" size="0x20000" crc="6309603d" sha1="51bee785ddb87340ad56960ad816c0513bc93eb8" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c13j.m1" offset="0x0" size="0x8000" crc="8d3c5a42" sha1="cc7477da80f3d08cf014379318e39cb75b5d3205" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="nemo.key" offset="0x0" size="0x80" crc="f59953d8" sha1="034e7b0d200ead9dfac5b1be3cc47c50ea89709a" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c13.v1" offset="0x0" size="0x20000" crc="bab333d4" sha1="c1d0fb61ec46f17eb7edf69e1ad5ac91b5d51daa" />
+		<rom name="c13.v2" offset="0x20000" size="0x20000" crc="2650a0a8" sha1="e9e8cc1b27a2cb3e87124061fabcf42982f0611f" />
+		</dataarea>
+	</part>
+</software>

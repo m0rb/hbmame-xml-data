@@ -1,0 +1,29 @@
+<software name="pacman25s61" cloneof="puckman">
+	<description>Pac Man 25 - Pac man + Tournament - Red Bull</description>
+	<year>2021</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s61.6e" offset="0x0" size="0x1000" crc="50a44885" sha1="1e68345ea69134b0be08141a885645e7108138f2" />
+		<rom name="pac25.6f" offset="0x1000" size="0x1000" crc="c5ec2352" sha1="86178b16dabb90005b132febc1a261651a73018d" />
+		<rom name="pac25.6h" offset="0x2000" size="0x1000" crc="92cd89b9" sha1="c3a0141480341c550a889b58692c8c90b322ee67" />
+		<rom name="s61.6j" offset="0x3000" size="0x1000" crc="8c733c5b" sha1="7bb007db821ef3a0a6997586093c86d3dbe93c29" />
+		<rom name="maps1.s61" offset="0x8000" size="0x1000" crc="0949455b" sha1="f3233a3dc93e4ff216be53f5db47f9729b6bf974" />
+		<rom name="maps2.s61" offset="0x9000" size="0x1000" crc="c840132c" sha1="e0586f9931bae47b770d4fa61046e70dbb06b2dd" />
+		<rom name="maps3.rom" offset="0xa000" size="0x1000" crc="c626ea9c" sha1="3cd3f20e002845937a43f323b685425c95881d9e" />
+		<rom name="maps4.rom" offset="0xb000" size="0x1000" crc="f5ba954d" sha1="eba18f9a7f6d50f167ed37bff0adec43f52b49a0" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="s61.5e" offset="0x0" size="0x1000" crc="4fd1a79c" sha1="cecee1e24d9d6145c3caff8fb09578e23b27cc45" />
+		<rom name="s61.5f" offset="0x1000" size="0x1000" crc="a8954742" sha1="38d6878e9fcf8ea61ef79dac21b695ba61f48736" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="82s126.1m" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="82s126.3m" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="s61.7f" offset="0x0" size="0x20" crc="e4e13e7b" sha1="3fb83e27cef0f1ed3288ba56ad9d6bb78d3bf8ed" />
+		<rom name="s61.4a" offset="0x20" size="0x100" crc="e4df45f6" sha1="63f56a28aed2feefdf70e2cac147b9799d658b93" />
+		</dataarea>
+	</part>
+</software>

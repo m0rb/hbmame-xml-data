@@ -1,0 +1,24 @@
+<software name="bnjr" cloneof="brubber">
+	<description>Bump &#x27;n&#x27; Jump Reverse Mod</description>
+	<year>2002</year>
+	<publisher>DaveC</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x2">
+		<rom name="bnj12b.bin" offset="0xa000" size="0x2000" crc="ba3e3801" sha1="56284076d938c33c1492a07281b936681eb09808" />
+		<rom name="bnj12c.bin" offset="0xc000" size="0x2000" crc="fb3a2cdd" sha1="4a964389cc8035b9264d4cb133eb6d3826e74b95" />
+		<rom name="bnj12d.bin" offset="0xe000" size="0x2000" crc="b88bc99e" sha1="08a4ddea4037f9e14d0d9f4262a1746b0a3a140c" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="bnj6c.bin" offset="0xe000" size="0x1000" crc="8c02f662" sha1="1279d564e65fd3ccac25b1f9fbb40d910de2b544" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x6000">
+		<rom name="bnjr4e.bin" offset="0x0" size="0x2000" crc="876cc672" sha1="860cfc92752f312ce167fdfb7752fb5e7d7d8817" />
+		<rom name="bnjr4f.bin" offset="0x2000" size="0x2000" crc="e5e95e3f" sha1="c16e03e29229fa7dcc9ed01b43b645fbcc79cc97" />
+		<rom name="bnjr4h.bin" offset="0x4000" size="0x2000" crc="570ffa46" sha1="e397fbca0cc7b8173476d34d4e651752937b7569" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="bnjr10e.bin" offset="0x0" size="0x1000" crc="9e523e4c" sha1="4d76696c7594d84d081d17220dc58c0e7e35a14c" />
+		<rom name="bnjr10f.bin" offset="0x1000" size="0x1000" crc="5cf10f28" sha1="66b2d8cc27ff6dd340054290f6eb2d71c9a1052a" />
+		</dataarea>
+	</part>
+</software>

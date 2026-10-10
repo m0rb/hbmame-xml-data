@@ -1,0 +1,31 @@
+<software name="kovshs19" cloneof="kovsh">
+	<description>Knights of Valour Super Heroes (Sanguozhanji Revival Really Troubled Heroes 2016-02-15)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_pw19.322" offset="0x100000" size="0x400000" crc="adac24c7" sha1="386bcc440cd4595e661479faf743795722f422a4" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u4" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_pw19.asic" offset="0x0" size="0x4000" crc="0f97efea" sha1="af4b7222dbd774af759cf59f3277d6a784110afe" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="pgm_a0600.u1" offset="0x0" size="0x800000" crc="d8167834" sha1="fa55a99629d03b2ea253392352f70d2c8639a991" />
+		<rom name="pgm_a0601.u3" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_pw16.rom" offset="0x1000000" size="0x800000" crc="ab94d8a0" sha1="f54843fc3ec6f2e0d56da5f8e2a55880bf603109" />
+		<rom name="pgm_a0613.u7" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		<rom name="a0604_pw16.rom" offset="0x1a00000" size="0x400000" crc="8e3c32bc" sha1="296376cefcf2d04e8c62a9131ca141162fafa3b0" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b0600.u6" offset="0x0" size="0x800000" crc="7d3cd059" sha1="00cf994b63337e0e4ebe96453daf45f24192af1c" />
+		<rom name="b0601_pw16.rom" offset="0x800000" size="0x400000" crc="1e917e36" sha1="480c691c0c3df7225145e163848c46404306fcb4" />
+		<rom name="b0602_pw16.rom" offset="0xc00000" size="0x400000" crc="caec6b2c" sha1="c27805d016c8ba7c35ffa01a3ccc4fa8ae900ead" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_pw19.rom" offset="0x180000" size="0x800000" crc="809b5eaa" sha1="b492781c7a13b39cccfa4f28a9660c8577360fbc" />
+		</dataarea>
+	</part>
+</software>

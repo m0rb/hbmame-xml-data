@@ -1,0 +1,28 @@
+<software name="cybotsjd" cloneof="cybots">
+	<description>Cyberbots: Fullmetal Madness (Japan 950424) (decrypted bootleg)</description>
+	<year>1995</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c58jd.p1" offset="0x0" size="0x80000" crc="9eb34071" sha1="b9ef1fa79f79bbb821862764c65a65357a79aa91" />
+		<rom loadflag="load16_word_swap" name="c58jd.p2" offset="0x80000" size="0x80000" crc="cf223cd7" sha1="834833ae68c3f14f1e06c92273fadfe6918cf3c5" />
+		<rom loadflag="load16_word_swap" name="c58.p3" offset="0x100000" size="0x80000" crc="ec40408e" sha1="dd611c1708e7ef86e4f7cac4b7b0dff7baaee5ed" />
+		<rom loadflag="load16_word_swap" name="c58.p4" offset="0x180000" size="0x80000" crc="1ad0bed2" sha1="2ea005f3e73b05f8f0ec006cd9e95f7731a73897" />
+		<rom loadflag="load16_word_swap" name="c58.p5" offset="0x200000" size="0x80000" crc="6245a39a" sha1="4f607e733e2dea80211497522be6d0f09571928d" />
+		<rom loadflag="load16_word_swap" name="c58.p6" offset="0x280000" size="0x80000" crc="4b48e223" sha1="9714579a7a78b9716e44bca6c18bf1a93aa4e482" />
+		<rom loadflag="load16_word_swap" name="c58.p7" offset="0x300000" size="0x80000" crc="e15238f6" sha1="16abd92ebed921a6a7e8eac4b098dc61f7e5485c" />
+		<rom loadflag="load16_word_swap" name="c58.p8" offset="0x380000" size="0x80000" crc="75f4003b" sha1="8a65026ae35247cda016ce85a34034c62b3aa1a6" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c58.m1" offset="0x0" size="0x8000" crc="9c0fb079" sha1="06d260875a76da08d56ea2b2ae277e8c2dbae6e3" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c58.m2" offset="0x28000" size="0x20000" crc="51cb0c4e" sha1="c322957558d8d3e9dad090aebbe485978cbce8f5" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c58.q1" offset="0x0" size="0x200000" crc="362ccab2" sha1="28e537067d4846f22657ee37166d18b8f05f4da1" />
+		<rom loadflag="load16_word_swap" name="c58.q2" offset="0x200000" size="0x200000" crc="7066e9cc" sha1="eb6a9d4998b3311344d73bae88d661d81609c492" />
+		</dataarea>
+	</part>
+</software>

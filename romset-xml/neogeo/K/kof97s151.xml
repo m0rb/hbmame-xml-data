@@ -1,0 +1,25 @@
+<software name="kof97s151" cloneof="kof97">
+	<description>Kof&#x27;97 (VersiÃ³n Sexy Estilo Mugen, 2015-10-25)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x700000">
+		<rom loadflag="load16_word_swap" name="232s151.p1" offset="0x0" size="0x100000" crc="80ca25e3" sha1="928e0cc1efec1e9191fbe1cfc9ce0d710f690eea" />
+		<rom loadflag="load16_word_swap" name="232s151.p2" offset="0x100000" size="0x600000" crc="b54dc434" sha1="0dcdfe69d55330e4546e9595cd314313d4c7d75d" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="232s151.c1" offset="0x0" size="0x800000" crc="9c2c3a3d" sha1="3c74fa731f6c2bc403bb9e12e61e8c42b12ee7cf" />
+		<rom loadflag="load16_byte" name="232s151.c2" offset="0x1" size="0x800000" crc="826892bf" sha1="1523dca6e1e5b6e4e9d0cb69133653eb298d42da" />
+		<rom loadflag="load16_byte" name="232s151.c3" offset="0x1000000" size="0x800000" crc="92bd1de1" sha1="4965403f1a486692386ff61cacb131ab282764d0" />
+		<rom loadflag="load16_byte" name="232s151.c4" offset="0x1000001" size="0x800000" crc="aeded9cc" sha1="5803ab1d17dcaf1926524c0a32f91bf857ebfe0d" />
+		<rom loadflag="load16_byte" name="232s151.c5" offset="0x2000000" size="0x454fe2" crc="86772bfe" sha1="6229614bc4bf9b32f5059daa67b473568c8d80e9" />
+		<rom loadflag="load16_byte" name="232s151.c6" offset="0x2000001" size="0x454fe2" crc="d6bef641" sha1="d0f9cfae0043c65e5fb436b88c5fa6a5ae406d45" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,14 @@
+<software name="pacplusc" cloneof="puckman">
+	<description>Pacman Plus (Unencrypted) [c]</description>
+	<year>1982</year>
+	<publisher>Bally Midway</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacplusc.cpu" offset="0x0" size="0x4000" crc="a0d25591" sha1="0c7e1eb93762f9bb487df95c14ea986855529ce3" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacplus.5e" offset="0x0" size="0x1000" crc="022c35da" sha1="57d7d723c7b029e3415801f4ce83469ec97bb8a1" />
+		<rom name="pacplus.5f" offset="0x1000" size="0x1000" crc="4de65cdd" sha1="9c0699204484be819b77f0b212c792fe9e9fae5d" />
+		</dataarea>
+	</part>
+</software>

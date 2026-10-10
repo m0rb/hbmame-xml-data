@@ -1,0 +1,31 @@
+<software name="mshvsfej" cloneof="mshvsf">
+	<description>Marvel Super Heroes Vs. Street Fighter EX (970707J, 2026-10-06)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="mvsj.03i" offset="0x0" size="0x80000" crc="8f52f63d" sha1="ddcba9a66dcb74a22de2eb3b1b9d6fa07c231ecb" />
+		<rom loadflag="load16_word_swap" name="mvsj.04i" offset="0x80000" size="0x80000" crc="aee80449" sha1="1f9782a7a7c15cecaca75bcf7e6491758d7958fb" />
+		<rom loadflag="load16_word_swap" name="mvs.05h" offset="0x100000" size="0x80000" crc="c6dca8ff" sha1="7329467a8de80a13349f50ffb31be395909e16db" />
+		<rom loadflag="load16_word_swap" name="mvs.06a" offset="0x180000" size="0x80000" crc="444fb179" sha1="e4b0b667d0e40eb78b2430422416d3611c92b63a" />
+		<rom loadflag="load16_word_swap" name="mvs.07b" offset="0x200000" size="0x80000" crc="e9cbc426" sha1="06e1954894f4d4553bd937de57365e879d245c2f" />
+		<rom loadflag="load16_word_swap" name="mvs.08a" offset="0x280000" size="0x80000" crc="c2813884" sha1="49e5d4bc48f90c8146cb6aafb9240aff0119f1a7" />
+		<rom loadflag="load16_word_swap" name="mvs.09b" offset="0x300000" size="0x80000" crc="3ba08818" sha1="9ab132a3cac55fcccebe6c99b6fb0ba1305f8f6e" />
+		<rom loadflag="load16_word_swap" name="mvs.10b" offset="0x380000" size="0x80000" crc="5f6c1146" sha1="83f817d5c27f7202657751dbde0bac587973dbf5" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="mvs.01" offset="0x0" size="0x8000" crc="68252324" sha1="138ef320ef27956b2ab5591d49a1315b7b0a194c" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="mvs.02" offset="0x28000" size="0x20000" crc="b34e773d" sha1="3bcf44bf06c35814cff29d244142db7abe05bd39" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="mshvsfj.key" offset="0x0" size="0x14" crc="565eeebb" sha1="762844b59b2fcf529a26ad3dde8282415db926b3" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="mvs.11m" offset="0x0" size="0x400000" crc="86219770" sha1="4e5b68d382a5aa37f8b0b6434c53a2b95f5f9a4d" />
+		<rom loadflag="load16_word_swap" name="mvs.12m" offset="0x400000" size="0x400000" crc="f2fd7f68" sha1="28a30d55d3eaf963006c7cbe7c288099cd3ba536" />
+		</dataarea>
+	</part>
+</software>

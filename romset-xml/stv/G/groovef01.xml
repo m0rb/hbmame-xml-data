@@ -1,0 +1,18 @@
+<software name="groovef01" cloneof="groovef">
+	<description>Groove on Fight (Enable Hidden Characters)</description>
+	<year>1997</year>
+	<publisher>Yumeji</publisher>
+	<part name="cart">
+		<dataarea name="cart" endianness="big" size="0x3000000">
+		<rom loadflag="load16_word_swap" name="mpr19820_s01.7" offset="0x200000" size="0x100000" crc="f8f025ab" sha1="d8e629b71214bb6754d9e9854b529d38755d3e1c" />
+		<rom loadflag="load16_word_swap" name="mpr19815.2" offset="0x400000" size="0x400000" crc="1b9b14e6" sha1="b1828c520cb108e2927a23273ebd2939dca52304" />
+		<rom loadflag="load16_word_swap" name="mpr19816.3" offset="0x800000" size="0x400000" crc="83f5731c" sha1="2f645737f945c59a1a2fabf3b21a761be9e8c8a6" />
+		<rom loadflag="load16_word_swap" name="mpr19817.4" offset="0xc00000" size="0x400000" crc="525bd6c7" sha1="2db2501177fb0b44d0fad2054eddf356c4ea08f2" />
+		<rom loadflag="load16_word_swap" name="mpr19818.5" offset="0x1000000" size="0x400000" crc="66723ba8" sha1="0a8379e46a8f8cab11befeadd9abdf59dba68e27" />
+		<rom loadflag="load16_word_swap" name="mpr19819.6" offset="0x1400000" size="0x400000" crc="ee8c55f4" sha1="f6d86b2c2ab43ec5baefb8ccc25e11af4d82712d" />
+		<rom loadflag="load16_word_swap" name="mpr19814.1" offset="0x1800000" size="0x400000" crc="8f20e9f7" sha1="30ff5ad0427208e7265cb996e870c4dc0fbbf7d2" />
+		<rom loadflag="load16_word_swap" name="mpr19821.8" offset="0x1c00000" size="0x400000" crc="f69a76e6" sha1="b7e41f34d8b787bf1b4d587e5d8bddb241c043a8" />
+		<rom loadflag="load16_word_swap" name="mpr19822.9" offset="0x2000000" size="0x200000" crc="5e8c4b5f" sha1="1d146fbe3d0bfa68993135ba94ef18081ab65d31" />
+		</dataarea>
+	</part>
+</software>

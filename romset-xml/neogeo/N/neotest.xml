@@ -1,0 +1,18 @@
+<software name="neotest" cloneof="neogal1">
+	<description>NeoGeo Sound Test</description>
+	<year>2013</year>
+	<publisher>BEY</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="641.p1" offset="0x0" size="0x80000" crc="2ee900b2" sha1="4b083f4e1e502ac17e3e396d8655870dbac7fba7" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="641.v1" offset="0x0" size="0x100000" crc="c1c07bd5" sha1="79a25211590dc1192913a7655d7f2d1682acdc97" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="640_1.c1" offset="0x0" size="0x100000" crc="6de8c6f6" sha1="51d29bab7b482a5a850af08f9939a42e7127df3b" />
+		<rom loadflag="load16_byte" name="640_1.c2" offset="0x1" size="0x100000" crc="fa5f0c1d" sha1="8e8fb1f0314450ab9cdbd9619a9cdccdd78fea99" />
+		</dataarea>
+	</part>
+</software>

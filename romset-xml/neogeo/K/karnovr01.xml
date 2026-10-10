@@ -1,0 +1,22 @@
+<software name="karnovr01" cloneof="karnovr">
+	<description>Karnov&#x27;s Revenge (Add hidden characters-Enable Bull v2)</description>
+	<year>1994</year>
+	<publisher>Yumeji</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="066s01.p1" offset="0x0" size="0x100000" crc="7b776bb5" sha1="a5457239ad2af9b341878bfd94baa818683a21d1" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="066.v1" offset="0x0" size="0x200000" crc="0b7ea37a" sha1="34e7d4f6db053674a7e8c8b2e3e398777d5b02e6" />
+		</dataarea>
+		<dataarea name="sprites" size="0xc00000">
+		<rom loadflag="load16_byte" name="066.c1" offset="0x0" size="0x200000" crc="09dfe061" sha1="ca4c0f0ce80967b4be2f18b72435c468bbfbac4c" />
+		<rom loadflag="load16_byte" name="066.c2" offset="0x1" size="0x200000" crc="e0f6682a" sha1="addb4fbc30da2b8ffc86819d92a874eb232f67dd" />
+		<rom loadflag="load16_byte" name="066.c3" offset="0x400000" size="0x200000" crc="a673b4f7" sha1="d138f5b38fd65c61549ce36f5c4983f7c8a3e7f6" />
+		<rom loadflag="load16_byte" name="066.c4" offset="0x400001" size="0x200000" crc="cb3dc5f4" sha1="865d9ccfc3df517c341d6aac16120f6b6aa759fe" />
+		<rom loadflag="load16_byte" name="066.c5" offset="0x800000" size="0x200000" crc="9a28785d" sha1="19723e1f7ff429e8a038d89488b279f830dfaf6e" />
+		<rom loadflag="load16_byte" name="066.c6" offset="0x800001" size="0x200000" crc="c15c01ed" sha1="7cf5583e6610bcdc3b332896cefc71df84fb3f19" />
+		</dataarea>
+	</part>
+</software>

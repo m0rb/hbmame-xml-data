@@ -1,0 +1,17 @@
+<software name="pc_smb3_ps06" cloneof="pc_smb3">
+	<description>Super Mario Bros. 3 (Tiaobao Edition, 2011-11-02)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="u1um_ps05" offset="0x0" size="0x20000" crc="a0ae2b4b" sha1="5e026ad8a6b2a8120e386471d5178625bda04525" />
+		</dataarea>
+		<dataarea name="prg" size="0x40000">
+		<rom name="u4um_ps06" offset="0x0" size="0x20000" crc="64cb6e51" sha1="b8150233b10c75f0a1e14138f736b330600e6383" />
+		<rom name="u5um_ps06" offset="0x20000" size="0x20000" crc="1d6041b9" sha1="f17eef1669d81d192b15f877afac6bc710b7a5ab" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="e48f4945" sha1="66fe537cfe540317d6194847321ce4a9bdf0bba4" />
+		</dataarea>
+	</part>
+</software>

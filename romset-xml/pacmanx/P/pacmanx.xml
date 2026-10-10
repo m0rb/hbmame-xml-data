@@ -1,0 +1,17 @@
+<software name="pacmanx" cloneof="puckmanx">
+	<description>Pac-Man (Midway) (hires hack)</description>
+	<year>1980</year>
+	<publisher>[Namco] (Midway license)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="pacman.6j" offset="0x3000" size="0x1000" crc="817d94e3" sha1="d4a70d56bb01d27d094d73db8667ffb00ca69cb9" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="pacmanx.5e" offset="0x0" size="0x4000" crc="a45138ce" sha1="f18344980b4a58d0abf0cc2b7853184af3d5bfa0" />
+		<rom name="pacmanx.5f" offset="0x4000" size="0x4000" crc="92e1b10e" sha1="bb04988502fa181365c08096b5fd47fa9541c291" />
+		</dataarea>
+	</part>
+</software>

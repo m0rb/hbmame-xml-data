@@ -1,0 +1,30 @@
+<software name="kof2k4pls" cloneof="kof2k4se">
+	<description>Kof Special Edition 2004 Plus (Set 1)</description>
+	<year>2004</year>
+	<publisher>bootleg</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x600000">
+		<rom loadflag="load16_word_swap" name="365p.p1" offset="0x0" size="0x100000" crc="ed97c684" sha1="0eb8f18f422252c32186b7daa278c9206e189a1a" />
+		<rom loadflag="continue" offset="0x500000" size="0x100000" />
+		<rom loadflag="load16_word_swap" name="365.p3" offset="0x400000" size="0x100000" crc="e6c50566" sha1="cc6a3489a3bfeb4dcc65b6ddae0030f7e66fbabe" />
+		<rom loadflag="continue" offset="0x300000" size="0x100000" />
+		<rom loadflag="continue" offset="0x200000" size="0x100000" />
+		<rom loadflag="continue" offset="0x100000" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="365.v1" offset="0x0" size="0x800000" crc="e4ddfb3f" sha1="eb8220ab01c16cf9244b7f3f9912bec0db561b85" />
+		<rom name="365.v2" offset="0x800000" size="0x800000" crc="b887d287" sha1="f593a5722df6f6fac023d189a739a117e976bb2f" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="365.c1" offset="0x0" size="0x800000" crc="7a050288" sha1="55a20c5b01e11a859f096af3f8e09986025d288f" />
+		<rom loadflag="load16_byte" name="365.c2" offset="0x1" size="0x800000" crc="e924afcf" sha1="651e974f7339d2cdcfa58c5398013197a0525b77" />
+		<rom loadflag="load16_byte" name="265d.c3" offset="0x1000000" size="0x800000" crc="959fad0b" sha1="63ab83ddc5f688dc8165a7ff8d262df3fcd942a2" />
+		<rom loadflag="load16_byte" name="265d.c4" offset="0x1000001" size="0x800000" crc="efe6a468" sha1="2a414285e48aa948b5b0d4a9333bab083b5fb853" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="365.c7" offset="0x3000000" size="0x800000" crc="fa705b2b" sha1="f314c66876589601806352484dd8e45bc41be692" />
+		<rom loadflag="load16_byte" name="365.c8" offset="0x3000001" size="0x800000" crc="2c912ff9" sha1="b624a625ea3e221808b7ea43fb0b1a51d8c1853e" />
+		</dataarea>
+	</part>
+</software>

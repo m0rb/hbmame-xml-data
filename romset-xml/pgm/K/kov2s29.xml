@@ -1,0 +1,33 @@
+<software name="kov2s29" cloneof="kov2">
+	<description>Knights of Valour 2 (Green Edition, 2020-09-16)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="u18-p29.106" offset="0x100000" size="0x400000" crc="22ac98cd" sha1="260ecd413156d8b5bc98833f4edfc4512ced3b56" />
+		</dataarea>
+		<dataarea name="ics" size="0x1000000">
+		<rom name="pgm_m1200.u3" offset="0x800000" size="0x800000" crc="b0d88720" sha1="44ab137e3f8e15b7cb5697ffbd9b1143d8210c4f" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="pgm_t1200.u27" offset="0x180000" size="0x800000" crc="d7e26609" sha1="bdad810f82fcf1d50a8791bdc495374ec5a309c6" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x4000000">
+		<rom name="pgm_a1200.u1" offset="0x0" size="0x800000" crc="ceeb81d8" sha1="5476729443fc1bc9593ae10fbf7cbc5d7290b017" />
+		<rom name="a1201-p10.rom" offset="0x800000" size="0x800000" crc="82f0a878" sha1="ddd13e404252a71de1b2b3b974b910f899f51c38" />
+		<rom name="pgm_a1202.u6" offset="0x1000000" size="0x800000" crc="4bb92fae" sha1="f0b6d72ed425de1c69dc8f8d5795ea760a4a59b0" />
+		<rom name="pgm_a1203.u8" offset="0x1800000" size="0x800000" crc="e73cb627" sha1="4c6e48b845a5d1e8f9899010fbf273d54c2b8899" />
+		<rom name="a1204-p04.rom" offset="0x2000000" size="0x800000" crc="27527099" sha1="e23cf366bdeaca1e009a5cec6b13164310a34384" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b1200.u5" offset="0x0" size="0x800000" crc="bed7d994" sha1="019dfba8154256d64cd249eb0fa4c451edce34b8" />
+		<rom name="pgm_b1201.u7" offset="0x800000" size="0x800000" crc="f251eb57" sha1="56a5fc14ab7822f83379cecb26638e5bb266349a" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov2_v100_hongkong.asic" offset="0x0" size="0x4000" crc="e0d7679f" sha1="e1c2d127eba4ddbeb8ad173c55b90ac1467e1ca8" />
+		</dataarea>
+		<dataarea name="user1" endianness="little" size="0x400000">
+		<rom name="u19.100" offset="0x0" size="0x200000" crc="edd59922" sha1="09b14f20f685944a93292c83e5830849aade42c9" />
+		</dataarea>
+	</part>
+</software>

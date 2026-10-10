@@ -1,0 +1,25 @@
+<software name="sf2ce25" cloneof="sf2ce">
+	<description>Street Fighter II&#x27;: Champion Edition (Super Ryu, 2018-05-01)</description>
+	<year>2018</year>
+	<publisher>MamePlus</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c19s25.p1" offset="0x0" size="0x80000" crc="9c73b51b" sha1="42c9925a1703e5ab45cd5f32e2c61a2a1d6d4494" />
+		<rom loadflag="load16_word_swap" name="c19s25.p2" offset="0x80000" size="0x80000" crc="100df769" sha1="ef11943d84de308a6cf1eb17398204ed78088811" />
+		<rom loadflag="load16_word_swap" name="c19s35.p3" offset="0x100000" size="0x80000" crc="b4f13bef" sha1="5e6501c157890899848bccb34db06b3570e84c17" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c19.m1" offset="0x0" size="0x8000" crc="08f6b60e" sha1="8258fcaca4ac419312531eec67079b97f471179c" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2ce.key" offset="0x0" size="0x80" crc="35b37429" sha1="b372cce106c0900554735c207fb333ac93554ec2" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c19s25.v1" offset="0x0" size="0x20000" crc="0639295f" sha1="82da30cd9c446434446502ad1f580102803f1645" />
+		<rom name="c14.v2" offset="0x20000" size="0x20000" crc="beade53f" sha1="277c397dc12752719ec6b47d2224750bd1c07f79" />
+		</dataarea>
+	</part>
+</software>

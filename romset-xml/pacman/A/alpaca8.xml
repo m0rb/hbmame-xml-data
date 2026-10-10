@@ -1,0 +1,18 @@
+<software name="alpaca8">
+	<description>Alpaca v0.8 (Pacman Hardware)</description>
+	<year>2003</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="alpaca8.6e" offset="0x0" size="0x1000" crc="86027944" sha1="c47fc62522a3bae0d49f4b68c218f73c43ed19b5" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="alpaca.5e" offset="0x0" size="0x1000" crc="3e879f02" sha1="0b084dd449e57476231e59f15f85a209a919959c" />
+		<rom name="alpaca8.5f" offset="0x1000" size="0x1000" crc="856e53ae" sha1="95460212107b3371600569dbd4da482ec631abdb" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="82s123.7f" offset="0x0" size="0x20" crc="2fc650bd" sha1="8d0268dee78e47c712202b0ec4f1f51109b1f2a5" />
+		<rom name="crush.4a" offset="0x20" size="0x100" crc="2bc5d339" sha1="446e234df94d9ef34c3191877bb33dd775acfdf5" />
+		</dataarea>
+	</part>
+</software>

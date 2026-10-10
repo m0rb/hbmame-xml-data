@@ -1,0 +1,30 @@
+<software name="f3demo">
+	<description>Demo - Taito F3</description>
+	<year>2000</year>
+	<publisher>Antiriad</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom name="f3demo.bin" offset="0x0" size="0x194c" crc="08587aea" sha1="4850d170b935fd4b6726c03693eb25e5ac3b6198" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="d87-03.bin" offset="0x0" size="0x200000" crc="4be1666e" sha1="35ba7bcf29ec7a8f8b6944ee3544693d4df1bfc2" />
+		<rom loadflag="load16_byte" name="d87-04.bin" offset="0x1" size="0x200000" crc="2616002c" sha1="003f98b740a697274385b8da03c78f3c6f7b5e89" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x200000">
+		<rom name="d87-05.bin" offset="0x0" size="0x200000" crc="4e5891a9" sha1="fd08d848079841c9237fa359a850980fd00114d8" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="d87-13.bin" offset="0x100000" size="0x40000" crc="15b1fff4" sha1="28692b731ae98a47c2c5e11a8a71b61a813d9a64" />
+		<rom loadflag="load16_byte" name="d87-14.bin" offset="0x100001" size="0x40000" crc="eecda29a" sha1="6eb238e47bc7bf635ffbdbb25fb06a37db980ef8" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="d87-01.bin" offset="0x0" size="0x200000" crc="3848a110" sha1="802e91695a526f665c7fd261f0a7639a0b883c9e" />
+		<rom loadflag="load16_byte" name="d87-02.bin" offset="0x400000" size="0x200000" crc="9250abae" sha1="07cae8edbc3cca0a95022d9b40a5c18a55350b67" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x400000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x200000">
+		<rom name="d87-08.bin" offset="0x0" size="0x200000" crc="76d23602" sha1="ca53ea6641182c44a4038bbeaa5effb1687f1980" />
+		</dataarea>
+	</part>
+</software>

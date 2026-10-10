@@ -1,0 +1,51 @@
+<software name="hyxevious02">
+	<description>Hyper Easy Xevious</description>
+	<year>2026</year>
+	<publisher>Zeroco</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="02xvi_1.3p" offset="0x0" size="0x1000" crc="6fd89621" sha1="10eed83a158060d54f1161b5f7efcac7b2e430b4" />
+		<rom name="02xvi_2.3m" offset="0x1000" size="0x1000" crc="fe415f81" sha1="c472c5fe8e71f97de14db2ca1067fd591c569739" />
+		<rom name="02xvi_3.2m" offset="0x2000" size="0x1000" crc="c5628af4" sha1="425e84a20d0c5edad61cbb2ac5978738f5c3f694" />
+		<rom name="01xvi_4.2l" offset="0x3000" size="0x1000" crc="ffa45371" sha1="5f79d54e0620187afd660a3e9dc0586c023bbe7b" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="01xvi_12.3b" offset="0x0" size="0x1000" crc="01de9009" sha1="a1e9e3d42551f29fe19769ca0c61ed8a80b6a206" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="01xvi_13.3c" offset="0x0" size="0x1000" crc="2d15b4f6" sha1="062789a15b101e6b3bec6cbaca43c9d1dfd6d67a" />
+		<rom name="01xvi_14.3d" offset="0x1000" size="0x1000" crc="17b87634" sha1="4f7afc227fd8537eafbb341bacf60ccedf2a9b48" />
+		</dataarea>
+		<dataarea name="gfx3" size="0xa000">
+		<rom name="01xvi_15.4m" offset="0x0" size="0x2000" crc="a5b59dcf" sha1="286d2dbef786ac07a5e3ae34d835cb2f22c7fae5" />
+		<rom name="xvi_17.4p" offset="0x2000" size="0x2000" crc="dfb587ce" sha1="acff2bf5cde85a16cdc98a52cdea11f77fadf25a" />
+		<rom name="01xvi_16.4n" offset="0x4000" size="0x1000" crc="64e83f92" sha1="233a0258ecf4ff240d60bd576783e94e837526ae" />
+		<rom name="01xvi_18.4r" offset="0x5000" size="0x2000" crc="e5d614e4" sha1="83ed0c5e0781f9750ce9f8a5d87f59428a23a32a" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x4000">
+		<rom name="01xvi_9.2a" offset="0x0" size="0x1000" crc="bdf36d3f" sha1="fd374f9f59009d7338ce231e2ed20961c130e464" />
+		<rom name="01xvi_10.2b" offset="0x1000" size="0x2000" crc="9802cff9" sha1="f6c4f9024e6de6171a40acd4dec931484199b100" />
+		<rom name="01xvi_11.2c" offset="0x3000" size="0x1000" crc="a374dece" sha1="e06481bf27398e28d8f2e27ef87aa316e4821267" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="xvi-2.7n" offset="0x0" size="0x100" crc="550f06bc" sha1="816a0fafa0b084ac11ae1af70a5186539376fc2a" />
+		<rom name="xvi-1.5n" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0xb00">
+		<rom name="xvi-8.6a" offset="0x0" size="0x100" crc="5cc2727f" sha1="0dc1e63a47a4cb0ba75f6f1e0c15e408bb0ee2a1" />
+		<rom name="xvi-9.6d" offset="0x100" size="0x100" crc="5c8796cc" sha1="63015e3c0874afc6b1ca032f1ffb8f90562c77c8" />
+		<rom name="xvi-10.6e" offset="0x200" size="0x100" crc="3cb60975" sha1="c94d5a5dd4d8a08d6d39c051a4a722581b903f45" />
+		<rom name="01xvi-7.4h" offset="0x300" size="0x200" crc="7c19819e" sha1="37c6842fe75477e3550fc920928c623c071f7681" />
+		<rom name="01xvi-6.4f" offset="0x500" size="0x200" crc="a3a0aba5" sha1="26a5f2a36572a5777517b3a33b8d2cf6106f8d7e" />
+		<rom name="xvi-4.3l" offset="0x700" size="0x200" crc="fd8b9d91" sha1="87ddf0b9d723aabb422d6d416aa9ec6bc246bf34" />
+		<rom name="xvi-5.3m" offset="0x900" size="0x200" crc="bf906d82" sha1="776168a73d3b9f0ce05610acc8a623deae0a572b" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="02xvi_5.3f" offset="0x0" size="0x1000" crc="6346838b" sha1="cc04d536d6704a56e43829abee01ca90e365c310" />
+		<rom name="02xvi_6.3j" offset="0x1000" size="0x1000" crc="d917118d" sha1="27fe599886ca35083fd63f7fc2377cf1dee0224a" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="01xvi_7.2c" offset="0x0" size="0x1000" crc="13707e32" sha1="77338ef04a15e738b7cefa5889a89b835c1375fb" />
+		</dataarea>
+	</part>
+</software>

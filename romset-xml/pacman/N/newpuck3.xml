@@ -1,0 +1,17 @@
+<software name="newpuck3" cloneof="puckman">
+	<description>New Puck-3</description>
+	<year>1998</year>
+	<publisher>Marcel Silvius</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="newpuck2.6e" offset="0x0" size="0x1000" crc="a8ae23c5" sha1="1481a4f083b563350744f9d25b1bcd28073875d6" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="newpuck3.6h" offset="0x2000" size="0x1000" crc="ee3c8685" sha1="17d80ea2766370dcec04070de67cde69d2c3b04b" />
+		<rom name="newpuck3.6j" offset="0x3000" size="0x1000" crc="6ee64463" sha1="5b692313dbe448b6b016f9dd2403757e16578049" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="newpuck3.5e" offset="0x0" size="0x1000" crc="6209b614" sha1="23434b89f25d6164dca619192a282c60a63418e1" />
+		<rom name="newpuck3.5f" offset="0x1000" size="0x1000" crc="923515bc" sha1="a3605a632f4b47616e0c6e4e1cdf1ef9c71bb0e0" />
+		</dataarea>
+	</part>
+</software>

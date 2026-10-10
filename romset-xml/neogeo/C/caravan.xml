@@ -1,0 +1,18 @@
+<software name="caravan">
+	<description>Project Neon Caravan Edition (Prealpha 0.4.19)</description>
+	<year>2019</year>
+	<publisher>Fullset</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="492.p1" offset="0x0" size="0x80000" crc="f45cac3a" sha1="21e283f5fa41d10f0c2bf1f9848bb8f10ea51ad5" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="492.v1" offset="0x0" size="0x100000" crc="2823ca49" sha1="09a9c52ad3be25c0e3edf380a219efb6d4c327b7" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="492.c1" offset="0x0" size="0x80000" crc="87df580b" sha1="5c5dd1fcca16f4bb98156d2ed52a403930843f53" />
+		<rom loadflag="load16_byte" name="492.c2" offset="0x1" size="0x80000" crc="7b854cc1" sha1="df7084e1049c7b156cd17c02000d99dd37d679bb" />
+		</dataarea>
+	</part>
+</software>

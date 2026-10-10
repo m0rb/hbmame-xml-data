@@ -1,0 +1,24 @@
+<software name="kabukikl07" cloneof="kabukikl">
+	<description>Far East of Eden (Super Remix Edition 1.2)</description>
+	<year>1995</year>
+	<publisher>Gaston90</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="092s07.p1" offset="0x100000" size="0x100000" crc="f9a73f58" sha1="eba2acbe7219a9c657fd9af46fe90e63ffe3d8e7" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x700000">
+		<rom name="092.v1" offset="0x0" size="0x200000" crc="69e90596" sha1="1a2007d7784b3ce90d115980c3353862f1664d45" />
+		<rom name="092.v2" offset="0x200000" size="0x200000" crc="7abdb75d" sha1="0bff764889fe02f37877514c7fc450250839f632" />
+		<rom name="092.v3" offset="0x400000" size="0x200000" crc="eccc98d3" sha1="b0dfbdb1ea045cb961323ac6906ab342256c3dc7" />
+		<rom name="092.v4" offset="0x600000" size="0x100000" crc="a7c9c949" sha1="574bc55b45e81ce357b14f5992426115de25cd35" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="092.c1" offset="0x0" size="0x400000" crc="2a9fab01" sha1="aa9f037df33ae0575b328734c76c0918ae1917e9" />
+		<rom loadflag="load16_byte" name="092.c2" offset="0x1" size="0x400000" crc="6d2bac02" sha1="dfe96b62883333872be432e8af1ae617c9e62698" />
+		<rom loadflag="load16_byte" name="092.c3" offset="0x800000" size="0x400000" crc="5da735d6" sha1="f1c05a73794ece15576a0a30c81f4a44faac475a" />
+		<rom loadflag="load16_byte" name="092.c4" offset="0x800001" size="0x400000" crc="de07f997" sha1="c27a4d4bef868eed38dc152ff37d4135b16cc991" />
+		</dataarea>
+	</part>
+</software>

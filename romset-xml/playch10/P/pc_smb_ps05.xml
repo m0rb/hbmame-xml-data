@@ -1,0 +1,16 @@
+<software name="pc_smb_ps05" cloneof="pc_smb">
+	<description>Super Mario Bros. (Another Revision, 2011-12-23)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps05" offset="0x0" size="0x2000" crc="90b06693" sha1="2f7627cc2a8f19661d8ac8c2f19044af0a6f57dc" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps05" offset="0x0" size="0x8000" crc="08d0d8f5" sha1="549e01980ad33a425925d9eefeb34811ce149f15" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

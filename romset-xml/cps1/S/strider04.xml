@@ -1,0 +1,28 @@
+<software name="strider04" cloneof="strider">
+	<description>Strider (SF2 conversion)</description>
+	<year>2017</year>
+	<publisher>Arcadefixer</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c03s04.p1" offset="0x0" size="0x80000" crc="059d4c11" sha1="95d4da2faf87f531acfe4b0aa7a8396940680698" />
+		<rom loadflag="load16_word_swap" name="c03.p5" offset="0x80000" size="0x80000" crc="9b3cfc08" sha1="a7d7f270a097437affa845d80bed82a1fa874878" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c03.m1" offset="0x0" size="0x8000" crc="2ed403bc" sha1="4ce863ea40d789db5a7cfce91d2c7c720deb9be5" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="strider.key" offset="0x0" size="0x80" crc="39065af5" sha1="ffff84fd87e851718c564062564970677da923c9" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="jed" size="0x800">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c03.v1" offset="0x0" size="0x20000" crc="4386bc80" sha1="fb2b261995aeacfa13e7ee40b1a973dfb178f015" />
+		<rom name="c03.v2" offset="0x20000" size="0x20000" crc="444536d7" sha1="a14f5de2f6b5b29ae5161dca1f8c08c566301a91" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>

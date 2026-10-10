@@ -1,0 +1,16 @@
+<software name="asteroid6">
+	<description>Asteroids (Six-Bullet Hack)</description>
+	<year>1979</year>
+	<publisher>Clay Cowgill</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x8000">
+		<rom name="asteroid6.ef2" offset="0x6800" size="0x800" crc="6cdf25a3" sha1="96e7882e5e144757d3adc51de8bfd5f583c0302e" />
+		<rom name="asteroid6.h2" offset="0x7000" size="0x800" crc="b4dcfbde" sha1="447e888c4af704c9f30801b2417617b7caa73921" />
+		<rom name="035143-02.j2" offset="0x7800" size="0x800" crc="312caa02" sha1="1ce2eac1ab90b972e3f1fc3d250908f26328d6cb" />
+		<rom name="035127-02.np3" offset="0x5000" size="0x800" crc="8b71fd9e" sha1="8cd5005e531eafa361d6b7e9eed159d164776c70" />
+		</dataarea>
+		<dataarea name="dvg:prom" size="0x100">
+		<rom name="034602-01.c8" offset="0x0" size="0x100" crc="97953db8" sha1="8cbded64d1dd35b18c4d5cece00f77e7b2cab2ad" />
+		</dataarea>
+	</part>
+</software>

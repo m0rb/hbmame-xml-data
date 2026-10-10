@@ -1,0 +1,25 @@
+<software name="spf2t01" cloneof="spf2t">
+	<description>Super Puzzle Fighter II Turbo (960620U, Boss Hack)</description>
+	<year>1996</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c65t01.p1" offset="0x0" size="0x80000" crc="ca1f3e42" sha1="784214517f3ac3f5f727a18f50992d4fa3417726" />
+		<rom loadflag="load16_word_swap" name="c65.p2" offset="0x80000" size="0x80000" crc="b80649e2" sha1="5bfccd656aea7ff82e9a20bb5856f4ab99b5a007" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c65.m1" offset="0x0" size="0x8000" crc="600fb2a3" sha1="1fab1c2a23bf6ad8309d29ddbbc29435a8aeea13" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c65.m2" offset="0x28000" size="0x20000" crc="496076e0" sha1="1ee4e135140afd0e8e03231e570cd77d140f6367" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="spf2tu.key" offset="0x0" size="0x14" crc="5d7b15e8" sha1="c14c6b148761856bf83b31b52df83be461ac8d62" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c65.q1" offset="0x0" size="0x200000" crc="78442743" sha1="b61190bb586871de6d54af580e3e1d9cc0de0acb" />
+		<rom loadflag="load16_word_swap" name="c65.q2" offset="0x200000" size="0x200000" crc="399d2c7b" sha1="e849dea97b8d16540415c0d9bbc4f9f4eb755ec4" />
+		</dataarea>
+	</part>
+</software>

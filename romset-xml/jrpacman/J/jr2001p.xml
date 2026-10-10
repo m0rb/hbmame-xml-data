@@ -1,0 +1,25 @@
+<software name="jr2001p">
+	<description>Jr. Pac-Man 2001 Plus</description>
+	<year>2000</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrp8d.8d" offset="0x0" size="0x2000" crc="e3fa972e" sha1="5ea34621213c649ca2848ab31aab2cbe751723d4" />
+		<rom name="jrp8e.8e" offset="0x2000" size="0x2000" crc="ec889e94" sha1="8294e9e79f8fd19a419431fa690e6ac4a1302f58" />
+		<rom name="jrp8h.8h" offset="0x8000" size="0x2000" crc="35f1fc6e" sha1="b84b34560b9aae18b24274712b052283faa01730" />
+		<rom name="jrp8j.8j" offset="0xa000" size="0x2000" crc="9737099e" sha1="07d912a61824323c8fc1b8bd0da89172d4f70b91" />
+		<rom name="jrp8k.8k" offset="0xc000" size="0x2000" crc="5252dd97" sha1="18bd4d5381656120e4242811006c20776774de4d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jr2001p.2c" offset="0x0" size="0x2000" crc="d56cb9c5" sha1="e598a28c0a4f1cdce2312a8dc418cfa441fc5fe8" />
+		<rom name="jr2001p.2e" offset="0x2000" size="0x2000" crc="1b534804" sha1="b93764b6d6aacdcb4a50fffec58cab7778ada3ab" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="a290-27axv-axhd.9p" offset="0x20" size="0x100" crc="9f6ea9d8" sha1="62cf15513934d34641433c891a7f73bef82e2fb1" />
+		</dataarea>
+	</part>
+</software>

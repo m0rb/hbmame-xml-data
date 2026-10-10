@@ -1,0 +1,34 @@
+<software name="vhunt2s03" cloneof="vhunt2">
+	<description>Vampire Hunter 2 Arrange (970929J, 2026-10-07)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c75s03.p1" offset="0x0" size="0x80000" crc="5744f6d4" sha1="0a94db40485b36a1ad0d29486fe9ad4dda30ebb3" />
+		<rom loadflag="load16_word_swap" name="c75s03.p2" offset="0x80000" size="0x80000" crc="0de06adb" sha1="4cb21a7d25a277a530c2fba2f0305fd92801efcf" />
+		<rom loadflag="load16_word_swap" name="c75s03.p3" offset="0x100000" size="0x80000" crc="87edf306" sha1="4ad190abe8d7f24dd6ffc0e270b738f0c88d10bc" />
+		<rom loadflag="load16_word_swap" name="c75s03.p4" offset="0x180000" size="0x80000" crc="94118a84" sha1="6350de4c75e257cb8c078788029119833b78de79" />
+		<rom loadflag="load16_word_swap" name="c75s03.p5" offset="0x200000" size="0x80000" crc="a324ffeb" sha1="9732792cc601f304e84f25539b3f4d0dfe8b4a9a" />
+		<rom loadflag="load16_word_swap" name="c75s03.p6" offset="0x280000" size="0x80000" crc="79dbd15c" sha1="c00571bb000ce9a478b6526585b24cc6c4a586b4" />
+		<rom loadflag="load16_word_swap" name="c75s03.p7" offset="0x300000" size="0x80000" crc="f3159a3a" sha1="7c2ffb325aeee514971ace282b8cfff0739ccc20" />
+		<rom loadflag="load16_word_swap" name="c75s03.p8" offset="0x380000" size="0x80000" crc="ecd2d939" sha1="80721e15f49a6a02d216c1018e9ba158135006b5" />
+		<rom loadflag="load16_word_swap" name="c75s03.p9" offset="0x400000" size="0x400000" crc="fc8c4ad3" sha1="f9fcdf184d8532fca48508aed59d89770cce787c" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x88000">
+		<rom name="c75s03.m1" offset="0x0" size="0x8000" crc="f6088d87" sha1="28878b0c1c9882bf0eea17fed52758072310e6bf" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c75s03.m2" offset="0x28000" size="0x20000" crc="7c4fae46" sha1="eea4f0fd0ac3db214362683e080c9dd9b0adcb28" />
+		<rom name="c75s03.m3" offset="0x48000" size="0x40000" crc="04ef903d" sha1="3d4a09d7003576b653081d99bb341f5d712a2b6e" />
+		</dataarea>
+		<dataarea name="gfx" size="0x4000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="vhunt2.key" offset="0x0" size="0x14" crc="61306b20" sha1="f72cf44837f6d934dd6bc877c3c98db388e72a67" />
+		</dataarea>
+		<dataarea name="qsound" size="0x1000000">
+		<rom loadflag="load16_word_swap" name="c75.q1" offset="0x0" size="0x400000" crc="38922efd" sha1="8cfb36bdce3a524d0a81fec12ca0cba82222fa30" />
+		<rom loadflag="load16_word_swap" name="c75.q2" offset="0x400000" size="0x400000" crc="6e2430af" sha1="b475faf943bec4171ba0130f287e1948743ca273" />
+		<rom loadflag="load16_word_swap" name="c75s03.q3" offset="0x800000" size="0x800000" crc="24813909" sha1="c2bd3606eed2277764553d8c75729667dfe27b99" />
+		</dataarea>
+	</part>
+</software>
