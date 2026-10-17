@@ -1,0 +1,31 @@
+<software name="ffightj1s01" cloneof="ffight">
+	<description>Final Fight (1VS2 Enhanced Version, 2017-11-26)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c07j1s01.p1" offset="0x0" size="0x20000" crc="5d9b9222" sha1="4db46e757f8ffad514ec9f3c27613d601b88f316" />
+		<rom loadflag="load16_byte" name="c07j1s01.p2" offset="0x1" size="0x20000" crc="48986323" sha1="004ace666449278aed2a69fdca4a3a0779083d4a" />
+		<rom loadflag="load16_byte" name="c07ua.p3" offset="0x40000" size="0x20000" crc="c371c667" sha1="633977c91a8ff09b7fe83128eced7c4dee9aee1d" />
+		<rom loadflag="load16_byte" name="c07j1.p4" offset="0x40001" size="0x20000" crc="6f81f194" sha1="2cddf75a0a607cf57395583876cf81bcca005871" />
+		<rom loadflag="load16_byte" name="c07u1.p5" offset="0x80000" size="0x20000" crc="0c8dc3fc" sha1="edcce3efd9cdd131ef0c96df15a68722d5c3498e" />
+		<rom loadflag="load16_byte" name="c07u1.p6" offset="0x80001" size="0x20000" crc="8075bab9" sha1="f9c7405133f6fc5557c90e60e8ccc459e4f6fd7d" />
+		<rom loadflag="load16_byte" name="c07u1.p7" offset="0xc0000" size="0x20000" crc="4a934121" sha1="3982c261582755a0eac340d6d7ed96e6c263c8b6" />
+		<rom loadflag="load16_byte" name="c07u1.p8" offset="0xc0001" size="0x20000" crc="2af68154" sha1="7d549cb38650b4b79c68ad6d0dfcefdd62be4e99" />
+		<rom loadflag="load16_byte" name="36v2" offset="0xe0000" size="0x20000" crc="37708588" sha1="ab1a841d37b7cafc88e160dcde4d72b981033fdf" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c07.m1" offset="0x0" size="0x8000" crc="b8367eb5" sha1="ec3db29fdd6200e9a8f4f8073a7e34aef731354f" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="ffightb.key" offset="0x0" size="0x80" crc="328f442c" sha1="f58a07458f00ee7fdd0471fa03f7859ae9e2629b" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c07.v1" offset="0x0" size="0x20000" crc="375c66e7" sha1="36189e23209ce4ae5d9cbabd1574540d0591e7b3" />
+		<rom name="c07.v2" offset="0x20000" size="0x20000" crc="1ef137f9" sha1="974b5e72aa28b87ebfa7438efbdfeda769dedf5e" />
+		</dataarea>
+	</part>
+</software>

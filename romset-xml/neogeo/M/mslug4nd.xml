@@ -1,0 +1,26 @@
+<software name="mslug4nd" cloneof="mslug4">
+	<description>Metal Slug 4 (Fully decrypted)</description>
+	<year>2002</year>
+	<publisher>Mega Enterprise / Playmore Corporation</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="263nd.p1" offset="0x0" size="0x100000" crc="4d7e6624" sha1="125d5203e89cce23a851fa74cc8cbe003ef978f3" />
+		<rom loadflag="load16_word_swap" name="263.p2" offset="0x100000" size="0x400000" crc="fdb7aed8" sha1="dbeaec38f44e58ffedba99e70fa1439c2bf0dfa3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="263nd.v1" offset="0x0" size="0x400000" crc="c1b2af81" sha1="532dca0a2b2e03d50c6ac3adc9ebceb413f61690" />
+		<rom name="263nd.v2" offset="0x400000" size="0x400000" crc="cbbdc6fa" sha1="06abb738cf198804248ecfc92adea38f7f86f612" />
+		<rom name="263nd.v3" offset="0x800000" size="0x400000" crc="c4f1a3cc" sha1="109e8db93875e1b1f3db293d1756b2bbebe63a28" />
+		<rom name="263nd.v4" offset="0xc00000" size="0x400000" crc="40126a0a" sha1="4234e0f4d9a9dc486d7af1eec91a17840a57976d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="263nd.c1" offset="0x0" size="0x800000" crc="361ddda6" sha1="95f329019660f1ec7f15f6ea1e0c2bfc84b02ca8" />
+		<rom loadflag="load16_byte" name="263nd.c2" offset="0x1" size="0x800000" crc="15d192c4" sha1="0b9afb62a1d4d764d616408b09e17a05fc4a87e7" />
+		<rom loadflag="load16_byte" name="263nd.c3" offset="0x1000000" size="0x800000" crc="63fb79ff" sha1="a7da0a554034792721abda4369a71b0c8045f334" />
+		<rom loadflag="load16_byte" name="263nd.c4" offset="0x1000001" size="0x800000" crc="e8623126" sha1="66c2b874cd55c628e7e6768d6f31180c29a734e7" />
+		<rom loadflag="load16_byte" name="263nd.c5" offset="0x2000000" size="0x400000" crc="3348dc5d" sha1="a119e80aa2b36a7d8c7e8debd0eb13441a19adff" />
+		<rom loadflag="load16_byte" name="263nd.c6" offset="0x2000001" size="0x400000" crc="d90fc1a0" sha1="0eaf5f658212c19a4cdbcdbff3b04389a2be76bb" />
+		</dataarea>
+	</part>
+</software>

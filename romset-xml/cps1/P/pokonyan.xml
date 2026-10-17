@@ -1,0 +1,26 @@
+<software name="pokonyan">
+	<description>Pokonyan! Balloon (Japan 940322)</description>
+	<year>1994</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c30.p1" offset="0x0" size="0x20000" crc="196297bf" sha1="4724c4ccb755d3d457f5224d4c4ea860664d3b10" />
+		<rom loadflag="load16_byte" name="c30.p2" offset="0x1" size="0x20000" crc="2d7ee2e9" sha1="af9f8c346e36b4bd6284913129782187e242aa3f" />
+		<rom loadflag="load16_byte" name="c30.p3" offset="0x40000" size="0x20000" crc="8f6abf26" sha1="e9918abc5ca02c8b3f3b5b2410aedc350dc12ec2" />
+		<rom loadflag="load16_byte" name="c30.p4" offset="0x40001" size="0x20000" crc="3fefe432" sha1="42763c047fd976c9a8fec3a38f2b132b6e2e15a9" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c30.m1" offset="0x0" size="0x8000" crc="4e8b81a8" sha1="4a837345223c51d668ec7f4d7460871c00f71482" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="pokonyan.key" offset="0x0" size="0x80" crc="c6b69f33" sha1="1e7211733100a9a9a9afd61fa1d63285f86bd031" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c30.v1" offset="0x0" size="0x20000" crc="71ac69ad" sha1="401fe0294c6b7bc79426ab1922e02a97415cd2ef" />
+		<rom name="c30.v2" offset="0x20000" size="0x20000" crc="71e29699" sha1="8f19a925bbd47ef965c41af233359a1552c7f8b0" />
+		</dataarea>
+	</part>
+</software>

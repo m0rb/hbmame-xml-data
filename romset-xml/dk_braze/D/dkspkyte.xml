@@ -1,0 +1,35 @@
+<software name="dkspkyte" cloneof="dkong">
+	<description>Donkey Kong Spooky Tournament Edition</description>
+	<year>2022</year>
+	<publisher>John Kowalski</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="c_5et_g.bin" offset="0x0" size="0x1000" crc="ba70b88b" sha1="d76ebecfea1af098d843ee7e578e480cd658ac1a" />
+		<rom name="c_5ct_g.bin" offset="0x1000" size="0x1000" crc="5ec461ec" sha1="acb11a8fbdbb3ab46068385fe465f681e3c824bd" />
+		<rom name="c_5bt_g.bin" offset="0x2000" size="0x1000" crc="1c97d324" sha1="c7966261f3a1d3296927e0b6ee1c58039fc53c1f" />
+		<rom name="c_5at_g.bin" offset="0x3000" size="0x1000" crc="b9005ac0" sha1="3fe3599f6fa7c496f782053ddf7bacb453d197c4" />
+		</dataarea>
+		<dataarea name="braze" size="0x10000">
+		<rom name="d2k11.spte" offset="0x0" size="0x10000" crc="2bb8d91e" sha1="1b5246944c715ffd190addd5003bdd27577fae2e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="v_5h_b.spte" offset="0x0" size="0x800" crc="ebc5d9cc" sha1="f4b0bcf3d48dd2d92d7bbb25c711ac0820c30142" />
+		<rom name="v_3pt.spte" offset="0x800" size="0x800" crc="9d881b5f" sha1="42c8070250a356db452e4d008875d20b61082194" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.sp" offset="0x0" size="0x800" crc="1d0b3b77" sha1="4f74cf19e6f74a5686482fde766a5ad45a86af68" />
+		<rom name="l_4n_b.sp" offset="0x800" size="0x800" crc="cd717e7c" sha1="e813c3714abf737e6a9f8d6ec87ec0de85306dc1" />
+		<rom name="l_4r_b.sp" offset="0x1000" size="0x800" crc="d019732b" sha1="44f695103579b1583942627434d6f5801f504cb5" />
+		<rom name="l_4s_b.sp" offset="0x1800" size="0x800" crc="04272273" sha1="4d66296f228cfc07f12ab7cfd1b7af99bd54e574" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.sp" offset="0x0" size="0x100" crc="a837a227" sha1="f5ebbedbc86153864b1bcfa26ab35eeb8856c7e0" />
+		<rom name="c-2j.sp" offset="0x100" size="0x100" crc="244a89f9" sha1="4a59233a4bad4c941aa3aad85d895e8c04d34436" />
+		<rom name="v-5e.sp" offset="0x200" size="0x100" crc="c70b6f9b" sha1="e9f465de5e990478e96be1501cb8c5fc16b3c86e" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>

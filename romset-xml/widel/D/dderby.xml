@@ -1,0 +1,17 @@
+<software name="dderby">
+	<description>Death Derby</description>
+	<year>2003</year>
+	<publisher>David Widel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dderby.6e" offset="0x0" size="0x1000" crc="6f373bd4" sha1="e2c4f9def801c5664cf2b9684a36f762e97d12d6" />
+		<rom name="dderby.6f" offset="0x1000" size="0x1000" crc="2fbf16bf" sha1="9f3714ecc40707cfa4ff1942d5fe87a03888f548" />
+		<rom name="dderby.6h" offset="0x2000" size="0x1000" crc="6e16cd16" sha1="7f13a2b181e4a62d7d71294cac8fe09fd9ac64a9" />
+		<rom name="dderby.6j" offset="0x3000" size="0x1000" crc="f7e09874" sha1="7080aaa47e0bc893cd8bd038de7af769ef4eddf6" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="dderby.5e" offset="0x0" size="0x1000" crc="7e2c0a53" sha1="c3c62b32927ac3c5948faeff28d4c2148fe18d0b" />
+		<rom name="dderby.5f" offset="0x1000" size="0x1000" crc="cb2dd072" sha1="e5813cc4247b9799e9513ff1a624fabc066582e3" />
+		</dataarea>
+	</part>
+</software>

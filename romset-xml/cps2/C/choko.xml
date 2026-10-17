@@ -1,0 +1,24 @@
+<software name="choko">
+	<description>Janpai Puzzle Choukou (Japan 010820)</description>
+	<year>2001</year>
+	<publisher>Mitchell (Capcom license)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c87.p1" offset="0x0" size="0x80000" crc="11f5452f" sha1="1575729cdbb857a3a780df6e3e0efd6968926fb8" />
+		<rom loadflag="load16_word_swap" name="c87.p2" offset="0x80000" size="0x80000" crc="68655378" sha1="a2d82996394cc28622e93f6c338f9b78aa798775" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c87.m1" offset="0x0" size="0x8000" crc="6eda50c2" sha1="7e67c104094a3ced8b3fdd81f52ee42483b30fc5" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="choko.key" offset="0x0" size="0x14" crc="08505e8b" sha1="5c481ffaa93faec57d0b80b678c8c0cca1a699c0" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_byte" name="c87.q1" offset="0x0" size="0x200000" crc="ab45d509" sha1="c58cf87d3828dfe0643cf4c58615f3352bd45508" />
+		<rom loadflag="load16_byte" name="c87.q2" offset="0x1" size="0x200000" crc="fa905c3d" sha1="3eae65b01d50ec4ec4aeff49f434b9b88a50463c" />
+		</dataarea>
+	</part>
+</software>

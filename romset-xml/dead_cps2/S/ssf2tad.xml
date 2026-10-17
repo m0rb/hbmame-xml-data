@@ -1,0 +1,27 @@
+<software name="ssf2tad" cloneof="ssf2t">
+	<description>Super Street Fighter II Turbo (Asia 940223 Phoenix Edition) (bootleg)</description>
+	<year>1994</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c51ad.p1" offset="0x0" size="0x80000" crc="e3c92ece" sha1="8b0d6f632f51719c3e13add5d27701578b6ce0d6" />
+		<rom loadflag="load16_word_swap" name="c51ad.p2" offset="0x80000" size="0x80000" crc="9bf3bb2e" sha1="4bdc6fa585cc67d3b6695f390c95c518cba2bea6" />
+		<rom loadflag="load16_word_swap" name="c51ad.p3" offset="0x100000" size="0x80000" crc="c63358d0" sha1="dde4d9e9adce4dee02322c0fd71615eed0af62e6" />
+		<rom loadflag="load16_word_swap" name="c51ad.p4" offset="0x180000" size="0x80000" crc="ccb29808" sha1="10e7b135a936409fe7c4d7959ea375634a8c68e4" />
+		<rom loadflag="load16_word_swap" name="c51ad.p5" offset="0x200000" size="0x80000" crc="61f94982" sha1="d2f22f50c21393deda7d5838dbd2b265722acd38" />
+		<rom loadflag="load16_word_swap" name="c51ad.p6" offset="0x280000" size="0x80000" crc="d399c36c" sha1="b4c4217843e5c3ef00ab04d58ca9368d2d734065" />
+		<rom loadflag="load16_word_swap" name="c51ad.p7" offset="0x300000" size="0x80000" crc="436784ae" sha1="4f0c8a46842128acf4ef15e3ece5abad859d181f" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c51.m1" offset="0x0" size="0x8000" crc="b47b8835" sha1="c8b2d50fe3a329bd0592ea160d505155d873dab1" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c51.m2" offset="0x28000" size="0x20000" crc="0022633f" sha1="cab3afc79da53e3887eb1ccd1f4d19790728e6cd" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c51.q1" offset="0x0" size="0x200000" crc="9bdbd476" sha1="a8520f77f30b97aae36408e0c4ca1ebbde1808a5" />
+		<rom loadflag="load16_word_swap" name="c51.q2" offset="0x200000" size="0x200000" crc="a05e3aab" sha1="d4eb9cae66c74e956569fea8b815156fbd420f83" />
+		</dataarea>
+	</part>
+</software>

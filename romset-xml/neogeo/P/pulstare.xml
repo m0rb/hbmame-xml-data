@@ -1,0 +1,32 @@
+<software name="pulstare" cloneof="pulstar">
+	<description>Pulstar (Earlier)</description>
+	<year>1995</year>
+	<publisher>Aicom</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x300000">
+		<rom loadflag="load16_word_swap" name="089.p1" offset="0x0" size="0x100000" crc="5e5847a2" sha1="b864d0ec4184b785569ddbf67c2115b5ab86ee3e" />
+		<rom loadflag="load16_word_swap" name="089.p2" offset="0x100000" size="0x200000" crc="028b774c" sha1="fc5da2821a5072f2b78245fc59b6e3eeef116d16" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="089.v1" offset="0x0" size="0x400000" crc="6f726ecb" sha1="e8e2a46af690ce6c7ee64a58ab5010d22df9548c" />
+		<rom name="089.v2" offset="0x400000" size="0x400000" crc="9d2db551" sha1="83f7e5db7fb1502ceadcd334df90b11b1bba78e5" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1c00000">
+		<rom loadflag="load16_byte" name="089e.c1" offset="0x400000" size="0x200000" crc="63020fc6" sha1="68053804dabd146b4d39b0f39d63a30d322972f8" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="089e.c2" offset="0x400001" size="0x200000" crc="260e9d4d" sha1="99870c597003a3c70c6b4d11aefe5fe4e58f03f9" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		<rom loadflag="load16_byte" name="089e.c3" offset="0xc00000" size="0x200000" crc="21ef41d7" sha1="55b26f0f168da50a16de3de3365365df69c4998d" />
+		<rom loadflag="continue" offset="0x800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="089e.c4" offset="0xc00001" size="0x200000" crc="3b9e288f" sha1="9bbf0ca0981dd44ed0651ffc978d60877802ec3d" />
+		<rom loadflag="continue" offset="0x800001" size="0x200000" />
+		<rom loadflag="load16_byte" name="089e.c5" offset="0x1400000" size="0x200000" crc="6fe9259c" sha1="ff3b4da68ed01067dd0f0cde341a0da277b5401c" />
+		<rom loadflag="continue" offset="0x1000000" size="0x200000" />
+		<rom loadflag="load16_byte" name="089e.c6" offset="0x1400001" size="0x200000" crc="dc32f2b4" sha1="3ff3d81622946d6ab21a940f2bbc3999855aa6bf" />
+		<rom loadflag="continue" offset="0x1000001" size="0x200000" />
+		<rom loadflag="load16_byte" name="089.c7" offset="0x1800000" size="0x200000" crc="6a5618ca" sha1="9a1d5f998b0dfabacf9dad45c94bef2bb43e5e0c" />
+		<rom loadflag="load16_byte" name="089.c8" offset="0x1800001" size="0x200000" crc="a223572d" sha1="2791b1212f57937b2b2a95bc9e420c06d0c37669" />
+		</dataarea>
+	</part>
+</software>

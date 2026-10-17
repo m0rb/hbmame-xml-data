@@ -1,0 +1,23 @@
+<software name="pacjrz80" cloneof="mspacman">
+	<description>Pac-Jr on Pacman Hardware</description>
+	<year>2022</year>
+	<publisher>Pookin</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacjrz80.1" offset="0x0" size="0x1000" crc="8e190242" sha1="3c6e540153c16f347993d78202a4a3e18dc5959b" />
+		<rom name="pacjrz80.2" offset="0x1000" size="0x1000" crc="cdd466b5" sha1="40d626adb177936143edfb91e5692ace30d564d7" />
+		<rom name="pacjrz80.3" offset="0x2000" size="0x1000" crc="2b9cbba9" sha1="578dba7faa2b960cde98f6a29534767cdb08ea1b" />
+		<rom name="pacjrz80.4" offset="0x3000" size="0x1000" crc="c9010e06" sha1="d9adb93323afacada3f691a83f00db8634ff4f33" />
+		<rom name="pacjrz80.5" offset="0x8000" size="0x1000" crc="0c4c5d36" sha1="064581261d308a27be296687d46ae998a0940a02" />
+		<rom name="pacjrz80.6" offset="0x9000" size="0x1000" crc="064b1545" sha1="1faf68504d9a28c9354ce6d6a2960904e34e3bf4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacjrz80.5e" offset="0x0" size="0x1000" crc="235981d7" sha1="fcbaf52c3c927db3f3e6d1754011b2904250cb82" />
+		<rom name="pacjrz80.5f" offset="0x1000" size="0x1000" crc="a822eb36" sha1="1b947db8da41fcb05fe0a04e203e06579e2800dd" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="pacjrz80.7f" offset="0x0" size="0x20" crc="b4da2d20" sha1="798754da11341a21eafcffe55eba0861f04a4074" />
+		<rom name="pacjrz80.4a" offset="0x20" size="0x100" crc="2b7d3ac6" sha1="9529a6d8c5d299919230ee40bdf00aba8f85c2b9" />
+		</dataarea>
+	</part>
+</software>

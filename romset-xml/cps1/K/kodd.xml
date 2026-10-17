@@ -1,0 +1,35 @@
+<software name="kodd" cloneof="kod">
+	<description>The King of Dragons (World 910711 Phoenix Edition)</description>
+	<year>2002</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c16d.p1" offset="0x0" size="0x20000" crc="8eb281a4" sha1="6e6e316321c500796bba6b888db8e0445b63bea3" />
+		<rom loadflag="load16_word_swap" name="c16d.p2" offset="0x20000" size="0x20000" crc="9c16c2b9" sha1="1c04419f1223b7a9a0ae2de8f11010b478d58c63" />
+		<rom loadflag="load16_word_swap" name="c16d.p3" offset="0x40000" size="0x20000" crc="b4aeee54" sha1="ed0b965b2f16a6aeb117e7b12ab10d7d0b87dcdf" />
+		<rom loadflag="load16_word_swap" name="c16d.p4" offset="0x60000" size="0x20000" crc="534554bc" sha1="c0b73e8a44b4a5b6679f39a146f01fd0f2c270c8" />
+		<rom loadflag="load16_byte" name="c16.p5" offset="0x80000" size="0x20000" crc="9367bcd9" sha1="8243b4b9bb9756f3fa726717e19a166cb2f5b50a" />
+		<rom loadflag="load16_byte" name="c16.p6" offset="0x80001" size="0x20000" crc="4ca6a48a" sha1="9d440ecd8d2d0e293fecf64ca3915252b94e7aef" />
+		<rom loadflag="load16_byte" name="c16r1.p7" offset="0xc0000" size="0x20000" crc="6a0ba878" sha1="82e4037d73889a76b0cdc7a4f8e77e585d38e56e" />
+		<rom loadflag="load16_byte" name="c16r1.p8" offset="0xc0001" size="0x20000" crc="b509b39d" sha1="6023855e54b170e55abf0f607600031e19e5e722" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c16r1.m1" offset="0x0" size="0x8000" crc="f5514510" sha1="07e9c836adf9ef2f7e7729e99015f71e3b5f16e0" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom loadflag="load16_word" name="c16.c01" offset="0x0" size="0x80000" crc="e45b8701" sha1="604e39e455e81695ee4f899f102d0bcd789cedd0" />
+		<rom loadflag="load16_word" name="c16.c03" offset="0x2" size="0x80000" crc="a7750322" sha1="3c583496a53cd64edf377db35f7f40f02b59b7e7" />
+		<rom loadflag="load16_word" name="c16.c05" offset="0x4" size="0x80000" crc="5f74bf78" sha1="b7c43eea9bf77a0fb571dcd53f8be719e6655fd9" />
+		<rom loadflag="load16_word" name="c16.c07" offset="0x6" size="0x80000" crc="5e5303bf" sha1="d9f90b898ffdf4398b2bbeb48247f06f728e7c00" />
+		<rom loadflag="load16_word" name="c16.c17" offset="0x200000" size="0x80000" crc="113358f3" sha1="9d98eafa74a046f65bf3847fe1d88ea1b0c82b0c" />
+		<rom loadflag="load16_word" name="c16.c19" offset="0x200002" size="0x80000" crc="38853c44" sha1="a6e552fb0138a76a7878b90d202904e2b44ae7ec" />
+		<rom loadflag="load16_word" name="c16.c21" offset="0x200004" size="0x80000" crc="9ef36604" sha1="b42ca0a910b65e1e7bb6e7d734e853ce67e821bf" />
+		<rom loadflag="load16_word" name="c16.c23" offset="0x200006" size="0x80000" crc="402b9b4f" sha1="4c11976976eadf1ad293b31b0a4d047d05032b06" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c16r1.v1" offset="0x0" size="0x20000" crc="69ecb2c8" sha1="fadf266b6b20bd6329a3e638918c5a3106413476" />
+		<rom name="c16r1.v2" offset="0x20000" size="0x20000" crc="02d851c1" sha1="c959a6fc3e7d893557f319debae91f28471f4be2" />
+		</dataarea>
+	</part>
+</software>

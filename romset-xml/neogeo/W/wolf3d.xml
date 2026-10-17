@@ -1,0 +1,22 @@
+<software name="wolf3d">
+	<description>Wolfenstein-3D (v1.2.0)</description>
+	<year>2026</year>
+	<publisher>Thibaut Lion</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="538.p1" offset="0x0" size="0x80000" crc="00b38f35" sha1="2d8fa290062fc56f13cf0e7b95fa26f84d1172d5" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="538.v1" offset="0x0" size="0x200000" crc="cc0f0f7d" sha1="084bafd31ec595f87df4ffb9755ced21dacd32a9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x6000000">
+		<rom loadflag="load16_byte" name="538.c1" offset="0x0" size="0x1000000" crc="cba29aef" sha1="86a506e3374227d241bd1a45d03fa21c6d9342c9" />
+		<rom loadflag="load16_byte" name="538.c2" offset="0x1" size="0x1000000" crc="e88b4a64" sha1="87dc4167a8c317dc526ddcd4635c7f2ce56d8d01" />
+		<rom loadflag="load16_byte" name="538.c3" offset="0x2000000" size="0x1000000" crc="958b670f" sha1="bdf9ac7a6a4bfb8706e3dff23dfbb35bf29b93b4" />
+		<rom loadflag="load16_byte" name="538.c4" offset="0x2000001" size="0x1000000" crc="8b4d1874" sha1="6341d38c27a859534aef448773954bb4c268e7d8" />
+		<rom loadflag="load16_byte" name="538.c5" offset="0x4000000" size="0x1000000" crc="14b469a4" sha1="0ff39429589748f6313ae2726b59824005111d41" />
+		<rom loadflag="load16_byte" name="538.c6" offset="0x4000001" size="0x1000000" crc="df9048ab" sha1="733da040948f7116639e2469c4ba8c9db528e107" />
+		</dataarea>
+	</part>
+</software>

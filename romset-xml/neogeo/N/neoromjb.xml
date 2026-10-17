@@ -1,0 +1,16 @@
+<software name="neoromjb">
+	<description>Neo Rom Jukebox</description>
+	<year>2010</year>
+	<publisher>CeL</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="635.p1" offset="0x0" size="0x80000" crc="fc301f3d" sha1="e7e02963167a612e29e14cfaa53a8eb441961885" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="635.v1" offset="0x0" size="0x80000" crc="68a2a556" sha1="8343465cca82db43c0decea74c314f641e4bbb7a" />
+		</dataarea>
+		<dataarea name="sprites" size="0x10000">
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,24 @@
+<software name="pckgalgr">
+	<description>Pocket Gal (Greek)</description>
+	<year>1987</year>
+	<publisher>GreekRoms</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="eb04gr.rom" offset="0x0" size="0x10000" crc="9a7a826c" sha1="f0c62a760cc05e31568723eaf354a735c28d20ab" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="eb03.f2" offset="0x0" size="0x10000" crc="cb029b02" sha1="fbb3da08ed05ae73fbeeb13e0e2ff735aaf83db8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x10000">
+		<rom name="eb00gr.rom" offset="0x0" size="0x10000" crc="5eeb40e8" sha1="703b2b87954032a383c6f34316df2b5ec6a59488" />
+		</dataarea>
+		<dataarea name="chars" size="0x20000">
+		<rom name="eb01gr.rom" offset="0x0" size="0x10000" crc="9e5e5743" sha1="3379bcd36148c37bfc8d2eb2909104b367797856" />
+		<rom name="eb02gr.rom" offset="0x10000" size="0x10000" crc="be11227c" sha1="c41b10f23ce60829a40851ad024e189bc7e5b07c" />
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		<rom name="eb05.k14" offset="0x0" size="0x200" crc="3b6198cb" sha1="d32b364cfce99637998ca83ad21783f80364dd65" />
+		<rom name="eb06.k15" offset="0x200" size="0x200" crc="1fbd4b59" sha1="84e20329003cf09b849b49e1d83edc330d49f404" />
+		</dataarea>
+	</part>
+</software>

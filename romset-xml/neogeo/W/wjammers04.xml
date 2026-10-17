@@ -1,0 +1,23 @@
+<software name="wjammers04" cloneof="wjammers">
+	<description>Windjammers (Endless Breeze, v1.2.0)</description>
+	<year>2026</year>
+	<publisher>Boomchild</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="065s04.p1" offset="0x0" size="0x100000" crc="e82fae8b" sha1="e98eca1550fde0d67d89f2dbc41e1d9df8e325c8" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="065.v1" offset="0x0" size="0x100000" crc="ce8b3698" sha1="7d75e2a5cf8c90be422f8b425447e81597fe145a" />
+		<rom name="065.v2" offset="0x100000" size="0x100000" crc="659f9b96" sha1="62f40365212153bc3b92a1187fa44f6cdc7f7b83" />
+		<rom name="065.v3" offset="0x200000" size="0x100000" crc="39f73061" sha1="ec57cd58e7f8569cff925d11e2320d588ce4fe49" />
+		<rom name="065.v4" offset="0x300000" size="0x100000" crc="5dee7963" sha1="f8e6de73d65dd80b29c711f00835a574a770cb4e" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="065s04.c1" offset="0x0" size="0x100000" crc="e267ae0e" sha1="fc009a2b70546e8c69e657c740ac481235eae170" />
+		<rom loadflag="load16_byte" name="065s04.c2" offset="0x1" size="0x100000" crc="b26f6d16" sha1="da5a173e27a43a814c98b15df85de19d91ca414a" />
+		<rom loadflag="load16_byte" name="065s04.c3" offset="0x200000" size="0x100000" crc="2fb1c407" sha1="912eb144c071bcaaa3415ed3ba38bb3ffa2ddca2" />
+		<rom loadflag="load16_byte" name="065s04.c4" offset="0x200001" size="0x100000" crc="1fb46167" sha1="c6332ed8f2550e4c2c8296f9964b683d365124a1" />
+		</dataarea>
+	</part>
+</software>

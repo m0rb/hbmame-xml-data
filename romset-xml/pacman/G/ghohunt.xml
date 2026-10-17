@@ -1,0 +1,15 @@
+<software name="ghohunt" cloneof="puckman">
+	<description>Ghost Hunt</description>
+	<year>2016</year>
+	<publisher>Hurray Banana</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="ghohunt.6e" offset="0x0" size="0x1000" crc="b9e9965c" sha1="8026e792fd474c2cc8ad8917da4d57a7930d30b4" />
+		<rom name="ghohunt.6f" offset="0x1000" size="0x1000" crc="9da32395" sha1="8b4d7309de9dab4f58fcdbb29d98ca6c03a2b6fe" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="ghohunt.5e" offset="0x0" size="0x1000" crc="c69b5669" sha1="c4f641ff218aee92dd784968b3e1a030c85d61f6" />
+		<rom name="ghohunt.5f" offset="0x1000" size="0x1000" crc="3ad83b13" sha1="d2ce7ab45cb540f35cb23264e7628ac0ee6b8559" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,37 @@
+<software name="dinopic" cloneof="dino">
+	<description>Cadillacs and Dinosaurs (bootleg with PIC16c57, set 1)</description>
+	<year>1993</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c25b.p1" offset="0x1" size="0x80000" crc="13dfeb08" sha1="cd2f9dd64f4fabe93901247e36dff3763169716d" />
+		<rom loadflag="load16_byte" name="c25b.p2" offset="0x0" size="0x80000" crc="96dfcbf1" sha1="a8bda6edae2c1b79db7ae8a8976fd2457f874373" />
+		<rom loadflag="load16_byte" name="c25b.p3" offset="0x100001" size="0x80000" crc="0e4058ba" sha1="346f9e34ea53dd1bf5cdafa1e38bf2edb09b9a7f" />
+		<rom loadflag="load16_byte" name="c25b.p4" offset="0x100000" size="0x80000" crc="6133f349" sha1="d13af99910623f62c090d25372a2253dbc2f8cbe" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="pic16c57-rp" offset="0x0" size="0x2d4c" crc="5a6d393c" sha1="1391a1590aff5f75bb6fae1c83eddb796b53135d" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom name="c25b.c01" offset="0x0" size="0x40000" crc="f3c2c98d" sha1="98ae51a67fa4159456a4a205eebdd8d1775888d1" />
+		<rom loadflag="continue" offset="0x4" size="0x40000" />
+		<rom name="c25b.c02" offset="0x1" size="0x40000" crc="d574befc" sha1="56482e7a9aa8439f30e3cf72311495ce677a083d" />
+		<rom loadflag="continue" offset="0x5" size="0x40000" />
+		<rom name="c25b.c03" offset="0x2" size="0x40000" crc="55ef0adc" sha1="3b5551ae76ae80882d37fc70a1031a57885d6840" />
+		<rom loadflag="continue" offset="0x6" size="0x40000" />
+		<rom name="c25b.c04" offset="0x3" size="0x40000" crc="cc0805fc" sha1="c512734c28b878a30a0de249929f69784d5d77a1" />
+		<rom loadflag="continue" offset="0x7" size="0x40000" />
+		<rom name="c25b.c17" offset="0x200000" size="0x40000" crc="1371f714" sha1="d2c98096fab08e3d4fd2482e6ebfc970ead656ee" />
+		<rom loadflag="continue" offset="0x200004" size="0x40000" />
+		<rom name="c25b.c18" offset="0x200001" size="0x40000" crc="b284c4a7" sha1="166f571e0afa115f8e38ba427b40e30abcfd70ee" />
+		<rom loadflag="continue" offset="0x200005" size="0x40000" />
+		<rom name="c25b.c19" offset="0x200002" size="0x40000" crc="b7ad3394" sha1="58dec34d9d991ff2817c8a7847749716abae6c77" />
+		<rom loadflag="continue" offset="0x200006" size="0x40000" />
+		<rom name="c25b.c20" offset="0x200003" size="0x40000" crc="88847705" sha1="05dc90067921960e417b7436056a5e1f86abaa1a" />
+		<rom loadflag="continue" offset="0x200007" size="0x40000" />
+		</dataarea>
+		<dataarea name="oki" size="0x80000">
+		<rom name="1.bin" offset="0x0" size="0x80000" crc="7d921309" sha1="d51e60e904d302c2516b734189e141aa171b2b82" />
+		</dataarea>
+	</part>
+</software>

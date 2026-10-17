@@ -1,0 +1,18 @@
+<software name="mslugps20" cloneof="mslug">
+	<description>Metal Slug (Burst Enhanced Edition, 2020-09-19)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="201_ps20.p1" offset="0x0" size="0x200000" crc="8e4ffcce" sha1="75c0d428c6899849f1cb340647383595e220c983" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="201_ps17.v1" offset="0x0" size="0x800000" crc="14cf8459" sha1="d03f0c513cf5b76ae6193f619eb0b08d435e243a" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="201_ps17.c1" offset="0x0" size="0x800000" crc="3baf9125" sha1="42cec2d5a8a471fc98f342a5142774f2911cba7b" />
+		<rom loadflag="load16_byte" name="201_ps17.c2" offset="0x1" size="0x800000" crc="f24190fe" sha1="f63909f4bf7fed19740e249432b019e0a4457130" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,37 @@
+<software name="lbowlingd" cloneof="lbowling">
+	<description>League Bowling (MGD2)</description>
+	<year>1990</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n019001a.038" offset="0x1" size="0x40000" crc="380e358d" sha1="2f9683ca65abb2d046277a7642877f66a29d08f6" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="019.v11" offset="0x0" size="0x80000" crc="0fb74872" sha1="38c555926c77576d63472bc075210c42e9ce13a3" />
+		<rom name="019.v12" offset="0x80000" size="0x80000" crc="029faa57" sha1="7bbaa87e38929ab1e32df5f6a2ec0fd5001e7cdb" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x80000">
+		<rom name="019.v21" offset="0x0" size="0x80000" crc="2efd5ada" sha1="8ba70f5f665d566824333075227d9bce1253b8d8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load32_byte" name="n019001a.538" offset="0x0" size="0x40000" crc="17df7955" sha1="992558200cbe7c0f9fc96cb6b1adb63ded28b833" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n019001a.638" offset="0x1" size="0x40000" crc="84fd2c90" sha1="b0ce2ba62d682f847f238eb5196340f466e6bcda" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n019001a.53c" offset="0x100000" size="0x40000" crc="67bf2d89" sha1="282a29425eed00a85f88c332112bd9e0a95770cf" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n019001a.63c" offset="0x100001" size="0x40000" crc="cb4fbeb0" sha1="a9a985ef66fe39111ccd37a4c1a26707d3bf3045" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n019001b.538" offset="0x200000" size="0x40000" crc="00d36f90" sha1="8d47ea266dd2bf3ccbb9fb21ba860d9e9ec22db0" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n019001b.638" offset="0x200001" size="0x40000" crc="c2ddf431" sha1="2ffbea4164f3099bdf8162c6ecc782d8badfab25" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n019001b.53c" offset="0x300000" size="0x40000" crc="4e971be9" sha1="f137ad0eb9da8c4fffb5893ed694d97647f7e77b" />
+		<rom loadflag="continue" offset="0x300002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n019001b.63c" offset="0x300001" size="0x40000" crc="e67f8c81" sha1="e0e8b24171a61dfe14649e7cff6f95d0a510cb55" />
+		<rom loadflag="continue" offset="0x300003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,25 @@
+<software name="kof97s448" cloneof="kof97">
+	<description>Kof&#x27;97 (Sexy Edition)(Alt)</description>
+	<year>1997</year>
+	<publisher>Katana</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="232.p1" offset="0x0" size="0x100000" crc="7db81ad9" sha1="8bc42be872fd497eb198ca13bf004852b88eb1dc" />
+		<rom loadflag="load16_word_swap" name="232s282.p2" offset="0x100000" size="0x400000" crc="ca63e700" sha1="1b6a4d3491e467eb3cb0d2d947707482cac3ea34" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="232s448.c1" offset="0x0" size="0x800000" crc="c6b94a3e" sha1="385c7c8757d5b1362145d487e71042c9c0294037" />
+		<rom loadflag="load16_byte" name="232s448.c2" offset="0x1" size="0x800000" crc="90b3f1c7" sha1="0b6a94a464b0ce441509a5e300e6313b97a2f8d6" />
+		<rom loadflag="load16_byte" name="232s282.c3" offset="0x1000000" size="0x800000" crc="afde78ed" sha1="2075d68980a867b498fe812f3265a36bddd57a81" />
+		<rom loadflag="load16_byte" name="232s282.c4" offset="0x1000001" size="0x800000" crc="9d61d6ca" sha1="03d81bcda5d1d08fbe2eb2569937bcb0fdf83269" />
+		<rom loadflag="load16_byte" name="232s448.c5" offset="0x2000000" size="0x400000" crc="a738a4b4" sha1="e221f5de56b14bc1d903194a99225b2796eeb712" />
+		<rom loadflag="load16_byte" name="232s448.c6" offset="0x2000001" size="0x400000" crc="3e96c3ed" sha1="de4e1ce1065a5a072fcb4886e95ead4e66d80275" />
+		</dataarea>
+	</part>
+</software>

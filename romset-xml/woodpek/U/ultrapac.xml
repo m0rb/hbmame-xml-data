@@ -1,0 +1,18 @@
+<software name="ultrapac" cloneof="puckman">
+	<description>UltraPac</description>
+	<year>2000</year>
+	<publisher>PacFan</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman6.6h" offset="0x2000" size="0x1000" crc="aee79ea1" sha1="4f3214b56056c3ac00c0535ce5d6a367ccda6e31" />
+		<rom name="ultrapac.6j" offset="0x3000" size="0x1000" crc="84c6c23b" sha1="f207ce54d7ee31d61397f1587292ea6add56cb04" />
+		<rom name="ultrapac.map" offset="0x8000" size="0x1000" crc="be212894" sha1="eaf4d33d1e2ebd14d2c9dd3445666c1319ba7807" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="ultrapac.5e" offset="0x0" size="0x1000" crc="d46efbcf" sha1="1d90cca40f5b0518cf39408e87d9faf42071e6f9" />
+		<rom name="pacman.5f" offset="0x1000" size="0x1000" crc="958fedf9" sha1="4a937ac02216ea8c96477d4a15522070507fb599" />
+		</dataarea>
+	</part>
+</software>

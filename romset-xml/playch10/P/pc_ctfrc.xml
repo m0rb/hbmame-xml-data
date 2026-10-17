@@ -1,0 +1,16 @@
+<software name="pc_ctfrc">
+	<description>Contra Force (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="ctfrc-u1" offset="0x0" size="0x20000" crc="7ff2a7f8" sha1="234041d4c880ccd4acd295c9b2a3d6e37089beda" />
+		</dataarea>
+		<dataarea name="prg" size="0x20000">
+		<rom name="ctfrc-u5" offset="0x0" size="0x20000" crc="1ff7fc0d" sha1="bbf1fb616c13795c9c8e447a72f009ee3746bd90" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="31a05a48.prm" offset="0x0" size="0x10" crc="31a05a48" sha1="8b340600feae03bb5cdab852a9879ecffcc8a2b9" />
+		</dataarea>
+	</part>
+</software>

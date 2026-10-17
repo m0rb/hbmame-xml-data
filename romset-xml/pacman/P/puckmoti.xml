@@ -1,0 +1,17 @@
+<software name="puckmoti" cloneof="puckman">
+	<description>Puckmotik</description>
+	<year>2007</year>
+	<publisher>Hebus</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pac25.6e" offset="0x0" size="0x1000" crc="fee263b3" sha1="87117ba5082cd7a615b4ec7c02dd819003fbd669" />
+		<rom name="puckmanb.6f" offset="0x1000" size="0x1000" crc="39d1fc83" sha1="326dbbf94c6fa2e96613dedb53702f8832b47d59" />
+		<rom name="puckmanb.6h" offset="0x2000" size="0x1000" crc="02083b03" sha1="7e1945f6eb51f2e51806d0439f975f7a2889b9b8" />
+		<rom name="puckmanb.6j" offset="0x3000" size="0x1000" crc="7a36fe55" sha1="01b4c38108d9dc4e48da4f8d685248e1e6821377" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="puckmoti.5e" offset="0x0" size="0x1000" crc="e2a1f6b6" sha1="798daee244fc4275f7ed0bd3a99b527531960807" />
+		<rom name="puckmoti.5f" offset="0x1000" size="0x1000" crc="31d24bb5" sha1="ff26f2199e28f9bbbeca09acf3850b9e76c597da" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,23 @@
+<software name="sf2level" cloneof="sf2ce">
+	<description>Street Fighter II&#x27;: Champion Edition (bootleg with level selection)</description>
+	<year>1992</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c19level.p1" offset="0x0" size="0x100000" crc="435153d5" sha1="3f6f318a9b3def8d62ee576dbaaef623d55c1c64" />
+		<rom loadflag="load16_word_swap" name="c19dkot2.p3" offset="0x100000" size="0x80000" crc="ed4186bd" sha1="f3dfe91d8f4384275190b0d86488843c1161d86f" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c19m8.m1" offset="0x0" size="0x8000" crc="6f07d2cb" sha1="8ef1338d04c1a0b43e24303085105cfdced0bd5e" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2m3.key" offset="0x0" size="0x80" crc="e1cfb9fa" sha1="a93fa22d935e925535b760631bf7408fe2d5f0d5" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c19m8.v1" offset="0x0" size="0x40000" crc="6cfffb11" sha1="995526183ffd35f92e9096500a3fe6237faaa2dd" />
+		</dataarea>
+	</part>
+</software>

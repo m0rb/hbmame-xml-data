@@ -1,0 +1,15 @@
+<software name="pacmatri">
+	<description>Matrix Effect</description>
+	<year>2001</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacmatri.6e" offset="0x0" size="0x1000" crc="29b0497e" sha1="e45b225aabdf2f0549718885c02ae8a8eef3baeb" />
+		<rom name="pacmatri.6f" offset="0x1000" size="0x1000" crc="eaa7b145" sha1="4c0abf30f2c962b6eb2bdda833236b9d58544a89" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="at.5e" offset="0x0" size="0x1000" crc="eeb359bf" sha1="36f153b5ce53475fd144af50e4bd67b0e0b3a01f" />
+		<rom name="pacman.5f" offset="0x1000" size="0x1000" crc="958fedf9" sha1="4a937ac02216ea8c96477d4a15522070507fb599" />
+		</dataarea>
+	</part>
+</software>

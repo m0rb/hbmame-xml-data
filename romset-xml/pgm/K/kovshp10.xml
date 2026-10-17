@@ -1,0 +1,30 @@
+<software name="kovshp10" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Three Troubled Times Enhanced Version Kof 94/95 Set 03)</description>
+	<year>2004</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po10.rom" offset="0x100000" size="0x454f48" crc="645f924f" sha1="7d5ce45910a6ead39b0d0457d9e98e7609b0c3cb" />
+		</dataarea>
+		<dataarea name="ics" size="0x900000">
+		<rom name="m0600_po10.rom" offset="0x400000" size="0x40001c" crc="ae740508" sha1="86d79163028d4615e7f34e4eaea499126a2db7dd" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0600_pw10.rom" offset="0x180000" size="0x800000" crc="a919ec0f" sha1="b464490abba8a5e651c407a7833c3a2e3befa5b8" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x4000000">
+		<rom name="a0600_po10.rom" offset="0x0" size="0x800000" crc="0f73015a" sha1="8d41f1892163b38bf1531283e867ced985304679" />
+		<rom name="a0601_po07.rom" offset="0x800000" size="0x800000" crc="cd391de8" sha1="c593f61ba9e0c42c4a48e549b217c396099ca840" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="a0540_po07.rom" offset="0x1800000" size="0x1000000" crc="7d85204b" sha1="b73fa7fa576089d510f73cc6c79bac5e5ed8cc20" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x2000000">
+		<rom name="b0600_po07.rom" offset="0x0" size="0x800000" crc="437a3c51" sha1="f1d444fe6e66e22aa3ce412de7ef34a647a43554" />
+		<rom name="b0540_po07.rom" offset="0x800000" size="0x800000" crc="6e21727b" sha1="1b23ec0beca8daf8020a4bbab42961c8f5557e1e" />
+		<rom name="b0601_kv11.rom" offset="0x1000000" size="0x400000" crc="184fb667" sha1="532aab9ad823d4eb6c21b143c6d5be429bcc1f38" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_po10.asic" offset="0x0" size="0x4000" crc="8427c690" sha1="e08ac566e98fa604fb819ce6c7871e112969f305" />
+		</dataarea>
+	</part>
+</software>

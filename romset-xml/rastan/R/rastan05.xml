@@ -1,0 +1,33 @@
+<software name="rastan05">
+	<description>Wacky Rastan</description>
+	<year>2000</year>
+	<publisher>Vogel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x60000">
+		<rom loadflag="load16_byte" name="rs19_38.bin" offset="0x0" size="0x10000" crc="a38ac909" sha1="66d792fee03c6bd87d15060b9d5cae74137c5ebd" />
+		<rom loadflag="load16_byte" name="wk_rs07_37.bin" offset="0x1" size="0x10000" crc="bad60872" sha1="e020f79b3ac3d2abccfcd5d135d2dc49e1335c7d" />
+		<rom loadflag="load16_byte" name="wk_rs20_40.bin" offset="0x20000" size="0x10000" crc="6bcf70dc" sha1="3e369548ac01981c503150b44c2747e6c2cec12a" />
+		<rom loadflag="load16_byte" name="wk_rs08_39.bin" offset="0x20001" size="0x10000" crc="8838ecc5" sha1="42b43ab77969bbacdf178fbe73a0a27652ccb297" />
+		<rom loadflag="load16_byte" name="wk_rs21_42.bin" offset="0x40000" size="0x10000" crc="b626c439" sha1="976e820edc4ba107c5b579edaaee1e354e85fb67" />
+		<rom loadflag="load16_byte" name="wk_rs09_43.bin" offset="0x40001" size="0x10000" crc="c928a516" sha1="fe87fdf2d1b7ba93e1986460eb6af648b58f42e4" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x1c000">
+		<rom name="b04-19.49" offset="0x0" size="0x10000" crc="ee81fdd8" sha1="fa59dac2583a7d2979550dffc6f9c6c2bd67bfd5" />
+		</dataarea>
+		<dataarea name="adpcm" size="0x10000">
+		<rom name="b04-20.76" offset="0x0" size="0x10000" crc="fd1a34cc" sha1="b1682959521fa295769207b75cf7d839e9ec95fd" />
+		</dataarea>
+		<dataarea name="pc080sn" size="0x80000">
+		<rom loadflag="load16_byte" name="wk_ic40_01.bin" offset="0x0" size="0x20000" crc="f2111c1f" sha1="bfdb46aeffe3f08fd5095440a7fa439f52d93d92" />
+		<rom loadflag="load16_byte" name="wk_ic67_02.bin" offset="0x1" size="0x20000" crc="a465449c" sha1="7cae41f4c64641fb6ed8115ae7b934c013b964b2" />
+		<rom loadflag="load16_byte" name="wk_ic39_03.bin" offset="0x40000" size="0x20000" crc="a25b10c1" sha1="6a163e12e00b599cf8430d73e39b5a47a94db41e" />
+		<rom loadflag="load16_byte" name="wk_ic66_04.bin" offset="0x40001" size="0x20000" crc="9d4f8e36" sha1="4f6634a5c2eeb7be4582f0a2596bb7caa7fddac3" />
+		</dataarea>
+		<dataarea name="pc090oj" size="0x80000">
+		<rom loadflag="load16_byte" name="wk_ic15_05.bin" offset="0x0" size="0x20000" crc="edc6f1bb" sha1="567e88a4e2bfc39e9f056a9c3aa735297363a376" />
+		<rom loadflag="load16_byte" name="wk_ic28_06.bin" offset="0x1" size="0x20000" crc="f6ada09a" sha1="6ddc23f2499164d4a403d4c519e9b14492a1604b" />
+		<rom loadflag="load16_byte" name="wk_ic14_07.bin" offset="0x40000" size="0x20000" crc="c672101c" sha1="5759adc762f9cffb85175ee66c237a195dc2b656" />
+		<rom loadflag="load16_byte" name="wk_ic27_08.bin" offset="0x40001" size="0x20000" crc="533d567e" sha1="e61082c4c3e9d1422ff01646bb5fded9fda96f65" />
+		</dataarea>
+	</part>
+</software>

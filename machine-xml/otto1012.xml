@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="otto1012" description="Otto1012 cartridges">
+<software name="otto1012">
+	<description>Crazy Otto (prototype of 12 Oct 1981)</description>
+	<year>1981</year>
+	<publisher>General Computer</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="otto1012.a" offset="0x0" size="0x1000" crc="5c4371e3" sha1="3fd16768ab12bb9fc04cdbd99e299488287c1820" />
+		<rom name="otto1012.b" offset="0x1000" size="0x1000" crc="59752c09" sha1="9b0b974ed245ccc28f8218e70661db7c0fd0e0c6" />
+		<rom name="otto1012.c" offset="0x2000" size="0x1000" crc="4b2b8adf" sha1="e925a9352875fa98a67ceafd98fdbfe71c603a54" />
+		<rom name="otto1012.d" offset="0x3000" size="0x1000" crc="e86bfaaa" sha1="8d648611c69e29223713c2a57e9947e4de28c5fe" />
+		<rom name="otto1012.e" offset="0x8000" size="0x1000" crc="b39781b1" sha1="6dccaf70e4a82093092c66272fee625bae707cb9" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="otto1012.5e" offset="0x0" size="0x1000" crc="66549c54" sha1="482918c33f6723ad822e4ed95424818d73f19e29" />
+		<rom name="otto1012.5f" offset="0x1000" size="0x1000" crc="1fc606c9" sha1="4ae25d59a0a391026e0e675033f97c31bfa9191a" />
+		</dataarea>
+	</part>
+</software>
+<software name="otto1020">
+	<description>Crazy Otto (prototype of ~20 Oct 1981)</description>
+	<year>1981</year>
+	<publisher>General Computer</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="otto1020.a" offset="0x0" size="0x1000" crc="e95205f6" sha1="0a6ca09f685d20ad31753607e636bcea149d9b95" />
+		<rom name="otto1020.b" offset="0x1000" size="0x1000" crc="147662ce" sha1="e53e6a2aa91c240c5c2822805645d7baa0b07858" />
+		<rom name="otto1020.c" offset="0x2000" size="0x1000" crc="76ef892a" sha1="f6167e0b21548b87c8938630654993e9cd5f034d" />
+		<rom name="otto1020.d" offset="0x3000" size="0x1000" crc="a4a0db13" sha1="835b614ceec5c7ac104c3b6b3a4bebde73fff47c" />
+		<rom name="otto1020.e0" offset="0x8000" size="0x1000" crc="50f4b8ee" sha1="a4afc51a4571e3a04f69d0bb0fd3b1b032b7388f" />
+		<rom name="otto1020.e1" offset="0x9000" size="0x1000" crc="5d6bbe59" sha1="ba8d80b813687590da6dc4e217dfd01f90751840" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="otto1020.5e" offset="0x0" size="0x1000" crc="54a743f7" sha1="9406b856edf3f6a7979926295663cabdf53bb0d4" />
+		<rom name="otto1020.5f" offset="0x1000" size="0x1000" crc="f03543cb" sha1="87ae19336bf5f98a05e5648fffcc273405f69de2" />
+		</dataarea>
+	</part>
+</software>
+<software name="otto1029">
+	<description>Crazy Otto (prototype of 29 Oct 1981)</description>
+	<year>1981</year>
+	<publisher>General Computer</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="otto1029.e2" offset="0x3000" size="0x1000" crc="4c0be836" sha1="898e3078e6001ddc218fb742a48585a020dd55d6" />
+		<rom name="otto1029.e0" offset="0x8000" size="0x800" crc="aa18cf70" sha1="3d0d4ddde64b8a280920961a993b77913b093855" />
+		<rom name="otto1029.e1" offset="0x9000" size="0x1000" crc="608075f0" sha1="9a3ef8ddd8268929a58f1fcc86b7fdfc28350b4a" />
+		<rom name="pacman.6j" offset="0xb000" size="0x1000" crc="817d94e3" sha1="d4a70d56bb01d27d094d73db8667ffb00ca69cb9" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="otto1029.5e" offset="0x0" size="0x1000" crc="54a743f7" sha1="9406b856edf3f6a7979926295663cabdf53bb0d4" />
+		<rom name="otto1029.5f" offset="0x1000" size="0x1000" crc="05527fa1" sha1="8d9e369890c25bb87e7dc16e6bdc8026ed8717df" />
+		</dataarea>
+	</part>
+</software>
+<software name="sp4n1029">
+	<description>Super Pac-Man (prototype of 29 Oct 1981 with Crazy Otto monsters)</description>
+	<year>1981</year>
+	<publisher>General Computer</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="sp4_1029.e2" offset="0x3000" size="0x1000" crc="8a782906" sha1="d111d212e305720b7ef87b7a000753070a30eb0d" />
+		<rom name="sp4_1029.e0" offset="0x8000" size="0x800" crc="04963b3f" sha1="c5f6bd6c66ae25f8d63fa36e69ab074548db4eea" />
+		<rom name="sp4_1029.e1" offset="0x9000" size="0x1000" crc="b7ebb1a4" sha1="7ff386029f6efdd899c735b84c8753b2f5252365" />
+		<rom name="pacman.6j" offset="0xb000" size="0x1000" crc="817d94e3" sha1="d4a70d56bb01d27d094d73db8667ffb00ca69cb9" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="sp4_1029.5e" offset="0x0" size="0x1000" crc="593576fe" sha1="238006f0d4fe6d478521a8d116f8d0679b502f6d" />
+		<rom name="sp4n1029.5f" offset="0x1000" size="0x1000" crc="49e7cc0a" sha1="4b012140aa249563aff4c91fc3430d023476c7c7" />
+		</dataarea>
+	</part>
+</software>
+<software name="sp4o1029">
+	<description>Super Pac-Man (prototype of 29 Oct 1981 with Pac-Man monsters)</description>
+	<year>1981</year>
+	<publisher>General Computer</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="sp4_1029.e2" offset="0x3000" size="0x1000" crc="8a782906" sha1="d111d212e305720b7ef87b7a000753070a30eb0d" />
+		<rom name="sp4_1029.e0" offset="0x8000" size="0x800" crc="04963b3f" sha1="c5f6bd6c66ae25f8d63fa36e69ab074548db4eea" />
+		<rom name="sp4_1029.e1" offset="0x9000" size="0x1000" crc="b7ebb1a4" sha1="7ff386029f6efdd899c735b84c8753b2f5252365" />
+		<rom name="pacman.6j" offset="0xb000" size="0x1000" crc="817d94e3" sha1="d4a70d56bb01d27d094d73db8667ffb00ca69cb9" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="sp4_1029.5e" offset="0x0" size="0x1000" crc="593576fe" sha1="238006f0d4fe6d478521a8d116f8d0679b502f6d" />
+		<rom name="sp4o1029.5f" offset="0x1000" size="0x1000" crc="3eeb25ff" sha1="ba871100a989eb5edcfd820783f1dd599f55643c" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

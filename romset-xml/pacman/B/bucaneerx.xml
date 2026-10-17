@@ -1,0 +1,19 @@
+<software name="bucaneerx" cloneof="puckman">
+	<description>Buccaneer</description>
+	<year>1981</year>
+	<publisher>Bucco</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pac25.6e" offset="0x0" size="0x1000" crc="fee263b3" sha1="87117ba5082cd7a615b4ec7c02dd819003fbd669" />
+		<rom name="puckmanb.6f" offset="0x1000" size="0x1000" crc="39d1fc83" sha1="326dbbf94c6fa2e96613dedb53702f8832b47d59" />
+		<rom name="newpuck2.6h" offset="0x2000" size="0x1000" crc="197443f8" sha1="119aab12a9e1052c7b9a1f81e563740b41429a8c" />
+		<rom name="bucaneer.6k" offset="0x3000" size="0x1000" crc="c4d9169a" sha1="f34a51d9fa90739214ab9e837b2602c992a73576" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="bucaneer.5e" offset="0x0" size="0x800" crc="4060c077" sha1="78d4aa5243246f73533fc0886438dc1fa6f7ebe5" />
+		<rom name="bucaneer.5h" offset="0x800" size="0x800" crc="e3861283" sha1="61cf8ed24902910e98438d9e2e2745f226ad2a13" />
+		<rom name="bucaneer.5f" offset="0x1000" size="0x800" crc="09f66dec" sha1="2d3649341fed19bac15ec274f7d747de46a3edb2" />
+		<rom name="bucaneer.5j" offset="0x1800" size="0x800" crc="653314e7" sha1="c466a421917b3502e9115ebda1b2d11f7f586de8" />
+		</dataarea>
+	</part>
+</software>

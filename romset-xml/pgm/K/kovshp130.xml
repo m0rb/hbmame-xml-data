@@ -1,0 +1,26 @@
+<software name="kovshp130" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Gone With The Wind Warriors 2019, 2019-02-28)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po130.rom" offset="0x100000" size="0x200000" crc="60992645" sha1="ec4641e90b9c085c905bb01984f78304d421b7d8" />
+		<rom loadflag="load16_word_swap" name="p0601h_101_po130.rom" offset="0x300000" size="0x200000" crc="f73c8e82" sha1="7c13904332f5b48b0397c1c0be8a20c707087247" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u5" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0600_pw10.rom" offset="0x180000" size="0x800000" crc="a919ec0f" sha1="b464490abba8a5e651c407a7833c3a2e3befa5b8" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_po130.rom" offset="0x0" size="0x2000000" crc="a3f903ca" sha1="e717489adf89f4769cf2583526b9a42d60db3cd0" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_po130.rom" offset="0x0" size="0x1000000" crc="7d4930d4" sha1="93246fee290f2034a0af120bd22e253005cc80cf" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_po01.asic" offset="0x0" size="0x4000" crc="7ece721c" sha1="3aa11f11803643f9aa4bdafa35421626d066c4e9" />
+		</dataarea>
+	</part>
+</software>

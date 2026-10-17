@@ -1,0 +1,30 @@
+<software name="kof2002s116" cloneof="kof2002">
+	<description>Kof2002 (Plus 2025)</description>
+	<year>2025</year>
+	<publisher>GSC2007 / Dream</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="265s116.p1" offset="0x0" size="0x100000" crc="d2874a19" sha1="331bdb96a6e4f99ab3d361dfe7af84b475a52fad" />
+		<rom loadflag="load16_word_swap" name="265s116.p2" offset="0x100000" size="0x500000" crc="14921466" sha1="b67fc9f39680cc02b425ff767682835c5365dd05" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="kf10-v1.bin" offset="0x0" size="0x800000" crc="0fc9a58d" sha1="9d79ef00e2c2abd9f29af5521c2fbe5798bf336f" />
+		<rom name="kf10-v2.bin" offset="0x800000" size="0x800000" crc="b8c475a4" sha1="10caf9c69927a223445d2c4b147864c02ce520a8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x5000000">
+		<rom loadflag="load16_byte" name="265d.c1" offset="0x0" size="0x800000" crc="7efa6ef7" sha1="71345a4202e7cc9239538fb978638141416c8893" />
+		<rom loadflag="load16_byte" name="265d.c2" offset="0x1" size="0x800000" crc="aa82948b" sha1="b2a40797f68bdeb80bc54dccc5495be68934bf0e" />
+		<rom loadflag="load16_byte" name="265d.c3" offset="0x1000000" size="0x800000" crc="959fad0b" sha1="63ab83ddc5f688dc8165a7ff8d262df3fcd942a2" />
+		<rom loadflag="load16_byte" name="265d.c4" offset="0x1000001" size="0x800000" crc="efe6a468" sha1="2a414285e48aa948b5b0d4a9333bab083b5fb853" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="265ps2re.c7" offset="0x3000000" size="0x800000" crc="f0897b93" sha1="f1c38737b148c459212b61066e8c279852f080b3" />
+		<rom loadflag="load16_byte" name="265ps2re.c8" offset="0x3000001" size="0x800000" crc="8d27a4a6" sha1="f05a1fea1b2e542b70b11e58455812e9186d0d77" />
+		<rom loadflag="load16_byte" name="265s116.c9" offset="0x4000000" size="0x800000" crc="1a2a8f68" sha1="2f973312a7afc5dbf05f7c3a887ccd51cd27c485" />
+		<rom loadflag="load16_byte" name="265ps2re.c10" offset="0x4000001" size="0x800000" crc="c724c069" sha1="26974478ed31c68a3b987986849c8386f8c5af8c" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="265s116.p3" offset="0x0" size="0x100000" crc="6808554f" sha1="0385e68b0577d39cacc43d3d1bb9e97b9d5d3e89" />
+		</dataarea>
+	</part>
+</software>

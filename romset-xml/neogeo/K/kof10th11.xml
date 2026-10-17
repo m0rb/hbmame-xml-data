@@ -1,0 +1,33 @@
+<software name="kof10th11" cloneof="kof2002">
+	<description>Kof 10th Anniversary (Practice Mode Maximum Power)</description>
+	<year>2005</year>
+	<publisher>wesker[FGCH]</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x900000">
+		<rom loadflag="load16_word_swap" name="kf10hc11.p1" offset="0x0" size="0x800000" crc="d87dece7" sha1="b3f0caf44fc83b4d4b8ccc0792f198f52b102277" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="kf10-v1.bin" offset="0x0" size="0x800000" crc="0fc9a58d" sha1="9d79ef00e2c2abd9f29af5521c2fbe5798bf336f" />
+		<rom name="kf10-v2.bin" offset="0x800000" size="0x800000" crc="b8c475a4" sha1="10caf9c69927a223445d2c4b147864c02ce520a8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="kf10-c1a.bin" offset="0x0" size="0x400000" crc="3bbc0364" sha1="e8aa7ff82f151ce1db56f259377b64cceef85af0" />
+		<rom loadflag="load16_byte" name="kf10-c2a.bin" offset="0x1" size="0x400000" crc="91230075" sha1="d9098e05a7ba6008661147b6bf8bc2f494b8b72b" />
+		<rom loadflag="load16_byte" name="kf10-c1b.bin" offset="0x800000" size="0x400000" crc="b5abfc28" sha1="eabf60992bb3485c95330065294071ec155bfe7c" />
+		<rom loadflag="load16_byte" name="kf10-c2b.bin" offset="0x800001" size="0x400000" crc="6cc4c6e1" sha1="be824a944e745ee18efdc45c81fd496a4d624b9c" />
+		<rom loadflag="load16_byte" name="kf10-c3a.bin" offset="0x1000000" size="0x400000" crc="5b3d4a16" sha1="93ac1cd7739100f8c32732644f81f2a19837b131" />
+		<rom loadflag="load16_byte" name="kf10-c4a.bin" offset="0x1000001" size="0x400000" crc="c6f3419b" sha1="340c17a73aeb7bf8a6209f8459e6f00000075b50" />
+		<rom loadflag="load16_byte" name="kf10-c3b.bin" offset="0x1800000" size="0x400000" crc="9d2bba19" sha1="5ebbd0af3f83a60e33c8ccb743e3d5f5a96f1273" />
+		<rom loadflag="load16_byte" name="kf10-c4b.bin" offset="0x1800001" size="0x400000" crc="5a4050cb" sha1="8fd2291f349efa1ed5cd37ad4e273b60fe831a77" />
+		<rom loadflag="load16_byte" name="kf10-c5a.bin" offset="0x2000000" size="0x400000" crc="a289d1e1" sha1="50c7d7ebde6e118a01036cc3e40827fcd9f0d3fd" />
+		<rom loadflag="load16_byte" name="kf10-c6a.bin" offset="0x2000001" size="0x400000" crc="e6494b5d" sha1="18e064b9867ae0b0794065f8dbefd486620419db" />
+		<rom loadflag="load16_byte" name="kf10-c5b.bin" offset="0x2800000" size="0x400000" crc="404fff02" sha1="56d1b32c87ea4885e49264e8b21846e465a20e1f" />
+		<rom loadflag="load16_byte" name="kf10-c6b.bin" offset="0x2800001" size="0x400000" crc="f2ccfc9e" sha1="69db7fac7023785ab94ea711a72dbc2826cfe1a3" />
+		<rom loadflag="load16_byte" name="kf10-c7a.bin" offset="0x3000000" size="0x400000" crc="be79c5a8" sha1="ded3c5eb3571647f50533eb682c2675372ace3fb" />
+		<rom loadflag="load16_byte" name="kf10-c8a.bin" offset="0x3000001" size="0x400000" crc="a5952ca4" sha1="76dbb3cb45ce5a4beffa1ed29491204fc6617e42" />
+		<rom loadflag="load16_byte" name="kf10-c7b.bin" offset="0x3800000" size="0x400000" crc="3fdb3542" sha1="7d2050752a2064cd6729f483a0da93808e2c6033" />
+		<rom loadflag="load16_byte" name="kf10-c8b.bin" offset="0x3800001" size="0x400000" crc="661b7a52" sha1="0ae2ad2389134892f156337332b77adade3ddad1" />
+		</dataarea>
+	</part>
+</software>

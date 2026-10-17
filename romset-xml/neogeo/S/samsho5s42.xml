@@ -1,0 +1,25 @@
+<software name="samsho5s42" cloneof="samsho5">
+	<description>Samurai Shodown V (XBOX version)</description>
+	<year>2003</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="270s42.p1" offset="0x0" size="0x800000" crc="16983af9" sha1="8b1ab272200bede14ad66d7e98474ac3fb7564d3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="270s35.v1" offset="0x0" size="0x800000" crc="809c7617" sha1="b6b542eb4c1078016fcd78d050433dc8e3029329" />
+		<rom name="270s35.v2" offset="0x800000" size="0x800000" crc="42671607" sha1="4fa64b5a9349e9c3d5d60806c9da4a2b6beff18a" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="270s42.c1" offset="0x0" size="0x800000" crc="25272e50" sha1="cc2aa5e5de2483539398f27f317ab2dda7b5c49e" />
+		<rom loadflag="load16_byte" name="270s42.c2" offset="0x1" size="0x800000" crc="ba68f2e7" sha1="77b9b5ddc3b313df0dd328c75eac0e8bdfcebad8" />
+		<rom loadflag="load16_byte" name="270s42.c3" offset="0x1000000" size="0x800000" crc="75883cde" sha1="2f9d72a07f8f14b52150cfb70bbc33d171a3d515" />
+		<rom loadflag="load16_byte" name="270s42.c4" offset="0x1000001" size="0x800000" crc="348540e6" sha1="4c6eec8948fbb67ae57eaa4a98525deed6cd2859" />
+		<rom loadflag="load16_byte" name="270s42.c5" offset="0x2000000" size="0x800000" crc="1fee8dc8" sha1="c7f1016ad711ec248218627c92dd5af68cba0206" />
+		<rom loadflag="load16_byte" name="270s42.c6" offset="0x2000001" size="0x800000" crc="c300b50d" sha1="8c8fbb81dbc6c283b55380d577944c6b9cdd6cf4" />
+		<rom loadflag="load16_byte" name="270s42.c7" offset="0x3000000" size="0x800000" crc="5e722b0b" sha1="7015dac7cc234473949912216a1b82ca640b52b6" />
+		<rom loadflag="load16_byte" name="270s42.c8" offset="0x3000001" size="0x800000" crc="e2a2c546" sha1="c870acb090606ae185fa9d7b4932949abacb0705" />
+		</dataarea>
+	</part>
+</software>

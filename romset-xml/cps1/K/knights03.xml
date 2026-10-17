@@ -1,0 +1,24 @@
+<software name="knights03" cloneof="knights">
+	<description>Knights of the Round (911127 etc bootleg set 2)</description>
+	<year>1991</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c18s03.p1" offset="0x0" size="0x80000" crc="a7fd309a" sha1="b4f163d9588e9d8dd6f2ba6d6ae520efb620c1ac" />
+		<rom loadflag="load16_word_swap" name="c18s02.p5" offset="0x80000" size="0x80000" crc="1438d070" sha1="4f6fad844c3e8eb960bb6cb85ac570979c0ae973" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c18.m1" offset="0x0" size="0x8000" crc="5e44d9ee" sha1="47a7503321be8d52b5c44af838e3bb82ee15a415" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="knights03.key" offset="0x0" size="0x80" crc="ab2dff46" sha1="9bc8ec843ec9e8522858df8fb72e8c0e3fa1f023" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c18.v1" offset="0x0" size="0x20000" crc="da69d15f" sha1="9616207e693bae85705f786cef60b9f6951b5067" />
+		<rom name="c18.v2" offset="0x20000" size="0x20000" crc="bfc654e9" sha1="01b3d92e4dedf55ea3933d387c7ddb9ba2549773" />
+		</dataarea>
+	</part>
+</software>

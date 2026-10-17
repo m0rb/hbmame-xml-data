@@ -1,0 +1,26 @@
+<software name="tmnt2s03">
+	<description>Teenage Mutant Ninja Turtles (Cowabunga Mode)</description>
+	<year>1991</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="063ada02s03.8e" offset="0x0" size="0x20000" crc="45109177" sha1="9c264d80e9cabb3529acf5860d7730b4f1cd1bfe" />
+		<rom loadflag="load16_byte" name="063ada03s03.8g" offset="0x1" size="0x20000" crc="cf50ffc3" sha1="4e84705582014f264b67a1982dd40930e61479e8" />
+		<rom loadflag="load16_byte" name="063ada04.10e" offset="0x40000" size="0x20000" crc="05ad187a" sha1="27a36a02ef792d87ffa2364537c42b6c50d6e4f0" />
+		<rom loadflag="load16_byte" name="063ada05.10g" offset="0x40001" size="0x20000" crc="d4826547" sha1="ffee07be64469fa386a0979352b4fe20c352fee4" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="063b01.2f" offset="0x0" size="0x10000" crc="364f548a" sha1="e0636e27d4fc48b2ccb1417b63d2b68d9e272c06" />
+		</dataarea>
+		<dataarea name="eeprom" size="0x80">
+		<rom name="tmnt2_ada.nv" offset="0x0" size="0x80" crc="063068a0" sha1="c1da5319428fd8fb60305a2d7cc166596b2fe5a4" />
+		</dataarea>
+		<dataarea name="k052109" size="0x100000">
+		</dataarea>
+		<dataarea name="k053245" size="0x400000">
+		</dataarea>
+		<dataarea name="k053260" size="0x200000">
+		<rom name="063b06.1d" offset="0x0" size="0x200000" crc="1e510aa5" sha1="02b9bd6bb6b098026a620e4d671c40a31ad9e318" />
+		</dataarea>
+	</part>
+</software>

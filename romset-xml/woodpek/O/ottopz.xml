@@ -1,0 +1,19 @@
+<software name="ottopz" cloneof="mspacman">
+	<description>Otto Project PZ</description>
+	<year>2014</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="ottopz.1" offset="0x0" size="0x1000" crc="35b94585" sha1="6a8350efbd6fab30b22365c6a2ed7e23f47af0e6" />
+		<rom name="ottopz.2" offset="0x1000" size="0x1000" crc="298dbd3d" sha1="302c82562c66c267dedcc7e7d5e3ab8234b5e20c" />
+		<rom name="ottopz.3" offset="0x2000" size="0x1000" crc="6f0c25bd" sha1="f4cabdb7462310c14ecde5db9f586360ac1829f4" />
+		<rom name="ottopz.4" offset="0x3000" size="0x1000" crc="3af7ef8c" sha1="bf340f3fa275950c0eda4fbf3eb3115edd039bd6" />
+		<rom name="ottopz.5" offset="0x8000" size="0x1000" crc="098c2a09" sha1="cf0e69c891dbc8b448c359abf3e869d0aaba02df" />
+		<rom name="ottopz.6" offset="0x9000" size="0x1000" crc="367e5c05" sha1="15bed84c6480fab5e7bcbbd1dbb2b8919ac1dca5" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="ottopz.5e" offset="0x0" size="0x1000" crc="046d76fb" sha1="44f607dbed727a0ae5152da67b6953ba9619566f" />
+		<rom name="ottopz.5f" offset="0x1000" size="0x1000" crc="402e194d" sha1="01867241edd28f25aa7be1d4004bb2c73979d8d0" />
+		</dataarea>
+	</part>
+</software>

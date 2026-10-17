@@ -1,0 +1,15 @@
+<software name="emeralda01" cloneof="emeralda">
+	<description>Emeraldia (New Rotate)</description>
+	<year>2022</year>
+	<publisher>Bankbank</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_byte" name="s01.6c" offset="0x1" size="0x80000" crc="9b60320f" sha1="7265f6eb84d35a495fbe012c29332ecc8a94a457" />
+		<rom loadflag="load16_byte" name="s01.6f" offset="0x0" size="0x80000" crc="5411cbec" sha1="253ff3c46ce2ebbac0df2ad0b3dda255135878db" />
+		<rom loadflag="load16_byte" name="em2-ep1l.7c" offset="0x100001" size="0x80000" crc="6c3e5b53" sha1="72b941e28c7fda8cb81240a8226386fe55c14e2d" />
+		<rom loadflag="load16_byte" name="em2-ep1u.7f" offset="0x100000" size="0x80000" crc="dee15a81" sha1="474a264029bd77e4205773a7461dea695e65933f" />
+		</dataarea>
+		<dataarea name="maskrom" endianness="big" size="0x800000">
+		</dataarea>
+	</part>
+</software>

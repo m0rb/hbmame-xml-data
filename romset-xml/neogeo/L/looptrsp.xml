@@ -1,0 +1,21 @@
+<software name="looptrsp" cloneof="looptris">
+	<description>Looptris Plus (2022-12-24)</description>
+	<year>2022</year>
+	<publisher>Blastar</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="414.p1" offset="0x0" size="0x80000" crc="894bb290" sha1="f33ed9fe75ca7b5a6da00fe5bff76e26cba85e08" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="414.v1" offset="0x0" size="0x80000" crc="c9f86637" sha1="edb712d5cce180e1d5b6e338e9abfab1125c5581" />
+		<rom name="414.v2" offset="0x80000" size="0x80000" crc="41b3e17a" sha1="ef216379dbdbbea04cfffa47123436213a8cf26e" />
+		<rom name="414.v3" offset="0x100000" size="0x80000" crc="1ed4e538" sha1="921913be499194236535052ed3140fb7169d16e9" />
+		<rom name="414.v4" offset="0x180000" size="0x80000" crc="705e7065" sha1="a5eea38afa58db69c0f17e0379da3d819639971f" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="413.c1" offset="0x0" size="0x80000" crc="b9413f13" sha1="5e7175dff9510dad55f8f05e9b307c3c05d92209" />
+		<rom loadflag="load16_byte" name="413.c2" offset="0x1" size="0x80000" crc="9409dbe8" sha1="1e9562aa34f6202e8012104ab79916453fec072e" />
+		</dataarea>
+	</part>
+</software>

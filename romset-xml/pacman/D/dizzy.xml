@@ -1,0 +1,17 @@
+<software name="dizzy" cloneof="puckman">
+	<description>Dizzy Ghost - A Reversal of Roles</description>
+	<year>2000</year>
+	<publisher>Tim Appleton</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="dizzy.6j" offset="0x3000" size="0x1000" crc="bf05bf15" sha1="9a440a7a67731553269ad72dc2340de1fb9a89a8" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="dizzy.5e" offset="0x0" size="0x1000" crc="f999a8d9" sha1="4feecc8f06ea9149751f0f97828babca1bdf3fd4" />
+		<rom name="dizzy.5f" offset="0x1000" size="0x1000" crc="7cb7b9b1" sha1="3bd09964a2d49c65a3619ddfc3635066a7097328" />
+		</dataarea>
+	</part>
+</software>

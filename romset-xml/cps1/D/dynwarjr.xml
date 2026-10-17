@@ -1,0 +1,24 @@
+<software name="dynwarjr" cloneof="dynwar">
+	<description>Tenchi wo Kurau (Japan Resale Ver.)</description>
+	<year>1989</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c04jr.p1" offset="0x0" size="0x80000" crc="088a3009" sha1="d4c8273d19291d278d2ff895712dfbd8dfda6c84" />
+		<rom loadflag="load16_word_swap" name="c04.p5" offset="0x80000" size="0x80000" crc="93654bcf" sha1="c72daeb2a98d350568555059a3225343c219a1d2" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c04jr.m1" offset="0x0" size="0x8000" crc="db77d899" sha1="314a8134ed15f603f1c7894fd50b14aef5c9fc7a" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="dynwarjr.key" offset="0x0" size="0x80" crc="f306803d" sha1="6d6cfa88b07ffdd45d4a3c2addd0ea8e0c197a39" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c04j.v1" offset="0x0" size="0x20000" crc="7e5f6cb4" sha1="c7b6b7d6dfe5f9f0e1521e7ce990229f480cf68d" />
+		<rom name="c04j.v2" offset="0x20000" size="0x20000" crc="4a30c737" sha1="426eb90f2edf73eb468c94b4a094da3d46acbab2" />
+		</dataarea>
+	</part>
+</software>

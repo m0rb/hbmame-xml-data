@@ -1,0 +1,38 @@
+<software name="kotmd" cloneof="kotm">
+	<description>King of the Monsters (MGD2)</description>
+	<year>1991</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n016001a.038" offset="0x1" size="0x40000" crc="d239c184" sha1="feb139ce089385b6b1bc95970c4d7ae4fd8a7c7f" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		<rom loadflag="load16_byte" name="n016001a.03c" offset="0x80001" size="0x40000" crc="7291a388" sha1="16e22a8eef5391fa43d92d702f14a746dedf292b" />
+		<rom loadflag="continue" offset="0x80000" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="n016001a.1f8" offset="0x0" size="0x80000" crc="c3df83ba" sha1="2f015ccf99de241861e05e81ad47faf02aec3290" />
+		<rom name="n016001a.1fc" offset="0x80000" size="0x80000" crc="22aa6096" sha1="c98fdc9fa589907cae1f7a2814fa32913d6c8648" />
+		<rom name="n016001b.1f8" offset="0x100000" size="0x80000" crc="df9a4854" sha1="f9612d82ce476f8c973ce60a982ae8007bd051a1" />
+		<rom name="n016001b.1fc" offset="0x180000" size="0x80000" crc="71f53a38" sha1="0fa03a2c719cc413ab163d166f93fcdc89646066" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load32_byte" name="n016001a.538" offset="0x0" size="0x40000" crc="493db90e" sha1="fb22e4f5437d9402c531779215cf675daa35401f" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n016001a.638" offset="0x1" size="0x40000" crc="8bc1c3a0" sha1="789f990b2b12bff7335a40a0ca6e64824dd6d4e2" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n016001a.53c" offset="0x100000" size="0x40000" crc="0d211945" sha1="4edef3bdd73e402ab606ac27013a2b8c1467667c" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n016001a.63c" offset="0x100001" size="0x40000" crc="cc793bbf" sha1="b88075e388d68601bb0e56f621a22abaf90ef39c" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n016001b.538" offset="0x200000" size="0x40000" crc="cabb7b58" sha1="e7be9c459c17dddc3a812981e14fc2e0a3fb5ec3" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n016001b.638" offset="0x200001" size="0x40000" crc="fde45b59" sha1="72ddca41b6cd595246eb8c8bb0c2e614c53e828c" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n016001b.53c" offset="0x300000" size="0x40000" crc="c7c20718" sha1="52a2d7f4f8baede451959a351d2badf080b1e20e" />
+		<rom loadflag="continue" offset="0x300002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n016001b.63c" offset="0x300001" size="0x40000" crc="b89b4201" sha1="74322700b9e8cf30b7d025be3909e93e1bfdaaf9" />
+		<rom loadflag="continue" offset="0x300003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

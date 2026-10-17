@@ -1,0 +1,30 @@
+<software name="kovshp173" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (EX, 2020-02-06)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po173.rom" offset="0x100000" size="0x200000" crc="c0071469" sha1="00519b033d67fe38394b006beaa61543ab290c7e" />
+		<rom loadflag="load16_word_swap" name="p0601h_101_po173.rom" offset="0x300000" size="0x200000" crc="09d0b85f" sha1="1c6e99a2f651afc7027951fe2c270629c2e8c64d" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600_ph365.rom" offset="0x400000" size="0x400000" crc="968a15b9" sha1="a335cb0e0bea1e6d3abd330a5ffb588eac0edba4" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0600_pw111.rom" offset="0x180000" size="0x800000" crc="de7fdc0c" sha1="67cf82401d44336ea6b41fb60eb36028d0236a7d" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="pgm_a0600.u3" offset="0x0" size="0x800000" crc="d8167834" sha1="fa55a99629d03b2ea253392352f70d2c8639a991" />
+		<rom name="a0601_po117.rom" offset="0x800000" size="0x800000" crc="b252c4ba" sha1="a167a805017d37889e3b2faa03a7daa113836405" />
+		<rom name="a0602_po117.rom" offset="0x1000000" size="0x800000" crc="6a65f8a8" sha1="039b54c2bef270307235ba9cea05fc48e1c27d6b" />
+		<rom name="a0540_po117.rom" offset="0x1800000" size="0x800000" crc="ec1b5760" sha1="a58be9a5e38a5346f3ac1e51c3e14e155ea81181" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b0600.u9" offset="0x0" size="0x800000" crc="7d3cd059" sha1="00cf994b63337e0e4ebe96453daf45f24192af1c" />
+		<rom name="b0540_po117.rom" offset="0x800000" size="0x800000" crc="94fc8287" sha1="885b85afd0a730e74bd2e83a271f45c2d90e183f" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_pw117.asic" offset="0x0" size="0x4000" crc="9d352b6f" sha1="9a9737478cc5aed4e60d341569c866854a3fca81" />
+		</dataarea>
+	</part>
+</software>

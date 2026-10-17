@@ -1,0 +1,20 @@
+<software name="ironcladcd" cloneof="ironclad">
+	<description>Ironclad (CD conversion)</description>
+	<year>1996</year>
+	<publisher>CD_conv</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="220cd.p1" offset="0x0" size="0xd4000" crc="cf9257b0" sha1="2a2742865862d313b5d856e5b500b56b36336ecd" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="220cd.v1" offset="0x0" size="0x100000" crc="f7fd9baa" sha1="a9362d405705f03a1759c2034df0c48daa15b71d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="proto_220.c1" offset="0x0" size="0x400000" crc="9aa2b7dc" sha1="6b3dff292c86f949890b1f8201bc5278f38c2668" />
+		<rom loadflag="load16_byte" name="proto_220.c2" offset="0x1" size="0x400000" crc="8a2ad708" sha1="9568ac4cc0552e7fd3e50d3cd8d9f0f4fe7df1d4" />
+		<rom loadflag="load16_byte" name="proto_220.c3" offset="0x800000" size="0x400000" crc="d67fb15a" sha1="842971aeaf3c92e70f7c653bbf29058bc60f5b71" />
+		<rom loadflag="load16_byte" name="proto_220.c4" offset="0x800001" size="0x400000" crc="e73ea38b" sha1="27138d588e61e86c292f12d16e36c3681075c607" />
+		</dataarea>
+	</part>
+</software>

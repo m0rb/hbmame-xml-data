@@ -1,0 +1,26 @@
+<software name="qndream">
+	<description>Quiz Nanairo Dreams: Nijiirochou no Kiseki (Japan 96086)</description>
+	<year>1996</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c68.p1" offset="0x0" size="0x80000" crc="7acf3e30" sha1="5e2a697f98185731afc4130286a2699033dd02af" />
+		<rom loadflag="load16_word_swap" name="c68.p2" offset="0x80000" size="0x80000" crc="f1044a87" sha1="3fd6e5dd6be8c037c8a77cb840bf7d387497a98b" />
+		<rom loadflag="load16_word_swap" name="c68.p3" offset="0x100000" size="0x80000" crc="4105ba0e" sha1="73aacdf4176029f8e21506319e41ce03ed480122" />
+		<rom loadflag="load16_word_swap" name="c68.p4" offset="0x180000" size="0x80000" crc="c371e8a5" sha1="5a93e46e46acfdc93fcb069e2426627e948655bf" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c68.m1" offset="0x0" size="0x8000" crc="e9ce9d0a" sha1="29f2987788e914e0a55f9130a99e411d15a7cc9b" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="qndream.key" offset="0x0" size="0x14" crc="97eee4ff" sha1="541da3a62311e35e563cbf720389988464b6ed7d" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c68.q1" offset="0x0" size="0x200000" crc="78e7884f" sha1="82fbbf704ac4bc0e0e7a6f407686861aa3693c23" />
+		<rom loadflag="load16_word_swap" name="c68.q2" offset="0x200000" size="0x200000" crc="2e049b13" sha1="e026f444b905e679e8240c7dd371658c4a3fd713" />
+		</dataarea>
+	</part>
+</software>

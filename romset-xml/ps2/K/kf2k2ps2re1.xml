@@ -1,0 +1,52 @@
+<software name="kf2k2ps2re1" cloneof="kof2002">
+	<description>Kof2002 (PlayStation 2 Hack Ver.1.0, 2018-12-17)</description>
+	<year>2018</year>
+	<publisher>EGCG</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="265ps2re1.p1" offset="0x0" size="0x100000" crc="77a0044c" sha1="57665dcc803d6bf406fb047823aaf71348996b2b" />
+		<rom loadflag="load16_word_swap" name="265ps2re1.p2" offset="0x100000" size="0x500000" crc="f9e4456a" sha1="95e8ebdb7fd0db8ce3116091d160ad1260c2a5e4" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="kf10-v1.bin" offset="0x0" size="0x800000" crc="0fc9a58d" sha1="9d79ef00e2c2abd9f29af5521c2fbe5798bf336f" />
+		<rom name="kf10-v2.bin" offset="0x800000" size="0x800000" crc="b8c475a4" sha1="10caf9c69927a223445d2c4b147864c02ce520a8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x5000000">
+		<rom loadflag="load16_byte" name="265d.c1" offset="0x0" size="0x800000" crc="7efa6ef7" sha1="71345a4202e7cc9239538fb978638141416c8893" />
+		<rom loadflag="load16_byte" name="265d.c2" offset="0x1" size="0x800000" crc="aa82948b" sha1="b2a40797f68bdeb80bc54dccc5495be68934bf0e" />
+		<rom loadflag="load16_byte" name="265d.c3" offset="0x1000000" size="0x800000" crc="959fad0b" sha1="63ab83ddc5f688dc8165a7ff8d262df3fcd942a2" />
+		<rom loadflag="load16_byte" name="265d.c4" offset="0x1000001" size="0x800000" crc="efe6a468" sha1="2a414285e48aa948b5b0d4a9333bab083b5fb853" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="265ps2re.c7" offset="0x3000000" size="0x800000" crc="f0897b93" sha1="f1c38737b148c459212b61066e8c279852f080b3" />
+		<rom loadflag="load16_byte" name="265ps2re.c8" offset="0x3000001" size="0x800000" crc="8d27a4a6" sha1="f05a1fea1b2e542b70b11e58455812e9186d0d77" />
+		<rom loadflag="load16_byte" name="265ps2re.c9" offset="0x4000000" size="0x800000" crc="9939c08a" sha1="75033a18ecd9177ec6da00e32fe1e391fde0bc39" />
+		<rom loadflag="load16_byte" name="265ps2re.c10" offset="0x4000001" size="0x800000" crc="c724c069" sha1="26974478ed31c68a3b987986849c8386f8c5af8c" />
+		</dataarea>
+		<dataarea name="audiocpu2" size="0x30000">
+		<rom name="214.m1" offset="0x0" size="0x20000" crc="dabc427c" sha1="b76722ed142ee7addceb4757424870dbd003e8b3" />
+		</dataarea>
+		<dataarea name="audiocpu3" size="0x50000">
+		<rom name="262n.m1" offset="0x0" size="0x40000" crc="4bcc537b" sha1="9fcf1342bcd53d5eec12c46ee41a51bf543256c2" />
+		</dataarea>
+		<dataarea name="audiocpu4" size="0x90000">
+		<rom name="269dd.m1" offset="0x0" size="0x80000" crc="7b7bf462" sha1="7466a6962de5242f71b9c52d7bd21a9832115e11" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="265ps2re1.p3" offset="0x0" size="0x20000" crc="6e6beeba" sha1="9ab1687c9d8aacaa2626d25b8177b6ae48828674" />
+		</dataarea>
+		<dataarea name="ymsnd2:adpcma" size="0x1000000">
+		<rom name="214.v1" offset="0x0" size="0x400000" crc="63f7b045" sha1="1353715f1a8476dca6f8031d9e7a401eacab8159" />
+		<rom name="214.v2" offset="0x400000" size="0x400000" crc="25929059" sha1="6a721c4cb8f8dc772774023877d4a9f50d5a9e31" />
+		<rom name="214.v3" offset="0x800000" size="0x200000" crc="92a2257d" sha1="5064aec78fa0d104e5dd5869b95382aa170214ee" />
+		</dataarea>
+		<dataarea name="ymsnd3:adpcma" size="0x1000000">
+		<rom name="262d.v1" offset="0x0" size="0x800000" crc="ac2913bf" sha1="1721ec3d19684af702f6c93da25bb787a5d9dbff" />
+		<rom name="262d.v2" offset="0x800000" size="0x800000" crc="15042f30" sha1="f92e49110bde007104590be1a0fdc8064c216c37" />
+		</dataarea>
+		<dataarea name="ymsnd4:adpcma" size="0x1000000">
+		<rom name="269pcbd.v1" offset="0x0" size="0x800000" crc="ff64cd56" sha1="e2754c554ed5ca14c2020c5d931021d5ac82660c" />
+		<rom name="269pcbd.v2" offset="0x800000" size="0x800000" crc="a8dd6446" sha1="8972aab271c33f8af344bffe6359d9ddc4b8af2e" />
+		</dataarea>
+	</part>
+</software>

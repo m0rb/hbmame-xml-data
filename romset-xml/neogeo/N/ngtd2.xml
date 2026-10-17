@@ -1,0 +1,18 @@
+<software name="ngtd2">
+	<description>NeoGeo Tech Demo 2</description>
+	<year>2016</year>
+	<publisher>Luis Miguel Mayor</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="680.p1" offset="0x0" size="0x100000" crc="35131b60" sha1="74877b4f1bdbba712b04afdf65bede1d30f846b0" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="680.v1" offset="0x0" size="0x100000" crc="5ea51b63" sha1="62126f407175cd7bf44fb5acc1df12fbc0e23df6" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="680.c1" offset="0x0" size="0x100000" crc="0ecfa2ba" sha1="a5a7cbd3b79260f8cc99992067df315b20ae6741" />
+		<rom loadflag="load16_byte" name="680.c2" offset="0x1" size="0x100000" crc="f16b9ae8" sha1="cb43089370a77bdd177db7eb6819ed21c994a914" />
+		</dataarea>
+	</part>
+</software>

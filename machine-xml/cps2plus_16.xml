@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="cps2plus_16" description="Cps2Plus_16 cartridges">
+<software name="vhunt2s02" cloneof="vhunt2">
+	<description>Night Warriors 2 Arrange (970929J, English, 2026-10-07)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c75s02.p1" offset="0x0" size="0x80000" crc="9354e632" sha1="8f3494949492bd6a7493e7101a271829f7c7a029" />
+		<rom loadflag="load16_word_swap" name="c75s02.p2" offset="0x80000" size="0x80000" crc="7f10f35e" sha1="04bd3e1b64ad2fe2844a7824c032296649510810" />
+		<rom loadflag="load16_word_swap" name="c75s02.p3" offset="0x100000" size="0x80000" crc="87edf306" sha1="4ad190abe8d7f24dd6ffc0e270b738f0c88d10bc" />
+		<rom loadflag="load16_word_swap" name="c75s02.p4" offset="0x180000" size="0x80000" crc="94118a84" sha1="6350de4c75e257cb8c078788029119833b78de79" />
+		<rom loadflag="load16_word_swap" name="c75s02.p5" offset="0x200000" size="0x80000" crc="a324ffeb" sha1="9732792cc601f304e84f25539b3f4d0dfe8b4a9a" />
+		<rom loadflag="load16_word_swap" name="c75s02.p6" offset="0x280000" size="0x80000" crc="17b37f5a" sha1="50af7304a6303c1cb1a0a27774486fbee12a0b32" />
+		<rom loadflag="load16_word_swap" name="c75s02.p7" offset="0x300000" size="0x80000" crc="f3159a3a" sha1="7c2ffb325aeee514971ace282b8cfff0739ccc20" />
+		<rom loadflag="load16_word_swap" name="c75s02.p8" offset="0x380000" size="0x80000" crc="ecd2d939" sha1="80721e15f49a6a02d216c1018e9ba158135006b5" />
+		<rom loadflag="load16_word_swap" name="c75s02.p9" offset="0x400000" size="0x400000" crc="673d43b1" sha1="7c7076df4ce1fb96a205212b3d7194a4c0297a25" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x88000">
+		<rom name="c75s02.m1" offset="0x0" size="0x8000" crc="f6088d87" sha1="28878b0c1c9882bf0eea17fed52758072310e6bf" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c75s02.m2" offset="0x28000" size="0x20000" crc="7c4fae46" sha1="eea4f0fd0ac3db214362683e080c9dd9b0adcb28" />
+		<rom name="c75s02.m3" offset="0x48000" size="0x40000" crc="04ef903d" sha1="3d4a09d7003576b653081d99bb341f5d712a2b6e" />
+		</dataarea>
+		<dataarea name="gfx" size="0x4000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="vhunt2.key" offset="0x0" size="0x14" crc="61306b20" sha1="f72cf44837f6d934dd6bc877c3c98db388e72a67" />
+		</dataarea>
+		<dataarea name="qsound" size="0x1000000">
+		<rom loadflag="load16_word_swap" name="c75.q1" offset="0x0" size="0x400000" crc="38922efd" sha1="8cfb36bdce3a524d0a81fec12ca0cba82222fa30" />
+		<rom loadflag="load16_word_swap" name="c75.q2" offset="0x400000" size="0x400000" crc="6e2430af" sha1="b475faf943bec4171ba0130f287e1948743ca273" />
+		<rom loadflag="load16_word_swap" name="c75s02.q3" offset="0x800000" size="0x800000" crc="24813909" sha1="c2bd3606eed2277764553d8c75729667dfe27b99" />
+		</dataarea>
+	</part>
+</software>
+<software name="vhunt2s03" cloneof="vhunt2">
+	<description>Vampire Hunter 2 Arrange (970929J, 2026-10-07)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c75s03.p1" offset="0x0" size="0x80000" crc="7797e2a4" sha1="f220558de20a21e987340c0ee246915a7dddd66f" />
+		<rom loadflag="load16_word_swap" name="c75s03.p2" offset="0x80000" size="0x80000" crc="c0703475" sha1="088f693862fb391879ba2c8c435b6f6fb89540c5" />
+		<rom loadflag="load16_word_swap" name="c75s03.p3" offset="0x100000" size="0x80000" crc="87edf306" sha1="4ad190abe8d7f24dd6ffc0e270b738f0c88d10bc" />
+		<rom loadflag="load16_word_swap" name="c75s03.p4" offset="0x180000" size="0x80000" crc="94118a84" sha1="6350de4c75e257cb8c078788029119833b78de79" />
+		<rom loadflag="load16_word_swap" name="c75s03.p5" offset="0x200000" size="0x80000" crc="a324ffeb" sha1="9732792cc601f304e84f25539b3f4d0dfe8b4a9a" />
+		<rom loadflag="load16_word_swap" name="c75s03.p6" offset="0x280000" size="0x80000" crc="79dbd15c" sha1="c00571bb000ce9a478b6526585b24cc6c4a586b4" />
+		<rom loadflag="load16_word_swap" name="c75s03.p7" offset="0x300000" size="0x80000" crc="f3159a3a" sha1="7c2ffb325aeee514971ace282b8cfff0739ccc20" />
+		<rom loadflag="load16_word_swap" name="c75s03.p8" offset="0x380000" size="0x80000" crc="ecd2d939" sha1="80721e15f49a6a02d216c1018e9ba158135006b5" />
+		<rom loadflag="load16_word_swap" name="c75s03.p9" offset="0x400000" size="0x400000" crc="2d91d6a5" sha1="7b344a042d4d92c0e9f51ed9f2b084438de6c21f" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x88000">
+		<rom name="c75s03.m1" offset="0x0" size="0x8000" crc="f6088d87" sha1="28878b0c1c9882bf0eea17fed52758072310e6bf" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c75s03.m2" offset="0x28000" size="0x20000" crc="7c4fae46" sha1="eea4f0fd0ac3db214362683e080c9dd9b0adcb28" />
+		<rom name="c75s03.m3" offset="0x48000" size="0x40000" crc="04ef903d" sha1="3d4a09d7003576b653081d99bb341f5d712a2b6e" />
+		</dataarea>
+		<dataarea name="gfx" size="0x4000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="vhunt2.key" offset="0x0" size="0x14" crc="61306b20" sha1="f72cf44837f6d934dd6bc877c3c98db388e72a67" />
+		</dataarea>
+		<dataarea name="qsound" size="0x1000000">
+		<rom loadflag="load16_word_swap" name="c75.q1" offset="0x0" size="0x400000" crc="38922efd" sha1="8cfb36bdce3a524d0a81fec12ca0cba82222fa30" />
+		<rom loadflag="load16_word_swap" name="c75.q2" offset="0x400000" size="0x400000" crc="6e2430af" sha1="b475faf943bec4171ba0130f287e1948743ca273" />
+		<rom loadflag="load16_word_swap" name="c75s03.q3" offset="0x800000" size="0x800000" crc="24813909" sha1="c2bd3606eed2277764553d8c75729667dfe27b99" />
+		</dataarea>
+	</part>
+</software>
+<software name="vsavs01" cloneof="vsav">
+	<description>Vampire Savior Arrange (970519J, English, 2026-10-13)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c71s01.p1" offset="0x0" size="0x80000" crc="af6759a7" sha1="51c529b1c0dcca2b65513a35b66628aaa605d176" />
+		<rom loadflag="load16_word_swap" name="c71s01.p2" offset="0x80000" size="0x80000" crc="6a50545b" sha1="a7c7eedcbda4fb13c8706436c3924ebc8ea6581d" />
+		<rom loadflag="load16_word_swap" name="c71s01.p3" offset="0x100000" size="0x80000" crc="6cba1d5c" sha1="c6d08e468467f6e5462bc56cc9b43308a399fae9" />
+		<rom loadflag="load16_word_swap" name="c71j.p4" offset="0x180000" size="0x80000" crc="2c4297e0" sha1="3a7103456ba3937f63c28dd42020cac1955b5741" />
+		<rom loadflag="load16_word_swap" name="c71s01.p5" offset="0x200000" size="0x80000" crc="f16ee681" sha1="c9c52bda6288aa95300028cc4e3efca90ceae135" />
+		<rom loadflag="load16_word_swap" name="c71j.p6" offset="0x280000" size="0x80000" crc="5773e5c9" sha1="551afc5d921f9ef1fe928ca83d072b6a6105ab0e" />
+		<rom loadflag="load16_word_swap" name="c71s01.p7" offset="0x300000" size="0x80000" crc="6428a025" sha1="1b683535e6d5f4ff81f66bbdf770e32a681d00cb" />
+		<rom loadflag="load16_word_swap" name="c71s01.p8" offset="0x380000" size="0x80000" crc="5b3fc5b2" sha1="bfd38bc963e90b0874eec99b8e04ac149ba5c832" />
+		<rom loadflag="load16_word_swap" name="c71s01.p9" offset="0x400000" size="0x400000" crc="4d61c034" sha1="9abd06267e9162e86ac20e2a9e271deb6a0b04b2" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x88000">
+		<rom name="c71s01.m1" offset="0x0" size="0x8000" crc="b866c03c" sha1="424bd8d86aad9b5c626cd9768bd21cd24bb6b453" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c71.m2" offset="0x28000" size="0x20000" crc="cc09faa1" sha1="2962ef0ceaf7e7279de3c421ea998763330eb43e" />
+		<rom name="c71s01.m3" offset="0x48000" size="0x40000" crc="c95152a3" sha1="b0a1d06bc92499f0fde14d0e1b8816baaf75f94c" />
+		</dataarea>
+		<dataarea name="gfx" size="0x4000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="vsavj.key" offset="0x0" size="0x14" crc="36d28ab8" sha1="7de11dbe4a7ea0e8b68ab332f80e32cb6c1bf48e" />
+		</dataarea>
+		<dataarea name="qsound" size="0x1000000">
+		<rom loadflag="load16_word_swap" name="c71.q1" offset="0x0" size="0x400000" crc="e80e956e" sha1="74181fca4b764fb3c56ceef2cb4c6fd6c18ec4b6" />
+		<rom loadflag="load16_word_swap" name="c71.q2" offset="0x400000" size="0x400000" crc="9cd71557" sha1="7059db25698a0b286314c5961c618f6d2e6f24a1" />
+		<rom loadflag="load16_word_swap" name="c71s01.q3" offset="0x800000" size="0x800000" crc="fd3a78ec" sha1="6425997620ab41a857668534aa8b42ba836da1d4" />
+		</dataarea>
+	</part>
+</software>
+<software name="vsavs02" cloneof="vsav">
+	<description>Vampire Savior Arrange (970519J, 2026-10-13)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c71s02.p1" offset="0x0" size="0x80000" crc="0d83b2cc" sha1="697501c35df7983eb17028cae4cea8f333bc68dc" />
+		<rom loadflag="load16_word_swap" name="c71s02.p2" offset="0x80000" size="0x80000" crc="9e9df171" sha1="a8fc19f632c1e4611f02fe885b23853b13c99927" />
+		<rom loadflag="load16_word_swap" name="c71s02.p3" offset="0x100000" size="0x80000" crc="6cba1d5c" sha1="c6d08e468467f6e5462bc56cc9b43308a399fae9" />
+		<rom loadflag="load16_word_swap" name="c71j.p4" offset="0x180000" size="0x80000" crc="2c4297e0" sha1="3a7103456ba3937f63c28dd42020cac1955b5741" />
+		<rom loadflag="load16_word_swap" name="c71s02.p5" offset="0x200000" size="0x80000" crc="b8f8319f" sha1="ed57ae9be3ecea232bf89b83d8db67a4ac8ccb4b" />
+		<rom loadflag="load16_word_swap" name="c71j.p6" offset="0x280000" size="0x80000" crc="5773e5c9" sha1="551afc5d921f9ef1fe928ca83d072b6a6105ab0e" />
+		<rom loadflag="load16_word_swap" name="c71s02.p7" offset="0x300000" size="0x80000" crc="6428a025" sha1="1b683535e6d5f4ff81f66bbdf770e32a681d00cb" />
+		<rom loadflag="load16_word_swap" name="c71s02.p8" offset="0x380000" size="0x80000" crc="5b3fc5b2" sha1="bfd38bc963e90b0874eec99b8e04ac149ba5c832" />
+		<rom loadflag="load16_word_swap" name="c71s02.p9" offset="0x400000" size="0x400000" crc="0888080a" sha1="59c185deedf3470b304551d051b5c3e86fa3a8a4" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x88000">
+		<rom name="c71s02.m1" offset="0x0" size="0x8000" crc="b866c03c" sha1="424bd8d86aad9b5c626cd9768bd21cd24bb6b453" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c71.m2" offset="0x28000" size="0x20000" crc="cc09faa1" sha1="2962ef0ceaf7e7279de3c421ea998763330eb43e" />
+		<rom name="c71s02.m3" offset="0x48000" size="0x40000" crc="c95152a3" sha1="b0a1d06bc92499f0fde14d0e1b8816baaf75f94c" />
+		</dataarea>
+		<dataarea name="gfx" size="0x4000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="vsavj.key" offset="0x0" size="0x14" crc="36d28ab8" sha1="7de11dbe4a7ea0e8b68ab332f80e32cb6c1bf48e" />
+		</dataarea>
+		<dataarea name="qsound" size="0x1000000">
+		<rom loadflag="load16_word_swap" name="c71.q1" offset="0x0" size="0x400000" crc="e80e956e" sha1="74181fca4b764fb3c56ceef2cb4c6fd6c18ec4b6" />
+		<rom loadflag="load16_word_swap" name="c71.q2" offset="0x400000" size="0x400000" crc="9cd71557" sha1="7059db25698a0b286314c5961c618f6d2e6f24a1" />
+		<rom loadflag="load16_word_swap" name="c71s02.q3" offset="0x800000" size="0x800000" crc="fd3a78ec" sha1="6425997620ab41a857668534aa8b42ba836da1d4" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

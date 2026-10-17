@@ -1,0 +1,33 @@
+<software name="nslasheru01" cloneof="nslasher">
+	<description>Night Slashers (US, Uncensored Effects, v1.0, 2026-10-05)</description>
+	<year>2016</year>
+	<publisher>dejp1993</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="02.l18" offset="0x0" size="0x10000" crc="5e63bd91" sha1="a6ac3c8c50f44cf2e6cf029aef1c974d1fc16ed5" />
+		</dataarea>
+		<dataarea name="oki1" size="0x80000">
+		<rom name="mbh-10.14l" offset="0x0" size="0x80000" crc="c4d6b116" sha1="c5685bce6a6c6a74ca600ebf766ba1007f0dc666" />
+		</dataarea>
+		<dataarea name="oki2" size="0x80000">
+		<rom name="mbh-11.16l" offset="0x0" size="0x80000" crc="0ec40b6b" sha1="9fef44149608ae2a00f6a75a6f77f2efcab6e78e" />
+		</dataarea>
+		<dataarea name="prom" size="0x200">
+		<rom name="ln-00.j7" offset="0x0" size="0x200" crc="5e83eaf3" sha1="95f5eb8e56dff6c2dce7c39a6dd458bfc38fe1cf" />
+		</dataarea>
+		<dataarea name="sprites1" size="0x640000">
+		</dataarea>
+		<dataarea name="sprites2" size="0x100000">
+		<rom name="mbh-08.16e" offset="0x0" size="0x80000" crc="cdd7f8cb" sha1="910bbe8783c0ba722e9d6399b332d658fa059fdb" />
+		<rom name="mbh-09.18e" offset="0x80000" size="0x80000" crc="33fa2121" sha1="eb0e99d29b1ad9995df28e5b7cfc89d53efb53c3" />
+		</dataarea>
+		<dataarea name="tiles1" size="0x200000">
+		<rom name="mbh-00.8c" offset="0x0" size="0x200000" crc="a877f8a3" sha1="79253525f360a73161894f31e211e4d6b38d307a" />
+		</dataarea>
+		<dataarea name="tiles2" size="0x200000">
+		<rom name="mbh-01.9c" offset="0x0" size="0x200000" crc="1853dafc" sha1="b1183c0db301cbed9f079c782202dbfc553b198e" />
+		</dataarea>
+	</part>
+</software>
