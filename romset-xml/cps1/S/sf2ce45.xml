@@ -1,0 +1,26 @@
+<software name="sf2ce45" cloneof="sf2ce">
+	<description>Street Fighter II&#x27;: Champion Edition (Rainbow bootleg set 5, 920322 Japan)</description>
+	<year>1992</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c19s45.p1" offset="0x0" size="0x80000" crc="10ec67fe" sha1="9eb30a0f64bf29028f89f9af74cb9d840ed197e2" />
+		<rom loadflag="load16_byte" name="c19s45.p2" offset="0x1" size="0x80000" crc="92eb3a1c" sha1="0ee294c8b82b100f98da697562f9644b71cabcdd" />
+		<rom loadflag="load16_byte" name="c19m8.p3" offset="0x100000" size="0x20000" crc="1073b7b6" sha1="81ca1eab65ceac69520584bb23a684ccb9d92f89" />
+		<rom loadflag="load16_byte" name="c19m8.p4" offset="0x100001" size="0x20000" crc="924c6ce2" sha1="676a912652bd75da5087f0c7eae047b7681a993c" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c19.m1" offset="0x0" size="0x8000" crc="08f6b60e" sha1="8258fcaca4ac419312531eec67079b97f471179c" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2m4.key" offset="0x0" size="0x80" crc="822729a2" sha1="acaadef38fd97dba215c13688061cee87d877c19" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c14.v1" offset="0x0" size="0x20000" crc="7f162009" sha1="346bf42992b4c36c593e21901e22c87ae4a7d86d" />
+		<rom name="c14.v2" offset="0x20000" size="0x20000" crc="beade53f" sha1="277c397dc12752719ec6b47d2224750bd1c07f79" />
+		</dataarea>
+	</part>
+</software>

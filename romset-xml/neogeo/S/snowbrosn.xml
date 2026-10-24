@@ -1,0 +1,18 @@
+<software name="snowbrosn">
+	<description>Snow Bros (Neo-Geo port, v1.0.2)</description>
+	<year>2026</year>
+	<publisher>Bendk97</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="528.p1" offset="0x0" size="0x80000" crc="41c5834c" sha1="bc7a6df9c3a049a29c5369ad659364668292ba3f" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="528.v1" offset="0x0" size="0x800000" crc="548c091b" sha1="20997304536d0319d81df73cf43738ca208e54fc" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="528.c1" offset="0x0" size="0x80000" crc="d3984dd9" sha1="0dee55b40e17c1a82be55f96026642a60ee3459a" />
+		<rom loadflag="load16_byte" name="528.c2" offset="0x1" size="0x80000" crc="75775686" sha1="c00b3144ee023671aa473efb89a0916287a2a988" />
+		</dataarea>
+	</part>
+</software>

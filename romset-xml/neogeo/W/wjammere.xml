@@ -1,0 +1,23 @@
+<software name="wjammere" cloneof="wjammers">
+	<description>Windjammers / Flying Power Disc (Earlier)</description>
+	<year>1994</year>
+	<publisher>Data East Corporation</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="065e.p1" offset="0x0" size="0x80000" crc="e81e7a31" sha1="bb1a8922afe269f6e3ea63c3a377c2a6e2171d2d" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="065.v1" offset="0x0" size="0x100000" crc="ce8b3698" sha1="7d75e2a5cf8c90be422f8b425447e81597fe145a" />
+		<rom name="065.v2" offset="0x100000" size="0x100000" crc="659f9b96" sha1="62f40365212153bc3b92a1187fa44f6cdc7f7b83" />
+		<rom name="065.v3" offset="0x200000" size="0x100000" crc="39f73061" sha1="ec57cd58e7f8569cff925d11e2320d588ce4fe49" />
+		<rom name="065.v4" offset="0x300000" size="0x100000" crc="5dee7963" sha1="f8e6de73d65dd80b29c711f00835a574a770cb4e" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="065.c1" offset="0x0" size="0x100000" crc="c7650204" sha1="42918d700d59864f8ab15caf968a062a563c9b09" />
+		<rom loadflag="load16_byte" name="065.c2" offset="0x1" size="0x100000" crc="d9f3e71d" sha1="fad1f64061eac1bf85bf6d75d2eae974a8c94069" />
+		<rom loadflag="load16_byte" name="065.c3" offset="0x200000" size="0x100000" crc="40986386" sha1="65795a50197049681265946713d416c9cdb68f08" />
+		<rom loadflag="load16_byte" name="065.c4" offset="0x200001" size="0x100000" crc="715e15ff" sha1="ac8b8b01f5c7384b883afbe0cf977430378e3fef" />
+		</dataarea>
+	</part>
+</software>

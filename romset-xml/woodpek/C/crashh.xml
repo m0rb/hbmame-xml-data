@@ -1,0 +1,23 @@
+<software name="crashh">
+	<description>Crash (Pac-Man)</description>
+	<year>2002</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="crashh.1" offset="0x0" size="0x1000" crc="04353b41" sha1="28b774fd5b429569f44651cfe4df6a9929310190" />
+		<rom name="crashh.2" offset="0x1000" size="0x1000" crc="e03205c0" sha1="8c5ae42a9e2d551f9184e952723a750abc3dfb52" />
+		<rom name="crashh.3" offset="0x2000" size="0x1000" crc="b0fa8e46" sha1="2caf94d1a14d96ddc401375b54bf2b1edb13c68b" />
+		<rom name="crashh.4" offset="0x3000" size="0x1000" crc="bfa4d2fe" sha1="76ef449173c01f8943049330dba9c6a54a5e760a" />
+		<rom name="crashh.5" offset="0x8000" size="0x1000" crc="12f2f224" sha1="95528aaef908173e1374a7c6ed1a9cda4b685a20" />
+		<rom name="pacman.6j" offset="0x9000" size="0x1000" crc="817d94e3" sha1="d4a70d56bb01d27d094d73db8667ffb00ca69cb9" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="crashh.5e" offset="0x0" size="0x1000" crc="0a25969b" sha1="2cd54477a5cc15f91ae2cba3c4270002ac15967e" />
+		<rom name="crashh.5f" offset="0x1000" size="0x1000" crc="447ea79c" sha1="886d0113608616b01e4395485c6106586adcb65a" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="82s123.7f" offset="0x0" size="0x20" crc="2fc650bd" sha1="8d0268dee78e47c712202b0ec4f1f51109b1f2a5" />
+		<rom name="crush.4a" offset="0x20" size="0x100" crc="2bc5d339" sha1="446e234df94d9ef34c3191877bb33dd775acfdf5" />
+		</dataarea>
+	</part>
+</software>

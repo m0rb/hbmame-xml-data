@@ -1,0 +1,32 @@
+<software name="eightmand" cloneof="eightman">
+	<description>Eight Man (MGD2)</description>
+	<year>1991</year>
+	<publisher>SNK / Pallas</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n025001a.038" offset="0x1" size="0x40000" crc="e23e2631" sha1="ddc9efe6e386aa89aca052f004492caf39a84d68" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="n025001a.1f8" offset="0x0" size="0x80000" crc="0a2299b4" sha1="96087ec57bca13a7394566c87310cd5a05eae62a" />
+		<rom name="n025001a.1fc" offset="0x80000" size="0x80000" crc="b695e254" sha1="ca752c4834dcdd8c2829e336abf135e584ade603" />
+		<rom name="n025001b.1f8" offset="0x100000" size="0x80000" crc="6c3c3fec" sha1="69f7cb9a4c39b651898383ec9ee6891565e93baf" />
+		<rom name="n025001b.1fc" offset="0x180000" size="0x80000" crc="375764df" sha1="7288befc006bd10030911efecfbf78146ed5f781" />
+		</dataarea>
+		<dataarea name="sprites" size="0x300000">
+		<rom loadflag="load32_byte" name="n025001a.538" offset="0x0" size="0x40000" crc="c916c9bf" sha1="ac56aa28b163d21af80f355011112c1921a6797b" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n025001a.638" offset="0x1" size="0x40000" crc="7114bce3" sha1="a74abb92ec513250abea7487fd49ec2282a6531f" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n025001a.53c" offset="0x100000" size="0x40000" crc="4b057b13" sha1="1d06edc938d8c618847853ae58de9a6e8dd6521f" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n025001a.63c" offset="0x100001" size="0x40000" crc="51da9a34" sha1="850275621db0372839db334161c167c0df0915ac" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n025001b.538" offset="0x200000" size="0x40000" crc="12d53af0" sha1="69bc5c1f6aa4386e851d2d0db04b5a9246257a90" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n025001b.638" offset="0x200001" size="0x40000" crc="43cf58f9" sha1="72b4f27b66d45155aa98d65457c4fdd3b09d08e9" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

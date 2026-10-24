@@ -1,0 +1,21 @@
+<software name="mspac6m2" cloneof="mspacman">
+	<description>Ms. Pacman 6M (Six Maze) (Set 2)</description>
+	<year>1999</year>
+	<publisher>Marcel Silvius</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="mscrzyma.3" offset="0x2000" size="0x1000" crc="513f4d5c" sha1="ae011b89422bd8cbb80389814500bc1427f6ecb2" />
+		<rom name="mspac6m.4" offset="0x3000" size="0x1000" crc="e21c81ff" sha1="5a6ce8ee3059a31afbb9b8c1d0a1e37606d14a0a" />
+		<rom name="mspac6m2.5" offset="0x8000" size="0x1000" crc="48453707" sha1="3faf536de2e56770a99379849409eeea01b2d031" />
+		<rom name="mspac6m2.6" offset="0x9000" size="0x1000" crc="2e961bc4" sha1="e29814151edde8a22e638a4a8edb9935e48d985b" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mspac6m.5e" offset="0x0" size="0x800" crc="2850148a" sha1="4257a5dd4ad27d4a6bfae71bbe2564026bdaebb2" />
+		<rom name="mspac6m.5h" offset="0x800" size="0x800" crc="6c3c6ebb" sha1="3f19e9a20e202fda139324ef03991af99516aeef" />
+		<rom name="mspac6m.5f" offset="0x1000" size="0x800" crc="5596b345" sha1="0320eb1f7e39dbd438be2f488f43f5b11e13f438" />
+		<rom name="mspacit.5j" offset="0x1800" size="0x800" crc="50c7477d" sha1="c04ec282a8cb528df5e38ad750d12ee71612695d" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,18 @@
+<software name="neofighto" cloneof="neofight">
+	<description>Neo Fight (old)</description>
+	<year>2015</year>
+	<publisher>Kannagi</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="676o.p1" offset="0x0" size="0x80000" crc="b0eb16a0" sha1="136b1cb9b9daf1b8563c66002d07bb5128d41061" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="052.v1" offset="0x0" size="0x200000" crc="22c097a5" sha1="328c4e6db0a026f54a633cff1443a3f964a8daea" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="676.c1" offset="0x0" size="0x200000" crc="99fda4d5" sha1="c5ff1b724a8cbc209c47eb4fb1eca4f0b76aad5c" />
+		<rom loadflag="load16_byte" name="676.c2" offset="0x1" size="0x200000" crc="2e48378a" sha1="80389cfc420b2e7c5f50c809995a3298a57c697f" />
+		</dataarea>
+	</part>
+</software>

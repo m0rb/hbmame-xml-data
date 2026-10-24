@@ -1,0 +1,26 @@
+<software name="pzloop2">
+	<description>Puzz Loop 2 (Euro 010302)</description>
+	<year>2001</year>
+	<publisher>Mitchell (Capcom license)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c86.p1" offset="0x0" size="0x80000" crc="3b1285b2" sha1="f90f98fb15068306a57109ad954845be0a99e8ab" />
+		<rom loadflag="load16_word_swap" name="c86.p2" offset="0x80000" size="0x80000" crc="40a2d647" sha1="d1c5fa87b368efe0d2cc3f614d0165bd95748b81" />
+		<rom loadflag="load16_word_swap" name="c86.p3" offset="0x100000" size="0x80000" crc="0f11d818" sha1="ca2d5ea892aebfa1a2a825fb45c57b7923936917" />
+		<rom loadflag="load16_word_swap" name="c86.p4" offset="0x180000" size="0x80000" crc="86fbbdf4" sha1="325ba5dc54f3d82f39e1299d5f27de7227a458b2" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c86.m1" offset="0x0" size="0x8000" crc="35697569" sha1="13718923cffb9ec53cef9e22d8875370b5f3dd74" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="pzloop2.key" offset="0x0" size="0x14" crc="ae13be78" sha1="5c715f0ef1e0664027faa6c2a7f0f878462cb7ae" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c86.q1" offset="0x0" size="0x200000" crc="85d8fbe8" sha1="c19d5e9084d07e610379b6e1b6be7bdf0b9b7f7f" />
+		<rom loadflag="load16_word_swap" name="c86.q2" offset="0x200000" size="0x200000" crc="1ed62584" sha1="28411f610f48cca6424a2d53e2a4ac691e826317" />
+		</dataarea>
+	</part>
+</software>

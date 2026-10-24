@@ -1,0 +1,18 @@
+<software name="mosyougi">
+	<description>Syougi No Tatsujin - Master of Syougi</description>
+	<year>1995</year>
+	<publisher>ADK / SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="203.p1" offset="0x0" size="0x100000" crc="7ba70e2d" sha1="945f472cc3e7706f613c52df18de35c986d166e7" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="203.v1" offset="0x0" size="0x200000" crc="baa2b9a5" sha1="914782b6c81d9a76ce02251575592b0648434ba3" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="203.c1" offset="0x0" size="0x200000" crc="bba9e8c0" sha1="db89b7275a59ae6104a8308025c7e142a67b947b" />
+		<rom loadflag="load16_byte" name="203.c2" offset="0x1" size="0x200000" crc="2574be03" sha1="198cfd697c623022919ae4118928a7fe30cd6c46" />
+		</dataarea>
+	</part>
+</software>

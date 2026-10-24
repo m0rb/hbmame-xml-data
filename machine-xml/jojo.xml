@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="jojo" description="Jojo cartridges">
+<software name="jojonc">
+	<description>JoJo&#x27;s Venture (Asia 990128, NO CD)</description>
+	<year>1998</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="bios" endianness="big" size="0x80000">
+		<rom name="jojo_asia_nocd.29f400.u2" offset="0x0" size="0x80000" crc="05b4f953" sha1="c746c7bb5359acc9adced817cb4870b1912eaefd" />
+		</dataarea>
+		<dataarea name="simm1.0" size="0x200000">
+		<rom name="jojo-simm1.0" offset="0x0" size="0x200000" crc="9516948b" sha1="4d7e6c1eb7d1bebff2a5069bcd186070a9105474" />
+		</dataarea>
+		<dataarea name="simm1.1" size="0x200000">
+		<rom name="jojo-simm1.1" offset="0x0" size="0x200000" crc="a847848d" sha1="4df70309395f1d2a2e8f85bc34e17453d4a76f81" />
+		</dataarea>
+		<dataarea name="simm1.2" size="0x200000">
+		<rom name="jojo-simm1.2" offset="0x0" size="0x200000" crc="853e8846" sha1="d120b7e2de9502e3261e8dd101f97589b2ed1c38" />
+		</dataarea>
+		<dataarea name="simm1.3" size="0x200000">
+		<rom name="jojo-simm1.3" offset="0x0" size="0x200000" crc="c04fe00e" sha1="d09409b77460d19b56aaaf4a64356f3d37a1ee41" />
+		</dataarea>
+		<dataarea name="simm2.0" size="0x200000">
+		<rom name="jojo-simm2.0" offset="0x0" size="0x200000" crc="e1a4b3c8" sha1="5dc298431644e1ca470aaab752a7d74f2f9dc7a1" />
+		</dataarea>
+		<dataarea name="simm2.1" size="0x200000">
+		<rom name="jojo-simm2.1" offset="0x0" size="0x200000" crc="189cef95" sha1="ebe42a019358461557f69fb17d65d84d0f733415" />
+		</dataarea>
+		<dataarea name="simm2.2" size="0x200000">
+		<rom name="jojo-simm2.2" offset="0x0" size="0x200000" crc="47db5ec6" sha1="e80271e4013e4391c2cc4229ff1fbd4a2b7c6f04" />
+		</dataarea>
+		<dataarea name="simm2.3" size="0x200000">
+		<rom name="jojo-simm2.3" offset="0x0" size="0x200000" crc="e3d3a155" sha1="75e9b5da93dd8894cf70fa4dac56f3958be4c766" />
+		</dataarea>
+		<dataarea name="simm3.0" size="0x200000">
+		<rom name="jojo-simm3.0" offset="0x0" size="0x200000" crc="de7fc9c1" sha1="662b85a990b04c855773506c936317e62fab4a05" />
+		</dataarea>
+		<dataarea name="simm3.1" size="0x200000">
+		<rom name="jojo-simm3.1" offset="0x0" size="0x200000" crc="43d053d3" sha1="54ff0e9c164e0d1649522c330ccc7e5d79e0bc85" />
+		</dataarea>
+		<dataarea name="simm3.2" size="0x200000">
+		<rom name="jojo-simm3.2" offset="0x0" size="0x200000" crc="2ffd7fa5" sha1="9018c8e2b286a333ba606208e90caa764951ea3f" />
+		</dataarea>
+		<dataarea name="simm3.3" size="0x200000">
+		<rom name="jojo-simm3.3" offset="0x0" size="0x200000" crc="4da4985b" sha1="2552b1730a21ce17d58b69a79ad212a6a5829439" />
+		</dataarea>
+		<dataarea name="simm3.4" size="0x200000">
+		<rom name="jojo-simm3.4" offset="0x0" size="0x200000" crc="fde98d72" sha1="654563e12d033e8656dc74a268a08b15b171470d" />
+		</dataarea>
+		<dataarea name="simm3.5" size="0x200000">
+		<rom name="jojo-simm3.5" offset="0x0" size="0x200000" crc="edb2a266" sha1="19ebada8422c7f4bf70d0c9ad42b84268967b316" />
+		</dataarea>
+		<dataarea name="simm3.6" size="0x200000">
+		<rom name="jojo-simm3.6" offset="0x0" size="0x200000" crc="be7cf319" sha1="7893f5907992e6b903b2683980bba6d3d003bb06" />
+		</dataarea>
+		<dataarea name="simm3.7" size="0x200000">
+		<rom name="jojo-simm3.7" offset="0x0" size="0x200000" crc="56fe1a9f" sha1="01741fe1256f4e682f687e94040f4e8bbb8bedb2" />
+		</dataarea>
+		<dataarea name="simm4.0" size="0x200000">
+		<rom name="jojo-simm4.0" offset="0x0" size="0x200000" crc="c4e7bf68" sha1="a4d1ddea58a3d42db82a63a5e974cbf38d9b792a" />
+		</dataarea>
+		<dataarea name="simm4.1" size="0x200000">
+		<rom name="jojo-simm4.1" offset="0x0" size="0x200000" crc="b62b2719" sha1="cb577b89e9e14fda67715716fefd47a782d518ab" />
+		</dataarea>
+		<dataarea name="simm4.2" size="0x200000">
+		<rom name="jojo-simm4.2" offset="0x0" size="0x200000" crc="18d15809" sha1="2b406cd1aaa4799a436213dcaa65473eacb4c6d7" />
+		</dataarea>
+		<dataarea name="simm4.3" size="0x200000">
+		<rom name="jojo-simm4.3" offset="0x0" size="0x200000" crc="9af0ad79" sha1="075ee048e17b50188876f25d7a6571d6ace84d7d" />
+		</dataarea>
+		<dataarea name="simm4.4" size="0x200000">
+		<rom name="jojo-simm4.4" offset="0x0" size="0x200000" crc="4124c1f0" sha1="e4946a8029adc5d0bacead8d766521b4ccd1722b" />
+		</dataarea>
+		<dataarea name="simm4.5" size="0x200000">
+		<rom name="jojo-simm4.5" offset="0x0" size="0x200000" crc="5e001fd1" sha1="6457a39f336381b46e587aa2f5f719810ee5bcf9" />
+		</dataarea>
+		<dataarea name="simm4.6" size="0x200000">
+		<rom name="jojo-simm4.6" offset="0x0" size="0x200000" crc="9affa23b" sha1="e3d77e777c47277d841a9dadc1dd6e3157706a2e" />
+		</dataarea>
+		<dataarea name="simm4.7" size="0x200000">
+		<rom name="jojo-simm4.7" offset="0x0" size="0x200000" crc="2511572a" sha1="725adcf71bcee5c8bb839d2d1c5e3456b8c6886b" />
+		</dataarea>
+		<dataarea name="simm5.0" size="0x200000">
+		<rom name="jojo-simm5.0" offset="0x0" size="0x200000" crc="797615fc" sha1="29874be9f1da5515c90f5d601aa5924c263f8feb" />
+		</dataarea>
+		<dataarea name="simm5.1" size="0x200000">
+		<rom name="jojo-simm5.1" offset="0x0" size="0x200000" crc="734fd162" sha1="16cdfac74d18a6c2216afb1ce6afbd7f15297c32" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

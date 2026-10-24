@@ -1,0 +1,22 @@
+<software name="csw2s01">
+	<description>Crossed Swords 2 (update)</description>
+	<year>2026</year>
+	<publisher>pierpa86</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="054s01.p1" offset="0x100000" size="0x100000" crc="3e77a96f" sha1="3876f5e0fa6f6c0381586ce4a9761e09e11aa1cb" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="054s01.v1" offset="0x0" size="0x400000" crc="e2592de1" sha1="7f5c05a507ca4d2484834ef28378c302e0e11364" />
+		<rom name="054s01.v2" offset="0x400000" size="0x400000" crc="a6c27244" sha1="5feb37d7af1827a05740182d414ab71c3b385149" />
+		<rom name="054s01.v3" offset="0x800000" size="0x400000" crc="de506a5b" sha1="2151f6805bfe3e633f6196c2730451ed68db0f63" />
+		<rom name="054s01.v4" offset="0xc00000" size="0x400000" crc="d3aa8645" sha1="eac7afb8ce6003cf249e800d7d92d5f6b02fca25" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="054s01.c1" offset="0x0" size="0x400000" crc="8404780c" sha1="30a1e7249f01cd9dade96773ca17d584f5b4374d" />
+		<rom loadflag="load16_byte" name="054s01.c2" offset="0x1" size="0x400000" crc="d8016890" sha1="a3d38f9e6bbed588363c7bd598511570f9c392b5" />
+		</dataarea>
+	</part>
+</software>

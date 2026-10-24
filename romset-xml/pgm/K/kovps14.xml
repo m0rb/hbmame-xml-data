@@ -1,0 +1,28 @@
+<software name="kovps14" cloneof="kovplus">
+	<description>Knights of Valour Plus (Three Kingdoms Warriors 2015 Unparalleled Purgatory)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_ph144.119" offset="0x100000" size="0x400000" crc="73182461" sha1="2b2a2c3700f1473d57cc5bb7075383cd9d035c06" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600_ph115.rom" offset="0x400000" size="0x400000" crc="730640d6" sha1="d0d7e7c85fd47e4c1cebc7953269979922da869d" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0600_ph115.rom" offset="0x180000" size="0x800000" crc="c5a5ecbe" sha1="7337a5b9f2f1450890c617f99aafef67d170fb8b" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_ph115.rom" offset="0x0" size="0x800000" crc="5bd7ea9f" sha1="0eb33bd0e23441394ae7c6fa28aafe11adf0b22f" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_ph115.rom" offset="0x1000000" size="0x800000" crc="b64e6473" sha1="d231b85d1a3466565a90b2bb1489ef3038377fd2" />
+		<rom name="pgm_a0603.u9" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_ph115.rom" offset="0x0" size="0x800000" crc="07d91ea3" sha1="8713409439eb4a2875baffbda711587f283a652b" />
+		<rom name="b0601_ph115.rom" offset="0x800000" size="0x400000" crc="3737c3f7" sha1="ed01d926ac080991fd5b98b04977dde84152f8e1" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="sfus" description="Sfus cartridges">
+<software name="sfpp" cloneof="sf">
+	<description>Street Fighter (Plus Plus)</description>
+	<year>2020</year>
+	<publisher>Yumeji</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x60000">
+		<rom loadflag="load16_byte" name="sfpp-19.2a" offset="0x0" size="0x10000" crc="9bcaeada" sha1="6d5228697b49aae797e089c14b2f79c30572cbaf" />
+		<rom loadflag="load16_byte" name="sfpp-22.2c" offset="0x1" size="0x10000" crc="001cffb9" sha1="c6f83793ac2c2058ddaf40abfcc7d7da22b3cdb7" />
+		<rom loadflag="load16_byte" name="sfpp-20.3a" offset="0x20000" size="0x10000" crc="2a2abcf9" sha1="2eeb7aa32b0b32e6a4397156ab5cc9a022b11cbe" />
+		<rom loadflag="load16_byte" name="sfpp-23.3c" offset="0x20001" size="0x10000" crc="67303dea" sha1="a53cbd45e2be3ef8f85f7f38ba30a0db2a6f83d9" />
+		<rom loadflag="load16_byte" name="sfpp-21.4a" offset="0x40000" size="0x10000" crc="7a3e0c4e" sha1="a9cf0b0de93a328e071f997b10bc399471321c62" />
+		<rom loadflag="load16_byte" name="sfpp-24.4c" offset="0x40001" size="0x10000" crc="a8ad79f5" sha1="559612a1ce84754054c6f0d7866778c98abe9fef" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="sf-02.7k" offset="0x0" size="0x8000" crc="4a9ac534" sha1="933645f8db4756aa2a35a843c3ac6f93cb8d565d" />
+		</dataarea>
+		<dataarea name="audio2" size="0x40000">
+		<rom name="sf-00.1h" offset="0x0" size="0x20000" crc="4b733845" sha1="f7ff46e02f8ce6682d6e573588271bae2edfa90f" />
+		<rom name="sf-01.1k" offset="0x20000" size="0x20000" crc="86e0f0d5" sha1="7cef8056f83dac15f1b47d7be705d26170858337" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x80000">
+		<rom name="sf-39.2k" offset="0x0" size="0x20000" crc="cee3d292" sha1="a8c22f1dc81976e8dd5d6c70361c61fa3f9f89d6" />
+		<rom name="sf-38.1k" offset="0x20000" size="0x20000" crc="2ea99676" sha1="5f3eb77e75f0ee27fb8fc7bab2819b3fdd480206" />
+		<rom name="sf-41.4k" offset="0x40000" size="0x20000" crc="e0280495" sha1="e52c79feed590535b9a0b71ccadd0ed27d04ff45" />
+		<rom name="sf-40.3k" offset="0x60000" size="0x20000" crc="c70b30de" sha1="26112ee1720b6ad0e2e29e2d25ee2ec76fca0e3a" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x100000">
+		<rom name="sf-25.1d" offset="0x0" size="0x20000" crc="7f23042e" sha1="a355fd7047fb1a71ab5cd08e1afd82c2558494c1" />
+		<rom name="sf-28.1e" offset="0x20000" size="0x20000" crc="92f8b91c" sha1="6d958bc45131810d7b0af02be939ce37a39c35e8" />
+		<rom name="sf-30.1g" offset="0x40000" size="0x20000" crc="b1399856" sha1="7c956d49b2e73291182ea1ec4cebd3411d1322a1" />
+		<rom name="sf-34.1h" offset="0x60000" size="0x20000" crc="96b6ae2e" sha1="700e050463b7a29a1eb08007a2add045afdcd8a0" />
+		<rom name="sf-26.2d" offset="0x80000" size="0x20000" crc="54ede9f5" sha1="c2cb354a6b32047759945fa3ecafc70ba7d1dda1" />
+		<rom name="sf-29.2e" offset="0xa0000" size="0x20000" crc="f0649a67" sha1="eeda256527f7a2ee2d5e0688c505a01de548bc54" />
+		<rom name="sf-31.2g" offset="0xc0000" size="0x20000" crc="8f4dd71a" sha1="28b82c540df04c91a2dd6cbbc9a95bbebda6643b" />
+		<rom name="sf-35.2h" offset="0xe0000" size="0x20000" crc="70c00fb4" sha1="7c5504a5aedd3be7b663c5090eb22243e3fa669b" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x1c0000">
+		<rom name="sf-15.1m" offset="0x0" size="0x20000" crc="fc0113db" sha1="7c19603129be5f6e1ccd07fd8b7ee1cbf86468db" />
+		<rom name="sf-16.2m" offset="0x20000" size="0x20000" crc="82e4a6d3" sha1="5ec519c2740c66f5da27ced1db99e19fe38fdad7" />
+		<rom name="sf-11.1k" offset="0x40000" size="0x20000" crc="e112df1b" sha1="3f9856f69b457d79fe085bf51dfb2efcd98f883d" />
+		<rom name="sf-12.2k" offset="0x60000" size="0x20000" crc="42d52299" sha1="6560c38f5fd5a47db7728cc7df83d2169157174f" />
+		<rom name="sf-07.1h" offset="0x80000" size="0x20000" crc="49f340d9" sha1="65822efefa198791a632ef851a5ce06a71b4ed0f" />
+		<rom name="sf-08.2h" offset="0xa0000" size="0x20000" crc="95ece9b1" sha1="f0a15fce5cd9617fa5d4dd43bd5b6ea190dace85" />
+		<rom name="sf-03.1f" offset="0xc0000" size="0x20000" crc="5ca05781" sha1="004f5ad34798471b39bd4612c797f0913ed0fb4a" />
+		<rom name="sf-17.3m" offset="0xe0000" size="0x20000" crc="69fac48e" sha1="c9272217256c73cb8ddb4fbbfb5905ce1122c746" />
+		<rom name="sf-18.4m" offset="0x100000" size="0x20000" crc="71cfd18d" sha1="4c17e2124f3456d6b13ede8ad3ae916b53f9bb7e" />
+		<rom name="sf-13.3k" offset="0x120000" size="0x20000" crc="fa2eb24b" sha1="96f3bd54c340771577cc232ebde93965421f2557" />
+		<rom name="sf-14.4k" offset="0x140000" size="0x20000" crc="ad955c95" sha1="549d6a5125432aa45d03f15e76f6c2c8ab2e05a3" />
+		<rom name="sf-09.3h" offset="0x160000" size="0x20000" crc="41b73a31" sha1="aaa7a53e29fe23a1ca8ec4430f7efcbd774a8cbf" />
+		<rom name="sf-10.4h" offset="0x180000" size="0x20000" crc="91c41c50" sha1="b03fb9b3c553fb4aae45ad6997eeb7bb95fdcce3" />
+		<rom name="sf-05.3f" offset="0x1a0000" size="0x20000" crc="538c7cbe" sha1="f030a9562fbb93d1534b91343ca3f429cdbd0136" />
+		</dataarea>
+		<dataarea name="gfx4" size="0x4000">
+		<rom name="sf-27.4d" offset="0x0" size="0x4000" crc="2b09b36d" sha1="9fe1dd3a9396fbb06f30247cfe526653553beca1" />
+		</dataarea>
+		<dataarea name="protcpu" size="0x1000">
+		<rom name="sf_s.id8751h-8.14f" offset="0x0" size="0x1000" crc="6588891f" sha1="699a96c682dd527dc77aa5cb2c2655136d2bfc90" />
+		</dataarea>
+		<dataarea name="tilerom" size="0x40000">
+		<rom name="sf-37.4h" offset="0x0" size="0x10000" crc="23d09d3d" sha1="a0c71abc49c5fe59487a63b502e3d03021bfef13" />
+		<rom name="sf-36.3h" offset="0x10000" size="0x10000" crc="ea16df6c" sha1="68709a314b775c500817fc17d40a80204b2ae06c" />
+		<rom name="sf-32.3g" offset="0x20000" size="0x10000" crc="72df2bd9" sha1="9a0da618139673738b6b3302207255e44c5491a2" />
+		<rom name="sf-33.4g" offset="0x30000" size="0x10000" crc="3e99d3d5" sha1="9168a977e80f8c23c6126b9e64eb176290cf941a" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

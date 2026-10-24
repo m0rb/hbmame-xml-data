@@ -1,0 +1,29 @@
+<software name="pengob">
+	<description>Pengo (bootleg)</description>
+	<year>1982</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="1" offset="0x0" size="0x2000" crc="e04064db" sha1="6689066b443807646894a357317f468bfc92368a" />
+		<rom name="2" offset="0x2000" size="0x2000" crc="75752424" sha1="634e696a692c7245dfa5c5dfd4ce87755c2a90d4" />
+		<rom name="021_pn03.bin" offset="0x4000" size="0x1000" crc="7824e3ef" sha1="3395bb537614de8da763d05f0d2e312145017e8f" />
+		<rom name="020_pn07.bin" offset="0x5000" size="0x1000" crc="377b9663" sha1="35327dc0f0c19fa5a863aaf8d8f3bfcd2a5717a9" />
+		<rom name="032_pn04.bin" offset="0x6000" size="0x1000" crc="bfde44c1" sha1="97e8a360ce09faa36d864d7020b1669a349867c6" />
+		<rom name="031_pn08.bin" offset="0x7000" size="0x1000" crc="64e8c30d" sha1="aa50c21db2ac8361fc575f0785e2aae57f338564" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="5" offset="0x0" size="0x1000" crc="1232437b" sha1="7ec410a2a802514449ccb05684762c25f29556b0" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom name="epr-1695.ic105" offset="0x1000" size="0x1000" crc="5bfd26e9" sha1="bdec535e486b43a8f5550334beff423eeace10b2" />
+		<rom loadflag="continue" offset="0x3000" size="0x1000" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="pr1635.ic51" offset="0x0" size="0x100" crc="c29dea27" sha1="563c9770028fe39188e62630711589d6ed242a66" />
+		<rom name="pr1636.ic70" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x420">
+		<rom name="pr1633.ic78" offset="0x0" size="0x20" crc="3a5844ec" sha1="680eab0e1204c9b74adc11588461651b474021bb" />
+		<rom name="pr1634.ic88" offset="0x20" size="0x400" crc="766b139b" sha1="3fcd66610fcaee814953a115bf5e04788923181f" />
+		</dataarea>
+	</part>
+</software>

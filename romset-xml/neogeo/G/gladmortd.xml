@@ -1,0 +1,18 @@
+<software name="gladmortd">
+	<description>Gladmort (Demo)</description>
+	<year>2024</year>
+	<publisher>Pixelheart</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="503d1.p1" offset="0x0" size="0x80000" crc="e0ceafec" sha1="f147fdb7c0fee02e8ae1923bf0ef3aff954588ae" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="503d1.v1" offset="0x0" size="0x1000000" crc="49d60c52" sha1="56134745ce1fef3272aa5ddfcd24e3e894d5cca9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="503d1.c1" offset="0x0" size="0x1000000" crc="2c4fe4c3" sha1="7121a8713d58bf61a88fcf075cdc9529838af6e1" />
+		<rom loadflag="load16_byte" name="503d1.c2" offset="0x1" size="0x1000000" crc="1bdd21bd" sha1="13749d078525a63ac85ea2aa17b326409a4609e9" />
+		</dataarea>
+	</part>
+</software>

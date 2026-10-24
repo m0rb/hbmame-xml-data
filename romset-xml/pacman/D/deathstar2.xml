@@ -1,0 +1,15 @@
+<software name="deathstar2" cloneof="puckman">
+	<description>Death Star v2</description>
+	<year>2019</year>
+	<publisher>Stefano Bodrato</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dstar2.6e" offset="0x0" size="0x1000" crc="53a5428e" sha1="db4c271e47b9b14e4b266f30ff145c2074944f0f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="dstar2.5e" offset="0x0" size="0x1000" crc="99ad7923" sha1="03dcae6625335ae2abc58b1e3e7724e84c985c6e" />
+		<rom name="puckman.5f" offset="0x1000" size="0x800" crc="9e39323a" sha1="be933e691df4dbe7d12123913c3b7b7b585b7a35" />
+		<rom name="puckman.5j" offset="0x1800" size="0x800" crc="1b1d9096" sha1="53771c573051db43e7185b1d188533056290a620" />
+		</dataarea>
+	</part>
+</software>

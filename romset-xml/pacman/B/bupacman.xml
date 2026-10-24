@@ -1,0 +1,27 @@
+<software name="bupacman" cloneof="puckman">
+	<description>Busy Pacman</description>
+	<year>2026</year>
+	<publisher>Zeroco</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="bupm.6e" offset="0x0" size="0x800" crc="292c2004" sha1="0e4b080dc8a85edc33d8b49fc17da062b4e544bc" />
+		<rom name="bupm.6k" offset="0x800" size="0x800" crc="bc02ee74" sha1="261cc35c6e522c2487eb1421fcb6f7c4b9056fda" />
+		<rom name="bupm.6f" offset="0x1000" size="0x800" crc="5a3d2bc0" sha1="a273f679ffe235ca02b7bc7e56d74228c3e4b2cf" />
+		<rom name="bupm.6m" offset="0x1800" size="0x800" crc="1e878c6e" sha1="a47b3398e0e1e0da6330eef817bfd9ee69528a09" />
+		<rom name="puckman.6h" offset="0x2000" size="0x800" crc="6bf4f625" sha1="afe72fdfec66c145b53ed865f98734686b26e921" />
+		<rom name="bupm.6n" offset="0x2800" size="0x800" crc="ada07b4d" sha1="7e0c7c1a305290d8857c2013eaca548c195fed61" />
+		<rom name="bupm.6j" offset="0x3000" size="0x800" crc="32a1f575" sha1="c68c715f8a53a77bbc2b52875c27456c7e6b6d78" />
+		<rom name="bupm.6p" offset="0x3800" size="0x800" crc="31159185" sha1="3f11f5f5f0ad94c2af4f7a4bdd0ae79fdc2ead22" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="bupm.5e" offset="0x0" size="0x800" crc="3624374b" sha1="ceb80661104c96159d45b71c5c62324279405348" />
+		<rom name="puckman.5h" offset="0x800" size="0x800" crc="3591b89d" sha1="79bb456be6c39c1ccd7d077fbe181523131fb300" />
+		<rom name="bupm.5f" offset="0x1000" size="0x800" crc="2a05a00f" sha1="f4f53c0dd391ed704142dd22ff98cffe33d62d05" />
+		<rom name="puckman.5j" offset="0x1800" size="0x800" crc="1b1d9096" sha1="53771c573051db43e7185b1d188533056290a620" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="bupm.7f" offset="0x0" size="0x20" crc="76631e65" sha1="ede9f2c851a9aa2cc9e5cec683dffa4a1b855b6b" />
+		<rom name="bupm.4a" offset="0x20" size="0x100" crc="4d111f36" sha1="ab3517ec08aeac70d51aa4080959cd396877274c" />
+		</dataarea>
+	</part>
+</software>

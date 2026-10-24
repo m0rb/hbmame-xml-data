@@ -1,0 +1,30 @@
+<software name="dynwara" cloneof="dynwar">
+	<description>Dynasty Wars (USA, B-Board 88622B-3)</description>
+	<year>1989</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c04a.p1" offset="0x0" size="0x20000" crc="895991d1" sha1="56b105b85ccab1c49c89ae8d4aa55c9374077df0" />
+		<rom loadflag="load16_byte" name="c04a.p2" offset="0x1" size="0x20000" crc="c898d2e8" sha1="c8b10685681bf155ea44e30f3cb0574df7d4f984" />
+		<rom loadflag="load16_byte" name="c04a.p3" offset="0x40000" size="0x20000" crc="b228d58c" sha1="99a1f42d930f788c4f9b410addc95173fda801a2" />
+		<rom loadflag="load16_byte" name="c04a.p4" offset="0x40001" size="0x20000" crc="1a14375a" sha1="2b1a62f7961dceabf98461266da37abfec13aaa9" />
+		<rom loadflag="load16_byte" name="c04a.p5" offset="0x80000" size="0x20000" crc="8f663d00" sha1="77811783c87c7aee058b8533e34049a01047258a" />
+		<rom loadflag="load16_byte" name="c04a.p6" offset="0x80001" size="0x20000" crc="1586dbf3" sha1="d9f03e001effdef021a9ceda512e73a24726fca1" />
+		<rom loadflag="load16_byte" name="c04a.p7" offset="0xc0000" size="0x20000" crc="9db93d7a" sha1="f75e3fb5273baef0cd5d8eea26f07d5acaa743ca" />
+		<rom loadflag="load16_byte" name="c04a.p8" offset="0xc0001" size="0x20000" crc="1aae69a4" sha1="56e4761818f7857bc7520f2b8de90eabd857c577" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c04.m1" offset="0x0" size="0x8000" crc="b3b79d4f" sha1="2b960545741d3b9a53ffbf3ed83030392aa02698" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="dynwarj.key" offset="0x0" size="0x80" crc="6d4b2bbc" sha1="d3e6ee660a25494d14552a603339644755959236" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c04.v1" offset="0x0" size="0x20000" crc="ac6e307d" sha1="b490ce625bb7ce0904b0fd121fbfbd5252790f7a" />
+		<rom name="c04.v2" offset="0x20000" size="0x20000" crc="068741db" sha1="ab48aff639a7ac218b7d5304145e10e92d61fd9f" />
+		</dataarea>
+	</part>
+</software>

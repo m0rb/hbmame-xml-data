@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="pengou" description="Pengou cartridges">
+<software name="alpacap7" cloneof="alpaca8">
+	<description>Alpaca v0.7 (Pengo Hardware)</description>
+	<year>2003</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="alp7.u8" offset="0x0" size="0x1000" crc="e70923e4" sha1="86a96dc0dee5f5b532121892528ed2b456d51174" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="alp7_ic92" offset="0x0" size="0x1000" crc="693b1a96" sha1="ded8ac0a4186458fda6a241c027718742ba87973" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom name="alp_ic105" offset="0x1000" size="0x1000" crc="bda193f4" sha1="a61b5e86809feff025c73de78fc751ead646125b" />
+		<rom loadflag="continue" offset="0x3000" size="0x1000" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="pr1635.ic51" offset="0x0" size="0x100" crc="c29dea27" sha1="563c9770028fe39188e62630711589d6ed242a66" />
+		<rom name="pr1636.ic70" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x420">
+		<rom name="pr1633.ic78" offset="0x0" size="0x20" crc="3a5844ec" sha1="680eab0e1204c9b74adc11588461651b474021bb" />
+		<rom name="pr1634.ic88" offset="0x20" size="0x400" crc="766b139b" sha1="3fcd66610fcaee814953a115bf5e04788923181f" />
+		</dataarea>
+	</part>
+</software>
+<software name="alpacap8" cloneof="alpaca8">
+	<description>Alpaca v0.8 (Pengo Hardware)</description>
+	<year>2003</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="alp8.u8" offset="0x0" size="0x1000" crc="abd45fd7" sha1="120276d1e9a3da707db4263a93418ca37f4f4c9f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="alp8_ic92" offset="0x0" size="0x1000" crc="4a45717f" sha1="159a74c31fc5d4e5405bcd8d8843a1b381ea01a4" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom name="alp_ic105" offset="0x1000" size="0x1000" crc="bda193f4" sha1="a61b5e86809feff025c73de78fc751ead646125b" />
+		<rom loadflag="continue" offset="0x3000" size="0x1000" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="pr1635.ic51" offset="0x0" size="0x100" crc="c29dea27" sha1="563c9770028fe39188e62630711589d6ed242a66" />
+		<rom name="pr1636.ic70" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x420">
+		<rom name="pr1633.ic78" offset="0x0" size="0x20" crc="3a5844ec" sha1="680eab0e1204c9b74adc11588461651b474021bb" />
+		<rom name="pr1634.ic88" offset="0x20" size="0x400" crc="766b139b" sha1="3fcd66610fcaee814953a115bf5e04788923181f" />
+		</dataarea>
+	</part>
+</software>
+<software name="pacpen" cloneof="pengo">
+	<description>Pacman on Pengo Hardware</description>
+	<year>2016</year>
+	<publisher>Andrew Hannay</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacpen.u8" offset="0x0" size="0x1000" crc="59959af1" sha1="c528a7895338806977f2d9c76da91f67b0f78aed" />
+		<rom name="pacpen.u7" offset="0x1000" size="0x1000" crc="3ed59df1" sha1="561725f5970954cccf938330fd9f48ad0cb1829b" />
+		<rom name="pacpen.u15" offset="0x2000" size="0x1000" crc="d0c8dcc8" sha1="3a6829d12d7ef6f09d5e1afa5e0e4ef9d0605aa1" />
+		<rom name="pacpen.u14" offset="0x3000" size="0x1000" crc="39066ad9" sha1="9789a111b94a3c5aabf910c72c146f71df59f316" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="pacpen.u92" offset="0x0" size="0x1000" crc="2f0b5176" sha1="a6a51d4545329999a5f42ae790bfb3a894429fee" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom name="pacpen.105" offset="0x1000" size="0x1000" crc="6ba0078e" sha1="a6e14aa373ef22fe732c335fb1ad6c48fec92530" />
+		<rom loadflag="continue" offset="0x3000" size="0x1000" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="pr1635.ic51" offset="0x0" size="0x100" crc="c29dea27" sha1="563c9770028fe39188e62630711589d6ed242a66" />
+		<rom name="pr1636.ic70" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x420">
+		<rom name="pr1633.ic78" offset="0x0" size="0x20" crc="3a5844ec" sha1="680eab0e1204c9b74adc11588461651b474021bb" />
+		<rom name="pr1634.ic88" offset="0x20" size="0x400" crc="766b139b" sha1="3fcd66610fcaee814953a115bf5e04788923181f" />
+		</dataarea>
+	</part>
+</software>
+<software name="pengo2u" cloneof="pengo">
+	<description>Pengo (set 2, rev A, not encrypted)</description>
+	<year>1982</year>
+	<publisher>Sega</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="epr-5128.ic8" offset="0x0" size="0x1000" crc="3dfeb20e" sha1="a387b72501da77bf38b58619d2099083a0463e1f" />
+		<rom name="epr-5129.ic7" offset="0x1000" size="0x1000" crc="1db341bd" sha1="d1c66bb9cf479e6960dbcd35c820097a81eaa555" />
+		<rom name="epr-5130.ic15" offset="0x2000" size="0x1000" crc="7c2842d5" sha1="a8a568da68babd0ccb9f2cee4182fc01c3138494" />
+		<rom name="epr-5131a.ic14" offset="0x3000" size="0x1000" crc="6e3c1f2f" sha1="2ee821b0f6e0f3cfeae7f5ff25a6e9bd977efce0" />
+		<rom name="epr-5132.ic21" offset="0x4000" size="0x1000" crc="95f354ff" sha1="fdebc68a6d87f8ecdf52a57a34ae5ae844a13510" />
+		<rom name="epr-5133.ic20" offset="0x5000" size="0x1000" crc="0fdb04b8" sha1="ed814d58318c1055e475ff678609d189727bf9b4" />
+		<rom name="epr-5134.ic32" offset="0x6000" size="0x1000" crc="e5920728" sha1="0ac5ffdad7bdcb32e630b9582e1b1aaece5198c9" />
+		<rom name="epr-5135a.ic31" offset="0x7000" size="0x1000" crc="13de47ed" sha1="332b484d47c9921ed93432755bb2d7a9d4628939" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="epr-1640.ic92" offset="0x0" size="0x1000" crc="d7eec6cd" sha1="e542bcc28f292be9a0a29d949de726e0b55e654a" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom name="epr-1695.ic105" offset="0x1000" size="0x1000" crc="5bfd26e9" sha1="bdec535e486b43a8f5550334beff423eeace10b2" />
+		<rom loadflag="continue" offset="0x3000" size="0x1000" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="pr1635.ic51" offset="0x0" size="0x100" crc="c29dea27" sha1="563c9770028fe39188e62630711589d6ed242a66" />
+		<rom name="pr1636.ic70" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x420">
+		<rom name="pr1633.ic78" offset="0x0" size="0x20" crc="3a5844ec" sha1="680eab0e1204c9b74adc11588461651b474021bb" />
+		<rom name="pr1634.ic88" offset="0x20" size="0x400" crc="766b139b" sha1="3fcd66610fcaee814953a115bf5e04788923181f" />
+		</dataarea>
+	</part>
+</software>
+<software name="pengo3u" cloneof="pengo">
+	<description>Pengo (set 3, not encrypted)</description>
+	<year>1982</year>
+	<publisher>Sega</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="epr-5120.ic8" offset="0x0" size="0x1000" crc="f01afb60" sha1="1db732a17a9f79f8f1751f80c77889142928e41b" />
+		<rom name="epr-5121.ic7" offset="0x1000" size="0x1000" crc="2eb38353" sha1="d351347f93a3ed01c8b5274ec19352dd611a8dd4" />
+		<rom name="epr-5122.ic15" offset="0x2000" size="0x1000" crc="c33400d7" sha1="7b9617d22a9de8d3658abe34b5d2171ce37acc39" />
+		<rom name="epr-5123.ic14" offset="0x3000" size="0x1000" crc="6a85c6a2" sha1="444acc08607c892bb20b3a02753169addf5b11de" />
+		<rom name="epr-5124.ic21" offset="0x4000" size="0x1000" crc="95f354ff" sha1="fdebc68a6d87f8ecdf52a57a34ae5ae844a13510" />
+		<rom name="epr-5125.ic20" offset="0x5000" size="0x1000" crc="1a42310f" sha1="fef20385299a709ee17ed16510ac5702bd5cc257" />
+		<rom name="epr-5126.ic32" offset="0x6000" size="0x1000" crc="e5920728" sha1="0ac5ffdad7bdcb32e630b9582e1b1aaece5198c9" />
+		<rom name="epr-5127.ic31" offset="0x7000" size="0x1000" crc="a7d3d1d6" sha1="20e4353208c3803d8879b25f821ea617e9a19cc4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="epr-1640.ic92" offset="0x0" size="0x1000" crc="d7eec6cd" sha1="e542bcc28f292be9a0a29d949de726e0b55e654a" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom name="epr-1695.ic105" offset="0x1000" size="0x1000" crc="5bfd26e9" sha1="bdec535e486b43a8f5550334beff423eeace10b2" />
+		<rom loadflag="continue" offset="0x3000" size="0x1000" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="pr1635.ic51" offset="0x0" size="0x100" crc="c29dea27" sha1="563c9770028fe39188e62630711589d6ed242a66" />
+		<rom name="pr1636.ic70" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x420">
+		<rom name="pr1633.ic78" offset="0x0" size="0x20" crc="3a5844ec" sha1="680eab0e1204c9b74adc11588461651b474021bb" />
+		<rom name="pr1634.ic88" offset="0x20" size="0x400" crc="766b139b" sha1="3fcd66610fcaee814953a115bf5e04788923181f" />
+		</dataarea>
+	</part>
+</software>
+<software name="pengopop" cloneof="pengo">
+	<description>Pengo (Popcorn Music)</description>
+	<year>1997</year>
+	<publisher>Sega</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pengo.u8" offset="0x0" size="0x1000" crc="3dfeb20e" sha1="a387b72501da77bf38b58619d2099083a0463e1f" />
+		<rom name="pengo.u7" offset="0x1000" size="0x1000" crc="1db341bd" sha1="d1c66bb9cf479e6960dbcd35c820097a81eaa555" />
+		<rom name="pengo.u15" offset="0x2000" size="0x1000" crc="7c2842d5" sha1="a8a568da68babd0ccb9f2cee4182fc01c3138494" />
+		<rom name="pengo.u14" offset="0x3000" size="0x1000" crc="6e3c1f2f" sha1="2ee821b0f6e0f3cfeae7f5ff25a6e9bd977efce0" />
+		<rom name="epr-5124.ic21" offset="0x4000" size="0x1000" crc="95f354ff" sha1="fdebc68a6d87f8ecdf52a57a34ae5ae844a13510" />
+		<rom name="pengo.u20" offset="0x5000" size="0x1000" crc="0fdb04b8" sha1="ed814d58318c1055e475ff678609d189727bf9b4" />
+		<rom name="epr-5126.ic32" offset="0x6000" size="0x1000" crc="e5920728" sha1="0ac5ffdad7bdcb32e630b9582e1b1aaece5198c9" />
+		<rom name="pengopc.u31" offset="0x7000" size="0x1000" crc="1ede8569" sha1="0d10a0896847a06185a91eb83c0ccb88c4307b33" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="epr-1640.ic92" offset="0x0" size="0x1000" crc="d7eec6cd" sha1="e542bcc28f292be9a0a29d949de726e0b55e654a" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom name="epr-1695.ic105" offset="0x1000" size="0x1000" crc="5bfd26e9" sha1="bdec535e486b43a8f5550334beff423eeace10b2" />
+		<rom loadflag="continue" offset="0x3000" size="0x1000" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="pr1635.ic51" offset="0x0" size="0x100" crc="c29dea27" sha1="563c9770028fe39188e62630711589d6ed242a66" />
+		<rom name="pr1636.ic70" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x420">
+		<rom name="pr1633.ic78" offset="0x0" size="0x20" crc="3a5844ec" sha1="680eab0e1204c9b74adc11588461651b474021bb" />
+		<rom name="pr1634.ic88" offset="0x20" size="0x400" crc="766b139b" sha1="3fcd66610fcaee814953a115bf5e04788923181f" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

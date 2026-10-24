@@ -1,0 +1,24 @@
+<software name="rci">
+	<description>Robocop (Intro demo)</description>
+	<year>2009</year>
+	<publisher>[Raregame]</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="628.p1" offset="0x0" size="0x800000" crc="adcb4fe0" sha1="596242e344d1e171eed7ef242c10aec1a0090acf" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="628.v1" offset="0x0" size="0x96000" crc="ecb284a9" sha1="1ff34e6f3091ddf0da7b8afb06b903ab39d0b629" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="628.c1" offset="0x0" size="0x400000" crc="8cf565a0" sha1="c8d383d96b03be9e96fcea94b355c5c33717b4e1" />
+		<rom loadflag="load16_byte" name="628.c2" offset="0x1" size="0x400000" crc="76ef561d" sha1="3dfd4d923b7381e8f1ec4512915a05efa299e255" />
+		<rom loadflag="load16_byte" name="628.c3" offset="0x800000" size="0x400000" crc="7166790c" sha1="778db868373c4fa00899f224339c0d171519002a" />
+		<rom loadflag="load16_byte" name="628.c4" offset="0x800001" size="0x400000" crc="c0cdcbfc" sha1="d2bf8c0560e593820f2a556779602cabb3272b8d" />
+		<rom loadflag="load16_byte" name="628.c5" offset="0x1000000" size="0x400000" crc="a5ddc363" sha1="d2bee74072c2e1b5cac0fc422472aa5d53bc7358" />
+		<rom loadflag="load16_byte" name="628.c6" offset="0x1000001" size="0x400000" crc="1fcc8fce" sha1="3a7ecfc3a37b315a0a5c7a0127c9412f8214fd81" />
+		<rom loadflag="load16_byte" name="628.c7" offset="0x1800000" size="0x400000" crc="be9f9da2" sha1="9d619074b368db463182be999c2350b815ee2779" />
+		<rom loadflag="load16_byte" name="628.c8" offset="0x1800001" size="0x400000" crc="7cff633a" sha1="4d02abcb21dd20ffe7dfc94579fc6cbfaf1bf14e" />
+		</dataarea>
+	</part>
+</software>

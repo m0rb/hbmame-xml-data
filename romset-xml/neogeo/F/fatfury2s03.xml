@@ -1,0 +1,25 @@
+<software name="fatfury2s03" cloneof="fatfury2">
+	<description>Fatal Fury 2 (Easy Special Attacks)</description>
+	<year>1992</year>
+	<publisher>lichenzhao</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="047s03.p1" offset="0x0" size="0x100000" crc="dde4ef62" sha1="c76641a80e55f713367ffd7745d2f6f07896c3f8" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="047.v1" offset="0x0" size="0x200000" crc="d9d00784" sha1="f6a91eada8c23aa4518c4b82eeebca69f79d845c" />
+		<rom name="047.v2" offset="0x200000" size="0x200000" crc="2c9a4b33" sha1="d4a1c0951c02c8919b3ec32ed96933634ff9e54c" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="047.c1" offset="0x0" size="0x100000" crc="f72a939e" sha1="67fc398ec28061adca0d3be82bbe7297015800da" />
+		<rom loadflag="continue" offset="0x400000" size="0x100000" />
+		<rom loadflag="load16_byte" name="047.c2" offset="0x1" size="0x100000" crc="05119a0d" sha1="c2f100b73eb04f65b6ba6089d49aceb51b470ec6" />
+		<rom loadflag="continue" offset="0x400001" size="0x100000" />
+		<rom loadflag="load16_byte" name="047.c3" offset="0x200000" size="0x100000" crc="01e00738" sha1="79654f24d777dd5eb68bafc3b8cb9db71d5822e2" />
+		<rom loadflag="continue" offset="0x600000" size="0x100000" />
+		<rom loadflag="load16_byte" name="047.c4" offset="0x200001" size="0x100000" crc="9fe27432" sha1="89d22d77ba8bc6d1f6c974195c34ad61b9010de7" />
+		<rom loadflag="continue" offset="0x600001" size="0x100000" />
+		</dataarea>
+	</part>
+</software>

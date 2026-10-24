@@ -1,0 +1,31 @@
+<software name="kovshs26" cloneof="kovsh">
+	<description>Knights of Valour Super Heroes (Crazy Cloud Renewed New Year&#x27;s Day Special Edition)</description>
+	<year>1999</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_pw26.322" offset="0x100000" size="0x400000" crc="0c25ba7f" sha1="11d83aa7524fcf2285eebfbd6548404b8f246d24" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u4" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_pw26.asic" offset="0x0" size="0x4000" crc="1797770d" sha1="f9681f424af0d5816c91d62b68897765e95d3845" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_pw02.rom" offset="0x0" size="0x800000" crc="b41159b2" sha1="3f563fda2984aa9db14203fd8ba482db1a8ad0af" />
+		<rom name="pgm_a0601.u3" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_pw16.rom" offset="0x1000000" size="0x800000" crc="ab94d8a0" sha1="f54843fc3ec6f2e0d56da5f8e2a55880bf603109" />
+		<rom name="pgm_a0613.u7" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		<rom name="a0604_pw16.rom" offset="0x1a00000" size="0x400000" crc="8e3c32bc" sha1="296376cefcf2d04e8c62a9131ca141162fafa3b0" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_pw02.rom" offset="0x0" size="0x800000" crc="895a1902" sha1="d84fd403fdc8f4d707135fdecfe05eca950bb67b" />
+		<rom name="b0601_pw16.rom" offset="0x800000" size="0x400000" crc="1e917e36" sha1="480c691c0c3df7225145e163848c46404306fcb4" />
+		<rom name="b0602_pw26.rom" offset="0xc00000" size="0x100000" crc="aa64ac60" sha1="e9291715e691c09dfc2889e1c2f6e423aa3f1409" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_pw35.rom" offset="0x180000" size="0x800000" crc="f1dc8801" sha1="5fe0a2d6e606b7fad284483f496d1630833e78b0" />
+		</dataarea>
+	</part>
+</software>

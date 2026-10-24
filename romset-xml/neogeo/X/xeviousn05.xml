@@ -1,0 +1,18 @@
+<software name="xeviousn05" cloneof="xeviousn">
+	<description>Xevious (Neo-Geo port, gfx fix)</description>
+	<year>2026</year>
+	<publisher>pierpa86</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="420s05.p1" offset="0x0" size="0x100000" crc="aa601675" sha1="fb7a90573aa6b283e47decac6f74a1960f3f6f76" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="420.v1" offset="0x0" size="0x100000" crc="37ef6dc5" sha1="3d50197e22d8727a8395564b8645ed1e0e2a5d26" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="420s01.c1" offset="0x0" size="0x100000" crc="52ff5807" sha1="510ec3184ccec0f8d749d1c20918fddaefb00d2e" />
+		<rom loadflag="load16_byte" name="420s01.c2" offset="0x1" size="0x100000" crc="160d4ca2" sha1="ac893c1094a2db993e08f846f915fb8993452ab4" />
+		</dataarea>
+	</part>
+</software>

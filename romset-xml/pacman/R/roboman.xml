@@ -1,0 +1,17 @@
+<software name="roboman" cloneof="puckman">
+	<description>Robo Man</description>
+	<year>1999</year>
+	<publisher>Runge Editing</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="roboman.6j" offset="0x3000" size="0x1000" crc="a909673e" sha1="991d0c50087f5d47f85f6c16c667dea3b3973f4f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="roboman.5e" offset="0x0" size="0x1000" crc="e386213e" sha1="fbbc1d85cc61dc3a13cc5e26182d51b2bbdfcb63" />
+		<rom name="roboman.5f" offset="0x1000" size="0x1000" crc="d8db5788" sha1="11698932aca1150ef00801fdcb35a5ee2cb3d3b8" />
+		</dataarea>
+	</part>
+</software>

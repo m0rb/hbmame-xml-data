@@ -1,0 +1,44 @@
+<software name="sengoku2d" cloneof="sengoku2">
+	<description>Sengoku 2 (MGD2)</description>
+	<year>1993</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n040001a.038" offset="0x1" size="0x40000" crc="d1bf3fa5" sha1="4a6c82d9294980eca6f9311d62f4d683baca173e" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		<rom loadflag="load16_byte" name="n040001a.03c" offset="0x80001" size="0x40000" crc="ee9d0bb4" sha1="27748b3a1b2e59cda29a85a6a467e1a46be3fe60" />
+		<rom loadflag="continue" offset="0x80000" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x300000">
+		<rom name="n040001a.1f8" offset="0x0" size="0x80000" crc="e6e9d82f" sha1="a4691ef7719c55fa665dbe8f4420008cf6f23ae2" />
+		<rom name="n040001a.1fc" offset="0x80000" size="0x80000" crc="0504e71e" sha1="856a200e2e4c39c0985d10b1dcd75e89e69b6f5d" />
+		<rom name="n040001b.1f8" offset="0x100000" size="0x80000" crc="e6c57d21" sha1="e1f1403c3340be1ab66f027b2678bee3267b9f3c" />
+		<rom name="n040001b.1fc" offset="0x180000" size="0x80000" crc="000d319d" sha1="88424ceca50e03ed41bad0493461bccfee519ec5" />
+		<rom name="n040001c.1f8" offset="0x200000" size="0x80000" crc="6650bc9a" sha1="43e9da8176b9c282eaaaf8963fd7c7bd83d61953" />
+		<rom name="n040001c.1fc" offset="0x280000" size="0x80000" crc="c6358d62" sha1="ca1d72a8a3ea9a2b5a800aeb091098d723eef963" />
+		</dataarea>
+		<dataarea name="sprites" size="0x600000">
+		<rom loadflag="load32_byte" name="n040001a.538" offset="0x0" size="0x40000" crc="da18aaed" sha1="926500715ba30a5fad128ba877ca5f59bd98399b" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n040001a.638" offset="0x1" size="0x40000" crc="5b27c829" sha1="166ff9359b819a068763e868da69cf67976ec8c8" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n040001a.53c" offset="0x100000" size="0x40000" crc="19796c4f" sha1="cf15a65c6bc5243978df6c91b3dce120e4b6db4a" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n040001a.63c" offset="0x100001" size="0x40000" crc="e8b46e26" sha1="5b47903fd7b9783e6e18bbff33e0d7747305bda9" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n040001b.538" offset="0x200000" size="0x40000" crc="891b6386" sha1="9d5e3b2fb6c2247712637f0f7b647042e0485eb6" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n040001b.638" offset="0x200001" size="0x40000" crc="93d25955" sha1="039567a2426794bac9a502d7a46ed13bcc804764" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n040001c.538" offset="0x400000" size="0x40000" crc="c5eaabe8" sha1="724f0b47e7e166b65b5e5fee790850aed15d2885" />
+		<rom loadflag="continue" offset="0x400002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n040001c.638" offset="0x400001" size="0x40000" crc="432bd7d0" sha1="662179ed7c82f9f825b89650761db093ef9f7467" />
+		<rom loadflag="continue" offset="0x400003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n040001c.53c" offset="0x500000" size="0x40000" crc="22633905" sha1="3afcf2bf752afa1593f144a8a9749736a09f6738" />
+		<rom loadflag="continue" offset="0x500002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n040001c.63c" offset="0x500001" size="0x40000" crc="ba3f54b2" sha1="796ac0d021552b2ed1b95f11cad1e5e1530abcc7" />
+		<rom loadflag="continue" offset="0x500003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

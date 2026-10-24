@@ -1,0 +1,30 @@
+<software name="ffightj2s02" cloneof="ffight">
+	<description>Final Fight (Paced Whirlwind, 2016-08-17)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c07j2s02.p1" offset="0x0" size="0x20000" crc="cb024f54" sha1="f5a6f8fff5680eb157c7bb475a50da0a0ee4269b" />
+		<rom loadflag="load16_byte" name="c07j2s02.p2" offset="0x1" size="0x20000" crc="516fc7a6" sha1="599bb1d22d43f9b3571e5bf4b836b95bbd63021a" />
+		<rom loadflag="load16_byte" name="c07j2s02.p3" offset="0x40000" size="0x20000" crc="e1bd4c19" sha1="5527fe8c8c49eebbacf0e67aec7e1de9ba477a50" />
+		<rom loadflag="load16_byte" name="c07j2s02.p4" offset="0x40001" size="0x20000" crc="066c44ba" sha1="8fba0ca434103615ce192d0f775a1354e67eddee" />
+		<rom loadflag="load16_byte" name="c07u1.p5" offset="0x80000" size="0x20000" crc="0c8dc3fc" sha1="edcce3efd9cdd131ef0c96df15a68722d5c3498e" />
+		<rom loadflag="load16_byte" name="c07u1.p6" offset="0x80001" size="0x20000" crc="8075bab9" sha1="f9c7405133f6fc5557c90e60e8ccc459e4f6fd7d" />
+		<rom loadflag="load16_byte" name="c07u1.p7" offset="0xc0000" size="0x20000" crc="4a934121" sha1="3982c261582755a0eac340d6d7ed96e6c263c8b6" />
+		<rom loadflag="load16_byte" name="c07u1.p8" offset="0xc0001" size="0x20000" crc="2af68154" sha1="7d549cb38650b4b79c68ad6d0dfcefdd62be4e99" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c07.m1" offset="0x0" size="0x8000" crc="b8367eb5" sha1="ec3db29fdd6200e9a8f4f8073a7e34aef731354f" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="ffighth.key" offset="0x0" size="0x80" crc="1fbcac88" sha1="b61a3ec619ec919b1bb999efa89d683d509c84d8" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c07.v1" offset="0x0" size="0x20000" crc="375c66e7" sha1="36189e23209ce4ae5d9cbabd1574540d0591e7b3" />
+		<rom name="c07.v2" offset="0x20000" size="0x20000" crc="1ef137f9" sha1="974b5e72aa28b87ebfa7438efbdfeda769dedf5e" />
+		</dataarea>
+	</part>
+</software>

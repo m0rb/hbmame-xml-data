@@ -1,0 +1,19 @@
+<software name="flapchck">
+	<description>Flappy Chicken (2023-04-30)</description>
+	<year>2023</year>
+	<publisher>Blastar</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="415.p1" offset="0x0" size="0x80000" crc="2a7454a1" sha1="6351645c6afdc8b1392e05c6f508217dd7af5bb2" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="415.v1" offset="0x0" size="0x80000" crc="c5d09e58" sha1="6536a18a2df3eec251478ca0dd622d64accb9e40" />
+		<rom name="415.v2" offset="0x80000" size="0x80000" crc="b9afe241" sha1="f6224822730b667a38643627160278bb84eb695f" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="415.c1" offset="0x0" size="0x80000" crc="4ecdb8ca" sha1="fb0ae76f1343f92a111763be267cec56c013972e" />
+		<rom loadflag="load16_byte" name="415.c2" offset="0x1" size="0x80000" crc="47d06927" sha1="bf9ada131768c23f816a9c367596782e5bedc739" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,23 @@
+<software name="newpuc2" cloneof="puckman">
+	<description>Newpuc2</description>
+	<year>1980</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="newpuc2.6e" offset="0x0" size="0x800" crc="69496a98" sha1="2934051d6305cc3654951bc1aacf2b8902f463fe" />
+		<rom name="newpuc2.6k" offset="0x800" size="0x800" crc="158fc01c" sha1="2f7a1e24d259fdc716ef8e7354a87780595f3c4e" />
+		<rom name="puckman.6f" offset="0x1000" size="0x800" crc="7d177853" sha1="9b5ddaaa8b564654f97af193dbcc29f81f230a25" />
+		<rom name="newpuc2.6m" offset="0x1800" size="0x800" crc="70810ccf" sha1="3941678606aab1e53356a6781e24d84e83cc88ce" />
+		<rom name="newpuc2.6h" offset="0x2000" size="0x800" crc="81719de8" sha1="e886d04ac0e20562a4bd2df7676bdf9aa98665d7" />
+		<rom name="newpuc2.6n" offset="0x2800" size="0x800" crc="3f250c58" sha1="53bf2270c26f10f7e97960cd4c96e09e16b9bdf3" />
+		<rom name="newpuc2.6j" offset="0x3000" size="0x800" crc="e6675736" sha1="85d0bb79bc96acbc67fcb70ff4d453c870a6c8ea" />
+		<rom name="newpuc2.6p" offset="0x3800" size="0x800" crc="1f81e765" sha1="442d8a82e79ae842f1ffb46369c632c1d0b83161" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="puckman.5e" offset="0x0" size="0x800" crc="2066a0b7" sha1="6d4ccc27d6be185589e08aa9f18702b679e49a4a" />
+		<rom name="newpuc2.5h" offset="0x800" size="0x800" crc="777c70d3" sha1="ed5ccbeb1102ec9f837577de3aa51317c32520d6" />
+		<rom name="newpuc2.5f" offset="0x1000" size="0x800" crc="ca8c184c" sha1="833aa845824ed80777b62f03df36a920ad7c3656" />
+		<rom name="newpuc2.5j" offset="0x1800" size="0x800" crc="7dc75a81" sha1="d3fe1cad3b594052d8367685febb2335b0ad62f4" />
+		</dataarea>
+	</part>
+</software>

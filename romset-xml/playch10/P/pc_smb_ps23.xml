@@ -1,0 +1,16 @@
+<software name="pc_smb_ps23" cloneof="pc_smb">
+	<description>Super Mario Bros. (Happy Experience Of Super Mario, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps23" offset="0x0" size="0x2000" crc="e5473352" sha1="dabf71676e2cacc419bd4cab953f9d80c6d5f261" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps23" offset="0x0" size="0x8000" crc="a00997dc" sha1="84eac05bc2e305a805cf2a979dc03abde43483b5" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

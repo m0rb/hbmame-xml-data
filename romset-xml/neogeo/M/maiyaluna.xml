@@ -1,0 +1,18 @@
+<software name="maiyaluna">
+	<description>Maiya &amp; Luna (v1)</description>
+	<year>2026</year>
+	<publisher>Eagle Software</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="783.p1" offset="0x0" size="0x80000" crc="dda3c6e9" sha1="60dfea90600b4ce6702b24f2ca1782b3e804bebd" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="783.v1" offset="0x0" size="0x76c400" crc="0518d9fc" sha1="b328636be66f6aedd5fcc5b48a59434858201163" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="783.c1" offset="0x0" size="0x400000" crc="cd2c43bb" sha1="cba8d7ca848393919ddd0233eca849623ccd8d30" />
+		<rom loadflag="load16_byte" name="783.c2" offset="0x1" size="0x400000" crc="60b12724" sha1="b28f2710d55bbf9162c7197b7967d356964c3a15" />
+		</dataarea>
+	</part>
+</software>

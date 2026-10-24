@@ -1,0 +1,18 @@
+<software name="bubbleopen">
+	<description>Bubble Open (demo 1)</description>
+	<year>2026</year>
+	<publisher>Neslou</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="537.p1" offset="0x0" size="0x100000" crc="e931552d" sha1="fe1322c6253b9d53c575fc6fcfb75f4ec03208a1" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="537.v1" offset="0x0" size="0x800000" crc="929cacaa" sha1="f53d6d572be0824eabc7401ab933627a36ae0854" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="537.c1" offset="0x0" size="0x200000" crc="c300583b" sha1="d4ab2f2309634f255ae26d5c2cbbf4ad53ee08c6" />
+		<rom loadflag="load16_byte" name="537.c2" offset="0x1" size="0x200000" crc="4e9d9d52" sha1="23e651661aa6a5dfb19973c25d2ee1c5e59d3e4d" />
+		</dataarea>
+	</part>
+</software>

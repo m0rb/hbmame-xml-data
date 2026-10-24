@@ -1,0 +1,32 @@
+<software name="dkongacc" cloneof="dkong">
+	<description>Donkey Kong Accelerate v1.01 (2023-09-05)</description>
+	<year>2023</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongacc.5et" offset="0x0" size="0x1000" crc="cfb3a3be" sha1="a5cfcdc4c2a66cf0c48adad4a15ce74cfd6de2d7" />
+		<rom name="dkongacc.5ct" offset="0x1000" size="0x1000" crc="9a527b63" sha1="b0a4680887539b81e1c2cee23b42303b6adcf182" />
+		<rom name="dkongacc.5bt" offset="0x2000" size="0x1000" crc="107b677c" sha1="d9519a7a8617528ded4addb65ad419fb1e552e1f" />
+		<rom name="dkongacc.5at" offset="0x3000" size="0x1000" crc="622b283f" sha1="e883070b9a18c9d22b9e1c03eaf79f6fc1c6673c" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkongacc.5h" offset="0x0" size="0x800" crc="b3a5f655" sha1="2eaba75655b9ae4e5a55a79f3e037ece4bf571b7" />
+		<rom name="dkongacc.3pt" offset="0x800" size="0x800" crc="0bebf954" sha1="f6ad0e083f58bcf1f617a29f4af0aab9a64b2f10" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkongacc.4m" offset="0x0" size="0x800" crc="3c7c711e" sha1="2385962c4da66dd30b553f9a683b7c5799d6d4f4" />
+		<rom name="dkongacc.4n" offset="0x800" size="0x800" crc="7f0e788f" sha1="4c4b1fc8b2481b376fb6b49c1d1ef9156c8c7cc7" />
+		<rom name="dkongacc.4r" offset="0x1000" size="0x800" crc="89129b53" sha1="7d52ee4925a54124d8063151badc71812d5b5c64" />
+		<rom name="dkongacc.4s" offset="0x1800" size="0x800" crc="df2aa287" sha1="be41a3f2d87905e056666f31a9051a065eb91f29" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkongacc.2k" offset="0x0" size="0x100" crc="d46f27e1" sha1="e818e6953e9716c0bebeeb29bb1e152dfbc68a88" />
+		<rom name="dkongacc.2j" offset="0x100" size="0x100" crc="9e4af035" sha1="3d727fb90ecec3d9b57df5e9cae6fafe8b93adb2" />
+		<rom name="dkongacc.5e" offset="0x200" size="0x100" crc="ece3b0f2" sha1="3b13cf44164849a9854f2efa918a36d747e91341" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>

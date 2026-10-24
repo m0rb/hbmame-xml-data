@@ -1,0 +1,16 @@
+<software name="pc_cch">
+	<description>Circus Charlie (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="circusch.u2" offset="0x0" size="0x2000" crc="f76c592a" sha1="c8bc574c43d26d5072869922573edaaab7a37050" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="circusch.u1" offset="0x4000" size="0x4000" crc="2cb269d5" sha1="28a700b4fa5c580adf3ef9891506585ef6a40725" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="2cd98ef6.prm" offset="0x0" size="0x10" crc="2cd98ef6" sha1="bd5142c6a29df674ab835c8beafff7e93712d88f" />
+		</dataarea>
+	</part>
+</software>

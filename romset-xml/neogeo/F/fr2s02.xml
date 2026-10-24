@@ -1,0 +1,22 @@
+<software name="fr2s02" cloneof="fr2">
+	<description>Idol Mahjong Final Romance 2 (CD conversion)</description>
+	<year>1995</year>
+	<publisher>Video Systems Co.</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="098s02.p1" offset="0x0" size="0x80000" crc="9aa8cee0" sha1="b2201f16d8fde4eaae9dbc754d019e7b381ecc06" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="098s01.v1" offset="0x0" size="0x100000" crc="92e175f0" sha1="788a9cce9028f16d6734bff163beb1a19305b8be" />
+		</dataarea>
+		<dataarea name="sprites" size="0x600000">
+		<rom loadflag="load16_byte" name="098s02.c1" offset="0x0" size="0x100000" crc="6158cf4a" sha1="8e34b65f2cdfccaa6eeb40fef1ab3453eab92f46" />
+		<rom loadflag="load16_byte" name="098s02.c2" offset="0x1" size="0x100000" crc="93a809a3" sha1="9b680b8b758cfc77f01d7211b67343a90462b3f3" />
+		<rom loadflag="load16_byte" name="098s02.c3" offset="0x200000" size="0x100000" crc="fafa3381" sha1="0c4f20c4d5f57c1dad50b914f9d1299a9d882b42" />
+		<rom loadflag="load16_byte" name="098s02.c4" offset="0x200001" size="0x100000" crc="9895e23f" sha1="565b5fbe07f65fb48d0bde769d3245a6ac747774" />
+		<rom loadflag="load16_byte" name="098s02.c5" offset="0x400000" size="0x100000" crc="eeaaa818" sha1="434c13852153d7bebe138611a836d9bf07d1d4cf" />
+		<rom loadflag="load16_byte" name="098s02.c6" offset="0x400001" size="0x100000" crc="f3d9a190" sha1="44932122e044d23234235cb3899f6e1e63970983" />
+		</dataarea>
+	</part>
+</software>

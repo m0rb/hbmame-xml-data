@@ -1,0 +1,51 @@
+<software name="sf2ces11" cloneof="sf2ce">
+	<description>Street Fighter II&#x27;: Champion Edition (M16, bootleg)</description>
+	<year>1992</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c19s11.p1" offset="0x0" size="0x80000" crc="e927556c" sha1="3878ed3cfb10888a3c99001c3d6076c54d61999f" />
+		<rom loadflag="load16_byte" name="c19s11.p2" offset="0x1" size="0x80000" crc="8632e786" sha1="56d4faf986a4791ae608b066659bd365d47bbe01" />
+		<rom loadflag="load16_byte" name="c19m9.p3" offset="0x100000" size="0x20000" crc="8226c11c" sha1="9588bd64e338901394805aca8a234f880674dc60" />
+		<rom loadflag="load16_byte" name="c19m8.p4" offset="0x100001" size="0x20000" crc="924c6ce2" sha1="676a912652bd75da5087f0c7eae047b7681a993c" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c19.m1" offset="0x0" size="0x8000" crc="08f6b60e" sha1="8258fcaca4ac419312531eec67079b97f471179c" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2ce.key" offset="0x0" size="0x80" crc="35b37429" sha1="b372cce106c0900554735c207fb333ac93554ec2" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		<rom name="c19m9.c01" offset="0x0" size="0x40000" crc="a887f7d4" sha1="d7e0c46b3ab1c6352f45033cb9e610d9c34d51fb" />
+		<rom loadflag="continue" offset="0x4" size="0x40000" />
+		<rom name="c19m9.c02" offset="0x1" size="0x40000" crc="9390ff23" sha1="b234169615aa952e3b15c7b0dfb495e499ba49ef" />
+		<rom loadflag="continue" offset="0x5" size="0x40000" />
+		<rom name="c19m9.c03" offset="0x2" size="0x40000" crc="afb3b589" sha1="9721fa705d62814e416c38a6c3e698efb9385a98" />
+		<rom loadflag="continue" offset="0x6" size="0x40000" />
+		<rom name="c19m9.c04" offset="0x3" size="0x40000" crc="90f2053e" sha1="a78710421e702b410650c45c3dec21bf16799fb4" />
+		<rom loadflag="continue" offset="0x7" size="0x40000" />
+		<rom name="c19m9.c05" offset="0x200000" size="0x40000" crc="79fa8bf0" sha1="9f8f7b8dc54a75226beb017b9ca9fd62a9e42f6b" />
+		<rom loadflag="continue" offset="0x200004" size="0x40000" />
+		<rom name="c19m9.c06" offset="0x200001" size="0x40000" crc="6a5f153c" sha1="f3d82ad01e2e4bdb2039815747fa14399c69753a" />
+		<rom loadflag="continue" offset="0x200005" size="0x40000" />
+		<rom name="c19m9.c07" offset="0x200002" size="0x40000" crc="32518120" sha1="56ffa5fffb714cff8be8be5a3675b8a5fa29b2bc" />
+		<rom loadflag="continue" offset="0x200006" size="0x40000" />
+		<rom name="c19m9.c08" offset="0x200003" size="0x40000" crc="c16579ae" sha1="42c9d6df9f3b015f5d1ad4fa2b34ea90bb37bcae" />
+		<rom loadflag="continue" offset="0x200007" size="0x40000" />
+		<rom name="c19m9.c09" offset="0x400000" size="0x40000" crc="169d85a6" sha1="dd98c8807e80465858b2eac10825e598c37e1a93" />
+		<rom loadflag="continue" offset="0x400004" size="0x40000" />
+		<rom name="c19m9.c10" offset="0x400001" size="0x40000" crc="32a3a841" sha1="6f9a13b8828998d194dd3933b032c75efed9cab3" />
+		<rom loadflag="continue" offset="0x400005" size="0x40000" />
+		<rom name="c19m9.c11" offset="0x400002" size="0x40000" crc="0c638630" sha1="709d183d181a0509c7ed839c59214851468d2bb8" />
+		<rom loadflag="continue" offset="0x400006" size="0x40000" />
+		<rom name="c19m9.c12" offset="0x400003" size="0x40000" crc="6ee19b94" sha1="c45119d04879b6ca23a3f7749175c56b381b43f2" />
+		<rom loadflag="continue" offset="0x400007" size="0x40000" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c19m8.v1" offset="0x0" size="0x40000" crc="6cfffb11" sha1="995526183ffd35f92e9096500a3fe6237faaa2dd" />
+		</dataarea>
+		<dataarea name="pld" size="0xc8d">
+		</dataarea>
+	</part>
+</software>

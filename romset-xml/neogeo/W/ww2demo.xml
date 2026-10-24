@@ -1,0 +1,15 @@
+<software name="ww2demo">
+	<description>WW2demo</description>
+	<year>2001</year>
+	<publisher>Rastersoft</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="613.p1" offset="0x0" size="0x80000" crc="d53762ff" sha1="231174363266ec1d5a028295f36bddfbf0a54235" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="613.c1" offset="0x0" size="0x100000" crc="955efd3e" sha1="b1c3ebff7158f1653b3b9bc5a52b06d8c62da1bb" />
+		<rom loadflag="load16_byte" name="613.c2" offset="0x1" size="0x100000" crc="c213940f" sha1="430c017f93ee87127a146bcfba684c840bc69f5b" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,28 @@
+<software name="kof2001s44" cloneof="kof2001">
+	<description>Kof2001 (PS2 Mugen Style New Orochi And Rugal Characters, 2015-12-09)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="262s44.p1" offset="0x0" size="0x100000" crc="091b31bc" sha1="9fec944a98ec42620744fccc54372e767a717599" />
+		<rom loadflag="load16_word_swap" name="262s44.p2" offset="0x100000" size="0x400000" crc="3f7fafb0" sha1="ed689cc2ba600d7a102a7b4058d0c54b45e49146" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="262.v1" offset="0x0" size="0x400000" crc="83d49ecf" sha1="2f2c116e45397652e77fcf5d951fa5f71b639572" />
+		<rom name="262.v2" offset="0x400000" size="0x400000" crc="003f1843" sha1="bdd58837ad542548bd4053c262f558af88e3b989" />
+		<rom name="262.v3" offset="0x800000" size="0x400000" crc="2ae38dbe" sha1="4e82b7dd3b899d61907620517a5a27bdaba0725d" />
+		<rom name="262.v4" offset="0xc00000" size="0x400000" crc="26ec4dd9" sha1="8bd68d95a2d913be41a51f51e48dbe3bff5924fb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="262s44.c1" offset="0x0" size="0x800000" crc="1f564516" sha1="b85da198bc4f41556e0e4ca8b53fbf48824d08c5" />
+		<rom loadflag="load16_byte" name="262s44.c2" offset="0x1" size="0x800000" crc="3faa5229" sha1="2c20cace60038be979b9eda15b2f2b29112199e2" />
+		<rom loadflag="load16_byte" name="262s44.c3" offset="0x1000000" size="0x800000" crc="a5aa838d" sha1="bcfa0b4a841d039cc34bfbbb387c1a02520dbbef" />
+		<rom loadflag="load16_byte" name="262s44.c4" offset="0x1000001" size="0x800000" crc="5dc78c45" sha1="b934e747dc46f09516091681dee5cef357230ea0" />
+		<rom loadflag="load16_byte" name="262s44.c5" offset="0x2000000" size="0x800000" crc="705c3d5c" sha1="38b4bd3c27e4bd8775e63210f0dfe8f170f9397d" />
+		<rom loadflag="load16_byte" name="262s44.c6" offset="0x2000001" size="0x800000" crc="dd29aaa7" sha1="050f0bca97a5c106d03afe9bb8427275b202de24" />
+		<rom loadflag="load16_byte" name="262s44.c7" offset="0x3000000" size="0x800000" crc="b2434c9f" sha1="ea214c9a5475778b935a57b70cccff9b2e4c2698" />
+		<rom loadflag="load16_byte" name="262s44.c8" offset="0x3000001" size="0x800000" crc="9a85800d" sha1="5ffcf4ba622d3d1bcd194e28aa31767e48660634" />
+		</dataarea>
+	</part>
+</software>

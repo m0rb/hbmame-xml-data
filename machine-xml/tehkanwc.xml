@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="tehkanwc" description="Tehkanwc cartridges">
+<software name="ballonwc">
+	<description>Ballon World Cup</description>
+	<year>1985</year>
+	<publisher>Grand Master Peter</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="twc-1.bin" offset="0x0" size="0x4000" crc="34d6d5ff" sha1="72f4d408b8a7766d348f6a229d395e0c98215c40" />
+		<rom name="twc-2.bin" offset="0x4000" size="0x4000" crc="7017a221" sha1="4b4700af0a6ff64f976db369ba4b9d97cee1fd5f" />
+		<rom name="twc-3.bin" offset="0x8000" size="0x4000" crc="8b662902" sha1="13bcd4bf23e34dd7193545561e05bb2cb2c95f9b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="twc-6.bin" offset="0x0" size="0x4000" crc="e3112be2" sha1="7859e51b4312dc5df01c88e1d97cf608abc7ca72" />
+		</dataarea>
+		<dataarea name="adpcm" size="0x8000">
+		<rom name="twc-5.bin" offset="0x0" size="0x4000" crc="444b5544" sha1="0786d6d9ada7fe49c8ab9751b049095474d2e598" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="twc-12.bin" offset="0x0" size="0x4000" crc="a9e274f8" sha1="02b46e1b149a856f0be74a23faaeb792935b66c7" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x10000">
+		<rom name="blwc-8.bin" offset="0x0" size="0x8000" crc="a0f75389" sha1="60c5117430ac3471768efd0341ea533f49e8b1bd" />
+		<rom name="twc-7.bin" offset="0x8000" size="0x8000" crc="59faebe7" sha1="85dad90928369601e039467d575750539410fcf6" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x10000">
+		<rom name="twc-11.bin" offset="0x0" size="0x8000" crc="669389fc" sha1="a93e8455060ce5242cb65f78e47b4840aa13ab13" />
+		<rom name="twc-9.bin" offset="0x8000" size="0x8000" crc="347ef108" sha1="bb9c2f51d65f28655404e10c3be44d7ade98711b" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="twc-4.bin" offset="0x0" size="0x8000" crc="70a9f883" sha1="ace04359265271eb37512a89eb0217eb013aecb7" />
+		</dataarea>
+	</part>
+</software>
+<software name="tankwc">
+	<description>Tank World Cup</description>
+	<year>2003</year>
+	<publisher>Kazzy</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="twc-1.bin" offset="0x0" size="0x4000" crc="34d6d5ff" sha1="72f4d408b8a7766d348f6a229d395e0c98215c40" />
+		<rom name="twc-2.bin" offset="0x4000" size="0x4000" crc="7017a221" sha1="4b4700af0a6ff64f976db369ba4b9d97cee1fd5f" />
+		<rom name="twc-3.bin" offset="0x8000" size="0x4000" crc="8b662902" sha1="13bcd4bf23e34dd7193545561e05bb2cb2c95f9b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="twc-6.bin" offset="0x0" size="0x4000" crc="e3112be2" sha1="7859e51b4312dc5df01c88e1d97cf608abc7ca72" />
+		</dataarea>
+		<dataarea name="adpcm" size="0x8000">
+		<rom name="twc-5.bin" offset="0x0" size="0x4000" crc="444b5544" sha1="0786d6d9ada7fe49c8ab9751b049095474d2e598" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="tkwc-12.bin" offset="0x0" size="0x4000" crc="cf5e084a" sha1="bba909898135467a8cbe8ca7ba7d14254ad52135" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x10000">
+		<rom name="tkwc-8.bin" offset="0x0" size="0x8000" crc="068210d1" sha1="f2f21fa9452ba6d47ccdb4de3ddab833956d3fea" />
+		<rom name="tkwc-7.bin" offset="0x8000" size="0x8000" crc="8e7dca59" sha1="4ae3d6c0faf99d16db5b3c49ae96aa87741f635c" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x10000">
+		<rom name="tkwc-11.bin" offset="0x0" size="0x8000" crc="1f8536e3" sha1="de44a066fc5862bac7de039053262ec167b70c35" />
+		<rom name="tkwc-9.bin" offset="0x8000" size="0x8000" crc="f88f52ed" sha1="33fa29582f81f2da7dcb671ccb0c7121b95b545f" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="twc-4.bin" offset="0x0" size="0x8000" crc="70a9f883" sha1="ace04359265271eb37512a89eb0217eb013aecb7" />
+		</dataarea>
+	</part>
+</software>
+<software name="tehkangc">
+	<description>Tehkan Greek Cup</description>
+	<year>1985</year>
+	<publisher>Grand Master Peter</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="twc-1.bin" offset="0x0" size="0x4000" crc="34d6d5ff" sha1="72f4d408b8a7766d348f6a229d395e0c98215c40" />
+		<rom name="twc-2.bin" offset="0x4000" size="0x4000" crc="7017a221" sha1="4b4700af0a6ff64f976db369ba4b9d97cee1fd5f" />
+		<rom name="twc-3.bin" offset="0x8000" size="0x4000" crc="8b662902" sha1="13bcd4bf23e34dd7193545561e05bb2cb2c95f9b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="twc-6.bin" offset="0x0" size="0x4000" crc="e3112be2" sha1="7859e51b4312dc5df01c88e1d97cf608abc7ca72" />
+		</dataarea>
+		<dataarea name="adpcm" size="0x8000">
+		<rom name="twc-5.bin" offset="0x0" size="0x4000" crc="444b5544" sha1="0786d6d9ada7fe49c8ab9751b049095474d2e598" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="tgc-12.bin" offset="0x0" size="0x4000" crc="dbf5cede" sha1="ec2d21f62ab331ce64c7765f6b05a8c3c69e8ddd" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x10000">
+		<rom name="tgc-8.bin" offset="0x0" size="0x8000" crc="1177c8a0" sha1="be0e0c763f2ac08ede546884e616073eb9a5517d" />
+		<rom name="tgc-7.bin" offset="0x8000" size="0x8000" crc="7f01d5a4" sha1="4494ca82c9d16a4047591de7b588a8ab53ce5170" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x10000">
+		<rom name="twc-11.bin" offset="0x0" size="0x8000" crc="669389fc" sha1="a93e8455060ce5242cb65f78e47b4840aa13ab13" />
+		<rom name="twc-9.bin" offset="0x8000" size="0x8000" crc="347ef108" sha1="bb9c2f51d65f28655404e10c3be44d7ade98711b" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="twc-4.bin" offset="0x0" size="0x8000" crc="70a9f883" sha1="ace04359265271eb37512a89eb0217eb013aecb7" />
+		</dataarea>
+	</part>
+</software>
+<software name="twc_gr">
+	<description>Tehkan World Cup (Greek)</description>
+	<year>2004</year>
+	<publisher>GreekRoms</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="twc-1gr.bin" offset="0x0" size="0x4000" crc="0686377f" sha1="69c4d63c216e0b640ad514568a07c414a94bae7c" />
+		<rom name="twc-2.bin" offset="0x4000" size="0x4000" crc="7017a221" sha1="4b4700af0a6ff64f976db369ba4b9d97cee1fd5f" />
+		<rom name="twc-3gr.bin" offset="0x8000" size="0x4000" crc="9a10118d" sha1="1319e465620ab297bf70aed6eed426b68580a327" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="twc-6.bin" offset="0x0" size="0x4000" crc="e3112be2" sha1="7859e51b4312dc5df01c88e1d97cf608abc7ca72" />
+		</dataarea>
+		<dataarea name="adpcm" size="0x8000">
+		<rom name="twc-5.bin" offset="0x0" size="0x4000" crc="444b5544" sha1="0786d6d9ada7fe49c8ab9751b049095474d2e598" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="twc-12gr.bin" offset="0x0" size="0x4000" crc="17808225" sha1="259c0162c4eef4eceb889f4a1a142b541376e04d" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x10000">
+		<rom name="twc-8.bin" offset="0x0" size="0x8000" crc="055a5264" sha1="fe294ba57c2c858952e2fab0be1b8859730846cb" />
+		<rom name="twc-7.bin" offset="0x8000" size="0x8000" crc="59faebe7" sha1="85dad90928369601e039467d575750539410fcf6" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x10000">
+		<rom name="twc-11gr.bin" offset="0x0" size="0x8000" crc="ceab1e34" sha1="f803965ef8b69a5951656f890f0e411dfdeef7ab" />
+		<rom name="twc-9gr.bin" offset="0x8000" size="0x8000" crc="b120fbee" sha1="a7012ec3ecbedfb3d04477bdda6f87f1fe819919" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="twc-4gr.bin" offset="0x0" size="0x8000" crc="8a13d6ac" sha1="cc9b7a0836d6b4ff5f037a165451f6cf2f967d21" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

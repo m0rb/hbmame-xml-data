@@ -1,0 +1,22 @@
+<software name="neodrifte" cloneof="neodrift">
+	<description>Neo Drift Out - New Technology (Earlier)</description>
+	<year>1996</year>
+	<publisher>Visco</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="213.p1" offset="0x100000" size="0x100000" crc="e397d798" sha1="10f459111db4bab7aaa63ca47e83304a84300812" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="213.v1" offset="0x0" size="0x200000" crc="a421c076" sha1="129f05c1a28a6493442f47a79c2d3577a1a43ef5" />
+		<rom name="213.v2" offset="0x200000" size="0x200000" crc="233c7dd9" sha1="be7f980aa83831b6605aaaf4ec904180bb96c935" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="213e.c1" offset="0x400000" size="0x200000" crc="62c5edc9" sha1="df3ed81b37fc03503c8702741d361f44adfcd481" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="213e.c2" offset="0x400001" size="0x200000" crc="9dc9c72a" sha1="c3960b18d940233332c2b1ee2b2b94685c724d1e" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		</dataarea>
+	</part>
+</software>

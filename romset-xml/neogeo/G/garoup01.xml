@@ -1,0 +1,28 @@
+<software name="garoup01">
+	<description>Garou - Mark of the Wolves (P1 Add Char)</description>
+	<year>1999</year>
+	<publisher>Ydmis</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="253p01.p1" offset="0x0" size="0x100000" crc="5b010d7a" sha1="5dc416e634456b2403adf0668d18fc5ff60fafdc" />
+		<rom loadflag="load16_word_swap" name="proto_253.p2" offset="0x100000" size="0x400000" crc="bf8de565" sha1="0e24574168cd38138bed0aa4dca49849f6901ca2" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="proto_253.v1" offset="0x0" size="0x400000" crc="274f3923" sha1="4c7a8ad1cd0e3afc1f78de3c2929120ed434f104" />
+		<rom name="proto_253.v2" offset="0x400000" size="0x400000" crc="8f86dabe" sha1="b3d2d9f5c1d97a6e7aee2c674fb6627f41bbb240" />
+		<rom name="proto_253.v3" offset="0x800000" size="0x400000" crc="05fd06cd" sha1="6cd699719614bb87547632ea3d61d92d81fdf563" />
+		<rom name="proto_253.v4" offset="0xc00000" size="0x400000" crc="14984063" sha1="170d5638327ec0eb3590b80dc11590897367250c" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="proto_253.c1" offset="0x0" size="0x800000" crc="5bb5d137" sha1="d648febd8e6a0bdd9bdbb6ce1f1f8b08567ec05a" />
+		<rom loadflag="load16_byte" name="proto_253.c2" offset="0x1" size="0x800000" crc="5c8d2960" sha1="f7503502be0332adf408ee0ea5ee5161c8939fd8" />
+		<rom loadflag="load16_byte" name="proto_253.c3" offset="0x1000000" size="0x800000" crc="234d16fc" sha1="7b9221f7ecc438150c8a10be72390329854ed21b" />
+		<rom loadflag="load16_byte" name="proto_253.c4" offset="0x1000001" size="0x800000" crc="b9b5b993" sha1="6059793eaf6e58c172235fe64aa9d25a40c38ed6" />
+		<rom loadflag="load16_byte" name="proto_253.c5" offset="0x2000000" size="0x800000" crc="722615d2" sha1="798832c535869f0e247c3db0d8253779b103e213" />
+		<rom loadflag="load16_byte" name="proto_253.c6" offset="0x2000001" size="0x800000" crc="0a6fab38" sha1="eaee6f2f18af91f7959d84d4b991b3fc182d07c4" />
+		<rom loadflag="load16_byte" name="proto_253.c7" offset="0x3000000" size="0x800000" crc="d68e806f" sha1="92bfd9839115bd590972ae4ecc45ad35dce22387" />
+		<rom loadflag="load16_byte" name="proto_253.c8" offset="0x3000001" size="0x800000" crc="f778fe99" sha1="c963f6ba90a36d02991728b44ffcf174ca18268a" />
+		</dataarea>
+	</part>
+</software>

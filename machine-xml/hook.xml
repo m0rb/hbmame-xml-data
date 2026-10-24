@@ -1,0 +1,484 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="hook" description="Hook cartridges">
+<software name="hook01">
+	<description>Hook (1v4, 2016-06-25)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s01.h0" offset="0x1" size="0x40000" crc="13fa1eca" sha1="2a2a4d80a160535f667d6b425b532547018b0d22" />
+		<rom loadflag="load16_byte" name="s01.l0" offset="0x0" size="0x40000" crc="f3efc301" sha1="5664bf03054d7c23e90bffdc04d8ad55c1361ebf" />
+		<rom loadflag="load16_byte" name="h-h1.rom" offset="0x80001" size="0x20000" crc="264ba1f0" sha1="49ecf9b3e5375629607fb747abe264406065580b" />
+		<rom loadflag="load16_byte" name="h-l1.rom" offset="0x80000" size="0x20000" crc="f9913731" sha1="be7871d6843e76f66fae6b501c5ee83ccc366463" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="hook-c0.rom" offset="0x0" size="0x40000" crc="dec63dcf" sha1="e9869110f832d782c460b123928b042c65fdf8bd" />
+		<rom name="hook-c1.rom" offset="0x40000" size="0x40000" crc="e4eb0b92" sha1="159da3ec973490a153c69c96c1373cf4e0290736" />
+		<rom name="hook-c2.rom" offset="0x80000" size="0x40000" crc="a52b320b" sha1="1522562239bb3b93ef552c47445daa4ee021495c" />
+		<rom name="hook-c3.rom" offset="0xc0000" size="0x40000" crc="7ef67731" sha1="af0b0ee6e1c06af04c609af7e077d4a7d76d8817" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="hook-000.rom" offset="0x0" size="0x100000" crc="ccceac30" sha1="16e2b4393840344debe869034135feead7450184" />
+		<rom name="hook-010.rom" offset="0x100000" size="0x100000" crc="8ac8da67" sha1="a9b962cb0bc0d8bc3bda8a0ed1ce06641d666b41" />
+		<rom name="hook-020.rom" offset="0x200000" size="0x100000" crc="8847af9a" sha1="f82cdbd640fac373136219422172ca9fbf5d1830" />
+		<rom name="hook-030.rom" offset="0x300000" size="0x100000" crc="239e877e" sha1="445e1096619c4e3a2d5b50a645fd45bd7c501590" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="hook-da.rom" offset="0x0" size="0x80000" crc="88cd0212" sha1="789532f5544b5d024d8af60eb8a5c133ae0d19d4" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="h-sh0-a.3l" offset="0x1" size="0x10000" crc="bd3d1f61" sha1="0c884a0b5519f9c0823128872baf7b0c4078e5c4" />
+		<rom loadflag="load16_byte" name="h-sl0-a.3n" offset="0x0" size="0x10000" crc="76371def" sha1="b7a86fd4eecdd8a538c32e08cd920c27bd50924b" />
+		</dataarea>
+	</part>
+</software>
+<software name="hook02">
+	<description>Hook (Zinc Children&#x27;s Edition Update, 2018-05-15)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s02.h0" offset="0x1" size="0x40000" crc="298e5667" sha1="f01a3744d20a9f9b48918648cefb740e6d223810" />
+		<rom loadflag="load16_byte" name="s02.l0" offset="0x0" size="0x40000" crc="e234718d" sha1="f2adc3bd813ef65a38dec0e0e6a25afc7f60aba7" />
+		<rom loadflag="load16_byte" name="h-h1.rom" offset="0x80001" size="0x20000" crc="264ba1f0" sha1="49ecf9b3e5375629607fb747abe264406065580b" />
+		<rom loadflag="load16_byte" name="h-l1.rom" offset="0x80000" size="0x20000" crc="f9913731" sha1="be7871d6843e76f66fae6b501c5ee83ccc366463" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="hook-c0.rom" offset="0x0" size="0x40000" crc="dec63dcf" sha1="e9869110f832d782c460b123928b042c65fdf8bd" />
+		<rom name="hook-c1.rom" offset="0x40000" size="0x40000" crc="e4eb0b92" sha1="159da3ec973490a153c69c96c1373cf4e0290736" />
+		<rom name="hook-c2.rom" offset="0x80000" size="0x40000" crc="a52b320b" sha1="1522562239bb3b93ef552c47445daa4ee021495c" />
+		<rom name="hook-c3.rom" offset="0xc0000" size="0x40000" crc="7ef67731" sha1="af0b0ee6e1c06af04c609af7e077d4a7d76d8817" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="hook-000.rom" offset="0x0" size="0x100000" crc="ccceac30" sha1="16e2b4393840344debe869034135feead7450184" />
+		<rom name="hook-010.rom" offset="0x100000" size="0x100000" crc="8ac8da67" sha1="a9b962cb0bc0d8bc3bda8a0ed1ce06641d666b41" />
+		<rom name="hook-020.rom" offset="0x200000" size="0x100000" crc="8847af9a" sha1="f82cdbd640fac373136219422172ca9fbf5d1830" />
+		<rom name="hook-030.rom" offset="0x300000" size="0x100000" crc="239e877e" sha1="445e1096619c4e3a2d5b50a645fd45bd7c501590" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="hook-da.rom" offset="0x0" size="0x80000" crc="88cd0212" sha1="789532f5544b5d024d8af60eb8a5c133ae0d19d4" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="h-sh0.rom" offset="0x1" size="0x10000" crc="86a4e56e" sha1="61163010e713be64368a4126f17d33cbdcf0c5ed" />
+		<rom loadflag="load16_byte" name="h-sl0.rom" offset="0x0" size="0x10000" crc="10fd9676" sha1="1b51181a8f0711997e107e9a8b8f44341d08ea81" />
+		</dataarea>
+	</part>
+</software>
+<software name="hook03">
+	<description>Hook (Zinc Children&#x27;s Edition Update, 2018-05-02)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s03.h0" offset="0x1" size="0x40000" crc="b912ebf4" sha1="66f785e9691fae877098709c550cac5ed4fb0bf9" />
+		<rom loadflag="load16_byte" name="s03.l0" offset="0x0" size="0x40000" crc="6a5eee0c" sha1="e5639a6b9c8773bf23fb21860d08fd788907cac4" />
+		<rom loadflag="load16_byte" name="h-h1.rom" offset="0x80001" size="0x20000" crc="264ba1f0" sha1="49ecf9b3e5375629607fb747abe264406065580b" />
+		<rom loadflag="load16_byte" name="h-l1.rom" offset="0x80000" size="0x20000" crc="f9913731" sha1="be7871d6843e76f66fae6b501c5ee83ccc366463" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="hook-c0.rom" offset="0x0" size="0x40000" crc="dec63dcf" sha1="e9869110f832d782c460b123928b042c65fdf8bd" />
+		<rom name="hook-c1.rom" offset="0x40000" size="0x40000" crc="e4eb0b92" sha1="159da3ec973490a153c69c96c1373cf4e0290736" />
+		<rom name="hook-c2.rom" offset="0x80000" size="0x40000" crc="a52b320b" sha1="1522562239bb3b93ef552c47445daa4ee021495c" />
+		<rom name="hook-c3.rom" offset="0xc0000" size="0x40000" crc="7ef67731" sha1="af0b0ee6e1c06af04c609af7e077d4a7d76d8817" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="hook-000.rom" offset="0x0" size="0x100000" crc="ccceac30" sha1="16e2b4393840344debe869034135feead7450184" />
+		<rom name="hook-010.rom" offset="0x100000" size="0x100000" crc="8ac8da67" sha1="a9b962cb0bc0d8bc3bda8a0ed1ce06641d666b41" />
+		<rom name="hook-020.rom" offset="0x200000" size="0x100000" crc="8847af9a" sha1="f82cdbd640fac373136219422172ca9fbf5d1830" />
+		<rom name="hook-030.rom" offset="0x300000" size="0x100000" crc="239e877e" sha1="445e1096619c4e3a2d5b50a645fd45bd7c501590" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="hook-da.rom" offset="0x0" size="0x80000" crc="88cd0212" sha1="789532f5544b5d024d8af60eb8a5c133ae0d19d4" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="h-sh0.rom" offset="0x1" size="0x10000" crc="86a4e56e" sha1="61163010e713be64368a4126f17d33cbdcf0c5ed" />
+		<rom loadflag="load16_byte" name="h-sl0.rom" offset="0x0" size="0x10000" crc="10fd9676" sha1="1b51181a8f0711997e107e9a8b8f44341d08ea81" />
+		</dataarea>
+	</part>
+</software>
+<software name="hook04">
+	<description>Hook (X2 Edition, 2018-05-05)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s04.h0" offset="0x1" size="0x40000" crc="637f7d17" sha1="1f55be79503d1734c5d28621646ae031679565bb" />
+		<rom loadflag="load16_byte" name="s04.l0" offset="0x0" size="0x40000" crc="180e4bbb" sha1="67c7c98a95ca0ee738b2ad2510d2da510df67b40" />
+		<rom loadflag="load16_byte" name="h-h1_po04.rom" offset="0x80001" size="0x40000" crc="9573d8b3" sha1="c61063ab9e5a8cb8d2f4b8715325e7f1805bb960" />
+		<rom loadflag="load16_byte" name="h-l1_po04.rom" offset="0x80000" size="0x40000" crc="eb5cd51c" sha1="87773c0d8924d2bf00034ba8f8435d311be3c70d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="hook-c0.rom" offset="0x0" size="0x40000" crc="dec63dcf" sha1="e9869110f832d782c460b123928b042c65fdf8bd" />
+		<rom name="hook-c1.rom" offset="0x40000" size="0x40000" crc="e4eb0b92" sha1="159da3ec973490a153c69c96c1373cf4e0290736" />
+		<rom name="hook-c2.rom" offset="0x80000" size="0x40000" crc="a52b320b" sha1="1522562239bb3b93ef552c47445daa4ee021495c" />
+		<rom name="hook-c3.rom" offset="0xc0000" size="0x40000" crc="7ef67731" sha1="af0b0ee6e1c06af04c609af7e077d4a7d76d8817" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="hook-000.rom" offset="0x0" size="0x100000" crc="ccceac30" sha1="16e2b4393840344debe869034135feead7450184" />
+		<rom name="hook-010.rom" offset="0x100000" size="0x100000" crc="8ac8da67" sha1="a9b962cb0bc0d8bc3bda8a0ed1ce06641d666b41" />
+		<rom name="hook-020.rom" offset="0x200000" size="0x100000" crc="8847af9a" sha1="f82cdbd640fac373136219422172ca9fbf5d1830" />
+		<rom name="hook-030.rom" offset="0x300000" size="0x100000" crc="239e877e" sha1="445e1096619c4e3a2d5b50a645fd45bd7c501590" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="hook-da.rom" offset="0x0" size="0x80000" crc="88cd0212" sha1="789532f5544b5d024d8af60eb8a5c133ae0d19d4" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="h-sh0.rom" offset="0x1" size="0x10000" crc="86a4e56e" sha1="61163010e713be64368a4126f17d33cbdcf0c5ed" />
+		<rom loadflag="load16_byte" name="h-sl0.rom" offset="0x0" size="0x10000" crc="10fd9676" sha1="1b51181a8f0711997e107e9a8b8f44341d08ea81" />
+		</dataarea>
+	</part>
+</software>
+<software name="hook05">
+	<description>Hook (Can Substitute Character)</description>
+	<year>1992</year>
+	<publisher>RockyWall</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s05.h0" offset="0x1" size="0x40000" crc="59db1de9" sha1="672f674f61071dde79ae073c308bcffc79a9ee3d" />
+		<rom loadflag="load16_byte" name="s05.l0" offset="0x0" size="0x40000" crc="6ccb3150" sha1="0277ef8dabe44618e3f155de99eb058b4b9a5736" />
+		<rom loadflag="load16_byte" name="h-h1.rom" offset="0x80001" size="0x20000" crc="264ba1f0" sha1="49ecf9b3e5375629607fb747abe264406065580b" />
+		<rom loadflag="load16_byte" name="h-l1.rom" offset="0x80000" size="0x20000" crc="f9913731" sha1="be7871d6843e76f66fae6b501c5ee83ccc366463" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="hook-c0.rom" offset="0x0" size="0x40000" crc="dec63dcf" sha1="e9869110f832d782c460b123928b042c65fdf8bd" />
+		<rom name="hook-c1.rom" offset="0x40000" size="0x40000" crc="e4eb0b92" sha1="159da3ec973490a153c69c96c1373cf4e0290736" />
+		<rom name="hook-c2.rom" offset="0x80000" size="0x40000" crc="a52b320b" sha1="1522562239bb3b93ef552c47445daa4ee021495c" />
+		<rom name="hook-c3.rom" offset="0xc0000" size="0x40000" crc="7ef67731" sha1="af0b0ee6e1c06af04c609af7e077d4a7d76d8817" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="hook-000.rom" offset="0x0" size="0x100000" crc="ccceac30" sha1="16e2b4393840344debe869034135feead7450184" />
+		<rom name="hook-010.rom" offset="0x100000" size="0x100000" crc="8ac8da67" sha1="a9b962cb0bc0d8bc3bda8a0ed1ce06641d666b41" />
+		<rom name="hook-020.rom" offset="0x200000" size="0x100000" crc="8847af9a" sha1="f82cdbd640fac373136219422172ca9fbf5d1830" />
+		<rom name="hook-030.rom" offset="0x300000" size="0x100000" crc="239e877e" sha1="445e1096619c4e3a2d5b50a645fd45bd7c501590" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="hook-da.rom" offset="0x0" size="0x80000" crc="88cd0212" sha1="789532f5544b5d024d8af60eb8a5c133ae0d19d4" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="h-sh0.rom" offset="0x1" size="0x10000" crc="86a4e56e" sha1="61163010e713be64368a4126f17d33cbdcf0c5ed" />
+		<rom loadflag="load16_byte" name="h-sl0.rom" offset="0x0" size="0x10000" crc="10fd9676" sha1="1b51181a8f0711997e107e9a8b8f44341d08ea81" />
+		</dataarea>
+	</part>
+</software>
+<software name="hook06">
+	<description>Hook (Unrivalled Version, 2016-08-18)</description>
+	<year>2016</year>
+	<publisher>RockyWall</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s06.h0" offset="0x1" size="0x40000" crc="9124994c" sha1="abe934f1fe1f0bf491fc5889119397ccf2f5e3ac" />
+		<rom loadflag="load16_byte" name="s06.l0" offset="0x0" size="0x40000" crc="caae5586" sha1="5c3be06df19c5b3a5ef8f758edf3672485fc815a" />
+		<rom loadflag="load16_byte" name="h-h1.rom" offset="0x80001" size="0x20000" crc="264ba1f0" sha1="49ecf9b3e5375629607fb747abe264406065580b" />
+		<rom loadflag="load16_byte" name="h-l1.rom" offset="0x80000" size="0x20000" crc="f9913731" sha1="be7871d6843e76f66fae6b501c5ee83ccc366463" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="hook-c0.rom" offset="0x0" size="0x40000" crc="dec63dcf" sha1="e9869110f832d782c460b123928b042c65fdf8bd" />
+		<rom name="hook-c1.rom" offset="0x40000" size="0x40000" crc="e4eb0b92" sha1="159da3ec973490a153c69c96c1373cf4e0290736" />
+		<rom name="hook-c2.rom" offset="0x80000" size="0x40000" crc="a52b320b" sha1="1522562239bb3b93ef552c47445daa4ee021495c" />
+		<rom name="hook-c3.rom" offset="0xc0000" size="0x40000" crc="7ef67731" sha1="af0b0ee6e1c06af04c609af7e077d4a7d76d8817" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="hook-000.rom" offset="0x0" size="0x100000" crc="ccceac30" sha1="16e2b4393840344debe869034135feead7450184" />
+		<rom name="hook-010.rom" offset="0x100000" size="0x100000" crc="8ac8da67" sha1="a9b962cb0bc0d8bc3bda8a0ed1ce06641d666b41" />
+		<rom name="hook-020.rom" offset="0x200000" size="0x100000" crc="8847af9a" sha1="f82cdbd640fac373136219422172ca9fbf5d1830" />
+		<rom name="hook-030.rom" offset="0x300000" size="0x100000" crc="239e877e" sha1="445e1096619c4e3a2d5b50a645fd45bd7c501590" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="hook-da.rom" offset="0x0" size="0x80000" crc="88cd0212" sha1="789532f5544b5d024d8af60eb8a5c133ae0d19d4" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="h-sh0.rom" offset="0x1" size="0x10000" crc="86a4e56e" sha1="61163010e713be64368a4126f17d33cbdcf0c5ed" />
+		<rom loadflag="load16_byte" name="h-sl0.rom" offset="0x0" size="0x10000" crc="10fd9676" sha1="1b51181a8f0711997e107e9a8b8f44341d08ea81" />
+		</dataarea>
+	</part>
+</software>
+<software name="hook07">
+	<description>Hook (plus)</description>
+	<year>1992</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s07.h0" offset="0x1" size="0x40000" crc="23e76b50" sha1="899b7ab7fe070899971f2f0c71c45212a840a021" />
+		<rom loadflag="load16_byte" name="s06.l0" offset="0x0" size="0x40000" crc="caae5586" sha1="5c3be06df19c5b3a5ef8f758edf3672485fc815a" />
+		<rom loadflag="load16_byte" name="h-h1.rom" offset="0x80001" size="0x20000" crc="264ba1f0" sha1="49ecf9b3e5375629607fb747abe264406065580b" />
+		<rom loadflag="load16_byte" name="h-l1.rom" offset="0x80000" size="0x20000" crc="f9913731" sha1="be7871d6843e76f66fae6b501c5ee83ccc366463" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="hook-c0.rom" offset="0x0" size="0x40000" crc="dec63dcf" sha1="e9869110f832d782c460b123928b042c65fdf8bd" />
+		<rom name="hook-c1.rom" offset="0x40000" size="0x40000" crc="e4eb0b92" sha1="159da3ec973490a153c69c96c1373cf4e0290736" />
+		<rom name="hook-c2.rom" offset="0x80000" size="0x40000" crc="a52b320b" sha1="1522562239bb3b93ef552c47445daa4ee021495c" />
+		<rom name="hook-c3.rom" offset="0xc0000" size="0x40000" crc="7ef67731" sha1="af0b0ee6e1c06af04c609af7e077d4a7d76d8817" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="hook-000.rom" offset="0x0" size="0x100000" crc="ccceac30" sha1="16e2b4393840344debe869034135feead7450184" />
+		<rom name="hook-010.rom" offset="0x100000" size="0x100000" crc="8ac8da67" sha1="a9b962cb0bc0d8bc3bda8a0ed1ce06641d666b41" />
+		<rom name="hook-020.rom" offset="0x200000" size="0x100000" crc="8847af9a" sha1="f82cdbd640fac373136219422172ca9fbf5d1830" />
+		<rom name="hook-030.rom" offset="0x300000" size="0x100000" crc="239e877e" sha1="445e1096619c4e3a2d5b50a645fd45bd7c501590" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="hook-da.rom" offset="0x0" size="0x80000" crc="88cd0212" sha1="789532f5544b5d024d8af60eb8a5c133ae0d19d4" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="h-sh0.rom" offset="0x1" size="0x10000" crc="86a4e56e" sha1="61163010e713be64368a4126f17d33cbdcf0c5ed" />
+		<rom loadflag="load16_byte" name="h-sl0.rom" offset="0x0" size="0x10000" crc="10fd9676" sha1="1b51181a8f0711997e107e9a8b8f44341d08ea81" />
+		</dataarea>
+	</part>
+</software>
+<software name="hook08">
+	<description>Hook (Iron hook unparalleled, 2016-07-31)</description>
+	<year>2016</year>
+	<publisher>RockyWall</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s08.h0" offset="0x1" size="0x40000" crc="c3fc1cd4" sha1="99c34bebb63e9953a422288366074c9c55fe710c" />
+		<rom loadflag="load16_byte" name="s08.l0" offset="0x0" size="0x40000" crc="afb39bbc" sha1="e1228e21eac6ec765f664ef8f2048a9199627d22" />
+		<rom loadflag="load16_byte" name="h-h1.rom" offset="0x80001" size="0x20000" crc="264ba1f0" sha1="49ecf9b3e5375629607fb747abe264406065580b" />
+		<rom loadflag="load16_byte" name="h-l1.rom" offset="0x80000" size="0x20000" crc="f9913731" sha1="be7871d6843e76f66fae6b501c5ee83ccc366463" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="hook-c0.rom" offset="0x0" size="0x40000" crc="dec63dcf" sha1="e9869110f832d782c460b123928b042c65fdf8bd" />
+		<rom name="hook-c1.rom" offset="0x40000" size="0x40000" crc="e4eb0b92" sha1="159da3ec973490a153c69c96c1373cf4e0290736" />
+		<rom name="hook-c2.rom" offset="0x80000" size="0x40000" crc="a52b320b" sha1="1522562239bb3b93ef552c47445daa4ee021495c" />
+		<rom name="hook-c3.rom" offset="0xc0000" size="0x40000" crc="7ef67731" sha1="af0b0ee6e1c06af04c609af7e077d4a7d76d8817" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="hook-000.rom" offset="0x0" size="0x100000" crc="ccceac30" sha1="16e2b4393840344debe869034135feead7450184" />
+		<rom name="hook-010.rom" offset="0x100000" size="0x100000" crc="8ac8da67" sha1="a9b962cb0bc0d8bc3bda8a0ed1ce06641d666b41" />
+		<rom name="hook-020.rom" offset="0x200000" size="0x100000" crc="8847af9a" sha1="f82cdbd640fac373136219422172ca9fbf5d1830" />
+		<rom name="hook-030.rom" offset="0x300000" size="0x100000" crc="239e877e" sha1="445e1096619c4e3a2d5b50a645fd45bd7c501590" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="hook-da.rom" offset="0x0" size="0x80000" crc="88cd0212" sha1="789532f5544b5d024d8af60eb8a5c133ae0d19d4" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom loadflag="load16_byte" name="h-sh0.rom" offset="0x1" size="0x10000" crc="86a4e56e" sha1="61163010e713be64368a4126f17d33cbdcf0c5ed" />
+		<rom loadflag="load16_byte" name="h-sl0.rom" offset="0x0" size="0x10000" crc="10fd9676" sha1="1b51181a8f0711997e107e9a8b8f44341d08ea81" />
+		</dataarea>
+	</part>
+</software>
+<software name="hook09">
+	<description>Hook (Zinc Children&#x27;s Edition Update, 2018-09-14)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s09.h0" offset="0x1" size="0x40000" crc="a603d006" sha1="d0d905e9ac98f75010d63911a6038ab3d9d27dde" />
+		<rom loadflag="load16_byte" name="s09.l0" offset="0x0" size="0x40000" crc="8a1e8688" sha1="39155c04a88a3d939abaf16037195d770d51ff26" />
+		<rom loadflag="load16_byte" name="h-h1.rom" offset="0x80001" size="0x20000" crc="264ba1f0" sha1="49ecf9b3e5375629607fb747abe264406065580b" />
+		<rom loadflag="load16_byte" name="h-l1.rom" offset="0x80000" size="0x20000" crc="f9913731" sha1="be7871d6843e76f66fae6b501c5ee83ccc366463" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="hook-c0.rom" offset="0x0" size="0x40000" crc="dec63dcf" sha1="e9869110f832d782c460b123928b042c65fdf8bd" />
+		<rom name="hook-c1.rom" offset="0x40000" size="0x40000" crc="e4eb0b92" sha1="159da3ec973490a153c69c96c1373cf4e0290736" />
+		<rom name="hook-c2.rom" offset="0x80000" size="0x40000" crc="a52b320b" sha1="1522562239bb3b93ef552c47445daa4ee021495c" />
+		<rom name="hook-c3.rom" offset="0xc0000" size="0x40000" crc="7ef67731" sha1="af0b0ee6e1c06af04c609af7e077d4a7d76d8817" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="hook-000.rom" offset="0x0" size="0x100000" crc="ccceac30" sha1="16e2b4393840344debe869034135feead7450184" />
+		<rom name="hook-010.rom" offset="0x100000" size="0x100000" crc="8ac8da67" sha1="a9b962cb0bc0d8bc3bda8a0ed1ce06641d666b41" />
+		<rom name="hook-020.rom" offset="0x200000" size="0x100000" crc="8847af9a" sha1="f82cdbd640fac373136219422172ca9fbf5d1830" />
+		<rom name="hook-030.rom" offset="0x300000" size="0x100000" crc="239e877e" sha1="445e1096619c4e3a2d5b50a645fd45bd7c501590" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="hook-da.rom" offset="0x0" size="0x80000" crc="88cd0212" sha1="789532f5544b5d024d8af60eb8a5c133ae0d19d4" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x100000">
+		<rom loadflag="load16_byte" name="h-sh0-a.3l" offset="0x1" size="0x10000" crc="bd3d1f61" sha1="0c884a0b5519f9c0823128872baf7b0c4078e5c4" />
+		<rom loadflag="load16_byte" name="h-sl0-a.3n" offset="0x0" size="0x10000" crc="76371def" sha1="b7a86fd4eecdd8a538c32e08cd920c27bd50924b" />
+		</dataarea>
+	</part>
+</software>
+<software name="hook10">
+	<description>Hook (2021-05-13)</description>
+	<year>2021</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s10.h0" offset="0x1" size="0x40000" crc="99081329" sha1="d8a5cc03f3f0efb95da26eb89085e3db180437e1" />
+		<rom loadflag="load16_byte" name="s10.l0" offset="0x0" size="0x40000" crc="62673a6b" sha1="d76dec23f0ec0afc8c73f8963b08f1669d24b969" />
+		<rom loadflag="load16_byte" name="h-h1.rom" offset="0x80001" size="0x20000" crc="264ba1f0" sha1="49ecf9b3e5375629607fb747abe264406065580b" />
+		<rom loadflag="load16_byte" name="h-l1.rom" offset="0x80000" size="0x20000" crc="f9913731" sha1="be7871d6843e76f66fae6b501c5ee83ccc366463" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="hook-c0.rom" offset="0x0" size="0x40000" crc="dec63dcf" sha1="e9869110f832d782c460b123928b042c65fdf8bd" />
+		<rom name="hook-c1.rom" offset="0x40000" size="0x40000" crc="e4eb0b92" sha1="159da3ec973490a153c69c96c1373cf4e0290736" />
+		<rom name="hook-c2.rom" offset="0x80000" size="0x40000" crc="a52b320b" sha1="1522562239bb3b93ef552c47445daa4ee021495c" />
+		<rom name="hook-c3.rom" offset="0xc0000" size="0x40000" crc="7ef67731" sha1="af0b0ee6e1c06af04c609af7e077d4a7d76d8817" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="hook-000.rom" offset="0x0" size="0x100000" crc="ccceac30" sha1="16e2b4393840344debe869034135feead7450184" />
+		<rom name="hook-010.rom" offset="0x100000" size="0x100000" crc="8ac8da67" sha1="a9b962cb0bc0d8bc3bda8a0ed1ce06641d666b41" />
+		<rom name="hook-020.rom" offset="0x200000" size="0x100000" crc="8847af9a" sha1="f82cdbd640fac373136219422172ca9fbf5d1830" />
+		<rom name="hook-030.rom" offset="0x300000" size="0x100000" crc="239e877e" sha1="445e1096619c4e3a2d5b50a645fd45bd7c501590" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="hook-da.rom" offset="0x0" size="0x80000" crc="88cd0212" sha1="789532f5544b5d024d8af60eb8a5c133ae0d19d4" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x100000">
+		<rom loadflag="load16_byte" name="h-sh0-a.3l" offset="0x1" size="0x10000" crc="bd3d1f61" sha1="0c884a0b5519f9c0823128872baf7b0c4078e5c4" />
+		<rom loadflag="load16_byte" name="h-sl0-a.3n" offset="0x0" size="0x10000" crc="76371def" sha1="b7a86fd4eecdd8a538c32e08cd920c27bd50924b" />
+		</dataarea>
+	</part>
+</software>
+<software name="hook11">
+	<description>Hook (2021-05-16)</description>
+	<year>2021</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s11.h0" offset="0x1" size="0x40000" crc="798b2e46" sha1="ef0850af1ee69ab85591e472fb4e53e63663b96d" />
+		<rom loadflag="load16_byte" name="s11.l0" offset="0x0" size="0x40000" crc="c5953ad4" sha1="93cc9c56560d7afcc39bff8eca1fca66fcc720cb" />
+		<rom loadflag="load16_byte" name="h-h1.rom" offset="0x80001" size="0x20000" crc="264ba1f0" sha1="49ecf9b3e5375629607fb747abe264406065580b" />
+		<rom loadflag="load16_byte" name="h-l1.rom" offset="0x80000" size="0x20000" crc="f9913731" sha1="be7871d6843e76f66fae6b501c5ee83ccc366463" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="hook-c0.rom" offset="0x0" size="0x40000" crc="dec63dcf" sha1="e9869110f832d782c460b123928b042c65fdf8bd" />
+		<rom name="hook-c1.rom" offset="0x40000" size="0x40000" crc="e4eb0b92" sha1="159da3ec973490a153c69c96c1373cf4e0290736" />
+		<rom name="hook-c2.rom" offset="0x80000" size="0x40000" crc="a52b320b" sha1="1522562239bb3b93ef552c47445daa4ee021495c" />
+		<rom name="hook-c3.rom" offset="0xc0000" size="0x40000" crc="7ef67731" sha1="af0b0ee6e1c06af04c609af7e077d4a7d76d8817" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="hook-000.rom" offset="0x0" size="0x100000" crc="ccceac30" sha1="16e2b4393840344debe869034135feead7450184" />
+		<rom name="hook-010.rom" offset="0x100000" size="0x100000" crc="8ac8da67" sha1="a9b962cb0bc0d8bc3bda8a0ed1ce06641d666b41" />
+		<rom name="hook-020.rom" offset="0x200000" size="0x100000" crc="8847af9a" sha1="f82cdbd640fac373136219422172ca9fbf5d1830" />
+		<rom name="hook-030.rom" offset="0x300000" size="0x100000" crc="239e877e" sha1="445e1096619c4e3a2d5b50a645fd45bd7c501590" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="hook-da.rom" offset="0x0" size="0x80000" crc="88cd0212" sha1="789532f5544b5d024d8af60eb8a5c133ae0d19d4" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x100000">
+		<rom loadflag="load16_byte" name="h-sh0-a.3l" offset="0x1" size="0x10000" crc="bd3d1f61" sha1="0c884a0b5519f9c0823128872baf7b0c4078e5c4" />
+		<rom loadflag="load16_byte" name="h-sl0-a.3n" offset="0x0" size="0x10000" crc="76371def" sha1="b7a86fd4eecdd8a538c32e08cd920c27bd50924b" />
+		</dataarea>
+	</part>
+</software>
+<software name="hook12">
+	<description>Hook (2021-08-12)</description>
+	<year>2021</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s12.h0" offset="0x1" size="0x40000" crc="2971e770" sha1="7008c6dfc703453b534efe8fd474e6195a825677" />
+		<rom loadflag="load16_byte" name="s12.l0" offset="0x0" size="0x40000" crc="58017084" sha1="fffe7caf8f6bcf1757e327d3c6d8d3fa3645a2da" />
+		<rom loadflag="load16_byte" name="h-h1.rom" offset="0x80001" size="0x20000" crc="264ba1f0" sha1="49ecf9b3e5375629607fb747abe264406065580b" />
+		<rom loadflag="load16_byte" name="h-l1.rom" offset="0x80000" size="0x20000" crc="f9913731" sha1="be7871d6843e76f66fae6b501c5ee83ccc366463" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="hook-c0.rom" offset="0x0" size="0x40000" crc="dec63dcf" sha1="e9869110f832d782c460b123928b042c65fdf8bd" />
+		<rom name="hook-c1.rom" offset="0x40000" size="0x40000" crc="e4eb0b92" sha1="159da3ec973490a153c69c96c1373cf4e0290736" />
+		<rom name="hook-c2.rom" offset="0x80000" size="0x40000" crc="a52b320b" sha1="1522562239bb3b93ef552c47445daa4ee021495c" />
+		<rom name="hook-c3.rom" offset="0xc0000" size="0x40000" crc="7ef67731" sha1="af0b0ee6e1c06af04c609af7e077d4a7d76d8817" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="hook-000.rom" offset="0x0" size="0x100000" crc="ccceac30" sha1="16e2b4393840344debe869034135feead7450184" />
+		<rom name="hook-010.rom" offset="0x100000" size="0x100000" crc="8ac8da67" sha1="a9b962cb0bc0d8bc3bda8a0ed1ce06641d666b41" />
+		<rom name="hook-020.rom" offset="0x200000" size="0x100000" crc="8847af9a" sha1="f82cdbd640fac373136219422172ca9fbf5d1830" />
+		<rom name="hook-030.rom" offset="0x300000" size="0x100000" crc="239e877e" sha1="445e1096619c4e3a2d5b50a645fd45bd7c501590" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="hook-da.rom" offset="0x0" size="0x80000" crc="88cd0212" sha1="789532f5544b5d024d8af60eb8a5c133ae0d19d4" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x100000">
+		<rom loadflag="load16_byte" name="h-sh0-a.3l" offset="0x1" size="0x10000" crc="bd3d1f61" sha1="0c884a0b5519f9c0823128872baf7b0c4078e5c4" />
+		<rom loadflag="load16_byte" name="h-sl0-a.3n" offset="0x0" size="0x10000" crc="76371def" sha1="b7a86fd4eecdd8a538c32e08cd920c27bd50924b" />
+		</dataarea>
+	</part>
+</software>
+<software name="hook13">
+	<description>Hook (JLS version, 2021-11-13)</description>
+	<year>2021</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s13.h0" offset="0x1" size="0x40000" crc="dc6e06b9" sha1="1a95f0407dbaaee2db38c7557d023402e99b4758" />
+		<rom loadflag="load16_byte" name="s13.l0" offset="0x0" size="0x40000" crc="8a4eed85" sha1="d803fa0a1790d7b88068258416a48a5b096490e4" />
+		<rom loadflag="load16_byte" name="h-h1.rom" offset="0x80001" size="0x20000" crc="264ba1f0" sha1="49ecf9b3e5375629607fb747abe264406065580b" />
+		<rom loadflag="load16_byte" name="h-l1.rom" offset="0x80000" size="0x20000" crc="f9913731" sha1="be7871d6843e76f66fae6b501c5ee83ccc366463" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="hook-c0.rom" offset="0x0" size="0x40000" crc="dec63dcf" sha1="e9869110f832d782c460b123928b042c65fdf8bd" />
+		<rom name="hook-c1.rom" offset="0x40000" size="0x40000" crc="e4eb0b92" sha1="159da3ec973490a153c69c96c1373cf4e0290736" />
+		<rom name="hook-c2.rom" offset="0x80000" size="0x40000" crc="a52b320b" sha1="1522562239bb3b93ef552c47445daa4ee021495c" />
+		<rom name="hook-c3.rom" offset="0xc0000" size="0x40000" crc="7ef67731" sha1="af0b0ee6e1c06af04c609af7e077d4a7d76d8817" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="hook-000.rom" offset="0x0" size="0x100000" crc="ccceac30" sha1="16e2b4393840344debe869034135feead7450184" />
+		<rom name="hook-010.rom" offset="0x100000" size="0x100000" crc="8ac8da67" sha1="a9b962cb0bc0d8bc3bda8a0ed1ce06641d666b41" />
+		<rom name="hook-020.rom" offset="0x200000" size="0x100000" crc="8847af9a" sha1="f82cdbd640fac373136219422172ca9fbf5d1830" />
+		<rom name="hook-030.rom" offset="0x300000" size="0x100000" crc="239e877e" sha1="445e1096619c4e3a2d5b50a645fd45bd7c501590" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="hook-da.rom" offset="0x0" size="0x80000" crc="88cd0212" sha1="789532f5544b5d024d8af60eb8a5c133ae0d19d4" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x100000">
+		<rom loadflag="load16_byte" name="h-sh0-a.3l" offset="0x1" size="0x10000" crc="bd3d1f61" sha1="0c884a0b5519f9c0823128872baf7b0c4078e5c4" />
+		<rom loadflag="load16_byte" name="h-sl0-a.3n" offset="0x0" size="0x10000" crc="76371def" sha1="b7a86fd4eecdd8a538c32e08cd920c27bd50924b" />
+		</dataarea>
+	</part>
+</software>
+<software name="hook14">
+	<description>Hook (Swan version, 2022-01-11)</description>
+	<year>2022</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s14.h0" offset="0x1" size="0x40000" crc="50acf650" sha1="b55f130e6aab8b238d957ca53914bae19b134739" />
+		<rom loadflag="load16_byte" name="s14.l0" offset="0x0" size="0x40000" crc="56446fb8" sha1="1435bd0581a54f50299447b7f7c369d5dcabd1a0" />
+		<rom loadflag="load16_byte" name="h-h1.rom" offset="0x80001" size="0x20000" crc="264ba1f0" sha1="49ecf9b3e5375629607fb747abe264406065580b" />
+		<rom loadflag="load16_byte" name="h-l1.rom" offset="0x80000" size="0x20000" crc="f9913731" sha1="be7871d6843e76f66fae6b501c5ee83ccc366463" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="hook-c0.rom" offset="0x0" size="0x40000" crc="dec63dcf" sha1="e9869110f832d782c460b123928b042c65fdf8bd" />
+		<rom name="hook-c1.rom" offset="0x40000" size="0x40000" crc="e4eb0b92" sha1="159da3ec973490a153c69c96c1373cf4e0290736" />
+		<rom name="hook-c2.rom" offset="0x80000" size="0x40000" crc="a52b320b" sha1="1522562239bb3b93ef552c47445daa4ee021495c" />
+		<rom name="hook-c3.rom" offset="0xc0000" size="0x40000" crc="7ef67731" sha1="af0b0ee6e1c06af04c609af7e077d4a7d76d8817" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="hook-000.rom" offset="0x0" size="0x100000" crc="ccceac30" sha1="16e2b4393840344debe869034135feead7450184" />
+		<rom name="hook-010.rom" offset="0x100000" size="0x100000" crc="8ac8da67" sha1="a9b962cb0bc0d8bc3bda8a0ed1ce06641d666b41" />
+		<rom name="hook-020.rom" offset="0x200000" size="0x100000" crc="8847af9a" sha1="f82cdbd640fac373136219422172ca9fbf5d1830" />
+		<rom name="hook-030.rom" offset="0x300000" size="0x100000" crc="239e877e" sha1="445e1096619c4e3a2d5b50a645fd45bd7c501590" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="hook-da.rom" offset="0x0" size="0x80000" crc="88cd0212" sha1="789532f5544b5d024d8af60eb8a5c133ae0d19d4" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x100000">
+		<rom loadflag="load16_byte" name="h-sh0-a.3l" offset="0x1" size="0x10000" crc="bd3d1f61" sha1="0c884a0b5519f9c0823128872baf7b0c4078e5c4" />
+		<rom loadflag="load16_byte" name="h-sl0-a.3n" offset="0x0" size="0x10000" crc="76371def" sha1="b7a86fd4eecdd8a538c32e08cd920c27bd50924b" />
+		</dataarea>
+	</part>
+</software>
+<software name="hook15">
+	<description>Hook (XX version, 2022-01-13)</description>
+	<year>2022</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="s15.h0" offset="0x1" size="0x40000" crc="a0e0b42e" sha1="2aae5fa582b0e94cd000af53a34fc54409af6e2c" />
+		<rom loadflag="load16_byte" name="s15.l0" offset="0x0" size="0x40000" crc="4081226e" sha1="42caa91342d6eb3bf6e56fa148a9bb9965f8aa42" />
+		<rom loadflag="load16_byte" name="h-h1.rom" offset="0x80001" size="0x20000" crc="264ba1f0" sha1="49ecf9b3e5375629607fb747abe264406065580b" />
+		<rom loadflag="load16_byte" name="h-l1.rom" offset="0x80000" size="0x20000" crc="f9913731" sha1="be7871d6843e76f66fae6b501c5ee83ccc366463" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="hook-c0.rom" offset="0x0" size="0x40000" crc="dec63dcf" sha1="e9869110f832d782c460b123928b042c65fdf8bd" />
+		<rom name="hook-c1.rom" offset="0x40000" size="0x40000" crc="e4eb0b92" sha1="159da3ec973490a153c69c96c1373cf4e0290736" />
+		<rom name="hook-c2.rom" offset="0x80000" size="0x40000" crc="a52b320b" sha1="1522562239bb3b93ef552c47445daa4ee021495c" />
+		<rom name="hook-c3.rom" offset="0xc0000" size="0x40000" crc="7ef67731" sha1="af0b0ee6e1c06af04c609af7e077d4a7d76d8817" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x400000">
+		<rom name="hook-000.rom" offset="0x0" size="0x100000" crc="ccceac30" sha1="16e2b4393840344debe869034135feead7450184" />
+		<rom name="hook-010.rom" offset="0x100000" size="0x100000" crc="8ac8da67" sha1="a9b962cb0bc0d8bc3bda8a0ed1ce06641d666b41" />
+		<rom name="hook-020.rom" offset="0x200000" size="0x100000" crc="8847af9a" sha1="f82cdbd640fac373136219422172ca9fbf5d1830" />
+		<rom name="hook-030.rom" offset="0x300000" size="0x100000" crc="239e877e" sha1="445e1096619c4e3a2d5b50a645fd45bd7c501590" />
+		</dataarea>
+		<dataarea name="irem" size="0x80000">
+		<rom name="hook-da.rom" offset="0x0" size="0x80000" crc="88cd0212" sha1="789532f5544b5d024d8af60eb8a5c133ae0d19d4" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x100000">
+		<rom loadflag="load16_byte" name="h-sh0-a.3l" offset="0x1" size="0x10000" crc="bd3d1f61" sha1="0c884a0b5519f9c0823128872baf7b0c4078e5c4" />
+		<rom loadflag="load16_byte" name="h-sl0-a.3n" offset="0x0" size="0x10000" crc="76371def" sha1="b7a86fd4eecdd8a538c32e08cd920c27bd50924b" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

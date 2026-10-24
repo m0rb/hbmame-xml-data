@@ -1,0 +1,19 @@
+<software name="nblktiger">
+	<description>Neo Black Tiger</description>
+	<year>2020</year>
+	<publisher>OzzyOuzo</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="496.p1" offset="0x0" size="0x100000" crc="18f34200" sha1="78b3b9ef20ddf780a81e644d996d56dd5c0e6d10" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="496.v1" offset="0x0" size="0x400000" crc="f44460dc" sha1="9b31c5fae67fc40c4c6c4fe4a4c21fa92374c8c7" />
+		<rom name="496.v2" offset="0x400000" size="0x400000" crc="bf52d283" sha1="59f2d26ab21d792228d6ee0bf840080fc1f4ba5d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="496.c1" offset="0x0" size="0x800000" crc="aa469494" sha1="fd98b7445c85174ccb745c74cb9e852b08353324" />
+		<rom loadflag="load16_byte" name="496.c2" offset="0x1" size="0x800000" crc="fa07ba1e" sha1="8c00be2c0c1402789011e2aa272e04e216fdac10" />
+		</dataarea>
+	</part>
+</software>

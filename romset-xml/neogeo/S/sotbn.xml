@@ -1,0 +1,19 @@
+<software name="sotbn">
+	<description>Shadow of the Beast (Neo-Geo port, beta-0.2.2)</description>
+	<year>2026</year>
+	<publisher>Bendk97</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="540.p1" offset="0x0" size="0x100000" crc="341d386c" sha1="63ec34d12730eeef6d8db55a926d2a619843536c" />
+		<rom loadflag="load16_word_swap" name="540.p2" offset="0x100000" size="0x400000" crc="2e7a9d52" sha1="65fdf1545f2d0f6a13dd33299754831957251235" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="540.v1" offset="0x0" size="0x1000000" crc="640b1088" sha1="03f99fbd75a1a65e8bf371bb3ad7adba64b625e2" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="540.c1" offset="0x0" size="0x200000" crc="fc5116a4" sha1="b557cbcc257768cb9879932a8c3786e4b8dae1a3" />
+		<rom loadflag="load16_byte" name="540.c2" offset="0x1" size="0x200000" crc="b976ca99" sha1="de9791fe6a08c7670a03ca31942ec2f3e97fc173" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,33 @@
+<software name="mcatadv01">
+	<description>Magical Cat Adventure (R.Zara)</description>
+	<year>1993</year>
+	<publisher>Recreativos Zara, S.L.</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="mcas01.u30" offset="0x0" size="0x80000" crc="009ae1b3" sha1="7bee7d3a9a6fd67d09acdfbef49f3e2be6db4712" />
+		<rom loadflag="load16_byte" name="mcas01.u29" offset="0x1" size="0x80000" crc="7fd27089" sha1="c97f5ce13d8dfeaaed94ec621037e030f7a7cec7" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="mca-u53.bin" offset="0x0" size="0x80000" crc="64c76e05" sha1="379cef5e0cba78d0e886c9cede41985850a3afb7" />
+		</dataarea>
+		<dataarea name="bg0" size="0x80000">
+		<rom name="mca-u58.bin" offset="0x0" size="0x80000" crc="3a8186e2" sha1="129c220d72608a8839f779ce1a6cfec8646dbf23" />
+		</dataarea>
+		<dataarea name="bg1" size="0x280000">
+		<rom name="mca-u60.bin" offset="0x0" size="0x100000" crc="c8942614" sha1="244fccb9abbb04e33839dd2cd0e2de430819a18c" />
+		<rom name="mca-u61.bin" offset="0x100000" size="0x100000" crc="51af66c9" sha1="1055cf78ea286f02003b0d1bf08c2d7829b36f90" />
+		<rom name="mca-u100" offset="0x200000" size="0x80000" crc="b273f1b0" sha1="39318fe2aaf2792b85426ec6791b3360ac964de3" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x20000">
+		<rom name="u9.bin" offset="0x0" size="0x20000" crc="fda05171" sha1="2c69292573ec35034572fa824c0cae2839d23919" />
+		</dataarea>
+		<dataarea name="sprdata" size="0x800000">
+		<rom loadflag="load16_byte" name="mca-u82.bin" offset="0x0" size="0x100000" crc="5f01d746" sha1="11b241456e15299912ee365eedb8f9d5e5ca875d" />
+		<rom loadflag="load16_byte" name="mca-u83.bin" offset="0x1" size="0x100000" crc="4e1be5a6" sha1="cb19aad42dba54d6a4a33859f27254c2a3271e8c" />
+		<rom loadflag="load16_byte" name="mca-u84.bin" offset="0x200000" size="0x80000" crc="df202790" sha1="f6ae54e799af195860ed0ab3c85138cf2f10efa6" />
+		<rom loadflag="load16_byte" name="mca-u85.bin" offset="0x200001" size="0x80000" crc="a85771d2" sha1="a1817cd72f5bf0a4f24a37c782dc63ecec3b8e68" />
+		<rom loadflag="load16_byte" name="mca-u86e" offset="0x400000" size="0x80000" crc="017bf1da" sha1="f6446a7219275c0eff62129f59fdfa3a6a3e06c8" />
+		<rom loadflag="load16_byte" name="mca-u87e" offset="0x400001" size="0x80000" crc="bc9dc9b9" sha1="f525c9f994d5107752aa4d3a499ee376ec75f42b" />
+		</dataarea>
+	</part>
+</software>

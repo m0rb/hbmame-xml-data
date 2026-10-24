@@ -1,0 +1,30 @@
+<software name="sf2s02" cloneof="sf2">
+	<description>Street Fighter II: The World Warrior (Version Simplified, 2014-03-24)</description>
+	<year>2014</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c14s02.p1" offset="0x0" size="0x20000" crc="919d5964" sha1="a7943517e9f4bdb65991ac4a5097425eddcc05ef" />
+		<rom loadflag="load16_byte" name="c14s02.p2" offset="0x1" size="0x20000" crc="574a9966" sha1="f42ecb8b57c615352d127cfc55ae0d70525c40f2" />
+		<rom loadflag="load16_byte" name="c14j.p3" offset="0x40000" size="0x20000" crc="fe15cb39" sha1="383478524881ea70d9e04c9b6143b8735b637eee" />
+		<rom loadflag="load16_byte" name="c14j.p4" offset="0x40001" size="0x20000" crc="38614d70" sha1="39c58096f3a8e01fb439639b742b83102bbaa7f6" />
+		<rom loadflag="load16_byte" name="c14s11.p5" offset="0x80000" size="0x20000" crc="2d4a1b8a" sha1="9dce74c32fa9c63f38d33a03327b22e74d2118c1" />
+		<rom loadflag="load16_byte" name="c14s11.p6" offset="0x80001" size="0x20000" crc="5f622bdb" sha1="4fe5797acc2645a1bd27d247457b6f24bfd60f96" />
+		<rom loadflag="load16_byte" name="c14.p7" offset="0xc0000" size="0x20000" crc="bb4af315" sha1="75f0827f4f7e9f292add46467f8d4fe19b2514c9" />
+		<rom loadflag="load16_byte" name="c14.p8" offset="0xc0001" size="0x20000" crc="c02a13eb" sha1="b807cc495bff3f95d03b061fc629c95f965cb6d8" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c14.m1" offset="0x0" size="0x8000" crc="a4823a1b" sha1="7b6bf59dfd578bfbbdb64c27988796783442d659" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2j.key" offset="0x0" size="0x80" crc="fdc05d86" sha1="f828e6171a271bc12a5c9ab5be237562e263ccdb" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c14.v1" offset="0x0" size="0x20000" crc="7f162009" sha1="346bf42992b4c36c593e21901e22c87ae4a7d86d" />
+		<rom name="c14.v2" offset="0x20000" size="0x20000" crc="beade53f" sha1="277c397dc12752719ec6b47d2224750bd1c07f79" />
+		</dataarea>
+	</part>
+</software>

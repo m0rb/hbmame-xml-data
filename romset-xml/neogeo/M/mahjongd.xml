@@ -1,0 +1,18 @@
+<software name="mahjongd">
+	<description>Mahjong Demo (v1)</description>
+	<year>2026</year>
+	<publisher>Eagle Software</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="785.p1" offset="0x0" size="0x80000" crc="c88f560f" sha1="66675304e79830014cbaf8b287d05a1884506fb4" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="785.v1" offset="0x0" size="0x200000" crc="f04d0f8d" sha1="276f8a8e420e8e5d5418c887abaf0b6dc3c23eed" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="785.c1" offset="0x0" size="0x400000" crc="96cd3e55" sha1="372e185127b3d3f7fb20ef4ffaaf24ee30a09980" />
+		<rom loadflag="load16_byte" name="785.c2" offset="0x1" size="0x400000" crc="f9d40dc0" sha1="1de0002667d1771308f216464f6d84933f9f7afb" />
+		</dataarea>
+	</part>
+</software>

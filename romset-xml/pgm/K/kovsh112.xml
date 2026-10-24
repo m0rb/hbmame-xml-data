@@ -1,0 +1,31 @@
+<software name="kovsh112" cloneof="kovsh">
+	<description>Knights of Valour Super Heroes (Wang Zhe Zhi Zhan Double Dragon, 2014-05-27)</description>
+	<year>2014</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_pw112.322" offset="0x100000" size="0x400000" crc="7b258e76" sha1="54ad020b38e9c88934bfa1fb9e37ecc687b30358" />
+		</dataarea>
+		<dataarea name="ics" size="0x1000000">
+		<rom name="m0600_ph174.rom" offset="0x400000" size="0x454f47" crc="132765c9" sha1="b4f56dfeba59fea248ec4e04255033e2cb3ec8fb" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0600_pw112.rom" offset="0x180000" size="0x800000" crc="db5ffd0b" sha1="a5a237d56348b8b665fe03ef0abc79a280d88076" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_pw18.rom" offset="0x0" size="0x800000" crc="f96de31a" sha1="b93a8683ef0437f92a946cc7fa425e748b669730" />
+		<rom name="pgm_a0601.u3" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_pw18.rom" offset="0x1000000" size="0x800000" crc="a9662e72" sha1="1d8e10eb6b79399d2685c9678807a01743d6f8a8" />
+		<rom name="pgm_a0613.u7" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		<rom name="a0604_pw18.rom" offset="0x1a00000" size="0x400000" crc="cf060122" sha1="587858e0aac2d703b0a94358c24e29d0832b2329" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_pw18.rom" offset="0x0" size="0x800000" crc="7db37aa0" sha1="d43f31551c9b0531cde51e5c77331c592e5c23b8" />
+		<rom name="b0601_pw18.rom" offset="0x800000" size="0x400000" crc="89a894d7" sha1="5ae7cd79c7e80453b064cca82292537be76b7b54" />
+		<rom name="b0602_pw18.rom" offset="0xc00000" size="0x400000" crc="7638b82e" sha1="14263da02ee20b382962039728550888005c6e10" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.asic" offset="0x0" size="0x4000" crc="0f09a5c1" sha1="621b38c05f33277608d58b49822aebc930ae4870" />
+		</dataarea>
+	</part>
+</software>

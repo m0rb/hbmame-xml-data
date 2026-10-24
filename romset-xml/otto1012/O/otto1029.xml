@@ -1,0 +1,20 @@
+<software name="otto1029">
+	<description>Crazy Otto (prototype of 29 Oct 1981)</description>
+	<year>1981</year>
+	<publisher>General Computer</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="otto1029.e2" offset="0x3000" size="0x1000" crc="4c0be836" sha1="898e3078e6001ddc218fb742a48585a020dd55d6" />
+		<rom name="otto1029.e0" offset="0x8000" size="0x800" crc="aa18cf70" sha1="3d0d4ddde64b8a280920961a993b77913b093855" />
+		<rom name="otto1029.e1" offset="0x9000" size="0x1000" crc="608075f0" sha1="9a3ef8ddd8268929a58f1fcc86b7fdfc28350b4a" />
+		<rom name="pacman.6j" offset="0xb000" size="0x1000" crc="817d94e3" sha1="d4a70d56bb01d27d094d73db8667ffb00ca69cb9" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="otto1029.5e" offset="0x0" size="0x1000" crc="54a743f7" sha1="9406b856edf3f6a7979926295663cabdf53bb0d4" />
+		<rom name="otto1029.5f" offset="0x1000" size="0x1000" crc="05527fa1" sha1="8d9e369890c25bb87e7dc16e6bdc8026ed8717df" />
+		</dataarea>
+	</part>
+</software>

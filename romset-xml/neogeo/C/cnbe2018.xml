@@ -1,0 +1,18 @@
+<software name="cnbe2018" cloneof="cnbe">
+	<description>Codename: Blut Engel (2018-09-05)</description>
+	<year>2018</year>
+	<publisher>Blastar</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="410a.p1" offset="0x0" size="0x40000" crc="189fecd5" sha1="d78ef1b3c6af9e75618dabd52fec9403f5007c36" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x40000">
+		<rom name="410a.v1" offset="0x0" size="0x40000" crc="54947995" sha1="30616f95020a06d95a77a69b07fd195c86575307" />
+		</dataarea>
+		<dataarea name="sprites" size="0x80000">
+		<rom loadflag="load16_byte" name="410a.c1" offset="0x0" size="0x40000" crc="db0e9083" sha1="e0120e19fe0c04a4452fdc7bd3a159f116cbc412" />
+		<rom loadflag="load16_byte" name="410a.c2" offset="0x1" size="0x40000" crc="6114b6fb" sha1="d62bc4a49c6ba2a03d637a5d06a4140e7bdc78b2" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,22 @@
+<software name="cosmogngn">
+	<description>Cosmo Gang the video (Neo-Geo port, beta-0.2.4)</description>
+	<year>2026</year>
+	<publisher>Bendk97</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x300000">
+		<rom loadflag="load16_word_swap" name="542.p1" offset="0x0" size="0x100000" crc="b061f0b1" sha1="3725f5d686411e1ebbf26243b3ca6297ebcfd689" />
+		<rom loadflag="load16_word_swap" name="542.p2" offset="0x100000" size="0x200000" crc="7482ecfd" sha1="3707a2a5a8518eaead7da79e79377a542e599ea1" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="542.v1" offset="0x0" size="0x800000" crc="c01e3384" sha1="90b602615fedca540f203ba87a250b51996ec6c6" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x1000000">
+		<rom name="542.v21" offset="0x0" size="0x1000000" crc="e10ecb05" sha1="19170f261041ec4236cb7ba4b256d2f801779d04" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="542.c1" offset="0x0" size="0x1000000" crc="782b6dbc" sha1="0f8b3e50208c65a245e9a6f8569d00254e39e54f" />
+		<rom loadflag="load16_byte" name="542.c2" offset="0x1" size="0x1000000" crc="3c03f273" sha1="922f50e769980202d082f3ee5d9691c8bbd67e53" />
+		</dataarea>
+	</part>
+</software>

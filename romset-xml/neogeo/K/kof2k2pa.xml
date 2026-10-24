@@ -1,0 +1,26 @@
+<software name="kof2k2pa" cloneof="kof2002">
+	<description>Kof2002 Plus (Set 2 bootleg)</description>
+	<year>2002</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="265pa.p1" offset="0x0" size="0x100000" crc="6a3a02f3" sha1="c9973b64e9a87fa38dde233ee3e9a73ba085b013" />
+		<rom loadflag="load16_word_swap" name="265.p2" offset="0x100000" size="0x400000" crc="327266b8" sha1="98f445cc0a94f8744d74bca71cb420277622b034" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="265.v1" offset="0x0" size="0x800000" crc="15e8f3f5" sha1="7c9e6426b9fa6db0158baa17a6485ffce057d889" />
+		<rom name="265.v2" offset="0x800000" size="0x800000" crc="da41d6f9" sha1="a43021f1e58947dcbe3c8ca5283b20b649f0409d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="265s217.c1" offset="0x0" size="0x800000" crc="e5f65987" sha1="a1ab4e1ba5b8ac140d55e2183df4b5bf0169005c" />
+		<rom loadflag="load16_byte" name="265s217.c2" offset="0x1" size="0x800000" crc="d703d3f3" sha1="5a1c50f660e7f9a2ccc451851eafe12ef3258a0a" />
+		<rom loadflag="load16_byte" name="265s217.c3" offset="0x1000000" size="0x800000" crc="0bdb6416" sha1="04c0b16e98443573dc3b85740a853056d9a39411" />
+		<rom loadflag="load16_byte" name="265s217.c4" offset="0x1000001" size="0x800000" crc="54ba3410" sha1="5d45c01fb70395958317fe16ea49c275c8841413" />
+		<rom loadflag="load16_byte" name="265s217.c5" offset="0x2000000" size="0x800000" crc="4ece6b6d" sha1="274324fad8dfa8fba1c6878fde4006d9c8729ba8" />
+		<rom loadflag="load16_byte" name="265s217.c6" offset="0x2000001" size="0x800000" crc="71f924ac" sha1="fe75345a69813f5a512762bfa462bef14d88db0a" />
+		<rom loadflag="load16_byte" name="265s217.c7" offset="0x3000000" size="0x800000" crc="95a5dd92" sha1="176d64e8babaa4be50d6e5ee5514d6af0577868f" />
+		<rom loadflag="load16_byte" name="265s217.c8" offset="0x3000001" size="0x800000" crc="3a512299" sha1="769434e43e55fe7dd774320040a80b095eb7a92a" />
+		</dataarea>
+	</part>
+</software>

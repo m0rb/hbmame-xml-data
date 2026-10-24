@@ -1,0 +1,16 @@
+<software name="pc_smb_ps13" cloneof="pc_smb">
+	<description>Super Mario Bros. (Original Japanese Edition, 2015-07-06)(PlayChoice-10)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps13" offset="0x0" size="0x8000" crc="967a605f" sha1="31b332f6bc338e058a7b958dca285066c405b697" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,26 @@
+<software name="svc02" cloneof="svc">
+	<description>SvC Chaos (PlayStation 2 Final)</description>
+	<year>2003</year>
+	<publisher>Eddids</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load32_word_swap" name="269s02.p1" offset="0x0" size="0x400000" crc="c70920ca" sha1="b1fd3709cbf36f4b21e72afeefcb4d55505d1668" />
+		<rom loadflag="load32_word_swap" name="269s02.p2" offset="0x2" size="0x400000" crc="6fa05811" sha1="d40fc61495e2c7216ec204487e608f6a196408ed" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="269.v1" offset="0x0" size="0x800000" crc="c659b34c" sha1="1931e8111ef43946f68699f8707334c96f753a1e" />
+		<rom name="269.v2" offset="0x800000" size="0x800000" crc="dd903835" sha1="e58d38950a7a8697bb22a1cc7a371ae6664ae8f9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="269s02.c1" offset="0x0" size="0x800000" crc="05995b67" sha1="ea946c11e47ff22d7c4a06ea498dd57198b953da" />
+		<rom loadflag="load16_byte" name="269s02.c2" offset="0x1" size="0x800000" crc="06383d13" sha1="a989da614a26df58140e73ccf59ebae6ab00608a" />
+		<rom loadflag="load16_byte" name="269s02.c3" offset="0x1000000" size="0x800000" crc="1c820fcf" sha1="e74b247553f620a3029f2f8c517861f11d226718" />
+		<rom loadflag="load16_byte" name="269s02.c4" offset="0x1000001" size="0x800000" crc="46821347" sha1="1438a5134cfbaa6f85a28f42a9a1542dd4fcd9d7" />
+		<rom loadflag="load16_byte" name="269s02.c5" offset="0x2000000" size="0x800000" crc="b3e6a38c" sha1="3b743f73039bfc7e850ac8324999ba1f04e8d21c" />
+		<rom loadflag="load16_byte" name="269s02.c6" offset="0x2000001" size="0x800000" crc="6e8f374b" sha1="f883aabd35e962b36a1aae871504189003fe8274" />
+		<rom loadflag="load16_byte" name="269s02.c7" offset="0x3000000" size="0x800000" crc="da2148be" sha1="57772ae022b2a8c61214dc4cfd8276a6df5b54e2" />
+		<rom loadflag="load16_byte" name="269s02.c8" offset="0x3000001" size="0x800000" crc="88e29787" sha1="d08f58cc01259a195328a38b175ae097f503c9b7" />
+		</dataarea>
+	</part>
+</software>

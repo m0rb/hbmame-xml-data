@@ -1,0 +1,31 @@
+<software name="kovsho106" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (The Heroes Rise Again 2019-05-01)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x900000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po106.rom" offset="0x100000" size="0x600000" crc="1a849ff0" sha1="37ae3913f1c5c628537588f578d8220616a32230" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600_po69.rom" offset="0x400000" size="0x400000" crc="ec3f335d" sha1="f81e2238eae4bb5154afa28ff07e69b8f10c5ee2" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_pw113.asic" offset="0x0" size="0x4000" crc="d9a43086" sha1="089a9ff2b5a67c6e74df4826501a366db84b0b9a" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x4000000">
+		<rom name="a0600_po73.rom" offset="0x0" size="0x800000" crc="72643288" sha1="632f4a24f4f6a65f38dfbb9af1d624bc5c1d01f1" />
+		<rom name="a0601_po73.rom" offset="0x800000" size="0x800000" crc="9c1d1bea" sha1="f1fba1e71493b2f6755095b9a655c5d038f1ca0d" />
+		<rom name="a0602_po73.rom" offset="0x1000000" size="0x800000" crc="7b437e0f" sha1="b3daa3c7d02ec79457e6a2e661daa1c6a9a8388c" />
+		<rom name="a0540_po75.rom" offset="0x1800000" size="0x800000" crc="612306ed" sha1="ff29e784ca062b1c9295bacc02c30db0097ef8cf" />
+		<rom name="a0541_po113.rom" offset="0x2000000" size="0x800000" crc="fac5160e" sha1="021ee624c5840f82c5838800f8eb6284cfcab979" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x2000000">
+		<rom name="b0600_po73.rom" offset="0x0" size="0x800000" crc="0646c5ef" sha1="062261023538da5d647e17a4fa47b4e4ebc4614d" />
+		<rom name="b0540_po113.rom" offset="0x800000" size="0x800000" crc="b7032905" sha1="4a0e003c58567769421c56b9626513dfb10afae4" />
+		<rom name="b0601_po113.rom" offset="0x1000000" size="0x800000" crc="095378f3" sha1="b068db120ff8d7c52a9553cd58f2382a58943114" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_pw10.rom" offset="0x180000" size="0x800000" crc="a919ec0f" sha1="b464490abba8a5e651c407a7833c3a2e3befa5b8" />
+		</dataarea>
+	</part>
+</software>
