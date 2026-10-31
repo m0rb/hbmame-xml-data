@@ -1,0 +1,21 @@
+<software name="puckrenc" cloneof="puckman">
+	<description>Puckman Renaissance [c]</description>
+	<year>2000</year>
+	<publisher>PacHack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="puckren.6e" offset="0x0" size="0x1000" crc="0f5ecf67" sha1="1250eb19c721b007705c75cce9140365aeed3fad" />
+		<rom name="puckrenc.6f" offset="0x1000" size="0x1000" crc="8a75a7e2" sha1="79f787c8c55ce04c97baf465b64d89d2bdbf07c5" />
+		<rom name="puckren.6h" offset="0x2000" size="0x1000" crc="c6bb6ea6" sha1="a33e23193c14d2418614ad7609fb3bc0856a4a1f" />
+		<rom name="puckren.6j" offset="0x3000" size="0x1000" crc="dc90f1dc" sha1="af677ed5989abaebcbde5da9168e849135d5e96f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="puckren.5e" offset="0x0" size="0x1000" crc="a502e25f" sha1="9f02d3f1ec095910642fe0bb616d510be52b53d8" />
+		<rom name="puckren.5f" offset="0x1000" size="0x1000" crc="18d44098" sha1="d07120b9ede3cfcbc69006381f4287bede04c6e3" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="puckren.7f" offset="0x0" size="0x20" crc="7b6aa3c9" sha1="849911abdc26ccf2ad44e2c432e6219447b8bef3" />
+		<rom name="puckren.4a" offset="0x20" size="0x100" crc="64fe1dbf" sha1="7f7541eb12148add79ad186a1da375c865d251e0" />
+		</dataarea>
+	</part>
+</software>

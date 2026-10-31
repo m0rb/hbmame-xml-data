@@ -1,0 +1,19 @@
+<software name="altbeastn">
+	<description>Altered Beast (Neo-Geo port, v1.3)</description>
+	<year>2016</year>
+	<publisher>ShinobiZ</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom name="531.p1" offset="0x0" size="0x100000" crc="0b65215f" sha1="138c9126119535f928eaee9ca7f773b99dfc2be1" />
+		<rom name="531.p2" offset="0x100000" size="0x100000" crc="9f87f71f" sha1="c50b6cd5f6d8b6b7de88b3773f6f2ffa78256e2d" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="531.v1" offset="0x0" size="0x1000000" crc="23cbdd25" sha1="a923a6bc6254f37ddf836b5236a01d40bdb01abd" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="531.c1" offset="0x0" size="0x400000" crc="14712ab1" sha1="831150a80aa46f2b60e301a2706f0e34f0f2f6b9" />
+		<rom loadflag="load16_byte" name="531.c2" offset="0x1" size="0x400000" crc="c18c2ad6" sha1="06d48fb4c9381853275ed58ebf582b8c73b79b1c" />
+		</dataarea>
+	</part>
+</software>

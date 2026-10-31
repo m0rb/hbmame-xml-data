@@ -1,0 +1,30 @@
+<software name="pitfall2u01" cloneof="pitfall2">
+	<description>Pitfall II Trainer (2002-10-15)</description>
+	<year>2002</year>
+	<publisher>Sekret</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="epr-6623s01.116" offset="0x0" size="0x4000" crc="217e9902" sha1="a83d73b65a92d5676e519fb2cb787378a7e19fa0" />
+		<rom name="epr-6624s01.109" offset="0x4000" size="0x4000" crc="825b70b8" sha1="adf90f01d4a5461a4201c7dc0d725ccf8b317015" />
+		<rom name="epr-6625.96" offset="0x8000" size="0x4000" crc="dc5484ba" sha1="62fffff7d935c104def5f09e9dc4a26fa4ce4f94" />
+		</dataarea>
+		<dataarea name="sprites" size="0x8000">
+		<rom name="epr-6454a.117" offset="0x0" size="0x4000" crc="a5d96780" sha1="e0571f6fd031bbe2d971c3be7b96a017b0ea4be9" />
+		<rom name="epr-6455.05" offset="0x4000" size="0x4000" crc="32ee64a1" sha1="21743f78735fc9105fbbfac420bdaa2965b4b56f" />
+		</dataarea>
+		<dataarea name="lookup_proms" size="0x100">
+		<rom name="pr-5317.76" offset="0x0" size="0x100" crc="648350b8" sha1="c7986aa9127ef5b50b845434cb4e81dff9861cd2" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x10000">
+		<rom name="epr-6462.120" offset="0x0" size="0x2000" crc="86bb9185" sha1="89add2e3784e8f5a20b895fb2c4466bdd6c34b0c" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc000">
+		<rom name="epr-6474a.62" offset="0x0" size="0x2000" crc="9f1711b9" sha1="c652010a8b19828f81fd101aa1ea781e250c4ec2" />
+		<rom name="epr-6473a.61" offset="0x2000" size="0x2000" crc="8e53b8dd" sha1="23e04589f2b523d6b8e46d16f40e59685e27f522" />
+		<rom name="epr-6472a.64" offset="0x4000" size="0x2000" crc="e0f34a11" sha1="b7a96a1867f8bd3cc1251b5fd12991c406e62a37" />
+		<rom name="epr-6471a.63" offset="0x6000" size="0x2000" crc="d5bc805c" sha1="520afa7617e8dfd09bf469c01ac606a4a3acdc5e" />
+		<rom name="epr-6470a.66" offset="0x8000" size="0x2000" crc="1439729f" sha1="54ea6ef54be6dcc2a5d00f7f817fd8836a02b3b9" />
+		<rom name="epr-6469a.65" offset="0xa000" size="0x2000" crc="e4ac6921" sha1="f95e3b368c2c6dbf8265fb314d73019fe7dcce22" />
+		</dataarea>
+	</part>
+</software>

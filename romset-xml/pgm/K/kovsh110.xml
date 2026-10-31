@@ -1,0 +1,31 @@
+<software name="kovsh110" cloneof="kovsh">
+	<description>Knights of Valour Super Heroes (Feng Yun Zai Qi Yue Hua Chuan Shuo, 2015-11-05)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_pw110.322" offset="0x100000" size="0x454f48" crc="bf450faa" sha1="335343e133b699422694fb719b971e3b0a695dc3" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u4" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0600_pw110.rom" offset="0x180000" size="0x800000" crc="a7cf5653" sha1="de11be770bedc2009ce3f61df9637dff1973e4df" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_pw16.rom" offset="0x0" size="0x800000" crc="a616c24d" sha1="3d972ae65f28b16f56d7ed86d65060705eaa0483" />
+		<rom name="pgm_a0601.u3" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_pw110.rom" offset="0x1000000" size="0x800000" crc="247eb04e" sha1="d7253508188fea03363f76f2cb3dd31da411f7a0" />
+		<rom name="pgm_a0613.u7" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		<rom name="a0604_pw110.rom" offset="0x1a00000" size="0x400000" crc="959c5f05" sha1="3279a6ff7112e7b6708f80b723b9726e8bdde0c7" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_pw16.rom" offset="0x0" size="0x800000" crc="2c5421a6" sha1="fdb9d9b1d1b716f8835e093ffbb7f7d84b8fb630" />
+		<rom name="b0601_pw110.rom" offset="0x800000" size="0x400000" crc="a1d0da44" sha1="3b6d991f86e14661f5b7ac96c73b1a179ce8e2dc" />
+		<rom name="b0602_pw110.rom" offset="0xc00000" size="0x400000" crc="da4fee54" sha1="98665071be74fbe8532fed3a53a07d121d49be04" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_pw110.asic" offset="0x0" size="0x4000" crc="e2011ab0" sha1="c0359ef4baaa5ac162b3360c50697e244b6f45a8" />
+		</dataarea>
+	</part>
+</software>

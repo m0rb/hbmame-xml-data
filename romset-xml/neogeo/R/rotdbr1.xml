@@ -1,0 +1,25 @@
+<software name="rotdbr1" cloneof="rotd">
+	<description>Rage of the Dragons (Portuguese, Alt Set 1)</description>
+	<year>2002</year>
+	<publisher>BisonSAS</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="264br1.p1" offset="0x0" size="0x800000" crc="59395cb3" sha1="3f723a4b9bbc8c587eab449ecdb2be666ca59992" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="264.v1" offset="0x0" size="0x800000" crc="fa005812" sha1="73723126dab5a640ac11955ed6da1bf7a91394f5" />
+		<rom name="264.v2" offset="0x800000" size="0x800000" crc="c3dc8bf0" sha1="a105e37262d9500a30fb8a5dac05aa4fab2562a3" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="264s12.c1" offset="0x0" size="0x800000" crc="52126204" sha1="78af3f15233b4798978a5214382a8d91fa70f69c" />
+		<rom loadflag="load16_byte" name="264s12.c2" offset="0x1" size="0x800000" crc="58f79e13" sha1="d1f01d46df9e79c7df2db6bf05740f2970a01ed4" />
+		<rom loadflag="load16_byte" name="264s12.c3" offset="0x1000000" size="0x800000" crc="30f8e775" sha1="49671cbd27616130e2f11b7678052fc8e090937a" />
+		<rom loadflag="load16_byte" name="264s12.c4" offset="0x1000001" size="0x800000" crc="4c618f32" sha1="b7ca14f908b71a381ce88024a9562b021c39d393" />
+		<rom loadflag="load16_byte" name="264s12.c5" offset="0x2000000" size="0x800000" crc="d5c59c25" sha1="f7b409d93fdf4d1b2a87a49722853d77dc8fc67b" />
+		<rom loadflag="load16_byte" name="264s12.c6" offset="0x2000001" size="0x800000" crc="e3babe6a" sha1="e61efa02a28f81fcfc4d76edc0ab4118126f3008" />
+		<rom loadflag="load16_byte" name="264s12.c7" offset="0x3000000" size="0x800000" crc="84bb00b6" sha1="cdf3bf1843110057556683658827da818128e82b" />
+		<rom loadflag="load16_byte" name="264s12.c8" offset="0x3000001" size="0x800000" crc="eff2cd12" sha1="cab417f8974780786b98637effad8a1a8c2e8562" />
+		</dataarea>
+	</part>
+</software>

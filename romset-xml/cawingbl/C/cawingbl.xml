@@ -1,0 +1,20 @@
+<software name="cawingbl" cloneof="cawing">
+	<description>Carrier Air Wing (bootleg with 2xYM2203 + 2xMSM5205, set 1)</description>
+	<year>1990</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c12bl.p1" offset="0x0" size="0x80000" crc="8125d3f0" sha1="a0e48c326c6164ca189c9372f5c38a7c103772c1" />
+		<rom loadflag="load16_byte" name="c12bl.p2" offset="0x1" size="0x80000" crc="b19b10ce" sha1="3c71f1dc830d1e8b8ba26d8a71e12f477659480c" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x30000">
+		<rom name="c12bl.m1" offset="0x0" size="0x20000" crc="ffe16cdc" sha1="8069ea69f0b89d61c35995c8040a4989d7be9c1f" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		<rom loadflag="load32_byte" name="c12bl.c01" offset="0x0" size="0x80000" crc="a045c689" sha1="8946c55635121282ea03586a278e50de20d92633" />
+		<rom loadflag="load32_byte" name="c12bl.c02" offset="0x1" size="0x80000" crc="61192f7c" sha1="86643c62653a62a5c7541d50cfdecae9b607440d" />
+		<rom loadflag="load32_byte" name="c12bl.c03" offset="0x2" size="0x80000" crc="30dd78db" sha1="e0295001d6f5fb4a9276c432f971e88f73c5e39a" />
+		<rom loadflag="load32_byte" name="c12bl.c04" offset="0x3" size="0x80000" crc="4937fc41" sha1="dac179715be483a521df8e515afc1fb7a2cd8f13" />
+		</dataarea>
+	</part>
+</software>

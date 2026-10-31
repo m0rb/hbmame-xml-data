@@ -1,0 +1,30 @@
+<software name="ssf2t04" cloneof="ssf2t">
+	<description>Super Street Fighter II Turbo (940323U, Retro color)</description>
+	<year>1994</year>
+	<publisher>Jason[FGCH]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c51t04.p1" offset="0x0" size="0x80000" crc="69808638" sha1="a288e0ce3be18af25d54a4ed9fc914be5dfad78d" />
+		<rom loadflag="load16_word_swap" name="c51t04.p2" offset="0x80000" size="0x80000" crc="90bd9148" sha1="127c0442d80e89db0f5325b329a418bf269f2548" />
+		<rom loadflag="load16_word_swap" name="c51u.p3" offset="0x100000" size="0x80000" crc="ffa3c6de" sha1="7cce55a3e07b5ba2e2e37e4c66a52678a1b19a63" />
+		<rom loadflag="load16_word_swap" name="c51u.p4" offset="0x180000" size="0x80000" crc="83f9382b" sha1="273ff4d4242ce22b755d35e5d2cf2517d625bdd2" />
+		<rom loadflag="load16_word_swap" name="c51u.p5" offset="0x200000" size="0x80000" crc="6ab673e8" sha1="840af0d0ce634fb98e4f89173c4f1f95ec2cf94b" />
+		<rom loadflag="load16_word_swap" name="c51u.p6" offset="0x280000" size="0x80000" crc="b3c71810" sha1="b51515f4f4aee5bbbfc8b79372d0bc6e0c140912" />
+		<rom loadflag="load16_word_swap" name="c51.p7" offset="0x300000" size="0x80000" crc="642fae3f" sha1="746df99b826b9837bba267104132161153c1daff" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c51.m1" offset="0x0" size="0x8000" crc="b47b8835" sha1="c8b2d50fe3a329bd0592ea160d505155d873dab1" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c51.m2" offset="0x28000" size="0x20000" crc="0022633f" sha1="cab3afc79da53e3887eb1ccd1f4d19790728e6cd" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="ssf2tu.key" offset="0x0" size="0x14" crc="f7d62def" sha1="27a797fd6fe435e14ca334947df38d56f89f79de" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c51.q1" offset="0x0" size="0x200000" crc="9bdbd476" sha1="a8520f77f30b97aae36408e0c4ca1ebbde1808a5" />
+		<rom loadflag="load16_word_swap" name="c51.q2" offset="0x200000" size="0x200000" crc="a05e3aab" sha1="d4eb9cae66c74e956569fea8b815156fbd420f83" />
+		</dataarea>
+	</part>
+</software>

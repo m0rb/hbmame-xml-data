@@ -1,0 +1,18 @@
+<software name="neonopon_d3" cloneof="neonopon">
+	<description>Neo No Panepon (demo 3, 2002-08-22)</description>
+	<year>2002</year>
+	<publisher>Blastar</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="407a.p1" offset="0x0" size="0x80000" crc="43b7c759" sha1="bbb4bf7957a336be6e5daa4030a5ebb1c72d92ee" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="407.v1" offset="0x0" size="0x80000" crc="504bf849" sha1="13a184ec9e176371808938015111f8918cb4df7d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="407c.c1" offset="0x0" size="0x100000" crc="e0573498" sha1="80ec6ef8a6133f1f66704920332e92daa3daee14" />
+		<rom loadflag="load16_byte" name="407b.c2" offset="0x1" size="0x100000" crc="fbf5f67f" sha1="52a6a800d4afaa9675e1f6eab5ed4be772f17338" />
+		</dataarea>
+	</part>
+</software>

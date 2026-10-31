@@ -1,0 +1,10 @@
+<software name="sd_warriorm" cloneof="neogeo">
+	<description>Warrior Man (v4)</description>
+	<year>2026</year>
+	<publisher>NK Home Entertainment</publisher>
+	<part name="cart">
+		<dataarea name="user" size="0x20cea9c">
+		<rom name="warriorm.neo" offset="0x0" size="0x20cea9c" crc="6780e12a" sha1="e582d8af30960a2385982d201cdf16488355fa1f" />
+		</dataarea>
+	</part>
+</software>

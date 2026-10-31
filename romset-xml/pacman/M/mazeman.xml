@@ -1,0 +1,17 @@
+<software name="mazeman" cloneof="puckman">
+	<description>Maze Man</description>
+	<year>2000</year>
+	<publisher>Marcel Silvius</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="newpuck2.6e" offset="0x0" size="0x1000" crc="a8ae23c5" sha1="1481a4f083b563350744f9d25b1bcd28073875d6" />
+		<rom name="mazeman.6f" offset="0x1000" size="0x1000" crc="77e44852" sha1="01c2e54cf9adc3bd92ab02eaa471638d8f17754d" />
+		<rom name="mazeman.6h" offset="0x2000" size="0x1000" crc="6d16a528" sha1="3ef42b46564bf3b8347f6bddb1940368a23fa515" />
+		<rom name="mazeman.6j" offset="0x3000" size="0x1000" crc="3c3ff208" sha1="2c6a8f9e3f130c3c0a9fa535b1ff76ac26a07f9f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mazeman.5e" offset="0x0" size="0x1000" crc="38870a32" sha1="2b65a6309b204b89dcb6329e43f55301ecf69227" />
+		<rom name="mazeman.5f" offset="0x1000" size="0x1000" crc="1fd18b80" sha1="2b10b572840e5977adda490d5fbddef98b65575e" />
+		</dataarea>
+	</part>
+</software>

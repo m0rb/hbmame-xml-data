@@ -1,0 +1,21 @@
+<software name="nwpuc2bx" cloneof="puckmanx">
+	<description>Newpuc2 (set 2) (hires hack)</description>
+	<year>1980</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="hangly3.6e" offset="0x0" size="0x800" crc="9d027c4a" sha1="88e094880057451a75cdc2ce9477403021813982" />
+		<rom name="newpuc2.6k" offset="0x800" size="0x800" crc="158fc01c" sha1="2f7a1e24d259fdc716ef8e7354a87780595f3c4e" />
+		<rom name="puckman.6f" offset="0x1000" size="0x800" crc="7d177853" sha1="9b5ddaaa8b564654f97af193dbcc29f81f230a25" />
+		<rom name="newpuc2.6m" offset="0x1800" size="0x800" crc="70810ccf" sha1="3941678606aab1e53356a6781e24d84e83cc88ce" />
+		<rom name="nwepuc2b.6h" offset="0x2000" size="0x800" crc="f5e4b2b1" sha1="68464f61cc50931f6cd4bb493dd703c139500825" />
+		<rom name="newpuc2.6n" offset="0x2800" size="0x800" crc="3f250c58" sha1="53bf2270c26f10f7e97960cd4c96e09e16b9bdf3" />
+		<rom name="newpuc2b.6j" offset="0x3000" size="0x800" crc="f068e009" sha1="a30763935e116559d535654827230bb21a5734bb" />
+		<rom name="newpuc2b.6p" offset="0x3800" size="0x800" crc="1fadcc2f" sha1="2d636cfc2b52b671ac5a26a03b1195e2cf8d4718" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="newpuc2x.5e" offset="0x0" size="0x4000" crc="0a64f4c8" sha1="1f3456b14b2b847869db6eeb3c115e3042b24672" />
+		<rom name="newpuc2x.5f" offset="0x4000" size="0x4000" crc="4ba7164c" sha1="902e6f0bfeed8f40b83cf0eb7de6440d91ee811d" />
+		</dataarea>
+	</part>
+</software>

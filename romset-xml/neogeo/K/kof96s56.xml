@@ -1,0 +1,31 @@
+<software name="kof96s56" cloneof="kof96">
+	<description>Kof&#x27;96 (10th Anniversary Edition 2016)</description>
+	<year>2009</year>
+	<publisher>EGHT</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x854f5a">
+		<rom loadflag="load16_word_swap" name="214s56.p1" offset="0x0" size="0x454f5a" crc="548a793a" sha1="48421a5cbd8541582afd1956c1f53a327aa1ff4f" />
+		<rom loadflag="load16_word_swap" name="214s52.p2" offset="0x100000" size="0x400000" crc="66da868f" sha1="8bada399828d0c55c82a00bfe605de95b8ca07f6" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="214.v1" offset="0x0" size="0x400000" crc="63f7b045" sha1="1353715f1a8476dca6f8031d9e7a401eacab8159" />
+		<rom name="214.v2" offset="0x400000" size="0x400000" crc="25929059" sha1="6a721c4cb8f8dc772774023877d4a9f50d5a9e31" />
+		<rom name="214s52.v3" offset="0x800000" size="0x400000" crc="3cfd1295" sha1="cfc6ed642ab736592673e96652232534b0e88080" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="214s52.c1" offset="0x0" size="0x400000" crc="b308c1f9" sha1="0c026b49ef45065c0691255a538921b0b4ad11dd" />
+		<rom loadflag="load16_byte" name="214s52.c2" offset="0x1" size="0x400000" crc="220a92b2" sha1="4f33fc76a199aef2880b3ba1760f92973315edfa" />
+		<rom loadflag="load16_byte" name="214.c3" offset="0x800000" size="0x400000" crc="64989a65" sha1="e6f3749d43be0afa9dad7b085cb782ba694252ca" />
+		<rom loadflag="load16_byte" name="214.c4" offset="0x800001" size="0x400000" crc="afbea515" sha1="ae875052728de33174827705646bd14cf3937b5c" />
+		<rom loadflag="load16_byte" name="214s52.c5" offset="0x1000000" size="0x400000" crc="41dbd677" sha1="447d081bd8c390df63b9800ef302d2ada660796a" />
+		<rom loadflag="load16_byte" name="214s52.c6" offset="0x1000001" size="0x400000" crc="1e6a3961" sha1="ac09dc3e38209033e7797ec6896dd176f3ce6272" />
+		<rom loadflag="load16_byte" name="214s52.c7" offset="0x1800000" size="0x400000" crc="08021fd6" sha1="77c8fed7ac39e6a1a24a294f95c095c098a85c11" />
+		<rom loadflag="load16_byte" name="214s52.c8" offset="0x1800001" size="0x400000" crc="bbd21b08" sha1="4e060195b632e99634ca9c67fb2398c5a91c3341" />
+		<rom loadflag="load16_byte" name="214s52.c9" offset="0x2000000" size="0x400000" crc="2efceab8" sha1="e38c4d2be4d1101d9463cb7c7295f42676cbedb9" />
+		<rom loadflag="load16_byte" name="214s52.c10" offset="0x2000001" size="0x400000" crc="9f7e1492" sha1="11315f6ef47210b56004036162767d2e1f7b39b2" />
+		<rom loadflag="load16_byte" name="214s52.c11" offset="0x2800000" size="0x400000" crc="183cd8fd" sha1="bd4d47780bf80e382759fd4bbe25fefd4a180610" />
+		<rom loadflag="load16_byte" name="214s52.c12" offset="0x2800001" size="0x400000" crc="b3d30499" sha1="34e8009e05cdc8a2fc41e8551df4a5f681a329c1" />
+		</dataarea>
+	</part>
+</software>

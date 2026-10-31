@@ -1,0 +1,10 @@
+<software name="sd_shadowlf" cloneof="neogeo">
+	<description>Shadow League Fighting (v3.1)</description>
+	<year>2026</year>
+	<publisher>Eagle Software</publisher>
+	<part name="cart">
+		<dataarea name="user" size="0x1b41000">
+		<rom name="shadowlf.neo" offset="0x0" size="0x1b41000" crc="9138a0e7" sha1="fdca9a3da1b59a209592a49eea9f39e88693428c" />
+		</dataarea>
+	</part>
+</software>

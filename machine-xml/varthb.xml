@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="varthb" description="Varthb cartridges">
+<software name="varthb" cloneof="varth">
+	<description>Varth: Operation Thunderstorm (bootleg, set 1)</description>
+	<year>1992</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c21b.p1" offset="0x0" size="0x80000" crc="2f010023" sha1="bf4b6c0cd82cf1b86e17d6ea2670110c06e6eabe" />
+		<rom loadflag="load16_byte" name="c21b.p2" offset="0x1" size="0x80000" crc="0861dff3" sha1="bf6dfe18ecaeaa1bbea09267014891c4a4a07943" />
+		<rom loadflag="load16_byte" name="c21b.p9" offset="0x100000" size="0x10000" crc="aa51e43b" sha1="46b9dab844c55b50a47d048e5bb114911773699c" />
+		<rom loadflag="load16_byte" name="c21b.p10" offset="0x100001" size="0x10000" crc="f7e4f2f0" sha1="2ce4eadb2d6a0e0d5745323eff2c899950ad4d3b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c21.m1" offset="0x0" size="0x8000" crc="7a99446e" sha1="ca027f41e3e58be5abc33ad7380746658cb5380a" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c21b.v1" offset="0x0" size="0x40000" crc="1547e595" sha1="27f47b1afd9700afd9e8167d7e4e2888be34a9e5" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

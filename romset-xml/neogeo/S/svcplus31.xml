@@ -1,0 +1,23 @@
+<software name="svcplus31" cloneof="svc">
+	<description>SvC Chaos Plus (bootleg, fully decrypted)</description>
+	<year>2003</year>
+	<publisher>bootleg</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x600000">
+		<rom loadflag="load16_word_swap" name="269plusd.p1" offset="0x0" size="0x600000" crc="2a57e4d4" sha1="09fec6b376adfb2b051cd281f66b483e2deffa60" />
+		<rom name="269p30.s1" offset="0x60000" size="0x20000" crc="06125f98" sha1="69ba2625c90bb09abf64f6d49d88d2ac2f1ee9ca" />
+		<rom loadflag="continue" offset="0x40000" size="0x20000" />
+		<rom loadflag="continue" offset="0x20000" size="0x20000" />
+		<rom loadflag="continue" offset="0x0" size="0x20000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="269s48.v1" offset="0x0" size="0x800000" crc="ff64cd56" sha1="e2754c554ed5ca14c2020c5d931021d5ac82660c" />
+		<rom name="269s48.v2" offset="0x800000" size="0x800000" crc="a8dd6446" sha1="8972aab271c33f8af344bffe6359d9ddc4b8af2e" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="269s48.c1" offset="0x0" size="0x2000000" crc="382ce01f" sha1="8eec32f70169de83fc15df470aba9c51c312b577" />
+		<rom loadflag="load16_byte" name="269s48.c2" offset="0x1" size="0x2000000" crc="88ad01ec" sha1="da223bc09aa465ea6c15954c45fefbf3ee79a4d7" />
+		</dataarea>
+	</part>
+</software>

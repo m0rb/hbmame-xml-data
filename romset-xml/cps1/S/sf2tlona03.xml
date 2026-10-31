@@ -1,0 +1,26 @@
+<software name="sf2tlona03" cloneof="sf2ce">
+	<description>Street Fighter II&#x27;: Champion Edition (Zangief Spiral Piling Instructions Simplify, 2012-01-15)</description>
+	<year>2012</year>
+	<publisher>Pipi899</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c19tlonas03.p1" offset="0x0" size="0x80000" crc="aec46373" sha1="68e79d594583f23d56d3286de1af9cc80f802be9" />
+		<rom loadflag="load16_byte" name="c19tlonas02.p2" offset="0x1" size="0x80000" crc="35215c2b" sha1="9f2a5d75f4635c62beec862a53d6909a544cd897" />
+		<rom loadflag="load16_byte" name="c19up1.p3" offset="0x100000" size="0x20000" crc="d1707134" sha1="5bfdf7bc57bdb85183647ebb175346070dd102ee" />
+		<rom loadflag="load16_byte" name="c19up1.p4" offset="0x100001" size="0x20000" crc="cd1d5666" sha1="8befd2c324eb29bdad6fc8fb2554cdfaf9808f9b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c19.m1" offset="0x0" size="0x8000" crc="08f6b60e" sha1="8258fcaca4ac419312531eec67079b97f471179c" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2m2.key" offset="0x0" size="0x80" crc="67e80fca" sha1="e937bc4cf0e05ba93c32bc47d65c5b027bc2b48e" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c14.v1" offset="0x0" size="0x20000" crc="7f162009" sha1="346bf42992b4c36c593e21901e22c87ae4a7d86d" />
+		<rom name="c14.v2" offset="0x20000" size="0x20000" crc="beade53f" sha1="277c397dc12752719ec6b47d2224750bd1c07f79" />
+		</dataarea>
+	</part>
+</software>

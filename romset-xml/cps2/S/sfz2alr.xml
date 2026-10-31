@@ -1,0 +1,29 @@
+<software name="sfz2alr" cloneof="sfz2al">
+	<description>Street Fighter Zero 2 Alpha (960805A, English Restoration, 2026-10-11)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="szaa.03" offset="0x0" size="0x80000" crc="8d841750" sha1="0533de1685624b0cda36452333023cfeefbc4be2" />
+		<rom loadflag="load16_word_swap" name="szaa.04" offset="0x80000" size="0x80000" crc="f64c40a7" sha1="16e076cb6969a6732a472edd38910f9d2fb33241" />
+		<rom loadflag="load16_word_swap" name="szaa.05" offset="0x100000" size="0x80000" crc="f132bb74" sha1="3117fe0e49e36dd6683b96ee52d599ec6acdc7b7" />
+		<rom loadflag="load16_word_swap" name="szaa.06" offset="0x180000" size="0x80000" crc="cfc0e7a8" sha1="31ed58451c7a6ac88a8fccab369167694698f044" />
+		<rom loadflag="load16_word_swap" name="szaa.07" offset="0x200000" size="0x80000" crc="305b6fe0" sha1="fa2769c2eaa9395448edb4fa2b9b1126652518d3" />
+		<rom loadflag="load16_word_swap" name="szaa.08" offset="0x280000" size="0x80000" crc="2b5e2337" sha1="ec8228bc40aae64495a31785e8fcaa5ab1aa753d" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="sza.01" offset="0x0" size="0x8000" crc="1bc323cf" sha1="83fbd6e9b327700dc9f1c59700b7385bc3705749" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="sza.02" offset="0x28000" size="0x20000" crc="ba6a5013" sha1="7814f3e56b69529b9860dd61c3b1e8d700244b03" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="sfz2al.key" offset="0x0" size="0x14" crc="2904963e" sha1="f4fa44646746ab4c6f2e76eaba57a7aee32e2933" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="sza.11m" offset="0x0" size="0x200000" crc="aa47a601" sha1="a4d1ee89c84a3b9db06469bb66e85293b5aa9ac9" />
+		<rom loadflag="load16_word_swap" name="sza.12m" offset="0x200000" size="0x200000" crc="2237bc53" sha1="96d5693047e4cf1ed10a8ee1905cea267a278e92" />
+		</dataarea>
+	</part>
+</software>

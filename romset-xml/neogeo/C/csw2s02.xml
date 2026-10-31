@@ -1,0 +1,19 @@
+<software name="csw2s02" cloneof="csw2">
+	<description>Crossed Swords 2 (Reconstructed Cartridge Music)</description>
+	<year>2026</year>
+	<publisher>pierpa86</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="054s02.p1" offset="0x100000" size="0x100000" crc="59160185" sha1="f520b6a2fe71f4aa28564b756a723c1f21e0a216" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="054s02.v1" offset="0x0" size="0x200000" crc="45d86fa5" sha1="8b426498ef75f1f9daa890816763a4ae869e96e7" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="054.c1" offset="0x0" size="0x400000" crc="8221b712" sha1="7e68871f1bfc402ef27c8fa088c680cbd133f71a" />
+		<rom loadflag="load16_byte" name="054.c2" offset="0x1" size="0x400000" crc="d6c6183d" sha1="cc546ff063fae2c01c109fabcd5b2d29ec3299db" />
+		</dataarea>
+	</part>
+</software>

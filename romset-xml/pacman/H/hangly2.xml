@@ -1,0 +1,19 @@
+<software name="hangly2" cloneof="puckman">
+	<description>Hangly-Man (set 2)</description>
+	<year>1981</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="hangly.6e" offset="0x0" size="0x1000" crc="5fe8610a" sha1="d63eaebd85e10aa6c27bb7f47642dd403eeb6934" />
+		<rom name="hangly2.6f" offset="0x1000" size="0x800" crc="5ba228bb" sha1="b0e902cdf98bee72d6ec8069eec96adce3245074" />
+		<rom name="hangly2.6m" offset="0x1800" size="0x800" crc="baf5461e" sha1="754586a6449fd54a342f260e572c1cd60ab70815" />
+		<rom name="hangly.6h" offset="0x2000" size="0x1000" crc="4e7ef99f" sha1="bd42e68b29b4d654dc817782ba00db69b7d2dfe2" />
+		<rom name="hangly2.6j" offset="0x3000" size="0x800" crc="51305374" sha1="6197b606a0eedb11135d9f4f7a89aecc23fb2d33" />
+		<rom name="hangly2.6p" offset="0x3800" size="0x800" crc="427c9d4d" sha1="917bc3d571cbdd24d88327ecabfb5b3f6d39af0a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacmanh.5e" offset="0x0" size="0x1000" crc="299fb17a" sha1="ad97adc2122482a9018bacd137df9d8f409ddf85" />
+		<rom name="pacman.5f" offset="0x1000" size="0x1000" crc="958fedf9" sha1="4a937ac02216ea8c96477d4a15522070507fb599" />
+		</dataarea>
+	</part>
+</software>

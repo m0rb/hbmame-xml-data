@@ -1,0 +1,21 @@
+<software name="zintrick06" cloneof="zintrckb">
+	<description>ZinTricK (Music tracks, old)</description>
+	<year>2026</year>
+	<publisher>pierpa86</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="211s06.p1" offset="0x0" size="0x100000" crc="654342e6" sha1="3755b0c6d263b8d4da3cb2ee7dd2a9984f418066" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="211s06.v1" offset="0x0" size="0x400000" crc="6254951a" sha1="5a0a92dec167f6ce4253a4b0b5131fe4208f2fa9" />
+		<rom name="211s06.v2" offset="0x400000" size="0x400000" crc="2f5a94e0" sha1="ee743d005f86e5a2683baecdda11b0aa314cf056" />
+		<rom name="211s06.v3" offset="0x800000" size="0x400000" crc="7205c60f" sha1="5066cf524ed502c5fa74d23367d2171d954452c5" />
+		<rom name="211s06.v4" offset="0xc00000" size="0x400000" crc="8389e589" sha1="d901a21133669e52a134a32c8b1f5d52f8d93f93" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="211.c1" offset="0x0" size="0x200000" crc="76aee189" sha1="ad6929804c5b9a59aa609e6baebc6aa37e858a47" />
+		<rom loadflag="load16_byte" name="211.c2" offset="0x1" size="0x200000" crc="844ed4b3" sha1="fb7cd057bdc6cbe8b78097dd124118bae7402256" />
+		</dataarea>
+	</part>
+</software>

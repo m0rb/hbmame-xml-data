@@ -1,0 +1,30 @@
+<software name="striderus01" cloneof="strider">
+	<description>Strider EX (USA, 2026-10-27)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c03us01.p1" offset="0x0" size="0x20000" crc="457395b9" sha1="b8dbcfc3219b1176d89ae3d04433f70c27b1ce64" />
+		<rom loadflag="load16_byte" name="c03us01.p2" offset="0x1" size="0x20000" crc="118f8690" sha1="e2bb22f470bd4ecc643ba8ec20b86913b047ca6e" />
+		<rom loadflag="load16_byte" name="c03us01.p3" offset="0x40000" size="0x20000" crc="3306fd0f" sha1="297bf81e08336d913b70f04ddcfead84045ec180" />
+		<rom loadflag="load16_byte" name="c03us01.p4" offset="0x40001" size="0x20000" crc="1ac8cad9" sha1="29f345dfe5b5ebf740d4c8a7068eee2777fde218" />
+		<rom loadflag="load16_word_swap" name="c03us01.p5" offset="0x80000" size="0x80000" crc="06edfbaf" sha1="1d6a1b7a42c768eae58775f503eb72ca3c536005" />
+		<rom loadflag="load16_word_swap" name="c03us01.p6" offset="0x100000" size="0x100000" crc="075dfc39" sha1="a6ea9e5359acbdcdfb0147ca9f90661e51468393" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c03us01.m1" offset="0x0" size="0x8000" crc="a08e24b9" sha1="9cb9f86196b123b7c50749e0a986766eb04dff27" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="striderus01.key" offset="0x0" size="0x80" crc="db7ce280" sha1="e212a15a81eeaa6ff4624defd62c530ec75efab5" />
+		</dataarea>
+		<dataarea name="gfx" size="0x800000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c03us01.v1" offset="0x0" size="0x20000" crc="897269dd" sha1="0fe2e81296fd88e1cac82c861c26f19d81704015" />
+		<rom name="c03us01.v2" offset="0x20000" size="0x20000" crc="3f56c8cc" sha1="1a1030f55f651b62c7b23fe260ecfb63aeee03e0" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>

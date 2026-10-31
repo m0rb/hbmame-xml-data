@@ -1,0 +1,27 @@
+<software name="striderjs01" cloneof="strider">
+	<description>Strider Hiryu EX (Japan, 2026-10-27)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c03js01.p1" offset="0x0" size="0x80000" crc="39260f46" sha1="84f6a1aba00fd498aa29ecc339bad646ff945bce" />
+		<rom loadflag="load16_word_swap" name="c03js01.p5" offset="0x80000" size="0x80000" crc="abc6d8ff" sha1="d7e825abc7de0c0b81a7aa36597feacb340b0dcf" />
+		<rom loadflag="load16_word_swap" name="c03js01.p6" offset="0x100000" size="0x100000" crc="150e1549" sha1="490b398310595aed8cc372daa447e60b7cd3624b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c03js01.m1" offset="0x0" size="0x8000" crc="a08e24b9" sha1="9cb9f86196b123b7c50749e0a986766eb04dff27" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="striderjs01.key" offset="0x0" size="0x80" crc="6802a1a5" sha1="410528a5288b5896c2ce5060f8036145ddc2a8ac" />
+		</dataarea>
+		<dataarea name="gfx" size="0x800000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c03js01.v1" offset="0x0" size="0x20000" crc="897269dd" sha1="0fe2e81296fd88e1cac82c861c26f19d81704015" />
+		<rom name="c03js01.v2" offset="0x20000" size="0x20000" crc="3f56c8cc" sha1="1a1030f55f651b62c7b23fe260ecfb63aeee03e0" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>

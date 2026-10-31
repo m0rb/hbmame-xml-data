@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="mspacii" description="Mspacii cartridges">
+<software name="mspacii" cloneof="mspacman">
+	<description>Ms. Pacman II</description>
+	<year>1998</year>
+	<publisher>Orca</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="mspacii.1" offset="0x0" size="0x1000" crc="df673b57" sha1="93ee4e8f9751db5f7d3c35988fcb8ae8037464ed" />
+		<rom name="mspacii.2" offset="0x1000" size="0x1000" crc="7591f606" sha1="0aead0ac5af602269df8732c5763147cdb543b8d" />
+		<rom name="mspacii.3" offset="0x2000" size="0x1000" crc="c8ef1a7f" sha1="0c9a28bbe63d7d44511a13316937a21b8846543e" />
+		<rom name="mspacii.4" offset="0x3000" size="0x1000" crc="d498f435" sha1="c041841b1349d8d5c2d560aed54c4aeb8adfddb8" />
+		<rom name="mspacii.5" offset="0x8000" size="0x1000" crc="fbbc3d2e" sha1="dc4337d7f0961e048a433021f670da6d314bd663" />
+		<rom name="mspacii.6" offset="0x9000" size="0x1000" crc="aa3887c5" sha1="0e20cb686383156a9883749568c8e57c15c3ae44" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mspacii.5e" offset="0x0" size="0x1000" crc="04333722" sha1="bb179d5302b26b815b5d7eff14865e7b4f8a6880" />
+		<rom name="5f" offset="0x1000" size="0x1000" crc="615af909" sha1="fd6a1dde780b39aea76bf1c4befa5882573c2ef4" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

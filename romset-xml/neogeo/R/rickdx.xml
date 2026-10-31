@@ -1,0 +1,18 @@
+<software name="rickdx">
+	<description>Rick Dangerous DX</description>
+	<year>2026</year>
+	<publisher>Z-team</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="521.p1" offset="0x0" size="0x80000" crc="d3dd7ab5" sha1="bf96ae1fe19fa3b6edb6aef4cfa60ab31330299b" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="521.v1" offset="0x0" size="0x6c0000" crc="69fb1fdf" sha1="9c610b72bfb5aa6dede6e799c39f6644c43585e5" />
+		</dataarea>
+		<dataarea name="sprites" size="0x280000">
+		<rom loadflag="load16_byte" name="521.c1" offset="0x0" size="0x140000" crc="89e09533" sha1="f8707be8b6665ac80dfcef6ecdb1153b8e5c3ac6" />
+		<rom loadflag="load16_byte" name="521.c2" offset="0x1" size="0x140000" crc="c2df94d4" sha1="46c88955de5edded07f4ed8a3fda7aba201f9453" />
+		</dataarea>
+	</part>
+</software>

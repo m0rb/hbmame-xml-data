@@ -1,0 +1,15 @@
+<software name="vliner">
+	<description>V-Liner (set 1)</description>
+	<year>2001</year>
+	<publisher>Dyna / BrezzaSoft</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="332.p1" offset="0x0" size="0x80000" crc="72a2c043" sha1="b34bcc10ff33e4465126a6865fe8bf6b6a3d6cee" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="332.c1" offset="0x0" size="0x80000" crc="5118f7c0" sha1="b6fb6e9cbb660580d98e00780ebf248c0995145a" />
+		<rom loadflag="load16_byte" name="332.c2" offset="0x1" size="0x80000" crc="efe9b33e" sha1="910c651aadce9bf59e51c338ceef62287756d2e8" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,18 @@
+<software name="wrallyn">
+	<description>World Rally (Neo-Geo port)</description>
+	<year>2026</year>
+	<publisher>Arkretro</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="532.p1" offset="0x0" size="0x200000" crc="66ae3de4" sha1="9073fa73575365c8f3fd36fe692f36c9a1deb10b" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="532.v1" offset="0x0" size="0x400000" crc="edc105d0" sha1="39566bb0927266c8536b09a4ba2d96d8a7edb8b9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="532.c1" offset="0x0" size="0x400000" crc="b11347c2" sha1="e974d9d283f9740a08482ad3acb1e94b3c8d9c62" />
+		<rom loadflag="load16_byte" name="532.c2" offset="0x1" size="0x400000" crc="2bfcd5fc" sha1="cd43281f5fd3506c2bb3d5191c655691712551ba" />
+		</dataarea>
+	</part>
+</software>

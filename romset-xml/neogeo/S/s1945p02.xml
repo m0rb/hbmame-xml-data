@@ -1,0 +1,28 @@
+<software name="s1945p02" cloneof="s1945p">
+	<description>Strikers 1945 Plus (decrypted C)</description>
+	<year>1999</year>
+	<publisher>Psikyo</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="254.p1" offset="0x0" size="0x100000" crc="ff8efcff" sha1="dcaeaca573385c172ecc43ee6bee355359091893" />
+		<rom loadflag="load16_word_swap" name="254.p2" offset="0x100000" size="0x400000" crc="efdfd4dd" sha1="254f3e1b546eed788f7ae919be9d1bf9702148ce" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="254.v1" offset="0x0" size="0x400000" crc="844f58fb" sha1="e59544457be9f21481eac8b5a39b9cbb502f252d" />
+		<rom name="254.v2" offset="0x400000" size="0x400000" crc="d9a248f0" sha1="dd3e0974b753e6f94d0943a002de45668a1b072b" />
+		<rom name="254.v3" offset="0x800000" size="0x400000" crc="0b0d2d33" sha1="f8e76af42a997f36a40f66b39de00f68afe6a89c" />
+		<rom name="254.v4" offset="0xc00000" size="0x400000" crc="6d13dc91" sha1="8433513c0b5aea61939068a25ab90efbe3e44116" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="254s02.c1" offset="0x0" size="0x800000" crc="7b6902f9" sha1="c974a3cd84fa15d5ae7c9053adbb004a9aa902cd" />
+		<rom loadflag="load16_byte" name="254s02.c2" offset="0x1" size="0x800000" crc="51bd4252" sha1="5a99563de1d83b7cd1d7ca7a50c71d5f30439276" />
+		<rom loadflag="load16_byte" name="254s02.c3" offset="0x1000000" size="0x800000" crc="a38993e4" sha1="0bd3bcecf17abfda7da997e348fe3b0e7a66a828" />
+		<rom loadflag="load16_byte" name="254s02.c4" offset="0x1000001" size="0x800000" crc="d5696530" sha1="15cbdaa729b8dd4d2489157d778379cfb0f79e51" />
+		<rom loadflag="load16_byte" name="254s02.c5" offset="0x2000000" size="0x800000" crc="28764bd6" sha1="21158ea89dd88abd7f73b4513b699089f7944ba5" />
+		<rom loadflag="load16_byte" name="254s02.c6" offset="0x2000001" size="0x800000" crc="9931bdf1" sha1="fa95fd8621403684e09f01a89f8df9ae2fa7de76" />
+		<rom loadflag="load16_byte" name="254s02.c7" offset="0x3000000" size="0x800000" crc="6e12afcd" sha1="ef45d9b923ec937f9c207cd50d917f0ded5b8faf" />
+		<rom loadflag="load16_byte" name="254s02.c8" offset="0x3000001" size="0x800000" crc="178d4684" sha1="3cbf379209c189ee48260a044dc2754035f57e14" />
+		</dataarea>
+	</part>
+</software>

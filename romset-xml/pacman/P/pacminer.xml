@@ -1,0 +1,16 @@
+<software name="pacminer" cloneof="puckman">
+	<description>Pac Manic Miner Man</description>
+	<year>2012</year>
+	<publisher>Jim Bagley</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacminer.6e" offset="0x0" size="0x1000" crc="11dee14e" sha1="1aeb94299a33daa9b51fdab3c0abea98858cc7dd" />
+		<rom name="pacminer.6f" offset="0x1000" size="0x1000" crc="8c449bd7" sha1="84233296683321f71fdef604ca19bfffd97e993c" />
+		<rom name="pacminer.6h" offset="0x2000" size="0x1000" crc="a0e62570" sha1="654a71144eae3c78d7baaeb9119aad0ece500e60" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacminer.5e" offset="0x0" size="0x1000" crc="9b3cc7cd" sha1="9bfb71e71f7f61e26d23e6370d684cdc6c910899" />
+		<rom name="pacminer.5f" offset="0x1000" size="0x1000" crc="c1b2dc90" sha1="3a089696bab9f3ff39e09c84117d22b861ddec40" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,29 @@
+<software name="svcplus02" cloneof="svc">
+	<description>SvC Chaos Plus (PlayStation 2 Final)</description>
+	<year>2003</year>
+	<publisher>Eddids</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x600000">
+		<rom loadflag="load16_word_swap" name="svcp02.p1" offset="0x0" size="0x200000" crc="2e794b25" sha1="fa4e585464f76324547319e92841a33e9846ddc7" />
+		<rom loadflag="load16_word_swap" name="svcp02.p2" offset="0x200000" size="0x200000" crc="0868f86f" sha1="f8e5b8f01037f945d4f763c46d6046e39bbffda8" />
+		<rom loadflag="load16_word_swap" name="svcp02.p3" offset="0x400000" size="0x200000" crc="e5f55b5c" sha1="5098fd3dca0deb8acb6ff7a59ac4cb2d60ede1c2" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom loadflag="load16_word_swap" name="svc-v2.bin" offset="0x0" size="0x400000" crc="b5097287" sha1="3ba3a9b5624879616382ed40337a3d9c50a0f314" />
+		<rom loadflag="load16_word_swap" name="svc-v1.bin" offset="0x400000" size="0x400000" crc="bd3a391f" sha1="972bf09b75e99a683ee965bec93b0da8f15d72d9" />
+		<rom loadflag="load16_word_swap" name="svc-v4.bin" offset="0x800000" size="0x400000" crc="33fc0b37" sha1="d61017d829f44c7df8795ba10c55c727d9972662" />
+		<rom loadflag="load16_word_swap" name="svc-v3.bin" offset="0xc00000" size="0x400000" crc="aa9849a0" sha1="9539b3356a070a066a89f27c287f316e7367ce2a" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="svc-c1.bin" offset="0x0" size="0x800000" crc="a7826b89" sha1="3bbe348ce54b80b56ef032ea532a18ef3cafeb11" />
+		<rom loadflag="load16_byte" name="svc-c2.bin" offset="0x1" size="0x800000" crc="ed3c2089" sha1="b5d17692f15f5a678c273589fab2e3918711135e" />
+		<rom loadflag="load16_byte" name="svc-c3.bin" offset="0x1000000" size="0x800000" crc="71ed8063" sha1="ea1df9e2e382a8560a06d447421844cc588f43dd" />
+		<rom loadflag="load16_byte" name="svc-c4.bin" offset="0x1000001" size="0x800000" crc="250bde2d" sha1="8c72dcfceef6d022ab4b73ab37cf3ac0c3940c17" />
+		<rom loadflag="load16_byte" name="svc-c5.bin" offset="0x2000000" size="0x800000" crc="9817c082" sha1="1bea9c7220c2b1524896c86841d6d8fd55f5d366" />
+		<rom loadflag="load16_byte" name="svc-c6.bin" offset="0x2000001" size="0x800000" crc="2bc0307f" sha1="8090fa82c46eb503832359093c8cc3cee3141c90" />
+		<rom loadflag="load16_byte" name="svchz02-c7.bin" offset="0x3000000" size="0x800000" crc="5814ca54" sha1="a117f9731ae783742a1c00c19d7c1f6160e8daf3" />
+		<rom loadflag="load16_byte" name="svchz02-c8.bin" offset="0x3000001" size="0x800000" crc="134362fe" sha1="2461dbf8e9ef36e39554deedd03a92a3578aeba0" />
+		</dataarea>
+	</part>
+</software>

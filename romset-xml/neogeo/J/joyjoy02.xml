@@ -1,0 +1,21 @@
+<software name="joyjoy02" cloneof="joyjoy">
+	<description>Puzzled (CD conversion)(Set 2)</description>
+	<year>1990</year>
+	<publisher>CD_conv</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="021s01.p1" offset="0x0" size="0x80000" crc="a483fde0" sha1="c42a04f5fec60678cbe20bc77675e0128aadf31c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="021s02.v11" offset="0x0" size="0x80000" crc="4fb2fbcc" sha1="b1defbfd68eb824468c352c91e98d2fc4fba539d" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x80000">
+		<rom name="021.v21" offset="0x0" size="0x80000" crc="8ed20a86" sha1="d15cba5eac19ea56fdd4877541f1bb3eb755ebba" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="021.c1" offset="0x0" size="0x80000" crc="509250ec" sha1="d6ddb16d8222088f153a85a905bcb99541a5f2cf" />
+		<rom loadflag="load16_byte" name="021.c2" offset="0x1" size="0x80000" crc="09ed5258" sha1="6bf50cd10236e29146b49e714a0e0ebcfe30a682" />
+		</dataarea>
+	</part>
+</software>

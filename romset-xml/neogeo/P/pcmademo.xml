@@ -1,0 +1,16 @@
+<software name="pcmademo">
+	<description>ADPCM-A Playback Demo</description>
+	<year>2015</year>
+	<publisher>Freem</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="669.p1" offset="0x0" size="0x80000" crc="a198ce30" sha1="17b9ad5fe5136c0425823f49a65d428c544170c5" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="669.v1" offset="0x0" size="0x80000" crc="e7ef9bd8" sha1="d5de1f63189b3a18382da81f02b20af68996ad7e" />
+		</dataarea>
+		<dataarea name="sprites" size="0x10000">
+		</dataarea>
+	</part>
+</software>

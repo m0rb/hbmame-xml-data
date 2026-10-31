@@ -1,0 +1,20 @@
+<software name="grime">
+	<description>Grime 68000</description>
+	<year>2019</year>
+	<publisher>ChibiAkumas</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="517.p1" offset="0x0" size="0x80000" crc="e42ed460" sha1="6e9e413fd67bb8b07ff2233adaa736f8f0e7510e" />
+		<rom name="517.s1" offset="0x0" size="0x20000" crc="9ecf7b85" sha1="0f02b25f3ed583c1d63532a4222db1f9877b8b04" />
+		<rom name="517.s2" offset="0x10000" size="0xc00" crc="810b6254" sha1="c4dca993a8a3e84480b5baa704aab4eea4c61d54" />
+		<rom name="517.s3" offset="0x12000" size="0x200" crc="d30e8606" sha1="1bf36b004628bff17040826c58b164c7f813fd59" />
+		<rom name="517.s4" offset="0x12200" size="0x200" crc="b975e473" sha1="db98378f7cfad17d290b27ad11166a4ebdb43072" />
+		<rom name="517.s5" offset="0x14000" size="0x480" crc="c9bf09bb" sha1="87391f485914972eb7521b4242d1197dbf1a3bde" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="499.c1" offset="0x0" size="0x100000" crc="479543cf" sha1="772690c872632320133a799aa41f6e68a8d07a4c" />
+		<rom loadflag="load16_byte" name="499.c2" offset="0x1" size="0x100000" crc="1f6431d5" sha1="7c90d6ec9df9e6223a066c338b7a7886071370cf" />
+		</dataarea>
+	</part>
+</software>

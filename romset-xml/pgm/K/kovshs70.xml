@@ -1,0 +1,31 @@
+<software name="kovshs70" cloneof="kovsh">
+	<description>Knights of Valour Super Heroes (God Of War Legends Beta 1)</description>
+	<year>1999</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_pw70.322" offset="0x100000" size="0x400000" crc="0c9daa6d" sha1="fbe5401ffa3e5cf2cb9c4ca6878e42558cf887bc" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600_pw70.rom" offset="0x400000" size="0x400000" crc="93d828ca" sha1="16847313011c1dfac9fd783f709112723cc36968" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.asic" offset="0x0" size="0x4000" crc="0f09a5c1" sha1="621b38c05f33277608d58b49822aebc930ae4870" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_pw70.rom" offset="0x0" size="0x800000" crc="154a3bca" sha1="2ab07e7bea36f42ccd29130bb3b8334c9bd20ed7" />
+		<rom name="pgm_a0601.u3" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_pw70.rom" offset="0x1000000" size="0x800000" crc="baa8354f" sha1="6d1683297bd14a42ab967f41d142e02660d8fdbf" />
+		<rom name="pgm_a0613.u7" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		<rom name="a0604_pw70.rom" offset="0x1a00000" size="0x400000" crc="6dbbcd48" sha1="8c516434490b5a8fb2b94379d55566733ce5c13f" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_pw70.rom" offset="0x0" size="0x800000" crc="13bb0c56" sha1="b3e553c3ede39bb2a1825365b4337cf03e6cbde7" />
+		<rom name="b0601_pw70.rom" offset="0x800000" size="0x400000" crc="24f5fc80" sha1="df08277a11b10269b9139c1d16a3c64a03b692cf" />
+		<rom name="b0602_pw70.rom" offset="0xc00000" size="0x100000" crc="13900fc7" sha1="2b3e24fd16405cef331578e5a9cd162deff04f3d" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_pw70.rom" offset="0x180000" size="0x800000" crc="d103dc1b" sha1="947cc29f81f5ea73523861ea39493da2942265f4" />
+		</dataarea>
+	</part>
+</software>

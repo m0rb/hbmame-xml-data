@@ -1,0 +1,18 @@
+<software name="nosignal">
+	<description>No Signal Z Alpha (v3)</description>
+	<year>2026</year>
+	<publisher>Eagle Software</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="784.p1" offset="0x0" size="0x80000" crc="62ddf5b4" sha1="4a9ef29e59ccb6d2cd5d961e25fdbba9e6d5b72c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="784.v1" offset="0x0" size="0x5bc900" crc="14b1eaa1" sha1="cbc57efbbfb36dc803fb1d307364f7db3e349019" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="784.c1" offset="0x0" size="0x400000" crc="91d38b2c" sha1="bd322a352f91e6ad522e5f9d4ecfb66ac4218b15" />
+		<rom loadflag="load16_byte" name="784.c2" offset="0x1" size="0x400000" crc="1e73b533" sha1="f7409b14a7570627339d6ba70b064a569c566cdc" />
+		</dataarea>
+	</part>
+</software>

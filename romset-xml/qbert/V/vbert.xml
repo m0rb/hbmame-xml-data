@@ -1,0 +1,26 @@
+<software name="vbert">
+	<description>V*bert</description>
+	<year>2003</year>
+	<publisher>Grand Master Peter</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="qb-rom2.bin" offset="0xa000" size="0x2000" crc="fe434526" sha1="4cfc5d52dd6c82163e035af82d6112c0c93a3797" />
+		<rom name="qb-rom1.bin" offset="0xc000" size="0x2000" crc="55635447" sha1="ca6acdef1c9e06b33efe1f0a2df2dfb03723cfbe" />
+		<rom name="qb-rom0.bin" offset="0xe000" size="0x2000" crc="8e318641" sha1="7f8f66d1e6a7905e93cce07fc92e8801370b7194" />
+		</dataarea>
+		<dataarea name="sprites" size="0x8000">
+		<rom name="vb-fg3.bin" offset="0x0" size="0x2000" crc="8cb4bdb4" sha1="7b9b626b93daa4d2639a1e87ace61b1d254af96c" />
+		<rom name="vb-fg2.bin" offset="0x2000" size="0x2000" crc="79883cc3" sha1="01cfca389021747e2d750fc8bb251abb2d5fe7a8" />
+		<rom name="vb-fg1.bin" offset="0x4000" size="0x2000" crc="b0fe9bd5" sha1="be2990904efff19adbe18eb674727214ffae9ad3" />
+		<rom name="vb-fg0.bin" offset="0x6000" size="0x2000" crc="4c3db270" sha1="212f1c353511fb4166a7ad0135dd295a2a16af8d" />
+		</dataarea>
+		<dataarea name="bgtiles" size="0x2000">
+		<rom name="vb-bg0.bin" offset="0x0" size="0x1000" crc="8963b939" sha1="1416f56938163b4cdc212758eb2c3f6b773c7e32" />
+		<rom name="vb-bg1.bin" offset="0x1000" size="0x1000" crc="96033c96" sha1="0a5780377bfd3baeeb2d899aa230e503539f7c92" />
+		</dataarea>
+		<dataarea name="r1sound:audiocpu" size="0x10000">
+		<rom name="qb-snd1.bin" offset="0x7000" size="0x800" crc="15787c07" sha1="8b7d03fbf2ebaa71b3a7e2f636a0d1bb9b796e43" />
+		<rom name="qb-snd2.bin" offset="0x7800" size="0x800" crc="58437508" sha1="09d8053e7e99679b602dcda230d64db7fe6cb7f5" />
+		</dataarea>
+	</part>
+</software>

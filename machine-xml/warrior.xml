@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="warrior" description="Warrior cartridges">
+<software name="warrior4j1">
+	<description>Warrior (4 joysticks, v1)</description>
+	<year>2014</year>
+	<publisher>Timothy Shiels</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x2000">
+		<rom loadflag="load16_byte" name="warrior4j1.t7" offset="0x0" size="0x800" crc="2794ae97" sha1="d247591a628682c4bf05af8e214a421c6aad27ac" />
+		<rom loadflag="load16_byte" name="warrior4j1.p7" offset="0x1" size="0x800" crc="0174aec4" sha1="763d9518eb10c48dbad8f1bc445a20dbc1e283cd" />
+		<rom loadflag="load16_byte" name="warrior4j1.u7" offset="0x1000" size="0x800" crc="aa9c5a41" sha1="15a78813bde8b90dc2431de9c74a5162e6cc81b0" />
+		<rom loadflag="load16_byte" name="warrior4j1.r7" offset="0x1001" size="0x800" crc="6bd52cdd" sha1="c702cac293703dc5abf8c9d4f1b4d9b183ebacf7" />
+		</dataarea>
+	</part>
+</software>
+<software name="warrior4j2">
+	<description>Warrior (4 joysticks, v2)</description>
+	<year>2014</year>
+	<publisher>Timothy Shiels</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x2000">
+		<rom loadflag="load16_byte" name="warrior4j2.t7" offset="0x0" size="0x800" crc="fdf360c8" sha1="4a1eb1d38a0a1523e1b5da5f95011136ed34e0ab" />
+		<rom loadflag="load16_byte" name="warrior4j2.p7" offset="0x1" size="0x800" crc="b9b94d47" sha1="18964b0c05841003d0b67a08f4f5760122668dce" />
+		<rom loadflag="load16_byte" name="warrior4j2.u7" offset="0x1000" size="0x800" crc="f7de23b2" sha1="a5e2efbfa10e0aaf081f81b1c88ab0042b6b7126" />
+		<rom loadflag="load16_byte" name="warrior4j2.r7" offset="0x1001" size="0x800" crc="ba00c108" sha1="3b37f24bc66ba9607dc11655bbbd8f53bd77cda5" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

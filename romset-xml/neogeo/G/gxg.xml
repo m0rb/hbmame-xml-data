@@ -1,0 +1,17 @@
+<software name="gxg">
+	<description>Casanova She And She demo</description>
+	<year>2020</year>
+	<publisher>Vasily Familiya</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom name="690.p1" offset="0x0" size="0x27a7e" crc="caf04493" sha1="6b97dfd861e05762e31c3496bbc18d014ff3d98f" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="690.v1" offset="0x0" size="0x800000" crc="61f5a37f" sha1="870d25530898c5de5f1f93e673fc9490f594d57c" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom name="690.c1" offset="0x0" size="0x86780" crc="e0dbb8cc" sha1="26963461716cc45cc2fab4fa820ae292ee82afb9" />
+		</dataarea>
+	</part>
+</software>

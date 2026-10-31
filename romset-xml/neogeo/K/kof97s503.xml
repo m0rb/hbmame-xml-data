@@ -1,0 +1,25 @@
+<software name="kof97s503" cloneof="kof97">
+	<description>Kof&#x27;97 (Strongest VS Strongest Official Version)</description>
+	<year>1997</year>
+	<publisher>Dream ice</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0xd00000">
+		<rom loadflag="load16_word_swap" name="232s503.p1" offset="0x0" size="0x100000" crc="28541339" sha1="8faa524ecbe3e3100260318578705252536ca525" />
+		<rom loadflag="load16_word_swap" name="232.p2" offset="0x100000" size="0x400000" crc="158b23f6" sha1="9744620a70513490aaf9c5eda33e5ec31222be19" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="232s137.c1" offset="0x0" size="0x800000" crc="847d3871" sha1="78bd208880060e11c476223eb62d6f0a747dd3d9" />
+		<rom loadflag="load16_byte" name="232s137.c2" offset="0x1" size="0x800000" crc="9e6550cb" sha1="06e1db5bbea1baccded72db2d67316aa4a42fa86" />
+		<rom loadflag="load16_byte" name="232s137.c3" offset="0x1000000" size="0x800000" crc="f5ae8989" sha1="a5e4bcc50dcb9587069d2182af9f6ae921bc92ed" />
+		<rom loadflag="load16_byte" name="232s137.c4" offset="0x1000001" size="0x800000" crc="cc0c3735" sha1="077554a8071494b2bf8da2de585f4d1d0d873a79" />
+		<rom loadflag="load16_byte" name="232.c5" offset="0x2000000" size="0x400000" crc="34fc4e51" sha1="b39c65f27873f71a6f5a5d1d04e5435f874472ee" />
+		<rom loadflag="load16_byte" name="232.c6" offset="0x2000001" size="0x400000" crc="4ff4d47b" sha1="4d5689ede24a5fe4330bd85d4d3f4eb2795308bb" />
+		</dataarea>
+	</part>
+</software>

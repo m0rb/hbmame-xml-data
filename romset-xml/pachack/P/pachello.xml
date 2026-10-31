@@ -1,0 +1,15 @@
+<software name="pachello">
+	<description>Hello, World!</description>
+	<year>2001</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pachello.6e" offset="0x0" size="0x1000" crc="a8227949" sha1="793b7ba579c7e4771094d281c2589435a1bf2fda" />
+		<rom name="pachello.6f" offset="0x1000" size="0x1000" crc="d5690d97" sha1="51a4d63265f1d848359ca8c78ba111d72a3bc2cf" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="at.5e" offset="0x0" size="0x1000" crc="eeb359bf" sha1="36f153b5ce53475fd144af50e4bd67b0e0b3a01f" />
+		<rom name="pacman.5f" offset="0x1000" size="0x1000" crc="958fedf9" sha1="4a937ac02216ea8c96477d4a15522070507fb599" />
+		</dataarea>
+	</part>
+</software>

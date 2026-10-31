@@ -1,0 +1,23 @@
+<software name="area88rk" cloneof="unsquad">
+	<description>Area 88 (Korean)</description>
+	<year>1989</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c06k.p1" offset="0x0" size="0x80000" crc="3bc63457" sha1="0825078b1e4fe318bb5145411faf93903de4f184" />
+		<rom loadflag="load16_word_swap" name="c06k.p5" offset="0x80000" size="0x80000" crc="91ff2031" sha1="41d76109fbd6ab8b868a98d0b2119af7a615d2ad" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c06k.m1" offset="0x0" size="0x8000" crc="af88359c" sha1="5b7d872700a074fe1a4e11722e73374a23fa5e99" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="area88r.key" offset="0x0" size="0x80" crc="c9860e3b" sha1="5ef3655a3de6f06af0fe9ba15ec30d1e51609d29" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c06.v1" offset="0x0" size="0x20000" crc="584b43a9" sha1="7820815c8c67d484baf2fdad7e55d8c14b98b860" />
+		</dataarea>
+	</part>
+</software>

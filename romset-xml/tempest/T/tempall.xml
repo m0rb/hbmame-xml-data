@@ -1,0 +1,39 @@
+<software name="tempall">
+	<description>Tempest All Levels</description>
+	<year>2000</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="tempall.113" offset="0x9000" size="0x800" crc="a9000137" sha1="1dfb23f5d47e49923c681d4483d744795d589af0" />
+		<rom name="136002-114.e1" offset="0x9800" size="0x800" crc="11077375" sha1="ed8ff0ca969da6672a7683b93d4fcf2935a0d903" />
+		<rom name="136002.115" offset="0xa000" size="0x800" crc="f3e2827a" sha1="bd04fcfbbba995e08c3144c1474fcddaaeb1c700" />
+		<rom name="136002.316" offset="0xa800" size="0x800" crc="aeb0f7e9" sha1="a5cc25015b98692673cfc1c7c2e9634efd750870" />
+		<rom name="136002.217" offset="0xb000" size="0x800" crc="ef2eb645" sha1="b1a2c969e8897e335d5354de6ae04a65d4b2a1e4" />
+		<rom name="136002.118" offset="0xb800" size="0x800" crc="beb352ab" sha1="f213166d3970e0bd0f29d8dea8d6afa6990cce38" />
+		<rom name="136002.119" offset="0xc000" size="0x800" crc="a4de050f" sha1="ea302e43a313a5a18115e74ddbaaedde0fbecda7" />
+		<rom name="136002.120" offset="0xc800" size="0x800" crc="35619648" sha1="48f1e8bed7ec6afa0b4c549a30e5ec331c071e40" />
+		<rom name="136002.121" offset="0xd000" size="0x800" crc="73d38e47" sha1="9980606376a79ba94f8e2a325871a6c8d10d83fc" />
+		<rom name="136002.222" offset="0xd800" size="0x800" crc="707bd5c3" sha1="2f0af6fb7154c244c794f7247e5c16a1e06ddf7d" />
+		</dataarea>
+		<dataarea name="avg:prom" size="0x100">
+		<rom name="136002-125.d7" offset="0x0" size="0x100" crc="5903af03" sha1="24bc0366f394ad0ec486919212e38be0f08d0239" />
+		</dataarea>
+		<dataarea name="earom" size="0x40">
+		</dataarea>
+		<dataarea name="user2" size="0x20">
+		<rom name="136002-126.a1" offset="0x0" size="0x20" crc="8b04f921" sha1="317b3397482f13b2d1bc21f296d3b3f9a118787b" />
+		</dataarea>
+		<dataarea name="user3" endianness="big" size="0x400">
+		<rom loadflag="load32_byte" name="136002-132.l1" offset="0x0" size="0x100" crc="2af82e87" sha1="3816835a9ccf99a76d246adf204989d9261bb065" />
+		<rom loadflag="load32_byte" name="136002-131.k1" offset="0x0" size="0x100" crc="b31f6e24" sha1="ce5f8ca34d06a5cfa0076b47400e61e0130ffe74" />
+		<rom loadflag="load32_byte" name="136002-130.j1" offset="0x1" size="0x100" crc="8119b847" sha1="c4fbaedd4ce1ad6a4128cbe902b297743edb606a" />
+		<rom loadflag="load32_byte" name="136002-129.h1" offset="0x1" size="0x100" crc="09f5a4d5" sha1="d6f2ac07ca9ee385c08831098b0dcaf56808993b" />
+		<rom loadflag="load32_byte" name="136002-128.f1" offset="0x2" size="0x100" crc="823b61ae" sha1="d99a839874b45f64e14dae92a036e47a53705d16" />
+		<rom loadflag="load32_byte" name="136002-127.e1" offset="0x2" size="0x100" crc="276eadd5" sha1="55718cd8ec4bcf75076d5ef0ee1ed2551e19d9ba" />
+		</dataarea>
+		<dataarea name="vectorrom" size="0x1000">
+		<rom name="136002-123.np3" offset="0x0" size="0x800" crc="29f7e937" sha1="686c8b9b8901262e743497cee7f2f7dd5cb3af7e" />
+		<rom name="136002-124.r3" offset="0x800" size="0x800" crc="c16ec351" sha1="a30a3662c740810c0f20e3712679606921b8ca06" />
+		</dataarea>
+	</part>
+</software>

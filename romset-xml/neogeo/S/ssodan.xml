@@ -1,0 +1,18 @@
+<software name="ssodan">
+	<description>Sword of Sodan (Neo-Geo port, beta 0.5)</description>
+	<year>2026</year>
+	<publisher>Bendk97</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="529.p1" offset="0x0" size="0x100000" crc="66994776" sha1="864a51ea7630b071a65e4bcd16f8ebba3fc3932a" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="529.v1" offset="0x0" size="0x400000" crc="f1962c04" sha1="640b60789f15eb11a15a0aa63d0b9893558b9d07" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="529.c1" offset="0x0" size="0x200000" crc="1255788c" sha1="387702fef4a8de948b25ca2c607a9b266057f12d" />
+		<rom loadflag="load16_byte" name="529.c2" offset="0x1" size="0x200000" crc="497b17e1" sha1="4c9939e0013fde7a0cbe7033ca786b15061235c1" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,25 @@
+<software name="sf2red05" cloneof="sf2ce">
+	<description>Street Fighter II&#x27;: Champion Edition (The CPU strikes back Yoga, 2019-05-06)</description>
+	<year>2019</year>
+	<publisher>MamePlus</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c19reds05.p1" offset="0x0" size="0x80000" crc="4f82255d" sha1="633e700ff09a900e24ba1d64af4cdf516be7df6d" />
+		<rom loadflag="load16_word_swap" name="c19reds05.p2" offset="0x80000" size="0x80000" crc="7c72351f" sha1="9e2de669d4eb39dbda51939d6ddea4eefd1f2c95" />
+		<rom loadflag="load16_word_swap" name="c19reds05.p3" offset="0x100000" size="0x80000" crc="19ffd641" sha1="5700e07fffddc614703b92501589b9ac90c20d8c" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c19.m1" offset="0x0" size="0x8000" crc="08f6b60e" sha1="8258fcaca4ac419312531eec67079b97f471179c" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2ce.key" offset="0x0" size="0x80" crc="35b37429" sha1="b372cce106c0900554735c207fb333ac93554ec2" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c14.v1" offset="0x0" size="0x20000" crc="7f162009" sha1="346bf42992b4c36c593e21901e22c87ae4a7d86d" />
+		<rom name="c14.v2" offset="0x20000" size="0x20000" crc="beade53f" sha1="277c397dc12752719ec6b47d2224750bd1c07f79" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,29 @@
+<software name="orlegendcs93" cloneof="orlegend">
+	<description>Oriental Legend (Jing Yu Jing 2009-04-02)</description>
+	<year>2009</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0101_po93.s160" offset="0x100000" size="0x200000" crc="3397310f" sha1="851353afaf92af65077d5734b55a0ca14c2bdf44" />
+		</dataarea>
+		<dataarea name="ics" size="0x600000">
+		<rom name="pgm_m0100.u1" offset="0x400000" size="0x200000" crc="e5c36c83" sha1="50c6f66770e8faa3df349f7d68c407a7ad021716" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="pgm_a0100.u5" offset="0x0" size="0x400000" crc="8b3bd88a" sha1="42db3a60c6ba9d83ebe2008c8047d094027f65a7" />
+		<rom name="pgm_a0101.u6" offset="0x400000" size="0x400000" crc="3b9e9644" sha1="5b95ec1d25c3bc3504c93547f5adb5ce24376405" />
+		<rom name="pgm_a0102.u7" offset="0x800000" size="0x400000" crc="069e2c38" sha1="9bddca8c2f5bd80f4abe4e1f062751736dc151dd" />
+		<rom name="pgm_a0103.u8" offset="0xc00000" size="0x400000" crc="4460a3fd" sha1="cbebdb65c17605853f7d0b298018dd8801a25a58" />
+		<rom name="pgm_a0104.u11" offset="0x1000000" size="0x400000" crc="5f8abb56" sha1="6c1ddc0309862a141aa0c0f63b641aec9257aaee" />
+		<rom name="pgm_a0105.u12" offset="0x1400000" size="0x400000" crc="a17a7147" sha1="44eeb43c6b0ebb829559a20ae357383fbdeecd82" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b0100.u9" offset="0x0" size="0x400000" crc="69d2e48c" sha1="5b5f759007264c07b3b39be8e03a713698e1fc2a" />
+		<rom name="pgm_b0101.u10" offset="0x400000" size="0x400000" crc="0d587bf3" sha1="5347828b0a6e4ddd7a263663d2c2604407e4d49c" />
+		<rom name="pgm_b0102.u15" offset="0x800000" size="0x400000" crc="43823c1e" sha1="e10a1a9a81b51b11044934ff702e35d8d7ab1b08" />
+		</dataarea>
+		<dataarea name="tiles" size="0x800000">
+		<rom name="pgm_t0100.u8" offset="0x180000" size="0x400000" crc="61425e1e" sha1="20753b86fc12003cfd763d903f034dbba8010b32" />
+		</dataarea>
+	</part>
+</software>

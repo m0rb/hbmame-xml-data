@@ -1,0 +1,26 @@
+<software name="svc42" cloneof="svc">
+	<description>SvC Chaos (Revival enhanced Super version 2016)</description>
+	<year>2003</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load32_word_swap" name="269s05.p1" offset="0x0" size="0x400000" crc="c6fd0131" sha1="25439e469d0403439fde5d6532081a9b405bf642" />
+		<rom loadflag="load32_word_swap" name="269s42.p2" offset="0x2" size="0x400000" crc="2adede28" sha1="555d3a9a53f0c7e8b450f7885b0ea86abece0843" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="269.v1" offset="0x0" size="0x800000" crc="c659b34c" sha1="1931e8111ef43946f68699f8707334c96f753a1e" />
+		<rom name="269.v2" offset="0x800000" size="0x800000" crc="dd903835" sha1="e58d38950a7a8697bb22a1cc7a371ae6664ae8f9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="269s05.c1" offset="0x0" size="0x800000" crc="03cda72a" sha1="5557d44f191ed329256fd5dc383a7242ca30aee5" />
+		<rom loadflag="load16_byte" name="269s05.c2" offset="0x1" size="0x800000" crc="442a7724" sha1="8b7155978638a6656b0df9ccf7bd85be8172b167" />
+		<rom loadflag="load16_byte" name="269s05.c3" offset="0x1000000" size="0x800000" crc="b311b183" sha1="52b4c8c5530b856bbb497e5b33587cee0abfc892" />
+		<rom loadflag="load16_byte" name="269s05.c4" offset="0x1000001" size="0x800000" crc="4aa13c41" sha1="733c1434b65d2b595ba40d51045cfa523c14eefa" />
+		<rom loadflag="load16_byte" name="269s05.c5" offset="0x2000000" size="0x800000" crc="1a81e716" sha1="12d5f4128be45294aaf14461203ad99d768ad9bd" />
+		<rom loadflag="load16_byte" name="269s05.c6" offset="0x2000001" size="0x800000" crc="6f346ae8" sha1="a5561786bcdb51ffd72332c8da4a4448490a7068" />
+		<rom loadflag="load16_byte" name="269s05.c7" offset="0x3000000" size="0x800000" crc="8dd412d3" sha1="3d2afd7fc09c59537209071d049ec294f76770e5" />
+		<rom loadflag="load16_byte" name="269s05.c8" offset="0x3000001" size="0x800000" crc="305ef23f" sha1="3bdd24b075757062803ac2a6f9582bcfe0bcbb4c" />
+		</dataarea>
+	</part>
+</software>

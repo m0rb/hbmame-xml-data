@@ -1,0 +1,34 @@
+<software name="vsavs01" cloneof="vsav">
+	<description>Vampire Savior Arrange (970519J, English, 2026-10-27)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c71s01.p1" offset="0x0" size="0x80000" crc="1f2f188a" sha1="3d02fc6fdea9c90601a6f99b76de1e2ba5c58fa0" />
+		<rom loadflag="load16_word_swap" name="c71s01.p2" offset="0x80000" size="0x80000" crc="8926858a" sha1="c77d3fe08699d96113e68624232f1a9a108f1373" />
+		<rom loadflag="load16_word_swap" name="c71s01.p3" offset="0x100000" size="0x80000" crc="2b02f280" sha1="044e6a1f6d26402deaa12f04b6d4c464fc19f273" />
+		<rom loadflag="load16_word_swap" name="c71j.p4" offset="0x180000" size="0x80000" crc="2c4297e0" sha1="3a7103456ba3937f63c28dd42020cac1955b5741" />
+		<rom loadflag="load16_word_swap" name="c71s01.p5" offset="0x200000" size="0x80000" crc="7854576e" sha1="b5bafa8adfe470677f4fca1e508c0d1e24c866b7" />
+		<rom loadflag="load16_word_swap" name="c71j.p6" offset="0x280000" size="0x80000" crc="5773e5c9" sha1="551afc5d921f9ef1fe928ca83d072b6a6105ab0e" />
+		<rom loadflag="load16_word_swap" name="c71s01.p7" offset="0x300000" size="0x80000" crc="6428a025" sha1="1b683535e6d5f4ff81f66bbdf770e32a681d00cb" />
+		<rom loadflag="load16_word_swap" name="c71s01.p8" offset="0x380000" size="0x80000" crc="29316daa" sha1="a2012493288ca9098dffae3c1384ca253866b0a6" />
+		<rom loadflag="load16_word_swap" name="c71s01.p9" offset="0x400000" size="0x400000" crc="7399ea53" sha1="7f2c12f27c040a55acdf81c8fb27eed738473b96" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x88000">
+		<rom name="c71s01.m1" offset="0x0" size="0x8000" crc="b866c03c" sha1="424bd8d86aad9b5c626cd9768bd21cd24bb6b453" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c71.m2" offset="0x28000" size="0x20000" crc="cc09faa1" sha1="2962ef0ceaf7e7279de3c421ea998763330eb43e" />
+		<rom name="c71s01.m3" offset="0x48000" size="0x40000" crc="ad73c4e2" sha1="47c05ab30e78807b24d3d0246b14ec2f7259733d" />
+		</dataarea>
+		<dataarea name="gfx" size="0x4000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="vsavj.key" offset="0x0" size="0x14" crc="36d28ab8" sha1="7de11dbe4a7ea0e8b68ab332f80e32cb6c1bf48e" />
+		</dataarea>
+		<dataarea name="qsound" size="0x1000000">
+		<rom loadflag="load16_word_swap" name="c71.q1" offset="0x0" size="0x400000" crc="e80e956e" sha1="74181fca4b764fb3c56ceef2cb4c6fd6c18ec4b6" />
+		<rom loadflag="load16_word_swap" name="c71.q2" offset="0x400000" size="0x400000" crc="9cd71557" sha1="7059db25698a0b286314c5961c618f6d2e6f24a1" />
+		<rom loadflag="load16_word_swap" name="c71s01.q3" offset="0x800000" size="0x800000" crc="fd3a78ec" sha1="6425997620ab41a857668534aa8b42ba836da1d4" />
+		</dataarea>
+	</part>
+</software>

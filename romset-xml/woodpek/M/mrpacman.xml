@@ -1,0 +1,19 @@
+<software name="mrpacman" cloneof="mspacman">
+	<description>Mr. Pacman - Another Kind of Role Reversal</description>
+	<year>2000</year>
+	<publisher>Tim Appleton</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="mrpacman.4" offset="0x3000" size="0x1000" crc="65c0526c" sha1="b90f05a335a5ec641318dea15a97c9abb96ded2e" />
+		<rom name="mrpacman.5" offset="0x8000" size="0x1000" crc="4078d9b2" sha1="c294735341504787fa7f4bc44543e132d975c0a2" />
+		<rom name="mrpacman.6" offset="0x9000" size="0x1000" crc="c1637f1c" sha1="15577900bbba060e6c1b8dd03fcde19e7f4193c5" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mrpacman.5e" offset="0x0" size="0x1000" crc="83e6a3a9" sha1="9e76e0ff114778183324c905c7600ef848bf4a76" />
+		<rom name="mrpacman.5f" offset="0x1000" size="0x1000" crc="045dadf0" sha1="1a28cb97ad547bddd3cc8e6d0102f7e1d43c71ea" />
+		</dataarea>
+	</part>
+</software>

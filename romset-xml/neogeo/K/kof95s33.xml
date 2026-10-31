@@ -1,0 +1,27 @@
+<software name="kof95s33" cloneof="kof95">
+	<description>Kof&#x27;95 (Enable Hidden Characters, set 2)</description>
+	<year>2012</year>
+	<publisher>Ydmis &amp; Creamymami[EGCG]</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="084s33.p1" offset="0x100000" size="0x100000" crc="64d9aa39" sha1="2f1f1adf33e4944bd4d1ae913bb48c73a97d6ea2" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x900000">
+		<rom name="084.v1" offset="0x0" size="0x400000" crc="84861b56" sha1="1b6c91ddaed01f45eb9b7e49d9c2b9b479d50da6" />
+		<rom name="084.v2" offset="0x400000" size="0x200000" crc="b38a2803" sha1="dbc2c8606ca09ed7ff20906b022da3cf053b2f09" />
+		<rom name="084.v3" offset="0x800000" size="0x100000" crc="d683a338" sha1="eb9866b4b286edc09963cb96c43ce0a8fb09adbb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1a00000">
+		<rom loadflag="load16_byte" name="084.c1" offset="0x0" size="0x400000" crc="fe087e32" sha1="e8e89faa616027e4fb9b8a865c1a67f409c93bdf" />
+		<rom loadflag="load16_byte" name="084.c2" offset="0x1" size="0x400000" crc="07864e09" sha1="0817fcfd75d0735fd8ff27561eaec371e4ff5829" />
+		<rom loadflag="load16_byte" name="084.c3" offset="0x800000" size="0x400000" crc="a4e65d1b" sha1="740a405b40b3a4b324697d2652cae29ffe0ac0bd" />
+		<rom loadflag="load16_byte" name="084.c4" offset="0x800001" size="0x400000" crc="c1ace468" sha1="74ea2a3cfd7b744f0988a05baaff10016ca8f625" />
+		<rom loadflag="load16_byte" name="084.c5" offset="0x1000000" size="0x200000" crc="8a2c1edc" sha1="67866651bc0ce27122285a66b0aab108acf3d065" />
+		<rom loadflag="load16_byte" name="084.c6" offset="0x1000001" size="0x200000" crc="f593ac35" sha1="302c92c63f092a8d49429c3331e5e5678f0ea48d" />
+		<rom loadflag="load16_byte" name="084.c7" offset="0x1800000" size="0x100000" crc="9904025f" sha1="eec770746a0ad073f7d353ab16a2cc3a5278d307" />
+		<rom loadflag="load16_byte" name="084.c8" offset="0x1800001" size="0x100000" crc="78eb0f9b" sha1="2925ea21ed2ce167f08a25589e94f28643379034" />
+		</dataarea>
+	</part>
+</software>

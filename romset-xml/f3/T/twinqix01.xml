@@ -1,0 +1,37 @@
+<software name="twinqix01" cloneof="twinqix">
+	<description>Twin Qix (Ver 1.0A 1995/01/17, Japan)</description>
+	<year>1995</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="mpr0-3.b60" offset="0x0" size="0x40000" crc="1a63d0de" sha1="7d8d8a6c9c7f9dfc0a8a528a905e33388b8fe13d" />
+		<rom loadflag="load32_byte" name="mpr0-2.b61" offset="0x1" size="0x40000" crc="45a70987" sha1="8cca6845064d943fd28416143e60399188b023cd" />
+		<rom loadflag="load32_byte" name="mpr0-1.b62" offset="0x2" size="0x40000" crc="531f9447" sha1="4d18efaad9c3dd2b14d3125c0f9e18cfcde3a1f2" />
+		<rom loadflag="load32_byte" name="h01.b63" offset="0x3" size="0x40000" crc="3dcd1dab" sha1="6dbeda16b3c79c2de92076eba5aeb8386a1c8f87" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="obj0-0.a08" offset="0x0" size="0x80000" crc="c6ea845c" sha1="9df710637e8f64f7fec232b5ebbede588e07c2db" />
+		<rom loadflag="load16_byte" name="obj0-1.a20" offset="0x1" size="0x80000" crc="8c12b7fb" sha1="8a52870fb9f508148619763fb6f37dd74b5386ca" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="spr0-1.b66" offset="0x100000" size="0x40000" crc="4b20e99d" sha1="faf184daea0f1131bafa50edb48bd470d4c0b141" />
+		<rom loadflag="load16_byte" name="spr0-0.b65" offset="0x100001" size="0x40000" crc="2569eb30" sha1="ec804131025e600198cd8342925823340e7ef458" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x400000">
+		<rom loadflag="load16_byte" name="snd-0.b43" offset="0x0" size="0x80000" crc="ad5405a9" sha1="67ee42498d2c3c00015237b3b5cd020f9a7c4a18" />
+		<rom loadflag="load16_byte" name="snd-1.b44" offset="0x100000" size="0x80000" crc="274864af" sha1="47fefee23038bb751bdf6b6f48312ba0b6e38b90" />
+		<rom loadflag="load16_byte" name="snd-14.b10" offset="0x200000" size="0x80000" crc="26312451" sha1="9f947a11592fd8420fc581914bf16e7ade75390c" />
+		<rom loadflag="load16_byte" name="snd-15.b11" offset="0x300000" size="0x80000" crc="2edaa9dc" sha1="72fead505c4f44e5736ff7d545d72dfa37d613e2" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		<rom loadflag="load32_byte" name="scr0-0.b07" offset="0x0" size="0x80000" crc="9a1b9b34" sha1="ddf9c6ba0f9c340b580573e1d96ac76b1cd35beb" />
+		<rom loadflag="load32_byte" name="scr0-1.b06" offset="0x1" size="0x80000" crc="e9bef879" sha1="7e720f5054a1ef3a28353f1c221f4cf15d3b7428" />
+		<rom loadflag="load32_byte" name="scr0-2.b05" offset="0x2" size="0x80000" crc="cac6854b" sha1="c97fb7de48e1644695bbe431587d6c1be01ea62d" />
+		<rom loadflag="load32_byte" name="scr0-3.b04" offset="0x3" size="0x80000" crc="ce063034" sha1="2ecff74427d7d2fa8d1db4ac87481d123d7ce003" />
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x100000">
+		<rom loadflag="load16_byte" name="scr0-4.b03" offset="0x0" size="0x80000" crc="d32280fe" sha1="56b120128c5e4b8c6598a1de51269e6702a63175" />
+		<rom loadflag="load16_byte" name="scr0-5.b02" offset="0x1" size="0x80000" crc="fdd1a85b" sha1="1d94a4858baef3e78c456049dc58249a574205fe" />
+		</dataarea>
+	</part>
+</software>

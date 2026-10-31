@@ -1,0 +1,28 @@
+<software name="ffex2j">
+	<description>Final Fight EX CPS2 (Japan, 2026-10-25)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="sz3ud.03c" offset="0x0" size="0x80000" crc="789ff036" sha1="ff320ca50ab251219e9cd297f83c3bd97b2f3de3" />
+		<rom loadflag="load16_word_swap" name="sz3ud.04c" offset="0x80000" size="0x80000" crc="613c6ecc" sha1="4d436c060ebbbe1fc57269ea66f3761051b39ac1" />
+		<rom loadflag="load16_word_swap" name="sz3.05c" offset="0x100000" size="0x80000" crc="787bb7f2" sha1="2112cec75d3d25e845a55e5cf553c33246a4100c" />
+		<rom loadflag="load16_word_swap" name="sz3.06c" offset="0x180000" size="0x80000" crc="a8d2d10b" sha1="d9cbe0558d0e36071d1a6cfd3daeed7dafe4ae40" />
+		<rom loadflag="load16_word_swap" name="sz3.07c" offset="0x200000" size="0x80000" crc="bcf7297e" sha1="add270404bf37f42083591fa0920184171df7165" />
+		<rom loadflag="load16_word_swap" name="sz3.08c" offset="0x280000" size="0x80000" crc="7afbcbad" sha1="01f461b3514b0afbf433efb63e5fc5c6d6539552" />
+		<rom loadflag="load16_word_swap" name="sz3.09c" offset="0x300000" size="0x80000" crc="0642626b" sha1="d2d226a1d12dd6f61dfe01904fd312dfde963e1f" />
+		<rom loadflag="load16_word_swap" name="sz3.10b" offset="0x380000" size="0x80000" crc="b4208a79" sha1="19e7a67b853a27ec0543389650e163a462166876" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="sz3.01" offset="0x0" size="0x8000" crc="36ef522c" sha1="89f0b25bbf8fa8961719e31571fbfff19f8e5db4" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="sz3.02" offset="0x28000" size="0x20000" crc="7ee8cdcd" sha1="67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="sz3.11m" offset="0x0" size="0x400000" crc="bea96b44" sha1="1cb17eccdba2c8a3399ac508353804a24f037aff" />
+		<rom loadflag="load16_word_swap" name="sz3.12m" offset="0x400000" size="0x400000" crc="df5e34c3" sha1="a9a39ab59dfad129962d531284e67bf289e9049b" />
+		</dataarea>
+	</part>
+</software>

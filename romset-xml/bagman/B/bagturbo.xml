@@ -1,0 +1,34 @@
+<software name="bagturbo">
+	<description>Bagman Turbo (Stern set 1) [c]</description>
+	<year>1991</year>
+	<publisher>Tim Arcadecollecting</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="bagt_a4_9e.bin" offset="0x0" size="0x1000" crc="c070635c" sha1="98c920f9ab377258d376e62337f14df3e51badaa" />
+		<rom name="a5-9f" offset="0x1000" size="0x1000" crc="2ddf6bb9" sha1="151068dddc55163bb6f925f68e5d04e347ded6a5" />
+		<rom name="a4_9j.bin" offset="0x2000" size="0x1000" crc="b2da8b77" sha1="ea36cd6be42c5548a9a91054aeebb4b985ba15c9" />
+		<rom name="a5-9k" offset="0x3000" size="0x1000" crc="f91d617b" sha1="a3323b51277e08747701cc4e2d3a9c466e96d4c1" />
+		<rom name="bagt_a4_9m.bin" offset="0x4000" size="0x1000" crc="8cb278fe" sha1="807a4f1d89dcbd7482ef86f4b2e88cc2f64abbf4" />
+		<rom name="a5-9n" offset="0x5000" size="0x1000" crc="68e4b64d" sha1="55950d7c07c621cafa001d5d3bfec6bbc02712e2" />
+		</dataarea>
+		<dataarea name="5110ctrl" size="0x20">
+		<rom name="r6.bin" offset="0x0" size="0x20" crc="c58a4f6a" sha1="35ef244b3e94032df2610aa594ea5670b91e1449" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="a2_1e.bin" offset="0x0" size="0x1000" crc="f217ac09" sha1="a9716674401dff27344a01df8121b6b648688680" />
+		<rom name="j1_b04.bin" offset="0x1000" size="0x1000" crc="c680ef04" sha1="79406bc786374abfcd9f548268c445b5c8d8858d" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="a2_1c.bin" offset="0x0" size="0x1000" crc="f3e11bd7" sha1="43ee00ff777008c89f619eb183e7c5e63f6c7694" />
+		<rom name="a2_1f.bin" offset="0x1000" size="0x1000" crc="d0f7105b" sha1="fb382703850a4ded567706e02ebb7f3e22531b7c" />
+		</dataarea>
+		<dataarea name="proms" size="0x60">
+		<rom name="p3.bin" offset="0x0" size="0x20" crc="2a855523" sha1="91e032233fee397c90b7c1662934aca9e0671482" />
+		<rom name="r3.bin" offset="0x20" size="0x20" crc="ae6f1019" sha1="fd711882b670380cb4bd909c840ba06277b8fbe3" />
+		</dataarea>
+		<dataarea name="tmsprom" size="0x2000">
+		<rom name="r9_b11.bin" offset="0x0" size="0x1000" crc="2e0057ff" sha1="33e3ffa6418f86864eb81e5e9bda4bf540c143a6" />
+		<rom name="t9_b12.bin" offset="0x1000" size="0x1000" crc="b2120edd" sha1="52b89dbcc749b084331fa82b13d0876e911fce52" />
+		</dataarea>
+	</part>
+</software>

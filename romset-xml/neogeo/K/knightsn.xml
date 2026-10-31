@@ -1,0 +1,19 @@
+<software name="knightsn">
+	<description>Knights of the Round (Neo-Geo port, beta-0.3.4)</description>
+	<year>2026</year>
+	<publisher>Bendk97</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="543.p1" offset="0x0" size="0x100000" crc="33738e12" sha1="38e46dab8a8f1053d2c5d07858ff1760045a6201" />
+		<rom loadflag="load16_word_swap" name="543.p2" offset="0x100000" size="0x100000" crc="f4403da1" sha1="7b777ff7cfb06915eadf9a8ec1a7b902dbb998a3" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="543.v1" offset="0x0" size="0x1000000" crc="cde9328f" sha1="439e245804f024769bc679069c89191264983156" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="543.c1" offset="0x0" size="0x800000" crc="8507b792" sha1="c8e69b62170f5335623ca809efb6921428ada4f1" />
+		<rom loadflag="load16_byte" name="543.c2" offset="0x1" size="0x800000" crc="f69ac783" sha1="a0f5d2ab58af918aae3a9e72d187a9897b489e2d" />
+		</dataarea>
+	</part>
+</software>

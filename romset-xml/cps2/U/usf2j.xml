@@ -1,0 +1,33 @@
+<software name="usf2j" cloneof="ssf2t">
+	<description>Ultra Street Fighter II: The Final Challengers (940223J, Backport, 2026-10-28)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="sfxj.03d" offset="0x0" size="0x80000" crc="e3c398a2" sha1="6ec13feec6fc6cde01dacef970bf12f0cd55d43a" />
+		<rom loadflag="load16_word_swap" name="sfxj.04a" offset="0x80000" size="0x80000" crc="14b3193b" sha1="7e66b7350002b32693b4d1f1ff1a2ad544d8f8f4" />
+		<rom loadflag="load16_word_swap" name="sfxj.05" offset="0x100000" size="0x80000" crc="f4ff18f5" sha1="aa713c9e1a2eba35bf1c9b40bb262ff7e46b9ce4" />
+		<rom loadflag="load16_word_swap" name="sfxj.06b" offset="0x180000" size="0x80000" crc="413477c2" sha1="63bf120566db0c23cc726e7cdbf78428582c694f" />
+		<rom loadflag="load16_word_swap" name="sfxj.07a" offset="0x200000" size="0x80000" crc="43efd652" sha1="851f9c04b8c713e1a12073372f47483f937d72e3" />
+		<rom loadflag="load16_word_swap" name="sfxj.08" offset="0x280000" size="0x80000" crc="5859ada7" sha1="3ad980092da969d7d96a03ebf601dd0dd21dbf10" />
+		<rom loadflag="load16_word_swap" name="sfx.09" offset="0x300000" size="0x80000" crc="84f7cb0a" sha1="3b1ff05d3aed008f6e1d841d7359d7b8fb55234b" />
+		<rom loadflag="load16_word_swap" name="usf2.10" offset="0x380000" size="0x80000" crc="d67d4eba" sha1="00f1f11a96a8c096a936f55c9b4ce7b6035b8351" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="sfx.01" offset="0x0" size="0x8000" crc="4995819f" sha1="73f34201535053f6eddfea8b85dedbef7fb23b25" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="sfx.02" offset="0x28000" size="0x20000" crc="c4b1c9b7" sha1="b0cd4364d51012f6f9dddeffcee610402f74751c" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="ssf2xj.key" offset="0x0" size="0x14" crc="160d1424" sha1="187baff83b54acfdcedd9b9222a4cc768040c622" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="sfx.11m" offset="0x0" size="0x200000" crc="30189f69" sha1="5d96044e4d2b61980de16705084e516cca129c6b" />
+		<rom loadflag="load16_word_swap" name="sfx.12m" offset="0x200000" size="0x200000" crc="a05e3aab" sha1="d4eb9cae66c74e956569fea8b815156fbd420f83" />
+		<rom loadflag="load16_word_swap" name="usf2.13m" offset="0x400000" size="0x200000" crc="d7d2f8a3" sha1="4a64d74f9743f5c91d34fac334567505244de61b" />
+		<rom loadflag="load16_word_swap" name="usf2.14m" offset="0x600000" size="0x200000" crc="373a57f3" sha1="8d23f8c4ffeec5271ff7cdb9655ae0ef84067339" />
+		</dataarea>
+	</part>
+</software>

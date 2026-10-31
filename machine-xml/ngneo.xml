@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="ngneo" description="Ngneo cartridges">
+<software name="sd_shadowlf" cloneof="neogeo">
+	<description>Shadow League Fighting (v3.1)</description>
+	<year>2026</year>
+	<publisher>Eagle Software</publisher>
+	<part name="cart">
+		<dataarea name="user" size="0x1b41000">
+		<rom name="shadowlf.neo" offset="0x0" size="0x1b41000" crc="9138a0e7" sha1="fdca9a3da1b59a209592a49eea9f39e88693428c" />
+		</dataarea>
+	</part>
+</software>
+<software name="sd_warriorm" cloneof="neogeo">
+	<description>Warrior Man (v4)</description>
+	<year>2026</year>
+	<publisher>NK Home Entertainment</publisher>
+	<part name="cart">
+		<dataarea name="user" size="0x20cea9c">
+		<rom name="warriorm.neo" offset="0x0" size="0x20cea9c" crc="6780e12a" sha1="e582d8af30960a2385982d201cdf16488355fa1f" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

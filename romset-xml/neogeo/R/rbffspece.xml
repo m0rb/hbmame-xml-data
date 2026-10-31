@@ -1,0 +1,36 @@
+<software name="rbffspece" cloneof="rbffspec">
+	<description>Real Bout Fatal Fury Special / Real Bout Garou Densetsu Special (Earlier)</description>
+	<year>1996</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="223.p1" offset="0x0" size="0x100000" crc="f84a2d1d" sha1="fc19225d9dbdb6bd0808023ee32c7829f6ffdef6" />
+		<rom loadflag="load16_word_swap" name="223e.p2" offset="0x300000" size="0x200000" crc="27e3e54b" sha1="09f8912c9f105e54bac9781680859988f43917e8" />
+		<rom loadflag="continue" offset="0x100000" size="0x200000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="223.v1" offset="0x0" size="0x400000" crc="76673869" sha1="78a26afa29f73de552ffabdbf3fc4bf26be8ae9e" />
+		<rom name="223.v2" offset="0x400000" size="0x400000" crc="7a275acd" sha1="8afe87ce822614262b72a90b371fc79155ac0d0c" />
+		<rom name="223.v3" offset="0x800000" size="0x400000" crc="5a797fd2" sha1="94958e334f86d4d71059af8138f255b8d97a3b01" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="223e.c1" offset="0x400000" size="0x200000" crc="436edad4" sha1="1ee871a7b720b46a84845dbfd6c0dcb1ffc95502" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="223e.c2" offset="0x400001" size="0x200000" crc="cc7dc384" sha1="31c6c872d0a3a0a7a55195f703eba36f1a631b9f" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		<rom loadflag="load16_byte" name="223e.c3" offset="0xc00000" size="0x200000" crc="375954ea" sha1="6e5e54f614f7985b309cbcc8ca9e441860074d8f" />
+		<rom loadflag="continue" offset="0x800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="223e.c4" offset="0xc00001" size="0x200000" crc="c1a98dd7" sha1="e9094ee40374bd5134c9060ba6526fd00e9eb8b0" />
+		<rom loadflag="continue" offset="0x800001" size="0x200000" />
+		<rom loadflag="load16_byte" name="223e.c5" offset="0x1400000" size="0x200000" crc="12c5418e" sha1="133e15a6667e17041782ffa594845b121548e63c" />
+		<rom loadflag="continue" offset="0x1000000" size="0x200000" />
+		<rom loadflag="load16_byte" name="223e.c6" offset="0x1400001" size="0x200000" crc="c8ad71d5" sha1="d55bd1395a48509fb091fa2321606c88a988583e" />
+		<rom loadflag="continue" offset="0x1000001" size="0x200000" />
+		<rom loadflag="load16_byte" name="223e.c7" offset="0x1c00000" size="0x200000" crc="5c33d1d8" sha1="924121e9e29e46b5158f8caa47799230065d1b00" />
+		<rom loadflag="continue" offset="0x1800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="223e.c8" offset="0x1c00001" size="0x200000" crc="efdeb140" sha1="faf7e7a38891b08d2dd17f427fda05586cceab7f" />
+		<rom loadflag="continue" offset="0x1800001" size="0x200000" />
+		</dataarea>
+	</part>
+</software>

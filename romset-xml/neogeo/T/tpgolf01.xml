@@ -1,0 +1,30 @@
+<software name="tpgolf01" cloneof="tpgolf">
+	<description>Top Player&#x27;s Golf (CD conversion)</description>
+	<year>2007</year>
+	<publisher>CD_conv</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="003s01.p1" offset="0x0" size="0x100000" crc="87f2a8ce" sha1="ad903d7711ac4af47f1dee64ba7c6bb247029407" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="003.v11" offset="0x0" size="0x80000" crc="ff97f1cb" sha1="defa249d46ae220f7bfa70746f5202bbbcc3e5fe" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x200000">
+		<rom name="003.v21" offset="0x0" size="0x80000" crc="d34960c6" sha1="36d5877d5e42aab943f4d693159f4f3ad8b0addc" />
+		<rom name="003.v22" offset="0x80000" size="0x80000" crc="9a5f58d4" sha1="2b580595e1820430a36f06fd3e0e0b8f7d686889" />
+		<rom name="003.v23" offset="0x100000" size="0x80000" crc="30f53e54" sha1="22461f88a56d272b78dbc23204c0c6816200532b" />
+		<rom name="003.v24" offset="0x180000" size="0x80000" crc="5ba0f501" sha1="ca02937a611a2c50c9e4b54f8fd4eaea09259894" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="003.c1" offset="0x0" size="0x80000" crc="0315fbaf" sha1="583c9253219c1026d81ee5e0cf5568683adc2633" />
+		<rom loadflag="load16_byte" name="003.c2" offset="0x1" size="0x80000" crc="b4c15d59" sha1="b0d8ec967f9b8e5216301c10b2d36912abce6515" />
+		<rom loadflag="load16_byte" name="003s01.c3" offset="0x100000" size="0x80000" crc="b09f1612" sha1="03fbb5db4e377ce9cb4e65ddbc0b114c02e7bae1" />
+		<rom loadflag="load16_byte" name="003s01.c4" offset="0x100001" size="0x80000" crc="150ea7a1" sha1="13edc30144b56285ef37eb8aa6fb934704de18d8" />
+		<rom loadflag="load16_byte" name="003.c5" offset="0x200000" size="0x80000" crc="9a7146da" sha1="2fc83d13e3e9565919aab01bf2a1b028f433b547" />
+		<rom loadflag="load16_byte" name="003.c6" offset="0x200001" size="0x80000" crc="1e63411a" sha1="ee397e2f679042e87b37d95837af62bb95a72af9" />
+		<rom loadflag="load16_byte" name="003.c7" offset="0x300000" size="0x80000" crc="2886710c" sha1="1533dd935f0a8f92a0a3c47d1d2bc6d035454244" />
+		<rom loadflag="load16_byte" name="003.c8" offset="0x300001" size="0x80000" crc="422af22d" sha1="f67c844c34545de6ea187f5bfdf440dec8518532" />
+		</dataarea>
+	</part>
+</software>

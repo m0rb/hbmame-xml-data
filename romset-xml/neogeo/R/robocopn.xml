@@ -1,0 +1,18 @@
+<software name="robocopn">
+	<description>Robocop (Neo-Geo port, v9)</description>
+	<year>2026</year>
+	<publisher>Teo Tormo</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="534.p1" offset="0x0" size="0x100000" crc="eb0ffaed" sha1="227a428924c9e5b2726902913b95a7d8ad973410" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="534.v1" offset="0x0" size="0x1000000" crc="2cbffd4b" sha1="6be522829fc649fc20c138304c2f2dbe088c2815" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="534.c1" offset="0x0" size="0x80000" crc="44593b72" sha1="7c9949cd39c16fda38f815709ae8206f67877206" />
+		<rom loadflag="load16_byte" name="534.c2" offset="0x1" size="0x80000" crc="03182a3a" sha1="d62c4e5bc1b45d4c69822829950e23834b3689a0" />
+		</dataarea>
+	</part>
+</software>

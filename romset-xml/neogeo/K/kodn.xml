@@ -1,0 +1,18 @@
+<software name="kodn">
+	<description>King of Dragons, the (Neo-Geo port, beta 16)</description>
+	<year>2026</year>
+	<publisher>Teo Tormo</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="544.p1" offset="0x0" size="0x200000" crc="defe9d25" sha1="f82b5c7771031d75b5930191a560dac400b6a9c9" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="544.v1" offset="0x0" size="0x1000000" crc="767527ad" sha1="9b34fb6819098caddcc3959732034c1da58f437a" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="544.c1" offset="0x0" size="0x200000" crc="ee6a06b9" sha1="f2981db9587b71a11a12741dab4a3c7173331e3c" />
+		<rom loadflag="load16_byte" name="544.c2" offset="0x1" size="0x200000" crc="ab59e980" sha1="8ce75259f12f12da5a32712db7f6e4bc7c00cacf" />
+		</dataarea>
+	</part>
+</software>
