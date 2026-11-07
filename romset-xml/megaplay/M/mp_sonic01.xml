@@ -1,0 +1,15 @@
+<software name="mp_sonic01" cloneof="mp_sonic">
+	<description>Sonic The Hedgehog (Mega Play) (No Timer)</description>
+	<year>1993</year>
+	<publisher>Sega</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom name="cpu.bin" offset="0x0" size="0x80000" crc="3e1f3596" sha1="8e4d65d84d35c124b4761e3f5fdc081961b417ce" />
+		</dataarea>
+		<dataarea name="mtbios" size="0x20000">
+		</dataarea>
+		<dataarea name="user1" size="0x8000">
+		<rom name="data.bin" offset="0x0" size="0x8000" crc="c0a9c987" sha1="4a92e70d6f63bcfc608ad06637c4e09cf2b2bb55" />
+		</dataarea>
+	</part>
+</software>

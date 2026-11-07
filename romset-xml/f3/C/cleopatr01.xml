@@ -1,0 +1,29 @@
+<software name="cleopatr01" cloneof="cleopatr">
+	<description>Cleopatra Fortune (Chinese)</description>
+	<year>1996</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="e28-10hc01.bin" offset="0x0" size="0x80000" crc="20bb1f31" sha1="48e24d0b2aa3cc06db8ccbe05e5d48e0a46de239" />
+		<rom loadflag="load32_byte" name="e28-09hc01.bin" offset="0x1" size="0x80000" crc="a5811b99" sha1="0ce61e9e093f002d331a5b822b19b86fb3cc6d40" />
+		<rom loadflag="load32_byte" name="e28-08hc01.bin" offset="0x2" size="0x80000" crc="32f4bd9d" sha1="8b7aa973cc4db466c791ee61633a76e5ec1f1897" />
+		<rom loadflag="load32_byte" name="e28-07hc01.bin" offset="0x3" size="0x80000" crc="16eab942" sha1="b2cf401ade7280f1789c27a24046421fea5e8a94" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="e28-02hc01.bin" offset="0x0" size="0x80000" crc="1f9eda37" sha1="9288df554eaeccbcf231fc2245d87aebf8e0c137" />
+		<rom loadflag="load16_byte" name="e28-01hc01.bin" offset="0x1" size="0x80000" crc="e1fab776" sha1="933d83685d1c5585d7b5799759ce38c5df98a709" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x140000">
+		<rom loadflag="load16_byte" name="e28-11.bin" offset="0x100000" size="0x20000" crc="01a06950" sha1="94d22cd839f9027e9d45264c366e0cb5d698e0b6" />
+		<rom loadflag="load16_byte" name="e28-12.bin" offset="0x100001" size="0x20000" crc="dc19260f" sha1="fa0ca03a236326652e4f9898d07cd837c1507a9d" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x400000">
+		<rom loadflag="load16_byte" name="e28-03.bin" offset="0x0" size="0x200000" crc="15c7989d" sha1="7cc63d93e5c1f9f52f889e973bbefd5e6f7ce807" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x100000">
+		<rom name="e28-04.bin" offset="0x0" size="0x100000" crc="57aef029" sha1="5c07209015d4749d1ffb3e9c1a890e6cfeec8cb0" />
+		</dataarea>
+	</part>
+</software>

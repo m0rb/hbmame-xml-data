@@ -1,0 +1,13 @@
+<software name="neohw">
+	<description>Hello World</description>
+	<year>2019</year>
+	<publisher>Peter Lemon</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="647.p1" offset="0x0" size="0x80000" crc="fd1a2387" sha1="f25e14a612d9594c855be21133d8bea5a1c6aae3" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		</dataarea>
+	</part>
+</software>

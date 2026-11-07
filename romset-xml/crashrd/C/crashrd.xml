@@ -1,0 +1,17 @@
+<software name="crashrd" cloneof="schaser">
+	<description>Crash Road</description>
+	<year>1979</year>
+	<publisher>Centromatic</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="2716-5m.bin" offset="0x0" size="0x800" crc="53749427" sha1="213828eea2d5baeae9c6553a531ec4127d795a67" />
+		<rom name="2716-5n.bin" offset="0x800" size="0x800" crc="e391d768" sha1="22a52f4a01b586489ec79d53817152594cc3189d" />
+		<rom name="2716-5p.bin" offset="0x1000" size="0x800" crc="fededc5d" sha1="205079ddc5893884476672d378a457b5a603f5ae" />
+		<rom name="2716-5r.bin" offset="0x1800" size="0x800" crc="30830779" sha1="dff2fa9244cd3769a167673668acb53a17c395b4" />
+		<rom name="2716-5s.bin" offset="0x4000" size="0x800" crc="6a974917" sha1="4f1a4003652ef47de3d5c270f5f624d172970ec5" />
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		<rom name="rt06.ic2" offset="0x0" size="0x400" crc="950cf973" sha1="d22df09b325835a0057ccd0d54f827b374254ac6" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,19 @@
+<software name="galaxian06" cloneof="galnamco">
+	<description>Galaxian (Vector Sim)</description>
+	<year>1998</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="galnamco.7f" offset="0x0" size="0x1000" crc="b10533fd" sha1="ea8653e80000d607cd37a41f2de27ffe6e190f0f" />
+		<rom name="galnamco.7j" offset="0x1000" size="0x1000" crc="9163454d" sha1="683ce43c0e24fd5110b860e424e5de30d59e5223" />
+		<rom name="galnamco.7l" offset="0x2000" size="0x1000" crc="952c6135" sha1="e0989d5dce37ae421c34833d48b09e76d178680d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="galaxian06.1h" offset="0x0" size="0x800" crc="02815aec" sha1="94975ee5eff84a3ae483dd3d5766384859402477" />
+		<rom name="galaxian06.1k" offset="0x800" size="0x800" crc="11c9898c" sha1="fb6bac221b3984a70a775bccf06f6e2f17d447cf" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>

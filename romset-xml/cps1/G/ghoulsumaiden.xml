@@ -1,0 +1,24 @@
+<software name="ghoulsumaiden" cloneof="ghouls">
+	<description>Ghouls&#x27;n Ghosts - Maiden Artoria Edition (USA)</description>
+	<year>2026</year>
+	<publisher>GoodLuckTrying</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="dmu_29maiden.10h" offset="0x0" size="0x20000" crc="7ac6c63e" sha1="669087b80001ea86181a889d7f1fc712ad94215a" />
+		<rom loadflag="load16_byte" name="dmu_30maiden.10j" offset="0x1" size="0x20000" crc="0a3d58f0" sha1="89727371eed9188da622e9858cd90eea0a28cc97" />
+		<rom loadflag="load16_byte" name="dmu_27maiden.9h" offset="0x40000" size="0x20000" crc="db966113" sha1="0c0af55ba5ad550aa2f9548431cbc349d68a91be" />
+		<rom loadflag="load16_byte" name="dmu_28maiden.9j" offset="0x40001" size="0x20000" crc="d6594f60" sha1="54edb2db45974ccfad1c61697f50032342584556" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="26.10a" offset="0x0" size="0x8000" crc="3692f6e5" sha1="61b8438d60a39b4cf5062dff0a53228e8a4e4b5f" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="ghouls.key" offset="0x0" size="0x80" crc="888fd6ec" sha1="7dcd7493119b42eb8cab76a6f417685e578e26f4" />
+		</dataarea>
+		<dataarea name="gfx" size="0x300000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		</dataarea>
+	</part>
+</software>

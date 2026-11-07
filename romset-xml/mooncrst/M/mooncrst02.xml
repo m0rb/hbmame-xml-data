@@ -1,0 +1,26 @@
+<software name="mooncrst02">
+	<description>Moon Creamsta</description>
+	<year>2000</year>
+	<publisher>Kazzy</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="mc1" offset="0x0" size="0x800" crc="7d954a7a" sha1="a93ee403cfd7887538ad12d33f6dd6c71bea2a32" />
+		<rom name="mc2" offset="0x800" size="0x800" crc="44bb7cfa" sha1="349c2e23a9fce73f95bb8168d369082fa129fe3d" />
+		<rom name="mc3" offset="0x1000" size="0x800" crc="9c412104" sha1="1b40054ebb1ace965a8522119bb23f09797bc5f6" />
+		<rom name="mc4" offset="0x1800" size="0x800" crc="7e9b1ab5" sha1="435f603c0c3e788a509dd144a7916a34e791ae44" />
+		<rom name="mc5.7r" offset="0x2000" size="0x800" crc="16c759af" sha1="3b48050411f65f9d3fb41ff22901e22d82bf1cf6" />
+		<rom name="mc6.8d" offset="0x2800" size="0x800" crc="69bcafdb" sha1="939c8c6ed1cd4660a3d99b8f17ed99cbd7e1352a" />
+		<rom name="mc7.8e" offset="0x3000" size="0x800" crc="b50dbc46" sha1="4fa084fd1ba5f78e7703e684c57af15ca7a844e4" />
+		<rom name="mc8" offset="0x3800" size="0x800" crc="18ca312b" sha1="39219059003b949e38305553fea2d33071062c64" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mmcs_b" offset="0x0" size="0x800" crc="94d69a79" sha1="d984ce68046244589e94cb526dc2fa11a85077d9" />
+		<rom name="mmcs_d" offset="0x800" size="0x800" crc="44a6c84a" sha1="464dc9a11fdf3015ce9d4735c27c1d6eab51cecb" />
+		<rom name="mmcs_a" offset="0x1000" size="0x800" crc="d8c9713c" sha1="13f514bed011bb7f420e99bd9caeca0f2a1012ff" />
+		<rom name="mmcs_c" offset="0x1800" size="0x800" crc="50e37124" sha1="ae07715733e864eadc3b4586c3e9f1852a4cf127" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="mmi6331.6l" offset="0x0" size="0x20" crc="6a0c7d87" sha1="140335d85c67c75b65689d4e76d29863c209cf32" />
+		</dataarea>
+	</part>
+</software>

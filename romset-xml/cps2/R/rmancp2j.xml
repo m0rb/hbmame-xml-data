@@ -1,0 +1,31 @@
+<software name="rmancp2j" cloneof="megaman">
+	<description>Rockman: The Power Battle (CPS2, Japan 950922)</description>
+	<year>1995</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c60j.p1" offset="0x0" size="0x80000" crc="30559f60" sha1="7a7c7c00613e379317383d68cac47dfbbb2200c9" />
+		<rom loadflag="load16_word_swap" name="c60j.p2" offset="0x80000" size="0x80000" crc="5efc9366" sha1="33420ac6ccf3c4982ce7644c574414574f706bd3" />
+		<rom loadflag="load16_word_swap" name="c60j.p3" offset="0x100000" size="0x80000" crc="517ccde2" sha1="492256c192f0c4814efa1ee1dd390453dd2e5865" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c60.m1" offset="0x0" size="0x8000" crc="d60cf8a3" sha1="dccd84b93e62489c703011422d0fe84444c7f7db" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="rmancp2j.key" offset="0x0" size="0x14" crc="17309a70" sha1="7d72a07bd556874a4b9b5cf3727d3c547051bb7a" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c60.q1" offset="0x0" size="0x80000" crc="b6d07080" sha1="b8f07553c01b1f67b0696110cd4e35e4cf4fa158" />
+		<rom loadflag="load16_word_swap" name="c60.q2" offset="0x80000" size="0x80000" crc="dfddc493" sha1="56b5129f24d05d2c85a767b0a632bf260f5425b2" />
+		<rom loadflag="load16_word_swap" name="c60.q3" offset="0x100000" size="0x80000" crc="6062ae3a" sha1="28a4d59bce0c341c240ee8cc92f85850ea8ffb10" />
+		<rom loadflag="load16_word_swap" name="c60.q4" offset="0x180000" size="0x80000" crc="08c6f3bf" sha1="6b8175748ff25b90572f914e4565935e27aa09a5" />
+		<rom loadflag="load16_word_swap" name="c60.q5" offset="0x200000" size="0x80000" crc="f97dfccc" sha1="752a3855d78e55dc31291e14d0223104691784f4" />
+		<rom loadflag="load16_word_swap" name="c60.q6" offset="0x280000" size="0x80000" crc="ade475bc" sha1="02ae6bc21d5e41e05595845f264c9ad040d70b37" />
+		<rom loadflag="load16_word_swap" name="c60.q7" offset="0x300000" size="0x80000" crc="075effb3" sha1="4be02d966d933c0d92908c5e05842c6b33c9703b" />
+		<rom loadflag="load16_word_swap" name="c60.q8" offset="0x380000" size="0x80000" crc="f6c1f87b" sha1="d6cd8d2bac96404b6983d738093b7177d478f12e" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,31 @@
+<software name="stickydo">
+	<description>Mr. Sticky Do!</description>
+	<year>2001</year>
+	<publisher>Marks Hacks</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="a4-01.bin" offset="0x0" size="0x2000" crc="03dcfba2" sha1="c15e3d0c4225e0ca120bcd28aca39632575f8e11" />
+		<rom name="c4-02.bin" offset="0x2000" size="0x2000" crc="0ecdd39c" sha1="c64b3363593911a676c647bf3dba8fe063fcb0de" />
+		<rom name="e4-03.bin" offset="0x4000" size="0x2000" crc="358f5dc2" sha1="9fed1f5d1d04935d1b77687c8b2f3bfce970dc08" />
+		<rom name="f4-04.bin" offset="0x6000" size="0x2000" crc="f4190cfc" sha1="24f5125d900f944294d4eda068b710c8f1c6d39f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="st-s8-09" offset="0x0" size="0x1000" crc="0becc7bc" sha1="d5ef21aa6f8daaf98f4c6c809504edea4fde35a1" />
+		<rom name="st-u8-10" offset="0x1000" size="0x1000" crc="fc08364e" sha1="69edf2405836511035f46cddb339e57b4eb5b2fe" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="nd-r8-08" offset="0x0" size="0x1000" crc="069a3e35" sha1="09a361baed6417fdb4ecc1d8dd09ae9b2ccdef99" />
+		<rom name="nd-n8-07" offset="0x1000" size="0x1000" crc="7ef6f5e4" sha1="8839f6670010c0249b19f306c200c29775dc0351" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x2000">
+		<rom name="st-h5-05" offset="0x0" size="0x1000" crc="64d2f54f" sha1="f301c0190f780bc60d03e5b752bde5e81ce5e93c" />
+		<rom name="st-k5-06" offset="0x1000" size="0x1000" crc="af9b0d35" sha1="da2d469514a3b95362dace2f48d320234a695e28" />
+		</dataarea>
+		<dataarea name="proms" size="0x80">
+		<rom name="u02--2.bin" offset="0x0" size="0x20" crc="238a65d7" sha1="a5b20184a1989db23544296331462ec4d7be7516" />
+		<rom name="t02--3.bin" offset="0x20" size="0x20" crc="ae263dc0" sha1="7072c100b9d692f5bb12b0c9e304425f534481e2" />
+		<rom name="f10--1.bin" offset="0x40" size="0x20" crc="16ee4ca2" sha1="fcba4d103708b9711452009cd29c4f88d2f64cd3" />
+		<rom name="j10--4.bin" offset="0x60" size="0x20" crc="ff7fe284" sha1="3ac8e30011c1fcba0ee8f4dc932f82296c3ba143" />
+		</dataarea>
+	</part>
+</software>

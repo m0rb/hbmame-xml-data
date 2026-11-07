@@ -1,0 +1,15 @@
+<software name="didemo">
+	<description>DatImage demo</description>
+	<year>2016</year>
+	<publisher>Mega Shocked</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="677.p1" offset="0x0" size="0x200000" crc="732691f4" sha1="40bddb4e636799f77b85a5b46fd9c90f9e125dce" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="677.c1" offset="0x0" size="0x200000" crc="af99af71" sha1="81b723a159dc80f2b784eb6027ccece94dc8324b" />
+		<rom loadflag="load16_byte" name="677.c2" offset="0x1" size="0x200000" crc="7b17b0f2" sha1="b11071fd4782592a375f260352a0ca0d0df2c6e5" />
+		</dataarea>
+	</part>
+</software>

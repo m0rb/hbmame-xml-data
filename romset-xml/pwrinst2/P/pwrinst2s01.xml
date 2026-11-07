@@ -1,0 +1,47 @@
+<software name="pwrinst2s01">
+	<description>Power Instinct 2 (Simplify Edition, 2018-06-04)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_byte" name="g02_ps01.u45" offset="0x0" size="0x80000" crc="652218b1" sha1="90133f290636c28aaff7393dcbd196119e67e9c1" />
+		<rom loadflag="load16_byte" name="g02_ps01.u44" offset="0x1" size="0x80000" crc="c427afa1" sha1="b127bf394c7a1b064cdaf4f78de5c068151057ef" />
+		<rom loadflag="load16_byte" name="g02.u43" offset="0x100000" size="0x80000" crc="178e3d24" sha1="926234f4196a5d5e3bd1438abbf73355f2c65b06" />
+		<rom loadflag="load16_byte" name="g02.u42" offset="0x100001" size="0x80000" crc="a0b4ee99" sha1="c6df4aa2543b04d8bda7683f503e5eb763e506af" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom name="g02.u3a" offset="0x0" size="0x20000" crc="ebea5e1e" sha1="4d3af9e5f29d0c1b26563f51250039c9e8bd3735" />
+		</dataarea>
+		<dataarea name="layer0" size="0x200000">
+		<rom name="g02.u78" offset="0x0" size="0x200000" crc="1eca63d2" sha1="538942b43301f950e3d5139461331c54dc90129d" />
+		</dataarea>
+		<dataarea name="layer1" size="0x100000">
+		<rom name="g02.u81" offset="0x0" size="0x100000" crc="8a3ff685" sha1="4a59ec50ec4470453374fe10f76d3e894494b49f" />
+		</dataarea>
+		<dataarea name="layer2" size="0x100000">
+		<rom name="g02.u89" offset="0x0" size="0x100000" crc="373e1f73" sha1="ec1ae9fab37eee41be8e1bc6dad03809b62fdbce" />
+		</dataarea>
+		<dataarea name="layer3" size="0x80000">
+		<rom name="g02.82a" offset="0x0" size="0x80000" crc="4b3567d6" sha1="d3e14783b312d2bea9722a8e3c22bcec81e26166" />
+		</dataarea>
+		<dataarea name="oki1" size="0x440000">
+		<rom name="g02.u53" offset="0x40000" size="0x200000" crc="c4bdd9e0" sha1="a938a831e789ddf6f3cc5f3e5f3877ec7bd62d4e" />
+		<rom name="g02.u54" offset="0x240000" size="0x200000" crc="1357d50e" sha1="433766177ce9d6933f90de85ba91bfc6d8d5d664" />
+		</dataarea>
+		<dataarea name="oki2" size="0x440000">
+		<rom name="g02.u55" offset="0x40000" size="0x200000" crc="2d102898" sha1="bd81f4cd2ba100707db0c5bb1419f0b23c998574" />
+		<rom name="g02.u56" offset="0x240000" size="0x200000" crc="9ff50dda" sha1="1121685e387c20e228032f2b0f5cbb606376fc15" />
+		</dataarea>
+		<dataarea name="sprites0" size="0xe00000">
+		<rom name="g02.u61" offset="0x0" size="0x200000" crc="91e30398" sha1="2b59a5e40bed2a988382054fe30d92808dad3348" />
+		<rom name="g02.u62" offset="0x200000" size="0x200000" crc="d9455dd7" sha1="afa69fe9a540cd78b8cfecf09cffa1401c01141a" />
+		<rom name="g02.u63" offset="0x400000" size="0x200000" crc="4d20560b" sha1="ceaee8cf0b69cc366b95ddcb689a5594d79e5114" />
+		<rom name="g02.u64" offset="0x600000" size="0x200000" crc="b17b9b6e" sha1="fc6213d8322cda4c7f653e2d7d6d314ce84c97b7" />
+		<rom name="g02.u65" offset="0x800000" size="0x200000" crc="08541878" sha1="138cf077a49a26440a3da1bdc2c399a208359e57" />
+		<rom name="g02.u66" offset="0xa00000" size="0x200000" crc="becf2a36" sha1="f8b386d0292b1dc745b7253a3df51d1aa8d5e9db" />
+		<rom name="g02.u67" offset="0xc00000" size="0x200000" crc="52fe2b8b" sha1="dd50aa62f7db995e28f47de9b3fb749aeeaaa5b0" />
+		</dataarea>
+		<dataarea name="user1" endianness="big" size="0x100000">
+		</dataarea>
+	</part>
+</software>

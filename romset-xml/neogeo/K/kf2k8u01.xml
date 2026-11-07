@@ -1,0 +1,25 @@
+<software name="kf2k8u01" cloneof="kof2002">
+	<description>Kof 10th Anniversary 2008 Unique (Alt)</description>
+	<year>2008</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x900000">
+		<rom loadflag="load16_word_swap" name="368s01.p1" offset="0x0" size="0x800000" crc="b99354cf" sha1="deb87554d0c64e9209bd0ac4296bee2879b50b9d" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="kf10-v1.bin" offset="0x0" size="0x800000" crc="0fc9a58d" sha1="9d79ef00e2c2abd9f29af5521c2fbe5798bf336f" />
+		<rom name="kf10-v2.bin" offset="0x800000" size="0x800000" crc="b8c475a4" sha1="10caf9c69927a223445d2c4b147864c02ce520a8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="368s01.c1" offset="0x0" size="0x800000" crc="2e30f558" sha1="0833a938aa052059063e9e2afee9295d505cc0ff" />
+		<rom loadflag="load16_byte" name="368s01.c2" offset="0x1" size="0x800000" crc="c7d6f682" sha1="b17dbeaef260721b3752009ff77fcf324f30dc75" />
+		<rom loadflag="load16_byte" name="265d.c3" offset="0x1000000" size="0x800000" crc="959fad0b" sha1="63ab83ddc5f688dc8165a7ff8d262df3fcd942a2" />
+		<rom loadflag="load16_byte" name="265d.c4" offset="0x1000001" size="0x800000" crc="efe6a468" sha1="2a414285e48aa948b5b0d4a9333bab083b5fb853" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="368s01.c7" offset="0x3000000" size="0x800000" crc="aeef5880" sha1="0f97472cf13fe4f03e2e163f29162ed2ad9a8f34" />
+		<rom loadflag="load16_byte" name="368s01.c8" offset="0x3000001" size="0x800000" crc="c9d84812" sha1="0901e7d081ec4ce4f61867f1552e9922e2bdb8a5" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,15 @@
+<software name="neothund">
+	<description>Neo Thunder</description>
+	<year>2012</year>
+	<publisher>Sebastian Mihai</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="419.p1" offset="0x0" size="0x100000" crc="f7050757" sha1="b73009050905ad2b1f06690e0106e59fb5ede86b" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="419.c1" offset="0x0" size="0x100000" crc="48b9126e" sha1="38bf1296c3d8762372d4eab785f34507a4f8776c" />
+		<rom loadflag="load16_byte" name="419.c2" offset="0x1" size="0x100000" crc="214df62e" sha1="21e4ce2a0ac636081c9e07a294cb44987692039e" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,19 @@
+<software name="msultra" cloneof="mspacman">
+	<description>Ms. Ultra Pacman</description>
+	<year>2000</year>
+	<publisher>PacFan</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="msultra.4" offset="0x3000" size="0x1000" crc="36b5e9fd" sha1="70373fbcae8d2f6dd9274cb825a561de15c4c2b9" />
+		<rom name="msultra.5" offset="0x8000" size="0x1000" crc="cf609615" sha1="f410eec29433085bf9138582e6725c9326d9001f" />
+		<rom name="msultra.6" offset="0x9000" size="0x1000" crc="007cd365" sha1="c5ce3f81063052b36a6f5516d391e6c5a63f2819" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="msultra.5e" offset="0x0" size="0x1000" crc="508af5b0" sha1="5a92354f45af65d3343e32111f675998a5347557" />
+		<rom name="msultra.5f" offset="0x1000" size="0x1000" crc="db5a4630" sha1="2cb6e8650ae861a2008dd2f185aa2c02827ab370" />
+		</dataarea>
+	</part>
+</software>

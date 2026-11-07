@@ -1,0 +1,46 @@
+<software name="superabc">
+	<description>Pacman SuperABC (1999-09-03)[h]</description>
+	<year>1999</year>
+	<publisher>TwoBit Score</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x90000">
+		<rom name="superabc.u14" offset="0x10000" size="0x80000" crc="a560efe6" sha1="c7d43cc3bb3b1b10d06403462276231bfc8542dd" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x10000">
+		<rom name="superabc.u1" offset="0x0" size="0x1000" crc="45caace0" sha1="f850bd09ec68b0263ac8b30ae38c3878c7978ace" />
+		<rom loadflag="continue" offset="0x8000" size="0x1000" />
+		<rom loadflag="continue" offset="0x4000" size="0x1000" />
+		<rom loadflag="continue" offset="0xc000" size="0x1000" />
+		<rom loadflag="continue" offset="0x4000" size="0x1000" />
+		<rom loadflag="continue" offset="0xc000" size="0x1000" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom loadflag="continue" offset="0xa000" size="0x1000" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom loadflag="continue" offset="0xa000" size="0x1000" />
+		<rom loadflag="continue" offset="0x6000" size="0x1000" />
+		<rom loadflag="continue" offset="0xe000" size="0x1000" />
+		<rom loadflag="continue" offset="0x6000" size="0x1000" />
+		<rom loadflag="continue" offset="0xe000" size="0x1000" />
+		<rom loadflag="continue" offset="0x1000" size="0x1000" />
+		<rom loadflag="continue" offset="0x9000" size="0x1000" />
+		<rom loadflag="continue" offset="0x1000" size="0x1000" />
+		<rom loadflag="continue" offset="0x9000" size="0x1000" />
+		<rom loadflag="continue" offset="0x5000" size="0x1000" />
+		<rom loadflag="continue" offset="0xd000" size="0x1000" />
+		<rom loadflag="continue" offset="0x5000" size="0x1000" />
+		<rom loadflag="continue" offset="0xd000" size="0x1000" />
+		<rom loadflag="continue" offset="0x3000" size="0x1000" />
+		<rom loadflag="continue" offset="0xb000" size="0x1000" />
+		<rom loadflag="continue" offset="0x3000" size="0x1000" />
+		<rom loadflag="continue" offset="0xb000" size="0x1000" />
+		<rom loadflag="continue" offset="0x7000" size="0x1000" />
+		<rom loadflag="continue" offset="0xf000" size="0x1000" />
+		<rom loadflag="continue" offset="0x7000" size="0x1000" />
+		<rom loadflag="continue" offset="0xf000" size="0x1000" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="superabc.7f" offset="0x0" size="0x20" crc="3a188666" sha1="067386e477ce48bbde3cf71f744a78a42238d236" />
+		<rom name="superabc.4a" offset="0x20" size="0x100" crc="4382c049" sha1="5e535b1a6852260f38ae1e5cd57290a85cb6927f" />
+		</dataarea>
+	</part>
+</software>

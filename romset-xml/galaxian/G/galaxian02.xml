@@ -1,0 +1,21 @@
+<software name="galaxian02" cloneof="galnamco">
+	<description>Galaxian (bootleg 02)</description>
+	<year>1979</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="galaxian02.u" offset="0x0" size="0x800" crc="e8f3aa67" sha1="a0e9576784dbe602dd9780e667f01f31defd7c00" />
+		<rom name="galaxian02.v" offset="0x800" size="0x800" crc="f58283e3" sha1="edc6e72516c50fd3402281d9936574d276581ce9" />
+		<rom name="galaxian02.w" offset="0x1000" size="0x800" crc="4c7031c0" sha1="97f7ab0cedcd8eba1c8f6f516d84d672a2108258" />
+		<rom name="galaxian02.y" offset="0x1800" size="0x800" crc="097d92a2" sha1="63ef86657286a4e1fae4f795e0e6b410ca2ef06b" />
+		<rom name="galaxian02.z" offset="0x2000" size="0x800" crc="5341d75a" sha1="40bc8fcc598f58c6ff944e2a4a9288463e75a09d" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="piii.6" offset="0x0" size="0x800" crc="977e37cf" sha1="88ff1e4edadf5cfc83413a1fe999aecf4ba72232" />
+		<rom name="galaxian02.1k" offset="0x800" size="0x800" crc="58e878df" sha1="bc301fe208934105f12c913ac2f06a2dae110afd" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>

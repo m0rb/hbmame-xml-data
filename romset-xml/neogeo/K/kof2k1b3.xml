@@ -1,0 +1,28 @@
+<software name="kof2k1b3" cloneof="kof2001">
+	<description>Kof2001 (Bloodlust)</description>
+	<year>2001</year>
+	<publisher>NeHt</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="262b3.p1" offset="0x0" size="0x100000" crc="31b99298" sha1="66bd449b0daee4d266b0c994fd87111ebbd5ce6c" />
+		<rom loadflag="load16_word_swap" name="262b3.p2" offset="0x100000" size="0x400000" crc="83cdd046" sha1="0228f8b9b65fcefc27fb6e844e5d4d72cede8e74" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="262.v1" offset="0x0" size="0x400000" crc="83d49ecf" sha1="2f2c116e45397652e77fcf5d951fa5f71b639572" />
+		<rom name="262.v2" offset="0x400000" size="0x400000" crc="003f1843" sha1="bdd58837ad542548bd4053c262f558af88e3b989" />
+		<rom name="262.v3" offset="0x800000" size="0x400000" crc="2ae38dbe" sha1="4e82b7dd3b899d61907620517a5a27bdaba0725d" />
+		<rom name="262.v4" offset="0xc00000" size="0x400000" crc="26ec4dd9" sha1="8bd68d95a2d913be41a51f51e48dbe3bff5924fb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="262d.c1" offset="0x0" size="0x800000" crc="103225b1" sha1="41486c7bb421b6b54f3ca07621aabd907bf10e15" />
+		<rom loadflag="load16_byte" name="262d.c2" offset="0x1" size="0x800000" crc="f9d05d99" sha1="c135dd3d5584dc58a46315d64f663e34bb64bebf" />
+		<rom loadflag="load16_byte" name="262d.c3" offset="0x1000000" size="0x800000" crc="4c7ec427" sha1="0156e2f79e7a62b15acc2314ac6563a67af0f256" />
+		<rom loadflag="load16_byte" name="262d.c4" offset="0x1000001" size="0x800000" crc="1d237aa6" sha1="b007fe9f1f32f0ff947c6575741b47fb70976728" />
+		<rom loadflag="load16_byte" name="262d.c5" offset="0x2000000" size="0x800000" crc="c2256db5" sha1="dae6b7b0673b431f223d82f7c3a685de70a1c035" />
+		<rom loadflag="load16_byte" name="262d.c6" offset="0x2000001" size="0x800000" crc="8d6565a9" sha1="137c950d588d40c812c36967ec17d04d4fc56362" />
+		<rom loadflag="load16_byte" name="262d.c7" offset="0x3000000" size="0x800000" crc="d1408776" sha1="e77c786070b2b851a8a36250722b4c902e7213ed" />
+		<rom loadflag="load16_byte" name="262d.c8" offset="0x3000001" size="0x800000" crc="954d0e16" sha1="975803c130df3a6e835b9bf0f8532d6586058c54" />
+		</dataarea>
+	</part>
+</software>

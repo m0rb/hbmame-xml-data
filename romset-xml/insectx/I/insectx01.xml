@@ -1,0 +1,17 @@
+<software name="insectx01">
+	<description>Insector X (Chinese)</description>
+	<year>1989</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x20000">
+		<rom name="b97__03_s01.u32" offset="0x0" size="0x20000" crc="2f478739" sha1="b073170bbf14a974d7ab28d8c078c4e8823f259f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x100000">
+		<rom name="b97__01_ps01.u1" offset="0x0" size="0x80000" crc="4b6ec740" sha1="f6065bdc73e9997e24e19a664eb161cad6948c95" />
+		<rom name="b97__02_ps01.u2" offset="0x80000" size="0x80000" crc="78e9ecc4" sha1="a6921d434d0c3dc6ac6ee4aad7ac8b1d901d0daf" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="b97__07.u38" offset="0x0" size="0x10000" crc="324b28c9" sha1="db77a4ac60196d0f0f35dbc5c951ec29d6392463" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,23 @@
+<software name="mspacde" cloneof="mspacman">
+	<description>Ms. Pacman -1</description>
+	<year>1980</year>
+	<publisher>[Midway]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="boot4" offset="0x3000" size="0x1000" crc="165a9dd8" sha1="3022a408118fa7420060e32a760aeef15b8a96cf" />
+		<rom name="mspacde.5a" offset="0x8000" size="0x800" crc="cb8a001c" sha1="398992352c51f82049a4ac981fd152c4c2863f2d" />
+		<rom name="mspacde.5b" offset="0x8800" size="0x800" crc="3e866689" sha1="fbcb8eaddf15fd988de2cb35f93003380ee6e2de" />
+		<rom name="mspacde.6a" offset="0x9000" size="0x800" crc="286041cf" sha1="5a5fc97ea66a59895b3403b2982940b755076667" />
+		<rom name="mspacde.6b" offset="0x9800" size="0x800" crc="321784cf" sha1="9b67741e035fe1528e971db9072eea8982235a63" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mspacit.5e" offset="0x0" size="0x800" crc="93933d1d" sha1="fa38d2cb87e872bb9a3158a4df98f38360dc85ec" />
+		<rom name="mspacit.5h" offset="0x800" size="0x800" crc="7409fbec" sha1="f440f08ba026ae6172666e1bdc0894ce33bba420" />
+		<rom name="mspacit.5f" offset="0x1000" size="0x800" crc="22b0188a" sha1="a9ed9ca8b36a60081fd364abc9bc23963932cc0b" />
+		<rom name="mspacit.5j" offset="0x1800" size="0x800" crc="50c7477d" sha1="c04ec282a8cb528df5e38ad750d12ee71612695d" />
+		</dataarea>
+	</part>
+</software>

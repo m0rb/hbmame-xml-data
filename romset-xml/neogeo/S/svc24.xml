@@ -1,0 +1,26 @@
+<software name="svc24" cloneof="svc">
+	<description>SvC Chaos (Fixed the 8*224 Black Block On The Left Of How To Play Screen)</description>
+	<year>2003</year>
+	<publisher>Eddids</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load32_word_swap" name="269s24.p1" offset="0x0" size="0x400000" crc="1a9cb825" sha1="e42f365c4fc442a045ca6675568295df6c964b61" />
+		<rom loadflag="load32_word_swap" name="269s24.p2" offset="0x2" size="0x400000" crc="53d440a6" sha1="63520a5626aa9b6e0ceb4ffb3b503b8d5d039ce7" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="269.v1" offset="0x0" size="0x800000" crc="c659b34c" sha1="1931e8111ef43946f68699f8707334c96f753a1e" />
+		<rom name="269.v2" offset="0x800000" size="0x800000" crc="dd903835" sha1="e58d38950a7a8697bb22a1cc7a371ae6664ae8f9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="269s24.c1" offset="0x0" size="0x800000" crc="1ad30ffb" sha1="303fefc7ad037543726d457eeb44a3bfe7d5310e" />
+		<rom loadflag="load16_byte" name="269s24.c2" offset="0x1" size="0x800000" crc="5b1a8909" sha1="cda3e4fff5bfdcd480a3d7d659733ad6cb61c30d" />
+		<rom loadflag="load16_byte" name="269s24.c3" offset="0x1000000" size="0x800000" crc="f3400ef0" sha1="4fe53acceb9d1547260a9b1fcdce1414043d49c9" />
+		<rom loadflag="load16_byte" name="269s24.c4" offset="0x1000001" size="0x800000" crc="49ce3dd9" sha1="8eb06dbdd4778f7b11bd41d3254c3342a0975db0" />
+		<rom loadflag="load16_byte" name="269s24.c5" offset="0x2000000" size="0x800000" crc="a6d4503f" sha1="20d0b9912cfa591bd5d43abaf09e36d008b2768a" />
+		<rom loadflag="load16_byte" name="269s24.c6" offset="0x2000001" size="0x800000" crc="099bd109" sha1="def62dc5248fe5d8495aac02bb20033cb9606165" />
+		<rom loadflag="load16_byte" name="269s24.c7" offset="0x3000000" size="0x800000" crc="83c57d5f" sha1="dfa57015e028300175b48dca90707da365c6d937" />
+		<rom loadflag="load16_byte" name="269s24.c8" offset="0x3000001" size="0x800000" crc="a86dc3cf" sha1="cf2506531fa6f70cfb499eb788cfc4e3c93b9233" />
+		</dataarea>
+	</part>
+</software>

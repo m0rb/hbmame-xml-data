@@ -1,0 +1,17 @@
+<software name="snowbros04">
+	<description>Snow Bros (Special Edition, 2018-09-25)</description>
+	<year>2018</year>
+	<publisher>EMU_MAX</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom loadflag="load16_byte" name="sn6.s04" offset="0x0" size="0x20000" crc="9a0f2016" sha1="6486e197a3d3e260a736f56cec3fe02be9747353" />
+		<rom loadflag="load16_byte" name="sn5.s04" offset="0x1" size="0x20000" crc="0f83e900" sha1="bc39f53a95240ef04c4c45ac7cafc8e04f5d8912" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x80000">
+		<rom name="sbros-1.41" offset="0x0" size="0x80000" crc="16f06b3a" sha1="c64d3b2d32f0f0fcf1d8c5f02f8589d59ddfd428" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x10000">
+		<rom name="sbros-4.29" offset="0x0" size="0x8000" crc="e6eab4e4" sha1="d08187d03b21192e188784cb840a37a7bdb5ad32" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,23 @@
+<software name="ecofghtrd" cloneof="ecofghtr">
+	<description>Eco Fighters (World 931203 Phoenix Edition) (bootleg)</description>
+	<year>1993</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c49d.p1" offset="0x0" size="0x80000" crc="ac725d2b" sha1="f77a37d160aed34319ef810728de88a87bccb7a5" />
+		<rom loadflag="load16_word_swap" name="c49d.p2" offset="0x80000" size="0x80000" crc="f800138d" sha1="a8c05da5d33c338a82fed4f7b59c6ba8c10e8597" />
+		<rom loadflag="load16_word_swap" name="c49d.p3" offset="0x100000" size="0x80000" crc="eb6a12f2" sha1="5253a193a38b566eefbb8644511f283ac4a69850" />
+		<rom loadflag="load16_word_swap" name="c49d.p4" offset="0x180000" size="0x80000" crc="8380ec9a" sha1="4f3a95a2580f89ae214b588df9258bd9dc06f993" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c49.m1" offset="0x0" size="0x8000" crc="c235bd15" sha1="feb7cd7db9dc0b9887b33eed9796bb0205fb719d" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0xc00000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c49.q1" offset="0x0" size="0x200000" crc="81b25d39" sha1="448adfcc7d98873a48c710d857225cdd1580e5c9" />
+		<rom loadflag="load16_word_swap" name="c49.q2" offset="0x200000" size="0x200000" crc="27729e52" sha1="a55c8159adf766dda70cb047f5ac85ce6bc0a3f3" />
+		</dataarea>
+	</part>
+</software>

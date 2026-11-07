@@ -1,0 +1,31 @@
+<software name="kovsh32" cloneof="kovsh">
+	<description>Knights of Valour Super Heroes (Huang Yueying)</description>
+	<year>1999</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_pw32.322" offset="0x100000" size="0x400000" crc="326dd0e1" sha1="5db7029fcf1b156ff964ccbaf1cb85cd388281fa" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u4" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="pgm_t0600.u11" offset="0x180000" size="0x800000" crc="4acc1ad6" sha1="0668dbd5e856c2406910c6b7382548b37c631780" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_pw17.rom" offset="0x0" size="0x800000" crc="26b3b2ee" sha1="46a5523204e7177902ed25f6a58903eea28beb21" />
+		<rom name="pgm_a0601.u3" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u5" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="pgm_a0613.u7" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		<rom name="a0604_pw32.rom" offset="0x1a00000" size="0x400000" crc="7932242a" sha1="c164cde3a456c812b513b55dc43e194e404f9931" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_pw17.rom" offset="0x0" size="0x800000" crc="9ca61576" sha1="8f57c7d98d4dc9cb433239230f2e48bfe8dcec72" />
+		<rom name="pgm_b0601.u8" offset="0x800000" size="0x400000" crc="a0bb1c2f" sha1="0542348c6e27779e0a98de16f04f9c18158f2b28" />
+		<rom name="b0602_pw32.rom" offset="0xc00000" size="0x100000" crc="0547134a" sha1="26de6be4e56e8fc5e4ccda63035b8361c24bf92d" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.asic" offset="0x0" size="0x4000" crc="0f09a5c1" sha1="621b38c05f33277608d58b49822aebc930ae4870" />
+		</dataarea>
+	</part>
+</software>

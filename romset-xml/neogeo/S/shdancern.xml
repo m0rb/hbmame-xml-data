@@ -1,0 +1,19 @@
+<software name="shdancern">
+	<description>Shadow Dancer (Neo-Geo port)</description>
+	<year>2026</year>
+	<publisher>ShinobiZ</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x700000">
+		<rom name="549.p1" offset="0x0" size="0x100000" crc="aa717fe5" sha1="8deaadb7014b679efe420218b6d1567963ca090b" />
+		<rom name="549.p2" offset="0x100000" size="0x600000" crc="9fcf02db" sha1="591a920355e81d14a6e4f2614e36f8c75d2dbdd5" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="549.v1" offset="0x0" size="0x1000000" crc="5f6520d7" sha1="83375c0d58fe5e9130c457bd47a6e1ac0c1318a0" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="549.c1" offset="0x0" size="0x1000000" crc="5781e08a" sha1="e1f9903379807fea48006b4e9937ecf9ab5e8ed3" />
+		<rom loadflag="load16_byte" name="549.c2" offset="0x1" size="0x1000000" crc="f4e34f3d" sha1="0b5d5517b8412d7031ac27d68c785bb2228b5a0e" />
+		</dataarea>
+	</part>
+</software>

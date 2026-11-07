@@ -1,0 +1,26 @@
+<software name="lastblad30" cloneof="lastblad">
+	<description>Last Blade Hidden Mini Game</description>
+	<year>1997</year>
+	<publisher>city41</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="234s30.p1" offset="0x0" size="0x100000" crc="e2b2bfd4" sha1="21ffa82037900566c1f94ba99a54d05819684819" />
+		<rom loadflag="load16_word_swap" name="234.p2" offset="0x100000" size="0x400000" crc="0fdc289e" sha1="1ff31c0b0f4f9ddbedaf4bcf927faaae81892ec7" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="234.v1" offset="0x0" size="0x400000" crc="ed66b76f" sha1="8a05ff06d9b6f01c6c16b3026282eaabb0e25b44" />
+		<rom name="234.v2" offset="0x400000" size="0x400000" crc="a0e7f6e2" sha1="753ff74fa9294f695aae511ae01ead119b114a57" />
+		<rom name="234.v3" offset="0x800000" size="0x400000" crc="a506e1e2" sha1="b3e04ba1a5cb50b77c6fbe9fe353b9b64b6f3f74" />
+		<rom name="234.v4" offset="0xc00000" size="0x400000" crc="0e34157f" sha1="20a1f4833e5e29ba0073c1712d7a17ab7a2a035c" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="234.c1" offset="0x0" size="0x800000" crc="9f7e2bd3" sha1="2828aca0c0f5802110f10453c1cf640f69736554" />
+		<rom loadflag="load16_byte" name="234.c2" offset="0x1" size="0x800000" crc="80623d3c" sha1="ad460615115ec8fb25206f012da59ecfc8059b64" />
+		<rom loadflag="load16_byte" name="234.c3" offset="0x1000000" size="0x800000" crc="91ab1a30" sha1="e3cf9133784bef2c8f1bfe45f277ccf82cc6f6a1" />
+		<rom loadflag="load16_byte" name="234.c4" offset="0x1000001" size="0x800000" crc="3d60b037" sha1="78a50233bcd19e92c7b6f7ee1a53417d9db21f6a" />
+		<rom loadflag="load16_byte" name="234.c5" offset="0x2000000" size="0x400000" crc="1ba80cee" sha1="0c59057183b5279b747e73213b4cd3c6d7ad9eb1" />
+		<rom loadflag="load16_byte" name="234.c6" offset="0x2000001" size="0x400000" crc="beafd091" sha1="55df9cc128eb0f00856de3996c946e3efe8f09a5" />
+		</dataarea>
+	</part>
+</software>

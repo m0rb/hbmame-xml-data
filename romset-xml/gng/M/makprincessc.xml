@@ -1,0 +1,34 @@
+<software name="makprincessc">
+	<description>Makaimura - Princess Prin Prin Edition (Japan revision C)</description>
+	<year>2026</year>
+	<publisher>GoodLuckTrying</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x18000">
+		<rom name="mj04cprincess.bin" offset="0x4000" size="0x4000" crc="daada743" />
+		<rom name="mj03cprincess.bin" offset="0x8000" size="0x8000" crc="7d0909cf" />
+		<rom name="mj05cprincess.bin" offset="0x10000" size="0x8000" crc="0c9ed2e0" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="gg2.bin" offset="0x0" size="0x8000" crc="615f5b6f" />
+		</dataarea>
+		<dataarea name="sprites" size="0x20000">
+		<rom name="gng13princess.n4" offset="0x0" size="0x4000" crc="07c9138a" />
+		<rom name="gg16princess.bin" offset="0x4000" size="0x4000" crc="1ad1d899" />
+		<rom name="gg15princess.bin" offset="0x8000" size="0x4000" crc="439d6e7b" />
+		<rom name="gng16princess.l4" offset="0xc000" size="0x4000" crc="3cc87995" />
+		<rom name="gg13princess.bin" offset="0x10000" size="0x4000" crc="05e0c809" />
+		<rom name="gg12princess.bin" offset="0x14000" size="0x4000" crc="28fe68a2" />
+		</dataarea>
+		<dataarea name="chars" size="0x4000">
+		<rom name="gg1princess.bin" offset="0x0" size="0x4000" crc="7935494f" />
+		</dataarea>
+		<dataarea name="tiles" size="0x18000">
+		<rom name="gg11.bin" offset="0x0" size="0x4000" crc="ddd56fa9" />
+		<rom name="gg10.bin" offset="0x4000" size="0x4000" crc="7302529d" />
+		<rom name="gg9.bin" offset="0x8000" size="0x4000" crc="20035bda" />
+		<rom name="gg8.bin" offset="0xc000" size="0x4000" crc="f12ba271" />
+		<rom name="gg7.bin" offset="0x10000" size="0x4000" crc="e525207d" />
+		<rom name="gg6.bin" offset="0x14000" size="0x4000" crc="2d77e9b2" />
+		</dataarea>
+	</part>
+</software>

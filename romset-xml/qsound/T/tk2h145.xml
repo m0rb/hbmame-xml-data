@@ -1,0 +1,36 @@
+<software name="tk2h145" cloneof="wof">
+	<description>Tenchi wo Kurau II (Z Lu Bu 2019-08-24)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="tk2jtkh145.p1" offset="0x0" size="0x80000" crc="6a704803" sha1="98d08bad882dd016b0e6fe990611e1c8cc937560" />
+		<rom loadflag="load16_word_swap" name="c23j.p2" offset="0x80000" size="0x80000" crc="b74b09ac" sha1="3a44d6db5f51e1b5d2b43ef0ad1191da21e48427" />
+		<rom loadflag="load16_word_swap" name="tk2jtkh145.p3" offset="0x100000" size="0x80000" crc="9e8f14d7" sha1="26913497be1d361fe3002fab8ee225024ec89165" />
+		<rom loadflag="load16_word_swap" name="tk2jtkh145.5f" offset="0x180000" size="0x80000" crc="a811cb6f" sha1="a866d24f6285713ab715429ac9a456b5efb7cf58" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c23.m1" offset="0x0" size="0x8000" crc="c9183a0d" sha1="d8b1d41c572f08581f8ab9eb878de77d6ea8615d" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="wof.key" offset="0x0" size="0x80" crc="ef8848dd" sha1="e500a89ddb16abb31c7cb45f8dbea922d01fccc1" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom loadflag="load16_word" name="c23.c01" offset="0x0" size="0x80000" crc="0d9cb9bf" sha1="cc7140e9a01a14b252cb1090bcea32b0de461928" />
+		<rom loadflag="load16_word" name="c23.c03" offset="0x2" size="0x80000" crc="45227027" sha1="b21afc593f0d4d8909dfa621d659cbb40507d1b2" />
+		<rom loadflag="load16_word" name="c23.c05" offset="0x4" size="0x80000" crc="c5ca2460" sha1="cbe14867f7b94b638ca80db7c8e0c60881183469" />
+		<rom loadflag="load16_word" name="c23.c07" offset="0x6" size="0x80000" crc="e349551c" sha1="1d977bdf256accf750ad9930ec4a0a19bbf86964" />
+		<rom loadflag="load16_word" name="c23j.c09" offset="0x200000" size="0x80000" crc="e4a44d53" sha1="b747679f4d63e5e62d9fd81b3120fba0401fadfb" />
+		<rom loadflag="load16_word" name="c23j.c11" offset="0x200002" size="0x80000" crc="58066ba8" sha1="c93af968e21094d020e4b2002e0c6fc0d746af0b" />
+		<rom loadflag="load16_word" name="c23j.c13" offset="0x200004" size="0x80000" crc="d706568e" sha1="7886414dc86c42e35d24b85c4bfa41a9f0c167ac" />
+		<rom loadflag="load16_word" name="c23j.c15" offset="0x200006" size="0x80000" crc="d4a19a02" sha1="ff396b1d33d9b4842140f2c6d085fe05748e3244" />
+		</dataarea>
+		<dataarea name="qsound" size="0x200000">
+		<rom name="c23.q1" offset="0x0" size="0x80000" crc="611268cf" sha1="83ab059f2110fb25fdcff928d56b790fc1f5c975" />
+		<rom name="c23.q2" offset="0x80000" size="0x80000" crc="20f55ca9" sha1="90134e9a9c4749bb65c728b66ea4dac1fd4d88a4" />
+		<rom name="c23.q3" offset="0x100000" size="0x80000" crc="bfcf6f52" sha1="2a85ff3fc89b4cbabd20779ec12da2e116333c7c" />
+		<rom name="c23.q4" offset="0x180000" size="0x80000" crc="36642e88" sha1="8ab25b19e2b67215a5cb1f3aa81b9d26009cfeb8" />
+		</dataarea>
+	</part>
+</software>

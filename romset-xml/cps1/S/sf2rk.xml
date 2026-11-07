@@ -1,0 +1,33 @@
+<software name="sf2rk" cloneof="sf2">
+	<description>Street Fighter II: The World Warrior (RK, bootleg)</description>
+	<year>1992</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c14rk.p1" offset="0x0" size="0x80000" crc="49422b6f" sha1="69fe9147c7ee3f6fa29077df16f4ef1224495be3" />
+		<rom loadflag="load16_byte" name="c14rk.p2" offset="0x1" size="0x80000" crc="7e9c8c2f" sha1="3d34a3920a771e1d62a41c104c8b16e3c6ac9405" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c14.m1" offset="0x0" size="0x8000" crc="a4823a1b" sha1="7b6bf59dfd578bfbbdb64c27988796783442d659" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2ebbl.key" offset="0x0" size="0x80" crc="1560b7bb" sha1="5ffc5501bdeb8ba5f4bc242bfeafd8295702cd2b" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		<rom loadflag="continue" offset="0x4" size="0x80000" />
+		<rom loadflag="continue" offset="0x6" size="0x80000" />
+		<rom loadflag="continue" offset="0x200004" size="0x80000" />
+		<rom loadflag="continue" offset="0x200006" size="0x80000" />
+		<rom loadflag="continue" offset="0x400004" size="0x80000" />
+		<rom loadflag="continue" offset="0x400006" size="0x80000" />
+		<rom loadflag="continue" offset="0x400000" size="0x10000" />
+		<rom loadflag="continue" offset="0x400001" size="0x10000" />
+		<rom loadflag="continue" offset="0x400002" size="0x10000" />
+		<rom loadflag="continue" offset="0x400003" size="0x10000" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c19m8.v1" offset="0x0" size="0x40000" crc="6cfffb11" sha1="995526183ffd35f92e9096500a3fe6237faaa2dd" />
+		</dataarea>
+	</part>
+</software>

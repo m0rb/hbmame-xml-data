@@ -1,0 +1,32 @@
+<software name="dkwizard1" cloneof="dkong">
+	<description>Donkey Kong Wizardry v1.01 (2022-02-11)</description>
+	<year>2022</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkwizard1.5at" offset="0x3000" size="0x1000" crc="277e3f4b" sha1="66db4fe02ef7d6860b45f4222793f0d8e1a3e1f8" />
+		<rom name="dkwizard0.5bt" offset="0x2000" size="0x1000" crc="8d5bda23" sha1="ca2d1f9a7d8abc56c583cb510075fd2e4cee2d85" />
+		<rom name="dkwizard1.5ct" offset="0x1000" size="0x1000" crc="1ba39916" sha1="9c0b7d178134fbf2b6a55dc4e1e40011d9464c45" />
+		<rom name="dkwizard0.5et" offset="0x0" size="0x1000" crc="95dd923b" sha1="3704da244d7ade149a9a22060a95d64ce2e47571" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkwizard1.5h" offset="0x0" size="0x800" crc="39736a8a" sha1="8825f1473415fc588a189887f4aa302313bfcec8" />
+		<rom name="dkwizard1.3pt" offset="0x800" size="0x800" crc="c94468a9" sha1="136b204735223c5e3f94340db5f6b7cfd0ad2666" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkwizard1.4m" offset="0x0" size="0x800" crc="f98da4c5" sha1="362c2083b0bad94174c3bd2e77b52dee18069d00" />
+		<rom name="dkwizard0.4n" offset="0x800" size="0x800" crc="cf3cdb75" sha1="9ac98e0cfada360b9615af1c14c2d5e27129f328" />
+		<rom name="dkwizard1.4r" offset="0x1000" size="0x800" crc="7e2d1ef4" sha1="2f6d2d7afd4b595b2e24e31263433611e9761c86" />
+		<rom name="dkwizard1.4s" offset="0x1800" size="0x800" crc="cc547d47" sha1="087f9c5da33831d2a7a9f5f86d9da1d7f1cf15b6" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkwizard1.2k" offset="0x0" size="0x100" crc="193134e9" sha1="6101bbdff23f0a1ccaba99cdbd966bcf780751bd" />
+		<rom name="dkwizard1.2j" offset="0x100" size="0x100" crc="dcbba451" sha1="31bf6bc17f790d4a61392ca1fd68361698ac9338" />
+		<rom name="dkwizard0.5e" offset="0x200" size="0x100" crc="c24f2312" sha1="61dfcec8ecaa7a38ed222f2d3c4d6695db6f33b1" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="s_3i_b.bin" offset="0x0" size="0x800" crc="45a4ed06" sha1="144d24464c1f9f01894eb12f846952290e6e32ef" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>

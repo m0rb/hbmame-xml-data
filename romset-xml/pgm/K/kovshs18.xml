@@ -1,0 +1,31 @@
+<software name="kovshs18" cloneof="kovsh">
+	<description>Knights of Valour Super Heroes (Character Selection Fatal Fury/Kof)</description>
+	<year>1999</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_pw18.322" offset="0x100000" size="0x400000" crc="5327ed6f" sha1="fbe4e6a665dfee5fa9010839906168dd6d197075" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u4" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.asic" offset="0x0" size="0x4000" crc="0f09a5c1" sha1="621b38c05f33277608d58b49822aebc930ae4870" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_pw18.rom" offset="0x0" size="0x800000" crc="f96de31a" sha1="b93a8683ef0437f92a946cc7fa425e748b669730" />
+		<rom name="pgm_a0601.u3" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_pw18.rom" offset="0x1000000" size="0x800000" crc="a9662e72" sha1="1d8e10eb6b79399d2685c9678807a01743d6f8a8" />
+		<rom name="pgm_a0613.u7" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		<rom name="a0604_pw18.rom" offset="0x1a00000" size="0x400000" crc="cf060122" sha1="587858e0aac2d703b0a94358c24e29d0832b2329" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_pw18.rom" offset="0x0" size="0x800000" crc="7db37aa0" sha1="d43f31551c9b0531cde51e5c77331c592e5c23b8" />
+		<rom name="b0601_pw18.rom" offset="0x800000" size="0x400000" crc="89a894d7" sha1="5ae7cd79c7e80453b064cca82292537be76b7b54" />
+		<rom name="b0602_pw18.rom" offset="0xc00000" size="0x400000" crc="7638b82e" sha1="14263da02ee20b382962039728550888005c6e10" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_pw18.rom" offset="0x180000" size="0x800000" crc="f4e822c0" sha1="6a51d4c3ca6ed25fd838c6a6554bcd95a849cce5" />
+		</dataarea>
+	</part>
+</software>

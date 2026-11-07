@@ -1,0 +1,23 @@
+<software name="joyman" cloneof="puckman">
+	<description>Joyman</description>
+	<year>1982</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacheart.6e" offset="0x0" size="0x800" crc="d844b679" sha1="c4486198b3126bb8e05a308c53787e51065f77ae" />
+		<rom name="joyman.6k" offset="0x800" size="0x800" crc="ab9c8f29" sha1="3753b8609c30d85d89acf745cf9303b77be440fd" />
+		<rom name="puckman.6f" offset="0x1000" size="0x800" crc="7d177853" sha1="9b5ddaaa8b564654f97af193dbcc29f81f230a25" />
+		<rom name="joyman.6m" offset="0x1800" size="0x800" crc="b3c8d32e" sha1="8b336fca1300820308cd5c4efc60bf2ba4199302" />
+		<rom name="pacheart.6h" offset="0x2000" size="0x800" crc="9045a44c" sha1="a97d7016effbd2ace9a7d92ceb04a6ce18fb42f9" />
+		<rom name="pacheart.6n" offset="0x2800" size="0x800" crc="888f3c3e" sha1="c2b5917bf13071131dd53ea76f0da86706db2d80" />
+		<rom name="joyman.6j" offset="0x3000" size="0x800" crc="00b553f8" sha1="57f2e4a6da9f00935fead447b2123a8b95e5d672" />
+		<rom name="joyman.6p" offset="0x3800" size="0x800" crc="5d5ce992" sha1="ced7ed39cfc7ec7b2c0459e275577976109ee82f" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="joyman.5e" offset="0x0" size="0x800" crc="39b557bc" sha1="0f602ec84cb25fced89699e430b95b5ae93c83bd" />
+		<rom name="joyman.5h" offset="0x800" size="0x800" crc="33e0289e" sha1="c1b910bdc61e560a8c34298deb11401f718e7330" />
+		<rom name="joyman.5f" offset="0x1000" size="0x800" crc="338771a6" sha1="7cd68cc428986255d0de29aae894900519e7fda5" />
+		<rom name="joyman.5j" offset="0x1800" size="0x800" crc="f4f0add5" sha1="d71c54ef55a755ec1316623d183b4f615ef7c055" />
+		</dataarea>
+	</part>
+</software>

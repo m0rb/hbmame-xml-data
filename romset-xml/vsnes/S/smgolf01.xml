@@ -1,0 +1,17 @@
+<software name="smgolf01">
+	<description>Vs. Stroke &amp; Match Golf (Men Version, set GF4-2 F, Easier CPU, v1.0, 2026-09-26)</description>
+	<year>1984</year>
+	<publisher>rhodesmichael03</publisher>
+	<part name="cart">
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="mds-gf4-2 f.2b or 8b" offset="0x0" size="0x2000" crc="2782a3e5" sha1="4e57aab58fb250da951a9aecd21d6aa79e697bcb" />
+		<rom name="mds-gf4-2 f.2a or 8a" offset="0x2000" size="0x2000" crc="6e93fdef" sha1="44f46421adabbc40135c681592cb5226b7c9012a" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="mds-gf4-2 f.1d or 6d" offset="0x0" size="0x2000" crc="4a723087" sha1="87dc063d295f55871598a1e1eb4e62ce298b2f0c" />
+		<rom name="mds-gf4-2 f.1c.s01" offset="0x2000" size="0x2000" crc="b8634d7e" sha1="3095a432d5ebfb864ad0ccf18ae562ad83aab663" />
+		<rom name="mds-gf4-2 f.1b or 6b" offset="0x4000" size="0x2000" crc="6783652f" sha1="7165ee59d3787cb56eed4791351da07f4bcc68ed" />
+		<rom name="mds-gf4-2 f.1a or 6a" offset="0x6000" size="0x2000" crc="bfc17263" sha1="9e3b46fe08be893935138247ed3168d19d55312e" />
+		</dataarea>
+	</part>
+</software>

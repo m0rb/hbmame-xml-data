@@ -1,0 +1,18 @@
+<software name="snddemo">
+	<description>Sound-Loop Demo</description>
+	<year>2015</year>
+	<publisher>Freem</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="674.p1" offset="0x0" size="0x80000" crc="fbb26284" sha1="80837fb870e36360f2c8c4576d1b43f3feef3ff5" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x10000">
+		<rom name="674.v1" offset="0x0" size="0x10000" crc="95101457" sha1="81ca771f441edc01019b8c629709eccc746059ba" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="674.c1" offset="0x0" size="0x80000" crc="cad47785" sha1="538c072417d849f33d1da3f61f98be4674c10762" />
+		<rom loadflag="load16_byte" name="674.c2" offset="0x1" size="0x80000" crc="c43d0953" sha1="1ceb394b495f8a082452d50f78d2d7d8d1ec9a56" />
+		</dataarea>
+	</part>
+</software>

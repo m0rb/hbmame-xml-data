@@ -1,0 +1,30 @@
+<software name="sf2">
+	<description>Street Fighter II: The World Warrior (World 910522)</description>
+	<year>1991</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c14.p1" offset="0x0" size="0x20000" crc="fe39ee33" sha1="22558eb15e035b09b80935a32b8425d91cd79669" />
+		<rom loadflag="load16_byte" name="c14.p2" offset="0x1" size="0x20000" crc="fb92cd74" sha1="bf1ccfe7cc1133f0f65556430311108722add1f2" />
+		<rom loadflag="load16_byte" name="c14.p3" offset="0x40000" size="0x20000" crc="69a0a301" sha1="86a3954335310865b14ce8b4e0e4499feb14fc12" />
+		<rom loadflag="load16_byte" name="c14.p4" offset="0x40001" size="0x20000" crc="5e22db70" sha1="6565946591a18eaf46f04c1aa449ee0ae9ac2901" />
+		<rom loadflag="load16_byte" name="c14.p5" offset="0x80000" size="0x20000" crc="8bf9f1e5" sha1="bbcef63f35e5bff3f373968ba1278dd6bd86b593" />
+		<rom loadflag="load16_byte" name="c14.p6" offset="0x80001" size="0x20000" crc="626ef934" sha1="507bda3e4519de237aca919cf72e543403ec9724" />
+		<rom loadflag="load16_byte" name="c14.p7" offset="0xc0000" size="0x20000" crc="bb4af315" sha1="75f0827f4f7e9f292add46467f8d4fe19b2514c9" />
+		<rom loadflag="load16_byte" name="c14.p8" offset="0xc0001" size="0x20000" crc="c02a13eb" sha1="b807cc495bff3f95d03b061fc629c95f965cb6d8" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c14.m1" offset="0x0" size="0x8000" crc="a4823a1b" sha1="7b6bf59dfd578bfbbdb64c27988796783442d659" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2.key" offset="0x0" size="0x80" crc="3cf6f06f" sha1="7512a185d461f2b37edfc19e31a45d53600fbe44" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c14.v1" offset="0x0" size="0x20000" crc="7f162009" sha1="346bf42992b4c36c593e21901e22c87ae4a7d86d" />
+		<rom name="c14.v2" offset="0x20000" size="0x20000" crc="beade53f" sha1="277c397dc12752719ec6b47d2224750bd1c07f79" />
+		</dataarea>
+	</part>
+</software>

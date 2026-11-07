@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="stratab_hi" description="Stratab_Hi cartridges">
+<software name="itecdemo">
+	<description>Demo - Itec</description>
+	<year>1989</year>
+	<publisher>Charles Doty</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x1c000">
+		<rom name="itecdemo.u5" offset="0x4000" size="0x4000" crc="749a1336" sha1="f3f1220fbb9b61214e7b4e675a6ab5bbe9db50af" />
+		<rom loadflag="continue" offset="0x10000" size="0xc000" />
+		</dataarea>
+		<dataarea name="grom" size="0xc0000">
+		<rom name="grom0d.bin" offset="0x0" size="0x20000" crc="e4f9fe36" sha1="ad8cb4eb1d5d685bb22ca6fee5f1efcd682f8b38" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		</dataarea>
+		<dataarea name="plds" size="0x300">
+		</dataarea>
+		<dataarea name="soundcpu" size="0x10000">
+		<rom name="itecdemo.u27" offset="0x8000" size="0x8000" crc="f0cd7332" sha1="770b5d9b531495df0ff6350942cbd5147a875e9b" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

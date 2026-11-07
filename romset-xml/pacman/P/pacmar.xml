@@ -1,0 +1,17 @@
+<software name="pacmar" cloneof="puckman">
+	<description>Mario Pacman</description>
+	<year>2001</year>
+	<publisher>[Midway]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="pacmar.6j" offset="0x3000" size="0x1000" crc="b208c7dc" sha1="d2e199936ab0fc3de80f7c86def50c03da8c1684" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacmar.5e" offset="0x0" size="0x1000" crc="7ccdfa59" sha1="ed8e7f2e7b496a6f3246e1cc3966382e748ab1c3" />
+		<rom name="pacmar.5f" offset="0x1000" size="0x1000" crc="51af9fc5" sha1="0fe657bee3a811043663595f7f9e7e05cc71da84" />
+		</dataarea>
+	</part>
+</software>

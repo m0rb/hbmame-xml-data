@@ -1,0 +1,29 @@
+<software name="kovshp68" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Troubled Times, Gods at Dusk, Dawn Edition, 2017-10-12)</description>
+	<year>2017</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po68.rom" offset="0x100000" size="0x400000" crc="abf18981" sha1="bf9aa24110756773051ab3099e67309bbe8ca38e" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u5" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0600_pw10.rom" offset="0x180000" size="0x800000" crc="a919ec0f" sha1="b464490abba8a5e651c407a7833c3a2e3befa5b8" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="pgm_a0600.u3" offset="0x0" size="0x800000" crc="d8167834" sha1="fa55a99629d03b2ea253392352f70d2c8639a991" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="a0540_po68.rom" offset="0x1800000" size="0x800000" crc="f9b4bbd5" sha1="e4df7ffc86464915a95bed2c87f08ba438024d4a" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b0600.u9" offset="0x0" size="0x800000" crc="7d3cd059" sha1="00cf994b63337e0e4ebe96453daf45f24192af1c" />
+		<rom name="b0540_po68.rom" offset="0x800000" size="0x800000" crc="106eb7c0" sha1="0f050ac974f388dbcfa103e615906ad60017af63" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_po68.asic" offset="0x0" size="0x4000" crc="e844fede" sha1="bd5328be9b07c2296a148e6f63851e9d864be25a" />
+		</dataarea>
+	</part>
+</software>

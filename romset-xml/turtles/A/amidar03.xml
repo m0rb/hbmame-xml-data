@@ -1,0 +1,24 @@
+<software name="amidar03" cloneof="amidar">
+	<description>Amidar (Greek)</description>
+	<year>2004</year>
+	<publisher>GreekRoms</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="amidar03.2c" offset="0x0" size="0x1000" crc="e9822709" sha1="ce7c76607a512b9b092a8bf83bdf6744a92a519a" />
+		<rom name="amidar.2e" offset="0x1000" size="0x1000" crc="e6e96826" sha1="e9c4f8c594640424b456505e676352a98b758c03" />
+		<rom name="amidar03.2f" offset="0x2000" size="0x1000" crc="fd81b040" sha1="f710cb192a50514f55b4aec859fd9c298b0b90f8" />
+		<rom name="amidar.2h" offset="0x3000" size="0x1000" crc="1be170bd" sha1="c047bc393b297c0d47668a5f6f4870e3fac937ef" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="amidar.5c" offset="0x0" size="0x1000" crc="c4b66ae4" sha1="9d09dbde4019f7be3abe0815b0e06d542c01c255" />
+		<rom name="amidar.5d" offset="0x1000" size="0x1000" crc="806785af" sha1="c8c85e3a6a204feccd7859b4527bd649e96134b4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="amidar.5f" offset="0x0" size="0x800" crc="5e51e84d" sha1="dfe84db7e2b1a45a1d484fcf37291f536bc5324c" />
+		<rom name="amidar03.5h" offset="0x800" size="0x800" crc="141f8dbe" sha1="3a627f5dd072909177f50920271f0d8ffb8a09c0" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="amidar.clr" offset="0x0" size="0x20" crc="f940dcc3" sha1="1015e56f37c244a850a8f4bf0e36668f047fd46d" />
+		</dataarea>
+	</part>
+</software>

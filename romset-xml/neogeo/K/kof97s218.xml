@@ -1,0 +1,25 @@
+<software name="kof97s218" cloneof="kof97">
+	<description>Kof&#x27;97 (Chaos Edition 2.0 Original, 2020-09-05)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="232s218.p1" offset="0x0" size="0x100000" crc="3c9e9240" sha1="2acb0455e938b6ca4dd98711e565a9877e8add18" />
+		<rom loadflag="load16_word_swap" name="232s218.p2" offset="0x100000" size="0x400000" crc="50ffbe4e" sha1="299d7193f04cad13366ec167a934690b001c113d" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="232s207.c1" offset="0x0" size="0x800000" crc="bc050d61" sha1="6222f5bb797a29dde9a0e476461fff6ca8e1a35f" />
+		<rom loadflag="load16_byte" name="232s207.c2" offset="0x1" size="0x800000" crc="5b43738f" sha1="ff02eeab4f2debbef3c54fefd26e4489056fcb72" />
+		<rom loadflag="load16_byte" name="232s006.c3" offset="0x1000000" size="0x800000" crc="b092e64f" sha1="7d809432d068db8f9056f5210570191416f1a53b" />
+		<rom loadflag="load16_byte" name="232s006.c4" offset="0x1000001" size="0x800000" crc="d25e8a04" sha1="52227828e3fdd27399b4cd514551abf856293f47" />
+		<rom loadflag="load16_byte" name="232s218.c5" offset="0x2000000" size="0x800000" crc="7a5075b9" sha1="3529c8a266f508047b0208b54a03c244e1053d9f" />
+		<rom loadflag="load16_byte" name="232s218.c6" offset="0x2000001" size="0x800000" crc="f50d9140" sha1="1282df3b0173f988749c162e81c9111ad61636f1" />
+		</dataarea>
+	</part>
+</software>

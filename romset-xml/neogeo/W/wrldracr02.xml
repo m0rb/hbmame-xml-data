@@ -1,0 +1,18 @@
+<software name="wrldracr02" cloneof="wrldracr">
+	<description>World Racer (2025-12-26)</description>
+	<year>2025</year>
+	<publisher>Blastar</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="417s02.p1" offset="0x0" size="0x100000" crc="3350fa1b" sha1="1e5f4f3713797e0aeb4daaf0b337f9c61ef5e2e8" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="417.v1" offset="0x0" size="0x80000" crc="a4763f5d" sha1="bf518f70c4248b4934163bc44cc1c94ff445dcf0" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="417s02.c1" offset="0x0" size="0x80000" crc="51858e96" sha1="2404e3369f5fabe480b55bf86d117feda779ec21" />
+		<rom loadflag="load16_byte" name="417s02.c2" offset="0x1" size="0x80000" crc="43dc168f" sha1="5cd34c935a36b8c544f0337ea998ca5612299d6e" />
+		</dataarea>
+	</part>
+</software>

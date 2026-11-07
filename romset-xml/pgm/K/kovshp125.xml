@@ -1,0 +1,26 @@
+<software name="kovshp125" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Troubled Times, 2019-05-01)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po125.rom" offset="0x100000" size="0x200000" crc="c19862a3" sha1="089c0037df7ea3091bc42ce9e8942abe45c06433" />
+		<rom loadflag="load16_word_swap" name="p0601h_101_po125.rom" offset="0x300000" size="0x200000" crc="dbf88515" sha1="aedc85ad5974c6e716ccd5bf0a62c47597fde9ec" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u5" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0600_pw125.rom" offset="0x180000" size="0x800000" crc="9b0ec32f" sha1="21ee21c44672a22072679cbaae70e805f914c71f" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_po125.rom" offset="0x0" size="0x2000000" crc="257f7a70" sha1="f21ea42bb93049a49950cb392d94ae7357214908" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_po125.rom" offset="0x0" size="0x1000000" crc="d5c4da25" sha1="4fbbad31f9c986788450df442fecc8fedf9eb725" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.asic" offset="0x0" size="0x4000" crc="0f09a5c1" sha1="621b38c05f33277608d58b49822aebc930ae4870" />
+		</dataarea>
+	</part>
+</software>

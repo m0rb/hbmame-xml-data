@@ -1,0 +1,26 @@
+<software name="doubledr18" cloneof="doubledr">
+	<description>Double Dragon (Easy Special Attacks)</description>
+	<year>1995</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="082s18.p1" offset="0x100000" size="0x100000" crc="6f4ced99" sha1="fc272ceeda3d2e43f58fff302ea8df62533e3bd0" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="082.v1" offset="0x0" size="0x200000" crc="cc1128e4" sha1="bfcfff24bc7fbde0b02b1bc0dffebd5270a0eb04" />
+		<rom name="082.v2" offset="0x200000" size="0x200000" crc="c3ff5554" sha1="c685887ad64998e5572607a916b023f8b9efac49" />
+		</dataarea>
+		<dataarea name="sprites" size="0xe00000">
+		<rom loadflag="load16_byte" name="082.c1" offset="0x0" size="0x200000" crc="b478c725" sha1="3a777c5906220f246a6dc06cb084e6ad650d67bb" />
+		<rom loadflag="load16_byte" name="082.c2" offset="0x1" size="0x200000" crc="2857da32" sha1="9f13245965d23db86d46d7e73dfb6cc63e6f25a1" />
+		<rom loadflag="load16_byte" name="082.c3" offset="0x400000" size="0x200000" crc="8b0d378e" sha1="3a347215e414b738164f1fe4144102f07d4ffb80" />
+		<rom loadflag="load16_byte" name="082.c4" offset="0x400001" size="0x200000" crc="c7d2f596" sha1="e2d09d4d1b1fef9c0c53ecf3629e974b75e559f5" />
+		<rom loadflag="load16_byte" name="082.c5" offset="0x800000" size="0x200000" crc="ec87bff6" sha1="3fa86da93881158c2c23443855922a7b32e55135" />
+		<rom loadflag="load16_byte" name="082.c6" offset="0x800001" size="0x200000" crc="844a8a11" sha1="b2acbd4cacce66fb32c052b2fba9984904679bda" />
+		<rom loadflag="load16_byte" name="082.c7" offset="0xc00000" size="0x100000" crc="727c4d02" sha1="8204c7f037d46e0c58f269f9c7a535bc2589f526" />
+		<rom loadflag="load16_byte" name="082.c8" offset="0xc00001" size="0x100000" crc="69a5fa37" sha1="020e70e0e8b3c5d00a40fe97e418115a3187e50a" />
+		</dataarea>
+	</part>
+</software>

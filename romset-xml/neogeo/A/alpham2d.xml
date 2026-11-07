@@ -1,0 +1,44 @@
+<software name="alpham2d" cloneof="alpham2">
+	<description>Alpha Mission II (MGD2)</description>
+	<year>1991</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n007001a.038" offset="0x1" size="0x40000" crc="4400b34c" sha1="99cd25c0383e8ffba2d83f2d9c5c6452fe69c362" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		<rom loadflag="load16_byte" name="n007001a.03c" offset="0x80001" size="0x40000" crc="b0366875" sha1="591a02a5cef01e190eaed922894920571f4f6bdb" />
+		<rom loadflag="continue" offset="0x80000" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="n007001a.178" offset="0x0" size="0x80000" crc="7ec0e76d" sha1="5f84f0a236b5cb7dd02b588806bc7f6e35eb515d" />
+		<rom name="n007001a.17c" offset="0x80000" size="0x80000" crc="7a796ead" sha1="0a5b2683acc680edef3d3aa44681e0d648dce53f" />
+		<rom name="n007001b.178" offset="0x100000" size="0x80000" crc="70bc86a5" sha1="00ef9faf9b094bca2fd654b26eb03e6e40bd6f80" />
+		<rom name="n007001b.17c" offset="0x180000" size="0x80000" crc="29963a92" sha1="fb2ff29e48cfee33c0f8c12f849b35bd5be27ec9" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x400000">
+		<rom name="n007001a.278" offset="0x0" size="0x80000" crc="45f5e914" sha1="d89d9917a0aaf1c662d5633a52a29bd670577830" />
+		<rom name="n007001a.27c" offset="0x80000" size="0x80000" crc="07524063" sha1="559c3f1b33cfb112dd8d70726be07cac1cafd72f" />
+		<rom name="n007001b.278" offset="0x100000" size="0x80000" crc="c3178623" sha1="687e63943a22cfff9778cb41ef6c9b9ac6f43334" />
+		<rom name="n007001b.27c" offset="0x180000" size="0x80000" crc="65bca6b7" sha1="8c96d98e86799f1a47b5a66d439e01d7935c213c" />
+		<rom name="n007001c.278" offset="0x200000" size="0x80000" crc="27cd2250" sha1="ab5af5762f48f670b2d0a31fdd38539956681035" />
+		<rom name="n007001c.27c" offset="0x280000" size="0x80000" crc="43025293" sha1="c8b612f4bead98d6e06dcf6cb8254fc8487e2c06" />
+		<rom name="n007001d.278" offset="0x300000" size="0x80000" crc="ae0a679a" sha1="7fd81af67238eae3dba64502eeff41933de795e8" />
+		<rom name="n007001d.27c" offset="0x380000" size="0x80000" crc="6a2e400d" sha1="656b026767596a6395f3e30f97140884cb0da5a0" />
+		</dataarea>
+		<dataarea name="sprites" size="0x300000">
+		<rom loadflag="load32_byte" name="n007001a.538" offset="0x0" size="0x40000" crc="c516b09e" sha1="910b6197fef78138da2c5b18507d12d841a518e5" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n007001a.638" offset="0x1" size="0x40000" crc="6b674581" sha1="3cbf29302c2677abe79ae10ef95097c6d62ca88c" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n007001a.53c" offset="0x100000" size="0x40000" crc="d9a0ff6c" sha1="f2577736d516471a6757a8134916fbf7316a9809" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n007001a.63c" offset="0x100001" size="0x40000" crc="4ff21008" sha1="496a27d902342dbb3685ad8354981e76dc839f47" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n007001b.538" offset="0x200000" size="0x40000" crc="3a7fe4fd" sha1="ad4d93ed7d472579b6ba5fd4809a96762f0c0c2e" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n007001b.638" offset="0x200001" size="0x40000" crc="d0e8eef3" sha1="560594bf1ec6ca32b38d0fe73b4cb5b5ecb56d56" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

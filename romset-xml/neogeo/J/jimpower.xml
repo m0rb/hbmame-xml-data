@@ -1,0 +1,18 @@
+<software name="jimpower">
+	<description>Jim Power (Neo-Geo port, v1.1)</description>
+	<year>2026</year>
+	<publisher>NK Home Entertainment</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="545.p1" offset="0x0" size="0x80000" crc="9c5fe235" sha1="2cdc4e95c4c70911c116acb93cfc4d1a1a680e08" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="545.v1" offset="0x0" size="0x1000000" crc="59a4ea3b" sha1="8b67b9a69bb9d6c82fa294e6e9e409edbb435ed2" />
+		</dataarea>
+		<dataarea name="sprites" size="0x8000000">
+		<rom loadflag="load16_byte" name="545.c1" offset="0x0" size="0x400000" crc="0d5e1e87" sha1="981034cc1c7afd28ba954140d08d6e0f37a2e22a" />
+		<rom loadflag="load16_byte" name="545.c2" offset="0x1" size="0x400000" crc="2bf95f79" sha1="11d3fdbb74e1ef190debd0e6cd57ccd6af84e635" />
+		</dataarea>
+	</part>
+</software>

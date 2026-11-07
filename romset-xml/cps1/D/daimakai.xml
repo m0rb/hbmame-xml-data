@@ -1,0 +1,28 @@
+<software name="daimakai" cloneof="ghouls">
+	<description>Daimakaimura (Japan)</description>
+	<year>1988</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c02j.p1" offset="0x0" size="0x20000" crc="82fd1798" sha1="7a199384659d8e6602384b1953339f221d61a9e6" />
+		<rom loadflag="load16_byte" name="c02j.p2" offset="0x1" size="0x20000" crc="35366ccc" sha1="42c7004a641f34b9dd1333be51b50639a97e2be9" />
+		<rom loadflag="load16_byte" name="c02j.p3" offset="0x40000" size="0x20000" crc="a17c170a" sha1="62a9cb65df90827334d453a98e826dc1bfc27136" />
+		<rom loadflag="load16_byte" name="c02j.p4" offset="0x40001" size="0x20000" crc="6af0b391" sha1="5a2d74d207c04e24bcea7eeffa1c8b96b6df77e1" />
+		<rom loadflag="load16_byte" name="c02j.p5" offset="0x80000" size="0x20000" crc="384d60c4" sha1="258f9e2334b7240cf665b530f2c69b8826850687" />
+		<rom loadflag="load16_byte" name="c02j.p6" offset="0x80001" size="0x20000" crc="19abe30f" sha1="aea7d5c8357201b68dec70d7cc8f87dfb8fce207" />
+		<rom loadflag="load16_byte" name="c02j.p7" offset="0xc0000" size="0x20000" crc="c04b85c8" sha1="f8659624bb9d418d02f63f43478d3b53cfe18718" />
+		<rom loadflag="load16_byte" name="c02j.p8" offset="0xc0001" size="0x20000" crc="89be83de" sha1="6dfd1380304a85dee7cac4d0b2cfd7625b9020bf" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c02.m1" offset="0x0" size="0x8000" crc="3692f6e5" sha1="61b8438d60a39b4cf5062dff0a53228e8a4e4b5f" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="daimakai.key" offset="0x0" size="0x80" crc="4d1e621d" sha1="c3636962bee035aa0a26125d8af4826bf7f148e8" />
+		</dataarea>
+		<dataarea name="gfx" size="0x300000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		</dataarea>
+	</part>
+</software>

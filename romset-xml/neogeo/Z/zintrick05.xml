@@ -1,0 +1,18 @@
+<software name="zintrick05" cloneof="zintrckb">
+	<description>ZinTricK (Enable hidden characters)</description>
+	<year>2009</year>
+	<publisher>Yumeji</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="211s05.p1" offset="0x0" size="0x100000" crc="328af665" sha1="ece74116955ecb9ec40ac90913d496836ecc82cf" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="211.v1" offset="0x0" size="0x200000" crc="c09f74f1" sha1="d0b56a780a6eba85ff092240b1f1cc6718f17c21" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="211.c1" offset="0x0" size="0x200000" crc="76aee189" sha1="ad6929804c5b9a59aa609e6baebc6aa37e858a47" />
+		<rom loadflag="load16_byte" name="211.c2" offset="0x1" size="0x200000" crc="844ed4b3" sha1="fb7cd057bdc6cbe8b78097dd124118bae7402256" />
+		</dataarea>
+	</part>
+</software>

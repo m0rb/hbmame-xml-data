@@ -1,0 +1,22 @@
+<software name="ffightaec2">
+	<description>Final Fight Anniversary Edition (CPS2 hardware)</description>
+	<year>2022</year>
+	<publisher>Grego and Gnawtor</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c07eac2.p1" offset="0x0" size="0x80000" crc="b598d599" sha1="f4e5ebc3c1900fbfb004f8e6532ffb8593622fe5" />
+		<rom loadflag="load16_word_swap" name="c07aec2.p2" offset="0x80000" size="0x80000" crc="3615cfb9" sha1="f83ebdb084505b3c35513f40666ad828846339d2" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c07aec2.m1" offset="0x0" size="0x8000" crc="7ee68d38" sha1="d533226911c23be34aa9df7d7ee37a0b2cf407ab" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c78.m2" offset="0x28000" size="0x20000" crc="72445dc4" sha1="14fca7596ac45ba655016eef5b6120f9f9671c23" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c07aec2.q1" offset="0x0" size="0x400000" crc="71af8d5a" sha1="8e9dfcd1d44f792cff4b13f8b8f73aa8f9b0a2ec" />
+		<rom loadflag="load16_word_swap" name="c78.q2" offset="0x400000" size="0x400000" crc="f392b13a" sha1="fa04ce0370144a49bd1d5acd873eef87b0dc9d15" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,19 @@
+<software name="pbobblen02" cloneof="pbobblen">
+	<description>Puzzle Bobble (CD conversion)</description>
+	<year>1994</year>
+	<publisher>CD_conv</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="083s02.p1" offset="0x0" size="0x40000" crc="b1095646" sha1="20fa2bc724df4b5234ff0ccf3074e545f28d1bbd" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x180000">
+		<rom name="083ch.v3" offset="0x0" size="0x100000" crc="30ce579e" sha1="635f7ab2178981ba38cc0080f4f97e954e552440" />
+		<rom name="083.v4" offset="0x100000" size="0x80000" crc="0a548948" sha1="e1e4afd17811cb60401c14fbcf0465035165f4fb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="083.c5" offset="0x0" size="0x80000" crc="e89ad494" sha1="69c9ea415773af94ac44c48af05d55ada222b138" />
+		<rom loadflag="load16_byte" name="083.c6" offset="0x1" size="0x80000" crc="4b42d7eb" sha1="042ae50a528cea21cf07771d3915c57aa16fd5af" />
+		</dataarea>
+	</part>
+</software>

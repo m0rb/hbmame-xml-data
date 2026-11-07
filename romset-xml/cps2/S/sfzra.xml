@@ -1,0 +1,27 @@
+<software name="sfzra" cloneof="sfa">
+	<description>Street Fighter Zero (950727A, English Restoration, 2026-10-13)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="sfzj.03c" offset="0x0" size="0x80000" crc="c4e79fb7" sha1="fd809ff40a5fd0fe8759d218505eb58d109ad258" />
+		<rom loadflag="load16_word_swap" name="sfz.04b" offset="0x80000" size="0x80000" crc="8d9b2480" sha1="405305c1572908d00eab735f28676fbbadb4fac6" />
+		<rom loadflag="load16_word_swap" name="sfz.05a" offset="0x100000" size="0x80000" crc="8cf0a98f" sha1="285f6a2aa5efc6d2c6e659dac119b444a9750d45" />
+		<rom loadflag="load16_word_swap" name="sfz.06" offset="0x180000" size="0x80000" crc="63b58796" sha1="c7868fb0b42ccd9a4c0981dd36ed7ef7d28a4f5e" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="sfz.01" offset="0x0" size="0x8000" crc="ffffec7d" sha1="75b4aef001b72a0f571b51b2b97803facc1832dd" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="sfz.02" offset="0x28000" size="0x20000" crc="45f46a08" sha1="e32dbd27b52ab708278045b5a829376e55a4ca81" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="sfzj.key" offset="0x0" size="0x14" crc="355d85b8" sha1="5da2c407852ce7b28153f3f94de8328802ff2f2d" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="sfz.11m" offset="0x0" size="0x200000" crc="c4b093cd" sha1="256526bb693a0b72443f047e060304c9b739acd1" />
+		<rom loadflag="load16_word_swap" name="sfz.12m" offset="0x200000" size="0x200000" crc="8bdbc4b4" sha1="0e21c9a75a17a7e7dfd8bb51098c2b9dc4c933ec" />
+		</dataarea>
+	</part>
+</software>

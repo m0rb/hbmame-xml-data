@@ -1,0 +1,22 @@
+<software name="mmatrixd" cloneof="mmatrix">
+	<description>Mars Matrix: Hyper Solid Shooting (USA 000412 Phoenix Edition) (bootleg)</description>
+	<year>2000</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c82d.p1" offset="0x0" size="0x80000" crc="36711e60" sha1="a192e786798f69320761017437ee4d2d47dc80c5" />
+		<rom loadflag="load16_word_swap" name="c82d.p2" offset="0x80000" size="0x80000" crc="4687226f" sha1="b831582f578eb1e40bce1d1cbf231e4c27f510cd" />
+		<rom loadflag="load16_word_swap" name="c82d.p3" offset="0x100000" size="0x80000" crc="52124398" sha1="0a18b9d2a7e3335ddf7ff9ac5c5f8298951f8c67" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c82.m1" offset="0x0" size="0x8000" crc="c57e8171" sha1="dedb92af1910d38727f816e6f507d25148f31b74" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c82.q1" offset="0x0" size="0x400000" crc="4180b39f" sha1="cabb1c358eae1bb6cfed07f5b92e4acd38650667" />
+		<rom loadflag="load16_word_swap" name="c82.q2" offset="0x400000" size="0x400000" crc="95e22a59" sha1="b3431d170c0a1a0d826ad0af21300b9180e3f114" />
+		</dataarea>
+	</part>
+</software>

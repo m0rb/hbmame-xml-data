@@ -1,0 +1,36 @@
+<software name="androdund" cloneof="androdun">
+	<description>Andro Dunos (MGD2)</description>
+	<year>1992</year>
+	<publisher>Visco</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n049001a.038" offset="0x1" size="0x40000" crc="4639b419" sha1="617765aea2cb26ae52b25b2f7a541caf14effac9" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		<rom loadflag="load16_byte" name="n049001a.03c" offset="0x80001" size="0x40000" crc="11beb098" sha1="8c8fafba019e94fcf56643fbeeae161840e4263d" />
+		<rom loadflag="continue" offset="0x80000" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="n049001a.1f8" offset="0x0" size="0x80000" crc="577c85b3" sha1="2c3072401fe73497dca0e9009ae2ba4053fe936d" />
+		<rom name="n049001a.1fc" offset="0x80000" size="0x80000" crc="e14551c4" sha1="763a9912b9df55defb190af3f29ae034f6dd78d6" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load32_byte" name="n049001a.538" offset="0x0" size="0x40000" crc="ca08e432" sha1="4202685ea0eaa29772d3d451ed9240202e4626a4" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n049001a.638" offset="0x1" size="0x40000" crc="7a0deb9e" sha1="50953e69b8462d4b981c91c74c307bcb539b0ceb" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n049001a.53c" offset="0x100000" size="0x40000" crc="fcbcb305" sha1="42fe48127593e7714f7675506de8d0ae08a70164" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n049001a.63c" offset="0x100001" size="0x40000" crc="b1c640f5" sha1="6e667f4c197243f6389c952229efa90bd3a66b50" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n049001b.538" offset="0x200000" size="0x40000" crc="806ab937" sha1="78867c587420b938be1a76f0b87dea4d21fbe1b0" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n049001b.638" offset="0x200001" size="0x40000" crc="33bee10f" sha1="3e01859e6455c9e941f9afcf31d62a4de4806eca" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n049001b.53c" offset="0x300000" size="0x40000" crc="e7e1a2be" sha1="91a68ed46975811f1abaf4d1d912f514328c7189" />
+		<rom loadflag="continue" offset="0x300002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n049001b.63c" offset="0x300001" size="0x40000" crc="70f0d263" sha1="fccb548d4b1754c475ceb46f3e49e4e9607e6651" />
+		<rom loadflag="continue" offset="0x300003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

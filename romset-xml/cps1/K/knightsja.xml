@@ -1,0 +1,30 @@
+<software name="knightsja" cloneof="knights">
+	<description>Knights of the Round (Japan 911127, B-Board 89625B-1)</description>
+	<year>1991</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c18ja.p1" offset="0x0" size="0x20000" crc="ad3d1a8e" sha1="327f9e818f1500836fc549afeffbb2a3c5aafe8c" />
+		<rom loadflag="load16_byte" name="c18ja.p2" offset="0x1" size="0x20000" crc="e694a491" sha1="5a4d27c879c10032c49880019501de3e45ab1b35" />
+		<rom loadflag="load16_byte" name="c18ja.p3" offset="0x40000" size="0x20000" crc="85596094" sha1="74ad294de63aa6b60aa8b885c45c3d41a07ce19a" />
+		<rom loadflag="load16_byte" name="c18ja.p4" offset="0x40001" size="0x20000" crc="9198bf8f" sha1="aa3610600286ab25ce81705ea1319d42e7cc7f6c" />
+		<rom loadflag="load16_byte" name="c18ja.p5" offset="0x80000" size="0x20000" crc="fe6eb08d" sha1="a67ca33895ff7f41e8521ff7b39e629048d04d30" />
+		<rom loadflag="load16_byte" name="c18ja.p6" offset="0x80001" size="0x20000" crc="1172806d" sha1="5ad08bf9bada036d89a55f5a542ee1db22df45b2" />
+		<rom loadflag="load16_byte" name="c18ja.p7" offset="0xc0000" size="0x20000" crc="f854b020" sha1="3d8bd0ab5e0fa2da3c868b591edff5c66f1f08ed" />
+		<rom loadflag="load16_byte" name="c18ja.p8" offset="0xc0001" size="0x20000" crc="eb52e78d" sha1="b9462c9d97848a6dc4d55475053824df8c9e7f02" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c18.m1" offset="0x0" size="0x8000" crc="5e44d9ee" sha1="47a7503321be8d52b5c44af838e3bb82ee15a415" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="knightsja.key" offset="0x0" size="0x80" crc="fd67017c" sha1="403b93764536372dbfc78acb62caab51eca5af74" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c18.v1" offset="0x0" size="0x20000" crc="da69d15f" sha1="9616207e693bae85705f786cef60b9f6951b5067" />
+		<rom name="c18.v2" offset="0x20000" size="0x20000" crc="bfc654e9" sha1="01b3d92e4dedf55ea3933d387c7ddb9ba2549773" />
+		</dataarea>
+	</part>
+</software>

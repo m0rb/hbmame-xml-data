@@ -1,0 +1,34 @@
+<software name="dinos58" cloneof="dino">
+	<description>Cadillacs and Dinosaurs (Turbo 97 2016-12-22)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c25s58.p1" offset="0x0" size="0x100000" crc="3f713043" sha1="90e81c651772e895a56146c986c64ff8c35826ac" />
+		<rom loadflag="load16_word_swap" name="c25s58.p3" offset="0x100000" size="0x100000" crc="a04959cf" sha1="2ba9eb8f6be005c8e3e040224389ca8d16144b92" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c25.m1" offset="0x0" size="0x8000" crc="605fdb0b" sha1="9da90ddc6513aaaf2260f0c69719c6b0e585ba8c" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="dinob.key" offset="0x0" size="0x80" crc="171140c4" sha1="d1db4e37e22fa6ae03c2bca4fdb698399d98c15f" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom loadflag="load16_word" name="c25s57.c01" offset="0x0" size="0x80000" crc="4eb40692" sha1="9d4bfc574c1e07d1569821e8053a7208ff83cbd1" />
+		<rom loadflag="continue" offset="0x4" size="0x80000" />
+		<rom loadflag="continue" offset="0x200000" size="0x80000" />
+		<rom loadflag="continue" offset="0x200004" size="0x80000" />
+		<rom loadflag="load16_word" name="c25s57.c03" offset="0x2" size="0x80000" crc="8a6920d8" sha1="099bfc37b524f60c82332c83c3f1af411b14e35a" />
+		<rom loadflag="continue" offset="0x6" size="0x80000" />
+		<rom loadflag="continue" offset="0x200002" size="0x80000" />
+		<rom loadflag="continue" offset="0x200006" size="0x80000" />
+		</dataarea>
+		<dataarea name="qsound" size="0x200000">
+		<rom name="c25.q1" offset="0x0" size="0x80000" crc="60927775" sha1="f8599bc84c38573ebbe8685822c58b6a38b50462" />
+		<rom name="c25.q2" offset="0x80000" size="0x80000" crc="770f4c47" sha1="fec8ef00a6669d4d5e37787ecc7b58ee46709326" />
+		<rom name="c25.q3" offset="0x100000" size="0x80000" crc="2f273ffc" sha1="f0de462f6c4d251911258e0ebd886152c14d1586" />
+		<rom name="c25.q4" offset="0x180000" size="0x80000" crc="2c67821d" sha1="6e2528d0b22508300a6a142a796dd3bf53a66946" />
+		</dataarea>
+	</part>
+</software>

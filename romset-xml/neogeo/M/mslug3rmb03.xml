@@ -1,0 +1,28 @@
+<software name="mslug3rmb03" cloneof="mslug3">
+	<description>Metal Slug 3 (The Future, 2020-09-29)[Edition 2])(Revised Version Big Heavy Machine Gun Extreme Remix 1.0, 2020-09-29)</description>
+	<year>2020</year>
+	<publisher>Team Remix(Gaston90,Shyma.X,Ydmis,DDJ,I love Nimes)</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="256rma03.p1" offset="0x0" size="0x100000" crc="e7d6ad26" sha1="7b714437bd54035d75c11002caada670f1c80a37" />
+		<rom loadflag="load16_word_swap" name="256rmx01.p2" offset="0x100000" size="0x400000" crc="3938ca72" sha1="857746547d2b00be8d2f7b00aa45c9d0f787fec4" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="256.v1" offset="0x0" size="0x400000" crc="f2690241" sha1="fd56babc1934d10e0d27c32f032f9edda7ca8ce9" />
+		<rom name="256.v2" offset="0x400000" size="0x400000" crc="7e2a10bd" sha1="0d587fb9f64cba0315ce2d8a03e2b8fe34936dff" />
+		<rom name="256.v3" offset="0x800000" size="0x400000" crc="0eaec17c" sha1="c3ed613cc6993edd6fc0d62a90bcd85de8e21915" />
+		<rom name="256.v4" offset="0xc00000" size="0x400000" crc="9b4b22d4" sha1="9764fbf8453e52f80aa97a46fb9cf5937ef15a31" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="256h07.c1" offset="0x0" size="0x800000" crc="d93a9a86" sha1="4ff06026449c80ef8effc14f241590fef83006c9" />
+		<rom loadflag="load16_byte" name="256h07.c2" offset="0x1" size="0x800000" crc="5773183c" sha1="a09783bcaa2c071d4358e00148551e5c60e48753" />
+		<rom loadflag="load16_byte" name="256h07.c3" offset="0x1000000" size="0x800000" crc="9bbc4d38" sha1="65f34c09e58cfb59c45df2d14e74408d7d571b3d" />
+		<rom loadflag="load16_byte" name="256h07.c4" offset="0x1000001" size="0x800000" crc="871eb92f" sha1="5146975de14eb31f4df959c71659ab4cf2dbd193" />
+		<rom loadflag="load16_byte" name="256h07.c5" offset="0x2000000" size="0x800000" crc="35f9d8d6" sha1="da046812d9b4047e0ce84bda5e77c19cde5fce56" />
+		<rom loadflag="load16_byte" name="256h07.c6" offset="0x2000001" size="0x800000" crc="7deeb565" sha1="79c83d2b1887ec776fc0c24527405d386607342d" />
+		<rom loadflag="load16_byte" name="256h07.c7" offset="0x3000000" size="0x800000" crc="a6785325" sha1="e3377727c057dfd3e3bf91ad7a02217244335bb5" />
+		<rom loadflag="load16_byte" name="256h07.c8" offset="0x3000001" size="0x800000" crc="b1a3a35d" sha1="d7c41734e745445efcb33465eb7b26a88ce5a341" />
+		</dataarea>
+	</part>
+</software>

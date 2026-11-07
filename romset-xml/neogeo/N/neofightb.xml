@@ -1,0 +1,18 @@
+<software name="neofightb" cloneof="neofight">
+	<description>Neogeo Sprite Demo (Neo Fight beta)</description>
+	<year>2015</year>
+	<publisher>Kannagi</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="675.p1" offset="0x0" size="0x80000" crc="caaf0da5" sha1="089a89c787d4955fcb11141b50d587caa785c30a" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="675.v1" offset="0x0" size="0x1e3300" crc="da4f84c0" sha1="7e9c039a47445ef805adf68c65e20063d93ba601" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="675.c1" offset="0x0" size="0x200000" crc="4c2ec7e3" sha1="572f087d2adb4900dbab39fa9bc517237ddba54e" />
+		<rom loadflag="load16_byte" name="675.c2" offset="0x1" size="0x200000" crc="319b0d51" sha1="f57b4b3c96d94a6887f9e02e53af8eaef59d617a" />
+		</dataarea>
+	</part>
+</software>

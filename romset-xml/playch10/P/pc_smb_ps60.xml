@@ -1,0 +1,16 @@
+<software name="pc_smb_ps60" cloneof="pc_smb">
+	<description>Super Mario Bros. (Super Little Bird Nightmare Edition, 2015-09-20)(PlayChoice-10)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps60" offset="0x0" size="0x2000" crc="16e2a73b" sha1="6902271155e5135c2105d394154e228b464cf429" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps60" offset="0x0" size="0x8000" crc="dff85f0b" sha1="5f16f6af2becd7daecbf4c61b3dc40402cb843cf" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

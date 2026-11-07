@@ -1,0 +1,18 @@
+<software name="ironclad01" cloneof="ironclad">
+	<description>Ironclad (Conversion from Wii)</description>
+	<year>1996</year>
+	<publisher>Saurus</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="220s01.p1" offset="0x0" size="0x200000" crc="65849961" sha1="2846081bb1451a209412159991bfac95d394fe3a" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="proto_220.v1" offset="0x0" size="0x400000" crc="8f30a215" sha1="0ee866a468c4c3608d55df2b5cb9243c8016d77c" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="220s01.c1" offset="0x0" size="0x800000" crc="621f4a09" sha1="117a8e8bea5f880d8315b48bc5884eb805c5e678" />
+		<rom loadflag="load16_byte" name="220s01.c2" offset="0x1" size="0x800000" crc="7fec83e8" sha1="769c2cb4ed4a9d7c29e3aad3f4601f1d24c96640" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,38 @@
+<software name="galaga84">
+	<description>Galaga &#x27;84</description>
+	<year>1984</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="gg1_1b.3p" offset="0x0" size="0x1000" crc="ab036c9f" sha1="ca7f5da42d4e76fd89bb0b35198a23c01462fbfe" />
+		<rom name="gal84_u2" offset="0x1000" size="0x1000" crc="4d832a30" sha1="88ee11df88cf08005efccd6305f87fb3e2797db6" />
+		<rom name="gg1_3.2m" offset="0x2000" size="0x1000" crc="753ce503" sha1="481f443aea3ed3504ec2f3a6bfcf3cd47e2f8f81" />
+		<rom name="gg1_4b.2l" offset="0x3000" size="0x1000" crc="499fcc76" sha1="ddb8b121903646c320939c7d13f4aa4ebb130378" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="gg1_9.4l" offset="0x0" size="0x1000" crc="58b2f47c" sha1="62f1279a784ab2f8218c4137c7accda00e6a3490" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="gal84u4d" offset="0x0" size="0x1000" crc="22e339d5" sha1="9ac2887ede802d28daa4ad0a0a54bcf7b1155a2e" />
+		<rom name="gal84u4e" offset="0x1000" size="0x1000" crc="60dcf940" sha1="6530aa5b4afef4a8422ece76a93d0c5b1d93355e" />
+		</dataarea>
+		<dataarea name="namco" size="0x100">
+		<rom name="1d.bin" offset="0x0" size="0x100" crc="86d92b24" sha1="6bef9102b97c83025a2cf84e89d95f2d44c3d2ed" />
+		</dataarea>
+		<dataarea name="proms" size="0x320">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="2n.bin" offset="0x20" size="0x100" crc="a547d33b" sha1="7323084320bb61ae1530d916f5edd8835d4d2461" />
+		<rom name="1c.bin" offset="0x120" size="0x100" crc="b6f585fb" sha1="dd10147c4f05fede7ae6e7a760681700a660e87e" />
+		<rom name="5c.bin" offset="0x220" size="0x100" crc="8bd565f6" sha1="bedba65816abfc2ebeacac6ee335ca6f136e3e3d" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="gg1_5b.3f" offset="0x0" size="0x1000" crc="bb5caae3" sha1="e957a581463caac27bc37ca2e2a90f27e4f62b6f" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="gg1-7" offset="0x0" size="0x1000" crc="8995088d" sha1="d6cb439de0718826d1a0363c9d77de8740b18ecf" />
+		</dataarea>
+		<dataarea name="sub3" size="0x10000">
+		<rom name="10h_g07.bin" offset="0x0" size="0x1000" crc="035e300c" sha1="cfda2467e71c27381b7150ff8fc7b69d61df123a" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,19 @@
+<software name="spacwarp">
+	<description>Space War (Proto on Space Duel HW)</description>
+	<year>1999</year>
+	<publisher>Jeff Hendricks</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="spacwarp.106" offset="0x2800" size="0x800" crc="23a25ff9" sha1="e4117e6c453408079bd4a9e7b30a9b82e7b1712d" />
+		<rom name="136006.107" offset="0x3000" size="0x1000" crc="d8dd0461" sha1="58060b20b2511d30d2ec06479d21840bdd0b53c6" />
+		<rom name="spacwarp.201" offset="0x4000" size="0x1000" crc="0acb38e9" sha1="dcdeeedc798d7735d03249559556d55b8256abc6" />
+		<rom name="spacwarp.102" offset="0x5000" size="0x1000" crc="75fae2df" sha1="7510e93781fe444ff10aac92abf4b882a65999aa" />
+		<rom name="136006.103" offset="0x6000" size="0x1000" crc="ee72da63" sha1="d36d62cdf7fe76ee9cdbfc2e76ac5d90f22986ba" />
+		<rom name="spacwarp.104" offset="0x7000" size="0x1000" crc="aae05ec6" sha1="14629e8375e1ae12dce96a742f1a0777e5114edb" />
+		<rom name="spacwarp.105" offset="0x8000" size="0x1000" crc="41cddb2d" sha1="8dcd7f72ca1099b04f3d29730b5071d3cb55888e" />
+		</dataarea>
+		<dataarea name="avg:prom" size="0x100">
+		<rom name="136002-125.n4" offset="0x0" size="0x100" crc="5903af03" sha1="24bc0366f394ad0ec486919212e38be0f08d0239" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,15 @@
+<software name="sf2b" cloneof="sf2">
+	<description>Street Fighter II: The World Warrior (bootleg, set 1)</description>
+	<year>1992</year>
+	<publisher>bootleg (Playmark)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c14b.p1" offset="0x0" size="0x100000" crc="1d15bc7a" sha1="834627545f191f39de6beb008c89623f2b88c13b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x30000">
+		<rom name="c19mdta.m1" offset="0x0" size="0x20000" crc="d5bee9cc" sha1="e638cb5ce7a22c18b60296a7defe8b03418da56c" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+	</part>
+</software>

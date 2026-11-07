@@ -1,0 +1,17 @@
+<software name="ladygolfe01" cloneof="smgolf01">
+	<description>Vs. Stroke &amp; Match Golf (Ladies Version, set LG4 E, Easier CPU, v1.0, 2026-09-26)</description>
+	<year>1984</year>
+	<publisher>rhodesmichael03</publisher>
+	<part name="cart">
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="mds-lg4 e.2b or 8b" offset="0x0" size="0x2000" crc="95618947" sha1="e8f09bffa3fa1a1cac8fa25df9fba962951c1fb3" />
+		<rom name="mds-lg4 e.2a or 8a" offset="0x2000" size="0x2000" crc="d07407b1" sha1="b998b46fe83e76fac3d7b71495d1da8580a731f9" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="mds-lg4 e.1d or 6d" offset="0x0" size="0x2000" crc="408ea247" sha1="48cbcf9b87e522b20599bcf2b61df81bfd55db7b" />
+		<rom name="mds-lg4 e.1c.s01" offset="0x2000" size="0x2000" crc="824a9d05" sha1="33639da3df62aa462c4e49d16bcb8eff307e9e56" />
+		<rom name="mds-lg4 e.1b or 6b" offset="0x4000" size="0x2000" crc="67f40126" sha1="891c2bc2b6e1ee1d58baea22714133cae6e38b8d" />
+		<rom name="mds-lg4 e.1a or 6a" offset="0x6000" size="0x2000" crc="44393845" sha1="5c36dcb115d4233a1e03faa28e95d2662953ca91" />
+		</dataarea>
+	</part>
+</software>

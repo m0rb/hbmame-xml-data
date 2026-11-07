@@ -1,0 +1,27 @@
+<software name="mswordr1" cloneof="msword">
+	<description>Magic Sword: Heroic Fantasy (World 900623)</description>
+	<year>1990</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c11r1.p1" offset="0x0" size="0x20000" crc="21c1f078" sha1="f32bd3b462cc84466244b362a66510b9d40ac2fd" />
+		<rom loadflag="load16_byte" name="c11r1.p2" offset="0x1" size="0x20000" crc="a540a73a" sha1="1c91241ba0d17d13adaa68e231b95dfd49d93b6d" />
+		<rom loadflag="load16_byte" name="c11r1.p3" offset="0x40000" size="0x20000" crc="d7e762b5" sha1="6977130e9c0cd36d8a67e242c132df38f7aea5b7" />
+		<rom loadflag="load16_byte" name="c11r1.p4" offset="0x40001" size="0x20000" crc="66f2dcdb" sha1="287508b1c96762d0048a10272cf2cbd39a7fba5c" />
+		<rom loadflag="load16_word_swap" name="c11.p5" offset="0x80000" size="0x80000" crc="2475ddfc" sha1="cc34dfae8124aa781320be6870a1929495eee456" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c11.m1" offset="0x0" size="0x8000" crc="57b29519" sha1="a6b4fc2b9595d1a49f2b93581f107b68d484d156" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="msword.key" offset="0x0" size="0x80" crc="aba87651" sha1="3fbf0839e1ee5669242e5e83af2bf7beb97e7b71" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c11.v1" offset="0x0" size="0x20000" crc="fb64e90d" sha1="d1a596ce2f8ac14a80b34335b173369a14b45f55" />
+		<rom name="c11.v2" offset="0x20000" size="0x20000" crc="74f892b9" sha1="bf48db5c438154e7b96fd31fde1be4aad5cf25eb" />
+		</dataarea>
+	</part>
+</software>

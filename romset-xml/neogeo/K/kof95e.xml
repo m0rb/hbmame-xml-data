@@ -1,0 +1,31 @@
+<software name="kof95e" cloneof="kof95">
+	<description>The King of Fighters &#x27;95 (Earlier)</description>
+	<year>1995</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="084.p1" offset="0x100000" size="0x100000" crc="2cba2716" sha1="f6c2d0537c9c3e0938065c65b1797c47198fcff8" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x900000">
+		<rom name="084.v1" offset="0x0" size="0x400000" crc="84861b56" sha1="1b6c91ddaed01f45eb9b7e49d9c2b9b479d50da6" />
+		<rom name="084.v2" offset="0x400000" size="0x200000" crc="b38a2803" sha1="dbc2c8606ca09ed7ff20906b022da3cf053b2f09" />
+		<rom name="084.v3" offset="0x800000" size="0x100000" crc="d683a338" sha1="eb9866b4b286edc09963cb96c43ce0a8fb09adbb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1a00000">
+		<rom loadflag="load16_byte" name="084e.c1" offset="0x400000" size="0x200000" crc="33bf8657" sha1="79b0f0eb4e5c172f36c296ccabeb474804f7645a" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="084e.c2" offset="0x400001" size="0x200000" crc="f21908a4" sha1="a0bec5961396e62af553ba5293b1007cdf9fbf62" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		<rom loadflag="load16_byte" name="084e.c3" offset="0xc00000" size="0x200000" crc="0cee1ddb" sha1="f63c05020c5bee37c2598fd235d76157baea6c68" />
+		<rom loadflag="continue" offset="0x800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="084e.c4" offset="0xc00001" size="0x200000" crc="729db15d" sha1="6167a601463d7aaba1c8d470b346a82e9aef8bb5" />
+		<rom loadflag="continue" offset="0x800001" size="0x200000" />
+		<rom loadflag="load16_byte" name="084.c5" offset="0x1000000" size="0x200000" crc="8a2c1edc" sha1="67866651bc0ce27122285a66b0aab108acf3d065" />
+		<rom loadflag="load16_byte" name="084.c6" offset="0x1000001" size="0x200000" crc="f593ac35" sha1="302c92c63f092a8d49429c3331e5e5678f0ea48d" />
+		<rom loadflag="load16_byte" name="084.c7" offset="0x1800000" size="0x100000" crc="9904025f" sha1="eec770746a0ad073f7d353ab16a2cc3a5278d307" />
+		<rom loadflag="load16_byte" name="084.c8" offset="0x1800001" size="0x100000" crc="78eb0f9b" sha1="2925ea21ed2ce167f08a25589e94f28643379034" />
+		</dataarea>
+	</part>
+</software>
