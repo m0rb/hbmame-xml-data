@@ -1,0 +1,15 @@
+<software name="neocstlv">
+	<description>Neo Castlevania Demo</description>
+	<year>2004</year>
+	<publisher>BarfHappy</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="620.p1" offset="0x0" size="0x80000" crc="8d6cd9f2" sha1="23258690b0268367420cb25ef951cfb15f79b88e" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="620.c1" offset="0x0" size="0x100000" crc="960a7414" sha1="753a8af8bfe9a6e9322744b9a31c8d8ef3615cae" />
+		<rom loadflag="load16_byte" name="620.c2" offset="0x1" size="0x100000" crc="24a961d0" sha1="c11dd77c9df0f829461bb3aebb3c6287b7e703f9" />
+		</dataarea>
+	</part>
+</software>

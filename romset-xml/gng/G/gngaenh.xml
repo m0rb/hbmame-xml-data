@@ -1,0 +1,29 @@
+<software name="gngaenh">
+	<description>Ghosts&#x27;n Goblins (Enhanced) (World? set 2)</description>
+	<year>2026</year>
+	<publisher>GoodLuckTrying</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x18000">
+		<rom name="mjg_03enh.8n" offset="0x8000" size="0x8000" crc="a157d522" sha1="3df644fcbb2c0508e9d186a40d30df4d0d1d5a1a" />
+		<rom name="mjg_04.10n" offset="0x4000" size="0x4000" crc="66606beb" sha1="4c640f49be93c7d2b12d4d4c56c56e74099b6c2f" />
+		<rom name="mjg_05enh.12n" offset="0x10000" size="0x8000" crc="dd9d540a" sha1="faf6ab5fad82766a71cd084706175d41765d65e7" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="capsom_m5m23256p_p_62410p_mjg_02.14h" offset="0x0" size="0x8000" crc="615f5b6f" sha1="7ef9ec5c2072e21c787a6bbf700033f50c759c1d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x20000">
+		<rom name="capsom_m5m23256p_p_61710g_mjg_09.3l" offset="0x18000" size="0x8000" crc="89c71940" sha1="9dd7decf4c776a2ebcf27a4b71e520774b9563eb" />
+		<rom name="capsom_m5m23256p_p_61710g_mjg_12.4n" offset="0x0" size="0x8000" crc="dbf05081" sha1="c0a327e8c1a899a7b6c35ae197f2640b89491dd9" />
+		<rom name="capsom_m5m23256p_p_620108_mjg_11.3n" offset="0x8000" size="0x8000" crc="cf533077" sha1="9ad39aa884daaf757668063f6c8a1a2037308441" />
+		<rom name="capsom_m5m23256p_p_62410p_mjg_10.4l" offset="0x10000" size="0x8000" crc="5f36734e" sha1="b0eb666b2ef31c0a801f17cc797bd0d2fdae9511" />
+		</dataarea>
+		<dataarea name="chars" size="0x4000">
+		<rom name="capsom_m5m23256p_p_616105_mjg_01.11e" offset="0x0" size="0x4000" crc="1ab9038a" sha1="907f2e2753f8e11a4addd19c225a5f333ff74344" />
+		</dataarea>
+		<dataarea name="tiles" size="0x18000">
+		<rom name="capsom_m5m23256p_p_616105_mmg_06.3b" offset="0x10000" size="0x8000" crc="830176af" sha1="1053adf458f2613a3ce6f3eb5d7d917906341d5c" />
+		<rom name="capsom_m5m23256p_p_61710z_mmg_07.3c" offset="0x8000" size="0x8000" crc="0b92b129" sha1="8e06b03323b470482e068a9d60f0263ac5088876" />
+		<rom name="capsom_m5m23256p_p_616105_mmg_08.3e" offset="0x0" size="0x8000" crc="c09a716f" sha1="d30d31ae8458ac22b61a01bf52dd50788e15c51f" />
+		</dataarea>
+	</part>
+</software>

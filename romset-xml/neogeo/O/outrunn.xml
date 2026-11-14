@@ -1,0 +1,18 @@
+<software name="outrunn">
+	<description>Out Run (Neo-Geo port, v1.0.1)</description>
+	<year>2026</year>
+	<publisher>Bendk97</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="541.p1" offset="0x0" size="0x800000" crc="60186e29" sha1="a9b479eb48aa499253174211298404679944ed1a" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="541.v1" offset="0x0" size="0x1000000" crc="c7f9348d" sha1="11c5a404886ecbc645d6186bc8fd2214f1545f6f" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="541.c1" offset="0x0" size="0x2000000" crc="4a01f4bd" sha1="3ab362b53270be049ea9413a9e8ae20c8116469f" />
+		<rom loadflag="load16_byte" name="541.c2" offset="0x1" size="0x2000000" crc="95896759" sha1="d115434822d7756bb76d2f3b219d9391c11193aa" />
+		</dataarea>
+	</part>
+</software>

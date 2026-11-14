@@ -1,0 +1,18 @@
+<software name="centuryxi">
+	<description>Century XI: The Road to 2030 (v4.0.0)</description>
+	<year>2026</year>
+	<publisher>Eagle Software</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="787.p1" offset="0x0" size="0x80000" crc="123d1197" sha1="2816ab7f80cf51cea0c06b88a954b95a4861a133" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="787.v1" offset="0x0" size="0x73bf00" crc="18ecd70b" sha1="c91f851bfbeed6dd7225d2068b4fe9353eb6ed28" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="787.c1" offset="0x0" size="0x400000" crc="6f2011b2" sha1="34eb9ff7e09a477eba2c85ae8ffe35e5029f486d" />
+		<rom loadflag="load16_byte" name="787.c2" offset="0x1" size="0x400000" crc="907bc964" sha1="0edb2b0d3d3c091f5684a87fbd4a97babc448034" />
+		</dataarea>
+	</part>
+</software>

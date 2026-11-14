@@ -1,0 +1,28 @@
+<software name="hoverbov">
+	<description>Hover Bovver</description>
+	<year>2022</year>
+	<publisher>Jeff Minter</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="hoverbov.2d" offset="0x0" size="0x800" crc="013a2909" sha1="62a6a5dc390dff678ec87c5188bc03357da0a7d0" />
+		<rom name="hoverbov.2e" offset="0x800" size="0x800" crc="c0207df6" sha1="c1e8eb3812ba6f4f2e43e32ce5942a17a2803db8" />
+		<rom name="hoverbov.2f" offset="0x1000" size="0x800" crc="65c80db9" sha1="0e748197ec4406c3ebf40f69ad5aae98082c956c" />
+		<rom name="hoverbov.2h" offset="0x1800" size="0x800" crc="8e0a2aec" sha1="810e14beedf1e0b518056f57be8bde898e697f86" />
+		<rom name="hoverbov.2j" offset="0x2000" size="0x800" crc="cdb4cd52" sha1="f5af063ba9d6dace5e2967afdc3eb32791e13ce8" />
+		<rom name="hoverbov.2l" offset="0x2800" size="0x800" crc="914a99a1" sha1="2342972a8965069e918e6ff4aef91efde7fbe26c" />
+		<rom name="hoverbov.2m" offset="0x3000" size="0x800" crc="4cb9456f" sha1="15d938671761800ddf6d4d7032a5bfa2267c3f48" />
+		<rom name="hoverbov.2p" offset="0x3800" size="0x800" crc="da14b38b" sha1="962e2f7c1c4e106101663138fe47dbb5b95f51ee" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="hoverbov.5c" offset="0x0" size="0x800" crc="09f0053e" sha1="af3efdc8c357b7806ac6bd76bf78cc2c16049f5e" />
+		<rom name="hoverbov.5d" offset="0x800" size="0x800" crc="48a6e43d" sha1="3f7d249d2d341d0257bf5d4f9c167e8e08c3baff" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="hoverbov.5f" offset="0x0" size="0x800" crc="d145d380" sha1="0351d2fe27942c53fa16393e72f42eb91edafc03" />
+		<rom name="hoverbov.5h" offset="0x800" size="0x800" crc="9b2ad485" sha1="f54724ebe4e247e97bac09f99ce63d6d81bf1f03" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="hoverbov.6e" offset="0x0" size="0x20" crc="6664dbf0" sha1="f582549b68f1d73a53f20527f84a87f5ad12a190" />
+		</dataarea>
+	</part>
+</software>

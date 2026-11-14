@@ -1,0 +1,32 @@
+<software name="tankwc">
+	<description>Tank World Cup</description>
+	<year>2003</year>
+	<publisher>Kazzy</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="twc-1.bin" offset="0x0" size="0x4000" crc="34d6d5ff" sha1="72f4d408b8a7766d348f6a229d395e0c98215c40" />
+		<rom name="twc-2.bin" offset="0x4000" size="0x4000" crc="7017a221" sha1="4b4700af0a6ff64f976db369ba4b9d97cee1fd5f" />
+		<rom name="twc-3.bin" offset="0x8000" size="0x4000" crc="8b662902" sha1="13bcd4bf23e34dd7193545561e05bb2cb2c95f9b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="twc-6.bin" offset="0x0" size="0x4000" crc="e3112be2" sha1="7859e51b4312dc5df01c88e1d97cf608abc7ca72" />
+		</dataarea>
+		<dataarea name="adpcm" size="0x8000">
+		<rom name="twc-5.bin" offset="0x0" size="0x4000" crc="444b5544" sha1="0786d6d9ada7fe49c8ab9751b049095474d2e598" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="tkwc-12.bin" offset="0x0" size="0x4000" crc="cf5e084a" sha1="bba909898135467a8cbe8ca7ba7d14254ad52135" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x10000">
+		<rom name="tkwc-8.bin" offset="0x0" size="0x8000" crc="068210d1" sha1="f2f21fa9452ba6d47ccdb4de3ddab833956d3fea" />
+		<rom name="tkwc-7.bin" offset="0x8000" size="0x8000" crc="8e7dca59" sha1="4ae3d6c0faf99d16db5b3c49ae96aa87741f635c" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x10000">
+		<rom name="tkwc-11.bin" offset="0x0" size="0x8000" crc="1f8536e3" sha1="de44a066fc5862bac7de039053262ec167b70c35" />
+		<rom name="tkwc-9.bin" offset="0x8000" size="0x8000" crc="f88f52ed" sha1="33fa29582f81f2da7dcb671ccb0c7121b95b545f" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="twc-4.bin" offset="0x0" size="0x8000" crc="70a9f883" sha1="ace04359265271eb37512a89eb0217eb013aecb7" />
+		</dataarea>
+	</part>
+</software>

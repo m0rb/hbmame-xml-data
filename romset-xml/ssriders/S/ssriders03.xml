@@ -1,0 +1,26 @@
+<software name="ssriders03">
+	<description>Sunset Riders (The Hardest Version In Two Weeks, 2019-04-20)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0xc0000">
+		<rom loadflag="load16_byte" name="064eaa02_s03.8e" offset="0x0" size="0x40000" crc="734f4b4c" sha1="a38d27d38759e3811c54e4921186c91a762eaa62" />
+		<rom loadflag="load16_byte" name="064eaa03_s03.8g" offset="0x1" size="0x40000" crc="d50e01fd" sha1="8070090ee0da5e57d6df042da8926dd322629bfd" />
+		<rom loadflag="load16_byte" name="064eaa04_s03.10e" offset="0x80000" size="0x20000" crc="56bb2e75" sha1="78cf0cc1a529a5f9e37249d8480aa7476e338099" />
+		<rom loadflag="load16_byte" name="064eaa05_s02.10g" offset="0x80001" size="0x20000" crc="0aad4619" sha1="98678d79323f5cc439dd186aa45ab3fb2e7d1515" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="064eaa01.2f" offset="0x0" size="0x10000" crc="bce45d82" sha1="7f6d17fad0b556243c59d25a94925d259d98d81a" />
+		</dataarea>
+		<dataarea name="eeprom" size="0x80">
+		<rom name="ssriders_eaa.nv" offset="0x0" size="0x80" crc="74a45ef5" sha1="da01f14684315bfb5c180f0c64a14350c34ae945" />
+		</dataarea>
+		<dataarea name="k052109" size="0x100000">
+		</dataarea>
+		<dataarea name="k053245" size="0x200000">
+		</dataarea>
+		<dataarea name="k053260" size="0x100000">
+		<rom name="064e06.1d" offset="0x0" size="0x100000" crc="59810df9" sha1="a0affc6330bdbfab1447dc0cf13c20ff708c2c71" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,23 @@
+<software name="mspacii2" cloneof="mspacman">
+	<description>Ms. Pacman (Pink Plus)</description>
+	<year>2018</year>
+	<publisher>MamePlus</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacmdp.1" offset="0x0" size="0x1000" crc="69c02827" sha1="12b675ab56cb9f3184a6a6bd280eafbab4ceb5b2" />
+		<rom name="pacmdp.2" offset="0x1000" size="0x1000" crc="e961c8b3" sha1="f0486c1c49ed7abd9f865c939a5d8fa685125b75" />
+		<rom name="mspacpbl.3" offset="0x2000" size="0x1000" crc="60c890a1" sha1="c1fbaedb212449803f5b506ac6f8e258644e4536" />
+		<rom name="mspacii2.4" offset="0x3000" size="0x1000" crc="693ba65e" sha1="f7ba90b98b89f4daf3d126376c764dc712be8823" />
+		<rom name="mspacii2.5" offset="0x8000" size="0x1000" crc="97331824" sha1="71e2f3ea435c3f01cf327bf4d49509a23697abe3" />
+		<rom name="mspacii2.6" offset="0x9000" size="0x1200" crc="da8171ad" sha1="aab1d06d5fce8df9011336c873f26391c8f6c9eb" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mspacii2.5e" offset="0x0" size="0x1000" crc="ff5e7574" sha1="d2356085028c84366b58e71ef7719535817c5d1e" />
+		<rom name="mspacii2.5f" offset="0x1000" size="0x1000" crc="20ba1b49" sha1="98793c1d4bbf3b1490fcd6fa56102063e6f3efb3" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="mspacii2.7f" offset="0x0" size="0x20" crc="df9d02f5" sha1="775b244f8a99b63cfd2d6d68d5a039b3276d6dc6" />
+		<rom name="pacplus.4a" offset="0x20" size="0x100" crc="e271a166" sha1="cf006536215a7a1d488eebc1d8a2e2a8134ce1a6" />
+		</dataarea>
+	</part>
+</software>

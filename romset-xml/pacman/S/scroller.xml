@@ -1,0 +1,15 @@
+<software name="scroller" cloneof="puckman">
+	<description>Scroller</description>
+	<year>2017</year>
+	<publisher>Hurray Banana</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="scroller.6e" offset="0x0" size="0x1000" crc="081b47c5" sha1="dc3d1ae904dc56b31b585ac1022b46633c00b016" />
+		<rom name="scroller.6f" offset="0x1000" size="0x1000" crc="93ef7735" sha1="9ea39352dc658cd6f40f9df0d3aca7cb411f86cf" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="scroller.5e" offset="0x0" size="0x1000" crc="14473363" sha1="2e8b73fc4737ac81e66f92ec2dd34eab8e2d6fe6" />
+		<rom name="scroller.5f" offset="0x1000" size="0x1000" crc="47e8e97e" sha1="51904ab4d5c92870996e6f575f67778cab206c3d" />
+		</dataarea>
+	</part>
+</software>

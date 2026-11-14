@@ -1,0 +1,19 @@
+<software name="asteborg">
+	<description>Demons of Asteborg DX (demo)</description>
+	<year>2026</year>
+	<publisher>Neofid Studio</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x900000">
+		<rom loadflag="load16_word_swap" name="556.p1" offset="0x0" size="0x100000" crc="944d8053" sha1="b4f86e8b1955f679c2b628fd94edefd8e930fea6" />
+		<rom loadflag="load16_word_swap" name="556.p2" offset="0x100000" size="0x800000" crc="b78472c6" sha1="309c8fd14f784ccb84772578e7a8805c286c809f" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="556.v1" offset="0x0" size="0x1000000" crc="dd4c85be" sha1="ea6360013971b365a479d9753b44e22714b586a9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="556.c1" offset="0x0" size="0x2000000" crc="42c58d68" sha1="ac779444390d98029e742082f2db43a0c0524221" />
+		<rom loadflag="load16_byte" name="556.c2" offset="0x1" size="0x2000000" crc="7a455567" sha1="da6087ae00f59f0332d08ad00e9837003b174ae0" />
+		</dataarea>
+	</part>
+</software>

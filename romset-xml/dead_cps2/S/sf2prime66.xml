@@ -1,0 +1,23 @@
+<software name="sf2prime66" cloneof="hsf2">
+	<description>Street Fighter II&#x27;: Prime (v0.66)</description>
+	<year>2025</year>
+	<publisher>Zero800</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c88pr.p1" offset="0x0" size="0x80000" crc="27b6ac88" sha1="becdc139f0af175fbbc91c230753d095253d0acc" />
+		<rom loadflag="load16_word_swap" name="c88pr.p2" offset="0x80000" size="0x80000" crc="8d9baac1" sha1="3b302e2483f72a8a0f7327089de0c86620890ee3" />
+		<rom loadflag="load16_word_swap" name="c88pr.p3" offset="0x100000" size="0x80000" crc="15f6c1b9" sha1="66c8ae49a05ce50dd606867ff7ab5d08a02f1314" />
+		<rom loadflag="load16_word_swap" name="c88pr.p4" offset="0x180000" size="0x80000" crc="095ee372" sha1="644e756e2a1280c573b348632a8d3b77994b15dc" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c88pr.m1" offset="0x0" size="0x8000" crc="6ce233a7" sha1="5ff00de2fa8f31e66c9518049828d532554cb316" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c88.m2" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c88pr.q1" offset="0x0" size="0x800000" crc="cd8b2d9f" sha1="bc4965b1cb6c211cdcf29ab5988702abd82effbc" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,17 @@
+<software name="brakman" cloneof="puckman">
+	<description>Brakman</description>
+	<year>2000</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="brakman.6j" offset="0x3000" size="0x1000" crc="2d2af2e5" sha1="8355f30b106e53499d3c1e1174aee6572869b428" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="brakman.5e" offset="0x0" size="0x1000" crc="a004abe7" sha1="c2c8d871b17c9a1f8902f8ec3e46e0991e747f45" />
+		<rom name="brakman.5f" offset="0x1000" size="0x1000" crc="30ed6264" sha1="5bc2753aa6f2e49f6c1ce5810cf561d27ecb38e6" />
+		</dataarea>
+	</part>
+</software>

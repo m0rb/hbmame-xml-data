@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="targ" description="Targ cartridges">
+<software name="targtest">
+	<description>Targ Test Rom (V1.0)</description>
+	<year>2008</year>
+	<publisher>Timothy Shiels</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="hrl_10a1.10a" offset="0x1800" size="0x800" crc="969744e1" sha1="e123bdb02b3b5f6a59c1e7c9ef557fe6bb19c62c" />
+		<rom name="hrl_9a1.9a" offset="0x2000" size="0x800" crc="a177a72d" sha1="0e705e3e32021e55af4414fa0e2ccbc4980ee848" />
+		<rom name="hrl_8a1.8a" offset="0x2800" size="0x800" crc="6e6928a5" sha1="10c725b27225ac5aad8639b081df68dd61522cf2" />
+		<rom name="targtest.7a" offset="0x3000" size="0x800" crc="22ae0198" sha1="0139e3c36e4e415641cefae900347dcf81f00716" />
+		<rom name="hrl_6a3.6a" offset="0x3800" size="0x800" crc="a60a1bfc" sha1="17c0e67e1a0b263b57d70a148cc5d5099fecbb40" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x400">
+		<rom name="hrl_11d-1.11d" offset="0x0" size="0x400" crc="9f03513e" sha1="aa4763e49df65e5686a96431543580b8d8285893" />
+		</dataarea>
+		<dataarea name="targ" size="0x20">
+		<rom name="hra2b-1" offset="0x0" size="0x20" crc="38e8024b" sha1="adf1c1770695f7614c95eceb803f662c5b096a76" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

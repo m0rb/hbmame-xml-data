@@ -1,0 +1,23 @@
+<software name="kf2k3pcb">
+	<description>Kof 2003 (Japan, JAMMA PCB)</description>
+	<year>2003</year>
+	<publisher>SNK Playmore</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x900000">
+		<rom loadflag="load32_word_swap" name="271c.p1" offset="0x0" size="0x400000" crc="b9da070c" sha1="1a26325af142a4dd221c336061761468598c4634" />
+		<rom loadflag="load32_word_swap" name="271c.p2" offset="0x2" size="0x400000" crc="da3118c4" sha1="582e4f44f03276adecb7b2848d3b96bf6da57f1e" />
+		<rom loadflag="load16_word_swap" name="271c.p3" offset="0x800000" size="0x100000" crc="5cefd0d2" sha1="cddc3164629fed4b6f715e12b109ad35d1009355" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x90000">
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="271c.v1" offset="0x0" size="0x1000000" crc="1d96154b" sha1="1d4e262b0d30cee79a4edc83bb9706023c736668" />
+		</dataarea>
+		<dataarea name="sprites" size="0x6000000">
+		</dataarea>
+		<dataarea name="audiocrypt" size="0x80000">
+		<rom name="271c.m1" offset="0x0" size="0x80000" crc="d6bcf2bc" sha1="df78bc95990eb8e8f3638dde6e1876354df7fe84" />
+		</dataarea>
+	</part>
+</software>

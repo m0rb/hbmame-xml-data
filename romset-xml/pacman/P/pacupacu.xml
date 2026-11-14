@@ -1,0 +1,17 @@
+<software name="pacupacu" cloneof="puckman">
+	<description>Pacu Pacu (v1.0)</description>
+	<year>2025</year>
+	<publisher>Sokurah</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacupacu.6e" offset="0x0" size="0x1000" crc="9d0bd8fc" sha1="af0c53dc1235a5ac0bf281ad5ee6579e6812ec89" />
+		<rom name="pacupacu.6f" offset="0x1000" size="0x1000" crc="61a5f90f" sha1="a4161f5337b6839fa22c73c5b059f523e5f19236" />
+		<rom name="pacupacu.6h" offset="0x2000" size="0x1000" crc="7297a588" sha1="c7cc771806f1fb470c9f21c741336003e795fac4" />
+		<rom name="pacupacu.6j" offset="0x3000" size="0x1000" crc="034c1c70" sha1="84163fd412cc1e42411d6dee36027c7a065cb6bd" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacupacu.5e" offset="0x0" size="0x1000" crc="650ced28" sha1="9c4de9b7d0f04b69ed6c1ead60b92ddbfea3633a" />
+		<rom name="pacupacu.5f" offset="0x1000" size="0x1000" crc="ab0c1c47" sha1="2295b3dc43c3bb595e5f15685816999eba88c62e" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,28 @@
+<software name="kof2001s36" cloneof="kof2001">
+	<description>Kof2001 (Hidden Characters - Boss Fixed Version)</description>
+	<year>2001</year>
+	<publisher>KoF1996, KQZ &amp; Zuojie</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="262b1.p1" offset="0x0" size="0x100000" crc="832ff765" sha1="93bc612249ecbeddb12a80caed5cc6bb15ecac0a" />
+		<rom loadflag="load16_word_swap" name="262b1.p2" offset="0x100000" size="0x400000" crc="6762cf94" sha1="7444554b6de83b11a4c1ffc0230e646a6d5a7c75" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="262.v1" offset="0x0" size="0x400000" crc="83d49ecf" sha1="2f2c116e45397652e77fcf5d951fa5f71b639572" />
+		<rom name="262.v2" offset="0x400000" size="0x400000" crc="003f1843" sha1="bdd58837ad542548bd4053c262f558af88e3b989" />
+		<rom name="262.v3" offset="0x800000" size="0x400000" crc="2ae38dbe" sha1="4e82b7dd3b899d61907620517a5a27bdaba0725d" />
+		<rom name="262.v4" offset="0xc00000" size="0x400000" crc="26ec4dd9" sha1="8bd68d95a2d913be41a51f51e48dbe3bff5924fb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="262s36.c1" offset="0x0" size="0x800000" crc="5c2f3e22" sha1="0670e976d803055e5e5cb2a6bd46562730a12cf3" />
+		<rom loadflag="load16_byte" name="262s36.c2" offset="0x1" size="0x800000" crc="a9894432" sha1="78b31afa130c8c6457da102981281974a5c82d7c" />
+		<rom loadflag="load16_byte" name="262s36.c3" offset="0x1000000" size="0x800000" crc="0e304ec3" sha1="81f35ce8172938d2afb0f8072aae121280413a72" />
+		<rom loadflag="load16_byte" name="262s36.c4" offset="0x1000001" size="0x800000" crc="5da1d38a" sha1="7042b850cdc870e1f0d824176d80669778102a67" />
+		<rom loadflag="load16_byte" name="262s36.c5" offset="0x2000000" size="0x800000" crc="d6742dc0" sha1="f34e2ca12563848cdd11cb92c36b5635034b10e2" />
+		<rom loadflag="load16_byte" name="262s36.c6" offset="0x2000001" size="0x800000" crc="9f10895c" sha1="48c96f5b2bc5a900fde73cccffcee523e2c6e9ec" />
+		<rom loadflag="load16_byte" name="262s36.c7" offset="0x3000000" size="0x800000" crc="d933fc86" sha1="23ab5ac3975188f0f450b9a2dea60dbb020d1145" />
+		<rom loadflag="load16_byte" name="262s36.c8" offset="0x3000001" size="0x800000" crc="415c7a42" sha1="508d351ff5175aa7851f18d145933839f334f57c" />
+		</dataarea>
+	</part>
+</software>

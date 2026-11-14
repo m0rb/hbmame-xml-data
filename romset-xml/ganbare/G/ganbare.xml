@@ -1,0 +1,23 @@
+<software name="ganbare">
+	<description>Ganbare! Marine Kun (Japan 2K0411)</description>
+	<year>2000</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c38.p1" offset="0x0" size="0x80000" crc="f929be72" sha1="d175bdcace469277479ef85bf4e1b9d5a63cffde" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c38.m1" offset="0x0" size="0x8000" crc="62470d72" sha1="1de357a20f794defb49ed01af5b95ad00e2aa1d9" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="ganbare.key" offset="0x0" size="0x80" crc="b30c6f12" sha1="d30c4694471375e50068e0ff5a5b3b7f13421692" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c38.v1" offset="0x0" size="0x20000" crc="08e13940" sha1="5c7dd7ff6a66f100b59cf9244e78f2c8702faca1" />
+		<rom name="c38.v2" offset="0x20000" size="0x20000" crc="5fa59927" sha1="f05246cf566c214b008a91816c71e7c03b7cc218" />
+		</dataarea>
+	</part>
+</software>

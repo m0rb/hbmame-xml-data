@@ -1,0 +1,18 @@
+<software name="knightsch">
+	<description>Knight&#x27;s Chance</description>
+	<year>2014</year>
+	<publisher>Neobitz</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="340.p1" offset="0x0" size="0x100000" crc="d7ac5077" sha1="bbb72cb8eba04b7a93c1e611c50cec8cbc52eb9a" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="340.v1" offset="0x0" size="0x800000" crc="b8e55619" sha1="d1e03486b9f33954e0b3f411414ff4cf764aa55f" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="340.c1" offset="0x0" size="0x400000" crc="206ca233" sha1="05490faba5b4003c1f073c94f9335e89ff14b464" />
+		<rom loadflag="load16_byte" name="340.c2" offset="0x1" size="0x400000" crc="782437cb" sha1="30bf0362663a42c1069f67ee65f49d19d2c695ec" />
+		</dataarea>
+	</part>
+</software>

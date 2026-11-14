@@ -1,0 +1,16 @@
+<software name="pc_gyrus">
+	<description>Gyruss (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="gyruss-u1" offset="0x0" size="0x8000" crc="3eb77902" sha1="2419437ad701f5e165778af02b888da268c9a74d" />
+		</dataarea>
+		<dataarea name="prg" size="0x30000">
+		<rom name="gyruss-u4" offset="0x10000" size="0x8000" crc="48ecc48a" sha1="0afdb50a07ae9610f5c62dc8cca661ca359352be" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="1b26e58c.prm" offset="0x0" size="0x10" crc="1b26e58c" sha1="bd2d81d3cc54966ef154b3487d43ecbc316d6d22" />
+		</dataarea>
+	</part>
+</software>

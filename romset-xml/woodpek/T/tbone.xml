@@ -1,0 +1,18 @@
+<software name="tbone" cloneof="puckman">
+	<description>Pacman 2000 (T-Bone Mazes)</description>
+	<year>2000</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman6.6h" offset="0x2000" size="0x1000" crc="aee79ea1" sha1="4f3214b56056c3ac00c0535ce5d6a367ccda6e31" />
+		<rom name="pacman6.6j" offset="0x3000" size="0x1000" crc="581ae70b" sha1="a184c9d9b6ffbaba936867aef14e783234bf7af2" />
+		<rom name="tbone.map" offset="0x8000" size="0x1000" crc="e7377f2d" sha1="3cffb221655b1c7240a97ec82132a4a1a76d383e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="tbone.5e" offset="0x0" size="0x1000" crc="afd44c48" sha1="36750fbaeb8db4143fdd90aec83189fc552b110e" />
+		<rom name="pacman.5f" offset="0x1000" size="0x1000" crc="958fedf9" sha1="4a937ac02216ea8c96477d4a15522070507fb599" />
+		</dataarea>
+	</part>
+</software>

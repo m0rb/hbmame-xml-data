@@ -1,0 +1,22 @@
+<software name="breakers03" cloneof="breakers">
+	<description>Breakers (Move change)</description>
+	<year>1996</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="230s03.p1" offset="0x100000" size="0x100000" crc="244ad91b" sha1="22efea04bfb86e8c75a80c6584ab0caa85fc0e92" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="230.v1" offset="0x0" size="0x400000" crc="7f9ed279" sha1="acd0558960ec29bfc3e3ee99d00e503bebff8513" />
+		<rom name="230.v2" offset="0x400000" size="0x400000" crc="1d43e420" sha1="26d09b8b18b4b802dbda4d6f06626c24d0b7c512" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="230.c1" offset="0x0" size="0x400000" crc="68d4ae76" sha1="2e820067f6963669f104bebf19e865fe4127b4dd" />
+		<rom loadflag="load16_byte" name="230.c2" offset="0x1" size="0x400000" crc="fdee05cd" sha1="efc4ffd790953ac7c25d5f045c64a9b49d24b096" />
+		<rom loadflag="load16_byte" name="230.c3" offset="0x800000" size="0x400000" crc="645077f3" sha1="0ae74f3b4b3b88f128c6d8c0f35ffa53f5d67ef2" />
+		<rom loadflag="load16_byte" name="230.c4" offset="0x800001" size="0x400000" crc="63aeb74c" sha1="9ff6930c0c3d79b46b86356e8565ce4fcd69ac38" />
+		</dataarea>
+	</part>
+</software>

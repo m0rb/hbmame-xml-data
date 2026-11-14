@@ -1,0 +1,28 @@
+<software name="kof2002s313" cloneof="kof2002">
+	<description>Kof2002 (PlayStation 2 Female Storm Edition Extremely simplified, 2019-03-19)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x600000">
+		<rom loadflag="load16_word_swap" name="265s313.p1" offset="0x0" size="0x100000" crc="2c1e34ec" sha1="9e803a3272fb334601a72d3b53cbc6a607594b32" />
+		<rom loadflag="load16_word_swap" name="265s312.p2" offset="0x100000" size="0x500000" crc="8ba6bc07" sha1="faff7a35e8aed85b2a3e89164f910aeb05d57d28" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="kf10-v1.bin" offset="0x0" size="0x800000" crc="0fc9a58d" sha1="9d79ef00e2c2abd9f29af5521c2fbe5798bf336f" />
+		<rom name="kf10-v2.bin" offset="0x800000" size="0x800000" crc="b8c475a4" sha1="10caf9c69927a223445d2c4b147864c02ce520a8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x5000000">
+		<rom loadflag="load16_byte" name="265d.c1" offset="0x0" size="0x800000" crc="7efa6ef7" sha1="71345a4202e7cc9239538fb978638141416c8893" />
+		<rom loadflag="load16_byte" name="265d.c2" offset="0x1" size="0x800000" crc="aa82948b" sha1="b2a40797f68bdeb80bc54dccc5495be68934bf0e" />
+		<rom loadflag="load16_byte" name="265d.c3" offset="0x1000000" size="0x800000" crc="959fad0b" sha1="63ab83ddc5f688dc8165a7ff8d262df3fcd942a2" />
+		<rom loadflag="load16_byte" name="265d.c4" offset="0x1000001" size="0x800000" crc="efe6a468" sha1="2a414285e48aa948b5b0d4a9333bab083b5fb853" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="265s312.c7" offset="0x3000000" size="0x800000" crc="458b7551" sha1="4ec7e0b28f9e02b7e9257698fc1669d92c5d0d16" />
+		<rom loadflag="load16_byte" name="265s312.c8" offset="0x3000001" size="0x800000" crc="425f1e00" sha1="cfdfba08ef445a5ca47220a7ad223f1a59636865" />
+		<rom loadflag="load16_byte" name="265s312.c9" offset="0x4000000" size="0x800000" crc="1d483060" sha1="c24eba43ec44af5adcfc0de4bb06a141aa75ba6a" />
+		<rom loadflag="load16_byte" name="265s312.c10" offset="0x4000001" size="0x800000" crc="0b83a7e2" sha1="c925dd29efe72ca025bdf2dde6e08dad4beda9fe" />
+		</dataarea>
+	</part>
+</software>

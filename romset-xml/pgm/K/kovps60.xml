@@ -1,0 +1,28 @@
+<software name="kovps60" cloneof="kovplus">
+	<description>Knights of Valour Plus 2012 (Legend Of Ares 2020, 2019-08-13)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_ph352.119" offset="0x100000" size="0x400000" crc="05a7f4e8" sha1="633ed8590e9bcc76dc6f40977c1323dd7571c5b7" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u3" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0600_ph19.rom" offset="0x180000" size="0x800000" crc="a51f6c60" sha1="e2c184d6e4bb1e6fc02ee2e5953693c7461746be" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_ph312.rom" offset="0x0" size="0x800000" crc="e0a73add" sha1="054f01cd06d743635305a7a9f4a9bcd3a3dc8d71" />
+		<rom name="a0601_ph157.rom" offset="0x800000" size="0x800000" crc="551e3563" sha1="377951b13508103796baeb4097670aff187d1696" />
+		<rom name="a0602_ph177.rom" offset="0x1000000" size="0x800000" crc="efb30f14" sha1="ab5b4232b2dfc9f4e3a77112028a903f30b41fb9" />
+		<rom name="pgm_a0603.u9" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_ph312.rom" offset="0x0" size="0x800000" crc="6c14d658" sha1="f7f70085d7cf0f67549143b2c77b4d12ebe7786b" />
+		<rom name="b0601_ph177.rom" offset="0x800000" size="0x400000" crc="f43e4276" sha1="b0ad317f70681e4300228f34bb8f4bead50111ea" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		</dataarea>
+	</part>
+</software>

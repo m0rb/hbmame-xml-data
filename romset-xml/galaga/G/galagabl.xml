@@ -1,0 +1,38 @@
+<software name="galagabl">
+	<description>Galaga (Namco 1982)</description>
+	<year>1982</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="gg1-1" offset="0x0" size="0x1000" crc="a3a0f743" sha1="6907773db7c002ecde5e41853603d53387c5c7cd" />
+		<rom name="galagabl.1_2" offset="0x1000" size="0x1000" crc="f1d87ec3" sha1="44034b4f015d9e876253d2827e05f3d41133e097" />
+		<rom name="gg1_3.2m" offset="0x2000" size="0x1000" crc="753ce503" sha1="481f443aea3ed3504ec2f3a6bfcf3cd47e2f8f81" />
+		<rom name="gg1-4" offset="0x3000" size="0x1000" crc="83874442" sha1="366cb0dbd31b787e64f88d182108b670d03b393e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="gg1_9.4l" offset="0x0" size="0x1000" crc="58b2f47c" sha1="62f1279a784ab2f8218c4137c7accda00e6a3490" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="gg1_11.4d" offset="0x0" size="0x1000" crc="ad447c80" sha1="e697c180178cabd1d32483c5d8889a40633f7857" />
+		<rom name="gg1_10.4f" offset="0x1000" size="0x1000" crc="dd6f1afc" sha1="c340ed8c25e0979629a9a1730edc762bd72d0cff" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="prom-1.1d" offset="0x0" size="0x100" crc="7a2815b4" sha1="085ada18c498fdb18ecedef0ea8fe9217edb7b46" />
+		<rom name="prom-2.5c" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="prom-5.5n" offset="0x0" size="0x20" crc="54603c6b" sha1="1a6dea13b4af155d9cb5b999a75d4f1eb9c71346" />
+		<rom name="prom-4.2n" offset="0x20" size="0x100" crc="59b6edab" sha1="0281de86c236c88739297ff712e0a4f5c8bf8ab9" />
+		<rom name="prom-3.1c" offset="0x120" size="0x100" crc="4a04bb6b" sha1="cdd4bc1013f5c11984fdc4fd10e2d2e27120c1e5" />
+		</dataarea>
+		<dataarea name="sub" size="0x10000">
+		<rom name="gg1-5" offset="0x0" size="0x1000" crc="3102fccd" sha1="d29b68d6aab3217fa2106b3507b9273ff3f927bf" />
+		</dataarea>
+		<dataarea name="sub2" size="0x10000">
+		<rom name="gg1-7" offset="0x0" size="0x1000" crc="8995088d" sha1="d6cb439de0718826d1a0363c9d77de8740b18ecf" />
+		</dataarea>
+		<dataarea name="sub3" size="0x10000">
+		<rom name="galagabl.1_6" offset="0x0" size="0x1000" crc="001b70bc" sha1="b465eee91e75257b7b049d49c0064ab5fd66c576" />
+		</dataarea>
+	</part>
+</software>

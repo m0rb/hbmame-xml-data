@@ -1,0 +1,19 @@
+<software name="vaporous">
+	<description>Vaporous intro</description>
+	<year>2025</year>
+	<publisher>TTE</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="644.p1" offset="0x0" size="0x100000" crc="536517ca" sha1="448cc860cb4e91e8a9ce9fcd24fe7a8b9e45c760" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="644.v1" offset="0x0" size="0x400000" crc="90f21f51" sha1="302a8edbefa5a697d641cf39ce2932fa90219ed1" />
+		<rom name="644.v2" offset="0x400000" size="0x400000" crc="3354e822" sha1="0973b579f0951a905df176706157062ece512342" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="644.c1" offset="0x0" size="0x800000" crc="cd5b5b97" sha1="6e2451343f159728869fa16879075ad741866866" />
+		<rom loadflag="load16_byte" name="644.c2" offset="0x1" size="0x800000" crc="ecbcf96f" sha1="bc875ab87cae1146d12d77f8dd17ce9b574ed080" />
+		</dataarea>
+	</part>
+</software>

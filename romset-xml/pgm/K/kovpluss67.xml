@@ -1,0 +1,29 @@
+<software name="kovpluss67" cloneof="kovplus">
+	<description>Knights of Valour Plus (Three Kingdoms Wars - The World Under A New Version)</description>
+	<year>1999</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_ph67.119" offset="0x100000" size="0x400000" crc="3ce16a30" sha1="270f33ac92b9ffcc59c1edfd350685c61df6c815" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600_ph67.rom" offset="0x400000" size="0x400000" crc="8c880a53" sha1="e167e082c732203fe33e39bd8ae26845bc6bf97a" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_ph67.rom" offset="0x0" size="0x800000" crc="783df23c" sha1="5458a1b84d0d52ef0490bec0b1fe5b503b7965fc" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602lw.rom" offset="0x1000000" size="0x800000" crc="71c8a46c" sha1="6391eb95e1f2933b0e02518232a4bbcf7c91b73f" />
+		<rom name="a0603_ph67.rom" offset="0x1800000" size="0x400000" crc="4d755da5" sha1="8b04020578e96030b86359a9f0ba892adb703bf5" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_ph67.rom" offset="0x0" size="0x800000" crc="e3bf000f" sha1="154753a31913b931878ea3aafbb677f7d6174a54" />
+		<rom name="b0601_ph67.rom" offset="0x800000" size="0x400000" crc="47a9af9c" sha1="87596e64c2f6c4ed039928d2d69a04e669aeb930" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_ph06.rom" offset="0x180000" size="0x800000" crc="d049c5bf" sha1="8f75b6f3171d5dda9010be325a4c8f880b8fc645" />
+		</dataarea>
+	</part>
+</software>

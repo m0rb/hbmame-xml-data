@@ -1,0 +1,28 @@
+<software name="ct2k3s31" cloneof="cthd2k3b">
+	<description>Crouching Tiger Hidden Dragon 2003 (set 2)</description>
+	<year>2004</year>
+	<publisher>bootleg</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="360s31.p1" offset="0x0" size="0x100000" crc="1185fe39" sha1="f7ce0878180858c359f125990fd750ec846f42dd" />
+		<rom loadflag="load16_word_swap" name="360s31.p2" offset="0x100000" size="0x400000" crc="ea71faf7" sha1="5d1bb12d04a5e2db6f48b59cae5f9b02acaeb976" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="262.v1" offset="0x0" size="0x400000" crc="83d49ecf" sha1="2f2c116e45397652e77fcf5d951fa5f71b639572" />
+		<rom name="360s31.v2" offset="0x400000" size="0x400000" crc="2b498449" sha1="8e2b01dd17dbf4498a197bda8ce3e08cdf785f12" />
+		<rom name="262.v3" offset="0x800000" size="0x400000" crc="2ae38dbe" sha1="4e82b7dd3b899d61907620517a5a27bdaba0725d" />
+		<rom name="262.v4" offset="0xc00000" size="0x400000" crc="26ec4dd9" sha1="8bd68d95a2d913be41a51f51e48dbe3bff5924fb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="360s31.c1" offset="0x0" size="0x800000" crc="dc90c563" sha1="a79f54f754a1bd0d603f70af6b335e839b5e20d1" />
+		<rom loadflag="load16_byte" name="360s31.c2" offset="0x1" size="0x800000" crc="7b08d331" sha1="40e259cbc888184aa0f8102d00098f37f3005ce3" />
+		<rom loadflag="load16_byte" name="5003-c3.bin" offset="0x1000000" size="0x800000" crc="ac4aff71" sha1="c983f642e68deaa40fee3e208f2dd55f3bacbdc1" />
+		<rom loadflag="load16_byte" name="5003-c4.bin" offset="0x1000001" size="0x800000" crc="afef5d66" sha1="39fe785563fbea54bba88de60dcc62e2458bd74a" />
+		<rom loadflag="load16_byte" name="5003-c5.bin" offset="0x2000000" size="0x800000" crc="c7c1ae50" sha1="f54f5be7513a5ce2f01ab107a2b26f6a9ee1f2a9" />
+		<rom loadflag="load16_byte" name="5003-c6.bin" offset="0x2000001" size="0x800000" crc="613197f9" sha1="6d1fefa1be81b79e251e55a1352544c0298e4674" />
+		<rom loadflag="load16_byte" name="360s31.c7" offset="0x3000000" size="0x800000" crc="ad2d72b3" sha1="6396ba51f863019059ce3e37dab20a60d3a8c549" />
+		<rom loadflag="load16_byte" name="360s31.c8" offset="0x3000001" size="0x800000" crc="8c3fc1b5" sha1="81b6df7c937915c5b971bde20786aece02404a05" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,21 @@
+<software name="pgmcabal">
+	<description>Cabal (PGM)</description>
+	<year>2024</year>
+	<publisher>IQ_132</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="pgmcabal.p1" offset="0x0" size="0x400000" crc="9e68f9b0" sha1="e6344067d26e3d60367033dc258216163dd867dc" />
+		</dataarea>
+		<dataarea name="ics" size="0x600000">
+		</dataarea>
+		<dataarea name="igs023" size="0x800000">
+		<rom name="pgmcabal.t1" offset="0x180000" size="0x400000" crc="26591749" sha1="f968a5f4872d3708f8b6c8370a3041a37b4ec5f0" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="pgmcabal.a1" offset="0x0" size="0x400000" crc="a3c04b56" sha1="d2fe11e6f6768a7e2c869236b3e4475b40dc822e" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="pgmcabal.b1" offset="0x0" size="0x400000" crc="4649b84a" sha1="4a06b97d20443007fe72b5018fa54412d37f5270" />
+		</dataarea>
+	</part>
+</software>

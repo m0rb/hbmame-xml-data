@@ -1,0 +1,34 @@
+<software name="vbrakout">
+	<description>Vector Breakout [h]</description>
+	<year>1999</year>
+	<publisher>Clay Cowgill</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="vbrakout.113" offset="0x9000" size="0x800" crc="6fd3efe5" sha1="d195d08984ad8797607bc1989e8a606d51547c68" />
+		<rom name="vbrakout.114" offset="0x9800" size="0x800" crc="9974b9a5" sha1="6ecc6f72070895bb15992977348f58835233911f" />
+		<rom name="vbrakout.115" offset="0xa000" size="0x800" crc="44d611d8" sha1="82cd63fc9067ea1f00feeffbee66e7d750cab7e5" />
+		<rom name="vbrakout.116" offset="0xa800" size="0x800" crc="cd58fc11" sha1="060e31e55183ccef67a1adc91fb48c22424a4ba5" />
+		<rom name="vbrakout.122" offset="0xd800" size="0x800" crc="1ae2dd53" sha1="b908ba6b59195aea853380a56a243aa8fa2fba71" />
+		</dataarea>
+		<dataarea name="avg:prom" size="0x100">
+		<rom name="136002-125.d7" offset="0x0" size="0x100" crc="5903af03" sha1="24bc0366f394ad0ec486919212e38be0f08d0239" />
+		</dataarea>
+		<dataarea name="earom" size="0x40">
+		</dataarea>
+		<dataarea name="user2" size="0x20">
+		<rom name="136002-126.a1" offset="0x0" size="0x20" crc="8b04f921" sha1="317b3397482f13b2d1bc21f296d3b3f9a118787b" />
+		</dataarea>
+		<dataarea name="user3" endianness="big" size="0x400">
+		<rom loadflag="load32_byte" name="136002-132.l1" offset="0x0" size="0x100" crc="2af82e87" sha1="3816835a9ccf99a76d246adf204989d9261bb065" />
+		<rom loadflag="load32_byte" name="136002-131.k1" offset="0x0" size="0x100" crc="b31f6e24" sha1="ce5f8ca34d06a5cfa0076b47400e61e0130ffe74" />
+		<rom loadflag="load32_byte" name="136002-130.j1" offset="0x1" size="0x100" crc="8119b847" sha1="c4fbaedd4ce1ad6a4128cbe902b297743edb606a" />
+		<rom loadflag="load32_byte" name="136002-129.h1" offset="0x1" size="0x100" crc="09f5a4d5" sha1="d6f2ac07ca9ee385c08831098b0dcaf56808993b" />
+		<rom loadflag="load32_byte" name="136002-128.f1" offset="0x2" size="0x100" crc="823b61ae" sha1="d99a839874b45f64e14dae92a036e47a53705d16" />
+		<rom loadflag="load32_byte" name="136002-127.e1" offset="0x2" size="0x100" crc="276eadd5" sha1="55718cd8ec4bcf75076d5ef0ee1ed2551e19d9ba" />
+		</dataarea>
+		<dataarea name="vectorrom" size="0x1000">
+		<rom name="136002-123.np3" offset="0x0" size="0x800" crc="29f7e937" sha1="686c8b9b8901262e743497cee7f2f7dd5cb3af7e" />
+		<rom name="136002-124.r3" offset="0x800" size="0x800" crc="c16ec351" sha1="a30a3662c740810c0f20e3712679606921b8ca06" />
+		</dataarea>
+	</part>
+</software>

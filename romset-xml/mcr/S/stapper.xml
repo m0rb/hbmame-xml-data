@@ -1,0 +1,33 @@
+<software name="stapper" cloneof="tapper">
+	<description>Tapper (Simpsons Hack)</description>
+	<year>2002</year>
+	<publisher>DC</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="tappg0.bin" offset="0x0" size="0x4000" crc="127171d1" sha1="373e9a9d73b71e100c02862662d025f5ead2f94d" />
+		<rom name="tappg1.bin" offset="0x4000" size="0x4000" crc="9d6a47f7" sha1="e493e46fc70a765e54bfdd7ba7ca570e6a5c79d6" />
+		<rom name="tappg2.bin" offset="0x8000" size="0x4000" crc="3a1f8778" sha1="cb46a2248289ced7282b1463f433dcb970c42c1a" />
+		<rom name="tappg3.bin" offset="0xc000" size="0x2000" crc="e8dcdaa4" sha1="45bf1571a2418c7dc00ccc7061a3e04e65cb6bff" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="stapper.bg1" offset="0x0" size="0x4000" crc="1326da21" sha1="6886cbb83372ee4c53e19325a1552d312ce5de69" />
+		<rom name="stapper.bg0" offset="0x4000" size="0x4000" crc="539b93c3" sha1="6196516940893fd72d0c0f18efa7584a2df44833" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="stapper.fg1" offset="0x0" size="0x4000" crc="29dd8e85" sha1="f7f7e8a3aebf075fb9a2508ce438ed3bbfdcddba" />
+		<rom name="stapper.fg0" offset="0x4000" size="0x4000" crc="a8ba850f" sha1="e143dab595e129936a4744266788542422e3c503" />
+		<rom name="stapper.fg3" offset="0x8000" size="0x4000" crc="3d9133e4" sha1="3ca946aee704d59a150a9cd8ea02edf5204022e3" />
+		<rom name="stapper.fg2" offset="0xc000" size="0x4000" crc="9254d87c" sha1="084f71436c984cb0c42cd0d07ce47ab0959b64e1" />
+		<rom name="stapper.fg5" offset="0x10000" size="0x4000" crc="5ec2544f" sha1="1a919b0a80417c0f0e22bac2ab6932411bd4ad55" />
+		<rom name="stapper.fg4" offset="0x14000" size="0x4000" crc="9b970c4b" sha1="f690708107c4923db5ffe344015388199c7e879a" />
+		<rom name="stapper.fg7" offset="0x18000" size="0x4000" crc="a2ef5c06" sha1="cce74ff117921eb0438524e7f598fd2117044b1c" />
+		<rom name="stapper.fg6" offset="0x1c000" size="0x4000" crc="1baca746" sha1="3c7015e63ab1a3f98485415e212a4b80f648dcae" />
+		</dataarea>
+		<dataarea name="ssio:cpu" size="0x10000">
+		<rom name="tapper_sound_snd_0_a7_12-7-83.a7" offset="0x0" size="0x1000" crc="0e8bb9d5" sha1="9e281c340b7702523c86d56317efad9e3688e585" />
+		<rom name="tapper_sound_snd_1_a8_12-7-83.a8" offset="0x1000" size="0x1000" crc="0cf0e29b" sha1="14334b9d2bfece3fe5bda0cbd53158ead8d27e53" />
+		<rom name="tapper_sound_snd_2_a9_12-7-83.a9" offset="0x2000" size="0x1000" crc="31eb6dc6" sha1="b38bba5f12516d899e023f99147868e3402fbd7b" />
+		<rom name="tapper_sound_snd_3_a10_12-7-83.a10" offset="0x3000" size="0x1000" crc="01a9be6a" sha1="0011407c1e886071282808c0a561789b1245a789" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,17 @@
+<software name="pm5000p" cloneof="puckman">
+	<description>Pac Man 5000 Plus</description>
+	<year>2001</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacplus.6e" offset="0x0" size="0x1000" crc="d611ef68" sha1="8531c54ca6b0de0ea4ccc34e0e801ba9847e75bc" />
+		<rom name="pacplus.6f" offset="0x1000" size="0x1000" crc="c7207556" sha1="8ba97215bdb75f0e70eb8d3223847efe4dc4fb48" />
+		<rom name="pacplus.6h" offset="0x2000" size="0x1000" crc="ae379430" sha1="4e8613d51a80cf106f883db79685e1e22541da45" />
+		<rom name="pacplus.6j" offset="0x3000" size="0x1000" crc="5a6dff7b" sha1="b956ae5d66683aab74b90469ad36b5bb361d677e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pm5000p.5e" offset="0x0" size="0x1000" crc="5865ce98" sha1="2ddaf119b1674a7c6af3e475ba2e43dcea09f1cd" />
+		<rom name="pm5000p.5f" offset="0x1000" size="0x1000" crc="81cf02e1" sha1="cd1b3f1ac0265ed25e00eb1a2bfb831d5c7d7e8b" />
+		</dataarea>
+	</part>
+</software>

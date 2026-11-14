@@ -1,0 +1,29 @@
+<software name="kovpluss176" cloneof="kovplus">
+	<description>Knights of Valour Plus (Liu Jian Chuan Shuo 2015 2015-08-18)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0xe00000">
+		<rom loadflag="load16_word_swap" name="p0600_ph176.119" offset="0x100000" size="0x751ce8" crc="1b9d9073" sha1="c91fa67713e0c9cff7c38661d8746820b79f4afb" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u3" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_ph175.rom" offset="0x0" size="0x800000" crc="b64be5d6" sha1="7a62429e095a11370dcf7cb80233fd463862e810" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="pgm_a0603.u9" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_ph175.rom" offset="0x0" size="0x800000" crc="759b172f" sha1="d5c721ce3e490773b0ed7d3df21330225da12913" />
+		<rom name="pgm_b0601.u7" offset="0x800000" size="0x400000" crc="a0bb1c2f" sha1="0542348c6e27779e0a98de16f04f9c18158f2b28" />
+		</dataarea>
+		<dataarea name="tiles" size="0x1400000">
+		<rom name="t0600_ph176.rom" offset="0x180000" size="0x800000" crc="6459e292" sha1="4d24ea61ee400a7f2cef9f37a6e98599bcfcddde" />
+		</dataarea>
+	</part>
+</software>

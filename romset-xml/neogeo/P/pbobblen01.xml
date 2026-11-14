@@ -1,0 +1,20 @@
+<software name="pbobblen01" cloneof="pbobblen">
+	<description>Puzzle Bobble (set 3)</description>
+	<year>1994</year>
+	<publisher>Taito</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="083s01.p1" offset="0x0" size="0x80000" crc="ac1e9ef3" sha1="a2b125ee70869667431ab125bc29e768500802ad" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x380000">
+		<rom name="083s01.v1" offset="0x200000" size="0x80000" crc="f8872aed" sha1="73685980253093b4f148cb38b6a47476fb2a61aa" />
+		<rom name="083s01.v2" offset="0x280000" size="0x80000" crc="5c8cf5fe" sha1="97d74466ac48708d7f4004524288dd2f32f17793" />
+		<rom name="083.v4" offset="0x300000" size="0x80000" crc="0a548948" sha1="e1e4afd17811cb60401c14fbcf0465035165f4fb" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="083.c5" offset="0x0" size="0x80000" crc="e89ad494" sha1="69c9ea415773af94ac44c48af05d55ada222b138" />
+		<rom loadflag="load16_byte" name="083.c6" offset="0x1" size="0x80000" crc="4b42d7eb" sha1="042ae50a528cea21cf07771d3915c57aa16fd5af" />
+		</dataarea>
+	</part>
+</software>

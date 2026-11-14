@@ -1,0 +1,25 @@
+<software name="mspacj" cloneof="mspacman">
+	<description>Ms. Pacman (Jamma? Bootleg)</description>
+	<year>1981</year>
+	<publisher>[Midway]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="mspacj.cpu" offset="0x0" size="0x4000" crc="807f978a" sha1="19fa46e41ff671b88fb7d5e0a6c8c989a96e3477" />
+		<rom loadflag="continue" offset="0x8000" size="0x4000" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mspacj.gfx" offset="0x0" size="0x800" crc="8ee4a3b0" sha1="01e3453c99f7a5d78ab083c49c650e898c0dd2ee" />
+		<rom loadflag="continue" offset="0x1000" size="0x800" />
+		<rom loadflag="continue" offset="0x800" size="0x800" />
+		<rom loadflag="continue" offset="0x1800" size="0x800" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="mspacj.1m" offset="0x0" size="0x100" crc="640e455c" sha1="c3f7d132cf8f1ec3334366b6891fca74450a577e" />
+		<rom name="82s126.3m" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="mspacj.7f" offset="0x0" size="0x20" crc="3545e7e9" sha1="b866b02579438afb11296e5c53a32c6425bd044d" />
+		<rom name="82s126.4a" offset="0x20" size="0x100" crc="3eb3a8e4" sha1="19097b5f60d1030f8b82d9f1d3a241f93e5c75d6" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,16 @@
+<software name="pc_smb_ps11" cloneof="pc_smb">
+	<description>Super Mario Bros. (Chinese Version 1, 2012-01-15)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps11" offset="0x0" size="0x2000" crc="52b5f665" sha1="16a45f269e348984868f63b6bfe6d111876ec843" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps11" offset="0x0" size="0x8000" crc="ef2f7b6f" sha1="0c309f1d472d7f77906b53b81a0435becd2a8189" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

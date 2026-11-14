@@ -1,0 +1,23 @@
+<software name="jpmmunch" cloneof="puckman">
+	<description>Muncher</description>
+	<year>1980</year>
+	<publisher>JPM</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="newpuck1.6e" offset="0x0" size="0x800" crc="2c0fa0ab" sha1="37680e4502771ae69d51d07ce43f65b9b2dd2a49" />
+		<rom name="pmheart.6k" offset="0x800" size="0x800" crc="afeca2f1" sha1="1e6d6c75eeb3a354ce2dc88da62caf9e7d53d0cb" />
+		<rom name="puckman.6f" offset="0x1000" size="0x800" crc="7d177853" sha1="9b5ddaaa8b564654f97af193dbcc29f81f230a25" />
+		<rom name="puckman.6m" offset="0x1800" size="0x800" crc="d3e8914c" sha1="c2f00e1773c6864435f29c8b7f44f2ef85d227d3" />
+		<rom name="pacheart.6h" offset="0x2000" size="0x800" crc="9045a44c" sha1="a97d7016effbd2ace9a7d92ceb04a6ce18fb42f9" />
+		<rom name="pmheart.6n" offset="0x2800" size="0x800" crc="93f344c5" sha1="987c7fa18a774a47c045fa1dc7dff37457cb8983" />
+		<rom name="jpmmunch.6j" offset="0x3000" size="0x800" crc="258580a2" sha1="c594329963215971dba7cd857dfde5323f610dba" />
+		<rom name="jpmmunch.6p" offset="0x3800" size="0x800" crc="b4d7ee8c" sha1="38dfea4443f13c15ed17e0eb8f7ca24ce14d6ca8" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="puckman.5e" offset="0x0" size="0x800" crc="2066a0b7" sha1="6d4ccc27d6be185589e08aa9f18702b679e49a4a" />
+		<rom name="puckman.5h" offset="0x800" size="0x800" crc="3591b89d" sha1="79bb456be6c39c1ccd7d077fbe181523131fb300" />
+		<rom name="puckman.5f" offset="0x1000" size="0x800" crc="9e39323a" sha1="be933e691df4dbe7d12123913c3b7b7b585b7a35" />
+		<rom name="puckman.5j" offset="0x1800" size="0x800" crc="1b1d9096" sha1="53771c573051db43e7185b1d188533056290a620" />
+		</dataarea>
+	</part>
+</software>

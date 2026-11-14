@@ -1,0 +1,24 @@
+<software name="mvscjsing" cloneof="mvsc">
+	<description>Marvel Vs. Capcom: Clash of Super Heroes (Japan 980123) (Single PCB)</description>
+	<year>1998</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c77jsing.p1" offset="0x0" size="0x200000" crc="6a2ef7c2" sha1="625530b92217375014db4694196e6ab2a4684db6" />
+		<rom loadflag="load16_byte" name="c77jsing.p2" offset="0x1" size="0x200000" crc="699d09ad" sha1="67f6587808f55f10f58e067512f8db3f67dda770" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c77.m1" offset="0x0" size="0x8000" crc="41629e95" sha1="36925c05b5fdcbe43283a882d021e5360c947061" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c77.m2" offset="0x28000" size="0x20000" crc="963abf6b" sha1="6b784870e338701cefabbbe4669984b5c4e8a9a5" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="mvscj.key" offset="0x0" size="0x14" crc="9dedbcaf" sha1="6468dd20ba89e4f6dc03340d218694690151ebe0" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c77jsing.q1" offset="0x0" size="0x800000" crc="5d8819e0" sha1="afe2ec7fa4786e6d9a9a0ffa5787862ad69b0010" />
+		</dataarea>
+	</part>
+</software>

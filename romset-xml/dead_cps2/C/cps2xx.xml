@@ -1,0 +1,20 @@
+<software name="cps2xx">
+	<description>CPS2XX demo</description>
+	<year>2008</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom name="cps2xx.68k" offset="0x0" size="0x10000" crc="8414c946" sha1="154f8dc8f86e1dd97f0455da6a1c72efa41a19e0" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="cps2xx.z80" offset="0x0" size="0x8000" crc="2d3b4220" sha1="2b2d04d4282550fa9f6e1ad8528f20d1f2ac02eb" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom name="cps2xx.tile" offset="0x0" size="0x400000" crc="eb9d5a2b" sha1="61335ce00c2c6cec8a1302dbe6644f8cffc6ac9b" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom name="cps2xx.qs" offset="0x0" size="0x400000" crc="627be4da" sha1="bf7c98ff6dc8921794c26a51846caf0cb834a3e9" />
+		</dataarea>
+	</part>
+</software>

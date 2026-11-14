@@ -1,0 +1,21 @@
+<software name="supmspac" cloneof="mspacman">
+	<description>Super Ms Pac-man [f]</description>
+	<year>19</year>
+	<publisher>Spedic Vending</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="supmspac.2" offset="0x1000" size="0x1000" crc="f2110c60" sha1="bfe4ba9bad0b3da44c36fa6735fdb38ba15a29ed" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="supmspac.4" offset="0x3000" size="0x1000" crc="0fe16984" sha1="da77c5f04691d2679a53eb012542890c78f76683" />
+		<rom name="boot5" offset="0x8000" size="0x1000" crc="8c3e6de6" sha1="fed6e9a2b210b07e7189a18574f6b8c4ec5bb49b" />
+		<rom name="mspacde.6a" offset="0x9000" size="0x800" crc="286041cf" sha1="5a5fc97ea66a59895b3403b2982940b755076667" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mspacit.5e" offset="0x0" size="0x800" crc="93933d1d" sha1="fa38d2cb87e872bb9a3158a4df98f38360dc85ec" />
+		<rom name="mspacit.5h" offset="0x800" size="0x800" crc="7409fbec" sha1="f440f08ba026ae6172666e1bdc0894ce33bba420" />
+		<rom name="mspacit.5f" offset="0x1000" size="0x800" crc="22b0188a" sha1="a9ed9ca8b36a60081fd364abc9bc23963932cc0b" />
+		<rom name="mspacit.5j" offset="0x1800" size="0x800" crc="50c7477d" sha1="c04ec282a8cb528df5e38ad750d12ee71612695d" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,34 @@
+<software name="ragnagrde" cloneof="ragnagrd">
+	<description>Ragnagard (Earlier)</description>
+	<year>1996</year>
+	<publisher>Saurus</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="218.p1" offset="0x100000" size="0x100000" crc="ca372303" sha1="67991e4fef9b36bc7d909810eebb857ac2f906f1" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="218.v1" offset="0x0" size="0x400000" crc="61eee7f4" sha1="5b11b1a0b1b74dfbc2998cbda9f8f7a5e9059957" />
+		<rom name="218.v2" offset="0x400000" size="0x400000" crc="6104e20b" sha1="18e8aae3e51e141977d523a10e737ff68fe81910" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="218e.c1" offset="0x400000" size="0x200000" crc="18f61d79" sha1="d815f57710403c76dc7b119b13dea629feb3c341" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="218e.c2" offset="0x400001" size="0x200000" crc="dbf4ff4b" sha1="8fa0fb1df9e771089d72077642a847ea2066e401" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		<rom loadflag="load16_byte" name="218e.c3" offset="0xc00000" size="0x200000" crc="108d5589" sha1="04e25114cbf283f2a824f9e2127dc5ed96dc6d50" />
+		<rom loadflag="continue" offset="0x800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="218e.c4" offset="0xc00001" size="0x200000" crc="7962d5ac" sha1="fd126e19fcff517ade00bd2394d675949d7cce1c" />
+		<rom loadflag="continue" offset="0x800001" size="0x200000" />
+		<rom loadflag="load16_byte" name="218e.c5" offset="0x1400000" size="0x200000" crc="4b74021a" sha1="021dfa2dbfb06933362c7e34350e24ab23d34ebc" />
+		<rom loadflag="continue" offset="0x1000000" size="0x200000" />
+		<rom loadflag="load16_byte" name="218e.c6" offset="0x1400001" size="0x200000" crc="f5cf90bc" sha1="6a1ea01b1610bb20f8dc68943ff622e7e600257b" />
+		<rom loadflag="continue" offset="0x1000001" size="0x200000" />
+		<rom loadflag="load16_byte" name="218e.c7" offset="0x1c00000" size="0x200000" crc="32189762" sha1="355c9780ed73e48316bb9402b972a47810fa8807" />
+		<rom loadflag="continue" offset="0x1800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="218e.c8" offset="0x1c00001" size="0x200000" crc="d5915828" sha1="996930728f5f6aea180aba110e5214dc37f5b84a" />
+		<rom loadflag="continue" offset="0x1800001" size="0x200000" />
+		</dataarea>
+	</part>
+</software>

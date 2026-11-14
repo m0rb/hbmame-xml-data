@@ -1,0 +1,32 @@
+<software name="socbrawld" cloneof="socbrawl">
+	<description>Soccer Brawl (MGD2)</description>
+	<year>1991</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_byte" name="n031001a.038" offset="0x1" size="0x40000" crc="9fa17911" sha1="b5a86cc8c8b6e44e392deb6e975ee59076c4392a" />
+		<rom loadflag="continue" offset="0x0" size="0x40000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="n031001a.1f8" offset="0x0" size="0x80000" crc="670dc165" sha1="f75d174cfc0d4c16375c58069b923380ae8c6923" />
+		<rom name="n031001a.1fc" offset="0x80000" size="0x80000" crc="abb9537b" sha1="0f272ef6bfdb1b5b0580fe9d01070e4f60b383ff" />
+		<rom name="n031001b.1f8" offset="0x100000" size="0x80000" crc="600be43e" sha1="5639e239910f0fb07f26e4f9816efd77b04f6152" />
+		<rom name="n031001b.1fc" offset="0x180000" size="0x80000" crc="88d30359" sha1="884cabd8a6ccbdd470aab3b7325fdeade01679f0" />
+		</dataarea>
+		<dataarea name="sprites" size="0x300000">
+		<rom loadflag="load32_byte" name="n031001a.538" offset="0x0" size="0x40000" crc="945bf77c" sha1="0f971d5c21c051d2298866b69c96715f583fe521" />
+		<rom loadflag="continue" offset="0x2" size="0x40000" />
+		<rom loadflag="load32_byte" name="n031001a.638" offset="0x1" size="0x40000" crc="6708fc58" sha1="230253fbe761cb1164efb9a3c91ac1f24f57295b" />
+		<rom loadflag="continue" offset="0x3" size="0x40000" />
+		<rom loadflag="load32_byte" name="n031001a.53c" offset="0x100000" size="0x40000" crc="9a210d0d" sha1="be9b9587c138679e2fb299455d98e2ac6ffad63b" />
+		<rom loadflag="continue" offset="0x100002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n031001a.63c" offset="0x100001" size="0x40000" crc="9a97c680" sha1="746a5cb5bf713c806cef24d21347f5b96c86ccab" />
+		<rom loadflag="continue" offset="0x100003" size="0x40000" />
+		<rom loadflag="load32_byte" name="n031001b.538" offset="0x200000" size="0x40000" crc="057dbb51" sha1="cab14d98cbbfc0e5714082fd2db8c73e9c6cd684" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="load32_byte" name="n031001b.638" offset="0x200001" size="0x40000" crc="434c17c8" sha1="629dc40ab09ac0a2f55234bc34c4ba63c0b8912f" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		</dataarea>
+	</part>
+</software>

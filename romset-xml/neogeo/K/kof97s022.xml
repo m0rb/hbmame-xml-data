@@ -1,0 +1,25 @@
+<software name="kof97s022" cloneof="kof97">
+	<description>Kof&#x27;97 (Edition Royal, 2009-07-01)</description>
+	<year>1997</year>
+	<publisher>hack</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x700000">
+		<rom loadflag="load16_word_swap" name="232s022.p1" offset="0x0" size="0x100000" crc="894026a1" sha1="e45e4b914b94f02fa6276b62058a576a0f0870e2" />
+		<rom loadflag="load16_word_swap" name="232s022.p2" offset="0x100000" size="0x600000" crc="323b0c6c" sha1="df5d11c55bded48578054f489297a05427e0b20e" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="232s017.c1" offset="0x0" size="0x800000" crc="b73a0baf" sha1="cc549320b96bbb8cc1ad21154ce01fd7fc85af3d" />
+		<rom loadflag="load16_byte" name="232s017.c2" offset="0x1" size="0x800000" crc="e8800362" sha1="64de5e714d02ba34ca2086129d12ace21f11c3d2" />
+		<rom loadflag="load16_byte" name="232s006.c3" offset="0x1000000" size="0x800000" crc="b092e64f" sha1="7d809432d068db8f9056f5210570191416f1a53b" />
+		<rom loadflag="load16_byte" name="232s006.c4" offset="0x1000001" size="0x800000" crc="d25e8a04" sha1="52227828e3fdd27399b4cd514551abf856293f47" />
+		<rom loadflag="load16_byte" name="232s017.c5" offset="0x2000000" size="0x400000" crc="c3c96207" sha1="22b60d0dd2cbecf3f985043f7f2500d90c59633c" />
+		<rom loadflag="load16_byte" name="232s017.c6" offset="0x2000001" size="0x400000" crc="1251f20c" sha1="ae67c597f59090a984c2a3df216cb9b191b6cb60" />
+		</dataarea>
+	</part>
+</software>

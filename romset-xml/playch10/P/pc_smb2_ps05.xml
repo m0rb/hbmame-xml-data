@@ -1,0 +1,16 @@
+<software name="pc_smb2_ps05" cloneof="pc_smb2">
+	<description>Super Mario Bros. 2 (Edition Chinese, 2012-04-13)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="mw-u1_ps05" offset="0x0" size="0x20000" crc="107e7be8" sha1="ed056afaa512d1b98665d6341c4f175c3b30c8ff" />
+		</dataarea>
+		<dataarea name="prg" size="0x20000">
+		<rom name="mw-u5_ps05" offset="0x0" size="0x20000" crc="e8fe2bd0" sha1="ba0f3037e859f670f16c6f52417f786cb6844452" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="372f4e84" sha1="cdf221d49f3b454997d696f213d60b5dce0ce9fb" />
+		</dataarea>
+	</part>
+</software>

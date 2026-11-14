@@ -1,0 +1,26 @@
+<software name="sf2koryu02" cloneof="sf2ce">
+	<description>Street Fighter II&#x27;: Champion Edition: Xiang Long (Chinese bootleg set 3)</description>
+	<year>1992</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c19koryu.p1" offset="0x0" size="0x80000" crc="9236a79a" sha1="39c47b0b0ca2f5f569ff07ebb91040b95d0cb43b" />
+		<rom loadflag="load16_byte" name="c19koryu.p2" offset="0x1" size="0x80000" crc="b23a869d" sha1="24247d412f20d069919cc8a7fff208af3f7aa1d2" />
+		<rom loadflag="load16_byte" name="c19m9.p3" offset="0x100000" size="0x20000" crc="8226c11c" sha1="9588bd64e338901394805aca8a234f880674dc60" />
+		<rom loadflag="load16_byte" name="c19m8.p4" offset="0x100001" size="0x20000" crc="924c6ce2" sha1="676a912652bd75da5087f0c7eae047b7681a993c" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c19.m1" offset="0x0" size="0x8000" crc="08f6b60e" sha1="8258fcaca4ac419312531eec67079b97f471179c" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2m2.key" offset="0x0" size="0x80" crc="67e80fca" sha1="e937bc4cf0e05ba93c32bc47d65c5b027bc2b48e" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c14.v1" offset="0x0" size="0x20000" crc="7f162009" sha1="346bf42992b4c36c593e21901e22c87ae4a7d86d" />
+		<rom name="c14.v2" offset="0x20000" size="0x20000" crc="beade53f" sha1="277c397dc12752719ec6b47d2224750bd1c07f79" />
+		</dataarea>
+	</part>
+</software>

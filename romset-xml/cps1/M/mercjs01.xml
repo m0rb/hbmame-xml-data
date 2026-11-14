@@ -1,0 +1,30 @@
+<software name="mercjs01" cloneof="mercs">
+	<description>Senjou no Ookami II (Chinese)</description>
+	<year>1990</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c09js01.p1" offset="0x0" size="0x20000" crc="d4d34a1f" sha1="c1543578f45e45d35fd761ae1abf3f8e5afc8e9b" />
+		<rom loadflag="load16_byte" name="c09js01.p2" offset="0x1" size="0x20000" crc="184d7739" sha1="c70f5613336535b3ed7efe7120fd167865ca54cc" />
+		<rom loadflag="load16_byte" name="c09.p3" offset="0x40000" size="0x20000" crc="51204d36" sha1="af288fc369d092f38ea73be967705aacade06f28" />
+		<rom loadflag="load16_byte" name="c09.p4" offset="0x40001" size="0x20000" crc="9cfba8b4" sha1="df8ee5e3a68f056f68f096c46fdb548f63d29446" />
+		<rom loadflag="load16_byte" name="c09j.p5" offset="0x80000" size="0x20000" crc="b8dae95f" sha1="2db4a20afd40b772a16f1bee999a0b82d3379ac7" />
+		<rom loadflag="load16_byte" name="c09j.p6" offset="0x80001" size="0x20000" crc="de37771c" sha1="45e1e2ef4e46dbe8881e809d700fdd3d06a03c92" />
+		<rom loadflag="load16_byte" name="c09js01.p7" offset="0xc0000" size="0x20000" crc="1e84d605" sha1="9b1cdcc998d0624a158e14270c2785c5bfb250e4" />
+		<rom loadflag="load16_byte" name="c09js01.p8" offset="0xc0001" size="0x20000" crc="831496b2" sha1="811e3f300aa0f93a89a07e5ee9e419a73cba7395" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c09.m1" offset="0x0" size="0x8000" crc="d09d7c7a" sha1="8e8532be08818c855d9c3ce45716eb07cfab5767" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="mercs.key" offset="0x0" size="0x80" crc="b0f59dee" sha1="744e4239ddbfdc6d1b53dc1bd49a34df422c8886" />
+		</dataarea>
+		<dataarea name="gfx" size="0x300000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c09.v1" offset="0x0" size="0x20000" crc="bbea1643" sha1="d43d68a120550067bf0b181f88687ad230cd7908" />
+		<rom name="c09.v2" offset="0x20000" size="0x20000" crc="ac58aa71" sha1="93102272e358bc49d3936302efdc5bb68df84d68" />
+		</dataarea>
+	</part>
+</software>

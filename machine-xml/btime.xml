@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="btime" description="Btime cartridges">
+<software name="stictime">
+	<description>Mr Sticky Time</description>
+	<year>2002</year>
+	<publisher>Marks Hacks</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x2">
+		<rom name="aa04.9b" offset="0xc000" size="0x1000" crc="368a25b5" sha1="ed3f3712423979dcb351941fa85dce6a0a7bb16b" />
+		<rom name="aa06.13b" offset="0xd000" size="0x1000" crc="b4ba400d" sha1="8c77397e934907bc47a739f263196a0f2f81ba3d" />
+		<rom name="aa05.10b" offset="0xe000" size="0x1000" crc="8005bffa" sha1="d0da4e360039f6a8d8142a4e8e05c1f90c0af68a" />
+		<rom name="aa07.15b" offset="0xf000" size="0x1000" crc="086440ad" sha1="4a32bc92f8ff5fbe112f56e62d2c03da8851a7b9" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="ab14.12h" offset="0xe000" size="0x1000" crc="f55e5211" sha1="27940026d0c6212d1138d2fd88880df697218627" />
+		</dataarea>
+		<dataarea name="bg_map" size="0x800">
+		<rom name="ab03.6b" offset="0x0" size="0x800" crc="d26bc1f3" sha1="737af6e264183a1f151f277a07cf250d6abb3fd8" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x6000">
+		<rom name="stic_aa12.7k" offset="0x0" size="0x1000" crc="0550e118" sha1="74ab46a307ea9d61e38ba0b541bf509436cd9290" />
+		<rom name="ab13.9k" offset="0x1000" size="0x1000" crc="ac01042f" sha1="e64b6381a9298eaf74e79fa5f1ea8e9596c58a49" />
+		<rom name="stic_ab10.10k" offset="0x2000" size="0x1000" crc="ba774d51" sha1="68806bbe93aeea82d7aefc376b69af66858c6028" />
+		<rom name="ab11.12k" offset="0x3000" size="0x1000" crc="d4848014" sha1="0a55b091cd4e7f317c35defe13d5051b26042eee" />
+		<rom name="stic_aa8.13k" offset="0x4000" size="0x1000" crc="00a15086" sha1="e78047ebffdc642583d363b12dd8fbd1368eb3c4" />
+		<rom name="ab9.15k" offset="0x5000" size="0x1000" crc="8dec15e6" sha1="b72633de6268ce16742bba4dcba835df860d6c2f" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x1800">
+		<rom name="stic_ab00.1b" offset="0x0" size="0x800" crc="4010c652" sha1="418eae0ef70c62c3f69becf167bd40a4faba176b" />
+		<rom name="ab01.3b" offset="0x800" size="0x800" crc="25b49078" sha1="4abdcbd4f3362c3e4463a1274731289f1a72d2e6" />
+		<rom name="stic_ab02.4b" offset="0x1000" size="0x800" crc="1def5b40" sha1="845a6b1105757d4d921a4d1f9378a3731f6460b3" />
+		</dataarea>
+	</part>
+</software>
+<software name="vecbtime">
+	<description>Burgertime (Vector sim)</description>
+	<year>2000</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x2">
+		<rom name="ab05a1.12b" offset="0xb000" size="0x1000" crc="0a98b230" sha1="aeee4f6f0aaa27575b80261d03c5453cc6ebd646" />
+		<rom name="ab04.9b" offset="0xc000" size="0x1000" crc="797e5f75" sha1="35ea5fa4b8f3494adf7774b3946ed2540ac826ff" />
+		<rom name="ab06.13b" offset="0xd000" size="0x1000" crc="c77f3f64" sha1="f283087fad0a102fe92be7ce80ed18e64dc93b67" />
+		<rom name="ab05.10b" offset="0xe000" size="0x1000" crc="b0d3640f" sha1="6ba28971714ece6f1c04fa2dbf1f9f216ded7cfa" />
+		<rom name="ab07.15b" offset="0xf000" size="0x1000" crc="a142f862" sha1="39d7ef172d18874885f1b1542e885cc4287dc344" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="ab14.12h" offset="0xe000" size="0x1000" crc="f55e5211" sha1="27940026d0c6212d1138d2fd88880df697218627" />
+		</dataarea>
+		<dataarea name="bg_map" size="0x800">
+		<rom name="ab03.6b" offset="0x0" size="0x800" crc="d26bc1f3" sha1="737af6e264183a1f151f277a07cf250d6abb3fd8" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x6000">
+		<rom name="vec_ab12.7k" offset="0x0" size="0x1000" crc="b02d859c" sha1="0d506c52dd2a76d62bd980087fbb5c3808aedf56" />
+		<rom name="vec_ab13.9k" offset="0x1000" size="0x1000" crc="d9757010" sha1="fc70cfbd7bb7c23d0b5880f42ef92df711c6a46d" />
+		<rom name="vec_ab10.10k" offset="0x2000" size="0x1000" crc="2b71a1db" sha1="424c3fceeeb030c0cf89e8f872957a75d5475cfb" />
+		<rom name="vec_ab11.12k" offset="0x3000" size="0x1000" crc="a98fea41" sha1="1ddbb8b26bca2b8c6ab4d9b1bfd8b21db2b2d97b" />
+		<rom name="vec_ab8.13k" offset="0x4000" size="0x1000" crc="0ca7828f" sha1="eb7db2607b10e8276a97a20030bdbeeeb7b6935b" />
+		<rom name="vec_ab9.15k" offset="0x5000" size="0x1000" crc="1e460ff7" sha1="6ac3ec08e3c79490262324fd4a93a6eb1188554b" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x1800">
+		<rom name="vec_ab00.1b" offset="0x0" size="0x800" crc="03dbe9b6" sha1="4844d490a767d15ed5230868cbd25dadf70cf1e3" />
+		<rom name="vec_ab01.3b" offset="0x800" size="0x800" crc="698089da" sha1="6b6e61536d1247a8784a4657cdc50e48b002335d" />
+		<rom name="vec_ab02.4b" offset="0x1000" size="0x800" crc="4464ccef" sha1="1fa91178c55c1120910be89f724b909a356796e8" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

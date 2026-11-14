@@ -1,0 +1,17 @@
+<software name="snowpac" cloneof="puckman">
+	<description>Snowy Day Pacman</description>
+	<year>2000</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="snowpac.6j" offset="0x3000" size="0x1000" crc="4f9e1d02" sha1="90f7ed914e1291248f6b3ba0630a7d67d4f07374" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="snowpac.5e" offset="0x0" size="0x1000" crc="2cc60a94" sha1="05b8725cc71273e2ee61303bc00057dc60f88bb6" />
+		<rom name="snowpac.5f" offset="0x1000" size="0x1000" crc="41ba87bd" sha1="3a1473bd3753fc3a3ab6ee5285e4832b0f92d173" />
+		</dataarea>
+	</part>
+</software>

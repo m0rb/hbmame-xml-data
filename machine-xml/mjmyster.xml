@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="mjmyster" description="Mjmyster cartridges">
+<software name="mjmyster01">
+	<description>Mahjong The Mysterious World (No AI Cheat, 2006-01-12)</description>
+	<year>2006</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x90000">
+		<rom name="77t2_s01.c3" offset="0x0" size="0x40000" crc="fd78e257" sha1="74ebae00a3de7c52cd861cb983d2f5a99afe5d06" />
+		</dataarea>
+		<dataarea name="blitter" size="0x1a0000">
+		<rom name="77t6.b12" offset="0x0" size="0x80000" crc="a287589a" sha1="58659dd7e019d1d32efeaec548c84a7ded637c50" />
+		<rom name="77t5.b11" offset="0x80000" size="0x80000" crc="a3475059" sha1="ec86dcea3314b65d391a970680c021899c16449e" />
+		<rom name="77t4.b10" offset="0x100000" size="0x80000" crc="f45c24d6" sha1="0eca68f2ca5722717f27ac0839359966daa2715b" />
+		<rom name="77t3.b9" offset="0x180000" size="0x20000" crc="8671165b" sha1="23fad112909e82ac9d25dbb69bf6334f30fa6540" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="77t1.d1" offset="0x0" size="0x20000" crc="09b7a9b2" sha1="64d9ccbb726bb6c5b362afc92bca2e3db87fd454" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

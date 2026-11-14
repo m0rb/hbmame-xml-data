@@ -1,0 +1,25 @@
+<software name="kof97s106" cloneof="kof97">
+	<description>Kof&#x27;97 (The Dragon 3.1 Dark Snake Bu Wu Gao IQ)(The Big Snake Crescent Slow Push Defense Special Effect Big Snake Flash)</description>
+	<year>1997</year>
+	<publisher>Yukimura</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x900000">
+		<rom loadflag="load16_word_swap" name="232s106.p1" offset="0x0" size="0x100000" crc="d24ffeae" sha1="7423b04c00c05360480466fca7e7987e8c1b8ecf" />
+		<rom loadflag="load16_word_swap" name="232s106.p2" offset="0x100000" size="0x600000" crc="1e1896a1" sha1="7d02b9f79526081fddff0fd426ceec2a9c1e427c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="232.v1" offset="0x0" size="0x400000" crc="22a2b5b5" sha1="ebdbc977332e6d93e266755000b43857e0082965" />
+		<rom name="232.v2" offset="0x400000" size="0x400000" crc="2304e744" sha1="98d283e2bcc9291a53f52afd35ef76dfb0828432" />
+		<rom name="232.v3" offset="0x800000" size="0x400000" crc="759eb954" sha1="54e77c4e9e6b89458e59824e478ddc33a9c72655" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2800000">
+		<rom loadflag="load16_byte" name="232s140.c1" offset="0x0" size="0x800000" crc="93415994" sha1="b0473816e3ff82d68e66be3722ac39af19e05d7d" />
+		<rom loadflag="load16_byte" name="232s140.c2" offset="0x1" size="0x800000" crc="65b3b5b0" sha1="076d640b71103c6fe1cf3ffd001eaa78e3da178d" />
+		<rom loadflag="load16_byte" name="232s627.c3" offset="0x1000000" size="0x800000" crc="ffb025af" sha1="64913b51b496a13a92317008d2a15543e6c89ba9" />
+		<rom loadflag="load16_byte" name="232s627.c4" offset="0x1000001" size="0x800000" crc="7182157c" sha1="306a968ae325d0b7d647e7fdb36a3a07bacda923" />
+		<rom loadflag="load16_byte" name="232s106.c5" offset="0x2000000" size="0x400000" crc="cb59e0b6" sha1="f0a894e9601a05905e1b11383fd411635b3bd524" />
+		<rom loadflag="load16_byte" name="232s106.c6" offset="0x2000001" size="0x400000" crc="14e3f49d" sha1="85b6097d8a8a17d1c3297764f0076d4a1650fb76" />
+		</dataarea>
+	</part>
+</software>

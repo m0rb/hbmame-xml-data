@@ -1,0 +1,25 @@
+<software name="magdrp3e" cloneof="magdrop3">
+	<description>Magical Drop III (Earlier)</description>
+	<year>1997</year>
+	<publisher>Data East Corporation</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="233.p1" offset="0x0" size="0x100000" crc="931e17fa" sha1="4a95c4b79d0878485ce272e9f4c4f647bec0e070" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x480000">
+		<rom name="233.v1" offset="0x0" size="0x400000" crc="58839298" sha1="18cae7bba997c52780761cbf119c4e4b34397a61" />
+		<rom name="233.v2" offset="0x400000" size="0x80000" crc="d5e30df4" sha1="bbbc0ff5b975471bd682f85976ac4a93f6d44f2e" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="233e.c1" offset="0x400000" size="0x200000" crc="734db3d6" sha1="6d12b3ef34aae066f8c5cae5f6a272c8f482bdd0" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="233e.c2" offset="0x400001" size="0x200000" crc="d78f50e5" sha1="102526982596a9d3052d3f3181a98558c596c907" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		<rom loadflag="load16_byte" name="233e.c3" offset="0xc00000" size="0x200000" crc="ec65f472" sha1="23271ca8617d08f23417dd071333c91ef90715b5" />
+		<rom loadflag="continue" offset="0x800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="233e.c4" offset="0xc00001" size="0x200000" crc="f55dddf3" sha1="fec0930e5cb26be4d73bfa8c76ef37eb4bbec60a" />
+		<rom loadflag="continue" offset="0x800001" size="0x200000" />
+		</dataarea>
+	</part>
+</software>

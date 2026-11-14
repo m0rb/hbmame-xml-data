@@ -1,0 +1,29 @@
+<software name="kovpluss328" cloneof="kovplus">
+	<description>Knights of Valour Plus 2012 (God of War Warriors 2019-04-15)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_ph328.119" offset="0x100000" size="0x400000" crc="0e0403af" sha1="ec9b71bbddca559c6a2c610d71e5a141bea108b0" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u3" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_ph116.rom" offset="0x0" size="0x800000" crc="24091941" sha1="7fc28b716aa115815470add57f07d99c21e53f38" />
+		<rom name="a0601_ph260.rom" offset="0x800000" size="0x800000" crc="8998680f" sha1="654769ca07780b9a3409a8191c1b43b0587bc692" />
+		<rom name="a0602_ph263.rom" offset="0x1000000" size="0x800000" crc="27a93ff6" sha1="749b1d9afe4847c5e781d04634c004a6111856cb" />
+		<rom name="a0603_ph263.rom" offset="0x1800000" size="0x400000" crc="5e00a709" sha1="310bfb0c5651fead86a17c1ffb570cd10d912fe6" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_ph116.rom" offset="0x0" size="0x800000" crc="1ce751b1" sha1="6bb9297eb66d88ba4c6202bdc3b4142df51b13bd" />
+		<rom name="b0601_ph263.rom" offset="0x800000" size="0x400000" crc="912acd06" sha1="88f767752a69cc307ef22fd583dc672f961d9add" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="pgm_t0600.u11" offset="0x180000" size="0x800000" crc="4acc1ad6" sha1="0668dbd5e856c2406910c6b7382548b37c631780" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="aoh" description="Aoh cartridges">
+<software name="aoh01">
+	<description>Age Of Heroes - Silkroad 2 (Easy Move)</description>
+	<year>2001</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="big" size="0x400000">
+		<rom loadflag="load16_word_swap" name="rom1" offset="0x0" size="0x200000" crc="2e55ff55" sha1="b2b7605b87ee609dfbc7c21dfae0ef8d847019f0" />
+		<rom loadflag="load16_word_swap" name="rom2_s01" offset="0x200000" size="0x200000" crc="68da971c" sha1="670e3478d009d74772a4ec62e84e9eb8c87ff279" />
+		</dataarea>
+		<dataarea name="gfx" size="0x4000000">
+		</dataarea>
+		<dataarea name="oki2" size="0x80000">
+		<rom name="rom4" offset="0x0" size="0x80000" crc="bba47755" sha1="e6eeb5f64eaa88a74536119b731a76921e79f8ff" />
+		</dataarea>
+		<dataarea name="oki_1" size="0x40000">
+		<rom name="rom3" offset="0x0" size="0x40000" crc="db8cb455" sha1="6723b4018208d554bd1bf1e0640b72d2f4f47302" />
+		</dataarea>
+	</part>
+</software>
+<software name="aoh02">
+	<description>Age Of Heroes - Silkroad 2 (No Need Power)</description>
+	<year>2001</year>
+	<publisher>DDJ</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="big" size="0x400000">
+		<rom loadflag="load16_word_swap" name="rom1_s02" offset="0x0" size="0x200000" crc="5aeb8253" sha1="d0ca425a14dd3c13da501bf484c4fa2cf7a55992" />
+		<rom loadflag="load16_word_swap" name="rom2" offset="0x200000" size="0x200000" crc="50f8a409" sha1="a8171b7cf59dd01de1e512ab21607b4f330f40b8" />
+		</dataarea>
+		<dataarea name="gfx" size="0x4000000">
+		</dataarea>
+		<dataarea name="oki2" size="0x80000">
+		<rom name="rom4" offset="0x0" size="0x80000" crc="bba47755" sha1="e6eeb5f64eaa88a74536119b731a76921e79f8ff" />
+		</dataarea>
+		<dataarea name="oki_1" size="0x40000">
+		<rom name="rom3" offset="0x0" size="0x40000" crc="db8cb455" sha1="6723b4018208d554bd1bf1e0640b72d2f4f47302" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

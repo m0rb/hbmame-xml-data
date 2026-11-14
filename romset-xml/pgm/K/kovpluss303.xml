@@ -1,0 +1,29 @@
+<software name="kovpluss303" cloneof="kovplus">
+	<description>Knights of Valour Plus (Qin Double Love 2016-01-01)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x654fbe">
+		<rom loadflag="load16_word_swap" name="p0600_ph303.119" offset="0x100000" size="0x454fbe" crc="1b442754" sha1="843778ebf6ff48bf1b650294e892119e5aea070b" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u3" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x4000000">
+		<rom name="a0600_ph303.rom" offset="0x0" size="0x800000" crc="1bbcf0f1" sha1="706dcba42db3e516ce8f0e602a1fa1ef77771767" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_ph152.rom" offset="0x1000000" size="0x800000" crc="2c1c90ae" sha1="a29fe92715e8bc883cd2e26434c432fee2435d01" />
+		<rom name="a0603_ph303.rom" offset="0x1800000" size="0x454f89" crc="576d9196" sha1="569808b77ed65d160cb66652d562716fb1954919" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_ph303.rom" offset="0x0" size="0x800000" crc="95a3cb7f" sha1="c209746702faa0cbb790b4aec88f085e66c4a0e9" />
+		<rom name="b0601_ph303.rom" offset="0x800000" size="0x454f48" crc="e7748963" sha1="218ff180d2046b3a1af0723d50e687e664a06819" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_ph303.rom" offset="0x180000" size="0x800000" crc="617c43cc" sha1="e13b2949b73f4924e3c93a1830b7209f1e008730" />
+		</dataarea>
+	</part>
+</software>

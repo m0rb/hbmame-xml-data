@@ -1,0 +1,16 @@
+<software name="pc_smb_ps08" cloneof="pc_smb">
+	<description>Super Mario Bros. (Bullet, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps08" offset="0x0" size="0x2000" crc="2690eea3" sha1="14c328cbf5f34ddf64f879f8cd1852204c680e96" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps08" offset="0x0" size="0x8000" crc="9b223439" sha1="35659931d575ecefc12fd63980d59334d11df5ff" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

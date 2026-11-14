@@ -1,0 +1,19 @@
+<software name="rtypen">
+	<description>R-Type (Neo-Geo port, v1.2.2)</description>
+	<year>2026</year>
+	<publisher>Bendk97</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="547.p1" offset="0x0" size="0x100000" crc="cd016cdb" sha1="eef6d8b2cb92b635b1e9f6aa36ef753c7bb3f0e5" />
+		<rom loadflag="load16_word_swap" name="547.p2" offset="0x100000" size="0x100000" crc="eb53d24e" sha1="7453ac1ba9afc7437cc1f06c8d8c704db2b06b21" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="547.v1" offset="0x0" size="0x1000000" crc="861c0f49" sha1="b4c2b28e858be8b654c8ac30d773e12ccc962a4d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="547.c1" offset="0x0" size="0x400000" crc="204b348c" sha1="41b16560f153ece9839c1f61fed6caf5b8769987" />
+		<rom loadflag="load16_byte" name="547.c2" offset="0x1" size="0x400000" crc="ee2e7cf4" sha1="d4e5e4f73cd214dbf8e834138dd2a63e725742e0" />
+		</dataarea>
+	</part>
+</software>

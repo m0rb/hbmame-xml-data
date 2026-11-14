@@ -1,0 +1,18 @@
+<software name="shadowlf">
+	<description>Shadow League Fighting (v3.3.2)</description>
+	<year>2026</year>
+	<publisher>Eagle Software</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x300000">
+		<rom loadflag="load16_word_swap" name="781.p1" offset="0x0" size="0x300000" crc="6ea6d3d7" sha1="98731b460b8dd8122807c264465fbe5b4ae7e250" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="781.v1" offset="0x0" size="0x9a7100" crc="a58dbef4" sha1="61a9536b1bf8599504648ebb2afbe8aa019ade92" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="781.c1" offset="0x0" size="0x1000000" crc="ae6501d5" sha1="0488e185e6d28e34bcd0f5bd0ebeb04b9f562faa" />
+		<rom loadflag="load16_byte" name="781.c2" offset="0x1" size="0x1000000" crc="bb93cb6c" sha1="d8c27198f9e032028b3a158ee166cee169838199" />
+		</dataarea>
+	</part>
+</software>

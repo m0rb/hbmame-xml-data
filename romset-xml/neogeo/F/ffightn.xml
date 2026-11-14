@@ -1,0 +1,27 @@
+<software name="ffightn">
+	<description>Final Fight Neo (beta-1.0.9)</description>
+	<year>2026</year>
+	<publisher>Vendza</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="555.p1" offset="0x0" size="0x100000" crc="1a5cb56d" sha1="7f9463759d58d1867400857894981d7908d95394" />
+		<rom loadflag="load16_word_swap" name="555.p2" offset="0x100000" size="0x400000" crc="b023cd8b" sha1="11b4d3828c0bfb4d818e0271e727f52243bb967d" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xa00000">
+		<rom name="555.v1" offset="0x0" size="0x400000" crc="7d6ba95f" sha1="68ded137350853cef6c3fe7da23e957e669e2097" />
+		<rom name="555.v2" offset="0x400000" size="0x400000" crc="6c33bb5d" sha1="f0aaf1f7ad63349be1c399c01f4bc1b2a84c6988" />
+		<rom name="555.v3" offset="0x800000" size="0x200000" crc="831ea8c0" sha1="5fb54611240720c8cce169b84b224617aa37c003" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="555.c1" offset="0x0" size="0x400000" crc="68f2ed95" sha1="ead7db68c01bb36c0b8039b90deff38e52e20522" />
+		<rom loadflag="load16_byte" name="555.c2" offset="0x1" size="0x400000" crc="a6e9aff0" sha1="14ad743ca0d3be6aa911ffc832bb518f424e360d" />
+		<rom loadflag="load16_byte" name="555.c3" offset="0x800000" size="0x400000" crc="c91b40f4" sha1="b52b289667e1af4598ba9eede5996b2cdc1e2e4c" />
+		<rom loadflag="load16_byte" name="555.c4" offset="0x800001" size="0x400000" crc="359510a4" sha1="a2ca2506524c4e821159db3c7bfca953b482c727" />
+		<rom loadflag="load16_byte" name="555.c5" offset="0x1000000" size="0x400000" crc="9cfbb22d" sha1="5b2b5bb5b679f60098c5db4956b2d5bfad21d312" />
+		<rom loadflag="load16_byte" name="555.c6" offset="0x1000001" size="0x400000" crc="685efc32" sha1="ff193afcc54e95070f8de904d75c7cb97d748930" />
+		<rom loadflag="load16_byte" name="555.c7" offset="0x1800000" size="0x400000" crc="d0f86f0d" sha1="a127942d07845163978c811133876dcbff28a8c9" />
+		<rom loadflag="load16_byte" name="555.c8" offset="0x1800001" size="0x400000" crc="adfc50e3" sha1="8b4dded0b3f1413e4352244d62c851c3acdb36a7" />
+		</dataarea>
+	</part>
+</software>

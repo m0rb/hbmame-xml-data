@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="kodb" description="Kodb cartridges">
+<software name="kodb" cloneof="kod">
+	<description>The King of Dragons (bootleg)</description>
+	<year>1991</year>
+	<publisher>bootleg (Playmark)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c16b.p1" offset="0x0" size="0x80000" crc="036dd74c" sha1="489344e56863429e86b4c362b82d89819c1d6afb" />
+		<rom loadflag="load16_byte" name="c16b.p2" offset="0x1" size="0x80000" crc="3e4b7295" sha1="3245640bae7d141238051dfe5c7683d05c6d3848" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c16b.m1" offset="0x0" size="0x8000" crc="01cae60c" sha1="b2cdd883fd859f0b701230831aca1f1a74ad6087" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c16b.v1" offset="0x0" size="0x40000" crc="a2db1575" sha1="1a4a29e4b045af50700adf1665697feab12cc234" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

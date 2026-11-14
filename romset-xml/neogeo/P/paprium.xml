@@ -1,0 +1,19 @@
+<software name="paprium">
+	<description>Paprium Vertical Slice (Neo-Geo port)</description>
+	<year>2026</year>
+	<publisher>Happy-Ferret</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="551.p1" offset="0x0" size="0x100000" crc="36c7d720" sha1="87c59bd4273fbd764b979990ef648f39d3af6c32" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="551.v1" offset="0x0" size="0x400000" crc="00d9f09a" sha1="440b7f86692e27d3513bbed03397881fd4c0fe8a" />
+		<rom name="551.v2" offset="0x400000" size="0x100000" crc="ca212522" sha1="9eb7eb0d6a740e7df8ea93dcfde0b3b544197fba" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="551.c1" offset="0x0" size="0x80000" crc="5ca87ea3" sha1="fb70cd6109dbda089c3aeacb4b46397e1131f469" />
+		<rom loadflag="load16_byte" name="551.c2" offset="0x1" size="0x80000" crc="70d9ace9" sha1="81b8928157177dbf70d0aa893dcd508b7dc51073" />
+		</dataarea>
+	</part>
+</software>

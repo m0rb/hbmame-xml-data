@@ -1,0 +1,27 @@
+<software name="kof2003h01" cloneof="kof2003">
+	<description>Kof2003 Hero (Portuguese)</description>
+	<year>2003</year>
+	<publisher>devilfox &amp; BisonSAS</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x700000">
+		<rom loadflag="load16_word_swap" name="364h01.p1" offset="0x0" size="0x100000" crc="e70b482b" sha1="73e2aeb77ac99f28c18aa2f99e8fd580f6103909" />
+		<rom loadflag="load16_word_swap" name="364h01.p3" offset="0x100000" size="0x400000" crc="0363b003" sha1="3e514031f83d4b97e36320fdd6e29962d8cd5652" />
+		<rom loadflag="load16_word_swap" name="2k3-p2bl.bin" offset="0x500000" size="0x200000" crc="9c04fc52" sha1="f41b53c79e4209373ec68276fa5941c91424bb15" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="271.v1" offset="0x0" size="0x800000" crc="ffa3f8c7" sha1="7cf4a933973ca23b7f87c81151d8659e6ec4bd20" />
+		<rom name="271.v2" offset="0x800000" size="0x800000" crc="5382c7d1" sha1="1bf999705eda80ba1e7b0d6bdd010d9bfb18bd76" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="364h01.c1" offset="0x0" size="0x800000" crc="6b813f8e" sha1="6a525e832a9a113129d90064cdd649e988dffef6" />
+		<rom loadflag="load16_byte" name="364h01.c2" offset="0x1" size="0x800000" crc="22f0d943" sha1="2ce638f8c714baf75508e4f724ed8667bd14577d" />
+		<rom loadflag="load16_byte" name="364h01.c3" offset="0x1000000" size="0x800000" crc="2dec0faa" sha1="55425d5327daf452f6dd09fd4da536ea5a45a548" />
+		<rom loadflag="load16_byte" name="364h01.c4" offset="0x1000001" size="0x800000" crc="a6b92cf9" sha1="da9df703c7884f381e53ce00fd7d5630a730366e" />
+		<rom loadflag="load16_byte" name="364h01.c5" offset="0x2000000" size="0x800000" crc="180403a8" sha1="75fb15f8175e0c7b0051b59baa0cafa83a512dd3" />
+		<rom loadflag="load16_byte" name="364h01.c6" offset="0x2000001" size="0x800000" crc="30844aa6" sha1="cf57294d4003ffec12e09936c0a7ef3775b4005d" />
+		<rom loadflag="load16_byte" name="364h01.c7" offset="0x3000000" size="0x800000" crc="8ab7945a" sha1="b06a09ca7429a9848c9ab833f2b942b429fbe0d4" />
+		<rom loadflag="load16_byte" name="364h01.c8" offset="0x3000001" size="0x800000" crc="b0ed360f" sha1="aac9eb2b9ff0db6266797fefaaac95d28ab01013" />
+		</dataarea>
+	</part>
+</software>

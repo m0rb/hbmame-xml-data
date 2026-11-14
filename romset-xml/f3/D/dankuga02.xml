@@ -1,0 +1,44 @@
+<software name="dankuga02" cloneof="dankuga">
+	<description>Dan-Ku-Ga (Enable Hidden Characters)</description>
+	<year>1994</year>
+	<publisher>Yumeji</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="dkg_mpr3hc02.20" offset="0x0" size="0x80000" crc="2c2a5aff" sha1="b9d8104f5dd929750ac97aca3ecf225df1d70cc8" />
+		<rom loadflag="load32_byte" name="dkg_mpr2hc02.19" offset="0x1" size="0x80000" crc="cc5506f5" sha1="5d473a967392f405785bfbc102baf761baf53c21" />
+		<rom loadflag="load32_byte" name="dkg_mpr1hc02.18" offset="0x2" size="0x80000" crc="7e1112ed" sha1="5f85e7e4b389cd148c4ad16cb761f2adead4ea4a" />
+		<rom loadflag="load32_byte" name="dkg_mpr0hc02.17" offset="0x3" size="0x80000" crc="a8a90a31" sha1="87e0765742638cc93c7b0deba90f271f574c02c8" />
+		</dataarea>
+		<dataarea name="sprites" size="0xd00000">
+		<rom loadflag="load16_byte" name="d84-03.rom" offset="0x0" size="0x200000" crc="d786f552" sha1="f73146892f714b5706d568fc8a135fddaa656570" />
+		<rom loadflag="load16_byte" name="d84-04.rom" offset="0x1" size="0x200000" crc="d1f32b5d" sha1="35289cce64fdbb8d966dd1d5307b5393be5e7799" />
+		<rom loadflag="load16_byte" name="d84-06.rom" offset="0x400000" size="0x200000" crc="fa924dab" sha1="28a8c3cd701f8df0c53069bb576bb2a820f3a331" />
+		<rom loadflag="load16_byte" name="d84-07.rom" offset="0x400001" size="0x200000" crc="54517a6b" sha1="6e2c213c7ec1a3b78ad7e71db2326602557fd0f8" />
+		<rom loadflag="load16_byte" name="d84-09.rom" offset="0x800000" size="0x200000" crc="faa78d98" sha1="da3a2c5a45dd169743f113aa08e574f732e1f0fd" />
+		<rom loadflag="load16_byte" name="d84-10.rom" offset="0x800001" size="0x200000" crc="b84b7320" sha1="f5de0d6da50d8ed753607b51e46bc9a4572ef431" />
+		<rom loadflag="load16_byte" name="d84-19.rom" offset="0xc00000" size="0x80000" crc="6ddf77e5" sha1="a1323acaed37fce62a19e63a0800d9d1dc2cfff7" />
+		<rom loadflag="load16_byte" name="d84-20.rom" offset="0xc00001" size="0x80000" crc="f85041e5" sha1="6b2814514338f550d6aa14dbe39e848e8e64edee" />
+		</dataarea>
+		<dataarea name="sprites_hi" size="0x680000">
+		<rom name="d84-05.rom" offset="0x0" size="0x200000" crc="31a3c75d" sha1="1a16ccb6a0a03ab715e5b016ab3b1b2cd0f1ae41" />
+		<rom name="d84-08.rom" offset="0x200000" size="0x200000" crc="07347bf1" sha1="34bd359933acdec7fd1ce047092a30d1177afc2c" />
+		<rom name="d84-11.rom" offset="0x400000" size="0x200000" crc="a062c1d4" sha1="158912aa3dd75c3961bf738f9ac9034f0b005b60" />
+		<rom name="d84-21.rom" offset="0x600000" size="0x80000" crc="89f68b66" sha1="95916f02f71357324effe59da4f847f2f30ea34a" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="d84-26.32" offset="0x100000" size="0x40000" crc="4f5b8563" sha1="1d4e06cbea7bc73a99d6e30be714fff420151bbc" />
+		<rom loadflag="load16_byte" name="d84-27.33" offset="0x100001" size="0x40000" crc="fb0cb1ba" sha1="16a79b53651a6131f7636db19738b456b7c28bff" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x1000000">
+		<rom loadflag="load16_byte" name="d84-01.rom" offset="0x400000" size="0x200000" crc="9ad22149" sha1="48055822e0cea228cdecf3d05ac24e50979b6f4d" />
+		<rom loadflag="load16_byte" name="d84-02.rom" offset="0x800000" size="0x200000" crc="9e1827e4" sha1="1840881b0f8f7b6225e6ffa12a8d4b463554988e" />
+		<rom loadflag="load16_byte" name="d84-15.rom" offset="0xe00000" size="0x100000" crc="31ceb152" sha1="d9d0bc631a6a726376f566a49605b50485ac7bf4" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x600000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x300000">
+		<rom name="d84-14.rom" offset="0x0" size="0x200000" crc="2b2e693e" sha1="03eb37fa7dc68d54bf0f1800b8c0b581c344a40f" />
+		<rom name="d84-18.rom" offset="0x200000" size="0x100000" crc="e812bcc5" sha1="3574e4a99232d9fc7989ec5d1e8fe76b4b30784a" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,15 @@
+<software name="cheshire">
+	<description>Cheshire 4 Console (demo, v0.1)</description>
+	<year>2026</year>
+	<publisher>Happy-Ferret</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="554.p1" offset="0x0" size="0x80000" crc="a6c6ea4e" sha1="a95450ea3559976617a06ad86a46b83460ff7fbe" />
+		</dataarea>
+		<dataarea name="sprites" size="0x40000">
+		<rom loadflag="load16_byte" name="554.c1" offset="0x0" size="0x20000" crc="6879803c" sha1="a0d5a9335111415f513420453520b158484de11a" />
+		<rom loadflag="load16_byte" name="554.c2" offset="0x1" size="0x20000" crc="a94b0b07" sha1="98d233ad9ed4e18cf6305143ae6fe5b33a66637f" />
+		</dataarea>
+	</part>
+</software>

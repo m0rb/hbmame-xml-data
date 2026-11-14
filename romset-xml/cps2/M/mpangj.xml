@@ -1,0 +1,24 @@
+<software name="mpangj" cloneof="mpang">
+	<description>Mighty! Pang (Japan 001011)</description>
+	<year>2000</year>
+	<publisher>Mitchell (Capcom license)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c84j.p1" offset="0x0" size="0x80000" crc="bf597b1c" sha1="0412e826eec7a9f3e70c84b64c9fbcecf7e0c56a" />
+		<rom loadflag="load16_word_swap" name="c84j.p2" offset="0x80000" size="0x80000" crc="f4a3ab0f" sha1="2e54bbc95304827fcd24dab35e4895f4e6566be0" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c84.m1" offset="0x0" size="0x8000" crc="90c7adb6" sha1="a2653e977e5e0457b249e098e5ca0abc93dac336" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="mpang.key" offset="0x0" size="0x14" crc="95354b0f" sha1="6e015eda29ac94aa420d7c70cdebffee52fde032" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c84.q1" offset="0x0" size="0x200000" crc="318a2e21" sha1="c573cd88f8279a062c73ef1d79cd8421dbdcd93e" />
+		<rom loadflag="load16_word_swap" name="c84.q2" offset="0x200000" size="0x200000" crc="5462f4e8" sha1="299fbdab700e735e6395c5d9e3f079bb2e3dbd73" />
+		</dataarea>
+	</part>
+</software>

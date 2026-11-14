@@ -1,0 +1,28 @@
+<software name="kof2k2evo2" cloneof="kof2002">
+	<description>Kof2002 (Evolution v1.3)</description>
+	<year>2002</year>
+	<publisher>FCHT / EGHT</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="265evo2.p1" offset="0x0" size="0x100000" crc="6e886994" sha1="e67764738a83b5f34fe0fc4a9e33f2c1d67507db" />
+		<rom loadflag="load16_word_swap" name="265evo2.p2" offset="0x100000" size="0x400000" crc="4c91603b" sha1="f9db61348220a4a626dee5fbd0498b24aa74f77d" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="kf10-v1.bin" offset="0x0" size="0x800000" crc="0fc9a58d" sha1="9d79ef00e2c2abd9f29af5521c2fbe5798bf336f" />
+		<rom name="kf10-v2.bin" offset="0x800000" size="0x800000" crc="b8c475a4" sha1="10caf9c69927a223445d2c4b147864c02ce520a8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="265xxx.c1" offset="0x0" size="0x800000" crc="745b343e" sha1="ae8293b18cfb4c20e2915149872d9fa561a218bf" />
+		<rom loadflag="load16_byte" name="265xxx.c2" offset="0x1" size="0x800000" crc="2aab7f98" sha1="083c6e9162ab3bb49b365f91246cb39019dabe43" />
+		<rom loadflag="load16_byte" name="265d.c3" offset="0x1000000" size="0x800000" crc="959fad0b" sha1="63ab83ddc5f688dc8165a7ff8d262df3fcd942a2" />
+		<rom loadflag="load16_byte" name="265d.c4" offset="0x1000001" size="0x800000" crc="efe6a468" sha1="2a414285e48aa948b5b0d4a9333bab083b5fb853" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="265ibp.c7" offset="0x3000000" size="0x800000" crc="f501b9b2" sha1="84e969243170382e3782cfe70ec0ad1b5638cb7b" />
+		<rom loadflag="load16_byte" name="265ibp.c8" offset="0x3000001" size="0x800000" crc="2ebcf142" sha1="8129ed1aa7d201d4b9ed3447ffca829d07783571" />
+		<rom loadflag="load16_byte" name="265evo.c7" offset="0x3000000" size="0x800000" crc="b4c87865" sha1="8df7ac8bbf5f61d2fbca4cd7424074e95887ad3d" />
+		<rom loadflag="load16_byte" name="265evo.c8" offset="0x3000001" size="0x800000" crc="74c10cb6" sha1="2979ab21e3632c478ad3f70148691a1a69abd378" />
+		</dataarea>
+	</part>
+</software>

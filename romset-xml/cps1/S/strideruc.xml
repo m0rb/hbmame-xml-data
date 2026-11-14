@@ -1,0 +1,24 @@
+<software name="strideruc" cloneof="strider">
+	<description>Strider (USA, B-Board 90629B-3, buggy Street Fighter II conversion)</description>
+	<year>1989</year>
+	<publisher>bootleg (Capcom)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c03uc.p1" offset="0x0" size="0x80000" crc="e0fb5657" sha1="6c7f668220de80169feea35371aff363f67f7b0c" />
+		<rom loadflag="load16_word_swap" name="c03.p5" offset="0x80000" size="0x80000" crc="9b3cfc08" sha1="a7d7f270a097437affa845d80bed82a1fa874878" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c03ua.m1" offset="0x0" size="0x8000" crc="08d63519" sha1="c120ecfe25c3c50bc51bc7d5a9ef1c8ca6591240" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="stridersf2.key" offset="0x0" size="0x80" crc="f8f0a1a1" sha1="271dfcc0b361989ed57123a1953a653b0e194b5a" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c03.v1" offset="0x0" size="0x20000" crc="4386bc80" sha1="fb2b261995aeacfa13e7ee40b1a973dfb178f015" />
+		<rom name="c03.v2" offset="0x20000" size="0x20000" crc="444536d7" sha1="a14f5de2f6b5b29ae5161dca1f8c08c566301a91" />
+		</dataarea>
+	</part>
+</software>

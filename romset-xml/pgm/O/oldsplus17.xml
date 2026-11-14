@@ -1,0 +1,31 @@
+<software name="oldsplus17" cloneof="oldsplus">
+	<description>Oriental Legend 2 (Yellow Hat Version 2018-08-02)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p05301_pw17.rom" offset="0x100000" size="0x400000" crc="c2e70cae" sha1="a676917846504fbdac6970021faa730a59c95d27" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m05301_pw17.rom" offset="0x400000" size="0x400000" crc="61a1413c" sha1="f5a739226dfb95005543aa6cf7132b6fec3d8b43" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="oldsplus_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="igs_a05301w064.u3" offset="0x0" size="0x800000" crc="57946fd2" sha1="5d79bc71a1881f3099821a9b255a5f271e0eeff6" />
+		<rom name="a05302_pw17.rom" offset="0x800000" size="0x800000" crc="65acdbf7" sha1="008346d963e67e858d91a9cd1206e125e2eddec6" />
+		<rom name="igs_a05303w064.u6" offset="0x1000000" size="0x800000" crc="13475d85" sha1="4683a3bf304fdc15ffb1c61b7957ad68b023fa33" />
+		<rom name="a05304_pw17.rom" offset="0x1800000" size="0x800000" crc="b92e10a4" sha1="f6e323187a46ff72dbba0618b0abd1b05208ba1a" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b05301_pw17.rom" offset="0x0" size="0x800000" crc="7aedd210" sha1="f974d4800d61dcdf779b52c190384ec3c6ef12e5" />
+		<rom name="b05302_pw17.rom" offset="0x800000" size="0x800000" crc="059d9ad8" sha1="9375a9c71fdde23eabd302c116b4e50a766d9d27" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="igs_t05301w064.u2" offset="0x180000" size="0x800000" crc="8257bbb0" sha1="b48067b7e7081a15fddf21739b641d677c2df3d9" />
+		</dataarea>
+		<dataarea name="user1" size="0x800000">
+		</dataarea>
+	</part>
+</software>

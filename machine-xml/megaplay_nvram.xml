@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="megaplay_nvram" description="Megaplay_Nvram cartridges">
+<software name="mp_addams" cloneof="megaplay">
+	<description>The Addams Family ARCADE (Mega Play)</description>
+	<year>2026</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="epr-26013.ic1" offset="0x0" size="0x200000" crc="87ecace1" sha1="d6529b4b692a9515ccf6722f26c011660154ae7a" />
+		</dataarea>
+		<dataarea name="mtbios" size="0x20000">
+		</dataarea>
+		<dataarea name="user1" size="0x8000">
+		<rom name="epr-15175-20.ic2" offset="0x0" size="0x8000" crc="dcfde4e7" sha1="3f5a1b4de94fad4ccd404b95a53fdb2e1c4773e6" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

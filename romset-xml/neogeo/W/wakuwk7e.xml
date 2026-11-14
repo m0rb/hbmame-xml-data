@@ -1,0 +1,30 @@
+<software name="wakuwk7e" cloneof="wakuwak7">
+	<description>Waku Waku 7 (Earlier)</description>
+	<year>1996</year>
+	<publisher>Sunsoft</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x300000">
+		<rom loadflag="load16_word_swap" name="225.p1" offset="0x0" size="0x100000" crc="b14da766" sha1="bdffd72ff705fc6b085a4026217bac1c4bc93163" />
+		<rom loadflag="load16_word_swap" name="225.p2" offset="0x100000" size="0x200000" crc="fe190665" sha1="739d9a8fc2da34381654d9e291141eacc210ae5c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="225.v1" offset="0x0" size="0x400000" crc="6195c6b4" sha1="66c06b5904aedb256e3997bbec60f8ab50c6ff0c" />
+		<rom name="225.v2" offset="0x400000" size="0x400000" crc="6159c5fe" sha1="9015e93416497f1ef877c717afed40f7ecfa42e4" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1800000">
+		<rom loadflag="load16_byte" name="225e.c1" offset="0x400000" size="0x200000" crc="d91d386f" sha1="35cd98aa5153f5da2d106ea2e138f419ea8eeccd" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="225e.c2" offset="0x400001" size="0x200000" crc="36b5cf41" sha1="6a135cf0b950a7ea5a5084d8affbe7b318566f13" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		<rom loadflag="load16_byte" name="225e.c3" offset="0xc00000" size="0x200000" crc="02fcff2f" sha1="e160d6410185a9bf7dd7dd81cdbecf3d0c524ede" />
+		<rom loadflag="continue" offset="0x800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="225e.c4" offset="0xc00001" size="0x200000" crc="cd7f1241" sha1="51b3d47025e705eee6d95da52ecd74de3be52029" />
+		<rom loadflag="continue" offset="0x800001" size="0x200000" />
+		<rom loadflag="load16_byte" name="225e.c5" offset="0x1400000" size="0x200000" crc="03d32f25" sha1="19ca7a77dfd645170ec2e77a8836ce4ba5b4da3a" />
+		<rom loadflag="continue" offset="0x1000000" size="0x200000" />
+		<rom loadflag="load16_byte" name="225e.c6" offset="0x1400001" size="0x200000" crc="d996a90a" sha1="f0365056a7b4f660b00c670a17efbb9f70e8db5d" />
+		<rom loadflag="continue" offset="0x1000001" size="0x200000" />
+		</dataarea>
+	</part>
+</software>

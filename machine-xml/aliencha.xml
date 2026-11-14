@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="aliencha" description="Aliencha cartridges">
+<software name="aliencha01">
+	<description>Alien Challenge (Huang Feihong Ultimate Simplified Infinite Killing BOSS Edition, 2015-07-05)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom name="igsc0102_s01.u81" offset="0x0" size="0x200000" crc="3d1b0a5e" sha1="bb3bd4d3a7f8903d8f098fba7748ee4a58bd8490" />
+		</dataarea>
+		<dataarea name="sprites" size="0xc00000">
+		<rom name="igsa0101.u3" offset="0x0" size="0x400000" crc="374d07c4" sha1="87e9bfe32cbfe9964ba7253847fbd14aa3c8ed20" />
+		<rom name="igsa0102.u2" offset="0x400000" size="0x400000" crc="dbeee7ac" sha1="e0eb0d73d9230aa6f69f5ac25d44fa19affebe88" />
+		<rom name="igsa0103.u1" offset="0x800000" size="0x400000" crc="e5f19041" sha1="c92a29bbbcb9a1f63364c665e3e0f9679add4389" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="hfh_g.u65" offset="0x0" size="0x40000" crc="ec469b57" sha1="ba1668078987ad51f47bcd3e61c51a0cf2545350" />
+		</dataarea>
+		<dataarea name="oki2" size="0x40000">
+		<rom name="hfh_g.u66" offset="0x0" size="0x40000" crc="7cfcd98e" sha1="3b03123160adfd3404a9e0c4c68420930e80ae48" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x10000">
+		<rom name="hfh_s.u86" offset="0x0" size="0x10000" crc="5728a9ed" sha1="e5a9e4a1a2cc6c848b08608bc8727bc739270873" />
+		</dataarea>
+		<dataarea name="tiles0" size="0x300000">
+		<rom name="igst0101.u9" offset="0x0" size="0x100000" crc="2ce12d7b" sha1="aa93a82e5f4015c46bb705efb2051b62cd5d7e04" />
+		<rom name="igst0102.u10" offset="0x100000" size="0x100000" crc="542a76a0" sha1="6947b50a024d0053c1eaf9da8c90652bab875142" />
+		<rom name="igst0103.u11" offset="0x200000" size="0x100000" crc="adf5698a" sha1="4b798f8acc5d7581c7e0989260863ae0ca654acd" />
+		</dataarea>
+		<dataarea name="tiles1" size="0x600000">
+		<rom name="igsb0101.u8" offset="0x0" size="0x200000" crc="5c995f7e" sha1="4f08cf13e313c6802c924b914c73cab4b450da61" />
+		<rom name="igsb0102.u7" offset="0x200000" size="0x200000" crc="a2ae9baf" sha1="338ee260c33448568f138ca00e1d4edda4da018f" />
+		<rom name="igsb0103.u6" offset="0x400000" size="0x200000" crc="11b927af" sha1="2f15e5cea1b86cde3b679bdd0f3d79672d0ddd3e" />
+		</dataarea>
+		<dataarea name="ymf" size="0x200000">
+		<rom name="yrw801-m" offset="0x0" size="0x200000" crc="2a9d8d43" sha1="32760893ce06dbe3930627755ba065cc3d8ec6ca" />
+		</dataarea>
+	</part>
+</software>
+<software name="aliencha02">
+	<description>Alien Challenge (Simplified Edition, 2018-07-05)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom name="igsc0102_s02.u81" offset="0x0" size="0x200000" crc="cfd429ae" sha1="4c23dba96f80ffefbabcb5da7bb769cbf4d00b40" />
+		</dataarea>
+		<dataarea name="sprites" size="0xc00000">
+		<rom name="igsa0101.u3" offset="0x0" size="0x400000" crc="374d07c4" sha1="87e9bfe32cbfe9964ba7253847fbd14aa3c8ed20" />
+		<rom name="igsa0102.u2" offset="0x400000" size="0x400000" crc="dbeee7ac" sha1="e0eb0d73d9230aa6f69f5ac25d44fa19affebe88" />
+		<rom name="igsa0103.u1" offset="0x800000" size="0x400000" crc="e5f19041" sha1="c92a29bbbcb9a1f63364c665e3e0f9679add4389" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="hfh_g.u65" offset="0x0" size="0x40000" crc="ec469b57" sha1="ba1668078987ad51f47bcd3e61c51a0cf2545350" />
+		</dataarea>
+		<dataarea name="oki2" size="0x40000">
+		<rom name="hfh_g.u66" offset="0x0" size="0x40000" crc="7cfcd98e" sha1="3b03123160adfd3404a9e0c4c68420930e80ae48" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x10000">
+		<rom name="hfh_s.u86" offset="0x0" size="0x10000" crc="5728a9ed" sha1="e5a9e4a1a2cc6c848b08608bc8727bc739270873" />
+		</dataarea>
+		<dataarea name="tiles0" size="0x300000">
+		<rom name="igst0101.u9" offset="0x0" size="0x100000" crc="2ce12d7b" sha1="aa93a82e5f4015c46bb705efb2051b62cd5d7e04" />
+		<rom name="igst0102.u10" offset="0x100000" size="0x100000" crc="542a76a0" sha1="6947b50a024d0053c1eaf9da8c90652bab875142" />
+		<rom name="igst0103.u11" offset="0x200000" size="0x100000" crc="adf5698a" sha1="4b798f8acc5d7581c7e0989260863ae0ca654acd" />
+		</dataarea>
+		<dataarea name="tiles1" size="0x600000">
+		<rom name="igsb0101.u8" offset="0x0" size="0x200000" crc="5c995f7e" sha1="4f08cf13e313c6802c924b914c73cab4b450da61" />
+		<rom name="igsb0102.u7" offset="0x200000" size="0x200000" crc="a2ae9baf" sha1="338ee260c33448568f138ca00e1d4edda4da018f" />
+		<rom name="igsb0103.u6" offset="0x400000" size="0x200000" crc="11b927af" sha1="2f15e5cea1b86cde3b679bdd0f3d79672d0ddd3e" />
+		</dataarea>
+		<dataarea name="ymf" size="0x200000">
+		<rom name="yrw801-m" offset="0x0" size="0x200000" crc="2a9d8d43" sha1="32760893ce06dbe3930627755ba065cc3d8ec6ca" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

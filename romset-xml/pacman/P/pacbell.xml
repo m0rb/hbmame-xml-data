@@ -1,0 +1,17 @@
+<software name="pacbell" cloneof="puckman">
+	<description>Pacman (Bell)</description>
+	<year>2000</year>
+	<publisher>Snake Eyes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacm255.6h" offset="0x2000" size="0x1000" crc="d3640977" sha1="2cc05c16c0cf6f516c69ab0b6e1a83bdd3010798" />
+		<rom name="pacbell.6j" offset="0x3000" size="0x1000" crc="4b428215" sha1="acdcc4d7ccfc58c6c0473e8ee548b5e02dcafcfd" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacman.5e" offset="0x0" size="0x1000" crc="0c944964" sha1="06ef227747a440831c9a3a613b76693d52a2f0a9" />
+		<rom name="pacman.5f" offset="0x1000" size="0x1000" crc="958fedf9" sha1="4a937ac02216ea8c96477d4a15522070507fb599" />
+		</dataarea>
+	</part>
+</software>

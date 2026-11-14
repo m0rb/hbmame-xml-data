@@ -1,0 +1,17 @@
+<software name="europac" cloneof="puckman">
+	<description>Euro Pac</description>
+	<year>2000</year>
+	<publisher>Stefano Priore</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="europac.6j" offset="0x3000" size="0x1000" crc="a4e82007" sha1="577b44661de47dcffac7c06e7f9fa1e5d4e085ed" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="europac.5e" offset="0x0" size="0x1000" crc="00208da4" sha1="a7ef38f2c133681344d67634f8a7362f6f0712b3" />
+		<rom name="europac.5f" offset="0x1000" size="0x1000" crc="0d36dabf" sha1="50572528e230a37a413cdc9e2bd7f2ea76fffa09" />
+		</dataarea>
+	</part>
+</software>

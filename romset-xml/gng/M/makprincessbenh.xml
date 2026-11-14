@@ -1,0 +1,34 @@
+<software name="makprincessbenh">
+	<description>Makaimura - Princess Prin Prin Edition (Enhanced) (Japan revision B)</description>
+	<year>2026</year>
+	<publisher>GoodLuckTrying</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x18000">
+		<rom name="mj04bprincess.10n" offset="0x4000" size="0x4000" crc="3084ed7d" />
+		<rom name="mj03bprincess.8n" offset="0x8000" size="0x8000" crc="de44ac2d" />
+		<rom name="mj05bprincess.12n" offset="0x10000" size="0x8000" crc="7aefa8a0" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="mm02.14h" offset="0x0" size="0x8000" crc="615f5b6f" />
+		</dataarea>
+		<dataarea name="sprites" size="0x20000">
+		<rom name="mj17princess.4n" offset="0x0" size="0x4000" crc="07c9138a" />
+		<rom name="mj16princess.3n" offset="0x4000" size="0x4000" crc="1ad1d899" />
+		<rom name="mj15princess.1n" offset="0x8000" size="0x4000" crc="439d6e7b" />
+		<rom name="mj14princess.4l" offset="0xc000" size="0x4000" crc="3cc87995" />
+		<rom name="mj13princess.3l" offset="0x10000" size="0x4000" crc="05e0c809" />
+		<rom name="mj12princess.1l" offset="0x14000" size="0x4000" crc="28fe68a2" />
+		</dataarea>
+		<dataarea name="chars" size="0x4000">
+		<rom name="mj01princess.11e" offset="0x0" size="0x4000" crc="824ae0fc" />
+		</dataarea>
+		<dataarea name="tiles" size="0x18000">
+		<rom name="mm11.3e" offset="0x0" size="0x4000" crc="ddd56fa9" />
+		<rom name="mm10.1e" offset="0x4000" size="0x4000" crc="7302529d" />
+		<rom name="mm09.3c" offset="0x8000" size="0x4000" crc="20035bda" />
+		<rom name="mm08.1c" offset="0xc000" size="0x4000" crc="f12ba271" />
+		<rom name="mm07.3b" offset="0x10000" size="0x4000" crc="e525207d" />
+		<rom name="mm06.1b" offset="0x14000" size="0x4000" crc="2d77e9b2" />
+		</dataarea>
+	</part>
+</software>

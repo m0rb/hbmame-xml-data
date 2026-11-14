@@ -1,0 +1,14 @@
+<software name="jetpac">
+	<description>Jetpac (v1.0, 2026-10-14)</description>
+	<year>2026</year>
+	<publisher>Sokurah</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jetpac.ic10" offset="0x0" size="0xf000" crc="f06281c4" sha1="6779514eee8e212c7bd46ff805784a3ae0beb4ac" />
+		</dataarea>
+		<dataarea name="maincpu:gfx" size="0x20000">
+		<rom loadflag="load16_byte" name="jetpac.ic9" offset="0x0" size="0x10000" crc="83e284a4" sha1="fe03d76546e4f01ae1ac001ffcde87337dc346b1" />
+		<rom loadflag="load16_byte" name="jetpac.ic8" offset="0x1" size="0x10000" crc="d714c279" sha1="bb474df5cc4d038981e63f3bea6aed1f92185c15" />
+		</dataarea>
+	</part>
+</software>

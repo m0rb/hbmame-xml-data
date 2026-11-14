@@ -1,0 +1,31 @@
+<software name="pengo3u" cloneof="pengo">
+	<description>Pengo (set 3, not encrypted)</description>
+	<year>1982</year>
+	<publisher>Sega</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="epr-5120.ic8" offset="0x0" size="0x1000" crc="f01afb60" sha1="1db732a17a9f79f8f1751f80c77889142928e41b" />
+		<rom name="epr-5121.ic7" offset="0x1000" size="0x1000" crc="2eb38353" sha1="d351347f93a3ed01c8b5274ec19352dd611a8dd4" />
+		<rom name="epr-5122.ic15" offset="0x2000" size="0x1000" crc="c33400d7" sha1="7b9617d22a9de8d3658abe34b5d2171ce37acc39" />
+		<rom name="epr-5123.ic14" offset="0x3000" size="0x1000" crc="6a85c6a2" sha1="444acc08607c892bb20b3a02753169addf5b11de" />
+		<rom name="epr-5124.ic21" offset="0x4000" size="0x1000" crc="95f354ff" sha1="fdebc68a6d87f8ecdf52a57a34ae5ae844a13510" />
+		<rom name="epr-5125.ic20" offset="0x5000" size="0x1000" crc="1a42310f" sha1="fef20385299a709ee17ed16510ac5702bd5cc257" />
+		<rom name="epr-5126.ic32" offset="0x6000" size="0x1000" crc="e5920728" sha1="0ac5ffdad7bdcb32e630b9582e1b1aaece5198c9" />
+		<rom name="epr-5127.ic31" offset="0x7000" size="0x1000" crc="a7d3d1d6" sha1="20e4353208c3803d8879b25f821ea617e9a19cc4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="epr-1640.ic92" offset="0x0" size="0x1000" crc="d7eec6cd" sha1="e542bcc28f292be9a0a29d949de726e0b55e654a" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom name="epr-1695.ic105" offset="0x1000" size="0x1000" crc="5bfd26e9" sha1="bdec535e486b43a8f5550334beff423eeace10b2" />
+		<rom loadflag="continue" offset="0x3000" size="0x1000" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="pr1635.ic51" offset="0x0" size="0x100" crc="c29dea27" sha1="563c9770028fe39188e62630711589d6ed242a66" />
+		<rom name="pr1636.ic70" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x420">
+		<rom name="pr1633.ic78" offset="0x0" size="0x20" crc="3a5844ec" sha1="680eab0e1204c9b74adc11588461651b474021bb" />
+		<rom name="pr1634.ic88" offset="0x20" size="0x400" crc="766b139b" sha1="3fcd66610fcaee814953a115bf5e04788923181f" />
+		</dataarea>
+	</part>
+</software>

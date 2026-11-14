@@ -1,0 +1,17 @@
+<software name="schaserm">
+	<description>Space Chaser (Model Racing bootleg)</description>
+	<year>1979</year>
+	<publisher>Model Racing</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="mr26.71" offset="0x0" size="0x800" crc="4e547879" sha1="464fab35373d6bd6218474e7f5109425376f1db2" />
+		<rom name="rt08.70" offset="0x800" size="0x800" crc="825fc8ac" sha1="176ff0f4d0cd55be30efb184bd5bef62b92d0333" />
+		<rom name="rt09.69" offset="0x1000" size="0x800" crc="de9d3f85" sha1="13a71fdd889023cfc65ed2c0a65236884b79b1f0" />
+		<rom name="mr27.62" offset="0x1800" size="0x800" crc="069ec108" sha1="b12cd288d7e42002d01290f0572f9074adf2cdca" />
+		<rom name="rt11.61" offset="0x4000" size="0x800" crc="17a7ef7a" sha1="1a7b3f9393dceddcd1e220cadbff7e619594f884" />
+		</dataarea>
+		<dataarea name="proms" size="0x400">
+		<rom name="rt06.ic2" offset="0x0" size="0x400" crc="950cf973" sha1="d22df09b325835a0057ccd0d54f827b374254ac6" />
+		</dataarea>
+	</part>
+</software>

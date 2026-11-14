@@ -1,0 +1,10 @@
+<software name="sd_ffightn" cloneof="neogeo">
+	<description>Final Fight Neo (beta-1.0.1)</description>
+	<year>2026</year>
+	<publisher>Vendza</publisher>
+	<part name="cart">
+		<dataarea name="user" size="0x2141000">
+		<rom name="ffightn.neo" offset="0x0" size="0x2141000" crc="90cf85ba" sha1="bef40700cf278e4cf0a57053b17df71dbd2ccf07" />
+		</dataarea>
+	</part>
+</software>

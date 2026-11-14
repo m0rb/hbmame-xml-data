@@ -1,0 +1,30 @@
+<software name="handiman" cloneof="tron">
+	<description>Handi-Man in Cyberworld</description>
+	<year>1998</year>
+	<publisher>Bobby Tribble</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="scpu-pga_lctn-c2_tron_jun_25.c2" offset="0x0" size="0x2000" crc="5151770b" sha1="26f4d830de7be228528e462dd628f439629a2641" />
+		<rom name="scpu-pgb_lctn-c3_tron_aug_9.c3" offset="0x2000" size="0x2000" crc="8ddf8717" sha1="e0c294afa8ba0b0ba89e3e0fb3ff6d8fc4398e32" />
+		<rom name="scpu-pgc_lctn-c4_tron_aug_9.c4" offset="0x4000" size="0x2000" crc="4241e3a0" sha1="24c1bd2f31e194542571c391c5dccf21354115c2" />
+		<rom name="scpu-pgd_lctn-c5_tron_aug_9.c5" offset="0x6000" size="0x2000" crc="035d2fe7" sha1="1b827ca30a439d2f4cc94fcc0e90ee0cf87e018c" />
+		<rom name="scpu-pge_lctn-c6_tron_aug_9.c6" offset="0x8000" size="0x2000" crc="24c185d8" sha1="45ac7c53f6f4eba5c7bf3fc6559cddd3821eddad" />
+		<rom name="scpu-pgf_lctn-c7_tron_aug_9.c7" offset="0xa000" size="0x2000" crc="38c4bbaf" sha1="a7cd496ce75199b8279ea963520cf70d5f562bb2" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="scpu-bgg_lctn-g3_tron.g3" offset="0x0" size="0x2000" crc="1a9ed2f5" sha1="b0d85b47873ac8ad475da18b9540d37232cb2b7c" />
+		<rom name="scpu-bgh_lctn-g4_tron.g4" offset="0x2000" size="0x2000" crc="3220f974" sha1="a38ea5f1db27f05d9689db838ce7a8de98f34837" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x10000">
+		<rom name="handiman.e1" offset="0x0" size="0x2000" crc="8fb79ed7" sha1="70e5f2aecda3d055eaedf2039128e549a94bd2cd" />
+		<rom name="handiman.d1" offset="0x4000" size="0x2000" crc="c0b2b28e" sha1="3d9d2c1b7a136f02e5c5595d52add03892cb0db1" />
+		<rom name="handiman.c1" offset="0x8000" size="0x2000" crc="ee776741" sha1="02ea99dd02cd469d1425a958202efe28dc202291" />
+		<rom name="handiman.a1" offset="0xc000" size="0x2000" crc="e17ec630" sha1="7929bfeea0e5e47d412619f08ca09a31618b96da" />
+		</dataarea>
+		<dataarea name="ssio:cpu" size="0x10000">
+		<rom name="ssi-0a_lctn-a7_tron.a7" offset="0x0" size="0x1000" crc="765e6eba" sha1="42efeefc8571dfc237c0be3368248f1e56add92e" />
+		<rom name="ssi-0b_lctn-a8_tron.a8" offset="0x1000" size="0x1000" crc="1b90ccdd" sha1="0876e5eeaa63bb8cc97f3634a6ddd8a29a9b012f" />
+		<rom name="ssi-0c_lctn-a9_tron.a9" offset="0x2000" size="0x1000" crc="3a4bc629" sha1="ce8452a99a313ae7429de471bbea39de08c9fd4b" />
+		</dataarea>
+	</part>
+</software>

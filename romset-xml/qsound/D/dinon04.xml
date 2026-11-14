@@ -1,0 +1,32 @@
+<software name="dinon04" cloneof="dino">
+	<description>Jurassic 99 (2020-06-04)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c25n04.p1" offset="0x0" size="0x100000" crc="3f713043" sha1="90e81c651772e895a56146c986c64ff8c35826ac" />
+		<rom loadflag="load16_word_swap" name="c25n04.p3" offset="0x100000" size="0x100000" crc="e6294edf" sha1="4f9515e2e060dad165f6cb513baee2568c82c1be" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c25.m1" offset="0x0" size="0x8000" crc="605fdb0b" sha1="9da90ddc6513aaaf2260f0c69719c6b0e585ba8c" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="dinob.key" offset="0x0" size="0x80" crc="171140c4" sha1="d1db4e37e22fa6ae03c2bca4fdb698399d98c15f" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom loadflag="continue" offset="0x4" size="0x80000" />
+		<rom loadflag="continue" offset="0x200000" size="0x80000" />
+		<rom loadflag="continue" offset="0x200004" size="0x80000" />
+		<rom loadflag="continue" offset="0x6" size="0x80000" />
+		<rom loadflag="continue" offset="0x200002" size="0x80000" />
+		<rom loadflag="continue" offset="0x200006" size="0x80000" />
+		</dataarea>
+		<dataarea name="qsound" size="0x200000">
+		<rom name="c25.q1" offset="0x0" size="0x80000" crc="60927775" sha1="f8599bc84c38573ebbe8685822c58b6a38b50462" />
+		<rom name="c25.q2" offset="0x80000" size="0x80000" crc="770f4c47" sha1="fec8ef00a6669d4d5e37787ecc7b58ee46709326" />
+		<rom name="c25.q3" offset="0x100000" size="0x80000" crc="2f273ffc" sha1="f0de462f6c4d251911258e0ebd886152c14d1586" />
+		<rom name="c25.q4" offset="0x180000" size="0x80000" crc="2c67821d" sha1="6e2528d0b22508300a6a142a796dd3bf53a66946" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,19 @@
+<software name="cottoh2" cloneof="mspacman">
+	<description>Crazy Otto simulation Ver 2</description>
+	<year>2010</year>
+	<publisher>Gatinho</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="cottoh2.4" offset="0x3000" size="0x1000" crc="e285564b" sha1="7b00549d680146fa2a88ce8a6ea45ece6e185d67" />
+		<rom name="boot5" offset="0x8000" size="0x1000" crc="8c3e6de6" sha1="fed6e9a2b210b07e7189a18574f6b8c4ec5bb49b" />
+		<rom name="boot6" offset="0x9000" size="0x1000" crc="368cb165" sha1="387010a0c76319a1eab61b54c9bcb5c66c4b67a1" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="cottoh2.5e" offset="0x0" size="0x1000" crc="3bbea74d" sha1="613dc0989670347fa2827806b8408fc407d5386d" />
+		<rom name="cottoh2.5f" offset="0x1000" size="0x1000" crc="9c3d7558" sha1="803aef874d988f112dea54f442e12973c799ea2e" />
+		</dataarea>
+	</part>
+</software>

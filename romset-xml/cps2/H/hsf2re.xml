@@ -1,0 +1,30 @@
+<software name="hsf2re" cloneof="hsf2">
+	<description>Hyper Street Fighter II: The Anniversary Edition (English Restoration, 2026-11-05)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="hs2re.03c" offset="0x0" size="0x80000" crc="c773cb30" sha1="bd95d17ea5e123412b78d9fbe1234b62ae8f40d2" />
+		<rom loadflag="load16_word_swap" name="hs2re.04b" offset="0x80000" size="0x80000" crc="008c3478" sha1="192231774cd73a8047e050a8c937b9703f8aeca8" />
+		<rom loadflag="load16_word_swap" name="hs2j.05" offset="0x100000" size="0x80000" crc="dde34a35" sha1="f5be2d2916db6e86e0886d61d55bddf138273ebc" />
+		<rom loadflag="load16_word_swap" name="hs2j.06" offset="0x180000" size="0x80000" crc="f4e56dda" sha1="c6490707c2a416ab88612c2d73abbe5853d8cb92" />
+		<rom loadflag="load16_word_swap" name="hs2j.07" offset="0x200000" size="0x80000" crc="ee4420fc" sha1="06cf76660b0c794d2460c52d9fe8334fff51e9de" />
+		<rom loadflag="load16_word_swap" name="hs2j.08" offset="0x280000" size="0x80000" crc="c9441533" sha1="bf178fac1f060fcce3ff9118333c8517dadc9429" />
+		<rom loadflag="load16_word_swap" name="hs2j.09" offset="0x300000" size="0x80000" crc="3fc638a8" sha1="2a42877b26c8abc437da46225701f0bba6e40058" />
+		<rom loadflag="load16_word_swap" name="hs2re.10" offset="0x380000" size="0x80000" crc="49529980" sha1="5b3f0a67dd79e01bbe20eb77563daf142aba1a19" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="hs2.01" offset="0x0" size="0x8000" crc="c1a13786" sha1="c7392c7efb15ea4042e75bd9007e974293d8935d" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="hs2.02" offset="0x28000" size="0x20000" crc="2d8794aa" sha1="c634affdc2568020cce6af97b4fa79925d9943f3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="hsf2j.key" offset="0x0" size="0x14" crc="19455a93" sha1="925cee29b37cb7a4048383ac715ad96f83280d37" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="hs2.11m" offset="0x0" size="0x800000" crc="0e15c359" sha1="176108b0d76d821a849324680aba0cd04b5016c1" />
+		</dataarea>
+	</part>
+</software>

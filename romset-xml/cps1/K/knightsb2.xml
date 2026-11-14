@@ -1,0 +1,35 @@
+<software name="knightsb2" cloneof="knights">
+	<description>Knights of the Round (bootleg, World 911127)</description>
+	<year>1991</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c18b2.p1" offset="0x0" size="0x80000" crc="95d00a7e" sha1="2da1c47aa15d44aa842a8d79e030e7e7b69bec19" />
+		<rom loadflag="load16_byte" name="c18b2.p2" offset="0x1" size="0x80000" crc="5a9d0b64" sha1="6ff312879c3d675ceee6fd3e262f797fabb9871e" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c18.m1" offset="0x0" size="0x8000" crc="5e44d9ee" sha1="47a7503321be8d52b5c44af838e3bb82ee15a415" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="knightsb2.key" offset="0x0" size="0x80" crc="67017a7f" sha1="d9db5b41b214539f71cc2f0d92a27285c27e38c4" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom loadflag="continue" offset="0x4" size="0x40000" />
+		<rom loadflag="continue" offset="0x200000" size="0x40000" />
+		<rom loadflag="continue" offset="0x200004" size="0x40000" />
+		<rom loadflag="continue" offset="0x5" size="0x40000" />
+		<rom loadflag="continue" offset="0x200001" size="0x40000" />
+		<rom loadflag="continue" offset="0x200005" size="0x40000" />
+		<rom loadflag="continue" offset="0x6" size="0x40000" />
+		<rom loadflag="continue" offset="0x200002" size="0x40000" />
+		<rom loadflag="continue" offset="0x200006" size="0x40000" />
+		<rom loadflag="continue" offset="0x7" size="0x40000" />
+		<rom loadflag="continue" offset="0x200003" size="0x40000" />
+		<rom loadflag="continue" offset="0x200007" size="0x40000" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c18b2.v1" offset="0x0" size="0x40000" crc="85f837a0" sha1="21a3fe8fdad10bfc994777e0b85c2c4b23943534" />
+		</dataarea>
+	</part>
+</software>

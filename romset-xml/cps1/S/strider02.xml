@@ -1,0 +1,32 @@
+<software name="strider02" cloneof="strider">
+	<description>Strider (JP, fixes graphics and music)</description>
+	<year>2017</year>
+	<publisher>System 11</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c03j.p1" offset="0x0" size="0x20000" crc="53c7b006" sha1="30daa256a32b209b907e5d916a82068017862a01" />
+		<rom loadflag="load16_byte" name="c03j.p2" offset="0x1" size="0x20000" crc="4037f65f" sha1="490b9fb15f80772316101ea15e61ab32f42feaec" />
+		<rom loadflag="load16_byte" name="c03j.p3" offset="0x40000" size="0x20000" crc="80e8877d" sha1="806a62c03007efe6d58fb24dac467d4fc39bb96a" />
+		<rom loadflag="load16_byte" name="c03j.p4" offset="0x40001" size="0x20000" crc="6b3fa466" sha1="6a3c9bd491eecf864971f7fdf02d01112d5ef7dd" />
+		<rom loadflag="load16_byte" name="c03j.p5" offset="0x80000" size="0x20000" crc="bea770b5" sha1="b1d3111c8878708b6d0589d6bdfd3b380842d98b" />
+		<rom loadflag="load16_byte" name="c03j.p6" offset="0x80001" size="0x20000" crc="43b922dc" sha1="441c932080ae2b19e3834e7173d46be2e8762119" />
+		<rom loadflag="load16_byte" name="c03j.p7" offset="0xc0000" size="0x20000" crc="5cc429da" sha1="1d3593444d556fcb7b209ef254b7733cb32dc502" />
+		<rom loadflag="load16_byte" name="c03j.p8" offset="0xc0001" size="0x20000" crc="50af457f" sha1="fb7248e41c09f137c929a2bd9ef17591f48b7009" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c03ua.m1" offset="0x0" size="0x8000" crc="08d63519" sha1="c120ecfe25c3c50bc51bc7d5a9ef1c8ca6591240" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="strider.key" offset="0x0" size="0x80" crc="39065af5" sha1="ffff84fd87e851718c564062564970677da923c9" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c03.v1" offset="0x0" size="0x20000" crc="4386bc80" sha1="fb2b261995aeacfa13e7ee40b1a973dfb178f015" />
+		<rom name="c03.v2" offset="0x20000" size="0x20000" crc="444536d7" sha1="a14f5de2f6b5b29ae5161dca1f8c08c566301a91" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>

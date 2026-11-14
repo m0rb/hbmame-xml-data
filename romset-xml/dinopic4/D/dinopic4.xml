@@ -1,0 +1,46 @@
+<software name="dinopic4" cloneof="dino">
+	<description>Cadillacs and Dinosaurs (bootleg set 4 (with PIC16c57), 930223 Asia TW)</description>
+	<year>1993</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="cad_28" offset="0x0" size="0x40000" crc="97dc3d86" sha1="8dbe9dab5682933b3ea2bfcd066f5f4503aad009" />
+		<rom loadflag="load16_byte" name="cad_32" offset="0x1" size="0x40000" crc="200a594f" sha1="125bbf0f1cdc8740293cc3b73ac4bf82af24c0d5" />
+		<rom loadflag="load16_byte" name="cad_29" offset="0x80000" size="0x40000" crc="302303c4" sha1="42427215357f670d2943a8f09a2288cd4aacd14b" />
+		<rom loadflag="load16_byte" name="cad_33" offset="0x80001" size="0x40000" crc="5bf6deda" sha1="278f56a10db0f5975ac9ecc7b6e121c2f1dbfc94" />
+		<rom loadflag="load16_byte" name="cad_31" offset="0x100000" size="0x20000" crc="f0110c8a" sha1="eee714439a3802168c2cece91ed0e1e6ab630652" />
+		<rom loadflag="load16_byte" name="cad_35" offset="0x100001" size="0x20000" crc="fbcf4314" sha1="a59a1d867abea5216367220d8c9d005f451c9d88" />
+		<rom loadflag="load16_byte" name="cad_30" offset="0x140000" size="0x20000" crc="bbcafc3b" sha1="52ff5928b1da862813ef150ea77ac59cff82df5b" />
+		<rom loadflag="load16_byte" name="cad_34" offset="0x140001" size="0x20000" crc="481369b8" sha1="065b5f6b3d2f337def183c3ab5f0ef8c21d0c849" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="cad_09" offset="0x0" size="0x8000" crc="46546432" sha1="c37527f663713464f837295625345d485855122e" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="dino.key" offset="0x0" size="0x80" crc="230b6eb0" sha1="240fdda90aecd62ce1f218e430b7ee6a464b8de8" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom name="cad_24" offset="0x0" size="0x40000" crc="e59e0066" sha1="de8868ac7c9323c9ce4a22d610f25e8932e09218" />
+		<rom name="cad_14" offset="0x1" size="0x40000" crc="79b60fc5" sha1="12519904ca235661a103f01918b8e713abbfb6f4" />
+		<rom name="cad_26" offset="0x2" size="0x40000" crc="2db8cb57" sha1="e4acc9e94067e3567e4a4b6c8439d5cc51cfbae0" />
+		<rom name="cad_16" offset="0x3" size="0x40000" crc="569e5cf0" sha1="c4b61d8c79d5d1dfd4079e57f444f7ac89a26422" />
+		<rom name="cad_20" offset="0x4" size="0x40000" crc="779bffb2" sha1="e591845761bf637d36764d84f7af84b1e3594f7b" />
+		<rom name="cad_10" offset="0x5" size="0x40000" crc="9d5b2ed4" sha1="4958fc59ca6dd45e82a1a9ea68ae40450f67badc" />
+		<rom name="cad_22" offset="0x6" size="0x40000" crc="b58c4246" sha1="fc3e705d025372edb3ded8840ff0157398897b8d" />
+		<rom name="cad_12" offset="0x7" size="0x40000" crc="33ed501d" sha1="f6f80e802444101bfcb38b1a27ed6a9b9e32ba3c" />
+		<rom name="cad_25" offset="0x200000" size="0x40000" crc="900b82b7" sha1="c9b422daccaf793cd8fae5e3f88cbdfc757cc00b" />
+		<rom name="cad_15" offset="0x200001" size="0x40000" crc="aa54f07c" sha1="b1a71d2efefec4fdf1eff61404d385d9f7d31468" />
+		<rom name="cad_27" offset="0x200002" size="0x40000" crc="27492fde" sha1="2befbf43c316db072f63d771202c8e77b6e228ff" />
+		<rom name="cad_17" offset="0x200003" size="0x40000" crc="920df2fd" sha1="7ad467e6ecf59a6b737ee5369ffcc4a5d203ea48" />
+		<rom name="cad_21" offset="0x200004" size="0x40000" crc="d65ee299" sha1="bfad1473a05f4152dedefb5b8d10e7d27b4dc18a" />
+		<rom name="cad_11" offset="0x200005" size="0x40000" crc="8594b5e8" sha1="10aca27488652da3c8421a8ea5acdfa7ec596e93" />
+		<rom name="cad_23" offset="0x200006" size="0x40000" crc="f07c16f2" sha1="422ae1bcfe0a6704e374800d2af8cda69bd03138" />
+		<rom name="cad_13" offset="0x200007" size="0x40000" crc="07a564b4" sha1="7be9f1a52eaa523a386d91d12ec0ddca716c363c" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="cad_18" offset="0x0" size="0x20000" crc="bd12c2ce" sha1="4bb4d854be7aff2516241ba56f431a5464854be2" />
+		<rom name="cad_19" offset="0x20000" size="0x20000" crc="9233de5a" sha1="c20f596648963ddf62a4452741cc9ad8b11f2ca2" />
+		</dataarea>
+	</part>
+</software>

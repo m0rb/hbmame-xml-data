@@ -1,0 +1,18 @@
+<software name="skylance">
+	<description>Sky Lance (v2.1.1)</description>
+	<year>2026</year>
+	<publisher>Eagle Software</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="779.p1" offset="0x0" size="0x80000" crc="37407333" sha1="b01ff4f74e5c06825e9d6b293dce1340f2ee98e8" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="779.v1" offset="0x0" size="0x455f00" crc="897c1fbc" sha1="7c539a98a9c95cf4eccda2e5f432a42628af4102" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="779.c1" offset="0x0" size="0x400000" crc="c1a3ebfd" sha1="96f152f24e457e2b227560de67ab0ba598c4e060" />
+		<rom loadflag="load16_byte" name="779.c2" offset="0x1" size="0x400000" crc="75a51449" sha1="65fb4f78d942e54f176addcb838a135036fc3728" />
+		</dataarea>
+	</part>
+</software>

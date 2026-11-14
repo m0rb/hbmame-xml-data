@@ -1,0 +1,29 @@
+<software name="forgottnuaa">
+	<description>Forgotten Worlds (USA, B-Board 88618B-2, Rev. AA)</description>
+	<year>1988</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c01.p1" offset="0x0" size="0x20000" crc="73e920b7" sha1="2df12fc1a66f488d06b0927db909da81466d7d07" />
+		<rom loadflag="load16_byte" name="c01uaa.p2" offset="0x1" size="0x20000" crc="e47524b9" sha1="2fad1e59432cb63017caf691bb28eb7cbcecb3c6" />
+		<rom loadflag="load16_byte" name="c01.p3" offset="0x40000" size="0x20000" crc="bea45994" sha1="c419f65c5e0c11ae7508ec54412bf6b62fac4f72" />
+		<rom loadflag="load16_byte" name="c01.p4" offset="0x40001" size="0x20000" crc="539b2339" sha1="8a9e452ef8ed05e0b956d36990266657d3077470" />
+		<rom loadflag="load16_word_swap" name="c01.p5" offset="0x80000" size="0x80000" crc="fd252a26" sha1="5cfb097984912a5167a8c7ec4c2e119b642f9970" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c01.m1" offset="0x0" size="0x8000" crc="59df2a63" sha1="dfe1fffc7a17179a80a2ae623e93b30a7d6df20d" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="forgottn.key" offset="0x0" size="0x80" crc="ec5025a0" sha1="21ac00fbfca9ae369e99469ee372fea0a5bbdb25" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c01.v1" offset="0x0" size="0x20000" crc="807d051f" sha1="720e4733787b9b11f4d1cdce0892b69475802844" />
+		<rom name="c01.v2" offset="0x20000" size="0x20000" crc="e6cd098e" sha1="667f6e5736f76a1c4c450c4e2035574ea89d7910" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>

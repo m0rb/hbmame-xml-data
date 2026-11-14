@@ -1,0 +1,18 @@
+<software name="otto1012">
+	<description>Crazy Otto (prototype of 12 Oct 1981)</description>
+	<year>1981</year>
+	<publisher>General Computer</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="otto1012.a" offset="0x0" size="0x1000" crc="5c4371e3" sha1="3fd16768ab12bb9fc04cdbd99e299488287c1820" />
+		<rom name="otto1012.b" offset="0x1000" size="0x1000" crc="59752c09" sha1="9b0b974ed245ccc28f8218e70661db7c0fd0e0c6" />
+		<rom name="otto1012.c" offset="0x2000" size="0x1000" crc="4b2b8adf" sha1="e925a9352875fa98a67ceafd98fdbfe71c603a54" />
+		<rom name="otto1012.d" offset="0x3000" size="0x1000" crc="e86bfaaa" sha1="8d648611c69e29223713c2a57e9947e4de28c5fe" />
+		<rom name="otto1012.e" offset="0x8000" size="0x1000" crc="b39781b1" sha1="6dccaf70e4a82093092c66272fee625bae707cb9" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="otto1012.5e" offset="0x0" size="0x1000" crc="66549c54" sha1="482918c33f6723ad822e4ed95424818d73f19e29" />
+		<rom name="otto1012.5f" offset="0x1000" size="0x1000" crc="1fc606c9" sha1="4ae25d59a0a391026e0e675033f97c31bfa9191a" />
+		</dataarea>
+	</part>
+</software>

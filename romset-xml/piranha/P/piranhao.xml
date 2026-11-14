@@ -1,0 +1,27 @@
+<software name="piranhao" cloneof="puckman">
+	<description>Piranha (older)</description>
+	<year>1981</year>
+	<publisher>GL (US Billiards License)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="p1.bin" offset="0x0" size="0x800" crc="c6ce1bfc" sha1="da145d67331cee292654a185fb09e773dd9d40cd" />
+		<rom name="p5.bin" offset="0x800" size="0x800" crc="a2655a33" sha1="2253dcf5c8cbe278118aa1569cf456b13d8cf029" />
+		<rom name="pir2.bin" offset="0x1000" size="0x800" crc="62cb6954" sha1="0e01c8463b130ab5518ce23368ad028c86cd0a32" />
+		<rom name="pir6.bin" offset="0x1800" size="0x800" crc="cb0700bc" sha1="1f5e91791ea25eb58d26b9627e98e0b6c1d9becf" />
+		<rom name="pir3.bin" offset="0x2000" size="0x800" crc="843fbfe5" sha1="6671a3c55ef70447f2a127438e0c39857f8bf6b1" />
+		<rom name="pir7.bin" offset="0x2800" size="0x800" crc="73084d5e" sha1="cb04a4c9dbf1672ddf478d2fe92b0ffd0159bb9e" />
+		<rom name="p4.bin" offset="0x3000" size="0x800" crc="9363a4d1" sha1="4cb4a86d92a1f9bf233cac01aa266485a8bb7a34" />
+		<rom name="p8.bin" offset="0x3800" size="0x800" crc="2769979c" sha1="581592da26199b325de51791ddab66b474ab0413" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="p9.bin" offset="0x0" size="0x800" crc="94eb7563" sha1="c99741ce1aebdfb89628fbfaecf5ae6b2719a0ca" />
+		<rom name="p11.bin" offset="0x800" size="0x800" crc="a3606973" sha1="72297e1a33102c6a48b4c65f2a0b9bfc75a2df36" />
+		<rom name="p10.bin" offset="0x1000" size="0x800" crc="84165a2c" sha1="95b24620fbf9bd0ec4dd2aeeb6d9305bd475dce2" />
+		<rom name="p12.bin" offset="0x1800" size="0x800" crc="2699ba9e" sha1="b91ff586defe65b200bea5ade7374c2c7579cd80" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="82s123.7f" offset="0x0" size="0x20" crc="2fc650bd" sha1="8d0268dee78e47c712202b0ec4f1f51109b1f2a5" />
+		<rom name="piranha.4a" offset="0x20" size="0x100" crc="08c9447b" sha1="5e4fbfcc7179fc4b1436af9bb709ffc381479315" />
+		</dataarea>
+	</part>
+</software>

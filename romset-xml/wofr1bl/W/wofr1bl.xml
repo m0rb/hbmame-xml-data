@@ -1,0 +1,30 @@
+<software name="wofr1bl" cloneof="wof">
+	<description>Warriors of Fate (bootleg)</description>
+	<year>1992</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c23r1bl.p1" offset="0x0" size="0x80000" crc="61fd0a01" sha1="a7b5bdddd7b31645e33314c1d3649e1506cecfea" />
+		<rom loadflag="load16_byte" name="c23r1bl.p2" offset="0x1" size="0x80000" crc="7f59e24c" sha1="34c294328d00c65086622bd15e17210f07f37237" />
+		<rom loadflag="load16_byte" name="c23r1bl.p3" offset="0x100000" size="0x20000" crc="fe5eee87" sha1="be1230f64c1e59ae3ff3e58593070613966ac79d" />
+		<rom loadflag="load16_byte" name="c23r1bl.p4" offset="0x100001" size="0x20000" crc="739379be" sha1="897f61527213902fda04bc28339f1f4278bf5ae9" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x20000">
+		<rom name="c23r1bl.m1" offset="0x0" size="0x10000" crc="21ce044c" sha1="425fd8d33d54f35ef90d68a7530db7a0eafb600d" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom loadflag="continue" offset="0x4" size="0x40000" />
+		<rom loadflag="continue" offset="0x5" size="0x40000" />
+		<rom loadflag="continue" offset="0x6" size="0x40000" />
+		<rom loadflag="continue" offset="0x7" size="0x40000" />
+		<rom loadflag="continue" offset="0x200004" size="0x40000" />
+		<rom loadflag="continue" offset="0x200005" size="0x40000" />
+		<rom loadflag="continue" offset="0x200006" size="0x40000" />
+		<rom loadflag="continue" offset="0x200007" size="0x40000" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c23r1bl.v1" offset="0x0" size="0x20000" crc="ac6e307d" sha1="b490ce625bb7ce0904b0fd121fbfbd5252790f7a" />
+		<rom name="c23r1bl.v2" offset="0x20000" size="0x20000" crc="068741db" sha1="ab48aff639a7ac218b7d5304145e10e92d61fd9f" />
+		</dataarea>
+	</part>
+</software>

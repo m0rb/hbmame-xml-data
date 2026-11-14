@@ -1,0 +1,25 @@
+<software name="kof96s46" cloneof="kof96">
+	<description>Kof&#x27;96 (Aniversary Edition 2.0 Final Version, 2019-05-30)</description>
+	<year>2019</year>
+	<publisher>EGHT/EGCG</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x600000">
+		<rom loadflag="load16_word_swap" name="214s46.p1" offset="0x0" size="0x100000" crc="0de08cc3" sha1="f83cd99a0adc5b256f2aa2d28f1b89afc820f64f" />
+		<rom loadflag="load16_word_swap" name="214s46.p2" offset="0x100000" size="0x400000" crc="221d1d54" sha1="0299e192bd3fe5a3508baa89623ff709cbc833f2" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xc00000">
+		<rom name="214.v1" offset="0x0" size="0x400000" crc="63f7b045" sha1="1353715f1a8476dca6f8031d9e7a401eacab8159" />
+		<rom name="214.v2" offset="0x400000" size="0x400000" crc="25929059" sha1="6a721c4cb8f8dc772774023877d4a9f50d5a9e31" />
+		<rom name="214s44.v3" offset="0x800000" size="0x400000" crc="f85673b0" sha1="6378931be248b52b15496c4583602ffa3fbd5d9b" />
+		</dataarea>
+		<dataarea name="sprites" size="0x3000000">
+		<rom loadflag="load16_byte" name="214s44.c1" offset="0x0" size="0x800000" crc="a7466eea" sha1="f0513b048782b27aa49b9cbcc396ecb05348cd24" />
+		<rom loadflag="load16_byte" name="214s44.c2" offset="0x1" size="0x800000" crc="6ff22256" sha1="cc92838f83d01ff1bef5d354231c223043705170" />
+		<rom loadflag="load16_byte" name="214s44.c3" offset="0x1000000" size="0x800000" crc="48d81318" sha1="2c2f4149c613da45d8b2a8545ccef4ed3cfc0d74" />
+		<rom loadflag="load16_byte" name="214s45.c4" offset="0x1000001" size="0x800000" crc="d69836e6" sha1="30cdda1a72dfe536bced936c54145217fc6ae17f" />
+		<rom loadflag="load16_byte" name="214s46.c5" offset="0x2000000" size="0x800000" crc="ed71e6bb" sha1="6e8021912029b6d1a68f3f942648b95d3724bcd4" />
+		<rom loadflag="load16_byte" name="214s46.c6" offset="0x2000001" size="0x800000" crc="059fa364" sha1="0e701f66fbf14089943c03c2a2e0401ebc10a0f2" />
+		</dataarea>
+	</part>
+</software>

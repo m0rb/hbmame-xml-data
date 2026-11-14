@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="thundfox" description="Thundfox cartridges">
+<software name="thundfox01">
+	<description>Thunder Fox (Chinese)</description>
+	<year>1990</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_byte" name="c28-13_s01-1.51" offset="0x0" size="0x20000" crc="a544a7db" sha1="2d056237119a4e21f172c67c24be18917f0344d4" />
+		<rom loadflag="load16_byte" name="c28-12_s01-1.40" offset="0x1" size="0x20000" crc="84c90906" sha1="a27fb206e22c59ca118a79651dd82ac2fcda7f1d" />
+		<rom loadflag="load16_byte" name="c28-08_s01.50" offset="0x40000" size="0x20000" crc="fa06e4eb" sha1="0d0324a4bed4670ea79b68d246e91240f30b7be0" />
+		<rom loadflag="load16_byte" name="c28-07_s01.39" offset="0x40001" size="0x20000" crc="c0912703" sha1="7aefc065601d599aa6430c286092aad96414de02" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x1c000">
+		<rom name="c28-14.3" offset="0x0" size="0x10000" crc="45ef3616" sha1="97bf1de7fd32a378839df1845f7522dae776d997" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="c28-06.41" offset="0x0" size="0x80000" crc="db6983db" sha1="b72541aa35c48624478060e7453f01956ff1ceb2" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x80000">
+		<rom name="c28-05.42" offset="0x0" size="0x80000" crc="d3b238fa" sha1="b4a0cdd7174e60527e7a47018d6117adc5518da1" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="c28-03.29" offset="0x0" size="0x80000" crc="51bdc7af" sha1="e36a063932fa5bd6609930c3708fee1e6feb5389" />
+		<rom loadflag="load16_byte" name="c28-04.28" offset="0x1" size="0x80000" crc="ba7ed535" sha1="be7e010f6788d1b82cebc932c793a0a976647832" />
+		</dataarea>
+		<dataarea name="tc0100scn_1" size="0x80000">
+		<rom loadflag="load16_word_swap" name="c28-02.61" offset="0x0" size="0x80000" crc="6230a09d" sha1="780aff5d4511c5e08cbf78784b163d60358f9283" />
+		</dataarea>
+		<dataarea name="tc0100scn_2" size="0x80000">
+		<rom loadflag="load16_word_swap" name="c28-01_s01.63" offset="0x0" size="0x80000" crc="34ad98e4" sha1="96e260de01610f9e6ca886a12e75661a54168440" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

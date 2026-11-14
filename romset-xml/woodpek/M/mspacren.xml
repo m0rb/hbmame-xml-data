@@ -1,0 +1,23 @@
+<software name="mspacren" cloneof="mspacman">
+	<description>Ms. Pacman Renaissance</description>
+	<year>2000</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="mspacren.4" offset="0x3000" size="0x1000" crc="efe80423" sha1="bc78085a53123da0e0c9ab2c212c60c9dd2e6983" />
+		<rom name="mspacren.5" offset="0x8000" size="0x1000" crc="f513ae17" sha1="87e1a3d31d04ed527cb89369c53a5a66403f73a5" />
+		<rom name="mspacren.6" offset="0x9000" size="0x1000" crc="ce3b842b" sha1="e4bf3578ccfaa757534f83fb3842d1515fd95d71" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mspacren.5e" offset="0x0" size="0x1000" crc="31b134a0" sha1="f457df057963aa60492a98f12a6d258fe7fded03" />
+		<rom name="mspacren.5f" offset="0x1000" size="0x1000" crc="022f61d1" sha1="16ed25a881b058efa963b938341ce4f04d914262" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="puckren.7f" offset="0x0" size="0x20" crc="7b6aa3c9" sha1="849911abdc26ccf2ad44e2c432e6219447b8bef3" />
+		<rom name="puckren.4a" offset="0x20" size="0x100" crc="64fe1dbf" sha1="7f7541eb12148add79ad186a1da375c865d251e0" />
+		</dataarea>
+	</part>
+</software>

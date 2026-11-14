@@ -1,0 +1,17 @@
+<software name="pacjr3" cloneof="puckman">
+	<description>Pacman Jr. (Maze 3)</description>
+	<year>2000</year>
+	<publisher>[Midway]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacm255.6h" offset="0x2000" size="0x1000" crc="d3640977" sha1="2cc05c16c0cf6f516c69ab0b6e1a83bdd3010798" />
+		<rom name="pacjr3.6j" offset="0x3000" size="0x1000" crc="d4d8cb9b" sha1="06bcf32e5fe9af7161178bd6295a6ea48f791f37" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacjr1.5e" offset="0x0" size="0x1000" crc="9f3c32d4" sha1="e7e40207f2a70768ce38cbb1e62c02ca4bed3a14" />
+		<rom name="pacjr1.5f" offset="0x1000" size="0x1000" crc="c2310808" sha1="84c28a4fc327afcb441daee35acdab6f7613395e" />
+		</dataarea>
+	</part>
+</software>

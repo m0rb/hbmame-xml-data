@@ -1,0 +1,24 @@
+<software name="knights08" cloneof="knights">
+	<description>Knights of the Round (Squire&#x27;s Aid)</description>
+	<year>2021</year>
+	<publisher>Sebastian Mihai</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c18s08.p1" offset="0x0" size="0x80000" crc="99fef934" sha1="ebd8006230d302f7125c7f0037de163afa9520ab" />
+		<rom loadflag="load16_word_swap" name="c18s08.p5" offset="0x80000" size="0x80000" crc="860953ee" sha1="df8c49aa561c432287bc278cdf765723de23391d" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c18.m1" offset="0x0" size="0x8000" crc="5e44d9ee" sha1="47a7503321be8d52b5c44af838e3bb82ee15a415" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="knights.key" offset="0x0" size="0x80" crc="a4851689" sha1="0a96f22a655c3ff9d09d7b84abd7ab5ac5f137e2" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c18.v1" offset="0x0" size="0x20000" crc="da69d15f" sha1="9616207e693bae85705f786cef60b9f6951b5067" />
+		<rom name="c18.v2" offset="0x20000" size="0x20000" crc="bfc654e9" sha1="01b3d92e4dedf55ea3933d387c7ddb9ba2549773" />
+		</dataarea>
+	</part>
+</software>

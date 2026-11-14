@@ -1,0 +1,32 @@
+<software name="samsho3e" cloneof="samsho3">
+	<description>Samurai Shodown III / Samurai Spirits - Zankurou Musouken (Earlier)</description>
+	<year>1995</year>
+	<publisher>SNK</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x300000">
+		<rom loadflag="load16_word_swap" name="087h.p1" offset="0x0" size="0x100000" crc="282a336e" sha1="e062f1939d36a45f185b5dbd726cdd833dc7c28c" />
+		<rom loadflag="load16_word_swap" name="087k.p2" offset="0x100000" size="0x200000" crc="9bbe27e0" sha1="b18117102159903c8e8f4e4226e1cc91a400e816" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x600000">
+		<rom name="087.v1" offset="0x0" size="0x400000" crc="84bdd9a0" sha1="adceceb00569eca13fcc2e0f0d9f0d9b06a06851" />
+		<rom name="087.v2" offset="0x400000" size="0x200000" crc="ac0f261a" sha1="5411bdff24cba7fdbc3397d45a70fb468d7a44b3" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1a00000">
+		<rom loadflag="load16_byte" name="087e.c1" offset="0x400000" size="0x200000" crc="e079f767" sha1="0c2e983e68f3a3b25713b2aa8a5f39bc03561672" />
+		<rom loadflag="continue" offset="0x0" size="0x200000" />
+		<rom loadflag="load16_byte" name="087e.c2" offset="0x400001" size="0x200000" crc="fc045909" sha1="7cb6b5d8abaf6bf54853e28454cc1f518298fdfa" />
+		<rom loadflag="continue" offset="0x1" size="0x200000" />
+		<rom loadflag="load16_byte" name="087e.c3" offset="0xc00000" size="0x200000" crc="c61218d7" sha1="d92344a019bc5c8091ac4c8e6b7d9b2e99309bbe" />
+		<rom loadflag="continue" offset="0x800000" size="0x200000" />
+		<rom loadflag="load16_byte" name="087e.c4" offset="0xc00001" size="0x200000" crc="054ec754" sha1="324b06a80b6b268781081731756ddb1254c23991" />
+		<rom loadflag="continue" offset="0x800001" size="0x200000" />
+		<rom loadflag="load16_byte" name="087e.c5" offset="0x1400000" size="0x200000" crc="05feee47" sha1="d5be7ca85dca73d900a30bb635a531ba39891251" />
+		<rom loadflag="continue" offset="0x1000000" size="0x200000" />
+		<rom loadflag="load16_byte" name="087e.c6" offset="0x1400001" size="0x200000" crc="ef7d9e29" sha1="853f73769de504a6747f538829b3f9a0b7e841bc" />
+		<rom loadflag="continue" offset="0x1000001" size="0x200000" />
+		<rom loadflag="load16_byte" name="087e.c7" offset="0x1800000" size="0x80000" crc="7a01f666" sha1="d177f165fc7bbd9742e0e236ef8182b48d89e982" />
+		<rom loadflag="load16_byte" name="087e.c8" offset="0x1800001" size="0x80000" crc="ffd009c2" sha1="1b49e36596ca6bef3d7c943491b496eb759975d7" />
+		</dataarea>
+	</part>
+</software>

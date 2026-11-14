@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="mspachi" description="Mspachi cartridges">
+<software name="mspachi" cloneof="mspacman">
+	<description>Ms. Pacman[h]</description>
+	<year>1998</year>
+	<publisher>David Widel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x11000">
+		<rom name="mspachi.1" offset="0x0" size="0x1000" crc="dca2ffc4" sha1="746ebc8afd3172323f1c19e97e55e0f906d68ea4" />
+		<rom name="mspachi.2" offset="0x1000" size="0x1000" crc="fea2627b" sha1="bc7249f0939dc003de509721e7d4f669defefcfe" />
+		<rom name="mspachi.3" offset="0x2000" size="0x1000" crc="a9a32749" sha1="2d1036a0903a12f4f8b9e56c1599d1dccea8991a" />
+		<rom name="mspachi.4" offset="0x3000" size="0x1000" crc="9123cd53" sha1="e6a3461c818b2bc779f02c23d59e54530ef76584" />
+		<rom name="mspachi.5" offset="0x8000" size="0x1000" crc="397f196d" sha1="aab641b8053adc0a43ee5d2eba43aa6c12326dec" />
+		<rom name="mspachi.6" offset="0x9000" size="0x2000" crc="50de42d3" sha1="66b2dd376ab69cab2593357489251f06bc621120" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="5e" offset="0x0" size="0x1000" crc="5c281d01" sha1="5e8b472b615f12efca3fe792410c23619f067845" />
+		<rom name="5f" offset="0x1000" size="0x1000" crc="615af909" sha1="fd6a1dde780b39aea76bf1c4befa5882573c2ef4" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

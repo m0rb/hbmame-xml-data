@@ -1,0 +1,18 @@
+<software name="cnbe">
+	<description>Codename: Blut Engel (2006-01-19)</description>
+	<year>2006</year>
+	<publisher>Blastar</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="410.p1" offset="0x0" size="0x80000" crc="7ece4186" sha1="fc4ed3b5ed551744542c2ff1e45a6e97c68eff88" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="410.v1" offset="0x0" size="0x80000" crc="70191764" sha1="7dff2122c32886a3626c0d7befc7e7c3961c6cee" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="410.c1" offset="0x0" size="0x100000" crc="0f4fea6f" sha1="2eeaa661272817dc205072cd63d8bffbe7d6fbec" />
+		<rom loadflag="load16_byte" name="410.c2" offset="0x1" size="0x100000" crc="3d5fc36f" sha1="59c045bc5999ccd6c1413364a6cd337a858f599e" />
+		</dataarea>
+	</part>
+</software>
