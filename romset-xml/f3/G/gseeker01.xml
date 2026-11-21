@@ -1,0 +1,33 @@
+<software name="gseeker01" cloneof="gseeker">
+	<description>Grid Seeker: Project Storm Hammer (Chinese)</description>
+	<year>1992</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="d40_12hc01.rom" offset="0x0" size="0x40000" crc="63894ca7" sha1="2d8821a088c7d2cfc1a4d117b723d5a40c2a12b6" />
+		<rom loadflag="load32_byte" name="d40_11hc01.rom" offset="0x1" size="0x40000" crc="287358f1" sha1="a57f53b7093d5db856f136bb11be3508133559a7" />
+		<rom loadflag="load32_byte" name="d40_10hc01.rom" offset="0x2" size="0x40000" crc="af11d645" sha1="fe5b8068b6263ece28892efa51bd0e2b0df5bb50" />
+		<rom loadflag="load32_byte" name="d40-09hc01.34" offset="0x3" size="0x40000" crc="2d8f3978" sha1="f9d6548b44f33017430d31c94756e2b5516e492b" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="d40_03hc01.rom" offset="0x0" size="0x100000" crc="644f60c1" sha1="9af611a3efb115bab17b7aa4f4c87ede1426731d" />
+		<rom loadflag="load16_byte" name="d40_04hc01.rom" offset="0x100001" size="0x80000" crc="23a6a9e1" sha1="ecf1ff6a21991d3596a3a6924134f4ebb8a996fd" />
+		<rom loadflag="continue" offset="0x0" size="0x80000" />
+		<rom loadflag="load16_byte" name="d40_15hc01.rom" offset="0x0" size="0x80000" crc="277f6629" sha1="4f8c1dc9c2c62da52212dfde40d03c40672eed1a" />
+		<rom loadflag="load16_byte" name="d40_16hc01.rom" offset="0x1" size="0x80000" crc="ec221d06" sha1="d524c990e4c81d12fa82792064944e9f76c9df08" />
+		</dataarea>
+		<dataarea name="eeprom" endianness="big" size="0x80">
+		<rom name="gseeker.nv" offset="0x0" size="0x80" crc="3e24cc80" sha1="42173cf6aa40bb5015d01f62312fc2ff8d81fb65" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x140000">
+		<rom loadflag="load16_byte" name="d40_07.rom" offset="0x100000" size="0x20000" crc="7e9b26c2" sha1="d88ad39a9d70b4a5bd3f83e0d4d0725f659f1d2a" />
+		<rom loadflag="load16_byte" name="d40_08.rom" offset="0x100001" size="0x20000" crc="9c926a28" sha1="9d9ee75eb895edc381c3ab4df5af941f84cd2073" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="d40_01.rom" offset="0x0" size="0x200000" crc="ee312e95" sha1="885553950c2b2195d664639bf7e0d1ffa3e8346a" />
+		<rom loadflag="load16_byte" name="d40_02.rom" offset="0x600000" size="0x100000" crc="ed894fe1" sha1="5bf2fb6abdcf25bc525a2c3b29dbf7aca0b18fea" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		</dataarea>
+	</part>
+</software>

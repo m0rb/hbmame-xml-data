@@ -1,0 +1,22 @@
+<software name="daimakair" cloneof="ghouls">
+	<description>Daimakaimura (Japan Resale Ver.)</description>
+	<year>1988</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c02jr.p1" offset="0x0" size="0x80000" crc="c3b248ec" sha1="5c016d2dcf882b2a9564e3c4502a0f51ee3d1803" />
+		<rom loadflag="load16_word_swap" name="c02jr.p5" offset="0x80000" size="0x80000" crc="595ff2f3" sha1="ac14b81e15f2c340526a03acbb4c28181d94d5b9" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c02jr.m1" offset="0x0" size="0x8000" crc="0656ff53" sha1="063a8124dbe73d014b11f72007f1b877afd1a661" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="daimakair.key" offset="0x0" size="0x80" crc="8b8cdff4" sha1="69e750171817d9507c8f86db8a79b25d8dae5001" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		</dataarea>
+	</part>
+</software>

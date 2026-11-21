@@ -1,0 +1,30 @@
+<software name="pbobble2s01" cloneof="pbobble2">
+	<description>Puzzle Bobble 2 (Bobble 2X Hack)</description>
+	<year>1995</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load32_byte" name="e10-29.20" offset="0x0" size="0x40000" crc="f1e9ad3f" sha1="8689d85f30e075d21e4be01a2a097a850a921c47" />
+		<rom loadflag="load32_byte" name="e10-28.19" offset="0x1" size="0x40000" crc="412a3602" sha1="d754e6ac886676d2c1eb52de3a727894f316e6b5" />
+		<rom loadflag="load32_byte" name="e10-27.18" offset="0x2" size="0x40000" crc="88cc0b5c" sha1="bb08a7b8b37356376052ed03f8515677811823c0" />
+		<rom loadflag="load32_byte" name="e10-wrd.17" offset="0x3" size="0x40000" crc="4bcc216b" sha1="45e9250414201fa5ad866b32b0285973fd06367c" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="e10-02.rom" offset="0x0" size="0x100000" crc="c0564490" sha1="cbe9f880192c08f4d1db21d5ba14073b97e5f1d3" />
+		<rom loadflag="load16_byte" name="e10-01.rom" offset="0x1" size="0x100000" crc="8c26ff49" sha1="cbb514c061106003d2ae2b6c43958b24feaad656" />
+		</dataarea>
+		<dataarea name="taito_en:audiocpu" size="0x180000">
+		<rom loadflag="load16_byte" name="e10-30.32" offset="0x100000" size="0x40000" crc="bb090c1e" sha1="af2ff23d6f9bd56c25530cb9bf9f452b6f5210f5" />
+		<rom loadflag="load16_byte" name="e10-31.33" offset="0x100001" size="0x40000" crc="f4b88d65" sha1="c74dcb4bed979039fad1d5c7528c14ce4db1d5ec" />
+		</dataarea>
+		<dataarea name="taito_en:ensoniq" endianness="big" size="0x800000">
+		<rom loadflag="load16_byte" name="e10-04.rom" offset="0x0" size="0x200000" crc="5c0862a6" sha1="f916f63b8629239e3221e1e231e1b39962ef38ba" />
+		<rom loadflag="load16_byte" name="e10-03.rom" offset="0x400000" size="0x200000" crc="46d68ac8" sha1="ad014e9f0d458308014959ca6823077f581ab088" />
+		</dataarea>
+		<dataarea name="tilemap" size="0x200000">
+		</dataarea>
+		<dataarea name="tilemap_hi" size="0x100000">
+		<rom name="e10-05.rom" offset="0x0" size="0x100000" crc="81266151" sha1="aa3b144f32995425db97efce440e234a3c7a6715" />
+		</dataarea>
+	</part>
+</software>

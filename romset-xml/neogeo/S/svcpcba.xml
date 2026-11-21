@@ -1,0 +1,22 @@
+<software name="svcpcba" cloneof="svcpcb">
+	<description>SNK vs. Capcom - SVC Chaos (JAMMA PCB, set 2)</description>
+	<year>2003</year>
+	<publisher>SNK Playmore</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x800000">
+		<rom loadflag="load32_word_swap" name="269.p1" offset="0x0" size="0x400000" crc="38e2005e" sha1="1b902905916a30969282f1399a756e32ff069097" />
+		<rom loadflag="load32_word_swap" name="269.p2" offset="0x2" size="0x400000" crc="6d13797c" sha1="3cb71a95cea6b006b44cac0f547df88aec0007b7" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x90000">
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="269ca.v1" offset="0x0" size="0x1000000" crc="a6af4753" sha1="ec4f61a526b707a7faec4653b773beb3bf3a17ba" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		</dataarea>
+		<dataarea name="audiocrypt" size="0x80000">
+		<rom name="269.m1" offset="0x0" size="0x80000" crc="f6819d00" sha1="d3bbe09df502464f104e53501708ac6e2c1832c6" />
+		</dataarea>
+	</part>
+</software>

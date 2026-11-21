@@ -1,0 +1,30 @@
+<software name="ssf2tuc" cloneof="ssf2t">
+	<description>Super Street Fighter II EX: The Ultimate Championship (940223U, 2026-11-18)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="sfxj.03d" offset="0x0" size="0x80000" crc="d54cc193" sha1="3602a993dc5cd3356ff4491575d0f70f4e7f75da" />
+		<rom loadflag="load16_word_swap" name="sfxj.04a" offset="0x80000" size="0x80000" crc="559132c5" sha1="a603090ce1a5d643e2b79dda188097cb4e740429" />
+		<rom loadflag="load16_word_swap" name="sfxj.05" offset="0x100000" size="0x80000" crc="477b0a5e" sha1="30e2981dafa13bf169dcb244dbadeaaa8e4f9539" />
+		<rom loadflag="load16_word_swap" name="sfxj.06b" offset="0x180000" size="0x80000" crc="f483b814" sha1="b2cac16400c1b7968b070efcdd9d9c208398b905" />
+		<rom loadflag="load16_word_swap" name="sfxj.07a" offset="0x200000" size="0x80000" crc="c29228d0" sha1="e98800fc8122d0a06bdac87cf67f78b50fcb3132" />
+		<rom loadflag="load16_word_swap" name="sfxj.08" offset="0x280000" size="0x80000" crc="f7587a54" sha1="72aa33ec06f196ae97671e2910fd5ad145686476" />
+		<rom loadflag="load16_word_swap" name="sfx.09" offset="0x300000" size="0x80000" crc="acf110a7" sha1="3ef69256236a0712a458ae76db8fcb1e0fc33190" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="sfx.01" offset="0x0" size="0x8000" crc="567b38e8" sha1="d5790d59e410baab336a215a29877eec5e4b9b38" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="sfx.02" offset="0x28000" size="0x20000" crc="0328f08c" sha1="08be688329cdaa1bb223dac3b0660b28211de516" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="ssf2xj.key" offset="0x0" size="0x14" crc="160d1424" sha1="187baff83b54acfdcedd9b9222a4cc768040c622" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="sfx.11m" offset="0x0" size="0x200000" crc="e33ef750" sha1="dfe9cbde7d4681852d764eda8ec8704e5acf5cc6" />
+		<rom loadflag="load16_word_swap" name="sfx.12m" offset="0x200000" size="0x200000" crc="a05e3aab" sha1="d4eb9cae66c74e956569fea8b815156fbd420f83" />
+		</dataarea>
+	</part>
+</software>

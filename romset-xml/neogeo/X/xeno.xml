@@ -1,0 +1,19 @@
+<software name="xeno">
+	<description>Xeno Crisis v1.0.0</description>
+	<year>2019</year>
+	<publisher>Bitmap Bureau</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="342.p1" offset="0x0" size="0x100000" crc="637605a6" sha1="179ebcdeaac3e561fd7acb72022eda8c3c74cb8a" />
+		<rom loadflag="load16_word_swap" name="342.p2" offset="0x100000" size="0x100000" crc="84838145" sha1="c1f48d333dfc85b9371f811dd449a42d8cdecf3f" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="342.v1" offset="0x0" size="0x1000000" crc="60d57867" sha1="e1f3f759b4af4404f19dd5b75135e6968b6be3c5" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="342.c1" offset="0x0" size="0x200000" crc="ae51ef89" sha1="da82214263a99520364a2b7ab8140bdc68940f6d" />
+		<rom loadflag="load16_byte" name="342.c2" offset="0x1" size="0x200000" crc="a8610100" sha1="aded6eaa17a518a8f4af9c3779c41ef8dd32a316" />
+		</dataarea>
+	</part>
+</software>

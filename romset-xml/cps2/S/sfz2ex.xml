@@ -1,0 +1,29 @@
+<software name="sfz2ex" cloneof="sfz2al">
+	<description>Street Fighter Zero 2 EX (960805J, 2026-11-14)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="szaj.03a" offset="0x0" size="0x80000" crc="23f7323a" sha1="015081c91d3bed59623fe72ec0fd4b6ca9738014" />
+		<rom loadflag="load16_word_swap" name="szaj.04a" offset="0x80000" size="0x80000" crc="f7f1b100" sha1="2bc2ed0d63712a9d6fe67eeaf51f2c8dea7b4e5a" />
+		<rom loadflag="load16_word_swap" name="szaj.05a" offset="0x100000" size="0x80000" crc="c88ebf88" sha1="e37cf232fc70b9a3254dea99754e288232f04e25" />
+		<rom loadflag="load16_word_swap" name="szaj.06a" offset="0x180000" size="0x80000" crc="35ed5b7a" sha1="b03cb92f594eb35fa374445f74930e9040a2baff" />
+		<rom loadflag="load16_word_swap" name="szaj.07a" offset="0x200000" size="0x80000" crc="2f2a53da" sha1="b9c291f8bd5dc23f5993a924eb829abd7378a42d" />
+		<rom loadflag="load16_word_swap" name="szaj.08a" offset="0x280000" size="0x80000" crc="337428b3" sha1="f4aca1556f379dfd88f03f49dc215277fc27dbb1" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="sza.01" offset="0x0" size="0x8000" crc="4e851238" sha1="99ef14643d04ac216058b4a9ea7175f5f591ff6d" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="sza.02" offset="0x28000" size="0x20000" crc="c45ee83c" sha1="d13eec22b188dc78b607cc82e2ed13bf6902f010" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="sfz2alj.key" offset="0x0" size="0x14" crc="4c42320f" sha1="0fabdab677416c5a8060526d997e6f80b26f9bb3" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="sza.11m" offset="0x0" size="0x400000" crc="f23db54d" sha1="2354b0bb3f937ece496cfdcba6c430973031bf3f" />
+		<rom loadflag="load16_word_swap" name="sza.12m" offset="0x400000" size="0x400000" crc="c824a1ea" sha1="c2885908c63f29521d6f209e57dfa8f12849297d" />
+		</dataarea>
+	</part>
+</software>

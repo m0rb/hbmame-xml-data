@@ -1,0 +1,20 @@
+<software name="knacki">
+	<description>KnackiBalls</description>
+	<year>2009</year>
+	<publisher>Furrtek</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="658.p1" offset="0x0" size="0x80000" crc="56c0d270" sha1="aebb3223e519f76e2abfa59f48626aa5e970ce4c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="658.v1" offset="0x0" size="0x200000" crc="ad1d1925" sha1="4fa973bd8d2793ef553ea4e536193d3b89027828" />
+		</dataarea>
+		<dataarea name="sprites" size="0x600000">
+		<rom loadflag="load16_byte" name="658.c1" offset="0x0" size="0x100000" crc="71dd4d25" sha1="682671b55375dea8f86b25031320611a8c60326e" />
+		<rom loadflag="continue" offset="0x400000" size="0x100000" />
+		<rom loadflag="load16_byte" name="658.c2" offset="0x1" size="0x100000" crc="0deccb3d" sha1="ee9d1e5d3efcea0545a6dae8cd28b913e6f106b6" />
+		<rom loadflag="continue" offset="0x400001" size="0x100000" />
+		</dataarea>
+	</part>
+</software>

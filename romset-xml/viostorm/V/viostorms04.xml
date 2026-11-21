@@ -1,0 +1,27 @@
+<software name="viostorms04">
+	<description>Violent Storm (Enhanced Edition, 2020-03-24)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		<rom loadflag="load16_byte" name="168uab01_ps04.15h" offset="0x1" size="0x80000" crc="3a870170" sha1="f6fd2e63105235574adb9ec7adfa02f9f5826cd7" />
+		<rom loadflag="load16_byte" name="168uab02_ps04.15f" offset="0x0" size="0x80000" crc="d00bf154" sha1="e95acc9ef04a31da22c685202a18cc637305fe29" />
+		</dataarea>
+		<dataarea name="eeprom" size="0x80">
+		<rom name="viostorm.nv" offset="0x0" size="0x80" crc="3cb1c96c" sha1="56ed6633e7108925a13ad6bc32381bfde592f70b" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x40000">
+		</dataarea>
+		<dataarea name="k054539" size="0x400000">
+		<rom name="168a06.1c" offset="0x0" size="0x2" crc="25404fd7" sha1="282cf523728b38d0bf14d765dd7257aa1fb2af39" />
+		<rom name="168a07.1e" offset="0x200000" size="0x2" crc="fdbbf8cc" sha1="a8adf72a25fe2b9c4c338350d02c92deb5f8c8e9" />
+		</dataarea>
+		<dataarea name="k055673" size="0x800000">
+		</dataarea>
+		<dataarea name="k056832" size="0x600000">
+		</dataarea>
+		<dataarea name="soundcpu" size="0x40000">
+		<rom name="168a05.7c" offset="0x0" size="0x20000" crc="507fb3eb" sha1="a4f676e3caaafe86918c76ded08d0c202969adf6" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,25 @@
+<software name="pang3b">
+	<description>Pang! 3 (bootleg, set 1)</description>
+	<year>1995</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c34b.p1" offset="0x0" size="0x80000" crc="12138234" sha1="956a2c847a3cfb94007d1a636167fd2bb9f826ec" />
+		<rom loadflag="load16_word_swap" name="c34b.p2" offset="0x80000" size="0x80000" crc="d1ba585c" sha1="c6d04441fe97abf0a72b23c917777a7b58e94a85" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c34b.m1" offset="0x0" size="0x8000" crc="90a08c46" sha1="7544adab2d7e052e0d21c920bff7841d9d718345" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="pang3.key" offset="0x0" size="0x80" crc="4865539e" sha1="44637e699e02ebbfcae323d0ae6693a393d7330f" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom loadflag="continue" offset="0x4" size="0x100000" />
+		<rom loadflag="continue" offset="0x6" size="0x100000" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c34.v1" offset="0x0" size="0x20000" crc="73a10d5d" sha1="999465e4fbc35a34746d2db61ad49f61403d5af7" />
+		<rom name="c34.v2" offset="0x20000" size="0x20000" crc="affa4f82" sha1="27b9292bbc121cf585f53297a79fe8f0d0a729ae" />
+		</dataarea>
+	</part>
+</software>

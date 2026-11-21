@@ -1,0 +1,19 @@
+<software name="hangonn">
+	<description>Hang On (Neo-Geo port, v2.1)</description>
+	<year>2026</year>
+	<publisher>ShinobiZ</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x600000">
+		<rom loadflag="load16_word_swap" name="535.p1" offset="0x0" size="0x100000" crc="8cdee388" sha1="a75f507e947be7c0131758d98f433019172eb030" />
+		<rom loadflag="load16_word_swap" name="535.p2" offset="0x100000" size="0x500000" crc="500b59ea" sha1="94bc6c36f66df44ba1b3edacd8b75afd68df8ec7" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x200000">
+		<rom name="535.v1" offset="0x0" size="0x200000" crc="3aed32bd" sha1="63a1d5961b1ca9318875728743542e14b724c444" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="535.c1" offset="0x0" size="0x800000" crc="4440a35d" sha1="d553a3f7ef31be3ef88adac50a547f267d0e1151" />
+		<rom loadflag="load16_byte" name="535.c2" offset="0x1" size="0x800000" crc="83018efe" sha1="2d07384d614eec735f511c1b2098b6dadc0c792c" />
+		</dataarea>
+	</part>
+</software>

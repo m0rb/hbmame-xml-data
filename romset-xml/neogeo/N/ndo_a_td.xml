@@ -1,0 +1,18 @@
+<software name="ndo_a_td">
+	<description>Neo Driftout Tech Demo</description>
+	<year>2021</year>
+	<publisher>Blastar</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="612.p1" offset="0x0" size="0x80000" crc="0b42acff" sha1="3a52fdedf99acb9a49c2a952465766d1e2cf644d" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="612.v1" offset="0x0" size="0x80000" crc="23ce128d" sha1="d6423525ffbb3a59c5fc2fc0f14dcddcfd8c5687" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="612.c1" offset="0x0" size="0x80000" crc="3913d0d5" sha1="c1bb4d336676828c5754f763bc75d310aed6d73f" />
+		<rom loadflag="load16_byte" name="612.c2" offset="0x1" size="0x80000" crc="0a70ac8e" sha1="b7371609001ff73907bee49f1e9944fdd269eaab" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="srallyc" description="Srallyc cartridges">
+<software name="srallyp">
+	<description>Sega Rally Pro Drivin&#x27;</description>
+	<year>2000</year>
+	<publisher>Kyle Hodgetts</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x200000">
+		</dataarea>
+		<dataarea name="audiocpu" size="0x80000">
+		<rom loadflag="load16_word_swap" name="epr-17890a.30" offset="0x0" size="0x40000" crc="5bac3fa1" sha1="3635333d36463b6fab25560ed918e05138f964dc" />
+		</dataarea>
+		<dataarea name="copro_data" size="0x800000">
+		</dataarea>
+		<dataarea name="cpu4" size="0x20000">
+		<rom name="epr-16726.bin" offset="0x0" size="0x20000" crc="c179b8c7" sha1="86d3e65c77fb53b1d380b629348f4ab5b3d39228" />
+		</dataarea>
+		<dataarea name="drivecpu" size="0x10000">
+		<rom name="epr-17891.ic12" offset="0x0" size="0x10000" crc="9a33b437" sha1="3e8f210aa5159e78f640126cb5ce7f05f22560f2" />
+		</dataarea>
+		<dataarea name="main_data" endianness="little" size="0x2400000">
+		</dataarea>
+		<dataarea name="polygons" size="0x2000000">
+		</dataarea>
+		<dataarea name="samples" endianness="big" size="0x800000">
+		<rom loadflag="load16_word_swap" name="mpr-17756.31" offset="0x0" size="0x200000" crc="7725f111" sha1="1f1ee3f19a6bcf57bc5a1c7dd64ee83f8b81f084" />
+		<rom loadflag="load16_word_swap" name="mpr-17757.32" offset="0x200000" size="0x200000" crc="1616e649" sha1="1d3a0e441d150ada0535a9d50e2f69dd4b99c584" />
+		<rom loadflag="load16_word_swap" name="mpr-17886.36" offset="0x400000" size="0x200000" crc="54a72923" sha1="103c4838b27378c834c08d29d6fb6ba95e7f9d03" />
+		<rom loadflag="load16_word_swap" name="mpr-17887.37" offset="0x600000" size="0x200000" crc="38c31fdd" sha1="a85f05160b060d9d4a431aaa73cfc03f24214fb9" />
+		</dataarea>
+		<dataarea name="textures" size="0x1000000">
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

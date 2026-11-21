@@ -1,0 +1,29 @@
+<software name="kovshp06" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Three Troubled Times Lawrence Of The New Enhanced Version Fifty-One 2nd Edition, 2016-05-05)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po06.rom" offset="0x100000" size="0x400000" crc="96d87c9d" sha1="55cc1bced4f3990b55295de5de8d6b9be48fd2b3" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u5" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0600_pw10.rom" offset="0x180000" size="0x800000" crc="a919ec0f" sha1="b464490abba8a5e651c407a7833c3a2e3befa5b8" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_po01.rom" offset="0x0" size="0x800000" crc="eaa46772" sha1="b70b2b7aaf87cd1c56f860eb2a88aed3564996da" />
+		<rom name="a0601_po01.rom" offset="0x800000" size="0x800000" crc="d94abe4b" sha1="58ee22308ca8eaa73ee6532cefbb574f0a994eee" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="a0540_po06.rom" offset="0x1800000" size="0x800000" crc="4f4ac911" sha1="436e4534ce953a301f3eaacd483f68b320171c59" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_po01.rom" offset="0x0" size="0x800000" crc="f2a85ce6" sha1="815c8f74909a0d37299aa7f4d22b5c0550674c55" />
+		<rom name="b0540_po06.rom" offset="0x800000" size="0x800000" crc="94eb0579" sha1="3041c7e3cc8fedbbe94a58b2c6aba3f32a3ac01c" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_po13.asic" offset="0x0" size="0x4000" crc="b3123ccb" sha1="ac13a9a3bcf86ea7dfd93e58e4b6772a9ca5ab35" />
+		</dataarea>
+	</part>
+</software>

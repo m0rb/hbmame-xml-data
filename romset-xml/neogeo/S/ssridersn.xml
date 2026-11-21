@@ -1,0 +1,18 @@
+<software name="ssridersn">
+	<description>Sunset Riders (Neo-Geo port, beta-0.8.0)</description>
+	<year>2026</year>
+	<publisher>Bendk97</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="550.p1" offset="0x0" size="0x100000" crc="f42a315f" sha1="c5d25defc8a2acbf51286f49f51b5df26df1c870" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0xe00000">
+		<rom name="550.v1" offset="0x0" size="0xe00000" crc="2fcc9c3e" sha1="b82c3c960702c30bb5769e3ca912f41057c665d6" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="550.c1" offset="0x0" size="0x1000000" crc="d18f70d0" sha1="b704e90bebde0a857c5d9d33d1481302111a45df" />
+		<rom loadflag="load16_byte" name="550.c2" offset="0x1" size="0x1000000" crc="b05bceec" sha1="9e74c16a24e0e7d491381dd3210eceabc4132799" />
+		</dataarea>
+	</part>
+</software>

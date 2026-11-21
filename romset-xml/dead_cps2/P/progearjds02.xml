@@ -1,0 +1,34 @@
+<software name="progearjds02" cloneof="progear">
+	<description>Progear no Arashi (Crazy Fire Version V2)</description>
+	<year>2001</year>
+	<publisher>lb70</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c85jbl.p1" offset="0x0" size="0x80000" crc="4fef676c" sha1="f50f32403315f77e115141bbee6a1b9a800821eb" />
+		<rom loadflag="load16_word_swap" name="c85jbl.p2" offset="0x80000" size="0x80000" crc="a069bd3b" sha1="6b7e20c883221da9b8eccb4f86017bb93e1fc11f" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c85.m1" offset="0x0" size="0x8000" crc="bdbfa992" sha1="7c5496c1daaea6a7ab95c0b25625d325ec3427cc" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		<rom name="c85.c1" offset="0x0" size="0x200000" crc="452f98b0" sha1="a10e615c32098f6d25becd466da8faa967523a7b" />
+		<rom name="c85.c2" offset="0x1" size="0x200000" crc="9e672092" sha1="fce0b8b43a1c069262f4e3e81c1a04621e232c88" />
+		<rom name="c85.c3" offset="0x2" size="0x200000" crc="ae9ddafe" sha1="afbb26fed6cd0cb5c0099a10d35aeb453318c14d" />
+		<rom name="c85.c4" offset="0x3" size="0x200000" crc="94d72d94" sha1="df6a3fe49c008f73b160eb6f2a44dc371ff73cba" />
+		<rom name="c85.c5" offset="0x4" size="0x200000" crc="48a1886d" sha1="ebf44b42d784924e08a832a7e5f66a887bab244b" />
+		<rom name="c85.c6" offset="0x5" size="0x200000" crc="172d7e37" sha1="0eaedd24cd3fa87b6f35fbd63078d40c493c92d0" />
+		<rom name="c85.c7" offset="0x6" size="0x200000" crc="9ee33d98" sha1="85d1bd31940e35ac8c732165020881a2d65cd6b1" />
+		<rom name="c85.c8" offset="0x7" size="0x200000" crc="848dee32" sha1="c591288e86ad1624d0fe66563808af9fac786e64" />
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="phoenix.key" offset="0x0" size="0x14" crc="2cf772b0" sha1="eff33c65a4f3862c231f9e4d6fefa7b34398dbf2" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c85.q1" offset="0x0" size="0x200000" crc="c0aac80c" sha1="91784d35d4f7e113529bb5be6081b67094b150ea" />
+		<rom loadflag="load16_word_swap" name="c85.q2" offset="0x200000" size="0x200000" crc="37a65d86" sha1="374d562a4648734f82aa2ddb6d258e870896dd45" />
+		<rom loadflag="load16_word_swap" name="c85.q3" offset="0x400000" size="0x200000" crc="d3f1e934" sha1="5dcea28c873d0d472f5b94e07d97cd77ace2b252" />
+		<rom loadflag="load16_word_swap" name="c85.q4" offset="0x600000" size="0x200000" crc="8b39489a" sha1="fd790efaf37dc2c4c16f657941044e3e2d3c2711" />
+		</dataarea>
+	</part>
+</software>

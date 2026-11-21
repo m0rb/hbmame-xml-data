@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="ddonpach" description="Ddonpach cartridges">
+<software name="ddonpachjd">
+	<description>DoDonPachi (Japan, demo)</description>
+	<year>2023</year>
+	<publisher>Ekorz</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="ddonpachjd.u27" offset="0x0" size="0x80000" crc="0f527538" sha1="0edf2cdf329463d65194ac8ddae97c97fd84c6da" />
+		<rom loadflag="load16_byte" name="ddonpachjd.u26" offset="0x1" size="0x80000" crc="a6a959cd" sha1="5f605f186fa00d5392e591dc0e34863f0eccf361" />
+		</dataarea>
+		<dataarea name="eeprom" endianness="big" size="0x80">
+		</dataarea>
+		<dataarea name="layer0" size="0x200000">
+		<rom name="u60.bin" offset="0x0" size="0x200000" crc="903096a7" sha1="a243e903fef7c4a7b71383263e82e42acd869261" />
+		</dataarea>
+		<dataarea name="layer1" size="0x200000">
+		<rom name="u61.bin" offset="0x0" size="0x200000" crc="d89b7631" sha1="a66bb4955ca58fab8973ca37a0f971e9a67ce017" />
+		</dataarea>
+		<dataarea name="layer2" size="0x200000">
+		<rom name="ddonpachjd.u62" offset="0x0" size="0x200000" crc="e14ba8a3" sha1="ba7e8f7ec37fa6d573ade12c501a32a6a8771c09" />
+		</dataarea>
+		<dataarea name="sprites0" size="0x800000">
+		<rom loadflag="load16_word_swap" name="u50.bin" offset="0x0" size="0x200000" crc="14b260ec" sha1="33bda210302428d5500115d0c7a839cdfcb67d17" />
+		<rom loadflag="load16_word_swap" name="u51.bin" offset="0x200000" size="0x200000" crc="e7ba8cce" sha1="ad74a6b7d53760b19587c4a6dbea937daa7e87ce" />
+		<rom loadflag="load16_word_swap" name="u52.bin" offset="0x400000" size="0x200000" crc="02492ee0" sha1="64d9cc64a4ad189a8b03cf6a749ddb732b4a0014" />
+		<rom loadflag="load16_word_swap" name="u53.bin" offset="0x600000" size="0x200000" crc="cb4c10f0" sha1="a622e8bd0c938b5d38b392b247400b744d8be288" />
+		</dataarea>
+		<dataarea name="ymz" size="0x400000">
+		<rom name="u6.bin" offset="0x0" size="0x200000" crc="9dfdafaf" sha1="f5cb450cdc78a20c3a74c6dac05c9ac3cba08327" />
+		<rom name="ddonpachjd.u7" offset="0x200000" size="0x200000" crc="24d10904" sha1="8c120dfb16124cfb8f7a8bf057ed61cb3222dfa1" />
+		</dataarea>
+	</part>
+</software>
+<software name="ddonpachjh">
+	<description>DoDonPachi (Japan, hack)</description>
+	<year>2021</year>
+	<publisher>Olifante</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="ddonpachjh.u27" offset="0x0" size="0x80000" crc="8faf593f" sha1="79f2252a14651662e1cbceb3a6c06c80263a2e96" />
+		<rom loadflag="load16_byte" name="ddonpachjh.u26" offset="0x1" size="0x80000" crc="259fb1a3" sha1="d4e5bfb17c4e1928597225813e874677f51dff00" />
+		</dataarea>
+		<dataarea name="eeprom" endianness="big" size="0x80">
+		</dataarea>
+		<dataarea name="layer0" size="0x200000">
+		<rom name="u60.bin" offset="0x0" size="0x200000" crc="903096a7" sha1="a243e903fef7c4a7b71383263e82e42acd869261" />
+		</dataarea>
+		<dataarea name="layer1" size="0x200000">
+		<rom name="u61.bin" offset="0x0" size="0x200000" crc="d89b7631" sha1="a66bb4955ca58fab8973ca37a0f971e9a67ce017" />
+		</dataarea>
+		<dataarea name="layer2" size="0x200000">
+		<rom name="u62.bin" offset="0x0" size="0x200000" crc="292bfb6b" sha1="11b385991ee990eb5ef36e136b988802b5f90fa4" />
+		</dataarea>
+		<dataarea name="sprites0" size="0x800000">
+		<rom loadflag="load16_word_swap" name="u50.bin" offset="0x0" size="0x200000" crc="14b260ec" sha1="33bda210302428d5500115d0c7a839cdfcb67d17" />
+		<rom loadflag="load16_word_swap" name="u51.bin" offset="0x200000" size="0x200000" crc="e7ba8cce" sha1="ad74a6b7d53760b19587c4a6dbea937daa7e87ce" />
+		<rom loadflag="load16_word_swap" name="u52.bin" offset="0x400000" size="0x200000" crc="02492ee0" sha1="64d9cc64a4ad189a8b03cf6a749ddb732b4a0014" />
+		<rom loadflag="load16_word_swap" name="u53.bin" offset="0x600000" size="0x200000" crc="cb4c10f0" sha1="a622e8bd0c938b5d38b392b247400b744d8be288" />
+		</dataarea>
+		<dataarea name="ymz" size="0x400000">
+		<rom name="u6.bin" offset="0x0" size="0x200000" crc="9dfdafaf" sha1="f5cb450cdc78a20c3a74c6dac05c9ac3cba08327" />
+		<rom name="u7.bin" offset="0x200000" size="0x200000" crc="795b17d5" sha1="cbfc29f1df9600c82e0fdae00edd00da5b73e14c" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

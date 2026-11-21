@@ -1,0 +1,19 @@
+<software name="msberzk" cloneof="mspacman">
+	<description>Ms. Pacman Berzerk</description>
+	<year>2000</year>
+	<publisher>Bobby Tribble</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="msberzk.4" offset="0x3000" size="0x1000" crc="795b1d20" sha1="eb14ac6d2142fcfcbccf52eb7e8c51c208554eef" />
+		<rom name="msberzk.5" offset="0x8000" size="0x1000" crc="9fc2a679" sha1="2684ecc09e2cf055daee181371691fc09cbd585a" />
+		<rom name="msberzk.6" offset="0x9000" size="0x1000" crc="6749a32d" sha1="41b5b952c4f7f14b6a3884291c87e9ee6e760231" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="msberzk.5e" offset="0x0" size="0x1000" crc="92692429" sha1="af5e72c445c7ea35655730364072c269befbc66f" />
+		<rom name="msberzk.5f" offset="0x1000" size="0x1000" crc="7c32ed2e" sha1="124ff35143b1fcaa25d810a3479ae363cf74d2c9" />
+		</dataarea>
+	</part>
+</software>

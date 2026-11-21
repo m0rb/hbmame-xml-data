@@ -1,0 +1,28 @@
+<software name="daimakaiknight" cloneof="ghouls">
+	<description>Daimakaimura - Knight Artoria Edition (Japan)</description>
+	<year>2026</year>
+	<publisher>GoodLuckTrying</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="dmj_38knight.12f" offset="0x0" size="0x20000" crc="3098aca7" sha1="ac1f175deffd486eab177f0c6c3992802c24dd49" />
+		<rom loadflag="load16_byte" name="dmj_39knight.12h" offset="0x1" size="0x20000" crc="222d253b" sha1="7c26d6a0fe204a83dfc9cba6db7ed2635a7b9f7b" />
+		<rom loadflag="load16_byte" name="dmj_40knight.13f" offset="0x40000" size="0x20000" crc="1050f528" sha1="c09ddd0f63e093ad1e6c50782db4ffa21114c6e1" />
+		<rom loadflag="load16_byte" name="dmj_41knight.13h" offset="0x40001" size="0x20000" crc="bff07623" sha1="2f8d6980ae5a3f798fd3296185f14fb59b8a472a" />
+		<rom loadflag="load16_byte" name="dm_33knight.10f" offset="0x80000" size="0x20000" crc="37619c8a" sha1="39782b4285fbf103b2a820d745dc56ae1a1e9def" />
+		<rom loadflag="load16_byte" name="dm_34knight.10h" offset="0x80001" size="0x20000" crc="f92dc399" sha1="eb92ba0d28e22c6f3c6f16396017ed45c4932487" />
+		<rom loadflag="load16_byte" name="dm_35knight.11f" offset="0xc0000" size="0x20000" crc="c04b85c8" sha1="f8659624bb9d418d02f63f43478d3b53cfe18718" />
+		<rom loadflag="load16_byte" name="dm_36knight.11h" offset="0xc0001" size="0x20000" crc="89be83de" sha1="6dfd1380304a85dee7cac4d0b2cfd7625b9020bf" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="37.13c" offset="0x0" size="0x8000" crc="3692f6e5" sha1="61b8438d60a39b4cf5062dff0a53228e8a4e4b5f" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="daimakai.key" offset="0x0" size="0x80" crc="4d1e621d" sha1="c3636962bee035aa0a26125d8af4826bf7f148e8" />
+		</dataarea>
+		<dataarea name="gfx" size="0x300000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,30 @@
+<software name="cworld2j">
+	<description>Adventure Quiz Capcom World 2 (Japan 920611)</description>
+	<year>1992</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c20.p1" offset="0x0" size="0x20000" crc="38a08099" sha1="961f733baa2bbf8419e4de70f18660098dba7d52" />
+		<rom loadflag="load16_byte" name="c20.p2" offset="0x1" size="0x20000" crc="4d29b3a4" sha1="bf40fc22c0161fe131ca69100b2a4d102e86bde6" />
+		<rom loadflag="load16_byte" name="c20.p3" offset="0x40000" size="0x20000" crc="eb547ebc" sha1="fce470b05ce095badd180c3740677146f52f6080" />
+		<rom loadflag="load16_byte" name="c20.p4" offset="0x40001" size="0x20000" crc="3ef65ea8" sha1="2348d84b380c0e8ebe270a37d4ff3ce5204abc8c" />
+		<rom loadflag="load16_byte" name="c20.p5" offset="0x80000" size="0x20000" crc="7fcc1317" sha1="672ca45d3fad5eec4d65bbbbd1d21cbf6be4ec8b" />
+		<rom loadflag="load16_byte" name="c20.p6" offset="0x80001" size="0x20000" crc="7f14b7b4" sha1="5564eb9f65dad76ebe40d12d5c39fec5e246adf0" />
+		<rom loadflag="load16_byte" name="c20.p7" offset="0xc0000" size="0x20000" crc="abacee26" sha1="2f513c02f715ffeec12a6d1c292619e214155cbc" />
+		<rom loadflag="load16_byte" name="c20.p8" offset="0xc0001" size="0x20000" crc="d3654067" sha1="0b597483e136ff19b031171941cb8439bcd7f145" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c20.m1" offset="0x0" size="0x8000" crc="e14dc524" sha1="0020a9002572002458fbfe45e8a959cb90de3f03" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="cworld2.key" offset="0x0" size="0x80" crc="d47a4b54" sha1="a959ad5a0d1b081ee1ffc6e92f291df492119415" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c20.v1" offset="0x0" size="0x20000" crc="d10c1b68" sha1="2423241f3340d8ab1b6bf9514ca8c3bba1273873" />
+		<rom name="c20.v2" offset="0x20000" size="0x20000" crc="7d17e496" sha1="a274b94ec4f042dddc239ecb9ac2e1e2375f5eb2" />
+		</dataarea>
+	</part>
+</software>

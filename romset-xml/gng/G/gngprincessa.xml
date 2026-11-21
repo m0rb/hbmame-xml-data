@@ -1,0 +1,29 @@
+<software name="gngprincessa">
+	<description>Ghosts&#x27;n Goblins - Princess Prin Prin Edition (World? 2)</description>
+	<year>2026</year>
+	<publisher>GoodLuckTrying</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x18000">
+		<rom name="mjg_04princess.10n" offset="0x4000" size="0x4000" crc="1299e52b" />
+		<rom name="mjg_03princess.8n" offset="0x8000" size="0x8000" crc="be9d1e56" />
+		<rom name="mjg_05princess.12n" offset="0x10000" size="0x8000" crc="f5eb84e6" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="capsom_m5m23256p_p_62410p_mjg_02.14h" offset="0x0" size="0x8000" crc="615f5b6f" />
+		</dataarea>
+		<dataarea name="sprites" size="0x20000">
+		<rom name="capsom_m5m23256p_p_61710g_mjg_12p_princess.4n" offset="0x0" size="0x8000" crc="f23401c4" />
+		<rom name="capsom_m5m23256p_p_620108_mjg_11p_princess.3n" offset="0x8000" size="0x8000" crc="1ab10e35" />
+		<rom name="capsom_m5m23256p_p_62410p_mjg_10p_princess.4l" offset="0x10000" size="0x8000" crc="3801cb66" />
+		<rom name="capsom_m5m23256p_p_61710g_mjg_09p_princess.3l" offset="0x18000" size="0x8000" crc="e9edb4bc" />
+		</dataarea>
+		<dataarea name="chars" size="0x4000">
+		<rom name="capsom_m5m23256p_p_616105_mjg_01p_princess.11e" offset="0x0" size="0x4000" crc="4ef3637e" />
+		</dataarea>
+		<dataarea name="tiles" size="0x18000">
+		<rom name="capsom_m5m23256p_p_616105_mmg_08.3e" offset="0x0" size="0x8000" crc="c09a716f" />
+		<rom name="capsom_m5m23256p_p_61710z_mmg_07.3c" offset="0x8000" size="0x8000" crc="0b92b129" />
+		<rom name="capsom_m5m23256p_p_616105_mmg_06.3b" offset="0x10000" size="0x8000" crc="830176af" />
+		</dataarea>
+	</part>
+</software>

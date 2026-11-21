@@ -1,0 +1,17 @@
+<software name="pmbamaz" cloneof="puckman">
+	<description>Pac Man Babies Maze</description>
+	<year>2001</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="pmbamaz.6j" offset="0x3000" size="0x1000" crc="bf5e4b89" sha1="ad16845b92e56a6fe33c7561a231dd54ad558481" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pmbamaz.5e" offset="0x0" size="0x1000" crc="9a8cd8a1" sha1="653d3c900b0be5e7ffe424207419bf86229b8c48" />
+		<rom name="pmbamaz.5f" offset="0x1000" size="0x1000" crc="13aeaac4" sha1="2abcc95559bc57a209d7216ddb6488032c4e34d6" />
+		</dataarea>
+	</part>
+</software>

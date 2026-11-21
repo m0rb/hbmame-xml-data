@@ -1,0 +1,18 @@
+<software name="neo3d">
+	<description>Neo 3D Demo</description>
+	<year>2012</year>
+	<publisher>Oxygene</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="621.p1" offset="0x0" size="0x80000" crc="791f6042" sha1="d44848322d08daad91c67c7dc7e9ee985d582b2b" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="202.v1" offset="0x0" size="0x80000" crc="debeb8fb" sha1="49a3d3578c087f1a0050168571ef8d1b08c5dc05" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="621.c1" offset="0x0" size="0x100000" crc="a7eaca76" sha1="7b046932466092e250dc879d76656227102037c5" />
+		<rom loadflag="load16_byte" name="621.c2" offset="0x1" size="0x100000" crc="042f2cde" sha1="225b03541ac3d5258de2c33d93e46e068798731f" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,13 @@
+<software name="tst_invd" cloneof="invaders">
+	<description>Space Invaders Test ROM</description>
+	<year>1978</year>
+	<publisher>Taito</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x6000">
+		<rom name="test.h" offset="0x0" size="0x800" crc="f86a2eea" sha1="4a72ff01f3e6d16bbe9bf7f123cd98895bfbed9a" />
+		<rom name="invaders.g" offset="0x800" size="0x800" crc="6bfaca4a" sha1="16f48649b531bdef8c2d1446c429b5f414524350" />
+		<rom name="invaders.f" offset="0x1000" size="0x800" crc="0ccead96" sha1="537aef03468f63c5b9e11dd61e253f7ae17d9743" />
+		<rom name="invaders.e" offset="0x1800" size="0x800" crc="14e538b0" sha1="1d6ca0c99f9df71e2990b610deb9d7da0125e2d8" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,18 @@
+<software name="looptris">
+	<description>Looptris (2021-12-26)</description>
+	<year>2021</year>
+	<publisher>Blastar</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="413.p1" offset="0x0" size="0x80000" crc="8fcb5104" sha1="6a0da5c4e72ef57600ecd15cba64e3871f48391e" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="413.v1" offset="0x0" size="0x80000" crc="dfa63cd2" sha1="bbf4a74a660f12cc037cfa0ac5c664988016ee45" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="413.c1" offset="0x0" size="0x80000" crc="b9413f13" sha1="5e7175dff9510dad55f8f05e9b307c3c05d92209" />
+		<rom loadflag="load16_byte" name="413.c2" offset="0x1" size="0x80000" crc="9409dbe8" sha1="1e9562aa34f6202e8012104ab79916453fec072e" />
+		</dataarea>
+	</part>
+</software>

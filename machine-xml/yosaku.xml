@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="yosaku" description="Yosaku cartridges">
+<software name="yosaku">
+	<description>Yosaku</description>
+	<year>1979</year>
+	<publisher>Orca</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="yosaku.1" offset="0x0" size="0x800" crc="37fecee4" sha1="e1ca44dcf42d7c9ed67044cef8d23bb5fd044f97" />
+		<rom name="yosaku.2" offset="0x800" size="0x800" crc="ceb6c3b4" sha1="603392413124eec1acf8bd3a07590e270d41bfb7" />
+		<rom name="yosaku.3" offset="0x1000" size="0x800" crc="c433a113" sha1="ae793e9e550f88d875854fa585d56c089971bbb8" />
+		<rom name="yosaku.4" offset="0x1800" size="0x800" crc="6cac14c1" sha1="db3e37771ed8b440fdd7f8b6b4fd74c8da131977" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

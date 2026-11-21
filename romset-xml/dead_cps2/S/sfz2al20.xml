@@ -1,0 +1,26 @@
+<software name="sfz2al20" cloneof="sfz2al">
+	<description>Street Fighter Zero 2 Alpha Dash / Gold (960813U)</description>
+	<year>2026</year>
+	<publisher>Zer0-NexuS</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c67s20.p1" offset="0x0" size="0x80000" crc="25779eab" sha1="48c82b8aa381ca81cc4a9ebdc69a4b057658a17d" />
+		<rom loadflag="load16_word_swap" name="c67s20.p2" offset="0x80000" size="0x80000" crc="737ce842" sha1="b63343e847a7dae132b010e345aa07ec43334c37" />
+		<rom loadflag="load16_word_swap" name="c67.p3" offset="0x100000" size="0x80000" crc="f053a55e" sha1="f98a8af5cd33a543a5596d59381f9adafed38854" />
+		<rom loadflag="load16_word_swap" name="c67.p4" offset="0x180000" size="0x80000" crc="cfc0e7a8" sha1="31ed58451c7a6ac88a8fccab369167694698f044" />
+		<rom loadflag="load16_word_swap" name="c67s20.p5" offset="0x200000" size="0x80000" crc="4e2c92ee" sha1="ff6c69bc22b7bab96dedb63c9b609983dadda915" />
+		<rom loadflag="load16_word_swap" name="c67s20.p6" offset="0x280000" size="0x80000" crc="cccc750c" sha1="ff2f714e66b2c4a53eda793865d531558f88a018" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c67s20.m1" offset="0x0" size="0x8000" crc="3bc82c35" sha1="8eb3fc754e5b13bd98d9d13f0f38ed8dcb4602a1" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c67s20.m2" offset="0x28000" size="0x20000" crc="f6a8628b" sha1="0b93098cf7ad3fa20c8c28fb856b7e578ed7a0d4" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1400000">
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c67s20.q1" offset="0x0" size="0x200000" crc="ce184e92" sha1="a9d129a76445596f2fb69ca0a72831de18590331" />
+		<rom loadflag="load16_word_swap" name="c67s20.q2" offset="0x200000" size="0x200000" crc="08860e2a" sha1="58b4b624ec8cc99d22facee9b249e8daa0ad0930" />
+		</dataarea>
+	</part>
+</software>

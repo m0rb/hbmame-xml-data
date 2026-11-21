@@ -1,0 +1,16 @@
+<software name="pm4n1e" cloneof="puckman">
+	<description>Pacman 4in1 v3.3 [c][h]</description>
+	<year>2010</year>
+	<publisher>Jason Souza</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x30000">
+		<rom name="pm4n1e.cpu" offset="0x10000" size="0x10000" crc="5bbf374a" sha1="426451a9cd4e8680ab19c2ce635435c0b43cba95" />
+		</dataarea>
+		<dataarea name="gfx1" size="0xa000">
+		<rom name="pm4n1b.gfx" offset="0x0" size="0x1000" crc="949a50a2" sha1="2b661e584b35740ce8b530f51485865a620354e6" />
+		<rom loadflag="continue" offset="0x5000" size="0x1000" />
+		<rom loadflag="continue" offset="0x2000" size="0x1000" />
+		<rom loadflag="continue" offset="0x7000" size="0x1000" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,22 @@
+<software name="akiradmo">
+	<description>Akira Demo</description>
+	<year>2016</year>
+	<publisher>HP Man</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x400000">
+		<rom name="678.p1" offset="0x0" size="0x3188" crc="a87fa008" sha1="89f41671f185fd5e92237fcf82e9ed60387fafad" />
+		<rom name="678.p2" offset="0x100000" size="0x9edf8" crc="16d8b6b4" sha1="b246b380b3cca17e11ab223bf4d1aeb605663a03" />
+		<rom name="678.p3" offset="0x200000" size="0x74da4" crc="94a22666" sha1="e9cb0f159404ddcce10554753e56084fb79f2e60" />
+		<rom name="678.p4" offset="0x300000" size="0x76b0c" crc="d170285c" sha1="b19bd0de148a68de9dbd18d89417c3dd32518780" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="678.v1" offset="0x0" size="0x100000" crc="148c5203" sha1="8ddbfeeac4493f6e6ed7df834fcf1f0cede42ac3" />
+		</dataarea>
+		<dataarea name="sprites" size="0xc00000">
+		<rom name="678.c1" offset="0x0" size="0x34c700" crc="84eba506" sha1="a771cbc5efe7b61114db6b7f776b5ab93f09b2bc" />
+		<rom name="678.c2" offset="0x400000" size="0x2e0400" crc="a731451c" sha1="aae521c38430a2797c7a60d970a0179673f05215" />
+		<rom name="678.c3" offset="0x800000" size="0x249a80" crc="87b2a616" sha1="915d5c7bf832b725a3678b3735790f503dd34f48" />
+		</dataarea>
+	</part>
+</software>

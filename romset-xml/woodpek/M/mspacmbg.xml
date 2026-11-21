@@ -1,0 +1,17 @@
+<software name="mspacmbg" cloneof="mspacman">
+	<description>Ms. Pacman (single rom)</description>
+	<year>2000</year>
+	<publisher>[Midway]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="mspacmbg.cpu" offset="0x0" size="0x4000" crc="97c64918" sha1="a46ca4822e6cd7b9a5603d5d06a78fd489dc0b96" />
+		<rom loadflag="continue" offset="0x8000" size="0x4000" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mspacmbg.gfx" offset="0x0" size="0x800" crc="f2c5da43" sha1="6a6de2ecc313a11ad12d8d1712c05f923984f668" />
+		<rom loadflag="continue" offset="0x1000" size="0x800" />
+		<rom loadflag="continue" offset="0x800" size="0x800" />
+		<rom loadflag="continue" offset="0x1800" size="0x800" />
+		</dataarea>
+	</part>
+</software>

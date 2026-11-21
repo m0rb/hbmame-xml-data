@@ -1,0 +1,30 @@
+<software name="batcira" cloneof="batcir">
+	<description>Battle Circuit (Asia 970319)</description>
+	<year>1997</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c70a.p1" offset="0x0" size="0x80000" crc="1ad20d87" sha1="0ad8b7725604a61314883cd4ed8599445fe1cbf8" />
+		<rom loadflag="load16_word_swap" name="c70a.p2" offset="0x80000" size="0x80000" crc="2b3f4dbe" sha1="be4ab2ac411523def5e05081a754b651ead52e1f" />
+		<rom loadflag="load16_word_swap" name="c70a.p3" offset="0x100000" size="0x80000" crc="8238a3d9" sha1="4b0fe0e6c6a8a6572fc3554f2ee77dc01c2f75c3" />
+		<rom loadflag="load16_word_swap" name="c70a.p4" offset="0x180000" size="0x80000" crc="446c7c02" sha1="2fda5d0fef3ca556976ec9126cb04af4fa883a38" />
+		<rom loadflag="load16_word_swap" name="c70.p5" offset="0x200000" size="0x80000" crc="7322d5db" sha1="473be1f1bf603bdd82451661a6206507f50ed2b6" />
+		<rom loadflag="load16_word_swap" name="c70.p6" offset="0x280000" size="0x80000" crc="6aac85ab" sha1="ad02d4185c2b3664fb96350d8ad317d3939a7554" />
+		<rom loadflag="load16_word_swap" name="c70.p7" offset="0x300000" size="0x80000" crc="1203db08" sha1="fdbea14618b277132f9e010ef36c134a8ea42162" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c70.m1" offset="0x0" size="0x8000" crc="1e194310" sha1="3b29de0aca9dbca59d6b50fb2509e2a913c6b0af" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c70.m2" offset="0x28000" size="0x20000" crc="01aeb8e6" sha1="50a5d1cce0caf7c5143d4904431e8f41e2a57464" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="batcira.key" offset="0x0" size="0x14" crc="384500f3" sha1="9f2252205d73c771389d03d087f2a8e5492d309d" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c70.q1" offset="0x0" size="0x200000" crc="c27f2229" sha1="df2459493af40937b6656a16fad43ff51bed2204" />
+		<rom loadflag="load16_word_swap" name="c70.q2" offset="0x200000" size="0x200000" crc="418a2e33" sha1="0642ddff2ab9255f154419da24ba644ed63f34ab" />
+		</dataarea>
+	</part>
+</software>

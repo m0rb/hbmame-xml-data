@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="stinger" description="Stinger cartridges">
+<software name="stinger01">
+	<description>Stinger (Bug fix - Taxiing Speed)</description>
+	<year>1983</year>
+	<publisher>Wayder</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0xc000">
+		<rom name="1-5j.bin" offset="0x0" size="0x2000" crc="1a2ca600" sha1="473e89f2c49f6e6f38df5d6fc2267ffecf84c6c8" />
+		<rom name="2-6j.s01" offset="0x2000" size="0x2000" crc="dd73346b" sha1="5410b58a137b6168ec3a1a008e3a1fbd37d57096" />
+		<rom name="3-8j.bin" offset="0x4000" size="0x2000" crc="404c932e" sha1="c23eac49e06ff38564062c0e8c8cdadf877f1d6a" />
+		<rom name="4-9j.bin" offset="0x6000" size="0x2000" crc="2d570f91" sha1="31d54d9fd5254c33f07c605bd6112c7eb53c42a1" />
+		<rom name="5-10j.bin" offset="0x8000" size="0x2000" crc="c841795c" sha1="e03860813c03ca1c737935accc2b5fe87c6b624a" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x2000">
+		<rom name="6-9f.bin" offset="0x0" size="0x2000" crc="79757f0c" sha1="71be938c32c6a84618763761786ecc5d7d47581a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x6000">
+		<rom name="7-9e.bin" offset="0x0" size="0x2000" crc="775489be" sha1="5fccede323895626cf2eabd606ed21282aa36356" />
+		<rom name="8-11e.bin" offset="0x2000" size="0x2000" crc="43c61b3f" sha1="5cdb6a5096b42406c2f2784d37e4e39207c35d40" />
+		<rom name="9-14e.bin" offset="0x4000" size="0x2000" crc="c9ed8fc7" sha1="259d7681b663adb1c5fe057e2ef08469ddcbd3c3" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x6000">
+		<rom name="10-9h.bin" offset="0x0" size="0x2000" crc="6fc3a22d" sha1="6875b86d60a06aa329d8ff18d0eb48d158074c5d" />
+		<rom name="11-11h.bin" offset="0x2000" size="0x2000" crc="3df1f57e" sha1="e365ee4cc8c055cc39abb4598ad80597d3ae19c7" />
+		<rom name="12-14h.bin" offset="0x4000" size="0x2000" crc="2fbe1391" sha1="669edc154164944d82dfccda328774ea4a2318ba" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="stinger.a7" offset="0x0" size="0x100" crc="52c06fc2" sha1="b416077fcfabe0dbb1ca30752de6a219ea896f75" />
+		<rom name="stinger.b7" offset="0x100" size="0x100" crc="9985e575" sha1="b0d609968917121325760f8d4777066abdb7ccfc" />
+		<rom name="stinger.a8" offset="0x200" size="0x100" crc="76b57629" sha1="836763948753b7fed97c9e5d90a16dc4ba68f42a" />
+		</dataarea>
+	</part>
+</software>
+<software name="stinger2s01">
+	<description>Stinger (Bug fix - Taxiing Speed)(prototype)</description>
+	<year>1983</year>
+	<publisher>Wayder</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0xc000">
+		<rom name="n1.bin" offset="0x0" size="0x2000" crc="f2d2790c" sha1="0e5e92ef45b5bc27b0818f83c89b3bda0e701403" />
+		<rom name="n2.s01" offset="0x2000" size="0x2000" crc="17723c86" sha1="229dd847a58cf0fbd8a3b52c41178636e6ad9425" />
+		<rom name="n3.bin" offset="0x4000" size="0x2000" crc="f1794d36" sha1="7954500f489c0bc58cda8e7ffc2e4474759fdc33" />
+		<rom name="n4.bin" offset="0x6000" size="0x2000" crc="230ba682" sha1="c419ffebd021d41b3f5021948007fb6bcdb1cdf7" />
+		<rom name="n5.bin" offset="0x8000" size="0x2000" crc="a03a01da" sha1="28fecac7a821ac4718242919840266a907160df0" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x2000">
+		<rom name="6-9f.bin" offset="0x0" size="0x2000" crc="79757f0c" sha1="71be938c32c6a84618763761786ecc5d7d47581a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x6000">
+		<rom name="7-9e.bin" offset="0x0" size="0x2000" crc="775489be" sha1="5fccede323895626cf2eabd606ed21282aa36356" />
+		<rom name="8-11e.bin" offset="0x2000" size="0x2000" crc="43c61b3f" sha1="5cdb6a5096b42406c2f2784d37e4e39207c35d40" />
+		<rom name="9-14e.bin" offset="0x4000" size="0x2000" crc="c9ed8fc7" sha1="259d7681b663adb1c5fe057e2ef08469ddcbd3c3" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x6000">
+		<rom name="10.bin" offset="0x0" size="0x2000" crc="f6721930" sha1="fb903f1deb5f093ff5fe129e213966af58a68339" />
+		<rom name="11.bin" offset="0x2000" size="0x2000" crc="a4404e63" sha1="50ae99748547af20e04f6c6c8c7eba85f967b9dc" />
+		<rom name="12.bin" offset="0x4000" size="0x2000" crc="b60fa88c" sha1="2d3bca35076625251933989f5e566d5d3290542b" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="stinger.a7" offset="0x0" size="0x100" crc="52c06fc2" sha1="b416077fcfabe0dbb1ca30752de6a219ea896f75" />
+		<rom name="stinger.b7" offset="0x100" size="0x100" crc="9985e575" sha1="b0d609968917121325760f8d4777066abdb7ccfc" />
+		<rom name="stinger.a8" offset="0x200" size="0x100" crc="76b57629" sha1="836763948753b7fed97c9e5d90a16dc4ba68f42a" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

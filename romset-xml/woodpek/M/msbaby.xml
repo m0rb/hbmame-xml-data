@@ -1,0 +1,19 @@
+<software name="msbaby" cloneof="mspacman">
+	<description>Ms. Baby Pacman</description>
+	<year>2000</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="msbaby.4" offset="0x3000" size="0x1000" crc="17aea21d" sha1="2baa4b3812611ae8a1ff6b1b21b0a3ffd0d30be2" />
+		<rom name="msbaby.5" offset="0x8000" size="0x1000" crc="0c08aa7f" sha1="0d4079d68c86cd64e4d309fdc43d2022a50f172d" />
+		<rom name="msbaby.6" offset="0x9000" size="0x1000" crc="e28aaa1f" sha1="e0c4c1e0ceb3dfd6e63d954d3d6ea7924efac08b" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="msbaby.5e" offset="0x0" size="0x1000" crc="e764738d" sha1="79a7b871ee292d8cc2c4c97962fd876b4b95c4df" />
+		<rom name="msbaby.5f" offset="0x1000" size="0x1000" crc="3d316ad0" sha1="fd7d1a02930cc1c8a2f4aa8518d805601a8e0a80" />
+		</dataarea>
+	</part>
+</software>

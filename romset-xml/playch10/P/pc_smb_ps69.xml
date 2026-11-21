@@ -1,0 +1,16 @@
+<software name="pc_smb_ps69" cloneof="pc_smb">
+	<description>Super Mario Bros. (Unlimited Jump, 2011-12-28)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps69" offset="0x0" size="0x2000" crc="490679c2" sha1="c7dbd4247e19f4fed9c106fc598119dd4f0c2c7a" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps69" offset="0x0" size="0x8000" crc="d3ef5902" sha1="f52f3092d890772603c876bf7512f7c41a86e1fb" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,29 @@
+<software name="pacman25s120" cloneof="puckman">
+	<description>Pac Man 25 - Pac Man + Tournament - Sushi (With Bonus Maps)</description>
+	<year>2021</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s120.6e" offset="0x0" size="0x1000" crc="7a539652" sha1="abe64097ae7a99e1b967a7602886ac20e0896f3e" />
+		<rom name="pac25.6f" offset="0x1000" size="0x1000" crc="c5ec2352" sha1="86178b16dabb90005b132febc1a261651a73018d" />
+		<rom name="pac25.6h" offset="0x2000" size="0x1000" crc="92cd89b9" sha1="c3a0141480341c550a889b58692c8c90b322ee67" />
+		<rom name="s120.6j" offset="0x3000" size="0x1000" crc="be912055" sha1="74b3d9ccac22f90ca4a71e30656dfbc96182c79f" />
+		<rom name="maps1.120" offset="0x8000" size="0x1000" crc="f7684bd3" sha1="58f3b3af4492c7b996fa01cbf2cc2ec6fedbb630" />
+		<rom name="maps2.rom" offset="0x9000" size="0x1000" crc="7cdbd912" sha1="b19868bd5da3163e03320e6de0428b22b8e02d80" />
+		<rom name="maps3.rom" offset="0xa000" size="0x1000" crc="c626ea9c" sha1="3cd3f20e002845937a43f323b685425c95881d9e" />
+		<rom name="maps4.rom" offset="0xb000" size="0x1000" crc="f5ba954d" sha1="eba18f9a7f6d50f167ed37bff0adec43f52b49a0" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="s120.5e" offset="0x0" size="0x1000" crc="aceb2c4d" sha1="6c0b28463e48c2da4b9d4b62c32724f3c487537e" />
+		<rom name="s120.5f" offset="0x1000" size="0x1000" crc="c9944f76" sha1="50505718064749de0b2c528af6c4dc6be228942d" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="82s126.1m" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="82s126.3m" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="s120.7f" offset="0x0" size="0x20" crc="3bc611e0" sha1="aa68ef5aa347d1169bc999c970b9bce12aedeed1" />
+		<rom name="s120.4a" offset="0x20" size="0x100" crc="950d0f86" sha1="37e4f01e28d3a1823d49b60ab2e5614b6e26a3a6" />
+		</dataarea>
+	</part>
+</software>

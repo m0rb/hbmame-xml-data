@@ -1,0 +1,18 @@
+<software name="knightsb" cloneof="knights">
+	<description>Knights of the Round (bootleg with 2xMSM5205, set 1)</description>
+	<year>1991</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c18b.p1" offset="0x0" size="0x40000" crc="7fd91118" sha1="d2832b21309a467938891946d7af35d8095787a4" />
+		<rom loadflag="load16_byte" name="c18b.p2" offset="0x1" size="0x40000" crc="c9c6e720" sha1="e8a1cd73458b548e88fc49d8f659e0dc33a8e756" />
+		<rom loadflag="load16_byte" name="c18b.p5" offset="0x80000" size="0x40000" crc="af352703" sha1="7855ac65752203f45af4ef41af8c291540a1c8a8" />
+		<rom loadflag="load16_byte" name="c18b.p6" offset="0x80001" size="0x40000" crc="1eb91343" sha1="e02cfbbd7689346f14f2e3455ed17e7f0b51bad0" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c18b.m1" offset="0x0" size="0x40000" crc="bd6f9cc1" sha1="9f33cccef224d2204736a9eae761196866bd6e41" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,13 @@
+<software name="ng4psyschk">
+	<description>MVS 4P Key System Check</description>
+	<year>2022</year>
+	<publisher>Ichikyu Wai Wai/EKORZ</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="603.p1" offset="0x0" size="0x100000" crc="3c3d741b" sha1="1788eecb02f1ff2a19c1ce04571b08c55203fa04" />
+		</dataarea>
+		<dataarea name="sprites" size="0x10000">
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,25 @@
+<software name="galpanicn">
+	<description>Gals Panic (Neo-Geo port)</description>
+	<year>2026</year>
+	<publisher>Format-c</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="560.p1" offset="0x100000" size="0x100000" crc="c023a7ff" sha1="6ec0e3efe0d55a7d87d083f6f8f7223ed09c07e7" />
+		<rom loadflag="continue" offset="0x0" size="0x100000" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x400000">
+		<rom name="560.v1" offset="0x0" size="0x400000" crc="edd68493" sha1="db2112c182e67829d8d9a9838ef9b6c5e65fd353" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="560.c1" offset="0x0" size="0x800000" crc="4ece8760" sha1="a898dd41d63b0647d2b24dfdac2878473eb7e60b" />
+		<rom loadflag="load16_byte" name="560.c2" offset="0x1" size="0x800000" crc="0e6625eb" sha1="e1f08f754f6131c1664c4f3524b5955939bf7200" />
+		<rom loadflag="load16_byte" name="560.c3" offset="0x1000000" size="0x800000" crc="ad9f409e" sha1="a953170df79ca0c12518cb3c74950c9335c3de9d" />
+		<rom loadflag="load16_byte" name="560.c4" offset="0x1000001" size="0x800000" crc="359a57d3" sha1="a1b3f363e7afdc13d795f6bb975e0aee1a1d91c6" />
+		<rom loadflag="load16_byte" name="560.c5" offset="0x2000000" size="0x800000" crc="3eb647a2" sha1="468fe4699f5460041707d4cefb33ca056707ab39" />
+		<rom loadflag="load16_byte" name="560.c6" offset="0x2000001" size="0x800000" crc="d4576833" sha1="2f584186934d5f09085159d73ab63a7538e01a96" />
+		<rom loadflag="load16_byte" name="560.c7" offset="0x3000000" size="0x800000" crc="7b606f06" sha1="7902f13fd24cbf58ef3c0f15a56aeeb5d9607423" />
+		<rom loadflag="load16_byte" name="560.c8" offset="0x3000001" size="0x800000" crc="a2f366ba" sha1="32c27f1772aa5a5c9813cadbab539a37679536cb" />
+		</dataarea>
+	</part>
+</software>

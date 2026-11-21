@@ -1,0 +1,28 @@
+<software name="kof2k2pl17" cloneof="kof2002">
+	<description>Kof2002 Plus (Unknown Hack, 2017-12-25)</description>
+	<year>2017</year>
+	<publisher>GSC2007</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="265pl17.p1" offset="0x0" size="0x100000" crc="bd94702d" sha1="85f1c0930ebf160eeb0995c00eab9bfd896b87e3" />
+		<rom loadflag="load16_word_swap" name="265pl17.p2" offset="0x100000" size="0x500000" crc="76e75315" sha1="f95cc585676a3d2d49b4249fea3872fd7f4af5ef" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="265.v1" offset="0x0" size="0x800000" crc="15e8f3f5" sha1="7c9e6426b9fa6db0158baa17a6485ffce057d889" />
+		<rom name="265.v2" offset="0x800000" size="0x800000" crc="da41d6f9" sha1="a43021f1e58947dcbe3c8ca5283b20b649f0409d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="265pl17.c1" offset="0x0" size="0x800000" crc="93cf6345" sha1="1e4194556082ed29bab45a5ccf42022c9c9515b0" />
+		<rom loadflag="load16_byte" name="265pl17.c2" offset="0x1" size="0x800000" crc="d7373d66" sha1="ed1040e2433480c89ffbae4dc854984cc734e15d" />
+		<rom loadflag="load16_byte" name="265d.c3" offset="0x1000000" size="0x800000" crc="959fad0b" sha1="63ab83ddc5f688dc8165a7ff8d262df3fcd942a2" />
+		<rom loadflag="load16_byte" name="265d.c4" offset="0x1000001" size="0x800000" crc="efe6a468" sha1="2a414285e48aa948b5b0d4a9333bab083b5fb853" />
+		<rom loadflag="load16_byte" name="265d.c5" offset="0x2000000" size="0x800000" crc="74bba7c6" sha1="e01adc7a4633bc0951b9b4f09abc07d728e9a2d9" />
+		<rom loadflag="load16_byte" name="265d.c6" offset="0x2000001" size="0x800000" crc="e20d2216" sha1="5d28eea7b581e780b78f391a8179f1678ee0d9a5" />
+		<rom loadflag="load16_byte" name="265d.c7" offset="0x3000000" size="0x800000" crc="8a5b561c" sha1="a19697d4c2cc8edebc669c95ae1db4c8c2a70b2c" />
+		<rom loadflag="load16_byte" name="265d.c8" offset="0x3000001" size="0x800000" crc="bef667a3" sha1="d5e8bc185dcf63343d129c31d2ddab9f723f1a12" />
+		</dataarea>
+		<dataarea name="gsc" width="16" endianness="big" size="0x20000">
+		<rom loadflag="load16_word_swap" name="265pl17.p3" offset="0x0" size="0x20000" crc="6bfe80b0" sha1="2ea3e2ed1bf5e20c256a41dd5c1160e945fa333e" />
+		</dataarea>
+	</part>
+</software>

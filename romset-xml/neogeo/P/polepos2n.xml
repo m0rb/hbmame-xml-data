@@ -1,0 +1,18 @@
+<software name="polepos2n">
+	<description>Pole Position II (Neo-Geo port, v1.0.0)</description>
+	<year>2026</year>
+	<publisher>Bendk97</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="548.p1" offset="0x0" size="0x100000" crc="aa71bcdc" sha1="725202a9cf11a2af63cc92c7ef3711390e646843" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="548.v1" offset="0x0" size="0x100000" crc="5d20d963" sha1="f58855deb01d0d5f8d1a1ba3556ff2485d7fd849" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="548.c1" offset="0x0" size="0x400000" crc="6380acd1" sha1="9b26853a43a3a7880a6a638ae0050f8e9f5cc7e1" />
+		<rom loadflag="load16_byte" name="548.c2" offset="0x1" size="0x400000" crc="a9efdb06" sha1="260588b6d29a4fc1da3acb10ff9ce52ddfdaaac8" />
+		</dataarea>
+	</part>
+</software>

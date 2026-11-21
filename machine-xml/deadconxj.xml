@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="deadconxj" description="Deadconxj cartridges">
+<software name="deadconx01" cloneof="deadconx">
+	<description>Dead Connection (Chinese)</description>
+	<year>1992</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="d28-06_s01.3" offset="0x0" size="0x40000" crc="b652bd0f" sha1="653d70af3ef284ade260a81cdb84928731adee78" />
+		<rom loadflag="load16_byte" name="d28-07_s01.5" offset="0x1" size="0x40000" crc="6763584c" sha1="cd2cefaaf8d5e24ce5ed032a65e9b2880ef55821" />
+		<rom loadflag="load16_byte" name="d28-09_s01.2" offset="0x80000" size="0x40000" crc="39e1c0fc" sha1="f03c25c13224b4cf63fd8c6fb6b6b45b4f78e333" />
+		<rom loadflag="load16_byte" name="d28-08_s01.4" offset="0x80001" size="0x40000" crc="2254bdc3" sha1="462af938c473f445278e56578120400fed75d401" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x1c000">
+		<rom name="d28-10.6" offset="0x0" size="0x10000" crc="40805d74" sha1="172114be692c766622d1235e5c4aa83ad438d9d9" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="d28-03.10" offset="0x0" size="0x100000" crc="a1804b52" sha1="f252c473a71a4cf80d9f984fec08e5ae7524a620" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom name="d28-01_s01.8" offset="0x0" size="0x100000" crc="cff6dbca" sha1="302498e5df5967ecb3772270c04d96f9318b2bdd" />
+		<rom name="d28-02.9" offset="0x100000" size="0x100000" crc="d301771c" sha1="2756bb834b50a657bbcf4e9bec02f4af595ac7e9" />
+		</dataarea>
+		<dataarea name="tc0480scp" size="0x100000">
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

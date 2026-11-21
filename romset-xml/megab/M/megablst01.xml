@@ -1,0 +1,32 @@
+<software name="megablst01" cloneof="megablst">
+	<description>Mega Blast (Chinese)</description>
+	<year>1989</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_byte" name="c11-07_s01.55" offset="0x0" size="0x20000" crc="2331740a" sha1="e3d8d9caa78be9490e8c2d8f0ebd07a1dadc1ffb" />
+		<rom loadflag="load16_byte" name="c11-08_s01.39" offset="0x1" size="0x20000" crc="0ecf7c5f" sha1="3fe6fc48ee9489896035b6a66bf1f21906a15f85" />
+		<rom loadflag="load16_byte" name="c11-06_s01.54" offset="0x40000" size="0x20000" crc="bdc129ba" sha1="fe5f333ca558982d3e7e5295952bb23dd2ffe91f" />
+		<rom loadflag="load16_byte" name="c11-09_s01.38" offset="0x40001" size="0x20000" crc="d3373aea" sha1="f3fef101fac7eabc954fe0881529682c061bb81b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x1c000">
+		<rom name="c11-12.3" offset="0x0" size="0x10000" crc="b11094f1" sha1="a01e9f7d1f616bb379eaa85ad81b94173b067782" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="c11-01.29" offset="0x0" size="0x80000" crc="fd1ea532" sha1="481698b747a421a17bfb8cef96065712d4f3997f" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x80000">
+		<rom name="c11-02.30" offset="0x0" size="0x80000" crc="451cc187" sha1="a682f70bbe6cba2fe2c0a6791e8d33db34eb2cee" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="c11-03_s01.32" offset="0x0" size="0x80000" crc="a58b1256" sha1="797ea1f0bbbf15fb83633a1665bf953ee8088a64" />
+		<rom loadflag="load16_byte" name="c11-04_s01.31" offset="0x1" size="0x80000" crc="b5c4387f" sha1="2540307a01895f25472f03107e53b77b5e7cce55" />
+		</dataarea>
+		<dataarea name="cchip:cchip_eprom" size="0x2000">
+		<rom name="c11-15.ic59" offset="0x0" size="0x2000" crc="af49ee7f" sha1="824d7ed371c19f31768b20117027edba6ffc890e" />
+		</dataarea>
+		<dataarea name="tc0100scn_1" size="0x80000">
+		<rom loadflag="load16_word_swap" name="c11-05.58" offset="0x0" size="0x80000" crc="733e6d8e" sha1="47f3360f7c41b7e4a42e8198fc1bcce4e819181f" />
+		</dataarea>
+	</part>
+</software>

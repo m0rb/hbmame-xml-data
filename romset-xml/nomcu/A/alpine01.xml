@@ -1,0 +1,29 @@
+<software name="alpine01" cloneof="alpine">
+	<description>Alpine Ski (Chinese)</description>
+	<year>1982</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x12000">
+		<rom name="s01.rh16.069" offset="0x0" size="0x1000" crc="9d859b68" sha1="caa672e29a7a3fd595fb3be3cffd2e2f48ddc239" />
+		<rom name="s01.rh17.068" offset="0x1000" size="0x1000" crc="2dfd6b46" sha1="7d65e87173b6fabbf1525223fea1279923286b38" />
+		<rom name="rh18.067" offset="0x2000" size="0x1000" crc="753bdd87" sha1="37b97dd4a5d53df9a86593fd0a53c95475fa09d0" />
+		<rom name="rh19.066" offset="0x3000" size="0x1000" crc="3efb3fcd" sha1="29fb6405ced78662c4d98deeac5593d7bc42d954" />
+		<rom name="s01.rh20.065" offset="0x4000" size="0x1000" crc="8c51030e" sha1="676c1a79420dc9d707335b22a50b69fc7a1004b8" />
+		<rom name="rh21.064" offset="0x5000" size="0x1000" crc="74109145" sha1="728714ec24962da1c54fc35dc3688d555a4ad101" />
+		<rom name="rh22.055" offset="0x6000" size="0x1000" crc="efa82a57" sha1="b9b275014572c4c67558516d0c3c36d01e84e9ef" />
+		<rom name="rh23.054" offset="0x7000" size="0x1000" crc="77c25acf" sha1="a48bf7044afa7388f68e05fdb2e63c2b04945462" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="rh13.070" offset="0x0" size="0x1000" crc="dcad1794" sha1="1d5479f10cdcc437241bb17c22204fb3ee60f8cb" />
+		</dataarea>
+		<dataarea name="gfx" size="0x8000">
+		<rom name="s01.rh24.001" offset="0x0" size="0x1000" crc="d8f21891" sha1="f89934ae12f3361aa5cd96d55fee53473b97149f" />
+		<rom name="s01.rh25.002" offset="0x1000" size="0x1000" crc="5b528f71" sha1="abd5cac0a2eb3bc068e890b287cf0e348d8e7df9" />
+		<rom name="rh26.003" offset="0x2000" size="0x1000" crc="13da2a9b" sha1="e3dd30a1036ec81b3867dc1c0d20449422d50c31" />
+		<rom name="rh27.004" offset="0x3000" size="0x1000" crc="425b52b0" sha1="1a3046a7d12ad8107750abfb8a801cf9cd372d0f" />
+		</dataarea>
+		<dataarea name="proms" size="0x100">
+		<rom name="eb16.22" offset="0x0" size="0x100" crc="b833b5ea" sha1="d233f1bf8a3e6cd876853ffd721b9b64c61c9047" />
+		</dataarea>
+	</part>
+</software>

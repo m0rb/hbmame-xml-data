@@ -1,0 +1,18 @@
+<software name="neotrisd1">
+	<description>Neotris Demo 1</description>
+	<year>2019</year>
+	<publisher>Totologic</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="491.p1" offset="0x0" size="0x80000" crc="6a253ce9" sha1="b9a3949dcd7e7dd3cd8b4e739ce2c913c16435b1" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x300000">
+		<rom name="491.v1" offset="0x0" size="0x300000" crc="95b3b726" sha1="d0c361a78e509b083243e5f3a4b89bbaa658216e" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="491.c1" offset="0x0" size="0x100000" crc="d53e8069" sha1="55a9bb30fe1ce0abd9ebe54fa806992b2a790f28" />
+		<rom loadflag="load16_byte" name="491.c2" offset="0x1" size="0x100000" crc="61143d05" sha1="093e0c819ee7884786c029e4a0da9e779f11db02" />
+		</dataarea>
+	</part>
+</software>

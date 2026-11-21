@@ -1,0 +1,29 @@
+<software name="pacman25s12" cloneof="puckman">
+	<description>Pac Man 25 - (SJB Mazes)</description>
+	<year>2021</year>
+	<publisher>T-Bone</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="s02.6e" offset="0x0" size="0x1000" crc="e9df2a73" sha1="b57f4b360fa7624319e30fb36834f4a1806252f9" />
+		<rom name="pac25.6f" offset="0x1000" size="0x1000" crc="c5ec2352" sha1="86178b16dabb90005b132febc1a261651a73018d" />
+		<rom name="pac25.6h" offset="0x2000" size="0x1000" crc="92cd89b9" sha1="c3a0141480341c550a889b58692c8c90b322ee67" />
+		<rom name="s12.6j" offset="0x3000" size="0x1000" crc="cc6e2584" sha1="caa82a7556201287cddf3aaadfc1dd41b24bde41" />
+		<rom name="maps1.s12" offset="0x8000" size="0x1000" crc="da3e319f" sha1="e146e422d4c828ad0299bc234d2ce4921d7ce7e2" />
+		<rom name="maps2.s12" offset="0x9000" size="0x1000" crc="f31a519a" sha1="1054462ee03317e0f3df08d539c357a6c6ba423b" />
+		<rom name="maps3.s12" offset="0xa000" size="0x1000" crc="f6879287" sha1="6040c599f6bc8349c5b3dbdab8036904e19d7553" />
+		<rom name="maps4.s12" offset="0xb000" size="0x1000" crc="19f73019" sha1="076c4e60b808eec467aae69564491cc9afc4ddb4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="s02.5e" offset="0x0" size="0x1000" crc="d50bd122" sha1="89d71c43a1229236df2417892dd7a5787bbdce2b" />
+		<rom name="s02.5f" offset="0x1000" size="0x1000" crc="44226756" sha1="c783582af949972230126d89b9dcaf608d3c030b" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="82s126.1m" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="82s126.3m" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="s12.7f" offset="0x0" size="0x20" crc="106f6ae6" sha1="7b7f42afce177fe9cc65efdb7acf14add3ce6837" />
+		<rom name="s12.4a" offset="0x20" size="0x100" crc="b47466e7" sha1="586f384f9c40559407bf9fcfe3cdef39308257ca" />
+		</dataarea>
+	</part>
+</software>

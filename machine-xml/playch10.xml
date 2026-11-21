@@ -1,0 +1,1643 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="playch10" description="Playch10 cartridges">
+<software name="pc_ark">
+	<description>Arkanoid (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="arkanoid-u2" offset="0x0" size="0x2000" crc="bb8dae70" sha1="91bdab01839e2ad3d9aaa9041e0855ba26583a9f" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="arkanoid-u1" offset="0x0" size="0x8000" crc="95dbb274" sha1="792420b622b59d40ec0a264bf0bcd5faf9b652dc" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="29893c7f.prm" offset="0x0" size="0x10" crc="29893c7f" sha1="58478b7de2177c8dc1d6885bd34eeeeb5e46d7a3" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_bb2">
+	<description>Bubble Bobble 2 (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="bb2-u1" offset="0x0" size="0x20000" crc="5e59afae" sha1="5ed7d7c1ed50dbdc01e0a80e6ed5a246349726aa" />
+		</dataarea>
+		<dataarea name="prg" size="0x20000">
+		<rom name="bb2-u5" offset="0x0" size="0x20000" crc="5f7c1d17" sha1="48608c9ebd8c0feb9e1126eb4070f185c41d9a19" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="31a05a48.prm" offset="0x0" size="0x10" crc="31a05a48" sha1="8b340600feae03bb5cdab852a9879ecffcc8a2b9" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_cch">
+	<description>Circus Charlie (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="circusch.u2" offset="0x0" size="0x2000" crc="f76c592a" sha1="c8bc574c43d26d5072869922573edaaab7a37050" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="circusch.u1" offset="0x4000" size="0x4000" crc="2cb269d5" sha1="28a700b4fa5c580adf3ef9891506585ef6a40725" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="2cd98ef6.prm" offset="0x0" size="0x10" crc="2cd98ef6" sha1="bd5142c6a29df674ab835c8beafff7e93712d88f" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_ctfrc">
+	<description>Contra Force (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="ctfrc-u1" offset="0x0" size="0x20000" crc="7ff2a7f8" sha1="234041d4c880ccd4acd295c9b2a3d6e37089beda" />
+		</dataarea>
+		<dataarea name="prg" size="0x20000">
+		<rom name="ctfrc-u5" offset="0x0" size="0x20000" crc="1ff7fc0d" sha1="bbf1fb616c13795c9c8e447a72f009ee3746bd90" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="31a05a48.prm" offset="0x0" size="0x10" crc="31a05a48" sha1="8b340600feae03bb5cdab852a9879ecffcc8a2b9" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_digdg">
+	<description>Dig Dug (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="digdug.u2" offset="0x0" size="0x2000" crc="2dabc198" sha1="79f1e65eea2a2841dc47916cb86fbf992b936bd5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="digdug.u1" offset="0x0" size="0x8000" crc="a26ae22e" sha1="0f95aa5f74ef2b192e355381987cf4624fce5653" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="29893c7f.prm" offset="0x0" size="0x10" crc="29893c7f" sha1="58478b7de2177c8dc1d6885bd34eeeeb5e46d7a3" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_dk">
+	<description>Donkey Kong (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dk.u2" offset="0x0" size="0x2000" crc="e472a17c" sha1="3e3d5a2213c132fcb86a97089f03a7ebf8384d36" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="dk.u1" offset="0x4000" size="0x4000" crc="f56a5b10" sha1="2c4b1d653194df0996d54d9de9188b270d0337d9" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="2cd98ef6.prm" offset="0x0" size="0x10" crc="2cd98ef6" sha1="bd5142c6a29df674ab835c8beafff7e93712d88f" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_dk3">
+	<description>Donkey Kong 3 (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dk3.u2" offset="0x0" size="0x2000" crc="85d06c57" sha1="803adef82721452704607fbf70027ff792636325" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="dk3.u1" offset="0x0" size="0x8000" crc="01eb0432" sha1="94546c80c0bd41acc85f6e73a1425125c967d5db" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="29893c7f.prm" offset="0x0" size="0x10" crc="29893c7f" sha1="58478b7de2177c8dc1d6885bd34eeeeb5e46d7a3" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_galag">
+	<description>Galaga (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="galaga.u2" offset="0x0" size="0x2000" crc="e2d5964e" sha1="62b2cd49a6a4c6f1e2b0742db3b7493e167e9a23" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="galaga.u1" offset="0x0" size="0x8000" crc="b4c4c5fe" sha1="16e53935fc998de1eb8a88f73217ef1e2005d026" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="29893c7f.prm" offset="0x0" size="0x10" crc="29893c7f" sha1="58478b7de2177c8dc1d6885bd34eeeeb5e46d7a3" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_gyrus">
+	<description>Gyruss (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="gyruss-u1" offset="0x0" size="0x8000" crc="3eb77902" sha1="2419437ad701f5e165778af02b888da268c9a74d" />
+		</dataarea>
+		<dataarea name="prg" size="0x30000">
+		<rom name="gyruss-u4" offset="0x10000" size="0x8000" crc="48ecc48a" sha1="0afdb50a07ae9610f5c62dc8cca661ca359352be" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="1b26e58c.prm" offset="0x0" size="0x10" crc="1b26e58c" sha1="bd2d81d3cc54966ef154b3487d43ecbc316d6d22" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_krsty">
+	<description>Krusty&#x27;s Funhouse (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="xu-u1" offset="0x0" size="0x20000" crc="fce8e0ea" sha1="808f74e9124f273aab7adf5f31c2d5893b06323e" />
+		</dataarea>
+		<dataarea name="prg" size="0x40000">
+		<rom name="xu-u4" offset="0x0" size="0x20000" crc="1f4103e5" sha1="0a45c9b140df98aac7936c84e732410d796a35d7" />
+		<rom name="xu-u5" offset="0x20000" size="0x20000" crc="778c4115" sha1="beab60c8237ffba27f6730fe7f4c45173cf892e0" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="0fe6e900.prm" offset="0x0" size="0x10" crc="0fe6e900" sha1="544d8af1aa9186bf76d0a35e78b20e94d3afbcb5" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_mman5">
+	<description>Megaman 5 (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x40000">
+		<rom name="2n-u1" offset="0x0" size="0x40000" crc="25e0ae72" sha1="45d3ffbb5e399c891df6fcbd78b94b866be9b663" />
+		</dataarea>
+		<dataarea name="prg" size="0x40000">
+		<rom name="2n-u5" offset="0x0" size="0x40000" crc="f3c743aa" sha1="ee907c7279dba52320e35906ab5b0a1bdbbf0bfb" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="237e8519.prm" offset="0x0" size="0x10" crc="237e8519" sha1="81b368d0784e4172c5cf9f4f4b92e29e05d34ae7" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_pacm">
+	<description>Pacman (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="pacman.u2" offset="0x0" size="0x2000" crc="db6c9324" sha1="f0d0fa49fbccc3b005742fc72a8dd3dce63909d1" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="pacman.u1" offset="0x4000" size="0x4000" crc="de2070ab" sha1="a9324a94fa3d5ae6396a90c3d6d8399de8f93bd1" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="2cd98ef6.prm" offset="0x0" size="0x10" crc="2cd98ef6" sha1="bd5142c6a29df674ab835c8beafff7e93712d88f" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_parsl">
+	<description>Parasol Stars-The Story of Bubble Bobble 3 (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="parsl-u1" offset="0x0" size="0x20000" crc="af5400dc" sha1="68258fedf7e2ba3afcf20e8261ad93d282c10bd9" />
+		</dataarea>
+		<dataarea name="prg" size="0x20000">
+		<rom name="parsl-u4" offset="0x0" size="0x20000" crc="15382139" sha1="50991602680588a9e7b03e06d45ee607fc00db13" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="ec5641d6.prm" offset="0x0" size="0x10" crc="ec5641d6" sha1="05f546aec5a9db167688a9abbac922f5ced7f7c5" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_skykd">
+	<description>Sky Kid (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="skykid.u1" offset="0x0" size="0x20000" crc="0f58923f" sha1="805cc304ab0e20337c0b0dcd5ca7f2b7bf8e4656" />
+		</dataarea>
+		<dataarea name="prg" size="0x20000">
+		<rom name="skykid.u4" offset="0x0" size="0x20000" crc="c1918ec3" sha1="e34bd36d9a7df7197b06a0a537b9d786f2303a98" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="ec5641d6.prm" offset="0x0" size="0x10" crc="ec5641d6" sha1="05f546aec5a9db167688a9abbac922f5ced7f7c5" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb2_ps01" cloneof="pc_smb2">
+	<description>Super Mario Bros. 2 (107 Hack, 2014-04-27)(PlayChoice-10)</description>
+	<year>2014</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="mw-u1_ps01" offset="0x0" size="0x20000" crc="1d24625c" sha1="1e9abdfb9237b4c5699eadd13e9b0faaa186fd48" />
+		</dataarea>
+		<dataarea name="prg" size="0x20000">
+		<rom name="mw-u5_ps01" offset="0x0" size="0x20000" crc="de4ed9dc" sha1="c2234d608267849fbe2fe837478a1d506ba68b19" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="372f4e84" sha1="cdf221d49f3b454997d696f213d60b5dce0ce9fb" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb2_ps02" cloneof="pc_smb2">
+	<description>Super Mario Bros. 2 (458 Hack, 2012-01-22)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="mw-u1_ps02" offset="0x0" size="0x20000" crc="43fd715f" sha1="2f789330e289f5315d8bc0bc013d4ff4e3158a01" />
+		</dataarea>
+		<dataarea name="prg" size="0x20000">
+		<rom name="mw-u5_ps02" offset="0x0" size="0x20000" crc="e6f152c0" sha1="83826a57094eafebbe7e5a43075774710d2d590f" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="372f4e84" sha1="cdf221d49f3b454997d696f213d60b5dce0ce9fb" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb2_ps03" cloneof="pc_smb2">
+	<description>Super Mario Bros. 2 (760 Hack, 2012-01-22)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="mw-u1_ps03" offset="0x0" size="0x20000" crc="f1db4ecf" sha1="5469b891346f8432d6a74c42ddfce827efcfba04" />
+		</dataarea>
+		<dataarea name="prg" size="0x20000">
+		<rom name="mw-u5_ps03" offset="0x0" size="0x20000" crc="5a8ee185" sha1="5d96c5cb48afada79df49dafd6496db95c7fec3a" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="372f4e84" sha1="cdf221d49f3b454997d696f213d60b5dce0ce9fb" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb2_ps04" cloneof="pc_smb2">
+	<description>Super Mario Bros. 2 (All Floating, 2013-11-25)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="mw-u1" offset="0x0" size="0x20000" crc="f2ba1170" sha1="d9976b677ad222b76fbdaf31713374e2f283d44e" />
+		</dataarea>
+		<dataarea name="prg" size="0x20000">
+		<rom name="mw-u5_ps04" offset="0x0" size="0x20000" crc="fd4fb826" sha1="5a931a9f93869716ef18e25a2c9bc77b9db57175" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="372f4e84" sha1="cdf221d49f3b454997d696f213d60b5dce0ce9fb" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb2_ps05" cloneof="pc_smb2">
+	<description>Super Mario Bros. 2 (Edition Chinese, 2012-04-13)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="mw-u1_ps05" offset="0x0" size="0x20000" crc="107e7be8" sha1="ed056afaa512d1b98665d6341c4f175c3b30c8ff" />
+		</dataarea>
+		<dataarea name="prg" size="0x20000">
+		<rom name="mw-u5_ps05" offset="0x0" size="0x20000" crc="e8fe2bd0" sha1="ba0f3037e859f670f16c6f52417f786cb6844452" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="372f4e84" sha1="cdf221d49f3b454997d696f213d60b5dce0ce9fb" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb2_ps06" cloneof="pc_smb2">
+	<description>Super Mario Bros. 2 (Mod Invincible, 2012-01-03)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="mw-u1" offset="0x0" size="0x20000" crc="f2ba1170" sha1="d9976b677ad222b76fbdaf31713374e2f283d44e" />
+		</dataarea>
+		<dataarea name="prg" size="0x20000">
+		<rom name="mw-u5_ps06" offset="0x0" size="0x20000" crc="2a057850" sha1="1ed183538ae0b8523a8d3d94e4d92f951010ab8f" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="372f4e84" sha1="cdf221d49f3b454997d696f213d60b5dce0ce9fb" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb2_ps07" cloneof="pc_smb2">
+	<description>Super Mario Bros. 2 (Princess Floating Infinitely, 2012-01-03)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="mw-u1" offset="0x0" size="0x20000" crc="f2ba1170" sha1="d9976b677ad222b76fbdaf31713374e2f283d44e" />
+		</dataarea>
+		<dataarea name="prg" size="0x20000">
+		<rom name="mw-u5_ps07" offset="0x0" size="0x20000" crc="e1c209a3" sha1="00bbea1608bb0875120e5d053cd4b3e860c6a75e" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="372f4e84" sha1="cdf221d49f3b454997d696f213d60b5dce0ce9fb" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb2_ps08" cloneof="pc_smb2">
+	<description>Super Mario Bros. 2 (U.S.A Edition, 2013-11-25)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="mw-u1_ps08" offset="0x0" size="0x20000" crc="ce6e51d3" sha1="f0b6fcc21d87891de69632e543df5435cc70e16e" />
+		</dataarea>
+		<dataarea name="prg" size="0x20000">
+		<rom name="mw-u5_ps08" offset="0x0" size="0x20000" crc="c283e72d" sha1="9c399f8a6660e57269de2bfe619559be858daed4" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="372f4e84" sha1="cdf221d49f3b454997d696f213d60b5dce0ce9fb" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb3_ps01" cloneof="pc_smb3">
+	<description>Super Mario Bros. 3 (135 Hack, 2012-01-23)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="u1um" offset="0x0" size="0x20000" crc="c2928c49" sha1="2697d1f21b72a6d8e7d2a2d2c51c9c5550f68b56" />
+		</dataarea>
+		<dataarea name="prg" size="0x40000">
+		<rom name="u4um_ps01" offset="0x0" size="0x20000" crc="80a11ad0" sha1="1e2c01834d2dc9334030a0858ee8f8ffc43eb2e2" />
+		<rom name="u5um_ps01" offset="0x20000" size="0x20000" crc="09daacf2" sha1="b8d53ad91cf554fedf11167d56c082961d7b989a" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="e48f4945" sha1="66fe537cfe540317d6194847321ce4a9bdf0bba4" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb3_ps02" cloneof="pc_smb3">
+	<description>Super Mario Bros. 3 (320 Hack, 2014-09-29)(PlayChoice-10)</description>
+	<year>2014</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="u1um_ps02" offset="0x0" size="0x20000" crc="84742a1e" sha1="287d2b3f9f7ab9d3deb26a8d2d0c31f84f8b5fff" />
+		</dataarea>
+		<dataarea name="prg" size="0x40000">
+		<rom name="u4um_ps02" offset="0x0" size="0x20000" crc="51cb8ff4" sha1="4169278b2ed45191cc19d824bb9cbfc346e314e5" />
+		<rom name="u5um_ps02" offset="0x20000" size="0x20000" crc="0e2268cb" sha1="992a3a9fc0e1a940af3b5af3888754f18fb8a57f" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="e48f4945" sha1="66fe537cfe540317d6194847321ce4a9bdf0bba4" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb3_ps03" cloneof="pc_smb3">
+	<description>Super Mario Bros. 3 (412 Hack, 2012-01-22)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="u1um_ps03" offset="0x0" size="0x20000" crc="a1d5edf4" sha1="4aee98d6f15430c03e6b549e4b93ba64bba47e18" />
+		</dataarea>
+		<dataarea name="prg" size="0x40000">
+		<rom name="u4um_ps03" offset="0x0" size="0x20000" crc="e760a21e" sha1="398676f59f3e189b0b6b68b864820fa3cb26e474" />
+		<rom name="u5um_ps03" offset="0x20000" size="0x20000" crc="82ed2a33" sha1="6bc7b838b52ed8a32553f8b2f90f950095c5cc54" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="e48f4945" sha1="66fe537cfe540317d6194847321ce4a9bdf0bba4" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb3_ps04" cloneof="pc_smb3">
+	<description>Super Mario Bros. 3 (Key Substitution Version, 2013-11-25)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="u1um" offset="0x0" size="0x20000" crc="c2928c49" sha1="2697d1f21b72a6d8e7d2a2d2c51c9c5550f68b56" />
+		</dataarea>
+		<dataarea name="prg" size="0x40000">
+		<rom name="u4um" offset="0x0" size="0x20000" crc="590b4d7c" sha1="ac45940b71215a3a48983e22e1c7e71a71642b91" />
+		<rom name="u5um_ps04" offset="0x20000" size="0x20000" crc="95625dc7" sha1="363cfe756b06d7239d2d28c76d0dd66dd332fe41" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="e48f4945" sha1="66fe537cfe540317d6194847321ce4a9bdf0bba4" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb3_ps05" cloneof="pc_smb3">
+	<description>Super Mario Bros. 3 (Mod Invincible, 2013-12-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="u1um_ps05" offset="0x0" size="0x20000" crc="a0ae2b4b" sha1="5e026ad8a6b2a8120e386471d5178625bda04525" />
+		</dataarea>
+		<dataarea name="prg" size="0x40000">
+		<rom name="u4um_ps05" offset="0x0" size="0x20000" crc="33f07d65" sha1="5068e53a8c6fa993261de77c9b27da31611155a1" />
+		<rom name="u5um_ps05" offset="0x20000" size="0x20000" crc="8100803b" sha1="ef4edf72f6b719ad0cbcc0a43a5903441196b79f" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="e48f4945" sha1="66fe537cfe540317d6194847321ce4a9bdf0bba4" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb3_ps06" cloneof="pc_smb3">
+	<description>Super Mario Bros. 3 (Tiaobao Edition, 2011-11-02)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x20000">
+		<rom name="u1um_ps05" offset="0x0" size="0x20000" crc="a0ae2b4b" sha1="5e026ad8a6b2a8120e386471d5178625bda04525" />
+		</dataarea>
+		<dataarea name="prg" size="0x40000">
+		<rom name="u4um_ps06" offset="0x0" size="0x20000" crc="64cb6e51" sha1="b8150233b10c75f0a1e14138f736b330600e6383" />
+		<rom name="u5um_ps06" offset="0x20000" size="0x20000" crc="1d6041b9" sha1="f17eef1669d81d192b15f877afac6bc710b7a5ab" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="e48f4945" sha1="66fe537cfe540317d6194847321ce4a9bdf0bba4" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps01" cloneof="pc_smb">
+	<description>Super Mario Bros. (Air Jump, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps01" offset="0x0" size="0x8000" crc="6557eeee" sha1="3c457b8c53ada71cbbaf534a566ce9c4fd5a6554" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps02" cloneof="pc_smb">
+	<description>Super Mario Bros. (Air Swimming, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps02" offset="0x0" size="0x2000" crc="d371bfbc" sha1="92ddefb8523bc79a4895a0c0dd41e531619690b3" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps02" offset="0x0" size="0x8000" crc="dcac454d" sha1="2150479ee1b6b210eafb671794f8e72c8794a81e" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps03" cloneof="pc_smb">
+	<description>Super Mario Bros. (Always An Adult, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps03" offset="0x0" size="0x8000" crc="055a9072" sha1="3e6e559ee2ef22d1514ce73dd68b1cf23a57dda1" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps04" cloneof="pc_smb">
+	<description>Super Mario Bros. (Always Bullet, 2013-04-15)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps04" offset="0x0" size="0x8000" crc="4db902f8" sha1="552c360531fb9de80e773f8504eb8e17f440e7b6" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps05" cloneof="pc_smb">
+	<description>Super Mario Bros. (Another Revision, 2011-12-23)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps05" offset="0x0" size="0x2000" crc="90b06693" sha1="2f7627cc2a8f19661d8ac8c2f19044af0a6f57dc" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps05" offset="0x0" size="0x8000" crc="08d0d8f5" sha1="549e01980ad33a425925d9eefeb34811ce149f15" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps06" cloneof="pc_smb">
+	<description>Super Mario Bros. (Babio - Super Baby Bros, 2011-12-30)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps06" offset="0x0" size="0x2000" crc="735da4d2" sha1="f57dc2208911c43f0742d475ee7f377a3d20253c" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps06" offset="0x0" size="0x8000" crc="a511d786" sha1="53d616a93c3cdc926871cbe2ca0b5a7335a71707" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps07" cloneof="pc_smb">
+	<description>Super Mario Bros. (Blocker, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps07" offset="0x0" size="0x2000" crc="d67d3e9f" sha1="f983c01cbbbc32fc15a7b35e557d2daf01773c0a" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps07" offset="0x0" size="0x8000" crc="955432fd" sha1="22bfa098a556c7f5375ea2619ca8a8aa862dcb5f" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps08" cloneof="pc_smb">
+	<description>Super Mario Bros. (Bullet, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps08" offset="0x0" size="0x2000" crc="2690eea3" sha1="14c328cbf5f34ddf64f879f8cd1852204c680e96" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps08" offset="0x0" size="0x8000" crc="9b223439" sha1="35659931d575ecefc12fd63980d59334d11df5ff" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps09" cloneof="pc_smb">
+	<description>Super Mario Bros. (Burn The Bank, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps09" offset="0x0" size="0x2000" crc="20d1ad42" sha1="5a849c38cb1bc86197d580cd89530245f20dffa5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps09" offset="0x0" size="0x8000" crc="35fa8c08" sha1="0716d4f8ef7edf71e9de470c0b9cbb75d01002bc" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps10" cloneof="pc_smb">
+	<description>Super Mario Bros. (Change Gold Coin Attribute To Vine, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps10" offset="0x0" size="0x8000" crc="886ef164" sha1="6076a54bbc1cdb8c78e230285bca5defbce518cc" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps11" cloneof="pc_smb">
+	<description>Super Mario Bros. (Chinese Version 1, 2012-01-15)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps11" offset="0x0" size="0x2000" crc="52b5f665" sha1="16a45f269e348984868f63b6bfe6d111876ec843" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps11" offset="0x0" size="0x8000" crc="ef2f7b6f" sha1="0c309f1d472d7f77906b53b81a0435becd2a8189" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps12" cloneof="pc_smb">
+	<description>Super Mario Bros. (Chinese Version 2, 2012-01-15)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps12" offset="0x0" size="0x2000" crc="6c9054d4" sha1="8d6c4321c0a7a0ccb58c70863bb2ef4434d7f9f7" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps12" offset="0x0" size="0x8000" crc="86139119" sha1="24aba6624f0356b9a9a096d50659f09031a7c51d" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps13" cloneof="pc_smb">
+	<description>Super Mario Bros. (Original Japanese Edition, 2015-07-06)(PlayChoice-10)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps13" offset="0x0" size="0x8000" crc="967a605f" sha1="31b332f6bc338e058a7b958dca285066c405b697" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps14" cloneof="pc_smb">
+	<description>Super Mario Bros. (Cresent 2, 2020-08-11)(PlayChoice-10)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps14" offset="0x0" size="0x2000" crc="938ec91c" sha1="f045cfe0d734ffc8d356d0cf3c56b06084fb4ecf" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps14" offset="0x0" size="0x8000" crc="c85ad443" sha1="1d126e7ae5dfffb93810f693ce2253165836ba71" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps15" cloneof="pc_smb">
+	<description>Super Mario Bros. (Double Jump, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps15" offset="0x0" size="0x8000" crc="cfc697b9" sha1="3cc38edfd1d5aae351c68a168498bdec8c6bd82d" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps16" cloneof="pc_smb">
+	<description>Super Mario Bros. (Downmario, 2011-12-23)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps16" offset="0x0" size="0x2000" crc="628488bd" sha1="02dfc7593860c32a32c2bc32fb40a908b4984d0c" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps16" offset="0x0" size="0x8000" crc="bbbf02cc" sha1="e1beb9a7bb35f8781ef10be8a40301ba0a12ea08" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps17" cloneof="pc_smb">
+	<description>Super Mario Bros. (Enemy Hidden Version, 2011-12-23)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps17" offset="0x0" size="0x2000" crc="6e05ce19" sha1="801766397a70349e66989af0bd9d1c07cacdde78" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps17" offset="0x0" size="0x8000" crc="885acc2b" sha1="448ed0051cb89a9d432b82e28a5e48a666f64fd0" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps18" cloneof="pc_smb">
+	<description>Super Mario Bros. (Forced Scroll Fast, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps18" offset="0x0" size="0x8000" crc="da2dc26e" sha1="8a8ef6c74bb49f815be5765a1fd985b98575335c" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps19" cloneof="pc_smb">
+	<description>Super Mario Bros. (Forever 2011-12-23)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps19" offset="0x0" size="0x2000" crc="078a4304" sha1="05056bace92931aeaa6b86a13e44f2da75e7a765" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps19" offset="0x0" size="0x8000" crc="00a1fd08" sha1="e120ae69734fee92d270594f7a4b1cfbe27ed556" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps20" cloneof="pc_smb">
+	<description>Super Mario Bros. (Girl Mario, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps20" offset="0x0" size="0x2000" crc="3ccb959e" sha1="97b63bc78de519045654de9cc688538bd8436661" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps20" offset="0x0" size="0x8000" crc="c3337278" sha1="133713662f060d333e3c149fed30d0c91c59d8c3" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps21" cloneof="pc_smb">
+	<description>Super Mario Bros. (Golden Body Invincible, 2013-12-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps21" offset="0x0" size="0x8000" crc="473157dc" sha1="9f1aac18c57f6fc740b378bf18749bf216678ee3" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps22" cloneof="pc_smb">
+	<description>Super Mario Bros. (Goomba&#x27;s Revenge, 2013-03-17)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps22" offset="0x0" size="0x2000" crc="ee35a20f" sha1="dfb44485a5488240f8e320bc7963d3f1f2bfa00d" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps22" offset="0x0" size="0x8000" crc="43d8c03d" sha1="1ffdbd1dc71e2d37a558133eb3fb5c151ae068a6" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps23" cloneof="pc_smb">
+	<description>Super Mario Bros. (Happy Experience Of Super Mario, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps23" offset="0x0" size="0x2000" crc="e5473352" sha1="dabf71676e2cacc419bd4cab953f9d80c6d5f261" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps23" offset="0x0" size="0x8000" crc="a00997dc" sha1="84eac05bc2e305a805cf2a979dc03abde43483b5" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps24" cloneof="pc_smb">
+	<description>Super Mario Bros. (Hidden Coins And 1up Show Up, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps24" offset="0x0" size="0x2000" crc="5f00ce7f" sha1="9d43f8ef2be2c30af89ed7fad9d68fe620b5519a" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps24" offset="0x0" size="0x8000" crc="898ff66f" sha1="0d4b2a9feb5a2a8e693b4d0a3ecf516788db2349" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps25" cloneof="pc_smb">
+	<description>Super Mario Bros. (Infinite Jump, 2013-04-15)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps25" offset="0x0" size="0x8000" crc="c7484f2c" sha1="1fe40dde2cb1d5e1f35441d56ba941a7ffcceb79" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps26" cloneof="pc_smb">
+	<description>Super Mario Bros. (Inverted Water Pipe, 2011-12-30)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps26" offset="0x0" size="0x8000" crc="2c6c2ec6" sha1="23b4776137bd9f879c96230612a089d4457e2142" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps27" cloneof="pc_smb">
+	<description>Super Mario Bros. (Invincible Jumping Off The Cliff Undead Beta Version, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps27" offset="0x0" size="0x8000" crc="af0e6b6b" sha1="f429efaff1857d1e3ced433c4defb095cd598ee1" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps28" cloneof="pc_smb">
+	<description>Super Mario Bros. (kamikaze Marie Dress Version, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps28" offset="0x0" size="0x2000" crc="c6001011" sha1="24b1f69244c827e96e8b7d133c58bf7cf26dc563" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps28" offset="0x0" size="0x8000" crc="62b608a6" sha1="3658d3300e7de5ba419c3562d5987edb14f24514" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps29" cloneof="pc_smb">
+	<description>Super Mario Bros. (kamikazev 3, 2012-01-13)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps29" offset="0x0" size="0x2000" crc="0feb1254" sha1="b3e7cc137d88d6ceff59436eb3c3af13b120aed1" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps29" offset="0x0" size="0x8000" crc="fddc08c9" sha1="fc790b7027fa299edec9ddcd9ff27ced7afa05c7" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps30" cloneof="pc_smb">
+	<description>Super Mario Bros. (Kirby, 2013-03-16)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps30" offset="0x0" size="0x2000" crc="bd41dd7a" sha1="f21725d6a429844c10fd6f26e838eb9d579882aa" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps30" offset="0x0" size="0x8000" crc="eff21c00" sha1="10abf6217cc9243ee70909af9602503e4fdde6a3" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps31" cloneof="pc_smb">
+	<description>Super Mario Bros. (Lady Opera - Swf Panic v1, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps31" offset="0x0" size="0x2000" crc="05e0f434" sha1="cdd1fca7da1d10d4e500f5bec19c497646bed3c3" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps31" offset="0x0" size="0x8000" crc="8ea5298a" sha1="c48437c1867dfe3efdde1c191f7233f4ea69d98e" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps32" cloneof="pc_smb">
+	<description>Super Mario Bros. (Lady Opera - Swf Panic v1 [No ani] 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps32" offset="0x0" size="0x2000" crc="db91b704" sha1="9e1dd6e5d3b63eb860fc80d022eb0e641978c8a6" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps32" offset="0x0" size="0x8000" crc="7817ee90" sha1="9ca63ab8dfbb388e1d0a654f642fb2c8d189f033" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps33" cloneof="pc_smb">
+	<description>Super Mario Bros. (Legend Of Zelda, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps33" offset="0x0" size="0x2000" crc="871099a7" sha1="76657cf0a92fea8c3aa60535163d66d14e2fbffa" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps33" offset="0x0" size="0x8000" crc="025073bd" sha1="bc5aa7139e3378826f7048ee0b13c56359814e1e" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps34" cloneof="pc_smb">
+	<description>Super Mario Bros. (Life Limit Correction, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps34" offset="0x0" size="0x8000" crc="f3646bf7" sha1="60bc52905aee6807a47074d21166ab57202aa3f8" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps35" cloneof="pc_smb">
+	<description>Super Mario Bros. (Limit Modification, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps35" offset="0x0" size="0x8000" crc="4b0856cf" sha1="062b29d88c03c5c6f8c540060fde825cf1c3a6f0" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps36" cloneof="pc_smb">
+	<description>Super Mario Bros. (Liu Mingjia&#x27;s Adventure, 2011-12-23)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps36" offset="0x0" size="0x2000" crc="6c5efd2f" sha1="54edf404aa9d1efcc1b551424b638809257c1e8f" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps36" offset="0x0" size="0x8000" crc="2849d729" sha1="f87b131cd55e48102151043128a87da704329fd4" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps37" cloneof="pc_smb">
+	<description>Super Mario Bros. (Luigi&#x27;s Chronicles - Googie&#x27;s 5th A, 2013-03-17)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps37" offset="0x0" size="0x2000" crc="c2fb3a43" sha1="dd8acd1406fab75efb7ed01a357f9a76f4275d48" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps37" offset="0x0" size="0x8000" crc="4410f405" sha1="21fe5b402c104ae4c13d16e61a7809403c5296db" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps38" cloneof="pc_smb">
+	<description>Super Mario Bros. (Luigi&#x27;s Chronicles - Googie&#x27;s 5th B, 2013-03-17)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps38" offset="0x0" size="0x2000" crc="8d791a7e" sha1="b4119c229c7f4760a93e74234a5b15aa1bd400ef" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps38" offset="0x0" size="0x8000" crc="7c727fe1" sha1="ff12129516c73bda2e60f9af6304a6dea1a4030f" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps39" cloneof="pc_smb">
+	<description>Super Mario Bros. (Mario Fro, 2011-12-30)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps39" offset="0x0" size="0x2000" crc="168a5a8c" sha1="08f672cac72d113ed18112d451ca376e624a706c" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps17" offset="0x0" size="0x8000" crc="885acc2b" sha1="448ed0051cb89a9d432b82e28a5e48a666f64fd0" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps40" cloneof="pc_smb">
+	<description>Super Mario Bros. (Mario&#x27;s Moon Adventure, 2013-03-16)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps40" offset="0x0" size="0x2000" crc="bb1c49f2" sha1="15e5c19043dff81e92a2b96f654ff287ceb97574" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps40" offset="0x0" size="0x8000" crc="6a57e949" sha1="12263a3a99e50ecf17cc20b2e85aef2f2795f513" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps41" cloneof="pc_smb">
+	<description>Super Mario Bros. (Mario In Zebes, 2015-09-20)(PlayChoice-10)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps41" offset="0x0" size="0x2000" crc="678f9338" sha1="d8c44aa0672603ded63900bfcfd1ad27c9f2e763" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps41" offset="0x0" size="0x8000" crc="b90bc087" sha1="1529efacde9cbb9177ba9e5bd0c28dac6b5701de" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps42" cloneof="pc_smb">
+	<description>Super Mario Bros. (Mary, 2012-09-28)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps42" offset="0x0" size="0x8000" crc="455d428d" sha1="a83bf1c55483027616e1abe4fe562577f6f874d6" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps43" cloneof="pc_smb">
+	<description>Super Mario Bros. (Midget, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps43" offset="0x0" size="0x2000" crc="034f063c" sha1="3e5251551193a2b0474665a2d1f645e5c6be000d" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps43" offset="0x0" size="0x8000" crc="8a043d97" sha1="d1dc2c0fc560137072a006225de22f718e439110" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps44" cloneof="pc_smb">
+	<description>Super Mario Bros. (Mikamari Kanji, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps44" offset="0x0" size="0x2000" crc="5eaf89de" sha1="79319a4a455b0ce81de6e5f9336d215f6ee3a7b4" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps44" offset="0x0" size="0x8000" crc="2d9bfc93" sha1="03b7fc7373dff1da3acc31a06af6c9bd2830cacd" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps45" cloneof="pc_smb">
+	<description>Super Mario Bros. (Mods Invincible, 2011-12-23)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps45" offset="0x0" size="0x8000" crc="48dcf7f9" sha1="de73b057a607cbb5c7c63b615f8ca1a5f79d420b" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps46" cloneof="pc_smb">
+	<description>Super Mario Bros. (Mortal Kombat Bros Sub Zero Mythologies Quest, 2013-03-16)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps46" offset="0x0" size="0x2000" crc="6eab0daf" sha1="dc5624e6808e78aae8116dc967687c8f793a61d1" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps46" offset="0x0" size="0x8000" crc="69607c24" sha1="a90272033ac700c5569aaf4049eb9572ccc3a9ad" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps47" cloneof="pc_smb">
+	<description>Super Mario Bros. (Naked Mario, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps47" offset="0x0" size="0x2000" crc="25a1f9ee" sha1="8ee3b3244f483199c26cc0dde4df9aaacde3e1e8" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps17" offset="0x0" size="0x8000" crc="885acc2b" sha1="448ed0051cb89a9d432b82e28a5e48a666f64fd0" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps48" cloneof="pc_smb">
+	<description>Super Mario Bros. (Nameless B, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps48" offset="0x0" size="0x2000" crc="8ec8c986" sha1="abb85d129d2368aaaed924d1c3b53cc784b81a30" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps48" offset="0x0" size="0x8000" crc="1d2f0bfa" sha1="a5dc6f29a6eccc9e1dcea85bd5d8178700fd8c64" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps49" cloneof="pc_smb">
+	<description>Super Mario Bros. (Pandamar, 2013-03-17)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps49" offset="0x0" size="0x2000" crc="e4615dd5" sha1="2776057d8bad8cc31eb60244e1c6d39173bbb1a5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps49" offset="0x0" size="0x8000" crc="5396db08" sha1="6234baf5a35c82cb7ab931d67829f0399d2efbf2" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps50" cloneof="pc_smb">
+	<description>Super Mario Bros. (Row Of Cherry Trees (Sakura) 2013-03-19)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps50" offset="0x0" size="0x8000" crc="2321a47f" sha1="cd65791584f76bc117fcc6545297e8ee23893e0a" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps51" cloneof="pc_smb">
+	<description>Super Mario Bros. (Sakura, 2015-09-20)(PlayChoice-10)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps51" offset="0x0" size="0x2000" crc="57b68cc5" sha1="884f2598244a0fab6edb498a03d057d638be9639" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps51" offset="0x0" size="0x8000" crc="9246fde9" sha1="21b8ac3c119dd0160a442d5363b5a3898dc8c476" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps52" cloneof="pc_smb">
+	<description>Super Mario Bros. (Self-Running Full Version, 2012-01-03)(PlayChoice-10)</description>
+	<year>2012</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps52" offset="0x0" size="0x8000" crc="e19cee9d" sha1="d7fdc39ad48226905ee8d68cc9f904f952f0ae84" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps53" cloneof="pc_smb">
+	<description>Super Mario Bros. (X9, 2011-12-30)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps53" offset="0x0" size="0x2000" crc="113dae1c" sha1="4e593311efc582772159e18cb3063d5035b80955" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps53" offset="0x0" size="0x8000" crc="718876fe" sha1="38738de146a874db0efaa003291ccf686d4d5041" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps54" cloneof="pc_smb">
+	<description>Super Mario Bros. (Bjc, 2013-03-17)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps54" offset="0x0" size="0x2000" crc="ffc9a3f7" sha1="712dda159220aa35bc7c47cff89b82e546011921" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps54" offset="0x0" size="0x8000" crc="89b5939a" sha1="c9a48486c8434ccd1408272b1d579abb5cbeb7d0" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps55" cloneof="pc_smb">
+	<description>Super Mario Bros. (Sorrowful, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps55" offset="0x0" size="0x2000" crc="59e9b87d" sha1="13b8e811275cf85ba43ab190df1c62ca8c354370" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps55" offset="0x0" size="0x8000" crc="50f5f554" sha1="1c67d813fc64ff18097e605aabc4289dec834866" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps56" cloneof="pc_smb">
+	<description>Super Mario Bros. (Strange Mario Bros, 2015-09-20)(PlayChoice-10)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps56" offset="0x0" size="0x2000" crc="b9a1218e" sha1="2f3cfde73c25640517413f3712a744886f18fd2c" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps17" offset="0x0" size="0x8000" crc="885acc2b" sha1="448ed0051cb89a9d432b82e28a5e48a666f64fd0" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps57" cloneof="pc_smb">
+	<description>Super Mario Bros. (Super Bizzario Bros, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps57" offset="0x0" size="0x2000" crc="b0f35afb" sha1="53de8232cdc52ab7f517e4cbf1a3c5bdf5faef1a" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps17" offset="0x0" size="0x8000" crc="885acc2b" sha1="448ed0051cb89a9d432b82e28a5e48a666f64fd0" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps58" cloneof="pc_smb">
+	<description>Super Mario Bros. (Super Catholic Bros, 2015-09-20)(PlayChoice-10)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps58" offset="0x0" size="0x2000" crc="b7e74b76" sha1="49d13b90c93cd0700c510a1314858218a1ffa29a" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps58" offset="0x0" size="0x8000" crc="f6844d13" sha1="ea65580e42de7226eec3ee75621bb73e6f9f199f" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps59" cloneof="pc_smb">
+	<description>Super Mario Bros. (Super Cigarette Bros, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps59" offset="0x0" size="0x2000" crc="e9a2f860" sha1="d6c81524bf7e667cc84f9f78547f3a6687db4ce1" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps17" offset="0x0" size="0x8000" crc="885acc2b" sha1="448ed0051cb89a9d432b82e28a5e48a666f64fd0" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps60" cloneof="pc_smb">
+	<description>Super Mario Bros. (Super Little Bird Nightmare Edition, 2015-09-20)(PlayChoice-10)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps60" offset="0x0" size="0x2000" crc="16e2a73b" sha1="6902271155e5135c2105d394154e228b464cf429" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps60" offset="0x0" size="0x8000" crc="dff85f0b" sha1="5f16f6af2becd7daecbf4c61b3dc40402cb843cf" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps61" cloneof="pc_smb">
+	<description>Super Mario Bros. (Super Tricky Mario, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps61" offset="0x0" size="0x2000" crc="c0665808" sha1="9794b16c2af21fcb6e07c7eefdc34c4e4f444997" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps61" offset="0x0" size="0x8000" crc="5ad5c7bb" sha1="790e9761231823783a7bd110b822d76a20f001b2" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps62" cloneof="pc_smb">
+	<description>Super Mario Bros. (The Enemy Will Fire Bullets (Discontinuous) 2011-12-30)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps62" offset="0x0" size="0x2000" crc="00685ea2" sha1="38dff92028442ce512837eefb3e382fbb6092b80" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps62" offset="0x0" size="0x8000" crc="ef78ca04" sha1="5a6b0b4867e9e0877c26400dcf5509125d267f9c" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps63" cloneof="pc_smb">
+	<description>Super Mario Bros. (The More The Better, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps63" offset="0x0" size="0x2000" crc="50048792" sha1="db1d8fb841484f4687aa61662178e979e02566dc" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps63" offset="0x0" size="0x8000" crc="19db1398" sha1="7db2e6498892f6e76fa1ecf9b3cf1611eb05b38a" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps64" cloneof="pc_smb">
+	<description>Super Mario Bros. (The Second Generation Japanese Version Of The Red Piranha, 2011-12-30)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps64" offset="0x0" size="0x8000" crc="0d8f4f17" sha1="073ea5edda5196120e33a40e57453d096e2445c6" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps65" cloneof="pc_smb">
+	<description>Super Mario Bros. (Thorn, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps65" offset="0x0" size="0x2000" crc="071f2111" sha1="b42f34eb5c3d39a07a98551c4ac83df231ac0fb7" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps65" offset="0x0" size="0x8000" crc="e08edc63" sha1="b0321d3b8945d7455ae800fb6d48348685213168" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps66" cloneof="pc_smb">
+	<description>Super Mario Bros. (Time Loop, 2013-04-15)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps66" offset="0x0" size="0x8000" crc="ba6357fb" sha1="e58aab0aa35b1281252004bdd81d0d98164a0d00" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps67" cloneof="pc_smb">
+	<description>Super Mario Bros. (Time World Score, 2011-12-30)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps67" offset="0x0" size="0x2000" crc="2135c6d1" sha1="f2a5eb06da4d054c75a4bdd7183058f78f2802a3" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps67" offset="0x0" size="0x8000" crc="d8ccedbe" sha1="30a20fd7745ea0262a76e48d9212539d6ce67a7a" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps68" cloneof="pc_smb">
+	<description>Super Mario Bros. (Tl05, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps68" offset="0x0" size="0x2000" crc="d9ab0057" sha1="ade3a520e0c2257d4871ba9e290fe3e3dca03bbc" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps68" offset="0x0" size="0x8000" crc="2bc0a7a9" sha1="728b0ccd139865c66a282894c1f888650b22bfda" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps69" cloneof="pc_smb">
+	<description>Super Mario Bros. (Unlimited Jump, 2011-12-28)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps69" offset="0x0" size="0x2000" crc="490679c2" sha1="c7dbd4247e19f4fed9c106fc598119dd4f0c2c7a" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps69" offset="0x0" size="0x8000" crc="d3ef5902" sha1="f52f3092d890772603c876bf7512f7c41a86e1fb" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps70" cloneof="pc_smb">
+	<description>Super Mario Bros. (Upside-Down Map, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps70" offset="0x0" size="0x2000" crc="8c01e7f4" sha1="af4e44591c2e99401ff4d962575a631f1fe6a0db" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps70" offset="0x0" size="0x8000" crc="f0d05e82" sha1="ee4acbda7d82b820b449a6b4fa0ad95a95ccc685" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps71" cloneof="pc_smb">
+	<description>Super Mario Bros. (Various Enhancements, 2011-12-29)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm" offset="0x0" size="0x2000" crc="867b51ad" sha1="394badaf0b0bdd0ea279a1bca89a9d9ddc00b1b5" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps71" offset="0x0" size="0x8000" crc="12d66e24" sha1="f32e17a76ef772dee42813af7fc167e8ae1813c0" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps72" cloneof="pc_smb">
+	<description>Super Mario Bros. (Yoona(cu)Hard, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps72" offset="0x0" size="0x2000" crc="fc5cd67e" sha1="3923b3498b93c028ec5b0babe58af7de5ef11c37" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps72" offset="0x0" size="0x8000" crc="a4956d9a" sha1="69f1b70ad797e923b94a8a6b24673a7a565508f2" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps73" cloneof="pc_smb">
+	<description>Super Mario Bros. (Yoona(cu)Normal, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps72" offset="0x0" size="0x2000" crc="fc5cd67e" sha1="3923b3498b93c028ec5b0babe58af7de5ef11c37" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps73" offset="0x0" size="0x8000" crc="23958ac3" sha1="0551e4df66f73880ec7a666af839ec91d7391555" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+<software name="pc_smb_ps74" cloneof="pc_smb">
+	<description>Super Mario Bros. (Zzt, 2015-09-20)(PlayChoice-10)</description>
+	<year>2015</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps74" offset="0x0" size="0x2000" crc="a94709ce" sha1="6b697ee59252f0c4e30efa1e0b62d80876ed6712" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps74" offset="0x0" size="0x8000" crc="c28daf74" sha1="6b2bbd0ffd8bcc36daafd2d11696a789e1b269eb" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

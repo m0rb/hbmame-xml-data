@@ -1,0 +1,32 @@
+<software name="dkongan" cloneof="dkong">
+	<description>Donkey Kong 40th Anniversary Edition (2021-03-02)</description>
+	<year>2021</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongan.5et" offset="0x0" size="0x1000" crc="cf44c2dd" sha1="26776fa00250fbffdc1cb2ef012f851cffd67b3d" />
+		<rom name="dkongan0.5ct" offset="0x1000" size="0x1000" crc="34238a95" sha1="a997989a33d5ad8dc77483781de12fd161e57f39" />
+		<rom name="dkongan0.5bt" offset="0x2000" size="0x1000" crc="6c5614e5" sha1="cf8a31c303eb18260cc328593f365ebd9d81fb5c" />
+		<rom name="dkongan.5at" offset="0x3000" size="0x1000" crc="0b92803c" sha1="01bb401837ddeeb5ff36d98eebde9a5819ac19e8" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkongan0.5h" offset="0x0" size="0x800" crc="ae4c3990" sha1="20db41211bfdc6b79198fc8cd022465468430059" />
+		<rom name="dkongan0.3pt" offset="0x800" size="0x800" crc="25cc07d4" sha1="62374e89c79527cb78a70f83781299d4786bcec0" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="dkongan0.4m" offset="0x0" size="0x800" crc="410ab9a2" sha1="c98f2053bc2f2140209ac2d8d0a7c1f489ec429c" />
+		<rom name="dkongan0.4n" offset="0x800" size="0x800" crc="4f7e8fd4" sha1="b031f512a40d6cdd430cc57f470efe53e55fbad7" />
+		<rom name="dkongan0.4r" offset="0x1000" size="0x800" crc="9eb470c0" sha1="58644eed4c4f0b714f51147fbf77b9c2ee18ad2c" />
+		<rom name="dkongan0.4s" offset="0x1800" size="0x800" crc="73ef61cc" sha1="7736e1451a36f1b9b20108c0d5f6ba861602d307" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="c-2k.bpr" offset="0x0" size="0x100" crc="e273ede5" sha1="b50ec9e1837c00c20fb2a4369ec7dd0358321127" />
+		<rom name="c-2j.bpr" offset="0x100" size="0x100" crc="d6412358" sha1="f9c872da2fe8e800574ae3bf483fb3ccacc92eb3" />
+		<rom name="v-5e.bpr" offset="0x200" size="0x100" crc="b869b8f5" sha1="c2bdccbf2654b64ea55cd589fd21323a9178a660" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="dkongan.3i" offset="0x0" size="0x800" crc="44993c29" sha1="7beeae49df5126bbf268dc66bb61e6a8b832fa31" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,17 @@
+<software name="hmbluep" cloneof="puckman">
+	<description>Hangly Man Blue Plus</description>
+	<year>2001</year>
+	<publisher>Blue Justice</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="hangly.6e" offset="0x0" size="0x1000" crc="5fe8610a" sha1="d63eaebd85e10aa6c27bb7f47642dd403eeb6934" />
+		<rom name="hangly.6f" offset="0x1000" size="0x1000" crc="73726586" sha1="cedddc5194589039dd8b64f07ab6320d7d4f55f9" />
+		<rom name="hangly.6h" offset="0x2000" size="0x1000" crc="4e7ef99f" sha1="bd42e68b29b4d654dc817782ba00db69b7d2dfe2" />
+		<rom name="hangly.6j" offset="0x3000" size="0x1000" crc="7f4147e6" sha1="0a7ac0e59d4d26fe52a2f4196c9f19e5ab677c87" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pm1000.5e" offset="0x0" size="0x1000" crc="16d9f7ce" sha1="a9ac72aa5e3dcaaa2e4d03b6ae372e81d77817f8" />
+		<rom name="hmbluep.5f" offset="0x1000" size="0x1000" crc="ceb721be" sha1="7eb60764bb7f9aa63a9f2a9a3052c2b988f5a530" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,18 @@
+<software name="neopang">
+	<description>Neo Pang</description>
+	<year>2010</year>
+	<publisher>CeL</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="436.p1" offset="0x0" size="0x80000" crc="dc5922ee" sha1="08804fa9894b7e84375300acbdec8ea6829575d0" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="202.v1" offset="0x0" size="0x80000" crc="debeb8fb" sha1="49a3d3578c087f1a0050168571ef8d1b08c5dc05" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="436.c1" offset="0x0" size="0x100000" crc="62f5405c" sha1="f9eb8d1838da9953aecf40c3314c608ab655cb8f" />
+		<rom loadflag="load16_byte" name="436.c2" offset="0x1" size="0x100000" crc="e1183030" sha1="60262d53ab12314db5e5c00a94463500abe3e8b0" />
+		</dataarea>
+	</part>
+</software>

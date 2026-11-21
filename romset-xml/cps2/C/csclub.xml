@@ -1,0 +1,33 @@
+<software name="csclub">
+	<description>Capcom Sports Club (Euro 971017)</description>
+	<year>1997</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c73e.p1" offset="0x0" size="0x80000" crc="824082be" sha1="a44e7e17d73e089b4e7784317f2387d135d01482" />
+		<rom loadflag="load16_word_swap" name="c73e.p2" offset="0x80000" size="0x80000" crc="74e6a4fe" sha1="2a732a6e57088885e77256eb17ddd3ae523db09f" />
+		<rom loadflag="load16_word_swap" name="c73e.p3" offset="0x100000" size="0x80000" crc="8ae0df19" sha1="88e7bf1ee0e18d74748cecd875cb96524dfa01cf" />
+		<rom loadflag="load16_word_swap" name="c73e.p4" offset="0x180000" size="0x80000" crc="51f2f0d3" sha1="067a0bded69767b9f30073012ad62f4608b7610a" />
+		<rom loadflag="load16_word_swap" name="c73e.p5" offset="0x200000" size="0x80000" crc="003968fd" sha1="95f59a29a404a1c1e86d5f43526a80aa97f25621" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c73.m1" offset="0x0" size="0x8000" crc="ee162111" sha1="ce8d4bd32bb10ee8b0274ba6fcef05a583b39d48" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="csclub.key" offset="0x0" size="0x14" crc="903907d7" sha1="d70384b64637dbbcc064d39f984f73fc48bbac44" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c73e.q1" offset="0x0" size="0x80000" crc="5a52afd5" sha1="ab873ec556933b75be82ba249357cceb01a7a0bd" />
+		<rom loadflag="load16_word_swap" name="c73e.q2" offset="0x80000" size="0x80000" crc="1408a811" sha1="1d31e3cd505245b5ff4d3c55d5fa7017c0f1e168" />
+		<rom loadflag="load16_word_swap" name="c73e.q3" offset="0x100000" size="0x80000" crc="4fb9f57c" sha1="093e8e3a03b62783a84fe4ae239e9eb46cbfd71e" />
+		<rom loadflag="load16_word_swap" name="c73e.q4" offset="0x180000" size="0x80000" crc="9a8f40ec" sha1="c8db1ecfd6b08e9c83ae53a1d25c1387ab95535c" />
+		<rom loadflag="load16_word_swap" name="c73e.q5" offset="0x200000" size="0x80000" crc="91529a91" sha1="183569100ae98e17688e0e25932850e73a41eb88" />
+		<rom loadflag="load16_word_swap" name="c73e.q6" offset="0x280000" size="0x80000" crc="9a345334" sha1="330291400a73215c9797457507a86c90ba415247" />
+		<rom loadflag="load16_word_swap" name="c73e.q7" offset="0x300000" size="0x80000" crc="aedc27f2" sha1="55137f0f22c4823558e6a8ba76011695579a4f1f" />
+		<rom loadflag="load16_word_swap" name="c73e.q8" offset="0x380000" size="0x80000" crc="2300b7b3" sha1="f5ecbb45c24f7de1c1aa435870695551d4e343ca" />
+		</dataarea>
+	</part>
+</software>

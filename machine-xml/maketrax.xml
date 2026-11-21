@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="maketrax" description="Maketrax cartridges">
+<software name="mtturbo">
+	<description>Make Trax (Turbo Hack)</description>
+	<year>1981</year>
+	<publisher>Tim Arcadecollecting</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="maketrax.6e" offset="0x0" size="0x1000" crc="0150fb4a" sha1="ba41582d5432670654479b4bf6d938d2168858af" />
+		<rom name="maketrax.6f" offset="0x1000" size="0x1000" crc="77531691" sha1="68a450bcc8d832368d0f1cb2815cb5c03451796e" />
+		<rom name="mtturbo.6h" offset="0x2000" size="0x1000" crc="77e0e153" sha1="8be5cf8c0337e05eaf4635f19580d6c1477e6bcc" />
+		<rom name="maketrax.6j" offset="0x3000" size="0x1000" crc="0b4b5e0a" sha1="621aece612df612065f776696956ef3671421fac" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="maketrax.5e" offset="0x0" size="0x1000" crc="91bad2da" sha1="096197d0cb6d55bf72b5be045224f4bd6a9cfa1b" />
+		<rom name="maketrax.5f" offset="0x1000" size="0x1000" crc="aea79f55" sha1="279021e6771dfa5bd0b7c557aae44434286d91b7" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="82s123.7f" offset="0x0" size="0x20" crc="2fc650bd" sha1="8d0268dee78e47c712202b0ec4f1f51109b1f2a5" />
+		<rom name="2s140.4a" offset="0x20" size="0x100" crc="63efb927" sha1="5c144a613fc4960a1dfd7ead89e7fee258a63171" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

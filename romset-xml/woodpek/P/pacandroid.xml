@@ -1,0 +1,19 @@
+<software name="pacandroid" cloneof="mspacman">
+	<description>Pac Android</description>
+	<year>2018</year>
+	<publisher>Mameplus</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="robot.1" offset="0x0" size="0x1000" crc="8c5d136a" sha1="5356dec1026dc2beaae57152312b1b0bcaf9fa26" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="robot.3" offset="0x2000" size="0x1000" crc="1ae6f796" sha1="7d0e0fbf7379d8df7c48b9eccfa0bc0defeec5f9" />
+		<rom name="robot.4" offset="0x3000" size="0x1000" crc="39c6da70" sha1="22efc2631c679a79122428bd1b9da81ea00edcd4" />
+		<rom name="robot.5" offset="0x8000" size="0x1000" crc="655796dd" sha1="cc4747e4572b2a1d01a407adbb20d94799d81e76" />
+		<rom name="robot.6" offset="0x9000" size="0x1000" crc="cf89c337" sha1="26c9fd31238ee8ce1e1a6aabdaab1b8dab3c45a4" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="robot.5e" offset="0x0" size="0x1000" crc="38958ef7" sha1="59d303febe9dff2dcc217f53901a9c6f0681a1e7" />
+		<rom name="robot.5f" offset="0x1000" size="0x1000" crc="9ede8477" sha1="2f59cb1ad3c9bb187a54fea678d6a82f31411ce0" />
+		</dataarea>
+	</part>
+</software>

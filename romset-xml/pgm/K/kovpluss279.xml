@@ -1,0 +1,29 @@
+<software name="kovpluss279" cloneof="kovplus">
+	<description>Knights of Valour Plus (Six Swords Of God 2016-06-08)</description>
+	<year>2016</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_ph279.119" offset="0x100000" size="0x400000" crc="435285c6" sha1="271ff7bcddc807c1aeba55136600dc7f740fb18b" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u3" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kov_igs027a.bin" offset="0x0" size="0x4000" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_ph78.rom" offset="0x0" size="0x800000" crc="098cd614" sha1="663e8ad60d1bdbdea22f8b186454649b4e432092" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_ph177.rom" offset="0x1000000" size="0x800000" crc="efb30f14" sha1="ab5b4232b2dfc9f4e3a77112028a903f30b41fb9" />
+		<rom name="pgm_a0603.u9" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_ph78.rom" offset="0x0" size="0x800000" crc="b3691ed3" sha1="3664fbd8bd775817a5f51326ecc05180c83c5e19" />
+		<rom name="b0601_ph177.rom" offset="0x800000" size="0x400000" crc="f43e4276" sha1="b0ad317f70681e4300228f34bb8f4bead50111ea" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_ph177.rom" offset="0x180000" size="0x800000" crc="92b89388" sha1="a3ec0761858a77f3d74b7c56078190db239f5ca4" />
+		</dataarea>
+	</part>
+</software>

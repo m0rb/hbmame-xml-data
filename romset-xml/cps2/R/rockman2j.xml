@@ -1,0 +1,26 @@
+<software name="rockman2j" cloneof="megaman2">
+	<description>Rockman 2: The Power Fighters (Japan 960708)</description>
+	<year>1996</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c66j.p1" offset="0x0" size="0x80000" crc="dbaa1437" sha1="849572090bdbde7d9f191959f4b6ad26f46811f4" />
+		<rom loadflag="load16_word_swap" name="c66j.p2" offset="0x80000" size="0x80000" crc="cf5ba612" sha1="f0b56db8df7ad676e00325c97cf16791f409e35a" />
+		<rom loadflag="load16_word_swap" name="c66.p3" offset="0x100000" size="0x80000" crc="02ee9efc" sha1="1b80c40389b51a03b930051f232630616c12e6c5" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c66.m1" offset="0x0" size="0x8000" crc="d18e7859" sha1="0939fac70042d0b4db5c2fdcef1f79b95febd45e" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c66.m2" offset="0x28000" size="0x20000" crc="c463ece0" sha1="5c3e41eb61610b3f8c431206f6672907e3a0bdb0" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="rockman2j.key" offset="0x0" size="0x14" crc="c590187a" sha1="f9140da0849711938c4d8a98fb38bc1504582a43" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c66.q1" offset="0x0" size="0x200000" crc="2106174d" sha1="0a35d9ca8ebcad74904b20648d5320f839d6377e" />
+		<rom loadflag="load16_word_swap" name="c66.q2" offset="0x200000" size="0x200000" crc="546c1636" sha1="f96b172ab899f2c6ee17a5dd1fb61af9432e3cd2" />
+		</dataarea>
+	</part>
+</software>

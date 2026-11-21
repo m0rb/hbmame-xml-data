@@ -1,0 +1,49 @@
+<software name="exedexes01">
+	<description>Exed Exes (Recreation of loctest ver, 2026-09-21)</description>
+	<year>2026</year>
+	<publisher>Zeroco</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="11m_ee04.s01" offset="0x0" size="0x4000" crc="e1b7ee12" sha1="d5a227aacac06e718e1995fc3747d4ee5228b88f" />
+		<rom name="10m_ee03.s01" offset="0x4000" size="0x4000" crc="ceef62f6" sha1="4e1831348b30024a1dc74fbb146f76afe2da984b" />
+		<rom name="09m_ee02.s01" offset="0x8000" size="0x4000" crc="9a93c1c2" sha1="761952cad602d4cb76c23911da4f863564b5add1" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="11e_ee01.bin" offset="0x0" size="0x4000" crc="73cdf3b2" sha1="c9f2c91011bdeecec8fa76a42d95f3a5ec77cec9" />
+		</dataarea>
+		<dataarea name="sprites" size="0x8000">
+		<rom name="j11_ee10.bin" offset="0x0" size="0x4000" crc="bc83e265" sha1="ac9b4cce9e539c560414abf2fc239910f2bfbb2d" />
+		<rom name="j12_ee11.bin" offset="0x4000" size="0x4000" crc="0e0f300d" sha1="2f973748e459b16673115abf7de8615219e39fa4" />
+		</dataarea>
+		<dataarea name="16x16tiles" size="0x8000">
+		<rom name="a03_ee06.bin" offset="0x0" size="0x4000" crc="6039bdd1" sha1="01156e02ed59e6c1e55204729e515cd4419568fb" />
+		<rom name="a02_ee05.bin" offset="0x4000" size="0x4000" crc="b32d8252" sha1="738225146ba38f2a9216fda278838e7ebb29a0bb" />
+		</dataarea>
+		<dataarea name="32x32tiles" size="0x4000">
+		<rom name="h01_ee08.bin" offset="0x0" size="0x4000" crc="96a65c1d" sha1="3b49c64b32f01ec72cf2d943bfe3aa575d62a765" />
+		</dataarea>
+		<dataarea name="chars" size="0x2000">
+		<rom name="05c_ee00.bin" offset="0x0" size="0x2000" crc="cadb75bd" sha1="2086be5e295e5d870bcb35f116cc925f811b7583" />
+		</dataarea>
+		<dataarea name="irqprom" size="0x100">
+		<rom name="06l_e-06.bin" offset="0x0" size="0x100" crc="712ac508" sha1="5349d722ab6733afdda65f6e0a98322f0d515e86" />
+		</dataarea>
+		<dataarea name="proms" size="0xa20">
+		<rom name="02d_e-02.bin" offset="0x0" size="0x100" crc="8d0d5935" sha1="a0ab827ff3b641965ef851893c399e3988fde55e" />
+		<rom name="03d_e-03.bin" offset="0x100" size="0x100" crc="d3c17efc" sha1="af88340287bd732c91bc5c75970f9de0431b4304" />
+		<rom name="04d_e-04.bin" offset="0x200" size="0x100" crc="58ba964c" sha1="1f98f8e484a0462f1a9fadef9e57612a32652599" />
+		<rom name="06f_e-05.bin" offset="0x300" size="0x100" crc="35a03579" sha1="1f1b8c777622a1f5564409c5f3ce69cc68199dae" />
+		<rom name="l04_e-10.bin" offset="0x400" size="0x100" crc="1dfad87a" sha1="684844c24e630f46525df97ed67e2e63f7e66d0f" />
+		<rom name="c04_e-07.bin" offset="0x500" size="0x100" crc="850064e0" sha1="3884485e91bd82539d0d33f46b7abac60f4c3b1c" />
+		<rom name="l09_e-11.bin" offset="0x600" size="0x100" crc="2bb68710" sha1="cfb375316245cb8751e765f163e6acf071dda9ca" />
+		<rom name="l10_e-12.bin" offset="0x700" size="0x100" crc="173184ef" sha1="f91ecbdc67af1eed6757f660cac8a0e6866c1822" />
+		<rom name="k06_e-08.bin" offset="0x800" size="0x100" crc="0eaf5158" sha1="bafd4108708f66cd7b280e47152b108f3e254fc9" />
+		<rom name="l03_e-09.bin" offset="0x900" size="0x100" crc="0d968558" sha1="b376885ac8452b6cbf9ced81b1080bfd570d9b91" />
+		<rom name="03e_e-01.bin" offset="0xa00" size="0x20" crc="1acee376" sha1="367094d924f8e0ec36d8310fada4d8143358f697" />
+		</dataarea>
+		<dataarea name="tilerom" size="0x6000">
+		<rom name="c01_ee07.s01" offset="0x0" size="0x4000" crc="3b6f6490" sha1="6aa41231f4912a368235d56befcc7b92b3979ae2" />
+		<rom name="h04_ee09.bin" offset="0x4000" size="0x2000" crc="6057c907" sha1="886790641b84b8cd659d2eb5fd1adbabdd7dad3d" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,19 @@
+<software name="ramsnoop" cloneof="mspacman">
+	<description>Miss Snoop v1.3 [f]</description>
+	<year>2004</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="ramsnoop.1" offset="0x0" size="0x1000" crc="a08529fa" sha1="e448e3a2bed42fa9a2c6435849426e6a2ccf5290" />
+		<rom name="ramsnoop.2" offset="0x1000" size="0x1000" crc="27b70dd6" sha1="e52c724c7909c2b3b8ea44c2d3540be9d23c5e03" />
+		<rom name="ramsnoop.3" offset="0x2000" size="0x1000" crc="812691a0" sha1="8ff6d1c2697732c0466bcb37a7f36392980b4a99" />
+		<rom name="ramsnoop.4" offset="0x3000" size="0x1000" crc="9e7849e3" sha1="8c574e42bffc6b88d5b5df3c6655f792b2ff5c5c" />
+		<rom name="boot5" offset="0x8000" size="0x1000" crc="8c3e6de6" sha1="fed6e9a2b210b07e7189a18574f6b8c4ec5bb49b" />
+		<rom name="boot6" offset="0x9000" size="0x1000" crc="368cb165" sha1="387010a0c76319a1eab61b54c9bcb5c66c4b67a1" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="5e" offset="0x0" size="0x1000" crc="5c281d01" sha1="5e8b472b615f12efca3fe792410c23619f067845" />
+		<rom name="5f" offset="0x1000" size="0x1000" crc="615af909" sha1="fd6a1dde780b39aea76bf1c4befa5882573c2ef4" />
+		</dataarea>
+	</part>
+</software>

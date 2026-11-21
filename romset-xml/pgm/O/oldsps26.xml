@@ -1,0 +1,30 @@
+<software name="oldsps26" cloneof="oldsplus">
+	<description>Oriental Legend 2 (New Group Of Dances V215, 2020-06-10)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p05301_pw26.rom" offset="0x100000" size="0x400000" crc="17af4568" sha1="3af02d88e6e560a7ebdbc48e9af612286ac30772" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="igs_w05301b032.u5" offset="0x400000" size="0x400000" crc="86ec83bc" sha1="067cb7ec449eacd1f49298f45a364368934db5dd" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="igs_t05301w064.u2" offset="0x180000" size="0x800000" crc="8257bbb0" sha1="b48067b7e7081a15fddf21739b641d677c2df3d9" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a05301_pw19.rom" offset="0x0" size="0x800000" crc="3d3125ff" sha1="fef80d4ae377e391e2fb7a296fb4b49df42a6687" />
+		<rom name="a05302_pw19.rom" offset="0x800000" size="0x800000" crc="4ed9028c" sha1="9c4038097b225c331618dbf0dac3fb9d37a25e9f" />
+		<rom name="igs_a05303w064.u6" offset="0x1000000" size="0x800000" crc="13475d85" sha1="4683a3bf304fdc15ffb1c61b7957ad68b023fa33" />
+		<rom name="igs_a05304w064.u8" offset="0x1800000" size="0x800000" crc="f03ef7a6" sha1="c18b1b622b430d5e031e65daa6819b84c3e12ef5" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b05301_pw19.rom" offset="0x0" size="0x800000" crc="13702bbf" sha1="564bd59bf30531577321bbe0583609a5ceecfbad" />
+		<rom name="b05302_pw19.rom" offset="0x800000" size="0x800000" crc="b9f75120" sha1="b087cfd02cbaa22e3c4732b5fc50a385f2d5d4a7" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		</dataarea>
+		<dataarea name="user1" size="0x800000">
+		</dataarea>
+	</part>
+</software>

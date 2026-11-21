@@ -1,0 +1,19 @@
+<software name="timesupd">
+	<description>Time&#x27;s Up! (Demo)</description>
+	<year>2012</year>
+	<publisher>NGF Dev. Inc</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="430d.p1" offset="0x0" size="0x200000" crc="be86adb1" sha1="4b363bab51dfc43b2302956f79a0b1d5202339ac" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="430d.v1" offset="0x0" size="0x400000" crc="13b8f47b" sha1="4f0384101f9f6fce8c86a27a11a2b9d43a84a154" />
+		<rom name="430d.v2" offset="0x400000" size="0x400000" crc="6fdd663d" sha1="9667f11b4350285d0722c67052ff4e9a63a3409f" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="430d.c1" offset="0x0" size="0x200000" crc="c19a300a" sha1="3ab4ec4b10583257b92f5a989434db89f8130626" />
+		<rom loadflag="load16_byte" name="430d.c2" offset="0x1" size="0x200000" crc="fdb3f7ed" sha1="dd1d69515e58e9fba8cefb1c4cd808dfea0475d9" />
+		</dataarea>
+	</part>
+</software>

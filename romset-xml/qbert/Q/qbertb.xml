@@ -1,0 +1,25 @@
+<software name="qbertb">
+	<description>Q*bert</description>
+	<year>1982</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="qb-rom2.bin" offset="0xa000" size="0x2000" crc="fe434526" sha1="4cfc5d52dd6c82163e035af82d6112c0c93a3797" />
+		<rom name="qb-rom1.bin" offset="0xc000" size="0x2000" crc="55635447" sha1="ca6acdef1c9e06b33efe1f0a2df2dfb03723cfbe" />
+		<rom name="qbertb.rom0" offset="0xe000" size="0x2000" crc="415b4fc7" sha1="e55fb1912260435be253597fd337e04219b7a034" />
+		</dataarea>
+		<dataarea name="sprites" size="0x8000">
+		<rom name="qbertb.fg3" offset="0x1000" size="0x1000" crc="983e3e05" sha1="14f21543c3301b15d179b3864676e76ad5dfcaf8" />
+		<rom name="qbertb.fg2" offset="0x3000" size="0x1000" crc="b3e6c7bc" sha1="38e34e8712c5f677fa3fada68bc4c318e9bf7ca6" />
+		<rom name="qbertb.fg1" offset="0x5000" size="0x1000" crc="6733d069" sha1="3b4ac832f2475d51ae7586d3eb80e355afb64222" />
+		<rom name="qbertb.fg0" offset="0x7000" size="0x1000" crc="3081c200" sha1="137d95a2a58e2ed4da7145a539d1a1942c80674c" />
+		</dataarea>
+		<dataarea name="bgtiles" size="0x2000">
+		<rom name="qb-bg0.bin" offset="0x0" size="0x1000" crc="7a9ba824" sha1="12aa6df499eb6996ee35f56acac403ff6290f844" />
+		<rom name="qb-bg1.bin" offset="0x1000" size="0x1000" crc="22e5b891" sha1="5bb67e333255c0ea679ab4312256a8a71a950db8" />
+		</dataarea>
+		<dataarea name="r1sound:audiocpu" size="0x10000">
+		<rom name="qbertb.snd" offset="0x7000" size="0x1000" crc="ebcedba9" sha1="94aee8e32bdc80bbc5dc1423ca97597bdb9d808c" />
+		</dataarea>
+	</part>
+</software>
