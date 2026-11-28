@@ -1,0 +1,36 @@
+<software name="trkftest07b">
+	<description>Track and Field Test Rom (0.7 beta, 2015-07-24)</description>
+	<year>2015</year>
+	<publisher>Shoestring</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="test07b.a1" offset="0x6000" size="0x2000" crc="62fe95b2" sha1="005c5651e3b923527f8c03dc031f7450d8f36cea" />
+		<rom name="a02_e02.bin" offset="0x8000" size="0x2000" crc="1743b5ee" sha1="31301031a525f893c31461f634350f01a9492ef4" />
+		<rom name="a03_k03.bin" offset="0xa000" size="0x2000" crc="6c0d1ee9" sha1="380ab2162153a61910a6fe5b6d091ca9451ad4fd" />
+		<rom name="a04_e04.bin" offset="0xc000" size="0x2000" crc="21d6c448" sha1="6c42cc76302485954a31520bdd08469fa948c72f" />
+		<rom name="a05_e05.bin" offset="0xe000" size="0x2000" crc="f08c7b7e" sha1="50e65d9b0ea37d2afb2dfdf1f3e1378e3290bc81" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="c2_d13.bin" offset="0x0" size="0x2000" crc="95bf79b6" sha1="ea9135acd7ad162c19c5cdde356e69792d61b675" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="c11_d06.bin" offset="0x0" size="0x2000" crc="82e2185a" sha1="1da9ea20e7af0b49c62fb39834a7ec686491af04" />
+		<rom name="c12_d07.bin" offset="0x2000" size="0x2000" crc="800ff1f1" sha1="33d73b18903e3e6bfb30f1a06db4b8105d4040d8" />
+		<rom name="c13_d08.bin" offset="0x4000" size="0x2000" crc="d9faf183" sha1="4448b6242790783d37acf50704d597af5878c2ab" />
+		<rom name="c14_d09.bin" offset="0x6000" size="0x2000" crc="5886c802" sha1="884a12a8f63600da4f23b29be6dbaacef37add20" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x6000">
+		<rom name="h16_e12.bin" offset="0x0" size="0x2000" crc="50075768" sha1="dfff92c0f59dd3d8d3d6256944bfd48792cef6a9" />
+		<rom name="h15_e11.bin" offset="0x2000" size="0x2000" crc="dda9e29f" sha1="0f41cde82bb60c3f1591ee14dc3cff4642bbddc1" />
+		<rom name="h14_e10.bin" offset="0x4000" size="0x2000" crc="c2166a5c" sha1="5ba25900e653ce4edcf35f1fbce758a327a715ce" />
+		</dataarea>
+		<dataarea name="proms" size="0x220">
+		<rom name="361b16.f1" offset="0x0" size="0x20" crc="d55f30b5" sha1="4d6a851f4886778307f75771645078b97ad55f5f" />
+		<rom name="361b17.b16" offset="0x20" size="0x100" crc="d2ba4d32" sha1="894b5cedf01ba9225a0d6215291857e455b84903" />
+		<rom name="361b18.e15" offset="0x120" size="0x100" crc="053e5861" sha1="6740a62cf7b6938a4f936a2fed429704612060a5" />
+		</dataarea>
+		<dataarea name="vlm" size="0x2000">
+		<rom name="c9_d15.bin" offset="0x0" size="0x2000" crc="f546a56b" sha1="caee3d8546eb7a75ce2a578c6a1a630246aec6b8" />
+		</dataarea>
+	</part>
+</software>

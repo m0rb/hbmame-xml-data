@@ -1,0 +1,25 @@
+<software name="rockmanj" cloneof="megaman">
+	<description>Rockman: The Power Battle (CPS1, Japan 950922)</description>
+	<year>1995</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c35j.p1" offset="0x0" size="0x80000" crc="efd96cb2" sha1="cbe81554f60d0c897f3f2ebc5bc966bb03cc23fe" />
+		<rom loadflag="load16_word_swap" name="c35j.p2" offset="0x80000" size="0x80000" crc="8729a689" sha1="14ddb34d8201c544ea9d3d8c2cc52d380bc72930" />
+		<rom loadflag="load16_word_swap" name="c35j.p3" offset="0x100000" size="0x80000" crc="517ccde2" sha1="492256c192f0c4814efa1ee1dd390453dd2e5865" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x28000">
+		<rom name="c35a.m1" offset="0x0" size="0x8000" crc="9632d6ef" sha1="2bcb6f17005ffbc9ef8fa4478a814f24b2e6e0b6" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="megaman.key" offset="0x0" size="0x80" crc="9c89eb62" sha1="e67a3ed58f82875cff4861c14bd701b54dcc111f" />
+		</dataarea>
+		<dataarea name="gfx" size="0x800000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c35.v1" offset="0x0" size="0x20000" crc="80f1f8aa" sha1="4a5b7b2a6941ad68da7472c63362c7bcd353fa54" />
+		<rom name="c35.v2" offset="0x20000" size="0x20000" crc="f257dbe1" sha1="967def6b6f93039dbc46373caabeb3301577be75" />
+		</dataarea>
+	</part>
+</software>

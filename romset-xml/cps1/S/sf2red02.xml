@@ -1,0 +1,25 @@
+<software name="sf2red02" cloneof="sf2ce">
+	<description>Street Fighter II&#x27;: Champion Edition (Hardest Level)</description>
+	<year>2018</year>
+	<publisher>MamePlus</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c19reds02.p1" offset="0x0" size="0x80000" crc="771492cc" sha1="390fd74e147d2d352402b983bd3e68b3890eac50" />
+		<rom loadflag="load16_word_swap" name="c19reds02.p2" offset="0x80000" size="0x80000" crc="ca94a203" sha1="25d716bc4d043d5cef082d80ae1f7586016e5191" />
+		<rom loadflag="load16_word_swap" name="c19reds02.p3" offset="0x100000" size="0x80000" crc="551a61f4" sha1="35359024750ac6395a7c6d804d074618b3c4bad6" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c19.m1" offset="0x0" size="0x8000" crc="08f6b60e" sha1="8258fcaca4ac419312531eec67079b97f471179c" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2ce.key" offset="0x0" size="0x80" crc="35b37429" sha1="b372cce106c0900554735c207fb333ac93554ec2" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c14.v1" offset="0x0" size="0x20000" crc="7f162009" sha1="346bf42992b4c36c593e21901e22c87ae4a7d86d" />
+		<rom name="c14.v2" offset="0x20000" size="0x20000" crc="beade53f" sha1="277c397dc12752719ec6b47d2224750bd1c07f79" />
+		</dataarea>
+	</part>
+</software>

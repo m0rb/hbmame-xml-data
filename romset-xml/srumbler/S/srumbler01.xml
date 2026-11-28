@@ -1,0 +1,48 @@
+<software name="srumbler01">
+	<description>Speed Rumbler (Perma-Fire Power, v1.0, 2026-01-08)</description>
+	<year>2026</year>
+	<publisher>BillyTimes Games</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x40000">
+		<rom name="s01.rc04.14e" offset="0x0" size="0x8000" crc="ae14832e" sha1="2781073d0019f2850cce5824917bb6a89eec0c5a" />
+		<rom name="rc03.13e" offset="0x8000" size="0x8000" crc="87bda812" sha1="f46dcce21d78c8525a2578b73e05b7cd8a2d8745" />
+		<rom name="rc02.12e" offset="0x10000" size="0x8000" crc="d8609cca" sha1="893f1f1ac0aef5d31e75228252c14c4b522bff16" />
+		<rom name="rc01.11e" offset="0x18000" size="0x8000" crc="27ec4776" sha1="09a53fd6472888664c21f49ab78b2c5d77d2caa1" />
+		<rom name="rc09.14f" offset="0x20000" size="0x8000" crc="2146101d" sha1="cacd7a13d67f43a0fc624d1c5e29d9816bd6b1c7" />
+		<rom name="rc08.13f" offset="0x28000" size="0x8000" crc="838369a6" sha1="6fdcbe2db488d4d99453b5537cf05ed18112368e" />
+		<rom name="rc07.12f" offset="0x30000" size="0x8000" crc="de785076" sha1="bdb104c6c875f5362c0d1ba9a8c5dd450c9c014b" />
+		<rom name="rc06.11f" offset="0x38000" size="0x8000" crc="a70f4fd4" sha1="21be3865b9f7fa265f265a565bab896357d7464f" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="rc05.2f" offset="0x0" size="0x8000" crc="0177cebe" sha1="0fa94d2057f509a6fe1de210bf513efc82f1ffe7" />
+		</dataarea>
+		<dataarea name="sprites" size="0x40000">
+		<rom name="rc20.15e" offset="0x0" size="0x8000" crc="3924c861" sha1="e31e0ea50823a910f87eefc969de53f1ad738629" />
+		<rom name="rc19.14e" offset="0x8000" size="0x8000" crc="ff8f9129" sha1="8402236e297c3b03984a22b727198cc54e0c8117" />
+		<rom name="rc22.15f" offset="0x10000" size="0x8000" crc="ab64161c" sha1="4d8b01ba4c85a732df38db7663bd765a49c671de" />
+		<rom name="rc21.14f" offset="0x18000" size="0x8000" crc="fd64bcd1" sha1="4bb6c0e0027387284de1dc1320887de3231252e9" />
+		<rom name="rc24.15h" offset="0x20000" size="0x8000" crc="c972af3e" sha1="3aaf5fdd07f675bd29a068035f252c0136e7881e" />
+		<rom name="rc23.14h" offset="0x28000" size="0x8000" crc="8c9abf57" sha1="044d5c9904e89b67bd92396a7215b73d96d3965a" />
+		<rom name="rc26.15j" offset="0x30000" size="0x8000" crc="d4f1732f" sha1="d16b6456c73395964c9868078e378e0d5cc48ae7" />
+		<rom name="rc25.14j" offset="0x38000" size="0x8000" crc="d2a4ea4f" sha1="365e534bf56e08b1e727ea7bfdfb537fa274448b" />
+		</dataarea>
+		<dataarea name="chars" size="0x4000">
+		<rom name="rc10.6g" offset="0x0" size="0x4000" crc="adabe271" sha1="256d6823dcda404375825103272213e1442c3320" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="63s141.12a" offset="0x0" size="0x100" crc="8421786f" sha1="7ffe9f3cd081842d9ee38bd67421cb8836e3f7ed" />
+		<rom name="63s141.13a" offset="0x100" size="0x100" crc="6048583f" sha1="a0b0f560e7f52978a1bf59417da13cc852617eff" />
+		<rom name="63s141.8j" offset="0x200" size="0x100" crc="1a89a7ff" sha1="437160ad5d61a257b7deaf5f5e8b3d4cf56a9663" />
+		</dataarea>
+		<dataarea name="tiles" size="0x40000">
+		<rom name="rc11.11a" offset="0x0" size="0x8000" crc="5fa042ba" sha1="9e03eaf22286330826501619a7b74181dc42a5fa" />
+		<rom name="rc12.13a" offset="0x8000" size="0x8000" crc="a2db64af" sha1="35ab93397ee8172813e69edd085b36a5b98ba082" />
+		<rom name="rc13.14a" offset="0x10000" size="0x8000" crc="f1df5499" sha1="b1c47b35c00bc05825353474ad2b33d9669b879e" />
+		<rom name="rc14.15a" offset="0x18000" size="0x8000" crc="b22b31b3" sha1="7aa1a042bccf6a1117c983bb36e88ace7712e867" />
+		<rom name="rc15.11c" offset="0x20000" size="0x8000" crc="ca3a3af3" sha1="bcb43fc66be852acb2f93513d6b7b089b1bdd9fc" />
+		<rom name="rc16.13c" offset="0x28000" size="0x8000" crc="c49a4a11" sha1="4e1432e6d6a7ffc73e695c1db245ea54beee0507" />
+		<rom name="rc17.14c" offset="0x30000" size="0x8000" crc="aa80aaab" sha1="37a8e57e4d8ed8372bc1d7c94cf5a087a01d79ad" />
+		<rom name="rc18.15c" offset="0x38000" size="0x8000" crc="ce67868e" sha1="867d6bc65119fdb7a9788f7d92e6be0326756776" />
+		</dataarea>
+	</part>
+</software>

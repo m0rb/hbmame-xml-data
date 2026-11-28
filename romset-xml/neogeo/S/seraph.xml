@@ -1,0 +1,22 @@
+<software name="seraph">
+	<description>Seraph Zero</description>
+	<year>2026</year>
+	<publisher>Nasprich</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x500000">
+		<rom loadflag="load16_word_swap" name="526.p1" offset="0x0" size="0x100000" crc="cb398334" sha1="a4172b7d7e9cbc4af4cf1692fb9dc3cfc454dcb9" />
+		<rom loadflag="load16_word_swap" name="526.p2" offset="0x100000" size="0x400000" crc="6591304a" sha1="79226e7fb06b115c09b54ed4ec4e51d088762560" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="526.v1" offset="0x0" size="0x1000000" crc="59800649" sha1="8f99620e3b1a8b28f43de1693e80c06ad823181c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x1000000">
+		<rom name="526.v21" offset="0x0" size="0x1000000" crc="6e5ff882" sha1="ad62bed4a06a8c7d6cd5f2d44fe08a8a3630e4b5" />
+		</dataarea>
+		<dataarea name="sprites" size="0x4000000">
+		<rom loadflag="load16_byte" name="526.c1" offset="0x0" size="0x2000000" crc="262080d7" sha1="d7e6ed449f9a74b17d2657dd565c8836790646b1" />
+		<rom loadflag="load16_byte" name="526.c2" offset="0x1" size="0x2000000" crc="1c14fd52" sha1="e071e0db73a0278b0b4241afe8f6c2c130f46f24" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,34 @@
+<software name="martmast01" cloneof="martmast">
+	<description>Martial Masters (Enable Hidden Characters)</description>
+	<year>2001</year>
+	<publisher>0 Days</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="v104_32m_ps01.u9" offset="0x100000" size="0x400000" crc="c8b39568" sha1="f377a3ba3461f2b84f3acf8febf98707a7f2a62b" />
+		</dataarea>
+		<dataarea name="ics" size="0x1000000">
+		<rom name="pgm_m1000.u5" offset="0x400000" size="0x800000" crc="ed407ae8" sha1="a6e9c09b39c13e8fb7fbc89fa9f823cbeb66e901" />
+		<rom name="pgm_m1001.u7" offset="0xc00000" size="0x400000" crc="662d2d48" sha1="2fcc3099d9c04456cae3b13035fb28eaf709e7d8" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="pgm_t1000.u3" offset="0x180000" size="0x800000" crc="bbf879b5" sha1="bd9a6aea34ad4001e89e62ff4b7a2292eb833c00" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x4000000">
+		<rom name="pgm_a1000.u3" offset="0x0" size="0x800000" crc="43577ac8" sha1="6eea8b455985d5bac74dcc9943cdc3c0902de6cc" />
+		<rom name="pgm_a1001.u4" offset="0x800000" size="0x800000" crc="fe7a476f" sha1="a8c7f1f0dd3e53141aed6d927eb88a3ceebb81e4" />
+		<rom name="pgm_a1002.u6" offset="0x1000000" size="0x800000" crc="62e33d38" sha1="96163d583e25073594f8413ce263e56b66bd69a1" />
+		<rom name="pgm_a1003.u8" offset="0x1800000" size="0x800000" crc="b2c4945a" sha1="7b18287a2db56db3651cfd4deb607af53522fefd" />
+		<rom name="pgm_a1004.u10" offset="0x2000000" size="0x400000" crc="9fd3f5fd" sha1="057531f91062be51589c6cf8f4170089b9be6380" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b1000.u9" offset="0x0" size="0x800000" crc="c5961f6f" sha1="a68060b10edbd084cbde79d2ed1c9084777beb10" />
+		<rom name="pgm_b1001.u11" offset="0x800000" size="0x800000" crc="0b7e1c06" sha1="545e15e0087f8621d593fecd8b4013f7ca311686" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="martial_masters_v101_cn.asic" offset="0x0" size="0x4000" crc="b3e25b7d" sha1="6147d7ee2e11636521df1bb96ed5da8ad21b2a57" />
+		</dataarea>
+		<dataarea name="user1" endianness="little" size="0x400000">
+		<rom name="v102_16m.u10" offset="0x0" size="0x200000" crc="18b745e6" sha1="7bcb58dd3a2d6072f492cf0dd7181cb061c1f49d" />
+		</dataarea>
+	</part>
+</software>

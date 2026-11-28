@@ -1,0 +1,18 @@
+<software name="ngtetris">
+	<description>NeoGeo 2-Player Tetris</description>
+	<year>2008</year>
+	<publisher>Crim/Stephen</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="418.p1" offset="0x0" size="0x80000" crc="3465569a" sha1="51506d549fa048581321fc39403c0a3bf8f77467" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="418.v1" offset="0x0" size="0x80000" crc="2be8e290" sha1="198cff1b1d70f7d05344d6ab38a4354f993dc4b8" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="418.c1" offset="0x0" size="0x80000" crc="acc6d1d4" sha1="1f6ad8578d8edaa22a35ad58dc76de8543a96db9" />
+		<rom loadflag="load16_byte" name="418.c2" offset="0x1" size="0x80000" crc="7ec06ab5" sha1="3a8503be7f14d451f5ae964888b385334c12e8c6" />
+		</dataarea>
+	</part>
+</software>

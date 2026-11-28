@@ -1,0 +1,31 @@
+<software name="vsavj" cloneof="vsav">
+	<description>Vampire Savior: The Lord of Vampire (Japan 970519)</description>
+	<year>1997</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c71j.p1" offset="0x0" size="0x80000" crc="2a2e74a4" sha1="e9e7bce3c2ad0c9eebcbcd5139979d1fa19187ad" />
+		<rom loadflag="load16_word_swap" name="c71j.p2" offset="0x80000" size="0x80000" crc="1c2427bc" sha1="9047ac0ccd875d91a8ceafdf1ccf9d21c4c71644" />
+		<rom loadflag="load16_word_swap" name="c71j.p3" offset="0x100000" size="0x80000" crc="95ce88d5" sha1="ba5e64c2551d97a71d2f4d7a78663aede4b722e8" />
+		<rom loadflag="load16_word_swap" name="c71j.p4" offset="0x180000" size="0x80000" crc="2c4297e0" sha1="3a7103456ba3937f63c28dd42020cac1955b5741" />
+		<rom loadflag="load16_word_swap" name="c71j.p5" offset="0x200000" size="0x80000" crc="a38aaae7" sha1="0a5719eb2b0bbde955f605b1057ed6a8eb54ad80" />
+		<rom loadflag="load16_word_swap" name="c71j.p6" offset="0x280000" size="0x80000" crc="5773e5c9" sha1="551afc5d921f9ef1fe928ca83d072b6a6105ab0e" />
+		<rom loadflag="load16_word_swap" name="c71j.p7" offset="0x300000" size="0x80000" crc="d064f8b9" sha1="09f77f7b466c147a5d894a4ec3b40bd068dfab26" />
+		<rom loadflag="load16_word_swap" name="c71j.p8" offset="0x380000" size="0x80000" crc="434518e9" sha1="ce1c8557a9e6c5451ab41a96f01b0cd4ba02ea3e" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c71.m1" offset="0x0" size="0x8000" crc="f778769b" sha1="788ce1ad8a322179f634df9e62a31ad776b96762" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c71.m2" offset="0x28000" size="0x20000" crc="cc09faa1" sha1="2962ef0ceaf7e7279de3c421ea998763330eb43e" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="vsavj.key" offset="0x0" size="0x14" crc="36d28ab8" sha1="7de11dbe4a7ea0e8b68ab332f80e32cb6c1bf48e" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c71.q1" offset="0x0" size="0x400000" crc="e80e956e" sha1="74181fca4b764fb3c56ceef2cb4c6fd6c18ec4b6" />
+		<rom loadflag="load16_word_swap" name="c71.q2" offset="0x400000" size="0x400000" crc="9cd71557" sha1="7059db25698a0b286314c5961c618f6d2e6f24a1" />
+		</dataarea>
+	</part>
+</software>

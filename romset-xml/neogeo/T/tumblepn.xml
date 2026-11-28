@@ -1,0 +1,18 @@
+<software name="tumblepn">
+	<description>Tumble Pop (Neo-Geo port, v1.0.0)</description>
+	<year>2026</year>
+	<publisher>Bendk97</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="563.p1" offset="0x0" size="0x100000" crc="26b84055" sha1="b461a90593772c4dc504eb7b134ce89d14571ea8" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="563.v1" offset="0x0" size="0x800000" crc="bdafbf4a" sha1="b49b35be8a1a7bdcacb9caad8cb9c721a4fe7e33" />
+		</dataarea>
+		<dataarea name="sprites" size="0x200000">
+		<rom loadflag="load16_byte" name="563.c1" offset="0x0" size="0x100000" crc="70454032" sha1="1fd13580cd11801d6d67d46229b75bc8a6466816" />
+		<rom loadflag="load16_byte" name="563.c2" offset="0x1" size="0x100000" crc="266f2c0a" sha1="ed6ac4a746c4f4222567d21ca533e422e45a1f9c" />
+		</dataarea>
+	</part>
+</software>

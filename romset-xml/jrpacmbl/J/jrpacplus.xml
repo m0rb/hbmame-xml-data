@@ -1,0 +1,28 @@
+<software name="jrpacplus" cloneof="jrpacman">
+	<description>Jr. Pac-Plus (Pengo hardware)</description>
+	<year>2021</year>
+	<publisher>Mr McScrewup</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="jrpacplus-05.ic8" offset="0x0" size="0x1000" crc="ea80c498" sha1="f4a54d51fffa904443ab8e13f99328ed1b90ce4d" />
+		<rom name="jrpacplus-01.ic7" offset="0x1000" size="0x1000" crc="807299d4" sha1="e6be61b0164c3d2d3f24138ca38e028aae1816e6" />
+		<rom name="jrpacplus-06.ic6" offset="0x2000" size="0x1000" crc="ac730069" sha1="5e8842ce128bac43c8df80d20afc4b13fe932f28" />
+		<rom name="jrpacplus-02.ic5" offset="0x3000" size="0x1000" crc="c3ec10a8" sha1="c7eaea9d41b107581dbd62f400ffda1288a67a5d" />
+		<rom name="jrpacplus-07.ic4" offset="0x4000" size="0x1000" crc="659b9956" sha1="5576d4d95ced804e8abdd870662574bfdd6df18f" />
+		<rom name="jrpacplus-03.ic3" offset="0x5000" size="0x1000" crc="96f63003" sha1="3884439c695d4bbe02389afb9a948eee9b19b35f" />
+		<rom name="jrpacplus-08.ic2" offset="0x6000" size="0x1000" crc="08d91441" sha1="d0f2666e628a597e614dd46519f6e2f1d7f97e8e" />
+		<rom name="jrpacplus-04.ic1" offset="0x7000" size="0x1000" crc="7c361b65" sha1="9377c683b036ccb15791ac5f01f7e310821e28d8" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x4000">
+		<rom name="jrpacplus-09.ic92" offset="0x0" size="0x2000" crc="f25d7aa2" sha1="6b09cd9e7021e491b7871453ed370e580b50fb1a" />
+		<rom name="jrpacplus-10.ic105" offset="0x2000" size="0x2000" crc="5444032b" sha1="07e140b3bb980c89155ad0a1e49399c75aa3898f" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="a290-27axv-dxhd.7p" offset="0x0" size="0x100" crc="a9cc86bf" sha1="bbcec0570aeceb582ff8238a4bc8546a23430081" />
+		<rom name="a290-27axv-exhd.5s" offset="0x100" size="0x100" crc="77245b66" sha1="0c4d0bee858b97632411c440bea6948a74759746" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="jrpacplus.9p" offset="0x20" size="0x100" crc="deae51b1" sha1="742210c473c4cb4489423ee60ab83f7a0110406d" />
+		</dataarea>
+	</part>
+</software>

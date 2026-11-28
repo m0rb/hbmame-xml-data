@@ -1,0 +1,32 @@
+<software name="dkongdu0" cloneof="dkong">
+	<description>Donkey Kong Duel v1.00 (2021-11-04)</description>
+	<year>2021</year>
+	<publisher>Paul Goes</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="dkongdu0.5at" offset="0x3000" size="0x1000" crc="5e7fff6a" sha1="6538160a1ed8c583dc5e0525ed85da7e144dc887" />
+		<rom name="dkongchm.5bt" offset="0x2000" size="0x1000" crc="fce41e06" sha1="fdab4f37f914d56a28092592f9cbb3d2502c925e" />
+		<rom name="dkongdu0.5ct" offset="0x1000" size="0x1000" crc="fc9cdaa0" sha1="964ac1d908c5abfaa4aa459f52f4ead133d41346" />
+		<rom name="dkongdu0.5et" offset="0x0" size="0x1000" crc="87a4912f" sha1="bca9f1c489c193f4cd15a108dd4dd2d99aa89c35" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="dkongdu0.5h" offset="0x0" size="0x800" crc="3cf6ef8b" sha1="d4f1ac5dfa93b7073d9b441f05b24077c0d22924" />
+		<rom name="dkongdu0.3pt" offset="0x800" size="0x800" crc="3775dd7b" sha1="0e73e1e64673140e8e5fd318cc679c64812608a7" />
+		</dataarea>
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="l_4m_b.bin" offset="0x0" size="0x800" crc="59f8054d" sha1="793dba9bf5a5fe76328acdfb90815c243d2a65f1" />
+		<rom name="l_4n_b.bin" offset="0x800" size="0x800" crc="672e4714" sha1="92e5d379f4838ac1fa44d448ce7d142dae42102f" />
+		<rom name="l_4r_b.bin" offset="0x1000" size="0x800" crc="feaa59ee" sha1="ecf95db5a20098804fc8bd59232c66e2e0ed3db4" />
+		<rom name="l_4s_b.bin" offset="0x1800" size="0x800" crc="20f2ef7e" sha1="3bc482a38bf579033f50082748ee95205b0f673d" />
+		</dataarea>
+		<dataarea name="proms" size="0x300">
+		<rom name="dkongdu0.2k" offset="0x0" size="0x100" crc="02e1f91b" sha1="fadb853a060db98ea13d67059fda91e7095b0050" />
+		<rom name="dkongdu0.2j" offset="0x100" size="0x100" crc="4176057f" sha1="ccb7d553f6aa82bff4d30da9b97d107684f329ca" />
+		<rom name="dkongdu0.5e" offset="0x200" size="0x100" crc="94695888" sha1="fc0167730b303c9743d24dba577b6a72ffc07c15" />
+		</dataarea>
+		<dataarea name="soundcpu" size="0x1800">
+		<rom name="dkongdu0.3i" offset="0x0" size="0x800" crc="cc9aea3b" sha1="e5b985efc1447ad04cfe347a7b761c9e5ff8ea5c" />
+		<rom name="s_3j_b.bin" offset="0x1000" size="0x800" crc="4743fe92" sha1="6c82b57637c0212a580591397e6a5a1718f19fd2" />
+		</dataarea>
+	</part>
+</software>

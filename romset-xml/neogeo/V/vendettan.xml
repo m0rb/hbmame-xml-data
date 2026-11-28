@@ -1,0 +1,19 @@
+<software name="vendettan">
+	<description>Vendetta (Neo-Geo port, v1.0)</description>
+	<year>2026</year>
+	<publisher>Arcade Perfect Ports</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="564.p1" offset="0x0" size="0x100000" crc="c8f4b9e0" sha1="cd4d6b8ad60a3e3ad7cb2dd45126b62e77c3c2fa" />
+		<rom loadflag="load16_word_swap" name="564.p2" offset="0x100000" size="0x100000" crc="370e1adc" sha1="d0bb89f8ad164173695f8d8b5d8c1a9803bebdae" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="564.v1" offset="0x0" size="0x1000000" crc="b8a17abf" sha1="8c58d0fb1aa6f1e532bacab6ecf43dd945781e23" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="564.c1" offset="0x0" size="0x800000" crc="6b2e4704" sha1="32f65c7a47ba6993b9a3f5aa7e90ae5ab0a27522" />
+		<rom loadflag="load16_byte" name="564.c2" offset="0x1" size="0x800000" crc="d61ddac5" sha1="743e8dc7e5fb1c0de65c552022a2385ad2d47e43" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,21 @@
+<software name="mjreach1s01">
+	<description>Mahjong Reach Ippatsu (No AI Cheat, 2005-10-02)</description>
+	<year>2005</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom name="s01.5b" offset="0x0" size="0x80000" crc="f264cd14" sha1="7c58eb04e021cee8b37b083e4b88faf9764fe8d2" />
+		</dataarea>
+		<dataarea name="blitter" size="0x500000">
+		<rom loadflag="load16_byte" name="52604.8b" offset="0x0" size="0x100000" crc="6ce01bb4" sha1="800043d8203ab5560ed0b24e0a4e01c14b6a3ac0" />
+		<rom loadflag="load16_byte" name="52603.8c" offset="0x1" size="0x100000" crc="16d2c169" sha1="3e50b1109c86d0e8f931ce5a3abf20d807ebabba" />
+		<rom loadflag="load16_byte" name="52606.10b" offset="0x200000" size="0x100000" crc="07fe5dae" sha1="221ec21c2d84497af5b769d7409f8775be933783" />
+		<rom loadflag="load16_byte" name="52605.10c" offset="0x200001" size="0x100000" crc="b5d57163" sha1="d6480904bd72d298d48fbcb251b902b0b994cab1" />
+		<rom loadflag="load16_byte" name="52608.12b" offset="0x400000" size="0x80000" crc="2f93dde4" sha1="8efaa920e485f50ef7f4396cc8c47dfbfc97bd01" />
+		<rom loadflag="load16_byte" name="52607.12c" offset="0x400001" size="0x80000" crc="5e685c4d" sha1="57c99fb791429d0edb7416cffb4d1d1eb34a2813" />
+		</dataarea>
+		<dataarea name="oki" size="0x80000">
+		<rom name="52601.1c" offset="0x0" size="0x80000" crc="52666107" sha1="1e1c17b1da7ded5fc52422c7e569ef02af1ee11d" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="cps2plus" description="Cps2Plus cartridges">
+<software name="sfa3up" cloneof="sfa3">
+	<description>Street Fighter Alpha 3 Upper (060613U, Backport, 2026-11-18)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x800000">
+		<rom loadflag="load16_word_swap" name="sz3upu.03c" offset="0x0" size="0x80000" crc="89c29894" sha1="082e1bbb68c54770d9b1ff3c09c439ca53eb05d7" />
+		<rom loadflag="load16_word_swap" name="sz3upu.04c" offset="0x80000" size="0x80000" crc="ed71f59c" sha1="c0200e44ec14cfb8d4bf645a49f882a1d8597f3e" />
+		<rom loadflag="load16_word_swap" name="sz3up.05c" offset="0x100000" size="0x80000" crc="e88579d0" sha1="4fe08059aabf8f6526eb3090cc63caddf70181e0" />
+		<rom loadflag="load16_word_swap" name="sz3up.06c" offset="0x180000" size="0x80000" crc="5d665555" sha1="6ac1d1ce37c27c24e7d381928ed4cac871d27695" />
+		<rom loadflag="load16_word_swap" name="sz3up.07c" offset="0x200000" size="0x80000" crc="1c11e502" sha1="cb453a18f47c7bddba4d70b4982de388be5ce592" />
+		<rom loadflag="load16_word_swap" name="sz3upu.08c" offset="0x280000" size="0x80000" crc="fcdd63d4" sha1="4696a2c5bf848319d24234899cdbfb532dff1645" />
+		<rom loadflag="load16_word_swap" name="sz3upu.09c" offset="0x300000" size="0x80000" crc="a24a635c" sha1="5618f048c6eb29d5edff36ccb06ab42a8ae90abb" />
+		<rom loadflag="load16_word_swap" name="sz3upu.10b" offset="0x380000" size="0x80000" crc="d84061aa" sha1="19f8fb4706e683fbc163622c945a77ca49cd9106" />
+		<rom loadflag="load16_word_swap" name="sz3upu.prg" offset="0x400000" size="0x400000" crc="4d8a117d" sha1="12180332ac7530193b894c55429bf000b8d89cd0" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x88000">
+		<rom name="sz3up.01" offset="0x0" size="0x8000" crc="0fa3c428" sha1="b5caaef2b2f699a17442e2c9409335b99cb2ff46" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="sz3up.02" offset="0x28000" size="0x20000" crc="92270c80" sha1="68c32a205d6bcedb266d834cb65286bec3633f96" />
+		<rom name="sz3up.z80" offset="0x48000" size="0x40000" crc="56e83605" sha1="9d31ffe035ad86b7bdea90529162cf88b0402fe1" />
+		</dataarea>
+		<dataarea name="gfx" size="0x4000000">
+		<rom name="sz3upu.gfx" offset="0x2000000" size="0x2000000" crc="043efdec" sha1="423af79ddba000e54898d4aaa53dac91111d9969" />
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="sfz3j.key" offset="0x0" size="0x14" crc="d30cca8d" sha1="b05869902d4d5968d5f79ed6165eb4b78e1ddcdd" />
+		</dataarea>
+		<dataarea name="qsound" size="0x2000000">
+		<rom loadflag="load16_word_swap" name="sz3.11m" offset="0x0" size="0x400000" crc="1c89eed1" sha1="649a0b0a3eb72e2e69e9fb1ac51a58b70daa39f3" />
+		<rom loadflag="load16_word_swap" name="sz3.12m" offset="0x400000" size="0x400000" crc="f392b13a" sha1="fa04ce0370144a49bd1d5acd873eef87b0dc9d15" />
+		<rom name="sz3up.snd" offset="0x800000" size="0x1800000" crc="d5181cc2" sha1="001c8e4be8972c8c30ac17cb47bfbb010e05ed2c" />
+		</dataarea>
+	</part>
+</software>
+<software name="sfz3up" cloneof="sfa3">
+	<description>Street Fighter Zero 3 Upper (060525J, Backport, 2026-11-18)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x800000">
+		<rom loadflag="load16_word_swap" name="sz3upj.03c" offset="0x0" size="0x80000" crc="4c118703" sha1="f9e0cdc8cc8bb7e8b533c466c5dd9aa2628de774" />
+		<rom loadflag="load16_word_swap" name="sz3upj.04c" offset="0x80000" size="0x80000" crc="9dc27607" sha1="ed5f62bf0f05e9286f28ffc90110f27b354f8154" />
+		<rom loadflag="load16_word_swap" name="sz3up.05c" offset="0x100000" size="0x80000" crc="e88579d0" sha1="4fe08059aabf8f6526eb3090cc63caddf70181e0" />
+		<rom loadflag="load16_word_swap" name="sz3up.06c" offset="0x180000" size="0x80000" crc="5d665555" sha1="6ac1d1ce37c27c24e7d381928ed4cac871d27695" />
+		<rom loadflag="load16_word_swap" name="sz3up.07c" offset="0x200000" size="0x80000" crc="1c11e502" sha1="cb453a18f47c7bddba4d70b4982de388be5ce592" />
+		<rom loadflag="load16_word_swap" name="sz3upj.08c" offset="0x280000" size="0x80000" crc="afac9595" sha1="7b816b949f68befd5ca25f24fa3aca869367a107" />
+		<rom loadflag="load16_word_swap" name="sz3upj.09c" offset="0x300000" size="0x80000" crc="087e31c9" sha1="761f4dc25dc5b73f86bd295b120f881e35b65030" />
+		<rom loadflag="load16_word_swap" name="sz3upj.10b" offset="0x380000" size="0x80000" crc="e31a9996" sha1="a6fada9be1d26fb46f145d7df4fc6b0b86ec8822" />
+		<rom loadflag="load16_word_swap" name="sz3upj.prg" offset="0x400000" size="0x400000" crc="799d0d12" sha1="0672a0dfdd9b76b63c9c6e2c1595d3efda20bf20" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x88000">
+		<rom name="sz3up.01" offset="0x0" size="0x8000" crc="0fa3c428" sha1="b5caaef2b2f699a17442e2c9409335b99cb2ff46" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="sz3up.02" offset="0x28000" size="0x20000" crc="92270c80" sha1="68c32a205d6bcedb266d834cb65286bec3633f96" />
+		<rom name="sz3up.z80" offset="0x48000" size="0x40000" crc="56e83605" sha1="9d31ffe035ad86b7bdea90529162cf88b0402fe1" />
+		</dataarea>
+		<dataarea name="gfx" size="0x4000000">
+		<rom name="sz3upj.gfx" offset="0x2000000" size="0x2000000" crc="a9f62ece" sha1="35feabed953d43f332c62ee0223317efff1f6f23" />
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="sfz3j.key" offset="0x0" size="0x14" crc="d30cca8d" sha1="b05869902d4d5968d5f79ed6165eb4b78e1ddcdd" />
+		</dataarea>
+		<dataarea name="qsound" size="0x2000000">
+		<rom loadflag="load16_word_swap" name="sz3.11m" offset="0x0" size="0x400000" crc="1c89eed1" sha1="649a0b0a3eb72e2e69e9fb1ac51a58b70daa39f3" />
+		<rom loadflag="load16_word_swap" name="sz3.12m" offset="0x400000" size="0x400000" crc="f392b13a" sha1="fa04ce0370144a49bd1d5acd873eef87b0dc9d15" />
+		<rom name="sz3up.snd" offset="0x800000" size="0x1800000" crc="d5181cc2" sha1="001c8e4be8972c8c30ac17cb47bfbb010e05ed2c" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

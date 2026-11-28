@@ -1,0 +1,19 @@
+<software name="pacgent" cloneof="mspacman">
+	<description>Pac Gentleman [f]</description>
+	<year>2007</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacgent.1" offset="0x0" size="0x1000" crc="de6f3b2b" sha1="cf499e8ce3bb88e69ce5bb3bbf412d81bf6a0c0f" />
+		<rom name="fastplus.2" offset="0x1000" size="0x1000" crc="a8d6c227" sha1="b5891f911bb054ca2547e663a3c27c93897f2075" />
+		<rom name="pacgent.3" offset="0x2000" size="0x1000" crc="e96d522e" sha1="41b08f3e10e81fc373bedd5ba928461f05a8ccb4" />
+		<rom name="pacgent.4" offset="0x3000" size="0x1000" crc="154482fb" sha1="98097e37f97310e93a42f7ae03072627c064f372" />
+		<rom name="boot5" offset="0x8000" size="0x1000" crc="8c3e6de6" sha1="fed6e9a2b210b07e7189a18574f6b8c4ec5bb49b" />
+		<rom name="pacgent.6" offset="0x9000" size="0x1000" crc="dcc58e81" sha1="5e005b46c5fef89c144f906e695eabad4a50919e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pacgent.5e" offset="0x0" size="0x1000" crc="e9992415" sha1="3e8241e1b17d7f5243d348ad9d07f55266ed524e" />
+		<rom name="pacgent.5f" offset="0x1000" size="0x1000" crc="50171b3a" sha1="e1fef48206ba5af1e729bfa09f938cbc47917dc2" />
+		</dataarea>
+	</part>
+</software>

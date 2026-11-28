@@ -1,0 +1,29 @@
+<software name="kovshp67" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Luan Shi Xiao Xiong Ne Zhe Huo Lun, 2018-01-12)</description>
+	<year>2018</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po67.rom" offset="0x100000" size="0x454f84" crc="a75c3b16" sha1="cd5d99743295181bf9481b1b2fcccde0ed137940" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u5" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0600_pw10.rom" offset="0x180000" size="0x800000" crc="a919ec0f" sha1="b464490abba8a5e651c407a7833c3a2e3befa5b8" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="pgm_a0600.u3" offset="0x0" size="0x800000" crc="d8167834" sha1="fa55a99629d03b2ea253392352f70d2c8639a991" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="a0540_po67.rom" offset="0x1800000" size="0x800000" crc="bd947a6b" sha1="eea290dec1fbf3ac066f090d6939f29554a935ef" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="pgm_b0600.u9" offset="0x0" size="0x800000" crc="7d3cd059" sha1="00cf994b63337e0e4ebe96453daf45f24192af1c" />
+		<rom name="b0540_po67.rom" offset="0x800000" size="0x800000" crc="15ef8e41" sha1="775833ddfe2af1ad29ac05b856586dc9b670cb07" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.asic" offset="0x0" size="0x4000" crc="0f09a5c1" sha1="621b38c05f33277608d58b49822aebc930ae4870" />
+		</dataarea>
+	</part>
+</software>

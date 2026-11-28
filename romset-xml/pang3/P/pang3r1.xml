@@ -1,0 +1,25 @@
+<software name="pang3r1">
+	<description>Pang! 3 (Euro 950511)</description>
+	<year>1995</year>
+	<publisher>Mitchell</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c34r1.p1" offset="0x0" size="0x80000" crc="d7041d32" sha1="b021f3defe7fc58030ba907125c713f987724187" />
+		<rom loadflag="load16_word_swap" name="c34r1.p2" offset="0x80000" size="0x80000" crc="1be9a483" sha1="6cff1dd15ca163237bc82fb4a3e1d469d35e7be8" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c34.m1" offset="0x0" size="0x8000" crc="cb1423a2" sha1="3191bf5d340168647881738cb2aed09b1d86146e" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="pang3.key" offset="0x0" size="0x80" crc="4865539e" sha1="44637e699e02ebbfcae323d0ae6693a393d7330f" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		<rom loadflag="continue" offset="0x4" size="0x100000" />
+		<rom loadflag="continue" offset="0x6" size="0x100000" />
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c34.v1" offset="0x0" size="0x20000" crc="73a10d5d" sha1="999465e4fbc35a34746d2db61ad49f61403d5af7" />
+		<rom name="c34.v2" offset="0x20000" size="0x20000" crc="affa4f82" sha1="27b9292bbc121cf585f53297a79fe8f0d0a729ae" />
+		</dataarea>
+	</part>
+</software>

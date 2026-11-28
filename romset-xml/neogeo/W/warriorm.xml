@@ -1,0 +1,18 @@
+<software name="warriorm">
+	<description>Warrior Man (v6)</description>
+	<year>2026</year>
+	<publisher>NK Home Entertainment</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="536.p1" offset="0x0" size="0x100000" crc="11f2fe7b" sha1="d3a1244bd0b1d0c5f5c452b3cb87dd7d5086ef63" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="536.v1" offset="0x0" size="0x1000000" crc="8175e920" sha1="d2c68082629e467fec2513674d1611dadb9de80d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="536.c1" offset="0x0" size="0x800000" crc="8ab6df31" sha1="962339809fdda3c71e756b5d5f8bf2c57909ffea" />
+		<rom loadflag="load16_byte" name="536.c2" offset="0x1" size="0x800000" crc="7c9f5790" sha1="d7f9b268ab3ef1a2c51b38c872d23195b9a61b3b" />
+		</dataarea>
+	</part>
+</software>

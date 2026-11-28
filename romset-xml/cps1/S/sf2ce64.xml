@@ -1,0 +1,25 @@
+<software name="sf2ce64" cloneof="sf2ce">
+	<description>Street Fighter II&#x27;: Champion Edition (Burning Fires)</description>
+	<year>2024</year>
+	<publisher>Sebastian Mihai</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c19s60.p1" offset="0x0" size="0x80000" crc="b57d701a" sha1="79ffaed72f7031e2cf7cd9568d1a5cf028a7a8ab" />
+		<rom loadflag="load16_word_swap" name="c19.p2" offset="0x80000" size="0x80000" crc="2bbe15ed" sha1="a8e2edef62fa99c5ef701b28bfb6bc42f3af183d" />
+		<rom loadflag="load16_word_swap" name="c19s64.p3" offset="0x100000" size="0x80000" crc="820294cd" sha1="5f8e36230d2a299306f324677fee574db4ca0557" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c19.m1" offset="0x0" size="0x8000" crc="08f6b60e" sha1="8258fcaca4ac419312531eec67079b97f471179c" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="sf2ce.key" offset="0x0" size="0x80" crc="35b37429" sha1="b372cce106c0900554735c207fb333ac93554ec2" />
+		</dataarea>
+		<dataarea name="gfx" size="0x600000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c14.v1" offset="0x0" size="0x20000" crc="7f162009" sha1="346bf42992b4c36c593e21901e22c87ae4a7d86d" />
+		<rom name="c14.v2" offset="0x20000" size="0x20000" crc="beade53f" sha1="277c397dc12752719ec6b47d2224750bd1c07f79" />
+		</dataarea>
+	</part>
+</software>

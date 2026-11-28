@@ -1,0 +1,19 @@
+<software name="mspacfnt" cloneof="mspacman">
+	<description>Ms. Pacman with Pacman font</description>
+	<year>2000</year>
+	<publisher>Tim Appleton</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="boot4" offset="0x3000" size="0x1000" crc="165a9dd8" sha1="3022a408118fa7420060e32a760aeef15b8a96cf" />
+		<rom name="boot5" offset="0x8000" size="0x1000" crc="8c3e6de6" sha1="fed6e9a2b210b07e7189a18574f6b8c4ec5bb49b" />
+		<rom name="boot6" offset="0x9000" size="0x1000" crc="368cb165" sha1="387010a0c76319a1eab61b54c9bcb5c66c4b67a1" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="mspacfnt.5e" offset="0x0" size="0x1000" crc="6d6d7af4" sha1="768dc3fa909f6fef77eb3d72c287c91f3da2ae70" />
+		<rom name="mspacfnt.5f" offset="0x1000" size="0x1000" crc="7537ee90" sha1="9e861fca1706ecabaad15ba3fc817bdc3146ea1d" />
+		</dataarea>
+	</part>
+</software>

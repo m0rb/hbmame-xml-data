@@ -1,0 +1,17 @@
+<software name="yosaku">
+	<description>Yosaku</description>
+	<year>1979</year>
+	<publisher>Orca</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="yosaku.1" offset="0x0" size="0x800" crc="37fecee4" sha1="e1ca44dcf42d7c9ed67044cef8d23bb5fd044f97" />
+		<rom name="yosaku.2" offset="0x800" size="0x800" crc="ceb6c3b4" sha1="603392413124eec1acf8bd3a07590e270d41bfb7" />
+		<rom name="yosaku.3" offset="0x1000" size="0x800" crc="c433a113" sha1="ae793e9e550f88d875854fa585d56c089971bbb8" />
+		<rom name="yosaku.4" offset="0x1800" size="0x800" crc="6cac14c1" sha1="db3e37771ed8b440fdd7f8b6b4fd74c8da131977" />
+		<rom name="yosaku.1" offset="0x0" size="0x800" crc="19bc1db4" sha1="fbdb8f611c7c767379402ebf35c25588eef447a3" />
+		<rom name="yosaku.2" offset="0x800" size="0x800" crc="1fb43a59" sha1="a9e8f4002922be5a3b3b0813b478acb017adb219" />
+		<rom name="yosaku.3" offset="0x1000" size="0x800" crc="c418d5a3" sha1="a8cbdbaa3a19644b217f784b7fe78d748389bd43" />
+		<rom name="yosaku.4" offset="0x1800" size="0x800" crc="b76d9e6f" sha1="479494503d22bb718c09a111427c59bc60e9e3fd" />
+		</dataarea>
+	</part>
+</software>

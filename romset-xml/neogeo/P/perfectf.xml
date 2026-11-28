@@ -1,0 +1,18 @@
+<software name="perfectf">
+	<description>Perfect Fighter, the (demo v6)</description>
+	<year>2026</year>
+	<publisher>Towea Studio</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="527.p1" offset="0x0" size="0x200000" crc="7c63924e" sha1="450bbfd5cf1a4523da600bde890ca2416c29bf9c" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="527.v1" offset="0x0" size="0x1000000" crc="04dabe84" sha1="ca3ed811434fb974ac32b3ef65a5570e754e1eaf" />
+		</dataarea>
+		<dataarea name="sprites" size="0x2000000">
+		<rom loadflag="load16_byte" name="527.c1" offset="0x0" size="0x1000000" crc="089e9620" sha1="df675e5ecdf4ded43ca15ab0ba36dc7407a55345" />
+		<rom loadflag="load16_byte" name="527.c2" offset="0x1" size="0x1000000" crc="7e8cb89b" sha1="047b347da4fe8be0079af37ad2de986f7af504d9" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,10 @@
+<software name="sd_kodn" cloneof="neogeo">
+	<description>King of Dragons, the (Neo-Geo port, v1.5)</description>
+	<year>2026</year>
+	<publisher>Teo Tormo</publisher>
+	<part name="cart">
+		<dataarea name="user" size="0x1641000">
+		<rom name="kodn.neo" offset="0x0" size="0x1641000" crc="e59a428a" sha1="0797a8f8b394e5e3a30e83b5c173e4684c9398c5" />
+		</dataarea>
+	</part>
+</software>

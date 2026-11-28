@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="gunfront" description="Gunfront cartridges">
+<software name="gunfront01">
+	<description>Gun Frontier (Chinese)</description>
+	<year>1990</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0xc0000">
+		<rom loadflag="load16_byte" name="c71-09_s01.ic42" offset="0x0" size="0x20000" crc="f72f2d39" sha1="260f94e22b094f7f3b434db1a2cd20ae3b28068c" />
+		<rom loadflag="load16_byte" name="c71-08_s01.ic41" offset="0x1" size="0x20000" crc="794aa220" sha1="89b6a6fea6a4ba481802a34b0ba3006020b24445" />
+		<rom loadflag="load16_byte" name="c71-10_s01.ic40" offset="0x40000" size="0x20000" crc="1995e8e3" sha1="057b66639aa5e3951a9965166e0ba77d0f3ff580" />
+		<rom loadflag="load16_byte" name="c71-11_s01.ic39" offset="0x40001" size="0x20000" crc="9f909465" sha1="af8dc7a7899fb60a8ab43dcde933b0e1d7493d40" />
+		<rom loadflag="load16_byte" name="c71-16.ic38" offset="0x80000" size="0x20000" crc="1bbcc2d4" sha1="fe664f8d2b6d902f034cf51f42378cc68c970b53" />
+		<rom loadflag="load16_byte" name="c71-15.ic37" offset="0x80001" size="0x20000" crc="df3e00bb" sha1="9fe2ece7289945692099eba92f02e5a97a4d148c" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x1c000">
+		<rom name="c71-12.ic49" offset="0x0" size="0x10000" crc="0038c7f8" sha1="405def36e67949219b6f9394333278ec60ad5783" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x100000">
+		<rom name="c71-01.ic29" offset="0x0" size="0x100000" crc="0e73105a" sha1="c5c9743f68a43273e16f5e5179557f2392505a1e" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom name="c71-03hc01.ic19" offset="0x0" size="0x100000" crc="1312289b" sha1="f4bf010aea994757df4d704f0df003300250e92a" />
+		</dataarea>
+		<dataarea name="tc0100scn_1" size="0x100000">
+		<rom loadflag="load16_word_swap" name="c71-02_s01.ic59" offset="0x0" size="0x100000" crc="806d3abc" sha1="6db72a768755db02860f8eb73df617a50287c73f" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

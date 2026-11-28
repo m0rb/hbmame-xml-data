@@ -1,0 +1,18 @@
+<software name="arena2">
+	<description>Arena 2</description>
+	<year>2026</year>
+	<publisher>Delarfab</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="530.p1" offset="0x0" size="0x100000" crc="9ed6466d" sha1="b14beedc6339cbc391d4c38e35bd3e0306afba95" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="530.v1" offset="0x0" size="0x80000" crc="634c279c" sha1="18ede8919af3a9b71d9496273f4df8d613d58f79" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="530.c1" offset="0x0" size="0x200000" crc="86856821" sha1="98247e4025311a5b6ac1f4f2790c8e673f793253" />
+		<rom loadflag="load16_byte" name="530.c2" offset="0x1" size="0x200000" crc="2f2b10e6" sha1="4728ac8553e2f55f461d125d82d7eff7a43820a6" />
+		</dataarea>
+	</part>
+</software>

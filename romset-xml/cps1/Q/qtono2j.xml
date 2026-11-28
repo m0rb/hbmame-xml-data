@@ -1,0 +1,30 @@
+<software name="qtono2j">
+	<description>Quiz Tonosama no Yabou 2: Zenkoku-ban (Japan 950123)</description>
+	<year>1995</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c33.p1" offset="0x0" size="0x20000" crc="9226eb5e" sha1="91649974f9652caed90eb28ec6caf4fe61f5d279" />
+		<rom loadflag="load16_byte" name="c33.p2" offset="0x1" size="0x20000" crc="d1d30da1" sha1="7ca1695ed804b5860d4c15964cdbb922db3918ee" />
+		<rom loadflag="load16_byte" name="c33.p3" offset="0x40000" size="0x20000" crc="015e6a8a" sha1="0835bec4867438a167bd01e3550090c88e7ae779" />
+		<rom loadflag="load16_byte" name="c33.p4" offset="0x40001" size="0x20000" crc="1f139bcc" sha1="ee907f1bfef1a887e2c768648fe811e0733eddf7" />
+		<rom loadflag="load16_byte" name="c33.p5" offset="0x80000" size="0x20000" crc="86d27f71" sha1="89d6d18e05deaaa1ac7deb70ca03d051d2fde472" />
+		<rom loadflag="load16_byte" name="c33.p6" offset="0x80001" size="0x20000" crc="7a1ab87d" sha1="f1729a8c0c82cf42f60644a7796dc8a39bf7c6fa" />
+		<rom loadflag="load16_byte" name="c33.p7" offset="0xc0000" size="0x20000" crc="9c384e99" sha1="3d3961f625ccc4776531eff50fc1b4bee062370e" />
+		<rom loadflag="load16_byte" name="c33.p8" offset="0xc0001" size="0x20000" crc="4c4b2a0a" sha1="9a25fcfb9358ea42d9bc662df2cafea08febb411" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c33.m1" offset="0x0" size="0x8000" crc="e464b969" sha1="18a0b9fd3a1eb4d1364b0e8601cd49a9574406c8" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="qtono2.key" offset="0x0" size="0x80" crc="9f0be31b" sha1="fc97735c99355b259c4d565b404935044027beb4" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c33.v1" offset="0x0" size="0x20000" crc="a40bf9a7" sha1="07cb1076262a281e31a621cbcc10be0cae883175" />
+		<rom name="c33.v2" offset="0x20000" size="0x20000" crc="5b3b931e" sha1="cf28891f84814cbfaa3adaade8bb08b1e0546a3d" />
+		</dataarea>
+	</part>
+</software>

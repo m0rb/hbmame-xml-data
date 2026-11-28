@@ -1,0 +1,39 @@
+<software name="mvscrcp" cloneof="mvsc">
+	<description>Marvel Vs. Capcom (RCP)</description>
+	<year>2016</year>
+	<publisher>CPS-2 Evolved</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="mvce.03a" offset="0x0" size="0x80000" crc="824e4a90" sha1="5c79c166d988d8a75d9941f4ee6fa4d6476e55e1" />
+		<rom loadflag="load16_word_swap" name="mvce.04a" offset="0x80000" size="0x80000" crc="436c5a4e" sha1="82f4586e888f2550c53bfdc93a53791a595e05bd" />
+		<rom loadflag="load16_word_swap" name="mvc.05a" offset="0x100000" size="0x80000" crc="2d8c8e86" sha1="b07d640a734c5d336054ed05195786224c9a6cd4" />
+		<rom loadflag="load16_word_swap" name="mvscrcp.06" offset="0x180000" size="0x80000" crc="57e2f6fd" sha1="1c1b9992b411f45755cd2d70207511431603b4a8" />
+		<rom loadflag="load16_word_swap" name="mvc.07" offset="0x200000" size="0x80000" crc="c3baa32b" sha1="d35589847e0753e869ffcd7c3abed925bfdb0fa2" />
+		<rom loadflag="load16_word_swap" name="mvc.08" offset="0x280000" size="0x80000" crc="bc002fcd" sha1="0b6735a071a9274f7ab25c743271fc30411fe819" />
+		<rom loadflag="load16_word_swap" name="mvc.09" offset="0x300000" size="0x80000" crc="c67b26df" sha1="6e9969246c57269d7ba0992a5cc319c8910bf8a9" />
+		<rom loadflag="load16_word_swap" name="mvc.10" offset="0x380000" size="0x80000" crc="0fdd1e26" sha1="5fa684d823b4f4eec61ed9e9b8938af5272ae1ed" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="mvc.01" offset="0x0" size="0x8000" crc="41629e95" sha1="36925c05b5fdcbe43283a882d021e5360c947061" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="mvc.02" offset="0x28000" size="0x20000" crc="963abf6b" sha1="6b784870e338701cefabbbe4669984b5c4e8a9a5" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		<rom loadflag="load16_word" name="mvc.13m" offset="0x0" size="0x400000" crc="fa5f74bc" sha1="79a619248938a85ce4f7794a704647b9cf564fbc" />
+		<rom loadflag="load16_word" name="mvc.15m" offset="0x2" size="0x400000" crc="71938a8f" sha1="6982f7203458c1c46a1c1c13c0d0f2a5e109d271" />
+		<rom loadflag="load16_word" name="mvc.17m" offset="0x4" size="0x400000" crc="92741d07" sha1="ddfd70eab7c983ab452194b1860059f8ad694459" />
+		<rom loadflag="load16_word" name="mvc.19m" offset="0x6" size="0x400000" crc="bcb72fc6" sha1="46ab98dcdf6f5d611646a22a7355939ef5b2bbe5" />
+		<rom loadflag="load16_word" name="mvc.14m" offset="0x1000000" size="0x400000" crc="7f1df4e4" sha1="ede92b31c1fe87f91b4fe74ac211f2fb5f863bc2" />
+		<rom loadflag="load16_word" name="mvc.16m" offset="0x1000002" size="0x400000" crc="90bd3203" sha1="ed83208c486ea0f407b7e5d16a8cf242a6f73774" />
+		<rom loadflag="load16_word" name="mvc.18m" offset="0x1000004" size="0x400000" crc="67aaf727" sha1="e0e69104e31d2c41e18c0d24e9ab962406a7ca9a" />
+		<rom loadflag="load16_word" name="mvc.20m" offset="0x1000006" size="0x400000" crc="8b0bade8" sha1="c5732361bb4bf284c4d12a82ac2c5750b1f9d441" />
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="mvsc.key" offset="0x0" size="0x14" crc="7e101e09" sha1="9d725a7c6bbc20e46f749eaec4bab15b0195077a" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="mvc.11m" offset="0x0" size="0x400000" crc="850fe663" sha1="81e519d05a08855f242ea2e17ee0859b449db895" />
+		<rom loadflag="load16_word_swap" name="mvc.12m" offset="0x400000" size="0x400000" crc="7ccb1896" sha1="74caadf3282fcc6acffb1bbe3734106f81124121" />
+		</dataarea>
+	</part>
+</software>

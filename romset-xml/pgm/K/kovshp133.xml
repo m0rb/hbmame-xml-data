@@ -1,0 +1,26 @@
+<software name="kovshp133" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Taiping Chaos Legend Edition, 2019-02-28)</description>
+	<year>2019</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po133.rom" offset="0x100000" size="0x200000" crc="a279f5f2" sha1="a2a0759ccc005bd65d32df3c2f29845ea0593816" />
+		<rom loadflag="load16_word_swap" name="p0601h_101_po133.rom" offset="0x300000" size="0x200000" crc="468e039a" sha1="36efc6a5f816d8f3f7b4c6e5bced9c4921a07f2f" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u5" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0600_pw10.rom" offset="0x180000" size="0x800000" crc="a919ec0f" sha1="b464490abba8a5e651c407a7833c3a2e3befa5b8" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_po133.rom" offset="0x0" size="0x2000000" crc="26a884e8" sha1="2e84a7b11e4eea4603aded9fee7aff0078408ed0" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_po133.rom" offset="0x0" size="0x1000000" crc="602f1e77" sha1="d696cb21e929f9ba7e64913e462181c3c4198e24" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_po14.asic" offset="0x0" size="0x4000" crc="0d87d4a1" sha1="bc981c20da426143c5e49d9fadf680b185002dd1" />
+		</dataarea>
+	</part>
+</software>

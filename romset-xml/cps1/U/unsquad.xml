@@ -1,0 +1,26 @@
+<software name="unsquad">
+	<description>U.N. Squadron (USA)</description>
+	<year>1989</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c06.p1" offset="0x0" size="0x20000" crc="24d8f88d" sha1="9c39aa1140e92307d6d9c0ca198003282bf78c78" />
+		<rom loadflag="load16_byte" name="c06.p2" offset="0x1" size="0x20000" crc="8b954b59" sha1="33114f1417d48f60c6da3e14a094be7c0f0fd979" />
+		<rom loadflag="load16_byte" name="c06.p3" offset="0x40000" size="0x20000" crc="33e9694b" sha1="90db3052ac2ff859ede8473dd13e0f5be148590c" />
+		<rom loadflag="load16_byte" name="c06.p4" offset="0x40001" size="0x20000" crc="7cc8fb9e" sha1="f70118d1a368fd4795d9953c55d283305d1f9630" />
+		<rom loadflag="load16_word_swap" name="c06.p5" offset="0x80000" size="0x80000" crc="ae1d7fb0" sha1="bb51e77574db5e2d807c4ca8e85a5d9661f5d3b3" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c06.m1" offset="0x0" size="0x8000" crc="f3dd1367" sha1="09eef72e862ac6b1a5cce5a45938b45bf4e456ad" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="unsquad.key" offset="0x0" size="0x80" crc="310eaa6c" sha1="4bea47852fdbaf7108785677bd1943b552c2600d" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c06.v1" offset="0x0" size="0x20000" crc="584b43a9" sha1="7820815c8c67d484baf2fdad7e55d8c14b98b860" />
+		</dataarea>
+	</part>
+</software>

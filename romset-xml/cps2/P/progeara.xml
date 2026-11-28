@@ -1,0 +1,26 @@
+<software name="progeara" cloneof="progear">
+	<description>Progear (Asia 010117)</description>
+	<year>2001</year>
+	<publisher>Cave (Capcom license)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c85a.p1" offset="0x0" size="0x80000" crc="25e6e2ce" sha1="15b702ccc2bab7f2f9e7724ed83931c686763ffe" />
+		<rom loadflag="load16_word_swap" name="c85a.p2" offset="0x80000" size="0x80000" crc="8104307e" sha1="3ed134fcbf5c1c9f068f59b49b96d01a1ea33eeb" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c85.m1" offset="0x0" size="0x8000" crc="bdbfa992" sha1="7c5496c1daaea6a7ab95c0b25625d325ec3427cc" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="progeara.key" offset="0x0" size="0x14" crc="30a0fab6" sha1="be3884a223e76750abe2556b000a821a262423f0" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c85.q1" offset="0x0" size="0x200000" crc="c0aac80c" sha1="91784d35d4f7e113529bb5be6081b67094b150ea" />
+		<rom loadflag="load16_word_swap" name="c85.q2" offset="0x200000" size="0x200000" crc="37a65d86" sha1="374d562a4648734f82aa2ddb6d258e870896dd45" />
+		<rom loadflag="load16_word_swap" name="c85.q3" offset="0x400000" size="0x200000" crc="d3f1e934" sha1="5dcea28c873d0d472f5b94e07d97cd77ace2b252" />
+		<rom loadflag="load16_word_swap" name="c85.q4" offset="0x600000" size="0x200000" crc="8b39489a" sha1="fd790efaf37dc2c4c16f657941044e3e2d3c2711" />
+		</dataarea>
+	</part>
+</software>

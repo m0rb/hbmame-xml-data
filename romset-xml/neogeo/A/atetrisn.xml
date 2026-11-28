@@ -1,0 +1,18 @@
+<software name="atetrisn">
+	<description>Atari Tetris (Neo-Geo port, v1.0)</description>
+	<year>2026</year>
+	<publisher>ShinobiZ</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom name="558.p1" offset="0x0" size="0x100000" crc="83a7702c" sha1="eae717cd49cf691d46b03b4c2e9d366b319e494d" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x280000">
+		<rom name="558.v1" offset="0x0" size="0x280000" crc="6e2c8425" sha1="8dabac806f55b4c72a75498641d7ecf63425f905" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="558.c1" offset="0x0" size="0x80000" crc="078d0562" sha1="9149d70831ee13362cc44fcb200089db9a013818" />
+		<rom loadflag="load16_byte" name="558.c2" offset="0x1" size="0x80000" crc="49425fa0" sha1="f51cbb417745715536ad634539955fc074ceb937" />
+		</dataarea>
+	</part>
+</software>

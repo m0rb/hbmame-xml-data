@@ -1,0 +1,17 @@
+<software name="pmad00" cloneof="puckman">
+	<description>Pacman After Dark 2000</description>
+	<year>2000</year>
+	<publisher>[Midway]</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pmad.6h" offset="0x2000" size="0x1000" crc="dd2eb43d" sha1="e80ca01ce0e2f5204dcfc95abc0abd180dd7eb58" />
+		<rom name="pmad00.6j" offset="0x3000" size="0x1000" crc="5f1aea94" sha1="3122bd7e9e1c9123f6b1915b074491e9865d39a0" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pmad00.5e" offset="0x0" size="0x1000" crc="315f7131" sha1="8182e3e177111aabad0058897b80cee8a3fd93c7" />
+		<rom name="pmad00.5f" offset="0x1000" size="0x1000" crc="157a6c0f" sha1="93f66ad4595eb9fcc306398cb83abcacc60b1521" />
+		</dataarea>
+	</part>
+</software>

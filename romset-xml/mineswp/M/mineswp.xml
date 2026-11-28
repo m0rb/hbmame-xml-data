@@ -1,0 +1,10 @@
+<software name="mineswp">
+	<description>Mine Sweeper [h]</description>
+	<year>1998</year>
+	<publisher>J-Rom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x4000">
+		<rom name="mineswp.bin" offset="0x0" size="0x4000" crc="1cece483" sha1="c425a09b640721c9a5b499cdb79848dc18ee66b9" />
+		</dataarea>
+	</part>
+</software>

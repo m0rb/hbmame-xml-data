@@ -1,0 +1,10 @@
+<software name="sd_arena2" cloneof="neogeo">
+	<description>Arena 2 (v3)</description>
+	<year>2026</year>
+	<publisher>Delarfab</publisher>
+	<part name="cart">
+		<dataarea name="user" size="0x5c1000">
+		<rom name="arena2.neo" offset="0x0" size="0x5c1000" crc="4bdbeef4" sha1="7596b8a9f5235ceb162f4c35069dd2c73c8f76e8" />
+		</dataarea>
+	</part>
+</software>

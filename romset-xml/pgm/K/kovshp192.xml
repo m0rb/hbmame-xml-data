@@ -1,0 +1,25 @@
+<software name="kovshp192" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Zhao Yun Dead World Edition, 2020-09-19)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po192.rom" offset="0x100000" size="0x400000" crc="7ca354f2" sha1="c3d0ab6dcf995eb70071beb9543277253e026afd" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u5" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="pgm_t0600.u2" offset="0x180000" size="0x800000" crc="4acc1ad6" sha1="0668dbd5e856c2406910c6b7382548b37c631780" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_po192.rom" offset="0x0" size="0x2000000" crc="89f03a27" sha1="9bbad8931dab5b33e56b86a921edb470110b0ce7" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_po192.rom" offset="0x0" size="0x1000000" crc="763e6cdf" sha1="e1fed6ac07ce54541488a32a140c6dadd00bf724" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.asic" offset="0x0" size="0x4000" crc="0f09a5c1" sha1="621b38c05f33277608d58b49822aebc930ae4870" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,25 @@
+<software name="goldrun">
+	<description>Gold Runner</description>
+	<year>2026</year>
+	<publisher>Don Panetta</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="goldrun.6e" offset="0x0" size="0x1000" crc="6b46822b" sha1="9f01a094e406421adf4ae7414eaf4852441ce135" />
+		<rom name="goldrun.6f" offset="0x1000" size="0x1000" crc="6ee5a7a4" sha1="9eac62e35ee24f44bf2b87721b01366172689914" />
+		<rom name="goldrun.6h" offset="0x2000" size="0x1000" crc="14f6bcff" sha1="6d5b0a0a73a30d33f14daa40c8f486fe6fcd8c3d" />
+		<rom name="goldrun.6j" offset="0x3000" size="0x1000" crc="a1dd0c44" sha1="a2e9b9799ae545d4011c5eeafb61e06fb996a9ec" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="goldrun.5e" offset="0x0" size="0x1000" crc="28b22685" sha1="66455d29dc072a58e082ae5c1114932b6fcfd507" />
+		<rom name="goldrun.5f" offset="0x1000" size="0x1000" crc="cd1dc828" sha1="8e4224b72ffbcf940cd6a83822b5152866d144f1" />
+		</dataarea>
+		<dataarea name="namco" size="0x200">
+		<rom name="goldrun.1m" offset="0x0" size="0x100" crc="5166f921" sha1="2e57c680f489910342b7765aad6388d2e2c4641e" />
+		<rom name="goldrun.3m" offset="0x100" size="0x100" crc="5166f921" sha1="2e57c680f489910342b7765aad6388d2e2c4641e" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="goldrun.7f" offset="0x0" size="0x20" crc="f3c11d15" sha1="4296dae874840ba1b0ff32ac2e5e7c1401dd04ba" />
+		<rom name="goldrun.4a" offset="0x20" size="0x100" crc="528f4290" sha1="34b4b5b03081213ea828bfc2cdde8da9cbb88ced" />
+		</dataarea>
+	</part>
+</software>

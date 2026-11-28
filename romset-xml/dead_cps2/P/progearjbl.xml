@@ -1,0 +1,21 @@
+<software name="progearjbl" cloneof="progear">
+	<description>Progear no Arashi (Japan 010117) (decrypted bootleg)</description>
+	<year>2001</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c85jbl.p1" offset="0x0" size="0x80000" crc="4fef676c" sha1="f50f32403315f77e115141bbee6a1b9a800821eb" />
+		<rom loadflag="load16_word_swap" name="c85jbl.p2" offset="0x80000" size="0x80000" crc="a069bd3b" sha1="6b7e20c883221da9b8eccb4f86017bb93e1fc11f" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c85.m1" offset="0x0" size="0x8000" crc="bdbfa992" sha1="7c5496c1daaea6a7ab95c0b25625d325ec3427cc" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c85bl.q1" offset="0x0" size="0x400000" crc="abdd224e" sha1="3316708e050204eeee91c642a2546fab80984c60" />
+		<rom loadflag="load16_word_swap" name="c85bl.q2" offset="0x400000" size="0x400000" crc="dac53406" sha1="53fd271495429a7cbdeecbbc62b322f019f854a5" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,31 @@
+<software name="kovshs71" cloneof="kovsh">
+	<description>Knights of Valour Super Heroes (True Evil Spirits Dance - God of War Legend Beta 2 (alt))</description>
+	<year>1999</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600_pw71.322" offset="0x100000" size="0x400000" crc="798d60c8" sha1="4c81dd1b2c0f7c74d7c52e1c4bf9f3c159c87bcf" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600pw71.rom" offset="0x400000" size="0x400000" crc="511e835f" sha1="9506fd07de2d5a4d39887d1f7ba44c071dd6831f" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china.asic" offset="0x0" size="0x4000" crc="0f09a5c1" sha1="621b38c05f33277608d58b49822aebc930ae4870" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_pw71.rom" offset="0x0" size="0x800000" crc="6210cee7" sha1="48d798181e7934c3280378fc66b02f79a44716c5" />
+		<rom name="pgm_a0601.u3" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="a0602_ph177.rom" offset="0x1000000" size="0x800000" crc="efb30f14" sha1="ab5b4232b2dfc9f4e3a77112028a903f30b41fb9" />
+		<rom name="pgm_a0613.u7" offset="0x1800000" size="0x400000" crc="ec31abda" sha1="ee526655369bae63b0ef0730e9768b765c9950fc" />
+		<rom name="a0604_pw71.rom" offset="0x1a00000" size="0x400000" crc="05c533a8" sha1="c63d5c9d9dda2aa2da152f4d65a66409ee3cc567" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_pw71.rom" offset="0x0" size="0x800000" crc="055af9fc" sha1="014e762be88c1feeba166e58635cfada3f1123be" />
+		<rom name="b0601_ph177.rom" offset="0x800000" size="0x400000" crc="f43e4276" sha1="b0ad317f70681e4300228f34bb8f4bead50111ea" />
+		<rom name="b0602_pw71.rom" offset="0xc00000" size="0x100000" crc="45e63003" sha1="55ee40bd81be895d897e4514e0b30df2e3efbd8b" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="t0600_pw70.rom" offset="0x180000" size="0x800000" crc="d103dc1b" sha1="947cc29f81f5ea73523861ea39493da2942265f4" />
+		</dataarea>
+	</part>
+</software>

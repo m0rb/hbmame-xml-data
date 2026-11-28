@@ -1,0 +1,16 @@
+<software name="pc_ark">
+	<description>Arkanoid (PlayChoice-10)</description>
+	<year>2002</year>
+	<publisher>NES-&gt;PC-10</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="arkanoid-u2" offset="0x0" size="0x2000" crc="bb8dae70" sha1="91bdab01839e2ad3d9aaa9041e0855ba26583a9f" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="arkanoid-u1" offset="0x0" size="0x8000" crc="95dbb274" sha1="792420b622b59d40ec0a264bf0bcd5faf9b652dc" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="29893c7f.prm" offset="0x0" size="0x10" crc="29893c7f" sha1="58478b7de2177c8dc1d6885bd34eeeeb5e46d7a3" />
+		</dataarea>
+	</part>
+</software>

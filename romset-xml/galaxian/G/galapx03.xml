@@ -1,0 +1,21 @@
+<software name="galapx03" cloneof="galnamco">
+	<description>Galaxian Part X (Philip)</description>
+	<year>19</year>
+	<publisher>International Scientific</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="1.c7" offset="0x0" size="0x800" crc="75bdc82e" sha1="e7476b4ab418653d73a45d8046aa0d704d77fb05" />
+		<rom name="2.d7" offset="0x800" size="0x800" crc="c71eca8e" sha1="29ab3fe155b20bf166c8a94f8f911367f77b4a98" />
+		<rom name="galx.w" offset="0x1000" size="0x800" crc="72d2d3ee" sha1="96e0c5824e46d7398c7e58dd6b75a9f4ead6f3f5" />
+		<rom name="galx.y" offset="0x1800" size="0x800" crc="afe397f3" sha1="283c6f3b3f07581d88f7a6e11fc36947a9d90e2e" />
+		<rom name="5.k7" offset="0x2000" size="0x800" crc="0b80b4c1" sha1="807362c1bc7f176e85a769d9836ad7045d2dd5a7" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="piii.6" offset="0x0" size="0x800" crc="977e37cf" sha1="88ff1e4edadf5cfc83413a1fe999aecf4ba72232" />
+		<rom name="piii.7" offset="0x800" size="0x800" crc="d0ba22c9" sha1="678b22d10e1ae7dcea068da838bf6bd648e9ee28" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="6l.bpr" offset="0x0" size="0x20" crc="c3ac9467" sha1="f382ad5a34d282056c78a5ec00c30ec43772bae2" />
+		</dataarea>
+	</part>
+</software>

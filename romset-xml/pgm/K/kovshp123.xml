@@ -1,0 +1,26 @@
+<software name="kovshp123" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (The Best Firepower In 2020 2020-01-18)</description>
+	<year>2020</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po123.rom" offset="0x100000" size="0x200000" crc="31ea8cea" sha1="0925f34eb9e60c1a4c18a3c2e70c1654af7bcd1e" />
+		<rom loadflag="load16_word_swap" name="p0601h_101_po123.rom" offset="0x300000" size="0x200000" crc="b9ad393f" sha1="56683259014c1157dfc28c817353e7eb18221d21" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="pgm_m0600.u5" offset="0x400000" size="0x400000" crc="3ada4fd6" sha1="4c87adb25d31cbd41f04fbffe31f7bc37173da76" />
+		</dataarea>
+		<dataarea name="igs023" size="0xc00000">
+		<rom name="t0600_pw122.rom" offset="0x180000" size="0x800000" crc="3e5bec7a" sha1="850eacb647c250db0c0a82a9eac98749ee8a70a1" />
+		</dataarea>
+		<dataarea name="igs023:sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_po123.rom" offset="0x0" size="0x2000000" crc="8cee9b01" sha1="4a3bb08844846b9217170d08d6ea3fff18b1b49a" />
+		</dataarea>
+		<dataarea name="igs023:sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_po123.rom" offset="0x0" size="0x1000000" crc="82a43111" sha1="9ce61e51d3ebfcb7acd2eb32087acc1137a1723a" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_po123.asic" offset="0x0" size="0x4000" crc="39abc15f" sha1="f839eb7ddf3c30ad05373fc54fae8a12f0d4cda9" />
+		</dataarea>
+	</part>
+</software>

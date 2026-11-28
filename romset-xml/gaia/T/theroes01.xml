@@ -1,0 +1,29 @@
+<software name="theroes01" cloneof="theroes">
+	<description>Thunder Heroes (Select Characters, 2009-08-19)</description>
+	<year>2001</year>
+	<publisher>pipi899</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x100000">
+		<rom loadflag="load16_byte" name="t-hero-epm1hc01.u0127" offset="0x0" size="0x80000" crc="8d5961d1" sha1="69cb82c3d269f641840f17fd7237d0744d01405e" />
+		<rom loadflag="load16_byte" name="t-hero-epm0hc01.u0129" offset="0x1" size="0x80000" crc="89dc3ad3" sha1="8652f2b93d5b4fe1a4d88cb39c9821f0739bfeff" />
+		</dataarea>
+		<dataarea name="layer0" size="0x400000">
+		<rom name="t-hero-bg1.u0999" offset="0x0" size="0x400000" crc="47b0fb40" sha1="a7217b3d805b4255c589821cdadd9b190cada525" />
+		</dataarea>
+		<dataarea name="layer1" size="0x400000">
+		<rom name="t-hero-bg2.u0995" offset="0x0" size="0x400000" crc="b16237a1" sha1="66aed2c5036492a17d20de90333e172a6f117851" />
+		</dataarea>
+		<dataarea name="layer2" size="0x400000">
+		<rom name="t-hero-bg3.u0998" offset="0x0" size="0x400000" crc="08eb5604" sha1="3d32966708c73198272c40e6ddc680bf4c7919eb" />
+		</dataarea>
+		<dataarea name="sprites0" size="0x1000000">
+		<rom name="t-hero-obj1.u0736" offset="0x0" size="0x400000" crc="35090f7c" sha1="035e6c12a87d9c7241eea34fc7e2170bec842acc" />
+		<rom name="t-hero-obj2.u0738" offset="0x400000" size="0x400000" crc="71605108" sha1="6070c26d8f22fafc81d97cacfef96ae652e355d0" />
+		</dataarea>
+		<dataarea name="ymz" size="0xc00000">
+		<rom name="crvsaders-snd1.u0447" offset="0x0" size="0x400000" crc="92770a52" sha1="81f6835e1b45eb0f367e4586fdda92466f02edb9" />
+		<rom name="crvsaders-snd2.u0454" offset="0x400000" size="0x400000" crc="329ae1cf" sha1="0c5e5074a5d8f4fb85ab4893bc953f192dcb301a" />
+		<rom name="t-hero-snd3.u0455" offset="0x800000" size="0x400000" crc="52b0b2c0" sha1="6e96698905391c21a4fedd60e2768734b58add4e" />
+		</dataarea>
+	</part>
+</software>

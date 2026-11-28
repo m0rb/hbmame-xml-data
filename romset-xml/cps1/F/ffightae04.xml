@@ -1,0 +1,24 @@
+<software name="ffightae04" cloneof="ffight">
+	<description>Final Fight 30th Anniversary Edition Mad Gear&#x27;s City (2022-04-12)</description>
+	<year>2022</year>
+	<publisher>Zombie Master</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c07ae04.p1" offset="0x0" size="0x80000" crc="c16be586" sha1="a3c32c4bcf9c7a484b74cca0fee0f04bcb05aba6" />
+		<rom loadflag="load16_word_swap" name="c07ae04.p2" offset="0x80000" size="0x80000" crc="4994c1c8" sha1="0c2de21b4dfcc4bd24f13a74343ce8abdde52faa" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c07.m1" offset="0x0" size="0x8000" crc="b8367eb5" sha1="ec3db29fdd6200e9a8f4f8073a7e34aef731354f" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="ffightae.key" offset="0x0" size="0x80" crc="8a7e5df2" sha1="34a93d94ee4579826f5f91e7c1acfa6e0c80029a" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c07.v1" offset="0x0" size="0x20000" crc="375c66e7" sha1="36189e23209ce4ae5d9cbabd1574540d0591e7b3" />
+		<rom name="c07.v2" offset="0x20000" size="0x20000" crc="1ef137f9" sha1="974b5e72aa28b87ebfa7438efbdfeda769dedf5e" />
+		</dataarea>
+	</part>
+</software>

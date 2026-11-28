@@ -1,0 +1,26 @@
+<software name="nblktiger">
+	<description>Neo Black Tiger</description>
+	<year>2020</year>
+	<publisher>OzzyOuzo</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="496.p1" offset="0x0" size="0x100000" crc="18f34200" sha1="78b3b9ef20ddf780a81e644d996d56dd5c0e6d10" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x900000">
+		<rom name="496.v1" offset="0x0" size="0x100000" crc="3ac066e1" sha1="cab7f04fbce0db685f5fa0d22923f7b7ca37a804" />
+		<rom name="496.v2" offset="0x100000" size="0x100000" crc="c5a12987" sha1="71236afffdb69aa3ba8ebc345e1e7b1830db437e" />
+		<rom name="496.v3" offset="0x200000" size="0x100000" crc="3c623679" sha1="5fa98eacb612be496aa7937a9678398ba16f2a13" />
+		<rom name="496.v4" offset="0x300000" size="0x100000" crc="fbf00c96" sha1="4083f8efbcf748dba31f0030b82487e0ea56980b" />
+		<rom name="496.v5" offset="0x400000" size="0x100000" crc="9b2031d4" sha1="15c8f5cb26af29b8dca53f1c1c49384a1b73b820" />
+		<rom name="496.v6" offset="0x500000" size="0x100000" crc="107cfc89" sha1="c4ced7dfab24ff42c6fc2424b18cf199ba30cbfa" />
+		<rom name="496.v7" offset="0x600000" size="0x100000" crc="0703b761" sha1="7d586b69bb9578d550871eda884cd6b32d86a01f" />
+		<rom name="496.v8" offset="0x700000" size="0x100000" crc="8d525588" sha1="297871c1e8888d9adab3781fb6c2c27ecf50ca45" />
+		<rom name="496.v9" offset="0x800000" size="0x100000" crc="97f073b6" sha1="02a4cce3f0cdb9421350ee5af49af13d7dcd16c2" />
+		</dataarea>
+		<dataarea name="sprites" size="0x1000000">
+		<rom loadflag="load16_byte" name="496.c1" offset="0x0" size="0x800000" crc="aa469494" sha1="fd98b7445c85174ccb745c74cb9e852b08353324" />
+		<rom loadflag="load16_byte" name="496.c2" offset="0x1" size="0x800000" crc="fa07ba1e" sha1="8c00be2c0c1402789011e2aa272e04e216fdac10" />
+		</dataarea>
+	</part>
+</software>

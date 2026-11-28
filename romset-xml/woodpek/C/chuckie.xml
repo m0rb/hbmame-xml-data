@@ -1,0 +1,21 @@
+<software name="chuckie">
+	<description>Chuckie Egg</description>
+	<year>2023</year>
+	<publisher>Arlasoft</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="chuckie.1" offset="0x0" size="0x1000" crc="f2ba04fd" sha1="30fd7256ac1706db94dfd0f7e7518b36197f4a32" />
+		<rom name="chuckie.2" offset="0x1000" size="0x1000" crc="80285be4" sha1="66484c25e3fea517915a1b9facefb3c84acfd465" />
+		<rom name="chuckie.3" offset="0x2000" size="0x1000" crc="5c594671" sha1="598aa268b45a04e4dafbf7271278b06271b31e50" />
+		<rom name="chuckie.4" offset="0x3000" size="0x1000" crc="25d4fc4f" sha1="42f8424a8059248bb57e054e3bd129e995b94622" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="chuckie.9" offset="0x0" size="0x1000" crc="7394bd6d" sha1="0a4973636d1366872b1ce1e77772d6fef604922f" />
+		<rom name="chuckie.10" offset="0x1000" size="0x1000" crc="0024afe1" sha1="bd6ad919a9e116d08b030cd55597900bae6fd7e3" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="chuckie.7f" offset="0x0" size="0x20" crc="f2f2cbfb" sha1="b00207e379809168c0420d4d2ce5ee49a46e1bd7" />
+		<rom name="82s126.4a" offset="0x20" size="0x100" crc="3eb3a8e4" sha1="19097b5f60d1030f8b82d9f1d3a241f93e5c75d6" />
+		</dataarea>
+	</part>
+</software>

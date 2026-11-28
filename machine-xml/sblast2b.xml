@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="sblast2b" description="Sblast2B cartridges">
+<software name="sblast2b01">
+	<description>Sonic Blast Man 2 Special Turbo (Level Sequence Repair)</description>
+	<year>1997</year>
+	<publisher>RockyWall</publisher>
+	<part name="cart">
+		<dataarea name="sound_ipl" size="0x100">
+		<rom name="spc700.rom" offset="0x0" size="0x40" crc="44bb3a40" sha1="97e352553e94242ae823547cd853eecda55c20f0" />
+		</dataarea>
+		<dataarea name="user3" size="0x180000">
+		</dataarea>
+		<dataarea name="user6" size="0x800">
+		</dataarea>
+		<dataarea name="user7" size="0x180000">
+		<rom name="1.s01" offset="0x0" size="0x80000" crc="b1263f6a" sha1="707e418121d867dd9baee7a4c2f737f832c9d9e2" />
+		<rom name="2.bin" offset="0x80000" size="0x80000" crc="57d2b6e9" sha1="1a7b347101f67b254e2f86294d501b0669431644" />
+		<rom name="3.bin" offset="0x100000" size="0x80000" crc="9e63a5ce" sha1="1d18606fbb28b55a921fc37e1af1aff4caae9003" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

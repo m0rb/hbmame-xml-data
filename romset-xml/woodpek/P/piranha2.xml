@@ -1,0 +1,19 @@
+<software name="piranha2" cloneof="mspacman">
+	<description>Piranha 2 Revenge!</description>
+	<year>2002</year>
+	<publisher>US Billiards</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="boot1" offset="0x0" size="0x1000" crc="d16b31b7" sha1="bc2247ec946b639dd1f00bfc603fa157d0baaa97" />
+		<rom name="boot2" offset="0x1000" size="0x1000" crc="0d32de5e" sha1="13ea0c343de072508908be885e6a2a217bbb3047" />
+		<rom name="boot3" offset="0x2000" size="0x1000" crc="1821ee0b" sha1="5ea4d907dbb2690698db72c4e0b5be4d3e9a7786" />
+		<rom name="piranha2.4" offset="0x3000" size="0x1000" crc="fe8b786d" sha1="e9fcd78076e4e7e6aa73781238722e077e40f945" />
+		<rom name="piranha2.5" offset="0x8000" size="0x1000" crc="bef08ea4" sha1="04211f34d7eb9009b1d2cb1a3fbff0e4bdeb0127" />
+		<rom name="piranha2.6" offset="0x9000" size="0x1000" crc="fd3df829" sha1="69e6c66aab3eb43f0a64350279e67351f1aceddd" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="piranha2.5e" offset="0x0" size="0x1000" crc="8f0fa58f" sha1="bf1ae6523cc9161c0db55b8ecaafe1783f3600f2" />
+		<rom name="piranha2.5f" offset="0x1000" size="0x1000" crc="42153903" sha1="9b231f783b5c847b09819d554a3bb136028938e0" />
+		</dataarea>
+	</part>
+</software>

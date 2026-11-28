@@ -1,0 +1,14 @@
+<software name="alpaca7" cloneof="alpaca8">
+	<description>Alpaca v0.7 (Pacman Hardware)</description>
+	<year>2003</year>
+	<publisher>Scott Lawrence</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="alpaca7.6e" offset="0x0" size="0x1000" crc="af4afcbf" sha1="f11e2fe309818b41cb2a28408b06d18419879c09" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="alpaca.5e" offset="0x0" size="0x1000" crc="3e879f02" sha1="0b084dd449e57476231e59f15f85a209a919959c" />
+		<rom name="alpaca7.5f" offset="0x1000" size="0x1000" crc="a6103847" sha1="4376996ff8c19afd65f1757ce159b70071a4bd3b" />
+		</dataarea>
+	</part>
+</software>

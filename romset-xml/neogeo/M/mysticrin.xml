@@ -1,0 +1,18 @@
+<software name="mysticrin">
+	<description>Mystic Riders (Neo-Geo port, v1.0.0)</description>
+	<year>2026</year>
+	<publisher>Bendk97</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x400000">
+		<rom loadflag="load16_word_swap" name="557.p1" offset="0x0" size="0x400000" crc="ebc7c91b" sha1="fe916118da23ce15036f94d7e6d26eab1eefa21a" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="557.v1" offset="0x0" size="0x1000000" crc="78495cab" sha1="044dca2cab89f61ed4b4f8216e1166f3e07b0c1a" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="557.c1" offset="0x0" size="0x200000" crc="44059bfb" sha1="5d3c50a2190973e6cf21c07fda779d103158d0e6" />
+		<rom loadflag="load16_byte" name="557.c2" offset="0x1" size="0x200000" crc="8d4faffb" sha1="d4fec49e1bc35de7d036dff39723bdf8282ce540" />
+		</dataarea>
+	</part>
+</software>

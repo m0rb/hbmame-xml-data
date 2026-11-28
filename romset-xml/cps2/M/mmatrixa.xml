@@ -1,0 +1,25 @@
+<software name="mmatrixa" cloneof="mmatrix">
+	<description>Mars Matrix: Hyper Solid Shooting (Asia 000412)</description>
+	<year>2000</year>
+	<publisher>Takumi (Capcom license)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c82a.p1" offset="0x0" size="0x80000" crc="1d670ed7" sha1="10d1ae8f9586c658f73b2b27344c3c868fa2cb89" />
+		<rom loadflag="load16_word_swap" name="c82a.p2" offset="0x80000" size="0x80000" crc="43be66d2" sha1="e5b772c15320c7f8804d6fc6f8f2edc53012fce2" />
+		<rom loadflag="load16_word_swap" name="c82a.p3" offset="0x100000" size="0x80000" crc="9bfe3082" sha1="6119dee8e84e80243659ce43e90675a7a4409615" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c82.m1" offset="0x0" size="0x8000" crc="c57e8171" sha1="dedb92af1910d38727f816e6f507d25148f31b74" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="mmatrixa.key" offset="0x0" size="0x14" crc="f6a944b4" sha1="f76aa23c0c19a1a220be9cf3c55a8617b3c3dce5" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c82.q1" offset="0x0" size="0x400000" crc="4180b39f" sha1="cabb1c358eae1bb6cfed07f5b92e4acd38650667" />
+		<rom loadflag="load16_word_swap" name="c82.q2" offset="0x400000" size="0x400000" crc="95e22a59" sha1="b3431d170c0a1a0d826ad0af21300b9180e3f114" />
+		</dataarea>
+	</part>
+</software>

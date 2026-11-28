@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="pacmanx" description="Pacmanx cartridges">
+<software name="hangly2x" cloneof="puckmanx">
+	<description>Hangly-Man (set 2) (hires hack)</description>
+	<year>1981</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="hangly.6e" offset="0x0" size="0x1000" crc="5fe8610a" sha1="d63eaebd85e10aa6c27bb7f47642dd403eeb6934" />
+		<rom name="hangly2.6f" offset="0x1000" size="0x800" crc="5ba228bb" sha1="b0e902cdf98bee72d6ec8069eec96adce3245074" />
+		<rom name="hangly2.6m" offset="0x1800" size="0x800" crc="baf5461e" sha1="754586a6449fd54a342f260e572c1cd60ab70815" />
+		<rom name="hangly.6h" offset="0x2000" size="0x1000" crc="4e7ef99f" sha1="bd42e68b29b4d654dc817782ba00db69b7d2dfe2" />
+		<rom name="hangly2.6j" offset="0x3000" size="0x800" crc="51305374" sha1="6197b606a0eedb11135d9f4f7a89aecc23fb2d33" />
+		<rom name="hangly2.6p" offset="0x3800" size="0x800" crc="427c9d4d" sha1="917bc3d571cbdd24d88327ecabfb5b3f6d39af0a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="pacmodx.5e" offset="0x0" size="0x4000" crc="a05bc552" sha1="5c2350aeac14cafebfcb7ff012427b1d3c6adf62" />
+		<rom name="pacmanx.5f" offset="0x4000" size="0x4000" crc="92e1b10e" sha1="bb04988502fa181365c08096b5fd47fa9541c291" />
+		</dataarea>
+	</part>
+</software>
+<software name="hangly3x" cloneof="puckmanx">
+	<description>Hangly-Man (set 3) (hires hack)</description>
+	<year>1981</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="hangly3.6e" offset="0x0" size="0x800" crc="9d027c4a" sha1="88e094880057451a75cdc2ce9477403021813982" />
+		<rom name="hangly3.6k" offset="0x800" size="0x800" crc="194c7189" sha1="fd423bac2810015313841c7b935054565390fbd0" />
+		<rom name="hangly2.6f" offset="0x1000" size="0x800" crc="5ba228bb" sha1="b0e902cdf98bee72d6ec8069eec96adce3245074" />
+		<rom name="hangly2.6m" offset="0x1800" size="0x800" crc="baf5461e" sha1="754586a6449fd54a342f260e572c1cd60ab70815" />
+		<rom name="hangly3.6h" offset="0x2000" size="0x800" crc="08419c4a" sha1="7e5001adad401080c788737c1d2349f218750442" />
+		<rom name="hangly3.6n" offset="0x2800" size="0x800" crc="ab74b51f" sha1="1bce8933ed7807eb7aca9670df8994f8d1a8b5b7" />
+		<rom name="hangly3.6j" offset="0x3000" size="0x800" crc="5039b082" sha1="086a6ac4742734167d283b1121fce29d8ac4a6cd" />
+		<rom name="hangly3.6p" offset="0x3800" size="0x800" crc="931770d7" sha1="78fcf88e07ec5126c12c3297b62ca388809e947c" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="hangly3x.5e" offset="0x0" size="0x4000" crc="54abb087" sha1="a57b59325172902c3fae57c5a23e588d5ac7b8ca" />
+		<rom name="pacmanx.5f" offset="0x4000" size="0x4000" crc="92e1b10e" sha1="bb04988502fa181365c08096b5fd47fa9541c291" />
+		</dataarea>
+	</part>
+</software>
+<software name="hanglyx" cloneof="puckmanx">
+	<description>Hangly-Man (set 1) (hires hack)</description>
+	<year>1981</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="hangly.6e" offset="0x0" size="0x1000" crc="5fe8610a" sha1="d63eaebd85e10aa6c27bb7f47642dd403eeb6934" />
+		<rom name="hangly.6f" offset="0x1000" size="0x1000" crc="73726586" sha1="cedddc5194589039dd8b64f07ab6320d7d4f55f9" />
+		<rom name="hangly.6h" offset="0x2000" size="0x1000" crc="4e7ef99f" sha1="bd42e68b29b4d654dc817782ba00db69b7d2dfe2" />
+		<rom name="hangly.6j" offset="0x3000" size="0x1000" crc="7f4147e6" sha1="0a7ac0e59d4d26fe52a2f4196c9f19e5ab677c87" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="pacmanx.5e" offset="0x0" size="0x4000" crc="a45138ce" sha1="f18344980b4a58d0abf0cc2b7853184af3d5bfa0" />
+		<rom name="pacmanx.5f" offset="0x4000" size="0x4000" crc="92e1b10e" sha1="bb04988502fa181365c08096b5fd47fa9541c291" />
+		</dataarea>
+	</part>
+</software>
+<software name="newpuc2x" cloneof="puckmanx">
+	<description>Newpuc2 (hires hack)</description>
+	<year>1980</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="newpuc2.6e" offset="0x0" size="0x800" crc="69496a98" sha1="2934051d6305cc3654951bc1aacf2b8902f463fe" />
+		<rom name="newpuc2.6k" offset="0x800" size="0x800" crc="158fc01c" sha1="2f7a1e24d259fdc716ef8e7354a87780595f3c4e" />
+		<rom name="puckman.6f" offset="0x1000" size="0x800" crc="7d177853" sha1="9b5ddaaa8b564654f97af193dbcc29f81f230a25" />
+		<rom name="newpuc2.6m" offset="0x1800" size="0x800" crc="70810ccf" sha1="3941678606aab1e53356a6781e24d84e83cc88ce" />
+		<rom name="newpuc2.6h" offset="0x2000" size="0x800" crc="81719de8" sha1="e886d04ac0e20562a4bd2df7676bdf9aa98665d7" />
+		<rom name="newpuc2.6n" offset="0x2800" size="0x800" crc="3f250c58" sha1="53bf2270c26f10f7e97960cd4c96e09e16b9bdf3" />
+		<rom name="newpuc2.6j" offset="0x3000" size="0x800" crc="e6675736" sha1="85d0bb79bc96acbc67fcb70ff4d453c870a6c8ea" />
+		<rom name="newpuc2.6p" offset="0x3800" size="0x800" crc="1f81e765" sha1="442d8a82e79ae842f1ffb46369c632c1d0b83161" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="newpuc2x.5e" offset="0x0" size="0x4000" crc="0a64f4c8" sha1="1f3456b14b2b847869db6eeb3c115e3042b24672" />
+		<rom name="newpuc2x.5f" offset="0x4000" size="0x4000" crc="4ba7164c" sha1="902e6f0bfeed8f40b83cf0eb7de6440d91ee811d" />
+		</dataarea>
+	</part>
+</software>
+<software name="nwpuc2bx" cloneof="puckmanx">
+	<description>Newpuc2 (set 2) (hires hack)</description>
+	<year>1980</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="hangly3.6e" offset="0x0" size="0x800" crc="9d027c4a" sha1="88e094880057451a75cdc2ce9477403021813982" />
+		<rom name="newpuc2.6k" offset="0x800" size="0x800" crc="158fc01c" sha1="2f7a1e24d259fdc716ef8e7354a87780595f3c4e" />
+		<rom name="puckman.6f" offset="0x1000" size="0x800" crc="7d177853" sha1="9b5ddaaa8b564654f97af193dbcc29f81f230a25" />
+		<rom name="newpuc2.6m" offset="0x1800" size="0x800" crc="70810ccf" sha1="3941678606aab1e53356a6781e24d84e83cc88ce" />
+		<rom name="nwepuc2b.6h" offset="0x2000" size="0x800" crc="f5e4b2b1" sha1="68464f61cc50931f6cd4bb493dd703c139500825" />
+		<rom name="newpuc2.6n" offset="0x2800" size="0x800" crc="3f250c58" sha1="53bf2270c26f10f7e97960cd4c96e09e16b9bdf3" />
+		<rom name="newpuc2b.6j" offset="0x3000" size="0x800" crc="f068e009" sha1="a30763935e116559d535654827230bb21a5734bb" />
+		<rom name="newpuc2b.6p" offset="0x3800" size="0x800" crc="1fadcc2f" sha1="2d636cfc2b52b671ac5a26a03b1195e2cf8d4718" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="newpuc2x.5e" offset="0x0" size="0x4000" crc="0a64f4c8" sha1="1f3456b14b2b847869db6eeb3c115e3042b24672" />
+		<rom name="newpuc2x.5f" offset="0x4000" size="0x4000" crc="4ba7164c" sha1="902e6f0bfeed8f40b83cf0eb7de6440d91ee811d" />
+		</dataarea>
+	</part>
+</software>
+<software name="nwpuckxx" cloneof="puckmanx">
+	<description>New Puck-X (hires hack)</description>
+	<year>1980</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="newpuck2.6e" offset="0x0" size="0x1000" crc="a8ae23c5" sha1="1481a4f083b563350744f9d25b1bcd28073875d6" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="newpuck2.6h" offset="0x2000" size="0x1000" crc="197443f8" sha1="119aab12a9e1052c7b9a1f81e563740b41429a8c" />
+		<rom name="fastpuck.6j" offset="0x3000" size="0x1000" crc="2e64a3ba" sha1="f86a921173f32211b18d023c2701664d13ae23be" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="pacmanx.5e" offset="0x0" size="0x4000" crc="a45138ce" sha1="f18344980b4a58d0abf0cc2b7853184af3d5bfa0" />
+		<rom name="pacmanx.5f" offset="0x4000" size="0x4000" crc="92e1b10e" sha1="bb04988502fa181365c08096b5fd47fa9541c291" />
+		</dataarea>
+	</part>
+</software>
+<software name="pacmanfx" cloneof="puckmanx">
+	<description>Pac-Man (Midway) (hires hack) [f]</description>
+	<year>1980</year>
+	<publisher>[Namco] (Midway license)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacmanf.6f" offset="0x1000" size="0x1000" crc="720dc3ee" sha1="7224d7acfa0144b681c71d7734a7337189835361" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="pacman.6j" offset="0x3000" size="0x1000" crc="817d94e3" sha1="d4a70d56bb01d27d094d73db8667ffb00ca69cb9" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="pacmanx.5e" offset="0x0" size="0x4000" crc="a45138ce" sha1="f18344980b4a58d0abf0cc2b7853184af3d5bfa0" />
+		<rom name="pacmanx.5f" offset="0x4000" size="0x4000" crc="92e1b10e" sha1="bb04988502fa181365c08096b5fd47fa9541c291" />
+		</dataarea>
+	</part>
+</software>
+<software name="pacmanx" cloneof="puckmanx">
+	<description>Pac-Man (Midway) (hires hack)</description>
+	<year>1980</year>
+	<publisher>[Namco] (Midway license)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="pacman.6j" offset="0x3000" size="0x1000" crc="817d94e3" sha1="d4a70d56bb01d27d094d73db8667ffb00ca69cb9" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="pacmanx.5e" offset="0x0" size="0x4000" crc="a45138ce" sha1="f18344980b4a58d0abf0cc2b7853184af3d5bfa0" />
+		<rom name="pacmanx.5f" offset="0x4000" size="0x4000" crc="92e1b10e" sha1="bb04988502fa181365c08096b5fd47fa9541c291" />
+		</dataarea>
+	</part>
+</software>
+<software name="pacmodx" cloneof="puckmanx">
+	<description>Pac-Man (Midway, harder) (hires hack)</description>
+	<year>1981</year>
+	<publisher>[Namco] (Midway license)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacmanh.6e" offset="0x0" size="0x1000" crc="3b2ec270" sha1="48fc607ad8d86249948aa377c677ae44bb8ad3da" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacmanh.6h" offset="0x2000" size="0x1000" crc="18811780" sha1="ab34acaa3dbcafe8b20c2197f36641e471984487" />
+		<rom name="pacmanh.6j" offset="0x3000" size="0x1000" crc="5c96a733" sha1="22ae15a6f088e7296f77c7487a350c4bd102f00e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="pacmodx.5e" offset="0x0" size="0x4000" crc="a05bc552" sha1="5c2350aeac14cafebfcb7ff012427b1d3c6adf62" />
+		<rom name="pacmanx.5f" offset="0x4000" size="0x4000" crc="92e1b10e" sha1="bb04988502fa181365c08096b5fd47fa9541c291" />
+		</dataarea>
+	</part>
+</software>
+<software name="pacplusx" cloneof="puckmanx">
+	<description>Pac-Man Plus (hires hack)</description>
+	<year>1982</year>
+	<publisher>[Namco] (Midway license)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacplus.6e" offset="0x0" size="0x1000" crc="d611ef68" sha1="8531c54ca6b0de0ea4ccc34e0e801ba9847e75bc" />
+		<rom name="pacplus.6f" offset="0x1000" size="0x1000" crc="c7207556" sha1="8ba97215bdb75f0e70eb8d3223847efe4dc4fb48" />
+		<rom name="pacplus.6h" offset="0x2000" size="0x1000" crc="ae379430" sha1="4e8613d51a80cf106f883db79685e1e22541da45" />
+		<rom name="pacplus.6j" offset="0x3000" size="0x1000" crc="5a6dff7b" sha1="b956ae5d66683aab74b90469ad36b5bb361d677e" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="pacplusx.5e" offset="0x0" size="0x4000" crc="06b08556" sha1="982329d9568ee1a6edb8a1ed39686a33f65a1411" />
+		<rom name="pacplusx.5f" offset="0x4000" size="0x4000" crc="57e9f865" sha1="e40f5a34b597e32bbc230ae3ad5f32cdbadf2438" />
+		</dataarea>
+	</part>
+</software>
+<software name="pheartx" cloneof="puckmanx">
+	<description>Pac-Man (Hearts) (hires hack)</description>
+	<year>1981</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacheart.6e" offset="0x0" size="0x800" crc="d844b679" sha1="c4486198b3126bb8e05a308c53787e51065f77ae" />
+		<rom name="pacheart.6k" offset="0x800" size="0x800" crc="b9152a38" sha1="b6be2cb6bc7dd123503eb6bf1165dd1c99456813" />
+		<rom name="puckman.6f" offset="0x1000" size="0x800" crc="7d177853" sha1="9b5ddaaa8b564654f97af193dbcc29f81f230a25" />
+		<rom name="pacheart.6m" offset="0x1800" size="0x800" crc="842d6574" sha1="40e32d09cc8d701eb318716493a68cf3f95d3d6d" />
+		<rom name="pacheart.6h" offset="0x2000" size="0x800" crc="9045a44c" sha1="a97d7016effbd2ace9a7d92ceb04a6ce18fb42f9" />
+		<rom name="pacheart.6n" offset="0x2800" size="0x800" crc="888f3c3e" sha1="c2b5917bf13071131dd53ea76f0da86706db2d80" />
+		<rom name="pacheart.6j" offset="0x3000" size="0x800" crc="f5265c10" sha1="9a320790d7a03fd6192a92d30b3e9c754bbc6a9d" />
+		<rom name="pacheart.6p" offset="0x3800" size="0x800" crc="1a21a381" sha1="d5367a327d19fb57ba5e484bd4fda1b10953c040" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="pheartx.5e" offset="0x0" size="0x4000" crc="868825e6" sha1="0cbe23ad47ef77f4ddfc0d476704a79701c621f1" />
+		<rom name="pheartx.5f" offset="0x4000" size="0x4000" crc="b7d222ba" sha1="83a6bceff705bc2f7d7766f417ba5a9aa2a9a28e" />
+		</dataarea>
+	</part>
+</software>
+<software name="puckmanx">
+	<description>PuckMan (Japan set 1, Probably Bootleg) (hires hack)</description>
+	<year>1980</year>
+	<publisher>Namco</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pac25.6e" offset="0x0" size="0x1000" crc="fee263b3" sha1="87117ba5082cd7a615b4ec7c02dd819003fbd669" />
+		<rom name="puckmanb.6f" offset="0x1000" size="0x1000" crc="39d1fc83" sha1="326dbbf94c6fa2e96613dedb53702f8832b47d59" />
+		<rom name="puckmanb.6h" offset="0x2000" size="0x1000" crc="02083b03" sha1="7e1945f6eb51f2e51806d0439f975f7a2889b9b8" />
+		<rom name="puckmanb.6j" offset="0x3000" size="0x1000" crc="7a36fe55" sha1="01b4c38108d9dc4e48da4f8d685248e1e6821377" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="pacmanx.5e" offset="0x0" size="0x4000" crc="a45138ce" sha1="f18344980b4a58d0abf0cc2b7853184af3d5bfa0" />
+		<rom name="pacmanx.5f" offset="0x4000" size="0x4000" crc="92e1b10e" sha1="bb04988502fa181365c08096b5fd47fa9541c291" />
+		</dataarea>
+	</part>
+</software>
+<software name="puckmnax" cloneof="puckmanx">
+	<description>PuckMan (Japan set 2) (hires hack)</description>
+	<year>1980</year>
+	<publisher>Namco</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pacman.6e" offset="0x0" size="0x1000" crc="c1e6ab10" sha1="e87e059c5be45753f7e9f33dff851f16d6751181" />
+		<rom name="pacman.6f" offset="0x1000" size="0x1000" crc="1a6fb2d4" sha1="674d3a7f00d8be5e38b1fdc208ebef5a92d38329" />
+		<rom name="pacman.6h" offset="0x2000" size="0x1000" crc="bcdd1beb" sha1="8e47e8c2c4d6117d174cdac150392042d3e0a881" />
+		<rom name="puckman.6j" offset="0x3000" size="0x800" crc="b6289b26" sha1="d249fa9cdde774d5fee7258147cd25fa3f4dc2b3" />
+		<rom name="puckman.6p" offset="0x3800" size="0x800" crc="17a88c13" sha1="eb462de79f49b7aa8adb0cc6d31535b10550c0ce" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="puckmnax.5e" offset="0x0" size="0x4000" crc="c8d9349e" sha1="8ca4045fe888b78306017a5e17b180d13b37e436" />
+		<rom name="pacmanx.5f" offset="0x4000" size="0x4000" crc="92e1b10e" sha1="bb04988502fa181365c08096b5fd47fa9541c291" />
+		</dataarea>
+	</part>
+</software>
+<software name="puckmnfx" cloneof="puckmanx">
+	<description>PuckMan (Japan set 1) (hires hack) [f]</description>
+	<year>1980</year>
+	<publisher>Namco</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pac25.6e" offset="0x0" size="0x1000" crc="fee263b3" sha1="87117ba5082cd7a615b4ec7c02dd819003fbd669" />
+		<rom name="puckmanf.6f" offset="0x1000" size="0x1000" crc="51b38db9" sha1="0a796f93462aec4758c2aa1c1f34cd05bb10a178" />
+		<rom name="puckmanb.6h" offset="0x2000" size="0x1000" crc="02083b03" sha1="7e1945f6eb51f2e51806d0439f975f7a2889b9b8" />
+		<rom name="puckmanb.6j" offset="0x3000" size="0x1000" crc="7a36fe55" sha1="01b4c38108d9dc4e48da4f8d685248e1e6821377" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="pacmanx.5e" offset="0x0" size="0x4000" crc="a45138ce" sha1="f18344980b4a58d0abf0cc2b7853184af3d5bfa0" />
+		<rom name="pacmanx.5f" offset="0x4000" size="0x4000" crc="92e1b10e" sha1="bb04988502fa181365c08096b5fd47fa9541c291" />
+		</dataarea>
+	</part>
+</software>
+<software name="puckmnhx" cloneof="puckmanx">
+	<description>Puckman (Falcom?) (hires hack)</description>
+	<year>1980</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="hangly.6e" offset="0x0" size="0x1000" crc="5fe8610a" sha1="d63eaebd85e10aa6c27bb7f47642dd403eeb6934" />
+		<rom name="puckmanh.6f" offset="0x1000" size="0x1000" crc="61d38c6c" sha1="1406aacdc9c8a3776e5853d214380ad3124408f4" />
+		<rom name="hangly.6h" offset="0x2000" size="0x1000" crc="4e7ef99f" sha1="bd42e68b29b4d654dc817782ba00db69b7d2dfe2" />
+		<rom name="puckmanh.6j" offset="0x3000" size="0x1000" crc="8939ddd2" sha1="cf769bb34f711cfd0ee75328cd5dc07442f88607" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="pacmodx.5e" offset="0x0" size="0x4000" crc="a05bc552" sha1="5c2350aeac14cafebfcb7ff012427b1d3c6adf62" />
+		<rom name="pacmanx.5f" offset="0x4000" size="0x4000" crc="92e1b10e" sha1="bb04988502fa181365c08096b5fd47fa9541c291" />
+		</dataarea>
+	</part>
+</software>
+<software name="puckmodx" cloneof="puckmanx">
+	<description>PuckMan (Japan set 3) (hires hack)</description>
+	<year>1981</year>
+	<publisher>Namco</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="pac25.6e" offset="0x0" size="0x1000" crc="fee263b3" sha1="87117ba5082cd7a615b4ec7c02dd819003fbd669" />
+		<rom name="puckmanb.6f" offset="0x1000" size="0x1000" crc="39d1fc83" sha1="326dbbf94c6fa2e96613dedb53702f8832b47d59" />
+		<rom name="puckmanb.6h" offset="0x2000" size="0x1000" crc="02083b03" sha1="7e1945f6eb51f2e51806d0439f975f7a2889b9b8" />
+		<rom name="puckmod.6j" offset="0x3000" size="0x1000" crc="7d98d5f5" sha1="39939bcd6fb785d0d06fd29f0287158ab1267dfc" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x8000">
+		<rom name="pacmanx.5e" offset="0x0" size="0x4000" crc="a45138ce" sha1="f18344980b4a58d0abf0cc2b7853184af3d5bfa0" />
+		<rom name="pacmanx.5f" offset="0x4000" size="0x4000" crc="92e1b10e" sha1="bb04988502fa181365c08096b5fd47fa9541c291" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

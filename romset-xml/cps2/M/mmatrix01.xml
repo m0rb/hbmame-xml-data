@@ -1,0 +1,25 @@
+<software name="mmatrix01" cloneof="mmatrix">
+	<description>Mars Matrix: Hyper Solid Shooting (250412U)(improvement)</description>
+	<year>2025</year>
+	<publisher>Trap15</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c82s01.p1" offset="0x0" size="0x80000" crc="a578097b" sha1="7d7153d58930d07aca61b9cddab650b687db51ff" />
+		<rom loadflag="load16_word_swap" name="c82.p2" offset="0x80000" size="0x80000" crc="0135fc6c" sha1="e40c8fa51dcb300b3ee72dc7de137e0b39dea490" />
+		<rom loadflag="load16_word_swap" name="c82s01.p3" offset="0x100000" size="0x80000" crc="a1fbd3d8" sha1="87a2494c88de302b10bb70a218d74ccf6b3b59a8" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c82s01.01" offset="0x0" size="0x8000" crc="45a29ce5" sha1="f06f4479188c21e8be08797e4d86769c85aaaa1b" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="mmatrix.key" offset="0x0" size="0x14" crc="8ed66bc4" sha1="324d7bf9d95220ecab140b1385eba7087f1a9669" />
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c82.q1" offset="0x0" size="0x400000" crc="4180b39f" sha1="cabb1c358eae1bb6cfed07f5b92e4acd38650667" />
+		<rom loadflag="load16_word_swap" name="c82.q2" offset="0x400000" size="0x400000" crc="95e22a59" sha1="b3431d170c0a1a0d826ad0af21300b9180e3f114" />
+		</dataarea>
+	</part>
+</software>

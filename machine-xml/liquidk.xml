@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="liquidk" description="Liquidk cartridges">
+<software name="mizubak01">
+	<description>Mizubaku Daibouken (Chinese)</description>
+	<year>1990</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom loadflag="load16_byte" name="c49-09_s01.ic47" offset="0x0" size="0x20000" crc="1c37f50e" sha1="c393f073f83b39198bb94fc35d1291f802f0696d" />
+		<rom loadflag="load16_byte" name="c49-11_s01.ic48" offset="0x1" size="0x20000" crc="9fcf7877" sha1="922e7af3fb581c23adaccf11dc8e9b0bf42339e8" />
+		<rom loadflag="load16_byte" name="c49-10_s01.ic45" offset="0x40000" size="0x20000" crc="7e536034" sha1="79d2ce3524a08f670c970d7ac341e7242e9fab97" />
+		<rom loadflag="load16_byte" name="c49-13_s01.ic46" offset="0x40001" size="0x20000" crc="9f63a664" sha1="476aefc3f0724dae96c406c69db8e83106db94b0" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x1c000">
+		<rom name="c49-08.ic32" offset="0x0" size="0x10000" crc="413c310c" sha1="cecb1c0c9fe3c8b744f95ce29009650a289107ab" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x80000">
+		<rom name="c49-04.ic33" offset="0x0" size="0x80000" crc="474d45a4" sha1="20cb818d753a185973098007e645f1aa75c5528d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom name="c49-01.ic54" offset="0x0" size="0x80000" crc="67cc3163" sha1="f898d52c136f07497ec6be214f016cbadc700055" />
+		<rom name="c49-02hc01.ic53" offset="0x80000" size="0x80000" crc="ed8d37b2" sha1="bc0c69ab93f8d334f4f2b8d7ff31963910b5f394" />
+		</dataarea>
+		<dataarea name="tc0100scn_1" size="0x80000">
+		<rom loadflag="load16_word_swap" name="c49-03.ic76" offset="0x0" size="0x80000" crc="c3364f9b" sha1="3512a8c352df8b8f19590c859afb8fdec758eb91" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

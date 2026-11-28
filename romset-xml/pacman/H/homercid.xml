@@ -1,0 +1,21 @@
+<software name="homercid" cloneof="puckman">
+	<description>Homercide</description>
+	<year>2005</year>
+	<publisher>David Widel</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="homercid.6e" offset="0x0" size="0x1041" crc="2768e80e" sha1="aaf78f4a1bea4aba3e44275ccfbc2ee641a3b8ff" />
+		<rom name="homercid.6f" offset="0x1000" size="0x1000" crc="3858d8b7" sha1="44560196ca888a82669d94687c964373fd0ffc4d" />
+		<rom name="homercid.6h" offset="0x2000" size="0x1003" crc="d61413d0" sha1="a5ea1fdc50e2d185440e38a01837a6c5a5b89484" />
+		<rom name="homercid.6j" offset="0x3000" size="0x1003" crc="e8b53076" sha1="c8fe2c2c637a87356a95176bc333ca28f63ae00a" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="homercid.5e" offset="0x0" size="0x1000" crc="4879edc5" sha1="abde239a818a7025e629e59490479da700d70538" />
+		<rom name="homercid.5f" offset="0x1000" size="0x1000" crc="475e51c9" sha1="478d1907f448f40f50b1b2ca1ddabc5b818e7003" />
+		</dataarea>
+		<dataarea name="proms" size="0x120">
+		<rom name="homercid.7f" offset="0x0" size="0x20" crc="2b7e868a" sha1="28976b3b7a2ea112da1d7af0366090f8a172dbb6" />
+		<rom name="homercid.4a" offset="0x20" size="0x100" crc="9717a6be" sha1="00497d00c45d48570de0ab6ca8fea42cdb38eb85" />
+		</dataarea>
+	</part>
+</software>

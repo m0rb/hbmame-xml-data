@@ -1,0 +1,28 @@
+<software name="sfexp01" cloneof="sfexp">
+	<description>Street Fighter EX Plus (Enable Hidden Characters)</description>
+	<year>1997</year>
+	<publisher>Yumeji</publisher>
+	<part name="cart">
+		<dataarea name="audiocpu" size="0x40000">
+		<rom name="sfe_02.2e" offset="0x0" size="0x20000" crc="1908475c" sha1="99f68cff2d92f5697eec0846201f6fb317d5dc08" />
+		<rom name="sfe_03.3e" offset="0x20000" size="0x20000" crc="95c1e2e0" sha1="383bbe9613798a3ac6944d18768280a840994e40" />
+		</dataarea>
+		<dataarea name="bankedroms" endianness="little" size="0x2400000">
+		<rom name="sfp-05m_s01.3h" offset="0x0" size="0x400000" crc="449cf487" sha1="1bad501d328169e04dab371b669e2952541db408" />
+		<rom name="sfp-06m.4h" offset="0x400000" size="0x400000" crc="1d504758" sha1="bd56141aba35dbb5b318445ba5db12eff7442221" />
+		<rom name="sfp-07m.5h" offset="0x800000" size="0x400000" crc="0f585f30" sha1="24ffdbc360f8eddb702905c99d315614327861a7" />
+		<rom name="sfp-08m.2k" offset="0xc00000" size="0x400000" crc="65eabc61" sha1="bbeb3bcd8dd8f7f88ed82412a81134a3d6f6ffd9" />
+		<rom name="sfp-09m.3k" offset="0x1000000" size="0x400000" crc="15f8b71e" sha1="efb28fbe750f443550ee9718385355aae7e858c9" />
+		<rom name="sfp-10m.4k" offset="0x1400000" size="0x400000" crc="c1ecf652" sha1="616e14ff63d38272730c810b933a6b3412e2da17" />
+		</dataarea>
+		<dataarea name="cat702_2" size="0x8">
+		<rom name="cp04" offset="0x0" size="0x8" crc="e0dc24ae" sha1="17d6e3dc11308195f4c46a6cd8093db9eaf584e5" />
+		</dataarea>
+		<dataarea name="countryrom" endianness="little" size="0x80000">
+		<rom name="sfpu_04a.2h" offset="0x0" size="0x80000" crc="4617adc2" sha1="200307904349ad7e5d7d76d8c904b6b10424c7ef" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="sfe-01m.3b" offset="0x0" size="0x400000" crc="f5afff0d" sha1="7f9ac32ba0a3d9c6fef367e36a92d47c9ac1feb3" />
+		</dataarea>
+	</part>
+</software>

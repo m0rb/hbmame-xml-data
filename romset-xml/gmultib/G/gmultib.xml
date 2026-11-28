@@ -1,0 +1,19 @@
+<software name="gmultib" cloneof="galnamco">
+	<description>Galaxian Multigame (2022)</description>
+	<year>2022</year>
+	<publisher>Macro</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x80000">
+		<rom name="b_code.bin" offset="0x0" size="0x80000" crc="5635ed48" sha1="703aa21c58f58902c56fa3710db2523ae84877e0" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x20000">
+		<rom name="b_gfx1.bin" offset="0x0" size="0x10000" crc="63b8420d" sha1="3cbc101165b02c0a64b8406bf91af42f9142512c" />
+		<rom name="b_gfx2.bin" offset="0x10000" size="0x10000" crc="f962d3f7" sha1="bd9aab0a511a8679280a83a2f8bbd1e82faf64d1" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		</dataarea>
+		<dataarea name="user1" size="0x400">
+		<rom name="b_col.bin" offset="0x0" size="0x400" crc="c9320883" sha1="814d42545a81f3316b564e52817c72b193f974ea" />
+		</dataarea>
+	</part>
+</software>

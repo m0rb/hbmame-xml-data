@@ -1,0 +1,21 @@
+<software name="wboyn">
+	<description>Wonder Boy (Neo-Geo port, v1.0)</description>
+	<year>2026</year>
+	<publisher>ShinobiZ</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x100000">
+		<rom loadflag="load16_word_swap" name="559.p1" offset="0x0" size="0x100000" crc="421f6da8" sha1="c253b714a7acbf52a0f7ab8e602d4748cc38761a" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x20000">
+		<rom name="559.v1" offset="0x0" size="0x20000" crc="2653a1af" sha1="1389baefaf3f4b9fff720c3c5b05d29336e4a660" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcmb" size="0x800000">
+		<rom name="559.v21" offset="0x0" size="0x800000" crc="9046a188" sha1="4690ce6530ee20a528caad2c57648dc44dad80e5" />
+		</dataarea>
+		<dataarea name="sprites" size="0x100000">
+		<rom loadflag="load16_byte" name="559.c1" offset="0x0" size="0x80000" crc="e77a9b57" sha1="4425748e65b666b701f9c34998daff64b76db073" />
+		<rom loadflag="load16_byte" name="559.c2" offset="0x1" size="0x80000" crc="d0ac95d7" sha1="798e5cb77b14014d3a8f08cfe211fa549e2585a0" />
+		</dataarea>
+	</part>
+</software>

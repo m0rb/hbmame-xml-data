@@ -1,0 +1,24 @@
+<software name="qadjr" cloneof="qad">
+	<description>Quiz &amp; Dragons: Capcom Quiz Game (Japan Resale Ver. 940921)</description>
+	<year>1994</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c22jr.p1" offset="0x0" size="0x80000" crc="4d3553de" sha1="07eabcb02fbbe11397ce91405a2e6bb53b3d5d4f" />
+		<rom loadflag="load16_word_swap" name="c22jr.p5" offset="0x80000" size="0x80000" crc="3191ddd0" sha1="2806021a5dc809ca43692bbe9c4f5ef690c9ac14" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c22jr.m1" offset="0x0" size="0x8000" crc="733161cc" sha1="dfb8c5a1037bd3b2712fb327122ec39ceb993b8d" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="qadjr.key" offset="0x0" size="0x80" crc="30f6d9a2" sha1="a64128336c4168a70cc5129805710316552d2a14" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c22jr.v1" offset="0x0" size="0x20000" crc="2bfe6f6a" sha1="b2a98ac034c65b7ac8167431f05f35d4799032ea" />
+		<rom name="c22jr.v2" offset="0x20000" size="0x20000" crc="13d3236b" sha1="785d49de484e9ac6971eaceebebfecb8e58563f6" />
+		</dataarea>
+	</part>
+</software>

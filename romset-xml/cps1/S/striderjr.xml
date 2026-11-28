@@ -1,0 +1,26 @@
+<software name="striderjr" cloneof="strider">
+	<description>Strider Hiryu (Japan Resale Ver.)</description>
+	<year>1989</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c03jr.p1" offset="0x0" size="0x80000" crc="046e7b12" sha1="a5761f730f6844a7e93556a6aeae76240a99540c" />
+		<rom loadflag="load16_word_swap" name="c03.p5" offset="0x80000" size="0x80000" crc="9b3cfc08" sha1="a7d7f270a097437affa845d80bed82a1fa874878" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c03ua.m1" offset="0x0" size="0x8000" crc="08d63519" sha1="c120ecfe25c3c50bc51bc7d5a9ef1c8ca6591240" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="striderjr.key" offset="0x0" size="0x80" crc="8a7819d0" sha1="918e8ffbdeabadc2015d6a03274c4e3fb4a0e744" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c03.v1" offset="0x0" size="0x20000" crc="4386bc80" sha1="fb2b261995aeacfa13e7ee40b1a973dfb178f015" />
+		<rom name="c03.v2" offset="0x20000" size="0x20000" crc="444536d7" sha1="a14f5de2f6b5b29ae5161dca1f8c08c566301a91" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>

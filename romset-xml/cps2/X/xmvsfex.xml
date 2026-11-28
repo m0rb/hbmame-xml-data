@@ -1,0 +1,30 @@
+<software name="xmvsfex" cloneof="xmvsf">
+	<description>X-Men Vs. Street Fighter EX (USA, 2026-11-18)</description>
+	<year>2026</year>
+	<publisher>strygo</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="xvsex.03m" offset="0x0" size="0x80000" crc="1c84f758" sha1="7dda5530e2230caccc0afc97cebbc0ef751bdf1c" />
+		<rom loadflag="load16_word_swap" name="xvsex.04m" offset="0x80000" size="0x80000" crc="29ba42f3" sha1="80bf6e0af01bc4cfb953366af9b114fda34e200f" />
+		<rom loadflag="load16_word_swap" name="xvsex.05a" offset="0x100000" size="0x80000" crc="1f529c46" sha1="4b900322f559ef1cce46e058c7bbc2dd9192c2c5" />
+		<rom loadflag="load16_word_swap" name="xvsex.06a" offset="0x180000" size="0x80000" crc="d092a016" sha1="7707cd5b3a4c8bd861f9f389b6362292e2591247" />
+		<rom loadflag="load16_word_swap" name="xvsex.07" offset="0x200000" size="0x80000" crc="3c5a5031" sha1="e489c719d1506acc37e3349051b1c1c1aafd6266" />
+		<rom loadflag="load16_word_swap" name="xvs.08" offset="0x280000" size="0x80000" crc="81929675" sha1="19cf7afbc1daaefec40195e40ba74970f3906a1c" />
+		<rom loadflag="load16_word_swap" name="xvsex.09" offset="0x300000" size="0x80000" crc="0940b4c6" sha1="a63ea3f766c7fb380f65af3fbad0089667d3293e" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="xvsex.01" offset="0x0" size="0x8000" crc="b28fa987" sha1="5eaa04a8737ce67440b472180bede3d799013cd0" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="xvs.02" offset="0x28000" size="0x20000" crc="101bdee9" sha1="75920e88bf46fcd33a7957777a1d799818ffb0d6" />
+		</dataarea>
+		<dataarea name="gfx" size="0x2000000">
+		</dataarea>
+		<dataarea name="key" size="0x20">
+		<rom name="xmvsfj.key" offset="0x0" size="0x14" crc="87576cda" sha1="65905400f4462c175baa93b43e015e8596def31b" />
+		</dataarea>
+		<dataarea name="qsound" size="0x400000">
+		<rom loadflag="load16_word_swap" name="xvs.11m" offset="0x0" size="0x200000" crc="9cadcdbc" sha1="64d3bd53b04daec84c9af4aa3ff010867b3d306d" />
+		<rom loadflag="load16_word_swap" name="xvs.12m" offset="0x200000" size="0x200000" crc="7b11e460" sha1="a581c84acaaf0ce056841c15a6f36889e88be68d" />
+		</dataarea>
+	</part>
+</software>

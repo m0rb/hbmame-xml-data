@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="mschamp" description="Mschamp cartridges">
+<software name="mschamp" cloneof="mspacman">
+	<description>Ms. Pacman Champion Edition / Super Zola Pac Gal</description>
+	<year>1995</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x20000">
+		<rom name="pm4.bin" offset="0x10000" size="0x10000" crc="7d6b6303" sha1="65ad72a9188422653c02a48c07ed2661e1e36961" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="pm5.bin" offset="0x0" size="0x800" crc="7fe6b9e2" sha1="bfd0d84c7ef909ae078d8f60340682b3ff230aa6" />
+		<rom loadflag="continue" offset="0x1000" size="0x800" />
+		<rom loadflag="continue" offset="0x800" size="0x800" />
+		<rom loadflag="continue" offset="0x1800" size="0x800" />
+		</dataarea>
+	</part>
+</software>
+</softwarelist>

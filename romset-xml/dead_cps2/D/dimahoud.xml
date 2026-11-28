@@ -1,0 +1,24 @@
+<software name="dimahoud" cloneof="dimahoo">
+	<description>Dimahoo (USA 000121 Phoenix Edition) (bootleg)</description>
+	<year>2000</year>
+	<publisher>bootleg</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_word_swap" name="c81ud.p1" offset="0x0" size="0x80000" crc="12888435" sha1="38204359c505ae861341936cd0fd2517411b8995" />
+		<rom loadflag="load16_word_swap" name="c81.p2" offset="0x80000" size="0x80000" crc="37485567" sha1="643c41fce6057bcaef0e0bedc62914c33d97eeaf" />
+		<rom loadflag="load16_word_swap" name="c81.p3" offset="0x100000" size="0x80000" crc="da269ffb" sha1="e99b04192030b6006cf67b563f40cea29c1b2e78" />
+		<rom loadflag="load16_word_swap" name="c81ud.p4" offset="0x180000" size="0x80000" crc="d825efda" sha1="7299f3629d5136f567f5cf373754ea13b2190533" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x50000">
+		<rom name="c81.m1" offset="0x0" size="0x8000" crc="3f9bc985" sha1="1616bbee82877b1052a07531066f5009a80706be" />
+		<rom loadflag="continue" offset="0x10000" size="0x18000" />
+		<rom name="c81.m2" offset="0x28000" size="0x20000" crc="3fd39dde" sha1="6a6e3ef9baa430ee83ab2312aa0221bae4d73dbd" />
+		</dataarea>
+		<dataarea name="gfx" size="0x1000000">
+		</dataarea>
+		<dataarea name="qsound" size="0x800000">
+		<rom loadflag="load16_word_swap" name="c81.q1" offset="0x0" size="0x400000" crc="06a65542" sha1="a1b3df70c90055a3cd59d0149fd18a74eff5bcc9" />
+		<rom loadflag="load16_word_swap" name="c81.q2" offset="0x400000" size="0x400000" crc="50bc7a31" sha1="7283569fc646c39f4c693f14e0ce7ff2ee49111a" />
+		</dataarea>
+	</part>
+</software>

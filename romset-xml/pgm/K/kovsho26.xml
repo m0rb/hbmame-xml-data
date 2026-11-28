@@ -1,0 +1,29 @@
+<software name="kovsho26" cloneof="kovshp">
+	<description>Knights of Valour Super Heroes Plus (Three Kingdoms Wars - Heroes Of The World 2.5)</description>
+	<year>2004</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x600000">
+		<rom loadflag="load16_word_swap" name="p0600h_101_po26.rom" offset="0x100000" size="0x400000" crc="36791ca6" sha1="e9a0e526aca2afd3c7bc949896d0aadaaadff21d" />
+		</dataarea>
+		<dataarea name="ics" size="0x800000">
+		<rom name="m0600_po26.rom" offset="0x400000" size="0x400000" crc="510c565a" sha1="7a8c7c0dea25a0a606009565b466f1a9e86531a0" />
+		</dataarea>
+		<dataarea name="prot" size="0x4000">
+		<rom name="kovsh_v100_china_po24.asic" offset="0x0" size="0x4000" crc="7a458e3e" sha1="2a30ea63ba59c57b1f6ab02ca57316bc5ebc298c" />
+		</dataarea>
+		<dataarea name="sprcol" endianness="little" size="0x2000000">
+		<rom name="a0600_po24.rom" offset="0x0" size="0x800000" crc="3dc11e1c" sha1="25e453e985852fcd001fe2bf6aaf7c8335b8cbdb" />
+		<rom name="pgm_a0601.u4" offset="0x800000" size="0x800000" crc="ff7a4373" sha1="7def9fca7513ad5a117da230bebd2e3c78679041" />
+		<rom name="pgm_a0602.u6" offset="0x1000000" size="0x800000" crc="e7a32959" sha1="3d0ed684dc5b269238890836b2ce7ef46aa5265b" />
+		<rom name="a0540_po26.rom" offset="0x1800000" size="0x800000" crc="cf39dbcd" sha1="9e3cae12b2854bb576ac3c3011a8ea86d8d30ff8" />
+		</dataarea>
+		<dataarea name="sprmask" endianness="little" size="0x1000000">
+		<rom name="b0600_po24.rom" offset="0x0" size="0x800000" crc="b023e76f" sha1="17c02d2b62b96eab5960f416e1033f15608ebb0c" />
+		<rom name="b0540_po25.rom" offset="0x800000" size="0x800000" crc="c71d3cde" sha1="8572af4548d6a8727e8019c8424ae3eb7e2d61a4" />
+		</dataarea>
+		<dataarea name="tiles" size="0xc00000">
+		<rom name="pgm_t0600.u2" offset="0x180000" size="0x800000" crc="4acc1ad6" sha1="0668dbd5e856c2406910c6b7382548b37c631780" />
+		</dataarea>
+	</part>
+</software>

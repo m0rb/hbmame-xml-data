@@ -1,0 +1,30 @@
+<software name="willowj" cloneof="willow">
+	<description>Willow (Japan)</description>
+	<year>1989</year>
+	<publisher>Capcom</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c05j.p1" offset="0x0" size="0x20000" crc="2b0d7cbc" sha1="58172b4fdf856efa8d77abbde76738de2424f712" />
+		<rom loadflag="load16_byte" name="c05j.p2" offset="0x1" size="0x20000" crc="1ac39615" sha1="c9fa6d20418b9bdc5a08df1fb86368b40709280a" />
+		<rom loadflag="load16_byte" name="c05j.p3" offset="0x40000" size="0x20000" crc="30a717fa" sha1="cb815e9ee2691761925898e3932b502f8f399cb4" />
+		<rom loadflag="load16_byte" name="c05j.p4" offset="0x40001" size="0x20000" crc="d0dddc9e" sha1="1176b9a43b3355a5ba44e59abde01ee7eaa89c25" />
+		<rom loadflag="load16_byte" name="c05j.p5" offset="0x80000" size="0x20000" crc="23a84f7a" sha1="f7667ffc85e2dfb78f5ed8ea54b6223e7375433a" />
+		<rom loadflag="load16_byte" name="c05j.p6" offset="0x80001" size="0x20000" crc="c7a0ed21" sha1="190aec48a8f528652b434425f64ea2e52029ad3d" />
+		<rom loadflag="load16_byte" name="c05j.p7" offset="0xc0000" size="0x20000" crc="5eff7951" sha1="f336bfd07f3083e3b3e72c61d03abb52d443204d" />
+		<rom loadflag="load16_byte" name="c05j.p8" offset="0xc0001" size="0x20000" crc="8d6477a3" sha1="1bdb98f89ec8c2dcd47ab90bdd1be862ea59a16b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x18000">
+		<rom name="c05.m1" offset="0x0" size="0x8000" crc="f6b3d060" sha1="0ed2e2f64ba53ba2c371b66ab1e52e40b16d8baf" />
+		<rom loadflag="continue" offset="0x10000" size="0x8000" />
+		</dataarea>
+		<dataarea name="control" size="0x80">
+		<rom name="willowj.key" offset="0x0" size="0x80" crc="d5585dd6" sha1="a6617dac4121c7e98e334cf3bacb44c196a88e9f" />
+		</dataarea>
+		<dataarea name="gfx" size="0x400000">
+		</dataarea>
+		<dataarea name="oki" size="0x40000">
+		<rom name="c05.v1" offset="0x0" size="0x20000" crc="bde23d4d" sha1="d1fee2f99c858dfb07edcd600da491c7b656afe0" />
+		<rom name="c05.v2" offset="0x20000" size="0x20000" crc="683898f5" sha1="316a77b663d78c8b9ff6d85756cb05aaaeef4003" />
+		</dataarea>
+	</part>
+</software>

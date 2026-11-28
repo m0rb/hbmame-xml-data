@@ -1,0 +1,13 @@
+<software name="tinyvadr">
+	<description>Tiny Vaders</description>
+	<year>1978</year>
+	<publisher>Zeroco</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x6000">
+		<rom name="tinyvadr.h" offset="0x0" size="0x800" crc="bf3121f7" sha1="dd57aa57f05397d7b610df55847666156886f2c9" />
+		<rom name="tinyvadr.g" offset="0x800" size="0x800" crc="ac58c700" sha1="976a4981eb861614ba1f7a857bb387fc499f5f29" />
+		<rom name="tinyvadr.f" offset="0x1000" size="0x800" crc="4d5cbcf8" sha1="ff0eb2e01577c1ea18234dfcc9a3ea69fe32bd75" />
+		<rom name="tinyvadr.e" offset="0x1800" size="0x800" crc="387e15f9" sha1="2925b6149370e7cc4bdb651c50f1e8894d5ea0b2" />
+		</dataarea>
+	</part>
+</software>

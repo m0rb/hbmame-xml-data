@@ -1,0 +1,22 @@
+<software name="dinon">
+	<description>Cadillacs and Dinosaurs (Neo-Geo port, test-47)</description>
+	<year>2026</year>
+	<publisher>Teo Tormo</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="546.p1" offset="0x0" size="0x100000" crc="e560bd6a" sha1="e0afcb203f6473da8dc94acfc9b39479ecd4ccbd" />
+		<rom loadflag="load16_word_swap" name="546.p2" offset="0x100000" size="0x100000" crc="2234ae31" sha1="d172f5979e09bc9f99b1e1778ab19f589bc29f88" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="546.v1" offset="0x0" size="0x400000" crc="c1196da4" sha1="f0fcbc1cc6ab86d37a47ce3434886b9c62bcb22c" />
+		<rom name="546.v2" offset="0x400000" size="0x400000" crc="e7b0c54d" sha1="87e140b9e7f70d34e5dc36e5949c78f20f15ac78" />
+		<rom name="546.v3" offset="0x800000" size="0x400000" crc="aead8ee1" sha1="2f91217c4cf3a57ce8dad7c0e13da42e94c8a461" />
+		<rom name="546.v4" offset="0xc00000" size="0x400000" crc="fcf02a41" sha1="80cd921c43f6de4b7ecad2462302603084034d0e" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="546.c1" offset="0x0" size="0x200000" crc="19df98d7" sha1="ce6e9d048525f2d37f0faf860565c767154e6a0e" />
+		<rom loadflag="load16_byte" name="546.c2" offset="0x1" size="0x200000" crc="eef954f7" sha1="1218ae46a8fd98e11cf260eea8a202a88f9acb5f" />
+		</dataarea>
+	</part>
+</software>

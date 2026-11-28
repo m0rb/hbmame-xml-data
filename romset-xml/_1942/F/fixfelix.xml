@@ -1,0 +1,51 @@
+<software name="fixfelix" cloneof="1942">
+	<description>Fix-it Felix Jr</description>
+	<year>2026</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x20000">
+		<rom name="felix.m3" offset="0x0" size="0x4000" crc="dd8674bc" sha1="99ded22e4cb965b0e7494f9f7f67f7fa73607a7c" />
+		<rom name="felix.m4" offset="0x4000" size="0x4000" crc="5132aa07" sha1="900a3dbdffafe88754772fbe3827be86993e44a6" />
+		<rom name="felix.m5" offset="0x10000" size="0x4000" crc="577c67b7" sha1="8a96cfb0d10d1e0b2bb25382f41feabf78166fd2" />
+		<rom name="sr-06.m6" offset="0x14000" size="0x2000" crc="821c6481" sha1="06becb6bf8b4bde3a458098498eecad566a87711" />
+		<rom name="sr-07.m7" offset="0x18000" size="0x4000" crc="5df525e1" sha1="70cd2910e2945db76bd6ebfa0ff09a5efadc2d0b" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="felix.c11" offset="0x0" size="0x4000" crc="c5bc3c50" sha1="1b76bdc9df3767cc3b767750294deacfb522ec2c" />
+		</dataarea>
+		<dataarea name="charprom" size="0x100">
+		<rom name="felix.f1" offset="0x0" size="0x100" crc="a7221b0c" sha1="6d87881afc60cd8cdd18836f1355b5fe426f5d0b" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x2000">
+		<rom name="felix.f2" offset="0x0" size="0x2000" crc="4ad5d2da" sha1="85691eb5d8d4ae02ea3b8d117bc2ac554e8e1526" />
+		</dataarea>
+		<dataarea name="gfx2" size="0xc000">
+		<rom name="felix.a1" offset="0x0" size="0x2000" crc="b680a87e" sha1="52fb40009cced76f88998fb27ac0b74436dd1ba7" />
+		<rom name="felix.a2" offset="0x2000" size="0x2000" crc="7012777b" sha1="fe01e8d1a46e649d72f2f107ea77d0612056cabe" />
+		<rom name="felix.a3" offset="0x4000" size="0x2000" crc="6f66de6f" sha1="bd10929db3c2addbd761587391ca8e45e756fffd" />
+		<rom name="felix.a4" offset="0x6000" size="0x2000" crc="82a48938" sha1="ac671e62a24f4407f09e0dfabf414faba6b711d1" />
+		<rom name="felix.a5" offset="0x8000" size="0x2000" crc="47b9c9bc" sha1="775499fb686d941c7f4c2767a1ef57ef3540240f" />
+		<rom name="felix.a6" offset="0xa000" size="0x2000" crc="334ffec6" sha1="5760fb08f4a84d9e0cf3fe25dfdda8599f2ebd74" />
+		</dataarea>
+		<dataarea name="gfx3" size="0x10000">
+		<rom name="felix.l1" offset="0x0" size="0x4000" crc="f6eafcf0" sha1="b5f5f21fb9684e825971630c9d8d386588c9eb84" />
+		<rom name="felix.l2" offset="0x4000" size="0x4000" crc="da769a27" sha1="3ab1d205574c7b7c108b722be65cf6ef7273b31b" />
+		<rom name="felix.n1" offset="0x8000" size="0x4000" crc="102856b3" sha1="5d8e3b4835339ca8f714407c3bcb9d1171ce7a8b" />
+		<rom name="felix.n2" offset="0xc000" size="0x4000" crc="e9944bee" sha1="f15ac776052494902f8ea10d8f40e2dd43bf540d" />
+		</dataarea>
+		<dataarea name="irqprom" size="0x100">
+		<rom name="sb-1.k6" offset="0x0" size="0x100" crc="712ac508" sha1="5349d722ab6733afdda65f6e0a98322f0d515e86" />
+		</dataarea>
+		<dataarea name="palproms" size="0x300">
+		<rom name="felix.e8" offset="0x0" size="0x100" crc="353aa3a5" sha1="979b2bededa9c88d05bd4de3f5c11b8135d61218" />
+		<rom name="felix.e9" offset="0x100" size="0x100" crc="1eeca407" sha1="9091c893f0da318271226b853bb2805c9d6be86f" />
+		<rom name="felix.e10" offset="0x200" size="0x100" crc="2ea68c66" sha1="553b22cb9e9f1a5f01b3f1d9e3110b41aeb6b1cb" />
+		</dataarea>
+		<dataarea name="sprprom" size="0x100">
+		<rom name="felix.k3" offset="0x0" size="0x100" crc="17301db2" sha1="a2b2e2e07403a624224547ef1dae8146de5748f8" />
+		</dataarea>
+		<dataarea name="tileprom" size="0x100">
+		<rom name="felix.d6" offset="0x0" size="0x100" crc="16c50185" sha1="0aedee434e7f4cc803ee03bcd4f44e46d4b42c00" />
+		</dataarea>
+	</part>
+</software>

@@ -1,0 +1,16 @@
+<software name="pc_smb_ps62" cloneof="pc_smb">
+	<description>Super Mario Bros. (The Enemy Will Fire Bullets (Discontinuous) 2011-12-30)(PlayChoice-10)</description>
+	<year>2011</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps62" offset="0x0" size="0x2000" crc="00685ea2" sha1="38dff92028442ce512837eefb3e382fbb6092b80" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps62" offset="0x0" size="0x8000" crc="ef78ca04" sha1="5a6b0b4867e9e0877c26400dcf5509125d267f9c" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

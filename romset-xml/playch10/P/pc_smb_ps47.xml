@@ -1,0 +1,16 @@
+<software name="pc_smb_ps47" cloneof="pc_smb">
+	<description>Super Mario Bros. (Naked Mario, 2013-03-19)(PlayChoice-10)</description>
+	<year>2013</year>
+	<publisher>hack</publisher>
+	<part name="cart">
+		<dataarea name="gfx2" size="0x2000">
+		<rom name="u2sm_ps47" offset="0x0" size="0x2000" crc="25a1f9ee" sha1="8ee3b3244f483199c26cc0dde4df9aaacde3e1e8" />
+		</dataarea>
+		<dataarea name="prg" size="0x8000">
+		<rom name="u1sm_ps17" offset="0x0" size="0x8000" crc="885acc2b" sha1="448ed0051cb89a9d432b82e28a5e48a666f64fd0" />
+		</dataarea>
+		<dataarea name="rp5h01" size="0x10">
+		<rom name="security.prm" offset="0x0" size="0x10" crc="bd82d775" sha1="e15c369d638156eeb0cd141aeeec877c62810b64" />
+		</dataarea>
+	</part>
+</software>

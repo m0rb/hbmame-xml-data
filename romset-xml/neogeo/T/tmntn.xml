@@ -1,0 +1,21 @@
+<software name="tmntn">
+	<description>Teenage Mutant Ninja Turtles (Neo-Geo port, v1.2)</description>
+	<year>2026</year>
+	<publisher>Arcade Perfect Ports</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="561.p1" offset="0x0" size="0x100000" crc="88bf515e" sha1="3eb1cbc58801b1f439ce20f8abd9c640920a7d9e" />
+		<rom loadflag="load16_word_swap" name="561.p2" offset="0x100000" size="0x100000" crc="7dcfa8b5" sha1="06405757c88d5dc7f30b46858180c65b8439e4d5" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x800000">
+		<rom name="561.v1" offset="0x0" size="0x800000" crc="1c9752c4" sha1="d68b528f326030f5ee6143c516503d928e6b31d7" />
+		</dataarea>
+		<dataarea name="sprites" size="0xc00000">
+		<rom loadflag="load16_byte" name="561.c1" offset="0x0" size="0x200000" crc="a2440134" sha1="0a42a7a3315645148cd654a22de0674e68c63e1a" />
+		<rom loadflag="load16_byte" name="561.c2" offset="0x1" size="0x200000" crc="2c28a853" sha1="3159ea4b18613111333802453769ea1cc2d700be" />
+		<rom loadflag="load16_byte" name="561.c3" offset="0x800000" size="0x200000" crc="0e3ae39b" sha1="88ff015fc4b88764d7d69e987a6bad7ffff8bf17" />
+		<rom loadflag="load16_byte" name="561.c4" offset="0x800001" size="0x200000" crc="8a025d7e" sha1="e64cc9c1aa32f64d5a01d42a39a6b251ea8a48cd" />
+		</dataarea>
+	</part>
+</software>

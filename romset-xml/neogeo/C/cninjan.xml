@@ -1,0 +1,20 @@
+<software name="cninjan">
+	<description>Caveman Ninja (Neo-Geo port, v1.0.0)</description>
+	<year>2026</year>
+	<publisher>Bendk97</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="562.p1" offset="0x0" size="0x200000" crc="7c761dcb" sha1="12271c334239467313756211e6e72a31a4d32aae" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="562.v1" offset="0x0" size="0x1000000" crc="aeea977f" sha1="0c47a9534e040748c16cea4942895e38e0941401" />
+		</dataarea>
+		<dataarea name="sprites" size="0x800000">
+		<rom loadflag="load16_byte" name="562.c1" offset="0x0" size="0x200000" crc="3adc7801" sha1="fb0d36c479bec929b3e058f2ef66fc24d6a2d74e" />
+		<rom loadflag="load16_byte" name="562.c2" offset="0x1" size="0x200000" crc="a7485cc7" sha1="e9e95f86565ebcbdf58f379a63457ba61e21bba9" />
+		<rom loadflag="load16_byte" name="562.c3" offset="0x400000" size="0x200000" crc="70ff0d7d" sha1="0184b7156effdf49e7f8e25cd822c83e98126a3c" />
+		<rom loadflag="load16_byte" name="562.c4" offset="0x400001" size="0x200000" crc="13689f39" sha1="e2996bd03e488906bff0843451cb5e2c24afe913" />
+		</dataarea>
+	</part>
+</software>

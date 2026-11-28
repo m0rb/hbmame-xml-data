@@ -1,0 +1,27 @@
+<software name="scobtest">
+	<description>Super Cobra Test Rom (2019-01-27)</description>
+	<year>2019</year>
+	<publisher>Phil Murray</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x10000">
+		<rom name="scobtest.2c" offset="0x0" size="0x2ff" crc="5319182a" sha1="18302ec0f943aaf1d335cef531700c5bfe4c9507" />
+		<rom name="2e" offset="0x1000" size="0x1000" crc="8e7245cd" sha1="281504ff364c3ddbf901c92729b139afd93b9785" />
+		<rom name="epr1267.2f" offset="0x2000" size="0x1000" crc="47a4e6fb" sha1="01775ad11dc23469649539ee8fb8a5800df031c6" />
+		<rom name="2h" offset="0x3000" size="0x1000" crc="7244f21c" sha1="f5fff565ed3f6c5f277a4db53c9f569813fcec1d" />
+		<rom name="epr1269.2j" offset="0x4000" size="0x1000" crc="e1f8a801" sha1="2add8270352d6596052d3ff22c891ceccaa92071" />
+		<rom name="2l" offset="0x5000" size="0x1000" crc="d52affde" sha1="5681771ed51d504bdcc2999fcbf926a30b137828" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="5c" offset="0x0" size="0x800" crc="d4346959" sha1="5eab4505beb69a5bdd88b23db60e1193371250cf" />
+		<rom name="5d" offset="0x800" size="0x800" crc="cc025d95" sha1="2b0784c4d05c466e0b7648f16e14f34393d792c3" />
+		<rom name="5e" offset="0x1000" size="0x800" crc="1628c53f" sha1="ec79a73e4a2d7373454b227dd7eff255f1cc60cc" />
+		</dataarea>
+		<dataarea name="gfx1" size="0x1000">
+		<rom name="epr1274.5h" offset="0x0" size="0x800" crc="64d113b4" sha1="7b439bb74d5ecc792e0ca8964bcca8c6b7a51262" />
+		<rom name="epr1273.5f" offset="0x800" size="0x800" crc="a96316d3" sha1="9de0e94932e91dc34aea7c81880bde6a486d103b" />
+		</dataarea>
+		<dataarea name="proms" size="0x20">
+		<rom name="82s123.6e" offset="0x0" size="0x20" crc="9b87f90d" sha1="d11ac5e4a6057301ea2a9cbb404c2b978eb4c1dc" />
+		</dataarea>
+	</part>
+</software>

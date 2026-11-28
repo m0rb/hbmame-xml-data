@@ -1,0 +1,18 @@
+<software name="veilriot">
+	<description>Veil Riot</description>
+	<year>2026</year>
+	<publisher>The SEGA Shop</publisher>
+	<sharedfeat name="compatibility" value="MVS,AES" />
+	<part name="cart" interface="neo_cart">
+		<dataarea name="maincpu" width="16" endianness="big" size="0x200000">
+		<rom loadflag="load16_word_swap" name="553.p1" offset="0x0" size="0x80000" crc="ffc48e0f" sha1="a96e19545227ec9bfd3e6cd55d33774296ab1e3a" />
+		</dataarea>
+		<dataarea name="ymsnd:adpcma" size="0x1000000">
+		<rom name="553.v1" offset="0x0" size="0x1000000" crc="c9ba932f" sha1="8f14d30ee345be40b414c32cec758d195c7336e1" />
+		</dataarea>
+		<dataarea name="sprites" size="0x400000">
+		<rom loadflag="load16_byte" name="553.c1" offset="0x0" size="0x200000" crc="8416a243" sha1="77f7c32b5bd7d2b5946e13886fea36a77a413037" />
+		<rom loadflag="load16_byte" name="553.c2" offset="0x1" size="0x200000" crc="180e7bbe" sha1="476106788e593e17cb4f5b1f88ba064976ee5bd1" />
+		</dataarea>
+	</part>
+</software>

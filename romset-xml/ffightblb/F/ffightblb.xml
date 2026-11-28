@@ -1,0 +1,38 @@
+<software name="ffightblb" cloneof="ffight">
+	<description>Final Fight (bootleg with single OKI)</description>
+	<year>1990</year>
+	<publisher>bootleg (Soon Hwa)</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x400000">
+		<rom loadflag="load16_byte" name="c17bl.p1" offset="0x0" size="0x80000" crc="f8ccf27e" sha1="08ff445d946da81e7dc0cc021f686b5968fa34ab" />
+		<rom loadflag="load16_byte" name="c17bl.p2" offset="0x1" size="0x80000" crc="d96c76b2" sha1="3f9ca4625491cab07cf4a1bf001f1325dc3652a3" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x8000">
+		<rom name="c17blb.m1" offset="0x0" size="0x8000" crc="2b1c4c16" sha1="8da39809df20a3fe4371573596285ea3297996e3" />
+		</dataarea>
+		<dataarea name="gfx" size="0x200000">
+		<rom loadflag="load32_byte" name="c17blb.c01" offset="0x0" size="0x80000" crc="2126bec0" sha1="c523e7e52c18177e2e967091a6acb231d52a3525" />
+		<rom loadflag="load32_byte" name="c17blb.c02" offset="0x1" size="0x80000" crc="fe326d39" sha1="10e1e9b26a3ed2277f2016d040ce5b205a62096d" />
+		<rom loadflag="load32_byte" name="c17blb.c03" offset="0x2" size="0x80000" crc="09c47cae" sha1="995546a72667fa25d7b3fd29643217acb6ff4fd5" />
+		<rom loadflag="load32_byte" name="c17blb.c04" offset="0x3" size="0x80000" crc="4b4390de" sha1="30b38842116fc45c0d284f3b72c67fef33215ad7" />
+		<rom loadflag="load32_word_swap" name="c17blb.c05" offset="0x100000" size="0x40000" crc="11a7c515" sha1="b4f32e1627fb2af15ec6a3d7cfd88ea6fa9ad15a" />
+		<rom loadflag="load32_word_swap" name="c17blb.c06" offset="0x100002" size="0x40000" crc="f1e18158" sha1="2a4195002be4bcb1eda84fd876666f58c837e58e" />
+		<rom loadflag="load32_word_swap" name="c17blb.c07" offset="0x180000" size="0x40000" crc="52879243" sha1="97fb84376334abb0cb0590e7b4d49adeeb17373d" />
+		<rom loadflag="load32_word_swap" name="c17blb.c08" offset="0x180002" size="0x40000" crc="7cce0ff5" sha1="0048ddf8ac26b0cbd4b017634d308f0d6b631abc" />
+		<rom loadflag="load32_byte" name="c17blb.c41" offset="0x100000" size="0x10000" crc="e6bbd39b" sha1="7c7c9fad7608f231172f011dd930399e6b72e57a" />
+		<rom loadflag="load32_byte" name="c17blb.c42" offset="0x100001" size="0x10000" crc="6c794ef4" sha1="e7835ac5c52153ca333be154cd16f2162e936364" />
+		<rom loadflag="load32_byte" name="c17blb.c43" offset="0x100002" size="0x10000" crc="4d1d389d" sha1="12c65c2f8027d4944f25d89d98a440be5422cb98" />
+		<rom loadflag="load32_byte" name="c17blb.c44" offset="0x100003" size="0x10000" crc="5282be3c" sha1="ff32a501ee2d3f7476ff814aea302b1d780c35b7" />
+		</dataarea>
+		<dataarea name="oki" size="0xa0000">
+		<rom name="c17blb.v1" offset="0x0" size="0x20000" crc="de0f0ef5" sha1="18cb33f7990d7715d11d61e6db446ce935e799eb" />
+		<rom name="c17blb.v2" offset="0x20000" size="0x80000" crc="319fbc2f" sha1="263fc6b59cef6d110da35b36dde250a2e326dcbe" />
+		</dataarea>
+		<dataarea name="patch" size="0x10000">
+		<rom loadflag="load16_byte" name="c17blb.d1" offset="0x0" size="0x8000" crc="b800c1be" sha1="dc5c748e49c751c155d970d8a7e6c0fb20767d04" />
+		<rom loadflag="load16_byte" name="c17blb.d2" offset="0x1" size="0x8000" crc="a39f50d2" sha1="a7b822f92a8eb412855bfb87a3083aa9082542ae" />
+		</dataarea>
+		<dataarea name="stars" size="0x8000">
+		</dataarea>
+	</part>
+</software>

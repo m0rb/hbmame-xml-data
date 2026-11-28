@@ -1,0 +1,34 @@
+<software name="makprincess">
+	<description>Makaimura - Princess Prin Prin Edition</description>
+	<year>2026</year>
+	<publisher>GoodLuckTrying</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" size="0x18000">
+		<rom name="10nprincess.rom" offset="0x4000" size="0x4000" crc="49dc2d12" sha1="243b5ded7a49af831ade9edfe49b49464bfeb21e" />
+		<rom name="8nprincess.rom" offset="0x8000" size="0x8000" crc="ff005be0" sha1="c93671c60d42606565cad71a067185bf8d292f8d" />
+		<rom name="12nprincess.rom" offset="0x10000" size="0x8000" crc="7c2064ca" sha1="8a76cbb1b0a311dc33eb7a4d5d73481a9e51c361" />
+		</dataarea>
+		<dataarea name="audiocpu" size="0x10000">
+		<rom name="gg2.bin" offset="0x0" size="0x8000" crc="615f5b6f" sha1="7ef9ec5c2072e21c787a6bbf700033f50c759c1d" />
+		</dataarea>
+		<dataarea name="sprites" size="0x20000">
+		<rom name="gng13princess.n4" offset="0x0" size="0x4000" crc="07c9138a" sha1="b7f9403b6463b23529069b326d0ff5fc50ebb96b" />
+		<rom name="gg16princess.bin" offset="0x4000" size="0x4000" crc="1ad1d899" sha1="4799c71a3c92422fb51629947675dc25b86c62a3" />
+		<rom name="gg15princess.bin" offset="0x8000" size="0x4000" crc="439d6e7b" sha1="4ef561b0eab654630515b5207d52991d3aec0479" />
+		<rom name="gng16princess.l4" offset="0x10000" size="0x4000" crc="3cc87995" sha1="1f2e663c9ab93ec27f4b65bbe37e62d9a4aa7240" />
+		<rom name="gg13princess.bin" offset="0x14000" size="0x4000" crc="05e0c809" sha1="766039068b41499e58a800948117351669030a22" />
+		<rom name="gg12princess.bin" offset="0x18000" size="0x4000" crc="28fe68a2" sha1="1db7910d35ffea5e35e1cba729be2b8d37187afb" />
+		</dataarea>
+		<dataarea name="chars" size="0x4000">
+		<rom name="gg1princess.bin" offset="0x0" size="0x4000" crc="7935494f" sha1="2942df6f430f5d35a82c7061a19313190460bd67" />
+		</dataarea>
+		<dataarea name="tiles" size="0x18000">
+		<rom name="gg11.bin" offset="0x0" size="0x4000" crc="ddd56fa9" sha1="f9d77eee5e2738b7e83ba02fcc55dd480391479f" />
+		<rom name="gg10.bin" offset="0x4000" size="0x4000" crc="7302529d" sha1="8434c994cc55d2586641f3b90b6b15fd65dfb67c" />
+		<rom name="gg9.bin" offset="0x8000" size="0x4000" crc="20035bda" sha1="bbb1fba0eb19471f66d29526fa8423ccb047bd63" />
+		<rom name="gg8.bin" offset="0xc000" size="0x4000" crc="f12ba271" sha1="1c42fa02cb27b35d10c3f7f036005e747f9f6b79" />
+		<rom name="gg7.bin" offset="0x10000" size="0x4000" crc="e525207d" sha1="1947f159189b3a53f1251d8653b6e7c65c91fc3c" />
+		<rom name="gg6.bin" offset="0x14000" size="0x4000" crc="2d77e9b2" sha1="944da1ce29a18bf0fc8deff78bceacba0bf23a07" />
+		</dataarea>
+	</part>
+</software>

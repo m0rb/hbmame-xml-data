@@ -1,0 +1,33 @@
+<software name="mk2s08">
+	<description>Mortal Kombat II (rev 4.0)</description>
+	<year>2026</year>
+	<publisher>JUNKWAX</publisher>
+	<part name="cart">
+		<dataarea name="maincpu" endianness="little" size="0x100000">
+		<rom loadflag="load16_byte" name="mk2s08.uj12" offset="0x0" size="0x80000" crc="fd23dd93" sha1="6b9a07166b50796e82863068ef14837498592808" />
+		<rom loadflag="load16_byte" name="mk2s08.ug12" offset="0x1" size="0x80000" crc="d40d34fd" sha1="afe49e506a0f989785ca30d1b5c9d5227032ee60" />
+		</dataarea>
+		<dataarea name="dcs" endianness="little" size="0xc00000">
+		<rom loadflag="load16_byte" name="mk2s08.u2" offset="0x0" size="0x80000" crc="fff86ce6" sha1="9912cc81ff2ca2b0a80b0dbe881c7cf1f77cf515" />
+		<rom loadflag="load16_byte" name="mk2s08.u3" offset="0x200000" size="0x80000" crc="a5d9baa8" sha1="30ba2e364eb6b3ef85ad33e5abb0e36ace4c67ad" />
+		<rom loadflag="load16_byte" name="mk2s08.u4" offset="0x400000" size="0x80000" crc="51ef6866" sha1="6ea6d6bbf9ed00e00ce952c6126bb0ed8698fd40" />
+		<rom loadflag="load16_byte" name="mk2s08.u5" offset="0x600000" size="0x80000" crc="373de0e7" sha1="a98eb3cf50fb3776429e6e12e85b8875ffcefca5" />
+		<rom loadflag="load16_byte" name="mk2s08.u6" offset="0x800000" size="0x80000" crc="b05d11bf" sha1="bb19cb3adb2d36c44552f257a35b75aef595c668" />
+		<rom loadflag="load16_byte" name="mk2s08.u7" offset="0xa00000" size="0x80000" crc="a51de7aa" sha1="9a6dd45179230c81a2a5f597ed49d1394d828586" />
+		</dataarea>
+		<dataarea name="video" size="0xc00000">
+		<rom loadflag="load32_byte" name="mk2s08.ug14" offset="0x0" size="0x100000" crc="9c864f0f" sha1="c310cb2711f1bf5030ddc9372a39a32f6e91b674" />
+		<rom loadflag="load32_byte" name="mk2s08.uj14" offset="0x1" size="0x100000" crc="3314f622" sha1="1ca8da30ae49b0945e8560f790e7c22ed963a87f" />
+		<rom loadflag="load32_byte" name="mk2s08.ug19" offset="0x2" size="0x100000" crc="e768a4ce" sha1="69c47a4556e6184b9086af922b69050cf4debb3c" />
+		<rom loadflag="load32_byte" name="mk2s08.uj19" offset="0x3" size="0x100000" crc="04305b16" sha1="d601b461501a1ffb10912165f8062ffdf4a2b350" />
+		<rom loadflag="load32_byte" name="mk2s08.ug16" offset="0x400000" size="0x100000" crc="1e5325f3" sha1="3e1307c5d7241f52a26c28760711e0ca0a073d8e" />
+		<rom loadflag="load32_byte" name="mk2s08.uj16" offset="0x400001" size="0x100000" crc="8004a3b6" sha1="5252b786b843cf8b608293ae9c039106e69ed882" />
+		<rom loadflag="load32_byte" name="mk2s08.ug20" offset="0x400002" size="0x100000" crc="0c929fba" sha1="19c7e86254f8f8574666391fc706d6f9ffc937a9" />
+		<rom loadflag="load32_byte" name="mk2s08.uj20" offset="0x400003" size="0x100000" crc="7ed4ba0d" sha1="74167ec3323e1059e96e9d47f6a85800f9448ef7" />
+		<rom loadflag="load32_byte" name="mk2s08.ug17" offset="0x800000" size="0x100000" crc="3924479e" sha1="1f5078406122e1ea2816e34f24a5597040740faa" />
+		<rom loadflag="load32_byte" name="mk2s08.uj17" offset="0x800001" size="0x100000" crc="a1af4391" sha1="fe4d5d5099b42e5ba1cb24800078624f2b2c5787" />
+		<rom loadflag="load32_byte" name="mk2s08.ug22" offset="0x800002" size="0x100000" crc="d7bd61c3" sha1="d24d400ea8f19331dac205fa759b627039c9d6af" />
+		<rom loadflag="load32_byte" name="mk2s08.uj22" offset="0x800003" size="0x100000" crc="53dc6b89" sha1="60035420f9cd7dc808af4695e0ac575248253ba0" />
+		</dataarea>
+	</part>
+</software>
